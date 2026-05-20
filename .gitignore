@@ -1,0 +1,21 @@
+cat >> .gitignore <<'EOF'
+
+.env
+.venv/
+__pycache__/
+*.pyc
+outputs/
+projects/
+payloads/*.json
+!payloads/*.py
+EOF
+# Large/generated data
+Base.parquet
+semantic_bibliography_dataset.parquet
+sample_50k_embeddings.npy
+sample_50k_final_15d.parquet
+cluster_nodes_final_50k.parquet
+cluster_edges_mutual_knn_50k.parquet
+query_vector.json
+*.parquet
+*.npy

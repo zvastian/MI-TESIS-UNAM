@@ -1,0 +1,15 @@
+pandas
+numpy
+pyarrow
+scikit-learn
+sentence-transformers
+python-dotenv
+groq
+openai
+fastapi
+uvicorn[standard]
+requests
+httpx
+orjson
+tqdm
+python-multipart
