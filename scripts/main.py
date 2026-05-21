@@ -1,46 +1,36 @@
+from __future__ import annotations
+
+import traceback
 from pathlib import Path
 from typing import Any
 
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import FileResponse
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from lab_orchestrator import LabOrchestrator, LabBusyError
+from lab_orchestrator import LabBusyError, LabOrchestrator
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-
-app = FastAPI(
-    title="Laboratorio de Tesis API",
-    version="0.1.0"
-)
-
-orchestrator = LabOrchestrator(BASE_DIR)
-
-
-# ─── STATIC FRONTEND ──────────────────────────────────────────────────────────
-
 STATIC_DIR = BASE_DIR / "static"
 
-if STATIC_DIR.exists():
-    app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+orch = LabOrchestrator(BASE_DIR)
 
+app = FastAPI(
+    title="MiTesis UNAM API",
+    version="0.1.0",
+    description="API local para Laboratorio de Tesis UNAM",
+)
 
-@app.get("/")
-def index():
-    index_path = STATIC_DIR / "index.html"
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-    if not index_path.exists():
-        return {
-            "ok": True,
-            "message": "Laboratorio de Tesis API activa. Falta static/index.html."
-        }
-
-    return FileResponse(index_path)
-
-
-# ─── MODELS ───────────────────────────────────────────────────────────────────
 
 class StudyPeriod(BaseModel):
     applies: bool = False
@@ -53,94 +43,163 @@ class LabInput(BaseModel):
     title: str = Field(..., min_length=3)
     keywords: list[str] = Field(default_factory=list)
     objectives: list[str] = Field(default_factory=list)
-    program: str | None = None
-    degree: str | None = None
-    plantel: str | None = None
-    study_period: StudyPeriod | str | None = None
+    program: str | None = ""
+    degree: str | None = ""
+    plantel: str | None = ""
+    study_period: StudyPeriod | dict[str, Any] | None = None
 
 
 class ProjectRequest(BaseModel):
-    project_id: str
+    project_id: str = Field(..., min_length=3)
 
 
-# ─── HELPERS ──────────────────────────────────────────────────────────────────
+def error_response(exc: Exception):
+    return {
+        "ok": False,
+        "error": type(exc).__name__,
+        "message": str(exc),
+        "traceback": traceback.format_exc(),
+    }
 
-def handle_error(exc: Exception):
-    if isinstance(exc, LabBusyError):
-        raise HTTPException(
-            status_code=409,
-            detail=str(exc)
-        )
-
-    if isinstance(exc, FileNotFoundError):
-        raise HTTPException(
-            status_code=404,
-            detail=str(exc)
-        )
-
-    raise HTTPException(
-        status_code=500,
-        detail=str(exc)
-    )
-
-
-# ─── API ENDPOINTS ────────────────────────────────────────────────────────────
 
 @app.get("/api/health")
 def health():
     return {
         "ok": True,
-        "service": "laboratorio-tesis",
+        "service": "MiTesis UNAM API",
+        "base_dir": str(BASE_DIR),
+        "static_dir_exists": STATIC_DIR.exists(),
     }
 
 
 @app.post("/api/lab/run-basic")
-def run_basic(lab_input: LabInput):
+def run_basic(payload: LabInput):
     try:
-        result = orchestrator.run_basic(lab_input.model_dump())
+        data = payload.model_dump()
+        result = orch.run_basic(data)
+
         return {
             "ok": True,
-            "project_id": result["project_id"],
             "data": result,
         }
+
+    except LabBusyError as exc:
+        raise HTTPException(
+            status_code=409,
+            detail={
+                "ok": False,
+                "error": "LabBusyError",
+                "message": str(exc),
+            },
+        )
+
     except Exception as exc:
-        handle_error(exc)
+        raise HTTPException(
+            status_code=500,
+            detail=error_response(exc),
+        )
 
 
 @app.post("/api/lab/run-bibliography")
-def run_bibliography(req: ProjectRequest):
+def run_bibliography(payload: ProjectRequest):
     try:
-        result = orchestrator.run_bibliography(req.project_id)
+        result = orch.run_bibliography(payload.project_id)
+
         return {
             "ok": True,
-            "project_id": result["project_id"],
             "data": result,
         }
+
+    except LabBusyError as exc:
+        raise HTTPException(
+            status_code=409,
+            detail={
+                "ok": False,
+                "error": "LabBusyError",
+                "message": str(exc),
+            },
+        )
+
+    except FileNotFoundError as exc:
+        raise HTTPException(
+            status_code=404,
+            detail={
+                "ok": False,
+                "error": "FileNotFoundError",
+                "message": str(exc),
+            },
+        )
+
     except Exception as exc:
-        handle_error(exc)
+        raise HTTPException(
+            status_code=500,
+            detail=error_response(exc),
+        )
 
 
 @app.post("/api/lab/run-advisors")
-def run_advisors(req: ProjectRequest):
+def run_advisors(payload: ProjectRequest):
     try:
-        result = orchestrator.run_advisors(req.project_id)
+        result = orch.run_advisors(payload.project_id)
+
         return {
             "ok": True,
-            "project_id": result["project_id"],
             "data": result,
         }
+
+    except LabBusyError as exc:
+        raise HTTPException(
+            status_code=409,
+            detail={
+                "ok": False,
+                "error": "LabBusyError",
+                "message": str(exc),
+            },
+        )
+
+    except FileNotFoundError as exc:
+        raise HTTPException(
+            status_code=404,
+            detail={
+                "ok": False,
+                "error": "FileNotFoundError",
+                "message": str(exc),
+            },
+        )
+
     except Exception as exc:
-        handle_error(exc)
+        raise HTTPException(
+            status_code=500,
+            detail=error_response(exc),
+        )
 
 
-@app.get("/api/lab/{project_id}")
+@app.get("/api/lab/project/{project_id}")
 def get_project(project_id: str):
     try:
-        result = orchestrator.consolidate_project(project_id)
+        result = orch.consolidate_project(project_id)
+
         return {
             "ok": True,
-            "project_id": result["project_id"],
             "data": result,
         }
+
+    except FileNotFoundError as exc:
+        raise HTTPException(
+            status_code=404,
+            detail={
+                "ok": False,
+                "error": "FileNotFoundError",
+                "message": str(exc),
+            },
+        )
+
     except Exception as exc:
-        handle_error(exc)
+        raise HTTPException(
+            status_code=500,
+            detail=error_response(exc),
+        )
+
+
+if STATIC_DIR.exists():
+    app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="static")
