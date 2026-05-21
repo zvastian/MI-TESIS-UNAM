@@ -1,77 +1,220 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Laboratorio de Tesis</title>
-  <link rel="stylesheet" href="/static/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NODO UNAM · Laboratorio de tesis</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles.css" />
 </head>
+
 <body>
-  <main class="page">
-    <section class="hero">
-      <p class="eyebrow">MiTesis UNAM</p>
-      <h1>Laboratorio de tesis</h1>
-      <p>Introduce una idea de tesis y genera lectura inicial, tesis cercanas, objetivos, preguntas y asesores relacionados.</p>
+  <div class="node-field" aria-hidden="true">
+    <div class="shape circle circle-one"></div>
+    <div class="shape circle circle-two"></div>
+    <div class="shape rect rect-one"></div>
+    <div class="shape triangle triangle-one"></div>
+    <div class="shape orbit orbit-one"></div>
+
+    <svg class="network-art" viewBox="0 0 900 700" preserveAspectRatio="none">
+      <g class="edges">
+        <line x1="140" y1="140" x2="310" y2="230"></line>
+        <line x1="310" y1="230" x2="520" y2="130"></line>
+        <line x1="310" y1="230" x2="620" y2="355"></line>
+        <line x1="620" y1="355" x2="780" y2="250"></line>
+        <line x1="620" y1="355" x2="710" y2="555"></line>
+        <line x1="310" y1="230" x2="230" y2="520"></line>
+      </g>
+      <g class="nodes">
+        <circle cx="140" cy="140" r="8"></circle>
+        <circle cx="310" cy="230" r="13"></circle>
+        <circle cx="520" cy="130" r="7"></circle>
+        <circle cx="620" cy="355" r="16"></circle>
+        <circle cx="780" cy="250" r="9"></circle>
+        <circle cx="710" cy="555" r="10"></circle>
+        <circle cx="230" cy="520" r="8"></circle>
+      </g>
+    </svg>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark">
+        <i></i><i></i><i></i>
+      </span>
+      <span>NODO UNAM</span>
+    </div>
+
+    <nav>
+      <a href="#lab">Laboratorio</a>
+      <a href="#results">Resultados</a>
+      <button id="debugToggle" class="nav-debug" type="button">Debug</button>
+    </nav>
+  </header>
+
+  <main id="lab" class="lab-shell">
+    <section class="intro">
+      <div>
+        <p class="eyebrow">Laboratorio semántico</p>
+        <h1>Analiza tu proyecto de tesis.</h1>
+      </div>
+      <p>
+        Introduce tu idea, objetivos y contexto académico. El sistema buscará tesis afines,
+        analizará tus objetivos, propondrá preguntas y después podrás completar el laboratorio
+        con bibliografía y asesores relacionados.
+      </p>
     </section>
 
-    <form id="labForm" class="card form">
-      <label>
-        Título
-        <input id="title" required value="Análisis del sistema bancario de México y China 1850-2009" />
-      </label>
+    <section class="workspace">
+      <aside class="project-panel">
+        <form id="labForm" class="input-card">
+          <div class="form-grid">
+            <div class="field field-wide">
+              <label for="title">Título tentativo de tu tesis</label>
+              <textarea id="title" required placeholder="Ej. Análisis del sistema bancario de México y China 1850-2009">Análisis del sistema bancario de México y China 1850-2009</textarea>
+            </div>
 
-      <label>
-        Palabras clave
-        <input id="keywords" value="México, China, banca, sistema financiero" />
-      </label>
+            <div class="field">
+              <label for="degree">Grado al que aspiras</label>
+              <select id="degree">
+                <option>Licenciatura</option>
+                <option>Maestría</option>
+                <option>Doctorado</option>
+                <option>Especialidad</option>
+              </select>
+            </div>
 
-      <label>
-        Objetivos, uno por línea
-        <textarea id="objectives" rows="5">Analizar las diferencias entre ambos sistemas bancarios
-Reconocer diferencias en los procesos históricos
-Sugerir mejoras para el sistema bancario mexicano</textarea>
-      </label>
+            <div class="field">
+              <label for="program">Carrera / programa</label>
+              <input id="program" type="text" placeholder="Ej. Economía" value="Economía" />
+            </div>
 
-      <div class="row">
-        <label>
-          Programa
-          <input id="program" value="Economía" />
-        </label>
+            <div class="field">
+              <label for="plantel">Plantel</label>
+              <input id="plantel" type="text" placeholder="Ej. Facultad de Economía" value="Facultad de Economía" />
+            </div>
 
-        <label>
-          Grado
-          <input id="degree" value="Licenciatura" />
-        </label>
-      </div>
+            <div class="field">
+              <label>Periodo de estudio</label>
+              <div class="period-row">
+                <label class="toggle">
+                  <input id="periodApplies" type="checkbox" checked />
+                  <span>Aplica</span>
+                </label>
+                <input id="startYear" type="number" placeholder="Inicio" value="1850" />
+                <input id="endYear" type="number" placeholder="Fin" value="2009" />
+              </div>
+            </div>
+          </div>
 
-      <label>
-        Plantel
-        <input id="plantel" value="Facultad de Economía" />
-      </label>
+          <div class="field">
+            <label>Palabras clave</label>
+            <div id="keywordsContainer" class="chips-container"></div>
+            <div class="add-field">
+              <input id="newKeyword" type="text" placeholder="Escribe una palabra y presiona +" />
+              <button id="addKeywordBtn" class="btn btn-small" type="button">+</button>
+            </div>
+          </div>
 
-      <div class="row">
-        <label>
-          Año inicio
-          <input id="start_year" type="number" value="1850" />
-        </label>
+          <div class="field" id="objectiveGroup">
+            <label>
+              Objetivo(s) de tu tesis
+              <button id="verbBulb" class="verb-bulb" type="button" title="Ver verbos sugeridos">💡</button>
+            </label>
 
-        <label>
-          Año fin
-          <input id="end_year" type="number" value="2009" />
-        </label>
-      </div>
+            <div class="objectives-layout">
+              <div>
+                <div id="objectivesContainer" class="chips-container objective-chips"></div>
+                <div class="add-field">
+                  <input id="newObjective" type="text" placeholder="Escribe un objetivo y presiona +" />
+                  <button id="addObjectiveBtn" class="btn btn-small" type="button">+</button>
+                </div>
 
-      <div class="checks">
-        <label><input id="showDebug" type="checkbox" /> Ver debug</label>
-      </div>
+                <div id="verbPopup" class="verb-popup">
+                  <div class="verb-popup-header">
+                    <strong>Verbos sugeridos por nivel cognitivo</strong>
+                    <button id="closeVerbPopup" type="button">×</button>
+                  </div>
+                  <div id="verbSuggestionSections"></div>
+                </div>
+              </div>
 
-      <button id="runBtn" type="button">Ejecutar laboratorio</button>
-      <p id="status" class="status"></p>
-    </form>
+              <aside class="bloom-panel">
+                <h3>Bloom local</h3>
+                <div id="bloomLocal"></div>
+              </aside>
+            </div>
+          </div>
 
-    <section id="results" class="results"></section>
+          <button id="runBasicBtn" class="btn btn-primary" type="submit">
+            Generar laboratorio
+          </button>
+
+          <p class="microcopy">
+            El análisis básico genera lectura inicial, tesis cercanas, análisis Bloom y preguntas.
+            Bibliografía y asesores se calculan después para reducir espera.
+          </p>
+        </form>
+      </aside>
+
+      <section id="results" class="results-panel">
+        <div id="emptyState" class="empty-state">
+          <div class="empty-node"></div>
+          <h2>Tu laboratorio aparecerá aquí.</h2>
+          <p>Cuando ejecutes el análisis, los módulos se revelarán progresivamente.</p>
+        </div>
+
+        <div id="loadingState" class="loading-state hidden">
+          <div class="loader-network">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <h2 id="loadingTitle">Analizando tu idea...</h2>
+          <p id="loadingText">Construyendo contexto semántico y rutas de investigación.</p>
+        </div>
+
+        <div id="modules" class="modules hidden">
+          <div class="timeline" id="timeline"></div>
+
+          <section class="module" id="moduleInitial"></section>
+          <section class="module" id="moduleSemantic"></section>
+          <section class="module" id="moduleTheses"></section>
+          <section class="module" id="moduleBloom"></section>
+          <section class="module" id="moduleQuestions"></section>
+
+          <section class="module cta-module" id="moduleComplete">
+            <div class="module-head">
+              <div>
+                <p class="eyebrow">Completa tu laboratorio</p>
+                <h2>Bibliografía y asesores relacionados</h2>
+              </div>
+            </div>
+
+            <div class="cta-grid">
+              <button id="runBibliographyBtn" class="cta-card" type="button">
+                <span>Bibliografía recomendada</span>
+                <small>Selecciona fuentes reales extraídas de tesis afines.</small>
+              </button>
+
+              <button id="runAdvisorsBtn" class="cta-card" type="button">
+                <span>Asesores relacionados</span>
+                <small>Ordena asesores por afinidad temática histórica.</small>
+              </button>
+            </div>
+          </section>
+
+          <section class="module hidden" id="moduleBibliography"></section>
+          <section class="module hidden" id="moduleAdvisors"></section>
+        </div>
+
+        <pre id="debugPanel" class="debug-panel hidden"></pre>
+      </section>
+    </section>
   </main>
 
-  <script src="/static/app.js"></script>
+  <script src="/app.js"></script>
 </body>
 </html>
