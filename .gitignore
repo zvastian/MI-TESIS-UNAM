@@ -24,3 +24,34 @@ payloads/context_minimal.json
 payloads/thesis_context_example.json
 payloads/query_vector.json
 payloads/ai_*_payload.json
+
+# Large datasets / generated data
+*.parquet
+*.npy
+*.npz
+*.zst
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated outputs
+outputs/*.json
+outputs/*.parquet
+outputs/*.npy
+
+# Runtime project artifacts
+projects/
+payloads/*.json
+
+# Scratch / temp
+*.save
+a.ipynb
+b.py
+api_project_test.json
+concurrency_*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
