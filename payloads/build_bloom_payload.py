@@ -1,6 +1,9 @@
 import json
+from pathlib import Path
 
-with open("context_minimal.json", "r", encoding="utf-8") as f:
+BASE_DIR = Path(__file__).resolve().parents[1]
+
+with open(BASE_DIR / "payloads" / "context_minimal.json", "r", encoding="utf-8") as f:
     ctx = json.load(f)
 
 payload = {
@@ -23,8 +26,14 @@ payload = {
     }
 }
 
-with open("ai_bloom_payload.json", "w", encoding="utf-8") as f:
+with open(BASE_DIR / "payloads" / "ai_bloom_payload.json", "w", encoding="utf-8") as f:
     json.dump(payload, f, ensure_ascii=False, indent=2)
 
 print("Guardado ai_bloom_payload.json")
 print("chars:", len(json.dumps(payload, ensure_ascii=False)))
+# Ensure output is stored under payloads/
+_src = BASE_DIR / "ai_bloom_payload.json"
+_dst = BASE_DIR / "payloads/ai_bloom_payload.json"
+if _src.exists():
+    _dst.parent.mkdir(parents=True, exist_ok=True)
+    _src.replace(_dst)

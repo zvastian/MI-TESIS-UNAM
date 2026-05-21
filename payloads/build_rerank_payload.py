@@ -1,8 +1,11 @@
 import json
 from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parents[1]
+from pathlib import Path
 
-CONTEXT_PATH = Path("context_minimal.json")
+
+CONTEXT_PATH = BASE_DIR / "payloads" / "context_minimal.json"
 OUTPUT_PATH = Path("ai_rerank_payload.json")
 
 
@@ -52,3 +55,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+# Ensure output is stored under payloads/
+_src = BASE_DIR / "ai_rerank_payload.json"
+_dst = BASE_DIR / "payloads/ai_rerank_payload.json"
+if _src.exists():
+    _dst.parent.mkdir(parents=True, exist_ok=True)
+    _src.replace(_dst)

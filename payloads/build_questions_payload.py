@@ -1,8 +1,11 @@
 import json
 from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parents[1]
+from pathlib import Path
 
-CONTEXT_PATH = Path("context_minimal.json")
+
+CONTEXT_PATH = BASE_DIR / "payloads" / "context_minimal.json"
 INITIAL_NOTE_PATH = Path("outputs/ai_conceptual_interpretation.json")
 BLOOM_PATH = Path("outputs/ai_bloom_groq_20b.json")
 OUTPUT_PATH = Path("ai_questions_payload.json")
@@ -121,3 +124,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+# Ensure output is stored under payloads/
+_src = BASE_DIR / "ai_questions_payload.json"
+_dst = BASE_DIR / "payloads/ai_questions_payload.json"
+if _src.exists():
+    _dst.parent.mkdir(parents=True, exist_ok=True)
+    _src.replace(_dst)

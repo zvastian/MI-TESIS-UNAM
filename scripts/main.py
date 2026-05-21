@@ -9,7 +9,7 @@ from pydantic import BaseModel, Field
 from lab_orchestrator import LabOrchestrator, LabBusyError
 
 
-BASE_DIR = Path("/home/coder/tesis")
+BASE_DIR = Path(__file__).resolve().parents[1]
 
 app = FastAPI(
     title="Laboratorio de Tesis API",

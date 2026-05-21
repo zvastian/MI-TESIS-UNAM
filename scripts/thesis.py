@@ -3,10 +3,12 @@ import re
 from pathlib import Path
 import pyarrow.dataset as ds
 import unicodedata
+import sqlite3
 
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sentence_transformers import SentenceTransformer
 
 # ============================================================
 # CONFIG
@@ -16,10 +18,11 @@ META_PATH = BASE_DIR / "sample_50k_final_15d.parquet"
 EMBEDDINGS_PATH = BASE_DIR / "sample_50k_embeddings.npy"
 NODES_PATH = BASE_DIR / "cluster_nodes_final_50k.parquet"
 EDGES_PATH = BASE_DIR / "cluster_edges_mutual_knn_50k.parquet"
-BIBLIOGRAPHY_PATH = None
+BIBLIOGRAPHY_PATH = BASE_DIR / "semantic_bibliography_dataset.parquet"
+BIBLIOGRAPHY_INDEX_PATH = BASE_DIR / "bibliography_title_index.sqlite"
 QUERY_VECTOR_PATH = BASE_DIR / "payloads" / "query_vector.json"
 CLUSTER_COL = "cluster"
-EMBEDDING_MODEL_NAME = "Xenova/paraphrase-multilingual-MiniLM-L12-v2"
+EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 EMBEDDING_DIMENSIONS = 384
 
 
@@ -265,6 +268,60 @@ def build_thesis_record(row, similarity=None, cluster_col=CLUSTER_COL):
     return record
 
 
+
+def build_query_text(user_input):
+    keywords = user_input.get("keywords", [])
+    if isinstance(keywords, list):
+        keywords_text = " ".join(str(k) for k in keywords)
+    else:
+        keywords_text = str(keywords or "")
+
+    objectives = user_input.get("objectives", [])
+    if isinstance(objectives, list):
+        objectives_text = " ".join(str(o) for o in objectives)
+    else:
+        objectives_text = str(objectives or "")
+
+    parts = [
+        user_input.get("title", ""),
+        keywords_text,
+        objectives_text,
+        user_input.get("program", ""),
+        user_input.get("degree", ""),
+        user_input.get("plantel", ""),
+    ]
+
+    return " | ".join(str(x).strip() for x in parts if x and str(x).strip())
+
+
+def build_query_vector_from_input(user_input, output_path=QUERY_VECTOR_PATH):
+    query_text = build_query_text(user_input)
+
+    if not query_text.strip():
+        raise ValueError("No se puede generar query_vector: input vacío.")
+
+    model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+
+    vector = model.encode(
+        [query_text],
+        show_progress_bar=False,
+        convert_to_numpy=True,
+        normalize_embeddings=True,
+    )[0].astype(np.float32)
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump({
+            "embedding": vector.tolist(),
+            "model": EMBEDDING_MODEL_NAME,
+            "dimensions": int(vector.shape[0]),
+            "query_text": query_text,
+        }, f, ensure_ascii=False, indent=2)
+
+    return vector
+
+
 def load_query_vector(path):
     """
     Lee query_vector.json.
@@ -295,26 +352,20 @@ def load_query_vector(path):
 
     return vector
 
-
-def load_bibliography_for_exact_titles(path, titles, max_records=5):
+def load_bibliography_for_exact_titles(path, titles, max_records=10):
     """
-    Carga bibliografía solo para títulos con match exacto-normalizado.
+    Carga bibliografía por match exacto-normalizado de título.
+
+    Prioridad:
+    1. SQLite indexado por titulo_key, si existe.
+    2. Fallback: escaneo por batches del parquet.
 
     Regla:
     - NO usa ID_Limpio.
+    - NO usa doc_number.
     - NO usa fuzzy.
-    - Busca en bibliography["titulo_normalizado"].
-    - Devuelve máximo max_records en el orden de los títulos recibidos.
+    - Usa titulo_normalizado -> titulo_key.
     """
-
-    if not path:
-        return {}
-
-    path = Path(path)
-
-    if not path.exists():
-        print(f"AVISO: No encontré bibliografía en {path}.")
-        return {}
 
     titles = [
         str(t).strip()
@@ -338,65 +389,102 @@ def load_bibliography_for_exact_titles(path, titles, max_records=5):
     if not title_keys:
         return {}
 
-    wanted_columns = [
-        "doc_number",
-        "titulo",
-        "titulo_normalizado",
-        "anio",
-        "autor",
-        "asesor",
-        "programa",
-        "nivel",
-        "area",
-        "plantel",
-        "detected_titles",
-        "average_title_score",
-        "bibliography_embedding_text",
-        "bibliography_ref_count",
-        "ready_for_ai",
-        "ai_context_chunk"
-    ]
+    title_key_set = set(title_keys)
 
-    dataset = ds.dataset(str(path), format="parquet")
-    available_columns = set(dataset.schema.names)
-
-    columns = [
-        c for c in wanted_columns
-        if c in available_columns
-    ]
-
-    table = dataset.to_table(columns=columns)
-    df = table.to_pandas()
-
-    if df.empty or "titulo_normalizado" not in df.columns:
-        return {}
-
-    df["_title_key"] = df["titulo_normalizado"].apply(normalize_title_key)
-
-    df = df[df["_title_key"].isin(title_keys)].copy()
-
-    if df.empty:
-        return {}
-
-    # preservar orden semántico: top 1, top 2, top 3...
     order = {
         key: i
         for i, key in enumerate(title_keys)
     }
 
-    df["_order"] = df["_title_key"].map(order)
+    # ============================================================
+    # 1. FAST PATH: SQLite index
+    # ============================================================
 
-    df = (
-        df
-        .sort_values("_order")
-        .drop_duplicates("_title_key")
-        .head(max_records)
-    )
+    index_path = globals().get("BIBLIOGRAPHY_INDEX_PATH", None)
 
-    return {
-        row["_title_key"]: row
-        for _, row in df.iterrows()
-    }  
+    if index_path:
+        index_path = Path(index_path)
+
+        if index_path.exists():
+            placeholders = ",".join(["?"] * len(title_keys))
+
+            query = f"""
+                SELECT
+                    titulo_key,
+                    doc_number,
+                    titulo,
+                    titulo_normalizado,
+                    anio,
+                    autor,
+                    asesor,
+                    programa,
+                    nivel,
+                    area,
+                    plantel,
+                    detected_titles_json,
+                    bibliography_ref_count,
+                    ready_for_ai
+                FROM bibliography
+                WHERE titulo_key IN ({placeholders})
+            """
+
+            conn = sqlite3.connect(str(index_path))
+            conn.row_factory = sqlite3.Row
+
+            try:
+                rows = conn.execute(query, title_keys).fetchall()
+            finally:
+                conn.close()
+
+            if rows:
+                found = {}
+
+                for row in rows:
+                    key = row["titulo_key"]
+
+                    if key in found:
+                        continue
+
+                    detected_titles_raw = row["detected_titles_json"] or "[]"
+
+                    try:
+                        detected_titles = json.loads(detected_titles_raw)
+                    except Exception:
+                        detected_titles = []
+
+                    # Convertimos a Series para que el resto de tu pipeline siga igual.
+                    found[key] = pd.Series({
+                        "doc_number": row["doc_number"],
+                        "titulo": row["titulo"],
+                        "titulo_normalizado": row["titulo_normalizado"],
+                        "anio": row["anio"],
+                        "autor": row["autor"],
+                        "asesor": row["asesor"],
+                        "programa": row["programa"],
+                        "nivel": row["nivel"],
+                        "area": row["area"],
+                        "plantel": row["plantel"],
+                        "detected_titles": detected_titles,
+                        "average_title_score": None,
+                        "bibliography_embedding_text": "",
+                        "bibliography_ref_count": row["bibliography_ref_count"],
+                        "ready_for_ai": row["ready_for_ai"],
+                        "ai_context_chunk": "",
+                        "_title_key": key,
+                    })
+
+                found = dict(
+                    sorted(
+                        found.items(),
+                        key=lambda kv: order.get(kv[0], 999999)
+                    )
+                )
+
+                return dict(list(found.items())[:max_records])
+
+    # ============================================================
+    # 2. FALLBACK: Parquet por batches
+    # ============================================================
 
     if not path:
         return {}
@@ -407,19 +495,6 @@ def load_bibliography_for_exact_titles(path, titles, max_records=5):
         print(f"AVISO: No encontré bibliografía en {path}.")
         return {}
 
-    doc_numbers = [
-        normalize_id(d)
-        for d in doc_numbers
-        if d is not None
-    ]
-
-    doc_numbers = list(dict.fromkeys(doc_numbers))  # quitar duplicados preservando orden
-
-    if not doc_numbers:
-        return {}
-
-    dataset = ds.dataset(str(path), format="parquet")
-
     wanted_columns = [
         "doc_number",
         "titulo",
@@ -439,57 +514,71 @@ def load_bibliography_for_exact_titles(path, titles, max_records=5):
         "ai_context_chunk"
     ]
 
+    dataset = ds.dataset(str(path), format="parquet")
     available_columns = set(dataset.schema.names)
+
+    if "titulo_normalizado" not in available_columns:
+        print("AVISO: bibliography parquet no tiene titulo_normalizado.")
+        return {}
 
     columns = [
         c for c in wanted_columns
         if c in available_columns
     ]
 
-    table = dataset.to_table(
+    found = {}
+
+    scanner = dataset.scanner(
         columns=columns,
-        filter=ds.field("doc_number").isin(doc_numbers)
+        batch_size=500,
     )
 
-    df = table.to_pandas()
+    for batch_i, batch in enumerate(scanner.to_batches(), start=1):
+        df = batch.to_pandas()
 
-    if df.empty:
+        if df.empty or "titulo_normalizado" not in df.columns:
+            continue
+
+        df["_title_key"] = df["titulo_normalizado"].apply(normalize_title_key)
+
+        hits = df[df["_title_key"].isin(title_key_set)].copy()
+
+        if not hits.empty:
+            hits["_order"] = hits["_title_key"].map(order)
+            hits = hits.sort_values("_order")
+
+            for _, row in hits.iterrows():
+                key = row["_title_key"]
+
+                if key in found:
+                    continue
+
+                found[key] = row
+
+                if len(found) >= max_records:
+                    break
+
+        if len(found) >= max_records:
+            break
+
+        if batch_i % 25 == 0:
+            print(
+                f"Bibliografía batches revisados: {batch_i} | matches: {len(found)}",
+                flush=True
+            )
+
+    if not found:
         return {}
 
-    df["_doc_number"] = df["doc_number"].apply(normalize_id)
-
-    order = {
-        doc: i
-        for i, doc in enumerate(doc_numbers)
-    }
-
-    df["_order"] = df["_doc_number"].map(order)
-
-    df = (
-        df
-        .sort_values("_order")
-        .head(max_records)
+    found = dict(
+        sorted(
+            found.items(),
+            key=lambda kv: order.get(kv[0], 999999)
+        )
     )
 
-    return {
-        row["_doc_number"]: row
-        for _, row in df.iterrows()
-    }
-    """
-    Carga dataset de bibliografía.
-    Soporta JSON list, JSON dict, JSONL y Parquet.
-    Si no existe o path está vacío, devuelve DataFrame vacío.
-    """
+    return found
 
-    if not path:
-        print("AVISO: Sin bibliografía por ahora. Continuaré sin bibliography_pool.")
-        return pd.DataFrame()
-
-    path = Path(path)
-
-    if not path.exists():
-        print(f"AVISO: No encontré bibliografía en {path}. Continuaré sin bibliography_pool.")
-        return pd.DataFrame()
 
 SPANISH_STOPWORDS = [
     "de", "del", "la", "el", "los", "las", "y", "en", "para", "por",
@@ -545,6 +634,7 @@ def extract_keywords_from_titles(titles, top_n=18):
         })
 
     return keywords
+
 
 def build_temporal_patterns(retrieved):
     """
@@ -887,89 +977,107 @@ def build_thesis_context(
     # -----------------------------
     bloom = bloom_preanalysis(user_input.get("objectives", []))
     # -----------------------------
-        # -----------------------------
     # 6. Bibliography pool por título exacto
     # -----------------------------
     bibliography_pool = []
 
     # Regla:
-    # tomar top 20 tesis semánticamente cercanas,
-    # buscar cuáles tienen bibliografía por título exacto,
-    # conservar máximo 5 en orden de cercanía.
+    # - usar top 50 interno, no solo el top 10 compacto del contexto LLM
+    # - buscar matches por título normalizado en semantic_bibliography_dataset.parquet
+    # - conservar máximo 10 tesis fuente
+    # - extraer hasta 15 títulos bibliográficos por tesis fuente
+    BIB_SEARCH_TOP_N = 50
+    BIB_MAX_SOURCE_THESES = 10
+    BIB_MAX_TITLES_PER_SOURCE = 15
+
     candidate_titles = [
         thesis["title"]
-        for thesis in top_50[:20]
-    
+        for thesis in top_50[:BIB_SEARCH_TOP_N]
+        if thesis.get("title")
     ]
 
     bib_by_title = load_bibliography_for_exact_titles(
         bibliography_path,
         candidate_titles,
-        max_records=5
+        max_records=BIB_MAX_SOURCE_THESES
     )
 
-    for thesis in top_50[:20]:
-        title_key = normalize_title_key(thesis["title"])
+    for thesis in top_50[:BIB_SEARCH_TOP_N]:
+        title = thesis.get("title")
 
-        if title_key in bib_by_title:
-            b = bib_by_title[title_key]
+        if not title:
+            continue
 
-            detected_titles = b.get("detected_titles", [])
+        title_key = normalize_title_key(title)
 
-            if isinstance(detected_titles, str):
-                try:
-                    detected_titles = json.loads(detected_titles)
-                except Exception:
-                    detected_titles = []
-            
-            bibliography_titles_clean = extract_bibliography_titles_clean(
-                b,
-                max_titles=15
-            )
-                        
-            bibliography_pool.append({
-                "source_thesis_id": thesis["id"],
-                "source_thesis_title": thesis["title"],
-                "source_similarity": thesis["embedding_similarity"],
+        if title_key not in bib_by_title:
+            continue
 
-                "bibliography_doc_number": str(b.get("doc_number", "")),
-                "match_type": "exact_title",
-                "match_score": 100,
+        b = bib_by_title[title_key]
 
-                "bibliography_thesis_title": str(b.get("titulo", "")),
-                "bibliography_year": int(b.get("anio")) if pd.notna(b.get("anio")) else None,
-                "bibliography_program": str(b.get("programa", "")),
-                "bibliography_level": str(b.get("nivel", "")),
-                "bibliography_area": str(b.get("area", "")),
-                "bibliography_plantel": str(b.get("plantel", "")),
-                "bibliography_ref_count": int(b.get("bibliography_ref_count", 0))
-                if pd.notna(b.get("bibliography_ref_count", None))
-                else None,
+        detected_titles = b.get("detected_titles", [])
 
-                "detected_titles": detected_titles[:12]
-                if isinstance(detected_titles, list)
-                else [],
+        if isinstance(detected_titles, str):
+            try:
+                detected_titles = json.loads(detected_titles)
+            except Exception:
+                detected_titles = []
 
-                "bibliography_titles_clean": bibliography_titles_clean,
+        bibliography_titles_clean = extract_bibliography_titles_clean(
+            b,
+            max_titles=BIB_MAX_TITLES_PER_SOURCE
+        )
 
-                "bibliography_embedding_text": str(
-                    b.get("bibliography_embedding_text", "")
-                )[:2500],
+        # Si no trae títulos útiles, no lo mandes al pool.
+        if not bibliography_titles_clean:
+            continue
 
-                "ai_context_chunk": str(
-                    b.get("ai_context_chunk", "")
-                )[:3500]
-            })
+        bibliography_pool.append({
+            "source_thesis_id": thesis.get("id"),
+            "source_thesis_title": thesis.get("title"),
+            "source_similarity": thesis.get("embedding_similarity"),
 
-        if len(bibliography_pool) >= 5:
+            "bibliography_doc_number": str(b.get("doc_number", "")),
+            "match_type": "exact_title",
+            "match_score": 100,
+
+            "bibliography_thesis_title": str(b.get("titulo", "")),
+            "bibliography_year": int(b.get("anio")) if pd.notna(b.get("anio")) else None,
+            "bibliography_program": str(b.get("programa", "")),
+            "bibliography_level": str(b.get("nivel", "")),
+            "bibliography_area": str(b.get("area", "")),
+            "bibliography_plantel": str(b.get("plantel", "")),
+            "bibliography_ref_count": int(b.get("bibliography_ref_count", 0))
+            if pd.notna(b.get("bibliography_ref_count", None))
+            else None,
+
+            "detected_titles": detected_titles[:12]
+            if isinstance(detected_titles, list)
+            else [],
+
+            "bibliography_titles_clean": bibliography_titles_clean,
+
+            "bibliography_embedding_text": str(
+                b.get("bibliography_embedding_text", "")
+            )[:2500],
+
+            "ai_context_chunk": str(
+                b.get("ai_context_chunk", "")
+            )[:3500]
+        })
+
+        if len(bibliography_pool) >= BIB_MAX_SOURCE_THESES:
             break
+
     bibliography_status = {
-        "searched_top_n": 20,
+        "searched_top_n": BIB_SEARCH_TOP_N,
         "matched_exact_titles": len(bibliography_pool),
-        "max_records": 5,
-        "match_policy": "exact_title_only",
+        "max_records": BIB_MAX_SOURCE_THESES,
+        "max_titles_per_source": BIB_MAX_TITLES_PER_SOURCE,
+        "match_policy": "exact_title_top50_internal",
         "id_policy": "ID_Limpio is not used for bibliography matching"
-    }
+    }    
+
     # -----------------------------
     # 7. Advisor candidates
     # -----------------------------
@@ -1305,6 +1413,10 @@ def load_lab_input():
     3. fallback de prueba local
     """
     candidates = [
+        BASE_DIR / "payloads" / "input.json",
+        BASE_DIR / "payloads" / "lab_input.json",
+        BASE_DIR / "input.json",
+        BASE_DIR / "lab_input.json",
         Path("input.json"),
         Path("lab_input.json"),
     ]
@@ -1377,7 +1489,12 @@ if __name__ == "__main__":
 
     user_input = load_lab_input()
 
-    query_vector = load_query_vector(QUERY_VECTOR_PATH)
+    if QUERY_VECTOR_PATH.exists():
+        print(f"Usando query vector existente: {QUERY_VECTOR_PATH}")
+        query_vector = load_query_vector(QUERY_VECTOR_PATH)
+    else:
+        print("No existe query_vector.json. Generando nuevo query vector...")
+        query_vector = build_query_vector_from_input(user_input, QUERY_VECTOR_PATH)
 
     context = build_thesis_context(
         user_input=user_input,
@@ -1394,13 +1511,13 @@ if __name__ == "__main__":
     context_for_llm = build_context_for_llm(context)
     context["context_for_llm"] = context_for_llm
 
-    with open("thesis_context_example.json", "w", encoding="utf-8") as f:
+    with open(BASE_DIR / "payloads" / "thesis_context_example.json", "w", encoding="utf-8") as f:
         json.dump(context, f, ensure_ascii=False, indent=2)
 
-    with open("context_minimal.json", "w", encoding="utf-8") as f:
+    with open(BASE_DIR / "payloads" / "context_minimal.json", "w", encoding="utf-8") as f:
         json.dump(context_for_llm, f, ensure_ascii=False, indent=2)
 
-    print("\nGuardado thesis_context_example.json")
-    print("Guardado context_minimal.json")
+    print("\nGuardado payloads/thesis_context_example.json")
+    print("Guardado payloads/context_minimal.json")
 
     print_context_summary(context)

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Laboratorio de Tesis</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">MiTesis UNAM</p>
+      <h1>Laboratorio de tesis</h1>
+      <p>Introduce una idea de tesis y genera lectura inicial, tesis cercanas, objetivos, preguntas y asesores relacionados.</p>
+    </section>
+
+    <form id="labForm" class="card form">
+      <label>
+        Título
+        <input id="title" required value="Análisis del sistema bancario de México y China 1850-2009" />
+      </label>
+
+      <label>
+        Palabras clave
+        <input id="keywords" value="México, China, banca, sistema financiero" />
+      </label>
+
+      <label>
+        Objetivos, uno por línea
+        <textarea id="objectives" rows="5">Analizar las diferencias entre ambos sistemas bancarios
+Reconocer diferencias en los procesos históricos
+Sugerir mejoras para el sistema bancario mexicano</textarea>
+      </label>
+
+      <div class="row">
+        <label>
+          Programa
+          <input id="program" value="Economía" />
+        </label>
+
+        <label>
+          Grado
+          <input id="degree" value="Licenciatura" />
+        </label>
+      </div>
+
+      <label>
+        Plantel
+        <input id="plantel" value="Facultad de Economía" />
+      </label>
+
+      <div class="row">
+        <label>
+          Año inicio
+          <input id="start_year" type="number" value="1850" />
+        </label>
+
+        <label>
+          Año fin
+          <input id="end_year" type="number" value="2009" />
+        </label>
+      </div>
+
+      <div class="checks">
+        <label><input id="showDebug" type="checkbox" /> Ver debug</label>
+      </div>
+
+      <button id="runBtn" type="button">Ejecutar laboratorio</button>
+      <p id="status" class="status"></p>
+    </form>
+
+    <section id="results" class="results"></section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

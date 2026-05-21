@@ -1,21 +1,26 @@
-cat >> .gitignore <<'EOF'
-
-.env
-.venv/
+# Python
 __pycache__/
 *.pyc
+.venv/
+.env
+
+# Outputs / temporary runtime files
 outputs/
 projects/
-payloads/*.json
-!payloads/*.py
-EOF
-# Large/generated data
+*.log
+
+# Large data artifacts
 Base.parquet
-semantic_bibliography_dataset.parquet
-sample_50k_embeddings.npy
 sample_50k_final_15d.parquet
+sample_50k_embeddings.npy
 cluster_nodes_final_50k.parquet
 cluster_edges_mutual_knn_50k.parquet
-query_vector.json
-*.parquet
-*.npy
+semantic_bibliography_dataset.parquet
+semantic_bibliography_dataset_with_title_key.parquet
+bibliography_title_index.sqlite
+
+# Generated payloads that can be rebuilt
+payloads/context_minimal.json
+payloads/thesis_context_example.json
+payloads/query_vector.json
+payloads/ai_*_payload.json

@@ -1,9 +1,12 @@
 import json
 from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+from pathlib import Path
 from collections import Counter, defaultdict
 
 
-CONTEXT_PATH = Path("context_minimal.json")
+CONTEXT_PATH = BASE_DIR / "payloads" / "context_minimal.json"
 RERANK_PATH = Path("ai_rerank_groq_llama.json")
 OUTPUT_PATH = Path("ai_advisors_payload.json")
 
@@ -157,3 +160,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+# Ensure output is stored under payloads/
+_src = BASE_DIR / "ai_advisors_payload.json"
+_dst = BASE_DIR / "payloads/ai_advisors_payload.json"
+if _src.exists():
+    _dst.parent.mkdir(parents=True, exist_ok=True)
+    _src.replace(_dst)
