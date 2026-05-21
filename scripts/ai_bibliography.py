@@ -74,22 +74,84 @@ def extract_json(text: str) -> dict:
 
 
 def build_bib_map(payload: dict) -> dict:
+    """
+    Construye bib_id -> metadata.
+
+    Soporta:
+    1. Estructura nueva plana:
+       payload["bibliography_candidates"] = [
+         {"bib_id": "S01_B01", "raw_title": "...", "source_thesis_title": "..."}
+       ]
+
+    2. Estructura legacy:
+       payload["bibliography_candidates"] = [
+         {"source_id": "S01", "titles": [{"bib_id": "...", "title": "..."}]}
+       ]
+    """
     bib_map = {}
 
-    for source in payload.get("bibliography_candidates", []):
-        source_doc = source.get("source_doc_number", "")
-        source_title = source.get("source_thesis_title", "")
+    candidates = payload.get("bibliography_candidates", [])
 
-        for item in source.get("titles", []):
-            bib_id = item.get("bib_id")
-            title = item.get("title")
+    if not isinstance(candidates, list):
+        return bib_map
+
+    for source in candidates:
+        if not isinstance(source, dict):
+            continue
+
+        # Caso nuevo: candidato bibliográfico plano.
+        if source.get("bib_id"):
+            bib_id = str(source.get("bib_id", "")).strip()
+
+            title = (
+                source.get("bibliography_title")
+                or source.get("raw_title")
+                or source.get("title")
+                or ""
+            )
+            title = str(title).strip()
 
             if bib_id and title:
                 bib_map[bib_id] = {
                     "bib_id": bib_id,
                     "title": title,
+                    "raw_title": source.get("raw_title", title),
+                    "bibliography_title": source.get("bibliography_title", title),
+                    "source_id": source.get("source_id", ""),
+                    "source_doc_number": source.get("source_doc_number", ""),
+                    "source_thesis_title": source.get("source_thesis_title", ""),
+                    "source_similarity": source.get("source_similarity"),
+                }
+
+            continue
+
+        # Caso legacy: source con titles internos.
+        source_doc = source.get("source_doc_number", "")
+        source_title = source.get("source_thesis_title", "")
+
+        for item in source.get("titles", []):
+            if not isinstance(item, dict):
+                continue
+
+            bib_id = str(item.get("bib_id", "")).strip()
+
+            title = (
+                item.get("bibliography_title")
+                or item.get("raw_title")
+                or item.get("title")
+                or ""
+            )
+            title = str(title).strip()
+
+            if bib_id and title:
+                bib_map[bib_id] = {
+                    "bib_id": bib_id,
+                    "title": title,
+                    "raw_title": item.get("raw_title", title),
+                    "bibliography_title": item.get("bibliography_title", title),
                     "source_doc_number": source_doc,
                     "source_thesis_title": source_title,
+                    "source_similarity": source.get("source_similarity"),
                 }
 
     return bib_map

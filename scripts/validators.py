@@ -148,6 +148,9 @@ def validate_bibliography(
     if len(items) < 1:
         return False, "items empty"
 
+    if len(items) > 5:
+        return False, f"too many bibliography items: {len(items)}"
+
     required = set(MODULE_CONTRACTS["bibliography"]["item_required"])
     seen_ids = set()
     seen_ranks = set()
