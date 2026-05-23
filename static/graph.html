@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NODO UNAM · Exploración</title>
+
+  <script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
+
+  <style>
+    :root {
+      --bg: #f8f7f3;
+      --ink: #171717;
+      --muted: #777;
+      --line: #e5e1d8;
+      --panel: rgba(255, 255, 255, 0.86);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .shell {
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      height: 100vh;
+    }
+
+    #cy {
+      width: 100%;
+      height: 100vh;
+      background:
+        radial-gradient(circle at 45% 45%, rgba(255,255,255,0.8), rgba(248,247,243,0.95) 55%, rgba(243,241,236,1));
+    }
+
+    aside {
+      border-left: 1px solid var(--line);
+      padding: 28px;
+      background: var(--panel);
+      backdrop-filter: blur(16px);
+      overflow: auto;
+    }
+
+    .eyebrow {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 16px;
+    }
+
+    h1 {
+      font-size: 27px;
+      line-height: 1.08;
+      margin: 0 0 18px;
+      font-weight: 650;
+    }
+
+    p {
+      color: #444;
+      line-height: 1.5;
+    }
+
+    .meta {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-size: 14px;
+      color: #555;
+    }
+
+    .meta div {
+      margin-bottom: 8px;
+    }
+
+    .hint {
+      position: fixed;
+      left: 24px;
+      bottom: 20px;
+      padding: 10px 14px;
+      background: rgba(255,255,255,.75);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 13px;
+      color: #555;
+      backdrop-filter: blur(12px);
+      pointer-events: none;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="shell">
+    <section id="cy"></section>
+
+    <aside id="panel">
+      <p class="eyebrow">Exploración semántica</p>
+      <h1>Vecindario académico</h1>
+      <p>
+        Este grafo muestra una idea central conectada con tesis cercanas
+        semánticamente y sus áreas académicas.
+      </p>
+      <div class="meta">
+        <div><strong>Tip:</strong> haz click en un nodo.</div>
+        <div><strong>Hover:</strong> ver título.</div>
+        <div><strong>Scroll:</strong> zoom.</div>
+        <div><strong>Arrastra:</strong> mover nodos.</div>
+      </div>
+    </aside>
+  </main>
+
+  <div class="hint">NODO UNAM · prototipo de grafo local</div>
+
+  <script>
+    async function loadGraph() {
+      let res = await fetch("/outputs/graph_neighborhood.json");
+
+      if (!res.ok) {
+        res = await fetch("/static/graph_neighborhood.json");
+      }
+
+      if (!res.ok) {
+        throw new Error("No se pudo cargar graph_neighborhood.json");
+      }
+
+      return await res.json();
+    }
+
+    function toCytoscapeElements(graph) {
+      const nodes = graph.nodes.map(n => ({
+        data: {
+          ...n,
+          id: n.id,
+          label: n.label || n.id
+        }
+      }));
+
+      const edges = graph.edges.map((e, i) => ({
+        data: {
+          ...e,
+          id: `e${i}`,
+          source: e.source,
+          target: e.target,
+          weight: e.weight || 0.1
+        }
+      }));
+
+      return [...nodes, ...edges];
+    }
+
+    function renderPanel(data) {
+      const panel = document.getElementById("panel");
+
+      if (data.type === "project") {
+        panel.innerHTML = `
+          <p class="eyebrow">Proyecto</p>
+          <h1>${escapeHTML(data.label)}</h1>
+          <p>Esta es la idea central desde la cual se construye el vecindario académico.</p>
+          <div class="meta">
+            <div><strong>Tipo:</strong> proyecto del usuario</div>
+          </div>
+        `;
+        return;
+      }
+
+      if (data.type === "area") {
+        panel.innerHTML = `
+          <p class="eyebrow">Área académica</p>
+          <h1>${escapeHTML(data.label)}</h1>
+          <p>Esta área agrupa tesis cercanas dentro del vecindario semántico.</p>
+          <div class="meta">
+            <div><strong>Tesis en este vecindario:</strong> ${escapeHTML(data.count || "—")}</div>
+          </div>
+        `;
+        return;
+      }
+
+      panel.innerHTML = `
+        <p class="eyebrow">Tesis cercana</p>
+        <h1>${escapeHTML(data.title || data.label)}</h1>
+        <div class="meta">
+          <div><strong>Año:</strong> ${escapeHTML(data.year || "s/f")}</div>
+          <div><strong>Programa:</strong> ${escapeHTML(data.program || "—")}</div>
+          <div><strong>Área:</strong> ${escapeHTML(data.area || "—")}</div>
+          <div><strong>Nivel:</strong> ${escapeHTML(data.level || "—")}</div>
+          <div><strong>Similitud:</strong> ${escapeHTML(data.similarity || "—")}</div>
+          <div><strong>Doc:</strong> ${escapeHTML(data.doc_number_url || "—")}</div>
+        </div>
+        ${data.advisor ? `<p><strong>Asesor:</strong> ${escapeHTML(data.advisor)}</p>` : ""}
+      `;
+    }
+
+    function escapeHTML(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function showThesisLabel(node) {
+      node.style({
+        "label": node.data("label"),
+        "font-size": 10,
+        "font-family": "Inter, system-ui, sans-serif",
+        "text-wrap": "wrap",
+        "text-max-width": 170,
+        "text-valign": "bottom",
+        "text-margin-y": 9,
+        "color": "#222",
+        "z-index": 999
+      });
+    }
+
+    function hideThesisLabel(node) {
+      if (!node.hasClass("selected")) {
+        node.style({
+          "label": "",
+          "z-index": 1
+        });
+      }
+    }
+
+    loadGraph().then(graph => {
+      const cy = cytoscape({
+        container: document.getElementById("cy"),
+        elements: toCytoscapeElements(graph),
+
+        style: [
+          {
+            selector: "node",
+            style: {
+              "background-color": "data(color)",
+              "width": "data(size)",
+              "height": "data(size)",
+              "label": "",
+              "overlay-opacity": 0,
+              "border-width": 0
+            }
+          },
+          {
+            selector: 'node[type="project"]',
+            style: {
+              "background-color": "#111",
+              "width": 38,
+              "height": 38,
+              "label": "Proyecto",
+              "font-size": 12,
+              "font-family": "Inter, system-ui, sans-serif",
+              "font-weight": 700,
+              "text-valign": "bottom",
+              "text-margin-y": 11,
+              "color": "#111",
+              "z-index": 1000
+            }
+          },
+          {
+            selector: 'node[type="area"]',
+            style: {
+              "shape": "ellipse",
+              "background-opacity": 0.08,
+              "border-width": 1.0,
+              "border-color": "data(color)",
+              "width": "data(size)",
+              "height": "data(size)",
+              "label": "data(label)",
+              "font-size": 9,
+              "font-family": "Inter, system-ui, sans-serif",
+              "color": "#777",
+              "text-valign": "bottom",
+              "text-margin-y": 8
+            }
+          },
+          {
+            selector: 'node[type="thesis"]',
+            style: {
+              "width": 7,
+              "height": 7,
+              "background-opacity": 0.86
+            }
+          },
+          {
+            selector: "edge",
+            style: {
+              "line-color": "#d8d3ca",
+              "width": 0.7,
+              "opacity": 0.18,
+              "curve-style": "bezier"
+            }
+          },
+          {
+            selector: 'edge[type="semantic_similarity"]',
+            style: {
+              "width": 0.8,
+              "opacity": 0.30
+            }
+          },
+          {
+            selector: ".selected",
+            style: {
+              "border-width": 3,
+              "border-color": "#111"
+            }
+          }
+        ],
+
+        layout: {
+          name: "cose",
+          animate: true,
+          animationDuration: 900,
+          fit: true,
+          padding: 95,
+
+          // Compact organic neighborhood, not a full technical graph.
+          nodeRepulsion: function(node) {
+            if (node.data("type") === "project") return 18000;
+            if (node.data("type") === "area") return 12000;
+            return 5200;
+          },
+          idealEdgeLength: function(edge) {
+            if (edge.data("type") === "semantic_similarity") return 88;
+            if (edge.data("type") === "belongs_to_area") return 118;
+            return 105;
+          },
+          edgeElasticity: function(edge) {
+            if (edge.data("type") === "semantic_similarity") return 0.42;
+            return 0.18;
+          },
+          gravity: 0.55,
+          gravityRangeCompound: 1.4,
+          gravityCompound: 1.0,
+          numIter: 1800,
+          initialTemp: 90,
+          coolingFactor: 0.95,
+          minTemp: 1.0
+        },
+
+        minZoom: 0.35,
+        maxZoom: 2.5,
+        wheelSensitivity: 0.16
+      });
+
+      cy.on("mouseover", 'node[type="thesis"]', evt => {
+        showThesisLabel(evt.target);
+      });
+
+      cy.on("mouseout", 'node[type="thesis"]', evt => {
+        hideThesisLabel(evt.target);
+      });
+
+      cy.on("tap", "node", evt => {
+        cy.nodes().removeClass("selected");
+        cy.nodes('[type="thesis"]').style({ "label": "", "z-index": 1 });
+
+        const node = evt.target;
+        node.addClass("selected");
+
+        if (node.data("type") === "thesis") {
+          showThesisLabel(node);
+        }
+
+        renderPanel(node.data());
+      });
+
+      cy.ready(() => {
+        cy.fit(undefined, 95);
+      });
+    }).catch(err => {
+      document.getElementById("panel").innerHTML = `
+        <p class="eyebrow">Error</p>
+        <h1>No se pudo cargar el grafo</h1>
+        <p>${escapeHTML(err.message)}</p>
+      `;
+    });
+  </script>
+</body>
+</html>

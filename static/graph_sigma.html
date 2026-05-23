@@ -1,0 +1,1187 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NODO UNAM · Sigma Exploration</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f7f5ef;
+      --paper: #fffdf8;
+      --ink: #151515;
+      --muted: #6f6b63;
+      --soft: #d9d2c4;
+      --line: #e7e0d4;
+      --project: #6B4BB7;
+      --halo: rgba(183, 160, 230, 0.28);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      overflow: hidden;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .stage {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 46%, rgba(255,255,255,0.96) 0%, rgba(250,248,243,0.94) 42%, rgba(242,239,232,1) 100%);
+    }
+
+    #sigma-container {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+
+    .similarity-grid {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      opacity: 0.74;
+      transition: opacity 500ms ease;
+    }
+
+    body[data-mode="analytic"] .similarity-grid {
+      opacity: 0;
+    }
+
+    .similarity-grid svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .similarity-grid ellipse {
+      fill: none;
+      stroke: rgba(70, 68, 62, 0.115);
+      stroke-width: 0.48;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .similarity-grid line,
+    .similarity-grid .grid-axis {
+      stroke: rgba(70, 68, 62, 0.055);
+      stroke-width: 0.42;
+      stroke-dasharray: 1.2 2.8;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .grid-label {
+      font-family: "IBM Plex Mono", "Archivo", ui-monospace, monospace;
+      letter-spacing: 0.04em;
+      font-size: 2.15px;
+      font-weight: 300;
+      fill: rgba(78, 75, 69, 0.34);
+    }
+
+    .topbar {
+      position: absolute;
+      top: 24px;
+      left: 28px;
+      right: 28px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+      z-index: 5;
+      pointer-events: none;
+    }
+
+    .brand {
+      font-family: "Archivo", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.075em;
+      font-size: 12px;
+      font-weight: 700;
+      color: #222;
+      padding-top: 4px;
+    }
+
+    .controls {
+      pointer-events: auto;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      max-width: 860px;
+    }
+
+    .control {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      height: 32px;
+      padding: 0 10px;
+      border: 1px solid rgba(215, 208, 196, 0.88);
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.72);
+      backdrop-filter: blur(14px);
+      font-family: "Archivo", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #625d55;
+    }
+
+    .control select,
+    .control input {
+      border: 0;
+      outline: 0;
+      background: transparent;
+      font-family: "Archivo", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 10px;
+      color: #26221e;
+    }
+
+    .mode-toggle {
+      display: inline-flex;
+      gap: 4px;
+      padding: 3px;
+      border: 1px solid rgba(215, 208, 196, 0.88);
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.72);
+      backdrop-filter: blur(14px);
+    }
+
+    .mode-btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 7px 10px;
+      background: transparent;
+      font-family: "Archivo", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #625d55;
+      cursor: pointer;
+    }
+
+    .mode-btn.active {
+      background: #1d1b18;
+      color: #fffdf8;
+    }
+
+    aside {
+      background: rgba(255, 253, 248, 0.94);
+      border-left: 1px solid var(--line);
+      padding: 34px 30px;
+      overflow: auto;
+      backdrop-filter: blur(18px);
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      font-family: "Archivo", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.095em;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: 30px;
+      line-height: 1.04;
+      letter-spacing: -0.035em;
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .thesis-title {
+      font-family: "Archivo", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.018em;
+      font-size: 25px;
+      line-height: 1.08;
+      font-weight: 700;
+    }
+
+    .tooltip-title {
+      font-family: "Archivo", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 11px;
+      line-height: 1.25;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 18px;
+      color: #45413a;
+      line-height: 1.55;
+      font-size: 15px;
+    }
+
+    .meta-grid {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      display: grid;
+      gap: 12px;
+    }
+
+    .meta-item {
+      display: grid;
+      gap: 3px;
+    }
+
+    .meta-label {
+      font-family: "Archivo", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .meta-value {
+      font-family: "Archivo", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 12px;
+      font-weight: 600;
+      color: #24211d;
+    }
+
+    .legend {
+      position: absolute;
+      left: 28px;
+      bottom: 26px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      z-index: 5;
+      pointer-events: none;
+    }
+
+    .legend-chip {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.68);
+      backdrop-filter: blur(10px);
+      font-family: "Archivo", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 10px;
+      color: #5f5a52;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .tooltip {
+      position: absolute;
+      z-index: 8;
+      max-width: 320px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      background: rgba(255,253,248,0.96);
+      box-shadow: 0 12px 34px rgba(0,0,0,0.08);
+      border-radius: 14px;
+      font-size: 13px;
+      line-height: 1.35;
+      color: #222;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, calc(-100% - 14px));
+      transition: opacity 120ms ease;
+    }
+
+    .tooltip.visible { opacity: 1; }
+  </style>
+</head>
+
+<body data-mode="universe">
+  <main class="app">
+    <section class="stage">
+      <div class="topbar">
+        <div class="brand">NODO UNAM</div>
+
+        <div class="controls">
+          <div class="mode-toggle">
+            <button class="mode-btn active" id="modeUniverse" type="button">Universo</button>
+            <button class="mode-btn" id="modeAnalytic" type="button">Analítico</button>
+          </div>
+
+          <label class="control">
+            Organizar/color
+            <select id="groupBy">
+              <option value="year">Año</option>
+              <option value="program">Programa</option>
+              <option value="plantel">Plantel</option>
+              <option value="level">Nivel</option>
+              <option value="area">Área</option>
+            </select>
+          </label>
+
+          <label class="control">
+            Filtro
+            <select id="filterValue">
+              <option value="__all__">Todo</option>
+            </select>
+          </label>
+
+          <label class="control">
+            Orden
+            <select id="sortOrder">
+              <option value="desc">Mayor → menor</option>
+              <option value="asc">Menor → mayor</option>
+            </select>
+          </label>
+
+          <label class="control">
+            Tesis <span id="countLabel">40</span>
+            <input id="countSlider" type="range" min="10" max="100" value="40" step="5" />
+          </label>
+        </div>
+      </div>
+
+      <div class="similarity-grid" aria-hidden="true">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+          <line x1="50" y1="7" x2="50" y2="93" class="grid-axis"></line>
+          <line x1="10" y1="50" x2="90" y2="50" class="grid-axis"></line>
+          <ellipse cx="50" cy="50" rx="13" ry="17"></ellipse>
+          <ellipse cx="50" cy="50" rx="24" ry="31"></ellipse>
+          <ellipse cx="50" cy="50" rx="36" ry="45"></ellipse>
+          <ellipse cx="50" cy="50" rx="47" ry="58"></ellipse>
+          <text x="64.2" y="50.8" class="grid-label">0.90</text>
+          <text x="75.5" y="50.8" class="grid-label">0.84</text>
+          <text x="87.4" y="50.8" class="grid-label">0.78</text>
+          <text x="96.2" y="50.8" class="grid-label">0.72</text>
+        </svg>
+      </div>
+
+      <div id="sigma-container"></div>
+      <div id="tooltip" class="tooltip"></div>
+
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <aside id="panel">
+      <p class="eyebrow">Exploración semántica</p>
+      <h1>Vecindario académico</h1>
+      <p>
+        Una tesis o idea central conectada con tesis cercanas dentro del acervo.
+        Cambia entre universo y vista analítica para leer el vecindario de distintas formas.
+      </p>
+    </aside>
+  </main>
+
+  <script type="module">
+    import Graph from "https://cdn.jsdelivr.net/npm/graphology@0.25.4/+esm";
+    import Sigma from "https://cdn.jsdelivr.net/npm/sigma@3/+esm";
+
+    const PROJECT_COLOR = "#6B4BB7";
+    const PROJECT_HALO = "rgba(183, 160, 230, 0.28)";
+
+    const AREA_COLORS = {
+      "Area 1": "#7A1E3A",
+      "Area 2": "#5A9A7A",
+      "Area 3": "#174EA6",
+      "Area 4": "#9A6A8F",
+      "Por Clasificar": "#9a9a9a",
+      "": "#9a9a9a"
+    };
+
+    const PALETTE = [
+      "#174EA6", "#7A1E3A", "#5A9A7A", "#9A6A8F", "#D08A2E",
+      "#6B4BB7", "#3E7C8B", "#A14D4D", "#76664B", "#4D6A3F",
+      "#284B63", "#8C6A5D", "#B08A00", "#706C61"
+    ];
+
+    const state = {
+      mode: "universe",
+      groupBy: "year",
+      filterValue: "__all__",
+      sortOrder: "desc",
+      displayCount: 40,
+      hoveredNode: null,
+      selectedNode: null,
+      visibleIds: new Set(),
+      groupNodes: new Set(),
+      colorMap: new Map()
+    };
+
+    const container = document.getElementById("sigma-container");
+    const panel = document.getElementById("panel");
+    const tooltip = document.getElementById("tooltip");
+    const legend = document.getElementById("legend");
+
+    const modeUniverse = document.getElementById("modeUniverse");
+    const modeAnalytic = document.getElementById("modeAnalytic");
+    const groupBySelect = document.getElementById("groupBy");
+    const filterValueSelect = document.getElementById("filterValue");
+    const sortOrderSelect = document.getElementById("sortOrder");
+    const countSlider = document.getElementById("countSlider");
+    const countLabel = document.getElementById("countLabel");
+
+    let graph = null;
+    let renderer = null;
+    let allTheses = [];
+    let projectNode = null;
+
+    async function loadGraphPayload() {
+      let res = await fetch("/outputs/graph_neighborhood.json");
+      if (!res.ok) res = await fetch("/static/graph_neighborhood.json");
+      if (!res.ok) throw new Error("No se pudo cargar graph_neighborhood.json");
+      return await res.json();
+    }
+
+    function escapeHTML(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function clamp(value, min, max) {
+      return Math.max(min, Math.min(max, value));
+    }
+
+    function hexToRgb(hex) {
+      const clean = String(hex || "#999999").replace("#", "");
+      const value = clean.length === 3
+        ? clean.split("").map(ch => ch + ch).join("")
+        : clean.padEnd(6, "9").slice(0, 6);
+      return {
+        r: parseInt(value.slice(0, 2), 16),
+        g: parseInt(value.slice(2, 4), 16),
+        b: parseInt(value.slice(4, 6), 16)
+      };
+    }
+
+    function rgbaFromHex(hex, alpha) {
+      const { r, g, b } = hexToRgb(hex);
+      return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    }
+
+    function decadeLabel(year) {
+      if (!year) return "SIN FECHA";
+      const start = Math.floor(Number(year) / 10) * 10;
+      return `${start}-${start + 9}`;
+    }
+
+    function categoryValue(node, category) {
+      if (category === "year") return decadeLabel(node.year);
+      if (category === "program") return node.program || "SIN PROGRAMA";
+      if (category === "plantel") return node.plantel || "SIN PLANTEL";
+      if (category === "level") return node.level || "SIN NIVEL";
+      if (category === "area") return node.area || "SIN ÁREA";
+      return "SIN CATEGORÍA";
+    }
+
+    function normalizedCategoryLabel(label) {
+      return String(label || "SIN DATO").toUpperCase();
+    }
+
+    function numericGroupKey(label) {
+      const m = String(label).match(/(\d{4})/);
+      return m ? Number(m[1]) : Number.POSITIVE_INFINITY;
+    }
+
+    function areaColor(area) {
+      return AREA_COLORS[area || ""] || "#9a9a9a";
+    }
+
+    function getCategoryColor(label, category) {
+      if (category === "area") return areaColor(label);
+      if (!state.colorMap.has(label)) {
+        state.colorMap.set(label, PALETTE[state.colorMap.size % PALETTE.length]);
+      }
+      return state.colorMap.get(label);
+    }
+
+    function edgeVisualFromSimilarity(weight, targetColor) {
+      const w = Number(weight || 0);
+      const t = clamp((w - 0.70) / 0.25, 0, 1);
+      return {
+        size: 0.35 + t * 2.25,
+        color: rgbaFromHex(targetColor, 0.08 + t * 0.30)
+      };
+    }
+
+    function getFilteredSortedTheses() {
+      let theses = [...allTheses];
+
+      if (state.filterValue !== "__all__") {
+        theses = theses.filter(n => categoryValue(n, state.groupBy) === state.filterValue);
+      }
+
+      if (state.groupBy === "year") {
+        theses.sort((a, b) => {
+          const av = Number(a.year || 0);
+          const bv = Number(b.year || 0);
+          return state.sortOrder === "asc" ? av - bv : bv - av;
+        });
+      } else {
+        theses.sort((a, b) => {
+          const av = Number(a.similarity || 0);
+          const bv = Number(b.similarity || 0);
+          return state.sortOrder === "asc" ? av - bv : bv - av;
+        });
+      }
+
+      return theses.slice(0, state.displayCount);
+    }
+
+    function groupTheses(theses) {
+      const groups = new Map();
+
+      for (const n of theses) {
+        const key = categoryValue(n, state.groupBy);
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(n);
+      }
+
+      let entries = [...groups.entries()];
+
+      if (state.groupBy === "year") {
+        entries.sort((a, b) => {
+          const av = numericGroupKey(a[0]);
+          const bv = numericGroupKey(b[0]);
+          return state.sortOrder === "asc" ? av - bv : bv - av;
+        });
+      } else {
+        entries.sort((a, b) => b[1].length - a[1].length || String(a[0]).localeCompare(String(b[0])));
+      }
+
+      return entries;
+    }
+
+    function buildColorMap(theses) {
+      state.colorMap = new Map();
+      const labels = [...new Set(theses.map(n => categoryValue(n, state.groupBy)))];
+
+      if (state.groupBy === "year") {
+        labels.sort((a, b) => numericGroupKey(a) - numericGroupKey(b));
+      } else {
+        labels.sort();
+      }
+
+      for (const label of labels) {
+        getCategoryColor(label, state.groupBy);
+      }
+    }
+
+    function updateFilterOptions() {
+      const current = state.filterValue;
+      const labels = [...new Set(allTheses.map(n => categoryValue(n, state.groupBy)))];
+
+      if (state.groupBy === "year") {
+        labels.sort((a, b) => numericGroupKey(a) - numericGroupKey(b));
+      } else {
+        labels.sort();
+      }
+
+      filterValueSelect.innerHTML = `<option value="__all__">Todo</option>` +
+        labels.map(label => `<option value="${escapeHTML(label)}">${escapeHTML(normalizedCategoryLabel(label))}</option>`).join("");
+
+      const available = new Set(["__all__", ...labels]);
+      state.filterValue = available.has(current) ? current : "__all__";
+      filterValueSelect.value = state.filterValue;
+    }
+
+    function updateLegend(theses) {
+      const labels = [...new Set(theses.map(n => categoryValue(n, state.groupBy)))].slice(0, 8);
+      legend.innerHTML = labels.map(label => `
+        <div class="legend-chip">
+          <span class="dot" style="background:${getCategoryColor(label, state.groupBy)}"></span>
+          ${escapeHTML(normalizedCategoryLabel(label))}
+        </div>
+      `).join("");
+    }
+
+    function computeUniversePositions(theses) {
+      const positions = {
+        PROJECT: { x: 0, y: 0 },
+        PROJECT_HALO: { x: 0, y: 0 }
+      };
+
+      const sorted = [...theses].sort((a, b) => Number(b.similarity || 0) - Number(a.similarity || 0));
+      const similarities = sorted.map(n => Number(n.similarity || 0));
+      const minSim = Math.min(...similarities);
+      const maxSim = Math.max(...similarities);
+      const span = Math.max(maxSim - minSim, 0.000001);
+
+      const GOLDEN_ANGLE = Math.PI * (3 - Math.sqrt(5));
+      const innerRadius = 0.70;
+      const outerRadius = 3.95;
+
+      sorted.forEach((n, i) => {
+        const simNorm = (Number(n.similarity || minSim) - minSim) / span;
+        const radius = innerRadius + (1 - simNorm) * (outerRadius - innerRadius);
+        const angle = i * GOLDEN_ANGLE + Math.sin(i * 1.71) * 0.18;
+        const jitter = 0.045 * ((i % 5) - 2);
+
+        positions[n.id] = {
+          x: Math.cos(angle) * (radius + jitter),
+          y: Math.sin(angle) * (radius + jitter)
+        };
+      });
+
+      return positions;
+    }
+
+    function computeAnalyticPositions(theses, groups) {
+      const positions = {
+        PROJECT: { x: 0, y: -3.4 },
+        PROJECT_HALO: { x: 0, y: -3.4 }
+      };
+
+      const groupCount = groups.length;
+      const cols = Math.min(4, Math.max(1, Math.ceil(Math.sqrt(groupCount))));
+      const xGap = 3.1;
+      const yGap = 2.45;
+      const startX = -((cols - 1) * xGap) / 2;
+      const startY = -0.25;
+
+      groups.forEach(([label, items], gi) => {
+        const col = gi % cols;
+        const row = Math.floor(gi / cols);
+        const cx = startX + col * xGap;
+        const cy = startY + row * yGap;
+
+        const groupId = `GROUP::${label}`;
+        positions[groupId] = { x: cx, y: cy };
+
+        const sortedItems = [...items];
+        if (state.groupBy === "year") {
+          sortedItems.sort((a, b) => {
+            const av = Number(a.year || 0);
+            const bv = Number(b.year || 0);
+            return state.sortOrder === "asc" ? av - bv : bv - av;
+          });
+        } else {
+          sortedItems.sort((a, b) => Number(b.similarity || 0) - Number(a.similarity || 0));
+        }
+
+        const n = sortedItems.length;
+        const innerCols = Math.ceil(Math.sqrt(n));
+        const spacing = n > 16 ? 0.30 : 0.36;
+        const width = (innerCols - 1) * spacing;
+
+        sortedItems.forEach((node, i) => {
+          const ix = i % innerCols;
+          const iy = Math.floor(i / innerCols);
+          const rows = Math.ceil(n / innerCols);
+          const height = (rows - 1) * spacing;
+
+          positions[node.id] = {
+            x: cx - width / 2 + ix * spacing,
+            y: cy - height / 2 + iy * spacing
+          };
+        });
+      });
+
+      return positions;
+    }
+
+    function ensureGroupNodes(groups) {
+      for (const groupNode of state.groupNodes) {
+        if (graph.hasNode(groupNode)) graph.dropNode(groupNode);
+      }
+
+      state.groupNodes = new Set();
+
+      if (state.mode !== "analytic") return;
+
+      for (const [label, items] of groups) {
+        const id = `GROUP::${label}`;
+        const color = getCategoryColor(label, state.groupBy);
+
+        graph.addNode(id, {
+          nodeKind: "group",
+          type: "circle",
+          x: 0,
+          y: 0,
+          size: 34,
+          color: rgbaFromHex(color, 0.105),
+          label: normalizedCategoryLabel(label),
+          fullLabel: normalizedCategoryLabel(label),
+          displayLabel: normalizedCategoryLabel(label),
+          count: items.length,
+          category: state.groupBy
+        });
+
+        state.groupNodes.add(id);
+      }
+    }
+
+    function applyNodeStyles(theses) {
+      buildColorMap(theses);
+
+      for (const n of allTheses) {
+        if (!graph.hasNode(n.id)) continue;
+
+        const category = categoryValue(n, state.groupBy);
+        const color = getCategoryColor(category, state.groupBy);
+
+        graph.mergeNodeAttributes(n.id, {
+          color,
+          baseColor: color,
+          categoryLabel: category,
+          yearLabel: String(n.year || "")
+        });
+      }
+
+      graph.forEachEdge((edge, attrs, source, target) => {
+        if (!graph.hasNode(target)) return;
+        const targetColor = graph.getNodeAttribute(target, "baseColor") || graph.getNodeAttribute(target, "color") || "#999";
+        const edgeVisual = edgeVisualFromSimilarity(attrs.weight, targetColor);
+
+        graph.mergeEdgeAttributes(edge, {
+          size: edgeVisual.size,
+          color: edgeVisual.color,
+          baseColor: edgeVisual.color,
+          targetColor
+        });
+      });
+    }
+
+    function animateToPositions(positions, duration = 850) {
+      const start = {};
+      const ids = Object.keys(positions);
+
+      for (const id of ids) {
+        if (!graph.hasNode(id)) continue;
+        start[id] = {
+          x: graph.getNodeAttribute(id, "x"),
+          y: graph.getNodeAttribute(id, "y")
+        };
+      }
+
+      const startTime = performance.now();
+
+      function ease(t) {
+        return 1 - Math.pow(1 - t, 3);
+      }
+
+      function frame(now) {
+        const t = clamp((now - startTime) / duration, 0, 1);
+        const k = ease(t);
+
+        for (const id of ids) {
+          if (!graph.hasNode(id) || !start[id]) continue;
+
+          const sx = start[id].x;
+          const sy = start[id].y;
+          const tx = positions[id].x;
+          const ty = positions[id].y;
+
+          graph.setNodeAttribute(id, "x", sx + (tx - sx) * k);
+          graph.setNodeAttribute(id, "y", sy + (ty - sy) * k);
+        }
+
+        renderer.refresh();
+
+        if (t < 1) requestAnimationFrame(frame);
+      }
+
+      requestAnimationFrame(frame);
+    }
+
+    function renderPanel(attrs) {
+      if (!attrs || attrs.nodeKind === "halo" || attrs.nodeKind === "group") return;
+
+      if (attrs.nodeKind === "project") {
+        panel.innerHTML = `
+          <p class="eyebrow">Proyecto</p>
+          <h1 class="thesis-title">${escapeHTML(attrs.displayLabel || attrs.fullLabel || attrs.label)}</h1>
+          <p>Esta es la idea central desde la cual se construye el vecindario académico.</p>
+          <div class="meta-grid">
+            <div class="meta-item">
+              <span class="meta-label">Tipo</span>
+              <span class="meta-value">Proyecto del usuario</span>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      panel.innerHTML = `
+        <p class="eyebrow">Tesis cercana</p>
+        <h1 class="thesis-title">${escapeHTML(attrs.displayLabel || attrs.title || attrs.fullLabel)}</h1>
+        <div class="meta-grid">
+          <div class="meta-item">
+            <span class="meta-label">Año</span>
+            <span class="meta-value">${escapeHTML(attrs.year || "s/f")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Programa</span>
+            <span class="meta-value">${escapeHTML(attrs.program || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Plantel</span>
+            <span class="meta-value">${escapeHTML(attrs.plantel || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Nivel</span>
+            <span class="meta-value">${escapeHTML(attrs.level || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Área</span>
+            <span class="meta-value">${escapeHTML(attrs.area || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Similitud</span>
+            <span class="meta-value">${escapeHTML(attrs.similarity || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Bibliografía</span>
+            <span class="meta-value">${attrs.has_bibliography ? "Disponible" : "No detectada"}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Doc number</span>
+            <span class="meta-value">${escapeHTML(attrs.doc_number_url || "—")}</span>
+          </div>
+        </div>
+        ${attrs.advisor ? `<p style="margin-top:20px"><strong>Asesor:</strong> ${escapeHTML(attrs.advisor)}</p>` : ""}
+      `;
+    }
+
+    function updateTooltip(nodeId, event) {
+      if (
+        !nodeId ||
+        !graph.hasNode(nodeId) ||
+        ["halo", "group"].includes(graph.getNodeAttribute(nodeId, "nodeKind"))
+      ) {
+        tooltip.classList.remove("visible");
+        return;
+      }
+
+      const attrs = graph.getNodeAttributes(nodeId);
+
+      tooltip.innerHTML = `
+        <strong class="tooltip-title">${escapeHTML(attrs.displayLabel || attrs.fullLabel || attrs.label || nodeId)}</strong>
+        ${attrs.program ? `<br><span style="font-family:Archivo,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.045em;font-size:11px;color:#666;">${escapeHTML(attrs.program)} · ${escapeHTML(attrs.year || "s/f")}</span>` : ""}
+      `;
+
+      tooltip.style.left = `${event.clientX}px`;
+      tooltip.style.top = `${event.clientY}px`;
+      tooltip.classList.add("visible");
+    }
+
+    function refreshView(animate = true) {
+      document.body.dataset.mode = state.mode;
+
+      modeUniverse.classList.toggle("active", state.mode === "universe");
+      modeAnalytic.classList.toggle("active", state.mode === "analytic");
+
+      const maxCount = Math.min(300, allTheses.length);
+      countSlider.max = String(maxCount);
+
+      if (state.displayCount > maxCount) state.displayCount = maxCount;
+      countSlider.value = String(state.displayCount);
+      countLabel.textContent = String(state.displayCount);
+
+      updateFilterOptions();
+
+      const visibleTheses = getFilteredSortedTheses();
+      state.visibleIds = new Set(["PROJECT", "PROJECT_HALO", ...visibleTheses.map(n => n.id)]);
+
+      applyNodeStyles(visibleTheses);
+      updateLegend(visibleTheses);
+
+      const groups = groupTheses(visibleTheses);
+      ensureGroupNodes(groups);
+
+      for (const id of state.groupNodes) state.visibleIds.add(id);
+
+      const positions = state.mode === "universe"
+        ? computeUniversePositions(visibleTheses)
+        : computeAnalyticPositions(visibleTheses, groups);
+
+      if (animate) animateToPositions(positions);
+      else {
+        for (const [id, pos] of Object.entries(positions)) {
+          if (!graph.hasNode(id)) continue;
+          graph.setNodeAttribute(id, "x", pos.x);
+          graph.setNodeAttribute(id, "y", pos.y);
+        }
+        renderer.refresh();
+      }
+    }
+
+    function makeGraph(payload) {
+      const g = new Graph({ multi: true, type: "undirected" });
+      projectNode = payload.nodes.find(n => n.type === "project");
+      allTheses = payload.nodes.filter(n => n.type === "thesis");
+
+      g.addNode("PROJECT_HALO", {
+        nodeKind: "halo",
+        type: "circle",
+        x: 0,
+        y: 0,
+        size: 34,
+        color: PROJECT_HALO,
+        label: "",
+        fullLabel: "",
+        displayLabel: ""
+      });
+
+      g.addNode("PROJECT", {
+        ...projectNode,
+        nodeKind: "project",
+        type: "circle",
+        x: 0,
+        y: 0,
+        size: 19,
+        color: PROJECT_COLOR,
+        label: "PROYECTO",
+        fullLabel: projectNode.label || projectNode.title || "Proyecto",
+        displayLabel: String(projectNode.displayLabel || projectNode.label || projectNode.title || "Proyecto").toUpperCase()
+      });
+
+      for (const n of allTheses) {
+        g.addNode(n.id, {
+          ...n,
+          nodeKind: "thesis",
+          type: "circle",
+          x: 0,
+          y: 0,
+          size: n.size || 10,
+          color: n.color || areaColor(n.area),
+          baseColor: n.color || areaColor(n.area),
+          label: String(n.year || ""),
+          fullLabel: n.title || n.label || n.id,
+          displayLabel: String(n.displayLabel || n.title || n.label || n.id).toUpperCase(),
+          yearLabel: String(n.year || ""),
+          categoryLabel: ""
+        });
+      }
+
+      payload.edges.forEach((e, i) => {
+        if (!g.hasNode(e.source) || !g.hasNode(e.target)) return;
+
+        const targetColor = g.getNodeAttribute(e.target, "color") || "#999999";
+        const edgeVisual = edgeVisualFromSimilarity(e.weight, targetColor);
+
+        g.addEdgeWithKey(`e${i}`, e.source, e.target, {
+          ...e,
+          relation: e.type,
+          type: "line",
+          size: edgeVisual.size,
+          color: edgeVisual.color,
+          baseColor: edgeVisual.color,
+          targetColor
+        });
+      });
+
+      return g;
+    }
+
+    loadGraphPayload().then(payload => {
+      graph = makeGraph(payload);
+
+      const defaultUniverse = payload.meta?.defaults?.universe_count || 40;
+      const defaultAnalytic = payload.meta?.defaults?.analytic_count || 100;
+
+      state.displayCount = defaultUniverse;
+      countSlider.max = String(Math.min(300, allTheses.length));
+      countSlider.value = String(state.displayCount);
+      countLabel.textContent = String(state.displayCount);
+
+      renderer = new Sigma(graph, container, {
+        renderEdgeLabels: false,
+        allowInvalidContainer: true,
+        defaultEdgeType: "line",
+        labelFont: "Archivo",
+        labelSize: 11,
+        labelWeight: "600",
+        labelColor: { color: "#222" },
+        defaultEdgeColor: "rgba(0,0,0,0.12)",
+        enableEdgeEvents: false,
+        minCameraRatio: 0.38,
+        maxCameraRatio: 2.8,
+        nodeReducer: (node, data) => {
+          const res = { ...data };
+
+          const visible = state.visibleIds.has(node);
+          if (!visible) {
+            res.hidden = true;
+            return res;
+          }
+
+          const isHovered = node === state.hoveredNode;
+          const isSelected = node === state.selectedNode;
+
+          if (data.nodeKind === "halo") {
+            res.label = "";
+            res.color = PROJECT_HALO;
+            res.size = state.mode === "analytic" ? 24 : 34;
+          }
+
+          if (data.nodeKind === "project") {
+            res.label = "PROYECTO";
+            res.size = state.mode === "analytic" ? 16 : 19;
+            res.color = PROJECT_COLOR;
+          }
+
+          if (data.nodeKind === "thesis") {
+            if (isHovered || isSelected) {
+              res.label = `${data.displayLabel}\n${data.yearLabel || ""}`;
+              res.size = data.size * 1.25;
+            } else {
+              res.label = data.yearLabel || "";
+            }
+          }
+
+          if (data.nodeKind === "group") {
+            res.label = data.displayLabel;
+            res.size = 34;
+          }
+
+          if (state.selectedNode && node !== state.selectedNode) {
+            const neighbors = new Set(graph.neighbors(state.selectedNode));
+            if (!neighbors.has(node) && data.nodeKind !== "group") {
+              res.color = "rgba(170,170,170,0.34)";
+            }
+          }
+
+          if (isSelected) {
+            res.highlighted = true;
+            res.size = res.size * 1.35;
+          }
+
+          return res;
+        },
+        edgeReducer: (edge, data) => {
+          const res = { ...data };
+
+          const [source, target] = graph.extremities(edge);
+
+          if (state.mode === "analytic") {
+            res.hidden = true;
+            return res;
+          }
+
+          if (!state.visibleIds.has(source) || !state.visibleIds.has(target)) {
+            res.hidden = true;
+            return res;
+          }
+
+          if (state.selectedNode) {
+            const extremities = graph.extremities(edge);
+            if (!extremities.includes(state.selectedNode)) {
+              res.hidden = true;
+            } else {
+              res.color = rgbaFromHex(data.targetColor || PROJECT_COLOR, 0.62);
+              res.size = Math.max(Number(data.size || 1), 1.65);
+            }
+          }
+
+          return res;
+        }
+      });
+
+      renderer.on("enterNode", ({ node, event }) => {
+        state.hoveredNode = node;
+        updateTooltip(node, event.original);
+        renderer.refresh();
+      });
+
+      renderer.on("leaveNode", () => {
+        state.hoveredNode = null;
+        tooltip.classList.remove("visible");
+        renderer.refresh();
+      });
+
+      renderer.on("clickNode", ({ node }) => {
+        const kind = graph.getNodeAttribute(node, "nodeKind");
+        if (["halo", "group"].includes(kind)) return;
+
+        state.selectedNode = state.selectedNode === node ? null : node;
+        const attrs = state.selectedNode ? graph.getNodeAttributes(state.selectedNode) : null;
+        if (attrs) renderPanel(attrs);
+        renderer.refresh();
+      });
+
+      renderer.on("clickStage", () => {
+        state.selectedNode = null;
+        tooltip.classList.remove("visible");
+        renderer.refresh();
+      });
+
+      modeUniverse.addEventListener("click", () => {
+        state.mode = "universe";
+        state.displayCount = Math.min(defaultUniverse, allTheses.length);
+        refreshView(true);
+      });
+
+      modeAnalytic.addEventListener("click", () => {
+        state.mode = "analytic";
+        state.displayCount = Math.min(defaultAnalytic, allTheses.length);
+        refreshView(true);
+      });
+
+      groupBySelect.addEventListener("change", () => {
+        state.groupBy = groupBySelect.value;
+        state.filterValue = "__all__";
+        refreshView(true);
+      });
+
+      filterValueSelect.addEventListener("change", () => {
+        state.filterValue = filterValueSelect.value;
+        refreshView(true);
+      });
+
+      sortOrderSelect.addEventListener("change", () => {
+        state.sortOrder = sortOrderSelect.value;
+        refreshView(true);
+      });
+
+      countSlider.addEventListener("input", () => {
+        state.displayCount = Number(countSlider.value);
+        countLabel.textContent = String(state.displayCount);
+        refreshView(true);
+      });
+
+      refreshView(false);
+      renderPanel(graph.getNodeAttributes("PROJECT"));
+
+      const camera = renderer.getCamera();
+      camera.animatedReset({ duration: 500 });
+    }).catch(err => {
+      panel.innerHTML = `
+        <p class="eyebrow">Error</p>
+        <h1>No se pudo cargar el grafo</h1>
+        <p>${escapeHTML(err.message)}</p>
+      `;
+    });
+  </script>
+</body>
+</html>

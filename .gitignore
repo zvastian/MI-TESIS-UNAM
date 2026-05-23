@@ -55,3 +55,34 @@ __pycache__/
 *.pyc
 .venv/
 
+
+# Large datasets / generated data
+*.parquet
+*.npy
+*.npz
+*.zst
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated outputs
+outputs/*.json
+outputs/*.parquet
+outputs/*.npy
+
+# Runtime artifacts
+projects/
+payloads/*.json
+
+# Scratch / temp
+*.save
+a.ipynb
+b.py
+api_project_test.json
+concurrency_*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
