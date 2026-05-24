@@ -7,7 +7,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Montserrat:wght@400;500;600;700&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
 
   <style>
     :root {
@@ -27,7 +27,7 @@
       margin: 0;
       background: var(--bg);
       color: var(--ink);
-      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      font-family: "Montserrat", system-ui, sans-serif;
       overflow: hidden;
     }
 
@@ -52,16 +52,11 @@
     }
 
     .similarity-grid {
-      position: absolute;
-      inset: 0;
-      z-index: 1;
-      pointer-events: none;
-      opacity: 0.74;
-      transition: opacity 500ms ease;
+      display: none;
     }
 
     body[data-mode="analytic"] .similarity-grid {
-      opacity: 0;
+      display: none;
     }
 
     .similarity-grid svg {
@@ -72,21 +67,21 @@
 
     .similarity-grid ellipse {
       fill: none;
-      stroke: rgba(70, 68, 62, 0.115);
-      stroke-width: 0.48;
+      stroke: rgba(70, 68, 62, 0.095);
+      stroke-width: 0.42;
       vector-effect: non-scaling-stroke;
     }
 
     .similarity-grid line,
     .similarity-grid .grid-axis {
-      stroke: rgba(70, 68, 62, 0.055);
-      stroke-width: 0.42;
+      stroke: rgba(70, 68, 62, 0.045);
+      stroke-width: 0.38;
       stroke-dasharray: 1.2 2.8;
       vector-effect: non-scaling-stroke;
     }
 
     .grid-label {
-      font-family: "IBM Plex Mono", "Archivo", ui-monospace, monospace;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
       letter-spacing: 0.04em;
       font-size: 2.15px;
       font-weight: 300;
@@ -107,7 +102,7 @@
     }
 
     .brand {
-      font-family: "Archivo", system-ui, sans-serif;
+      font-family: "Montserrat", system-ui, sans-serif;
       text-transform: uppercase;
       letter-spacing: 0.075em;
       font-size: 12px;
@@ -136,7 +131,7 @@
       border-radius: 999px;
       background: rgba(255, 253, 248, 0.72);
       backdrop-filter: blur(14px);
-      font-family: "Archivo", system-ui, sans-serif;
+      font-family: "Montserrat", system-ui, sans-serif;
       text-transform: uppercase;
       letter-spacing: 0.07em;
       font-size: 10px;
@@ -148,7 +143,7 @@
       border: 0;
       outline: 0;
       background: transparent;
-      font-family: "Archivo", system-ui, sans-serif;
+      font-family: "Montserrat", system-ui, sans-serif;
       text-transform: uppercase;
       letter-spacing: 0.06em;
       font-size: 10px;
@@ -170,7 +165,7 @@
       border-radius: 999px;
       padding: 7px 10px;
       background: transparent;
-      font-family: "Archivo", system-ui, sans-serif;
+      font-family: "Montserrat", system-ui, sans-serif;
       text-transform: uppercase;
       letter-spacing: 0.07em;
       font-size: 10px;
@@ -193,7 +188,7 @@
 
     .eyebrow {
       margin: 0 0 18px;
-      font-family: "Archivo", system-ui, sans-serif;
+      font-family: "Montserrat", system-ui, sans-serif;
       text-transform: uppercase;
       letter-spacing: 0.095em;
       font-size: 11px;
@@ -211,20 +206,20 @@
     }
 
     .thesis-title {
-      font-family: "Archivo", system-ui, sans-serif;
+      font-family: "Cormorant", Georgia, serif;
       text-transform: uppercase;
-      letter-spacing: 0.018em;
-      font-size: 25px;
-      line-height: 1.08;
+      letter-spacing: 0.035em;
+      font-size: 30px;
+      line-height: 0.98;
       font-weight: 700;
     }
 
     .tooltip-title {
-      font-family: "Archivo", system-ui, sans-serif;
+      font-family: "Cormorant", Georgia, serif;
       text-transform: uppercase;
-      letter-spacing: 0.045em;
-      font-size: 11px;
-      line-height: 1.25;
+      letter-spacing: 0.055em;
+      font-size: 14px;
+      line-height: 1.05;
       font-weight: 700;
     }
 
@@ -232,7 +227,9 @@
       margin: 0 0 18px;
       color: #45413a;
       line-height: 1.55;
-      font-size: 15px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
     }
 
     .meta-grid {
@@ -249,20 +246,20 @@
     }
 
     .meta-label {
-      font-family: "Archivo", system-ui, sans-serif;
+      font-family: "Montserrat", system-ui, sans-serif;
       text-transform: uppercase;
       letter-spacing: 0.09em;
       font-size: 10px;
-      font-weight: 600;
+      font-weight: 400;
       color: var(--muted);
     }
 
     .meta-value {
-      font-family: "Archivo", system-ui, sans-serif;
+      font-family: "Montserrat", system-ui, sans-serif;
       text-transform: uppercase;
       letter-spacing: 0.045em;
       font-size: 12px;
-      font-weight: 600;
+      font-weight: 700;
       color: #24211d;
     }
 
@@ -278,6 +275,10 @@
       pointer-events: none;
     }
 
+    body[data-mode="analytic"] .legend {
+      display: none;
+    }
+
     .legend-chip {
       display: flex;
       align-items: center;
@@ -287,7 +288,7 @@
       border-radius: 999px;
       background: rgba(255,255,255,0.68);
       backdrop-filter: blur(10px);
-      font-family: "Archivo", system-ui, sans-serif;
+      font-family: "Montserrat", system-ui, sans-serif;
       text-transform: uppercase;
       letter-spacing: 0.06em;
       font-size: 10px;
@@ -300,6 +301,136 @@
       border-radius: 50%;
       display: inline-block;
     }
+
+
+    .main-tabs {
+      position: fixed;
+      top: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 30;
+      display: inline-flex;
+      gap: 4px;
+      padding: 4px;
+      border: 1px solid rgba(215, 208, 196, 0.88);
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.82);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    }
+
+    .tab-btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 8px 12px;
+      background: transparent;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #625d55;
+      cursor: pointer;
+    }
+
+    .tab-btn.active {
+      background: #1d1b18;
+      color: #fffdf8;
+    }
+
+    .tab-shell {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .tab-panel {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 160ms ease, visibility 160ms ease;
+    }
+
+    body[data-tab="inicio"] .tab-panel[data-panel="inicio"],
+    body[data-tab="explorar"] .tab-panel[data-panel="explorar"],
+    body[data-tab="taller"] .tab-panel[data-panel="taller"],
+    body[data-tab="laboratorio"] .tab-panel[data-panel="laboratorio"] {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .simple-panel {
+      width: 100%;
+      height: 100%;
+      padding: 110px 8vw 70px;
+      overflow: auto;
+      background:
+        radial-gradient(circle at 50% 35%, rgba(255,255,255,0.98) 0%, rgba(250,248,243,0.95) 46%, rgba(242,239,232,1) 100%);
+    }
+
+    .simple-panel-inner {
+      max-width: 920px;
+    }
+
+    .simple-panel h1 {
+      max-width: 760px;
+      margin-bottom: 22px;
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: clamp(42px, 6vw, 82px);
+      line-height: 0.92;
+    }
+
+    .simple-panel p {
+      max-width: 680px;
+      font-size: 13px;
+    }
+
+    .simple-grid {
+      margin-top: 34px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      max-width: 900px;
+    }
+
+    .simple-card {
+      border-top: 1px solid var(--line);
+      padding-top: 16px;
+    }
+
+    .simple-card h2 {
+      margin: 0 0 10px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.075em;
+      font-size: 12px;
+    }
+
+    .simple-card p {
+      margin: 0;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 860px) {
+      .main-tabs {
+        left: 14px;
+        right: 14px;
+        transform: none;
+        justify-content: center;
+        overflow-x: auto;
+      }
+
+      .simple-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
 
     .tooltip {
       position: absolute;
@@ -323,7 +454,42 @@
   </style>
 </head>
 
-<body data-mode="universe">
+<body data-mode="universe" data-tab="inicio">
+  <nav class="main-tabs" aria-label="Secciones">
+    <button class="tab-btn active" type="button" data-tab-target="inicio">Inicio</button>
+    <button class="tab-btn" type="button" data-tab-target="explorar">Explorar</button>
+    <button class="tab-btn" type="button" data-tab-target="taller">Taller</button>
+    <button class="tab-btn" type="button" data-tab-target="laboratorio">Laboratorio</button>
+  </nav>
+
+  <div class="tab-shell">
+    <section class="tab-panel" data-panel="inicio">
+      <div class="simple-panel">
+        <div class="simple-panel-inner">
+          <p class="eyebrow">Nodo UNAM</p>
+          <h1>Exploración académica del acervo</h1>
+          <p>
+            Un espacio para recorrer tesis cercanas, leer relaciones semánticas y preparar nuevas formas de trabajo con el archivo.
+          </p>
+          <div class="simple-grid">
+            <article class="simple-card">
+              <h2>Explorar</h2>
+              <p>Visualiza vecindarios semánticos y cambia entre universo y vista analítica.</p>
+            </article>
+            <article class="simple-card">
+              <h2>Taller</h2>
+              <p>Reserva para ejercicios, guías de lectura y dinámicas de interpretación.</p>
+            </article>
+            <article class="simple-card">
+              <h2>Laboratorio</h2>
+              <p>Reserva para pruebas, prototipos y análisis experimentales.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" data-panel="explorar">
   <main class="app">
     <section class="stage">
       <div class="topbar">
@@ -350,14 +516,6 @@
             Filtro
             <select id="filterValue">
               <option value="__all__">Todo</option>
-            </select>
-          </label>
-
-          <label class="control">
-            Orden
-            <select id="sortOrder">
-              <option value="desc">Mayor → menor</option>
-              <option value="asc">Menor → mayor</option>
             </select>
           </label>
 
@@ -398,13 +556,58 @@
       </p>
     </aside>
   </main>
+    </section>
+
+    <section class="tab-panel" data-panel="taller">
+      <div class="simple-panel">
+        <div class="simple-panel-inner">
+          <p class="eyebrow">Taller</p>
+          <h1>Materiales de trabajo</h1>
+          <p>
+            Este espacio queda preparado para agregar ejercicios, notas metodológicas, consignas y herramientas de acompañamiento.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" data-panel="laboratorio">
+      <div class="simple-panel">
+        <div class="simple-panel-inner">
+          <p class="eyebrow">Laboratorio</p>
+          <h1>Pruebas y prototipos</h1>
+          <p>
+            Este espacio queda preparado para incorporar experimentos, métricas, comparaciones y visualizaciones adicionales.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
 
   <script type="module">
     import Graph from "https://cdn.jsdelivr.net/npm/graphology@0.25.4/+esm";
     import Sigma from "https://cdn.jsdelivr.net/npm/sigma@3/+esm";
 
-    const PROJECT_COLOR = "#6B4BB7";
-    const PROJECT_HALO = "rgba(183, 160, 230, 0.28)";
+    const tabButtons = [...document.querySelectorAll("[data-tab-target]")];
+
+    function setActiveTab(tab) {
+      document.body.dataset.tab = tab;
+
+      for (const button of tabButtons) {
+        button.classList.toggle("active", button.dataset.tabTarget === tab);
+      }
+
+      if (tab === "explorar" && renderer) {
+        requestAnimationFrame(() => renderer.refresh());
+      }
+    }
+
+    for (const button of tabButtons) {
+      button.addEventListener("click", () => setActiveTab(button.dataset.tabTarget));
+    }
+
+
+    const PROJECT_COLOR = "#111111";
+    const PROJECT_HALO = "rgba(0, 0, 0, 0)";
 
     const AREA_COLORS = {
       "Area 1": "#7A1E3A",
@@ -425,10 +628,9 @@
       mode: "universe",
       groupBy: "year",
       filterValue: "__all__",
-      sortOrder: "desc",
       displayCount: 40,
       hoveredNode: null,
-      selectedNode: null,
+      selectedNode: "PROJECT",
       visibleIds: new Set(),
       groupNodes: new Set(),
       colorMap: new Map()
@@ -443,7 +645,7 @@
     const modeAnalytic = document.getElementById("modeAnalytic");
     const groupBySelect = document.getElementById("groupBy");
     const filterValueSelect = document.getElementById("filterValue");
-    const sortOrderSelect = document.getElementById("sortOrder");
+    const sortOrderSelect = null;
     const countSlider = document.getElementById("countSlider");
     const countLabel = document.getElementById("countLabel");
 
@@ -541,19 +743,8 @@
         theses = theses.filter(n => categoryValue(n, state.groupBy) === state.filterValue);
       }
 
-      if (state.groupBy === "year") {
-        theses.sort((a, b) => {
-          const av = Number(a.year || 0);
-          const bv = Number(b.year || 0);
-          return state.sortOrder === "asc" ? av - bv : bv - av;
-        });
-      } else {
-        theses.sort((a, b) => {
-          const av = Number(a.similarity || 0);
-          const bv = Number(b.similarity || 0);
-          return state.sortOrder === "asc" ? av - bv : bv - av;
-        });
-      }
+      // Always display closest theses first by semantic similarity.
+      theses.sort((a, b) => Number(b.similarity || 0) - Number(a.similarity || 0));
 
       return theses.slice(0, state.displayCount);
     }
@@ -569,15 +760,12 @@
 
       let entries = [...groups.entries()];
 
-      if (state.groupBy === "year") {
-        entries.sort((a, b) => {
-          const av = numericGroupKey(a[0]);
-          const bv = numericGroupKey(b[0]);
-          return state.sortOrder === "asc" ? av - bv : bv - av;
-        });
-      } else {
-        entries.sort((a, b) => b[1].length - a[1].length || String(a[0]).localeCompare(String(b[0])));
-      }
+      // Groups with the closest thesis appear first.
+      entries.sort((a, b) => {
+        const aMax = Math.max(...a[1].map(n => Number(n.similarity || 0)));
+        const bMax = Math.max(...b[1].map(n => Number(n.similarity || 0)));
+        return bMax - aMax || b[1].length - a[1].length;
+      });
 
       return entries;
     }
@@ -675,36 +863,42 @@
         const cx = startX + col * xGap;
         const cy = startY + row * yGap;
 
-        const groupId = `GROUP::${label}`;
-        positions[groupId] = { x: cx, y: cy };
-
         const sortedItems = [...items];
-        if (state.groupBy === "year") {
-          sortedItems.sort((a, b) => {
-            const av = Number(a.year || 0);
-            const bv = Number(b.year || 0);
-            return state.sortOrder === "asc" ? av - bv : bv - av;
-          });
-        } else {
-          sortedItems.sort((a, b) => Number(b.similarity || 0) - Number(a.similarity || 0));
-        }
+
+        // Within every analytic group, closest theses come first.
+        sortedItems.sort((a, b) => Number(b.similarity || 0) - Number(a.similarity || 0));
 
         const n = sortedItems.length;
         const innerCols = Math.ceil(Math.sqrt(n));
         const spacing = n > 16 ? 0.30 : 0.36;
         const width = (innerCols - 1) * spacing;
+        const rows = Math.ceil(n / innerCols);
+        const height = (rows - 1) * spacing;
+
+        let lowerRight = { x: cx, y: cy };
 
         sortedItems.forEach((node, i) => {
           const ix = i % innerCols;
           const iy = Math.floor(i / innerCols);
-          const rows = Math.ceil(n / innerCols);
-          const height = (rows - 1) * spacing;
 
-          positions[node.id] = {
-            x: cx - width / 2 + ix * spacing,
-            y: cy - height / 2 + iy * spacing
-          };
+          const x = cx - width / 2 + ix * spacing;
+          const y = cy - height / 2 + iy * spacing;
+
+          positions[node.id] = { x, y };
+
+          // Reference: lower-right visible thesis node.
+          if (y > lowerRight.y || (Math.abs(y - lowerRight.y) < 1e-6 && x > lowerRight.x)) {
+            lowerRight = { x, y };
+          }
         });
+
+        const groupId = `GROUP::${label}`;
+
+        // Put subtitle below the lower-right ball, pulled back toward the group center.
+        positions[groupId] = {
+          x: lowerRight.x + (cx - lowerRight.x) * 0.52,
+          y: lowerRight.y + 0.42
+        };
       });
 
       return positions;
@@ -728,8 +922,8 @@
           type: "circle",
           x: 0,
           y: 0,
-          size: 34,
-          color: rgbaFromHex(color, 0.105),
+          size: 18,
+          color: rgbaFromHex(color, 0.035),
           label: normalizedCategoryLabel(label),
           fullLabel: normalizedCategoryLabel(label),
           displayLabel: normalizedCategoryLabel(label),
@@ -825,7 +1019,7 @@
           <div class="meta-grid">
             <div class="meta-item">
               <span class="meta-label">Tipo</span>
-              <span class="meta-value">Proyecto del usuario</span>
+              <span class="meta-value">PROYECTO DEL USUARIO</span>
             </div>
           </div>
         `;
@@ -861,6 +1055,10 @@
             <span class="meta-value">${escapeHTML(attrs.similarity || "—")}</span>
           </div>
           <div class="meta-item">
+            <span class="meta-label">Autor</span>
+            <span class="meta-value">${escapeHTML(String(attrs.author || "—").toUpperCase())}</span>
+          </div>
+          <div class="meta-item">
             <span class="meta-label">Bibliografía</span>
             <span class="meta-value">${attrs.has_bibliography ? "Disponible" : "No detectada"}</span>
           </div>
@@ -869,7 +1067,14 @@
             <span class="meta-value">${escapeHTML(attrs.doc_number_url || "—")}</span>
           </div>
         </div>
-        ${attrs.advisor ? `<p style="margin-top:20px"><strong>Asesor:</strong> ${escapeHTML(attrs.advisor)}</p>` : ""}
+        ${attrs.advisor ? `
+          <div class="meta-grid" style="margin-top:20px">
+            <div class="meta-item">
+              <span class="meta-label">Asesor</span>
+              <span class="meta-value">${escapeHTML(String(attrs.advisor).toUpperCase())}</span>
+            </div>
+          </div>
+        ` : ""}
       `;
     }
 
@@ -887,7 +1092,12 @@
 
       tooltip.innerHTML = `
         <strong class="tooltip-title">${escapeHTML(attrs.displayLabel || attrs.fullLabel || attrs.label || nodeId)}</strong>
-        ${attrs.program ? `<br><span style="font-family:Archivo,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.045em;font-size:11px;color:#666;">${escapeHTML(attrs.program)} · ${escapeHTML(attrs.year || "s/f")}</span>` : ""}
+        <br>
+        <span style="font-family:Montserrat,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.045em;font-size:11px;color:#666;">
+          ${escapeHTML(attrs.program || "SIN PROGRAMA")} · ${escapeHTML(attrs.year || "S/F")}
+        </span>
+        ${attrs.plantel ? `<br><span style="font-family:Montserrat,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.045em;font-size:10px;color:#777;">${escapeHTML(attrs.plantel)}</span>` : ""}
+        ${attrs.author ? `<br><span style="font-family:Montserrat,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.045em;font-size:10px;color:#777;">AUTOR: ${escapeHTML(attrs.author)}</span>` : ""}
       `;
 
       tooltip.style.left = `${event.clientX}px`;
@@ -946,8 +1156,8 @@
         type: "circle",
         x: 0,
         y: 0,
-        size: 34,
-        color: PROJECT_HALO,
+        size: 0,
+        color: "rgba(0,0,0,0)",
         label: "",
         fullLabel: "",
         displayLabel: ""
@@ -979,6 +1189,7 @@
           label: String(n.year || ""),
           fullLabel: n.title || n.label || n.id,
           displayLabel: String(n.displayLabel || n.title || n.label || n.id).toUpperCase(),
+          author: n.author || "",
           yearLabel: String(n.year || ""),
           categoryLabel: ""
         });
@@ -1019,9 +1230,9 @@
         renderEdgeLabels: false,
         allowInvalidContainer: true,
         defaultEdgeType: "line",
-        labelFont: "Archivo",
-        labelSize: 11,
-        labelWeight: "600",
+        labelFont: "Montserrat",
+        labelSize: 10,
+        labelWeight: "500",
         labelColor: { color: "#222" },
         defaultEdgeColor: "rgba(0,0,0,0.12)",
         enableEdgeEvents: false,
@@ -1041,28 +1252,31 @@
 
           if (data.nodeKind === "halo") {
             res.label = "";
-            res.color = PROJECT_HALO;
-            res.size = state.mode === "analytic" ? 24 : 34;
+            res.hidden = true;
+            res.color = "rgba(0,0,0,0)";
+            res.size = 0;
           }
 
           if (data.nodeKind === "project") {
-            res.label = "PROYECTO";
+            res.label = (isSelected || isHovered) ? "PROYECTO" : "";
             res.size = state.mode === "analytic" ? 16 : 19;
             res.color = PROJECT_COLOR;
           }
 
           if (data.nodeKind === "thesis") {
+            // Keep node labels minimal. Detailed hover information lives only in the tooltip.
+            res.label = state.mode === "analytic" ? "" : (data.yearLabel || "");
+
             if (isHovered || isSelected) {
-              res.label = `${data.displayLabel}\n${data.yearLabel || ""}`;
               res.size = data.size * 1.25;
-            } else {
-              res.label = data.yearLabel || "";
             }
           }
 
           if (data.nodeKind === "group") {
             res.label = data.displayLabel;
-            res.size = 34;
+            res.size = 0.2;
+            res.color = "rgba(0,0,0,0)";
+            res.forceLabel = true;
           }
 
           if (state.selectedNode && node !== state.selectedNode) {
@@ -1159,11 +1373,6 @@
         refreshView(true);
       });
 
-      sortOrderSelect.addEventListener("change", () => {
-        state.sortOrder = sortOrderSelect.value;
-        refreshView(true);
-      });
-
       countSlider.addEventListener("input", () => {
         state.displayCount = Number(countSlider.value);
         countLabel.textContent = String(state.displayCount);
@@ -1171,7 +1380,9 @@
       });
 
       refreshView(false);
+      state.selectedNode = "PROJECT";
       renderPanel(graph.getNodeAttributes("PROJECT"));
+      renderer.refresh();
 
       const camera = renderer.getCamera();
       camera.animatedReset({ duration: 500 });

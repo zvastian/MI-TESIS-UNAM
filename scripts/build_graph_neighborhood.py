@@ -146,6 +146,12 @@ def build_graph_from_query(query: str, top_k: int = 100):
             or safe_str(row.get("plantel_final"))
         )
 
+        author = (
+            safe_str(row.get("autor_limpio_v2"))
+            or safe_str(row.get("autor_limpio"))
+            or safe_str(row.get("autor(es)"))
+        )
+
         nodes.append({
             "id": thesis_id,
             "type": "thesis",
@@ -156,6 +162,7 @@ def build_graph_from_query(query: str, top_k: int = 100):
             "year": None if pd.isna(row.get("Año")) else int(row.get("Año")),
             "program": safe_str(row.get("programa")),
             "plantel": plantel,
+            "author": author,
             "area": area,
             "level": safe_str(row.get("nivel_estandar")),
             "advisor": safe_str(row.get("asesores_limpios_v2")),
@@ -171,6 +178,24 @@ def build_graph_from_query(query: str, top_k: int = 100):
             "type": "semantic_similarity",
             "weight": round(float(row.get("similarity")), 6),
         })
+
+    top_cols = [
+        "thesis_id",
+        "doc_number_url",
+        "titulo_limpio",
+        "programa",
+        "plantel_limpio_final",
+        "autor_limpio_v2",
+        "autor_limpio",
+        "autor(es)",
+        "Año",
+        "area",
+        "nivel_estandar",
+        "asesores_limpios_v2",
+        "has_bibliography",
+        "similarity",
+    ]
+    top_cols = [c for c in top_cols if c in top.columns]
 
     payload = {
         "meta": {
@@ -190,19 +215,7 @@ def build_graph_from_query(query: str, top_k: int = 100):
         },
         "nodes": nodes,
         "edges": edges,
-        "top_theses": top[[
-            "thesis_id",
-            "doc_number_url",
-            "titulo_limpio",
-            "programa",
-            "plantel_limpio_final",
-            "Año",
-            "area",
-            "nivel_estandar",
-            "asesores_limpios_v2",
-            "has_bibliography",
-            "similarity",
-        ]].to_dict("records"),
+        "top_theses": top[top_cols].to_dict("records"),
     }
 
     return payload
