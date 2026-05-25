@@ -1,0 +1,1302 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 12,
+    "macro_label": "EFECTO · ESTUDIO · CARACTERIZACION · RATAS",
+    "size": 901,
+    "microcluster_count": 4,
+    "microclusters": [
+      {
+        "microcluster_id": 137,
+        "macrocluster_id": 12,
+        "micro_label": "CARACTERIZACION · COLI · ESTUDIO · ESCHERICHIA",
+        "size": 346,
+        "x": 6.492528,
+        "y": 2.110855,
+        "year_min": 1909,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "caracterizacion",
+            "score": 0.035317
+          },
+          {
+            "term": "coli",
+            "score": 0.029307
+          },
+          {
+            "term": "estudio",
+            "score": 0.027926
+          },
+          {
+            "term": "escherichia",
+            "score": 0.025959
+          },
+          {
+            "term": "escherichia coli",
+            "score": 0.02546
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.022241
+          },
+          {
+            "term": "actividad",
+            "score": 0.022008
+          },
+          {
+            "term": "bacterias",
+            "score": 0.020802
+          },
+          {
+            "term": "cepas",
+            "score": 0.020477
+          },
+          {
+            "term": "efecto",
+            "score": 0.016505
+          },
+          {
+            "term": "produccion",
+            "score": 0.015963
+          },
+          {
+            "term": "mediante",
+            "score": 0.015008
+          },
+          {
+            "term": "bacillus",
+            "score": 0.014873
+          },
+          {
+            "term": "pseudomonas",
+            "score": 0.014871
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 79
+          },
+          {
+            "label": "biologia",
+            "count": 68
+          },
+          {
+            "label": "ciencias bioquimicas",
+            "count": 34
+          },
+          {
+            "label": "quimica de alimentos",
+            "count": 25
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 19
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 14
+          },
+          {
+            "label": "investigacion biomedica basica",
+            "count": 13
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 11
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 294
+          },
+          {
+            "label": "Area 1",
+            "count": 52
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 225
+          },
+          {
+            "label": "Maestría",
+            "count": 67
+          },
+          {
+            "label": "Doctorado",
+            "count": 34
+          },
+          {
+            "label": "Especialidad",
+            "count": 20
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 318
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias bioquímicas",
+            "count": 5
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de química",
+            "count": 3
+          },
+          {
+            "label": "universidad motolinia (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad de ixtlahuaca cui",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias de la producción y de la salud animal",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 2
+          },
+          {
+            "label": "instituto universitario del norte (chihuahua, chi.). escuela de odontologia,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.150289,
+          "Area 2": 0.849711,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 294,
+            "pct": 0.849711
+          },
+          {
+            "area": "Area 1",
+            "count": 52,
+            "pct": 0.150289
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0062140",
+            "doc_number_url": null,
+            "title": "importancia del estudio bacteriologico de los productos faringeos en el diagnostico de la difteria y manera de efectuarlo",
+            "program": "medico cirujano",
+            "year": 1909,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Rivera, Francisco",
+            "advisor": "",
+            "x": 6.483877,
+            "y": 2.110286,
+            "cluster_strength": 0.979563
+          },
+          {
+            "thesis_id": "TH_0401012",
+            "doc_number_url": "000669294",
+            "title": "manual de diagnóstico microbiológico de campylobacter jejuni",
+            "program": "quimica farmaceutico biologica",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Jaloma Avendaño, Roberto Enrique",
+            "advisor": "González Meléndez, Roberto Cruz",
+            "x": 6.512243,
+            "y": 2.122699,
+            "cluster_strength": 0.986197
+          },
+          {
+            "thesis_id": "TH_0492895",
+            "doc_number_url": "000776815",
+            "title": "susceptibilidad in vitro de pseudomonas aeruginosa multidrogorresistente a ceftolozano",
+            "program": "infectologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Andrés Hernández, Mónica Selene",
+            "advisor": "Avilés Robles, Martha J ; Moreno Espinosa, Sarbelio",
+            "x": 6.484691,
+            "y": 2.141658,
+            "cluster_strength": 0.6523
+          },
+          {
+            "thesis_id": "TH_0559585",
+            "doc_number_url": "000856402",
+            "title": "\"percepción del uso y de la resistencia de los antimicrobianos en unidades de producción de méxico\"",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "González Balgañón, Diana Paola",
+            "advisor": "Alanis-Gallardo, Valeria María",
+            "x": 6.515121,
+            "y": 2.083066,
+            "cluster_strength": 0.832105
+          },
+          {
+            "thesis_id": "TH_0323769",
+            "doc_number_url": "000612567",
+            "title": "factores geneticos que determinan resistencia intrinseca de pseudomonas aeruginosa contra carbapemens",
+            "program": "medicina interna",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Pellicer Torres, Antonio",
+            "advisor": "Navarrete Castro, Rogelio",
+            "x": 6.494247,
+            "y": 2.146629,
+            "cluster_strength": 0.978643
+          },
+          {
+            "thesis_id": "TH_0452203",
+            "doc_number_url": "000728663",
+            "title": "caracterización de proteasas de actinobacillus seminis",
+            "program": "biologia",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Cruz Montoya, Aldo H. de la",
+            "advisor": "Negrete Abascal, Erasmo",
+            "x": 6.489707,
+            "y": 2.14727,
+            "cluster_strength": 0.620109
+          },
+          {
+            "thesis_id": "TH_0402487",
+            "doc_number_url": "000669306",
+            "title": "compuestos derivados del extracto etanólico del propóleo con actividad antibacteriana sobre streptococcus mutans y porphyromonas gingivalis",
+            "program": "quimica farmaceutico biologica",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Medina Ramos, Montserrat",
+            "advisor": "Rivero Cruz, José Fausto",
+            "x": 6.524478,
+            "y": 2.092893,
+            "cluster_strength": 0.915199
+          },
+          {
+            "thesis_id": "TH_0174886",
+            "doc_number_url": "000040131",
+            "title": "aislamiento y caracterizacion de un bacteriofago transductor de psedomonas aeruginosa. construccion de un fago transductor con un marcador de resistencia a ampicilina y represor termosensible",
+            "program": "biologia",
+            "year": 1985,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Arenas Aranda, Diego Julio",
+            "advisor": "Vaca Pacheco, Sergio",
+            "x": 6.525395,
+            "y": 2.128202,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 115,
+        "macrocluster_id": 12,
+        "micro_label": "RATAS · EFECTO · RATA · CELULAS",
+        "size": 301,
+        "x": 6.835284,
+        "y": 0.950109,
+        "year_min": 1947,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "ratas",
+            "score": 0.052239
+          },
+          {
+            "term": "efecto",
+            "score": 0.052026
+          },
+          {
+            "term": "rata",
+            "score": 0.048585
+          },
+          {
+            "term": "celulas",
+            "score": 0.027672
+          },
+          {
+            "term": "modelo",
+            "score": 0.025529
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.02527
+          },
+          {
+            "term": "estudio",
+            "score": 0.025077
+          },
+          {
+            "term": "ratones",
+            "score": 0.022231
+          },
+          {
+            "term": "memoria",
+            "score": 0.021174
+          },
+          {
+            "term": "corteza",
+            "score": 0.020447
+          },
+          {
+            "term": "hipocampo",
+            "score": 0.019747
+          },
+          {
+            "term": "actividad",
+            "score": 0.019653
+          },
+          {
+            "term": "expresion",
+            "score": 0.019164
+          },
+          {
+            "term": "neuronas",
+            "score": 0.018032
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "biologia",
+            "count": 62
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 39
+          },
+          {
+            "label": "psicologia",
+            "count": 34
+          },
+          {
+            "label": "ciencias biomedicas",
+            "count": 32
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 24
+          },
+          {
+            "label": "ciencias bioquimicas",
+            "count": 22
+          },
+          {
+            "label": "neurobiologia",
+            "count": 13
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 10
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 245
+          },
+          {
+            "label": "Area 1",
+            "count": 51
+          },
+          {
+            "label": "Area 3",
+            "count": 4
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 165
+          },
+          {
+            "label": "Maestría",
+            "count": 71
+          },
+          {
+            "label": "Doctorado",
+            "count": 48
+          },
+          {
+            "label": "Especialidad",
+            "count": 15
+          },
+          {
+            "label": "desconocido",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 292
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores cuautitlan institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias bioquímicas",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biológicas",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biomédicas",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de psicología",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.169435,
+          "Area 2": 0.813953,
+          "Area 3": 0.013289,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.003322
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 245,
+            "pct": 0.813953
+          },
+          {
+            "area": "Area 1",
+            "count": 51,
+            "pct": 0.169435
+          },
+          {
+            "area": "Area 3",
+            "count": 4,
+            "pct": 0.013289
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.003322
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0041362",
+            "doc_number_url": "000319357",
+            "title": "papel del ph intracelular en la muerte apoptotica de neuronas granulares de cerebro de rata",
+            "program": "biologia",
+            "year": 2003,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Franco Cea, Omar Ari",
+            "advisor": "Morán Andrade, Julio Eduardo Roque",
+            "x": 6.833195,
+            "y": 0.938393,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0003983",
+            "doc_number_url": "000286639",
+            "title": "regulacion de los canales de calcio tipo n por proteinas g en neuronas del ganglio simpatico cervical superior",
+            "program": "biologia",
+            "year": 2000,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Hernandez Castellanos, Juan Manuel",
+            "advisor": "Garcia Diaz, David Erasmo",
+            "x": 6.852807,
+            "y": 0.954688,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0503676",
+            "doc_number_url": null,
+            "title": "efecto de la prolactina sobre el balance energético y el funcionamiento mitocondrial en un modelo de neuroprotección en cultivos primarios de neuronas hipocampales",
+            "program": "ciencias biomedicas",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Rivero Segura, Nadia Alejandra",
+            "advisor": "Cerbón Cervantes, Marco Antonio",
+            "x": 6.853363,
+            "y": 0.958295,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0381118",
+            "doc_number_url": "000794495",
+            "title": "aplicación de neurotubo de poli e-caprolactona como biomaterial para la renervación de lesiones de nervio periférico en ratas",
+            "program": "ortopedia",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Vargas Zavala, Cinthya Vianey",
+            "advisor": "Arroyo Berezowsky, Claudia ; Zamora Muñoz, Paola",
+            "x": 6.821655,
+            "y": 0.971946,
+            "cluster_strength": 0.709955
+          },
+          {
+            "thesis_id": "TH_0468041",
+            "doc_number_url": "000745075",
+            "title": "papel del estrés reticular mediado por la vía de perk y activación de la caspasa-12 durante la muerte neuronal inducida por la ausencia de glucosa en neuronas de hipocampo cultivadas",
+            "program": "ciencias bioquimicas",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "García de la Cadena Farfan, Selene",
+            "advisor": "Massieu, Lourdes",
+            "x": 6.848578,
+            "y": 0.924465,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0452853",
+            "doc_number_url": "000733481",
+            "title": "participación de los receptores de adenosina a2a en la modulación y plasticidad corticoestriatal",
+            "program": "biologia",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Espíritu Santo Barajas, Edmundo",
+            "advisor": "Hernández Echeagaray, Elizabeth",
+            "x": 6.854338,
+            "y": 0.923836,
+            "cluster_strength": 0.621793
+          },
+          {
+            "thesis_id": "TH_0169775",
+            "doc_number_url": "000043645",
+            "title": "el papel que juegan los mecanoreceptores parodontales en el proceso de integracion del reflejo de la masticacion",
+            "program": "cirujano dentista",
+            "year": 1984,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Gonzalez Rodriguez, Rosa Laura",
+            "advisor": "Magaña Ahedo, Luis",
+            "x": 6.808193,
+            "y": 0.931238,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0350660",
+            "doc_number_url": "000628446",
+            "title": "muerte neuronal inducida por ausencia de glucosa : participación de la excitotoxicidad y el estrés oxidativo",
+            "program": "biologia",
+            "year": 2008,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Páramo Sánchez, Blanca Estela",
+            "advisor": "Massieu Trigo, María Lourdes",
+            "x": 6.863482,
+            "y": 0.931311,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 138,
+        "macrocluster_id": 12,
+        "micro_label": "PROTEINAS · PROTEINA · CARACTERIZACION · ESTUDIO",
+        "size": 147,
+        "x": 6.266311,
+        "y": 1.547674,
+        "year_min": 1925,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "proteinas",
+            "score": 0.074647
+          },
+          {
+            "term": "proteina",
+            "score": 0.059974
+          },
+          {
+            "term": "caracterizacion",
+            "score": 0.049106
+          },
+          {
+            "term": "estudio",
+            "score": 0.044848
+          },
+          {
+            "term": "analisis",
+            "score": 0.039953
+          },
+          {
+            "term": "expresion",
+            "score": 0.039698
+          },
+          {
+            "term": "celular",
+            "score": 0.033519
+          },
+          {
+            "term": "celulosa",
+            "score": 0.028847
+          },
+          {
+            "term": "celulas",
+            "score": 0.028511
+          },
+          {
+            "term": "histolytica",
+            "score": 0.02709
+          },
+          {
+            "term": "entamoeba",
+            "score": 0.02709
+          },
+          {
+            "term": "entamoeba histolytica",
+            "score": 0.02709
+          },
+          {
+            "term": "gen",
+            "score": 0.024451
+          },
+          {
+            "term": "determinacion",
+            "score": 0.023809
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "biologia",
+            "count": 32
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 23
+          },
+          {
+            "label": "ciencias bioquimicas",
+            "count": 21
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 8
+          },
+          {
+            "label": "quimica",
+            "count": 7
+          },
+          {
+            "label": "investigacion biomedica basica",
+            "count": 5
+          },
+          {
+            "label": "ciencias biomedicas",
+            "count": 4
+          },
+          {
+            "label": "ciencias quimicas",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 116
+          },
+          {
+            "label": "Area 1",
+            "count": 29
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 86
+          },
+          {
+            "label": "Maestría",
+            "count": 31
+          },
+          {
+            "label": "Doctorado",
+            "count": 17
+          },
+          {
+            "label": "Especialidad",
+            "count": 13
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 138
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias bioquímicas",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          },
+          {
+            "label": "instituto de biotecnologia,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de química",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.197279,
+          "Area 2": 0.789116,
+          "Area 3": 0.006803,
+          "Area 4": 0.006803,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 116,
+            "pct": 0.789116
+          },
+          {
+            "area": "Area 1",
+            "count": 29,
+            "pct": 0.197279
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.006803
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.006803
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0304585",
+            "doc_number_url": "000675593",
+            "title": "clonación y expresión de la región amino terminal, aminoácidos 1-16 y en su combinación aleatoria, del péptido beta amiloide en superficie de fago m13",
+            "program": "quimica farmaceutico biologica",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Fuentes Miranda, Carlos Jorge",
+            "advisor": "Manucharyan Airapetiean, Karen",
+            "x": 6.292707,
+            "y": 1.540157,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0291469",
+            "doc_number_url": "000276753",
+            "title": "caracterizacion funcional de dos proteinas de pared celular que se acumulan en respuesta a deficit hidrico en frijol",
+            "program": "biotecnologia",
+            "year": 1999,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "García Gómez, Blanca Inés",
+            "advisor": "Covarrubias Robles, Alejandra Alicia",
+            "x": 6.28732,
+            "y": 1.58908,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0468480",
+            "doc_number_url": "000753927",
+            "title": "estudio de asociación de polimorfismos de los genes hhex, hnf4a, kcnj11, pparg, cdkn2a",
+            "program": "ciencias bioquimicas",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Gómez Alonso, Mónica del Carmen",
+            "advisor": "Menjívar Iraheta, Marta Alicia",
+            "x": 6.304739,
+            "y": 1.579421,
+            "cluster_strength": 0.550917
+          },
+          {
+            "thesis_id": "TH_0049153",
+            "doc_number_url": "000314944",
+            "title": "determinacion de parametros estructurales del fragmento 1-108 de la proteina sv 40 mediante experimentos multidimensionales de resonancia magnetica nuclear",
+            "program": "quimica",
+            "year": 2003,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Saucedo Yañez, Alma Leticia",
+            "advisor": "Río Portilla, José Federico del",
+            "x": 6.240364,
+            "y": 1.590432,
+            "cluster_strength": 0.833837
+          },
+          {
+            "thesis_id": "TH_0365692",
+            "doc_number_url": "000640702",
+            "title": "efecto de mutaciones en las regiones amino-terminal y carboxilo-terminal de la proteína sry sobre su unión a la secuencia de adn sry-cs+",
+            "program": "ciencias biomedicas",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de medicina unam",
+            "author": "Sánchez Moreno, Irene",
+            "advisor": "Canto Cetina, Ileana Patricia",
+            "x": 6.313735,
+            "y": 1.587215,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0551750",
+            "doc_number_url": "000836923",
+            "title": "estudio de la mutante e451l en la lacasa de thermus thermophilus hb27 y su función como donador de protones al centro trinuclear de cobre",
+            "program": "biologia",
+            "year": 2023,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Rocandio Barrera, Karen Lizeth",
+            "advisor": "Miranda Blancas, Ricardo",
+            "x": 6.269269,
+            "y": 1.610955,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0446875",
+            "doc_number_url": "000707876",
+            "title": "búsqueda de péptidos y",
+            "program": "ciencias biologicas",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "unam",
+            "author": "Salas Rojas, Mánica",
+            "advisor": "Aguilar Setién, José Álvaro",
+            "x": 6.264602,
+            "y": 1.615075,
+            "cluster_strength": 0.832319
+          },
+          {
+            "thesis_id": "TH_0329083",
+            "doc_number_url": "000621552",
+            "title": "deteccion de la albumina 2s en aislados proteicos de ajonjoli",
+            "program": "quimica de alimentos",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Bazan Gomez, Angeles Beleguixaiba",
+            "advisor": "Farres Gonzalez-Saravia, Amelia",
+            "x": 6.318485,
+            "y": 1.596903,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 109,
+        "macrocluster_id": 12,
+        "micro_label": "ESTUDIO · CELULAS · RESPUESTA · EXPRESION",
+        "size": 107,
+        "x": 7.300671,
+        "y": 1.242761,
+        "year_min": 1914,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "estudio",
+            "score": 0.050589
+          },
+          {
+            "term": "celulas",
+            "score": 0.044756
+          },
+          {
+            "term": "respuesta",
+            "score": 0.044057
+          },
+          {
+            "term": "expresion",
+            "score": 0.038897
+          },
+          {
+            "term": "efecto",
+            "score": 0.036717
+          },
+          {
+            "term": "identificacion",
+            "score": 0.035507
+          },
+          {
+            "term": "receptor",
+            "score": 0.034713
+          },
+          {
+            "term": "antigeno",
+            "score": 0.033024
+          },
+          {
+            "term": "anticuerpos",
+            "score": 0.032882
+          },
+          {
+            "term": "diseno",
+            "score": 0.031446
+          },
+          {
+            "term": "papel",
+            "score": 0.029508
+          },
+          {
+            "term": "celular",
+            "score": 0.029085
+          },
+          {
+            "term": "inmune",
+            "score": 0.028877
+          },
+          {
+            "term": "respuesta inmune",
+            "score": 0.028877
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 22
+          },
+          {
+            "label": "biologia",
+            "count": 20
+          },
+          {
+            "label": "ciencias biomedicas",
+            "count": 8
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 8
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 5
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 4
+          },
+          {
+            "label": "pediatria medica",
+            "count": 3
+          },
+          {
+            "label": "medico cirujano",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 93
+          },
+          {
+            "label": "Area 1",
+            "count": 14
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 62
+          },
+          {
+            "label": "Maestría",
+            "count": 17
+          },
+          {
+            "label": "Especialidad",
+            "count": 14
+          },
+          {
+            "label": "Doctorado",
+            "count": 14
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 101
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad motolinía",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias de la producción y de la salud animal",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.130841,
+          "Area 2": 0.869159,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 93,
+            "pct": 0.869159
+          },
+          {
+            "area": "Area 1",
+            "count": 14,
+            "pct": 0.130841
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0440876",
+            "doc_number_url": "000723421",
+            "title": "purificación de la calreticulina de taenia solium y determinación de anticuerpos producidos post-inmunización oral",
+            "program": "biologia",
+            "year": 2014,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Hernández Rubio, Lizeth Anahí",
+            "advisor": "Mendlovic Pasol, Fela",
+            "x": 7.302368,
+            "y": 1.322352,
+            "cluster_strength": 0.628693
+          },
+          {
+            "thesis_id": "TH_0554656",
+            "doc_number_url": "000848168",
+            "title": "análisis de la expresión de patj en células presentadoras de antígeno",
+            "program": "quimica farmaceutico biologica",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Zamano Martínez, Brenda Alejandra",
+            "advisor": "Santos Mendoza, María Teresa",
+            "x": 7.383323,
+            "y": 1.298618,
+            "cluster_strength": 0.620219
+          },
+          {
+            "thesis_id": "TH_0510355",
+            "doc_number_url": "000800515",
+            "title": "inmunoexpresión de vegf, cd34, cd105, cyr61,tgfb-1, fgf-1, flg, tgfbr-ii en coce",
+            "program": "cirujano dentista",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Legorreta Villegas, Itzel",
+            "advisor": "Jacinto Alemán, Luis Fernando ; Trejo Remigio, David Alonso ; Ramírez Martínez, Carla Monserrat",
+            "x": 7.466879,
+            "y": 1.21714,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0475906",
+            "doc_number_url": "000744531",
+            "title": "identificación de opsoninas del suero humano, que participan en la identificación de los conidios del hongo sporothrix schenckii a través del receptor de manosa",
+            "program": "quimica farmaceutico biologica",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Sánchez Morales, Blanca Jazmín",
+            "advisor": "Torres Guerrero, Haydee",
+            "x": 7.470879,
+            "y": 1.196763,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0518732",
+            "doc_number_url": "000813226",
+            "title": "participación de los linfocitos t cd4 y las células dendríticas en el desarrollo de una respuesta inmune protectora en contra de sporothrix schenckii",
+            "program": "ciencias biomedicas",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de medicina unam",
+            "author": "García Lozano, Alberto",
+            "advisor": "Bonifaz Alfonzo, Laura Cecilia",
+            "x": 7.475867,
+            "y": 1.275941,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0234364",
+            "doc_number_url": "000191816",
+            "title": "identificacion de una proteasa de inmunoglobulina \"a\" en semen humano",
+            "program": "ciencias medicas",
+            "year": 1993,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de medicina unam",
+            "author": "Olivares Morales, Angel Sergio",
+            "advisor": "Vadillo Ortega, Felipe",
+            "x": 7.426917,
+            "y": 1.369176,
+            "cluster_strength": 0.626692
+          },
+          {
+            "thesis_id": "TH_0283535",
+            "doc_number_url": "000258576",
+            "title": "identificacion de proteinas antigenicas de la linea celular murina h-2 deficiente, lr4",
+            "program": "bioquimica",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de quimica unam",
+            "author": "Martínez Anaya, Claudia",
+            "advisor": "Alfaro Martinez, Guillermo",
+            "x": 7.128195,
+            "y": 1.318162,
+            "cluster_strength": 0.600976
+          },
+          {
+            "thesis_id": "TH_0451021",
+            "doc_number_url": "000726895",
+            "title": "epecialización funcional de las células t cd4+ de memoria centrales que expresan cd38 : implicaciones en la patogénesis de la enfermedad por vih",
+            "program": "quimica farmaceutico biologica",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Campos Juárez, Ana Belen",
+            "advisor": "Espinosa Arciniega, Héctor Enrique",
+            "x": 7.131976,
+            "y": 1.156819,
+            "cluster_strength": 0.600482
+          }
+        ]
+      }
+    ]
+  }
+}

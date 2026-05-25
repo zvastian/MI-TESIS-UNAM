@@ -1,0 +1,654 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 28,
+    "macro_label": "PETROLEO · GAS · HIDROCARBUROS · MEXICO",
+    "size": 320,
+    "microcluster_count": 2,
+    "microclusters": [
+      {
+        "microcluster_id": 174,
+        "macrocluster_id": 28,
+        "micro_label": "GAS · HIDROCARBUROS · ACEITE · PETROLEO",
+        "size": 240,
+        "x": 3.754138,
+        "y": 2.36745,
+        "year_min": 1928,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "gas",
+            "score": 0.04996
+          },
+          {
+            "term": "hidrocarburos",
+            "score": 0.045282
+          },
+          {
+            "term": "aceite",
+            "score": 0.039673
+          },
+          {
+            "term": "petroleo",
+            "score": 0.036383
+          },
+          {
+            "term": "petroleros",
+            "score": 0.035042
+          },
+          {
+            "term": "pozos",
+            "score": 0.032068
+          },
+          {
+            "term": "yacimientos",
+            "score": 0.029437
+          },
+          {
+            "term": "analisis",
+            "score": 0.027101
+          },
+          {
+            "term": "estudio",
+            "score": 0.024299
+          },
+          {
+            "term": "pozos petroleros",
+            "score": 0.024277
+          },
+          {
+            "term": "aplicacion",
+            "score": 0.022163
+          },
+          {
+            "term": "recuperacion",
+            "score": 0.020466
+          },
+          {
+            "term": "produccion",
+            "score": 0.020225
+          },
+          {
+            "term": "sistema",
+            "score": 0.020207
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria petrolera",
+            "count": 81
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 58
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 15
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 14
+          },
+          {
+            "label": "quimica",
+            "count": 12
+          },
+          {
+            "label": "ingenieria",
+            "count": 4
+          },
+          {
+            "label": "ingenieria petrolera y de gas natural",
+            "count": 4
+          },
+          {
+            "label": "actuaria",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 157
+          },
+          {
+            "label": "Area 2",
+            "count": 74
+          },
+          {
+            "label": "Area 3",
+            "count": 6
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 205
+          },
+          {
+            "label": "Maestría",
+            "count": 30
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 228
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ingeniería",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "instituto politécnico nacional (méxico df) escuela superior de ingeniería y arquitectura institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.654167,
+          "Area 2": 0.308333,
+          "Area 3": 0.025,
+          "Area 4": 0.008333,
+          "Por Clasificar": 0.004167
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 157,
+            "pct": 0.654167
+          },
+          {
+            "area": "Area 2",
+            "count": 74,
+            "pct": 0.308333
+          },
+          {
+            "area": "Area 3",
+            "count": 6,
+            "pct": 0.025
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.008333
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.004167
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0053816",
+            "doc_number_url": "000600272",
+            "title": "simulacion numerica de un pozo productor de aceite con un sistema de separacion de fondo, para el control de agua en pozos petroleros",
+            "program": "ingenieria",
+            "year": 2004,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Cuin Macedo, Oscar Omar",
+            "advisor": "Ascencio Cendejas, Fernando ; Santillan Gutierrez, Saul",
+            "x": 3.764517,
+            "y": 2.390456,
+            "cluster_strength": 0.734153
+          },
+          {
+            "thesis_id": "TH_0191959",
+            "doc_number_url": "000081378",
+            "title": "bombas y compresoras en los campos de recoleccion de hidrocarburos",
+            "program": "ingenieria petrolera",
+            "year": 1988,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Juprez Domínguez, Noe Jesus",
+            "advisor": "Sanchez Arredondo, Francisco",
+            "x": 3.766044,
+            "y": 2.395743,
+            "cluster_strength": 0.563978
+          },
+          {
+            "thesis_id": "TH_0545005",
+            "doc_number_url": "000844002",
+            "title": "desarrollo de un modelo termodinámico para la predicción de la precipitación de asfaltenos en sistemas relevantes en la industria petrolera",
+            "program": "ingenieria quimica",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de quimica unam",
+            "author": "Galicia Narciso, Cristina",
+            "advisor": "Bazúa Rueda, Enrique Rodolfo",
+            "x": 3.732404,
+            "y": 2.389973,
+            "cluster_strength": 0.632166
+          },
+          {
+            "thesis_id": "TH_0140293",
+            "doc_number_url": "000169074",
+            "title": "estudios tecnico economico de tres tipos de emulsion inversa utilizados en la perforacion de pozos en el area tabasco-chiapas",
+            "program": "ingenieria quimica",
+            "year": 1978,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Olan Rigardez, Adan",
+            "advisor": "Villanueva Gonzalez, Pedro",
+            "x": 3.722115,
+            "y": 2.377198,
+            "cluster_strength": 0.417846
+          },
+          {
+            "thesis_id": "TH_0151650",
+            "doc_number_url": "000029286",
+            "title": "diseno de un equipo piloto de destilacion continua que opera a presion o vacio para evaluar o separar diversas fracciones del petroleo",
+            "program": "ingenieria quimica",
+            "year": 1981,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Mesinas Cruz, Eduardo",
+            "advisor": "Romero Villanueva, Jesus",
+            "x": 3.79138,
+            "y": 2.354637,
+            "cluster_strength": 0.392045
+          },
+          {
+            "thesis_id": "TH_0097609",
+            "doc_number_url": "000125049",
+            "title": "proyecto de tanques verticales atmosfericos para productos derivados del petroleo en una planta de almacenamiento",
+            "program": "ingenieria civil",
+            "year": 1967,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "García Villarreal, Victor Manuel",
+            "advisor": "",
+            "x": 3.72068,
+            "y": 2.345129,
+            "cluster_strength": 0.567478
+          },
+          {
+            "thesis_id": "TH_0058264",
+            "doc_number_url": "000332207",
+            "title": "modelo lineal eliptico de transformacion del oleaje",
+            "program": "hidraulica",
+            "year": 2004,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Martinez García, Evelyn",
+            "advisor": "Silva Casarín, Rodolfo",
+            "x": 3.756685,
+            "y": 2.408588,
+            "cluster_strength": 0.826632
+          },
+          {
+            "thesis_id": "TH_0089096",
+            "doc_number_url": "000163270",
+            "title": "valoracion de petroleo crudo en una planta piloto de vaporizacion instantanea",
+            "program": "ingenieria quimica",
+            "year": 1963,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Mayorga Mayer, Silvia",
+            "advisor": "",
+            "x": 3.772012,
+            "y": 2.408971,
+            "cluster_strength": 0.823315
+          }
+        ]
+      },
+      {
+        "microcluster_id": 153,
+        "macrocluster_id": 28,
+        "micro_label": "MEXICO · PETROLEO · MEXICANOS · PETROLEOS MEXICANOS",
+        "size": 80,
+        "x": 2.229361,
+        "y": 3.776101,
+        "year_min": 1941,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.11833
+          },
+          {
+            "term": "petroleo",
+            "score": 0.098771
+          },
+          {
+            "term": "mexicanos",
+            "score": 0.096148
+          },
+          {
+            "term": "petroleos mexicanos",
+            "score": 0.09513
+          },
+          {
+            "term": "petroleos",
+            "score": 0.09513
+          },
+          {
+            "term": "mexicano",
+            "score": 0.045313
+          },
+          {
+            "term": "mexicano petroleo",
+            "score": 0.041824
+          },
+          {
+            "term": "instituto mexicano",
+            "score": 0.041824
+          },
+          {
+            "term": "instituto",
+            "score": 0.041824
+          },
+          {
+            "term": "petrolera",
+            "score": 0.038509
+          },
+          {
+            "term": "petroleo mexico",
+            "score": 0.03704
+          },
+          {
+            "term": "analisis",
+            "score": 0.034456
+          },
+          {
+            "term": "gas",
+            "score": 0.033456
+          },
+          {
+            "term": "industria",
+            "score": 0.031195
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "economia",
+            "count": 14
+          },
+          {
+            "label": "derecho",
+            "count": 14
+          },
+          {
+            "label": "ingenieria petrolera",
+            "count": 9
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 6
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 5
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 3
+          },
+          {
+            "label": "administracion",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 46
+          },
+          {
+            "label": "Area 1",
+            "count": 20
+          },
+          {
+            "label": "Area 2",
+            "count": 9
+          },
+          {
+            "label": "Area 4",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 65
+          },
+          {
+            "label": "Maestría",
+            "count": 10
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 78
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.25,
+          "Area 2": 0.1125,
+          "Area 3": 0.575,
+          "Area 4": 0.0625,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 46,
+            "pct": 0.575
+          },
+          {
+            "area": "Area 1",
+            "count": 20,
+            "pct": 0.25
+          },
+          {
+            "area": "Area 2",
+            "count": 9,
+            "pct": 0.1125
+          },
+          {
+            "area": "Area 4",
+            "count": 5,
+            "pct": 0.0625
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0494258",
+            "doc_number_url": null,
+            "title": "análisis de temas selectos de aplicación de las normas fiscales en materia de contratos para la exploración y extracción de hidrocarburos en méxico",
+            "program": "derecho",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Carmona Balmes, Nancy Elizabeth",
+            "advisor": "Pacheco Martínez, Filiberto",
+            "x": 2.226703,
+            "y": 3.787823,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0169234",
+            "doc_number_url": "000009886",
+            "title": "la organizacion de paises exportadores de petroleo y el caso de mexico",
+            "program": "derecho",
+            "year": 1984,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Galeano Portillo, Ma. Elvira",
+            "advisor": "Treviño Rios, Oscar",
+            "x": 2.231918,
+            "y": 3.795314,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0267663",
+            "doc_number_url": "000254124",
+            "title": "sistema de calculo de costos-hombre de la subdireccion de exploracion y produccion del instituto mexicano del petroleo",
+            "program": "ingenieria en computacion",
+            "year": 1997,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Castorena Sanchez, Griselda",
+            "advisor": "Juarez Ortega, Israel",
+            "x": 2.222738,
+            "y": 3.797594,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0012571",
+            "doc_number_url": "000297367",
+            "title": "desempeño operativo y financiero de petroleos mexicanos 1992-2000",
+            "program": "economia",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Clavillina Miller, José Luis",
+            "advisor": "García Páez, Benjamín",
+            "x": 2.224065,
+            "y": 3.800702,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0530819",
+            "doc_number_url": "000827114",
+            "title": "nueva energía : fotografía de la industria petrolera como método de divulgación durante el \"milagro\"mexicano : una propuesta de exhibición",
+            "program": "historia del arte",
+            "year": 2022,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Cruz Aguilar, Iván Aarón",
+            "advisor": "González Flores, Laura ; Pasillas Mendoza, Abigail ; Duarte Acosta, Paula",
+            "x": 2.253221,
+            "y": 3.788222,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0027251",
+            "doc_number_url": "000306075",
+            "title": "las invenciones desarrolladas por el instituto mexicano del petroleo y su explotacion por parte de petroleos mexicanos",
+            "program": "derecho",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Galvan Campos, Venezia Ireri",
+            "advisor": "Rangel Medina, David",
+            "x": 2.234658,
+            "y": 3.806895,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0304847",
+            "doc_number_url": "000348332",
+            "title": "tasa de exito en el programa de fertilizacion in vitro en petroleos mexicanos central sur de alta especialidad",
+            "program": "ginecologia y obstetricia",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "García Fonseca, Karina",
+            "advisor": "Hernandez Denis, Jose Andrés ; Londaiz Gomez, Roberto",
+            "x": 2.258099,
+            "y": 3.788895,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0530303",
+            "doc_number_url": "000824655",
+            "title": "determinación del precio del petróleo en méxico",
+            "program": "ingenieria petrolera",
+            "year": 2022,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Castro Pérez, Daniel",
+            "advisor": "Benítez Eslava, Edgardo Ulises",
+            "x": 2.213749,
+            "y": 3.80635,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

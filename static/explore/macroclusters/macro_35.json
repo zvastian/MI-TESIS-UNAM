@@ -1,0 +1,590 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 35,
+    "macro_label": "PACIENTES · TIROIDES · CANCER · HOSPITAL",
+    "size": 121,
+    "microcluster_count": 2,
+    "microclusters": [
+      {
+        "microcluster_id": 10,
+        "macrocluster_id": 35,
+        "micro_label": "TIROIDES · PACIENTES · CANCER · HOSPITAL",
+        "size": 76,
+        "x": 9.686964,
+        "y": -3.264593,
+        "year_min": 1909,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "tiroides",
+            "score": 0.089044
+          },
+          {
+            "term": "pacientes",
+            "score": 0.078116
+          },
+          {
+            "term": "cancer",
+            "score": 0.065597
+          },
+          {
+            "term": "hospital",
+            "score": 0.046122
+          },
+          {
+            "term": "tiroidea",
+            "score": 0.043935
+          },
+          {
+            "term": "papilar",
+            "score": 0.034748
+          },
+          {
+            "term": "papilar tiroides",
+            "score": 0.032607
+          },
+          {
+            "term": "glandula tiroides",
+            "score": 0.031352
+          },
+          {
+            "term": "glandula",
+            "score": 0.031352
+          },
+          {
+            "term": "tiroideos",
+            "score": 0.031178
+          },
+          {
+            "term": "tiroidectomia",
+            "score": 0.030987
+          },
+          {
+            "term": "cancer tiroides",
+            "score": 0.030822
+          },
+          {
+            "term": "patologia",
+            "score": 0.029964
+          },
+          {
+            "term": "tiroideas",
+            "score": 0.029647
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirugia general",
+            "count": 17
+          },
+          {
+            "label": "imagenologia diagnostica y terapeutica",
+            "count": 9
+          },
+          {
+            "label": "medicina interna",
+            "count": 8
+          },
+          {
+            "label": "endocrinologia",
+            "count": 5
+          },
+          {
+            "label": "medico cirujano",
+            "count": 4
+          },
+          {
+            "label": "endocrinologia pediatrica",
+            "count": 4
+          },
+          {
+            "label": "radiologia e imagen",
+            "count": 3
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 74
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 65
+          },
+          {
+            "label": "Licenciatura",
+            "count": 9
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 73
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 3
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.026316,
+          "Area 2": 0.973684,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 74,
+            "pct": 0.973684
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.026316
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0501808",
+            "doc_number_url": "000771079",
+            "title": "valor diagnóstico del gammagrama con tc99m mibi aunado a baaf como predictor de malignidad en el nódulo tiroideo hipofuncionante por tco4",
+            "program": "medicina nuclear",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Oñate Angulo, Suelem Carolina",
+            "advisor": "Moreno Peña, Dafne Odemaris ; González Vargas, Emmanuel",
+            "x": 9.685303,
+            "y": -3.2634,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0241262",
+            "doc_number_url": "000215133",
+            "title": "diagnostico histopatologico del patron folicular neoplasico en biopsia por aspiracion con ahuja delgada de pacientes con tumores tiroideos, en el hospital de especialidades del centro medico la raza, de los anos 1991 al 1993",
+            "program": "cirugia general",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Gonzalez Melchor, David",
+            "advisor": "Fenig Rodriguez, Jose",
+            "x": 9.685617,
+            "y": -3.26632,
+            "cluster_strength": 0.863033
+          },
+          {
+            "thesis_id": "TH_0488441",
+            "doc_number_url": "000748551",
+            "title": "asociación entre severidad de orbitopatía tiroidea y perfil inmunológico : experiencia de 5 años en un hospital de 3er nivel",
+            "program": "alergia e inmunologia clinica",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Quintana Mexiac, Guillermo Adrián",
+            "advisor": "Vargas Camaño, María Eugenia ; Castrejón Vásquez, María Isabel",
+            "x": 9.687282,
+            "y": -3.260974,
+            "cluster_strength": 0.389992
+          },
+          {
+            "thesis_id": "TH_0508972",
+            "doc_number_url": "000805815",
+            "title": "medición de la densidad capilar peripapilar en pacientes con oftalmopatía tiroidea en el hospital de oftalmología centro médico nacional siglo xxi",
+            "program": "oftalmologia",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Flores Rodríguez, Erika Itzel",
+            "advisor": "Mateos Díaz, Karina",
+            "x": 9.683241,
+            "y": -3.265813,
+            "cluster_strength": 0.861662
+          },
+          {
+            "thesis_id": "TH_0214647",
+            "doc_number_url": "000163809",
+            "title": "valoracion de los estudios paraclinicos en el paciente con patologia tiroidea",
+            "program": "medicina interna",
+            "year": 1991,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Lozano Nuevo, José Juan",
+            "advisor": "Fanghanel Salmon, Guillermo",
+            "x": 9.684739,
+            "y": -3.268325,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0026907",
+            "doc_number_url": "000312660",
+            "title": "tiroidectomia total : experiencia e incidencia de complicaciones en el hospital de gabriel mancera durante 17 años",
+            "program": "cirugia general",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Flores Díaz, Ruben",
+            "advisor": "Chavelas Lluck, Manuel Arturo ; Guzman Valdivia Gomez, Gilberto",
+            "x": 9.689285,
+            "y": -3.260525,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0565537",
+            "doc_number_url": "000852825",
+            "title": "características clínicas, bioquímicas, histopatológicas y respuesta al tratamiento inicial en población geriátrica con cáncer diferenciado de tiroides",
+            "program": "endocrinologia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ríos Gómez, Adriana",
+            "advisor": "Hernández García, Irma ; Balcázar Hernández, Lourdes Josefina",
+            "x": 9.682047,
+            "y": -3.261876,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0500527",
+            "doc_number_url": "000779327",
+            "title": "análisis perioperatorio y de complicaciones temprana en tiroidectomía total",
+            "program": "cirugia general",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Melgarejo López, Juan Carlos",
+            "advisor": "Zerrweck López, Carlos",
+            "x": 9.687499,
+            "y": -3.27085,
+            "cluster_strength": 0.407804
+          }
+        ]
+      },
+      {
+        "microcluster_id": 9,
+        "macrocluster_id": 35,
+        "micro_label": "PACIENTES · HIPERPARATIROIDISMO · HIPOTIROIDISMO · PRIMARIO",
+        "size": 45,
+        "x": 9.495757,
+        "y": -2.96119,
+        "year_min": 1979,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "pacientes",
+            "score": 0.126432
+          },
+          {
+            "term": "hiperparatiroidismo",
+            "score": 0.081572
+          },
+          {
+            "term": "hipotiroidismo",
+            "score": 0.076044
+          },
+          {
+            "term": "primario",
+            "score": 0.074233
+          },
+          {
+            "term": "hipertiroidismo",
+            "score": 0.060688
+          },
+          {
+            "term": "hospital",
+            "score": 0.060063
+          },
+          {
+            "term": "hiperparatiroidismo primario",
+            "score": 0.058282
+          },
+          {
+            "term": "pacientes hiperparatiroidismo",
+            "score": 0.05513
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.049763
+          },
+          {
+            "term": "prevalencia",
+            "score": 0.044369
+          },
+          {
+            "term": "renal",
+            "score": 0.040551
+          },
+          {
+            "term": "paciente",
+            "score": 0.038553
+          },
+          {
+            "term": "paratiroides",
+            "score": 0.034639
+          },
+          {
+            "term": "clinica",
+            "score": 0.033489
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina interna",
+            "count": 7
+          },
+          {
+            "label": "endocrinologia",
+            "count": 6
+          },
+          {
+            "label": "cirugia general",
+            "count": 5
+          },
+          {
+            "label": "nefrologia",
+            "count": 4
+          },
+          {
+            "label": "psicologia",
+            "count": 3
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 3
+          },
+          {
+            "label": "pediatria medica",
+            "count": 2
+          },
+          {
+            "label": "endocrinologia y nutriologia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 44
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 37
+          },
+          {
+            "label": "Licenciatura",
+            "count": 8
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 44
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de odontología",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.977778,
+          "Area 3": 0.022222,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 44,
+            "pct": 0.977778
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.022222
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0538074",
+            "doc_number_url": "000828147",
+            "title": "prevalencia de hipotiroidismo primario en pacientes pediátricos con síndrome de down en el hospital regional lic. adolfo lópez mateos",
+            "program": "pediatria",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Reyes Ortiz, Diana Sarahí",
+            "advisor": "Vizuet Gámez, Alejandra",
+            "x": 9.480151,
+            "y": -3.008445,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0505714",
+            "doc_number_url": "000776179",
+            "title": "hipotiroidismo senil y comorbilidades en pacientes de la consulta de endocrinología de hospital de tercer nivel",
+            "program": "medicina interna",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Torres Pérez, Belem",
+            "advisor": "Conrado Aguilar, Sofía ; Rosas Barrientos, José Vicente",
+            "x": 9.519325,
+            "y": -3.020989,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0277464",
+            "doc_number_url": "000262163",
+            "title": "participacion de enfermeria en el análisis de los resultados de la prueba de tamizaje neonatal para la deteccion de hipotiroidismo congenito a traves de las dos tecnicas : por talon y por cordon umbilical en los servicios estatales de salud en el estado de san luis potosi",
+            "program": "enfermeria y obstetricia",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Alvarez Fortaneli, Dalila",
+            "advisor": "García Albarrán, María de los Ángeles",
+            "x": 9.548725,
+            "y": -2.999454,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0525128",
+            "doc_number_url": "000807626",
+            "title": "determinación de hipotiroidismo clínico y subclínico en pacientes con vih de la consulta externa de clisida del hospital general de zona",
+            "program": "medicina familiar",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Reyes Sánchez, Evelyn Berenice",
+            "advisor": "Vilchis Chaparro, Eduardo ; Espinoza Anrubio, Gilberto",
+            "x": 9.494433,
+            "y": -3.037728,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0022281",
+            "doc_number_url": "000299204",
+            "title": "hipotiroidismo en pacientes pediatricos y sus manifestaciones orales",
+            "program": "cirujano dentista",
+            "year": 2001,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Vazquez Cervantes, Carla Haydee",
+            "advisor": "Perez López, Jorge",
+            "x": 9.512696,
+            "y": -3.040104,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0473431",
+            "doc_number_url": "000749467",
+            "title": "respuesta clínica y de laboratorio relacionada con el tratamiento hormonal del hipotiroidismo subclínico leve en pacientes del hospital regional general ignacio zaragoza del issste",
+            "program": "medicina interna",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Parada López, Beatriz",
+            "advisor": "Santos Aceves, María Sara ; García Sánchez, René",
+            "x": 9.524686,
+            "y": -3.043553,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0495026",
+            "doc_number_url": "000777922",
+            "title": "ensayo clínico aleatorizado, de etiqueta abierta para evaluar la eficacia de dos esquemas de cálculo de dosis inicial de levotiroxina sódica en pacientes con hipotiroidismo primario",
+            "program": "endocrinologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cornish Piña, Madeleine Josefina",
+            "advisor": "Segovia Palomo, Antonio",
+            "x": 9.516027,
+            "y": -3.049283,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0472052",
+            "doc_number_url": "000743292",
+            "title": "el paciente hipotiroideo en la consulta odontológica",
+            "program": "cirujano dentista",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Meza Trujillo, Samantha",
+            "advisor": "Salazar Rosales, Afranio Serafín ; Morales Sánchez, Israel",
+            "x": 9.506,
+            "y": -3.05153,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

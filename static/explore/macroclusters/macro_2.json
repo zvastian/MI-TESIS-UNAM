@@ -1,0 +1,3998 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 2,
+    "macro_label": "DENTAL · TRATAMIENTO · PACIENTES · ENDODONCIA",
+    "size": 1960,
+    "microcluster_count": 13,
+    "microclusters": [
+      {
+        "microcluster_id": 49,
+        "macrocluster_id": 2,
+        "micro_label": "DENTAL · DIENTES · OPERATORIA · OPERATORIA DENTAL",
+        "size": 544,
+        "x": 8.315277,
+        "y": -4.099726,
+        "year_min": 1931,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "dental",
+            "score": 0.078284
+          },
+          {
+            "term": "dientes",
+            "score": 0.043825
+          },
+          {
+            "term": "operatoria",
+            "score": 0.034981
+          },
+          {
+            "term": "operatoria dental",
+            "score": 0.034981
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.026316
+          },
+          {
+            "term": "dentales",
+            "score": 0.024309
+          },
+          {
+            "term": "consultorio",
+            "score": 0.02418
+          },
+          {
+            "term": "consultorio dental",
+            "score": 0.022721
+          },
+          {
+            "term": "caries",
+            "score": 0.019926
+          },
+          {
+            "term": "dentista",
+            "score": 0.017673
+          },
+          {
+            "term": "cirujano",
+            "score": 0.017252
+          },
+          {
+            "term": "cirujano dentista",
+            "score": 0.017252
+          },
+          {
+            "term": "pacientes",
+            "score": 0.016998
+          },
+          {
+            "term": "caries dental",
+            "score": 0.015701
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 504
+          },
+          {
+            "label": "odontologia",
+            "count": 7
+          },
+          {
+            "label": "estomatologia del ni o y del adolescente",
+            "count": 6
+          },
+          {
+            "label": "endoperiodontologia",
+            "count": 3
+          },
+          {
+            "label": "biologia",
+            "count": 2
+          },
+          {
+            "label": "genetica medica",
+            "count": 1
+          },
+          {
+            "label": "administracion de la atencion medica y de hospitales",
+            "count": 1
+          },
+          {
+            "label": "ciencias odontologicas basicas",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 537
+          },
+          {
+            "label": "Area 3",
+            "count": 3
+          },
+          {
+            "label": "Area 1",
+            "count": 3
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 518
+          },
+          {
+            "label": "Especialidad",
+            "count": 20
+          },
+          {
+            "label": "Maestría",
+            "count": 6
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 497
+          },
+          {
+            "label": "universidad de ixtlahuaca cui",
+            "count": 10
+          },
+          {
+            "label": "universidad latinoamericana (mexico)",
+            "count": 9
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 7
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 6
+          },
+          {
+            "label": "instituto universitario del norte (chihuahua, chi.). escuela de odontologia,",
+            "count": 5
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de odontología",
+            "count": 3
+          },
+          {
+            "label": "universidad villa rica",
+            "count": 3
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.005515,
+          "Area 2": 0.987132,
+          "Area 3": 0.005515,
+          "Area 4": 0.001838,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 537,
+            "pct": 0.987132
+          },
+          {
+            "area": "Area 1",
+            "count": 3,
+            "pct": 0.005515
+          },
+          {
+            "area": "Area 3",
+            "count": 3,
+            "pct": 0.005515
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.001838
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0145866",
+            "doc_number_url": "000041114",
+            "title": "desarrollo de la denticion en la prevencion de maloclusiones",
+            "program": "cirujano dentista",
+            "year": 1979,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Rivera Juarez, Javier",
+            "advisor": "Garcia Mondragon, Martin",
+            "x": 8.311786,
+            "y": -4.084241,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0417361",
+            "doc_number_url": "000693620",
+            "title": "importancia de los elementos auxiliares de diagnóstico en prótesis dental",
+            "program": "cirujano dentista",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Ramírez García, Humberto",
+            "advisor": "Velázquez Nava, Ignacio",
+            "x": 8.30349,
+            "y": -4.082817,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0298696",
+            "doc_number_url": "000330023",
+            "title": "riesgos con el uso de oxido nitroso en el consultorio dental",
+            "program": "cirujano dentista",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Serrano Guzman, Maria Herminia",
+            "advisor": "Díaz Coppe, Patricia",
+            "x": 8.31937,
+            "y": -4.122351,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0501548",
+            "doc_number_url": "000784182",
+            "title": "diseño de una escala visual para la valoración del estado dental con base en la fotografía clínica",
+            "program": "cirujano dentista",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Nichita, Ana María",
+            "advisor": "Ortega Maldonado, Miriam ; Jiménez Tapia, Jose Alberto",
+            "x": 8.29319,
+            "y": -4.117103,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0099323",
+            "doc_number_url": "000138184",
+            "title": "alteraciones parodontales y su prevencion durante el movimiento dentario",
+            "program": "cirujano dentista",
+            "year": 1968,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Beltran Tenorio, Patricia",
+            "advisor": "",
+            "x": 8.293707,
+            "y": -4.079216,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0153239",
+            "doc_number_url": "000020601",
+            "title": "correcion de irregularidades menores en el desarrollo de la denticion",
+            "program": "cirujano dentista",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Santiago Rueda, Felisa de los Angeles Yolanda",
+            "advisor": "Casillas Lavin, Norma Patricia",
+            "x": 8.286709,
+            "y": -4.108276,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0162018",
+            "doc_number_url": "000043393",
+            "title": "incidencia de pacientes con dientes supernumerarios",
+            "program": "cirujano dentista",
+            "year": 1983,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Fernandez Castillo, Armando",
+            "advisor": "Aguilar Fernández, Adrián",
+            "x": 8.344976,
+            "y": -4.10491,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0176026",
+            "doc_number_url": "000046571",
+            "title": "apinamiento en la denticion mixta en maloclusiones clase i",
+            "program": "cirujano dentista",
+            "year": 1985,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Chargoy del Valle, Ma. de los Angeles",
+            "advisor": "Garcia Arredondo, Maria Elena",
+            "x": 8.338818,
+            "y": -4.079876,
+            "cluster_strength": 0.742204
+          }
+        ]
+      },
+      {
+        "microcluster_id": 84,
+        "macrocluster_id": 2,
+        "micro_label": "FRACTURAS · TRATAMIENTO · PACIENTES · RODILLA",
+        "size": 251,
+        "x": 7.406671,
+        "y": -2.303643,
+        "year_min": 1900,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "fracturas",
+            "score": 0.072689
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.052286
+          },
+          {
+            "term": "pacientes",
+            "score": 0.037692
+          },
+          {
+            "term": "rodilla",
+            "score": 0.036908
+          },
+          {
+            "term": "fractura",
+            "score": 0.029588
+          },
+          {
+            "term": "tratamiento fracturas",
+            "score": 0.027157
+          },
+          {
+            "term": "quirurgico",
+            "score": 0.023476
+          },
+          {
+            "term": "manejo",
+            "score": 0.023236
+          },
+          {
+            "term": "resultados",
+            "score": 0.023128
+          },
+          {
+            "term": "hospital",
+            "score": 0.022019
+          },
+          {
+            "term": "tibia",
+            "score": 0.021675
+          },
+          {
+            "term": "tobillo",
+            "score": 0.020491
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.020365
+          },
+          {
+            "term": "tipo",
+            "score": 0.019816
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ortopedia",
+            "count": 105
+          },
+          {
+            "label": "traumatologia y ortopedia",
+            "count": 76
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 21
+          },
+          {
+            "label": "medicina de rehabilitacion",
+            "count": 10
+          },
+          {
+            "label": "cirugia plastica y reconstructiva",
+            "count": 7
+          },
+          {
+            "label": "medico cirujano",
+            "count": 5
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 3
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 246
+          },
+          {
+            "label": "Area 1",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 213
+          },
+          {
+            "label": "Licenciatura",
+            "count": 37
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 238
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra sra. de la salud,",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermeria del hospital de jesus (mexico). escuela de enfermeria, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad iberoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "instituto mexicano del seguro social. unidad médica de alta especialidad. hospital de traumatología y ortopedia “lomas verdes”,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.01992,
+          "Area 2": 0.98008,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 246,
+            "pct": 0.98008
+          },
+          {
+            "area": "Area 1",
+            "count": 5,
+            "pct": 0.01992
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0246716",
+            "doc_number_url": "000203948",
+            "title": "experiencia en el hospital general balbuena con clavo colchero hunec para fracturas de huesos largos de movimiento : clavicula, cubito, radio y perone",
+            "program": "traumatologia y ortopedia",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Trejo Bonilla, Amado Juan",
+            "advisor": "Anaya Chávez, Luis",
+            "x": 7.410152,
+            "y": -2.299339,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0270786",
+            "doc_number_url": "000257158",
+            "title": "resultado funcional del tratamiento de las fracturas de escafoides carpal",
+            "program": "cirugia plastica y reconstructiva",
+            "year": 1997,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Hidalgo Rodriguez, Renato",
+            "advisor": "Gomez Correa, Luis",
+            "x": 7.401624,
+            "y": -2.301325,
+            "cluster_strength": 0.663935
+          },
+          {
+            "thesis_id": "TH_0304569",
+            "doc_number_url": "000616931",
+            "title": "evaluacion funcional de pacientes con artrosis patelo femoral grado iii tratados mediante adelantamiento de la tuberosidad tibial anterior",
+            "program": "ortopedia",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Fuentes Bazan, Christian",
+            "advisor": "Luna Pizarro, Daniel",
+            "x": 7.41528,
+            "y": -2.306834,
+            "cluster_strength": 0.965275
+          },
+          {
+            "thesis_id": "TH_0495997",
+            "doc_number_url": "000771907",
+            "title": "manejo de fractura de instrumentos : presentación de casos clínicos",
+            "program": "odontologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "escuela nacional de estudios superiores leon",
+            "author": "Estrada Orozco, Cinthia Monserrat de Jesús",
+            "advisor": "Dávila García, Gabriela ; Campos Ibarra, Paola",
+            "x": 7.404376,
+            "y": -2.314212,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0319368",
+            "doc_number_url": "000614108",
+            "title": "estabilidad postquirurgica de las fracturas de tobillo despues del retiro del tornillo situacional a las 6 semanas",
+            "program": "ortopedia",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Gonzalez Alvarez, José Ramon",
+            "advisor": "Cadenas Tovar, Martin ; Vargas Espinosa, Juan Manuel",
+            "x": 7.403259,
+            "y": -2.314564,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0343930",
+            "doc_number_url": "000629631",
+            "title": "pacientes con fracturas subtrocantéricas tipo ii a v de seinsheimer tratadas con clavo endomedular femoral técnica cerrada",
+            "program": "ortopedia",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Coello Ancheita, Neftalí",
+            "advisor": "Luna Pizarro, Daniel",
+            "x": 7.399267,
+            "y": -2.312639,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0509817",
+            "doc_number_url": "000803420",
+            "title": "atención al paciente pediátrico ante fracturas mandibulares",
+            "program": "cirujano dentista",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Hernández Arroyo, Julio César",
+            "advisor": "Vera Serna, Dora Liz ; Hernández Flores, Florentino",
+            "x": 7.41802,
+            "y": -2.307839,
+            "cluster_strength": 0.435337
+          },
+          {
+            "thesis_id": "TH_0007367",
+            "doc_number_url": "000654538",
+            "title": "resultados de tratamiento de las fracturas diafisiarias del húmero tratadas con fijadores externos",
+            "program": "ortopedia",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Plata Melo, Vicente",
+            "advisor": "Calzada Prado, Leticia ; Ruiz Gómez, José",
+            "x": 7.409376,
+            "y": -2.321227,
+            "cluster_strength": 0.968475
+          }
+        ]
+      },
+      {
+        "microcluster_id": 57,
+        "macrocluster_id": 2,
+        "micro_label": "GENERAL · ANESTESIA GENERAL · LOCAL · PACIENTES",
+        "size": 165,
+        "x": 8.640625,
+        "y": 0.125996,
+        "year_min": 1885,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "general",
+            "score": 0.069443
+          },
+          {
+            "term": "anestesia general",
+            "score": 0.064548
+          },
+          {
+            "term": "local",
+            "score": 0.043686
+          },
+          {
+            "term": "pacientes",
+            "score": 0.043446
+          },
+          {
+            "term": "anestesia local",
+            "score": 0.041053
+          },
+          {
+            "term": "anestesico",
+            "score": 0.037411
+          },
+          {
+            "term": "sometidos",
+            "score": 0.037017
+          },
+          {
+            "term": "anestesicos",
+            "score": 0.033769
+          },
+          {
+            "term": "cirugia",
+            "score": 0.032061
+          },
+          {
+            "term": "odontologia",
+            "score": 0.027751
+          },
+          {
+            "term": "bajo",
+            "score": 0.026058
+          },
+          {
+            "term": "bajo anestesia",
+            "score": 0.025242
+          },
+          {
+            "term": "paciente",
+            "score": 0.024448
+          },
+          {
+            "term": "regional",
+            "score": 0.023813
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "anestesiologia",
+            "count": 99
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 33
+          },
+          {
+            "label": "anestesiologia pediatrica",
+            "count": 8
+          },
+          {
+            "label": "medico cirujano",
+            "count": 6
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 5
+          },
+          {
+            "label": "neuroanestesiologia",
+            "count": 2
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 2
+          },
+          {
+            "label": "dise o industrial",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 163
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 116
+          },
+          {
+            "label": "Licenciatura",
+            "count": 48
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 155
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad motolinía",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de medicina",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.012121,
+          "Area 2": 0.987879,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 163,
+            "pct": 0.987879
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.012121
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0141406",
+            "doc_number_url": "000154470",
+            "title": "anestesia general en odontologia",
+            "program": "cirujano dentista",
+            "year": 1978,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Velazquez Grajeda, Rodolfo",
+            "advisor": "López Trejo, Consuelo",
+            "x": 8.643191,
+            "y": 0.128649,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0171160",
+            "doc_number_url": "000026730",
+            "title": "anestesia local en odontologia",
+            "program": "cirujano dentista",
+            "year": 1984,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Mayorga Zebadua, Luz del Carmen",
+            "advisor": "Moscoso Barrera, Ariel",
+            "x": 8.643435,
+            "y": 0.128642,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0150726",
+            "doc_number_url": "000022906",
+            "title": "anestesicos locales accidentes, complicaciones y su tratamiento",
+            "program": "cirujano dentista",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Hernandez Rodriguez, Rosa Maria Refugio",
+            "advisor": "Arau Narvaez, Juan",
+            "x": 8.639963,
+            "y": 0.122043,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0058288",
+            "doc_number_url": "000332478",
+            "title": "atenuacion de la respuesta simpatica a la laringoscopia directa en pacientes hipertensos geriatricos tratados con captopril 2 y 6 horas antes de la cirugia sometidos a anestesia general",
+            "program": "anestesiologia",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Martinez Guevara, Maria Janett",
+            "advisor": "Cano Chávez, Israel",
+            "x": 8.640445,
+            "y": 0.121271,
+            "cluster_strength": 0.415123
+          },
+          {
+            "thesis_id": "TH_0291411",
+            "doc_number_url": "000270323",
+            "title": "complicaciones anestesicas",
+            "program": "anestesiologia",
+            "year": 1999,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "García Becerril, Olivia Yolanda",
+            "advisor": "Luna Jimenez, Juan Carlos",
+            "x": 8.634993,
+            "y": 0.123588,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0181486",
+            "doc_number_url": "000015558",
+            "title": "anestesia en odontopediatria",
+            "program": "cirujano dentista",
+            "year": 1986,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Flores Gonzalez, Laura",
+            "advisor": "Abe Kashima, Graciela",
+            "x": 8.649128,
+            "y": 0.120369,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0410890",
+            "doc_number_url": "000683003",
+            "title": "dosis adecuada de sufentanil para reducir la respuesta simpático adrenérgica a la laringoscopía directa e intubación endotraqueal en pacientes adultos sometidos a anestesia general derechohabientes del hospital central norte de petróleos mexicanos",
+            "program": "anestesiologia",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Escamilla Rios, Dania Elena",
+            "advisor": "Silva Jiménez, Arturo ; Martínez Segura, Ramón Tomás ; Urbieta Arciniega, Jorge Ivan",
+            "x": 8.637168,
+            "y": 0.141015,
+            "cluster_strength": 0.563858
+          },
+          {
+            "thesis_id": "TH_0064742",
+            "doc_number_url": "000140433",
+            "title": "reduccion de las fracturas con anestesia local",
+            "program": "medico cirujano",
+            "year": 1933,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Graf Cabiedes, Santiago",
+            "advisor": "",
+            "x": 8.643536,
+            "y": 0.141588,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 56,
+        "macrocluster_id": 2,
+        "micro_label": "ANALGESIA · PACIENTES · CIRUGIA · DOLOR",
+        "size": 146,
+        "x": 8.285353,
+        "y": -0.032153,
+        "year_min": 1924,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "analgesia",
+            "score": 0.078902
+          },
+          {
+            "term": "pacientes",
+            "score": 0.044935
+          },
+          {
+            "term": "cirugia",
+            "score": 0.042678
+          },
+          {
+            "term": "dolor",
+            "score": 0.042068
+          },
+          {
+            "term": "postoperatorio",
+            "score": 0.0392
+          },
+          {
+            "term": "vs",
+            "score": 0.038646
+          },
+          {
+            "term": "postoperatoria",
+            "score": 0.038257
+          },
+          {
+            "term": "analgesia postoperatoria",
+            "score": 0.036733
+          },
+          {
+            "term": "ropivacaina",
+            "score": 0.034808
+          },
+          {
+            "term": "uso",
+            "score": 0.034713
+          },
+          {
+            "term": "bupivacaina",
+            "score": 0.03447
+          },
+          {
+            "term": "eficacia",
+            "score": 0.032313
+          },
+          {
+            "term": "pacientes sometidos",
+            "score": 0.028157
+          },
+          {
+            "term": "sometidos",
+            "score": 0.028157
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "anestesiologia",
+            "count": 123
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 4
+          },
+          {
+            "label": "cirugia general",
+            "count": 4
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 2
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 2
+          },
+          {
+            "label": "anestesiologia pediatrica",
+            "count": 2
+          },
+          {
+            "label": "coloproctologia",
+            "count": 2
+          },
+          {
+            "label": "neonatologia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 146
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 136
+          },
+          {
+            "label": "Licenciatura",
+            "count": 9
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 143
+          },
+          {
+            "label": "instituto mexicano del seguro social. unidad médica de alta especialidad. centro médico nacional \"dr. gaudencio gonzález garza,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 1.0,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 146,
+            "pct": 1.0
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0445557",
+            "doc_number_url": "000715444",
+            "title": "efectividad de la analgesia postoperatoria en artroplastia total de rodilla : morfina peridural comparada con dexmedetomidina más morfina",
+            "program": "anestesiologia",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ramirez Rodriguez, Dalia Citlalli",
+            "advisor": "Díaz Hernández, Joel Emigdio",
+            "x": 8.285911,
+            "y": -0.032627,
+            "cluster_strength": 0.937336
+          },
+          {
+            "thesis_id": "TH_0393344",
+            "doc_number_url": "000675994",
+            "title": "eficacia de la analgesia postoperatoria con morfina intraarticular en cirugía artroscópica de rodilla",
+            "program": "anestesiologia",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Rodríguez Sandoval, Leonardo Daniel",
+            "advisor": "Ramos Olmos, Claudia Agustina ; Huape Arreola, Sandra",
+            "x": 8.292255,
+            "y": -0.02969,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0338115",
+            "doc_number_url": "000623164",
+            "title": "eficacia de la analgesia postoperatoria con morfina intratecal en pacientes sometidos a hemorroidectomia y fistulectomia",
+            "program": "anestesiologia",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ramos Olmos, Claudia Agustina",
+            "advisor": "Castillo López, Rosalinda ; Vargas Espinosa, Juan Manuel",
+            "x": 8.29303,
+            "y": -0.0247,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0412497",
+            "doc_number_url": "000675146",
+            "title": "analgesia preventiva contra analgesia postoperatoria con ketorolaco intravenoso en oclusión tubaria bilateral",
+            "program": "anestesiologia",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Granados Mondragón, Patricia",
+            "advisor": "Pérez Flores, Andrea",
+            "x": 8.294024,
+            "y": -0.042338,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0174013",
+            "doc_number_url": "000047816",
+            "title": "bloqueo epidural doble para analgesia obstetrica",
+            "program": "anestesiologia",
+            "year": 1984,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Vargas Perez, Joel Enrique",
+            "advisor": "Arellano Ortiz, Marco Antonio",
+            "x": 8.290817,
+            "y": -0.045431,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0410190",
+            "doc_number_url": "000685086",
+            "title": "eficacia y seguridad de un esquema de analgesia epidural durante el postoperatorio inmediato con monodosis de sufentanilo mas ropivacaina vs fentanilo mas ropivacaina en escolares con apendicitis aguda",
+            "program": "anestesiologia pediatrica",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Correa German, Carolina",
+            "advisor": "Mancera Elias, Gabriel",
+            "x": 8.289083,
+            "y": -0.047084,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0408335",
+            "doc_number_url": "000697612",
+            "title": "prevención del dolor agudo postoperatorio con infiltración pre y post incisional de bupivacaína en pacientes sometidosa colecistectomía, plastia inguinaly otb en un hospital rural",
+            "program": "anestesiologia",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Arce Quiroz, Dillery Bethzabhe",
+            "advisor": "Castellanos Olivares, Antonio",
+            "x": 8.271887,
+            "y": -0.039994,
+            "cluster_strength": 0.466251
+          },
+          {
+            "thesis_id": "TH_0255575",
+            "doc_number_url": "000235762",
+            "title": "efectividad del uso profilactico de somatostatina en anastomosis de alto riesgo para la prevencion de complicaciones postoperatorias",
+            "program": "cirugia general",
+            "year": 1996,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Alvarez Araujo, Jaime",
+            "advisor": "Juarez Corona, David",
+            "x": 8.300289,
+            "y": -0.02673,
+            "cluster_strength": 0.368377
+          }
+        ]
+      },
+      {
+        "microcluster_id": 47,
+        "macrocluster_id": 2,
+        "micro_label": "ORAL · ORALES · CAVIDAD · CAVIDAD ORAL",
+        "size": 141,
+        "x": 8.28581,
+        "y": -3.235146,
+        "year_min": 1930,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "oral",
+            "score": 0.092835
+          },
+          {
+            "term": "orales",
+            "score": 0.069763
+          },
+          {
+            "term": "cavidad",
+            "score": 0.065513
+          },
+          {
+            "term": "cavidad oral",
+            "score": 0.064013
+          },
+          {
+            "term": "glandulas",
+            "score": 0.062159
+          },
+          {
+            "term": "salivales",
+            "score": 0.057375
+          },
+          {
+            "term": "glandulas salivales",
+            "score": 0.057375
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.04628
+          },
+          {
+            "term": "lesiones",
+            "score": 0.04472
+          },
+          {
+            "term": "maxilares",
+            "score": 0.041008
+          },
+          {
+            "term": "saliva",
+            "score": 0.03501
+          },
+          {
+            "term": "habitos",
+            "score": 0.033949
+          },
+          {
+            "term": "enfermedades",
+            "score": 0.02924
+          },
+          {
+            "term": "habitos orales",
+            "score": 0.028634
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 118
+          },
+          {
+            "label": "anatomia patologica",
+            "count": 4
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 3
+          },
+          {
+            "label": "medicina familiar",
+            "count": 2
+          },
+          {
+            "label": "biologia",
+            "count": 2
+          },
+          {
+            "label": "radiologia e imagen",
+            "count": 1
+          },
+          {
+            "label": "biotecnologia",
+            "count": 1
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 136
+          },
+          {
+            "label": "Area 1",
+            "count": 3
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 129
+          },
+          {
+            "label": "Especialidad",
+            "count": 9
+          },
+          {
+            "label": "Maestría",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 129
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de odontología",
+            "count": 3
+          },
+          {
+            "label": "universidad latinoamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "instituto universitario del norte (chihuahua, chi.). escuela de odontologia,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad de ixtlahuaca cui",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores zaragoza institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.021277,
+          "Area 2": 0.964539,
+          "Area 3": 0.007092,
+          "Area 4": 0.007092,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 136,
+            "pct": 0.964539
+          },
+          {
+            "area": "Area 1",
+            "count": 3,
+            "pct": 0.021277
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.007092
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.007092
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0065005",
+            "doc_number_url": "000880744",
+            "title": "flegmón septico del piso de la boca",
+            "program": "SIN PROGRAMA",
+            "year": 1933,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Vega Vitte, Rosa",
+            "advisor": "",
+            "x": 8.247893,
+            "y": -3.251488,
+            "cluster_strength": 0.584103
+          },
+          {
+            "thesis_id": "TH_0240864",
+            "doc_number_url": "000204660",
+            "title": "ontogenia de la apertura de la boca",
+            "program": "cirujano dentista",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "García Ramírez, Pablo",
+            "advisor": "Oropeza Murillo, Martha Patricia",
+            "x": 8.235181,
+            "y": -3.253655,
+            "cluster_strength": 0.529689
+          },
+          {
+            "thesis_id": "TH_0291934",
+            "doc_number_url": "000273521",
+            "title": "ritmos ciradianos y su influencia en la secrecion y compocion de la saliva",
+            "program": "cirujano dentista",
+            "year": 1999,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Grajales José, Maria del Rosario",
+            "advisor": "Marichi Rodríguez, Francisco Javier",
+            "x": 8.263435,
+            "y": -3.288873,
+            "cluster_strength": 0.584103
+          },
+          {
+            "thesis_id": "TH_0181981",
+            "doc_number_url": "000033178",
+            "title": "nuevo diterpeno aislado de saliva melissodora",
+            "program": "quimica",
+            "year": 1986,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Gaviño, Rubén",
+            "advisor": "Cárdenas Pérez, Ricardo Jorge",
+            "x": 8.343558,
+            "y": -3.251214,
+            "cluster_strength": 0.530248
+          },
+          {
+            "thesis_id": "TH_0112095",
+            "doc_number_url": "000140639",
+            "title": "importancia de la saliva en la cavid bucal",
+            "program": "cirujano dentista",
+            "year": 1971,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Santamaria Basurto, José Ricardo",
+            "advisor": "Díaz Pliego, Víctor Manuel",
+            "x": 8.347067,
+            "y": -3.223651,
+            "cluster_strength": 0.516474
+          },
+          {
+            "thesis_id": "TH_0179617",
+            "doc_number_url": "000062886",
+            "title": "cirugia de insercion de los frenillos labial y lingual",
+            "program": "cirujano dentista",
+            "year": 1986,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "universidad latinoamericana",
+            "author": "Balbuena Robles, Maria del Rocio",
+            "advisor": "Rodríguez del Rosal, David",
+            "x": 8.220584,
+            "y": -3.256464,
+            "cluster_strength": 0.584103
+          },
+          {
+            "thesis_id": "TH_0085194",
+            "doc_number_url": null,
+            "title": "programa y procedimientos para la construccion de la presa de la boca, en el estado de nuevo leon",
+            "program": "ingenieria civil",
+            "year": 1961,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Alvarez Morphy, Guillermo",
+            "advisor": "",
+            "x": 8.240206,
+            "y": -3.28713,
+            "cluster_strength": 0.584103
+          },
+          {
+            "thesis_id": "TH_0142328",
+            "doc_number_url": "000022412",
+            "title": "quistes de la cavidad oral y cuello",
+            "program": "cirujano dentista",
+            "year": 1979,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Cano Marquez, Margarita",
+            "advisor": "Perez Ruiz, Cesar Pablo",
+            "x": 8.198977,
+            "y": -3.281964,
+            "cluster_strength": 0.584103
+          }
+        ]
+      },
+      {
+        "microcluster_id": 117,
+        "macrocluster_id": 2,
+        "micro_label": "TRATAMIENTO · QUIRURGICO · TRATAMIENTO QUIRURGICO · TECNICA",
+        "size": 131,
+        "x": 7.808942,
+        "y": -1.462878,
+        "year_min": 1889,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "tratamiento",
+            "score": 0.086417
+          },
+          {
+            "term": "quirurgico",
+            "score": 0.082466
+          },
+          {
+            "term": "tratamiento quirurgico",
+            "score": 0.062743
+          },
+          {
+            "term": "tecnica",
+            "score": 0.054538
+          },
+          {
+            "term": "quirurgica",
+            "score": 0.051814
+          },
+          {
+            "term": "cirugia",
+            "score": 0.048215
+          },
+          {
+            "term": "quirurgicas",
+            "score": 0.046041
+          },
+          {
+            "term": "apicectomia",
+            "score": 0.04024
+          },
+          {
+            "term": "tecnicas quirurgicas",
+            "score": 0.031957
+          },
+          {
+            "term": "tecnicas",
+            "score": 0.031957
+          },
+          {
+            "term": "terceros molares",
+            "score": 0.02587
+          },
+          {
+            "term": "terceros",
+            "score": 0.02587
+          },
+          {
+            "term": "molares",
+            "score": 0.02587
+          },
+          {
+            "term": "frenilectomia",
+            "score": 0.021691
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 47
+          },
+          {
+            "label": "cirugia general",
+            "count": 19
+          },
+          {
+            "label": "medico cirujano",
+            "count": 11
+          },
+          {
+            "label": "traumatologia y ortopedia",
+            "count": 11
+          },
+          {
+            "label": "oftalmologia",
+            "count": 8
+          },
+          {
+            "label": "otorrinolaringologia",
+            "count": 3
+          },
+          {
+            "label": "cirugia pediatrica",
+            "count": 3
+          },
+          {
+            "label": "coloproctologia",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 130
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 69
+          },
+          {
+            "label": "Licenciatura",
+            "count": 62
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 119
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 6
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales iztacala institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad latinoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores cuautitlan institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de odontologia institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores zaragoza",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.992366,
+          "Area 3": 0.0,
+          "Area 4": 0.007634,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 130,
+            "pct": 0.992366
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.007634
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0377027",
+            "doc_number_url": "000791368",
+            "title": "desenlace en la cirugía de remplazo valvular : estudio retrospectivo",
+            "program": "cirugia cardiotoracica",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ortega Zhindón, Diego Bernardo",
+            "advisor": "Ramírez Castañeda, Serafín ; Flores Calderón, Octavio ; García García, José Antonio",
+            "x": 7.806906,
+            "y": -1.472966,
+            "cluster_strength": 0.980729
+          },
+          {
+            "thesis_id": "TH_0132355",
+            "doc_number_url": "000149768",
+            "title": "tratamiento quirurgico de los focos apicales",
+            "program": "cirujano dentista",
+            "year": 1976,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Sanchez Aguilar, Laura Rebeca",
+            "advisor": "Karam Haddad, Adib",
+            "x": 7.799438,
+            "y": -1.449502,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0028464",
+            "doc_number_url": "000301967",
+            "title": "complicaciones transoperatorias de 500 colecistectomias lamparoscopicas",
+            "program": "cirugia general",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Guerrero Molina, Maria Guadalupe",
+            "advisor": "Arenas Osuna, Jesús",
+            "x": 7.805518,
+            "y": -1.485008,
+            "cluster_strength": 0.946689
+          },
+          {
+            "thesis_id": "TH_0526651",
+            "doc_number_url": "000820888",
+            "title": "complicaciones postoperatorias en cirugía de terceros molares",
+            "program": "cirujano dentista",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Segundo Aguirre, Anayeli Monserrat",
+            "advisor": "Ramírez Lugo, Raymundo",
+            "x": 7.810313,
+            "y": -1.439166,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0209004",
+            "doc_number_url": "000117747",
+            "title": "colecistitis aguda y cronica tratamiento quirurgico",
+            "program": "cirugia general",
+            "year": 1990,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Salomon Contreras, Angel",
+            "advisor": "Hernandez Espinoza, Rafael",
+            "x": 7.788291,
+            "y": -1.447122,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0445873",
+            "doc_number_url": "000715924",
+            "title": "comparación de dos técnicas quirúrgicas en apendicetomías realizadas en el hies del 1 de mayo al 31 de diciembre del 2013",
+            "program": "cirugia pediatrica",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Reyes Santiago, Alex Tony",
+            "advisor": "Barraza Leon, Alba Rocio",
+            "x": 7.77692,
+            "y": -1.443269,
+            "cluster_strength": 0.925994
+          },
+          {
+            "thesis_id": "TH_0066712",
+            "doc_number_url": "000144495",
+            "title": "tratamiento quirurgico de los neoplasmas de la laringe : laringuectomia total segun la tecnica francesa",
+            "program": "medico cirujano",
+            "year": 1936,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Zamora Maldonado, Miguel",
+            "advisor": "",
+            "x": 7.808879,
+            "y": -1.502682,
+            "cluster_strength": 0.950857
+          },
+          {
+            "thesis_id": "TH_0524206",
+            "doc_number_url": "000816381",
+            "title": "complicaciones postanestésicas en cirugía de columna lumbar en posición de decúbito prono. incidencia en el centro de neurología del centro médico abc",
+            "program": "anestesiologia",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Pérez López, Itzel Daniela",
+            "advisor": "Obregón Corona, Alejandro",
+            "x": 7.761175,
+            "y": -1.465562,
+            "cluster_strength": 0.807071
+          }
+        ]
+      },
+      {
+        "microcluster_id": 38,
+        "macrocluster_id": 2,
+        "micro_label": "ENDODONCIA · TRATAMIENTO · ENDODONTICO · ENDODONTICA",
+        "size": 120,
+        "x": 7.715974,
+        "y": -4.334514,
+        "year_min": 1955,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "endodoncia",
+            "score": 0.218944
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.081148
+          },
+          {
+            "term": "endodontico",
+            "score": 0.065411
+          },
+          {
+            "term": "endodontica",
+            "score": 0.05776
+          },
+          {
+            "term": "tratamiento endodontico",
+            "score": 0.044627
+          },
+          {
+            "term": "odontopediatria",
+            "score": 0.041501
+          },
+          {
+            "term": "practica",
+            "score": 0.041464
+          },
+          {
+            "term": "endodonticos",
+            "score": 0.03834
+          },
+          {
+            "term": "endodoncia odontopediatria",
+            "score": 0.037934
+          },
+          {
+            "term": "generalidades",
+            "score": 0.036445
+          },
+          {
+            "term": "cirugia",
+            "score": 0.036003
+          },
+          {
+            "term": "obturacion",
+            "score": 0.030122
+          },
+          {
+            "term": "accidentes",
+            "score": 0.026996
+          },
+          {
+            "term": "generales",
+            "score": 0.026951
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 117
+          },
+          {
+            "label": "neurocirugia",
+            "count": 1
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 1
+          },
+          {
+            "label": "endodoncia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 119
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 118
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 111
+          },
+          {
+            "label": "universidad latinoamericana (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de odontologia institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales iztacala institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "instituto universitario del norte (chihuahua, chi.). escuela de odontologia,",
+            "count": 1
+          },
+          {
+            "label": "universidad de ixtlahuaca cui",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.991667,
+          "Area 3": 0.008333,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 119,
+            "pct": 0.991667
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.008333
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0152104",
+            "doc_number_url": "000041856",
+            "title": "materiales de obturacion en la practica endodontica",
+            "program": "cirujano dentista",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Orduña Palacios, Jorge",
+            "advisor": "Membrillo V., Jose Luis",
+            "x": 7.715935,
+            "y": -4.331682,
+            "cluster_strength": 0.271771
+          },
+          {
+            "thesis_id": "TH_0118292",
+            "doc_number_url": "000145953",
+            "title": "la relacion entre endodontica y parodontica",
+            "program": "cirujano dentista",
+            "year": 1973,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Huerdo Obregon, Patricia Elena",
+            "advisor": "Lozano, Rafael",
+            "x": 7.713256,
+            "y": -4.337449,
+            "cluster_strength": 0.856815
+          },
+          {
+            "thesis_id": "TH_0162970",
+            "doc_number_url": "000017915",
+            "title": "aplicacion de la farmacologia en la endodoncia",
+            "program": "cirujano dentista",
+            "year": 1983,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Hernandez Gonzalez, Maria de Lourdes",
+            "advisor": "Barrera López, Javier",
+            "x": 7.708811,
+            "y": -4.340825,
+            "cluster_strength": 0.790838
+          },
+          {
+            "thesis_id": "TH_0141510",
+            "doc_number_url": "000154543",
+            "title": "patologia periapical : su tratamiento endodontico y quirurgico",
+            "program": "cirujano dentista",
+            "year": 1978,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Zarate Gonzalez, Rafael",
+            "advisor": "",
+            "x": 7.726436,
+            "y": -4.332585,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0247091",
+            "doc_number_url": "000200697",
+            "title": "tratamiento de urgencias endodonticas",
+            "program": "cirujano dentista",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "universidad latinoamericana",
+            "author": "Velasquez García, Ernesto José",
+            "advisor": "Rubín Ibarmea, Enrique",
+            "x": 7.727793,
+            "y": -4.338597,
+            "cluster_strength": 0.733645
+          },
+          {
+            "thesis_id": "TH_0154103",
+            "doc_number_url": "000031876",
+            "title": "cirugia endodontica",
+            "program": "cirujano dentista",
+            "year": 1982,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Alanis Pool, Adalberto Aniceto",
+            "advisor": "Pavon Reyes, Sergio A",
+            "x": 7.720038,
+            "y": -4.346909,
+            "cluster_strength": 0.609779
+          },
+          {
+            "thesis_id": "TH_0150663",
+            "doc_number_url": "000022895",
+            "title": "cirugia endodontica",
+            "program": "cirujano dentista",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Hernandez Gonzalez, Elizabeth",
+            "advisor": "Dominguez Ramas, Humberto",
+            "x": 7.710823,
+            "y": -4.348274,
+            "cluster_strength": 0.577697
+          },
+          {
+            "thesis_id": "TH_0152186",
+            "doc_number_url": null,
+            "title": "tratamientos endodonticos empleados en paidodoncia",
+            "program": "cirujano dentista",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Ortiz Santos, Saul",
+            "advisor": "Cadena y Vega, Guillermo Miguel",
+            "x": 7.730288,
+            "y": -4.338012,
+            "cluster_strength": 0.627367
+          }
+        ]
+      },
+      {
+        "microcluster_id": 39,
+        "macrocluster_id": 2,
+        "micro_label": "OSTEOPOROSIS · TRATAMIENTO · OSTEOSARCOMA · OSTEOTOMIA",
+        "size": 103,
+        "x": 7.75104,
+        "y": -2.812376,
+        "year_min": 1893,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "osteoporosis",
+            "score": 0.071545
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.059527
+          },
+          {
+            "term": "osteosarcoma",
+            "score": 0.05784
+          },
+          {
+            "term": "osteotomia",
+            "score": 0.04817
+          },
+          {
+            "term": "pacientes",
+            "score": 0.047047
+          },
+          {
+            "term": "osteomielitis",
+            "score": 0.034364
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.032846
+          },
+          {
+            "term": "fracturas",
+            "score": 0.030697
+          },
+          {
+            "term": "hospital",
+            "score": 0.026347
+          },
+          {
+            "term": "paciente",
+            "score": 0.025151
+          },
+          {
+            "term": "estudio",
+            "score": 0.024877
+          },
+          {
+            "term": "complicaciones",
+            "score": 0.023813
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.023089
+          },
+          {
+            "term": "osteosintesis",
+            "score": 0.022385
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "traumatologia y ortopedia",
+            "count": 19
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 15
+          },
+          {
+            "label": "ortopedia",
+            "count": 13
+          },
+          {
+            "label": "medicina de rehabilitacion",
+            "count": 6
+          },
+          {
+            "label": "odontologia",
+            "count": 5
+          },
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 4
+          },
+          {
+            "label": "medico cirujano",
+            "count": 4
+          },
+          {
+            "label": "biologia de la reproduccion humana",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 100
+          },
+          {
+            "label": "Area 3",
+            "count": 2
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 70
+          },
+          {
+            "label": "Licenciatura",
+            "count": 29
+          },
+          {
+            "label": "Maestría",
+            "count": 3
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 98
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara jal) facultad de odontologia institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "escuela nacional de medicina (mexico), institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de psicología",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.009709,
+          "Area 2": 0.970874,
+          "Area 3": 0.019417,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 100,
+            "pct": 0.970874
+          },
+          {
+            "area": "Area 3",
+            "count": 2,
+            "pct": 0.019417
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.009709
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0545878",
+            "doc_number_url": "000844233",
+            "title": "impacto de síndrome metabólico en hallazgos ultrasonográficos y calidad de vida en pacientes con osteoartritis temprana",
+            "program": "reumatologia",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "González Hernández, María Fernanda",
+            "advisor": "Espinosa Morales, Rolando",
+            "x": 7.748862,
+            "y": -2.813945,
+            "cluster_strength": 0.519071
+          },
+          {
+            "thesis_id": "TH_0003604",
+            "doc_number_url": "000280329",
+            "title": "efecto de la terapia hormonal de reemplazo sobre la actividad clinica y la osteoporosis en pacientes posmenopausicas con lupus eritematoso generalizada",
+            "program": "ciencias medicas",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de medicina unam",
+            "author": "Gonzalez Perez, Marisol",
+            "advisor": "Sanchez Guerrero, Francisco Jorge ; Alcocer Varela, Jorge",
+            "x": 7.759498,
+            "y": -2.828153,
+            "cluster_strength": 0.60454
+          },
+          {
+            "thesis_id": "TH_0403519",
+            "doc_number_url": "000678119",
+            "title": "incidencia de osteocondritis en un centro de referencia : hospital dr. victorio de la fuente narváez",
+            "program": "ortopedia",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ochoa Noyola, Zazil",
+            "advisor": "Fuentes Figueroa, Silvestre",
+            "x": 7.747721,
+            "y": -2.831099,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0401756",
+            "doc_number_url": "000676556",
+            "title": "eficacia del tratamiento quirúrgico radical versus salvamento de la extremidad en el osteosarcoma : revisión sistemática",
+            "program": "ortopedia",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Lora Ramírez, Gonzalo Gabriel",
+            "advisor": "Amaya Zepeda, Rubén",
+            "x": 7.769844,
+            "y": -2.808875,
+            "cluster_strength": 0.610299
+          },
+          {
+            "thesis_id": "TH_0553988",
+            "doc_number_url": "000829946",
+            "title": "exactitud diagnóstica de diferentes técnicas de imagen en el diagnóstico de osteomielitis",
+            "program": "pediatria",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Vargas Díaz, María Alejandra",
+            "advisor": "Aguilar Gómez, Nancy Evelyn",
+            "x": 7.74252,
+            "y": -2.792867,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0326409",
+            "doc_number_url": "000608370",
+            "title": "relacion de la osteoartritis con los polimorfismos del gen del receptor col2a1",
+            "program": "medicina de rehabilitacion",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Strassburger Lona, Karla",
+            "advisor": "Miranda Duarte, Antonio ; Lara Alvarado, Lorena",
+            "x": 7.744212,
+            "y": -2.832839,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0561240",
+            "doc_number_url": "000861413",
+            "title": "\"evaluación de los hallazgos osteodegenerativos de columna mediante tomografía computada en el hospital regional 1° de octubre del issste\"",
+            "program": "imagenologia diagnostica y terapeutica",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Lara Galindo, Roy Diego",
+            "advisor": "Granados Sandoval, Enrique",
+            "x": 7.769248,
+            "y": -2.825996,
+            "cluster_strength": 0.940345
+          },
+          {
+            "thesis_id": "TH_0072044",
+            "doc_number_url": "000155433",
+            "title": "prognatismo : tratamiento quirurgico por osteotomia transversa de las ramas ascendentes : ventajas y desventajas",
+            "program": "cirujano dentista",
+            "year": 1944,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Olmedo Flores, Angela",
+            "advisor": "",
+            "x": 7.728458,
+            "y": -2.817317,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 120,
+        "macrocluster_id": 2,
+        "micro_label": "COLECISTECTOMIA · LAPAROSCOPICA · HISTERECTOMIA · COLECISTECTOMIA LAPAROSCOPICA",
+        "size": 96,
+        "x": 8.418218,
+        "y": -1.317362,
+        "year_min": 1891,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "colecistectomia",
+            "score": 0.088893
+          },
+          {
+            "term": "laparoscopica",
+            "score": 0.085698
+          },
+          {
+            "term": "histerectomia",
+            "score": 0.07423
+          },
+          {
+            "term": "colecistectomia laparoscopica",
+            "score": 0.058541
+          },
+          {
+            "term": "hospital",
+            "score": 0.057092
+          },
+          {
+            "term": "pacientes",
+            "score": 0.050002
+          },
+          {
+            "term": "cirugia",
+            "score": 0.046658
+          },
+          {
+            "term": "abdominal",
+            "score": 0.044029
+          },
+          {
+            "term": "laparoscopia",
+            "score": 0.041016
+          },
+          {
+            "term": "general",
+            "score": 0.033663
+          },
+          {
+            "term": "tecnica",
+            "score": 0.032436
+          },
+          {
+            "term": "total",
+            "score": 0.032086
+          },
+          {
+            "term": "complicaciones",
+            "score": 0.029707
+          },
+          {
+            "term": "hospital general",
+            "score": 0.029634
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirugia general",
+            "count": 41
+          },
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 33
+          },
+          {
+            "label": "medico cirujano",
+            "count": 4
+          },
+          {
+            "label": "cirugia pediatrica",
+            "count": 3
+          },
+          {
+            "label": "anestesiologia",
+            "count": 3
+          },
+          {
+            "label": "coloproctologia",
+            "count": 2
+          },
+          {
+            "label": "pediatria",
+            "count": 2
+          },
+          {
+            "label": "cirugia plastica y reconstructiva",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 94
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 89
+          },
+          {
+            "label": "Licenciatura",
+            "count": 6
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 94
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.010417,
+          "Area 2": 0.979167,
+          "Area 3": 0.010417,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 94,
+            "pct": 0.979167
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.010417
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.010417
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0462514",
+            "doc_number_url": "000739961",
+            "title": "utilidad clínica de la escala de riesgo os-mrs en pacientes sometidos a cirugía bariátrica por vía laparoscópica : un estudio retrospectivo",
+            "program": "cirugia general",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Trujillo Ortiz, José Abraham",
+            "advisor": "Muñoz Montes, Norberto ; Lozada Hernández, Edgard Efrén",
+            "x": 8.424866,
+            "y": -1.317959,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0031922",
+            "doc_number_url": "000307150",
+            "title": "complicaciones perioperatorias de la histerectomia vagil análisis de tres años en el hospital de la mujer ssa",
+            "program": "ginecologia y obstetricia",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Morales Mariscal, Julieta",
+            "advisor": "Garcia Rodriguez, Esteban",
+            "x": 8.423036,
+            "y": -1.331185,
+            "cluster_strength": 0.664656
+          },
+          {
+            "thesis_id": "TH_0187096",
+            "doc_number_url": "000048782",
+            "title": "laparoscopia en ginecologia. utilidad diagnostica, pronostica y terapeutica de la laparascopia de segunda mirada",
+            "program": "ginecologia y obstetricia",
+            "year": 1986,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Valle Cossio, Carlos Alberto Del",
+            "advisor": "Cabzy Ambe, Alberto",
+            "x": 8.408109,
+            "y": -1.304192,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0382015",
+            "doc_number_url": "000661860",
+            "title": "factores de riesgo para las complicaciones en la histerectomía laparoscópica",
+            "program": "ginecologia y obstetricia",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ahumada Frayde, Ramón",
+            "advisor": "Ayala Yañez, Rodrigo ; Velazquez Valassi, Beatriz",
+            "x": 8.430945,
+            "y": -1.305935,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0029789",
+            "doc_number_url": "000311778",
+            "title": "correlacion imagenologica y laparoscopica en pacientes esteriles mediante histerosalpingografia",
+            "program": "radiodiagnostico",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Lastiri Rito, Reyna",
+            "advisor": "Cruz Nuñez, Leobardo ; Balcazar Vazquez, Ricardo",
+            "x": 8.447536,
+            "y": -1.324089,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0484875",
+            "doc_number_url": "000761575",
+            "title": "costos de atención de colecistectomía laparoscópica programada en hospital general balbuena en el año 2016",
+            "program": "cirugia general",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "López Belmont, Karla",
+            "advisor": "Carballo Cruz, Francisco Javier ; Rojano Mercado, Eduardo",
+            "x": 8.391131,
+            "y": -1.290655,
+            "cluster_strength": 0.876678
+          },
+          {
+            "thesis_id": "TH_0420612",
+            "doc_number_url": "000683456",
+            "title": "parametros establecidos por el colegio americano de patólogos identificados en los reportes histopatológicos de falectomías",
+            "program": "anatomia patologica",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Torres Mejia, Issel Alejandra",
+            "advisor": "Parraguirre Martínez, Sara ; Suárez Roa, María de Lourdes",
+            "x": 8.448222,
+            "y": -1.342281,
+            "cluster_strength": 0.690642
+          },
+          {
+            "thesis_id": "TH_0462780",
+            "doc_number_url": "000731659",
+            "title": "pancreatectomía distal abierta vs laparoscópica en el hospital general de méxico",
+            "program": "cirugia general",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Vargas Arias, José Rubén",
+            "advisor": "Chapa Azuela, Oscar ; Athie Gutiérrez, César ; Hurtado López, Luis Mauricio",
+            "x": 8.407719,
+            "y": -1.275001,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 5,
+        "macrocluster_id": 2,
+        "micro_label": "PERIODONTAL · ENFERMEDAD · ENFERMEDAD PERIODONTAL · PERIODONTALES",
+        "size": 79,
+        "x": 11.610753,
+        "y": 0.805825,
+        "year_min": 1933,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "periodontal",
+            "score": 0.174223
+          },
+          {
+            "term": "enfermedad",
+            "score": 0.118672
+          },
+          {
+            "term": "enfermedad periodontal",
+            "score": 0.10642
+          },
+          {
+            "term": "periodontales",
+            "score": 0.091317
+          },
+          {
+            "term": "periodonto",
+            "score": 0.057335
+          },
+          {
+            "term": "enfermedades",
+            "score": 0.055497
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.054274
+          },
+          {
+            "term": "periodontitis",
+            "score": 0.054145
+          },
+          {
+            "term": "pacientes",
+            "score": 0.037193
+          },
+          {
+            "term": "relacion",
+            "score": 0.031941
+          },
+          {
+            "term": "salud",
+            "score": 0.029594
+          },
+          {
+            "term": "etiologia",
+            "score": 0.029496
+          },
+          {
+            "term": "estudio",
+            "score": 0.028198
+          },
+          {
+            "term": "terapia periodontal",
+            "score": 0.027194
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 70
+          },
+          {
+            "label": "odontologia",
+            "count": 3
+          },
+          {
+            "label": "endoperiodontologia",
+            "count": 3
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 1
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 1
+          },
+          {
+            "label": "ciencias odontologicas basicas",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 79
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 73
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 74
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de odontología",
+            "count": 1
+          },
+          {
+            "label": "universidad de ixtlahuaca cui",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de odontologia institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores zaragoza institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 1.0,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 79,
+            "pct": 1.0
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0192664",
+            "doc_number_url": "000074314",
+            "title": "factores inmunologicos que influyen en el desarrollo de la enfermedad periodontal y consideraciones basicas de inmunologia",
+            "program": "cirujano dentista",
+            "year": 1988,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Martinez López, Saul Uriel",
+            "advisor": "Vargas Casillas, Ana Patricia",
+            "x": 11.613779,
+            "y": 0.809539,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0312017",
+            "doc_number_url": "000349766",
+            "title": "frecuencia de la enfermedad periodontal en pacientes adultos en plenitud que asisten a la clinica no. 21 del instituto mexicano del seguro social, delegacion venustiano carranza",
+            "program": "cirujano dentista",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Roldan Andrade, Lilia",
+            "advisor": "Bucio Bucio, Maria Gloria",
+            "x": 11.614272,
+            "y": 0.802066,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0515353",
+            "doc_number_url": "000811423",
+            "title": "prevención y diagnóstico temprano de la enfermedad periodontal",
+            "program": "cirujano dentista",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Badillo Flores, Daniela",
+            "advisor": "León Aguilar, Raúl",
+            "x": 11.616431,
+            "y": 0.804673,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0166940",
+            "doc_number_url": "000022196",
+            "title": "consideraciones periodontales en la protesis parcial fija y removible",
+            "program": "cirujano dentista",
+            "year": 1984,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Aguirre Salgado, Luz Maria",
+            "advisor": "Sato Sato, Marcelo Yolli",
+            "x": 11.615803,
+            "y": 0.809707,
+            "cluster_strength": 0.30892
+          },
+          {
+            "thesis_id": "TH_0185605",
+            "doc_number_url": "000019712",
+            "title": "enfermedades periodontales agudas",
+            "program": "cirujano dentista",
+            "year": 1986,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Rios Manzanero, Ernesto",
+            "advisor": "Ochoa Garcia, Leonor",
+            "x": 11.613742,
+            "y": 0.811847,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0318582",
+            "doc_number_url": "000606646",
+            "title": "papel del epitelio periodontal en salud y enfermedad",
+            "program": "cirujano dentista",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Francisco Tovar, Yessica Alejandra",
+            "advisor": "Salcido Garcia, Juan Francisco",
+            "x": 11.606192,
+            "y": 0.811835,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0517568",
+            "doc_number_url": "000811613",
+            "title": "lesiones periodontales, asociadas a tratamiento ortodóntico",
+            "program": "cirujano dentista",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Díaz Ortiz, Rodrigo",
+            "advisor": "Vargas Pérez, Ma. Magdalena",
+            "x": 11.617876,
+            "y": 0.808474,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0544967",
+            "doc_number_url": "000844632",
+            "title": "conocimiento y actitudes de los estudiantes de medicina del estado de méxico ante la enfermedad periodontal",
+            "program": "cirujano dentista",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "universidad de ixtlahuaca cui",
+            "author": "Fuentes Hernández, Abisai",
+            "advisor": "Mejia Rodriguez, Emmanuel ; González Díaz, Pierre",
+            "x": 11.615469,
+            "y": 0.799835,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 119,
+        "macrocluster_id": 2,
+        "micro_label": "INTESTINAL · ABDOMEN · PACIENTES · ABDOMINAL",
+        "size": 69,
+        "x": 8.500075,
+        "y": -1.007877,
+        "year_min": 1899,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "intestinal",
+            "score": 0.076566
+          },
+          {
+            "term": "abdomen",
+            "score": 0.071441
+          },
+          {
+            "term": "pacientes",
+            "score": 0.063099
+          },
+          {
+            "term": "abdominal",
+            "score": 0.052579
+          },
+          {
+            "term": "hospital",
+            "score": 0.051111
+          },
+          {
+            "term": "sepsis",
+            "score": 0.037736
+          },
+          {
+            "term": "manejo",
+            "score": 0.035298
+          },
+          {
+            "term": "agudo",
+            "score": 0.033666
+          },
+          {
+            "term": "abdomen agudo",
+            "score": 0.033666
+          },
+          {
+            "term": "quirurgico",
+            "score": 0.032466
+          },
+          {
+            "term": "gastrointestinal",
+            "score": 0.032002
+          },
+          {
+            "term": "factores",
+            "score": 0.030007
+          },
+          {
+            "term": "abierto",
+            "score": 0.027462
+          },
+          {
+            "term": "abdominales",
+            "score": 0.027386
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirugia general",
+            "count": 35
+          },
+          {
+            "label": "cirugia pediatrica",
+            "count": 7
+          },
+          {
+            "label": "coloproctologia",
+            "count": 6
+          },
+          {
+            "label": "gastroenterologia",
+            "count": 4
+          },
+          {
+            "label": "medico cirujano",
+            "count": 4
+          },
+          {
+            "label": "anatomia patologica",
+            "count": 1
+          },
+          {
+            "label": "gastroenterologia y nutricion pediatrica",
+            "count": 1
+          },
+          {
+            "label": "proctologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 68
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 64
+          },
+          {
+            "label": "Licenciatura",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 64
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.985507,
+          "Area 3": 0.014493,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 68,
+            "pct": 0.985507
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.014493
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0563565",
+            "doc_number_url": "000859756",
+            "title": "resultados en la implementación del programa de reconexión intestinal del servicio de cirugía de colon y recto del instituto nacional de ciencias médicas y nutrición \"salvador zubirán\"",
+            "program": "coloproctologia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Nájera Saldaña, Alberto",
+            "advisor": "Salgado Nesme, Noel",
+            "x": 8.498576,
+            "y": -1.024165,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0571638",
+            "doc_number_url": "000869041",
+            "title": "manejo del abdomen abierto y la experiencia en el hospital regional 1° de octubre issste : 01 de enero 2022 - 31 de diciembre 2023",
+            "program": "cirugia general",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Díaz Mendoza, Luis Miguel",
+            "advisor": "Cárdenas Gutiérrez, Oswaldo",
+            "x": 8.479486,
+            "y": -0.990493,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0362173",
+            "doc_number_url": "000647052",
+            "title": "estudio descriptivo de los pacientes de la clínica de intestino en el hospital de especialidades del centro médico nacional siglo xxi",
+            "program": "gastroenterologia",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Mena Quintero, Axel",
+            "advisor": "Paz Flores, Víctor Manuel",
+            "x": 8.469744,
+            "y": -0.999509,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0049178",
+            "doc_number_url": "000320121",
+            "title": "tratamiento quirurgico para el sindrome de intestino corto en el centro medico nacional soglo xxi",
+            "program": "cirugia general",
+            "year": 2003,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Segura Romero, Luis Alfonso",
+            "advisor": "Romero Hernandez, Teodoro",
+            "x": 8.489622,
+            "y": -0.97761,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0538620",
+            "doc_number_url": "000829395",
+            "title": "\"seguimiento de pacientes con intestino corto por una clínica de rehabilitación intestinal multidisciplinaria\"",
+            "program": "pediatria",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Romano Velazco, Jorge Antonio",
+            "advisor": "Villalpando Carrión, Salvador",
+            "x": 8.493325,
+            "y": -1.046048,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0346227",
+            "doc_number_url": "000636157",
+            "title": "manejo de sepsis abdominal con sistema de cierre asistida al vacio comparado con técnica abierta con bolsa de bogota en el hospital general ruben leñero",
+            "program": "cirugia general",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "González Cruz, José",
+            "advisor": "Barrera Zavala, Alfredo ; Escobedo Anzures, Fermín",
+            "x": 8.490612,
+            "y": -1.046536,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0239289",
+            "doc_number_url": "000208215",
+            "title": "oclusion intestinal : experiencia en el servicio de gastrocirugia el hospital de especialidades del centro medico nacional siglo xxi, imss en el lapso de 8 anos 1985-1993",
+            "program": "cirugia general",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cedillo Danzos, Luis",
+            "advisor": "Nino Solis, Javier",
+            "x": 8.454282,
+            "y": -0.99164,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0313508",
+            "doc_number_url": "000348654",
+            "title": "factores de mal pronostico en pacientes ancianos con abdomen agudo",
+            "program": "cirugia general",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Tenorio Torres, Juan Alberto",
+            "advisor": "Escamilla Ortiz, Abilene Cirenia",
+            "x": 8.495252,
+            "y": -1.057736,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 83,
+        "macrocluster_id": 2,
+        "micro_label": "LESIONES · TRAUMA · TRAUMATICAS · HOSPITAL",
+        "size": 61,
+        "x": 7.627706,
+        "y": -1.930747,
+        "year_min": 1882,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "lesiones",
+            "score": 0.133295
+          },
+          {
+            "term": "trauma",
+            "score": 0.105878
+          },
+          {
+            "term": "traumaticas",
+            "score": 0.062125
+          },
+          {
+            "term": "hospital",
+            "score": 0.054567
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.044368
+          },
+          {
+            "term": "traumatologia",
+            "score": 0.043194
+          },
+          {
+            "term": "traumatismos",
+            "score": 0.042503
+          },
+          {
+            "term": "trauma oclusal",
+            "score": 0.040737
+          },
+          {
+            "term": "oclusal",
+            "score": 0.040737
+          },
+          {
+            "term": "manejo",
+            "score": 0.040404
+          },
+          {
+            "term": "estudio",
+            "score": 0.038544
+          },
+          {
+            "term": "evolucion",
+            "score": 0.038233
+          },
+          {
+            "term": "lesiones traumaticas",
+            "score": 0.037487
+          },
+          {
+            "term": "lesion",
+            "score": 0.037457
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirugia general",
+            "count": 10
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 10
+          },
+          {
+            "label": "medico cirujano",
+            "count": 7
+          },
+          {
+            "label": "traumatologia y ortopedia",
+            "count": 6
+          },
+          {
+            "label": "medicina de urgencias",
+            "count": 5
+          },
+          {
+            "label": "derecho",
+            "count": 3
+          },
+          {
+            "label": "pediatria medica",
+            "count": 3
+          },
+          {
+            "label": "cirugia plastica y reconstructiva",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 56
+          },
+          {
+            "label": "Area 3",
+            "count": 4
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 39
+          },
+          {
+            "label": "Licenciatura",
+            "count": 22
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 58
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autonoma de mexico. facultad de medicina, institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.016393,
+          "Area 2": 0.918033,
+          "Area 3": 0.065574,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 56,
+            "pct": 0.918033
+          },
+          {
+            "area": "Area 3",
+            "count": 4,
+            "pct": 0.065574
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.016393
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0069905",
+            "doc_number_url": "000134896",
+            "title": "medula y raquis-traumatismos raqui medulares",
+            "program": "medico cirujano",
+            "year": 1942,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Barrera, Carlos Augusto",
+            "advisor": "",
+            "x": 7.619745,
+            "y": -1.938295,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0418302",
+            "doc_number_url": "000681908",
+            "title": "resultados en la reconstrucción de la vía lagrimal secundaria a trauma",
+            "program": "oftalmologia",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Romero Cano, Diego",
+            "advisor": "Angel Arenas, Maria Teresa del ; Robles Bringas, Araceli",
+            "x": 7.63762,
+            "y": -1.942787,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0061256",
+            "doc_number_url": "000160347",
+            "title": "algunas consideraciones sobre el epiplocele traumatico",
+            "program": "medico cirujano",
+            "year": 1890,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Paredes, Francisco",
+            "advisor": "",
+            "x": 7.636542,
+            "y": -1.94373,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0196013",
+            "doc_number_url": "000093378",
+            "title": "traumatismo cerrado de torax morbimotalidad",
+            "program": "medicina del enfermo en estado critico",
+            "year": 1988,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Valencia Escobar, Francisco Javier",
+            "advisor": "Salas Lara, Victor ; Gutierrez Garrido, Evodio Carlos",
+            "x": 7.64273,
+            "y": -1.937887,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0563056",
+            "doc_number_url": "000862085",
+            "title": "fractura traumática de pene : valor del ultrasonido como método diagnóstico y características principales",
+            "program": "imagenologia diagnostica y terapeutica",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Molina Martínez, Cristian Alejandro",
+            "advisor": "Ramírez Arellano, Magdalena",
+            "x": 7.641402,
+            "y": -1.914907,
+            "cluster_strength": 0.8528
+          },
+          {
+            "thesis_id": "TH_0526206",
+            "doc_number_url": "000811592",
+            "title": "manejo clínico de múltiples lesiones traumáticas : reporte de caso",
+            "program": "odontologia",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de odontologia unam",
+            "author": "Sámano Hernández, María Fernanda",
+            "advisor": "González Núñez, César Darío ; Takiguchi Álvarez, Fernando Tamotsu",
+            "x": 7.622112,
+            "y": -1.962816,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0244125",
+            "doc_number_url": "000217748",
+            "title": "trauma toracico : manejo en el h.g.e",
+            "program": "cirugia general",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Olivares Torres, Carlos Alberto",
+            "advisor": "Castillo Ortega, Graciano",
+            "x": 7.625865,
+            "y": -1.967819,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0065807",
+            "doc_number_url": null,
+            "title": "la mortaldiad de las heridas de vientre",
+            "program": "medico cirujano",
+            "year": 1935,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Garza Cárdenas, Lorenzo de la",
+            "advisor": "",
+            "x": 7.627419,
+            "y": -1.967908,
+            "cluster_strength": 0.831827
+          }
+        ]
+      },
+      {
+        "microcluster_id": 48,
+        "macrocluster_id": 2,
+        "micro_label": "IMPLANTES · IMPLANTOLOGIA · DENTALES · IMPLANTES DENTALES",
+        "size": 54,
+        "x": 7.739133,
+        "y": -3.514731,
+        "year_min": 1974,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "implantes",
+            "score": 0.197606
+          },
+          {
+            "term": "implantologia",
+            "score": 0.0975
+          },
+          {
+            "term": "dentales",
+            "score": 0.096062
+          },
+          {
+            "term": "implantes dentales",
+            "score": 0.096062
+          },
+          {
+            "term": "colocacion",
+            "score": 0.053496
+          },
+          {
+            "term": "rehabilitacion",
+            "score": 0.053408
+          },
+          {
+            "term": "colocacion implantes",
+            "score": 0.047529
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.047188
+          },
+          {
+            "term": "caso",
+            "score": 0.04093
+          },
+          {
+            "term": "implante",
+            "score": 0.033563
+          },
+          {
+            "term": "caso clinico",
+            "score": 0.033147
+          },
+          {
+            "term": "clinico",
+            "score": 0.033147
+          },
+          {
+            "term": "moderna",
+            "score": 0.031022
+          },
+          {
+            "term": "dentarias",
+            "score": 0.030495
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 39
+          },
+          {
+            "label": "odontologia",
+            "count": 2
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 1
+          },
+          {
+            "label": "ingenieria industrial",
+            "count": 1
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 1
+          },
+          {
+            "label": "odontologia restauradora avanzada",
+            "count": 1
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          },
+          {
+            "label": "ingenieria mecanica",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 49
+          },
+          {
+            "label": "Area 1",
+            "count": 4
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 45
+          },
+          {
+            "label": "Especialidad",
+            "count": 6
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 52
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de odontología",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.074074,
+          "Area 2": 0.907407,
+          "Area 3": 0.018519,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 49,
+            "pct": 0.907407
+          },
+          {
+            "area": "Area 1",
+            "count": 4,
+            "pct": 0.074074
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.018519
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0384234",
+            "doc_number_url": "000665098",
+            "title": "supervivencia de implantes oseointegrados, colocados en sitios con elevación del piso de seno maxilar, en pacientes del departamento de periodoncia e implantología de la fo. unam",
+            "program": "cirujano dentista",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Colmenero Cedillo, Diana",
+            "advisor": "Diaz de Ita, Oscar Rodolfo",
+            "x": 7.745853,
+            "y": -3.535863,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0542726",
+            "doc_number_url": "000848406",
+            "title": "flujo digital para la colocación de 2 implantes con provisionalización inmediata en zona estética : reporte de caso",
+            "program": "alta especializacion en implantologia oral quirurgica y protesica",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de odontologia unam",
+            "author": "Calvo García, René Alfonso",
+            "advisor": "Ozawa Meida, José Luis ; Pérez Gasque, Marisol",
+            "x": 7.664701,
+            "y": -3.426145,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0517625",
+            "doc_number_url": "000811965",
+            "title": "consideraciones periodontales y prótesicas en la rehabilitación de implantes vestivularizados : reporte de un caso",
+            "program": "odontologia restauradora avanzada",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de odontologia unam",
+            "author": "Domínguez García, Mauricio Eduardo",
+            "advisor": "Hernandez Ayala, Alinne ; Pimentel Hernández, Jorge",
+            "x": 7.671357,
+            "y": -3.410721,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0343990",
+            "doc_number_url": "000630594",
+            "title": "regeneración ósea guiada en rehabilitación bucal con implantes oseointegrados : presentación de caso clínico",
+            "program": "cirujano dentista",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Contreras García, Hazael",
+            "advisor": "González Plata Escalante, Walter ; Ozawa Meida, José Luis",
+            "x": 7.709956,
+            "y": -3.377778,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0122061",
+            "doc_number_url": "000145484",
+            "title": "conceptos en implantologia moderna",
+            "program": "cirujano dentista",
+            "year": 1974,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Hernandez Patiño, Adrian Roberto",
+            "advisor": "Trejo Solis, Jose Sybel",
+            "x": 7.650859,
+            "y": -3.378364,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0499516",
+            "doc_number_url": "000773290",
+            "title": "factores determinantes para la estabilidad primaria en implantología",
+            "program": "cirujano dentista",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "López Rocha, Martín Ricardo",
+            "advisor": "Plata Orozco, Manuel",
+            "x": 7.651668,
+            "y": -3.376477,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0412888",
+            "doc_number_url": "000697484",
+            "title": "reconstrucción implanto estomatológica (rie) en un paciente pediátrico presentación de caso clínico",
+            "program": "cirujano dentista",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Hernández Fernández, Iván Isráel",
+            "advisor": "Soto Gongora, Sergio",
+            "x": 7.671571,
+            "y": -3.356864,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0052859",
+            "doc_number_url": "000330085",
+            "title": "ataches tipo gilmore y dolder implantosoportado",
+            "program": "cirujano dentista",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Casas Hernandez, Arturo",
+            "advisor": "Echevarria y Pérez, Enrique",
+            "x": 7.6408,
+            "y": -3.373211,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

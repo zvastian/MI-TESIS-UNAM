@@ -94,7 +94,7 @@ def load_bib_docs():
     )
 
 
-def build_graph_from_query(query: str, top_k: int = 100):
+def build_graph_from_query(query: str, top_k: int = 100, thesis_id: str = ""):
     top_k = max(10, min(int(top_k), 300))
 
     df = pd.read_parquet(SAMPLE_PATH)
@@ -105,13 +105,32 @@ def build_graph_from_query(query: str, top_k: int = 100):
 
     bib_docs = load_bib_docs()
 
-    model = SentenceTransformer(MODEL_NAME)
-    q = model.encode([query], normalize_embeddings=True).astype("float32")[0]
-
     emb_norm = normalize_matrix(np.asarray(emb, dtype=np.float32))
-    scores = emb_norm @ q
+    thesis_id = safe_str(thesis_id).strip()
+    center_row = None
+    center_index = None
 
-    idx = np.argsort(scores)[::-1][:top_k]
+    if thesis_id:
+        matches = df.index[df["thesis_id"].astype(str) == thesis_id].tolist()
+
+        if not matches:
+            raise ValueError(f"No se encontró thesis_id en la muestra: {thesis_id}")
+
+        center_index = int(matches[0])
+        center_row = df.iloc[center_index]
+        q = emb_norm[center_index]
+
+    else:
+        model = SentenceTransformer(MODEL_NAME)
+        q = model.encode([query], normalize_embeddings=True).astype("float32")[0]
+
+    scores = emb_norm @ q
+    ranked = np.argsort(scores)[::-1]
+
+    if center_index is not None:
+        ranked = ranked[ranked != center_index]
+
+    idx = ranked[:top_k]
 
     top = df.iloc[idx].copy()
     top["similarity"] = scores[idx]
@@ -126,18 +145,59 @@ def build_graph_from_query(query: str, top_k: int = 100):
     nodes = []
     edges = []
 
-    nodes.append({
-        "id": "PROJECT",
-        "type": "project",
-        "label": query,
-        "title": query,
-        "displayLabel": query.upper(),
-        "size": 24,
-        "color": "#6B4BB7",
-    })
+    if center_row is None:
+        nodes.append({
+            "id": "PROJECT",
+            "type": "project",
+            "center_kind": "query",
+            "label": query,
+            "title": query,
+            "displayLabel": query.upper(),
+            "size": 24,
+            "color": "#6B4BB7",
+        })
+    else:
+        center_title = safe_str(
+            center_row.get("titulo_limpio") or center_row.get("título")
+        )
+        center_area = safe_str(center_row.get("area"))
+        center_plantel = (
+            safe_str(center_row.get("plantel_estandarizado"))
+            or safe_str(center_row.get("plantel"))
+            or safe_str(center_row.get("plantel_final"))
+            or safe_str(center_row.get("plantel_limpio_final"))
+        )
+        center_author = (
+            safe_str(center_row.get("autor_limpio_v2"))
+            or safe_str(center_row.get("autor_limpio"))
+            or safe_str(center_row.get("autor(es)"))
+        )
+
+        nodes.append({
+            "id": "PROJECT",
+            "type": "project",
+            "center_kind": "thesis",
+            "source_thesis_id": thesis_id,
+            "label": thesis_label(center_title),
+            "title": center_title,
+            "displayLabel": center_title.upper(),
+            "doc_number_url": safe_str(center_row.get("doc_number_url")),
+            "year": None if pd.isna(center_row.get("Año")) else int(center_row.get("Año")),
+            "program": safe_str(center_row.get("programa")),
+            "plantel": center_plantel,
+            "author": center_author,
+            "area": center_area,
+            "level": safe_str(center_row.get("nivel_estandar")),
+            "advisor": safe_str(center_row.get("asesores_limpios_v2")),
+            "has_bibliography": (
+                safe_str(center_row.get("doc_number_url")).strip() in bib_docs
+            ),
+            "size": 24,
+            "color": AREA_COLORS.get(center_area, "#999999"),
+        })
 
     for _, row in top.iterrows():
-        thesis_id = safe_str(row.get("thesis_id"))
+        neighbor_thesis_id = safe_str(row.get("thesis_id"))
         area = safe_str(row.get("area"))
         title = safe_str(row.get("titulo_limpio") or row.get("título"))
         plantel = (
@@ -153,7 +213,7 @@ def build_graph_from_query(query: str, top_k: int = 100):
         )
 
         nodes.append({
-            "id": thesis_id,
+            "id": neighbor_thesis_id,
             "type": "thesis",
             "label": thesis_label(title),
             "title": title,
@@ -174,7 +234,7 @@ def build_graph_from_query(query: str, top_k: int = 100):
 
         edges.append({
             "source": "PROJECT",
-            "target": thesis_id,
+            "target": neighbor_thesis_id,
             "type": "semantic_similarity",
             "weight": round(float(row.get("similarity")), 6),
         })
@@ -199,9 +259,14 @@ def build_graph_from_query(query: str, top_k: int = 100):
 
     payload = {
         "meta": {
-            "mode": "query",
+            "mode": "thesis" if thesis_id else "query",
             "center_id": "PROJECT",
-            "query": query,
+            "source_thesis_id": thesis_id or None,
+            "query": query if not thesis_id else None,
+            "center_label": (
+                safe_str(center_row.get("titulo_limpio") or center_row.get("título"))
+                if center_row is not None else query
+            ),
             "top_k": int(top_k),
             "dataset": "sample_50k_final_15d",
             "embedding_file": "sample_50k_embeddings.npy",
@@ -224,13 +289,18 @@ def build_graph_from_query(query: str, top_k: int = 100):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--query", default=DEFAULT_QUERY)
+    parser.add_argument(
+        "--thesis-id",
+        default="",
+        help="Usar una tesis existente de la muestra como centro del vecindario."
+    )
     parser.add_argument("--top-k", type=int, default=100)
     parser.add_argument("--out", default=str(DEFAULT_OUT))
     args = parser.parse_args()
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    payload = build_graph_from_query(args.query, args.top_k)
+    payload = build_graph_from_query(args.query, args.top_k, args.thesis_id)
 
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)

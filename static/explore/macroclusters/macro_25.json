@@ -1,0 +1,1286 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 25,
+    "macro_label": "PROTESIS · FIJA · PROTESIS FIJA · PULPAR",
+    "size": 354,
+    "microcluster_count": 4,
+    "microclusters": [
+      {
+        "microcluster_id": 163,
+        "macrocluster_id": 25,
+        "micro_label": "RESINAS · ESTUDIO · MATERIALES · PLASTICO",
+        "size": 163,
+        "x": 4.144168,
+        "y": 1.148285,
+        "year_min": 1938,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "resinas",
+            "score": 0.05501
+          },
+          {
+            "term": "estudio",
+            "score": 0.039496
+          },
+          {
+            "term": "materiales",
+            "score": 0.03855
+          },
+          {
+            "term": "plastico",
+            "score": 0.038024
+          },
+          {
+            "term": "plasticos",
+            "score": 0.037168
+          },
+          {
+            "term": "diseno",
+            "score": 0.03401
+          },
+          {
+            "term": "industria",
+            "score": 0.03082
+          },
+          {
+            "term": "resina",
+            "score": 0.030722
+          },
+          {
+            "term": "vidrio",
+            "score": 0.029172
+          },
+          {
+            "term": "proceso",
+            "score": 0.02866
+          },
+          {
+            "term": "fabricacion",
+            "score": 0.026398
+          },
+          {
+            "term": "planta",
+            "score": 0.02582
+          },
+          {
+            "term": "plastica",
+            "score": 0.024564
+          },
+          {
+            "term": "sistema",
+            "score": 0.024414
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria quimica",
+            "count": 40
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 34
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 23
+          },
+          {
+            "label": "quimica",
+            "count": 16
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 9
+          },
+          {
+            "label": "arquitectura",
+            "count": 5
+          },
+          {
+            "label": "artes visuales",
+            "count": 3
+          },
+          {
+            "label": "economia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 90
+          },
+          {
+            "label": "Area 1",
+            "count": 60
+          },
+          {
+            "label": "Area 4",
+            "count": 6
+          },
+          {
+            "label": "Area 3",
+            "count": 6
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 146
+          },
+          {
+            "label": "Maestría",
+            "count": 11
+          },
+          {
+            "label": "Especialidad",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 144
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 5
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad autónoma de guadalajara",
+            "count": 2
+          },
+          {
+            "label": "universidad iberoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de contaduría y administración",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de química",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.368098,
+          "Area 2": 0.552147,
+          "Area 3": 0.03681,
+          "Area 4": 0.03681,
+          "Por Clasificar": 0.006135
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 90,
+            "pct": 0.552147
+          },
+          {
+            "area": "Area 1",
+            "count": 60,
+            "pct": 0.368098
+          },
+          {
+            "area": "Area 3",
+            "count": 6,
+            "pct": 0.03681
+          },
+          {
+            "area": "Area 4",
+            "count": 6,
+            "pct": 0.03681
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.006135
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0527057",
+            "doc_number_url": "000811569",
+            "title": "protocolo de cementación para endopostes de fibra de vidrio",
+            "program": "cirujano dentista",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Téllez Saldierna, Julia Samantha",
+            "advisor": "Nieto Martínez, María del Rocío",
+            "x": 4.152241,
+            "y": 1.156338,
+            "cluster_strength": 0.674607
+          },
+          {
+            "thesis_id": "TH_0170567",
+            "doc_number_url": "000043698",
+            "title": "cemento de ionomero de vidrio su y aplicacion en la odontologia",
+            "program": "cirujano dentista",
+            "year": 1984,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Leurette Vazquez, Gilberto",
+            "advisor": "Cejudo Lugo, Guillermo Arturo",
+            "x": 4.176759,
+            "y": 1.137,
+            "cluster_strength": 0.6262
+          },
+          {
+            "thesis_id": "TH_0016706",
+            "doc_number_url": "000291708",
+            "title": "cuantificacion de desgaste en resinas compuestas, polimeros de ceramica optimizada directos y amalgama en oclusion dinamica con esmalte utilizando un simulador de masticacion dinamico",
+            "program": "cirujano dentista",
+            "year": 2001,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "López Sanchez, Alejandro",
+            "advisor": "Barceló Santana, Federico Humberto ; López Rodriguez, Alejandro",
+            "x": 4.094381,
+            "y": 1.130955,
+            "cluster_strength": 0.625709
+          },
+          {
+            "thesis_id": "TH_0445770",
+            "doc_number_url": "000719347",
+            "title": "estudio comparativo de propiedades físicas y preclínicas en materiales poliméricos restaurativos en bloque y por capas",
+            "program": "cirujano dentista",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Reyes Ávila, Julio Cesar",
+            "advisor": "Barceló Santana, Federico Humberto",
+            "x": 4.091519,
+            "y": 1.159648,
+            "cluster_strength": 0.641074
+          },
+          {
+            "thesis_id": "TH_0373466",
+            "doc_number_url": "000784633",
+            "title": "refuerzo y rehabilitación de especímenes de concreto con polímeros reforzados con fibra",
+            "program": "ingenieria civil",
+            "year": 2019,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Hernández Pérez, Mauricio Edén",
+            "advisor": "Escobar Sánchez, José Alberto",
+            "x": 4.088207,
+            "y": 1.142798,
+            "cluster_strength": 0.650401
+          },
+          {
+            "thesis_id": "TH_0553191",
+            "doc_number_url": "000835311",
+            "title": "pead reciclado reforzado por fibra de vidrio : aplicación estructural en la arquitectura",
+            "program": "arquitectura",
+            "year": 2023,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Solis Campos, Francisco",
+            "advisor": "Santa Ana Lozada, Perla Rafael",
+            "x": 4.177821,
+            "y": 1.100773,
+            "cluster_strength": 0.707694
+          },
+          {
+            "thesis_id": "TH_0202966",
+            "doc_number_url": "000145599",
+            "title": "cemento de ionomero de vidrio como material restaurador",
+            "program": "cirujano dentista",
+            "year": 1990,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Carrillo Tapia, Ma. del Carmen",
+            "advisor": "Barron Zavala, Arcadio",
+            "x": 4.199947,
+            "y": 1.098675,
+            "cluster_strength": 0.619843
+          },
+          {
+            "thesis_id": "TH_0405469",
+            "doc_number_url": "000679918",
+            "title": "influencia de los cementos selladores a base de eugenol, en la adhesión de postes de fibra de vidrio cementados con resina y con ionómero de vidrio",
+            "program": "cirujano dentista",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Romero Pérez, Conny Guadalupe",
+            "advisor": "Barrón Martínez, Brenda Ivonne ; Martínez Vázquez, Roxana Berenice",
+            "x": 4.193888,
+            "y": 1.08298,
+            "cluster_strength": 0.583381
+          }
+        ]
+      },
+      {
+        "microcluster_id": 17,
+        "macrocluster_id": 25,
+        "micro_label": "FIJA · PROTESIS FIJA · PARCIAL · REMOVIBLE",
+        "size": 90,
+        "x": 4.918861,
+        "y": 0.20285,
+        "year_min": 1951,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "fija",
+            "score": 0.133952
+          },
+          {
+            "term": "protesis fija",
+            "score": 0.124258
+          },
+          {
+            "term": "parcial",
+            "score": 0.079223
+          },
+          {
+            "term": "removible",
+            "score": 0.077884
+          },
+          {
+            "term": "protesis parcial",
+            "score": 0.069746
+          },
+          {
+            "term": "generalidades",
+            "score": 0.060817
+          },
+          {
+            "term": "parcial removible",
+            "score": 0.058823
+          },
+          {
+            "term": "generalidades protesis",
+            "score": 0.056612
+          },
+          {
+            "term": "retenedores",
+            "score": 0.042271
+          },
+          {
+            "term": "elaboracion",
+            "score": 0.040622
+          },
+          {
+            "term": "elaboracion protesis",
+            "score": 0.037336
+          },
+          {
+            "term": "parcial fija",
+            "score": 0.036413
+          },
+          {
+            "term": "total",
+            "score": 0.035065
+          },
+          {
+            "term": "protesis total",
+            "score": 0.030853
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 73
+          },
+          {
+            "label": "odontologia",
+            "count": 3
+          },
+          {
+            "label": "traumatologia y ortopedia",
+            "count": 3
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 2
+          },
+          {
+            "label": "mecanica",
+            "count": 1
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 1
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 1
+          },
+          {
+            "label": "quimica",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 83
+          },
+          {
+            "label": "Area 1",
+            "count": 5
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 79
+          },
+          {
+            "label": "Especialidad",
+            "count": 8
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 84
+          },
+          {
+            "label": "universidad latinoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales iztacala institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores zaragoza institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica",
+            "count": 1
+          },
+          {
+            "label": "universidad de ixtlahuaca cui",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.055556,
+          "Area 2": 0.922222,
+          "Area 3": 0.011111,
+          "Area 4": 0.011111,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 83,
+            "pct": 0.922222
+          },
+          {
+            "area": "Area 1",
+            "count": 5,
+            "pct": 0.055556
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.011111
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.011111
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0138226",
+            "doc_number_url": "000147186",
+            "title": "generalidades de la protesis parcial removible",
+            "program": "cirujano dentista",
+            "year": 1978,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Ballinas Solis, Alberto",
+            "advisor": "Vera Gama, Esteban",
+            "x": 4.901136,
+            "y": 0.193824,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0273339",
+            "doc_number_url": "000256634",
+            "title": "protesis inmediata parcial removible",
+            "program": "cirujano dentista",
+            "year": 1997,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Ortega Gonzalez, Blanca Araceli",
+            "advisor": "Arriaga Andraca, Martín",
+            "x": 4.902792,
+            "y": 0.215813,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0143686",
+            "doc_number_url": "000022678",
+            "title": "generalidades de protesis parcial fija y removible",
+            "program": "cirujano dentista",
+            "year": 1979,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Gonzalez Sanchez, Alfonso",
+            "advisor": "Simbeck Escobedo, José Luis",
+            "x": 4.904967,
+            "y": 0.18598,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0166762",
+            "doc_number_url": "000022182",
+            "title": "conceptos generales de protesis fija",
+            "program": "cirujano dentista",
+            "year": 1983,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Zarate Campos, Rosenda Yasmin",
+            "advisor": "Vela Capdevila, José Antonio",
+            "x": 4.926249,
+            "y": 0.18205,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0112038",
+            "doc_number_url": "000140634",
+            "title": "diferentes medios de fijacion en protesis parcial fija",
+            "program": "cirujano dentista",
+            "year": 1971,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Sanchez Godoy, Paciano",
+            "advisor": "Garces Gomez, Norberto",
+            "x": 4.89642,
+            "y": 0.191981,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0142433",
+            "doc_number_url": "000022431",
+            "title": "indicaciones preparaciones de muñones en prótesis fija",
+            "program": "cirujano dentista",
+            "year": 1979,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Castellanos Coutiño, Maria Antonieta de",
+            "advisor": "Vásquez y Contrera, Saúl",
+            "x": 4.942658,
+            "y": 0.217465,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0152296",
+            "doc_number_url": null,
+            "title": "principios de oclusion en protesis fija",
+            "program": "cirujano dentista",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Pedrote Ocampo, Rufina",
+            "advisor": "Barreto Fernandez de Lara, Aurelio",
+            "x": 4.943544,
+            "y": 0.177946,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0149203",
+            "doc_number_url": null,
+            "title": "conceptos generales sobre protesis parcial removible",
+            "program": "cirujano dentista",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Castro Bonilla, Ricardo",
+            "advisor": "Valencia Gonzalez, Miguel",
+            "x": 4.881703,
+            "y": 0.208152,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 80,
+        "macrocluster_id": 25,
+        "micro_label": "PULPAR · PATOLOGIA · TRATAMIENTO · PATOLOGIA PULPAR",
+        "size": 53,
+        "x": 6.595905,
+        "y": -0.304581,
+        "year_min": 1937,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "pulpar",
+            "score": 0.178604
+          },
+          {
+            "term": "patologia",
+            "score": 0.102803
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.094192
+          },
+          {
+            "term": "patologia pulpar",
+            "score": 0.090904
+          },
+          {
+            "term": "terapeutica",
+            "score": 0.073369
+          },
+          {
+            "term": "pulpares",
+            "score": 0.069694
+          },
+          {
+            "term": "odontopediatria",
+            "score": 0.062214
+          },
+          {
+            "term": "terapeutica pulpar",
+            "score": 0.049579
+          },
+          {
+            "term": "clinica",
+            "score": 0.04883
+          },
+          {
+            "term": "pulpa",
+            "score": 0.046367
+          },
+          {
+            "term": "periapical",
+            "score": 0.044439
+          },
+          {
+            "term": "terapia",
+            "score": 0.042773
+          },
+          {
+            "term": "tejido",
+            "score": 0.038807
+          },
+          {
+            "term": "pacientes",
+            "score": 0.037736
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 45
+          },
+          {
+            "label": "estomatologia",
+            "count": 1
+          },
+          {
+            "label": "estomatologia del ni o y del adolescente",
+            "count": 1
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 1
+          },
+          {
+            "label": "neumologia",
+            "count": 1
+          },
+          {
+            "label": "enfermeria",
+            "count": 1
+          },
+          {
+            "label": "oftalmologia",
+            "count": 1
+          },
+          {
+            "label": "periodoncia e implantologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 53
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 48
+          },
+          {
+            "label": "Especialidad",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 49
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 1
+          },
+          {
+            "label": "instituto universitario del norte (chihuahua, chi.). escuela de odontologia,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de odontologia institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 1.0,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 53,
+            "pct": 1.0
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0204222",
+            "doc_number_url": "000138563",
+            "title": "laceracion de tejidos blandos en pacientes con protesis parcial removible",
+            "program": "medico cirujano",
+            "year": 1990,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "universidad autonoma de guadalajara",
+            "author": "Flores Robles, Ma. de Jesus",
+            "advisor": "Bojorquez Ruiz, Rafael Idelfonso",
+            "x": 6.577894,
+            "y": -0.276106,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0148913",
+            "doc_number_url": "000020753",
+            "title": "importancia de las resinas compuestas en la investigacion clinica",
+            "program": "cirujano dentista",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Burgos Calvillo, Marta Virginia",
+            "advisor": "Escamilla Pérez, José Tarsicio",
+            "x": 6.641349,
+            "y": -0.264133,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0376847",
+            "doc_number_url": "000796003",
+            "title": "influencia de la calcificación del tejido pulpar en el tratamiento de conductos",
+            "program": "cirujano dentista",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Olmo Cervantes, Luis Fernando del",
+            "advisor": "Solache Miranda, Ammy Jhocelin",
+            "x": 6.584665,
+            "y": -0.234555,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0138332",
+            "doc_number_url": "000147207",
+            "title": "terapia pulpar en odontopediatria",
+            "program": "cirujano dentista",
+            "year": 1978,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Bonequi Guerra, Maria Guadalupe",
+            "advisor": "Martínez Chávez, Santiago",
+            "x": 6.669808,
+            "y": -0.332895,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0169295",
+            "doc_number_url": "000039701",
+            "title": "patología pulpar",
+            "program": "cirujano dentista",
+            "year": 1984,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Gámez Carpinteyro, Jorge",
+            "advisor": "Cruz Chávez, Lucia",
+            "x": 6.610127,
+            "y": -0.213642,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0473957",
+            "doc_number_url": "000752522",
+            "title": "bioseguridad y riesgo de lesiones con material punzocortante en una unidad de tercer nivel",
+            "program": "enfermeria",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Placencia Morales, María del Rocío",
+            "advisor": "Sánchez Estrada, Teresa",
+            "x": 6.520028,
+            "y": -0.252322,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0259497",
+            "doc_number_url": "000244016",
+            "title": "terapeutica pulpar en odontopediatria",
+            "program": "cirujano dentista",
+            "year": 1996,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Heredia Ponce, Patricia Elvira",
+            "advisor": "Brambila Rojo, Maria Guadalupe",
+            "x": 6.692087,
+            "y": -0.334767,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0544805",
+            "doc_number_url": "000852288",
+            "title": "manejo del tejido blando periimplantario durante la provisionalización y con uso de pilar de cicatrización personalizado : reporte de casos",
+            "program": "periodoncia e implantologia",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de odontologia unam",
+            "author": "Flores Magaña, Verónica Quetzalli",
+            "advisor": "Neria Maguey, Rodrigo",
+            "x": 6.696211,
+            "y": -0.29057,
+            "cluster_strength": 0.749411
+          }
+        ]
+      },
+      {
+        "microcluster_id": 145,
+        "macrocluster_id": 25,
+        "micro_label": "CORONAS · PORCELANA · RESTAURACIONES · PROTESIS",
+        "size": 48,
+        "x": 4.148365,
+        "y": 0.384395,
+        "year_min": 1943,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "coronas",
+            "score": 0.148029
+          },
+          {
+            "term": "porcelana",
+            "score": 0.126479
+          },
+          {
+            "term": "restauraciones",
+            "score": 0.100736
+          },
+          {
+            "term": "protesis",
+            "score": 0.077038
+          },
+          {
+            "term": "odontologia",
+            "score": 0.061986
+          },
+          {
+            "term": "estudio",
+            "score": 0.059376
+          },
+          {
+            "term": "fija",
+            "score": 0.05512
+          },
+          {
+            "term": "protesis fija",
+            "score": 0.046487
+          },
+          {
+            "term": "ceramica",
+            "score": 0.042317
+          },
+          {
+            "term": "carillas",
+            "score": 0.040981
+          },
+          {
+            "term": "carillas porcelana",
+            "score": 0.040981
+          },
+          {
+            "term": "esteticas",
+            "score": 0.038903
+          },
+          {
+            "term": "reconstruccion",
+            "score": 0.037802
+          },
+          {
+            "term": "coronas totales",
+            "score": 0.033964
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 40
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 1
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 1
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          },
+          {
+            "label": "quimica",
+            "count": 1
+          },
+          {
+            "label": "dise o industrial",
+            "count": 1
+          },
+          {
+            "label": "derecho",
+            "count": 1
+          },
+          {
+            "label": "fisica",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 42
+          },
+          {
+            "label": "Area 1",
+            "count": 3
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 47
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 40
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 2
+          },
+          {
+            "label": "instituto universitario del norte (chihuahua, chi.). escuela de odontologia,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad latinoamericana",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de odontologia institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0625,
+          "Area 2": 0.875,
+          "Area 3": 0.020833,
+          "Area 4": 0.020833,
+          "Por Clasificar": 0.020833
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 42,
+            "pct": 0.875
+          },
+          {
+            "area": "Area 1",
+            "count": 3,
+            "pct": 0.0625
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.020833
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.020833
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.020833
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0127523",
+            "doc_number_url": "000148413",
+            "title": "reconstruccion de coronas en porcelana",
+            "program": "cirujano dentista",
+            "year": 1975,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Solis Rosales, Graciela",
+            "advisor": "Gomez Cottier, Rafael",
+            "x": 4.147364,
+            "y": 0.393931,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0111456",
+            "doc_number_url": "000140743",
+            "title": "coronas funda de porcelana",
+            "program": "cirujano dentista",
+            "year": 1971,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Perez Santillan, Teofila",
+            "advisor": "",
+            "x": 4.168646,
+            "y": 0.38522,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0107893",
+            "doc_number_url": "000146545",
+            "title": "prostodoncia parcial fija con restauraciones de coronas de oro con frente estetico",
+            "program": "cirujano dentista",
+            "year": 1970,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Silva Consuelos, Donato",
+            "advisor": "",
+            "x": 4.137124,
+            "y": 0.330982,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0325553",
+            "doc_number_url": "000603008",
+            "title": "aleaciones coladas en restauraciones individuales",
+            "program": "cirujano dentista",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Ruvalcaba Manzo, Alejandra",
+            "advisor": "Saldivar Aramburu, Maria Margarita ; Gonzalez Quireza, Maria del Rosario",
+            "x": 4.081566,
+            "y": 0.415599,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0162825",
+            "doc_number_url": null,
+            "title": "coronas y puentes fijos de porcelana con aleacion biobond",
+            "program": "cirujano dentista",
+            "year": 1983,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Gutierrez Dorame, José Rosalio",
+            "advisor": "Trejo Solís, Orlando",
+            "x": 4.155924,
+            "y": 0.462285,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0375137",
+            "doc_number_url": "000785020",
+            "title": "protocolo para la restauración minimamente invasivas basado en la morfología y biomecánica de la oclusión",
+            "program": "cirujano dentista",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "universidad tecnologica iberoamericana",
+            "author": "Martínez Álvarez, Maricela",
+            "advisor": "Ortiz Vilchis, Edgar Rubén",
+            "x": 4.232411,
+            "y": 0.359377,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0141138",
+            "doc_number_url": "000154406",
+            "title": "coronas de procelana en protesis fija",
+            "program": "cirujano dentista",
+            "year": 1978,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Solorzano Banos, Agustin",
+            "advisor": "Meza Zepulveda, Jesus",
+            "x": 4.137752,
+            "y": 0.293881,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0230733",
+            "doc_number_url": "000192699",
+            "title": "restauraciones provisionales",
+            "program": "cirujano dentista",
+            "year": 1993,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Flores Pimentel, Gustavo",
+            "advisor": "Cruz Gonzalez Cardenas, Rebeca",
+            "x": 4.106981,
+            "y": 0.294401,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

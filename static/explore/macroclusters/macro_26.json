@@ -1,0 +1,970 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 26,
+    "macro_label": "RADIO · LASER · SISTEMA · ESTUDIO",
+    "size": 346,
+    "microcluster_count": 3,
+    "microclusters": [
+      {
+        "microcluster_id": 44,
+        "macrocluster_id": 26,
+        "micro_label": "RADIO · SISTEMA · SATELITE · SATELITES",
+        "size": 122,
+        "x": 3.124383,
+        "y": -0.004465,
+        "year_min": 1931,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "radio",
+            "score": 0.105965
+          },
+          {
+            "term": "sistema",
+            "score": 0.055162
+          },
+          {
+            "term": "satelite",
+            "score": 0.052148
+          },
+          {
+            "term": "satelites",
+            "score": 0.034289
+          },
+          {
+            "term": "comunicaciones",
+            "score": 0.030112
+          },
+          {
+            "term": "diseno",
+            "score": 0.028736
+          },
+          {
+            "term": "satelital",
+            "score": 0.024358
+          },
+          {
+            "term": "radiologica",
+            "score": 0.024341
+          },
+          {
+            "term": "via satelite",
+            "score": 0.023909
+          },
+          {
+            "term": "via",
+            "score": 0.023909
+          },
+          {
+            "term": "estudio",
+            "score": 0.023013
+          },
+          {
+            "term": "radiodifusion",
+            "score": 0.022337
+          },
+          {
+            "term": "aplicacion",
+            "score": 0.022129
+          },
+          {
+            "term": "radiografica",
+            "score": 0.021775
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 31
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 15
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 11
+          },
+          {
+            "label": "ingenieria en telecomunicaciones",
+            "count": 7
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 6
+          },
+          {
+            "label": "ortopedia",
+            "count": 5
+          },
+          {
+            "label": "comunicacion y periodismo",
+            "count": 4
+          },
+          {
+            "label": "derecho",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 58
+          },
+          {
+            "label": "Area 2",
+            "count": 29
+          },
+          {
+            "label": "Area 3",
+            "count": 20
+          },
+          {
+            "label": "Area 4",
+            "count": 15
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 102
+          },
+          {
+            "label": "Especialidad",
+            "count": 11
+          },
+          {
+            "label": "Maestría",
+            "count": 8
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 115
+          },
+          {
+            "label": "universidad intercontinental (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan mich) escuela de administracion y contaduria institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad americana de acapulco (acapulco",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias políticas y sociales institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.47541,
+          "Area 2": 0.237705,
+          "Area 3": 0.163934,
+          "Area 4": 0.122951,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 58,
+            "pct": 0.47541
+          },
+          {
+            "area": "Area 2",
+            "count": 29,
+            "pct": 0.237705
+          },
+          {
+            "area": "Area 3",
+            "count": 20,
+            "pct": 0.163934
+          },
+          {
+            "area": "Area 4",
+            "count": 15,
+            "pct": 0.122951
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0367113",
+            "doc_number_url": "000665467",
+            "title": "instalación de radiofrecuencia en el cerro de la cruz en delicias, chihuahua",
+            "program": "ingenieria civil",
+            "year": 2009,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Vidal Olvera, Alonso",
+            "advisor": "Arroyo Hernández, Patrocinio",
+            "x": 3.000585,
+            "y": -0.129322,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0391034",
+            "doc_number_url": "000659854",
+            "title": "transeúnte : propuesta radiofónica especializada en trova",
+            "program": "comunicacion",
+            "year": 2010,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Palacios Chávez, María Elena",
+            "advisor": "Castellanos Pedraza, Juliana",
+            "x": 3.212373,
+            "y": -0.160031,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0022605",
+            "doc_number_url": "000297808",
+            "title": "xecju, la explosiva 590. radio revolucion en puerto vallarta : surguimiento, imapcto en el medio e influencia de su organizacion interna en su desempeño",
+            "program": "ciencias de la comunicacion",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Villalpando Fuse, Liliana",
+            "advisor": "Rojas Alegria, Olivia",
+            "x": 3.006715,
+            "y": -0.146765,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0247377",
+            "doc_number_url": "000200636",
+            "title": "la radiodifusion en jojutla de juarez, estado de morelos",
+            "program": "comunicacion y periodismo",
+            "year": 1994,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Zambrano Ávila, Ivonne Beatriz",
+            "advisor": "Martínez Fraga, Jorge",
+            "x": 3.107731,
+            "y": -0.190735,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0113734",
+            "doc_number_url": "000060135",
+            "title": "aplicacion de la investigacion de operaciones a una estacion de radio",
+            "program": "actuaria",
+            "year": 1972,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Espejo Munguia, Marcela Eugenia",
+            "advisor": "Obregon Navarrete, Jorge",
+            "x": 3.02858,
+            "y": -0.171192,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0255309",
+            "doc_number_url": "000235066",
+            "title": "la produccion radiofonica en el control remoto dentro de sistema radiopolis, s.a. de c.v",
+            "program": "ciencias de la comunicacion",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Aguilar Medrano, Leticia",
+            "advisor": "Glockner Corte, David Napoleón",
+            "x": 3.348424,
+            "y": -0.053809,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0319952",
+            "doc_number_url": "000642575",
+            "title": "la radio cabalga de nuevo... radio en linea",
+            "program": "comunicacion y periodismo",
+            "year": 2006,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Guzmán Sanchez, María Elena",
+            "advisor": "López Matías, Angélica Feliciana",
+            "x": 2.995107,
+            "y": -0.200908,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0497706",
+            "doc_number_url": "000773003",
+            "title": "propuesta pedagógica para utilizar un planetario móvil como herramienta didáctica en la enseñanza de la astronomía en educación básica primaria",
+            "program": "pedagogia",
+            "year": 2018,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Guerra Gómez, Martha",
+            "advisor": "Peralta Marín, Francy Yarmid",
+            "x": 3.148465,
+            "y": -0.287949,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 170,
+        "macrocluster_id": 26,
+        "micro_label": "LASER · RADIACION · DISENO · OPTICA",
+        "size": 113,
+        "x": 4.231489,
+        "y": 0.763364,
+        "year_min": 1944,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "laser",
+            "score": 0.089478
+          },
+          {
+            "term": "radiacion",
+            "score": 0.066257
+          },
+          {
+            "term": "diseno",
+            "score": 0.046543
+          },
+          {
+            "term": "optica",
+            "score": 0.043035
+          },
+          {
+            "term": "opticas",
+            "score": 0.04108
+          },
+          {
+            "term": "estudio",
+            "score": 0.0393
+          },
+          {
+            "term": "fibra optica",
+            "score": 0.037051
+          },
+          {
+            "term": "fibra",
+            "score": 0.037051
+          },
+          {
+            "term": "analisis",
+            "score": 0.031985
+          },
+          {
+            "term": "sistema",
+            "score": 0.028821
+          },
+          {
+            "term": "fotones",
+            "score": 0.028281
+          },
+          {
+            "term": "construccion",
+            "score": 0.027163
+          },
+          {
+            "term": "aplicacion",
+            "score": 0.026769
+          },
+          {
+            "term": "rayos",
+            "score": 0.02648
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "fisica",
+            "count": 38
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 9
+          },
+          {
+            "label": "ingenieria electrica",
+            "count": 7
+          },
+          {
+            "label": "ingenieria en telecomunicaciones",
+            "count": 6
+          },
+          {
+            "label": "ingenieria electrica electronica",
+            "count": 5
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 5
+          },
+          {
+            "label": "oftalmologia",
+            "count": 4
+          },
+          {
+            "label": "quimica",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 87
+          },
+          {
+            "label": "Area 2",
+            "count": 25
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 76
+          },
+          {
+            "label": "Maestría",
+            "count": 21
+          },
+          {
+            "label": "Doctorado",
+            "count": 9
+          },
+          {
+            "label": "Especialidad",
+            "count": 6
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 108
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias de la tierra",
+            "count": 1
+          },
+          {
+            "label": "universidad iberoamericana",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias químicas",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.769912,
+          "Area 2": 0.221239,
+          "Area 3": 0.0,
+          "Area 4": 0.00885,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 87,
+            "pct": 0.769912
+          },
+          {
+            "area": "Area 2",
+            "count": 25,
+            "pct": 0.221239
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.00885
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0381573",
+            "doc_number_url": "000784985",
+            "title": "sistema de adquisición de datos para pares de fotones con origen atómico",
+            "program": "fisica",
+            "year": 2019,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Villegas Aguilar, Luis Yves",
+            "advisor": "Sahagún Sánchez, Daniel",
+            "x": 4.229587,
+            "y": 0.742953,
+            "cluster_strength": 0.840854
+          },
+          {
+            "thesis_id": "TH_0254707",
+            "doc_number_url": "000225846",
+            "title": "propiedades opticas de sistemas inhomogeneos de baja dimensionalidad",
+            "program": "fisica",
+            "year": 1995,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "facultad de ciencias unam",
+            "author": "Noguez Garrido, Ana Cecilia",
+            "advisor": "Barrera Pérez, Rubén Gerardo",
+            "x": 4.226547,
+            "y": 0.720417,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0481781",
+            "doc_number_url": "000760648",
+            "title": "caracterización del proceso de ablación láser a partir de sus señales fotoacústicas",
+            "program": "ingenieria electrica",
+            "year": 2017,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Fernández Bienes, Alberto",
+            "advisor": "Arámbula Cosío, Fernando",
+            "x": 4.269726,
+            "y": 0.741945,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0408633",
+            "doc_number_url": "000680675",
+            "title": "sensores refractométricos de fibra óptica con elementos de detección paraboloide y elíptico",
+            "program": "SIN PROGRAMA",
+            "year": 2012,
+            "area": "Area 1",
+            "level": "desconocido",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Ayvar Campos, Liberty Arleen",
+            "advisor": "Pérez García, Selene",
+            "x": 4.254169,
+            "y": 0.723818,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0311154",
+            "doc_number_url": "000349430",
+            "title": "espectroscopia de emision de dos plasmas de ablacion indocidos por laser",
+            "program": "fisica",
+            "year": 2005,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Ramos Alvarez, Paola Elizabeth",
+            "advisor": "Sobral, Hugo Martín",
+            "x": 4.281713,
+            "y": 0.748022,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0450585",
+            "doc_number_url": "000733365",
+            "title": "estados de polarización en fotones individuales producidos por spdc",
+            "program": "fisica",
+            "year": 2015,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Berjón de Gortari, Javier",
+            "advisor": "Velázquez Aguilar, Víctor Manuel",
+            "x": 4.164495,
+            "y": 0.755618,
+            "cluster_strength": 0.751263
+          },
+          {
+            "thesis_id": "TH_0479796",
+            "doc_number_url": "000758905",
+            "title": "gases de fermi confinados en redes ópticas con interacciones de largo alcance",
+            "program": "fisica",
+            "year": 2017,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Camacho-Guardian, Arturo",
+            "advisor": "Paredes Gutiérrez, Rosario",
+            "x": 4.181553,
+            "y": 0.709717,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0255760",
+            "doc_number_url": "000240390",
+            "title": "optimizacion del proceso de corte con laser para el acero inoxidable 304",
+            "program": "ingenieria mecanica electrica",
+            "year": 1996,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Arce Morales, Miguel Angel",
+            "advisor": "Ortiz Prado, Armando",
+            "x": 4.270412,
+            "y": 0.700634,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 133,
+        "macrocluster_id": 26,
+        "micro_label": "ESTRELLAS · GALAXIAS · OBSERVATORIO · ESTUDIO",
+        "size": 111,
+        "x": 3.787334,
+        "y": 0.669532,
+        "year_min": 1967,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "estrellas",
+            "score": 0.058501
+          },
+          {
+            "term": "galaxias",
+            "score": 0.038204
+          },
+          {
+            "term": "observatorio",
+            "score": 0.033696
+          },
+          {
+            "term": "estudio",
+            "score": 0.033616
+          },
+          {
+            "term": "dinamica",
+            "score": 0.032321
+          },
+          {
+            "term": "astronomico",
+            "score": 0.029233
+          },
+          {
+            "term": "astronomica",
+            "score": 0.024917
+          },
+          {
+            "term": "analisis",
+            "score": 0.024456
+          },
+          {
+            "term": "solar",
+            "score": 0.02438
+          },
+          {
+            "term": "estrella",
+            "score": 0.021277
+          },
+          {
+            "term": "formacion",
+            "score": 0.021253
+          },
+          {
+            "term": "alta",
+            "score": 0.021167
+          },
+          {
+            "term": "polvo",
+            "score": 0.020764
+          },
+          {
+            "term": "astronomia",
+            "score": 0.018994
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "fisica",
+            "count": 32
+          },
+          {
+            "label": "astrofisica",
+            "count": 15
+          },
+          {
+            "label": "astronomia",
+            "count": 13
+          },
+          {
+            "label": "arquitectura",
+            "count": 9
+          },
+          {
+            "label": "ciencias de la tierra",
+            "count": 8
+          },
+          {
+            "label": "geociencias",
+            "count": 3
+          },
+          {
+            "label": "ciencias",
+            "count": 3
+          },
+          {
+            "label": "ingenieria mecanica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 98
+          },
+          {
+            "label": "Area 2",
+            "count": 5
+          },
+          {
+            "label": "Area 3",
+            "count": 4
+          },
+          {
+            "label": "Area 4",
+            "count": 4
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 56
+          },
+          {
+            "label": "Maestría",
+            "count": 28
+          },
+          {
+            "label": "Doctorado",
+            "count": 26
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 107
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias física",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico colegio de ciencias y humanidades unidad academica de los ciclos profesional y de posgrado institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.882883,
+          "Area 2": 0.045045,
+          "Area 3": 0.036036,
+          "Area 4": 0.036036,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 98,
+            "pct": 0.882883
+          },
+          {
+            "area": "Area 2",
+            "count": 5,
+            "pct": 0.045045
+          },
+          {
+            "area": "Area 3",
+            "count": 4,
+            "pct": 0.036036
+          },
+          {
+            "area": "Area 4",
+            "count": 4,
+            "pct": 0.036036
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0367435",
+            "doc_number_url": "000642881",
+            "title": "pérdida de masa atmosférica por erosión de vientos estelares en planetas alrededor de estrellas m de la secuencia principal",
+            "program": "astronomia",
+            "year": 2009,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "instituto de astronomia unam",
+            "author": "Zendejas Domínguez, Jesús",
+            "advisor": "Segura Peralta, Antígona",
+            "x": 3.789304,
+            "y": 0.668412,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0521360",
+            "doc_number_url": "000812363",
+            "title": "investigación de núcleos activos de galaxias en el uv y rayos x usando un modelo de disco de acreción",
+            "program": "geociencias",
+            "year": 2021,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "escuela nacional de estudios superiores morelia",
+            "author": "López Sánchez, Jafet Ismael",
+            "advisor": "Haro Corzo, Sinhué Amos Refugio ; Krongold, Yair",
+            "x": 3.793122,
+            "y": 0.65361,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0534539",
+            "doc_number_url": "000826665",
+            "title": "corificación de halos de materia oscura en la galaxia enana sextans a mediante formación estelar",
+            "program": "astrofisica",
+            "year": 2022,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "instituto de radioastronomia y astrofisica",
+            "author": "López García, Jairo Uriel",
+            "advisor": "Lora, Verónica ; Cervantes Sodi, Bernardo",
+            "x": 3.791816,
+            "y": 0.645623,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0300900",
+            "doc_number_url": "000339807",
+            "title": "determinacion de los parametros fisicos de la estrella de and",
+            "program": "fisica",
+            "year": 2005,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Amor Rosas, Margarita Alejandra",
+            "advisor": "Peña Saint Martín, José Hermenegildo",
+            "x": 3.812129,
+            "y": 0.662605,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0426526",
+            "doc_number_url": "000706786",
+            "title": "planetas superexcéntricos de baja masa",
+            "program": "astronomia",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Hernández Gómez, Aurora",
+            "advisor": "Masset, Frédéric",
+            "x": 3.797149,
+            "y": 0.694854,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0398801",
+            "doc_number_url": "000674978",
+            "title": "estudio unificado de nebulosas planetarias y sus estrellas centrales",
+            "program": "astronomia",
+            "year": 2011,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "instituto de astronomia unam",
+            "author": "Fierro Santillán, Celia Rosa",
+            "advisor": "Georgia, Leonid ; Peimbert, Antonio",
+            "x": 3.767644,
+            "y": 0.647261,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0121851",
+            "doc_number_url": "000067031",
+            "title": "estrellas a-metalicos",
+            "program": "fisica",
+            "year": 1974,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Gonzalez Bedolla, Salvador Felix",
+            "advisor": "Mendoza Villarreal, Eugenio E",
+            "x": 3.793146,
+            "y": 0.637768,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0427432",
+            "doc_number_url": "000694904",
+            "title": "formación de anillos tenues en saturno",
+            "program": "fisica",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Leal Herrera, José Luis",
+            "advisor": "Maravilla Meza, María Dolores",
+            "x": 3.771776,
+            "y": 0.640452,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

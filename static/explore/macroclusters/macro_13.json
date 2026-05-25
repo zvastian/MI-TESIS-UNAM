@@ -1,0 +1,1910 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 13,
+    "macro_label": "MEXICO · ESTUDIO · ESPECIES · ANALISIS",
+    "size": 845,
+    "microcluster_count": 6,
+    "microclusters": [
+      {
+        "microcluster_id": 206,
+        "macrocluster_id": 13,
+        "micro_label": "MEXICO · ESTUDIO · COLEOPTERA · ANALISIS",
+        "size": 208,
+        "x": 5.313837,
+        "y": 3.800398,
+        "year_min": 1892,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.05764
+          },
+          {
+            "term": "estudio",
+            "score": 0.036504
+          },
+          {
+            "term": "coleoptera",
+            "score": 0.032489
+          },
+          {
+            "term": "analisis",
+            "score": 0.028125
+          },
+          {
+            "term": "especies",
+            "score": 0.027782
+          },
+          {
+            "term": "genero",
+            "score": 0.027506
+          },
+          {
+            "term": "estado",
+            "score": 0.022423
+          },
+          {
+            "term": "distribucion",
+            "score": 0.016768
+          },
+          {
+            "term": "biologia",
+            "score": 0.016755
+          },
+          {
+            "term": "tres",
+            "score": 0.016574
+          },
+          {
+            "term": "diversidad",
+            "score": 0.016555
+          },
+          {
+            "term": "insectos",
+            "score": 0.016227
+          },
+          {
+            "term": "dos",
+            "score": 0.01552
+          },
+          {
+            "term": "morelos",
+            "score": 0.01551
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "biologia",
+            "count": 119
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 35
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 11
+          },
+          {
+            "label": "ciencias del mar y limnologia",
+            "count": 6
+          },
+          {
+            "label": "ciencias biomedicas",
+            "count": 4
+          },
+          {
+            "label": "psicologia",
+            "count": 3
+          },
+          {
+            "label": "microscopia electronica aplicada a las ciencias biologicas",
+            "count": 3
+          },
+          {
+            "label": "biologia de sistemas y recursos acuaticos",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 114
+          },
+          {
+            "label": "Area 1",
+            "count": 90
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 134
+          },
+          {
+            "label": "Maestría",
+            "count": 47
+          },
+          {
+            "label": "Doctorado",
+            "count": 22
+          },
+          {
+            "label": "Especialidad",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 197
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biológicas",
+            "count": 2
+          },
+          {
+            "label": "escuela nacional de medicina (mexico), institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad motolinia (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de química",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en psicología",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.432692,
+          "Area 2": 0.548077,
+          "Area 3": 0.004808,
+          "Area 4": 0.014423,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 114,
+            "pct": 0.548077
+          },
+          {
+            "area": "Area 1",
+            "count": 90,
+            "pct": 0.432692
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.014423
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.004808
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0359740",
+            "doc_number_url": "000650218",
+            "title": "análisis taxonómico y distribucional del género anasa amyot y serville para méxico (hemiptera: heteroptera: coreidae: coreinae: coreini)",
+            "program": "biologia",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Guerrero Mayorga, Israel",
+            "advisor": "Brailovsky Alperowitz, Harry U",
+            "x": 5.300576,
+            "y": 3.793424,
+            "cluster_strength": 0.901874
+          },
+          {
+            "thesis_id": "TH_0500776",
+            "doc_number_url": "000782324",
+            "title": "comparación morfológica de aetobatus narinari (euphrasen, 1790) con aetobatus laticeps (gill, 1865)(myliobatiformes: aetobatidae)",
+            "program": "biologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Meza Abundio, Itzel",
+            "advisor": "Moral Flores, Luis Fernando del",
+            "x": 5.303456,
+            "y": 3.782618,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0440910",
+            "doc_number_url": "000721760",
+            "title": "fauna de coleópteros chrysomelidae de las sierras de taxco-huautla en zonas de bosque y manejo agrícola",
+            "program": "biologia",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Hernández Sosa, Liliana",
+            "advisor": "Ordóñez Reséndiz, María Magdalena",
+            "x": 5.326223,
+            "y": 3.817828,
+            "cluster_strength": 0.916422
+          },
+          {
+            "thesis_id": "TH_0281326",
+            "doc_number_url": "000266180",
+            "title": "estudio poblacional de eotetranychus lewisi (mcgregor) (acari: tetranychidae) en duraznero, en el municipio de vicente guerrero, durango",
+            "program": "biologia animal",
+            "year": 1998,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Gonzalez Castillo, Maria Pioquinta",
+            "advisor": "Pérez Ortiz, Tila María ; Valverde Valdés, Teresa",
+            "x": 5.323919,
+            "y": 3.780988,
+            "cluster_strength": 0.960202
+          },
+          {
+            "thesis_id": "TH_0448606",
+            "doc_number_url": "000717928",
+            "title": "estudio filogenético y helmintológico de lithobates megapoda en el estado de jalisco",
+            "program": "ciencias biologicas",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "unam",
+            "author": "Velarde Aguilar, María Guadalupe",
+            "advisor": "León Règagnon, Virginia",
+            "x": 5.333556,
+            "y": 3.779565,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0012320",
+            "doc_number_url": "000288523",
+            "title": "taxonomia y distribucion de los dipteros (diptera : nycteribiidae y streblidae) parasitos de murcielagos (mammalia : chirptera) de zonas aridas de mexico",
+            "program": "biologia",
+            "year": 2001,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Catalan Piza, Eduardo",
+            "advisor": "Morales Malacara, Juan Bibiano",
+            "x": 5.31989,
+            "y": 3.835753,
+            "cluster_strength": 0.923588
+          },
+          {
+            "thesis_id": "TH_0470664",
+            "doc_number_url": "000751088",
+            "title": "evolución morfológica y molecular de eupomphini (coleoptera: meloidae), una tribu endémica de las zonas áridas del suroeste norteamericano",
+            "program": "ciencias biologicas",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "unam",
+            "author": "López Estrada, Estefany Karen",
+            "advisor": "Zaldívar Riverón, Alejandro ; Francke, Oscar F ; León P., Livia",
+            "x": 5.343847,
+            "y": 3.824104,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0168222",
+            "doc_number_url": "000004594",
+            "title": "estudio de la coleopterofauna xilofila de zacualtipan, hidalgo, con especial enfasis en la familia tenebrionidae (sensu lato)",
+            "program": "biologia",
+            "year": 1984,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Cervantes Mayagoitia, José Francisco",
+            "advisor": "",
+            "x": 5.277766,
+            "y": 3.786377,
+            "cluster_strength": 0.971192
+          }
+        ]
+      },
+      {
+        "microcluster_id": 202,
+        "macrocluster_id": 13,
+        "micro_label": "MEXICO · GOLFO · LAGUNA · VERACRUZ",
+        "size": 202,
+        "x": 4.395319,
+        "y": 4.007252,
+        "year_min": 1930,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.064805
+          },
+          {
+            "term": "golfo",
+            "score": 0.032718
+          },
+          {
+            "term": "laguna",
+            "score": 0.031044
+          },
+          {
+            "term": "veracruz",
+            "score": 0.029524
+          },
+          {
+            "term": "distribucion",
+            "score": 0.028292
+          },
+          {
+            "term": "estudio",
+            "score": 0.025038
+          },
+          {
+            "term": "golfo mexico",
+            "score": 0.02478
+          },
+          {
+            "term": "analisis",
+            "score": 0.023395
+          },
+          {
+            "term": "abundancia",
+            "score": 0.022786
+          },
+          {
+            "term": "especies",
+            "score": 0.022387
+          },
+          {
+            "term": "lago",
+            "score": 0.021692
+          },
+          {
+            "term": "peces",
+            "score": 0.021302
+          },
+          {
+            "term": "sur",
+            "score": 0.020933
+          },
+          {
+            "term": "california",
+            "score": 0.020738
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "biologia",
+            "count": 124
+          },
+          {
+            "label": "ciencias del mar y limnologia",
+            "count": 30
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 13
+          },
+          {
+            "label": "oceanografia biologica y pesquera",
+            "count": 5
+          },
+          {
+            "label": "biologia marina",
+            "count": 4
+          },
+          {
+            "label": "manejo sustentable de zonas costeras",
+            "count": 3
+          },
+          {
+            "label": "ingenieria geologica",
+            "count": 2
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 127
+          },
+          {
+            "label": "Area 2",
+            "count": 73
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 136
+          },
+          {
+            "label": "Maestría",
+            "count": 51
+          },
+          {
+            "label": "Doctorado",
+            "count": 15
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 191
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias del mar y limnología",
+            "count": 5
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biológicas",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico posgrado en ciencias del mar y limnología institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del río",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias de la tierra",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.628713,
+          "Area 2": 0.361386,
+          "Area 3": 0.0,
+          "Area 4": 0.009901,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 127,
+            "pct": 0.628713
+          },
+          {
+            "area": "Area 2",
+            "count": 73,
+            "pct": 0.361386
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.009901
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0194201",
+            "doc_number_url": "000087523",
+            "title": "radiosensibilidad de drosophila ananassae de laguna verde, ver",
+            "program": "biologia",
+            "year": 1988,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Pimentel Penaloza, Adalberto Emilio",
+            "advisor": "Olvera Ramirez, Olga",
+            "x": 4.383579,
+            "y": 3.991284,
+            "cluster_strength": 0.973693
+          },
+          {
+            "thesis_id": "TH_0443314",
+            "doc_number_url": "000713900",
+            "title": "efectos de la heterogeneidad espacial sobre la diversidad taxonómica y funcional de los macroinvertebrados acuáticos de xochimilco",
+            "program": "ciencias biologicas",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "unam",
+            "author": "Merlo Galeazzi, Angel",
+            "advisor": "Zambrano González, Luis",
+            "x": 4.392922,
+            "y": 3.984905,
+            "cluster_strength": 0.809535
+          },
+          {
+            "thesis_id": "TH_0541708",
+            "doc_number_url": "000846036",
+            "title": "patrones de diversidad taxonómica de poliquetos (annelida) en la plataforma continental del sur del golfo de méxico, méxico",
+            "program": "biologia",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Araujo Quintana, Iván Josiel",
+            "advisor": "Quiroz-Martínez, Benjamín",
+            "x": 4.377872,
+            "y": 4.025462,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0368066",
+            "doc_number_url": "000786232",
+            "title": "aspectos ecológicos de amebas testadas, cladóceros, ostrácodos y quironómidos en dos cuerpos de agua impactados : lago ocotalito, chiapas y laguna de bacalar, quintana roo, méxico",
+            "program": "biologia",
+            "year": 2019,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Amezcua Vargas, Margarita de Montserrat",
+            "advisor": "Pérez Alvarado, Liseth Carolina",
+            "x": 4.374671,
+            "y": 3.990569,
+            "cluster_strength": 0.855259
+          },
+          {
+            "thesis_id": "TH_0176856",
+            "doc_number_url": "000004109",
+            "title": "estudio comparativo de la epifauna asociada a praderas de thalassia testudinum entre los ambientes marinos y lagunar en la costa de campeche, mexico",
+            "program": "biologia",
+            "year": 1985,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Fernandez Hernandez, Maria Luisa",
+            "advisor": "Solis de Weiss, Vivianne",
+            "x": 4.416759,
+            "y": 3.988719,
+            "cluster_strength": 0.910515
+          },
+          {
+            "thesis_id": "TH_0472342",
+            "doc_number_url": "000743179",
+            "title": "diversidad y patrones biogeográficos de la ictiofauna marina de méxico",
+            "program": "ciencias biologicas",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "unam",
+            "author": "Moral Flores, Luis Fernando del",
+            "advisor": "Pérez Ponce de León, Gerardo",
+            "x": 4.406492,
+            "y": 4.03656,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0228297",
+            "doc_number_url": "000198003",
+            "title": "analisis de la distribucion y abundancia de los moluscos de la laguna de bojorquez, quintana roo, mexico",
+            "program": "biologia",
+            "year": 1993,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Alvarez Saules, Citlalli Valentina",
+            "advisor": "",
+            "x": 4.380745,
+            "y": 4.035464,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0344208",
+            "doc_number_url": "000641270",
+            "title": "taxonomía y distribución de las esponjas marinas (porifera: demospongiae) del pacífico mexicano",
+            "program": "ciencias del mar y limnologia",
+            "year": 2008,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "instituto de ciencias del mar y limnologia unam",
+            "author": "Cruz Barraza, José Antonio",
+            "advisor": "Carballo Cenizo, Juan José Luis",
+            "x": 4.407619,
+            "y": 4.044046,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 204,
+        "macrocluster_id": 13,
+        "micro_label": "ESTUDIO · GENERO · EFECTO · ACTIVIDAD",
+        "size": 184,
+        "x": 5.323977,
+        "y": 3.070416,
+        "year_min": 1938,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "estudio",
+            "score": 0.054448
+          },
+          {
+            "term": "genero",
+            "score": 0.035749
+          },
+          {
+            "term": "efecto",
+            "score": 0.029339
+          },
+          {
+            "term": "actividad",
+            "score": 0.026735
+          },
+          {
+            "term": "cactaceae",
+            "score": 0.023886
+          },
+          {
+            "term": "vitro",
+            "score": 0.023613
+          },
+          {
+            "term": "especies",
+            "score": 0.023305
+          },
+          {
+            "term": "crecimiento",
+            "score": 0.02265
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.021093
+          },
+          {
+            "term": "plantas",
+            "score": 0.020005
+          },
+          {
+            "term": "caracterizacion",
+            "score": 0.019941
+          },
+          {
+            "term": "semilla",
+            "score": 0.019605
+          },
+          {
+            "term": "semillas",
+            "score": 0.018226
+          },
+          {
+            "term": "filogenia",
+            "score": 0.017518
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "biologia",
+            "count": 84
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 27
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 26
+          },
+          {
+            "label": "ciencias quimicas",
+            "count": 9
+          },
+          {
+            "label": "ingenieria agricola",
+            "count": 7
+          },
+          {
+            "label": "quimica de alimentos",
+            "count": 4
+          },
+          {
+            "label": "quimica",
+            "count": 4
+          },
+          {
+            "label": "ciencias biomedicas",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 103
+          },
+          {
+            "label": "Area 1",
+            "count": 80
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 130
+          },
+          {
+            "label": "Maestría",
+            "count": 32
+          },
+          {
+            "label": "Doctorado",
+            "count": 19
+          },
+          {
+            "label": "desconocido",
+            "count": 2
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 171
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de maestría y doctorado en ciencia e ingeniería de materiales",
+            "count": 1
+          },
+          {
+            "label": "universidad iberoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad autónoma de campeche facultad de ciencias químico biológicas institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad veracruzana facultad de ciencias químicas plantel orizaba institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores zaragoza institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad veracruzana (orizaba ver) facultad de ciencias químicas institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.434783,
+          "Area 2": 0.559783,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.005435
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 103,
+            "pct": 0.559783
+          },
+          {
+            "area": "Area 1",
+            "count": 80,
+            "pct": 0.434783
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.005435
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0276239",
+            "doc_number_url": "000253238",
+            "title": "aislamiento, determinacion de la estructura molecular y bioevaluacion preliminar de los constituyentes quimicos de la planta medicinal psacalium radulifolium (hbk.) n. robins.& brett. (asteraceae)",
+            "program": "quimica",
+            "year": 1997,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Trejo Silva, Alicia",
+            "advisor": "Delgado Lamas, Guillermo",
+            "x": 5.314487,
+            "y": 3.086426,
+            "cluster_strength": 0.814796
+          },
+          {
+            "thesis_id": "TH_0180129",
+            "doc_number_url": "000046962",
+            "title": "estudio quimico de las plantas oxylobus arbutifolius y eupatoriun brevipes",
+            "program": "biologia",
+            "year": 1986,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Campos López, Graciela",
+            "advisor": "Guerrero, Carlos",
+            "x": 5.302487,
+            "y": 3.063944,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0006186",
+            "doc_number_url": "000286745",
+            "title": "constituyentes bioactivos adicionales de amphypteryngium adstringens shiede ex schlecht (julianiaceae)",
+            "program": "quimica farmaceutico biologica",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Morales Barrientos, Iliana",
+            "advisor": "Mata, Rachel",
+            "x": 5.356255,
+            "y": 3.034888,
+            "cluster_strength": 0.937056
+          },
+          {
+            "thesis_id": "TH_0069708",
+            "doc_number_url": "000169397",
+            "title": "contribucion al estudio del latex de la euphorbia cotinifolia l",
+            "program": "quimica farmaceutico biologica",
+            "year": 1941,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Rodriguez Yanez, Esther",
+            "advisor": "",
+            "x": 5.292969,
+            "y": 3.112111,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0458070",
+            "doc_number_url": "000724803",
+            "title": "pruebas selectas de identidad, eficacia y seguridad preclínicas de cyrtopodium macrobulbon y scaphyglottis fasciculata (orchidaceae)",
+            "program": "ciencias biologicas",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "unam",
+            "author": "Morales Sánchez, Viridiana",
+            "advisor": "Mata, Rachel",
+            "x": 5.353829,
+            "y": 3.115848,
+            "cluster_strength": 0.954945
+          },
+          {
+            "thesis_id": "TH_0448391",
+            "doc_number_url": "000712915",
+            "title": "estudio fitoquímico de wigandia urens (hydrophyllaceae)",
+            "program": "ciencias quimicas",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Vargas Gallego, Juan Camilo",
+            "advisor": "Quijano, Leovigildo",
+            "x": 5.297166,
+            "y": 3.119223,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0291587",
+            "doc_number_url": "000271665",
+            "title": "respuesta del jitomate (licopersicum esculetum. mill) a tres soluciones nutritivas y a tres sustratos",
+            "program": "ingenieria agricola",
+            "year": 1999,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Garduño Barcenas, José Antonio",
+            "advisor": "Vega Rojas, Edvino Josafat ; Ornelas Diaz, Edgar",
+            "x": 5.38662,
+            "y": 3.061219,
+            "cluster_strength": 0.926325
+          },
+          {
+            "thesis_id": "TH_0208902",
+            "doc_number_url": "000123160",
+            "title": "propagacion in vitro de cuatro cultivares de zarzamora (rubus spp.)",
+            "program": "biologia",
+            "year": 1990,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Ruiz Sarabia, Eduardo",
+            "advisor": "Avitia Garcia, Edilberto",
+            "x": 5.27204,
+            "y": 3.027019,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 205,
+        "macrocluster_id": 13,
+        "micro_label": "MEXICO · ESTUDIO · ESPECIES · OAXACA",
+        "size": 110,
+        "x": 4.837312,
+        "y": 3.587146,
+        "year_min": 1939,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.112859
+          },
+          {
+            "term": "estudio",
+            "score": 0.048653
+          },
+          {
+            "term": "especies",
+            "score": 0.045626
+          },
+          {
+            "term": "oaxaca",
+            "score": 0.040804
+          },
+          {
+            "term": "genero",
+            "score": 0.038858
+          },
+          {
+            "term": "bosque",
+            "score": 0.033467
+          },
+          {
+            "term": "selva",
+            "score": 0.033293
+          },
+          {
+            "term": "veracruz",
+            "score": 0.028366
+          },
+          {
+            "term": "flora",
+            "score": 0.028031
+          },
+          {
+            "term": "contribucion",
+            "score": 0.02752
+          },
+          {
+            "term": "diversidad",
+            "score": 0.027446
+          },
+          {
+            "term": "estado",
+            "score": 0.026628
+          },
+          {
+            "term": "familia",
+            "score": 0.023777
+          },
+          {
+            "term": "region",
+            "score": 0.022661
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "biologia",
+            "count": 71
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 22
+          },
+          {
+            "label": "biologia vegetal",
+            "count": 2
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 2
+          },
+          {
+            "label": "arquitectura",
+            "count": 2
+          },
+          {
+            "label": "ciencias agrogenomicas",
+            "count": 1
+          },
+          {
+            "label": "biologia de sistemas y recursos acuaticos",
+            "count": 1
+          },
+          {
+            "label": "ingenieria geologica",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 58
+          },
+          {
+            "label": "Area 2",
+            "count": 51
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 74
+          },
+          {
+            "label": "Maestría",
+            "count": 22
+          },
+          {
+            "label": "Doctorado",
+            "count": 13
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 108
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en antropología",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.527273,
+          "Area 2": 0.463636,
+          "Area 3": 0.0,
+          "Area 4": 0.009091,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 58,
+            "pct": 0.527273
+          },
+          {
+            "area": "Area 2",
+            "count": 51,
+            "pct": 0.463636
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.009091
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0029990",
+            "doc_number_url": "000305683",
+            "title": "estructura y composicion floristica de las selvas bajas de la biosfera de calakmul, campeche",
+            "program": "biologia",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Lira Charco, Erika Melina",
+            "advisor": "Sousa Sánchez, Mario",
+            "x": 4.833583,
+            "y": 3.579493,
+            "cluster_strength": 0.916299
+          },
+          {
+            "thesis_id": "TH_0326624",
+            "doc_number_url": "000609824",
+            "title": "revision taxonomica del genero macroptilium (benth.) urb. (leguminosae) en mexico y centroamerica",
+            "program": "ciencias biologicas",
+            "year": 2006,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Torres Colín, María Leticia",
+            "advisor": "Delgado Salinas, Alfonso",
+            "x": 4.835376,
+            "y": 3.596,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0371498",
+            "doc_number_url": "000784262",
+            "title": "filogenia y diversificación de salvia (lamiaceae) en méxico : desentrañando una radiación evolutiva",
+            "program": "ciencias biologicas",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "instituto de biologia unam",
+            "author": "Fragoso Martínez, Itzi",
+            "advisor": "Salazar, Gerardo A",
+            "x": 4.826739,
+            "y": 3.577568,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0150030",
+            "doc_number_url": "000002674",
+            "title": "descripcion de algunas especies del genero clitocybe en mexico",
+            "program": "biologia",
+            "year": 1981,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Gamboa Serdan, Maria de Lourdes",
+            "advisor": "Pérez Silva, Evangelina",
+            "x": 4.841821,
+            "y": 3.568894,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0226948",
+            "doc_number_url": "000186158",
+            "title": "patrones espaciales y temporales de la lluvia de semillas de grupos de arboles en una selva humeda de mexico",
+            "program": "biologia",
+            "year": 1992,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Soto Castro, Alejandra",
+            "advisor": "Martínez Ramos, Miguel",
+            "x": 4.815034,
+            "y": 3.592269,
+            "cluster_strength": 0.852498
+          },
+          {
+            "thesis_id": "TH_0263186",
+            "doc_number_url": "000240348",
+            "title": "revision taxonomica de euphorbia subgenero agaloma seccion alectoroctonum (euphorbiaceae) en mexico",
+            "program": "biologia",
+            "year": 1996,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Ramírez Roa, María Angélica de la Paz",
+            "advisor": "Dávila Aranda, Patricia Dolores",
+            "x": 4.860198,
+            "y": 3.5927,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0359961",
+            "doc_number_url": "000646281",
+            "title": "diversidad de ectomicorrizas y micelio extraradical en bosque de abies religiosa (h.b.k.) schldl. & cham., en el parque nacional izta-popo",
+            "program": "biologia",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Heredia Acuña, Cristina",
+            "advisor": "Sánchez Colín, María de Jesús",
+            "x": 4.839426,
+            "y": 3.56002,
+            "cluster_strength": 0.92315
+          },
+          {
+            "thesis_id": "TH_0261005",
+            "doc_number_url": "000241491",
+            "title": "el genero croton (euphorbiaceae) en mesoamerica",
+            "program": "biologia",
+            "year": 1996,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Martínez Gordillo, Martha",
+            "advisor": "Jimenez Ramirez, Jaime",
+            "x": 4.828558,
+            "y": 3.558302,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 184,
+        "macrocluster_id": 13,
+        "micro_label": "VOLCAN · ESTUDIO · MEXICO · ESTADO",
+        "size": 95,
+        "x": 3.394294,
+        "y": 3.43424,
+        "year_min": 1959,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "volcan",
+            "score": 0.067551
+          },
+          {
+            "term": "estudio",
+            "score": 0.059902
+          },
+          {
+            "term": "mexico",
+            "score": 0.057069
+          },
+          {
+            "term": "estado",
+            "score": 0.052356
+          },
+          {
+            "term": "geologico",
+            "score": 0.049634
+          },
+          {
+            "term": "estudio geologico",
+            "score": 0.045211
+          },
+          {
+            "term": "puebla",
+            "score": 0.033898
+          },
+          {
+            "term": "analisis",
+            "score": 0.032942
+          },
+          {
+            "term": "caracterizacion",
+            "score": 0.032843
+          },
+          {
+            "term": "geologia",
+            "score": 0.03129
+          },
+          {
+            "term": "popocatepetl",
+            "score": 0.030077
+          },
+          {
+            "term": "sierra",
+            "score": 0.029464
+          },
+          {
+            "term": "volcan popocatepetl",
+            "score": 0.028766
+          },
+          {
+            "term": "cuenca",
+            "score": 0.028222
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ciencias de la tierra",
+            "count": 32
+          },
+          {
+            "label": "ingenieria geologica",
+            "count": 23
+          },
+          {
+            "label": "biologia",
+            "count": 10
+          },
+          {
+            "label": "geografia",
+            "count": 4
+          },
+          {
+            "label": "ingenieria geofisica",
+            "count": 4
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 3
+          },
+          {
+            "label": "fisica",
+            "count": 2
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 82
+          },
+          {
+            "label": "Area 2",
+            "count": 6
+          },
+          {
+            "label": "Area 4",
+            "count": 5
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 56
+          },
+          {
+            "label": "Maestría",
+            "count": 27
+          },
+          {
+            "label": "Doctorado",
+            "count": 11
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 89
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias de la tierra",
+            "count": 2
+          },
+          {
+            "label": "university of edinburgh department of philosophy institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad autónoma de san luis potosí escuela de ingeniería institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de filosofía y letras",
+            "count": 1
+          },
+          {
+            "label": "escuela nacional de ciencias de la tierra (mexico),",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.863158,
+          "Area 2": 0.063158,
+          "Area 3": 0.010526,
+          "Area 4": 0.052632,
+          "Por Clasificar": 0.010526
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 82,
+            "pct": 0.863158
+          },
+          {
+            "area": "Area 2",
+            "count": 6,
+            "pct": 0.063158
+          },
+          {
+            "area": "Area 4",
+            "count": 5,
+            "pct": 0.052632
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.010526
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.010526
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0110147",
+            "doc_number_url": "000059272",
+            "title": "estudios de suelos derivados de cenizas volcanicas del nevado de toluca, edo. de mexico",
+            "program": "biologia",
+            "year": 1971,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Hayama Tsutsumi, Ma. Luisa Mitsuko",
+            "advisor": "Aguilera Herrera, Nicolas",
+            "x": 3.412903,
+            "y": 3.455286,
+            "cluster_strength": 0.983012
+          },
+          {
+            "thesis_id": "TH_0205479",
+            "doc_number_url": "000123040",
+            "title": "evaluacion del contenido plomo en ramalina farinacea [l.] ach. en el volcan ajusco d.f",
+            "program": "biologia",
+            "year": 1990,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Herrera Campos, María de los Ángeles",
+            "advisor": "Rosas, Irma",
+            "x": 3.373173,
+            "y": 3.407751,
+            "cluster_strength": 0.999063
+          },
+          {
+            "thesis_id": "TH_0087874",
+            "doc_number_url": "000058667",
+            "title": "estación geofísica tipo terrestre en totimehuacan, ejido \"el batan\" estado de puebla",
+            "program": "arquitectura",
+            "year": 1963,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Bernal Chávez, María de la Luz",
+            "advisor": "",
+            "x": 3.377165,
+            "y": 3.397528,
+            "cluster_strength": 0.577408
+          },
+          {
+            "thesis_id": "TH_0577123",
+            "doc_number_url": "000880257",
+            "title": "hongos del volcán chichonal como fuente de metabolitos bioactivos",
+            "program": "quimica farmaceutico biologica",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Ocaña de la Cruz, Gamaliel",
+            "advisor": "Figueroa Saldívar, Mario Alberto",
+            "x": 3.433086,
+            "y": 3.417459,
+            "cluster_strength": 0.986692
+          },
+          {
+            "thesis_id": "TH_0105650",
+            "doc_number_url": "000059195",
+            "title": "estudios edafologicos de suelos derivados de cenizas volcanicas del popocatepetl, edo. de puebla",
+            "program": "biologia",
+            "year": 1970,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "García Calderon, Norma Eugenia",
+            "advisor": "Aguilera Herrera, Nicolas",
+            "x": 3.43114,
+            "y": 3.455368,
+            "cluster_strength": 0.94141
+          },
+          {
+            "thesis_id": "TH_0027525",
+            "doc_number_url": "000304214",
+            "title": "mapeo y caracterizacion de la terrazas aluviales del valle de zapotitlan de las salinas, puebla",
+            "program": "biologia",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "García Martinez, Maria Gabriela",
+            "advisor": "Muñoz Iniestra, Daniel Jesús",
+            "x": 3.374712,
+            "y": 3.392512,
+            "cluster_strength": 0.667427
+          },
+          {
+            "thesis_id": "TH_0284798",
+            "doc_number_url": "000265274",
+            "title": "descripcion del modelo geologico del yacimiento de sulfuros masivos de tizapa, zacazonapan, edo. de mexico",
+            "program": "ingenieria geologica",
+            "year": 1998,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Neri Acuña, Mauricio",
+            "advisor": "Rosique Naranjo, Fernando",
+            "x": 3.402853,
+            "y": 3.492911,
+            "cluster_strength": 0.719531
+          },
+          {
+            "thesis_id": "TH_0457787",
+            "doc_number_url": "000736350",
+            "title": "anomalías gravimétricas y estructura de la zona de subducción correspondiente al campo volcánico de michoacán-guanajuato, méxico",
+            "program": "fisica",
+            "year": 2015,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Molina de Artola, Balam",
+            "advisor": "Guilbaud , Marie Noëlle",
+            "x": 3.341264,
+            "y": 3.462199,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 203,
+        "macrocluster_id": 13,
+        "micro_label": "MEXICO · GOLFO · SEDIMENTOS · CALIFORNIA",
+        "size": 46,
+        "x": 3.827615,
+        "y": 3.74912,
+        "year_min": 1964,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.111732
+          },
+          {
+            "term": "golfo",
+            "score": 0.083296
+          },
+          {
+            "term": "sedimentos",
+            "score": 0.070579
+          },
+          {
+            "term": "california",
+            "score": 0.057346
+          },
+          {
+            "term": "golfo mexico",
+            "score": 0.056899
+          },
+          {
+            "term": "laguna",
+            "score": 0.055475
+          },
+          {
+            "term": "estudio",
+            "score": 0.050301
+          },
+          {
+            "term": "texcoco",
+            "score": 0.046
+          },
+          {
+            "term": "golfo california",
+            "score": 0.045545
+          },
+          {
+            "term": "costeras",
+            "score": 0.044327
+          },
+          {
+            "term": "zona",
+            "score": 0.039619
+          },
+          {
+            "term": "playas",
+            "score": 0.037198
+          },
+          {
+            "term": "analisis",
+            "score": 0.037079
+          },
+          {
+            "term": "geoquimica",
+            "score": 0.036948
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "biologia",
+            "count": 11
+          },
+          {
+            "label": "ciencias del mar y limnologia",
+            "count": 6
+          },
+          {
+            "label": "ingenieria geologica",
+            "count": 5
+          },
+          {
+            "label": "ciencias de la tierra",
+            "count": 5
+          },
+          {
+            "label": "geografia",
+            "count": 3
+          },
+          {
+            "label": "oceanografia quimica",
+            "count": 2
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 2
+          },
+          {
+            "label": "ingenieria geofisica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 35
+          },
+          {
+            "label": "Area 2",
+            "count": 6
+          },
+          {
+            "label": "Area 4",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 21
+          },
+          {
+            "label": "Maestría",
+            "count": 17
+          },
+          {
+            "label": "Doctorado",
+            "count": 8
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 43
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias de la tierra",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autonoma de mexico. colegio de ciencias y humanidades. unidad academica de los ciclos profesional y de posgrado, institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.76087,
+          "Area 2": 0.130435,
+          "Area 3": 0.0,
+          "Area 4": 0.108696,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 35,
+            "pct": 0.76087
+          },
+          {
+            "area": "Area 2",
+            "count": 6,
+            "pct": 0.130435
+          },
+          {
+            "area": "Area 4",
+            "count": 5,
+            "pct": 0.108696
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0166417",
+            "doc_number_url": "000045709",
+            "title": "algunos aspectos poblacionales de jaibas (callinectes danae) en el canal y laguna de tampamachoco, y desembocadura del rio tuxpan, veracruz, de febrero a septiembre de 1981",
+            "program": "biologia",
+            "year": 1983,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Valencia Hernandez, Antonio",
+            "advisor": "Mendoza Vallejo, Ernesto",
+            "x": 3.839742,
+            "y": 3.740113,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0165735",
+            "doc_number_url": "000053751",
+            "title": "evolucion de los valles lacustres de la altiplanicie mexicana: estudio de 2 lagos: texcoco y chapala",
+            "program": "planeacion",
+            "year": 1983,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "S. Gaubeca, Cornelia",
+            "advisor": "Ayala, Juan Antonio",
+            "x": 3.810677,
+            "y": 3.740788,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0196796",
+            "doc_number_url": "000100815",
+            "title": "estudio de ambientes sedimentarios en el area de bahia ballenas y laguna sn. ignacio, b.c.s., mexico",
+            "program": "geologia",
+            "year": 1989,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Araujo Mendieta, Juan",
+            "advisor": "Aguayo-Camargo, Joaquín Eduardo",
+            "x": 3.809511,
+            "y": 3.722488,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0404786",
+            "doc_number_url": "000674794",
+            "title": "paleosismología e incursiones marinas en lagunas costeras tropicales de guerrero, méxico",
+            "program": "geografia",
+            "year": 2011,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "centro de investigaciones en geografia ambiental unam",
+            "author": "Rangel Velarde, Violeta",
+            "advisor": "Ramírez Herrera, María Teresa ; Navarrete Pacheco, José Antonio",
+            "x": 3.801377,
+            "y": 3.773833,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0091172",
+            "doc_number_url": "000121352",
+            "title": "estudio bioestratigrafico del area del rio pedregal rio playas, estado de veracruz",
+            "program": "ingenieria geologica",
+            "year": 1964,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Madrid Solis, Alejandro",
+            "advisor": "",
+            "x": 3.861653,
+            "y": 3.717415,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0232980",
+            "doc_number_url": "000194514",
+            "title": "estudio de las comunidades litorales de protozoarios en seis lagos crater del estado de puebla, mediante el metodo de colonizacion de sustratos artificiales",
+            "program": "biologia de sistemas y recursos acuaticos",
+            "year": 1993,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Lugo Vazquez, Alfonso, 1958-",
+            "advisor": "Alcocer Durand, Javier",
+            "x": 3.798813,
+            "y": 3.710796,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0205023",
+            "doc_number_url": "000137424",
+            "title": "analisis ictioplanctonico de la zona costera del sur del golfo de mexico 1988",
+            "program": "biologia",
+            "year": 1990,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Gonzalez Yoval, Pablo",
+            "advisor": "Shapiro Klincoustein, Benito",
+            "x": 3.794268,
+            "y": 3.787072,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0270095",
+            "doc_number_url": "000247071",
+            "title": "hongos marinos arenicolas de algunas playas de mexico",
+            "program": "biologia",
+            "year": 1997,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "facultad de ciencias unam",
+            "author": "González Villaseñor, María del Carmen Auxilio",
+            "advisor": "Herrera, Teófilo",
+            "x": 3.81091,
+            "y": 3.797394,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

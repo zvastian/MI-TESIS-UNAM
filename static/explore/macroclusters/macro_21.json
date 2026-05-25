@@ -1,0 +1,1298 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 21,
+    "macro_label": "AGRARIA · MAIZ · DESARROLLO · ESTUDIO",
+    "size": 557,
+    "microcluster_count": 4,
+    "microclusters": [
+      {
+        "microcluster_id": 33,
+        "macrocluster_id": 21,
+        "micro_label": "AGRARIA · AGRICOLA · DESARROLLO · AGRARIO",
+        "size": 312,
+        "x": 0.06493,
+        "y": 1.40339,
+        "year_min": 1928,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "agraria",
+            "score": 0.062284
+          },
+          {
+            "term": "agricola",
+            "score": 0.034277
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.032574
+          },
+          {
+            "term": "agrario",
+            "score": 0.032084
+          },
+          {
+            "term": "rural",
+            "score": 0.031528
+          },
+          {
+            "term": "reforma",
+            "score": 0.02746
+          },
+          {
+            "term": "reforma agraria",
+            "score": 0.025894
+          },
+          {
+            "term": "materia",
+            "score": 0.024488
+          },
+          {
+            "term": "materia agraria",
+            "score": 0.023406
+          },
+          {
+            "term": "ley",
+            "score": 0.022817
+          },
+          {
+            "term": "analisis",
+            "score": 0.020682
+          },
+          {
+            "term": "derecho",
+            "score": 0.020337
+          },
+          {
+            "term": "estudio",
+            "score": 0.019897
+          },
+          {
+            "term": "produccion",
+            "score": 0.018654
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 134
+          },
+          {
+            "label": "economia",
+            "count": 40
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 22
+          },
+          {
+            "label": "arquitectura",
+            "count": 19
+          },
+          {
+            "label": "contaduria",
+            "count": 17
+          },
+          {
+            "label": "administracion",
+            "count": 11
+          },
+          {
+            "label": "sociologia",
+            "count": 7
+          },
+          {
+            "label": "pedagogia",
+            "count": 7
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 227
+          },
+          {
+            "label": "Area 1",
+            "count": 35
+          },
+          {
+            "label": "Area 2",
+            "count": 34
+          },
+          {
+            "label": "Area 4",
+            "count": 16
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 292
+          },
+          {
+            "label": "Maestría",
+            "count": 15
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 282
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 4
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de trabajo social institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.112179,
+          "Area 2": 0.108974,
+          "Area 3": 0.727564,
+          "Area 4": 0.051282,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 227,
+            "pct": 0.727564
+          },
+          {
+            "area": "Area 1",
+            "count": 35,
+            "pct": 0.112179
+          },
+          {
+            "area": "Area 2",
+            "count": 34,
+            "pct": 0.108974
+          },
+          {
+            "area": "Area 4",
+            "count": 16,
+            "pct": 0.051282
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0132211",
+            "doc_number_url": "000128199",
+            "title": "el riego por aspersion y su aplicacion a la agricultura moderna",
+            "program": "ingenieria civil",
+            "year": 1976,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Romo Santos, Abdias",
+            "advisor": "",
+            "x": 0.060731,
+            "y": 1.413785,
+            "cluster_strength": 0.529937
+          },
+          {
+            "thesis_id": "TH_0086414",
+            "doc_number_url": "000091857",
+            "title": "el codigo agrario y la industria pecuaria",
+            "program": "derecho",
+            "year": 1962,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Barron Perez, Sergio",
+            "advisor": "Alanís Fuentes, Ángel",
+            "x": 0.054251,
+            "y": 1.416719,
+            "cluster_strength": 0.529937
+          },
+          {
+            "thesis_id": "TH_0089093",
+            "doc_number_url": "000057006",
+            "title": "proposicion de una cooperativa agricola en el ejido de michapa",
+            "program": "arquitectura",
+            "year": 1963,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Maus Raisbaum, Teodoro",
+            "advisor": "",
+            "x": 0.065337,
+            "y": 1.383473,
+            "cluster_strength": 0.529937
+          },
+          {
+            "thesis_id": "TH_0285401",
+            "doc_number_url": "000268523",
+            "title": "desarrollo agricola y posibilidades de exportacion ante el tlc",
+            "program": "estudios mexico estados unidos",
+            "year": 1998,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Patron Guerra, Fernando",
+            "advisor": "Guerrero Belmonte, Lucia",
+            "x": 0.039524,
+            "y": 1.404071,
+            "cluster_strength": 0.309436
+          },
+          {
+            "thesis_id": "TH_0224753",
+            "doc_number_url": "000182457",
+            "title": "creacion de nuevos centros de poblacion ejidal, como medio para satisfacer las necesidades agrarias de nucleos de poblacion",
+            "program": "derecho",
+            "year": 1992,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Olea Solis, Norma",
+            "advisor": "Nava Reyes, Ma. del Pilar",
+            "x": 0.090799,
+            "y": 1.393074,
+            "cluster_strength": 0.329533
+          },
+          {
+            "thesis_id": "TH_0321762",
+            "doc_number_url": "000610453",
+            "title": "impacto de las sequias en las actividades economicas en el estado de sinaloa, dentro de la actividad agricola y ganadera",
+            "program": "ingenieria civil",
+            "year": 2006,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Martinez Bazua, Daniel",
+            "advisor": "Escalante Sandoval, Carlos A",
+            "x": 0.079458,
+            "y": 1.436112,
+            "cluster_strength": 0.467902
+          },
+          {
+            "thesis_id": "TH_0178182",
+            "doc_number_url": "000037881",
+            "title": "el cultivo del esparrago en el bajio, un caso de agricultura de contrato",
+            "program": "ingenieria agricola",
+            "year": 1985,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Hinojosa Rodriguez, Maria Alejandra",
+            "advisor": "Queitsch, Jurgen",
+            "x": 0.055021,
+            "y": 1.442193,
+            "cluster_strength": 0.238924
+          },
+          {
+            "thesis_id": "TH_0093902",
+            "doc_number_url": "000075303",
+            "title": "control administrativo y contable del financiamiento al campo en la industria azucarera",
+            "program": "contaduria",
+            "year": 1965,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Perdomo Castro, Cristobal",
+            "advisor": "",
+            "x": 0.040385,
+            "y": 1.435288,
+            "cluster_strength": 0.174389
+          }
+        ]
+      },
+      {
+        "microcluster_id": 134,
+        "macrocluster_id": 21,
+        "micro_label": "TRIGO · ESTUDIO · PRODUCCION · CARACTERIZACION",
+        "size": 96,
+        "x": 5.527031,
+        "y": 2.764938,
+        "year_min": 1936,
+        "year_max": 2023,
+        "top_terms": [
+          {
+            "term": "trigo",
+            "score": 0.063491
+          },
+          {
+            "term": "estudio",
+            "score": 0.05404
+          },
+          {
+            "term": "produccion",
+            "score": 0.04397
+          },
+          {
+            "term": "caracterizacion",
+            "score": 0.042091
+          },
+          {
+            "term": "durante",
+            "score": 0.03679
+          },
+          {
+            "term": "analisis",
+            "score": 0.036578
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.03621
+          },
+          {
+            "term": "efecto",
+            "score": 0.029444
+          },
+          {
+            "term": "harina",
+            "score": 0.028936
+          },
+          {
+            "term": "estado",
+            "score": 0.026834
+          },
+          {
+            "term": "diferentes",
+            "score": 0.02476
+          },
+          {
+            "term": "variedades",
+            "score": 0.02369
+          },
+          {
+            "term": "germinacion",
+            "score": 0.02355
+          },
+          {
+            "term": "mexico",
+            "score": 0.022561
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 14
+          },
+          {
+            "label": "quimica de alimentos",
+            "count": 11
+          },
+          {
+            "label": "biologia",
+            "count": 10
+          },
+          {
+            "label": "ingenieria en alimentos",
+            "count": 9
+          },
+          {
+            "label": "ingenieria agricola",
+            "count": 7
+          },
+          {
+            "label": "quimica",
+            "count": 6
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 5
+          },
+          {
+            "label": "ciencias bioquimicas",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 60
+          },
+          {
+            "label": "Area 1",
+            "count": 30
+          },
+          {
+            "label": "Area 3",
+            "count": 5
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 77
+          },
+          {
+            "label": "Maestría",
+            "count": 12
+          },
+          {
+            "label": "Doctorado",
+            "count": 7
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 87
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores cuautitlán",
+            "count": 1
+          },
+          {
+            "label": "universidad motolinia (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.3125,
+          "Area 2": 0.625,
+          "Area 3": 0.052083,
+          "Area 4": 0.010417,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 60,
+            "pct": 0.625
+          },
+          {
+            "area": "Area 1",
+            "count": 30,
+            "pct": 0.3125
+          },
+          {
+            "area": "Area 3",
+            "count": 5,
+            "pct": 0.052083
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.010417
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0472517",
+            "doc_number_url": "000741666",
+            "title": "evaluación de propiedades físicas y de flujo en harina de trigo, maíz y frijol de forma individual y en mezcla",
+            "program": "ingenieria en alimentos",
+            "year": 2016,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Moreno Melo, Alejandra",
+            "advisor": "Casas Alencaster, Norma Beatriz",
+            "x": 5.529771,
+            "y": 2.771324,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0319830",
+            "doc_number_url": "000610619",
+            "title": "cambios fisicos en pericarpio de maiz durante la nixtamalizacion y su influencia en la cinetica de difusion de calcio",
+            "program": "ciencias quimicas",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "instituto de quimica unam",
+            "author": "Gutiérrez Cortéz, Elsa",
+            "advisor": "Rodríguez García, Mario Enrique",
+            "x": 5.512982,
+            "y": 2.756411,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0224765",
+            "doc_number_url": "000184004",
+            "title": "variación en el contenido de citocininas libres y conjugadas durante la germinación de maíz con almacenamiento prolongado y de cosecha reciente",
+            "program": "quimica",
+            "year": 1992,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Olivares Parra, Julio Cesar",
+            "advisor": "Pozas Horcasitas, Rocío",
+            "x": 5.54546,
+            "y": 2.767343,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0198950",
+            "doc_number_url": "000096748",
+            "title": "inhibidores químicos en la conservación de la viabilidad del maíz almacenado",
+            "program": "biologia",
+            "year": 1989,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Fragoso Wade, Maria del Rocio",
+            "advisor": "Ramirez Gonzalez, Jorge",
+            "x": 5.501183,
+            "y": 2.75686,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0439009",
+            "doc_number_url": "000709300",
+            "title": "asociación e introducción de fumonisina b1 y la virulencia de fusarium verticillioides en plántulas de maíz",
+            "program": "quimica farmaceutico biologica",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Galeana Sánchez, Eduardo Alejandro",
+            "advisor": "Plasencia de la Parra, Francisco Javier",
+            "x": 5.550965,
+            "y": 2.778549,
+            "cluster_strength": 0.637123
+          },
+          {
+            "thesis_id": "TH_0448839",
+            "doc_number_url": "000720937",
+            "title": "efecto del consumo de forraje y la complementación con diferentes niveles de maíz rolado en borregas tabasco durante el posparto en trópico",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Villanueva Granados, Genaro",
+            "advisor": "Cruz Lazo, Cristino ; Castillo Gallegos, Epigmenio",
+            "x": 5.543461,
+            "y": 2.787248,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0192604",
+            "doc_number_url": "000077291",
+            "title": "estudio de la actividad de la glutamato deshidrogenasa (gdh) en callos de maiz (zea mays) sometidos a condiciones de diferenciacion",
+            "program": "biologia",
+            "year": 1988,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Martínez Cisneros, Martha",
+            "advisor": "Sanchez Quintanar, Estela",
+            "x": 5.50186,
+            "y": 2.784702,
+            "cluster_strength": 0.989418
+          },
+          {
+            "thesis_id": "TH_0175054",
+            "doc_number_url": "000018447",
+            "title": "estudio sobre histonas de maíz",
+            "program": "quimica farmaceutico biologica",
+            "year": 1985,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Aviña Lemus, Bertha",
+            "advisor": "Sanchez Quintanar, Estela",
+            "x": 5.496987,
+            "y": 2.784719,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 23,
+        "macrocluster_id": 21,
+        "micro_label": "ALIMENTOS · HIGIENE · INDUSTRIA · SEGURIDAD",
+        "size": 83,
+        "x": 0.927525,
+        "y": 0.858208,
+        "year_min": 1899,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "alimentos",
+            "score": 0.085628
+          },
+          {
+            "term": "higiene",
+            "score": 0.071695
+          },
+          {
+            "term": "industria",
+            "score": 0.066443
+          },
+          {
+            "term": "seguridad",
+            "score": 0.057808
+          },
+          {
+            "term": "alimentaria",
+            "score": 0.054251
+          },
+          {
+            "term": "seguridad higiene",
+            "score": 0.047492
+          },
+          {
+            "term": "diseno",
+            "score": 0.040218
+          },
+          {
+            "term": "estudio",
+            "score": 0.034317
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.031167
+          },
+          {
+            "term": "alimentacion",
+            "score": 0.030967
+          },
+          {
+            "term": "caso",
+            "score": 0.030153
+          },
+          {
+            "term": "proyecto",
+            "score": 0.029926
+          },
+          {
+            "term": "alimenticia",
+            "score": 0.029346
+          },
+          {
+            "term": "comida",
+            "score": 0.027488
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "administracion",
+            "count": 15
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 7
+          },
+          {
+            "label": "quimica de alimentos",
+            "count": 6
+          },
+          {
+            "label": "derecho",
+            "count": 5
+          },
+          {
+            "label": "ingenieria en alimentos",
+            "count": 5
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 5
+          },
+          {
+            "label": "contaduria",
+            "count": 4
+          },
+          {
+            "label": "economia",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 38
+          },
+          {
+            "label": "Area 2",
+            "count": 22
+          },
+          {
+            "label": "Area 1",
+            "count": 18
+          },
+          {
+            "label": "Area 4",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 73
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 70
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 2
+          },
+          {
+            "label": "universidad oparin",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          },
+          {
+            "label": "universidad latinoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ingeniería",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.216867,
+          "Area 2": 0.26506,
+          "Area 3": 0.457831,
+          "Area 4": 0.060241,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 38,
+            "pct": 0.457831
+          },
+          {
+            "area": "Area 2",
+            "count": 22,
+            "pct": 0.26506
+          },
+          {
+            "area": "Area 1",
+            "count": 18,
+            "pct": 0.216867
+          },
+          {
+            "area": "Area 4",
+            "count": 5,
+            "pct": 0.060241
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0362399",
+            "doc_number_url": "000646593",
+            "title": "implantación de un sistema de gestión de la inocuidad de los alimentos, en una empresa procesadora de mole",
+            "program": "quimica de alimentos",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Miñón Lara, Miguel Ángel",
+            "advisor": "Hidalgo Torres, Miguel Ángel",
+            "x": 0.881086,
+            "y": 0.84609,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0467628",
+            "doc_number_url": "000753023",
+            "title": "proyecto de inversión para la creación de una procesadora de alimentos para exportación : (guacamole)",
+            "program": "administracion",
+            "year": 2016,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad don vasco uruapan",
+            "author": "Flores Murillo, José María",
+            "advisor": "Mora Ochoa, Carmen Lucía",
+            "x": 0.802553,
+            "y": 0.928039,
+            "cluster_strength": 0.6939
+          },
+          {
+            "thesis_id": "TH_0201685",
+            "doc_number_url": "000133571",
+            "title": "la necesidad de implantar un procedimiento sumario especial para el caso de alimentos",
+            "program": "derecho",
+            "year": 1990,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad lasallista benavente",
+            "author": "Acosta Santa Rosa, J. Carmen",
+            "advisor": "Camarena Garcia, Ramon",
+            "x": 0.791125,
+            "y": 0.806624,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0503078",
+            "doc_number_url": "000769749",
+            "title": "diseño de la imagen corporativa para la clínica de nutrición y metabolismo #fuimosgordos",
+            "program": "dise o y comunicacion visual",
+            "year": 2018,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "universidad insurgentes",
+            "author": "Ramírez Hernández, Valeria",
+            "advisor": "Sánchez Monroy, Guillermo",
+            "x": 0.784446,
+            "y": 0.821356,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0240488",
+            "doc_number_url": "000206749",
+            "title": "control de roedores en la industria de alimentos",
+            "program": "quimica farmaceutico biologica",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Franco Flores, Maria Guadalupe",
+            "advisor": "Valle Vega, Pedro",
+            "x": 0.775386,
+            "y": 0.848378,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0402218",
+            "doc_number_url": "000673095",
+            "title": "estudio exploratorio de sistemas de conservación de alimentos para la etapa de diseño conceptual de un nuevo producto",
+            "program": "mecanica",
+            "year": 2011,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Martínez López, José de Jesús",
+            "advisor": "Ramírez Reivich, Alejandro Cuauhtémoc",
+            "x": 0.776613,
+            "y": 0.829279,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0391460",
+            "doc_number_url": "000654536",
+            "title": "criterios de diseño y construcción de un edificio de proceso para la industria alimenticia-aplicación práctica",
+            "program": "ingenieria civil",
+            "year": 2010,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Pérez Muñoz, Ambrosio",
+            "advisor": "Trigos Suárez, José Luis",
+            "x": 0.793158,
+            "y": 0.779365,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0036894",
+            "doc_number_url": "000305954",
+            "title": "el control de calidad de los alimentos empleados : el metodo haccp",
+            "program": "ingenieria quimica",
+            "year": 2002,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Vega Hernandez, Ma. Luisa",
+            "advisor": "Cassaigne Hernández, María del Rocío",
+            "x": 1.072208,
+            "y": 0.797762,
+            "cluster_strength": 0.832904
+          }
+        ]
+      },
+      {
+        "microcluster_id": 164,
+        "macrocluster_id": 21,
+        "micro_label": "FERMENTACION · EFECTO · DESARROLLO · ALIMENTOS",
+        "size": 66,
+        "x": 5.31421,
+        "y": 2.456423,
+        "year_min": 1948,
+        "year_max": 2023,
+        "top_terms": [
+          {
+            "term": "fermentacion",
+            "score": 0.07043
+          },
+          {
+            "term": "efecto",
+            "score": 0.068945
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.059644
+          },
+          {
+            "term": "alimentos",
+            "score": 0.057698
+          },
+          {
+            "term": "produccion",
+            "score": 0.048972
+          },
+          {
+            "term": "estudio",
+            "score": 0.0426
+          },
+          {
+            "term": "productos",
+            "score": 0.036878
+          },
+          {
+            "term": "azucares",
+            "score": 0.03584
+          },
+          {
+            "term": "harina",
+            "score": 0.034136
+          },
+          {
+            "term": "amaranto",
+            "score": 0.034129
+          },
+          {
+            "term": "aplicacion",
+            "score": 0.033625
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.033157
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.031991
+          },
+          {
+            "term": "calidad",
+            "score": 0.031631
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria en alimentos",
+            "count": 17
+          },
+          {
+            "label": "quimica de alimentos",
+            "count": 15
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 12
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 7
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 4
+          },
+          {
+            "label": "quimica",
+            "count": 3
+          },
+          {
+            "label": "biologia",
+            "count": 2
+          },
+          {
+            "label": "bibliotecologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 44
+          },
+          {
+            "label": "Area 1",
+            "count": 20
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 63
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 62
+          },
+          {
+            "label": "universidad iberoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad autónoma de guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de química",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.30303,
+          "Area 2": 0.666667,
+          "Area 3": 0.015152,
+          "Area 4": 0.015152,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 44,
+            "pct": 0.666667
+          },
+          {
+            "area": "Area 1",
+            "count": 20,
+            "pct": 0.30303
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.015152
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.015152
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0327495",
+            "doc_number_url": "000604109",
+            "title": "analisis sobre la procedencia de la subrogacion complementaria en materia de alimentos",
+            "program": "derecho",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Villar Arteaga, Yamilier del",
+            "advisor": "Servín Becerra, Jose Jorge",
+            "x": 5.325048,
+            "y": 2.479644,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0358050",
+            "doc_number_url": "000651544",
+            "title": "estudio preliminar para la homologación de las condiciones de fermentación y horneo en; galleta salada tipo cracket",
+            "program": "quimica de alimentos",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Escobar Hernández, Tzitzin Anayantzin",
+            "advisor": "Galdeano Bienzobas, Federico",
+            "x": 5.341226,
+            "y": 2.438848,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0046557",
+            "doc_number_url": "000326909",
+            "title": "abonos fermentados una alternativa para la produccion en comunidades campesinas",
+            "program": "planificacion para el desarrollo agropecuario",
+            "year": 2003,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Padilla Delgado, Juan Alfredo",
+            "advisor": "Ríos Gómez, Ramiro",
+            "x": 5.316504,
+            "y": 2.49056,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0043584",
+            "doc_number_url": "000326947",
+            "title": "la aplicacion de las lipasas en el desarrollo de productos alimenticios",
+            "program": "quimica de alimentos",
+            "year": 2003,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Jimenez López, Maria Eneida",
+            "advisor": "Ruiz Villafán, Beatriz",
+            "x": 5.308261,
+            "y": 2.492394,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0020214",
+            "doc_number_url": "000299485",
+            "title": "revision de los aditivos alimentarios utilizados en la manufactura de saborizantes y justificacion para su uso",
+            "program": "quimica de alimentos",
+            "year": 2001,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Rodea Martinez, Rosario Adriana",
+            "advisor": "Carreño Ortiz, Hugo Ruben",
+            "x": 5.31002,
+            "y": 2.417181,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0395955",
+            "doc_number_url": "000652748",
+            "title": "alimentos no convencionales a base de aguacate : puré y dulce de aguacate",
+            "program": "quimica de alimentos",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Yañez Tirado, Iliana",
+            "advisor": "Ruíz Loyola, Benjamín",
+            "x": 5.298077,
+            "y": 2.493253,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0324524",
+            "doc_number_url": "000657810",
+            "title": "desarrollo de la formulación de un postre estilo flan bajo en energía y sodio",
+            "program": "quimica de alimentos",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Rangel Guerrero, Vivian Astrid",
+            "advisor": "Mendoza Martínez, Eduardo",
+            "x": 5.298943,
+            "y": 2.411088,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0084805",
+            "doc_number_url": "000170687",
+            "title": "substancias nitrogenadas como reguladoras de la fermentacion de jugo de manzana",
+            "program": "quimica",
+            "year": 1959,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Soto Hernandez, Gloria",
+            "advisor": "",
+            "x": 5.309981,
+            "y": 2.505634,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

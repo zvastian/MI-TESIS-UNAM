@@ -432,6 +432,379 @@
     }
 
 
+
+    .tab-panel[data-panel="explorar"] .topbar {
+      top: 70px;
+    }
+
+    .view-action {
+      height: 32px;
+      padding: 0 12px;
+      border: 1px solid rgba(215, 208, 196, 0.88);
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.78);
+      backdrop-filter: blur(14px);
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #423d37;
+      cursor: pointer;
+    }
+
+    .explore-map-view {
+      display: grid;
+    }
+
+    body[data-explore-view="solar"] .explore-map-view {
+      display: none;
+    }
+
+    body[data-explore-view="map"] .solar-view {
+      display: none;
+    }
+
+    .macro-stage {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 46%, rgba(255,255,255,0.96) 0%, rgba(250,248,243,0.94) 42%, rgba(242,239,232,1) 100%);
+    }
+
+    #macro-container {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+
+
+    .macro-stage {
+      --a1-x: 18%;
+      --a1-y: 18%;
+      --a2-x: 82%;
+      --a2-y: 18%;
+      --a3-x: 82%;
+      --a3-y: 82%;
+      --a4-x: 18%;
+      --a4-y: 82%;
+      --field-radius: 420px;
+      background:
+        radial-gradient(circle var(--field-radius) at var(--a1-x) var(--a1-y),
+          rgba(214, 90, 99, 0.135) 0%,
+          rgba(214, 90, 99, 0.105) 35%,
+          rgba(214, 90, 99, 0.070) 58%,
+          rgba(214, 90, 99, 0.040) 75%,
+          rgba(214, 90, 99, 0.012) 91%,
+          transparent 100%),
+        radial-gradient(circle var(--field-radius) at var(--a2-x) var(--a2-y),
+          rgba(83, 169, 120, 0.135) 0%,
+          rgba(83, 169, 120, 0.105) 35%,
+          rgba(83, 169, 120, 0.070) 58%,
+          rgba(83, 169, 120, 0.040) 75%,
+          rgba(83, 169, 120, 0.012) 91%,
+          transparent 100%),
+        radial-gradient(circle var(--field-radius) at var(--a3-x) var(--a3-y),
+          rgba(78, 134, 204, 0.135) 0%,
+          rgba(78, 134, 204, 0.105) 35%,
+          rgba(78, 134, 204, 0.070) 58%,
+          rgba(78, 134, 204, 0.040) 75%,
+          rgba(78, 134, 204, 0.012) 91%,
+          transparent 100%),
+        radial-gradient(circle var(--field-radius) at var(--a4-x) var(--a4-y),
+          rgba(224, 181, 69, 0.135) 0%,
+          rgba(224, 181, 69, 0.105) 35%,
+          rgba(224, 181, 69, 0.070) 58%,
+          rgba(224, 181, 69, 0.040) 75%,
+          rgba(224, 181, 69, 0.012) 91%,
+          transparent 100%),
+        #f7f5ef;
+    }
+
+    .discipline-field {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .field-axis {
+      position: absolute;
+      border: 1px solid rgba(126, 117, 104, 0.10);
+    }
+
+    .field-axis::before,
+    .field-axis::after {
+      content: "";
+      position: absolute;
+      background: rgba(126, 117, 104, 0.09);
+    }
+
+    .field-axis::before {
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+    }
+
+    .field-axis::after {
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+    }
+
+    .field-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 150px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      text-transform: uppercase;
+      font-size: 9px;
+      line-height: 1.55;
+      color: rgba(91, 85, 77, 0.48);
+    }
+
+    .area-pole {
+      position: absolute;
+      max-width: 152px;
+    }
+
+    .area-pole::before {
+      content: "";
+      display: block;
+      width: 9px;
+      height: 9px;
+      margin-bottom: 8px;
+      border-radius: 50%;
+      background: var(--pole-color);
+    }
+
+    .area-pole strong {
+      display: block;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #29251f;
+    }
+
+    .area-pole span {
+      display: block;
+      margin-top: 5px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      font-size: 9px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    .area-pole.a1 {
+      --pole-color: #D65A63;
+      transform: translate(10px, calc(-100% - 10px));
+    }
+
+    .area-pole.a2 {
+      --pole-color: #53A978;
+      text-align: right;
+      transform: translate(calc(-100% - 10px), calc(-100% - 10px));
+    }
+
+    .area-pole.a2::before,
+    .area-pole.a3::before {
+      margin-left: auto;
+    }
+
+    .area-pole.a3 {
+      --pole-color: #4E86CC;
+      text-align: right;
+      transform: translate(calc(-100% - 10px), 10px);
+    }
+
+    .area-pole.a4 {
+      --pole-color: #E0B545;
+      transform: translate(10px, 10px);
+    }
+
+    .area-composition {
+      margin-top: 20px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .area-row {
+      margin-top: 10px;
+    }
+
+    .area-row-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 5px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      font-size: 10px;
+      color: #4b463e;
+    }
+
+    .area-bar {
+      height: 5px;
+      border-radius: 4px;
+      background: rgba(217, 210, 196, 0.45);
+      overflow: hidden;
+    }
+
+    .area-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+    }
+
+    .blend-legend {
+      position: absolute;
+      left: 28px;
+      bottom: 22px;
+      z-index: 7;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 9px 12px;
+      border: 1px solid var(--line);
+      background: rgba(255,253,248,0.84);
+      backdrop-filter: blur(12px);
+    }
+
+    .blend-swatch {
+      width: 65px;
+      height: 8px;
+      border-radius: 8px;
+      background: linear-gradient(90deg, #D65A63 0%, #53A978 33%, #4E86CC 67%, #E0B545 100%);
+    }
+
+    .blend-legend span {
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.065em;
+      font-size: 9px;
+      color: var(--muted);
+    }
+
+
+    .macro-caption {
+      position: absolute;
+      left: 28px;
+      bottom: 26px;
+      z-index: 6;
+      max-width: 330px;
+      padding: 10px 13px;
+      border: 1px solid var(--line);
+      background: rgba(255,253,248,0.82);
+      backdrop-filter: blur(12px);
+    }
+
+    .macro-caption p {
+      margin: 0;
+      font-size: 10px;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+
+    .macro-panel h1 {
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: 30px;
+      line-height: 0.98;
+    }
+
+    .macro-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .macro-section {
+      margin-top: 20px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .macro-values {
+      margin-top: 7px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 11px;
+      line-height: 1.6;
+      font-weight: 600;
+      color: #24211d;
+    }
+
+
+    .drill-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .drill-btn {
+      border: 1px solid rgba(215, 208, 196, 0.94);
+      background: #fffdf8;
+      min-height: 34px;
+      padding: 0 13px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #3e3932;
+      cursor: pointer;
+    }
+
+    .drill-btn.primary {
+      background: #1d1b18;
+      border-color: #1d1b18;
+      color: #fffdf8;
+    }
+
+    .drill-path {
+      margin: 0 0 16px;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+
+    .representative-note {
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-size: 10px;
+      color: var(--muted);
+    }
+
+    .loading-panel {
+      padding-top: 20px;
+      color: var(--muted);
+    }
+
+
+    .macro-hint {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 10px;
+    }
+
+
     .tooltip {
       position: absolute;
       z-index: 8;
@@ -451,15 +824,48 @@
     }
 
     .tooltip.visible { opacity: 1; }
+
+    body[data-tab="nobel"] .tab-panel[data-panel="nobel"] {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .nobel-frame {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: #f7f5ef;
+    }
+
+
+    /* nobel-parent-nav-dark-v1 */
+    body[data-tab="nobel"] .main-tabs {
+      border-color: rgba(148, 178, 207, 0.20);
+      background: rgba(8, 20, 37, 0.88);
+      box-shadow: 0 12px 34px rgba(0,0,0,0.30);
+    }
+
+    body[data-tab="nobel"] .tab-btn {
+      color: #94abc2;
+    }
+
+    body[data-tab="nobel"] .tab-btn.active {
+      background: #e7f1fb;
+      color: #091727;
+    }
+
   </style>
 </head>
 
-<body data-mode="universe" data-tab="inicio">
+<body data-mode="universe" data-tab="inicio" data-explore-view="map">
   <nav class="main-tabs" aria-label="Secciones">
     <button class="tab-btn active" type="button" data-tab-target="inicio">Inicio</button>
     <button class="tab-btn" type="button" data-tab-target="explorar">Explorar</button>
     <button class="tab-btn" type="button" data-tab-target="taller">Taller</button>
     <button class="tab-btn" type="button" data-tab-target="laboratorio">Laboratorio</button>
+    <button class="tab-btn" type="button" data-tab-target="nobel">Nobel</button>
   </nav>
 
   <div class="tab-shell">
@@ -490,12 +896,69 @@
     </section>
 
     <section class="tab-panel" data-panel="explorar">
-  <main class="app">
+  
+      <main class="app explore-map-view">
+        <section class="macro-stage">
+          <div class="topbar">
+            <div class="brand">NODO UNAM · TERRITORIOS SEMÁNTICOS</div>
+            <button class="view-action" id="openSolarView" type="button">Abrir vecindario actual</button>
+          </div>
+
+
+          <div class="discipline-field" id="disciplineField" aria-hidden="true">
+            <div class="field-axis" id="fieldAxis"></div>
+            <div class="field-center" id="fieldCenter">Cruces<br>disciplinares</div>
+
+            <div class="area-pole a1" id="areaPole1">
+              <strong>Área 1</strong>
+              <span>Físico-matemáticas e ingenierías</span>
+            </div>
+
+            <div class="area-pole a2" id="areaPole2">
+              <strong>Área 2</strong>
+              <span>Biológicas, químicas y salud</span>
+            </div>
+
+            <div class="area-pole a3" id="areaPole3">
+              <strong>Área 3</strong>
+              <span>Ciencias sociales</span>
+            </div>
+
+            <div class="area-pole a4" id="areaPole4">
+              <strong>Área 4</strong>
+              <span>Humanidades y artes</span>
+            </div>
+          </div>
+
+          <div class="blend-legend" aria-hidden="true">
+            <div class="blend-swatch"></div>
+            <span>Color = mezcla disciplinar</span>
+          </div>
+
+          <div id="macro-container"></div>
+
+          <div class="macro-caption">
+            <p>40 MACROCLUSTERS · SELECCIONA UN TERRITORIO PARA LEER SU COMPOSICIÓN. EL SIGUIENTE NIVEL MOSTRARÁ SUS MICROCLUSTERS.</p>
+          </div>
+        </section>
+
+        <aside class="macro-panel" id="macroPanel">
+          <p class="eyebrow">Explorar</p>
+          <h1>Territorios semánticos</h1>
+          <p>
+            Cargando el mapa general del acervo.
+          </p>
+        </aside>
+      </main>
+
+      <main class="app solar-view">
     <section class="stage">
       <div class="topbar">
         <div class="brand">NODO UNAM</div>
 
         <div class="controls">
+          <button class="view-action" id="backToMacroMap" type="button">Volver al mapa</button>
+
           <div class="mode-toggle">
             <button class="mode-btn active" id="modeUniverse" type="button">Universo</button>
             <button class="mode-btn" id="modeAnalytic" type="button">Analítico</button>
@@ -581,6 +1044,15 @@
         </div>
       </div>
     </section>
+    <section class="tab-panel" data-panel="nobel">
+      <iframe
+        class="nobel-frame"
+        src="/nobel_map.html"
+        title="Atlas Nobel"
+        loading="lazy"
+      ></iframe>
+    </section>
+
   </div>
 
   <script type="module">
@@ -596,8 +1068,19 @@
         button.classList.toggle("active", button.dataset.tabTarget === tab);
       }
 
-      if (tab === "explorar" && renderer) {
-        requestAnimationFrame(() => renderer.refresh());
+      if (tab === "explorar") {
+        requestAnimationFrame(() => {
+          if (document.body.dataset.exploreView === "map") {
+            initMacroMap();
+            if (macroRenderer) {
+              macroRenderer.resize();
+              macroRenderer.refresh();
+            }
+          } else if (renderer) {
+            renderer.resize();
+            renderer.refresh();
+          }
+        });
       }
     }
 
@@ -654,11 +1137,1121 @@
     let allTheses = [];
     let projectNode = null;
 
+
+    const macroContainer = document.getElementById("macro-container");
+    const macroPanel = document.getElementById("macroPanel");
+    const openSolarView = document.getElementById("openSolarView");
+    const backToMacroMap = document.getElementById("backToMacroMap");
+
+    const AREA_FIELD_COLORS = {
+      "Area 1": "#D65A63",
+      "Area 2": "#53A978",
+      "Area 3": "#4E86CC",
+      "Area 4": "#E0B545",
+      "Por Clasificar": "#8B877E"
+    };
+
+    const AREA_FIELD_LABELS = {
+      "Area 1": "Área 1 · Físico-matemáticas e ingenierías",
+      "Area 2": "Área 2 · Biológicas, químicas y salud",
+      "Area 3": "Área 3 · Ciencias sociales",
+      "Area 4": "Área 4 · Humanidades y artes",
+      "Por Clasificar": "Por clasificar"
+    };
+
+    const AREA_POLES = {
+      "Area 1": { x: -4.8, y: 3.25 },
+      "Area 2": { x: 4.8, y: 3.25 },
+      "Area 3": { x: 4.8, y: -3.25 },
+      "Area 4": { x: -4.8, y: -3.25 }
+    };
+
+    const macroStage = document.querySelector(".explore-map-view .macro-stage");
+    const disciplineField = document.getElementById("disciplineField");
+    const fieldAxis = document.getElementById("fieldAxis");
+    const fieldCenter = document.getElementById("fieldCenter");
+    const areaPoleElements = {
+      "Area 1": document.getElementById("areaPole1"),
+      "Area 2": document.getElementById("areaPole2"),
+      "Area 3": document.getElementById("areaPole3"),
+      "Area 4": document.getElementById("areaPole4")
+    };
+
+    function syncDisciplineField() {
+      if (!macroRenderer || !macroStage || !disciplineField) return;
+
+      const viewportPoles = {};
+
+      for (const [area, graphPosition] of Object.entries(AREA_POLES)) {
+        viewportPoles[area] = macroRenderer.graphToViewport(graphPosition);
+
+        const element = areaPoleElements[area];
+        if (element) {
+          element.style.left = `${viewportPoles[area].x}px`;
+          element.style.top = `${viewportPoles[area].y}px`;
+        }
+      }
+
+      const left = Math.min(viewportPoles["Area 1"].x, viewportPoles["Area 4"].x);
+      const right = Math.max(viewportPoles["Area 2"].x, viewportPoles["Area 3"].x);
+      const top = Math.min(viewportPoles["Area 1"].y, viewportPoles["Area 2"].y);
+      const bottom = Math.max(viewportPoles["Area 3"].y, viewportPoles["Area 4"].y);
+      const width = Math.max(right - left, 1);
+      const height = Math.max(bottom - top, 1);
+      // Each field reaches slightly beyond the center:
+      // quadrants remain legible and blending concentrates near intersections.
+      const poleToCenter = Math.hypot(width / 2, height / 2);
+      const radius = poleToCenter * 1.28;
+
+      fieldAxis.style.left = `${left}px`;
+      fieldAxis.style.top = `${top}px`;
+      fieldAxis.style.width = `${width}px`;
+      fieldAxis.style.height = `${height}px`;
+
+      fieldCenter.style.left = `${left + width / 2}px`;
+      fieldCenter.style.top = `${top + height / 2}px`;
+
+      macroStage.style.setProperty("--a1-x", `${viewportPoles["Area 1"].x}px`);
+      macroStage.style.setProperty("--a1-y", `${viewportPoles["Area 1"].y}px`);
+      macroStage.style.setProperty("--a2-x", `${viewportPoles["Area 2"].x}px`);
+      macroStage.style.setProperty("--a2-y", `${viewportPoles["Area 2"].y}px`);
+      macroStage.style.setProperty("--a3-x", `${viewportPoles["Area 3"].x}px`);
+      macroStage.style.setProperty("--a3-y", `${viewportPoles["Area 3"].y}px`);
+      macroStage.style.setProperty("--a4-x", `${viewportPoles["Area 4"].x}px`);
+      macroStage.style.setProperty("--a4-y", `${viewportPoles["Area 4"].y}px`);
+      macroStage.style.setProperty("--field-radius", `${radius}px`);
+    }
+
+    let macroGraph = null;
+    let macroRenderer = null;
+    let macroLoaded = false;
+    let macroLoading = false;
+    let macroHoveredNode = null;
+    let macroSelectedNode = null;
+    let macroItems = [];
+    const drilldownCache = new Map();
+    let activeMacroItem = null;
+    let activeMicroItem = null;
+    let activeRepresentativeThesis = null;
+    let atlasPayload = null;
+    let atlasLevel = "overview";
+    let atlasMacroId = null;
+    let atlasMicroId = null;
+    const atlasMicroDetails = new Map();
+    const loadedDetailPointIds = new Set();
+
+    function setExploreView(view) {
+      document.body.dataset.exploreView = view;
+
+      requestAnimationFrame(() => {
+        if (view === "map") {
+          initMacroMap();
+          if (macroRenderer) {
+            macroRenderer.resize();
+            macroRenderer.refresh();
+            syncDisciplineField();
+          }
+        } else if (renderer) {
+          renderer.resize();
+          renderer.refresh();
+        }
+      });
+    }
+
+    openSolarView.addEventListener("click", () => setExploreView("solar"));
+    backToMacroMap.addEventListener("click", () => setExploreView("map"));
+
+    function macroLabel(item) {
+      return String(item.macro_label || `MACROCLUSTER ${item.macrocluster_id}`);
+    }
+
+    function shortMacroLabel(item) {
+      return macroLabel(item).split(" · ").slice(0, 2).join(" · ");
+    }
+
+    function topTerms(values) {
+      if (!Array.isArray(values)) return "SIN DATOS";
+      return values.slice(0, 5).map(item => {
+        if (typeof item === "string") return item;
+        return item.term || item.label || "";
+      }).filter(Boolean).join(" · ") || "SIN DATOS";
+    }
+
+    function topLabels(values) {
+      if (!Array.isArray(values)) return "SIN DATOS";
+      return values.slice(0, 4).map(item => {
+        if (typeof item === "string") return item;
+        const label = item.label || item.term || "";
+        return item.count ? `${label} (${item.count})` : label;
+      }).filter(Boolean).join(" · ") || "SIN DATOS";
+    }
+
+    function renderMacroPanel(item) {
+      activeMacroItem = item;
+      activeMicroItem = null;
+      activeRepresentativeThesis = null;
+
+      const period = item.year_min && item.year_max
+        ? `${item.year_min} - ${item.year_max}`
+        : "SIN FECHA";
+
+      macroPanel.innerHTML = `
+        <p class="eyebrow">Macrocluster ${escapeHTML(item.macrocluster_id)}</p>
+        <h1>${escapeHTML(macroLabel(item))}</h1>
+        <div class="macro-stats">
+          <div class="meta-item">
+            <span class="meta-label">Tesis</span>
+            <span class="meta-value">${escapeHTML(item.size)}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Microclusters</span>
+            <span class="meta-value">${escapeHTML(item.microcluster_count || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Periodo</span>
+            <span class="meta-value">${escapeHTML(period)}</span>
+          </div>
+        </div>
+        <div class="macro-section">
+          <span class="meta-label">Términos dominantes</span>
+          <div class="macro-values">${escapeHTML(topTerms(item.top_terms))}</div>
+        </div>
+        <div class="macro-section">
+          <span class="meta-label">Programas dominantes</span>
+          <div class="macro-values">${escapeHTML(topLabels(item.top_programs))}</div>
+        </div>
+        <div class="macro-section">
+          <span class="meta-label">Áreas dominantes</span>
+          <div class="macro-values">${escapeHTML(topLabels(item.top_areas))}</div>
+        </div>
+        ${renderAreaComposition(item)}
+        <p class="macro-hint">CLICK EN ESTE TERRITORIO PARA ABRIR SUS MICROCLUSTERS TEMÁTICOS.</p>
+      `;
+    }
+
+
+    async function fetchDrilldownPayload(macroclusterId) {
+      const key = String(macroclusterId);
+
+      if (drilldownCache.has(key)) {
+        return drilldownCache.get(key);
+      }
+
+      const routes = [
+        `/explore/macroclusters/macro_${key}.json`,
+        `/static/explore/macroclusters/macro_${key}.json`
+      ];
+
+      for (const route of routes) {
+        const response = await fetch(route);
+
+        if (response.ok) {
+          const payload = await response.json();
+          const macrocluster = payload.macrocluster;
+
+          if (!macrocluster) {
+            throw new Error("El payload del territorio no contiene microclusters.");
+          }
+
+          drilldownCache.set(key, macrocluster);
+          return macrocluster;
+        }
+      }
+
+      throw new Error("No se pudieron cargar los microclusters de este territorio.");
+    }
+
+    function resetExploreGraph() {
+      macroGraph.clear();
+
+      for (const [area, pole] of Object.entries(AREA_POLES)) {
+        macroGraph.addNode(`POLE::${area}`, {
+          x: pole.x,
+          y: pole.y,
+          size: 0.01,
+          color: "rgba(0,0,0,0)",
+          label: "",
+          nodeKind: "pole"
+        });
+      }
+    }
+
+    function layerLabel(item, nodeKind) {
+      if (nodeKind === "macrocluster") return shortMacroLabel(item);
+
+      if (nodeKind === "microcluster") {
+        return String(item.micro_label || `MICROCLUSTER ${item.microcluster_id}`)
+          .split(" · ")
+          .slice(0, 2)
+          .join(" · ");
+      }
+
+      return String(item.title || "TESIS").toUpperCase();
+    }
+
+    function drawClusterLayer(items, nodeKind) {
+      if (!macroGraph || !macroRenderer || !items.length) return;
+
+      resetExploreGraph();
+
+      const maxSize = Math.max(...items.map(item => Number(item.size || 1)));
+      const positioned = computeAreaFieldPositions(items, maxSize);
+
+      positioned.forEach(({ item, x, y }, index) => {
+        const key = nodeKind === "macrocluster"
+          ? `MACRO::${item.macrocluster_id}`
+          : `MICRO::${item.microcluster_id}`;
+
+        const scaledSize = nodeKind === "macrocluster"
+          ? 7 + Math.sqrt(Number(item.size || 1) / maxSize) * 21
+          : 6 + Math.sqrt(Number(item.size || 1) / maxSize) * 17;
+
+        macroGraph.addNode(key, {
+          x,
+          y,
+          size: scaledSize,
+          color: mixedAreaColor(item),
+          label: layerLabel(item, nodeKind),
+          item,
+          rank: index,
+          nodeKind
+        });
+      });
+
+      macroSelectedNode = null;
+      macroHoveredNode = null;
+      macroRenderer.refresh();
+      syncDisciplineField();
+      macroRenderer.getCamera().animatedReset({ duration: 480 });
+    }
+
+    async function showMicroclusters(macroItem) {
+      try {
+        activeMacroItem = macroItem;
+        macroPanel.innerHTML = `
+          <p class="eyebrow">Explorar</p>
+          <h1>Cargando microclusters</h1>
+          <p class="loading-panel">Preparando los temas internos del territorio seleccionado.</p>
+        `;
+
+        const record = await fetchDrilldownPayload(macroItem.macrocluster_id);
+
+        if (!record || !record.microclusters || !record.microclusters.length) {
+          throw new Error("Este macrocluster no contiene microclusters disponibles.");
+        }
+
+        drawClusterLayer(record.microclusters, "microcluster");
+
+        activeMicroItem = record.microclusters[0];
+        renderMicroPanel(activeMicroItem);
+      } catch (err) {
+        macroPanel.innerHTML = `
+          <p class="eyebrow">Error</p>
+          <h1>No se pudieron cargar microclusters</h1>
+          <p>${escapeHTML(err.message)}</p>
+        `;
+      }
+    }
+
+    function renderMicroPanel(item) {
+      activeMicroItem = item;
+      activeRepresentativeThesis = null;
+
+      const period = item.year_min && item.year_max
+        ? `${item.year_min} - ${item.year_max}`
+        : "SIN FECHA";
+
+      macroPanel.innerHTML = `
+        <p class="drill-path">Explorar / ${escapeHTML(activeMacroItem.macro_label)} / Microcluster</p>
+        <p class="eyebrow">Microcluster ${escapeHTML(item.microcluster_id)}</p>
+        <h1>${escapeHTML(item.micro_label)}</h1>
+        <div class="macro-stats">
+          <div class="meta-item">
+            <span class="meta-label">Tesis</span>
+            <span class="meta-value">${escapeHTML(item.size)}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Periodo</span>
+            <span class="meta-value">${escapeHTML(period)}</span>
+          </div>
+        </div>
+        <div class="macro-section">
+          <span class="meta-label">Términos dominantes</span>
+          <div class="macro-values">${escapeHTML(topTerms(item.top_terms))}</div>
+        </div>
+        <div class="macro-section">
+          <span class="meta-label">Programas dominantes</span>
+          <div class="macro-values">${escapeHTML(topLabels(item.top_programs))}</div>
+        </div>
+        ${renderAreaComposition(item)}
+        <p class="macro-hint">CLICK EN UN MICROCLUSTER PARA ABRIR SUS TESIS REPRESENTATIVAS.</p>
+        <div class="drill-actions">
+          <button class="drill-btn" type="button" data-action="back-macroclusters">
+            Volver a territorios
+          </button>
+        </div>
+      `;
+    }
+
+    function thesisAreaMix(area) {
+      return {
+        "Area 1": area === "Area 1" ? 1 : 0,
+        "Area 2": area === "Area 2" ? 1 : 0,
+        "Area 3": area === "Area 3" ? 1 : 0,
+        "Area 4": area === "Area 4" ? 1 : 0,
+        "Por Clasificar": ["Area 1", "Area 2", "Area 3", "Area 4"].includes(area) ? 0 : 1
+      };
+    }
+
+    function showRepresentativeTheses(microItem) {
+      const theses = microItem.representative_theses || [];
+
+      if (!theses.length) {
+        throw new Error("Este microcluster no tiene tesis representativas.");
+      }
+
+      resetExploreGraph();
+
+      const anchor = computeAreaFieldPositions([microItem], Number(microItem.size || 1))[0];
+      const orbitRadius = theses.length > 6 ? 0.86 : 0.72;
+
+      theses.forEach((thesis, index) => {
+        const angle = (-Math.PI / 2) + (index / theses.length) * Math.PI * 2;
+        const radius = orbitRadius + (index % 2) * 0.18;
+
+        macroGraph.addNode(`THESIS::${thesis.thesis_id}`, {
+          x: anchor.x + Math.cos(angle) * radius,
+          y: anchor.y + Math.sin(angle) * radius,
+          size: 11,
+          color: mixedAreaColor({ area_mix: thesisAreaMix(thesis.area) }),
+          label: String(thesis.title || "TESIS").toUpperCase(),
+          item: thesis,
+          rank: index,
+          nodeKind: "representative_thesis"
+        });
+      });
+
+      macroSelectedNode = null;
+      macroHoveredNode = null;
+      macroRenderer.refresh();
+      syncDisciplineField();
+      macroRenderer.getCamera().animatedReset({ duration: 480 });
+
+      activeRepresentativeThesis = theses[0];
+      renderRepresentativeThesisPanel(theses[0]);
+    }
+
+    function renderRepresentativeThesisPanel(thesis) {
+      activeRepresentativeThesis = thesis;
+
+      macroPanel.innerHTML = `
+        <p class="drill-path">Explorar / ${escapeHTML(activeMacroItem.macro_label)} / ${escapeHTML(activeMicroItem.micro_label)}</p>
+        <p class="eyebrow">Tesis seleccionada</p>
+        <h1>${escapeHTML(thesis.title)}</h1>
+        <div class="meta-grid">
+          <div class="meta-item">
+            <span class="meta-label">Autor</span>
+            <span class="meta-value">${escapeHTML(thesis.author || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Programa</span>
+            <span class="meta-value">${escapeHTML(thesis.program || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Año</span>
+            <span class="meta-value">${escapeHTML(thesis.year || "S/F")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Plantel</span>
+            <span class="meta-value">${escapeHTML(thesis.plantel || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Nivel</span>
+            <span class="meta-value">${escapeHTML(thesis.level || "—")}</span>
+          </div>
+        </div>
+        <p class="representative-note">
+          Esta tesis pertenece al microcluster seleccionado.
+        </p>
+        <div class="drill-actions">
+          <button class="drill-btn" type="button" data-action="back-microclusters">
+            Volver a microclusters
+          </button>
+          <button class="drill-btn primary" type="button" data-action="open-neighborhood">
+            Explorar vecindario
+          </button>
+        </div>
+      `;
+    }
+
+    async function openThesisNeighborhood(thesis) {
+      macroPanel.innerHTML = `
+        <p class="eyebrow">Vecindario</p>
+        <h1>Cargando tesis similares</h1>
+        <p class="loading-panel">Calculando las relaciones semánticas cercanas.</p>
+      `;
+
+      const endpoint = `/api/explore/neighborhood/${encodeURIComponent(thesis.thesis_id)}?top_k=100`;
+      const response = await fetch(endpoint);
+      const result = await response.json();
+
+      if (!response.ok || !result.ok) {
+        const message = result.detail?.message || result.detail?.message || "No se pudo construir el vecindario.";
+        throw new Error(message);
+      }
+
+      const payload = result.data;
+
+      if (!renderer) {
+        throw new Error(
+          "La vista Vecindario no se inicializó. Verifica que static/graph_neighborhood.json exista y recarga la página."
+        );
+      }
+
+      graph = makeGraph(payload);
+      renderer.setGraph(graph);
+
+      state.mode = "universe";
+      state.groupBy = "year";
+      state.filterValue = "__all__";
+      state.displayCount = Math.min(payload.meta?.defaults?.universe_count || 40, allTheses.length);
+      state.hoveredNode = null;
+      state.selectedNode = "PROJECT";
+      state.groupNodes = new Set();
+
+      groupBySelect.value = "year";
+      setExploreView("solar");
+
+      requestAnimationFrame(() => {
+        refreshView(false);
+        renderPanel(graph.getNodeAttributes("PROJECT"));
+        renderer.resize();
+        renderer.refresh();
+        renderer.getCamera().animatedReset({ duration: 500 });
+      });
+    }
+
+
+    async function fetchAtlasPayload() {
+      if (atlasPayload) return atlasPayload;
+
+      const routes = [
+        "/explore/explore_atlas_50k.json",
+        "/static/explore/explore_atlas_50k.json"
+      ];
+
+      for (const route of routes) {
+        const response = await fetch(route);
+        if (response.ok) {
+          atlasPayload = await response.json();
+          return atlasPayload;
+        }
+      }
+
+      throw new Error("No se pudo cargar explore_atlas_50k.json");
+    }
+
+    async function fetchMicroDetails(microclusterId) {
+      const key = String(microclusterId);
+      if (atlasMicroDetails.has(key)) return atlasMicroDetails.get(key);
+
+      const routes = [
+        `/explore/microclusters/micro_${key}.json`,
+        `/static/explore/microclusters/micro_${key}.json`
+      ];
+
+      for (const route of routes) {
+        const response = await fetch(route);
+        if (response.ok) {
+          const payload = await response.json();
+          atlasMicroDetails.set(key, payload);
+          return payload;
+        }
+      }
+
+      throw new Error("No se pudieron cargar las tesis del microcluster.");
+    }
+
+    function atlasAreaColor(area, alpha) {
+      const hex = AREA_FIELD_COLORS[area] || AREA_FIELD_COLORS["Por Clasificar"];
+      return rgbaFromHex(hex, alpha);
+    }
+
+    function appendAtlasActions(html) {
+      macroPanel.insertAdjacentHTML("beforeend", html);
+    }
+
+    function atlasOverview(selectedItem = null) {
+      atlasLevel = "overview";
+      atlasMacroId = null;
+      atlasMicroId = null;
+      activeMicroItem = null;
+      activeRepresentativeThesis = null;
+
+      const item = selectedItem || atlasPayload.macroclusters[0];
+      activeMacroItem = item;
+      macroSelectedNode = `MACRO::${item.macrocluster_id}`;
+
+      renderMacroPanel(item);
+      appendAtlasActions(`
+        <p class="macro-hint">
+          CLICK EN UN TERRITORIO PARA ABRIR SUS MICROCLUSTERS SIN PERDER EL CONTEXTO DEL ACERVO.
+        </p>
+      `);
+
+      macroRenderer.refresh();
+    }
+
+    function atlasFocusMacro(item) {
+      atlasLevel = "macro";
+      atlasMacroId = Number(item.macrocluster_id);
+      atlasMicroId = null;
+      activeMacroItem = item;
+      activeMicroItem = null;
+      activeRepresentativeThesis = null;
+      macroSelectedNode = `MACRO::${atlasMacroId}`;
+
+      renderMacroPanel(item);
+      appendAtlasActions(`
+        <div class="drill-actions">
+          <button class="drill-btn" type="button" data-atlas-action="overview">
+            Volver al atlas
+          </button>
+        </div>
+        <p class="macro-hint">
+          CLICK EN UN MICROCLUSTER PARA REVELAR SUS TESIS.
+        </p>
+      `);
+
+      macroRenderer.refresh();
+    }
+
+    async function atlasFocusMicro(item) {
+      atlasLevel = "micro";
+      atlasMacroId = Number(item.macrocluster_id);
+      atlasMicroId = Number(item.microcluster_id);
+      activeMacroItem = atlasPayload.macroclusters.find(
+        macro => Number(macro.macrocluster_id) === atlasMacroId
+      );
+      activeMicroItem = item;
+      activeRepresentativeThesis = null;
+      macroSelectedNode = `MICRO::${atlasMicroId}`;
+
+      const details = await fetchMicroDetails(atlasMicroId);
+
+      const microNode = macroGraph.getNodeAttributes(`MICRO::${atlasMicroId}`);
+      const total = details.theses.length;
+      const radius = Math.min(0.72, 0.30 + Math.sqrt(total) / 42);
+
+      details.theses.forEach((thesis, index) => {
+        const nodeId = `DOT::${thesis.thesis_id}`;
+
+        if (macroGraph.hasNode(nodeId)) {
+          macroGraph.setNodeAttribute(nodeId, "detail", thesis);
+          return;
+        }
+
+        const angle = index * 2.399963229728653;
+        const distance = radius * Math.sqrt((index + 1) / Math.max(total, 1));
+
+        macroGraph.addNode(nodeId, {
+          x: microNode.x + Math.cos(angle) * distance,
+          y: microNode.y + Math.sin(angle) * distance,
+          size: 0.88,
+          baseSize: 0.88,
+          color: atlasAreaColor(thesis.area, 0.10),
+          area: thesis.area,
+          thesisId: thesis.thesis_id,
+          microclusterId: atlasMicroId,
+          macroclusterId: atlasMacroId,
+          nodeKind: "atlas_thesis",
+          detail: thesis,
+          label: ""
+        });
+
+        loadedDetailPointIds.add(nodeId);
+      });
+
+      renderMicroPanel(item);
+      appendAtlasActions(`
+        <div class="drill-actions">
+          <button class="drill-btn" type="button" data-atlas-action="macro">
+            Volver al territorio
+          </button>
+          <button class="drill-btn" type="button" data-atlas-action="overview">
+            Ver atlas completo
+          </button>
+        </div>
+        <p class="macro-hint">
+          ${details.theses.length} TESIS DEL MICROCLUSTER. CLICK EN CUALQUIER PUNTO DESTACADO PARA ABRIR SU FICHA.
+        </p>
+      `);
+
+      macroRenderer.refresh();
+    }
+
+    async function fetchMacroPayload() {
+      const routes = [
+        "/static/explore/explore_macroclusters_50k.json",
+        "/explore/explore_macroclusters_50k.json",
+        "/outputs/explore/explore_macroclusters_50k.json"
+      ];
+
+      for (const route of routes) {
+        const response = await fetch(route);
+        if (response.ok) return await response.json();
+      }
+
+      throw new Error("No se pudo cargar explore_macroclusters_50k.json");
+    }
+
+    function parseFieldColor(hex) {
+      const clean = hex.replace("#", "");
+      return {
+        r: parseInt(clean.slice(0, 2), 16),
+        g: parseInt(clean.slice(2, 4), 16),
+        b: parseInt(clean.slice(4, 6), 16)
+      };
+    }
+
+    function areaShare(item, area) {
+      return Number((item.area_mix || {})[area] || 0);
+    }
+
+    function mixedAreaColor(item) {
+      let total = 0;
+      let r = 0;
+      let g = 0;
+      let b = 0;
+
+      for (const area of Object.keys(AREA_FIELD_COLORS)) {
+        const weight = areaShare(item, area);
+        const color = parseFieldColor(AREA_FIELD_COLORS[area]);
+
+        total += weight;
+        r += color.r * weight;
+        g += color.g * weight;
+        b += color.b * weight;
+      }
+
+      if (!total) return "#8B877E";
+
+      r = Math.round(r / total);
+      g = Math.round(g / total);
+      b = Math.round(b / total);
+
+      return `rgb(${r}, ${g}, ${b})`;
+    }
+
+    function renderAreaComposition(item) {
+      const entries = Object.entries(item.area_mix || {})
+        .filter(([area, pct]) => area !== "Por Clasificar" && Number(pct) > 0.005)
+        .sort((a, b) => Number(b[1]) - Number(a[1]));
+
+      if (!entries.length) return "";
+
+      return `
+        <div class="area-composition">
+          <span class="meta-label">Composición disciplinar</span>
+          ${entries.map(([area, pct]) => `
+            <div class="area-row">
+              <div class="area-row-head">
+                <span>${escapeHTML(AREA_FIELD_LABELS[area] || area)}</span>
+                <strong>${Math.round(Number(pct) * 100)}%</strong>
+              </div>
+              <div class="area-bar">
+                <div class="area-bar-fill" style="width:${Number(pct) * 100}%;background:${AREA_FIELD_COLORS[area] || "#8B877E"}"></div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    function computeAreaFieldPositions(items, maxSize) {
+      const xs = items.map(item => Number(item.x));
+      const ys = items.map(item => Number(item.y));
+      const minX = Math.min(...xs);
+      const maxX = Math.max(...xs);
+      const minY = Math.min(...ys);
+      const maxY = Math.max(...ys);
+      const spanX = Math.max(maxX - minX, 0.000001);
+      const spanY = Math.max(maxY - minY, 0.000001);
+      const centerX = (minX + maxX) / 2;
+      const centerY = (minY + maxY) / 2;
+
+      const positioned = items.map(item => {
+        let x = 0;
+        let y = 0;
+        let total = 0;
+
+        for (const [area, pole] of Object.entries(AREA_POLES)) {
+          const weight = areaShare(item, area);
+          x += pole.x * weight;
+          y += pole.y * weight;
+          total += weight;
+        }
+
+        if (total > 0) {
+          x /= total;
+          y /= total;
+        }
+
+        // Small semantic displacement: preserves distinctions inside similar mixes.
+        x += ((Number(item.x) - centerX) / spanX) * 0.9;
+        y += ((Number(item.y) - centerY) / spanY) * 0.7;
+
+        return {
+          item,
+          x,
+          y,
+          anchorX: x,
+          anchorY: y,
+          radius: 0.20 + Math.sqrt(Number(item.size || 0) / maxSize) * 0.38
+        };
+      });
+
+      for (let iteration = 0; iteration < 190; iteration += 1) {
+        for (let i = 0; i < positioned.length; i += 1) {
+          for (let j = i + 1; j < positioned.length; j += 1) {
+            const a = positioned[i];
+            const b = positioned[j];
+
+            let dx = b.x - a.x;
+            let dy = b.y - a.y;
+            let distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance < 0.0001) {
+              dx = 0.006 * (i + 1);
+              dy = 0.006 * (j + 1);
+              distance = Math.sqrt(dx * dx + dy * dy);
+            }
+
+            const required = a.radius + b.radius + 0.17;
+
+            if (distance < required) {
+              const movement = (required - distance) * 0.54;
+              const ux = dx / distance;
+              const uy = dy / distance;
+
+              a.x -= ux * movement;
+              a.y -= uy * movement;
+              b.x += ux * movement;
+              b.y += uy * movement;
+            }
+          }
+        }
+
+        for (const node of positioned) {
+          node.x += (node.anchorX - node.x) * 0.022;
+          node.y += (node.anchorY - node.y) * 0.022;
+        }
+      }
+
+      return positioned;
+    }
+
+    async function initMacroMap() {
+      if (macroLoaded || macroLoading) return;
+      macroLoading = true;
+
+      try {
+        const payload = await fetchAtlasPayload();
+        const macros = payload.macroclusters || [];
+        const micros = payload.microclusters || [];
+        const points = payload.points || [];
+
+        if (!macros.length || !micros.length || !points.length) {
+          throw new Error("El atlas no contiene todas sus capas visuales.");
+        }
+
+        macroItems = macros;
+        macroGraph = new Graph({ multi: false, type: "undirected" });
+
+        for (const [area, pole] of Object.entries(AREA_POLES)) {
+          macroGraph.addNode(`POLE::${area}`, {
+            x: pole.x,
+            y: pole.y,
+            size: 0.01,
+            color: "rgba(0,0,0,0)",
+            label: "",
+            nodeKind: "pole"
+          });
+        }
+
+        for (const point of points) {
+          const [thesisId, microId, macroId, x, y, area] = point;
+
+          macroGraph.addNode(`DOT::${thesisId}`, {
+            x: Number(x),
+            y: Number(y),
+            size: 0.55,
+            baseSize: 0.55,
+            color: atlasAreaColor(area, 0.10),
+            area,
+            thesisId,
+            microclusterId: Number(microId),
+            macroclusterId: Number(macroId),
+            nodeKind: "atlas_thesis",
+            label: ""
+          });
+        }
+
+        const maxMicro = Math.max(...micros.map(item => Number(item.size || 1)));
+
+        for (const item of micros) {
+          const size = 4.2 + Math.sqrt(Number(item.size || 1) / maxMicro) * 9.4;
+
+          macroGraph.addNode(`MICRO::${item.microcluster_id}`, {
+            x: Number(item.atlas_x),
+            y: Number(item.atlas_y),
+            size,
+            baseSize: size,
+            color: mixedAreaColor(item),
+            label: layerLabel(item, "microcluster"),
+            item,
+            macroclusterId: Number(item.macrocluster_id),
+            microclusterId: Number(item.microcluster_id),
+            nodeKind: "microcluster"
+          });
+        }
+
+        const maxMacro = Math.max(...macros.map(item => Number(item.size || 1)));
+
+        for (const item of macros) {
+          const size = 11 + Math.sqrt(Number(item.size || 1) / maxMacro) * 17;
+
+          macroGraph.addNode(`MACRO::${item.macrocluster_id}`, {
+            x: Number(item.atlas_x),
+            y: Number(item.atlas_y),
+            size,
+            baseSize: size,
+            color: mixedAreaColor(item),
+            label: shortMacroLabel(item),
+            item,
+            macroclusterId: Number(item.macrocluster_id),
+            nodeKind: "macrocluster"
+          });
+        }
+
+        macroRenderer = new Sigma(macroGraph, macroContainer, {
+          allowInvalidContainer: true,
+          zIndex: true,
+          labelFont: "Montserrat",
+          labelSize: 11,
+          labelWeight: "600",
+          labelColor: { color: "#24211d" },
+          minCameraRatio: 0.2,
+          maxCameraRatio: 10,
+          nodeReducer: (node, data) => {
+            const res = { ...data };
+            const hovered = node === macroHoveredNode;
+            const selected = node === macroSelectedNode;
+
+            if (data.nodeKind === "pole") {
+              res.label = "";
+              res.size = 0.01;
+              res.color = "rgba(0,0,0,0)";
+              return res;
+            }
+
+            if (data.nodeKind === "atlas_thesis") {
+              res.label = "";
+              res.zIndex = 0;
+
+              if (atlasLevel === "overview") {
+                res.size = 0.84;
+                res.color = atlasAreaColor(data.area, 0.10);
+              } else if (atlasLevel === "macro") {
+                const active = data.macroclusterId === atlasMacroId;
+                res.size = active ? 1.35 : 0.34;
+                res.color = atlasAreaColor(data.area, active ? 0.30 : 0.022);
+                res.zIndex = active ? 2 : 0;
+              } else {
+                const active = data.microclusterId === atlasMicroId;
+                const context = data.macroclusterId === atlasMacroId;
+
+                res.size = active ? (hovered ? 4.1 : 2.65) : (context ? 0.36 : 0.16);
+                res.color = atlasAreaColor(data.area, active ? 0.68 : (context ? 0.018 : 0.007));
+                res.zIndex = active ? 6 : 0;
+
+                if (active && hovered && data.detail) {
+                  res.label = String(data.detail.title || "").toUpperCase();
+                  res.forceLabel = true;
+                }
+              }
+
+              return res;
+            }
+
+            if (data.nodeKind === "microcluster") {
+              res.zIndex = 3;
+
+              if (atlasLevel === "overview") {
+                res.size = data.baseSize * (hovered ? 1.16 : 0.74);
+                res.label = hovered ? data.label : "";
+                res.forceLabel = hovered;
+              } else if (atlasLevel === "macro") {
+                const active = data.macroclusterId === atlasMacroId;
+                res.hidden = !active;
+
+                if (active) {
+                  res.size = data.baseSize * (selected ? 1.30 : 1.08);
+                  res.label = (hovered || selected) ? data.label : "";
+                  res.forceLabel = hovered || selected;
+                  res.zIndex = 6;
+                }
+              } else {
+                const active = data.microclusterId === atlasMicroId;
+                const context = data.macroclusterId === atlasMacroId;
+                res.hidden = !context;
+                res.size = active ? data.baseSize * 1.28 : data.baseSize * 0.34;
+                res.label = active ? data.label : "";
+                res.forceLabel = active;
+                res.zIndex = active ? 5 : 1;
+              }
+
+              return res;
+            }
+
+            if (data.nodeKind === "macrocluster") {
+              res.zIndex = 8;
+
+              if (atlasLevel === "overview") {
+                res.size = data.baseSize * (selected ? 1.20 : (hovered ? 1.12 : 1));
+                res.label = (hovered || selected) ? data.label : "";
+                res.forceLabel = hovered || selected;
+              } else {
+                const active = data.macroclusterId === atlasMacroId;
+                res.hidden = !active;
+
+                if (active) {
+                  res.size = data.baseSize * 0.76;
+                  res.label = data.label;
+                  res.forceLabel = true;
+                }
+              }
+            }
+
+            return res;
+          }
+        });
+
+        macroRenderer.getCamera().on("updated", syncDisciplineField);
+        window.addEventListener("resize", syncDisciplineField);
+
+        macroRenderer.on("enterNode", ({ node }) => {
+          const kind = macroGraph.getNodeAttribute(node, "nodeKind");
+          if (kind === "pole") return;
+
+          macroHoveredNode = node;
+          macroRenderer.refresh();
+        });
+
+        macroRenderer.on("leaveNode", () => {
+          macroHoveredNode = null;
+          macroRenderer.refresh();
+        });
+
+        macroRenderer.on("clickNode", async ({ node }) => {
+          const data = macroGraph.getNodeAttributes(node);
+
+          try {
+            if (data.nodeKind === "macrocluster") {
+              atlasFocusMacro(data.item);
+            } else if (data.nodeKind === "microcluster") {
+              if (atlasLevel === "overview") {
+                const parent = macros.find(
+                  item => Number(item.macrocluster_id) === Number(data.macroclusterId)
+                );
+                atlasFocusMacro(parent);
+              } else {
+                await atlasFocusMicro(data.item);
+              }
+            } else if (
+              data.nodeKind === "atlas_thesis" &&
+              atlasLevel === "micro" &&
+              data.microclusterId === atlasMicroId &&
+              data.detail
+            ) {
+              activeRepresentativeThesis = data.detail;
+              renderRepresentativeThesisPanel(data.detail);
+            }
+          } catch (err) {
+            macroPanel.innerHTML = `
+              <p class="eyebrow">Error</p>
+              <h1>No se pudo continuar</h1>
+              <p>${escapeHTML(err.message)}</p>
+            `;
+          }
+        });
+
+        macroLoaded = true;
+        atlasOverview();
+
+        requestAnimationFrame(() => {
+          macroRenderer.resize();
+          macroRenderer.refresh();
+          syncDisciplineField();
+          macroRenderer.getCamera().animatedReset({ duration: 500 });
+        });
+      } catch (err) {
+        macroPanel.innerHTML = `
+          <p class="eyebrow">Error</p>
+          <h1>No se pudo cargar el atlas</h1>
+          <p>${escapeHTML(err.message)}</p>
+        `;
+      } finally {
+        macroLoading = false;
+      }
+    }
+
+
+    macroPanel.addEventListener("click", async event => {
+      const atlasButton = event.target.closest("[data-atlas-action]");
+      if (atlasButton) {
+        if (atlasButton.dataset.atlasAction === "overview") {
+          atlasOverview(activeMacroItem);
+        } else if (atlasButton.dataset.atlasAction === "macro" && activeMacroItem) {
+          atlasFocusMacro(activeMacroItem);
+        }
+        return;
+      }
+
+      const button = event.target.closest("[data-action]");
+      if (!button) return;
+
+      try {
+        if (button.dataset.action === "open-neighborhood" && activeRepresentativeThesis) {
+          await openThesisNeighborhood(activeRepresentativeThesis);
+        }
+      } catch (err) {
+        macroPanel.innerHTML = `
+          <p class="eyebrow">Error</p>
+          <h1>No se pudo continuar</h1>
+          <p>${escapeHTML(err.message)}</p>
+          <div class="drill-actions">
+            <button class="drill-btn" type="button" data-atlas-action="overview">
+              Volver al atlas
+            </button>
+          </div>
+        `;
+      }
+    });
+
     async function loadGraphPayload() {
-      let res = await fetch("/outputs/graph_neighborhood.json");
-      if (!res.ok) res = await fetch("/static/graph_neighborhood.json");
-      if (!res.ok) throw new Error("No se pudo cargar graph_neighborhood.json");
-      return await res.json();
+      const routes = [
+        "/graph_neighborhood.json",
+        "/static/graph_neighborhood.json",
+        "/outputs/graph_neighborhood.json"
+      ];
+
+      for (const route of routes) {
+        const res = await fetch(route);
+        if (res.ok) return await res.json();
+      }
+
+      throw new Error("No se pudo cargar graph_neighborhood.json");
     }
 
     function escapeHTML(value) {
@@ -1010,6 +2603,36 @@
 
     function renderPanel(attrs) {
       if (!attrs || attrs.nodeKind === "halo" || attrs.nodeKind === "group") return;
+
+      if (attrs.nodeKind === "project" && attrs.center_kind === "thesis") {
+        panel.innerHTML = `
+          <p class="eyebrow">Tesis central</p>
+          <h1 class="thesis-title">${escapeHTML(attrs.displayLabel || attrs.title)}</h1>
+          <div class="meta-grid">
+            <div class="meta-item">
+              <span class="meta-label">Autor</span>
+              <span class="meta-value">${escapeHTML(String(attrs.author || "—").toUpperCase())}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Programa</span>
+              <span class="meta-value">${escapeHTML(attrs.program || "—")}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Año</span>
+              <span class="meta-value">${escapeHTML(attrs.year || "S/F")}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Plantel</span>
+              <span class="meta-value">${escapeHTML(attrs.plantel || "—")}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Área</span>
+              <span class="meta-value">${escapeHTML(attrs.area || "—")}</span>
+            </div>
+          </div>
+        `;
+        return;
+      }
 
       if (attrs.nodeKind === "project") {
         panel.innerHTML = `
@@ -1396,3 +3019,7 @@
   </script>
 </body>
 </html>
+
+<style>
+  .explore-map-view .macro-caption { display: none; }
+</style>

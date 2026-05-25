@@ -1,0 +1,1894 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 24,
+    "macro_label": "AGUA · MEXICO · CIUDAD · AGUAS",
+    "size": 391,
+    "microcluster_count": 6,
+    "microclusters": [
+      {
+        "microcluster_id": 200,
+        "macrocluster_id": 24,
+        "micro_label": "POTABLE · AGUA POTABLE · ABASTECIMIENTO · ABASTECIMIENTO AGUA",
+        "size": 122,
+        "x": 3.342214,
+        "y": 3.02437,
+        "year_min": 1936,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "potable",
+            "score": 0.077573
+          },
+          {
+            "term": "agua potable",
+            "score": 0.077573
+          },
+          {
+            "term": "abastecimiento",
+            "score": 0.067155
+          },
+          {
+            "term": "abastecimiento agua",
+            "score": 0.058443
+          },
+          {
+            "term": "proyecto",
+            "score": 0.046201
+          },
+          {
+            "term": "aguas",
+            "score": 0.043093
+          },
+          {
+            "term": "ciudad",
+            "score": 0.040495
+          },
+          {
+            "term": "analisis",
+            "score": 0.028684
+          },
+          {
+            "term": "propuesta",
+            "score": 0.02855
+          },
+          {
+            "term": "proyecto abastecimiento",
+            "score": 0.025963
+          },
+          {
+            "term": "sistema",
+            "score": 0.025006
+          },
+          {
+            "term": "uso",
+            "score": 0.024484
+          },
+          {
+            "term": "obras",
+            "score": 0.022986
+          },
+          {
+            "term": "federal",
+            "score": 0.022197
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria civil",
+            "count": 48
+          },
+          {
+            "label": "derecho",
+            "count": 14
+          },
+          {
+            "label": "economia",
+            "count": 7
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 4
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 4
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 3
+          },
+          {
+            "label": "contaduria",
+            "count": 3
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 68
+          },
+          {
+            "label": "Area 3",
+            "count": 38
+          },
+          {
+            "label": "Area 2",
+            "count": 13
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 101
+          },
+          {
+            "label": "Maestría",
+            "count": 15
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 103
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 3
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 2
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "centro de estudios universitarios (mexico). escuela de derecho, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.557377,
+          "Area 2": 0.106557,
+          "Area 3": 0.311475,
+          "Area 4": 0.02459,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 68,
+            "pct": 0.557377
+          },
+          {
+            "area": "Area 3",
+            "count": 38,
+            "pct": 0.311475
+          },
+          {
+            "area": "Area 2",
+            "count": 13,
+            "pct": 0.106557
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.02459
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0067147",
+            "doc_number_url": null,
+            "title": "proyecto de abastecimiento de agua potable para la ciudad de piedras negras, coahuila",
+            "program": "ingenieria civil",
+            "year": 1937,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Oliveros Garduño, Raul",
+            "advisor": "",
+            "x": 3.346459,
+            "y": 3.025174,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0069305",
+            "doc_number_url": "000125628",
+            "title": "[proyecto de las obras de abastecimiento de agua potable para la ciudad de tepatitlan, jalisco]",
+            "program": "ingenieria civil",
+            "year": 1941,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Canales Moya, Horacio",
+            "advisor": "",
+            "x": 3.348594,
+            "y": 3.019725,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0079292",
+            "doc_number_url": "000122064",
+            "title": "proyecto de abastecimiento de agua potable y alcantarillado para la ciudad de magdalena, sonora",
+            "program": "ingenieria civil",
+            "year": 1953,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Romo Caballero, Carlos",
+            "advisor": "",
+            "x": 3.331941,
+            "y": 3.010738,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0023549",
+            "doc_number_url": "000301403",
+            "title": "propuesta de planta de tratamiento a base de lagunas de estabilizacion para la comunidad de nuevo san juan parangaricutiro",
+            "program": "ingenieria civil",
+            "year": 2002,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad don vasco uruapan",
+            "author": "Angeles Maldonado, Abraham",
+            "advisor": "Blanco Simiano, Anastacio",
+            "x": 3.36056,
+            "y": 3.024723,
+            "cluster_strength": 0.733583
+          },
+          {
+            "thesis_id": "TH_0080057",
+            "doc_number_url": "000122187",
+            "title": "proyecto de alcantarillado para la ciudad de san luis rio colorado, sonora",
+            "program": "ingenieria civil",
+            "year": 1954,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Sanchez-Navarro Urdaneta, Fernando",
+            "advisor": "",
+            "x": 3.35637,
+            "y": 3.005747,
+            "cluster_strength": 0.693537
+          },
+          {
+            "thesis_id": "TH_0492565",
+            "doc_number_url": "000776561",
+            "title": "el servicio urbano y la gestión del agua potable en iztapalapa",
+            "program": "urbanismo",
+            "year": 2018,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Alcántara Velázquez, Karina",
+            "advisor": "Albino Gervacio, Felipe",
+            "x": 3.319194,
+            "y": 3.028575,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0284434",
+            "doc_number_url": "000265492",
+            "title": "la concesion de los servicios públicos de agua potable y recoleccion de basura",
+            "program": "derecho",
+            "year": 1998,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Mora Gallegos, Francisco Salvador",
+            "advisor": "Martinez Morales, Rafael Isidro",
+            "x": 3.363064,
+            "y": 3.003487,
+            "cluster_strength": 0.683805
+          },
+          {
+            "thesis_id": "TH_0243897",
+            "doc_number_url": "000215217",
+            "title": "estudio hidrodinamico de la agresividad del agua de la ciudad universitaria",
+            "program": "ingenieria quimica",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Muñoz Ramirez, Gerardo",
+            "advisor": "Perez López, Tezozomoc",
+            "x": 3.342505,
+            "y": 3.056888,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 201,
+        "macrocluster_id": 24,
+        "micro_label": "AGUAS · AGUA · TRATAMIENTO · RESIDUALES",
+        "size": 61,
+        "x": 3.768819,
+        "y": 2.71947,
+        "year_min": 1906,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "aguas",
+            "score": 0.12899
+          },
+          {
+            "term": "agua",
+            "score": 0.122297
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.114979
+          },
+          {
+            "term": "residuales",
+            "score": 0.10255
+          },
+          {
+            "term": "aguas residuales",
+            "score": 0.10255
+          },
+          {
+            "term": "tratamiento aguas",
+            "score": 0.098715
+          },
+          {
+            "term": "planta",
+            "score": 0.076435
+          },
+          {
+            "term": "estudio",
+            "score": 0.060041
+          },
+          {
+            "term": "planta tratamiento",
+            "score": 0.052982
+          },
+          {
+            "term": "sistema",
+            "score": 0.04353
+          },
+          {
+            "term": "residual",
+            "score": 0.04268
+          },
+          {
+            "term": "agua residual",
+            "score": 0.04268
+          },
+          {
+            "term": "calidad",
+            "score": 0.040372
+          },
+          {
+            "term": "negras",
+            "score": 0.034031
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria civil",
+            "count": 22
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 17
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 4
+          },
+          {
+            "label": "ambiental",
+            "count": 3
+          },
+          {
+            "label": "arquitectura",
+            "count": 2
+          },
+          {
+            "label": "ingenieria",
+            "count": 1
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 1
+          },
+          {
+            "label": "dise o industrial",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 39
+          },
+          {
+            "label": "Area 2",
+            "count": 22
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 53
+          },
+          {
+            "label": "Maestría",
+            "count": 7
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 58
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.639344,
+          "Area 2": 0.360656,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 39,
+            "pct": 0.639344
+          },
+          {
+            "area": "Area 2",
+            "count": 22,
+            "pct": 0.360656
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0165925",
+            "doc_number_url": "000024624",
+            "title": "procesos de tratamiento de aguas a base de lodos activados",
+            "program": "ingenieria civil",
+            "year": 1983,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Sandoval Gomez, Carlos",
+            "advisor": "Ruiz Arriaga, Fernando",
+            "x": 3.765402,
+            "y": 2.714644,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0468984",
+            "doc_number_url": "000744743",
+            "title": "propuesta de un tren de tratamiento para la disminución de dureza total como sales disueltas en un agua de tipo congénita",
+            "program": "ingenieria quimica",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Gregorio Valencia, Eduardo",
+            "advisor": "Gutiérrez Lara, María Rafaela",
+            "x": 3.772571,
+            "y": 2.713213,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0244364",
+            "doc_number_url": "000207688",
+            "title": "estudio del comportamiento hidrodinamico de emnbalses y su efecto en la calidad del agua",
+            "program": "ingenieria mecanica electrica",
+            "year": 1994,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Padilla Barbosa, Judith",
+            "advisor": "Rodríguez Valdés, Alejandro",
+            "x": 3.778627,
+            "y": 2.729795,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0319875",
+            "doc_number_url": "000606712",
+            "title": "tratamiento de agua residual municipal por el metodo lagunar : estudio de un caso",
+            "program": "ingenieria civil",
+            "year": 2006,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Gutierrez Paz, Victor Manuel",
+            "advisor": "Martínez Jurado, Oscar Enrique",
+            "x": 3.791878,
+            "y": 2.721608,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0427827",
+            "doc_number_url": "000694501",
+            "title": "desarrollo del sistema de gestión de calidad para una planta potabilizadora de agua residual",
+            "program": "ingenieria quimica",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "López Negrete, Livier",
+            "advisor": "Guzmán Gómez, Alejandro",
+            "x": 3.767921,
+            "y": 2.747066,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0061952",
+            "doc_number_url": "000222132",
+            "title": "breve estudio sobre las inyecciones de agua salada",
+            "program": "medico cirujano",
+            "year": 1906,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Amor, José L.",
+            "advisor": "",
+            "x": 3.738031,
+            "y": 2.728128,
+            "cluster_strength": 0.980387
+          },
+          {
+            "thesis_id": "TH_0430288",
+            "doc_number_url": "000701666",
+            "title": "desarrollo e implementación de sensores por software para procesos de tratamiento de aguas",
+            "program": "ambiental",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Oviedo Santana, Julián David",
+            "advisor": "Vargas Casillas, Alejandro",
+            "x": 3.740134,
+            "y": 2.696538,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0058151",
+            "doc_number_url": "000327617",
+            "title": "diseño de un sistema de tratamiento de aguas residuales para la escuela nacional de estudios profesionales aragon, empleando eco tecnologias : (humedales artificiales)",
+            "program": "ingenieria civil",
+            "year": 2004,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Márquez Vázquez, Marjiorie",
+            "advisor": "Martinez Gonzalez, Sergio Alfonso",
+            "x": 3.731708,
+            "y": 2.717341,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 199,
+        "macrocluster_id": 24,
+        "micro_label": "CIUDAD · CIUDAD MEXICO · RIO · ANALISIS",
+        "size": 58,
+        "x": 2.960459,
+        "y": 3.439537,
+        "year_min": 1930,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "ciudad",
+            "score": 0.092101
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.085037
+          },
+          {
+            "term": "rio",
+            "score": 0.060043
+          },
+          {
+            "term": "analisis",
+            "score": 0.051189
+          },
+          {
+            "term": "potable",
+            "score": 0.044228
+          },
+          {
+            "term": "agua potable",
+            "score": 0.044228
+          },
+          {
+            "term": "veracruz",
+            "score": 0.043768
+          },
+          {
+            "term": "estado",
+            "score": 0.039201
+          },
+          {
+            "term": "sistema",
+            "score": 0.037182
+          },
+          {
+            "term": "caso",
+            "score": 0.037051
+          },
+          {
+            "term": "zona",
+            "score": 0.035688
+          },
+          {
+            "term": "calidad",
+            "score": 0.034476
+          },
+          {
+            "term": "potable ciudad",
+            "score": 0.029579
+          },
+          {
+            "term": "estado mexico",
+            "score": 0.029149
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria civil",
+            "count": 16
+          },
+          {
+            "label": "geografia",
+            "count": 8
+          },
+          {
+            "label": "economia",
+            "count": 4
+          },
+          {
+            "label": "arquitectura",
+            "count": 3
+          },
+          {
+            "label": "ciencias de la tierra",
+            "count": 3
+          },
+          {
+            "label": "ambiental",
+            "count": 2
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 2
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 33
+          },
+          {
+            "label": "Area 3",
+            "count": 14
+          },
+          {
+            "label": "Area 4",
+            "count": 8
+          },
+          {
+            "label": "Area 2",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 36
+          },
+          {
+            "label": "Maestría",
+            "count": 17
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 55
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias políticas y sociales",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ingeniería",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.568966,
+          "Area 2": 0.051724,
+          "Area 3": 0.241379,
+          "Area 4": 0.137931,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 33,
+            "pct": 0.568966
+          },
+          {
+            "area": "Area 3",
+            "count": 14,
+            "pct": 0.241379
+          },
+          {
+            "area": "Area 4",
+            "count": 8,
+            "pct": 0.137931
+          },
+          {
+            "area": "Area 2",
+            "count": 3,
+            "pct": 0.051724
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0482916",
+            "doc_number_url": "000767320",
+            "title": "evaluación de la susceptibilidad de deslizamientos en el río el estado, puebla-veracruz, méxico",
+            "program": "geografia",
+            "year": 2017,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Gómez Piña, Víctor Manuel",
+            "advisor": "Legorreta Paulin, Gabriel",
+            "x": 2.959561,
+            "y": 3.446546,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0109514",
+            "doc_number_url": "000131290",
+            "title": "analisis de costos de las alternativas de diseño de la red de distribucion de agua de la ciudad de mexico",
+            "program": "ingenieria civil",
+            "year": 1971,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Escobar Zuñiga, Guillermo",
+            "advisor": "Bonilla Dominguez, Ubaldo",
+            "x": 2.973197,
+            "y": 3.431319,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0236503",
+            "doc_number_url": "000190097",
+            "title": "regulacion economica del agua en mexico",
+            "program": "economia",
+            "year": 1993,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Silva Gomez, Emigdio",
+            "advisor": "Aranda Izquerra, Carlos Jose",
+            "x": 2.973259,
+            "y": 3.452327,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0320839",
+            "doc_number_url": "000603154",
+            "title": "servicios ecosistemicos relacionados con el recurso agua en la cuenca del rio magdalena, distrito federal, mexico",
+            "program": "ciencias biologicas",
+            "year": 2006,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Jujnovsky Orlandini, Julieta",
+            "advisor": "Almeida Leñero, Lucia",
+            "x": 2.982556,
+            "y": 3.442015,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0395998",
+            "doc_number_url": "000659710",
+            "title": "financiamiento de acciones de incremento de eficiencia para una mejor prestación de los servicios de agua potable y saneamiento en méxico",
+            "program": "ingenieria civil",
+            "year": 2010,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Zamora Plascencia, Viridiana",
+            "advisor": "Peña Ramos, María Eugenia de la",
+            "x": 2.952883,
+            "y": 3.417624,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0541843",
+            "doc_number_url": null,
+            "title": "innovación social e infraestructura hídrica en el acceso al agua de una comunidad rural de méxico",
+            "program": "geografia",
+            "year": 2023,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Arreola García, Guadalupe",
+            "advisor": "Paneque Gálvez, Jaime",
+            "x": 2.976996,
+            "y": 3.457305,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0117067",
+            "doc_number_url": "000127457",
+            "title": "programas de diseño y costos de la red de abastecimiento de agua de la ciudad de mexico",
+            "program": "ingenieria civil",
+            "year": 1973,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Buenfil Rodriguez, Oscar Mario",
+            "advisor": "",
+            "x": 2.944898,
+            "y": 3.459715,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0535455",
+            "doc_number_url": "000825621",
+            "title": "\"dispositivos de control de presión en la red secundaria de agua potable en la ciudad de méxico\"",
+            "program": "ingenieria civil",
+            "year": 2022,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Medina Peña, Hazel",
+            "advisor": "Ortega Mondragón, José",
+            "x": 2.970052,
+            "y": 3.46419,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 183,
+        "macrocluster_id": 24,
+        "micro_label": "CIUDAD · CIUDAD MEXICO · PRECIPITACION · ZONA",
+        "size": 55,
+        "x": 2.614132,
+        "y": 3.451181,
+        "year_min": 1933,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "ciudad",
+            "score": 0.126788
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.121062
+          },
+          {
+            "term": "precipitacion",
+            "score": 0.074398
+          },
+          {
+            "term": "zona",
+            "score": 0.070147
+          },
+          {
+            "term": "estudio",
+            "score": 0.056214
+          },
+          {
+            "term": "analisis",
+            "score": 0.05559
+          },
+          {
+            "term": "metropolitana",
+            "score": 0.05044
+          },
+          {
+            "term": "contaminacion",
+            "score": 0.048225
+          },
+          {
+            "term": "zona metropolitana",
+            "score": 0.046178
+          },
+          {
+            "term": "estado",
+            "score": 0.046165
+          },
+          {
+            "term": "metropolitana ciudad",
+            "score": 0.043073
+          },
+          {
+            "term": "aire",
+            "score": 0.042853
+          },
+          {
+            "term": "modelo",
+            "score": 0.042727
+          },
+          {
+            "term": "veracruz",
+            "score": 0.033066
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ciencias de la tierra",
+            "count": 15
+          },
+          {
+            "label": "geografia",
+            "count": 6
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 3
+          },
+          {
+            "label": "quimica",
+            "count": 3
+          },
+          {
+            "label": "ambiental",
+            "count": 2
+          },
+          {
+            "label": "ingenieria",
+            "count": 2
+          },
+          {
+            "label": "biologia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 36
+          },
+          {
+            "label": "Area 2",
+            "count": 12
+          },
+          {
+            "label": "Area 4",
+            "count": 6
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 30
+          },
+          {
+            "label": "Maestría",
+            "count": 20
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 51
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de filosofia y letras institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de química",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ingeniería",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.654545,
+          "Area 2": 0.218182,
+          "Area 3": 0.018182,
+          "Area 4": 0.109091,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 36,
+            "pct": 0.654545
+          },
+          {
+            "area": "Area 2",
+            "count": 12,
+            "pct": 0.218182
+          },
+          {
+            "area": "Area 4",
+            "count": 6,
+            "pct": 0.109091
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.018182
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0219969",
+            "doc_number_url": "000182135",
+            "title": "estudio sobre los factores fisicos utilizados en los modelos matematicos de dispersion atmosferica hotmac y raptad, para su uso en la zona metropolitana de la ciudad de mexico",
+            "program": "ingenieria quimica",
+            "year": 1992,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Carbajal Sanchez, Cecilia",
+            "advisor": "Aguirre Saldivar, Rina Guadalupe",
+            "x": 2.610518,
+            "y": 3.480692,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0506761",
+            "doc_number_url": "000773147",
+            "title": "diagónstico de las ondas de calor durante el periodo de 1980-2014 en yucatán, méxico",
+            "program": "ingenieria civil",
+            "year": 2018,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Zamora Salvador, José Alberto",
+            "advisor": "Cerezo Mota, Ruth",
+            "x": 2.579507,
+            "y": 3.485619,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0495224",
+            "doc_number_url": "000780151",
+            "title": "el efecto de las partículas contaminantes pm2.5 de la ciudad de méxico en la diferenciación de monocitos humanos en un modelo in vitro",
+            "program": "biologia",
+            "year": 2018,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Cruz Flores, José Francisco",
+            "advisor": "Torres Rojas, Martha",
+            "x": 2.568774,
+            "y": 3.419974,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0385305",
+            "doc_number_url": "000662633",
+            "title": "remoción de contaminantes emergentes en los sistemas de potabilización de la ciudad de méxico",
+            "program": "ambiental",
+            "year": 2010,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Félix Cañedo, Thania Eloina",
+            "advisor": "Jiménez Cisneros, Blanca E. (Blanca Elena)",
+            "x": 2.566894,
+            "y": 3.405437,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0209505",
+            "doc_number_url": "000120446",
+            "title": "un modelo de simulacion de la marcha diaria del confort higrotermico en el estado de veracruz",
+            "program": "geofisica",
+            "year": 1990,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Tejeda Martínez, Adalberto",
+            "advisor": "Morales Acoltzi, Tomás",
+            "x": 2.547927,
+            "y": 3.434145,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0558159",
+            "doc_number_url": "000863292",
+            "title": "climatología, variabilidad, tendencias y eventos extremos de la temperatura en la zona metropolitana del valle de méxico durante el periodo 1961-2021",
+            "program": "ingenieria geomatica",
+            "year": 2024,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Durango Mendoza, Fernando Alexis",
+            "advisor": "Osorio Tai, María Elena",
+            "x": 2.641633,
+            "y": 3.514581,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0358483",
+            "doc_number_url": "000651817",
+            "title": "características y tendencias de la composición química de la lluvia en la zona metropolitana de la ciudad de méxico de 1994 al 2000",
+            "program": "quimica",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Flores Sánchez, Alfredo Antelmo",
+            "advisor": "García Martínez, Rocío",
+            "x": 2.662922,
+            "y": 3.502357,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0481819",
+            "doc_number_url": "000764859",
+            "title": "influencia del cambio de la cobertura de suelo urbano en la meteorología de la ciudad de méxico",
+            "program": "ciencias de la tierra",
+            "year": 2017,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Fernández Valdés, Ana Carla",
+            "advisor": "Jazcilevich Diamant, Arón",
+            "x": 2.543812,
+            "y": 3.489461,
+            "cluster_strength": 0.967803
+          }
+        ]
+      },
+      {
+        "microcluster_id": 82,
+        "macrocluster_id": 24,
+        "micro_label": "AMBIENTAL · MEDIO · AMBIENTE · MEDIO AMBIENTE",
+        "size": 50,
+        "x": 2.088902,
+        "y": 2.872642,
+        "year_min": 1975,
+        "year_max": 2023,
+        "top_terms": [
+          {
+            "term": "ambiental",
+            "score": 0.121207
+          },
+          {
+            "term": "medio",
+            "score": 0.094716
+          },
+          {
+            "term": "ambiente",
+            "score": 0.086214
+          },
+          {
+            "term": "medio ambiente",
+            "score": 0.081624
+          },
+          {
+            "term": "politica",
+            "score": 0.051294
+          },
+          {
+            "term": "responsabilidad",
+            "score": 0.050378
+          },
+          {
+            "term": "contaminacion",
+            "score": 0.049273
+          },
+          {
+            "term": "impacto",
+            "score": 0.048826
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.044504
+          },
+          {
+            "term": "estado",
+            "score": 0.042102
+          },
+          {
+            "term": "ambientales",
+            "score": 0.038108
+          },
+          {
+            "term": "sustentable",
+            "score": 0.037973
+          },
+          {
+            "term": "analisis",
+            "score": 0.035751
+          },
+          {
+            "term": "materia",
+            "score": 0.035316
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 17
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 4
+          },
+          {
+            "label": "biologia",
+            "count": 4
+          },
+          {
+            "label": "periodismo",
+            "count": 3
+          },
+          {
+            "label": "administracion",
+            "count": 3
+          },
+          {
+            "label": "sociologia",
+            "count": 2
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 2
+          },
+          {
+            "label": "dise o grafico",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 31
+          },
+          {
+            "label": "Area 2",
+            "count": 12
+          },
+          {
+            "label": "Area 1",
+            "count": 4
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 44
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 44
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de derecho",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biológicas",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de derecho institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.08,
+          "Area 2": 0.24,
+          "Area 3": 0.62,
+          "Area 4": 0.06,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 31,
+            "pct": 0.62
+          },
+          {
+            "area": "Area 2",
+            "count": 12,
+            "pct": 0.24
+          },
+          {
+            "area": "Area 1",
+            "count": 4,
+            "pct": 0.08
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.06
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0253466",
+            "doc_number_url": "000230671",
+            "title": "riesgos ambientales y profesionales",
+            "program": "cirujano dentista",
+            "year": 1995,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Mancilla Cortés, Maria del Rocio",
+            "advisor": "Romero Grande, Gastón",
+            "x": 2.096047,
+            "y": 2.849772,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0499535",
+            "doc_number_url": "000775941",
+            "title": "la consolidación de la responsabilidad ambiental a nivel nacional e internacional",
+            "program": "derecho",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "López Sánchez, Ángeles Matilde",
+            "advisor": "Rabago Murcio, María Martha del Pilar",
+            "x": 2.081102,
+            "y": 2.897887,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0552240",
+            "doc_number_url": null,
+            "title": "\"análisis del programa presupuestal g003 regulación ambiental en la sgpa",
+            "program": "administracion",
+            "year": 2023,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Rosas Ávalos, Mónica",
+            "advisor": "Matías Armas, Carlos",
+            "x": 2.082845,
+            "y": 2.921892,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0350187",
+            "doc_number_url": "000637620",
+            "title": "hábitos para el consumo sustentanble, un compromiso con el medio ambiente",
+            "program": "biologia",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Ocaña Hernández, Aurora",
+            "advisor": "Heres Pulido, Maria Eugenia ; Cuevas Lucero, Vanny",
+            "x": 2.062629,
+            "y": 2.823153,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0434254",
+            "doc_number_url": "000701093",
+            "title": "la restauración ecológica y su circunstancia política y económica global : un ensayo crítico",
+            "program": "ciencias biologicas",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "unam",
+            "author": "Vega Marrot, Jorge Enrique",
+            "advisor": "García Barrios, Raúl ; Castillo, Alicia ; Masera Cerutti, Omar",
+            "x": 2.065495,
+            "y": 2.929127,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0288357",
+            "doc_number_url": "000259974",
+            "title": "la responsabilidad civil por contaminacion ambiental",
+            "program": "derecho",
+            "year": 1998,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Urdapilleta Ramos, José Francisco",
+            "advisor": "Flores Tavares, Jesús",
+            "x": 2.137275,
+            "y": 2.915486,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0440292",
+            "doc_number_url": "000721064",
+            "title": "sistema de línea de mando para la organización de personal de la procuraduría federal de protección al ambiente",
+            "program": "ingenieria en computacion",
+            "year": 2014,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Guevara López, Lenin",
+            "advisor": "Rodríguez Chávez, Rosalba",
+            "x": 2.041639,
+            "y": 2.923672,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0405740",
+            "doc_number_url": "000673235",
+            "title": "diseño de una propuesta para realizar una evaluación ambiental del estatus que presentan las barrancas del distrito federal como apoyo para la gestión de la procuraduría ambiental y del ordenamiento territorial del distrito federal en materia de protección ambiental y del ordenamiento territorial del distrito federal en materia de protección ambiental",
+            "program": "quimica",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Salazar Rangel, Guadalupe",
+            "advisor": "Ruíz Loyola, Benjamín",
+            "x": 2.125218,
+            "y": 2.936311,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 166,
+        "macrocluster_id": 24,
+        "micro_label": "CONSERVACION · AMBIENTAL · DIAGNOSTICO · MEXICO",
+        "size": 45,
+        "x": 3.130207,
+        "y": 3.417173,
+        "year_min": 1983,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "conservacion",
+            "score": 0.084038
+          },
+          {
+            "term": "ambiental",
+            "score": 0.07225
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.068738
+          },
+          {
+            "term": "mexico",
+            "score": 0.066723
+          },
+          {
+            "term": "diagnostico ambiental",
+            "score": 0.06564
+          },
+          {
+            "term": "suelo",
+            "score": 0.057907
+          },
+          {
+            "term": "municipio",
+            "score": 0.051863
+          },
+          {
+            "term": "san",
+            "score": 0.045509
+          },
+          {
+            "term": "estado",
+            "score": 0.044644
+          },
+          {
+            "term": "bosque",
+            "score": 0.040925
+          },
+          {
+            "term": "forestales",
+            "score": 0.040681
+          },
+          {
+            "term": "uso",
+            "score": 0.038633
+          },
+          {
+            "term": "oaxaca",
+            "score": 0.036909
+          },
+          {
+            "term": "analisis",
+            "score": 0.036084
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "biologia",
+            "count": 17
+          },
+          {
+            "label": "geografia",
+            "count": 10
+          },
+          {
+            "label": "economia",
+            "count": 3
+          },
+          {
+            "label": "arquitectura",
+            "count": 3
+          },
+          {
+            "label": "ingenieria agricola",
+            "count": 2
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 2
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 1
+          },
+          {
+            "label": "filosofia de la ciencia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 19
+          },
+          {
+            "label": "Area 1",
+            "count": 11
+          },
+          {
+            "label": "Area 4",
+            "count": 11
+          },
+          {
+            "label": "Area 3",
+            "count": 4
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 32
+          },
+          {
+            "label": "Maestría",
+            "count": 11
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 44
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.244444,
+          "Area 2": 0.422222,
+          "Area 3": 0.088889,
+          "Area 4": 0.244444,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 19,
+            "pct": 0.422222
+          },
+          {
+            "area": "Area 1",
+            "count": 11,
+            "pct": 0.244444
+          },
+          {
+            "area": "Area 4",
+            "count": 11,
+            "pct": 0.244444
+          },
+          {
+            "area": "Area 3",
+            "count": 4,
+            "pct": 0.088889
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0299192",
+            "doc_number_url": "000329498",
+            "title": "deterioro ambiental en el parque nacional desierto de lo leones, d.f",
+            "program": "biologia",
+            "year": 2004,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Torres Araujo, Sara",
+            "advisor": "Garcia Aguirre, Maria Concepcion",
+            "x": 3.200913,
+            "y": 3.415601,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0277332",
+            "doc_number_url": "000261819",
+            "title": "evaluacion de las tierras para determinar el uso potencial agropecuario y forestal de quechulac, puebla",
+            "program": "biologia",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Alfaro Camacho, Margarito",
+            "advisor": "Zulbaran Rosales, Ruben",
+            "x": 3.091095,
+            "y": 3.47632,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0367859",
+            "doc_number_url": "000795012",
+            "title": "impacto del tipo de uso y cobertura vegetal sobre la calidad del suelo de una región semiárida del estado de puebla, méx",
+            "program": "biologia",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Alonso Calderón, Alexis Stefan",
+            "advisor": "Muñoz Iniestra, Daniel Jesús",
+            "x": 3.197,
+            "y": 3.534063,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0450178",
+            "doc_number_url": "000730328",
+            "title": "análisis, de las comunidades vegetales de atlautla, estado de méxico y su relación con las formas de propiedad y su uso de suelo",
+            "program": "biologia",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Ayala Anaya, Oziel",
+            "advisor": "Méndez Méndez, Alberto",
+            "x": 2.999994,
+            "y": 3.352997,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0471307",
+            "doc_number_url": "000742657",
+            "title": "proyecto de conservación grutas cerro chango, oaxaca",
+            "program": "biologia",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Martínez Cano, Edgar",
+            "advisor": "López Villafranco, María Edith ; Moreno Colín, Roberto ; Espinosa Ávila, Leticia ; Cuevas Lucero, Vanny ; Sánchez Fabila, Gabriela",
+            "x": 3.045202,
+            "y": 3.543738,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0554200",
+            "doc_number_url": "000837158",
+            "title": "estimación robusta del cambio de cobertura forestal : aplicación al monitoreo de la deforestación a dos escalas en la selva lacandona, chiapas",
+            "program": "geografia",
+            "year": 2023,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Vela López, María del Carmen",
+            "advisor": "Couturier, Stéphane Robert André",
+            "x": 3.219706,
+            "y": 3.540958,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0318323",
+            "doc_number_url": "000610212",
+            "title": "diagnostico ambiental en la localida de chachalacas, veracruz",
+            "program": "biologia",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Fernandez Perez, Laura",
+            "advisor": "Franco López, Jonathan",
+            "x": 2.895817,
+            "y": 3.421094,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0299165",
+            "doc_number_url": "000601168",
+            "title": "diagnosticos ambientales de xcacelxcacelito municipio de solidaridad quintana roo mexico",
+            "program": "biologia",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Tolentino Delgadillo, Samuel",
+            "advisor": "Franco López, Jonathan",
+            "x": 2.897718,
+            "y": 3.451271,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

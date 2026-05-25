@@ -1,0 +1,6210 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 1,
+    "macro_label": "FEDERAL · DERECHO · DISTRITO · ANALISIS",
+    "size": 2489,
+    "microcluster_count": 20,
+    "microclusters": [
+      {
+        "microcluster_id": 113,
+        "macrocluster_id": 1,
+        "micro_label": "TRABAJO · LABORAL · TRABAJADORES · LEY",
+        "size": 454,
+        "x": -0.706029,
+        "y": -0.801045,
+        "year_min": 1892,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "trabajo",
+            "score": 0.071093
+          },
+          {
+            "term": "laboral",
+            "score": 0.056207
+          },
+          {
+            "term": "trabajadores",
+            "score": 0.051256
+          },
+          {
+            "term": "ley",
+            "score": 0.040218
+          },
+          {
+            "term": "federal",
+            "score": 0.039554
+          },
+          {
+            "term": "derecho",
+            "score": 0.038202
+          },
+          {
+            "term": "ley federal",
+            "score": 0.036373
+          },
+          {
+            "term": "federal trabajo",
+            "score": 0.034071
+          },
+          {
+            "term": "articulo",
+            "score": 0.022572
+          },
+          {
+            "term": "estado",
+            "score": 0.022189
+          },
+          {
+            "term": "materia",
+            "score": 0.020864
+          },
+          {
+            "term": "analisis",
+            "score": 0.018596
+          },
+          {
+            "term": "laborales",
+            "score": 0.017884
+          },
+          {
+            "term": "servicio",
+            "score": 0.017841
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 363
+          },
+          {
+            "label": "psicologia",
+            "count": 24
+          },
+          {
+            "label": "administracion",
+            "count": 13
+          },
+          {
+            "label": "contaduria",
+            "count": 8
+          },
+          {
+            "label": "economia",
+            "count": 6
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 6
+          },
+          {
+            "label": "trabajo social",
+            "count": 4
+          },
+          {
+            "label": "actuaria",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 420
+          },
+          {
+            "label": "Area 2",
+            "count": 21
+          },
+          {
+            "label": "Area 1",
+            "count": 9
+          },
+          {
+            "label": "Area 4",
+            "count": 4
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 434
+          },
+          {
+            "label": "Maestría",
+            "count": 11
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          },
+          {
+            "label": "Especialidad",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 407
+          },
+          {
+            "label": "universidad villa rica (boca del rio",
+            "count": 5
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 4
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 4
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de derecho institución que otorga el título",
+            "count": 2
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.019824,
+          "Area 2": 0.046256,
+          "Area 3": 0.92511,
+          "Area 4": 0.008811,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 420,
+            "pct": 0.92511
+          },
+          {
+            "area": "Area 2",
+            "count": 21,
+            "pct": 0.046256
+          },
+          {
+            "area": "Area 1",
+            "count": 9,
+            "pct": 0.019824
+          },
+          {
+            "area": "Area 4",
+            "count": 4,
+            "pct": 0.008811
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0135560",
+            "doc_number_url": "000113081",
+            "title": "el control del estado y la economia por los trabajadores",
+            "program": "derecho",
+            "year": 1977,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "López Contreras, Felipe",
+            "advisor": "Velasco Marquez, Mariano",
+            "x": -0.710473,
+            "y": -0.805565,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0153956",
+            "doc_number_url": "000009797",
+            "title": "las prestaciones como derechos fundamentales de los trabajadores",
+            "program": "derecho",
+            "year": 1981,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Zavala Padilla, Juan Carlos de Jesus",
+            "advisor": "",
+            "x": -0.712311,
+            "y": -0.818796,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0116625",
+            "doc_number_url": "000119529",
+            "title": "el vinculo juridico que se da entre patron y trabajador",
+            "program": "derecho",
+            "year": 1973,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Aguilar Cuevas, Maria Irma J.",
+            "advisor": "Cavazos Flores, Baltasar",
+            "x": -0.70308,
+            "y": -0.781622,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0134986",
+            "doc_number_url": "000112374",
+            "title": "la teoria integral del derecho del trabajo en el estado moderno",
+            "program": "derecho",
+            "year": 1977,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Gonzalez Romero, Pablo",
+            "advisor": "",
+            "x": -0.719051,
+            "y": -0.815974,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0214920",
+            "doc_number_url": "000177073",
+            "title": "las obligaciones patronales derivadas del reglamento interior de trabajo",
+            "program": "derecho",
+            "year": 1991,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Martinez Juarez, Agapito",
+            "advisor": "Vargas Menchaca, José Manuel",
+            "x": -0.709348,
+            "y": -0.781383,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0146538",
+            "doc_number_url": "000007273",
+            "title": "el patrimonio del trabajador desde el punto de vista laboral y otros derechos",
+            "program": "derecho",
+            "year": 1979,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Tapia Quijada, Oliverio Eugenio",
+            "advisor": "",
+            "x": -0.724365,
+            "y": -0.814688,
+            "cluster_strength": 0.97182
+          },
+          {
+            "thesis_id": "TH_0180179",
+            "doc_number_url": "000061956",
+            "title": "el conflicto de los factores de la produccion en el derecho del trabajo",
+            "program": "derecho",
+            "year": 1986,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del valle de mexico",
+            "author": "Cantu Guzman, Luis Fernando G.",
+            "advisor": "Acuña Rodriguez, Manuel",
+            "x": -0.705599,
+            "y": -0.777752,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0130071",
+            "doc_number_url": "000112877",
+            "title": "las causas de rescision contenidas en el reglamento de condiciones generales de trabajo de la secretaria de hacienda y credito publico",
+            "program": "derecho",
+            "year": 1976,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Goyre Díaz, Ildefonso",
+            "advisor": "Tureba B., Jorge",
+            "x": -0.714829,
+            "y": -0.779184,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 136,
+        "macrocluster_id": 1,
+        "micro_label": "INTERNACIONAL · DERECHO · DERECHO INTERNACIONAL · GUERRA",
+        "size": 263,
+        "x": -0.070912,
+        "y": -1.832616,
+        "year_min": 1927,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "internacional",
+            "score": 0.078472
+          },
+          {
+            "term": "derecho",
+            "score": 0.058011
+          },
+          {
+            "term": "derecho internacional",
+            "score": 0.050516
+          },
+          {
+            "term": "guerra",
+            "score": 0.035262
+          },
+          {
+            "term": "politica",
+            "score": 0.02934
+          },
+          {
+            "term": "internacionales",
+            "score": 0.026864
+          },
+          {
+            "term": "analisis",
+            "score": 0.020502
+          },
+          {
+            "term": "juridico",
+            "score": 0.019524
+          },
+          {
+            "term": "militar",
+            "score": 0.019446
+          },
+          {
+            "term": "europea",
+            "score": 0.018771
+          },
+          {
+            "term": "publico",
+            "score": 0.01729
+          },
+          {
+            "term": "union",
+            "score": 0.017141
+          },
+          {
+            "term": "caso",
+            "score": 0.016732
+          },
+          {
+            "term": "seguridad",
+            "score": 0.016381
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 156
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 73
+          },
+          {
+            "label": "historia",
+            "count": 6
+          },
+          {
+            "label": "economia",
+            "count": 4
+          },
+          {
+            "label": "estudios en relaciones internacionales",
+            "count": 3
+          },
+          {
+            "label": "filosofia",
+            "count": 2
+          },
+          {
+            "label": "periodismo y comunicacion colectiva",
+            "count": 2
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 241
+          },
+          {
+            "label": "Area 4",
+            "count": 15
+          },
+          {
+            "label": "Area 1",
+            "count": 4
+          },
+          {
+            "label": "Area 2",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 248
+          },
+          {
+            "label": "Maestría",
+            "count": 8
+          },
+          {
+            "label": "Doctorado",
+            "count": 6
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 248
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 2
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias políticas y sociales",
+            "count": 1
+          },
+          {
+            "label": "universidad insurgentes (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias politicas y sociales institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad latina",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.015209,
+          "Area 2": 0.011407,
+          "Area 3": 0.91635,
+          "Area 4": 0.057034,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 241,
+            "pct": 0.91635
+          },
+          {
+            "area": "Area 4",
+            "count": 15,
+            "pct": 0.057034
+          },
+          {
+            "area": "Area 1",
+            "count": 4,
+            "pct": 0.015209
+          },
+          {
+            "area": "Area 2",
+            "count": 3,
+            "pct": 0.011407
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0417421",
+            "doc_number_url": "000697026",
+            "title": "la responsabilidad de proteger : su instrumentación a través de las operaciones de mantenimiento de la paz de las naciones unidas",
+            "program": "relaciones internacionales",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Ramírez Oceguera, Rebeca",
+            "advisor": "Castillo Petersen, Ana Cristina",
+            "x": -0.064189,
+            "y": -1.833256,
+            "cluster_strength": 0.521848
+          },
+          {
+            "thesis_id": "TH_0326136",
+            "doc_number_url": "000608153",
+            "title": "el uso de agentes biologicos con fines belicos, representa una amenaza para la paz y seguridad de la comunidad internacional",
+            "program": "derecho",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Segura Rodriguez, Guadalupe Cristina",
+            "advisor": "Reyes Cadena, Ernesto",
+            "x": -0.067427,
+            "y": -1.84875,
+            "cluster_strength": 0.374628
+          },
+          {
+            "thesis_id": "TH_0099091",
+            "doc_number_url": null,
+            "title": "el desarme en las naciones unidas",
+            "program": "relaciones internacionales",
+            "year": 1967,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Zurita Fagoaga, Ma. de Lourdes",
+            "advisor": "",
+            "x": -0.047776,
+            "y": -1.829995,
+            "cluster_strength": 0.567305
+          },
+          {
+            "thesis_id": "TH_0088687",
+            "doc_number_url": "000065586",
+            "title": "politica intervencionista americana",
+            "program": "relaciones internacionales",
+            "year": 1963,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Hermosillo Aspeitia, Ma. de Lourdes",
+            "advisor": "",
+            "x": -0.095854,
+            "y": -1.800606,
+            "cluster_strength": 0.312058
+          },
+          {
+            "thesis_id": "TH_0278284",
+            "doc_number_url": "000258825",
+            "title": "diplomacia preventiva",
+            "program": "derecho",
+            "year": 1998,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad panamericana",
+            "author": "Berea de la Rosa, Jorge Alberto",
+            "advisor": "Lugo Galicia, Miguel Ángel",
+            "x": -0.083907,
+            "y": -1.783477,
+            "cluster_strength": 0.563705
+          },
+          {
+            "thesis_id": "TH_0119652",
+            "doc_number_url": "000196716",
+            "title": "la prescripcion de las armas nucleares, quimicas y bacteriologicas (biologicas) indispensable para la paz",
+            "program": "derecho",
+            "year": 1973,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Rodriguez Villanueva, Gustavo Eugenio",
+            "advisor": "Tamayo Diaz, Enrique",
+            "x": -0.03578,
+            "y": -1.872587,
+            "cluster_strength": 0.297139
+          },
+          {
+            "thesis_id": "TH_0182712",
+            "doc_number_url": "000013747",
+            "title": "el principio de la no intervencion en el ambito internacional",
+            "program": "derecho",
+            "year": 1986,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Herrera Mejia, Maria de Lourdes",
+            "advisor": "Navarro Vega, Ignacio Javier",
+            "x": -0.108642,
+            "y": -1.792577,
+            "cluster_strength": 0.766779
+          },
+          {
+            "thesis_id": "TH_0100698",
+            "doc_number_url": "000099391",
+            "title": "defensa y seguridad en el continente americano",
+            "program": "derecho",
+            "year": 1968,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Poumian García, Fidel Edgardo",
+            "advisor": "Treviño Rios, Oscar",
+            "x": -0.141617,
+            "y": -1.846885,
+            "cluster_strength": 0.418129
+          }
+        ]
+      },
+      {
+        "microcluster_id": 147,
+        "macrocluster_id": 1,
+        "micro_label": "COMERCIO · MERCANTILES · MERCANTIL · COMERCIO EXTERIOR",
+        "size": 215,
+        "x": -0.890043,
+        "y": -0.027345,
+        "year_min": 1934,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "comercio",
+            "score": 0.088092
+          },
+          {
+            "term": "mercantiles",
+            "score": 0.04546
+          },
+          {
+            "term": "mercantil",
+            "score": 0.045174
+          },
+          {
+            "term": "comercio exterior",
+            "score": 0.042267
+          },
+          {
+            "term": "exterior",
+            "score": 0.042267
+          },
+          {
+            "term": "sociedades",
+            "score": 0.035878
+          },
+          {
+            "term": "analisis",
+            "score": 0.035693
+          },
+          {
+            "term": "sociedades mercantiles",
+            "score": 0.034163
+          },
+          {
+            "term": "juridico",
+            "score": 0.033745
+          },
+          {
+            "term": "libre",
+            "score": 0.031459
+          },
+          {
+            "term": "federal",
+            "score": 0.030875
+          },
+          {
+            "term": "ley",
+            "score": 0.03058
+          },
+          {
+            "term": "libre comercio",
+            "score": 0.030571
+          },
+          {
+            "term": "internacional",
+            "score": 0.029133
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 156
+          },
+          {
+            "label": "economia",
+            "count": 23
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 9
+          },
+          {
+            "label": "contaduria",
+            "count": 8
+          },
+          {
+            "label": "administracion",
+            "count": 4
+          },
+          {
+            "label": "sociologia",
+            "count": 2
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 2
+          },
+          {
+            "label": "ahorro y uso eficiente de energia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 207
+          },
+          {
+            "label": "Area 1",
+            "count": 6
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 204
+          },
+          {
+            "label": "Doctorado",
+            "count": 6
+          },
+          {
+            "label": "Maestría",
+            "count": 3
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 182
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 6
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 5
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 4
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 2
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 2
+          },
+          {
+            "label": "universidad del tepeyac (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.027907,
+          "Area 2": 0.009302,
+          "Area 3": 0.962791,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 207,
+            "pct": 0.962791
+          },
+          {
+            "area": "Area 1",
+            "count": 6,
+            "pct": 0.027907
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.009302
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0236229",
+            "doc_number_url": "000191720",
+            "title": "la regulacion y formalizacion del comercio ejercido en via publica",
+            "program": "derecho",
+            "year": 1993,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Sanchez Magallan, José de Jesus",
+            "advisor": "Rivas Monroy, Pedro",
+            "x": -0.851455,
+            "y": -0.065886,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0333099",
+            "doc_number_url": "000622608",
+            "title": "arbitraje internacional, ejecucion de laudos arbitrales en el extranjero en materia de comercio electronico",
+            "program": "derecho",
+            "year": 2007,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Guevara Martinez, Sinuhe",
+            "advisor": "Vite Patiño, Joaquin",
+            "x": -0.872582,
+            "y": 0.030068,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0145583",
+            "doc_number_url": "000007117",
+            "title": "el deposito mercantil en los codigos de comercio de 1854, 1884 y 1889",
+            "program": "derecho",
+            "year": 1979,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Pineda Gutierrez, Gorge Alvaro",
+            "advisor": "",
+            "x": -0.852452,
+            "y": -0.078751,
+            "cluster_strength": 0.951191
+          },
+          {
+            "thesis_id": "TH_0554952",
+            "doc_number_url": "000852597",
+            "title": "análisis del control de demanda tarifa horaria bajo el nuevo esquema tarifario",
+            "program": "ahorro y uso eficiente de energia",
+            "year": 2024,
+            "area": "Area 1",
+            "level": "Especialidad",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Aguilar Medrano, Luis Antonio",
+            "advisor": "Escobedo Izquierdo, Manuela Azucena",
+            "x": -0.931292,
+            "y": -0.132191,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0065271",
+            "doc_number_url": "000077393",
+            "title": "estudio sobre el art. 100 del codigo de comercio",
+            "program": "derecho",
+            "year": 1934,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Guerrero, Jorge",
+            "advisor": "",
+            "x": -0.936878,
+            "y": -0.133495,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0228053",
+            "doc_number_url": "000189934",
+            "title": "necesidad de actualizar las compraventas combinadas en el codigo de comercio",
+            "program": "derecho",
+            "year": 1993,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Aguilar Villanueva, Laura",
+            "advisor": "Ambrosio Ramirez, Rafael",
+            "x": -0.843201,
+            "y": -0.171766,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0348811",
+            "doc_number_url": "000632400",
+            "title": "la existencia de un sólo reconocimiento aduanero en el despacho de mercancías",
+            "program": "relaciones internacionales",
+            "year": 2008,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Martínez Lira, Odilla",
+            "advisor": "Trejo Alcántara, Agustín",
+            "x": -0.896265,
+            "y": -0.179291,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0309742",
+            "doc_number_url": "000654279",
+            "title": "propuesta de reforma al código de comercio en relación a la prueba pericial",
+            "program": "derecho",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Olivares Aguillón, Marco Antonio",
+            "advisor": "Constantino Mendoza, Silvestre",
+            "x": -0.974239,
+            "y": -0.16647,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 75,
+        "macrocluster_id": 1,
+        "micro_label": "MUJERES · FAMILIAR · VIOLENCIA FAMILIAR · INTRAFAMILIAR",
+        "size": 168,
+        "x": 3.491583,
+        "y": -3.709564,
+        "year_min": 1967,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "mujeres",
+            "score": 0.05183
+          },
+          {
+            "term": "familiar",
+            "score": 0.049282
+          },
+          {
+            "term": "violencia familiar",
+            "score": 0.043202
+          },
+          {
+            "term": "intrafamiliar",
+            "score": 0.036547
+          },
+          {
+            "term": "violencia intrafamiliar",
+            "score": 0.036547
+          },
+          {
+            "term": "mujer",
+            "score": 0.036204
+          },
+          {
+            "term": "genero",
+            "score": 0.035804
+          },
+          {
+            "term": "violencia genero",
+            "score": 0.030947
+          },
+          {
+            "term": "analisis",
+            "score": 0.028559
+          },
+          {
+            "term": "noviazgo",
+            "score": 0.027864
+          },
+          {
+            "term": "pareja",
+            "score": 0.027387
+          },
+          {
+            "term": "distrito federal",
+            "score": 0.024173
+          },
+          {
+            "term": "distrito",
+            "score": 0.024173
+          },
+          {
+            "term": "federal",
+            "score": 0.024173
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 75
+          },
+          {
+            "label": "derecho",
+            "count": 36
+          },
+          {
+            "label": "medicina familiar",
+            "count": 11
+          },
+          {
+            "label": "trabajo social",
+            "count": 11
+          },
+          {
+            "label": "pedagogia",
+            "count": 5
+          },
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 3
+          },
+          {
+            "label": "sociologia",
+            "count": 3
+          },
+          {
+            "label": "filosofia",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 112
+          },
+          {
+            "label": "Area 2",
+            "count": 44
+          },
+          {
+            "label": "Area 4",
+            "count": 10
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 136
+          },
+          {
+            "label": "Especialidad",
+            "count": 15
+          },
+          {
+            "label": "Maestría",
+            "count": 14
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 131
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 4
+          },
+          {
+            "label": "universidad latina (campus sur)",
+            "count": 3
+          },
+          {
+            "label": "centro universitario vasco de quiroga de huejutla,",
+            "count": 2
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de psicología",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 2
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.011905,
+          "Area 2": 0.261905,
+          "Area 3": 0.666667,
+          "Area 4": 0.059524,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 112,
+            "pct": 0.666667
+          },
+          {
+            "area": "Area 2",
+            "count": 44,
+            "pct": 0.261905
+          },
+          {
+            "area": "Area 4",
+            "count": 10,
+            "pct": 0.059524
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.011905
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0425705",
+            "doc_number_url": "000687921",
+            "title": "la autodeterminación del sujeto con modelos paternos violentos en su relación de pareja, desde el enfoque personológico",
+            "program": "psicologia",
+            "year": 2013,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Gomez Sanchez, Nayely",
+            "advisor": "Mendoza Mendoza, Herminia ; Arzate Robledo, Roberto ; Cabrera Fermoso, Norma Leticia",
+            "x": 3.48434,
+            "y": -3.730514,
+            "cluster_strength": 0.781248
+          },
+          {
+            "thesis_id": "TH_0032275",
+            "doc_number_url": "000305937",
+            "title": "albergue para mujeres que viven violencia familiar, delegacion alvaro obregon",
+            "program": "arquitectura",
+            "year": 2002,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Navarro Quiroz, Adriana",
+            "advisor": "Escudero Yerena, Marcial ; Calva Márquez, Guillermo Jesús",
+            "x": 3.475029,
+            "y": -3.729998,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0301865",
+            "doc_number_url": "000342620",
+            "title": "los rasgos de la personalidad de mujeres receptoras de violencia familiar de acuerdo a la teoría de relaciones objetales",
+            "program": "psicologia",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Blas Burgos, Vanessa",
+            "advisor": "Bustos de la Tijera, Leticia María Guadalupe",
+            "x": 3.488908,
+            "y": -3.737528,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0406712",
+            "doc_number_url": "000693305",
+            "title": "relación de los comportamientos celosos y presencia de violencia en las relaciones de noviazgo",
+            "program": "psicologia",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Torres Gutiérrez, Alexandra",
+            "advisor": "Bravo González, María Cristina ; Vaquero Cázares, Esteban ; Ávila Ramos, Edy ; Bravo González, María Cristina ; Vaquero Cázares, Esteban ; Ávila Ramos, Edy ; Bravo González, María Cristina ; Vaquero Cázares, Esteban ; Ávila Ramos, Edy",
+            "x": 3.480645,
+            "y": -3.741887,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0544594",
+            "doc_number_url": null,
+            "title": "efectos psicológicos en mujeres víctimas de violencia en la relación de pareja",
+            "program": "psicologia",
+            "year": 2023,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Evangelista Guadalupe, Elsa",
+            "advisor": "Romero de la Rosa, Iván",
+            "x": 3.462461,
+            "y": -3.737648,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0500645",
+            "doc_number_url": "000770628",
+            "title": "dependencia emocional y violencia de pareja en mujeres que acuden a las unidades de atención y prevención a la violencia familiar (unavi)",
+            "program": "psicologia",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad insurgentes",
+            "author": "Mendoza Flores, Adriana Eliaan",
+            "advisor": "Arámbula Ríos, César",
+            "x": 3.499477,
+            "y": -3.758188,
+            "cluster_strength": 0.96639
+          },
+          {
+            "thesis_id": "TH_0516619",
+            "doc_number_url": "000811727",
+            "title": "factores que favorecen la violencia en el noviazgo",
+            "program": "psicologia",
+            "year": 2021,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Cedillo Rojas, Daniela",
+            "advisor": "Guzmán Rodríguez, María del Rosario",
+            "x": 3.468833,
+            "y": -3.755872,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0051394",
+            "doc_number_url": "000339325",
+            "title": "la necesidad de dependencia afectiva y la tolerancia al maltrato psicologico en mujeres",
+            "program": "psicologia",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Anguiano Peña, Griselda",
+            "advisor": "Heredia Ancona, Cristina",
+            "x": 3.441093,
+            "y": -3.698477,
+            "cluster_strength": 0.741001
+          }
+        ]
+      },
+      {
+        "microcluster_id": 193,
+        "macrocluster_id": 1,
+        "micro_label": "DERECHO · JURIDICA · CIVIL · JURIDICO",
+        "size": 148,
+        "x": -1.050073,
+        "y": -2.225181,
+        "year_min": 1927,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "derecho",
+            "score": 0.102162
+          },
+          {
+            "term": "juridica",
+            "score": 0.069999
+          },
+          {
+            "term": "civil",
+            "score": 0.054621
+          },
+          {
+            "term": "juridico",
+            "score": 0.048467
+          },
+          {
+            "term": "justicia",
+            "score": 0.044757
+          },
+          {
+            "term": "naturaleza",
+            "score": 0.035139
+          },
+          {
+            "term": "judicial",
+            "score": 0.033642
+          },
+          {
+            "term": "estudio",
+            "score": 0.028358
+          },
+          {
+            "term": "amparo",
+            "score": 0.027112
+          },
+          {
+            "term": "naturaleza juridica",
+            "score": 0.026594
+          },
+          {
+            "term": "leyes",
+            "score": 0.026147
+          },
+          {
+            "term": "ley",
+            "score": 0.026048
+          },
+          {
+            "term": "interpretacion",
+            "score": 0.023317
+          },
+          {
+            "term": "juridicos",
+            "score": 0.023021
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 140
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 3
+          },
+          {
+            "label": "filosofia",
+            "count": 1
+          },
+          {
+            "label": "actuaria",
+            "count": 1
+          },
+          {
+            "label": "historia",
+            "count": 1
+          },
+          {
+            "label": "psicologia",
+            "count": 1
+          },
+          {
+            "label": "lengua y literaturas hispanicas",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 141
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          },
+          {
+            "label": "Area 2",
+            "count": 3
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 136
+          },
+          {
+            "label": "Doctorado",
+            "count": 6
+          },
+          {
+            "label": "Maestría",
+            "count": 6
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 134
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico) escuela de derecho",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad del tepeyac (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.006757,
+          "Area 2": 0.02027,
+          "Area 3": 0.952703,
+          "Area 4": 0.02027,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 141,
+            "pct": 0.952703
+          },
+          {
+            "area": "Area 2",
+            "count": 3,
+            "pct": 0.02027
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.02027
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.006757
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0067780",
+            "doc_number_url": "000082530",
+            "title": "la consideracion del elemento causa en los actos juridicos",
+            "program": "derecho",
+            "year": 1938,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Peralta Valdez, Miguel",
+            "advisor": "",
+            "x": -1.046215,
+            "y": -2.216485,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0079042",
+            "doc_number_url": "000085735",
+            "title": "el derecho y la mision del abogado",
+            "program": "derecho",
+            "year": 1953,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Hernandez Perez Rulfo, Carlos",
+            "advisor": "",
+            "x": -1.032481,
+            "y": -2.22215,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0072516",
+            "doc_number_url": "000077544",
+            "title": "esnayo sobre la naturaleza juridica del arrendamiento",
+            "program": "derecho",
+            "year": 1945,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Borja Meza, Carlos",
+            "advisor": "",
+            "x": -1.031481,
+            "y": -2.21327,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0268144",
+            "doc_number_url": "000252382",
+            "title": "la naturaleza juridica de la enajenacion de cosa ajena",
+            "program": "derecho",
+            "year": 1997,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Cota Gutierrez, Ramon",
+            "advisor": "Moreno Navarro, Gloria",
+            "x": -1.036261,
+            "y": -2.247658,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0077273",
+            "doc_number_url": "000218011",
+            "title": "odontologia legal",
+            "program": "cirujano dentista",
+            "year": 1950,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Romero Estrada, José Luis",
+            "advisor": "",
+            "x": -1.075058,
+            "y": -2.236553,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0191179",
+            "doc_number_url": "000083772",
+            "title": "analisis dogmatico del cese naturaleza y regulacion juridica procesal",
+            "program": "derecho",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Gonzalez Rios, José Luis",
+            "advisor": "Gonzalez Marrufo, Guillermo Jaime",
+            "x": -1.023599,
+            "y": -2.205559,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0082822",
+            "doc_number_url": "000091510",
+            "title": "la aplicacion judicial del derecho",
+            "program": "derecho",
+            "year": 1957,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Tinoco Valencia, Basilio",
+            "advisor": "Pina, Rafael de",
+            "x": -1.079646,
+            "y": -2.208527,
+            "cluster_strength": 0.888161
+          },
+          {
+            "thesis_id": "TH_0090210",
+            "doc_number_url": "000100259",
+            "title": "el concepto de norma juridica",
+            "program": "derecho",
+            "year": 1963,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Wing Shum, Filimon",
+            "advisor": "",
+            "x": -1.029891,
+            "y": -2.196102,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 197,
+        "macrocluster_id": 1,
+        "micro_label": "DELITO · PENAL · ESTUDIO · DELITOS",
+        "size": 146,
+        "x": -1.591308,
+        "y": -2.797841,
+        "year_min": 1934,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "delito",
+            "score": 0.122399
+          },
+          {
+            "term": "penal",
+            "score": 0.095014
+          },
+          {
+            "term": "estudio",
+            "score": 0.07535
+          },
+          {
+            "term": "delitos",
+            "score": 0.048021
+          },
+          {
+            "term": "dogmatico",
+            "score": 0.037324
+          },
+          {
+            "term": "materia",
+            "score": 0.035256
+          },
+          {
+            "term": "analisis",
+            "score": 0.035201
+          },
+          {
+            "term": "estudio dogmatico",
+            "score": 0.031767
+          },
+          {
+            "term": "dogmatico delito",
+            "score": 0.030821
+          },
+          {
+            "term": "materia penal",
+            "score": 0.03017
+          },
+          {
+            "term": "juridico",
+            "score": 0.029633
+          },
+          {
+            "term": "ley",
+            "score": 0.023544
+          },
+          {
+            "term": "pena",
+            "score": 0.023314
+          },
+          {
+            "term": "accion",
+            "score": 0.020914
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 134
+          },
+          {
+            "label": "psicologia",
+            "count": 3
+          },
+          {
+            "label": "geografia",
+            "count": 1
+          },
+          {
+            "label": "derecho penal",
+            "count": 1
+          },
+          {
+            "label": "politica criminal",
+            "count": 1
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 1
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 1
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 140
+          },
+          {
+            "label": "Area 2",
+            "count": 4
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 136
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 136
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 3
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "centro universitario de taxco,",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del río",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales aragon institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.006849,
+          "Area 2": 0.027397,
+          "Area 3": 0.958904,
+          "Area 4": 0.006849,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 140,
+            "pct": 0.958904
+          },
+          {
+            "area": "Area 2",
+            "count": 4,
+            "pct": 0.027397
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.006849
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.006849
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0345004",
+            "doc_number_url": "000636967",
+            "title": "utilidad forense de la técnica reacción en cadena de la polimerasa (pcr) para la identificación de personas en comisión de un delito",
+            "program": "quimica farmaceutico biologica",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Fajardo Venegas, Alma Rosa",
+            "advisor": "Martínez Flores, María Galia",
+            "x": -1.5941,
+            "y": -2.799699,
+            "cluster_strength": 0.704041
+          },
+          {
+            "thesis_id": "TH_0089826",
+            "doc_number_url": "000095794",
+            "title": "el delito de induccion al empleo de enervantes",
+            "program": "derecho",
+            "year": 1963,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Salazar Acuña, Ignacio",
+            "advisor": "",
+            "x": -1.585019,
+            "y": -2.78858,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0299518",
+            "doc_number_url": "000330640",
+            "title": "la integración de la averiguación previa para acreditar el cuerpo del delito y la probable responsabilidad del inculpado",
+            "program": "derecho",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Valero González, Victorino",
+            "advisor": "León López, María Graciela",
+            "x": -1.586672,
+            "y": -2.810386,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0020308",
+            "doc_number_url": "000289114",
+            "title": "legalidad de la aprehension del delincuente en flagrancia dentro de su domicilio particular",
+            "program": "derecho",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Rodriguez Jasso, José Carlo",
+            "advisor": "León López, María Graciela",
+            "x": -1.580744,
+            "y": -2.808132,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0126702",
+            "doc_number_url": "000110566",
+            "title": "la convergencia de normas penales",
+            "program": "derecho",
+            "year": 1975,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Ortiz Ortega, Rosalba Carina",
+            "advisor": "",
+            "x": -1.58807,
+            "y": -2.779538,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0207903",
+            "doc_number_url": "000147818",
+            "title": "estudio técnico-jurídico de la consignación penal",
+            "program": "derecho",
+            "year": 1990,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del valle de mexico",
+            "author": "Perez Rojas, Alfredo",
+            "advisor": "Reffreger Saucedo, Vicente ; Santos Quintanilla, Hugo Ruy de los",
+            "x": -1.599213,
+            "y": -2.778555,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0263287",
+            "doc_number_url": "000236886",
+            "title": "introduccion al estudio del derecho penal (bases para el estudio del derecho penal",
+            "program": "derecho",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Doctorado",
+            "plantel": "facultad de derecho unam",
+            "author": "Rayo Mares, Juan Carlos",
+            "advisor": "Castellanos, Fernando",
+            "x": -1.610863,
+            "y": -2.812192,
+            "cluster_strength": 0.995894
+          },
+          {
+            "thesis_id": "TH_0093674",
+            "doc_number_url": "000098011",
+            "title": "delitos de omision",
+            "program": "derecho",
+            "year": 1965,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Muñoz Centurion, Hector",
+            "advisor": "",
+            "x": -1.616096,
+            "y": -2.797548,
+            "cluster_strength": 0.970755
+          }
+        ]
+      },
+      {
+        "microcluster_id": 160,
+        "macrocluster_id": 1,
+        "micro_label": "CIVIL DISTRITO · ARTICULO · CIVILES · PROCEDIMIENTOS",
+        "size": 129,
+        "x": -1.820039,
+        "y": -1.843859,
+        "year_min": 1934,
+        "year_max": 2018,
+        "top_terms": [
+          {
+            "term": "civil distrito",
+            "score": 0.0962
+          },
+          {
+            "term": "articulo",
+            "score": 0.086593
+          },
+          {
+            "term": "civiles",
+            "score": 0.055915
+          },
+          {
+            "term": "procedimientos",
+            "score": 0.054643
+          },
+          {
+            "term": "procedimientos civiles",
+            "score": 0.054239
+          },
+          {
+            "term": "codigo procedimientos",
+            "score": 0.051583
+          },
+          {
+            "term": "civiles distrito",
+            "score": 0.046308
+          },
+          {
+            "term": "vigente",
+            "score": 0.045767
+          },
+          {
+            "term": "analisis",
+            "score": 0.042639
+          },
+          {
+            "term": "civil vigente",
+            "score": 0.041838
+          },
+          {
+            "term": "reforma",
+            "score": 0.041717
+          },
+          {
+            "term": "necesidad",
+            "score": 0.041638
+          },
+          {
+            "term": "propuesta",
+            "score": 0.037053
+          },
+          {
+            "term": "fraccion",
+            "score": 0.032709
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 125
+          },
+          {
+            "label": "derecho civil",
+            "count": 3
+          },
+          {
+            "label": "odontologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 128
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 122
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 111
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 4
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "instituto universitario nezahualcoyotl. escuela de derecho,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de derecho institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del rio",
+            "count": 1
+          },
+          {
+            "label": "colegio partenón (mexico). escuela de derecho, institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.007752,
+          "Area 3": 0.992248,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 128,
+            "pct": 0.992248
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.007752
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0096690",
+            "doc_number_url": "000098855",
+            "title": "procesos sumarios indeterminados en el codigo de procedimientos civiles para el distrito y territorios federales",
+            "program": "derecho",
+            "year": 1966,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Torrero Calles, Fernando",
+            "advisor": "",
+            "x": -1.825561,
+            "y": -1.841416,
+            "cluster_strength": 0.994993
+          },
+          {
+            "thesis_id": "TH_0035956",
+            "doc_number_url": "000311605",
+            "title": "analisis juridico del articulo 289-bis del codigo civil para el distrito federal, en relacion a la liquidacion de la sociedad conyugal",
+            "program": "derecho",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Soriano Silva, Victor Hugo",
+            "advisor": "Zaldivar Olvera, Eduardo",
+            "x": -1.808897,
+            "y": -1.837349,
+            "cluster_strength": 0.600382
+          },
+          {
+            "thesis_id": "TH_0093911",
+            "doc_number_url": "000098052",
+            "title": "estudio comparativo y comentarios de los codigos civiles del distrito y teritorios federales y de guerrero",
+            "program": "derecho",
+            "year": 1965,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Perez Bautista, Hugo",
+            "advisor": "",
+            "x": -1.817616,
+            "y": -1.857537,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0192220",
+            "doc_number_url": "000081417",
+            "title": "los recursos de revocacion y reposicion en el codigo de procedimientos civiles para el distrito federal",
+            "program": "derecho",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "López Gonzalez, Emmanuel",
+            "advisor": "Lojero Barrera, Eduardo",
+            "x": -1.811072,
+            "y": -1.858924,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0005587",
+            "doc_number_url": "000282107",
+            "title": "inaplicabilidad supletoria del codigo federal de procedimientos civiles a la ley de adquisiciones y obras publicas en pemex",
+            "program": "derecho",
+            "year": 2000,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Martinez Rojas, José Juan",
+            "advisor": "García Bernal, Leopoldo ; Morales Muñoz, Manuel ; Romero Hernández, David",
+            "x": -1.838323,
+            "y": -1.849168,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0455376",
+            "doc_number_url": "000735817",
+            "title": "la creación de la usucapión y la derogación de la prescripción positiva en el código civil para el distrito federal",
+            "program": "derecho",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Hernández Villaseñor, Ernesto Alonso",
+            "advisor": "Silva Guevara, Ulices Hermelindo",
+            "x": -1.800673,
+            "y": -1.850734,
+            "cluster_strength": 0.672599
+          },
+          {
+            "thesis_id": "TH_0193725",
+            "doc_number_url": "000088744",
+            "title": "la ejecuccion en el codigo de procedimientos civiles para el distrito federal",
+            "program": "derecho",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Ortega Popoca, Marco Aurelio",
+            "advisor": "Molina González, Héctor",
+            "x": -1.841954,
+            "y": -1.849131,
+            "cluster_strength": 0.993422
+          },
+          {
+            "thesis_id": "TH_0421426",
+            "doc_number_url": "000697064",
+            "title": "necesidad de regular la patria potestad prorrogada en el código civil para el distrito federal",
+            "program": "derecho",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Villamil Avilés, Lorena",
+            "advisor": "Rocher Gómez, Rafael Manuel",
+            "x": -1.794684,
+            "y": -1.835006,
+            "cluster_strength": 0.775206
+          }
+        ]
+      },
+      {
+        "microcluster_id": 195,
+        "macrocluster_id": 1,
+        "micro_label": "JUICIO · AMPARO · JUICIO AMPARO · PRUEBA",
+        "size": 127,
+        "x": -1.441351,
+        "y": -2.394001,
+        "year_min": 1933,
+        "year_max": 2019,
+        "top_terms": [
+          {
+            "term": "juicio",
+            "score": 0.111618
+          },
+          {
+            "term": "amparo",
+            "score": 0.089124
+          },
+          {
+            "term": "juicio amparo",
+            "score": 0.072997
+          },
+          {
+            "term": "prueba",
+            "score": 0.05756
+          },
+          {
+            "term": "suspension",
+            "score": 0.049601
+          },
+          {
+            "term": "civil",
+            "score": 0.046684
+          },
+          {
+            "term": "penal",
+            "score": 0.04271
+          },
+          {
+            "term": "materia",
+            "score": 0.039386
+          },
+          {
+            "term": "sentencias",
+            "score": 0.031461
+          },
+          {
+            "term": "sentencia",
+            "score": 0.028428
+          },
+          {
+            "term": "amparo indirecto",
+            "score": 0.027021
+          },
+          {
+            "term": "indirecto",
+            "score": 0.027021
+          },
+          {
+            "term": "proceso",
+            "score": 0.026583
+          },
+          {
+            "term": "materia civil",
+            "score": 0.026355
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 122
+          },
+          {
+            "label": "lengua y literaturas hispanicas",
+            "count": 1
+          },
+          {
+            "label": "anestesiologia",
+            "count": 1
+          },
+          {
+            "label": "psicologia",
+            "count": 1
+          },
+          {
+            "label": "historia",
+            "count": 1
+          },
+          {
+            "label": "cirugia general",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 123
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 123
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 104
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 5
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 3
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento (coatzacoalcos",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del río",
+            "count": 1
+          },
+          {
+            "label": "instituto de seguridad y servicios sociales de los trabajadores del estado. hospital general “dr. fernando quiroz gutiérrez”,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.015748,
+          "Area 3": 0.968504,
+          "Area 4": 0.015748,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 123,
+            "pct": 0.968504
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.015748
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.015748
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0445983",
+            "doc_number_url": "000725492",
+            "title": "la excepción de prescripción de la acción en vía incidental, en el juicio ordinario civil",
+            "program": "derecho",
+            "year": 2014,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Rivas Hernández, Diana Irene",
+            "advisor": "Barragán Albarrán, Oscar",
+            "x": -1.436532,
+            "y": -2.399317,
+            "cluster_strength": 0.902343
+          },
+          {
+            "thesis_id": "TH_0273355",
+            "doc_number_url": "000257224",
+            "title": "la impunidad del falso testimonio en materia civil",
+            "program": "derecho",
+            "year": 1997,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Ortega Quiroz, Gilberto",
+            "advisor": "Barragán Albarrán, Oscar",
+            "x": -1.444889,
+            "y": -2.404116,
+            "cluster_strength": 0.825699
+          },
+          {
+            "thesis_id": "TH_0076313",
+            "doc_number_url": "000080703",
+            "title": "de la prueba testimonial en materia civil",
+            "program": "derecho",
+            "year": 1949,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Garza y Garza, Virgilio",
+            "advisor": "",
+            "x": -1.452763,
+            "y": -2.392277,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0066833",
+            "doc_number_url": "000082213",
+            "title": "ensayo sobre la suspension del acto reclamado y de los efectos que produce como parte integrante del juicio de amparo",
+            "program": "derecho",
+            "year": 1937,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Castaneda del Villar, Salvador",
+            "advisor": "",
+            "x": -1.441019,
+            "y": -2.380053,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0130351",
+            "doc_number_url": "000112928",
+            "title": "la suspension de los actos reclamados en el juicio de amparo",
+            "program": "derecho",
+            "year": 1976,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Huerta Viramontes, Margarita Y.",
+            "advisor": "",
+            "x": -1.456892,
+            "y": -2.398299,
+            "cluster_strength": 0.78367
+          },
+          {
+            "thesis_id": "TH_0271687",
+            "doc_number_url": "000253853",
+            "title": "los terceros : algunas consideraciones sobre su intervencion en juicio",
+            "program": "derecho",
+            "year": 1997,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Luna Arenas, Gerardo",
+            "advisor": "Huizar Ortega, Francisco Javier",
+            "x": -1.453578,
+            "y": -2.40733,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0274775",
+            "doc_number_url": "000249479",
+            "title": "efectos de la suspension definitiva en el juicio de amparo indirecto en materia penal conforme a las reformas de enero de 1994",
+            "program": "derecho",
+            "year": 1997,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Rodriguez Ceballos, Isabel de Jesus",
+            "advisor": "Castillo del Valle, Alberto del",
+            "x": -1.454456,
+            "y": -2.406983,
+            "cluster_strength": 0.82369
+          },
+          {
+            "thesis_id": "TH_0453400",
+            "doc_number_url": "000742370",
+            "title": "del testimonio oral al registro escrito: posibilidades y alcances",
+            "program": "historia",
+            "year": 2015,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Galindo Domínguez, José Antonio",
+            "advisor": "Barbosa Cruz, Roger Mario",
+            "x": -1.460399,
+            "y": -2.386476,
+            "cluster_strength": 0.8257
+          }
+        ]
+      },
+      {
+        "microcluster_id": 198,
+        "macrocluster_id": 1,
+        "micro_label": "CODIGO PENAL · DISTRITO · DISTRITO FEDERAL · PENAL DISTRITO",
+        "size": 106,
+        "x": -1.951418,
+        "y": -2.432402,
+        "year_min": 1936,
+        "year_max": 2018,
+        "top_terms": [
+          {
+            "term": "codigo penal",
+            "score": 0.103911
+          },
+          {
+            "term": "distrito",
+            "score": 0.087967
+          },
+          {
+            "term": "distrito federal",
+            "score": 0.08722
+          },
+          {
+            "term": "penal distrito",
+            "score": 0.068598
+          },
+          {
+            "term": "penales",
+            "score": 0.066614
+          },
+          {
+            "term": "procedimientos",
+            "score": 0.06371
+          },
+          {
+            "term": "procedimientos penales",
+            "score": 0.062434
+          },
+          {
+            "term": "codigo procedimientos",
+            "score": 0.051286
+          },
+          {
+            "term": "analisis",
+            "score": 0.044625
+          },
+          {
+            "term": "reforma",
+            "score": 0.043534
+          },
+          {
+            "term": "estudio",
+            "score": 0.042091
+          },
+          {
+            "term": "penales distrito",
+            "score": 0.041677
+          },
+          {
+            "term": "vigente",
+            "score": 0.040138
+          },
+          {
+            "term": "fraccion",
+            "score": 0.038531
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 105
+          },
+          {
+            "label": "psicologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 106
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 105
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 94
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 2
+          },
+          {
+            "label": "universidad del tepeyac (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad de la villa rica",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.0,
+          "Area 3": 1.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 106,
+            "pct": 1.0
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0056370",
+            "doc_number_url": "000331123",
+            "title": "la importancia de elevar la sancion que contempla el primer parrafo del articulo 418 del codigo penal federal",
+            "program": "derecho",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Hernandez Canto, Brenda Angélica",
+            "advisor": "Limón Pérez, José Ricardo",
+            "x": -1.952049,
+            "y": -2.433988,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0308034",
+            "doc_number_url": "000340092",
+            "title": "reforma al articulo 200 del codigo penal para el distrito federal",
+            "program": "derecho",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Marroquin Resendiz, Anameli",
+            "advisor": "Jiménez Carrillo, David",
+            "x": -1.948491,
+            "y": -2.43102,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0327536",
+            "doc_number_url": "000610437",
+            "title": "reformas al parrafo primero del articulo 268 del codigo federal de procedimientos penales",
+            "program": "derecho",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Villegas Solano, Yesica Gabriela",
+            "advisor": "Chávez Gomez, Miriam Itzel",
+            "x": -1.945252,
+            "y": -2.426848,
+            "cluster_strength": 0.972193
+          },
+          {
+            "thesis_id": "TH_0035505",
+            "doc_number_url": "000311921",
+            "title": "breve estudio comparativo de los elementos del tipo y su retroceso a cuerpo del delito con respecto a las reformas en el codigo de procedimientos penales para el distrito federal en el año de 1999",
+            "program": "derecho",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad latina",
+            "author": "Sanchez Reyes, Claudia Guillermina",
+            "advisor": "Cervantes Merino, Jose Fernando",
+            "x": -1.954179,
+            "y": -2.441258,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0354059",
+            "doc_number_url": "000629485",
+            "title": "la aplicación de los artículos 267 y 268 del código de procedimientos penales para el distrito federal y su idoneidad en el procedimiento penal",
+            "program": "derecho",
+            "year": 2008,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Tzeck Camacho, Pablo Benito",
+            "advisor": "Ubando López, Jesús",
+            "x": -1.946903,
+            "y": -2.440756,
+            "cluster_strength": 0.844013
+          },
+          {
+            "thesis_id": "TH_0242126",
+            "doc_number_url": "000212452",
+            "title": "analisis juridico del articulo 16 y bis del codigo penal para el distrito federal",
+            "program": "derecho",
+            "year": 1994,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Jimenez Ayala, Sandra",
+            "advisor": "Daza Gómez, Carlos",
+            "x": -1.94221,
+            "y": -2.429308,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0263540",
+            "doc_number_url": "000233079",
+            "title": "analisis y realidad juridica del articulo 323 del codigo penal para el distrito federal",
+            "program": "derecho",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Rivero Escalante, José Francisco",
+            "advisor": "Sánchez Zurita, Emir",
+            "x": -1.958826,
+            "y": -2.440688,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0256216",
+            "doc_number_url": "000242691",
+            "title": "el estudio analitico comparativo y critico de las reformas del codigo de procedimientos penales antes y despues de 1994 dentro del procedimiento penal en el fuero comun",
+            "program": "derecho",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del tepeyac",
+            "author": "Becerra Barrios, Rocio Ivonne",
+            "advisor": "Couto Said, José Bernardo",
+            "x": -1.966409,
+            "y": -2.430936,
+            "cluster_strength": 0.953799
+          }
+        ]
+      },
+      {
+        "microcluster_id": 155,
+        "macrocluster_id": 1,
+        "micro_label": "ELECTORAL · FEDERAL · ELECTORALES · INSTITUTO",
+        "size": 87,
+        "x": -0.184196,
+        "y": -2.224704,
+        "year_min": 1957,
+        "year_max": 2022,
+        "top_terms": [
+          {
+            "term": "electoral",
+            "score": 0.109231
+          },
+          {
+            "term": "federal",
+            "score": 0.077613
+          },
+          {
+            "term": "electorales",
+            "score": 0.064675
+          },
+          {
+            "term": "instituto",
+            "score": 0.057575
+          },
+          {
+            "term": "federal electoral",
+            "score": 0.057568
+          },
+          {
+            "term": "elecciones",
+            "score": 0.052014
+          },
+          {
+            "term": "analisis",
+            "score": 0.044536
+          },
+          {
+            "term": "instituto federal",
+            "score": 0.042594
+          },
+          {
+            "term": "proceso",
+            "score": 0.042568
+          },
+          {
+            "term": "politicos",
+            "score": 0.039859
+          },
+          {
+            "term": "partidos",
+            "score": 0.038286
+          },
+          {
+            "term": "juridico",
+            "score": 0.037469
+          },
+          {
+            "term": "partidos politicos",
+            "score": 0.034769
+          },
+          {
+            "term": "proceso electoral",
+            "score": 0.032409
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 51
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 13
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 4
+          },
+          {
+            "label": "actuaria",
+            "count": 3
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 3
+          },
+          {
+            "label": "ciencias politicas y sociales",
+            "count": 1
+          },
+          {
+            "label": "ciencia e ingenieria de la computacion",
+            "count": 1
+          },
+          {
+            "label": "periodismo",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 74
+          },
+          {
+            "label": "Area 1",
+            "count": 10
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 79
+          },
+          {
+            "label": "Maestría",
+            "count": 5
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 80
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico posgrado en ciencia e ingeniería de la computación",
+            "count": 1
+          },
+          {
+            "label": "universidad americana de acapulco (acapulco",
+            "count": 1
+          },
+          {
+            "label": "centro de estudios universitarios (mexico). escuela de derecho,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autonoma de mexico. facultad de ciencias politicas y sociales, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.114943,
+          "Area 2": 0.011494,
+          "Area 3": 0.850575,
+          "Area 4": 0.022989,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 74,
+            "pct": 0.850575
+          },
+          {
+            "area": "Area 1",
+            "count": 10,
+            "pct": 0.114943
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.022989
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.011494
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0020360",
+            "doc_number_url": "000296590",
+            "title": "organizacion y funcionamiento del instituto electoral del distrito federal en el proceso electoral local del año 2000",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Rodriguez Oscura, Hector",
+            "advisor": "Najera de la Torre, Victor Manuel",
+            "x": -0.183545,
+            "y": -2.22466,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0297270",
+            "doc_number_url": "000329469",
+            "title": "la campaña propagandistica del instituto electoral del distrito federal para la promocion del plebiscito sobre la construccion de los segundos niveles en viaducto y periferico",
+            "program": "ciencias de la comunicacion",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Rivera Millán, Yolanda",
+            "advisor": "Hernández Carballido, Elvira",
+            "x": -0.189485,
+            "y": -2.224303,
+            "cluster_strength": 0.644499
+          },
+          {
+            "thesis_id": "TH_0443513",
+            "doc_number_url": "000714736",
+            "title": "condiciones estructurales y de coyuntura que permiten o inhiben la autonomía del instituto federal electoral",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2014,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Montañez Gudiño, Aura Olivia",
+            "advisor": "Arellano Trejo, Efrén",
+            "x": -0.203402,
+            "y": -2.227736,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0422106",
+            "doc_number_url": "000690931",
+            "title": "democracia interna y justicia electoral : la selección de candidatos a diputados federales en 2009",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2013,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Becerra Alva, Cecilia Margarita",
+            "advisor": "Medina Torres, Luis Eduardo",
+            "x": -0.166153,
+            "y": -2.234455,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0038823",
+            "doc_number_url": "000316894",
+            "title": "bases constitucionales para la rendicion de cuentas de los partidos politicos que perdieron su registro",
+            "program": "derecho",
+            "year": 2003,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Benitez Sarabia, Omar",
+            "advisor": "Roman Galan, Ernesto",
+            "x": -0.196721,
+            "y": -2.241144,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0404235",
+            "doc_number_url": "000672423",
+            "title": "la necesidad de comprobar el procedimiento de elección del candidato de un partido político nacional : como requisito para solicitar su registro ante el instituto federal electoral",
+            "program": "derecho",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Pérez Peñaloza, María del Pilar",
+            "advisor": "Cortés Sánchez, Rubén Martín",
+            "x": -0.202728,
+            "y": -2.236026,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0034388",
+            "doc_number_url": "000308254",
+            "title": "el sufragio efectivo...la reeleccion inmediata legislativa : una propuesta",
+            "program": "derecho",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Rizo Garnica, Edgar",
+            "advisor": "Roman Galan, Ernesto",
+            "x": -0.203125,
+            "y": -2.205893,
+            "cluster_strength": 0.933782
+          },
+          {
+            "thesis_id": "TH_0502597",
+            "doc_number_url": "000770552",
+            "title": "el recurso de revisión : medio de defensa en el derecho electoral",
+            "program": "derecho",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Pérez Nieto, Maurilio",
+            "advisor": "Valencia Granados, Rosa María",
+            "x": -0.198029,
+            "y": -2.249176,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 192,
+        "macrocluster_id": 1,
+        "micro_label": "CONSTITUCIONAL · ARTICULO · CONSTITUCION · ARTICULO 123",
+        "size": 86,
+        "x": -0.882946,
+        "y": -1.955992,
+        "year_min": 1938,
+        "year_max": 2023,
+        "top_terms": [
+          {
+            "term": "constitucional",
+            "score": 0.115482
+          },
+          {
+            "term": "articulo",
+            "score": 0.112172
+          },
+          {
+            "term": "constitucion",
+            "score": 0.074858
+          },
+          {
+            "term": "articulo 123",
+            "score": 0.049862
+          },
+          {
+            "term": "123",
+            "score": 0.049862
+          },
+          {
+            "term": "constitucionales",
+            "score": 0.043181
+          },
+          {
+            "term": "fraccion",
+            "score": 0.043097
+          },
+          {
+            "term": "analisis",
+            "score": 0.042998
+          },
+          {
+            "term": "estudio",
+            "score": 0.03886
+          },
+          {
+            "term": "juridico",
+            "score": 0.038459
+          },
+          {
+            "term": "reforma",
+            "score": 0.038078
+          },
+          {
+            "term": "reformas",
+            "score": 0.037899
+          },
+          {
+            "term": "123 constitucional",
+            "score": 0.037278
+          },
+          {
+            "term": "inconstitucionalidad",
+            "score": 0.033974
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 83
+          },
+          {
+            "label": "sociologia",
+            "count": 1
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 1
+          },
+          {
+            "label": "derecho constitucional",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 86
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 82
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 81
+          },
+          {
+            "label": "universidad lasallista benavente",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa único de especializaciones en derecho",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico instituto de investigaciones jurídicas institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.0,
+          "Area 3": 1.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 86,
+            "pct": 1.0
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0035104",
+            "doc_number_url": "000302992",
+            "title": "propuesta de reforma a los articulos 108, 110 y 111 constitucionales",
+            "program": "derecho",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del tepeyac",
+            "author": "Ruiz Vazquez, Nadia Citlali",
+            "advisor": "Romero Frias, Hector Santiago",
+            "x": -0.879752,
+            "y": -1.957764,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0295497",
+            "doc_number_url": "000278573",
+            "title": "el procedimiento del ejercicio de la acción de inconstitucionalidad, prevista por la fracción ii del articulo 105 constitucional",
+            "program": "derecho",
+            "year": 1999,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Sanchez Rodriguez, David",
+            "advisor": "Mejía Guízar, Ignacio",
+            "x": -0.883275,
+            "y": -1.962579,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0260923",
+            "doc_number_url": "000242994",
+            "title": "analisis del parrafo cuarto del articulo 21 constitucional",
+            "program": "derecho",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Martinez Barrera, Claudia Patricia",
+            "advisor": "Chaine López, Rafael",
+            "x": -0.878363,
+            "y": -1.951222,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0273728",
+            "doc_number_url": "000002407",
+            "title": "el defensor de oficio y el articulo 20 fracc. viii de la constitucion",
+            "program": "derecho",
+            "year": 1997,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Perdigon Hernandez, Roberto Luis",
+            "advisor": "Solano Sánchez Gavito, Antonio",
+            "x": -0.886296,
+            "y": -1.949122,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0007485",
+            "doc_number_url": "000280621",
+            "title": "problematica de la manifestacion de las ideas en la via publica a la luz de los articulos 6o. y 9o. constitucionales",
+            "program": "derecho",
+            "year": 2000,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Quintero Miranda, Jocelyn",
+            "advisor": "Elias Musi, Edmundo",
+            "x": -0.90297,
+            "y": -1.94335,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0220154",
+            "doc_number_url": "000186728",
+            "title": "exegesis de la fraccion x del articulo 89 constitucional",
+            "program": "derecho",
+            "year": 1992,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Castillo Arellano, Emelia",
+            "advisor": "Arellano García, Carlos",
+            "x": -0.911563,
+            "y": -1.957757,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0070348",
+            "doc_number_url": "000080564",
+            "title": "la \"escuela articulo 123\"",
+            "program": "derecho",
+            "year": 1942,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Perez Grovas, Lara Rafael",
+            "advisor": "",
+            "x": -0.864058,
+            "y": -1.92793,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0216461",
+            "doc_number_url": "000172349",
+            "title": "exegesis al articulo 20 fraccion v de la constitucion general de la republica",
+            "program": "derecho",
+            "year": 1991,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Ramirez Bernal, Baltazar",
+            "advisor": "Chávez Castillo, Raúl",
+            "x": -0.915326,
+            "y": -1.967203,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 173,
+        "macrocluster_id": 1,
+        "micro_label": "DERECHO · LIBERTAD · COMISION · NACIONAL DERECHOS",
+        "size": 83,
+        "x": -0.532702,
+        "y": -2.47375,
+        "year_min": 1935,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "derecho",
+            "score": 0.104871
+          },
+          {
+            "term": "libertad",
+            "score": 0.072182
+          },
+          {
+            "term": "comision",
+            "score": 0.04815
+          },
+          {
+            "term": "nacional derechos",
+            "score": 0.04497
+          },
+          {
+            "term": "nacional",
+            "score": 0.04497
+          },
+          {
+            "term": "comision nacional",
+            "score": 0.04497
+          },
+          {
+            "term": "analisis",
+            "score": 0.043548
+          },
+          {
+            "term": "internacional",
+            "score": 0.037225
+          },
+          {
+            "term": "estudio",
+            "score": 0.036319
+          },
+          {
+            "term": "proteccion",
+            "score": 0.032339
+          },
+          {
+            "term": "juridica",
+            "score": 0.031061
+          },
+          {
+            "term": "juridico",
+            "score": 0.027659
+          },
+          {
+            "term": "teoria",
+            "score": 0.026855
+          },
+          {
+            "term": "individuales",
+            "score": 0.025356
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 66
+          },
+          {
+            "label": "filosofia",
+            "count": 5
+          },
+          {
+            "label": "trabajo social",
+            "count": 3
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 3
+          },
+          {
+            "label": "psicologia",
+            "count": 1
+          },
+          {
+            "label": "ciencias penales",
+            "count": 1
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 1
+          },
+          {
+            "label": "derecho constitucional",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 76
+          },
+          {
+            "label": "Area 4",
+            "count": 6
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 76
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 73
+          },
+          {
+            "label": "universidad alher aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales aragon institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 1
+          },
+          {
+            "label": "centro de estudios universitarios. escuela de derecho",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.012048,
+          "Area 3": 0.915663,
+          "Area 4": 0.072289,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 76,
+            "pct": 0.915663
+          },
+          {
+            "area": "Area 4",
+            "count": 6,
+            "pct": 0.072289
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.012048
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0539276",
+            "doc_number_url": "000833547",
+            "title": "subjetividad, empoderamiento y prácticas de libertad : revisión teórica del empoderamiento y la hermenéutica del sujeto de foucault",
+            "program": "psicologia",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Sánchez Roldán, José Antonio",
+            "advisor": "Legorreta Díaz, Ma. del Carmen (María del Carmen) ; Huidobro Márquez, Juan Carlos",
+            "x": -0.547688,
+            "y": -2.480764,
+            "cluster_strength": 0.580789
+          },
+          {
+            "thesis_id": "TH_0442738",
+            "doc_number_url": "000716803",
+            "title": "limites del fuero militar en tiempo de paz, en la administración de justicia sobre delitos y faltas cometidos por militares, cuando se afecta el bien jurídico de civiles, bajo la perspectiva de los derechos humanos",
+            "program": "derecho",
+            "year": 2014,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad tecnologica iberoamericana",
+            "author": "Martínez Martínez, Fredy",
+            "advisor": "Álvarez Campos, Javier",
+            "x": -0.550847,
+            "y": -2.44057,
+            "cluster_strength": 0.680375
+          },
+          {
+            "thesis_id": "TH_0093176",
+            "doc_number_url": "000097934",
+            "title": "la proteccion internacional de los derechos del hombre : filosofia y realizaciones",
+            "program": "derecho",
+            "year": 1965,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Herrera Gutierrez, José Celestino",
+            "advisor": "",
+            "x": -0.522998,
+            "y": -2.511646,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0518980",
+            "doc_number_url": "000814895",
+            "title": "¿porqué no podemos ser libres solas?",
+            "program": "filosofia",
+            "year": 2021,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Gavaldón Sánchez, Diana",
+            "advisor": "Lazos, Efraín",
+            "x": -0.575795,
+            "y": -2.489108,
+            "cluster_strength": 0.598805
+          },
+          {
+            "thesis_id": "TH_0038425",
+            "doc_number_url": "000319529",
+            "title": "nación de la libertad en la obra del libre albedrio de san agustin",
+            "program": "filosofia",
+            "year": 2003,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Ávila Ramos, Guadalupe",
+            "advisor": "Ramos Gomez-Perez, Antonio",
+            "x": -0.47401,
+            "y": -2.468493,
+            "cluster_strength": 0.583363
+          },
+          {
+            "thesis_id": "TH_0391391",
+            "doc_number_url": "000665641",
+            "title": "la jerarquía constitucional de los tratados internacionales en materia de derechos humanos",
+            "program": "derecho",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Pérez-Gil Ochoa, Adriana",
+            "advisor": "Córdova Vianello, Lorenzo",
+            "x": -0.564125,
+            "y": -2.527341,
+            "cluster_strength": 0.872377
+          },
+          {
+            "thesis_id": "TH_0525619",
+            "doc_number_url": "000819746",
+            "title": "derecho internacional humanitario y derecho penal internacional en el sistema interamericano de derechos humanos",
+            "program": "derecho",
+            "year": 2021,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Rodríguez Vargas, Irving Ilán",
+            "advisor": "García Ramírez, Sergio",
+            "x": -0.598195,
+            "y": -2.474118,
+            "cluster_strength": 0.640989
+          },
+          {
+            "thesis_id": "TH_0005997",
+            "doc_number_url": "000281928",
+            "title": "propuesta de regulacion juridica de la clonacion humana y su tratamiento etico",
+            "program": "derecho",
+            "year": 2000,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Mis Palma Leon, Sarah",
+            "advisor": "Mendoza Chipuli, Ricardo",
+            "x": -0.598326,
+            "y": -2.493655,
+            "cluster_strength": 0.564316
+          }
+        ]
+      },
+      {
+        "microcluster_id": 156,
+        "macrocluster_id": 1,
+        "micro_label": "POLITICA · POLITICO · ANALISIS · PARTIDO",
+        "size": 80,
+        "x": 0.381639,
+        "y": -2.046751,
+        "year_min": 1961,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "politica",
+            "score": 0.101035
+          },
+          {
+            "term": "politico",
+            "score": 0.066394
+          },
+          {
+            "term": "analisis",
+            "score": 0.054888
+          },
+          {
+            "term": "partido",
+            "score": 0.049205
+          },
+          {
+            "term": "liberalismo",
+            "score": 0.041119
+          },
+          {
+            "term": "social",
+            "score": 0.039428
+          },
+          {
+            "term": "politicos",
+            "score": 0.038922
+          },
+          {
+            "term": "revolucion",
+            "score": 0.036446
+          },
+          {
+            "term": "neoliberal",
+            "score": 0.033528
+          },
+          {
+            "term": "democracia",
+            "score": 0.031161
+          },
+          {
+            "term": "construccion",
+            "score": 0.030609
+          },
+          {
+            "term": "partido revolucion",
+            "score": 0.03005
+          },
+          {
+            "term": "partidos",
+            "score": 0.028596
+          },
+          {
+            "term": "partidos politicos",
+            "score": 0.028596
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 14
+          },
+          {
+            "label": "historia",
+            "count": 11
+          },
+          {
+            "label": "filosofia",
+            "count": 11
+          },
+          {
+            "label": "derecho",
+            "count": 10
+          },
+          {
+            "label": "sociologia",
+            "count": 8
+          },
+          {
+            "label": "ciencia politica",
+            "count": 4
+          },
+          {
+            "label": "comunicacion y periodismo",
+            "count": 3
+          },
+          {
+            "label": "estudios latinoamericanos",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 43
+          },
+          {
+            "label": "Area 4",
+            "count": 36
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 57
+          },
+          {
+            "label": "Maestría",
+            "count": 14
+          },
+          {
+            "label": "Doctorado",
+            "count": 9
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 76
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias politicas y sociales institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.0125,
+          "Area 3": 0.5375,
+          "Area 4": 0.45,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 43,
+            "pct": 0.5375
+          },
+          {
+            "area": "Area 4",
+            "count": 36,
+            "pct": 0.45
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.0125
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0339321",
+            "doc_number_url": "000618685",
+            "title": "un estudio de sociologia politica : la teoria de la representacion politica, el caso de mexico",
+            "program": "derecho",
+            "year": 2007,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Saldaña Hernandez, Emilio de Jesus",
+            "advisor": "Ayluardo y Saul, Mario",
+            "x": 0.386917,
+            "y": -2.047309,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0432458",
+            "doc_number_url": null,
+            "title": "la importancia de la corriente de los anales en el análisis político y social : en las materias del área histórico-social del cch",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2013,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Ruiz Anaya, Dulce María",
+            "advisor": "Ruiz Ocampo, Humberto",
+            "x": 0.373295,
+            "y": -2.041724,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0270580",
+            "doc_number_url": "000256156",
+            "title": "un acercamiento critico al ensayo politico de fernando savater",
+            "program": "ciencias politicas y administracion publica",
+            "year": 1997,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Hernandez Mendoza, Cesar Alejandro",
+            "advisor": "Cordoba Elias, Juan Pablo",
+            "x": 0.372169,
+            "y": -2.058905,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0111596",
+            "doc_number_url": "000105152",
+            "title": "thomas hobbes : estado y poder politico",
+            "program": "derecho",
+            "year": 1971,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Ramirez Lozano, Livio Manuel",
+            "advisor": "",
+            "x": 0.344775,
+            "y": -2.051169,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0051706",
+            "doc_number_url": "000338762",
+            "title": "el principe, el ciudadano y el excluido : hacia una reconstruccion critica del concepto de lo politico",
+            "program": "ciencia politica",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Doctorado",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Avalos Tenorio, Gerardo",
+            "advisor": "Dussel, Enrique",
+            "x": 0.405343,
+            "y": -2.075428,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0302299",
+            "doc_number_url": "000601961",
+            "title": "nietzsche : el concepto de lo politico en la voluntad de poder",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Cantera Fernandez, Jesus",
+            "advisor": "Flores Corrales, Otilio",
+            "x": 0.329707,
+            "y": -2.044249,
+            "cluster_strength": 0.978866
+          },
+          {
+            "thesis_id": "TH_0300709",
+            "doc_number_url": "000343508",
+            "title": "arturo m. almaguer, la idea de representacion politica",
+            "program": "filosofia",
+            "year": 2005,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Almaguer,José Arturo Martin",
+            "advisor": "Cerutti Guldberg, Horacio",
+            "x": 0.351125,
+            "y": -2.091002,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0236421",
+            "doc_number_url": "000194928",
+            "title": "la teoria de la democracia. del elitismo al pluralismo : los elitistas clasicos y la democracia",
+            "program": "filosofia",
+            "year": 1993,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Schettino Olmos, José Humberto",
+            "advisor": "Calvo Corina, Yturbe",
+            "x": 0.378048,
+            "y": -2.126149,
+            "cluster_strength": 0.959606
+          }
+        ]
+      },
+      {
+        "microcluster_id": 189,
+        "macrocluster_id": 1,
+        "micro_label": "FEDERAL · SERVIDORES · SERVIDORES PUBLICOS · PUBLICOS",
+        "size": 71,
+        "x": -0.95831,
+        "y": -1.522494,
+        "year_min": 1973,
+        "year_max": 2021,
+        "top_terms": [
+          {
+            "term": "federal",
+            "score": 0.107035
+          },
+          {
+            "term": "servidores",
+            "score": 0.084406
+          },
+          {
+            "term": "servidores publicos",
+            "score": 0.084406
+          },
+          {
+            "term": "publicos",
+            "score": 0.084406
+          },
+          {
+            "term": "responsabilidades",
+            "score": 0.070946
+          },
+          {
+            "term": "ley",
+            "score": 0.066292
+          },
+          {
+            "term": "administrativa",
+            "score": 0.065012
+          },
+          {
+            "term": "ley federal",
+            "score": 0.062713
+          },
+          {
+            "term": "administrativas",
+            "score": 0.062202
+          },
+          {
+            "term": "distrito federal",
+            "score": 0.061129
+          },
+          {
+            "term": "distrito",
+            "score": 0.061129
+          },
+          {
+            "term": "procedimiento",
+            "score": 0.059008
+          },
+          {
+            "term": "federal responsabilidades",
+            "score": 0.056065
+          },
+          {
+            "term": "administrativo",
+            "score": 0.054284
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 60
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 7
+          },
+          {
+            "label": "sistema de responsabilidad de servidores publicos",
+            "count": 1
+          },
+          {
+            "label": "economia",
+            "count": 1
+          },
+          {
+            "label": "administracion",
+            "count": 1
+          },
+          {
+            "label": "bibliotecologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 70
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 70
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 64
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento (coatzacoalcos",
+            "count": 1
+          },
+          {
+            "label": "universidad alher aragón",
+            "count": 1
+          },
+          {
+            "label": "centro de estudios universitarios (mexico). escuela de derecho, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.0,
+          "Area 3": 0.985915,
+          "Area 4": 0.014085,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 70,
+            "pct": 0.985915
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.014085
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0304514",
+            "doc_number_url": "000342134",
+            "title": "adecuacion de la ley federal de responsabilidades administrativas de los servidores públicos a la responsabilidad del estado por daños a particulares segun la reforma al titulo cuarto y articulo 113 de la constitucion general",
+            "program": "derecho",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Fragoso Estrada, Mauricio",
+            "advisor": "Pérez Hernández, José Francisco Pedro",
+            "x": -0.954588,
+            "y": -1.525009,
+            "cluster_strength": 0.917793
+          },
+          {
+            "thesis_id": "TH_0031146",
+            "doc_number_url": "000308968",
+            "title": "la responsabilidad de los servidores públicos federales y estatales en el marco del derecho",
+            "program": "derecho",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad villa rica",
+            "author": "Mayoral Barranca, Oscar",
+            "advisor": "Montalvo Cortes, lazaro ; Hernandez valdez, Saul Guillermo",
+            "x": -0.97268,
+            "y": -1.530228,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0059922",
+            "doc_number_url": "000334767",
+            "title": "examen constitucional y legal de la ley federal de responsabilidades administrativas de los servidores públicos",
+            "program": "derecho",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Orrico Galvez, Alejandro",
+            "advisor": "Nava Negrete, Alfonso",
+            "x": -0.968557,
+            "y": -1.507002,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0365254",
+            "doc_number_url": "000651338",
+            "title": "la desconcentración administrativa en el distrito federal : el caso de la delegación iztapalapa, alcances y limitaciones",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Rosales Sánchez, Jessica Rosalba",
+            "advisor": "Quijano Torres, Manuel",
+            "x": -0.936247,
+            "y": -1.52178,
+            "cluster_strength": 0.97589
+          },
+          {
+            "thesis_id": "TH_0195936",
+            "doc_number_url": "000092285",
+            "title": "el distrito federal como entidad federativa y la eleccion de su gobierno",
+            "program": "derecho",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Trujillo Sotelo, José Luis",
+            "advisor": "",
+            "x": -0.937976,
+            "y": -1.5068,
+            "cluster_strength": 0.878826
+          },
+          {
+            "thesis_id": "TH_0339061",
+            "doc_number_url": "000615180",
+            "title": "la obligacion de las autoridades administrativas de acatar la jurisprudencia al realizar funciones materialmente jurisdiccionales",
+            "program": "derecho",
+            "year": 2007,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Rosales Rendon, Alejandra Nohemi",
+            "advisor": "Pérez Montaño, Alfredo",
+            "x": -0.96284,
+            "y": -1.551949,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0040516",
+            "doc_number_url": "000320054",
+            "title": "estudio comparativo entre la ley federal de responsabilidades de los servidores públicos y la ley federal de responsabilidades administrativas de los servidores públicos en cuanto a procedimiento : ilegalidad del usuario simulado",
+            "program": "derecho",
+            "year": 2003,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Delgado Sanchez, Maria Argelia",
+            "advisor": "Cruz Ramirez, Ismael Rafael",
+            "x": -0.944848,
+            "y": -1.492847,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0163583",
+            "doc_number_url": "000015965",
+            "title": "ensayo socio-juridico del amparo administrativo en relacion al autotrasporte federal",
+            "program": "derecho",
+            "year": 1983,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "López Rojas, Ernesto Javier Ricardo",
+            "advisor": "",
+            "x": -0.992025,
+            "y": -1.508918,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 159,
+        "macrocluster_id": 1,
+        "micro_label": "FEDERAL · DISTRITO FEDERAL · DISTRITO · PROPIEDAD",
+        "size": 61,
+        "x": -1.451633,
+        "y": -1.049744,
+        "year_min": 1943,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "federal",
+            "score": 0.116695
+          },
+          {
+            "term": "distrito federal",
+            "score": 0.109921
+          },
+          {
+            "term": "distrito",
+            "score": 0.109921
+          },
+          {
+            "term": "propiedad",
+            "score": 0.090068
+          },
+          {
+            "term": "publico",
+            "score": 0.068023
+          },
+          {
+            "term": "inmuebles",
+            "score": 0.065066
+          },
+          {
+            "term": "bienes",
+            "score": 0.059441
+          },
+          {
+            "term": "publico propiedad",
+            "score": 0.057889
+          },
+          {
+            "term": "registro publico",
+            "score": 0.057889
+          },
+          {
+            "term": "registro",
+            "score": 0.057889
+          },
+          {
+            "term": "arrendamiento",
+            "score": 0.056413
+          },
+          {
+            "term": "bienes inmuebles",
+            "score": 0.050306
+          },
+          {
+            "term": "procedimiento",
+            "score": 0.043433
+          },
+          {
+            "term": "inscripcion",
+            "score": 0.036476
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 57
+          },
+          {
+            "label": "contaduria",
+            "count": 1
+          },
+          {
+            "label": "economia",
+            "count": 1
+          },
+          {
+            "label": "geografia",
+            "count": 1
+          },
+          {
+            "label": "arquitectura",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 59
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 59
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 54
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "tecnológico universitario de mexico. escuela de derecho, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad intercontinental (mexico)",
+            "count": 1
+          },
+          {
+            "label": "centro de estudios universitarios (mexico). escuela de derecho,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales acatlan institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.016393,
+          "Area 2": 0.0,
+          "Area 3": 0.967213,
+          "Area 4": 0.016393,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 59,
+            "pct": 0.967213
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.016393
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.016393
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0569516",
+            "doc_number_url": "000871029",
+            "title": "\"la inscripción de la posesión como requisito necesario para garantizar la publicidad durante el plazo de la usucapión de inmuebles en el estado de méxico\"",
+            "program": "derecho",
+            "year": 2025,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Arroyo Rojas, Luis Eduardo",
+            "advisor": "Salazar Tierrablanca, Francisco Javier",
+            "x": -1.486066,
+            "y": -1.122358,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0043114",
+            "doc_number_url": "000326543",
+            "title": "el arbitraje y el contrato de arrendamiento inmobiliario",
+            "program": "derecho",
+            "year": 2003,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Hernandez Nocedal, Maria Eugenia",
+            "advisor": "Hernandez Cabrera, Luisa",
+            "x": -1.546424,
+            "y": -1.029353,
+            "cluster_strength": 0.851688
+          },
+          {
+            "thesis_id": "TH_0265270",
+            "doc_number_url": "000234089",
+            "title": "analisis juridico-social del contrato de arrendamiento para casa-habitacion",
+            "program": "derecho",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del valle de mexico",
+            "author": "Vazquez Díaz, Edemir",
+            "advisor": "Mora Lardizabal, Eustorgio de Jesús",
+            "x": -1.541213,
+            "y": -1.098179,
+            "cluster_strength": 0.895181
+          },
+          {
+            "thesis_id": "TH_0182047",
+            "doc_number_url": "000030986",
+            "title": "el procedimiento de reconocimiento y titulacion de bienes comunales y el de exclusion de propiedades particulares",
+            "program": "derecho",
+            "year": 1986,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Gomez Gonzalez, Jesus",
+            "advisor": "Otero Muñoz, Ignacio Eugenio",
+            "x": -1.550272,
+            "y": -1.100178,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0125295",
+            "doc_number_url": "000110310",
+            "title": "el registro publico de la propiedad y la proteccion a terceros adquirientes de buena fe",
+            "program": "derecho",
+            "year": 1975,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Galván Rivera, Flavio",
+            "advisor": "",
+            "x": -1.484904,
+            "y": -1.160808,
+            "cluster_strength": 0.922583
+          },
+          {
+            "thesis_id": "TH_0253100",
+            "doc_number_url": "000224362",
+            "title": "procedimiento para la enajenacion de bienes inmuebles propiedad de la federacion",
+            "program": "derecho",
+            "year": 1995,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "López García, José Guadalupe",
+            "advisor": "Luna Ramos, Bernabé",
+            "x": -1.567339,
+            "y": -1.037782,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0247744",
+            "doc_number_url": "000230792",
+            "title": "la necesidad juridica, procedimiento inscripcion en el registro publico de la propiedad de los contratos de compra venta de bienes inmuebles y efectos que produce frente a terceros",
+            "program": "derecho",
+            "year": 1995,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Alcantara Jimenez, Jesus Gerardo",
+            "advisor": "González Hernández, Alfredo",
+            "x": -1.503982,
+            "y": -1.162863,
+            "cluster_strength": 0.943568
+          },
+          {
+            "thesis_id": "TH_0125888",
+            "doc_number_url": "000110413",
+            "title": "de la inscripcion en el registro publico de la propiedad de los contratos de promesa de compra-venta de bienes inmuebles",
+            "program": "derecho",
+            "year": 1975,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Jimenez Perezcano, Octavio",
+            "advisor": "Cruz Mejia, Andrés",
+            "x": -1.501205,
+            "y": -1.170994,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 64,
+        "macrocluster_id": 1,
+        "micro_label": "VIOLACION · DELITO · DELITO VIOLACION · ESTUPRO",
+        "size": 58,
+        "x": 2.99709,
+        "y": -4.198653,
+        "year_min": 1899,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "violacion",
+            "score": 0.181536
+          },
+          {
+            "term": "delito",
+            "score": 0.150663
+          },
+          {
+            "term": "delito violacion",
+            "score": 0.138619
+          },
+          {
+            "term": "estupro",
+            "score": 0.076209
+          },
+          {
+            "term": "sexual",
+            "score": 0.065104
+          },
+          {
+            "term": "victima",
+            "score": 0.061858
+          },
+          {
+            "term": "juridico",
+            "score": 0.059292
+          },
+          {
+            "term": "delito estupro",
+            "score": 0.0552
+          },
+          {
+            "term": "delitos",
+            "score": 0.054949
+          },
+          {
+            "term": "prostitucion",
+            "score": 0.052756
+          },
+          {
+            "term": "analisis",
+            "score": 0.051393
+          },
+          {
+            "term": "sexuales",
+            "score": 0.048882
+          },
+          {
+            "term": "estudio",
+            "score": 0.047294
+          },
+          {
+            "term": "delitos sexuales",
+            "score": 0.045006
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 48
+          },
+          {
+            "label": "psicologia",
+            "count": 4
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 2
+          },
+          {
+            "label": "trabajo social",
+            "count": 1
+          },
+          {
+            "label": "comunicacion y periodismo",
+            "count": 1
+          },
+          {
+            "label": "medico cirujano",
+            "count": 1
+          },
+          {
+            "label": "periodismo",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 54
+          },
+          {
+            "label": "Area 2",
+            "count": 3
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 58
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 48
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 2
+          },
+          {
+            "label": "centro de estudios universitarios. escuela de derecho",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autonoma de mexico. escuela nacional de estudios profesionales acatlán,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.051724,
+          "Area 3": 0.931034,
+          "Area 4": 0.017241,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 54,
+            "pct": 0.931034
+          },
+          {
+            "area": "Area 2",
+            "count": 3,
+            "pct": 0.051724
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.017241
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0224549",
+            "doc_number_url": "000189552",
+            "title": "el delito de violacion y su transcendencia social",
+            "program": "derecho",
+            "year": 1992,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Najera Paredes, German",
+            "advisor": "Arteaga Martínez, Juan Manuel",
+            "x": 3.009797,
+            "y": -4.251618,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0481055",
+            "doc_number_url": "000763586",
+            "title": "reinserción socia : medida imposible en violadores seriales",
+            "program": "derecho",
+            "year": 2017,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Cruz Velázquez, Ivonne Rocío de la",
+            "advisor": "Rebollo Munguía , Pablo Sergio",
+            "x": 3.001537,
+            "y": -4.256921,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0408163",
+            "doc_number_url": "000700194",
+            "title": "el abuso sexual como delito y su problemática jurídicay social en el distrito federal",
+            "program": "derecho",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Álvarez Rodríguez, Eduardo",
+            "advisor": "Cabrera Cortes, Enrique Martin",
+            "x": 3.059681,
+            "y": -4.222679,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0248482",
+            "doc_number_url": "000223069",
+            "title": "hostigamiento sexual verdaderamente un delito o falta administrativa en comparacion de las penas de los restantes delitos sexuales",
+            "program": "derecho",
+            "year": 1995,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del valle de mexico",
+            "author": "Ballesteros Silva, Julieta",
+            "advisor": "Villa Caballero, Maria Sofia",
+            "x": 3.066083,
+            "y": -4.189743,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0450330",
+            "doc_number_url": "000737938",
+            "title": "historia de un hostigamiento sexual en el canal judicial",
+            "program": "periodismo",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Barragán Lobo, Ariadna Rotceh",
+            "advisor": "Robles, Francisca",
+            "x": 3.016443,
+            "y": -4.128195,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0061700",
+            "doc_number_url": null,
+            "title": "estupro y violacion",
+            "program": "medico cirujano",
+            "year": 1899,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Grajales, Juan N.",
+            "advisor": "",
+            "x": 3.051469,
+            "y": -4.247565,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0079544",
+            "doc_number_url": "000085861",
+            "title": "el problema sexual en las prisiones",
+            "program": "derecho",
+            "year": 1954,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Cárdenas V., V. Manuel",
+            "advisor": "Bernaldo de Quiroz, Constancio",
+            "x": 2.973978,
+            "y": -4.128846,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0223924",
+            "doc_number_url": "000185509",
+            "title": "violacion, estudio y causas sociales",
+            "program": "derecho",
+            "year": 1992,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Mayen Mayen, Maria Esther",
+            "advisor": "Reyes Mireles, Pedro Alfonso",
+            "x": 3.073974,
+            "y": -4.199751,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 194,
+        "macrocluster_id": 1,
+        "micro_label": "DISTRITO · DISTRITO FEDERAL · TRIBUNAL · JUSTICIA",
+        "size": 56,
+        "x": -1.393335,
+        "y": -1.927106,
+        "year_min": 1934,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "distrito",
+            "score": 0.110556
+          },
+          {
+            "term": "distrito federal",
+            "score": 0.109013
+          },
+          {
+            "term": "tribunal",
+            "score": 0.080341
+          },
+          {
+            "term": "justicia",
+            "score": 0.077184
+          },
+          {
+            "term": "tribunal federal",
+            "score": 0.055287
+          },
+          {
+            "term": "apelacion",
+            "score": 0.053208
+          },
+          {
+            "term": "administrativo",
+            "score": 0.051368
+          },
+          {
+            "term": "federal justicia",
+            "score": 0.050123
+          },
+          {
+            "term": "administrativa",
+            "score": 0.050123
+          },
+          {
+            "term": "fiscal",
+            "score": 0.048134
+          },
+          {
+            "term": "contencioso administrativo",
+            "score": 0.043905
+          },
+          {
+            "term": "contencioso",
+            "score": 0.043905
+          },
+          {
+            "term": "ante",
+            "score": 0.043578
+          },
+          {
+            "term": "juicio",
+            "score": 0.041362
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 51
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 1
+          },
+          {
+            "label": "medico cirujano",
+            "count": 1
+          },
+          {
+            "label": "arquitectura",
+            "count": 1
+          },
+          {
+            "label": "valuacion inmobiliaria",
+            "count": 1
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 53
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 53
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 52
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 1
+          },
+          {
+            "label": "escuela superior de ciencias juridicas (mexico). escuela de derecho, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.035714,
+          "Area 2": 0.017857,
+          "Area 3": 0.946429,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 53,
+            "pct": 0.946429
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.035714
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.017857
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0502297",
+            "doc_number_url": "000770062",
+            "title": "cumplimiento de sentencias dictadas por el tribunal federal de justicia administrativa : hacia una tutela jurídica efectiva",
+            "program": "derecho",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Pastor Rangel, Víctor",
+            "advisor": "Alarcón Alarcón, Víctor Manuel",
+            "x": -1.39838,
+            "y": -1.904423,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0400049",
+            "doc_number_url": "000680461",
+            "title": "implementación del expediente virtual como una forma de impartición de justicia pronta y expedita, ante el tribunal superior de justicia del distrito federal, basado en el procedimiento contencioso administrativo",
+            "program": "derecho",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "González Tello, Adriana",
+            "advisor": "García Domínguez, Diana Selene",
+            "x": -1.414988,
+            "y": -1.91841,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0460479",
+            "doc_number_url": "000732923",
+            "title": "el juicio contencioso administrativo federal a la luz de la jurisprudencia",
+            "program": "derecho",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Rivera Zárate, Carmen Aurelia",
+            "advisor": "Flores Solano, Ana Isabel",
+            "x": -1.416054,
+            "y": -1.918607,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0396633",
+            "doc_number_url": "000673721",
+            "title": "el sistema de justicia en línea ante el tribunal federal de justicia fiscal y administrativa",
+            "program": "derecho",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Barrón Rojas, Julio César",
+            "advisor": "Pérez Montaño, Alfredo",
+            "x": -1.416846,
+            "y": -1.917365,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0109084",
+            "doc_number_url": "000104608",
+            "title": "naturaleza juridica del tribunal de lo contencioso administrativo del distrito federal",
+            "program": "derecho",
+            "year": 1971,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Casas Andrade, José Alberto",
+            "advisor": "",
+            "x": -1.415142,
+            "y": -1.912575,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0213229",
+            "doc_number_url": "000161326",
+            "title": "estudio juridico de la ejecutoridad de las sentencias que dicta el tribunal contencioso administrativo del distrito federal",
+            "program": "derecho",
+            "year": 1991,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del valle de mexico",
+            "author": "Gil Martinez, Diego",
+            "advisor": "Palavicini Esponda, Rene Antonio",
+            "x": -1.3809,
+            "y": -1.960432,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0510370",
+            "doc_number_url": "000805829",
+            "title": "análisis jurídico de la notificación por boletín jurisdiccional, dentro del juicio contencioso administrativo ante el tribunal federal de justicia administrativa",
+            "program": "derecho",
+            "year": 2020,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "León Juárez, María Teresa",
+            "advisor": "Arellano Morales, Emmanuel",
+            "x": -1.43376,
+            "y": -1.928575,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0384881",
+            "doc_number_url": "000671342",
+            "title": "análisis jurídico del juicio en línea instruido ante el tribunal federal de justicia fiscal y administrativa",
+            "program": "derecho",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Dolores Salazar, Lilia Gabriela",
+            "advisor": "García Domínguez, Diana Selene",
+            "x": -1.435866,
+            "y": -1.942885,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 196,
+        "macrocluster_id": 1,
+        "micro_label": "PENITENCIARIA · SOCIAL · READAPTACION · TRABAJO",
+        "size": 54,
+        "x": -1.355099,
+        "y": -2.962991,
+        "year_min": 1954,
+        "year_max": 2021,
+        "top_terms": [
+          {
+            "term": "penitenciaria",
+            "score": 0.096877
+          },
+          {
+            "term": "social",
+            "score": 0.089047
+          },
+          {
+            "term": "readaptacion",
+            "score": 0.077489
+          },
+          {
+            "term": "trabajo",
+            "score": 0.0735
+          },
+          {
+            "term": "readaptacion social",
+            "score": 0.072387
+          },
+          {
+            "term": "prision",
+            "score": 0.058701
+          },
+          {
+            "term": "penitenciarios",
+            "score": 0.056045
+          },
+          {
+            "term": "penitenciario",
+            "score": 0.053626
+          },
+          {
+            "term": "centros",
+            "score": 0.052525
+          },
+          {
+            "term": "delincuente",
+            "score": 0.051205
+          },
+          {
+            "term": "centros penitenciarios",
+            "score": 0.046992
+          },
+          {
+            "term": "personalidad",
+            "score": 0.040465
+          },
+          {
+            "term": "penal",
+            "score": 0.038861
+          },
+          {
+            "term": "estudio",
+            "score": 0.038133
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 37
+          },
+          {
+            "label": "psicologia",
+            "count": 7
+          },
+          {
+            "label": "arquitectura",
+            "count": 2
+          },
+          {
+            "label": "trabajo social",
+            "count": 1
+          },
+          {
+            "label": "psiquiatria",
+            "count": 1
+          },
+          {
+            "label": "periodismo",
+            "count": 1
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 1
+          },
+          {
+            "label": "economia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 46
+          },
+          {
+            "label": "Area 2",
+            "count": 4
+          },
+          {
+            "label": "Area 1",
+            "count": 3
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 50
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 46
+          },
+          {
+            "label": "universidad salesiana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad latina",
+            "count": 1
+          },
+          {
+            "label": "universidad femenina de mexico escuela de derecho institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "centro escolar universitario escuela de derecho, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad del tepeyac (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.055556,
+          "Area 2": 0.074074,
+          "Area 3": 0.851852,
+          "Area 4": 0.018519,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 46,
+            "pct": 0.851852
+          },
+          {
+            "area": "Area 2",
+            "count": 4,
+            "pct": 0.074074
+          },
+          {
+            "area": "Area 1",
+            "count": 3,
+            "pct": 0.055556
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.018519
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0179873",
+            "doc_number_url": "000013546",
+            "title": "la asistencia penitenciaria y postpenitenciaria como medios de readaptacion social de sentenciados",
+            "program": "derecho",
+            "year": 1986,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Bonifaz Nagore, Luz Grisell",
+            "advisor": "Archundia Diaz, René",
+            "x": -1.344676,
+            "y": -2.961171,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0021164",
+            "doc_number_url": "000297389",
+            "title": "origen y practica de la pena de prision como sistema de readaptacion social del delincuente",
+            "program": "derecho",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Sanchez Salgado, Arturo",
+            "advisor": "Hernández Islas, Juan Andrés",
+            "x": -1.371914,
+            "y": -2.966822,
+            "cluster_strength": 0.901524
+          },
+          {
+            "thesis_id": "TH_0166894",
+            "doc_number_url": "000020250",
+            "title": "estudio comparativo entre una muestra de reincidentes y una de primodelincuentes en el reclusorio preventino norte",
+            "program": "psicologia",
+            "year": 1984,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Aguilar Figueroa, Victor Daniel",
+            "advisor": "Morales Carmona, Francisco Antonio",
+            "x": -1.331766,
+            "y": -2.954753,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0231080",
+            "doc_number_url": "000190697",
+            "title": "funcionamiento de la readaptacion social en los centros penitenciarios",
+            "program": "derecho",
+            "year": 1993,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "García Mejia, Neri",
+            "advisor": "Durán Alvarado, María Guadalupe",
+            "x": -1.327721,
+            "y": -2.961049,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0008942",
+            "doc_number_url": "000287032",
+            "title": "la readaptacion social del delincuente reincidente",
+            "program": "derecho",
+            "year": 2000,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Sanzores Cortés, Arisbel Gpe.",
+            "advisor": "Barragán Salvatierra, Carlos",
+            "x": -1.374226,
+            "y": -2.986846,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0011671",
+            "doc_number_url": "000287854",
+            "title": "propuesta de reforma al sistema penitenciario nacional",
+            "program": "derecho",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Buendia Ochoa, Miguel German Mariano",
+            "advisor": "León López, María Graciela",
+            "x": -1.327742,
+            "y": -2.941225,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0241241",
+            "doc_number_url": "000203669",
+            "title": "trascendencia socio-juridica sobre el trabajo del recluso como medio de readaptacion social",
+            "program": "derecho",
+            "year": 1994,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Gonzalez Luna, Alicia",
+            "advisor": "Alquicira López, Amado Alvaro",
+            "x": -1.315414,
+            "y": -2.955831,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0241396",
+            "doc_number_url": "000204669",
+            "title": "la penologia como base de la politica penitenciaria",
+            "program": "derecho",
+            "year": 1994,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Granados Barrios, Olga Patricia",
+            "advisor": "Daza Gómez, Carlos",
+            "x": -1.335354,
+            "y": -2.927402,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 146,
+        "macrocluster_id": 1,
+        "micro_label": "CONTRATO · CONTRATOS · ADHESION · PUBLICA",
+        "size": 49,
+        "x": -1.291058,
+        "y": -0.787507,
+        "year_min": 1930,
+        "year_max": 2016,
+        "top_terms": [
+          {
+            "term": "contrato",
+            "score": 0.276553
+          },
+          {
+            "term": "contratos",
+            "score": 0.206308
+          },
+          {
+            "term": "adhesion",
+            "score": 0.073107
+          },
+          {
+            "term": "publica",
+            "score": 0.062202
+          },
+          {
+            "term": "obra",
+            "score": 0.046138
+          },
+          {
+            "term": "obra publica",
+            "score": 0.046138
+          },
+          {
+            "term": "analisis",
+            "score": 0.043618
+          },
+          {
+            "term": "juridico",
+            "score": 0.042069
+          },
+          {
+            "term": "contrato adhesion",
+            "score": 0.041494
+          },
+          {
+            "term": "transaccion",
+            "score": 0.038889
+          },
+          {
+            "term": "contrato transaccion",
+            "score": 0.038889
+          },
+          {
+            "term": "naturaleza",
+            "score": 0.038818
+          },
+          {
+            "term": "rescision",
+            "score": 0.037113
+          },
+          {
+            "term": "mandato",
+            "score": 0.033046
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 47
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 47
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 48
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 43
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 2
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 1
+          },
+          {
+            "label": "instituto patria bosques,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.040816,
+          "Area 2": 0.0,
+          "Area 3": 0.959184,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 47,
+            "pct": 0.959184
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.040816
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0271297",
+            "doc_number_url": "000245885",
+            "title": "el verdadero contrato de adhesion",
+            "program": "derecho",
+            "year": 1997,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Leyva Mendoza, Antonio Manuel",
+            "advisor": "Lechuga Martinez, Jose Luis",
+            "x": -1.280518,
+            "y": -0.786714,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0257880",
+            "doc_number_url": "000236202",
+            "title": "el contrato consigo mismo",
+            "program": "derecho",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Escobedo García, Sarai",
+            "advisor": "Flores Tavares, Jesús",
+            "x": -1.295524,
+            "y": -0.77125,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0085173",
+            "doc_number_url": "000090993",
+            "title": "la representacion en el contrato de mandato",
+            "program": "derecho",
+            "year": 1961,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Alarcon Islas, Porfirio",
+            "advisor": "",
+            "x": -1.271778,
+            "y": -0.795534,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0321044",
+            "doc_number_url": "000606519",
+            "title": "autonomia de la voluntad de las partes en los contratos de suministro o considerados de adhesion",
+            "program": "derecho",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Licona Gomez, Alejandro",
+            "advisor": "Servín Becerra, Jose Jorge",
+            "x": -1.30411,
+            "y": -0.770374,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0090519",
+            "doc_number_url": "000100092",
+            "title": "los contratos de adhesion : su naturaleza jurdica",
+            "program": "derecho",
+            "year": 1964,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Carranco Frausto, Ernesto",
+            "advisor": "",
+            "x": -1.275786,
+            "y": -0.767599,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0066154",
+            "doc_number_url": "000082590",
+            "title": "de los contratos por adhesion",
+            "program": "derecho",
+            "year": 1935,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Valle Prieto, Luis del",
+            "advisor": "",
+            "x": -1.294008,
+            "y": -0.762489,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0011187",
+            "doc_number_url": "000291177",
+            "title": "la procedencia o no de la pena convencional de los contratos en general",
+            "program": "derecho",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Baez Rodriguez, Fernando Oscar",
+            "advisor": "Servín Becerra, Jose Jorge",
+            "x": -1.292339,
+            "y": -0.759169,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0178128",
+            "doc_number_url": "000008557",
+            "title": "el contrato de adhesion",
+            "program": "derecho",
+            "year": 1985,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Hernandez Villareal, Vinicio Romulo",
+            "advisor": "Gonzalez Iturraran, Hernan",
+            "x": -1.271382,
+            "y": -0.766009,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 16,
+        "macrocluster_id": 1,
+        "micro_label": "SOCIEDAD · SOCIEDAD ANONIMA · ANONIMA · SOCIEDADES",
+        "size": 48,
+        "x": -2.473972,
+        "y": -0.954476,
+        "year_min": 1938,
+        "year_max": 2010,
+        "top_terms": [
+          {
+            "term": "sociedad",
+            "score": 0.155308
+          },
+          {
+            "term": "sociedad anonima",
+            "score": 0.147364
+          },
+          {
+            "term": "anonima",
+            "score": 0.147364
+          },
+          {
+            "term": "sociedades",
+            "score": 0.133274
+          },
+          {
+            "term": "anonimas",
+            "score": 0.126977
+          },
+          {
+            "term": "sociedades anonimas",
+            "score": 0.126977
+          },
+          {
+            "term": "acciones",
+            "score": 0.055389
+          },
+          {
+            "term": "estudio",
+            "score": 0.048174
+          },
+          {
+            "term": "capital",
+            "score": 0.042117
+          },
+          {
+            "term": "fusion",
+            "score": 0.038209
+          },
+          {
+            "term": "administracion",
+            "score": 0.035752
+          },
+          {
+            "term": "administracion sociedad",
+            "score": 0.035752
+          },
+          {
+            "term": "ley",
+            "score": 0.034029
+          },
+          {
+            "term": "asambleas",
+            "score": 0.033725
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 33
+          },
+          {
+            "label": "contaduria",
+            "count": 13
+          },
+          {
+            "label": "derecho empresarial",
+            "count": 1
+          },
+          {
+            "label": "administracion",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 48
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 46
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 41
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "colegio partenón (mexico). escuela de derecho, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "centro de estudios universitarios (mexico). escuela de derecho, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad del tepeyac (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.0,
+          "Area 3": 1.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 48,
+            "pct": 1.0
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0366755",
+            "doc_number_url": "000649230",
+            "title": "análisis del poder otorgado por una sociedad anónima como acto mercantil y la conveniencia de conferir a los corredores públicos las facultades para su formalización y registro",
+            "program": "derecho",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Varela Reyna, Alfonso Octavio",
+            "advisor": "Oviedo de la Vega, Andrés",
+            "x": -2.469706,
+            "y": -0.95474,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0224334",
+            "doc_number_url": "000182204",
+            "title": "el gerente como figura primordial de la administración de la sociedad anonima",
+            "program": "derecho",
+            "year": 1992,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Morales Barron, Manuel Esteban",
+            "advisor": "Rangel Cansino, Alejandro Arturo",
+            "x": -2.478759,
+            "y": -0.960269,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0195517",
+            "doc_number_url": "000095418",
+            "title": "situacion legal de los socios en la fusion de una sociedad anonima con otra sociedad mercantil",
+            "program": "derecho",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad la salle",
+            "author": "Selva Hernandez, Alejandro Leon de la",
+            "advisor": "Monzalvo Laguna, Nelson",
+            "x": -2.46245,
+            "y": -0.958899,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0253205",
+            "doc_number_url": "000231244",
+            "title": "el proceso de disolucion y liquidacion de las sociedades anonimas",
+            "program": "derecho",
+            "year": 1995,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "López Sanchez, Enrique Dionisio",
+            "advisor": "Jiménez Calderón, Arturo",
+            "x": -2.486761,
+            "y": -0.956094,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0079824",
+            "doc_number_url": "000070252",
+            "title": "algunos aspectos de los aumentos del capital social en una sociedad anonima",
+            "program": "contaduria",
+            "year": 1954,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Marron Gonzalez, Manuel",
+            "advisor": "",
+            "x": -2.48932,
+            "y": -0.951092,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0032681",
+            "doc_number_url": "000313109",
+            "title": "necesarias reformas al tratamiento de asambleas en sociedades anonimas",
+            "program": "derecho empresarial",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Especialidad",
+            "plantel": "facultad de derecho unam",
+            "author": "Ortega Gonzalez, Julio Cesar",
+            "advisor": "Mondragón Pedrero, Alberto Fabián",
+            "x": -2.486234,
+            "y": -0.965122,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0137817",
+            "doc_number_url": "000111968",
+            "title": "estudio sobre el aumento del capital social en las sociedades anonimas",
+            "program": "derecho",
+            "year": 1977,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Villegas Villanueva, Victor",
+            "advisor": "Gallegos González, Felipe de Jesús",
+            "x": -2.490998,
+            "y": -0.953836,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0199618",
+            "doc_number_url": "000785098",
+            "title": "la necesidad de la intervención del notario en la constitución y reforma de estatutos de la sociedad anónima",
+            "program": "derecho",
+            "year": 1989,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "González Jiménez, Arturo",
+            "advisor": "",
+            "x": -2.45762,
+            "y": -0.960788,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 36,
+    "macro_label": "LUPUS · LUPUS ERITEMATOSO · ERITEMATOSO · ARTRITIS",
+    "size": 109,
+    "microcluster_count": 2,
+    "microclusters": [
+      {
+        "microcluster_id": 8,
+        "macrocluster_id": 36,
+        "micro_label": "SISTEMICO · ERITEMATOSO SISTEMICO · PACIENTES · PACIENTES LUPUS",
+        "size": 61,
+        "x": 10.562905,
+        "y": 1.230229,
+        "year_min": 1885,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "sistemico",
+            "score": 0.132807
+          },
+          {
+            "term": "eritematoso sistemico",
+            "score": 0.132189
+          },
+          {
+            "term": "pacientes",
+            "score": 0.126896
+          },
+          {
+            "term": "pacientes lupus",
+            "score": 0.117161
+          },
+          {
+            "term": "generalizado",
+            "score": 0.068696
+          },
+          {
+            "term": "eritematoso generalizado",
+            "score": 0.064449
+          },
+          {
+            "term": "factores",
+            "score": 0.053761
+          },
+          {
+            "term": "relacion",
+            "score": 0.040443
+          },
+          {
+            "term": "hospital",
+            "score": 0.035482
+          },
+          {
+            "term": "riesgo",
+            "score": 0.034476
+          },
+          {
+            "term": "actividad",
+            "score": 0.034368
+          },
+          {
+            "term": "lupica",
+            "score": 0.032474
+          },
+          {
+            "term": "indice",
+            "score": 0.031687
+          },
+          {
+            "term": "sindrome",
+            "score": 0.03103
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina interna",
+            "count": 16
+          },
+          {
+            "label": "reumatologia",
+            "count": 8
+          },
+          {
+            "label": "pediatria medica",
+            "count": 6
+          },
+          {
+            "label": "ciencias medicas",
+            "count": 5
+          },
+          {
+            "label": "alergia e inmunologia clinica pediatrica",
+            "count": 3
+          },
+          {
+            "label": "nefrologia",
+            "count": 3
+          },
+          {
+            "label": "pediatria",
+            "count": 3
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 60
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 46
+          },
+          {
+            "label": "Licenciatura",
+            "count": 10
+          },
+          {
+            "label": "Maestría",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 60
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.016393,
+          "Area 2": 0.983607,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 60,
+            "pct": 0.983607
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.016393
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0342098",
+            "doc_number_url": "000639459",
+            "title": "subpoblaciones de linfocitos b en ratones que desarrollan una enfermedad parecida al lupus",
+            "program": "quimica farmaceutico biologica",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Arámbula Fuentes, Alicia Noemí",
+            "advisor": "Chávez Rueda, Adriana Karina ; Marroquín Segura, Rubén",
+            "x": 10.559419,
+            "y": 1.233622,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0447543",
+            "doc_number_url": "000712327",
+            "title": "comparación de los hallazgos ecocardiográficos en pacientes con lupus eritematoso sistémico y lupus eritematoso sistémico más síndrome antifosfolipidos",
+            "program": "reumatologia",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Sezate Villa, María del Carmen",
+            "advisor": "Saavedra Salinas, Miguel Ángel ; Medina García, Gabriela ; Bustamente González, Reyna Manuela",
+            "x": 10.564404,
+            "y": 1.236021,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0477523",
+            "doc_number_url": "000748404",
+            "title": "relación de causas de mortalidad con índice de daño en pacientes mexicanos con lupus eritematoso sistémico juvenil",
+            "program": "alergia e inmunologia clinica pediatrica",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Venegas Montoya, Edna",
+            "advisor": "Rodríguez Lozano, Ana Luisa",
+            "x": 10.569105,
+            "y": 1.229285,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0490645",
+            "doc_number_url": "000762353",
+            "title": "síndrome antifosfolípidos en lupus eritematoso sistémico pediátrico : experiencia en el instituto nacional de pediatría de méxico del 2005 al 2016",
+            "program": "alergia e inmunologia clinica pediatrica",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Sifuentes Rodríguez, Erika Jazmín",
+            "advisor": "Rivas Larrauri, Francisco Eduardo",
+            "x": 10.567528,
+            "y": 1.225798,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0280083",
+            "doc_number_url": "000267779",
+            "title": "incidencia y caracteristicas del sindrome antifosfolipido en niños con lupus eritematoso sistemico",
+            "program": "pediatria medica",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Espinosa Islas, Gonzalo",
+            "advisor": "Faure Fantela, Maria Amparo",
+            "x": 10.570443,
+            "y": 1.231993,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0494158",
+            "doc_number_url": "000778234",
+            "title": "factores asociados a mala respuesta a tratamiento convencional en pacientes con lupus eritematoso sistémico : estudio piloto",
+            "program": "medicina interna",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cano Cruz, Lilian Guadalupe",
+            "advisor": "Álvarez Hernández, Everardo",
+            "x": 10.568358,
+            "y": 1.236525,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0569429",
+            "doc_number_url": "000873560",
+            "title": "factores determinantes del riesgo cardiovascular en pacientes con lupus eritematoso sistémico de un hospital de tercer nivel",
+            "program": "medicina interna",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Arias Huertas, Jenniferd Anyull",
+            "advisor": "García Rascón, Rafael ; Castro Fuentes, Carlos Alberto",
+            "x": 10.553748,
+            "y": 1.227453,
+            "cluster_strength": 0.831257
+          },
+          {
+            "thesis_id": "TH_0429617",
+            "doc_number_url": "000698797",
+            "title": "características clínicas y sobrevida en pacientes con lupus eritematoso generalizado (leg) y linfoma, en un hospital de tercer nivel de la ciudad de méxico",
+            "program": "medicina interna",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Muñoz Anaya, Everardo",
+            "advisor": "Romero Díaz, Juanita ; Gulias Herrero, Alfonso",
+            "x": 10.567689,
+            "y": 1.239254,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 7,
+        "macrocluster_id": 36,
+        "micro_label": "PACIENTES · PACIENTES ARTRITIS · TRATAMIENTO · EVALUACION",
+        "size": 48,
+        "x": 10.256989,
+        "y": 1.486425,
+        "year_min": 1908,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "pacientes",
+            "score": 0.127055
+          },
+          {
+            "term": "pacientes artritis",
+            "score": 0.11984
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.061654
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.04961
+          },
+          {
+            "term": "juvenil",
+            "score": 0.043786
+          },
+          {
+            "term": "estudio",
+            "score": 0.042394
+          },
+          {
+            "term": "vida",
+            "score": 0.036234
+          },
+          {
+            "term": "articulacion",
+            "score": 0.034017
+          },
+          {
+            "term": "reumatismo",
+            "score": 0.033997
+          },
+          {
+            "term": "artritis idiopatica",
+            "score": 0.032356
+          },
+          {
+            "term": "idiopatica",
+            "score": 0.032356
+          },
+          {
+            "term": "idiopatica juvenil",
+            "score": 0.032356
+          },
+          {
+            "term": "eficacia",
+            "score": 0.031674
+          },
+          {
+            "term": "terapeutico",
+            "score": 0.031649
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "reumatologia",
+            "count": 14
+          },
+          {
+            "label": "reumatologia pediatrica",
+            "count": 4
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 4
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 4
+          },
+          {
+            "label": "medicina interna",
+            "count": 4
+          },
+          {
+            "label": "medicina familiar",
+            "count": 3
+          },
+          {
+            "label": "medicina de rehabilitacion",
+            "count": 3
+          },
+          {
+            "label": "medico cirujano",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 47
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 34
+          },
+          {
+            "label": "Licenciatura",
+            "count": 12
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 43
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores zaragoza institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales iztacala institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.979167,
+          "Area 3": 0.020833,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 47,
+            "pct": 0.979167
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.020833
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0462723",
+            "doc_number_url": "000730085",
+            "title": "programa de ejercicios de extremidades inferiores en tanque terapéutico para pacientes con artritis reumatoide",
+            "program": "medicina de rehabilitacion",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Valladares Vázquez, Diana Margarita",
+            "advisor": "Gonzalo Ugarte, América del Rocío",
+            "x": 10.254389,
+            "y": 1.486849,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0064916",
+            "doc_number_url": "000140496",
+            "title": "las intervenciones tiro paratiroideas en el reumatismo cronico deformante",
+            "program": "medico cirujano",
+            "year": 1933,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Razo Ullrich, Marcelo del",
+            "advisor": "",
+            "x": 10.253953,
+            "y": 1.48802,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0152333",
+            "doc_number_url": null,
+            "title": "analisis de la artritis reumatoide en la articulacion temporomandibular",
+            "program": "cirujano dentista",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Peralta Lailson, Aida Susana",
+            "advisor": "Silva Rodríguez, Guillermo",
+            "x": 10.260268,
+            "y": 1.48944,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0003415",
+            "doc_number_url": "000283442",
+            "title": "artritis reumatoide juvenil : estudio de 41 casos",
+            "program": "pediatria medica",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Gomez Rivera, Norberto",
+            "advisor": "Vallejo Badilla, Jose Ernesto",
+            "x": 10.254193,
+            "y": 1.481038,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0333788",
+            "doc_number_url": "000620207",
+            "title": "terapia biologica en artritis reumatoide, infliximab vs rituximab, valoracion de respuesta, eficacia y efectos adversos",
+            "program": "reumatologia",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Herrera Salazar, Juan Bosco",
+            "advisor": "Irazoque Palazuelos, Fedra",
+            "x": 10.255495,
+            "y": 1.492661,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0138080",
+            "doc_number_url": null,
+            "title": "tratamiento de la artritis reumatoide con d-penicilamina y sales de oro : evaluacion clinica, tradiologica y de laboratorio",
+            "program": "medicina interna",
+            "year": 1978,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Amaya Tapia, Carlos",
+            "advisor": "",
+            "x": 10.256749,
+            "y": 1.493124,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0568861",
+            "doc_number_url": "000874002",
+            "title": "relación entre el índice de inflamación inmune, la actividad y la sinovitis detectada por ultrasonido en pacientes con artritis reumatoide",
+            "program": "reumatologia",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Aguilar Oliva, Elvira Elizabeth",
+            "advisor": "Silveira Torre, Luis Humberto ; Amezcua Guerra, Luis Manuel",
+            "x": 10.256495,
+            "y": 1.493429,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0446716",
+            "doc_number_url": "000716758",
+            "title": "correlacion entre tasa de filtrado glomerular y marcadores de inflamacion en la artritis reumatoide",
+            "program": "medicina interna",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Rubio Sanchez, Mauricio Eduardo",
+            "advisor": "Cerda Tellez, Fidel ; Rubio Guerra, Alberto Francisco",
+            "x": 10.262703,
+            "y": 1.491947,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

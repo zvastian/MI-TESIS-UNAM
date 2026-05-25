@@ -1,0 +1,638 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 38,
+    "macro_label": "TEXTIL · INDUSTRIA · INDUSTRIA TEXTIL · MEXICO",
+    "size": 91,
+    "microcluster_count": 2,
+    "microclusters": [
+      {
+        "microcluster_id": 22,
+        "macrocluster_id": 38,
+        "micro_label": "VINO · BEBIDAS · EMPRESA · ESTUDIO",
+        "size": 46,
+        "x": 1.369485,
+        "y": 3.320556,
+        "year_min": 1924,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "vino",
+            "score": 0.091458
+          },
+          {
+            "term": "bebidas",
+            "score": 0.079245
+          },
+          {
+            "term": "empresa",
+            "score": 0.073301
+          },
+          {
+            "term": "estudio",
+            "score": 0.071417
+          },
+          {
+            "term": "industria",
+            "score": 0.070748
+          },
+          {
+            "term": "tequila",
+            "score": 0.064341
+          },
+          {
+            "term": "vinicola",
+            "score": 0.05132
+          },
+          {
+            "term": "exportacion",
+            "score": 0.050384
+          },
+          {
+            "term": "industria bebidas",
+            "score": 0.04594
+          },
+          {
+            "term": "cerveza",
+            "score": 0.045713
+          },
+          {
+            "term": "elaboracion",
+            "score": 0.04329
+          },
+          {
+            "term": "alcoholicas",
+            "score": 0.043044
+          },
+          {
+            "term": "aspectos",
+            "score": 0.041001
+          },
+          {
+            "term": "vinos",
+            "score": 0.039449
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "quimica de alimentos",
+            "count": 10
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 8
+          },
+          {
+            "label": "contaduria",
+            "count": 8
+          },
+          {
+            "label": "administracion",
+            "count": 4
+          },
+          {
+            "label": "ingenieria en alimentos",
+            "count": 3
+          },
+          {
+            "label": "economia",
+            "count": 3
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 2
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 21
+          },
+          {
+            "label": "Area 3",
+            "count": 18
+          },
+          {
+            "label": "Area 1",
+            "count": 6
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 45
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 43
+          },
+          {
+            "label": "universidad nacional de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad autónoma de guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.130435,
+          "Area 2": 0.456522,
+          "Area 3": 0.391304,
+          "Area 4": 0.021739,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 21,
+            "pct": 0.456522
+          },
+          {
+            "area": "Area 3",
+            "count": 18,
+            "pct": 0.391304
+          },
+          {
+            "area": "Area 1",
+            "count": 6,
+            "pct": 0.130435
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.021739
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0244308",
+            "doc_number_url": "000204022",
+            "title": "estudio del mercado de vinos de mesa en mexico",
+            "program": "ingenieria quimica",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Ortiz Soto, Fabian",
+            "advisor": "Pérez Santana, Ernesto",
+            "x": 1.390291,
+            "y": 3.303026,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0565350",
+            "doc_number_url": null,
+            "title": "\"gestión internacional de vino especiado : exportación a suecia\"",
+            "program": "administracion agropecuaria",
+            "year": 2024,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Reyes Almaguer, Janeth Anahi",
+            "advisor": "Rodríguez Bogarín, Bibiana Alexandra",
+            "x": 1.363063,
+            "y": 3.277089,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0545810",
+            "doc_number_url": "000843367",
+            "title": "plan de negocios para microcervecería artesanal de cerveza de temporada en la península de yucatán",
+            "program": "quimica de alimentos",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "González Contreras, Luz María",
+            "advisor": "Borges López, Alejandro",
+            "x": 1.376936,
+            "y": 3.275101,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0579596",
+            "doc_number_url": "000878176",
+            "title": "elaboración de cerveza artesanal tipo american pale ale en una cervecería mexicana",
+            "program": "quimica de alimentos",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Sales Mayoral, Sergio Daniel",
+            "advisor": "Hernández-Pérez, Hugo A",
+            "x": 1.362374,
+            "y": 3.376618,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0238971",
+            "doc_number_url": "000211590",
+            "title": "aspectos de la uva y el vino en mexico",
+            "program": "quimica farmaceutico biologica",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Canedo Nunez, Sergio José",
+            "advisor": "Coutino Covarrubias, Maria Victoria",
+            "x": 1.407708,
+            "y": 3.363345,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0027817",
+            "doc_number_url": "000301593",
+            "title": "el reto de la exportacion de tapas corona al mercado cervecero norteamericano en condiciones de monopsonio desde condiciones eligoppolicas, 1997-1999 (estudio de caso)",
+            "program": "economia",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Gaviño Avelarde, Manuel",
+            "advisor": "Olguin Romero, Augusto Cesar",
+            "x": 1.400601,
+            "y": 3.368934,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0468224",
+            "doc_number_url": "000740505",
+            "title": "efecto del proceso de vinificación sobre la capacidad antioxidante, compuestos fenólicos y propiedades fisicoquímicas de vino blanco y tintos mexicanos",
+            "program": "ingenieria en alimentos",
+            "year": 2016,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "García Peña, Yatziri Guadalupe",
+            "advisor": "Pascual Bustamante, Selene ; Trejo Márquez, Ma. Andrea",
+            "x": 1.422037,
+            "y": 3.350601,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0413669",
+            "doc_number_url": "000683113",
+            "title": "relaciones públicas para la promoción de la cultura del vino en el distrito federal",
+            "program": "periodismo",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Juarez Treviño, Claudia Helena",
+            "advisor": "Montero Olivares, Sergio ; Ávila González, Rafael ; Ávila Toscano, Carlos Alberto ; Sánchez Espinosa, Cecilia ; Cabrera Martínez, Esperanza Alejandra",
+            "x": 1.406516,
+            "y": 3.271262,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 11,
+        "macrocluster_id": 38,
+        "micro_label": "INDUSTRIA · INDUSTRIA TEXTIL · MEXICO · SECTOR",
+        "size": 45,
+        "x": -0.006563,
+        "y": 1.942576,
+        "year_min": 1946,
+        "year_max": 2023,
+        "top_terms": [
+          {
+            "term": "industria",
+            "score": 0.161088
+          },
+          {
+            "term": "industria textil",
+            "score": 0.15543
+          },
+          {
+            "term": "mexico",
+            "score": 0.137831
+          },
+          {
+            "term": "sector",
+            "score": 0.050876
+          },
+          {
+            "term": "sector textil",
+            "score": 0.048117
+          },
+          {
+            "term": "sistema",
+            "score": 0.047611
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.044943
+          },
+          {
+            "term": "textiles",
+            "score": 0.04476
+          },
+          {
+            "term": "empresa",
+            "score": 0.044626
+          },
+          {
+            "term": "fibras",
+            "score": 0.043758
+          },
+          {
+            "term": "costos",
+            "score": 0.043376
+          },
+          {
+            "term": "textil mexico",
+            "score": 0.043335
+          },
+          {
+            "term": "economica",
+            "score": 0.038648
+          },
+          {
+            "term": "algodon",
+            "score": 0.037043
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "economia",
+            "count": 9
+          },
+          {
+            "label": "administracion",
+            "count": 8
+          },
+          {
+            "label": "contaduria",
+            "count": 7
+          },
+          {
+            "label": "arquitectura",
+            "count": 5
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 4
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 2
+          },
+          {
+            "label": "dise o industrial",
+            "count": 2
+          },
+          {
+            "label": "psicologia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 32
+          },
+          {
+            "label": "Area 1",
+            "count": 9
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 38
+          },
+          {
+            "label": "Maestría",
+            "count": 6
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 36
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de contaduria y administracion institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de arquitectura",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad dr",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.2,
+          "Area 2": 0.044444,
+          "Area 3": 0.711111,
+          "Area 4": 0.044444,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 32,
+            "pct": 0.711111
+          },
+          {
+            "area": "Area 1",
+            "count": 9,
+            "pct": 0.2
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.044444
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.044444
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0110712",
+            "doc_number_url": null,
+            "title": "el porque de la crisis en la industria textil del algodon",
+            "program": "administracion",
+            "year": 1971,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Martinez Alvarez, Felipe de Jesus",
+            "advisor": "Hayaux Du Tilly y Palmer, Robert",
+            "x": 0.010865,
+            "y": 1.946309,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0078928",
+            "doc_number_url": "000070198",
+            "title": "costos de produccion y distribucion en la industria textil de seda y artisela en mexico",
+            "program": "contaduria",
+            "year": 1953,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Fernandez O. J. Ernesto",
+            "advisor": "",
+            "x": -0.002328,
+            "y": 1.89489,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0156753",
+            "doc_number_url": "000089162",
+            "title": "industria textil en mexico especificamente fabrica de hilados y tejidos en celaya, guanajuato",
+            "program": "arquitectura",
+            "year": 1982,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Huertas Vivas, Mariano",
+            "advisor": "",
+            "x": 0.02432,
+            "y": 1.997814,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0149678",
+            "doc_number_url": "000012655",
+            "title": "la industria artesanal textil en mexico",
+            "program": "geografia",
+            "year": 1981,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Durán Velazquez, Violeta",
+            "advisor": "",
+            "x": -0.04009,
+            "y": 2.026443,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0029650",
+            "doc_number_url": "000307822",
+            "title": "agrupamientos industriales en la industria textil, el caso del sector textil-confecciones en el estado de queretaro 1997-1999",
+            "program": "economia",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Juarez Monter, José Anselmo",
+            "advisor": "Sosa Ferreira, José Gaston",
+            "x": 0.011514,
+            "y": 1.853922,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0024161",
+            "doc_number_url": "000216088",
+            "title": "ausentismo, causas y consecuencias dentro de la productividad en ayotla textil s.a",
+            "program": "administracion",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Barrera Soto, Francisco",
+            "advisor": "Moreno Flores, Ecuario",
+            "x": 0.017731,
+            "y": 1.852813,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0478450",
+            "doc_number_url": "000779141",
+            "title": "d.n.c. para operarios de máquinas, en una empresa del ramo textil del estado de hidalgo",
+            "program": "psicologia",
+            "year": 2017,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Alvarado López, Ana María",
+            "advisor": "Ortiz Vélez, José Antonio",
+            "x": 0.082274,
+            "y": 1.975627,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0152577",
+            "doc_number_url": "000010393",
+            "title": "la industria textil en mexico desarrollo y perspectivas",
+            "program": "economia",
+            "year": 1981,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Ramirez Marcano, Plutarco Antonio",
+            "advisor": "",
+            "x": -0.039343,
+            "y": 2.037058,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

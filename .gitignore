@@ -122,3 +122,9 @@ concurrency_*.json
 __pycache__/
 *.pyc
 .venv/
+# Local patch backups and exploratory artifacts
+*.before_*
+*.broken_before_restore_*
+outputs/nobel/raw/
+outputs/nobel/processed/*.npy
+outputs/explore/neighborhood_test_*.json

@@ -1,0 +1,2590 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 4,
+    "macro_label": "NINOS · ADOLESCENTES · DEPRESION · INFANTIL",
+    "size": 1207,
+    "microcluster_count": 8,
+    "microclusters": [
+      {
+        "microcluster_id": 74,
+        "macrocluster_id": 4,
+        "micro_label": "NINOS · ADOLESCENTES · INFANTIL · PADRES",
+        "size": 501,
+        "x": 4.257102,
+        "y": -2.793746,
+        "year_min": 1947,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "ninos",
+            "score": 0.047459
+          },
+          {
+            "term": "adolescentes",
+            "score": 0.033625
+          },
+          {
+            "term": "infantil",
+            "score": 0.028618
+          },
+          {
+            "term": "padres",
+            "score": 0.027441
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.027235
+          },
+          {
+            "term": "anos",
+            "score": 0.025705
+          },
+          {
+            "term": "nino",
+            "score": 0.024049
+          },
+          {
+            "term": "atencion",
+            "score": 0.02151
+          },
+          {
+            "term": "programa",
+            "score": 0.019415
+          },
+          {
+            "term": "edad",
+            "score": 0.019242
+          },
+          {
+            "term": "escolar",
+            "score": 0.019105
+          },
+          {
+            "term": "estudio",
+            "score": 0.019025
+          },
+          {
+            "term": "hijos",
+            "score": 0.018967
+          },
+          {
+            "term": "educacion",
+            "score": 0.017797
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 260
+          },
+          {
+            "label": "pedagogia",
+            "count": 80
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 23
+          },
+          {
+            "label": "arquitectura",
+            "count": 15
+          },
+          {
+            "label": "medicina familiar",
+            "count": 15
+          },
+          {
+            "label": "derecho",
+            "count": 14
+          },
+          {
+            "label": "trabajo social",
+            "count": 11
+          },
+          {
+            "label": "psiquiatria",
+            "count": 10
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 237
+          },
+          {
+            "label": "Area 2",
+            "count": 205
+          },
+          {
+            "label": "Area 4",
+            "count": 38
+          },
+          {
+            "label": "Area 1",
+            "count": 20
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 401
+          },
+          {
+            "label": "Especialidad",
+            "count": 53
+          },
+          {
+            "label": "Maestría",
+            "count": 35
+          },
+          {
+            "label": "Doctorado",
+            "count": 11
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 381
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 11
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 10
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 6
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 4
+          },
+          {
+            "label": "universidad salesiana (mexico)",
+            "count": 4
+          },
+          {
+            "label": "universidad americana de acapulco",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de maestría y doctorado en psicología",
+            "count": 4
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.03992,
+          "Area 2": 0.409182,
+          "Area 3": 0.473054,
+          "Area 4": 0.075848,
+          "Por Clasificar": 0.001996
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 237,
+            "pct": 0.473054
+          },
+          {
+            "area": "Area 2",
+            "count": 205,
+            "pct": 0.409182
+          },
+          {
+            "area": "Area 4",
+            "count": 38,
+            "pct": 0.075848
+          },
+          {
+            "area": "Area 1",
+            "count": 20,
+            "pct": 0.03992
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.001996
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0243281",
+            "doc_number_url": "000205205",
+            "title": "el adulto joven en busqueda de su autonomia",
+            "program": "psicologia",
+            "year": 1994,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Melendez Campos, Guadalupe Concepcion",
+            "advisor": "Soria Trujano, Marisela Rocio",
+            "x": 4.251251,
+            "y": -2.801134,
+            "cluster_strength": 0.8915
+          },
+          {
+            "thesis_id": "TH_0228140",
+            "doc_number_url": "000198204",
+            "title": "analisis pedagogico de las habilidades de pensamiento que promueven los video juegos",
+            "program": "pedagogia",
+            "year": 1993,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad panamericana",
+            "author": "Alcelay Arcelus, Sofia",
+            "advisor": "Villalobos Torres, Elvia Marveya",
+            "x": 4.257081,
+            "y": -2.780108,
+            "cluster_strength": 0.840792
+          },
+          {
+            "thesis_id": "TH_0054785",
+            "doc_number_url": "000600998",
+            "title": "relaciones funcionales en niños de 1 a 6 años de primaria",
+            "program": "psicologia",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Franco Pacheco, Edith Rubi",
+            "advisor": "Galicia Moyeda, Iris Xóchitl ; Pavon Figueroa, Susana ; Sanchez Velazco, Alejandra",
+            "x": 4.243416,
+            "y": -2.787862,
+            "cluster_strength": 0.968415
+          },
+          {
+            "thesis_id": "TH_0547309",
+            "doc_number_url": "000844649",
+            "title": "revisión de intervenciones con cuidadores de niños preescolares con tea, para promover su desarrollo integral",
+            "program": "psicologia",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Juárez Trejo, Susana Guadalupe",
+            "advisor": "Monjarás Rodríguez, María Teresa",
+            "x": 4.252019,
+            "y": -2.811861,
+            "cluster_strength": 0.943056
+          },
+          {
+            "thesis_id": "TH_0211143",
+            "doc_number_url": "000155460",
+            "title": "una alternativa para el tratamiento del nino con retardo : el entrenamiento a padres",
+            "program": "psicologia",
+            "year": 1991,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Bejar Nava, Clara",
+            "advisor": "Aragón, Laura Edna",
+            "x": 4.239204,
+            "y": -2.776126,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0490931",
+            "doc_number_url": "000779290",
+            "title": "taller de intervención cognitivo conductual para modificar las prácticas parentales de crianza en padres con hijos menores de edad",
+            "program": "psicologia",
+            "year": 2017,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Téllez Paredes, Claudia",
+            "advisor": "Enríquez Negrete, David Javier",
+            "x": 4.28277,
+            "y": -2.797952,
+            "cluster_strength": 0.953278
+          },
+          {
+            "thesis_id": "TH_0359520",
+            "doc_number_url": "000649056",
+            "title": "expresión corporal como medio para fortalecer la comunicación intra e interpersonal en niños de 5 a 7 años de la estancia infantil del palacio de justicia federal",
+            "program": "pedagogia",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "González Montoya, Marcia Catalina",
+            "advisor": "Gutiérrez, Gabriela",
+            "x": 4.254788,
+            "y": -2.821396,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0104021",
+            "doc_number_url": "000646995",
+            "title": "motivación de logro en huérfanos tempranos",
+            "program": "psicologia",
+            "year": 1969,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Selle Peregrina, Rosa Inelva",
+            "advisor": "Cuelli García, José",
+            "x": 4.229108,
+            "y": -2.803914,
+            "cluster_strength": 0.992729
+          }
+        ]
+      },
+      {
+        "microcluster_id": 63,
+        "macrocluster_id": 4,
+        "micro_label": "PSICOLOGIA · PSICOLOGO · PAPEL · PSICOTERAPIA",
+        "size": 174,
+        "x": 4.360858,
+        "y": -2.012496,
+        "year_min": 1952,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "psicologia",
+            "score": 0.076967
+          },
+          {
+            "term": "psicologo",
+            "score": 0.067033
+          },
+          {
+            "term": "papel",
+            "score": 0.031348
+          },
+          {
+            "term": "psicoterapia",
+            "score": 0.030822
+          },
+          {
+            "term": "papel psicologo",
+            "score": 0.027953
+          },
+          {
+            "term": "facultad",
+            "score": 0.026946
+          },
+          {
+            "term": "analisis",
+            "score": 0.026675
+          },
+          {
+            "term": "propuesta",
+            "score": 0.024474
+          },
+          {
+            "term": "facultad psicologia",
+            "score": 0.023265
+          },
+          {
+            "term": "estudiantes",
+            "score": 0.022622
+          },
+          {
+            "term": "psicoanalisis",
+            "score": 0.022078
+          },
+          {
+            "term": "organizaciones",
+            "score": 0.02101
+          },
+          {
+            "term": "profesional",
+            "score": 0.02059
+          },
+          {
+            "term": "clinica",
+            "score": 0.01954
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 147
+          },
+          {
+            "label": "pedagogia",
+            "count": 11
+          },
+          {
+            "label": "psicoterapia medica",
+            "count": 2
+          },
+          {
+            "label": "psicoterapia de grupo",
+            "count": 1
+          },
+          {
+            "label": "psicologia clinica",
+            "count": 1
+          },
+          {
+            "label": "arquitectura",
+            "count": 1
+          },
+          {
+            "label": "derecho",
+            "count": 1
+          },
+          {
+            "label": "bibliotecologia y estudios de la informacion",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 92
+          },
+          {
+            "label": "Area 2",
+            "count": 67
+          },
+          {
+            "label": "Area 4",
+            "count": 13
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 149
+          },
+          {
+            "label": "Maestría",
+            "count": 16
+          },
+          {
+            "label": "Doctorado",
+            "count": 6
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 158
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 2
+          },
+          {
+            "label": "universidad alzate de ozumba",
+            "count": 1
+          },
+          {
+            "label": "centro universitario de mazatlan (mazatlan, sin.). escuela de psicologia,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          },
+          {
+            "label": "centro de estudios agustiniano fray andrés de urdaneta (coacalco, edo. de mexico). escuela de psicología, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de psicologia institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad salesiana",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.011494,
+          "Area 2": 0.385057,
+          "Area 3": 0.528736,
+          "Area 4": 0.074713,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 92,
+            "pct": 0.528736
+          },
+          {
+            "area": "Area 2",
+            "count": 67,
+            "pct": 0.385057
+          },
+          {
+            "area": "Area 4",
+            "count": 13,
+            "pct": 0.074713
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.011494
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0461579",
+            "doc_number_url": "000738891",
+            "title": "el vih desde una perspectiva biopsicosocial: propuesta de un taller psicoeducativo",
+            "program": "psicologia",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad salesiana mexico",
+            "author": "Sánchez Pérez, Lilia Rebeca",
+            "advisor": "Aranda Boyzo, Blanca Leonor",
+            "x": 4.352621,
+            "y": -2.014787,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0260501",
+            "doc_number_url": "000241033",
+            "title": "los criterios de validez en psicoanalisis : la episteme en la teoria psicoanalitica y su dimension hermeneutica",
+            "program": "psicologia",
+            "year": 1996,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "López Leon, Jaime Bernardino",
+            "advisor": "Pérez Cota, Francisco",
+            "x": 4.341089,
+            "y": -2.014954,
+            "cluster_strength": 0.502602
+          },
+          {
+            "thesis_id": "TH_0299837",
+            "doc_number_url": "000600985",
+            "title": "el papel del psicologo en el sistema municipal dif",
+            "program": "psicologia",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Velazquez Carranza, Alfredo",
+            "advisor": "Ávila Ramos, Edy ; Rojas Servín, Ángel Enrique",
+            "x": 4.343721,
+            "y": -1.996695,
+            "cluster_strength": 0.938907
+          },
+          {
+            "thesis_id": "TH_0393840",
+            "doc_number_url": "000667507",
+            "title": "el papel del psicólogo dentro de un centro de readaptación social",
+            "program": "psicologia",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Salas Morales, Rubí",
+            "advisor": "Bravo González, María Cristina",
+            "x": 4.357811,
+            "y": -1.982245,
+            "cluster_strength": 0.503603
+          },
+          {
+            "thesis_id": "TH_0424197",
+            "doc_number_url": "000695462",
+            "title": "propuesta para la implementación de un sistema de evaluación de competencias que adquieren los estudiantes durante su entrenamiento práctico en los centros de servicios psicológicos de la facultad de psicología",
+            "program": "psicologia",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Durán Madariaga, Nallely",
+            "advisor": "Vázquez Fernández, Gabriel Hugo",
+            "x": 4.358516,
+            "y": -2.046903,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0161072",
+            "doc_number_url": "000046919",
+            "title": "estrategias de intervencion en psicologia comunitaria",
+            "program": "psicologia",
+            "year": 1983,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Campos García, David",
+            "advisor": "Torres Torija Castillo, Javier",
+            "x": 4.353779,
+            "y": -2.046579,
+            "cluster_strength": 0.67209
+          },
+          {
+            "thesis_id": "TH_0006214",
+            "doc_number_url": "000285209",
+            "title": "el papel del psicologo en las unidades de servicio de apoyo a la educacion regular (usaer)",
+            "program": "psicologia",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Morales Hernandez, Belem",
+            "advisor": "Flores Macías, Rosa del Carmen",
+            "x": 4.381231,
+            "y": -1.983303,
+            "cluster_strength": 0.866814
+          },
+          {
+            "thesis_id": "TH_0520190",
+            "doc_number_url": "000810447",
+            "title": "implementación de tic como estrategias para la titulación en psicología",
+            "program": "psicologia",
+            "year": 2021,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Hernández Rivera, Cynthia",
+            "advisor": "Rojas Ramírez, Ana Teresa",
+            "x": 4.356809,
+            "y": -1.974331,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 103,
+        "macrocluster_id": 4,
+        "micro_label": "NINOS · PEDIATRIA · PACIENTES · INFANTIL",
+        "size": 154,
+        "x": 8.061858,
+        "y": -0.929319,
+        "year_min": 1891,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "ninos",
+            "score": 0.075925
+          },
+          {
+            "term": "pediatria",
+            "score": 0.051289
+          },
+          {
+            "term": "pacientes",
+            "score": 0.050854
+          },
+          {
+            "term": "infantil",
+            "score": 0.049394
+          },
+          {
+            "term": "hospital",
+            "score": 0.040807
+          },
+          {
+            "term": "sindrome",
+            "score": 0.039188
+          },
+          {
+            "term": "odontologia",
+            "score": 0.035428
+          },
+          {
+            "term": "nino",
+            "score": 0.033795
+          },
+          {
+            "term": "nacional",
+            "score": 0.033114
+          },
+          {
+            "term": "pediatricos",
+            "score": 0.03163
+          },
+          {
+            "term": "anos",
+            "score": 0.03122
+          },
+          {
+            "term": "pacientes pediatricos",
+            "score": 0.030851
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.030642
+          },
+          {
+            "term": "odontologia infantil",
+            "score": 0.028574
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 51
+          },
+          {
+            "label": "pediatria",
+            "count": 25
+          },
+          {
+            "label": "pediatria medica",
+            "count": 17
+          },
+          {
+            "label": "cirugia pediatrica",
+            "count": 10
+          },
+          {
+            "label": "nefrologia pediatrica",
+            "count": 4
+          },
+          {
+            "label": "genetica medica",
+            "count": 4
+          },
+          {
+            "label": "oftalmologia",
+            "count": 4
+          },
+          {
+            "label": "medicina familiar",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 151
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 90
+          },
+          {
+            "label": "Licenciatura",
+            "count": 64
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 145
+          },
+          {
+            "label": "universidad de ixtlahuaca cui",
+            "count": 3
+          },
+          {
+            "label": "instituto marillac,",
+            "count": 1
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 1
+          },
+          {
+            "label": "universidad latinoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "instituto nacional de cardiologia (mexico). escuela de enfermeria, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales iztacala institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.012987,
+          "Area 2": 0.980519,
+          "Area 3": 0.0,
+          "Area 4": 0.006494,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 151,
+            "pct": 0.980519
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.012987
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.006494
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0123269",
+            "doc_number_url": "000146492",
+            "title": "principios generales en el tratamiento de trastornos parodontales en ninos",
+            "program": "cirujano dentista",
+            "year": 1974,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Reyes Palomera, Maria Buenaventura",
+            "advisor": "",
+            "x": 8.06619,
+            "y": -0.924379,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0493744",
+            "doc_number_url": "000776350",
+            "title": "eficacia de la escala de alvarado para el diagnóstico de la apendicitis en pacientes pediátricos hies",
+            "program": "cirugia pediatrica",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Blanco Mancilla, María del Rocío",
+            "advisor": "Moreno Denogean, Brenda Yolanda",
+            "x": 8.055097,
+            "y": -0.92909,
+            "cluster_strength": 0.729427
+          },
+          {
+            "thesis_id": "TH_0574126",
+            "doc_number_url": "000867174",
+            "title": "atención odontológica en pacientes infantes con epidermolisis bullosa : revisión sistemática de literatura",
+            "program": "cirujano dentista",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "universidad de ixtlahuaca cui",
+            "author": "Hernández Mejía, Xareni Zeret",
+            "advisor": "Arriaga Guillen, Serigio",
+            "x": 8.063577,
+            "y": -0.951683,
+            "cluster_strength": 0.783379
+          },
+          {
+            "thesis_id": "TH_0380834",
+            "doc_number_url": "000792015",
+            "title": "experiencia en diagnóstico y tratamiento de cuerpo extraño en vía aérea hospital de especialidades pediátricas",
+            "program": "pediatria",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Trujillo Salazar, Mónica",
+            "advisor": "Albores Ríos, Elsa María",
+            "x": 8.068475,
+            "y": -0.952839,
+            "cluster_strength": 0.78027
+          },
+          {
+            "thesis_id": "TH_0181520",
+            "doc_number_url": "000051403",
+            "title": "frecuencia del espasmo del sollozo en la consulta externa del hospital psiquiatrico infantil",
+            "program": "psiquiatria",
+            "year": 1986,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Flores Perales, Rafael",
+            "advisor": "",
+            "x": 8.083121,
+            "y": -0.944995,
+            "cluster_strength": 0.858676
+          },
+          {
+            "thesis_id": "TH_0417023",
+            "doc_number_url": "000678063",
+            "title": "validación del uso del gags (global acne grading system) como instrumento de medición de la gravedad de acné en pacientes pediátricos del hospital infantil de méxico federico gómez",
+            "program": "dermatologia pediatrica",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Picasso Cisneros, Wendy Elizabeth",
+            "advisor": "Mena Cedillos, Carlos Alfredo ; Toledo Bahena, Mirna E ; Valencia Herrera, Adriana M",
+            "x": 8.098828,
+            "y": -0.933569,
+            "cluster_strength": 0.756888
+          },
+          {
+            "thesis_id": "TH_0283988",
+            "doc_number_url": "000280999",
+            "title": "factores desencadenantes de crisis asmatica en edad pediatrica",
+            "program": "medicina familiar",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Melgar Alvarez, Maria Guadalupe de Lourdes",
+            "advisor": "Hernández Torres, Isaías ; Chávez Murguia, Carlos Gilberto",
+            "x": 8.031062,
+            "y": -0.950252,
+            "cluster_strength": 0.835925
+          },
+          {
+            "thesis_id": "TH_0390708",
+            "doc_number_url": "000666652",
+            "title": "conceptuación de los pediatras y residentes sobre la determinación de una condición de enfermedad en su etapa terminal en pacientes pediátricos",
+            "program": "pediatria",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Olvera González, Héctor Alejandro",
+            "advisor": "Rendón Macías, Mario Enrique ; Villasis Keever, Miguel Ángel",
+            "x": 8.091533,
+            "y": -0.906399,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 71,
+        "macrocluster_id": 4,
+        "micro_label": "PACIENTES · FAMILIAR · ADOLESCENTES · ANSIEDAD",
+        "size": 128,
+        "x": 5.62975,
+        "y": -2.608928,
+        "year_min": 1973,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "pacientes",
+            "score": 0.05042
+          },
+          {
+            "term": "familiar",
+            "score": 0.043966
+          },
+          {
+            "term": "adolescentes",
+            "score": 0.043554
+          },
+          {
+            "term": "ansiedad",
+            "score": 0.041102
+          },
+          {
+            "term": "medicina",
+            "score": 0.03175
+          },
+          {
+            "term": "depresivos",
+            "score": 0.030955
+          },
+          {
+            "term": "medicina familiar",
+            "score": 0.028549
+          },
+          {
+            "term": "prevalencia",
+            "score": 0.028166
+          },
+          {
+            "term": "ansiedad depresion",
+            "score": 0.027914
+          },
+          {
+            "term": "adultos",
+            "score": 0.027786
+          },
+          {
+            "term": "relacion",
+            "score": 0.027657
+          },
+          {
+            "term": "depresion adolescentes",
+            "score": 0.026008
+          },
+          {
+            "term": "sintomas",
+            "score": 0.025383
+          },
+          {
+            "term": "unidad",
+            "score": 0.024877
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina familiar",
+            "count": 36
+          },
+          {
+            "label": "psicologia",
+            "count": 32
+          },
+          {
+            "label": "psiquiatria",
+            "count": 17
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 8
+          },
+          {
+            "label": "medicina interna",
+            "count": 4
+          },
+          {
+            "label": "psiquiatria infantil y de la adolescencia",
+            "count": 4
+          },
+          {
+            "label": "pediatria",
+            "count": 3
+          },
+          {
+            "label": "enfermeria",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 105
+          },
+          {
+            "label": "Area 3",
+            "count": 22
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 76
+          },
+          {
+            "label": "Licenciatura",
+            "count": 44
+          },
+          {
+            "label": "Maestría",
+            "count": 8
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 107
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 3
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra sra. de la salud,",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 2
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra señora de la salud,",
+            "count": 2
+          },
+          {
+            "label": "centro universitario de iguala,",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad del tepeyac (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.820312,
+          "Area 3": 0.171875,
+          "Area 4": 0.007812,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 105,
+            "pct": 0.820312
+          },
+          {
+            "area": "Area 3",
+            "count": 22,
+            "pct": 0.171875
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.007812
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0344005",
+            "doc_number_url": "000643633",
+            "title": "cohesión y adaptabilidad familiar y depresión en mujeres de 15 a 59 años adscritas a la unidad de medicina familiar no. 15, cd. pemex, tabasco",
+            "program": "medicina familiar",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Contreras Pérez, Eduardo",
+            "advisor": "Brown Gómez, Ivone",
+            "x": 5.653853,
+            "y": -2.601393,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0533182",
+            "doc_number_url": "000840634",
+            "title": "asociacion de la cohesión y adaptabilidad familiar con depresión en adultos mayores de la umf no. 58",
+            "program": "medicina familiar",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Gutiérrez Luna, Diana Nayely",
+            "advisor": "García Campos, Sandra Grissel",
+            "x": 5.656107,
+            "y": -2.625372,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0053053",
+            "doc_number_url": "000333307",
+            "title": "comparacion de la discapacidad que sufren los pacientdf con depresion y la discapacidad que sufren las mujeres que tienen mastectomia, dedicadas a labores del hogar",
+            "program": "psiquiatria",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cavazos Olivo, Maria Josefa",
+            "advisor": "Lara Muñoz, Maria del Carmen ; Cabrera Mendieta, Daniela",
+            "x": 5.630007,
+            "y": -2.575463,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0531554",
+            "doc_number_url": "000822584",
+            "title": "ascociación entre la condición de actividad económica y la presencia de sintomatología depresiva en personas mayores de méxico",
+            "program": "ciencias sociomedicas",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de medicina unam",
+            "author": "Esquer Bojorquez, David",
+            "advisor": "Carrillo Vega, María Fernanda ; Ramírez Aldana, Ricardo ; Acosta Castillo, Gilberto Isaac",
+            "x": 5.633888,
+            "y": -2.646085,
+            "cluster_strength": 0.849562
+          },
+          {
+            "thesis_id": "TH_0324710",
+            "doc_number_url": "000612685",
+            "title": "diseño de un instrumento para medir depresion posparto en mujeres de 18-35 años",
+            "program": "psicologia",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del tepeyac",
+            "author": "Reyes Velasco, Angie Julianna",
+            "advisor": "Segura Mendez, Maria del Carmen",
+            "x": 5.612912,
+            "y": -2.643163,
+            "cluster_strength": 0.955804
+          },
+          {
+            "thesis_id": "TH_0503178",
+            "doc_number_url": "000780978",
+            "title": "depresión en un grupo de adultos tardíos que viven dentro de una institución de asistencia privada, i.a.p",
+            "program": "psicologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Ramírez Valencia, Monserrat",
+            "advisor": "Gutiérrez Ordóñez, María Eugenia",
+            "x": 5.666905,
+            "y": -2.590455,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0547252",
+            "doc_number_url": "000835529",
+            "title": "efectos del ejercicio en los síntomas por trastorno depresivo mayor en pacientes geriátricos : revisión sistemática",
+            "program": "fisioterapia",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "escuela nacional de estudios superiores leon",
+            "author": "Juárez Cervantes, Jessica Alejandra",
+            "advisor": "Echevarria González, Adriana del Carmen ; López Maldonado, Janette Esperanza",
+            "x": 5.671645,
+            "y": -2.603571,
+            "cluster_strength": 0.972053
+          },
+          {
+            "thesis_id": "TH_0513903",
+            "doc_number_url": "000805463",
+            "title": "análisis y caracterización de exosomas de suero sanguíneo obtenido de mujeres diagnosticadas con trastorno depresivo mayor (tdm)",
+            "program": "neurobiologia",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de psicologia unam",
+            "author": "Vásquez Pérez, Jorge Manuel",
+            "advisor": "Ramírez Rodríguez, Gerardo Bernabé",
+            "x": 5.60739,
+            "y": -2.644948,
+            "cluster_strength": 0.955804
+          }
+        ]
+      },
+      {
+        "microcluster_id": 73,
+        "macrocluster_id": 4,
+        "micro_label": "EMOCIONAL · INTELIGENCIA · INTELIGENCIA EMOCIONAL · ESTUDIO",
+        "size": 86,
+        "x": 4.752687,
+        "y": -2.870782,
+        "year_min": 1971,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "emocional",
+            "score": 0.104069
+          },
+          {
+            "term": "inteligencia",
+            "score": 0.069106
+          },
+          {
+            "term": "inteligencia emocional",
+            "score": 0.067355
+          },
+          {
+            "term": "estudio",
+            "score": 0.046067
+          },
+          {
+            "term": "estudiantes",
+            "score": 0.043652
+          },
+          {
+            "term": "emociones",
+            "score": 0.042868
+          },
+          {
+            "term": "educacion",
+            "score": 0.037428
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.035911
+          },
+          {
+            "term": "taller",
+            "score": 0.035091
+          },
+          {
+            "term": "ninos",
+            "score": 0.02914
+          },
+          {
+            "term": "terapia",
+            "score": 0.028935
+          },
+          {
+            "term": "emocionales",
+            "score": 0.028755
+          },
+          {
+            "term": "nivel",
+            "score": 0.028237
+          },
+          {
+            "term": "primaria",
+            "score": 0.027865
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 57
+          },
+          {
+            "label": "pedagogia",
+            "count": 10
+          },
+          {
+            "label": "enfermeria",
+            "count": 2
+          },
+          {
+            "label": "psiquiatria",
+            "count": 2
+          },
+          {
+            "label": "medicina familiar",
+            "count": 2
+          },
+          {
+            "label": "filosofia",
+            "count": 2
+          },
+          {
+            "label": "administracion",
+            "count": 1
+          },
+          {
+            "label": "docencia para la educacion media superior",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 52
+          },
+          {
+            "label": "Area 2",
+            "count": 28
+          },
+          {
+            "label": "Area 4",
+            "count": 5
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 62
+          },
+          {
+            "label": "Maestría",
+            "count": 11
+          },
+          {
+            "label": "Especialidad",
+            "count": 8
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 57
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 4
+          },
+          {
+            "label": "universidad alzate de ozumba",
+            "count": 3
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 3
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 2
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 2
+          },
+          {
+            "label": "instituto de estudios avanzados universitarios,",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (campus cuernavaca)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.011628,
+          "Area 2": 0.325581,
+          "Area 3": 0.604651,
+          "Area 4": 0.05814,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 52,
+            "pct": 0.604651
+          },
+          {
+            "area": "Area 2",
+            "count": 28,
+            "pct": 0.325581
+          },
+          {
+            "area": "Area 4",
+            "count": 5,
+            "pct": 0.05814
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.011628
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0543681",
+            "doc_number_url": "000842738",
+            "title": "chatbot como andamio cognitivo para la gestión de emociones y toma de decisiones en la difusión de noticias",
+            "program": "psicologia",
+            "year": 2023,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Cortés Alejos, Cyntia Sarahi",
+            "advisor": "Meza Cano, José Manuel",
+            "x": 4.755152,
+            "y": -2.878905,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0437276",
+            "doc_number_url": "000723031",
+            "title": "taller de estrategias de regulacion emocional en un grupo de adolescentes con factores de riesgo: estudio piloto",
+            "program": "psicologia",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Cervantes Morales, Wendi",
+            "advisor": "Esquivel Ancona, Fayne ; Mancilla Gómez, Blanca Elena ; Ruiz Gonzalez, Veronica ; Espinosa Jimenez, Francisco Javier ; Nuricumbo Ramirez, Rocio",
+            "x": 4.744658,
+            "y": -2.891288,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0526201",
+            "doc_number_url": "000811945",
+            "title": "programa de educación socioemocional para estudiantes que presentan problemas emocionales",
+            "program": "psicologia",
+            "year": 2021,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Salvador Rosas, Gabriela",
+            "advisor": "González Granados, Aurora",
+            "x": 4.766672,
+            "y": -2.890383,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0331670",
+            "doc_number_url": "000618996",
+            "title": "la importancia de la inteligencia emocional sobre el afrontamiento al estres en estudiantes universitarios : una propuesa de intervencion",
+            "program": "psicologia",
+            "year": 2007,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Flores Nogues, Maria del Carmen",
+            "advisor": "Dorantes Gómez, María Antonieta",
+            "x": 4.729658,
+            "y": -2.894727,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0561374",
+            "doc_number_url": "000858185",
+            "title": "impacto del departamento psicopedagógico en una preparatoria particular del estado de jalisco en la percepción de satisfacción en el apoyo emocional de los estudiantes",
+            "program": "psicologia",
+            "year": 2024,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "León Osorio, Ariadna",
+            "advisor": "Cerezo Ramírez, Ruth Elizabeth",
+            "x": 4.781168,
+            "y": -2.887954,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0464435",
+            "doc_number_url": "000753396",
+            "title": "el análisis de las emociones como una estrategia para la enseñanza de la filosofía",
+            "program": "filosofia",
+            "year": 2016,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Arriaga Garduño, María del Carmen",
+            "advisor": "Pilatowsky Braverman, Mauricio",
+            "x": 4.773182,
+            "y": -2.909323,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0559073",
+            "doc_number_url": "000869902",
+            "title": "nivel de inteligencia emocional en estudiantes universitarios de la región de atlixco",
+            "program": "enfermeria",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "instituto de estudios avanzados universitarios",
+            "author": "García González, Andrea",
+            "advisor": "López Huerta, María del Rosario",
+            "x": 4.751469,
+            "y": -2.91845,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0266523",
+            "doc_number_url": "000254672",
+            "title": "problemas emocionales que afectan las actividades de estudio en alumnos de bachillerato",
+            "program": "psicologia",
+            "year": 1997,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Arroyo Gomez, Roberto Gustavo",
+            "advisor": "Martinez Guerrero, Jose Ignacio",
+            "x": 4.718447,
+            "y": -2.837284,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 67,
+        "macrocluster_id": 4,
+        "micro_label": "MUERTE · EUTANASIA · SUICIDA · ADOLESCENTES",
+        "size": 61,
+        "x": 5.298016,
+        "y": -3.017431,
+        "year_min": 1953,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "muerte",
+            "score": 0.154766
+          },
+          {
+            "term": "eutanasia",
+            "score": 0.094135
+          },
+          {
+            "term": "suicida",
+            "score": 0.09344
+          },
+          {
+            "term": "adolescentes",
+            "score": 0.077154
+          },
+          {
+            "term": "suicidio",
+            "score": 0.072428
+          },
+          {
+            "term": "ante",
+            "score": 0.053701
+          },
+          {
+            "term": "riesgo",
+            "score": 0.051851
+          },
+          {
+            "term": "intento",
+            "score": 0.043986
+          },
+          {
+            "term": "derecho",
+            "score": 0.039019
+          },
+          {
+            "term": "ideacion suicida",
+            "score": 0.037925
+          },
+          {
+            "term": "ideacion",
+            "score": 0.037925
+          },
+          {
+            "term": "ante muerte",
+            "score": 0.037722
+          },
+          {
+            "term": "relacion",
+            "score": 0.037095
+          },
+          {
+            "term": "propuesta",
+            "score": 0.034616
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 26
+          },
+          {
+            "label": "derecho",
+            "count": 17
+          },
+          {
+            "label": "psiquiatria",
+            "count": 3
+          },
+          {
+            "label": "pediatria medica",
+            "count": 3
+          },
+          {
+            "label": "filosofia",
+            "count": 2
+          },
+          {
+            "label": "sociologia",
+            "count": 2
+          },
+          {
+            "label": "psiquiatria infantil y de la adolescencia",
+            "count": 2
+          },
+          {
+            "label": "pediatria",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 33
+          },
+          {
+            "label": "Area 2",
+            "count": 24
+          },
+          {
+            "label": "Area 4",
+            "count": 4
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 44
+          },
+          {
+            "label": "Especialidad",
+            "count": 12
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 55
+          },
+          {
+            "label": "universidad motolinia (mexico) escuela de derecho institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad americana de acapulco (acapulco",
+            "count": 1
+          },
+          {
+            "label": "universidad insurgentes (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de psicología",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          },
+          {
+            "label": "universidad salesiana (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.393443,
+          "Area 3": 0.540984,
+          "Area 4": 0.065574,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 33,
+            "pct": 0.540984
+          },
+          {
+            "area": "Area 2",
+            "count": 24,
+            "pct": 0.393443
+          },
+          {
+            "area": "Area 4",
+            "count": 4,
+            "pct": 0.065574
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0362490",
+            "doc_number_url": "000639249",
+            "title": "el suicidio ¿el derecho a morir ? : una aproximación bioética al estudio del intento de suicidio diádico",
+            "program": "psicologia",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de psicologia unam",
+            "author": "Mondragón Barrios, Liliana",
+            "advisor": "Monroy Nasr, Zuraya",
+            "x": 5.305849,
+            "y": -3.003456,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0565901",
+            "doc_number_url": "000853713",
+            "title": "la pedagogía de la muerte : propuesta de curso-taller para jóvenes de 15-29 años",
+            "program": "pedagogia",
+            "year": 2024,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Rodríguez Palma, Yesennia",
+            "advisor": "Lugo Vázquez, Claudia Helena",
+            "x": 5.296105,
+            "y": -3.035718,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0281541",
+            "doc_number_url": "000264565",
+            "title": "caracteristicas de intento de suicidio en adolescentes",
+            "program": "pediatria medica",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Gonzalez Velasquez, Eduardo Mario",
+            "advisor": "Vazquez Pizaña, Elba",
+            "x": 5.275737,
+            "y": -2.998807,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0410683",
+            "doc_number_url": "000681047",
+            "title": "análisis del suicidio en adolescentes causas y prevención",
+            "program": "psicologia",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad americana de acapulco",
+            "author": "Díaz Tacuba, Alfonso Erick",
+            "advisor": "Álvarez Martínez, Jorge",
+            "x": 5.285676,
+            "y": -2.99097,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0059229",
+            "doc_number_url": "000600706",
+            "title": "actitud ante la muerte en jovenes, adultos y adultos mayores",
+            "program": "psicologia",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Morales Domínguez, Leticia Marcela",
+            "advisor": "Ávila Ramos, Edy ; Chávez Becerra, Margarita ; Vaquero Cázares, Esteban",
+            "x": 5.321893,
+            "y": -3.03616,
+            "cluster_strength": 0.912118
+          },
+          {
+            "thesis_id": "TH_0395562",
+            "doc_number_url": "000673449",
+            "title": "ideación suicida de riesgo en alumnos de la universidad tecnológica del estado de tlaxcala",
+            "program": "psicologia",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Vázquez Sánchez, Eva",
+            "advisor": "Rosales Pérez, José Carlos",
+            "x": 5.275641,
+            "y": -2.995223,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0430477",
+            "doc_number_url": "000701705",
+            "title": "la muerte deseada: una aproximación sociológica al suicidio en la población juvenil del distrito federal",
+            "program": "sociologia",
+            "year": 2013,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Patiño Cruz, Francisco Javier",
+            "advisor": "Sánchez Noriega Armengol, María de los Ángeles",
+            "x": 5.26753,
+            "y": -3.007064,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0400728",
+            "doc_number_url": "000670157",
+            "title": "percepciones del suicidio en chichí suárez, yucatán, y el discurso utilizado para reportarlo en el diario por esto!",
+            "program": "antropologia",
+            "year": 2011,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Hernández Ruiz, Laura",
+            "advisor": "Castillo Hernández, Mario Alberto ; Blaha D. Pfeiler, Bárbara ; Ruz, Mario Humberto",
+            "x": 5.278329,
+            "y": -2.991669,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 70,
+        "macrocluster_id": 4,
+        "micro_label": "ESQUIZOFRENIA · PACIENTES · TRATAMIENTO · ESQUIZOFRENICOS",
+        "size": 58,
+        "x": 5.568813,
+        "y": -2.260931,
+        "year_min": 1927,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "esquizofrenia",
+            "score": 0.147255
+          },
+          {
+            "term": "pacientes",
+            "score": 0.097396
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.076331
+          },
+          {
+            "term": "esquizofrenicos",
+            "score": 0.053307
+          },
+          {
+            "term": "estudio",
+            "score": 0.049662
+          },
+          {
+            "term": "hospital",
+            "score": 0.048666
+          },
+          {
+            "term": "bipolar",
+            "score": 0.04756
+          },
+          {
+            "term": "pacientes esquizofrenicos",
+            "score": 0.047003
+          },
+          {
+            "term": "trastorno",
+            "score": 0.04296
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.042027
+          },
+          {
+            "term": "pacientes esquizofrenia",
+            "score": 0.039783
+          },
+          {
+            "term": "psicosis",
+            "score": 0.03786
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.036515
+          },
+          {
+            "term": "relacion",
+            "score": 0.035082
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psiquiatria",
+            "count": 23
+          },
+          {
+            "label": "psicologia",
+            "count": 17
+          },
+          {
+            "label": "medico cirujano",
+            "count": 3
+          },
+          {
+            "label": "psiquiatria infantil y de la adolescencia",
+            "count": 3
+          },
+          {
+            "label": "ciencias medicas",
+            "count": 2
+          },
+          {
+            "label": "traumatologia y ortopedia",
+            "count": 1
+          },
+          {
+            "label": "neuropsicologia",
+            "count": 1
+          },
+          {
+            "label": "ciencias de la salud",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 50
+          },
+          {
+            "label": "Area 3",
+            "count": 7
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 28
+          },
+          {
+            "label": "Licenciatura",
+            "count": 22
+          },
+          {
+            "label": "Maestría",
+            "count": 7
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 56
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias médicas",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.017241,
+          "Area 2": 0.862069,
+          "Area 3": 0.12069,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 50,
+            "pct": 0.862069
+          },
+          {
+            "area": "Area 3",
+            "count": 7,
+            "pct": 0.12069
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.017241
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0262429",
+            "doc_number_url": "000243634",
+            "title": "depresion en pacientes esquizofrenicos validez concurrente de la escala de calgary",
+            "program": "psiquiatria",
+            "year": 1996,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Pacheco Catzin, Juan Bautista",
+            "advisor": "Ortega Soto, Héctor Alejandro",
+            "x": 5.565294,
+            "y": -2.25347,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0382765",
+            "doc_number_url": "000660009",
+            "title": "comorbilidades no psiquiátricas en pacientes con el diagnóstico de trastorno bipolar tipo 1 y con el diagnóstico de esquizofrenia en el instituto nacional de psiquiatría",
+            "program": "psiquiatria",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ayuzo González, Julio César",
+            "advisor": "Ontiveros Uribe Martha Patricia ; Lara Muñoz María del Carmen",
+            "x": 5.562301,
+            "y": -2.255796,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0504088",
+            "doc_number_url": "000770417",
+            "title": "velocidad de procesamiento de la información y sintomatología clínica en sujetos con esquizofrenia",
+            "program": "psicologia",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Rojas Salazar, Aldo Azael",
+            "advisor": "Mondragón Maya, Cristina Alejandra",
+            "x": 5.567422,
+            "y": -2.250837,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0480954",
+            "doc_number_url": "000761444",
+            "title": "relación entre síntomas de ansiedad y síntomas positivos en esquizofrenia paranoide",
+            "program": "psiquiatria",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cruz Galván, Juan Roberto, de la",
+            "advisor": "Corona Hernández, Fernando ; Jiménez Genchi, Janet",
+            "x": 5.564798,
+            "y": -2.271011,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0515500",
+            "doc_number_url": "000817742",
+            "title": "miedo a la evaluación negativa y estigma internalizado en pacientes con esquizofrenia",
+            "program": "psiquiatria",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Barreal Cortez, Guadalupe Ingrid",
+            "advisor": "Fresán Orellana, Ana ; Saracco Álvarez, Ricardo Arturo",
+            "x": 5.55883,
+            "y": -2.266897,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0029819",
+            "doc_number_url": "000300712",
+            "title": "desempeño de las habilidades ocupacionales de pacientes esquizofrenicos a traves de un programa de terapia ocupacional",
+            "program": "psicologia",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Leaños Guerrero, Clarisa",
+            "advisor": "Dudet Lions, Claudette",
+            "x": 5.572721,
+            "y": -2.2494,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0057491",
+            "doc_number_url": "000332724",
+            "title": "la depresion en esquizofrenia y la conciencia de enfermedad mental (hospital psiquiatrico fray bernardino alvarez ssa)",
+            "program": "psicologia",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Loaeza Castro, Adriana",
+            "advisor": "Valenzuela Cota, María Asunción",
+            "x": 5.556826,
+            "y": -2.268189,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0525476",
+            "doc_number_url": "000811466",
+            "title": "aproximación a la noción de esquizofrenia en freud : nuevos aportes",
+            "program": "psicologia",
+            "year": 2021,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Rodríguez García, Virgilio",
+            "advisor": "Torres Castro, Hilda S",
+            "x": 5.555674,
+            "y": -2.254457,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 3,
+        "macrocluster_id": 4,
+        "micro_label": "AUTISMO · AUTISTA · TRASTORNO · ESPECTRO",
+        "size": 45,
+        "x": 5.69136,
+        "y": -3.971896,
+        "year_min": 1975,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "autismo",
+            "score": 0.114981
+          },
+          {
+            "term": "autista",
+            "score": 0.101843
+          },
+          {
+            "term": "trastorno",
+            "score": 0.094765
+          },
+          {
+            "term": "espectro",
+            "score": 0.086446
+          },
+          {
+            "term": "espectro autista",
+            "score": 0.084299
+          },
+          {
+            "term": "ninos",
+            "score": 0.084109
+          },
+          {
+            "term": "trastorno espectro",
+            "score": 0.081369
+          },
+          {
+            "term": "autistas",
+            "score": 0.070907
+          },
+          {
+            "term": "pacientes",
+            "score": 0.067486
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.048633
+          },
+          {
+            "term": "propuesta",
+            "score": 0.04488
+          },
+          {
+            "term": "ninos trastorno",
+            "score": 0.04147
+          },
+          {
+            "term": "estudio",
+            "score": 0.040467
+          },
+          {
+            "term": "autologo",
+            "score": 0.036157
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 17
+          },
+          {
+            "label": "pedagogia",
+            "count": 5
+          },
+          {
+            "label": "psiquiatria infantil y de la adolescencia",
+            "count": 4
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 4
+          },
+          {
+            "label": "arquitectura",
+            "count": 2
+          },
+          {
+            "label": "psiquiatria",
+            "count": 2
+          },
+          {
+            "label": "medicina familiar",
+            "count": 2
+          },
+          {
+            "label": "neurologia pediatrica",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 21
+          },
+          {
+            "label": "Area 3",
+            "count": 16
+          },
+          {
+            "label": "Area 4",
+            "count": 5
+          },
+          {
+            "label": "Area 1",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 28
+          },
+          {
+            "label": "Especialidad",
+            "count": 12
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 38
+          },
+          {
+            "label": "universidad salesiana",
+            "count": 1
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento (plantel orizaba)",
+            "count": 1
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento (villahermosa",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.066667,
+          "Area 2": 0.466667,
+          "Area 3": 0.355556,
+          "Area 4": 0.111111,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 21,
+            "pct": 0.466667
+          },
+          {
+            "area": "Area 3",
+            "count": 16,
+            "pct": 0.355556
+          },
+          {
+            "area": "Area 4",
+            "count": 5,
+            "pct": 0.111111
+          },
+          {
+            "area": "Area 1",
+            "count": 3,
+            "pct": 0.066667
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0566401",
+            "doc_number_url": "000867273",
+            "title": "análisis del impacto familiar ante el diagnostico del trastorno del espectro del autismo en un hijo",
+            "program": "psicologia",
+            "year": 2024,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Ruíz Rosales, Ana María",
+            "advisor": "Meléndez Campos, Julieta",
+            "x": 5.684729,
+            "y": -3.978177,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0490281",
+            "doc_number_url": "000768043",
+            "title": "protocolo para la atención odontológica del paciente con trastorno de espectro autista de 2 a 18 años de edad",
+            "program": "cirujano dentista",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Sánchez Piña, Luz del Carmen",
+            "advisor": "Vázquez Téllez, Virginia Amalia ; Luviano Jaramillo, Hilda María",
+            "x": 5.701729,
+            "y": -3.977373,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0541603",
+            "doc_number_url": "000844997",
+            "title": "\"la funcionalidad familiar en familias con pacientes autistas del hospital regional issemym nezahualcóyotl\"",
+            "program": "medicina familiar",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ángel Aguilar, Brenda",
+            "advisor": "Barrera Tenahua, Oscar",
+            "x": 5.690475,
+            "y": -3.984352,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0538512",
+            "doc_number_url": "000828277",
+            "title": "frecuencia de trastorno del espectro autista en pacientes con diagnóstico de trastorno límite de la personalidad en el hospital psiquiátrico fray bernardino álvarez",
+            "program": "psiquiatria",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Rodríguez Trejo, Renata Wendolin",
+            "advisor": "Figueroa Vera, Rodrigo ; Arroyo Belmonte, Miriam",
+            "x": 5.70014,
+            "y": -3.981175,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0507440",
+            "doc_number_url": "000808213",
+            "title": "asociación entre el perímetro cefálico y el índice digital d2:d4 en niños y adolescentes con trastornos del espectro autista",
+            "program": "psiquiatria infantil y de la adolescencia",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ávila Olvera, Marco Antonio",
+            "advisor": "Albores Gallo, Lilia",
+            "x": 5.704438,
+            "y": -3.975331,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0460849",
+            "doc_number_url": "000728276",
+            "title": "centro de asistencia para niños con autismo en iztapalapa",
+            "program": "arquitectura",
+            "year": 2015,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Rojas Romero, Blanca Guadalupe",
+            "advisor": "Carmona y Pardo, Mario de Jesús ; Morlotte Acosta, María Luisa ; Viñas Y Berea, María del Carmen T",
+            "x": 5.688665,
+            "y": -3.986001,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0544498",
+            "doc_number_url": "000847013",
+            "title": "propuesta de enseñanza para la asignatura de biología dirigida a alumnos de educación secundaria diagnosticados con trastorno del espectro autista",
+            "program": "biologia",
+            "year": 2023,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Espinoza Echeverría, Cecilia",
+            "advisor": "Galindo Miranda, Nora Elizabeth",
+            "x": 5.684649,
+            "y": -3.984697,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0286536",
+            "doc_number_url": "000263315",
+            "title": "caracteristicas del autoconcepto de madres de niños autistas",
+            "program": "psicologia",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Rivera Ramirez, Claudia Isabel",
+            "advisor": "Santaella Hidalgo, Guadalupe Beatriz",
+            "x": 5.681094,
+            "y": -3.982438,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

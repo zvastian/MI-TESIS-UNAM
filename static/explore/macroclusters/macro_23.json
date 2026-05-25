@@ -1,0 +1,962 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 23,
+    "macro_label": "DISENO · ENERGIA · SISTEMA · ELECTRICA",
+    "size": 427,
+    "microcluster_count": 3,
+    "microclusters": [
+      {
+        "microcluster_id": 176,
+        "macrocluster_id": 23,
+        "micro_label": "ELECTRICA · ENERGIA · POTENCIA · DISENO",
+        "size": 272,
+        "x": 2.954598,
+        "y": 1.391011,
+        "year_min": 1935,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "electrica",
+            "score": 0.045778
+          },
+          {
+            "term": "energia",
+            "score": 0.040442
+          },
+          {
+            "term": "potencia",
+            "score": 0.040335
+          },
+          {
+            "term": "diseno",
+            "score": 0.039496
+          },
+          {
+            "term": "sistemas",
+            "score": 0.038923
+          },
+          {
+            "term": "aire",
+            "score": 0.034408
+          },
+          {
+            "term": "sistema",
+            "score": 0.033373
+          },
+          {
+            "term": "analisis",
+            "score": 0.030175
+          },
+          {
+            "term": "electrico",
+            "score": 0.028038
+          },
+          {
+            "term": "energia electrica",
+            "score": 0.027633
+          },
+          {
+            "term": "electricos",
+            "score": 0.024819
+          },
+          {
+            "term": "motores",
+            "score": 0.024758
+          },
+          {
+            "term": "control",
+            "score": 0.02394
+          },
+          {
+            "term": "electricas",
+            "score": 0.023146
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 147
+          },
+          {
+            "label": "ingenieria electrica electronica",
+            "count": 25
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 18
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 8
+          },
+          {
+            "label": "ingenieria electrica",
+            "count": 6
+          },
+          {
+            "label": "ahorro y uso eficiente de energia",
+            "count": 5
+          },
+          {
+            "label": "fisica",
+            "count": 4
+          },
+          {
+            "label": "contaduria",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 235
+          },
+          {
+            "label": "Area 2",
+            "count": 20
+          },
+          {
+            "label": "Area 3",
+            "count": 14
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 243
+          },
+          {
+            "label": "Maestría",
+            "count": 19
+          },
+          {
+            "label": "Especialidad",
+            "count": 7
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 242
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 12
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ingeniería",
+            "count": 3
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 3
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores cuautitlán",
+            "count": 2
+          },
+          {
+            "label": "universidad iberoamericana (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.863971,
+          "Area 2": 0.073529,
+          "Area 3": 0.051471,
+          "Area 4": 0.011029,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 235,
+            "pct": 0.863971
+          },
+          {
+            "area": "Area 2",
+            "count": 20,
+            "pct": 0.073529
+          },
+          {
+            "area": "Area 3",
+            "count": 14,
+            "pct": 0.051471
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.011029
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0360874",
+            "doc_number_url": "000639548",
+            "title": "análisis de arco eléctrico de una planta industrial",
+            "program": "ingenieria electrica electronica",
+            "year": 2009,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Lavín Maciel, Arturo Alejandro",
+            "advisor": "Carranza Torres, Eduardo",
+            "x": 2.888915,
+            "y": 1.374352,
+            "cluster_strength": 0.586796
+          },
+          {
+            "thesis_id": "TH_0254055",
+            "doc_number_url": "000225824",
+            "title": "caracterizacion del frenado regenerativo electrico para el minibus electrico de baterias unam",
+            "program": "ingenieria mecanica electrica",
+            "year": 1995,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Mendoza Mortera, Javier",
+            "advisor": "Lara Reyes, Pablo Francisco",
+            "x": 3.037578,
+            "y": 1.399287,
+            "cluster_strength": 0.662928
+          },
+          {
+            "thesis_id": "TH_0260596",
+            "doc_number_url": "000237441",
+            "title": "metodo alterno para disenar el dimensionamiento de aisladores externos de lineas y subestaciones electricas expuestas en ambientes contaminados",
+            "program": "ingenieria mecanica electrica",
+            "year": 1996,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "López Sosa, Bulmaro",
+            "advisor": "Flores Trujillo, Jorge Francisco",
+            "x": 2.884797,
+            "y": 1.33939,
+            "cluster_strength": 0.776808
+          },
+          {
+            "thesis_id": "TH_0075510",
+            "doc_number_url": "000130458",
+            "title": "[proyecto de equipo mecanico necesario y electrico para una pista de hielo para patinar]",
+            "program": "ingenieria mecanica electrica",
+            "year": 1947,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Wydler Hunt, Gustavo",
+            "advisor": "",
+            "x": 2.903706,
+            "y": 1.315766,
+            "cluster_strength": 0.57249
+          },
+          {
+            "thesis_id": "TH_0059357",
+            "doc_number_url": "000330492",
+            "title": "manual de métodos de ingeniería para la aplicación de procesos de soldadura por arco eléctrico",
+            "program": "ingenieria mecanica electrica",
+            "year": 2004,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Moreno Martínez, Víctor Manuel",
+            "advisor": "Velazquez Gómez, Irma D",
+            "x": 2.969046,
+            "y": 1.298869,
+            "cluster_strength": 0.538058
+          },
+          {
+            "thesis_id": "TH_0497875",
+            "doc_number_url": "000782876",
+            "title": "análisis de la eficiencia energética en el proceso de trefilado (conjunto variador de frecuencia-motor) en una fábrica metalmecánica",
+            "program": "ahorro y uso eficiente de energia",
+            "year": 2018,
+            "area": "Area 1",
+            "level": "Especialidad",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Gutiérrez Osornio, Luis Armin",
+            "advisor": "Sandoval Rodríguez, Gonzalo",
+            "x": 2.947975,
+            "y": 1.291339,
+            "cluster_strength": 0.611228
+          },
+          {
+            "thesis_id": "TH_0106049",
+            "doc_number_url": "000130362",
+            "title": "interruptores de potencia en gas sf6",
+            "program": "ingenieria mecanica electrica",
+            "year": 1970,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Hernandez Heredia, Rafael",
+            "advisor": "",
+            "x": 2.892336,
+            "y": 1.275451,
+            "cluster_strength": 0.713857
+          },
+          {
+            "thesis_id": "TH_0174545",
+            "doc_number_url": "000013321",
+            "title": "aplicacion del análisis de valia en la fabricacion de productos electrodomesticos",
+            "program": "ingenieria mecanica electrica",
+            "year": 1985,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Alarcón Apatiga, Oscar Domingo",
+            "advisor": "Vidal Valles, Ricardo Adolfo",
+            "x": 3.029997,
+            "y": 1.278772,
+            "cluster_strength": 0.530798
+          }
+        ]
+      },
+      {
+        "microcluster_id": 177,
+        "macrocluster_id": 23,
+        "micro_label": "CALOR · TEMPERATURA · DISENO · ANALISIS",
+        "size": 87,
+        "x": 3.727879,
+        "y": 1.689992,
+        "year_min": 1950,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "calor",
+            "score": 0.095852
+          },
+          {
+            "term": "temperatura",
+            "score": 0.070854
+          },
+          {
+            "term": "diseno",
+            "score": 0.058567
+          },
+          {
+            "term": "analisis",
+            "score": 0.050123
+          },
+          {
+            "term": "estudio",
+            "score": 0.047817
+          },
+          {
+            "term": "termicos",
+            "score": 0.043973
+          },
+          {
+            "term": "sistema",
+            "score": 0.041842
+          },
+          {
+            "term": "proceso",
+            "score": 0.040587
+          },
+          {
+            "term": "transferencia",
+            "score": 0.040143
+          },
+          {
+            "term": "termico",
+            "score": 0.038918
+          },
+          {
+            "term": "termica",
+            "score": 0.037637
+          },
+          {
+            "term": "transferencia calor",
+            "score": 0.037106
+          },
+          {
+            "term": "temperaturas",
+            "score": 0.027193
+          },
+          {
+            "term": "cambiadores",
+            "score": 0.027173
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria quimica",
+            "count": 18
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 12
+          },
+          {
+            "label": "ingenieria quimica metalurgica",
+            "count": 9
+          },
+          {
+            "label": "ingenieria mecanica",
+            "count": 7
+          },
+          {
+            "label": "fisica",
+            "count": 6
+          },
+          {
+            "label": "ingenieria petrolera",
+            "count": 4
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 3
+          },
+          {
+            "label": "ingenieria",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 58
+          },
+          {
+            "label": "Area 2",
+            "count": 29
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 66
+          },
+          {
+            "label": "Maestría",
+            "count": 12
+          },
+          {
+            "label": "Doctorado",
+            "count": 7
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 83
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de química",
+            "count": 1
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.666667,
+          "Area 2": 0.333333,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 58,
+            "pct": 0.666667
+          },
+          {
+            "area": "Area 2",
+            "count": 29,
+            "pct": 0.333333
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0428996",
+            "doc_number_url": "000705761",
+            "title": "análisis numérico del calor conjugado en una superficie extendida",
+            "program": "ingenieria mecanica",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Mendoza Sevilla, Francisco Iván",
+            "advisor": "Vicente y Rodríguez, William",
+            "x": 3.732996,
+            "y": 1.686395,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0425471",
+            "doc_number_url": "000695526",
+            "title": "caracterización del proceso de recubrimiento superficial mediante proyección térmica en términos de automatización",
+            "program": "ingenieria mecanica",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Garduño, Eduardo",
+            "advisor": "Barba Pingarrón, Arturo",
+            "x": 3.728633,
+            "y": 1.682695,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0147605",
+            "doc_number_url": "000017983",
+            "title": "simulacion de la transferencia de energia termica por radiacion y convenccion forzada del lado de los gases en un generador de vapor",
+            "program": "ingenieria quimica metalurgica",
+            "year": 1980,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Barron Meza, Miguel Angel",
+            "advisor": "Morones Escobar, Rafael Edmundo",
+            "x": 3.724162,
+            "y": 1.697402,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0447616",
+            "doc_number_url": "000710559",
+            "title": "diseño experimental para analizar la transferencia de calor y mapeo de la temperatura en un sistema matriz-fractura durante un proceso de inyección de vapor",
+            "program": "ingenieria petrolera",
+            "year": 2014,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Sol Zuñiga, Verónica",
+            "advisor": "Luna Rojero, Erick Emanuel",
+            "x": 3.720952,
+            "y": 1.6946,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0144889",
+            "doc_number_url": "000019019",
+            "title": "analisis de la transferencia de calor en equipos industriales en operacion",
+            "program": "ingenieria quimica",
+            "year": 1979,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Miranda Rivera, Marco Antonio C.",
+            "advisor": "P. Stivalet, Rudi",
+            "x": 3.71941,
+            "y": 1.690825,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0220170",
+            "doc_number_url": "000188367",
+            "title": "diseno termodinamico de rehervidores para columnas de destilacion",
+            "program": "ingenieria quimica",
+            "year": 1992,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Castillo Gonzalez, Maria Eugenia",
+            "advisor": "Chávez Chavarria, Ambrosio",
+            "x": 3.731425,
+            "y": 1.682226,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0412316",
+            "doc_number_url": "000702445",
+            "title": "influencia de la velocidad y de la temperatura del medio de enfriamiento en la extracción de calor durante ensayos de temple con probetas cilíndricas de punta cónica",
+            "program": "ciencia e ingenieria de materiales",
+            "year": 2012,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "González López, Juan Ramón",
+            "advisor": "Hernández Morales, José Bernardo",
+            "x": 3.748297,
+            "y": 1.686956,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0499123",
+            "doc_number_url": "000774726",
+            "title": "transferencia de calor conjugada para sistemas de transporte bifásico con crudos pesados y extrapesados",
+            "program": "ingenieria petrolera",
+            "year": 2018,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "León Aboytes, Luis Enrique",
+            "advisor": "Guzmán Vázquez, José Enrique",
+            "x": 3.748221,
+            "y": 1.701243,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 58,
+        "macrocluster_id": 23,
+        "micro_label": "SOLAR · SOLARES · CELDAS · SISTEMA",
+        "size": 68,
+        "x": 3.586493,
+        "y": 1.48455,
+        "year_min": 1974,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "solar",
+            "score": 0.119008
+          },
+          {
+            "term": "solares",
+            "score": 0.093872
+          },
+          {
+            "term": "celdas",
+            "score": 0.0679
+          },
+          {
+            "term": "sistema",
+            "score": 0.063277
+          },
+          {
+            "term": "energia",
+            "score": 0.059556
+          },
+          {
+            "term": "estudio",
+            "score": 0.059037
+          },
+          {
+            "term": "celdas solares",
+            "score": 0.054328
+          },
+          {
+            "term": "fotovoltaicas",
+            "score": 0.049557
+          },
+          {
+            "term": "aplicacion",
+            "score": 0.042776
+          },
+          {
+            "term": "energia solar",
+            "score": 0.038255
+          },
+          {
+            "term": "analisis",
+            "score": 0.036762
+          },
+          {
+            "term": "casa",
+            "score": 0.031055
+          },
+          {
+            "term": "agua",
+            "score": 0.030721
+          },
+          {
+            "term": "celdas fotovoltaicas",
+            "score": 0.030017
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria energia",
+            "count": 10
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 10
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 5
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 4
+          },
+          {
+            "label": "arquitectura",
+            "count": 3
+          },
+          {
+            "label": "energia",
+            "count": 3
+          },
+          {
+            "label": "mecanica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria electrica electronica",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 61
+          },
+          {
+            "label": "Area 2",
+            "count": 5
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 38
+          },
+          {
+            "label": "Maestría",
+            "count": 25
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 63
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de maestría y doctorado en ciencia e ingeniería de materiales",
+            "count": 1
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de química",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.897059,
+          "Area 2": 0.073529,
+          "Area 3": 0.014706,
+          "Area 4": 0.014706,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 61,
+            "pct": 0.897059
+          },
+          {
+            "area": "Area 2",
+            "count": 5,
+            "pct": 0.073529
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.014706
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.014706
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0573672",
+            "doc_number_url": "000880576",
+            "title": "desempeño energético de un colector solar cilindro-parabólico empleando diferentes fluidos caloportadores",
+            "program": "ingenieria electrica y electronica",
+            "year": 2025,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Guzmán Rivas, David Adrián",
+            "advisor": "Quezada García, Sergio",
+            "x": 3.597219,
+            "y": 1.514877,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0238983",
+            "doc_number_url": "000212513",
+            "title": "analisis termodinamico de un sistema de incubacion solar",
+            "program": "fisica",
+            "year": 1994,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Cano Miguel, Teodoro Juan",
+            "advisor": "Río, Jesús del",
+            "x": 3.574536,
+            "y": 1.527572,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0444936",
+            "doc_number_url": "000707850",
+            "title": "simulación numérica multicapa y validación experimental para la determinación de la eficiencia térmica en captadores solares planos",
+            "program": "energia",
+            "year": 2014,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Pérez Espinosa, José Rodolfo",
+            "advisor": "García Valladares, Octavio",
+            "x": 3.545969,
+            "y": 1.510519,
+            "cluster_strength": 0.812249
+          },
+          {
+            "thesis_id": "TH_0416180",
+            "doc_number_url": "000686353",
+            "title": "teoría constructal aplicada a un colector solar",
+            "program": "ingenieria mecanica",
+            "year": 2012,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Ojeda Sanchez, Jorge Armando",
+            "advisor": "Méndez Lavielle, Federico",
+            "x": 3.616128,
+            "y": 1.43828,
+            "cluster_strength": 0.797357
+          },
+          {
+            "thesis_id": "TH_0273058",
+            "doc_number_url": "000248506",
+            "title": "diseño y construccion de sistema de seguimiento solar para aplicaciones fototermicas y fotovoltaicas",
+            "program": "ingenieria mecanica electrica",
+            "year": 1997,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Navarro de la Sancha, Miguel Angel",
+            "advisor": "Sanchez Gutierrez, Jose Antonio ; Leyva Piña, Filiberto",
+            "x": 3.591378,
+            "y": 1.422573,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0533543",
+            "doc_number_url": null,
+            "title": "sistema de seguimiento solar y caracterización térmica de un concentrador cilíndrico parabólico didáctico",
+            "program": "ingenieria energia",
+            "year": 2022,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "instituto de energias renovables unam",
+            "author": "Hernández Muñoz, Jorge Daniel",
+            "advisor": "García Valladares, Octavio",
+            "x": 3.63876,
+            "y": 1.45068,
+            "cluster_strength": 0.68469
+          },
+          {
+            "thesis_id": "TH_0377546",
+            "doc_number_url": "000789636",
+            "title": "simulación numérica y validación experimental de la eficiencia térmica de captadores solares planos de baja temperatura",
+            "program": "ingenieria energia",
+            "year": 2019,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "instituto de energias renovables unam",
+            "author": "Pérez Espinosa, José Rodolfo",
+            "advisor": "García Valladares, Octavio",
+            "x": 3.576173,
+            "y": 1.551445,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0478460",
+            "doc_number_url": "000768554",
+            "title": "desarrollo de nuevos materiales para su uso en celdas solares de tercera generación",
+            "program": "quimica",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Alvarado Ramos, Jesús Guillermo",
+            "advisor": "Santana Rodríguez, Guillermo",
+            "x": 3.653773,
+            "y": 1.459579,
+            "cluster_strength": 0.9809
+          }
+        ]
+      }
+    ]
+  }
+}

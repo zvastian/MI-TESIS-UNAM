@@ -1,0 +1,314 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 37,
+    "macro_label": "PACIENTES · LINFOBLASTICA · LEUCEMIA AGUDA · NINOS",
+    "size": 100,
+    "microcluster_count": 1,
+    "microclusters": [
+      {
+        "microcluster_id": 45,
+        "macrocluster_id": 37,
+        "micro_label": "PACIENTES · LINFOBLASTICA · LEUCEMIA AGUDA · NINOS",
+        "size": 100,
+        "x": 10.283808,
+        "y": -1.93558,
+        "year_min": 1974,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "pacientes",
+            "score": 0.073374
+          },
+          {
+            "term": "linfoblastica",
+            "score": 0.066027
+          },
+          {
+            "term": "leucemia aguda",
+            "score": 0.06053
+          },
+          {
+            "term": "ninos",
+            "score": 0.058262
+          },
+          {
+            "term": "leucemia linfoblastica",
+            "score": 0.057119
+          },
+          {
+            "term": "pacientes leucemia",
+            "score": 0.056764
+          },
+          {
+            "term": "linfoblastica aguda",
+            "score": 0.056122
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.038898
+          },
+          {
+            "term": "ninos leucemia",
+            "score": 0.037732
+          },
+          {
+            "term": "quimioterapia",
+            "score": 0.037337
+          },
+          {
+            "term": "estudio",
+            "score": 0.03279
+          },
+          {
+            "term": "factores",
+            "score": 0.031391
+          },
+          {
+            "term": "nacional",
+            "score": 0.029531
+          },
+          {
+            "term": "pacientes pediatricos",
+            "score": 0.028632
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "hematologia",
+            "count": 25
+          },
+          {
+            "label": "pediatria",
+            "count": 16
+          },
+          {
+            "label": "pediatria medica",
+            "count": 8
+          },
+          {
+            "label": "hematologia pediatrica",
+            "count": 8
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 6
+          },
+          {
+            "label": "psicologia",
+            "count": 5
+          },
+          {
+            "label": "oncologia pediatrica",
+            "count": 4
+          },
+          {
+            "label": "ciencias medicas",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 98
+          },
+          {
+            "label": "Area 3",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 72
+          },
+          {
+            "label": "Licenciatura",
+            "count": 16
+          },
+          {
+            "label": "Maestría",
+            "count": 8
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 96
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de enfermeria y obstetricia institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.98,
+          "Area 3": 0.02,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 98,
+            "pct": 0.98
+          },
+          {
+            "area": "Area 3",
+            "count": 2,
+            "pct": 0.02
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0383742",
+            "doc_number_url": "000653634",
+            "title": "alteración en la necesidad de seguridad y protección por leucemia linfoblástica aguda en un preescolar femenino",
+            "program": "enfermeria infantil",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Casas Ramírez, María del Rocio",
+            "advisor": "Espinosa Meneses, Verónica",
+            "x": 10.278223,
+            "y": -1.93496,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0473082",
+            "doc_number_url": "000754354",
+            "title": "la importancia del apoyo social en el proceso de afrontamiento de niños diagnosticados con leucemia",
+            "program": "psicologia",
+            "year": 2016,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Orozco Rivera, Guadalupe",
+            "advisor": "Olvera Méndez, Juana",
+            "x": 10.290648,
+            "y": -1.937085,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0385411",
+            "doc_number_url": "000661023",
+            "title": "expresión diferencial de cd96 en células troncales hematopoyéticas provenientes de pacientes pediátricos con leucemia mieloide aguda",
+            "program": "pediatria",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Figueroa Portillo, Rubén",
+            "advisor": "Dorantes Acosta, Elisa",
+            "x": 10.293152,
+            "y": -1.935803,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0452159",
+            "doc_number_url": "000732703",
+            "title": "respuesta de quimerismo y efectos secundarios del tratamiento con infusión de linfocitos del donador en falla de injerto secundario en niños con leucemias de enero de 2009 a diciembre de 2014",
+            "program": "oncologia pediatrica",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cruz Hernández, Juan Alfonso",
+            "advisor": "Pérez García, Martín",
+            "x": 10.290453,
+            "y": -1.92724,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0515713",
+            "doc_number_url": "000817058",
+            "title": "análisis de morbilidad y mortalidad temprana en pacientes pediátricos con leucemia linfoblástica aguda tratados con el protocolo st. jude total xv en un hospital de tercer nivel",
+            "program": "oncologia pediatrica",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "unidad de posgrado unam",
+            "author": "Benítez Tejera, Isabel de María",
+            "advisor": "Gutiérrez Rivera, María de Lourdes ; Márquez González, Horacio",
+            "x": 10.29129,
+            "y": -1.927934,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0308580",
+            "doc_number_url": "000343690",
+            "title": "proceso atencion de enfermeria a paciente con leucemia granulocitica cronica a traves del modelo de virginia henderson",
+            "program": "enfermeria y obstetricia",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Mejia Monroy, Gloria Lucero",
+            "advisor": "Rangel Portilla, Daniel",
+            "x": 10.295534,
+            "y": -1.937153,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0338999",
+            "doc_number_url": "000616298",
+            "title": "perfil de lipidos sericos y su utilidad como marcadores bioquimicos de remision en niños con leucemia aguda de novo",
+            "program": "hematologia",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Romero Tecua, Sergio",
+            "advisor": "Alvarado Ibarra, Martha",
+            "x": 10.277666,
+            "y": -1.925033,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0539982",
+            "doc_number_url": "000821517",
+            "title": "estudio de caso a un adulto joven con alteración en sus necesidades básicas bajo la propuesta filosófica de virginia henderson por leucemia linfoblástica aguda de alto riesgo",
+            "program": "enfermeria oncologica",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Torres Rendón, Magdalena",
+            "advisor": "Ramírez Soriano, Jessica Yasmín",
+            "x": 10.291562,
+            "y": -1.925205,
+            "cluster_strength": 0.163931
+          }
+        ]
+      }
+    ]
+  }
+}

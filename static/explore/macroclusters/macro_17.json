@@ -1,0 +1,2234 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 17,
+    "macro_label": "SANITARIA · EXPLORACION · EXPLORACION SANITARIA · GENERAL",
+    "size": 735,
+    "microcluster_count": 7,
+    "microclusters": [
+      {
+        "microcluster_id": 94,
+        "macrocluster_id": 17,
+        "micro_label": "SANITARIA · EXPLORACION · EXPLORACION SANITARIA · INFORME",
+        "size": 184,
+        "x": 5.852112,
+        "y": -0.898694,
+        "year_min": 1893,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "sanitaria",
+            "score": 0.11646
+          },
+          {
+            "term": "exploracion",
+            "score": 0.114614
+          },
+          {
+            "term": "exploracion sanitaria",
+            "score": 0.114512
+          },
+          {
+            "term": "informe",
+            "score": 0.101441
+          },
+          {
+            "term": "municipio",
+            "score": 0.098311
+          },
+          {
+            "term": "general",
+            "score": 0.096628
+          },
+          {
+            "term": "informe general",
+            "score": 0.095283
+          },
+          {
+            "term": "general exploracion",
+            "score": 0.094045
+          },
+          {
+            "term": "sanitaria municipio",
+            "score": 0.082059
+          },
+          {
+            "term": "estado",
+            "score": 0.05035
+          },
+          {
+            "term": "salud",
+            "score": 0.041238
+          },
+          {
+            "term": "medico",
+            "score": 0.040817
+          },
+          {
+            "term": "social",
+            "score": 0.0368
+          },
+          {
+            "term": "ver",
+            "score": 0.033388
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medico cirujano",
+            "count": 149
+          },
+          {
+            "label": "arquitectura",
+            "count": 6
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 5
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 3
+          },
+          {
+            "label": "historia",
+            "count": 2
+          },
+          {
+            "label": "estudios mesoamericanos",
+            "count": 2
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 2
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 165
+          },
+          {
+            "label": "Area 1",
+            "count": 9
+          },
+          {
+            "label": "Area 4",
+            "count": 5
+          },
+          {
+            "label": "Area 3",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 173
+          },
+          {
+            "label": "Maestría",
+            "count": 8
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 135
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 33
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de medicina",
+            "count": 9
+          },
+          {
+            "label": "escuela nacional de medicina (mexico),",
+            "count": 4
+          },
+          {
+            "label": "escuela nacional de medicina (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermeria del hospital de jesus (mexico) escuela de enfermeria institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.048913,
+          "Area 2": 0.896739,
+          "Area 3": 0.027174,
+          "Area 4": 0.027174,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 165,
+            "pct": 0.896739
+          },
+          {
+            "area": "Area 1",
+            "count": 9,
+            "pct": 0.048913
+          },
+          {
+            "area": "Area 3",
+            "count": 5,
+            "pct": 0.027174
+          },
+          {
+            "area": "Area 4",
+            "count": 5,
+            "pct": 0.027174
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0074637",
+            "doc_number_url": "000143542",
+            "title": "informe general sobre la exploracion sanitaria del municipio de escuintla distrito de soconusco, estado de chiapas",
+            "program": "medico cirujano",
+            "year": 1947,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Caram Narche, Erasmo",
+            "advisor": "",
+            "x": 5.852171,
+            "y": -0.889208,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0073717",
+            "doc_number_url": null,
+            "title": "informe general sobre la exploracion sanitaria del municipio de rosa morada, nay",
+            "program": "medico cirujano",
+            "year": 1946,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Flores Mendez, José",
+            "advisor": "",
+            "x": 5.86131,
+            "y": -0.894008,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0069060",
+            "doc_number_url": "000141761",
+            "title": "monografia medico-social de san sebastian de sain alto, zac",
+            "program": "medico cirujano",
+            "year": 1940,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Rodriguez Hicks, Federico",
+            "advisor": "",
+            "x": 5.849343,
+            "y": -0.887979,
+            "cluster_strength": 0.444367
+          },
+          {
+            "thesis_id": "TH_0066805",
+            "doc_number_url": "000144647",
+            "title": "exploracion sanitaria de matamoros, coah",
+            "program": "medico cirujano",
+            "year": 1937,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Cabello Flores, Clemente",
+            "advisor": "",
+            "x": 5.849144,
+            "y": -0.887117,
+            "cluster_strength": 0.543605
+          },
+          {
+            "thesis_id": "TH_0071459",
+            "doc_number_url": "000137962",
+            "title": "relacion sanitaria del municipio de ocampo, michoacan",
+            "program": "medico cirujano",
+            "year": 1944,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Alba Muñoz, Enrique de",
+            "advisor": "",
+            "x": 5.85525,
+            "y": -0.885339,
+            "cluster_strength": 0.6195
+          },
+          {
+            "thesis_id": "TH_0068229",
+            "doc_number_url": null,
+            "title": "exploracion medico sanitaria y sociologica del municipio de cuautepec de hinojosa, hgo",
+            "program": "medico cirujano",
+            "year": 1939,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Islas Escarcega, Adela",
+            "advisor": "",
+            "x": 5.846648,
+            "y": -0.912582,
+            "cluster_strength": 0.591026
+          },
+          {
+            "thesis_id": "TH_0069445",
+            "doc_number_url": "000142144",
+            "title": "exploracion sanitaria del municipio de san martin chalchicuautla, s.l.p",
+            "program": "medico cirujano",
+            "year": 1941,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Grajales Ramos, Adrian",
+            "advisor": "",
+            "x": 5.849561,
+            "y": -0.915816,
+            "cluster_strength": 0.561518
+          },
+          {
+            "thesis_id": "TH_0070544",
+            "doc_number_url": "000196113",
+            "title": "panorama medico-social del municipio de tepecoacuilco de trujano, guerrero",
+            "program": "medico cirujano",
+            "year": 1942,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Velez García, Francisco",
+            "advisor": "",
+            "x": 5.86913,
+            "y": -0.894077,
+            "cluster_strength": 0.831872
+          }
+        ]
+      },
+      {
+        "microcluster_id": 90,
+        "macrocluster_id": 17,
+        "micro_label": "MAYORES · ADULTOS · ADULTOS MAYORES · ADULTO",
+        "size": 181,
+        "x": 6.379999,
+        "y": -2.014914,
+        "year_min": 1969,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "mayores",
+            "score": 0.057945
+          },
+          {
+            "term": "adultos",
+            "score": 0.052098
+          },
+          {
+            "term": "adultos mayores",
+            "score": 0.051727
+          },
+          {
+            "term": "adulto",
+            "score": 0.049892
+          },
+          {
+            "term": "mayor",
+            "score": 0.046501
+          },
+          {
+            "term": "adulto mayor",
+            "score": 0.044194
+          },
+          {
+            "term": "vida",
+            "score": 0.036979
+          },
+          {
+            "term": "atencion",
+            "score": 0.036336
+          },
+          {
+            "term": "edad",
+            "score": 0.035838
+          },
+          {
+            "term": "ancianos",
+            "score": 0.032414
+          },
+          {
+            "term": "enfermeria",
+            "score": 0.031839
+          },
+          {
+            "term": "casa",
+            "score": 0.029666
+          },
+          {
+            "term": "proceso",
+            "score": 0.02839
+          },
+          {
+            "term": "calidad vida",
+            "score": 0.027846
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina familiar",
+            "count": 34
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 27
+          },
+          {
+            "label": "psicologia",
+            "count": 21
+          },
+          {
+            "label": "arquitectura",
+            "count": 20
+          },
+          {
+            "label": "geriatria",
+            "count": 15
+          },
+          {
+            "label": "enfermeria",
+            "count": 14
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 7
+          },
+          {
+            "label": "medicina interna",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 122
+          },
+          {
+            "label": "Area 3",
+            "count": 29
+          },
+          {
+            "label": "Area 1",
+            "count": 24
+          },
+          {
+            "label": "Area 4",
+            "count": 6
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 104
+          },
+          {
+            "label": "Especialidad",
+            "count": 65
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 155
+          },
+          {
+            "label": "ciudad de mexico. secretaría de salud. escuela de enfermería,",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento a",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico escuela nacional de enfermería y obstetricia",
+            "count": 1
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de economía",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería de la ciudad de mexico,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.132597,
+          "Area 2": 0.674033,
+          "Area 3": 0.160221,
+          "Area 4": 0.033149,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 122,
+            "pct": 0.674033
+          },
+          {
+            "area": "Area 3",
+            "count": 29,
+            "pct": 0.160221
+          },
+          {
+            "area": "Area 1",
+            "count": 24,
+            "pct": 0.132597
+          },
+          {
+            "area": "Area 4",
+            "count": 6,
+            "pct": 0.033149
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0006192",
+            "doc_number_url": "000287081",
+            "title": "cuidados en el hogar en un adulto con alto grado de dependencia para el mantenimiento de salud",
+            "program": "enfermeria y obstetricia",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Morales Cordono, Eudexia",
+            "advisor": "Cardenas Jimenez, Margarita",
+            "x": 6.378133,
+            "y": -2.002361,
+            "cluster_strength": 0.660459
+          },
+          {
+            "thesis_id": "TH_0358745",
+            "doc_number_url": "000648246",
+            "title": "perfil sociodemográfico del cuidador del adulto mayor y frecuencia de sobrecarga del cuidador",
+            "program": "medicina familiar",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "García Ángeles, Gloria",
+            "advisor": "Arrieta Pérez, Raúl",
+            "x": 6.394015,
+            "y": -2.00185,
+            "cluster_strength": 0.632294
+          },
+          {
+            "thesis_id": "TH_0284542",
+            "doc_number_url": "000276972",
+            "title": "maculopatia relacionada con la edad, estudio comparativo",
+            "program": "oftalmologia",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Morales Taboada, Euridice",
+            "advisor": "Barranca Montiel, Fidel",
+            "x": 6.364128,
+            "y": -2.026257,
+            "cluster_strength": 0.781444
+          },
+          {
+            "thesis_id": "TH_0497994",
+            "doc_number_url": "000782327",
+            "title": "protocolo de atención del adulto mayor con pulpitis irreversible",
+            "program": "cirujano dentista",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Hernándes Giraldo, María Fernanda",
+            "advisor": "Domínguez Sandoval, Lila ; Giraldo Rodríguez, Martha Liliana",
+            "x": 6.371793,
+            "y": -2.054964,
+            "cluster_strength": 0.727923
+          },
+          {
+            "thesis_id": "TH_0475145",
+            "doc_number_url": "000745890",
+            "title": "vivencias del cuidador familiar en la realización de la diálisis peritoneal al adulto mayor en casa",
+            "program": "enfermeria",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Rodríguez Salazar, Brisa Janely",
+            "advisor": "Reyes Audiffred, Virginia ; Correa Muñoz, Elsa",
+            "x": 6.328765,
+            "y": -2.009515,
+            "cluster_strength": 0.56613
+          },
+          {
+            "thesis_id": "TH_0544160",
+            "doc_number_url": "000854354",
+            "title": "intervenciones educativas a personas mayores para el control y prevención de enfermedades crónico degenerativas no transmisibles en el primer nivel de atención",
+            "program": "enfermeria y obstetricia",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Díaz Jimenez, Amaraliz",
+            "advisor": "Orgaz González Jazmín Alejandra ; Ostiguín Meléndez, Rosa María",
+            "x": 6.412631,
+            "y": -1.974082,
+            "cluster_strength": 0.687082
+          },
+          {
+            "thesis_id": "TH_0023854",
+            "doc_number_url": "000310580",
+            "title": "funcionalidad en las actividades basicas de la vida diaria de los pacientes de la tercera edad de la umf 94",
+            "program": "medicina interna",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Arzate Puertas, Perla Diana",
+            "advisor": "Najera Soto, Juana",
+            "x": 6.422036,
+            "y": -2.048443,
+            "cluster_strength": 0.698396
+          },
+          {
+            "thesis_id": "TH_0464008",
+            "doc_number_url": "000799991",
+            "title": "la funcionalidad conyugal en el adulto mayor",
+            "program": "medicina familiar",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Altamirano Torres, Nora Elizabeth",
+            "advisor": "Sánchez Luna, María Dolores",
+            "x": 6.416147,
+            "y": -2.068864,
+            "cluster_strength": 0.707023
+          }
+        ]
+      },
+      {
+        "microcluster_id": 93,
+        "macrocluster_id": 17,
+        "micro_label": "MEXICO · SANITARIA · EXPLORACION · EXPLORACION SANITARIA",
+        "size": 109,
+        "x": 6.142171,
+        "y": -0.450877,
+        "year_min": 1893,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.101623
+          },
+          {
+            "term": "sanitaria",
+            "score": 0.090968
+          },
+          {
+            "term": "exploracion",
+            "score": 0.087738
+          },
+          {
+            "term": "exploracion sanitaria",
+            "score": 0.087738
+          },
+          {
+            "term": "municipio",
+            "score": 0.073075
+          },
+          {
+            "term": "estado",
+            "score": 0.071501
+          },
+          {
+            "term": "general",
+            "score": 0.070587
+          },
+          {
+            "term": "informe",
+            "score": 0.070566
+          },
+          {
+            "term": "informe general",
+            "score": 0.060973
+          },
+          {
+            "term": "general exploracion",
+            "score": 0.057494
+          },
+          {
+            "term": "ciudad",
+            "score": 0.057239
+          },
+          {
+            "term": "veracruz",
+            "score": 0.05593
+          },
+          {
+            "term": "hospital",
+            "score": 0.04614
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.04553
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medico cirujano",
+            "count": 51
+          },
+          {
+            "label": "arquitectura",
+            "count": 15
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 5
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 4
+          },
+          {
+            "label": "historia",
+            "count": 3
+          },
+          {
+            "label": "sociologia",
+            "count": 2
+          },
+          {
+            "label": "periodismo",
+            "count": 2
+          },
+          {
+            "label": "biologia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 74
+          },
+          {
+            "label": "Area 1",
+            "count": 20
+          },
+          {
+            "label": "Area 3",
+            "count": 9
+          },
+          {
+            "label": "Area 4",
+            "count": 6
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 94
+          },
+          {
+            "label": "Especialidad",
+            "count": 7
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 87
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 10
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de medicina",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores acatlán",
+            "count": 1
+          },
+          {
+            "label": "universidad motolinia (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias políticas y sociales",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales iztacala institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.183486,
+          "Area 2": 0.678899,
+          "Area 3": 0.082569,
+          "Area 4": 0.055046,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 74,
+            "pct": 0.678899
+          },
+          {
+            "area": "Area 1",
+            "count": 20,
+            "pct": 0.183486
+          },
+          {
+            "area": "Area 3",
+            "count": 9,
+            "pct": 0.082569
+          },
+          {
+            "area": "Area 4",
+            "count": 6,
+            "pct": 0.055046
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0394366",
+            "doc_number_url": "000664158",
+            "title": "valoración de servicios ecosistémicos de la comunidad de san bartolomé loxicha, oaxaca, méxico",
+            "program": "biologia",
+            "year": 2010,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Santiago Mariscal, Jaime",
+            "advisor": "Ordóñez Díaz, José Antonio Benjamín",
+            "x": 6.142424,
+            "y": -0.440355,
+            "cluster_strength": 0.5488
+          },
+          {
+            "thesis_id": "TH_0075417",
+            "doc_number_url": "000155493",
+            "title": "estado sanitario y zootecnico-economico de la region central del estado de oaxaca",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1947,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Taracena Franco, Manuel Mario",
+            "advisor": "",
+            "x": 6.178997,
+            "y": -0.477478,
+            "cluster_strength": 0.814339
+          },
+          {
+            "thesis_id": "TH_0072423",
+            "doc_number_url": "000144223",
+            "title": "informe general sobre la exploracion sanitaria del ejido de rio bravo, municipalidad de reynosa, tamaulipas, mexico",
+            "program": "medico cirujano",
+            "year": 1945,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Alarcon M., Agustin C.",
+            "advisor": "",
+            "x": 6.159345,
+            "y": -0.494642,
+            "cluster_strength": 0.763569
+          },
+          {
+            "thesis_id": "TH_0072757",
+            "doc_number_url": "000169809",
+            "title": "contribucion al estudio de las nieves de la ciudad de mexico desde el punto de vista sanitario",
+            "program": "quimica farmaceutico biologica",
+            "year": 1945,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Gomar Gavino, Lucrecia",
+            "advisor": "",
+            "x": 6.191884,
+            "y": -0.511676,
+            "cluster_strength": 0.89301
+          },
+          {
+            "thesis_id": "TH_0068753",
+            "doc_number_url": null,
+            "title": "exploracion sanitaria del municipio de almoloya del rio, estado de mexico",
+            "program": "medico cirujano",
+            "year": 1940,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Fierro Gonzalez, Ana Maria",
+            "advisor": "",
+            "x": 6.176908,
+            "y": -0.532733,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0232508",
+            "doc_number_url": "000192183",
+            "title": "uso del conejo en la investigacion biomedica en el area metropolitana de la ciudad de mexico",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1993,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Lara Armenta, Ramiro Agustin",
+            "advisor": "Villagrán Vélez, Carlos",
+            "x": 6.18124,
+            "y": -0.537125,
+            "cluster_strength": 0.89301
+          },
+          {
+            "thesis_id": "TH_0072582",
+            "doc_number_url": "000144931",
+            "title": "informe general sobre la exploracion sanitaria de la colonia coahuila, valle de mexicali, territorio norte de la baja california",
+            "program": "medico cirujano",
+            "year": 1945,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Cervantes Martinez, Ignacio",
+            "advisor": "",
+            "x": 6.184737,
+            "y": -0.535619,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0007939",
+            "doc_number_url": "000280103",
+            "title": "sistema de drenaje sanitario para las comunidades la resurreccion, los reyes, san salvador, pentecostes, san simon y san jose texopa municipio de texcoco",
+            "program": "ingenieria civil",
+            "year": 2000,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Rivera Galicia, Cipriano Mauricio",
+            "advisor": "Pomposo Vigueras Muñoz, Luis",
+            "x": 6.11528,
+            "y": -0.552716,
+            "cluster_strength": 0.955907
+          }
+        ]
+      },
+      {
+        "microcluster_id": 92,
+        "macrocluster_id": 17,
+        "micro_label": "FAMILIAR · ENFERMERIA · MEDICINA · MEDICINA FAMILIAR",
+        "size": 76,
+        "x": 6.217618,
+        "y": -1.77027,
+        "year_min": 1977,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "familiar",
+            "score": 0.117357
+          },
+          {
+            "term": "enfermeria",
+            "score": 0.077489
+          },
+          {
+            "term": "medicina",
+            "score": 0.075568
+          },
+          {
+            "term": "medicina familiar",
+            "score": 0.072439
+          },
+          {
+            "term": "unidad",
+            "score": 0.055642
+          },
+          {
+            "term": "medico",
+            "score": 0.045959
+          },
+          {
+            "term": "unidad medicina",
+            "score": 0.04359
+          },
+          {
+            "term": "funcionalidad",
+            "score": 0.043347
+          },
+          {
+            "term": "hospital",
+            "score": 0.040192
+          },
+          {
+            "term": "no",
+            "score": 0.040001
+          },
+          {
+            "term": "pacientes",
+            "score": 0.037959
+          },
+          {
+            "term": "atencion",
+            "score": 0.037117
+          },
+          {
+            "term": "funcionalidad familiar",
+            "score": 0.035903
+          },
+          {
+            "term": "paciente",
+            "score": 0.035679
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina familiar",
+            "count": 41
+          },
+          {
+            "label": "enfermeria",
+            "count": 13
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 6
+          },
+          {
+            "label": "psicologia",
+            "count": 4
+          },
+          {
+            "label": "medicina del trabajo y ambiental",
+            "count": 3
+          },
+          {
+            "label": "enfermeria en salud publica",
+            "count": 2
+          },
+          {
+            "label": "sistemas de salud",
+            "count": 1
+          },
+          {
+            "label": "ortopedia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 71
+          },
+          {
+            "label": "Area 3",
+            "count": 3
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 50
+          },
+          {
+            "label": "Licenciatura",
+            "count": 17
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 70
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en enfermería",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico escuela nacional de enfermería y obstetricia",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra señora de la salud,",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra señora de la salud (morelia, mich.). escuela de enfermería y obstetricia, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.013158,
+          "Area 2": 0.934211,
+          "Area 3": 0.039474,
+          "Area 4": 0.013158,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 71,
+            "pct": 0.934211
+          },
+          {
+            "area": "Area 3",
+            "count": 3,
+            "pct": 0.039474
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.013158
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.013158
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0293735",
+            "doc_number_url": "000281002",
+            "title": "modelo sistematico de atencion medica familiar en el consultorio 5-b del turno vespertino de la clinica hospital d del i.s.s.s.t.e. en san cristobal de las casas, chiapas",
+            "program": "medicina familiar",
+            "year": 1999,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Morales Chávez, Berta Concepcion",
+            "advisor": "Vilchis Castro, Jose",
+            "x": 6.203848,
+            "y": -1.742325,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0451398",
+            "doc_number_url": "000736853",
+            "title": "percepción del paciente respecto a la forma de comunicación que manifiesta el profesional de enfermería en una unidad de cuidados coronarios",
+            "program": "enfermeria",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Castillo Nequiz, María",
+            "advisor": "Müggenburg Rodríguez Vigil, María Cristina",
+            "x": 6.25185,
+            "y": -1.761274,
+            "cluster_strength": 0.915337
+          },
+          {
+            "thesis_id": "TH_0461960",
+            "doc_number_url": "000727903",
+            "title": "perfil familiar de pacientes divorciados adscritos al consultorio periférico de issemym en la comisión del agua del estado de méxico",
+            "program": "medicina familiar",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Silva Sánchez, Verónica",
+            "advisor": "Hernández Hernández, Miguel Angel ; Dorantes Barrios, Pedro",
+            "x": 6.198873,
+            "y": -1.800573,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0048625",
+            "doc_number_url": "000321723",
+            "title": "modelo sistematico de la atencion medica familiar en el consultorio no. 1 de la umf. mr-1 guamuchil",
+            "program": "medicina familiar",
+            "year": 2003,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Sainz Calderon, Fidel",
+            "advisor": "Garcia Arciga, Roberto ; Vilchis Castro, Jose",
+            "x": 6.17519,
+            "y": -1.774653,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0524987",
+            "doc_number_url": "000811457",
+            "title": "experiencias y significados del servicio social en pasantes de la carrera de enfermería",
+            "program": "enfermeria",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Remigio Huerta, Josue Misael",
+            "advisor": "Lozano González, Elí Orlando",
+            "x": 6.190193,
+            "y": -1.806274,
+            "cluster_strength": 0.915337
+          },
+          {
+            "thesis_id": "TH_0009891",
+            "doc_number_url": "000286376",
+            "title": "funcionalidad conyugal en parejas de area rural, en la unidad de medicina familiar de rosamorada, nayarit periodo : octubre de 1995-noviembre de 1996",
+            "program": "medicina familiar",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Vergara Cazarez, Gilberto",
+            "advisor": "Dorantes Barrios, Pedro",
+            "x": 6.169425,
+            "y": -1.780649,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0358163",
+            "doc_number_url": "000646486",
+            "title": "razonamiento clínico y estilo de toma de decisión en estudiantes de enfermería : una aproximación al estado del conocimiento",
+            "program": "enfermeria y obstetricia",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Esquivel Ayala, Itzel",
+            "advisor": "Morán Peña, Laura",
+            "x": 6.21143,
+            "y": -1.720931,
+            "cluster_strength": 0.915337
+          },
+          {
+            "thesis_id": "TH_0368697",
+            "doc_number_url": "000796472",
+            "title": "intervenciones de enfermería especializada en salud pública con déficit de autocuidado en prevención y detección oportuna enfermedades de la familia r.g",
+            "program": "enfermeria en salud publica",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Barrera Montes de Oca, Yanelly",
+            "advisor": "Moreno Velázquez, Angélica",
+            "x": 6.201842,
+            "y": -1.721309,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 89,
+        "macrocluster_id": 17,
+        "micro_label": "CLINICA · CLINICA HOSPITAL · GENERAL · HOSPITAL GENERAL",
+        "size": 73,
+        "x": 6.18274,
+        "y": -1.206888,
+        "year_min": 1944,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "clinica",
+            "score": 0.113728
+          },
+          {
+            "term": "clinica hospital",
+            "score": 0.105515
+          },
+          {
+            "term": "general",
+            "score": 0.088591
+          },
+          {
+            "term": "hospital general",
+            "score": 0.088591
+          },
+          {
+            "term": "camas",
+            "score": 0.062982
+          },
+          {
+            "term": "zona",
+            "score": 0.062807
+          },
+          {
+            "term": "general zona",
+            "score": 0.058626
+          },
+          {
+            "term": "san",
+            "score": 0.034951
+          },
+          {
+            "term": "regional",
+            "score": 0.03036
+          },
+          {
+            "term": "civil",
+            "score": 0.029234
+          },
+          {
+            "term": "centro",
+            "score": 0.027962
+          },
+          {
+            "term": "medico",
+            "score": 0.026801
+          },
+          {
+            "term": "hospitales",
+            "score": 0.02679
+          },
+          {
+            "term": "hospital regional",
+            "score": 0.025675
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 41
+          },
+          {
+            "label": "administracion",
+            "count": 8
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 5
+          },
+          {
+            "label": "medico cirujano",
+            "count": 3
+          },
+          {
+            "label": "medicina familiar",
+            "count": 2
+          },
+          {
+            "label": "contaduria",
+            "count": 2
+          },
+          {
+            "label": "medicina interna",
+            "count": 1
+          },
+          {
+            "label": "dise o industrial",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 49
+          },
+          {
+            "label": "Area 3",
+            "count": 13
+          },
+          {
+            "label": "Area 2",
+            "count": 10
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 69
+          },
+          {
+            "label": "Especialidad",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 61
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 3
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de arquitectura",
+            "count": 1
+          },
+          {
+            "label": "escuela nacional de trabajo social (mexico), institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.671233,
+          "Area 2": 0.136986,
+          "Area 3": 0.178082,
+          "Area 4": 0.013699,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 49,
+            "pct": 0.671233
+          },
+          {
+            "area": "Area 3",
+            "count": 13,
+            "pct": 0.178082
+          },
+          {
+            "area": "Area 2",
+            "count": 10,
+            "pct": 0.136986
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.013699
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0122118",
+            "doc_number_url": "000070049",
+            "title": "clinica hospital en pastor ortiz municipio puruandiro, estado de michoacan",
+            "program": "arquitectura",
+            "year": 1974,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Hurtado Alberto, Pedro Roman",
+            "advisor": "",
+            "x": 6.196267,
+            "y": -1.201439,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0328443",
+            "doc_number_url": "000625040",
+            "title": "construccion del hospital general en la delegacion álvaro obregon del distrito federal",
+            "program": "ingenieria civil",
+            "year": 2007,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Aparicio Vasquez, Cesar Antonio",
+            "advisor": "Chavarri Maldonado, Carlos M",
+            "x": 6.167876,
+            "y": -1.198371,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0371897",
+            "doc_number_url": "000794536",
+            "title": "hospital general de zona de 90 camas en atlacomulco de fabela",
+            "program": "arquitectura",
+            "year": 2019,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "García García, Laura Erica",
+            "advisor": "Pliego Martínez, Roberto ; García Reyes, Fernando ; Morón Lara, Rigoberto ; Soto Lechuga, Ana Laura ; Vadillo Rojas, José Gregorio",
+            "x": 6.199483,
+            "y": -1.196045,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0356587",
+            "doc_number_url": "000655834",
+            "title": "centro de salud con hospitalización en ziracuaretiro",
+            "program": "arquitectura",
+            "year": 2009,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad don vasco uruapan",
+            "author": "Campos Mejía, Gabriel Felipe",
+            "advisor": "Álvarez Figueroa, Lourdes Carmiña",
+            "x": 6.212708,
+            "y": -1.211263,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0453589",
+            "doc_number_url": "000738996",
+            "title": "hospital general de 72 camas en campeche",
+            "program": "arquitectura",
+            "year": 2015,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "García Cisneros, Cesar",
+            "advisor": "Roldán Villerías, Jesús",
+            "x": 6.163849,
+            "y": -1.180129,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0007063",
+            "doc_number_url": "000283607",
+            "title": "el funcionamiento del departamento de recursos humanos en el hospital civil de uruapan dr. jesus silva, a.c",
+            "program": "administracion",
+            "year": 2000,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad don vasco uruapan",
+            "author": "Pedroza Magaña, Danissa Paulette",
+            "advisor": "Muriel Valenzuela, Maricela",
+            "x": 6.144293,
+            "y": -1.213736,
+            "cluster_strength": 0.896473
+          },
+          {
+            "thesis_id": "TH_0115412",
+            "doc_number_url": "000069798",
+            "title": "clinica hospital en ahome, sin",
+            "program": "arquitectura",
+            "year": 1972,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Perez Gomez, Enrique",
+            "advisor": "",
+            "x": 6.216211,
+            "y": -1.23003,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0259302",
+            "doc_number_url": "000232346",
+            "title": "hospital general de zona segundo nivel [delegacion alvaro obregon]",
+            "program": "arquitectura",
+            "year": 1996,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Guerrero Muñoz, Eduardo",
+            "advisor": "Díaz Jiménez, Alberto ; Castellanos López, Jany Edna ; Martínez Paredes, Teodoro Oseas",
+            "x": 6.224563,
+            "y": -1.197794,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 91,
+        "macrocluster_id": 17,
+        "micro_label": "SALUD · EDUCACION · EDUCACION SALUD · MEDICINA",
+        "size": 56,
+        "x": 5.440313,
+        "y": -1.516307,
+        "year_min": 1965,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "salud",
+            "score": 0.098861
+          },
+          {
+            "term": "educacion",
+            "score": 0.086167
+          },
+          {
+            "term": "educacion salud",
+            "score": 0.058678
+          },
+          {
+            "term": "medicina",
+            "score": 0.054736
+          },
+          {
+            "term": "aprendizaje",
+            "score": 0.051734
+          },
+          {
+            "term": "comunicacion",
+            "score": 0.049728
+          },
+          {
+            "term": "medicos",
+            "score": 0.041542
+          },
+          {
+            "term": "unam",
+            "score": 0.040475
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.038654
+          },
+          {
+            "term": "programa",
+            "score": 0.037406
+          },
+          {
+            "term": "residentes",
+            "score": 0.036322
+          },
+          {
+            "term": "hospital",
+            "score": 0.033672
+          },
+          {
+            "term": "medico",
+            "score": 0.032627
+          },
+          {
+            "term": "clinica",
+            "score": 0.031055
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 13
+          },
+          {
+            "label": "pedagogia",
+            "count": 6
+          },
+          {
+            "label": "ciencias sociomedicas",
+            "count": 4
+          },
+          {
+            "label": "derecho",
+            "count": 2
+          },
+          {
+            "label": "medicina familiar",
+            "count": 2
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 2
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 2
+          },
+          {
+            "label": "medicina legal",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 36
+          },
+          {
+            "label": "Area 3",
+            "count": 8
+          },
+          {
+            "label": "Area 4",
+            "count": 7
+          },
+          {
+            "label": "Area 1",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 34
+          },
+          {
+            "label": "Maestría",
+            "count": 10
+          },
+          {
+            "label": "Especialidad",
+            "count": 9
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 49
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores zaragoza institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias médicas",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de odontología",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de filosofia y letras institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del río",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.089286,
+          "Area 2": 0.642857,
+          "Area 3": 0.142857,
+          "Area 4": 0.125,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 36,
+            "pct": 0.642857
+          },
+          {
+            "area": "Area 3",
+            "count": 8,
+            "pct": 0.142857
+          },
+          {
+            "area": "Area 4",
+            "count": 7,
+            "pct": 0.125
+          },
+          {
+            "area": "Area 1",
+            "count": 5,
+            "pct": 0.089286
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0044975",
+            "doc_number_url": "000321774",
+            "title": "efectos de un programa de aprendizaje autorregulado en la promocion del rendimiento academico de estudiantes de la facultad de medicina",
+            "program": "psicologia educativa",
+            "year": 2003,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de psicologia unam",
+            "author": "Medeiros Domingo, Citlali",
+            "advisor": "Macotela Flores, Silvia",
+            "x": 5.454283,
+            "y": -1.559428,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0353330",
+            "doc_number_url": "000628907",
+            "title": "evaluación de modelos de comportamiento para la promoción de la salud",
+            "program": "cirujano dentista",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Segura Bello, Diana Patricia",
+            "advisor": "Fuente Hernández, Javier de la ; Villanueva Vilchis, María del Carmen",
+            "x": 5.447678,
+            "y": -1.462027,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0543370",
+            "doc_number_url": "000851364",
+            "title": "comunicación asertiva en educación para la salud",
+            "program": "cirujano dentista",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Chávez Aguilar, Diana Itzel",
+            "advisor": "Ortega Herrera, Héctor",
+            "x": 5.470985,
+            "y": -1.569136,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0037339",
+            "doc_number_url": "000313016",
+            "title": "internet como mecanismo de comunicacion de los proveedores de servicio de salud",
+            "program": "sistemas de salud",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Zamora Barron, Maria del Socorro",
+            "advisor": "Motta Martinez, Arturo David",
+            "x": 5.386678,
+            "y": -1.486277,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0367590",
+            "doc_number_url": "000785893",
+            "title": "las competencias docentes según la percepción del alumno de la clínica odontológica aragón de la facultad de estudios superiores iztacala unam",
+            "program": "cirujano dentista",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Aguilar Flores, Jorge Alberto",
+            "advisor": "Cano Brown, José Trinidad",
+            "x": 5.476808,
+            "y": -1.577312,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0365882",
+            "doc_number_url": "000640703",
+            "title": "diseño de un sistema electrónico de localización de puntos para la enseñanza en la medicina",
+            "program": "ingenieria electrica electronica",
+            "year": 2009,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Santos Díaz, Alejandro",
+            "advisor": "Gómez González, Juan Manuel",
+            "x": 5.475325,
+            "y": -1.451233,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0512157",
+            "doc_number_url": "000803226",
+            "title": "el aprendizaje como estrategia en educación para la salud bucal",
+            "program": "cirujano dentista",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Pineda Cortes, Karla Vianely",
+            "advisor": "Nieto Cruz, María Elena ; Basurto Calva, Alba Estela",
+            "x": 5.496583,
+            "y": -1.565521,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0234054",
+            "doc_number_url": "000198509",
+            "title": "análisis y experiencias de capacitación en educación para la salud en el medio rural, y la educación no formal como estrategia de solución",
+            "program": "pedagogia",
+            "year": 1993,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Mosco Acevedo, Moisés",
+            "advisor": "Eusse Zulvaga, Ofelia",
+            "x": 5.492185,
+            "y": -1.457862,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 95,
+        "macrocluster_id": 17,
+        "micro_label": "GENERAL · HOSPITAL GENERAL · GENERAL MEXICO · JUAREZ MEXICO",
+        "size": 56,
+        "x": 7.930006,
+        "y": -0.575958,
+        "year_min": 1963,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "general",
+            "score": 0.102099
+          },
+          {
+            "term": "hospital general",
+            "score": 0.102099
+          },
+          {
+            "term": "general mexico",
+            "score": 0.101867
+          },
+          {
+            "term": "juarez mexico",
+            "score": 0.101203
+          },
+          {
+            "term": "juarez",
+            "score": 0.101203
+          },
+          {
+            "term": "hospital juarez",
+            "score": 0.097691
+          },
+          {
+            "term": "pacientes",
+            "score": 0.088453
+          },
+          {
+            "term": "experiencia",
+            "score": 0.073581
+          },
+          {
+            "term": "frecuencia",
+            "score": 0.059511
+          },
+          {
+            "term": "prevalencia",
+            "score": 0.057016
+          },
+          {
+            "term": "anos",
+            "score": 0.051316
+          },
+          {
+            "term": "experiencia hospital",
+            "score": 0.047395
+          },
+          {
+            "term": "servicio",
+            "score": 0.042013
+          },
+          {
+            "term": "espanol",
+            "score": 0.038804
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirugia general",
+            "count": 9
+          },
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 5
+          },
+          {
+            "label": "otorrinolaringologia y cirugia de cabeza y cuello",
+            "count": 3
+          },
+          {
+            "label": "medicina interna",
+            "count": 3
+          },
+          {
+            "label": "pediatria",
+            "count": 3
+          },
+          {
+            "label": "oftalmologia",
+            "count": 3
+          },
+          {
+            "label": "cardiologia",
+            "count": 2
+          },
+          {
+            "label": "medicina familiar",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 55
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 54
+          },
+          {
+            "label": "Licenciatura",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 56
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.017857,
+          "Area 2": 0.982143,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 55,
+            "pct": 0.982143
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.017857
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0342939",
+            "doc_number_url": "000630212",
+            "title": "síndrome de fitz-hugh-curtis : incidencia en el servicio de endoscopia ginecológica, hospital juárez de méxico 2003-2004",
+            "program": "ginecologia y obstetricia",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Brito Barajas, Raúl",
+            "advisor": "Sánchez Contreras, Jesús",
+            "x": 7.926888,
+            "y": -0.563807,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0248495",
+            "doc_number_url": "000228826",
+            "title": "caracterizacion clinica del sindrome de hellp en el hospital juarez de mexico",
+            "program": "ginecologia y obstetricia",
+            "year": 1995,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Baños Salinas, Alicia",
+            "advisor": "Pulido Olivares, Victor Hugo",
+            "x": 7.909359,
+            "y": -0.575128,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0382359",
+            "doc_number_url": "000660719",
+            "title": "frecuencia de malformaciones congénitas en el hospital juárez de méxico : reporte de 1998 a 2008",
+            "program": "pediatria",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Andrade Flores, Leticia",
+            "advisor": "González Barajas, Alicia",
+            "x": 7.957419,
+            "y": -0.586998,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0332166",
+            "doc_number_url": "000620678",
+            "title": "prevalencia de la trombosis en el hospital general de mexico",
+            "program": "hematologia",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "García Lee, Maria Teresa",
+            "advisor": "Martinez Murillo, Carlos",
+            "x": 7.961789,
+            "y": -0.552461,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0571797",
+            "doc_number_url": "000874486",
+            "title": "\"tiñas extensas en pacientes de estancia hospitalaria prolongada : frecuencia y factores predisponentes en un hospital de tercer nivel en méxico\"",
+            "program": "dermatologia",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Elizondo Elizondo, Myrna Mariela",
+            "advisor": "Bonifaz Trujillo, José Alexandro ; Araiza Santibáñez, Javier",
+            "x": 7.896519,
+            "y": -0.551383,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0518402",
+            "doc_number_url": "000817690",
+            "title": "indicaciones para queratoplastía penetrante y frecuencia de rechazo en pacientes adultos del hospital regional licenciado adolfo lópez mateos en la ciudad de méxico",
+            "program": "oftalmologia",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Gabián Fortes, Lucía del Carmen",
+            "advisor": "Navarrete Horta, Gabriela ; Gulias Cañizo, Rosario",
+            "x": 7.955443,
+            "y": -0.614215,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0436916",
+            "doc_number_url": "000714504",
+            "title": "frecuencia de dislipidemia y factores asociados en el primer nivel atención médica en la unidad de medicina familiar n°15 (umf15) del instituto mexicano del seguro social (imss) de casasano,morelos",
+            "program": "medicina familiar",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Carrera Barragán, María Azucena",
+            "advisor": "Salazar Martínez, Eduardo",
+            "x": 7.89161,
+            "y": -0.534754,
+            "cluster_strength": 0.914496
+          },
+          {
+            "thesis_id": "TH_0382640",
+            "doc_number_url": "000660050",
+            "title": "intervenciones de enfermería especializada en pacientes con estenosis valvular aórtica en el hospital general de méxico, en méxico, d.f",
+            "program": "enfermeria cardiovascular",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Arvizu Hipólito, Raúl",
+            "advisor": "Balseiro Almario, Lasty",
+            "x": 7.94618,
+            "y": -0.511101,
+            "cluster_strength": 0.925068
+          }
+        ]
+      }
+    ]
+  }
+}

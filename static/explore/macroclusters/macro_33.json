@@ -1,0 +1,338 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 33,
+    "macro_label": "DEPORTIVO · CENTRO · DEPORTE · CENTRO DEPORTIVO",
+    "size": 194,
+    "microcluster_count": 1,
+    "microclusters": [
+      {
+        "microcluster_id": 13,
+        "macrocluster_id": 33,
+        "micro_label": "DEPORTIVO · CENTRO · DEPORTE · CENTRO DEPORTIVO",
+        "size": 194,
+        "x": 1.534882,
+        "y": 1.456123,
+        "year_min": 1935,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "deportivo",
+            "score": 0.091058
+          },
+          {
+            "term": "centro",
+            "score": 0.072285
+          },
+          {
+            "term": "deporte",
+            "score": 0.046596
+          },
+          {
+            "term": "centro deportivo",
+            "score": 0.044898
+          },
+          {
+            "term": "cultural",
+            "score": 0.039061
+          },
+          {
+            "term": "social",
+            "score": 0.035898
+          },
+          {
+            "term": "futbol",
+            "score": 0.033259
+          },
+          {
+            "term": "cultural deportivo",
+            "score": 0.032763
+          },
+          {
+            "term": "mexico",
+            "score": 0.032613
+          },
+          {
+            "term": "club",
+            "score": 0.030532
+          },
+          {
+            "term": "deportistas",
+            "score": 0.02747
+          },
+          {
+            "term": "centro social",
+            "score": 0.02493
+          },
+          {
+            "term": "deportiva",
+            "score": 0.023975
+          },
+          {
+            "term": "ciudad",
+            "score": 0.023045
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 80
+          },
+          {
+            "label": "psicologia",
+            "count": 22
+          },
+          {
+            "label": "derecho",
+            "count": 14
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 9
+          },
+          {
+            "label": "administracion",
+            "count": 6
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 5
+          },
+          {
+            "label": "pedagogia",
+            "count": 5
+          },
+          {
+            "label": "economia",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 96
+          },
+          {
+            "label": "Area 3",
+            "count": 65
+          },
+          {
+            "label": "Area 2",
+            "count": 17
+          },
+          {
+            "label": "Area 4",
+            "count": 16
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 180
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          },
+          {
+            "label": "Especialidad",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 165
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 3
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 3
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 3
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de arquitectura institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad americana de acapulco",
+            "count": 2
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.494845,
+          "Area 2": 0.087629,
+          "Area 3": 0.335052,
+          "Area 4": 0.082474,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 96,
+            "pct": 0.494845
+          },
+          {
+            "area": "Area 3",
+            "count": 65,
+            "pct": 0.335052
+          },
+          {
+            "area": "Area 2",
+            "count": 17,
+            "pct": 0.087629
+          },
+          {
+            "area": "Area 4",
+            "count": 16,
+            "pct": 0.082474
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0045816",
+            "doc_number_url": "000326437",
+            "title": "escuela de futbol",
+            "program": "arquitectura",
+            "year": 2003,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Moron Lara, Rigoberto",
+            "advisor": "Izquierdo Resendiz, Esteban",
+            "x": 1.46245,
+            "y": 1.435196,
+            "cluster_strength": 0.89781
+          },
+          {
+            "thesis_id": "TH_0176288",
+            "doc_number_url": "000027092",
+            "title": "influencia del idolo futbolistico en el espectador",
+            "program": "periodismo y comunicacion colectiva",
+            "year": 1985,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Couttolenc Echeverria, Maria Paz",
+            "advisor": "Ortiz Frutis, Ruben",
+            "x": 1.457982,
+            "y": 1.431008,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0582276",
+            "doc_number_url": "000882610",
+            "title": "creencias de la familia en el potencial de los hijos e hijas en el deporte",
+            "program": "psicologia",
+            "year": 2026,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Hernández Gavia, David",
+            "advisor": "Méndez-Sánchez, María del Pilar ; Peñaloza Gómez, Rafael ; Nuñez Hernández, Eduardo David",
+            "x": 1.486279,
+            "y": 1.388815,
+            "cluster_strength": 0.761839
+          },
+          {
+            "thesis_id": "TH_0434670",
+            "doc_number_url": "000692740",
+            "title": "campaña de difusión para el equipo de futbol americano pumas cu : una dorada tradición",
+            "program": "periodismo",
+            "year": 2013,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Zamora Vega, Jessica Gabriela",
+            "advisor": "Antiga Trujillo, Nedelia",
+            "x": 1.463955,
+            "y": 1.408086,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0022039",
+            "doc_number_url": "000290440",
+            "title": "ventajas que trae consigo la implantacion de un sistema experto en el gimnasio atletico uruapan",
+            "program": "informatica",
+            "year": 2001,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad don vasco uruapan",
+            "author": "Urtiz Morelos, Luis Manuel",
+            "advisor": "Navarrete Benitez, Francisco Javier",
+            "x": 1.45052,
+            "y": 1.431379,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0506945",
+            "doc_number_url": "000806178",
+            "title": "prevalencia de acortamiento de gastrocnemios en atletas de alto rendimiento como factor de riesgo para el desarrollo de lesiones",
+            "program": "ortopedia",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Acuña Campos, Jonathan",
+            "advisor": "Cortés García, Juan Ricardo",
+            "x": 1.471961,
+            "y": 1.390355,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0220413",
+            "doc_number_url": "000183298",
+            "title": "oligomenorrea y amenorrea en la atleta",
+            "program": "medicina de la actividad fisica y deportiva",
+            "year": 1992,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cisneros Salazar, Sabina",
+            "advisor": "Cabello Suarez, Alfredo",
+            "x": 1.537531,
+            "y": 1.363046,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0022352",
+            "doc_number_url": "000288014",
+            "title": "comparacion en los estilos de afrontamiento utilizado por deportistas y no deportistas en vida cotidiana",
+            "program": "psicologia",
+            "year": 2001,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Vazquez Villegas, Carlos Alberto",
+            "advisor": "Allende Frausto, Arturo Isaias",
+            "x": 1.508866,
+            "y": 1.366299,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

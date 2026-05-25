@@ -1,0 +1,970 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 31,
+    "macro_label": "INTERNACIONAL · AEROPUERTO · ANALISIS · MEXICO",
+    "size": 201,
+    "microcluster_count": 3,
+    "microclusters": [
+      {
+        "microcluster_id": 30,
+        "macrocluster_id": 31,
+        "micro_label": "AEROPUERTO · INTERNACIONAL · AEROPUERTO INTERNACIONAL · ANALISIS",
+        "size": 78,
+        "x": 1.999507,
+        "y": 2.299825,
+        "year_min": 1931,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "aeropuerto",
+            "score": 0.10471
+          },
+          {
+            "term": "internacional",
+            "score": 0.092209
+          },
+          {
+            "term": "aeropuerto internacional",
+            "score": 0.081937
+          },
+          {
+            "term": "analisis",
+            "score": 0.06078
+          },
+          {
+            "term": "aviacion",
+            "score": 0.045951
+          },
+          {
+            "term": "aeronave",
+            "score": 0.040094
+          },
+          {
+            "term": "aeropuertos",
+            "score": 0.039907
+          },
+          {
+            "term": "aerea",
+            "score": 0.037426
+          },
+          {
+            "term": "aeronaves",
+            "score": 0.036903
+          },
+          {
+            "term": "mexico",
+            "score": 0.032077
+          },
+          {
+            "term": "aereo",
+            "score": 0.029807
+          },
+          {
+            "term": "proyecto",
+            "score": 0.029398
+          },
+          {
+            "term": "responsabilidad",
+            "score": 0.028157
+          },
+          {
+            "term": "aereas",
+            "score": 0.027047
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 16
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 16
+          },
+          {
+            "label": "arquitectura",
+            "count": 12
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 4
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 3
+          },
+          {
+            "label": "anestesiologia",
+            "count": 2
+          },
+          {
+            "label": "dise o grafico",
+            "count": 2
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 45
+          },
+          {
+            "label": "Area 3",
+            "count": 23
+          },
+          {
+            "label": "Area 2",
+            "count": 7
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 69
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 74
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad latinoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.576923,
+          "Area 2": 0.089744,
+          "Area 3": 0.294872,
+          "Area 4": 0.038462,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 45,
+            "pct": 0.576923
+          },
+          {
+            "area": "Area 3",
+            "count": 23,
+            "pct": 0.294872
+          },
+          {
+            "area": "Area 2",
+            "count": 7,
+            "pct": 0.089744
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.038462
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0103432",
+            "doc_number_url": "000104631",
+            "title": "analisis y reconocimiento internacional de los derechos reales sobre la aeronave",
+            "program": "derecho",
+            "year": 1969,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Osuna Borraz, Eliecer",
+            "advisor": "",
+            "x": 1.999563,
+            "y": 2.293489,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0225991",
+            "doc_number_url": "000187282",
+            "title": "dimension actual de la organizacion de aviacion civil internacional (oaci)",
+            "program": "relaciones internacionales",
+            "year": 1992,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Rodriguez Hernandez, Marina Ma. de Los Angeles",
+            "advisor": "Velázquez Elizarrarás, Juan Carlos",
+            "x": 1.993346,
+            "y": 2.287568,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0099801",
+            "doc_number_url": "000099583",
+            "title": "condicion juridica de la tripulacion extranjera de aeronave",
+            "program": "derecho",
+            "year": 1968,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "García Jimenez, Mario Raul",
+            "advisor": "",
+            "x": 2.01069,
+            "y": 2.291292,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0317086",
+            "doc_number_url": "000612818",
+            "title": "¿planeacion y gestion participativas? : el caso del proyecto de rescate integral del conjunto abelardo l. rodriguez",
+            "program": "urbanismo",
+            "year": 2006,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Chapela Ayala, Tania Camila",
+            "advisor": "Quiróz Rothe, Héctor ; Flores Peña, Sergio ; Lahera Ramon, Virginia",
+            "x": 1.990952,
+            "y": 2.311583,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0064064",
+            "doc_number_url": "000076157",
+            "title": "responsabilidad de las companias de aeronavegacion en casos de accidente",
+            "program": "derecho",
+            "year": 1931,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Muller D., Joel",
+            "advisor": "",
+            "x": 1.992906,
+            "y": 2.313477,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0109955",
+            "doc_number_url": "000674923",
+            "title": "delito de apoderamiento temporal ilícito de aeronaves",
+            "program": "derecho",
+            "year": 1971,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "González Aragón Reynoso, Ernesto",
+            "advisor": "",
+            "x": 1.976089,
+            "y": 2.288217,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0080930",
+            "doc_number_url": "000098512",
+            "title": "regimen juridico de las aeronaves de estado",
+            "program": "derecho",
+            "year": 1955,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Tellez Salas, Enrique A.",
+            "advisor": "",
+            "x": 1.968159,
+            "y": 2.30285,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0181073",
+            "doc_number_url": "000062826",
+            "title": "analisis sobre la organizacion de los sobrecargos en una aerolinea",
+            "program": "administracion",
+            "year": 1986,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad latinoamericana",
+            "author": "Domínguez Cano, Fernando Francisco",
+            "advisor": "Perez Orozco, Mario Arturo",
+            "x": 1.979715,
+            "y": 2.27314,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 35,
+        "macrocluster_id": 31,
+        "micro_label": "PUERTO · MAR · JURIDICO · DESARROLLO",
+        "size": 78,
+        "x": 2.377351,
+        "y": 2.567129,
+        "year_min": 1945,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "puerto",
+            "score": 0.0872
+          },
+          {
+            "term": "mar",
+            "score": 0.062802
+          },
+          {
+            "term": "juridico",
+            "score": 0.05279
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.048668
+          },
+          {
+            "term": "analisis",
+            "score": 0.048188
+          },
+          {
+            "term": "centro",
+            "score": 0.04155
+          },
+          {
+            "term": "maritima",
+            "score": 0.039286
+          },
+          {
+            "term": "marina",
+            "score": 0.038058
+          },
+          {
+            "term": "sistema",
+            "score": 0.03174
+          },
+          {
+            "term": "mazatlan",
+            "score": 0.031039
+          },
+          {
+            "term": "planeacion",
+            "score": 0.029575
+          },
+          {
+            "term": "integral",
+            "score": 0.029315
+          },
+          {
+            "term": "proyecto",
+            "score": 0.029059
+          },
+          {
+            "term": "regimen",
+            "score": 0.028824
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria civil",
+            "count": 25
+          },
+          {
+            "label": "derecho",
+            "count": 16
+          },
+          {
+            "label": "arquitectura",
+            "count": 12
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 5
+          },
+          {
+            "label": "geografia",
+            "count": 3
+          },
+          {
+            "label": "estructuras",
+            "count": 2
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 2
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 51
+          },
+          {
+            "label": "Area 3",
+            "count": 21
+          },
+          {
+            "label": "Area 4",
+            "count": 4
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 70
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 69
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa único de especializaciones en ingeniería",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias del mar y limnología",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.653846,
+          "Area 2": 0.025641,
+          "Area 3": 0.269231,
+          "Area 4": 0.051282,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 51,
+            "pct": 0.653846
+          },
+          {
+            "area": "Area 3",
+            "count": 21,
+            "pct": 0.269231
+          },
+          {
+            "area": "Area 4",
+            "count": 4,
+            "pct": 0.051282
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.025641
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0474572",
+            "doc_number_url": null,
+            "title": "dimensionamiento de un sistema de bypass de arena en el puerto de sisal, yucatán",
+            "program": "ingenieria civil",
+            "year": 2016,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Reyes Cabañas, Pedro Eduardo",
+            "advisor": "Salles Afonso de Almeida, Paulo",
+            "x": 2.390991,
+            "y": 2.562585,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0078629",
+            "doc_number_url": "000124816",
+            "title": "analisis de un puerto en la bahia de mazatlan, sinaloa",
+            "program": "ingenieria civil",
+            "year": 1952,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Ruiz Ocampo, Leonardo",
+            "advisor": "Mendoza Franco, Roberto",
+            "x": 2.351038,
+            "y": 2.561716,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0200754",
+            "doc_number_url": null,
+            "title": "señalamiento marítimo y ayudas a la navegación",
+            "program": "ingenieria civil",
+            "year": 1989,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "López Arellano, Luis Joaquin",
+            "advisor": "Sánchez Cortés, Ricardo",
+            "x": 2.407784,
+            "y": 2.585513,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0557847",
+            "doc_number_url": "000863566",
+            "title": "centro de restauración e investigación marina en puerto vallarta, jalisco",
+            "program": "arquitectura",
+            "year": 2024,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Cureño Montes de Oca, Paola",
+            "advisor": "Terán Rodríguez, Elías ; Rodríguez Troncoso, Alma Paola",
+            "x": 2.382552,
+            "y": 2.623013,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0190285",
+            "doc_number_url": "000085020",
+            "title": "la dependencia informativa ante el hundimiento del buque tanque potrero del llano mayo 13 de 1942",
+            "program": "historia",
+            "year": 1988,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Ezeta Benavides, Leopoldo",
+            "advisor": "Ortega y Medina, Juan Antonio",
+            "x": 2.405698,
+            "y": 2.517164,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0266263",
+            "doc_number_url": "000249754",
+            "title": "alternativa integral para el desarrollo del puerto de acapulco, guerrero",
+            "program": "ingenieria civil",
+            "year": 1997,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Amezcua Hassey, Alvaro",
+            "advisor": "Zarate Rocha, Luis",
+            "x": 2.350008,
+            "y": 2.504923,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0099328",
+            "doc_number_url": "000058825",
+            "title": "escuela de tecnologia maritima, mazatlan, sinaloa",
+            "program": "arquitectura",
+            "year": 1968,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Benitez Lizarraga, Mario",
+            "advisor": "",
+            "x": 2.42157,
+            "y": 2.623933,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0157203",
+            "doc_number_url": "000034760",
+            "title": "analisis de precios unitarios y cuantificacion de un refugio contra ciclones para embarcaciones pesqueras de mazatlan sin",
+            "program": "ingenieria civil",
+            "year": 1982,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "López Velarde Pasillas, Jorge Alejandro",
+            "advisor": "Rebuelta Gutiérrez, Joaquín",
+            "x": 2.448068,
+            "y": 2.595761,
+            "cluster_strength": 0.903232
+          }
+        ]
+      },
+      {
+        "microcluster_id": 188,
+        "macrocluster_id": 31,
+        "micro_label": "PESCA · MEXICO · PESQUERA · PESQUERO",
+        "size": 45,
+        "x": 3.817343,
+        "y": 4.246317,
+        "year_min": 1959,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "pesca",
+            "score": 0.147173
+          },
+          {
+            "term": "mexico",
+            "score": 0.116985
+          },
+          {
+            "term": "pesquera",
+            "score": 0.101687
+          },
+          {
+            "term": "pesquero",
+            "score": 0.072224
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.072021
+          },
+          {
+            "term": "pesqueras",
+            "score": 0.05601
+          },
+          {
+            "term": "perspectivas",
+            "score": 0.051686
+          },
+          {
+            "term": "ciudad",
+            "score": 0.045067
+          },
+          {
+            "term": "actividad pesquera",
+            "score": 0.043776
+          },
+          {
+            "term": "actividad",
+            "score": 0.043776
+          },
+          {
+            "term": "pesca mexico",
+            "score": 0.042943
+          },
+          {
+            "term": "estado",
+            "score": 0.040811
+          },
+          {
+            "term": "san",
+            "score": 0.036397
+          },
+          {
+            "term": "cooperativas",
+            "score": 0.036077
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "economia",
+            "count": 14
+          },
+          {
+            "label": "arquitectura",
+            "count": 5
+          },
+          {
+            "label": "administracion",
+            "count": 4
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 4
+          },
+          {
+            "label": "derecho",
+            "count": 4
+          },
+          {
+            "label": "biologia",
+            "count": 4
+          },
+          {
+            "label": "contaduria",
+            "count": 3
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 28
+          },
+          {
+            "label": "Area 1",
+            "count": 13
+          },
+          {
+            "label": "Area 2",
+            "count": 3
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 43
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 40
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de derecho institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara jal) escuela de arquitectura institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.288889,
+          "Area 2": 0.066667,
+          "Area 3": 0.622222,
+          "Area 4": 0.022222,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 28,
+            "pct": 0.622222
+          },
+          {
+            "area": "Area 1",
+            "count": 13,
+            "pct": 0.288889
+          },
+          {
+            "area": "Area 2",
+            "count": 3,
+            "pct": 0.066667
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.022222
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0085451",
+            "doc_number_url": "000085394",
+            "title": "estudios financieros en empresas pesqueras, congeladoras de camaron y manufactureras de harina y aceite",
+            "program": "contaduria",
+            "year": 1961,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Espindola E., José Luis",
+            "advisor": "",
+            "x": 3.809117,
+            "y": 4.252677,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0115296",
+            "doc_number_url": "000069793",
+            "title": "centro pesquero en san felipe, b.c",
+            "program": "arquitectura",
+            "year": 1972,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Padron y Navarro, Raul",
+            "advisor": "",
+            "x": 3.813195,
+            "y": 4.230201,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0137915",
+            "doc_number_url": "000130638",
+            "title": "[factibilidad económica de una terminal pesquera en ciudad del carmen, campeche]",
+            "program": "ingenieria civil",
+            "year": 1978,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Abad Martinez, Carlos",
+            "advisor": "",
+            "x": 3.801239,
+            "y": 4.250858,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0136010",
+            "doc_number_url": null,
+            "title": "esquemas alternativos para la ubicacion de un muelle para pesca deportiva en san jose del cabo b.c.s",
+            "program": "ingenieria civil",
+            "year": 1977,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Miranda Medina, Francisco Javier",
+            "advisor": "Fernandez Esparza, Antonio",
+            "x": 3.831353,
+            "y": 4.262899,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0163324",
+            "doc_number_url": "000015943",
+            "title": "funciones del estado en la actividad pesquera",
+            "program": "derecho",
+            "year": 1983,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Labastida Espinosa, Hector Alfonso de",
+            "advisor": "Montesano Carbonell, Jose",
+            "x": 3.836659,
+            "y": 4.260241,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0148885",
+            "doc_number_url": "000014162",
+            "title": "desarrollo de infraestructura pesquera en comunidades pesqueras",
+            "program": "ingenieria civil",
+            "year": 1981,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Breton Figueroa, Alonso",
+            "advisor": "López Gutierrez, Hector J",
+            "x": 3.825432,
+            "y": 4.271362,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0129079",
+            "doc_number_url": "000119299",
+            "title": "estudio de las cooperativas pesqueras en puerto madero, municipio de tapachula, chis",
+            "program": "administracion",
+            "year": 1976,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Collazo Gutierrez, Juan",
+            "advisor": "Laris Casillas, Francisco Javier",
+            "x": 3.844008,
+            "y": 4.250473,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0111116",
+            "doc_number_url": "000068602",
+            "title": "frigorifico (explotacion pesquera) en la isla penal maria magdalena",
+            "program": "arquitectura",
+            "year": 1971,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Navarro Guerrero, Eduardo",
+            "advisor": "",
+            "x": 3.847862,
+            "y": 4.230498,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

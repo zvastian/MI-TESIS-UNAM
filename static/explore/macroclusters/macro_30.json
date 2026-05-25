@@ -1,0 +1,1254 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 30,
+    "macro_label": "DIVORCIO · MATRIMONIO · FAMILIAR · PAREJA",
+    "size": 245,
+    "microcluster_count": 4,
+    "microclusters": [
+      {
+        "microcluster_id": 52,
+        "macrocluster_id": 30,
+        "micro_label": "CAUSAL · CAUSAL DIVORCIO · CIVIL · CODIGO",
+        "size": 101,
+        "x": -0.414617,
+        "y": 6.255392,
+        "year_min": 1934,
+        "year_max": 2021,
+        "top_terms": [
+          {
+            "term": "causal",
+            "score": 0.06244
+          },
+          {
+            "term": "causal divorcio",
+            "score": 0.060628
+          },
+          {
+            "term": "civil",
+            "score": 0.057572
+          },
+          {
+            "term": "codigo",
+            "score": 0.057524
+          },
+          {
+            "term": "federal",
+            "score": 0.054669
+          },
+          {
+            "term": "distrito",
+            "score": 0.054669
+          },
+          {
+            "term": "distrito federal",
+            "score": 0.054669
+          },
+          {
+            "term": "codigo civil",
+            "score": 0.054067
+          },
+          {
+            "term": "mexico",
+            "score": 0.049103
+          },
+          {
+            "term": "divorcio necesario",
+            "score": 0.04595
+          },
+          {
+            "term": "necesario",
+            "score": 0.04595
+          },
+          {
+            "term": "estado",
+            "score": 0.045739
+          },
+          {
+            "term": "analisis",
+            "score": 0.043348
+          },
+          {
+            "term": "estado mexico",
+            "score": 0.035936
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 95
+          },
+          {
+            "label": "psicologia",
+            "count": 3
+          },
+          {
+            "label": "derecho civil",
+            "count": 1
+          },
+          {
+            "label": "historia",
+            "count": 1
+          },
+          {
+            "label": "pedagogia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 98
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 98
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 75
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 4
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 3
+          },
+          {
+            "label": "instituto patria bosques,",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de derecho institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad villa rica",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 2
+          },
+          {
+            "label": "universidad villa rica (boca del río",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.019802,
+          "Area 3": 0.970297,
+          "Area 4": 0.009901,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 98,
+            "pct": 0.970297
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.019802
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.009901
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0383478",
+            "doc_number_url": "000655915",
+            "title": "derogación del adulterio como causal de divorcio previsto en el artículo 4.90 del código civil para el estado de méxico",
+            "program": "derecho",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad oparin",
+            "author": "Camilo Ramírez, Guadalupe Fabiola",
+            "advisor": "Ramírez Ramírez, Leoncio",
+            "x": -0.454599,
+            "y": 6.250419,
+            "cluster_strength": 0.576967
+          },
+          {
+            "thesis_id": "TH_0515505",
+            "doc_number_url": "000812315",
+            "title": "los hijos frente al divorcio en el código civil para el distrito federal, hoy ciudad de méxico",
+            "program": "derecho",
+            "year": 2021,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Barrera Álvarez, Sarha",
+            "advisor": "Pérez Carbajal y Campuzano, Hilda",
+            "x": -0.456871,
+            "y": 6.244934,
+            "cluster_strength": 0.383794
+          },
+          {
+            "thesis_id": "TH_0095492",
+            "doc_number_url": "000098692",
+            "title": "la ley del divorcio del estado de chihuahua su análisis y critica en el derecho internacional privado",
+            "program": "derecho",
+            "year": 1966,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "García Moreno, Víctor Carlos",
+            "advisor": "",
+            "x": -0.39743,
+            "y": 6.311468,
+            "cluster_strength": 0.356372
+          },
+          {
+            "thesis_id": "TH_0393814",
+            "doc_number_url": "000665452",
+            "title": "propuesta de homologación del divorcio unilateral contemplado en el código civil para el distrito federal para el estado de méxico",
+            "program": "derecho",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Sacadas Beltrán, Karla Christian",
+            "advisor": "Cisneros Contreras, Julián",
+            "x": -0.461817,
+            "y": 6.194948,
+            "cluster_strength": 0.513739
+          },
+          {
+            "thesis_id": "TH_0320036",
+            "doc_number_url": "000646727",
+            "title": "ausencia y presunción de muerte como causas de disolución del vinculo matrimonial en el código civil para el distrito federal",
+            "program": "derecho",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Hernández Carapia, Verónica",
+            "advisor": "Díaz Herrera, Hilda",
+            "x": -0.427898,
+            "y": 6.338373,
+            "cluster_strength": 0.28186
+          },
+          {
+            "thesis_id": "TH_0056970",
+            "doc_number_url": "000337487",
+            "title": "analisis juridico de la bisexualidad como causal de divorcio en el estado de mexico",
+            "program": "derecho",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Jacobo Cortés, Alejandro",
+            "advisor": "López Tapia, Juan Jose",
+            "x": -0.449782,
+            "y": 6.342738,
+            "cluster_strength": 0.897606
+          },
+          {
+            "thesis_id": "TH_0360951",
+            "doc_number_url": "000642636",
+            "title": "propuesta de regulación de la transacción y conversión de vía en los juicios de divorcio necesario en el estado de méxico",
+            "program": "derecho",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "León Liberato, Maribel",
+            "advisor": "Sifuentes Solís, Javier",
+            "x": -0.456656,
+            "y": 6.351735,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0204235",
+            "doc_number_url": "000153990",
+            "title": "necesidad de incluir en el articulo 141 del codigo civil para el estado de veracruz como causal de divorcio la incompatibilidad de caracteres",
+            "program": "derecho",
+            "year": 1990,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad villa rica",
+            "author": "Flores Utrera, Juan Rafael",
+            "advisor": "Olea Breton, Pedro",
+            "x": -0.463187,
+            "y": 6.161803,
+            "cluster_strength": 0.245284
+          }
+        ]
+      },
+      {
+        "microcluster_id": 68,
+        "macrocluster_id": 30,
+        "micro_label": "FAMILIAR · FAMILIA · DERECHO · FAMILIARES",
+        "size": 54,
+        "x": 0.980475,
+        "y": -2.738254,
+        "year_min": 1933,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "familiar",
+            "score": 0.143072
+          },
+          {
+            "term": "familia",
+            "score": 0.120231
+          },
+          {
+            "term": "derecho",
+            "score": 0.089494
+          },
+          {
+            "term": "familiares",
+            "score": 0.084684
+          },
+          {
+            "term": "analisis",
+            "score": 0.051636
+          },
+          {
+            "term": "materia",
+            "score": 0.043121
+          },
+          {
+            "term": "materia familiar",
+            "score": 0.043121
+          },
+          {
+            "term": "estado",
+            "score": 0.040721
+          },
+          {
+            "term": "federal",
+            "score": 0.03955
+          },
+          {
+            "term": "distrito",
+            "score": 0.03955
+          },
+          {
+            "term": "distrito federal",
+            "score": 0.03955
+          },
+          {
+            "term": "derecho familiar",
+            "score": 0.034552
+          },
+          {
+            "term": "adopcion",
+            "score": 0.034182
+          },
+          {
+            "term": "relaciones",
+            "score": 0.034131
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 40
+          },
+          {
+            "label": "psicologia",
+            "count": 7
+          },
+          {
+            "label": "medicina familiar",
+            "count": 2
+          },
+          {
+            "label": "ingenieria industrial",
+            "count": 1
+          },
+          {
+            "label": "economia",
+            "count": 1
+          },
+          {
+            "label": "estudios politicos y sociales",
+            "count": 1
+          },
+          {
+            "label": "quimica",
+            "count": 1
+          },
+          {
+            "label": "trabajo social",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 46
+          },
+          {
+            "label": "Area 2",
+            "count": 7
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 50
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 47
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 2
+          },
+          {
+            "label": "universidad lasallista benavente",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (campus cuernavaca)",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.018519,
+          "Area 2": 0.12963,
+          "Area 3": 0.851852,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 46,
+            "pct": 0.851852
+          },
+          {
+            "area": "Area 2",
+            "count": 7,
+            "pct": 0.12963
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.018519
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0343755",
+            "doc_number_url": "000636334",
+            "title": "importancia jurídica, moral y social de los abuelos en el ejercicio de la patria potestad",
+            "program": "derecho",
+            "year": 2008,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "César Moreno, Marisol",
+            "advisor": "Castañeda Rivas, María Leoba",
+            "x": -0.354856,
+            "y": -2.523221,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0222370",
+            "doc_number_url": "000188432",
+            "title": "analisis socio-juridico de la adopcion",
+            "program": "derecho",
+            "year": 1992,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del valle de mexico",
+            "author": "Gutierrez Vilchis, Maria Teresa",
+            "advisor": "León Uribe, María del Pilar",
+            "x": -0.418823,
+            "y": -2.582091,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0400247",
+            "doc_number_url": "000677773",
+            "title": "el derecho de los parientes afines a heredar",
+            "program": "derecho",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad latina",
+            "author": "Gutiérrez Escudero, Cándido",
+            "advisor": "Ramírez Castro, María del Rosario",
+            "x": -0.457161,
+            "y": -2.62635,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0241901",
+            "doc_number_url": "000206641",
+            "title": "fundamento legal para la adopcion de menores acogidos en las casas cuna del sistema nacional para el desarrollo integral de la familia",
+            "program": "derecho",
+            "year": 1994,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Hernandez Villanueva, Sandra",
+            "advisor": "Arellano Palafox, Sara",
+            "x": -0.502439,
+            "y": -2.687328,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0030793",
+            "doc_number_url": "000305601",
+            "title": "derecho de los abuelos para solicitar el otorgamiento de la patria potestad de sus menores nietos en caso de abandono de sus padres",
+            "program": "derecho",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Martinez Cruz, Susana Adriana",
+            "advisor": "Dávalos Paz, Joaquín",
+            "x": -0.505081,
+            "y": -2.715755,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0064919",
+            "doc_number_url": "000076715",
+            "title": "el patrimonio de familia reglamentaciones y comentarios",
+            "program": "derecho",
+            "year": 1933,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Rebollar y Sanchez, Daniel",
+            "advisor": "",
+            "x": -0.51536,
+            "y": -2.763336,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0107371",
+            "doc_number_url": "000103764",
+            "title": "la adopcion, su estudio comparativo y reformas legales",
+            "program": "derecho",
+            "year": 1970,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Ramos García, Maria Elena",
+            "advisor": "",
+            "x": -0.504708,
+            "y": -2.527355,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0566999",
+            "doc_number_url": "000858857",
+            "title": "importancia de la mediación en las controversias del orden familiar",
+            "program": "derecho",
+            "year": 2024,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Santoyo Cárdenas, Saúl",
+            "advisor": "Montoya Pérez, María del Carmen",
+            "x": -0.520437,
+            "y": -2.81621,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 51,
+        "macrocluster_id": 30,
+        "micro_label": "MATRIMONIALES · ESTUDIO · DERECHO · NULIDAD",
+        "size": 45,
+        "x": -0.394923,
+        "y": 6.174778,
+        "year_min": 1937,
+        "year_max": 2015,
+        "top_terms": [
+          {
+            "term": "matrimoniales",
+            "score": 0.070568
+          },
+          {
+            "term": "estudio",
+            "score": 0.061176
+          },
+          {
+            "term": "derecho",
+            "score": 0.050484
+          },
+          {
+            "term": "nulidad",
+            "score": 0.047921
+          },
+          {
+            "term": "efectos",
+            "score": 0.046198
+          },
+          {
+            "term": "civil",
+            "score": 0.042828
+          },
+          {
+            "term": "obligaciones",
+            "score": 0.042727
+          },
+          {
+            "term": "sociedad",
+            "score": 0.042106
+          },
+          {
+            "term": "matrimonial",
+            "score": 0.041546
+          },
+          {
+            "term": "regimen",
+            "score": 0.041408
+          },
+          {
+            "term": "nulidad matrimonio",
+            "score": 0.040568
+          },
+          {
+            "term": "maritimo",
+            "score": 0.039725
+          },
+          {
+            "term": "contrato",
+            "score": 0.039146
+          },
+          {
+            "term": "disolucion",
+            "score": 0.038952
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 41
+          },
+          {
+            "label": "psicologia",
+            "count": 2
+          },
+          {
+            "label": "historia de mexico",
+            "count": 1
+          },
+          {
+            "label": "letras clasicas",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 43
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 44
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 40
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          },
+          {
+            "label": "universidad motolinia (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.0,
+          "Area 3": 0.955556,
+          "Area 4": 0.044444,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 43,
+            "pct": 0.955556
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.044444
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0270224",
+            "doc_number_url": "000249367",
+            "title": "importancia de la inscripcion de las capitulaciones matrimoniales en el registro publico de la propiedad",
+            "program": "derecho",
+            "year": 1997,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Guevara Resendiz, Lina",
+            "advisor": "Beltran Lara, Miguel Angel",
+            "x": -0.357621,
+            "y": 6.242445,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0386066",
+            "doc_number_url": "000659628",
+            "title": "propuesta de elaboración de un contrato de arrendamiento de útero",
+            "program": "derecho",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad latina",
+            "author": "García Mejía, Laura",
+            "advisor": "Ramírez Castro, María del Rosario",
+            "x": -0.363451,
+            "y": 6.249846,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0151681",
+            "doc_number_url": "000023970",
+            "title": "necesidad y conveniencia de actualizar la regulacion de los impedimientos matrimoniales",
+            "program": "derecho",
+            "year": 1981,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Miramon Parra, Judit Araceli",
+            "advisor": "",
+            "x": -0.32722,
+            "y": 6.246034,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0095447",
+            "doc_number_url": "000098685",
+            "title": "las donaciones matrimoniales",
+            "program": "derecho",
+            "year": 1966,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Gallardo Ortiz, Julio Antonio",
+            "advisor": "",
+            "x": -0.36081,
+            "y": 6.269753,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0229141",
+            "doc_number_url": "000199734",
+            "title": "matrimonio, concubinato y sus efectos juridicos",
+            "program": "derecho",
+            "year": 1993,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Calderon Cruz, Cesar",
+            "advisor": "Guerrero Linares, Angel",
+            "x": -0.355847,
+            "y": 6.268717,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0252450",
+            "doc_number_url": "000224755",
+            "title": "el proceso instituyente a las relaciones alternativas al matrimonio",
+            "program": "psicologia",
+            "year": 1995,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Hoyos Parra, Irene Maria Guadalupe M. de",
+            "advisor": "Yoseff Bernal, Juan José",
+            "x": -0.362442,
+            "y": 6.275786,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0049876",
+            "doc_number_url": "000320007",
+            "title": "la sociedad conyugal como unico regimen matrimonial en el codigo civil para el distrito federal",
+            "program": "derecho",
+            "year": 2003,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Uribe Enciso, José Rafael",
+            "advisor": "Zaldivar Olvera, Eduardo",
+            "x": -0.40906,
+            "y": 6.281083,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0204894",
+            "doc_number_url": "000764869",
+            "title": "la crisis social del matrimonio",
+            "program": "derecho",
+            "year": 1990,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "González Gómez, Gabriela Beatriz",
+            "advisor": "Maldonado Rodea, Isidro",
+            "x": -0.375341,
+            "y": 6.280888,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 72,
+        "macrocluster_id": 30,
+        "micro_label": "PAREJA · RELACION · RELACION PAREJA · INFIDELIDAD",
+        "size": 45,
+        "x": 3.363345,
+        "y": -3.378297,
+        "year_min": 1991,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "pareja",
+            "score": 0.156805
+          },
+          {
+            "term": "relacion",
+            "score": 0.112125
+          },
+          {
+            "term": "relacion pareja",
+            "score": 0.087945
+          },
+          {
+            "term": "infidelidad",
+            "score": 0.08068
+          },
+          {
+            "term": "relaciones",
+            "score": 0.06732
+          },
+          {
+            "term": "estilos",
+            "score": 0.058601
+          },
+          {
+            "term": "satisfaccion",
+            "score": 0.054566
+          },
+          {
+            "term": "parejas",
+            "score": 0.052585
+          },
+          {
+            "term": "factores",
+            "score": 0.048301
+          },
+          {
+            "term": "analisis",
+            "score": 0.046561
+          },
+          {
+            "term": "marital",
+            "score": 0.045776
+          },
+          {
+            "term": "satisfaccion marital",
+            "score": 0.045776
+          },
+          {
+            "term": "emocional",
+            "score": 0.041085
+          },
+          {
+            "term": "mujeres",
+            "score": 0.040207
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 37
+          },
+          {
+            "label": "medicina de urgencias",
+            "count": 1
+          },
+          {
+            "label": "psicologia general experimental",
+            "count": 1
+          },
+          {
+            "label": "derecho",
+            "count": 1
+          },
+          {
+            "label": "ciencias medicas odontologicas y de la salud",
+            "count": 1
+          },
+          {
+            "label": "psicologia social",
+            "count": 1
+          },
+          {
+            "label": "periodismo",
+            "count": 1
+          },
+          {
+            "label": "pedagogia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 22
+          },
+          {
+            "label": "Area 2",
+            "count": 21
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 36
+          },
+          {
+            "label": "Maestría",
+            "count": 5
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 38
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de maestría y doctorado en psicología",
+            "count": 1
+          },
+          {
+            "label": "centro universitario vasco de quiroga de huejutla,",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento (coatzacoalcos",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores zaragoza",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de psicología",
+            "count": 1
+          },
+          {
+            "label": "universidad del tepeyac",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.022222,
+          "Area 2": 0.466667,
+          "Area 3": 0.488889,
+          "Area 4": 0.022222,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 22,
+            "pct": 0.488889
+          },
+          {
+            "area": "Area 2",
+            "count": 21,
+            "pct": 0.466667
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.022222
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.022222
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0286745",
+            "doc_number_url": "000266151",
+            "title": "autoconcepto y satisfacción marital en parejas estériles por factor masculino",
+            "program": "psicologia general experimental",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de psicologia unam",
+            "author": "Rodríguez Ogaz, Sabrina Ivonne",
+            "advisor": "Jurado Cárdenas, Samuel",
+            "x": 3.36519,
+            "y": -3.385622,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0317136",
+            "doc_number_url": "000611972",
+            "title": "las relaciones destructivas dentro de la pareja",
+            "program": "psicologia",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Chávez Martinez, Jacqueline",
+            "advisor": "González Montoya, Carmen Susana ; Gonzalez Villeda, Alejandro ; Rodríguez Tovar, Amado Raúl",
+            "x": 3.363356,
+            "y": -3.369383,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0384985",
+            "doc_number_url": "000663321",
+            "title": "los celos normales y patológicos en la relación de pareja",
+            "program": "psicologia",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad don vasco uruapan",
+            "author": "Elias Mendoza, Karina Janett",
+            "advisor": "Zalapa Ríos, Héctor Raúl",
+            "x": 3.366007,
+            "y": -3.367473,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0492900",
+            "doc_number_url": "000769901",
+            "title": "valoración percibida de la pareja, empatía e infidelidad en hombres y mujeres adultos",
+            "program": "psicologia",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Ángel Ramírez, Judith Guadalupe",
+            "advisor": "Rivera Aragón, Sofía ; García Méndez, Mirna ; Contreras Ramírez, Eduardo Arturo ; Villanueva Orozco, Gerardo Benjamín Tonatiuh ; Flores Herrera, Rosa",
+            "x": 3.372279,
+            "y": -3.397962,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0343830",
+            "doc_number_url": "000634831",
+            "title": "el significado psicológico de la relación de pareja",
+            "program": "psicologia",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Chávez Fraustro, José Francisco",
+            "advisor": "Ferreira Nuño, Lidia A",
+            "x": 3.375752,
+            "y": -3.357343,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0436011",
+            "doc_number_url": "000721602",
+            "title": "consecuencias emocionales de la ruptura en una relación de pareja",
+            "program": "psicologia",
+            "year": 2014,
+            "area": "Area 3",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Barajas Márquez, Miriam Wendolyn",
+            "advisor": "Robles García, Rebeca ; González Forteza, Catalina ; Cruz del Castillo, Cinthia ; Reidl Martínez, Lucy María ; Andrade Palos, Patricia",
+            "x": 3.38489,
+            "y": -3.393295,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0429374",
+            "doc_number_url": "000694648",
+            "title": "la codependencia en las relaciones de pareja : sus manifestaciones y alternativas de tratamiento",
+            "program": "psicologia",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Morales Colmenares, Adriana",
+            "advisor": "Bernal Álvarez, Yolanda",
+            "x": 3.376098,
+            "y": -3.354936,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0452969",
+            "doc_number_url": "000738849",
+            "title": "estilos de amor, autoestima y dependencia emocional en relaciones de pareja",
+            "program": "psicologia",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Feliciano Lara, Elizabeth",
+            "advisor": "Bustos Aguayo, Marcos ; Flores Herrera, Luz María",
+            "x": 3.343421,
+            "y": -3.360342,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 18,
+    "macro_label": "ESTUDIO · EVALUACION · LECHE · PERROS",
+    "size": 723,
+    "microcluster_count": 2,
+    "microclusters": [
+      {
+        "microcluster_id": 88,
+        "macrocluster_id": 18,
+        "micro_label": "EVALUACION · LECHE · ESTUDIO · GANADO",
+        "size": 488,
+        "x": 6.842129,
+        "y": 3.166123,
+        "year_min": 1899,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "evaluacion",
+            "score": 0.029567
+          },
+          {
+            "term": "leche",
+            "score": 0.029529
+          },
+          {
+            "term": "estudio",
+            "score": 0.029054
+          },
+          {
+            "term": "ganado",
+            "score": 0.026422
+          },
+          {
+            "term": "efecto",
+            "score": 0.026363
+          },
+          {
+            "term": "bovino",
+            "score": 0.023703
+          },
+          {
+            "term": "produccion",
+            "score": 0.023647
+          },
+          {
+            "term": "carne",
+            "score": 0.022275
+          },
+          {
+            "term": "ovinos",
+            "score": 0.021285
+          },
+          {
+            "term": "cerdos",
+            "score": 0.020707
+          },
+          {
+            "term": "estado",
+            "score": 0.020678
+          },
+          {
+            "term": "mexico",
+            "score": 0.019419
+          },
+          {
+            "term": "bovinos",
+            "score": 0.018403
+          },
+          {
+            "term": "ganaderia",
+            "score": 0.016916
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 330
+          },
+          {
+            "label": "ciencias de la produccion y de la salud animal",
+            "count": 37
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 15
+          },
+          {
+            "label": "ingenieria en alimentos",
+            "count": 14
+          },
+          {
+            "label": "economia",
+            "count": 9
+          },
+          {
+            "label": "produccion animal",
+            "count": 8
+          },
+          {
+            "label": "quimica de alimentos",
+            "count": 7
+          },
+          {
+            "label": "reproduccion animal",
+            "count": 7
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 433
+          },
+          {
+            "label": "Area 1",
+            "count": 31
+          },
+          {
+            "label": "Area 3",
+            "count": 23
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 414
+          },
+          {
+            "label": "Maestría",
+            "count": 62
+          },
+          {
+            "label": "Doctorado",
+            "count": 7
+          },
+          {
+            "label": "Especialidad",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 460
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores cuautitlan institución que otorga el título",
+            "count": 7
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina veterinaria y zootecnia institución que otorga el título",
+            "count": 5
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de medicina veterinaria y zootecnia",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de química",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.063525,
+          "Area 2": 0.887295,
+          "Area 3": 0.047131,
+          "Area 4": 0.002049,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 433,
+            "pct": 0.887295
+          },
+          {
+            "area": "Area 1",
+            "count": 31,
+            "pct": 0.063525
+          },
+          {
+            "area": "Area 3",
+            "count": 23,
+            "pct": 0.047131
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.002049
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0515661",
+            "doc_number_url": "000844266",
+            "title": "evaluación comparativa de la ganancia diaria de peso (gdp) en cabritas de raza alpina francesa, alimentadas bajo un sistema de lactancia artificial con leche entera de cabra y leche suplementada con biocolina en un sistema intensivo",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Bello Cabrera, Daniela",
+            "advisor": "Arriaga Avilés, Yazmín Ivonne ; Ruiz Romero, Rocío Angélica",
+            "x": 6.849253,
+            "y": 3.160976,
+            "cluster_strength": 0.718468
+          },
+          {
+            "thesis_id": "TH_0047041",
+            "doc_number_url": "000320190",
+            "title": "preparacion y comprobacion de la efectividad del parche de colagena de origen bovino liofilizado, impregnado con gentamicina para su uso en cirugia",
+            "program": "ciencias de la produccion y de la salud animal",
+            "year": 2003,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Perez Valencia, Victor",
+            "advisor": "Santillan Doherty, Patricio",
+            "x": 6.85107,
+            "y": 3.159328,
+            "cluster_strength": 0.763887
+          },
+          {
+            "thesis_id": "TH_0446606",
+            "doc_number_url": "000713139",
+            "title": "interacción genotipo-ambiente en la producción de grasa de leche de vacas holstein altas productoras",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Roque Revuelta, Cecilia Guadalupe",
+            "advisor": "López Baños, Benito ; Esperón Sumano, Armando Enrique",
+            "x": 6.855134,
+            "y": 3.164848,
+            "cluster_strength": 0.886721
+          },
+          {
+            "thesis_id": "TH_0065707",
+            "doc_number_url": null,
+            "title": "el liquido amniotico bovino en cirugia de vientre",
+            "program": "medico cirujano",
+            "year": 1935,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Cárdenas Mendiola, Jesus",
+            "advisor": "",
+            "x": 6.825414,
+            "y": 3.161931,
+            "cluster_strength": 0.745362
+          },
+          {
+            "thesis_id": "TH_0152442",
+            "doc_number_url": "000035930",
+            "title": "utilización de la cerdaza en la alimentación del cerdo",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Picon Beristain, José Andrés",
+            "advisor": "Guzman de las Casas, Miguel",
+            "x": 6.840015,
+            "y": 3.136366,
+            "cluster_strength": 0.750687
+          },
+          {
+            "thesis_id": "TH_0160639",
+            "doc_number_url": "000038689",
+            "title": "influencia de la temperatura ambiental sobre la calidad del semen en bovinos de razas productoras de carne en el estado de sonora",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1983,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Ávila Durán, Alfonso",
+            "advisor": "Zapien Solis, Antonio ; Vazquez Pelaez, Carlos G ; Hernandez Ledezma, Jose Juan",
+            "x": 6.807102,
+            "y": 3.156796,
+            "cluster_strength": 0.752778
+          },
+          {
+            "thesis_id": "TH_0145098",
+            "doc_number_url": "000033595",
+            "title": "curvas de lactacion y persistencia de la produccion lactea en ganado holstein friesian de 1o a 5o parto",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1979,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Muñoz Osorio, Mario",
+            "advisor": "Ochoa Galvan, Pedro ; Ruíz Skewes, Hedberto ; Avila Téllez, Salvador",
+            "x": 6.874783,
+            "y": 3.196666,
+            "cluster_strength": 0.946839
+          },
+          {
+            "thesis_id": "TH_0166211",
+            "doc_number_url": "000016462",
+            "title": "estudio recapitulativo sobre tratamiento de quistes ovarilos en bovinos productores de leche",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1983,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Tellez Hoyos, Julian Rolando",
+            "advisor": "Castanedo López, Jorge ; Reza Guevara, Luis Carlos",
+            "x": 6.895122,
+            "y": 3.182504,
+            "cluster_strength": 0.902831
+          }
+        ]
+      },
+      {
+        "microcluster_id": 87,
+        "macrocluster_id": 18,
+        "micro_label": "PERROS · ESTUDIO · PERRO · CANINOS",
+        "size": 235,
+        "x": 7.429915,
+        "y": 3.091622,
+        "year_min": 1931,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "perros",
+            "score": 0.057437
+          },
+          {
+            "term": "estudio",
+            "score": 0.048275
+          },
+          {
+            "term": "perro",
+            "score": 0.046614
+          },
+          {
+            "term": "caninos",
+            "score": 0.038993
+          },
+          {
+            "term": "equinos",
+            "score": 0.03104
+          },
+          {
+            "term": "veterinaria",
+            "score": 0.027921
+          },
+          {
+            "term": "gatos",
+            "score": 0.023712
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.023091
+          },
+          {
+            "term": "chihuahua",
+            "score": 0.022273
+          },
+          {
+            "term": "mexico",
+            "score": 0.02158
+          },
+          {
+            "term": "incluidos",
+            "score": 0.020563
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.020422
+          },
+          {
+            "term": "contribucion estudio",
+            "score": 0.019282
+          },
+          {
+            "term": "contribucion",
+            "score": 0.019282
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 142
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 23
+          },
+          {
+            "label": "biologia",
+            "count": 7
+          },
+          {
+            "label": "ciencias de la produccion y de la salud animal",
+            "count": 7
+          },
+          {
+            "label": "medico cirujano",
+            "count": 6
+          },
+          {
+            "label": "traumatologia y ortopedia",
+            "count": 4
+          },
+          {
+            "label": "arquitectura",
+            "count": 4
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 208
+          },
+          {
+            "label": "Area 1",
+            "count": 18
+          },
+          {
+            "label": "Area 4",
+            "count": 7
+          },
+          {
+            "label": "Area 3",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 201
+          },
+          {
+            "label": "Especialidad",
+            "count": 17
+          },
+          {
+            "label": "Maestría",
+            "count": 14
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 220
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores cuautitlan institución que otorga el título",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina veterinaria y zootecnia institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias de la producción y de la salud animal",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 2
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 1
+          },
+          {
+            "label": "universidad autónoma de guadalajara",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.076596,
+          "Area 2": 0.885106,
+          "Area 3": 0.008511,
+          "Area 4": 0.029787,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 208,
+            "pct": 0.885106
+          },
+          {
+            "area": "Area 1",
+            "count": 18,
+            "pct": 0.076596
+          },
+          {
+            "area": "Area 4",
+            "count": 7,
+            "pct": 0.029787
+          },
+          {
+            "area": "Area 3",
+            "count": 2,
+            "pct": 0.008511
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0246721",
+            "doc_number_url": "000216399",
+            "title": "frecuencia de patologias cardiovasculares asociadas como causas de mortalidad en caballos remitidos para diagnostico post-mortem al departamento de patologia de la f.m.v.z. periodo de 1967 a 1993",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Trejo Chávez, Armando",
+            "advisor": "Aburto Fernandez, Enrique Martin ; Colin Flores, Rafael Francisco",
+            "x": 7.433922,
+            "y": 3.112442,
+            "cluster_strength": 0.470681
+          },
+          {
+            "thesis_id": "TH_0393031",
+            "doc_number_url": "000658755",
+            "title": "evaluación del deterioro de alimentos súper premium de mantenimiento para perros adultos mediante la concentración de peróxidos",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Rivera Nava, María Rocío",
+            "advisor": "Gutiérrez Olvera, Carlos ; Bautista Ordóñez, Janitzio Ariel",
+            "x": 7.450072,
+            "y": 3.076099,
+            "cluster_strength": 0.663547
+          },
+          {
+            "thesis_id": "TH_0149579",
+            "doc_number_url": "000035881",
+            "title": "evaluacion de la eficacia del fenbendazol contra ancylostoma caninum en perros del valle de mexico",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1981,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Díaz Aparicio, Efren",
+            "advisor": "Cuéllar Ordaz, Jorge Alfredo",
+            "x": 7.415879,
+            "y": 3.069911,
+            "cluster_strength": 0.446096
+          },
+          {
+            "thesis_id": "TH_0574297",
+            "doc_number_url": "000872547",
+            "title": "descripcion de la percepcion social de maltrato animal en perros y gatos en la alcaldia xochimilco en el 2024",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Hernández Vieyra, Emmanuel",
+            "advisor": "Ayala Torres, Juan Ramón",
+            "x": 7.39591,
+            "y": 3.106841,
+            "cluster_strength": 0.598533
+          },
+          {
+            "thesis_id": "TH_0075262",
+            "doc_number_url": "000242183",
+            "title": "informe sobre la exploracion sanitaria de satevo, chihuahua, su relacion con el estudio de la higiene maternal e infantil",
+            "program": "medico cirujano",
+            "year": 1947,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Reyes Lozano, Rodolfo",
+            "advisor": "",
+            "x": 7.458498,
+            "y": 3.117917,
+            "cluster_strength": 0.458451
+          },
+          {
+            "thesis_id": "TH_0118772",
+            "doc_number_url": "000158644",
+            "title": "contribucion al estudio sobre la incidencia de toxocara canis en perros de la zona sureste de la ciudad de mexico",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1973,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Mejia Arteaga, Aniceto",
+            "advisor": "Taracena Franco, Manuel Mario",
+            "x": 7.407399,
+            "y": 3.128278,
+            "cluster_strength": 0.40446
+          },
+          {
+            "thesis_id": "TH_0071044",
+            "doc_number_url": "000137251",
+            "title": "exploracion sanitaria de la seccion lluvia de oro, chihuahua",
+            "program": "medico cirujano",
+            "year": 1943,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Martínez Ríos, Jorge",
+            "advisor": "",
+            "x": 7.412794,
+            "y": 3.133591,
+            "cluster_strength": 0.380894
+          },
+          {
+            "thesis_id": "TH_0548170",
+            "doc_number_url": "000849130",
+            "title": "análisis de la información de trastornos etológicos en pequeñas especies (perros y gatos) del año 2022 durante la pandemia de covid-19 en la ciudad de méxico y su impacto en salud pública (estudio documental)",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Mancera Blanco, José María",
+            "advisor": "Ayala Torres, Juan Ramón",
+            "x": 7.442577,
+            "y": 3.04753,
+            "cluster_strength": 0.450683
+          }
+        ]
+      }
+    ]
+  }
+}

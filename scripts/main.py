@@ -10,6 +10,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from lab_orchestrator import LabBusyError, LabOrchestrator
+from build_graph_neighborhood import build_graph_from_query, json_sanitize
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -70,6 +71,56 @@ def health():
         "base_dir": str(BASE_DIR),
         "static_dir_exists": STATIC_DIR.exists(),
     }
+
+
+@app.get("/api/explore/neighborhood/{thesis_id}")
+def get_explore_neighborhood(thesis_id: str, top_k: int = 100):
+    """
+    Construye el vecindario semántico local de una tesis existente
+    para visualizarla como centro del modo Universo / Analítico.
+    """
+    try:
+        thesis_id = str(thesis_id or "").strip()
+
+        if not thesis_id:
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    "ok": False,
+                    "error": "InvalidThesisId",
+                    "message": "Debe proporcionar thesis_id.",
+                },
+            )
+
+        graph = build_graph_from_query(
+            query="",
+            top_k=top_k,
+            thesis_id=thesis_id,
+        )
+
+        return {
+            "ok": True,
+            "data": json_sanitize(graph),
+        }
+
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=404,
+            detail={
+                "ok": False,
+                "error": "ThesisNotFound",
+                "message": str(exc),
+            },
+        )
+
+    except HTTPException:
+        raise
+
+    except Exception as exc:
+        raise HTTPException(
+            status_code=500,
+            detail=error_response(exc),
+        )
 
 
 @app.post("/api/lab/run-basic")

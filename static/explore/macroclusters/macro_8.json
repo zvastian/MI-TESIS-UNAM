@@ -1,0 +1,2578 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 8,
+    "macro_label": "MEXICO · CIUDAD · VIVIENDA · CIUDAD MEXICO",
+    "size": 1006,
+    "microcluster_count": 8,
+    "microclusters": [
+      {
+        "microcluster_id": 37,
+        "macrocluster_id": 8,
+        "micro_label": "MEXICO · TRANSPORTE · CIUDAD · CIUDAD MEXICO",
+        "size": 189,
+        "x": 1.488625,
+        "y": 2.380145,
+        "year_min": 1913,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.070507
+          },
+          {
+            "term": "transporte",
+            "score": 0.068116
+          },
+          {
+            "term": "ciudad",
+            "score": 0.051126
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.045134
+          },
+          {
+            "term": "analisis",
+            "score": 0.039674
+          },
+          {
+            "term": "autobuses",
+            "score": 0.037596
+          },
+          {
+            "term": "sistema",
+            "score": 0.035549
+          },
+          {
+            "term": "estacion",
+            "score": 0.033043
+          },
+          {
+            "term": "publico",
+            "score": 0.032788
+          },
+          {
+            "term": "pasajeros",
+            "score": 0.032036
+          },
+          {
+            "term": "central",
+            "score": 0.02937
+          },
+          {
+            "term": "federal",
+            "score": 0.029253
+          },
+          {
+            "term": "terminal",
+            "score": 0.027425
+          },
+          {
+            "term": "metro",
+            "score": 0.027359
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria civil",
+            "count": 42
+          },
+          {
+            "label": "arquitectura",
+            "count": 37
+          },
+          {
+            "label": "urbanismo",
+            "count": 12
+          },
+          {
+            "label": "economia",
+            "count": 10
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 9
+          },
+          {
+            "label": "derecho",
+            "count": 7
+          },
+          {
+            "label": "administracion",
+            "count": 6
+          },
+          {
+            "label": "contaduria",
+            "count": 6
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 122
+          },
+          {
+            "label": "Area 3",
+            "count": 51
+          },
+          {
+            "label": "Area 4",
+            "count": 10
+          },
+          {
+            "label": "Area 2",
+            "count": 5
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 150
+          },
+          {
+            "label": "Maestría",
+            "count": 28
+          },
+          {
+            "label": "Doctorado",
+            "count": 6
+          },
+          {
+            "label": "Especialidad",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 175
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 5
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ingeniería",
+            "count": 1
+          },
+          {
+            "label": "universidad americana de acapulco (acapulco",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.645503,
+          "Area 2": 0.026455,
+          "Area 3": 0.269841,
+          "Area 4": 0.05291,
+          "Por Clasificar": 0.005291
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 122,
+            "pct": 0.645503
+          },
+          {
+            "area": "Area 3",
+            "count": 51,
+            "pct": 0.269841
+          },
+          {
+            "area": "Area 4",
+            "count": 10,
+            "pct": 0.05291
+          },
+          {
+            "area": "Area 2",
+            "count": 5,
+            "pct": 0.026455
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.005291
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0414389",
+            "doc_number_url": "000678250",
+            "title": "la importancia de la bicicleta en la movilidad del distrito federal",
+            "program": "urbanismo",
+            "year": 2012,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Luna Sandoval, Juan Humberto",
+            "advisor": "Salas Espíndola, Hermilo",
+            "x": 1.443248,
+            "y": 2.38439,
+            "cluster_strength": 0.683821
+          },
+          {
+            "thesis_id": "TH_0156726",
+            "doc_number_url": "000000952",
+            "title": "terminal de autobuses foraneos salina cruz, oaxaca, mexico",
+            "program": "arquitectura",
+            "year": 1982,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Hidalgo Ruiz, Alejandro",
+            "advisor": "",
+            "x": 1.523005,
+            "y": 2.423511,
+            "cluster_strength": 0.732862
+          },
+          {
+            "thesis_id": "TH_0088299",
+            "doc_number_url": "000058705",
+            "title": "terminal de autobuses de segunda clase en oaxaca, oax",
+            "program": "arquitectura",
+            "year": 1963,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Esesarte Gomez, Enrique de",
+            "advisor": "",
+            "x": 1.541345,
+            "y": 2.412774,
+            "cluster_strength": 0.732862
+          },
+          {
+            "thesis_id": "TH_0174553",
+            "doc_number_url": "000000603",
+            "title": "terminal de autobuses foraneos : salina cruz, oaxaca",
+            "program": "arquitectura",
+            "year": 1985,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Alaves Szymanski, Adolfo Carlos",
+            "advisor": "Alcocer Gagniere, Jorge",
+            "x": 1.556581,
+            "y": 2.388517,
+            "cluster_strength": 0.732862
+          },
+          {
+            "thesis_id": "TH_0219557",
+            "doc_number_url": "000179022",
+            "title": "central sur autobuses, ciudad de mexico",
+            "program": "arquitectura",
+            "year": 1992,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Becerril Elizondo, Miguel Angel",
+            "advisor": "Herrera Lasso Attolini, Miguel",
+            "x": 1.47035,
+            "y": 2.458697,
+            "cluster_strength": 0.861684
+          },
+          {
+            "thesis_id": "TH_0223488",
+            "doc_number_url": "000188853",
+            "title": "autobus foraneo tipo express",
+            "program": "SIN PROGRAMA",
+            "year": 1992,
+            "area": "Por Clasificar",
+            "level": "Licenciatura",
+            "plantel": "universidad autonoma de guadalajara",
+            "author": "Luna López, Sergio Arnulfo",
+            "advisor": "",
+            "x": 1.581567,
+            "y": 2.348704,
+            "cluster_strength": 0.732862
+          },
+          {
+            "thesis_id": "TH_0115422",
+            "doc_number_url": "000069799",
+            "title": "terminal de autobuses en chilpancingo, gro",
+            "program": "arquitectura",
+            "year": 1972,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Perez López, Sergio Miguel",
+            "advisor": "",
+            "x": 1.590477,
+            "y": 2.358438,
+            "cluster_strength": 0.732862
+          },
+          {
+            "thesis_id": "TH_0062188",
+            "doc_number_url": "000118708",
+            "title": "estudio de un ferrocarril entre san angel y la hacienda de la canada, distrito federal",
+            "program": "ingenieria civil",
+            "year": 1913,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Bancalari, Manuel",
+            "advisor": "",
+            "x": 1.563793,
+            "y": 2.305382,
+            "cluster_strength": 0.598107
+          }
+        ]
+      },
+      {
+        "microcluster_id": 99,
+        "macrocluster_id": 8,
+        "micro_label": "VIVIENDA · CONJUNTO · HABITACIONAL · SOCIAL",
+        "size": 169,
+        "x": 0.73703,
+        "y": 1.2957,
+        "year_min": 1934,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "vivienda",
+            "score": 0.102821
+          },
+          {
+            "term": "conjunto",
+            "score": 0.052275
+          },
+          {
+            "term": "habitacional",
+            "score": 0.051188
+          },
+          {
+            "term": "social",
+            "score": 0.049816
+          },
+          {
+            "term": "proyecto",
+            "score": 0.039798
+          },
+          {
+            "term": "conjunto habitacional",
+            "score": 0.039366
+          },
+          {
+            "term": "interes",
+            "score": 0.038656
+          },
+          {
+            "term": "interes social",
+            "score": 0.037274
+          },
+          {
+            "term": "vivienda interes",
+            "score": 0.032895
+          },
+          {
+            "term": "construccion",
+            "score": 0.029789
+          },
+          {
+            "term": "analisis",
+            "score": 0.029566
+          },
+          {
+            "term": "casa",
+            "score": 0.028752
+          },
+          {
+            "term": "habitacion",
+            "score": 0.028739
+          },
+          {
+            "term": "san",
+            "score": 0.028079
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 77
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 31
+          },
+          {
+            "label": "contaduria",
+            "count": 8
+          },
+          {
+            "label": "derecho",
+            "count": 8
+          },
+          {
+            "label": "valuacion inmobiliaria",
+            "count": 7
+          },
+          {
+            "label": "economia",
+            "count": 6
+          },
+          {
+            "label": "urbanismo",
+            "count": 5
+          },
+          {
+            "label": "psicologia",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 128
+          },
+          {
+            "label": "Area 3",
+            "count": 35
+          },
+          {
+            "label": "Area 2",
+            "count": 3
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 136
+          },
+          {
+            "label": "Maestría",
+            "count": 18
+          },
+          {
+            "label": "Especialidad",
+            "count": 13
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 147
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 5
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 3
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 3
+          },
+          {
+            "label": "universidad autónoma de guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad de ciencia y tecnología descartes",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en urbanismo",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.757396,
+          "Area 2": 0.017751,
+          "Area 3": 0.207101,
+          "Area 4": 0.017751,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 128,
+            "pct": 0.757396
+          },
+          {
+            "area": "Area 3",
+            "count": 35,
+            "pct": 0.207101
+          },
+          {
+            "area": "Area 2",
+            "count": 3,
+            "pct": 0.017751
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.017751
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0173004",
+            "doc_number_url": "000037381",
+            "title": "el trabajo social en la unidad habitacional tlatilco del i.m.s.s",
+            "program": "trabajo social",
+            "year": 1984,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "escuela nacional de trabajo social unam",
+            "author": "Romero Badillo, Rosa Maria",
+            "advisor": "Meave, Etna",
+            "x": 0.726851,
+            "y": 1.281592,
+            "cluster_strength": 0.79333
+          },
+          {
+            "thesis_id": "TH_0577777",
+            "doc_number_url": "000864283",
+            "title": "vivienda y sus factores de cambio y transformación en el contexto pandémico : implicaciones en la salud, actividades domésticas y satisfacción",
+            "program": "arquitectura",
+            "year": 2025,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Pérez Cervantes, Luis Enrique",
+            "advisor": "Jiménez Rosas, Eric Orlando",
+            "x": 0.714191,
+            "y": 1.306369,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0201585",
+            "doc_number_url": "000114539",
+            "title": "la cooperativa de vivienda",
+            "program": "derecho",
+            "year": 1989,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Mendoza Ramirez, Juan Pedro",
+            "advisor": "Sixtos Ortega, Jose Antonio",
+            "x": 0.760157,
+            "y": 1.284742,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0570173",
+            "doc_number_url": "000867152",
+            "title": "vivienda colectiva, mina 16",
+            "program": "arquitectura",
+            "year": 2025,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Cabello Jiménez, Diana Paola",
+            "advisor": "Verduzco Chirino, Gemma Luz S ; Guízar Bermúdez, José Gerardo ; Gándara Cabada, Enrique",
+            "x": 0.762303,
+            "y": 1.30735,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0203813",
+            "doc_number_url": "000114068",
+            "title": "el enfoque tipologico en la vivienda popular",
+            "program": "investigacion y docencia en arquitectura",
+            "year": 1990,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Duarte Yuriar, Salvador",
+            "advisor": "Hierro Gómez, Miguel",
+            "x": 0.764106,
+            "y": 1.288134,
+            "cluster_strength": 0.88881
+          },
+          {
+            "thesis_id": "TH_0096080",
+            "doc_number_url": "000098761",
+            "title": "los problemas que plantea el domicilio conyugal",
+            "program": "derecho",
+            "year": 1966,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Moral Garduno, Arturo del",
+            "advisor": "",
+            "x": 0.761043,
+            "y": 1.272893,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0548024",
+            "doc_number_url": "000847100",
+            "title": "conjunto habitacional + residencia",
+            "program": "arquitectura",
+            "year": 2023,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Luis Reyes, Daniel Alejandro",
+            "advisor": "Cuéllar Sánchez, Sergio Raúl",
+            "x": 0.763471,
+            "y": 1.272563,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0041304",
+            "doc_number_url": "000318115",
+            "title": "los desarrollos inmobiliarios frente a la ecología : lineamientos tecnológicos del equilibrio armónico",
+            "program": "arquitectura",
+            "year": 2003,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Flores Sandoval, Dolores Ana",
+            "advisor": "Verduzco Chirino, Gemma Luz S",
+            "x": 0.707233,
+            "y": 1.316126,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 123,
+        "macrocluster_id": 8,
+        "micro_label": "CIUDAD · CIUDAD MEXICO · VIVIENDA · URBANO",
+        "size": 147,
+        "x": 0.692555,
+        "y": 2.620983,
+        "year_min": 1940,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "ciudad",
+            "score": 0.090826
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.085178
+          },
+          {
+            "term": "vivienda",
+            "score": 0.078189
+          },
+          {
+            "term": "urbano",
+            "score": 0.045288
+          },
+          {
+            "term": "urbana",
+            "score": 0.036361
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.032993
+          },
+          {
+            "term": "centro",
+            "score": 0.030652
+          },
+          {
+            "term": "habitacional",
+            "score": 0.028003
+          },
+          {
+            "term": "estado",
+            "score": 0.027907
+          },
+          {
+            "term": "caso",
+            "score": 0.027289
+          },
+          {
+            "term": "estado mexico",
+            "score": 0.026775
+          },
+          {
+            "term": "urbanizacion",
+            "score": 0.026735
+          },
+          {
+            "term": "vivienda mexico",
+            "score": 0.026421
+          },
+          {
+            "term": "zona",
+            "score": 0.026088
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 58
+          },
+          {
+            "label": "urbanismo",
+            "count": 19
+          },
+          {
+            "label": "economia",
+            "count": 14
+          },
+          {
+            "label": "geografia",
+            "count": 9
+          },
+          {
+            "label": "derecho",
+            "count": 8
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 7
+          },
+          {
+            "label": "sociologia",
+            "count": 6
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 94
+          },
+          {
+            "label": "Area 3",
+            "count": 39
+          },
+          {
+            "label": "Area 4",
+            "count": 12
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 106
+          },
+          {
+            "label": "Maestría",
+            "count": 27
+          },
+          {
+            "label": "Doctorado",
+            "count": 10
+          },
+          {
+            "label": "Especialidad",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 139
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de arquitectura",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del río",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias políticas y sociales",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.639456,
+          "Area 2": 0.013605,
+          "Area 3": 0.265306,
+          "Area 4": 0.081633,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 94,
+            "pct": 0.639456
+          },
+          {
+            "area": "Area 3",
+            "count": 39,
+            "pct": 0.265306
+          },
+          {
+            "area": "Area 4",
+            "count": 12,
+            "pct": 0.081633
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.013605
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0554922",
+            "doc_number_url": "000863550",
+            "title": "vecindades y cités : conservación y transformación de viviendas deterioradas en los centros históricos de ciudad de méxico y santiago de chile",
+            "program": "arquitectura",
+            "year": 2024,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Aguilar Fernández, Mara Fernanda",
+            "advisor": "Borja Rodríguez, Mariana Aurora",
+            "x": 0.703674,
+            "y": 2.621122,
+            "cluster_strength": 0.816032
+          },
+          {
+            "thesis_id": "TH_0196054",
+            "doc_number_url": "000067465",
+            "title": "segregacion del uso del suelo residencial. estudio de caso : la ciudad de mexico",
+            "program": "geografia",
+            "year": 1988,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Valverde, Carmen",
+            "advisor": "Puente Lutteroth, Sofia",
+            "x": 0.685996,
+            "y": 2.608884,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0296483",
+            "doc_number_url": "000276665",
+            "title": "proyecto de vivienda. centro historico de la ciudad de mexico : una reestructuracion urbana manzanas 049 050 051",
+            "program": "arquitectura",
+            "year": 1999,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Zepeda Orozco, Mariana Doet",
+            "advisor": "Govela Thomae, Alfonso ; Huesca Rodríguez, Carmen ; Hierro Gómez, Miguel",
+            "x": 0.706885,
+            "y": 2.607857,
+            "cluster_strength": 0.938682
+          },
+          {
+            "thesis_id": "TH_0530500",
+            "doc_number_url": "000826045",
+            "title": "urbanizaciones latinoamericanas en el siglo xxi : discusiones sobre las unidades habitacionales como paisaje y metáfora",
+            "program": "estudios latinoamericanos",
+            "year": 2022,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Chavez Martinez, Jorge Luis",
+            "advisor": "Orduña Carson, Miguel",
+            "x": 0.667235,
+            "y": 2.607114,
+            "cluster_strength": 0.888968
+          },
+          {
+            "thesis_id": "TH_0394077",
+            "doc_number_url": "000659827",
+            "title": "los desarrollos urbanos integrales sustentables, duis, en la producción de vivienda en méxico : estudio de caso, valle de las palmas, baja california",
+            "program": "urbanismo",
+            "year": 2010,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Sánchez Espíndola, Verónica Isabel",
+            "advisor": "Pablo Serra, Nuria de",
+            "x": 0.720451,
+            "y": 2.636806,
+            "cluster_strength": 0.862162
+          },
+          {
+            "thesis_id": "TH_0391830",
+            "doc_number_url": "000656174",
+            "title": "centro comercial + vivienda : desindustrialización en la ciudad de méxico : propuesta de centro comercial y vivienda en antiguas zonas industriales - azcapotzalco",
+            "program": "arquitectura",
+            "year": 2010,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Ramírez Campos, Ulises Ariel",
+            "advisor": "",
+            "x": 0.725285,
+            "y": 2.613335,
+            "cluster_strength": 0.979674
+          },
+          {
+            "thesis_id": "TH_0358835",
+            "doc_number_url": "000645152",
+            "title": "conjunto habitacional cuauhtemoc : ciudad de méxico",
+            "program": "arquitectura",
+            "year": 2009,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "García García, Lorena",
+            "advisor": "Lazcano Velázquez, Salvador",
+            "x": 0.652598,
+            "y": 2.632684,
+            "cluster_strength": 0.986694
+          },
+          {
+            "thesis_id": "TH_0499621",
+            "doc_number_url": "000771307",
+            "title": "urbanización salvaje : vivienda de interés social en el contexto de la neoliberalización de la zona metropolitana del valle de méxico",
+            "program": "arquitectura",
+            "year": 2018,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Lozano Márquez, Luis Eduardo",
+            "advisor": "Romero Fernández, Gustavo ; Salceda Salinas, José Utgar",
+            "x": 0.66558,
+            "y": 2.569911,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 32,
+        "macrocluster_id": 8,
+        "micro_label": "TURISMO · MEXICO · TURISTICO · TURISTICA",
+        "size": 125,
+        "x": 1.098112,
+        "y": 2.30825,
+        "year_min": 1949,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "turismo",
+            "score": 0.105847
+          },
+          {
+            "term": "mexico",
+            "score": 0.065584
+          },
+          {
+            "term": "turistico",
+            "score": 0.063091
+          },
+          {
+            "term": "turistica",
+            "score": 0.050994
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.045302
+          },
+          {
+            "term": "centro",
+            "score": 0.040887
+          },
+          {
+            "term": "turisticos",
+            "score": 0.035891
+          },
+          {
+            "term": "propuesta",
+            "score": 0.032518
+          },
+          {
+            "term": "estado",
+            "score": 0.030008
+          },
+          {
+            "term": "caso",
+            "score": 0.027635
+          },
+          {
+            "term": "turismo mexico",
+            "score": 0.024887
+          },
+          {
+            "term": "centro turistico",
+            "score": 0.022258
+          },
+          {
+            "term": "territorial",
+            "score": 0.021257
+          },
+          {
+            "term": "servicios",
+            "score": 0.020873
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 28
+          },
+          {
+            "label": "administracion",
+            "count": 19
+          },
+          {
+            "label": "derecho",
+            "count": 15
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 12
+          },
+          {
+            "label": "geografia",
+            "count": 11
+          },
+          {
+            "label": "economia",
+            "count": 8
+          },
+          {
+            "label": "urbanismo",
+            "count": 4
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 69
+          },
+          {
+            "label": "Area 1",
+            "count": 36
+          },
+          {
+            "label": "Area 4",
+            "count": 15
+          },
+          {
+            "label": "Area 2",
+            "count": 4
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 107
+          },
+          {
+            "label": "Maestría",
+            "count": 14
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 108
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 4
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 3
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias politicas y sociales institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.288,
+          "Area 2": 0.032,
+          "Area 3": 0.552,
+          "Area 4": 0.12,
+          "Por Clasificar": 0.008
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 69,
+            "pct": 0.552
+          },
+          {
+            "area": "Area 1",
+            "count": 36,
+            "pct": 0.288
+          },
+          {
+            "area": "Area 4",
+            "count": 15,
+            "pct": 0.12
+          },
+          {
+            "area": "Area 2",
+            "count": 4,
+            "pct": 0.032
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.008
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0408100",
+            "doc_number_url": "000695846",
+            "title": "el lado verde del turismo en cancún, cozumel, solidaridad y tulum",
+            "program": "periodismo",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Alvarado Uribe, Pamela",
+            "advisor": "Rodríguez Vázquez, Arturo Guillemaud",
+            "x": 1.110423,
+            "y": 2.309707,
+            "cluster_strength": 0.913946
+          },
+          {
+            "thesis_id": "TH_0491556",
+            "doc_number_url": "000763223",
+            "title": "estructura territorial del turismo en isla mujeres, quintana roo",
+            "program": "geografia",
+            "year": 2017,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Vázquez Martínez, Mariana",
+            "advisor": "Propin Frejomil, Enrique",
+            "x": 1.087498,
+            "y": 2.315961,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0237536",
+            "doc_number_url": "000197866",
+            "title": "parador turistico, chilpancingo, gro",
+            "program": "arquitectura",
+            "year": 1993,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad la salle",
+            "author": "Zepeda Tenorio, Jorge",
+            "advisor": "Vázquez Benitez, Raúl",
+            "x": 1.07813,
+            "y": 2.309273,
+            "cluster_strength": 0.819343
+          },
+          {
+            "thesis_id": "TH_0353436",
+            "doc_number_url": "000638793",
+            "title": "cancún : una lección sobre turismo",
+            "program": "economia",
+            "year": 2008,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Silva López, Eva",
+            "advisor": "Meraz Martínez, Javier",
+            "x": 1.075547,
+            "y": 2.306914,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0392815",
+            "doc_number_url": "000675964",
+            "title": "evaluación de la experiencia turística en el estado de chihuahua : análisis del retorno, de la estadía y derrama económica del turismo",
+            "program": "ciencias de la administracion",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Doctorado",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Álvarez Hernández, Julián Alberto",
+            "advisor": "Estrada Olguín, Roberto ; Noriega Morales, Salvador ; Ruiz Durán, Clemente",
+            "x": 1.079795,
+            "y": 2.279211,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0310106",
+            "doc_number_url": "000344679",
+            "title": "el efecto de expansion territorial y la ventaja competitiva en el sector turismo : las diferencias del caso españa-mexico en la articulacion entre entidades gubernamentales y agencias de viaje",
+            "program": "negocios internacionales",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Padilla Gonzalez, Ricardo",
+            "advisor": "Rodas Morales, Carlos Hugo",
+            "x": 1.068374,
+            "y": 2.288291,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0174829",
+            "doc_number_url": "000066318",
+            "title": "los recursos naturales como factor decisivo en el desarrollo turistico de baja california sur",
+            "program": "administracion",
+            "year": 1985,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad autonoma de guadalajara",
+            "author": "Aquino Lima, Irasema Marcelina",
+            "advisor": "",
+            "x": 1.068093,
+            "y": 2.332313,
+            "cluster_strength": 0.837919
+          },
+          {
+            "thesis_id": "TH_0166298",
+            "doc_number_url": null,
+            "title": "el turismo como factor de desarrollo",
+            "program": "administracion",
+            "year": 1983,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad autonoma de guadalajara",
+            "author": "Torres Verdin, Ma. Esther",
+            "advisor": "",
+            "x": 1.08944,
+            "y": 2.258312,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 31,
+        "macrocluster_id": 8,
+        "micro_label": "HOTEL · HOTELERA · MEXICO · CIUDAD",
+        "size": 112,
+        "x": 0.440795,
+        "y": -3.735057,
+        "year_min": 1935,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "hotel",
+            "score": 0.156336
+          },
+          {
+            "term": "hotelera",
+            "score": 0.063976
+          },
+          {
+            "term": "mexico",
+            "score": 0.052072
+          },
+          {
+            "term": "ciudad",
+            "score": 0.041846
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.040001
+          },
+          {
+            "term": "estrellas",
+            "score": 0.0378
+          },
+          {
+            "term": "industria hotelera",
+            "score": 0.036658
+          },
+          {
+            "term": "industria",
+            "score": 0.036658
+          },
+          {
+            "term": "hoteles",
+            "score": 0.036549
+          },
+          {
+            "term": "proyecto",
+            "score": 0.030308
+          },
+          {
+            "term": "empresa",
+            "score": 0.027028
+          },
+          {
+            "term": "motel",
+            "score": 0.026069
+          },
+          {
+            "term": "empresa hotelera",
+            "score": 0.025063
+          },
+          {
+            "term": "hotel ejecutivos",
+            "score": 0.025008
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 68
+          },
+          {
+            "label": "contaduria",
+            "count": 18
+          },
+          {
+            "label": "administracion",
+            "count": 6
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 3
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 2
+          },
+          {
+            "label": "energia",
+            "count": 2
+          },
+          {
+            "label": "economia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 82
+          },
+          {
+            "label": "Area 3",
+            "count": 29
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 108
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 102
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 2
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad villa rica (boca del rio",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 1
+          },
+          {
+            "label": "universidad partenón de cozumel escuela de contaduria y administracion",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de contaduría y administración",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.732143,
+          "Area 2": 0.0,
+          "Area 3": 0.258929,
+          "Area 4": 0.008929,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 82,
+            "pct": 0.732143
+          },
+          {
+            "area": "Area 3",
+            "count": 29,
+            "pct": 0.258929
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.008929
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0424517",
+            "doc_number_url": "000705077",
+            "title": "sistema web inteligente para la gestión del ahorro de energía en refrigeración e iluminación en hoteles de méxico",
+            "program": "ingenieria en computacion",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Estrada Vargas, Oscar",
+            "advisor": "Kemper Valverde, Nicolás",
+            "x": 0.41699,
+            "y": -3.746509,
+            "cluster_strength": 0.509197
+          },
+          {
+            "thesis_id": "TH_0134016",
+            "doc_number_url": "000118383",
+            "title": "las caracteristicas del hospedaje a la luz del derecho mercantil",
+            "program": "derecho",
+            "year": 1977,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Chapa Bezanilla, José Pablo",
+            "advisor": "",
+            "x": 0.466438,
+            "y": -3.760067,
+            "cluster_strength": 0.191597
+          },
+          {
+            "thesis_id": "TH_0143103",
+            "doc_number_url": "000011994",
+            "title": "las empresas de campismo en el d.f",
+            "program": "biologia",
+            "year": 1979,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Fernando Mejia, Jorge",
+            "advisor": "",
+            "x": 0.403085,
+            "y": -3.745094,
+            "cluster_strength": 0.467934
+          },
+          {
+            "thesis_id": "TH_0037780",
+            "doc_number_url": "000322768",
+            "title": "proyecto de un sistema de iluminacion para un hotel de cinco estrellas en la ciudad de mexico",
+            "program": "ingenieria mecanica electrica",
+            "year": 2003,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Alcantara Pacheco, Teofilo Martin",
+            "advisor": "Terán Pérez, David Moisés",
+            "x": 0.450939,
+            "y": -3.775103,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0212538",
+            "doc_number_url": "000170733",
+            "title": "centro turistico punta diamante",
+            "program": "arquitectura",
+            "year": 1991,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Estrada Barcenas, Roberto Arturo",
+            "advisor": "Gutiérrez Morales, Pablo Enrique",
+            "x": 0.464243,
+            "y": -3.78088,
+            "cluster_strength": 0.194353
+          },
+          {
+            "thesis_id": "TH_0427886",
+            "doc_number_url": "000706232",
+            "title": "estudio técnico económico comparativo para la implementacion de tecnologias alternas, asistido con el software restscreen, para diferentes hoteles de la republica mexicana",
+            "program": "energia",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "López Romero, José Francisco",
+            "advisor": "Sánchez Cifuentes, Augusto",
+            "x": 0.425504,
+            "y": -3.792868,
+            "cluster_strength": 0.216526
+          },
+          {
+            "thesis_id": "TH_0095995",
+            "doc_number_url": "000058291",
+            "title": "motel y centro de exhibiciones turisticas",
+            "program": "arquitectura",
+            "year": 1966,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Matute Pacheco, Alberto",
+            "advisor": "",
+            "x": 0.472224,
+            "y": -3.790997,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0346217",
+            "doc_number_url": "000643394",
+            "title": "frente popular francisco villa",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2008,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "González Cazares, Agustín",
+            "advisor": "Solorzano Marcial, María del Carmen",
+            "x": 0.460321,
+            "y": -3.797276,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 98,
+        "macrocluster_id": 8,
+        "micro_label": "URBANO · URBANA · CIUDAD · COLONIA",
+        "size": 112,
+        "x": 0.991804,
+        "y": 1.608452,
+        "year_min": 1940,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "urbano",
+            "score": 0.094824
+          },
+          {
+            "term": "urbana",
+            "score": 0.068586
+          },
+          {
+            "term": "ciudad",
+            "score": 0.060475
+          },
+          {
+            "term": "colonia",
+            "score": 0.046095
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.043846
+          },
+          {
+            "term": "desarrollo urbano",
+            "score": 0.037099
+          },
+          {
+            "term": "proyecto",
+            "score": 0.03628
+          },
+          {
+            "term": "arquitectonico",
+            "score": 0.035755
+          },
+          {
+            "term": "zona",
+            "score": 0.035533
+          },
+          {
+            "term": "urbanas",
+            "score": 0.032974
+          },
+          {
+            "term": "caso",
+            "score": 0.032508
+          },
+          {
+            "term": "estudio",
+            "score": 0.032113
+          },
+          {
+            "term": "san",
+            "score": 0.030344
+          },
+          {
+            "term": "centro",
+            "score": 0.029853
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 61
+          },
+          {
+            "label": "urbanismo",
+            "count": 18
+          },
+          {
+            "label": "geografia",
+            "count": 6
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 3
+          },
+          {
+            "label": "ciencias de la sostenibilidad",
+            "count": 2
+          },
+          {
+            "label": "artes visuales",
+            "count": 2
+          },
+          {
+            "label": "derecho",
+            "count": 2
+          },
+          {
+            "label": "valuacion inmobiliaria",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 93
+          },
+          {
+            "label": "Area 4",
+            "count": 13
+          },
+          {
+            "label": "Area 3",
+            "count": 6
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 77
+          },
+          {
+            "label": "Maestría",
+            "count": 26
+          },
+          {
+            "label": "Doctorado",
+            "count": 7
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 104
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de arquitectura",
+            "count": 3
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad alzate de ozumba",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en arquitectura",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.830357,
+          "Area 2": 0.0,
+          "Area 3": 0.053571,
+          "Area 4": 0.116071,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 93,
+            "pct": 0.830357
+          },
+          {
+            "area": "Area 4",
+            "count": 13,
+            "pct": 0.116071
+          },
+          {
+            "area": "Area 3",
+            "count": 6,
+            "pct": 0.053571
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0159215",
+            "doc_number_url": "000037444",
+            "title": "introduccion a la planificacion urbana de coatlinchan",
+            "program": "arquitectura",
+            "year": 1982,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Salgado Figueroa, José Luis",
+            "advisor": "Rendis Loeza, Juan Enrique",
+            "x": 0.98588,
+            "y": 1.609477,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0538728",
+            "doc_number_url": "000822248",
+            "title": "arquetipo de una superficie podotáctil para invidentes en el urbanismo de la alcaldía de iztapalapa",
+            "program": "arquitectura",
+            "year": 2022,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad alzate de ozumba",
+            "author": "Rosales de Jesús, Ulises",
+            "advisor": "Garnica Aguiñaga, Ma. Alejandra",
+            "x": 0.979284,
+            "y": 1.608568,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0450697",
+            "doc_number_url": "000729037",
+            "title": "diseño evolutivo de la espontaneidad urbana : fermentación constructiva como respuesta al caos urbano",
+            "program": "arquitectura",
+            "year": 2015,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Borboa Osorio, Álvaro",
+            "advisor": "Cejudo Collera, Mónica ; Torre Zatarain, Luis Eduardo de la ; Lizárraga Sánchez, Salvador",
+            "x": 0.987758,
+            "y": 1.620728,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0574481",
+            "doc_number_url": "000866323",
+            "title": "degradación de humedales urbanos : actores sociales y gestión en el caso del humedal la mintzita (morelia, michoacán)",
+            "program": "ciencias de la sostenibilidad",
+            "year": 2025,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "instituto de investigaciones en ecosistemas y sustentabilidad unam",
+            "author": "Infante Avalos, Fernanda",
+            "advisor": "Pascual-Ramírez, Fermín",
+            "x": 0.976857,
+            "y": 1.615393,
+            "cluster_strength": 0.91141
+          },
+          {
+            "thesis_id": "TH_0150024",
+            "doc_number_url": "000000420",
+            "title": "regeneracion urbana de la zona centro de la ciudad de orizaba ver",
+            "program": "arquitectura",
+            "year": 1981,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Galvan Corona, Francisco",
+            "advisor": "",
+            "x": 0.985969,
+            "y": 1.638462,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0078871",
+            "doc_number_url": "000055822",
+            "title": "proyecto de una fabrica de papel y proyecto urbanistico en tlahuac, d.f",
+            "program": "arquitectura",
+            "year": 1953,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Cordova G., Ramiro",
+            "advisor": "",
+            "x": 0.974429,
+            "y": 1.580485,
+            "cluster_strength": 0.599855
+          },
+          {
+            "thesis_id": "TH_0437793",
+            "doc_number_url": "000723411",
+            "title": "revitalización urbana poligonal ermita iztapala",
+            "program": "arquitectura",
+            "year": 2014,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Cruz Hernández, Mario Alberto",
+            "advisor": "Salazar Rivera, Germán B",
+            "x": 1.015049,
+            "y": 1.632023,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0426733",
+            "doc_number_url": "000706629",
+            "title": "configuración y transformación del barrio tradicional a zona urbano-arquitectónica : caso de estudio : el cuadrante del barrio de san francisco en coyoacán",
+            "program": "arquitectura",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Hernández Rosas, Belem",
+            "advisor": "Cabeza Pérez, Alejandro ; Santa Ana Lozada, Lucia Gabriela ; Salas Espíndola, Hermilo ; Casillas Lavín, Gustavo ; Ortega Rubio, Norma Susana",
+            "x": 0.992718,
+            "y": 1.643142,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 34,
+        "macrocluster_id": 8,
+        "micro_label": "PUENTES · PROYECTO · CAMINO · PROYECTO PUENTE",
+        "size": 98,
+        "x": 0.98055,
+        "y": -5.041729,
+        "year_min": 1929,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "puentes",
+            "score": 0.09936
+          },
+          {
+            "term": "proyecto",
+            "score": 0.097733
+          },
+          {
+            "term": "camino",
+            "score": 0.081945
+          },
+          {
+            "term": "proyecto puente",
+            "score": 0.079959
+          },
+          {
+            "term": "rio",
+            "score": 0.069175
+          },
+          {
+            "term": "km",
+            "score": 0.053367
+          },
+          {
+            "term": "definitivo",
+            "score": 0.050125
+          },
+          {
+            "term": "puente definitivo",
+            "score": 0.045562
+          },
+          {
+            "term": "cruzar rio",
+            "score": 0.039599
+          },
+          {
+            "term": "cruzar",
+            "score": 0.039599
+          },
+          {
+            "term": "concreto",
+            "score": 0.039343
+          },
+          {
+            "term": "tramo",
+            "score": 0.039272
+          },
+          {
+            "term": "mexico",
+            "score": 0.038652
+          },
+          {
+            "term": "construccion",
+            "score": 0.038577
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria civil",
+            "count": 83
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 8
+          },
+          {
+            "label": "arquitectura",
+            "count": 3
+          },
+          {
+            "label": "construccion",
+            "count": 1
+          },
+          {
+            "label": "ingenieria topografica y geodesica",
+            "count": 1
+          },
+          {
+            "label": "estructuras",
+            "count": 1
+          },
+          {
+            "label": "puentes",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 90
+          },
+          {
+            "label": "Area 2",
+            "count": 8
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 91
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 86
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 10
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.918367,
+          "Area 2": 0.081633,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 90,
+            "pct": 0.918367
+          },
+          {
+            "area": "Area 2",
+            "count": 8,
+            "pct": 0.081633
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0086114",
+            "doc_number_url": null,
+            "title": "puente sobre el rio san carlos",
+            "program": "ingenieria civil",
+            "year": 1961,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Santamaria, Marco Antonio",
+            "advisor": "",
+            "x": 0.976444,
+            "y": -5.045779,
+            "cluster_strength": 0.906771
+          },
+          {
+            "thesis_id": "TH_0091421",
+            "doc_number_url": "000121068",
+            "title": "proyecto de un puente carretero en el camino clarin-agua buena, s.l.p. sobre el rio de el \"ahogado\"",
+            "program": "ingenieria civil",
+            "year": 1964,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Ortiz Saldaña, José Paulino",
+            "advisor": "",
+            "x": 0.974781,
+            "y": -5.044167,
+            "cluster_strength": 0.713598
+          },
+          {
+            "thesis_id": "TH_0247620",
+            "doc_number_url": "000229323",
+            "title": "proyecto estructural de la superestructura presforzada de un puente sobre el estero tenechaco en la ciudad de tuxpan, veracruz",
+            "program": "ingenieria civil",
+            "year": 1995,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Aguilar Melendez, Armando",
+            "advisor": "Rodríguez Vega, Miguel Ángel",
+            "x": 0.973223,
+            "y": -5.039447,
+            "cluster_strength": 0.861732
+          },
+          {
+            "thesis_id": "TH_0095108",
+            "doc_number_url": "000121763",
+            "title": "analisis tecnico y economico de la aplicacion del sistema de \"placas ortotropicas\" para el piso del puente colorado sobre el rio colorado",
+            "program": "ingenieria civil",
+            "year": 1966,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Casim Olvera, Alfredo",
+            "advisor": "",
+            "x": 0.978717,
+            "y": -5.049536,
+            "cluster_strength": 0.949984
+          },
+          {
+            "thesis_id": "TH_0250062",
+            "doc_number_url": "000225697",
+            "title": "guia para el proyecto de un puente",
+            "program": "ingenieria civil",
+            "year": 1995,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad la salle",
+            "author": "Delgado Parra, Raul Eduardo",
+            "advisor": "Ramirez de la Torre, Raul",
+            "x": 0.988406,
+            "y": -5.043923,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0085547",
+            "doc_number_url": null,
+            "title": "proyecto de puente para ferrocarril en la barranca de navochic",
+            "program": "ingenieria civil",
+            "year": 1961,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Gomez del Campo López, Felipe",
+            "advisor": "",
+            "x": 0.988517,
+            "y": -5.038863,
+            "cluster_strength": 0.782531
+          },
+          {
+            "thesis_id": "TH_0077322",
+            "doc_number_url": "000117003",
+            "title": "proyecto de puente sobre el rio uspero aplicando el concreto presforzado : carretera uruapan-apatzingan",
+            "program": "ingenieria civil",
+            "year": 1950,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Silva García, Guillermo",
+            "advisor": "",
+            "x": 0.981832,
+            "y": -5.05092,
+            "cluster_strength": 0.804174
+          },
+          {
+            "thesis_id": "TH_0029224",
+            "doc_number_url": "000306578",
+            "title": "proceso para la eleccion de la mejor alternativa del tipo de puente carretero",
+            "program": "ingenieria civil",
+            "year": 2002,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Horta Ramirez, Leonardo",
+            "advisor": "Hernandez Quinto, Ignacio Enrique",
+            "x": 0.989811,
+            "y": -5.040048,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 36,
+        "macrocluster_id": 8,
+        "micro_label": "CAMINOS · CARRETERA · CARRETERAS · CONSTRUCCION",
+        "size": 54,
+        "x": 1.943775,
+        "y": 1.95992,
+        "year_min": 1903,
+        "year_max": 2021,
+        "top_terms": [
+          {
+            "term": "caminos",
+            "score": 0.096683
+          },
+          {
+            "term": "carretera",
+            "score": 0.093588
+          },
+          {
+            "term": "carreteras",
+            "score": 0.074713
+          },
+          {
+            "term": "construccion",
+            "score": 0.063834
+          },
+          {
+            "term": "vias",
+            "score": 0.06013
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.054527
+          },
+          {
+            "term": "proyecto",
+            "score": 0.044829
+          },
+          {
+            "term": "sistema",
+            "score": 0.040787
+          },
+          {
+            "term": "autopistas",
+            "score": 0.038348
+          },
+          {
+            "term": "ruta",
+            "score": 0.037823
+          },
+          {
+            "term": "camino",
+            "score": 0.037688
+          },
+          {
+            "term": "analisis",
+            "score": 0.035319
+          },
+          {
+            "term": "km",
+            "score": 0.032683
+          },
+          {
+            "term": "rutas",
+            "score": 0.032494
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria civil",
+            "count": 26
+          },
+          {
+            "label": "economia",
+            "count": 4
+          },
+          {
+            "label": "arquitectura",
+            "count": 3
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria geomatica",
+            "count": 1
+          },
+          {
+            "label": "vias terrestres",
+            "count": 1
+          },
+          {
+            "label": "ingenieria de sistemas",
+            "count": 1
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 43
+          },
+          {
+            "label": "Area 3",
+            "count": 6
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 45
+          },
+          {
+            "label": "Maestría",
+            "count": 6
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 50
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad autónoma de guadalajara",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.796296,
+          "Area 2": 0.018519,
+          "Area 3": 0.111111,
+          "Area 4": 0.055556,
+          "Por Clasificar": 0.018519
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 43,
+            "pct": 0.796296
+          },
+          {
+            "area": "Area 3",
+            "count": 6,
+            "pct": 0.111111
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.055556
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.018519
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.018519
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0089075",
+            "doc_number_url": "000057003",
+            "title": "meson de carretera",
+            "program": "arquitectura",
+            "year": 1963,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Martinez Negrete, Francisco",
+            "advisor": "",
+            "x": 1.941539,
+            "y": 1.951478,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0146840",
+            "doc_number_url": "000012989",
+            "title": "sistema de informacion en la construccion de caminos rurales",
+            "program": "ingenieria civil",
+            "year": 1979,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Velazquez, Amanda Susana",
+            "advisor": "López Gonzalez, Victor Eduardo",
+            "x": 1.922676,
+            "y": 1.974204,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0074501",
+            "doc_number_url": "000877366",
+            "title": "procedimientos y costos de la construcción de terracerias para caminos",
+            "program": "SIN PROGRAMA",
+            "year": 1947,
+            "area": "Por Clasificar",
+            "level": "desconocido",
+            "plantel": "universidad autonoma de guadalajara",
+            "author": "Álvarez Aguilar, Luis",
+            "advisor": "",
+            "x": 1.972833,
+            "y": 1.963693,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0084615",
+            "doc_number_url": "000127097",
+            "title": "construccion de caminos",
+            "program": "ingenieria civil",
+            "year": 1959,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Pena Torres, Luis",
+            "advisor": "",
+            "x": 1.97343,
+            "y": 1.946966,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0094783",
+            "doc_number_url": "000115870",
+            "title": "planeacion de caminos en chiapas",
+            "program": "economia",
+            "year": 1966,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Albores Cancino, Efrain",
+            "advisor": "Gudiño Aguilar, Octavio",
+            "x": 1.915656,
+            "y": 1.942512,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0445241",
+            "doc_number_url": "000721597",
+            "title": "la producción del espacio mediante autopistas",
+            "program": "urbanismo",
+            "year": 2014,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Ponce Navarro, Aldo",
+            "advisor": "León Hernández, Efraín",
+            "x": 1.965988,
+            "y": 1.932379,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0152912",
+            "doc_number_url": "000003498",
+            "title": "la gestion diplomatica de genaro estrada",
+            "program": "relaciones internacionales",
+            "year": 1981,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Roman Enriquez, Beatriz",
+            "advisor": "",
+            "x": 1.904664,
+            "y": 1.967216,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0188687",
+            "doc_number_url": "000074219",
+            "title": "seleccion de ruta y proyecto preliminar para caminos",
+            "program": "ingenieria civil",
+            "year": 1988,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Barba Cárdenas, Alejandro",
+            "advisor": "Olivera Bustamente, Fernando",
+            "x": 1.983678,
+            "y": 1.946847,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}
