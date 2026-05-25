@@ -231,10 +231,13 @@
       margin-top: 22px;
       padding-top: 20px;
       border-top: 1px solid var(--line);
-      font-family: "Cormorant", Georgia, serif;
-      font-size: 22px;
-      line-height: 1.22;
-      color: #24211d;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 12px;
+      line-height: 1.55;
+      font-weight: 600;
+      color: #dceaf8;
     }
 
     .links {
@@ -410,7 +413,16 @@
     h1,
     .meta-value,
     .motivation {
-      color: var(--ink);
+      margin-top: 22px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 12px;
+      line-height: 1.55;
+      font-weight: 600;
+      color: #dceaf8;
     }
 
     .brand small,
@@ -450,7 +462,16 @@
 
     .meta-grid,
     .motivation {
-      border-color: var(--line);
+      margin-top: 22px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 12px;
+      line-height: 1.55;
+      font-weight: 600;
+      color: #dceaf8;
     }
 
     .tooltip {
@@ -635,6 +656,16 @@
         .replaceAll("'", "&#039;");
     }
 
+    function safeMotivationHTML(value) {
+      // Nobel motivations only use <i>/<I> tags according to audit.
+      // Escape everything first, then re-allow only italic tags.
+      return escapeHTML(value)
+        .replaceAll("&lt;i&gt;", "<i>")
+        .replaceAll("&lt;/i&gt;", "</i>")
+        .replaceAll("&lt;I&gt;", "<i>")
+        .replaceAll("&lt;/I&gt;", "</i>");
+    }
+
     function hashColor(value) {
       let hash = 0;
       for (const char of String(value || "")) {
@@ -717,7 +748,7 @@
     }
 
     async function loadPayload() {
-      for (const route of ["/nobel/nobel_atlas.json", "/static/nobel/nobel_atlas.json"]) {
+      for (const route of ["/static/nobel/nobel_atlas_es_ui.json", "/nobel/nobel_atlas_es_ui.json", "/nobel/nobel_atlas.json", "/static/nobel/nobel_atlas.json"]) {
         const response = await fetch(route);
         if (response.ok) return await response.json();
       }
@@ -893,7 +924,7 @@
             </div>
           ` : ""}
         </div>
-        <div class="motivation">${escapeHTML(item.motivation)}</div>
+        <div class="motivation">${safeMotivationHTML(item.motivation_es || item.motivation)}</div>
         <div class="links">
           ${item.external_link ? `<a class="link-btn" href="${escapeHTML(item.external_link)}" target="_blank" rel="noopener">Ficha Nobel</a>` : ""}
           ${item.wikipedia ? `<a class="link-btn" href="${escapeHTML(item.wikipedia)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
@@ -1045,8 +1076,11 @@
           const nearSelected = neighborhood.has(node);
 
           res.color = nodeColor(data.item);
-          res.label = selected || hovered ? data.label : "";
-          res.forceLabel = selected || hovered;
+
+          // Evitar doble etiqueta en hover/click.
+          // La etiqueta grande vive en el tooltip HTML; Sigma no dibuja label sobre el nodo.
+          res.label = "";
+          res.forceLabel = false;
 
           if (selectedNode && !nearSelected) {
             res.color = rgba(res.color, 0.18);
