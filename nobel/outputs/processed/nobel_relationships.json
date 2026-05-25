@@ -1,0 +1,4209 @@
+{
+  "meta": {
+    "generated_at_utc": "2026-05-25T02:40:22.245670+00:00",
+    "source": "Nobel Prize API 2.1",
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "layout": "official_category_poles_plus_motivation_semantics_v1",
+    "node_unit": "laureate_award",
+    "laureate_count": 1018,
+    "award_node_count": 1026,
+    "prize_event_count": 633,
+    "official_prize_endpoint_count": 682,
+    "edge_count": 524,
+    "semantic_neighbors_per_node": 12
+  },
+  "edges": [
+    {
+      "id": "E::0",
+      "source": "NOBEL::745::eco::2001::0",
+      "target": "NOBEL::744::eco::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::1",
+      "source": "NOBEL::745::eco::2001::0",
+      "target": "NOBEL::746::eco::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::2",
+      "source": "NOBEL::744::eco::2001::0",
+      "target": "NOBEL::746::eco::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::3",
+      "source": "NOBEL::102::phy::1975::0",
+      "target": "NOBEL::103::phy::1975::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1975",
+      "weight": 1.0
+    },
+    {
+      "id": "E::4",
+      "source": "NOBEL::102::phy::1975::0",
+      "target": "NOBEL::104::phy::1975::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1975",
+      "weight": 1.0
+    },
+    {
+      "id": "E::5",
+      "source": "NOBEL::103::phy::1975::0",
+      "target": "NOBEL::104::phy::1975::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1975",
+      "weight": 1.0
+    },
+    {
+      "id": "E::6",
+      "source": "NOBEL::779::che::2004::0",
+      "target": "NOBEL::780::che::2004::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2004",
+      "weight": 1.0
+    },
+    {
+      "id": "E::7",
+      "source": "NOBEL::779::che::2004::0",
+      "target": "NOBEL::781::che::2004::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2004",
+      "weight": 1.0
+    },
+    {
+      "id": "E::8",
+      "source": "NOBEL::780::che::2004::0",
+      "target": "NOBEL::781::che::2004::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2004",
+      "weight": 1.0
+    },
+    {
+      "id": "E::9",
+      "source": "NOBEL::114::phy::1979::0",
+      "target": "NOBEL::113::phy::1979::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1979",
+      "weight": 1.0
+    },
+    {
+      "id": "E::10",
+      "source": "NOBEL::114::phy::1979::0",
+      "target": "NOBEL::115::phy::1979::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1979",
+      "weight": 1.0
+    },
+    {
+      "id": "E::11",
+      "source": "NOBEL::113::phy::1979::0",
+      "target": "NOBEL::115::phy::1979::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1979",
+      "weight": 1.0
+    },
+    {
+      "id": "E::12",
+      "source": "NOBEL::982::eco::2019::0",
+      "target": "NOBEL::983::eco::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::13",
+      "source": "NOBEL::982::eco::2019::0",
+      "target": "NOBEL::984::eco::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::14",
+      "source": "NOBEL::983::eco::2019::0",
+      "target": "NOBEL::984::eco::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::15",
+      "source": "NOBEL::843::che::2009::0",
+      "target": "NOBEL::842::che::2009::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2009",
+      "weight": 1.0
+    },
+    {
+      "id": "E::16",
+      "source": "NOBEL::843::che::2009::0",
+      "target": "NOBEL::841::che::2009::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2009",
+      "weight": 1.0
+    },
+    {
+      "id": "E::17",
+      "source": "NOBEL::842::che::2009::0",
+      "target": "NOBEL::841::che::2009::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2009",
+      "weight": 1.0
+    },
+    {
+      "id": "E::18",
+      "source": "NOBEL::866::phy::2011::0",
+      "target": "NOBEL::865::phy::2011::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2011",
+      "weight": 1.0
+    },
+    {
+      "id": "E::19",
+      "source": "NOBEL::866::phy::2011::0",
+      "target": "NOBEL::864::phy::2011::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2011",
+      "weight": 1.0
+    },
+    {
+      "id": "E::20",
+      "source": "NOBEL::865::phy::2011::0",
+      "target": "NOBEL::864::phy::2011::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2011",
+      "weight": 1.0
+    },
+    {
+      "id": "E::21",
+      "source": "NOBEL::199::che::1939::0",
+      "target": "NOBEL::200::che::1939::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1939",
+      "weight": 1.0
+    },
+    {
+      "id": "E::22",
+      "source": "NOBEL::853::che::2010::0",
+      "target": "NOBEL::852::che::2010::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2010",
+      "weight": 1.0
+    },
+    {
+      "id": "E::23",
+      "source": "NOBEL::853::che::2010::0",
+      "target": "NOBEL::851::che::2010::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2010",
+      "weight": 1.0
+    },
+    {
+      "id": "E::24",
+      "source": "NOBEL::852::che::2010::0",
+      "target": "NOBEL::851::che::2010::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2010",
+      "weight": 1.0
+    },
+    {
+      "id": "E::25",
+      "source": "NOBEL::978::che::2019::0",
+      "target": "NOBEL::976::che::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::26",
+      "source": "NOBEL::978::che::2019::0",
+      "target": "NOBEL::977::che::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::27",
+      "source": "NOBEL::976::che::2019::0",
+      "target": "NOBEL::977::che::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::28",
+      "source": "NOBEL::819::pea::2007::0",
+      "target": "NOBEL::818::pea::2007::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2007",
+      "weight": 1.0
+    },
+    {
+      "id": "E::29",
+      "source": "NOBEL::1012::phy::2022::0",
+      "target": "NOBEL::1014::phy::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::30",
+      "source": "NOBEL::1012::phy::2022::0",
+      "target": "NOBEL::1013::phy::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::31",
+      "source": "NOBEL::1014::phy::2022::0",
+      "target": "NOBEL::1013::phy::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::32",
+      "source": "NOBEL::729::che::2000::0",
+      "target": "NOBEL::730::che::2000::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2000",
+      "weight": 1.0
+    },
+    {
+      "id": "E::33",
+      "source": "NOBEL::729::che::2000::0",
+      "target": "NOBEL::731::che::2000::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2000",
+      "weight": 1.0
+    },
+    {
+      "id": "E::34",
+      "source": "NOBEL::730::che::2000::0",
+      "target": "NOBEL::731::che::2000::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2000",
+      "weight": 1.0
+    },
+    {
+      "id": "E::35",
+      "source": "NOBEL::376::med::1963::0",
+      "target": "NOBEL::377::med::1963::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1963",
+      "weight": 1.0
+    },
+    {
+      "id": "E::36",
+      "source": "NOBEL::376::med::1963::0",
+      "target": "NOBEL::375::med::1963::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1963",
+      "weight": 1.0
+    },
+    {
+      "id": "E::37",
+      "source": "NOBEL::377::med::1963::0",
+      "target": "NOBEL::375::med::1963::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1963",
+      "weight": 1.0
+    },
+    {
+      "id": "E::38",
+      "source": "NOBEL::403::med::1974::0",
+      "target": "NOBEL::404::med::1974::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1974",
+      "weight": 1.0
+    },
+    {
+      "id": "E::39",
+      "source": "NOBEL::403::med::1974::0",
+      "target": "NOBEL::405::med::1974::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1974",
+      "weight": 1.0
+    },
+    {
+      "id": "E::40",
+      "source": "NOBEL::404::med::1974::0",
+      "target": "NOBEL::405::med::1974::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1974",
+      "weight": 1.0
+    },
+    {
+      "id": "E::41",
+      "source": "NOBEL::814::phy::2007::0",
+      "target": "NOBEL::815::phy::2007::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2007",
+      "weight": 1.0
+    },
+    {
+      "id": "E::42",
+      "source": "NOBEL::465::pea::1902::0",
+      "target": "NOBEL::464::pea::1902::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1902",
+      "weight": 1.0
+    },
+    {
+      "id": "E::43",
+      "source": "NOBEL::83::phy::1964::0",
+      "target": "NOBEL::81::phy::1964::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1964",
+      "weight": 1.0
+    },
+    {
+      "id": "E::44",
+      "source": "NOBEL::83::phy::1964::0",
+      "target": "NOBEL::82::phy::1964::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1964",
+      "weight": 1.0
+    },
+    {
+      "id": "E::45",
+      "source": "NOBEL::81::phy::1964::0",
+      "target": "NOBEL::82::phy::1964::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1964",
+      "weight": 1.0
+    },
+    {
+      "id": "E::46",
+      "source": "NOBEL::1031::che::2023::0",
+      "target": "NOBEL::1030::che::2023::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2023",
+      "weight": 1.0
+    },
+    {
+      "id": "E::47",
+      "source": "NOBEL::1031::che::2023::0",
+      "target": "NOBEL::1029::che::2023::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2023",
+      "weight": 1.0
+    },
+    {
+      "id": "E::48",
+      "source": "NOBEL::1030::che::2023::0",
+      "target": "NOBEL::1029::che::2023::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2023",
+      "weight": 1.0
+    },
+    {
+      "id": "E::49",
+      "source": "NOBEL::1018::pea::2022::0",
+      "target": "NOBEL::1020::pea::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::50",
+      "source": "NOBEL::1018::pea::2022::0",
+      "target": "NOBEL::1019::pea::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::51",
+      "source": "NOBEL::1020::pea::2022::0",
+      "target": "NOBEL::1019::pea::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::52",
+      "source": "NOBEL::766::phy::2003::0",
+      "target": "NOBEL::768::phy::2003::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2003",
+      "weight": 1.0
+    },
+    {
+      "id": "E::53",
+      "source": "NOBEL::766::phy::2003::0",
+      "target": "NOBEL::767::phy::2003::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2003",
+      "weight": 1.0
+    },
+    {
+      "id": "E::54",
+      "source": "NOBEL::768::phy::2003::0",
+      "target": "NOBEL::767::phy::2003::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2003",
+      "weight": 1.0
+    },
+    {
+      "id": "E::55",
+      "source": "NOBEL::544::pea::1982::0",
+      "target": "NOBEL::543::pea::1982::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1982",
+      "weight": 1.0
+    },
+    {
+      "id": "E::56",
+      "source": "NOBEL::392::med::1969::0",
+      "target": "NOBEL::391::med::1969::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1969",
+      "weight": 1.0
+    },
+    {
+      "id": "E::57",
+      "source": "NOBEL::392::med::1969::0",
+      "target": "NOBEL::393::med::1969::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1969",
+      "weight": 1.0
+    },
+    {
+      "id": "E::58",
+      "source": "NOBEL::391::med::1969::0",
+      "target": "NOBEL::393::med::1969::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1969",
+      "weight": 1.0
+    },
+    {
+      "id": "E::59",
+      "source": "NOBEL::479::pea::1911::0",
+      "target": "NOBEL::478::pea::1911::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1911",
+      "weight": 1.0
+    },
+    {
+      "id": "E::60",
+      "source": "NOBEL::450::med::1994::0",
+      "target": "NOBEL::451::med::1994::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1994",
+      "weight": 1.0
+    },
+    {
+      "id": "E::61",
+      "source": "NOBEL::417::med::1979::0",
+      "target": "NOBEL::418::med::1979::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1979",
+      "weight": 1.0
+    },
+    {
+      "id": "E::62",
+      "source": "NOBEL::882::eco::2012::0",
+      "target": "NOBEL::883::eco::2012::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2012",
+      "weight": 1.0
+    },
+    {
+      "id": "E::63",
+      "source": "NOBEL::509::pea::1947::0",
+      "target": "NOBEL::508::pea::1947::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1947",
+      "weight": 1.0
+    },
+    {
+      "id": "E::64",
+      "source": "NOBEL::360::med::1956::0",
+      "target": "NOBEL::362::med::1956::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1956",
+      "weight": 1.0
+    },
+    {
+      "id": "E::65",
+      "source": "NOBEL::360::med::1956::0",
+      "target": "NOBEL::361::med::1956::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1956",
+      "weight": 1.0
+    },
+    {
+      "id": "E::66",
+      "source": "NOBEL::362::med::1956::0",
+      "target": "NOBEL::361::med::1956::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1956",
+      "weight": 1.0
+    },
+    {
+      "id": "E::67",
+      "source": "NOBEL::849::phy::2010::0",
+      "target": "NOBEL::850::phy::2010::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2010",
+      "weight": 1.0
+    },
+    {
+      "id": "E::68",
+      "source": "NOBEL::381::med::1965::0",
+      "target": "NOBEL::380::med::1965::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1965",
+      "weight": 1.0
+    },
+    {
+      "id": "E::69",
+      "source": "NOBEL::381::med::1965::0",
+      "target": "NOBEL::382::med::1965::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1965",
+      "weight": 1.0
+    },
+    {
+      "id": "E::70",
+      "source": "NOBEL::380::med::1965::0",
+      "target": "NOBEL::382::med::1965::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1965",
+      "weight": 1.0
+    },
+    {
+      "id": "E::71",
+      "source": "NOBEL::990::phy::2020::0",
+      "target": "NOBEL::989::phy::2020::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2020",
+      "weight": 1.0
+    },
+    {
+      "id": "E::72",
+      "source": "NOBEL::990::phy::2020::0",
+      "target": "NOBEL::988::phy::2020::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2020",
+      "weight": 1.0
+    },
+    {
+      "id": "E::73",
+      "source": "NOBEL::989::phy::2020::0",
+      "target": "NOBEL::988::phy::2020::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2020",
+      "weight": 1.0
+    },
+    {
+      "id": "E::74",
+      "source": "NOBEL::412::med::1977::0",
+      "target": "NOBEL::411::med::1977::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1977",
+      "weight": 1.0
+    },
+    {
+      "id": "E::75",
+      "source": "NOBEL::412::med::1977::0",
+      "target": "NOBEL::413::med::1977::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1977",
+      "weight": 1.0
+    },
+    {
+      "id": "E::76",
+      "source": "NOBEL::411::med::1977::0",
+      "target": "NOBEL::413::med::1977::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1977",
+      "weight": 1.0
+    },
+    {
+      "id": "E::77",
+      "source": "NOBEL::802::med::2006::0",
+      "target": "NOBEL::803::med::2006::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2006",
+      "weight": 1.0
+    },
+    {
+      "id": "E::78",
+      "source": "NOBEL::1028::phy::2023::0",
+      "target": "NOBEL::1027::phy::2023::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2023",
+      "weight": 1.0
+    },
+    {
+      "id": "E::79",
+      "source": "NOBEL::1028::phy::2023::0",
+      "target": "NOBEL::1026::phy::2023::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2023",
+      "weight": 1.0
+    },
+    {
+      "id": "E::80",
+      "source": "NOBEL::1027::phy::2023::0",
+      "target": "NOBEL::1026::phy::2023::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2023",
+      "weight": 1.0
+    },
+    {
+      "id": "E::81",
+      "source": "NOBEL::101::phy::1974::0",
+      "target": "NOBEL::100::phy::1974::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1974",
+      "weight": 1.0
+    },
+    {
+      "id": "E::82",
+      "source": "NOBEL::538::pea::1978::0",
+      "target": "NOBEL::539::pea::1978::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1978",
+      "weight": 1.0
+    },
+    {
+      "id": "E::83",
+      "source": "NOBEL::214::che::1952::0",
+      "target": "NOBEL::215::che::1952::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1952",
+      "weight": 1.0
+    },
+    {
+      "id": "E::84",
+      "source": "NOBEL::311::med::1922::0",
+      "target": "NOBEL::312::med::1922::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1922",
+      "weight": 1.0
+    },
+    {
+      "id": "E::85",
+      "source": "NOBEL::998::med::2021::0",
+      "target": "NOBEL::997::med::2021::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2021",
+      "weight": 1.0
+    },
+    {
+      "id": "E::86",
+      "source": "NOBEL::891::che::2013::0",
+      "target": "NOBEL::889::che::2013::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2013",
+      "weight": 1.0
+    },
+    {
+      "id": "E::87",
+      "source": "NOBEL::891::che::2013::0",
+      "target": "NOBEL::890::che::2013::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2013",
+      "weight": 1.0
+    },
+    {
+      "id": "E::88",
+      "source": "NOBEL::889::che::2013::0",
+      "target": "NOBEL::890::che::2013::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2013",
+      "weight": 1.0
+    },
+    {
+      "id": "E::89",
+      "source": "NOBEL::490::pea::1926::0",
+      "target": "NOBEL::491::pea::1926::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1926",
+      "weight": 1.0
+    },
+    {
+      "id": "E::90",
+      "source": "NOBEL::111::phy::1978::0",
+      "target": "NOBEL::110::phy::1978::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1978",
+      "weight": 1.0
+    },
+    {
+      "id": "E::91",
+      "source": "NOBEL::111::phy::1978::0",
+      "target": "NOBEL::112::phy::1978::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1978",
+      "weight": 1.0
+    },
+    {
+      "id": "E::92",
+      "source": "NOBEL::110::phy::1978::0",
+      "target": "NOBEL::112::phy::1978::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1978",
+      "weight": 1.0
+    },
+    {
+      "id": "E::93",
+      "source": "NOBEL::960::phy::2018::0",
+      "target": "NOBEL::962::phy::2018::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2018",
+      "weight": 1.0
+    },
+    {
+      "id": "E::94",
+      "source": "NOBEL::960::phy::2018::0",
+      "target": "NOBEL::961::phy::2018::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2018",
+      "weight": 1.0
+    },
+    {
+      "id": "E::95",
+      "source": "NOBEL::962::phy::2018::0",
+      "target": "NOBEL::961::phy::2018::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2018",
+      "weight": 1.0
+    },
+    {
+      "id": "E::96",
+      "source": "NOBEL::920::phy::2015::0",
+      "target": "NOBEL::919::phy::2015::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2015",
+      "weight": 1.0
+    },
+    {
+      "id": "E::97",
+      "source": "NOBEL::33::phy::1927::0",
+      "target": "NOBEL::34::phy::1927::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1927",
+      "weight": 1.0
+    },
+    {
+      "id": "E::98",
+      "source": "NOBEL::186::che::1929::0",
+      "target": "NOBEL::187::che::1929::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1929",
+      "weight": 1.0
+    },
+    {
+      "id": "E::99",
+      "source": "NOBEL::368::med::1959::0",
+      "target": "NOBEL::367::med::1959::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1959",
+      "weight": 1.0
+    },
+    {
+      "id": "E::100",
+      "source": "NOBEL::119::phy::1981::0",
+      "target": "NOBEL::120::phy::1981::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1981",
+      "weight": 1.0
+    },
+    {
+      "id": "E::101",
+      "source": "NOBEL::119::phy::1981::0",
+      "target": "NOBEL::118::phy::1981::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1981",
+      "weight": 1.0
+    },
+    {
+      "id": "E::102",
+      "source": "NOBEL::120::phy::1981::0",
+      "target": "NOBEL::118::phy::1981::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1981",
+      "weight": 1.0
+    },
+    {
+      "id": "E::103",
+      "source": "NOBEL::722::med::2000::0",
+      "target": "NOBEL::724::med::2000::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2000",
+      "weight": 1.0
+    },
+    {
+      "id": "E::104",
+      "source": "NOBEL::722::med::2000::0",
+      "target": "NOBEL::723::med::2000::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2000",
+      "weight": 1.0
+    },
+    {
+      "id": "E::105",
+      "source": "NOBEL::724::med::2000::0",
+      "target": "NOBEL::723::med::2000::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2000",
+      "weight": 1.0
+    },
+    {
+      "id": "E::106",
+      "source": "NOBEL::475::pea::1909::0",
+      "target": "NOBEL::476::pea::1909::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1909",
+      "weight": 1.0
+    },
+    {
+      "id": "E::107",
+      "source": "NOBEL::923::che::2015::0",
+      "target": "NOBEL::922::che::2015::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2015",
+      "weight": 1.0
+    },
+    {
+      "id": "E::108",
+      "source": "NOBEL::923::che::2015::0",
+      "target": "NOBEL::921::che::2015::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2015",
+      "weight": 1.0
+    },
+    {
+      "id": "E::109",
+      "source": "NOBEL::922::che::2015::0",
+      "target": "NOBEL::921::che::2015::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2015",
+      "weight": 1.0
+    },
+    {
+      "id": "E::110",
+      "source": "NOBEL::942::phy::2017::0",
+      "target": "NOBEL::943::phy::2017::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2017",
+      "weight": 1.0
+    },
+    {
+      "id": "E::111",
+      "source": "NOBEL::942::phy::2017::0",
+      "target": "NOBEL::941::phy::2017::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2017",
+      "weight": 1.0
+    },
+    {
+      "id": "E::112",
+      "source": "NOBEL::943::phy::2017::0",
+      "target": "NOBEL::941::phy::2017::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2017",
+      "weight": 1.0
+    },
+    {
+      "id": "E::113",
+      "source": "NOBEL::789::med::2005::0",
+      "target": "NOBEL::790::med::2005::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2005",
+      "weight": 1.0
+    },
+    {
+      "id": "E::114",
+      "source": "NOBEL::409::med::1976::0",
+      "target": "NOBEL::410::med::1976::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1976",
+      "weight": 1.0
+    },
+    {
+      "id": "E::115",
+      "source": "NOBEL::419::med::1980::0",
+      "target": "NOBEL::421::med::1980::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1980",
+      "weight": 1.0
+    },
+    {
+      "id": "E::116",
+      "source": "NOBEL::419::med::1980::0",
+      "target": "NOBEL::420::med::1980::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1980",
+      "weight": 1.0
+    },
+    {
+      "id": "E::117",
+      "source": "NOBEL::421::med::1980::0",
+      "target": "NOBEL::420::med::1980::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1980",
+      "weight": 1.0
+    },
+    {
+      "id": "E::118",
+      "source": "NOBEL::1021::eco::2022::0",
+      "target": "NOBEL::1022::eco::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::119",
+      "source": "NOBEL::1021::eco::2022::0",
+      "target": "NOBEL::1023::eco::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::120",
+      "source": "NOBEL::1022::eco::2022::0",
+      "target": "NOBEL::1023::eco::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::121",
+      "source": "NOBEL::936::eco::2016::0",
+      "target": "NOBEL::935::eco::2016::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2016",
+      "weight": 1.0
+    },
+    {
+      "id": "E::122",
+      "source": "NOBEL::426::med::1982::0",
+      "target": "NOBEL::427::med::1982::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1982",
+      "weight": 1.0
+    },
+    {
+      "id": "E::123",
+      "source": "NOBEL::426::med::1982::0",
+      "target": "NOBEL::425::med::1982::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1982",
+      "weight": 1.0
+    },
+    {
+      "id": "E::124",
+      "source": "NOBEL::427::med::1982::0",
+      "target": "NOBEL::425::med::1982::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1982",
+      "weight": 1.0
+    },
+    {
+      "id": "E::125",
+      "source": "NOBEL::1002::che::2021::0",
+      "target": "NOBEL::1003::che::2021::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2021",
+      "weight": 1.0
+    },
+    {
+      "id": "E::126",
+      "source": "NOBEL::933::che::2016::0",
+      "target": "NOBEL::931::che::2016::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2016",
+      "weight": 1.0
+    },
+    {
+      "id": "E::127",
+      "source": "NOBEL::933::che::2016::0",
+      "target": "NOBEL::932::che::2016::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2016",
+      "weight": 1.0
+    },
+    {
+      "id": "E::128",
+      "source": "NOBEL::931::che::2016::0",
+      "target": "NOBEL::932::che::2016::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2016",
+      "weight": 1.0
+    },
+    {
+      "id": "E::129",
+      "source": "NOBEL::345::med::1947::0",
+      "target": "NOBEL::343::med::1947::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1947",
+      "weight": 1.0
+    },
+    {
+      "id": "E::130",
+      "source": "NOBEL::345::med::1947::0",
+      "target": "NOBEL::344::med::1947::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1947",
+      "weight": 1.0
+    },
+    {
+      "id": "E::131",
+      "source": "NOBEL::343::med::1947::0",
+      "target": "NOBEL::344::med::1947::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1947",
+      "weight": 1.0
+    },
+    {
+      "id": "E::132",
+      "source": "NOBEL::445::med::1991::0",
+      "target": "NOBEL::444::med::1991::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1991",
+      "weight": 1.0
+    },
+    {
+      "id": "E::133",
+      "source": "NOBEL::689::eco::1977::0",
+      "target": "NOBEL::690::eco::1977::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1977",
+      "weight": 1.0
+    },
+    {
+      "id": "E::134",
+      "source": "NOBEL::145::phy::1994::0",
+      "target": "NOBEL::146::phy::1994::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1994",
+      "weight": 1.0
+    },
+    {
+      "id": "E::135",
+      "source": "NOBEL::535::pea::1976::0",
+      "target": "NOBEL::536::pea::1976::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1976",
+      "weight": 1.0
+    },
+    {
+      "id": "E::136",
+      "source": "NOBEL::99::phy::1973::0",
+      "target": "NOBEL::98::phy::1973::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1973",
+      "weight": 1.0
+    },
+    {
+      "id": "E::137",
+      "source": "NOBEL::99::phy::1973::0",
+      "target": "NOBEL::97::phy::1973::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1973",
+      "weight": 1.0
+    },
+    {
+      "id": "E::138",
+      "source": "NOBEL::98::phy::1973::0",
+      "target": "NOBEL::97::phy::1973::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1973",
+      "weight": 1.0
+    },
+    {
+      "id": "E::139",
+      "source": "NOBEL::879::che::2012::0",
+      "target": "NOBEL::878::che::2012::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2012",
+      "weight": 1.0
+    },
+    {
+      "id": "E::140",
+      "source": "NOBEL::861::med::2011::0",
+      "target": "NOBEL::862::med::2011::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2011",
+      "weight": 1.0
+    },
+    {
+      "id": "E::141",
+      "source": "NOBEL::861::med::2011::0",
+      "target": "NOBEL::863::med::2011::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2011",
+      "weight": 1.0
+    },
+    {
+      "id": "E::142",
+      "source": "NOBEL::862::med::2011::0",
+      "target": "NOBEL::863::med::2011::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2011",
+      "weight": 1.0
+    },
+    {
+      "id": "E::143",
+      "source": "NOBEL::105::phy::1976::0",
+      "target": "NOBEL::106::phy::1976::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1976",
+      "weight": 1.0
+    },
+    {
+      "id": "E::144",
+      "source": "NOBEL::298::med::1906::0",
+      "target": "NOBEL::299::med::1906::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1906",
+      "weight": 1.0
+    },
+    {
+      "id": "E::145",
+      "source": "NOBEL::189::che::1931::0",
+      "target": "NOBEL::190::che::1931::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1931",
+      "weight": 1.0
+    },
+    {
+      "id": "E::146",
+      "source": "NOBEL::43::phy::1936::0",
+      "target": "NOBEL::42::phy::1936::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1936",
+      "weight": 1.0
+    },
+    {
+      "id": "E::147",
+      "source": "NOBEL::740::phy::2001::0",
+      "target": "NOBEL::738::phy::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::148",
+      "source": "NOBEL::740::phy::2001::0",
+      "target": "NOBEL::739::phy::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::149",
+      "source": "NOBEL::738::phy::2001::0",
+      "target": "NOBEL::739::phy::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::150",
+      "source": "NOBEL::124::phy::1984::0",
+      "target": "NOBEL::125::phy::1984::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1984",
+      "weight": 1.0
+    },
+    {
+      "id": "E::151",
+      "source": "NOBEL::562::pea::1996::0",
+      "target": "NOBEL::563::pea::1996::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1996",
+      "weight": 1.0
+    },
+    {
+      "id": "E::152",
+      "source": "NOBEL::836::med::2009::0",
+      "target": "NOBEL::835::med::2009::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2009",
+      "weight": 1.0
+    },
+    {
+      "id": "E::153",
+      "source": "NOBEL::836::med::2009::0",
+      "target": "NOBEL::837::med::2009::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2009",
+      "weight": 1.0
+    },
+    {
+      "id": "E::154",
+      "source": "NOBEL::835::med::2009::0",
+      "target": "NOBEL::837::med::2009::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2009",
+      "weight": 1.0
+    },
+    {
+      "id": "E::155",
+      "source": "NOBEL::1015::che::2022::0",
+      "target": "NOBEL::743::che::2022::1",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::156",
+      "source": "NOBEL::1015::che::2022::0",
+      "target": "NOBEL::1016::che::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::157",
+      "source": "NOBEL::743::che::2022::1",
+      "target": "NOBEL::1016::che::2022::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2022",
+      "weight": 1.0
+    },
+    {
+      "id": "E::158",
+      "source": "NOBEL::431::med::1984::0",
+      "target": "NOBEL::430::med::1984::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1984",
+      "weight": 1.0
+    },
+    {
+      "id": "E::159",
+      "source": "NOBEL::431::med::1984::0",
+      "target": "NOBEL::429::med::1984::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1984",
+      "weight": 1.0
+    },
+    {
+      "id": "E::160",
+      "source": "NOBEL::430::med::1984::0",
+      "target": "NOBEL::429::med::1984::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1984",
+      "weight": 1.0
+    },
+    {
+      "id": "E::161",
+      "source": "NOBEL::384::med::1966::0",
+      "target": "NOBEL::383::med::1966::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1966",
+      "weight": 1.0
+    },
+    {
+      "id": "E::162",
+      "source": "NOBEL::489::pea::1925::0",
+      "target": "NOBEL::488::pea::1925::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1925",
+      "weight": 1.0
+    },
+    {
+      "id": "E::163",
+      "source": "NOBEL::269::che::1987::0",
+      "target": "NOBEL::267::che::1987::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1987",
+      "weight": 1.0
+    },
+    {
+      "id": "E::164",
+      "source": "NOBEL::269::che::1987::0",
+      "target": "NOBEL::268::che::1987::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1987",
+      "weight": 1.0
+    },
+    {
+      "id": "E::165",
+      "source": "NOBEL::267::che::1987::0",
+      "target": "NOBEL::268::che::1987::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1987",
+      "weight": 1.0
+    },
+    {
+      "id": "E::166",
+      "source": "NOBEL::838::phy::2009::0",
+      "target": "NOBEL::840::phy::2009::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2009",
+      "weight": 1.0
+    },
+    {
+      "id": "E::167",
+      "source": "NOBEL::838::phy::2009::0",
+      "target": "NOBEL::839::phy::2009::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2009",
+      "weight": 1.0
+    },
+    {
+      "id": "E::168",
+      "source": "NOBEL::840::phy::2009::0",
+      "target": "NOBEL::839::phy::2009::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2009",
+      "weight": 1.0
+    },
+    {
+      "id": "E::169",
+      "source": "NOBEL::987::med::2020::0",
+      "target": "NOBEL::985::med::2020::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2020",
+      "weight": 1.0
+    },
+    {
+      "id": "E::170",
+      "source": "NOBEL::987::med::2020::0",
+      "target": "NOBEL::986::med::2020::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2020",
+      "weight": 1.0
+    },
+    {
+      "id": "E::171",
+      "source": "NOBEL::985::med::2020::0",
+      "target": "NOBEL::986::med::2020::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2020",
+      "weight": 1.0
+    },
+    {
+      "id": "E::172",
+      "source": "NOBEL::68::phy::1957::0",
+      "target": "NOBEL::69::phy::1957::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1957",
+      "weight": 1.0
+    },
+    {
+      "id": "E::173",
+      "source": "NOBEL::319::med::1929::0",
+      "target": "NOBEL::320::med::1929::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1929",
+      "weight": 1.0
+    },
+    {
+      "id": "E::174",
+      "source": "NOBEL::241::che::1972::0",
+      "target": "NOBEL::242::che::1972::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1972",
+      "weight": 1.0
+    },
+    {
+      "id": "E::175",
+      "source": "NOBEL::241::che::1972::0",
+      "target": "NOBEL::243::che::1972::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1972",
+      "weight": 1.0
+    },
+    {
+      "id": "E::176",
+      "source": "NOBEL::242::che::1972::0",
+      "target": "NOBEL::243::che::1972::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1972",
+      "weight": 1.0
+    },
+    {
+      "id": "E::177",
+      "source": "NOBEL::486::pea::1921::0",
+      "target": "NOBEL::485::pea::1921::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1921",
+      "weight": 1.0
+    },
+    {
+      "id": "E::178",
+      "source": "NOBEL::453::med::1995::0",
+      "target": "NOBEL::452::med::1995::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1995",
+      "weight": 1.0
+    },
+    {
+      "id": "E::179",
+      "source": "NOBEL::453::med::1995::0",
+      "target": "NOBEL::454::med::1995::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1995",
+      "weight": 1.0
+    },
+    {
+      "id": "E::180",
+      "source": "NOBEL::452::med::1995::0",
+      "target": "NOBEL::454::med::1995::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1995",
+      "weight": 1.0
+    },
+    {
+      "id": "E::181",
+      "source": "NOBEL::858::eco::2010::0",
+      "target": "NOBEL::857::eco::2010::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2010",
+      "weight": 1.0
+    },
+    {
+      "id": "E::182",
+      "source": "NOBEL::858::eco::2010::0",
+      "target": "NOBEL::856::eco::2010::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2010",
+      "weight": 1.0
+    },
+    {
+      "id": "E::183",
+      "source": "NOBEL::857::eco::2010::0",
+      "target": "NOBEL::856::eco::2010::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2010",
+      "weight": 1.0
+    },
+    {
+      "id": "E::184",
+      "source": "NOBEL::873::eco::2011::0",
+      "target": "NOBEL::872::eco::2011::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2011",
+      "weight": 1.0
+    },
+    {
+      "id": "E::185",
+      "source": "NOBEL::153::phy::1997::0",
+      "target": "NOBEL::152::phy::1997::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1997",
+      "weight": 1.0
+    },
+    {
+      "id": "E::186",
+      "source": "NOBEL::153::phy::1997::0",
+      "target": "NOBEL::154::phy::1997::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1997",
+      "weight": 1.0
+    },
+    {
+      "id": "E::187",
+      "source": "NOBEL::152::phy::1997::0",
+      "target": "NOBEL::154::phy::1997::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1997",
+      "weight": 1.0
+    },
+    {
+      "id": "E::188",
+      "source": "NOBEL::44::phy::1937::0",
+      "target": "NOBEL::45::phy::1937::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1937",
+      "weight": 1.0
+    },
+    {
+      "id": "E::189",
+      "source": "NOBEL::772::eco::2003::0",
+      "target": "NOBEL::771::eco::2003::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2003",
+      "weight": 1.0
+    },
+    {
+      "id": "E::190",
+      "source": "NOBEL::157::phy::1998::0",
+      "target": "NOBEL::156::phy::1998::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1998",
+      "weight": 1.0
+    },
+    {
+      "id": "E::191",
+      "source": "NOBEL::157::phy::1998::0",
+      "target": "NOBEL::155::phy::1998::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1998",
+      "weight": 1.0
+    },
+    {
+      "id": "E::192",
+      "source": "NOBEL::156::phy::1998::0",
+      "target": "NOBEL::155::phy::1998::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1998",
+      "weight": 1.0
+    },
+    {
+      "id": "E::193",
+      "source": "NOBEL::759::eco::2002::0",
+      "target": "NOBEL::760::eco::2002::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2002",
+      "weight": 1.0
+    },
+    {
+      "id": "E::194",
+      "source": "NOBEL::733::eco::2000::0",
+      "target": "NOBEL::732::eco::2000::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2000",
+      "weight": 1.0
+    },
+    {
+      "id": "E::195",
+      "source": "NOBEL::415::med::1978::0",
+      "target": "NOBEL::416::med::1978::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1978",
+      "weight": 1.0
+    },
+    {
+      "id": "E::196",
+      "source": "NOBEL::415::med::1978::0",
+      "target": "NOBEL::414::med::1978::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1978",
+      "weight": 1.0
+    },
+    {
+      "id": "E::197",
+      "source": "NOBEL::416::med::1978::0",
+      "target": "NOBEL::414::med::1978::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1978",
+      "weight": 1.0
+    },
+    {
+      "id": "E::198",
+      "source": "NOBEL::1044::eco::2024::0",
+      "target": "NOBEL::1046::eco::2024::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2024",
+      "weight": 1.0
+    },
+    {
+      "id": "E::199",
+      "source": "NOBEL::1044::eco::2024::0",
+      "target": "NOBEL::1045::eco::2024::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2024",
+      "weight": 1.0
+    },
+    {
+      "id": "E::200",
+      "source": "NOBEL::1046::eco::2024::0",
+      "target": "NOBEL::1045::eco::2024::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2024",
+      "weight": 1.0
+    },
+    {
+      "id": "E::201",
+      "source": "NOBEL::1039::che::2024::0",
+      "target": "NOBEL::1040::che::2024::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2024",
+      "weight": 1.0
+    },
+    {
+      "id": "E::202",
+      "source": "NOBEL::1039::che::2024::0",
+      "target": "NOBEL::1041::che::2024::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2024",
+      "weight": 1.0
+    },
+    {
+      "id": "E::203",
+      "source": "NOBEL::1040::che::2024::0",
+      "target": "NOBEL::1041::che::2024::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2024",
+      "weight": 1.0
+    },
+    {
+      "id": "E::204",
+      "source": "NOBEL::406::med::1975::0",
+      "target": "NOBEL::408::med::1975::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1975",
+      "weight": 1.0
+    },
+    {
+      "id": "E::205",
+      "source": "NOBEL::406::med::1975::0",
+      "target": "NOBEL::407::med::1975::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1975",
+      "weight": 1.0
+    },
+    {
+      "id": "E::206",
+      "source": "NOBEL::408::med::1975::0",
+      "target": "NOBEL::407::med::1975::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1975",
+      "weight": 1.0
+    },
+    {
+      "id": "E::207",
+      "source": "NOBEL::1007::eco::2021::0",
+      "target": "NOBEL::1009::eco::2021::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2021",
+      "weight": 1.0
+    },
+    {
+      "id": "E::208",
+      "source": "NOBEL::1007::eco::2021::0",
+      "target": "NOBEL::1008::eco::2021::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2021",
+      "weight": 1.0
+    },
+    {
+      "id": "E::209",
+      "source": "NOBEL::1009::eco::2021::0",
+      "target": "NOBEL::1008::eco::2021::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2021",
+      "weight": 1.0
+    },
+    {
+      "id": "E::210",
+      "source": "NOBEL::423::med::1981::0",
+      "target": "NOBEL::422::med::1981::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1981",
+      "weight": 1.0
+    },
+    {
+      "id": "E::211",
+      "source": "NOBEL::423::med::1981::0",
+      "target": "NOBEL::424::med::1981::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1981",
+      "weight": 1.0
+    },
+    {
+      "id": "E::212",
+      "source": "NOBEL::422::med::1981::0",
+      "target": "NOBEL::424::med::1981::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1981",
+      "weight": 1.0
+    },
+    {
+      "id": "E::213",
+      "source": "NOBEL::776::phy::2004::0",
+      "target": "NOBEL::778::phy::2004::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2004",
+      "weight": 1.0
+    },
+    {
+      "id": "E::214",
+      "source": "NOBEL::776::phy::2004::0",
+      "target": "NOBEL::777::phy::2004::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2004",
+      "weight": 1.0
+    },
+    {
+      "id": "E::215",
+      "source": "NOBEL::778::phy::2004::0",
+      "target": "NOBEL::777::phy::2004::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2004",
+      "weight": 1.0
+    },
+    {
+      "id": "E::216",
+      "source": "NOBEL::928::phy::2016::0",
+      "target": "NOBEL::929::phy::2016::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2016",
+      "weight": 1.0
+    },
+    {
+      "id": "E::217",
+      "source": "NOBEL::928::phy::2016::0",
+      "target": "NOBEL::930::phy::2016::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2016",
+      "weight": 1.0
+    },
+    {
+      "id": "E::218",
+      "source": "NOBEL::929::phy::2016::0",
+      "target": "NOBEL::930::phy::2016::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2016",
+      "weight": 1.0
+    },
+    {
+      "id": "E::219",
+      "source": "NOBEL::877::phy::2012::0",
+      "target": "NOBEL::876::phy::2012::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2012",
+      "weight": 1.0
+    },
+    {
+      "id": "E::220",
+      "source": "NOBEL::149::phy::1996::0",
+      "target": "NOBEL::150::phy::1996::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1996",
+      "weight": 1.0
+    },
+    {
+      "id": "E::221",
+      "source": "NOBEL::149::phy::1996::0",
+      "target": "NOBEL::151::phy::1996::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1996",
+      "weight": 1.0
+    },
+    {
+      "id": "E::222",
+      "source": "NOBEL::150::phy::1996::0",
+      "target": "NOBEL::151::phy::1996::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1996",
+      "weight": 1.0
+    },
+    {
+      "id": "E::223",
+      "source": "NOBEL::567::pea::1998::0",
+      "target": "NOBEL::566::pea::1998::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1998",
+      "weight": 1.0
+    },
+    {
+      "id": "E::224",
+      "source": "NOBEL::966::pea::2018::0",
+      "target": "NOBEL::967::pea::2018::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2018",
+      "weight": 1.0
+    },
+    {
+      "id": "E::225",
+      "source": "NOBEL::237::che::1969::0",
+      "target": "NOBEL::238::che::1969::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1969",
+      "weight": 1.0
+    },
+    {
+      "id": "E::226",
+      "source": "NOBEL::975::phy::2019::0",
+      "target": "NOBEL::973::phy::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::227",
+      "source": "NOBEL::975::phy::2019::0",
+      "target": "NOBEL::974::phy::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::228",
+      "source": "NOBEL::973::phy::2019::0",
+      "target": "NOBEL::974::phy::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::229",
+      "source": "NOBEL::1006::pea::2021::0",
+      "target": "NOBEL::1005::pea::2021::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2021",
+      "weight": 1.0
+    },
+    {
+      "id": "E::230",
+      "source": "NOBEL::710::eco::1993::0",
+      "target": "NOBEL::709::eco::1993::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1993",
+      "weight": 1.0
+    },
+    {
+      "id": "E::231",
+      "source": "NOBEL::1025::med::2023::0",
+      "target": "NOBEL::1024::med::2023::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2023",
+      "weight": 1.0
+    },
+    {
+      "id": "E::232",
+      "source": "NOBEL::264::che::1986::0",
+      "target": "NOBEL::266::che::1986::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1986",
+      "weight": 1.0
+    },
+    {
+      "id": "E::233",
+      "source": "NOBEL::264::che::1986::0",
+      "target": "NOBEL::265::che::1986::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1986",
+      "weight": 1.0
+    },
+    {
+      "id": "E::234",
+      "source": "NOBEL::266::che::1986::0",
+      "target": "NOBEL::265::che::1986::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1986",
+      "weight": 1.0
+    },
+    {
+      "id": "E::235",
+      "source": "NOBEL::443::med::1990::0",
+      "target": "NOBEL::442::med::1990::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1990",
+      "weight": 1.0
+    },
+    {
+      "id": "E::236",
+      "source": "NOBEL::59::phy::1952::0",
+      "target": "NOBEL::58::phy::1952::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1952",
+      "weight": 1.0
+    },
+    {
+      "id": "E::237",
+      "source": "NOBEL::324::med::1932::0",
+      "target": "NOBEL::323::med::1932::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1932",
+      "weight": 1.0
+    },
+    {
+      "id": "E::238",
+      "source": "NOBEL::446::med::1992::0",
+      "target": "NOBEL::447::med::1992::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1992",
+      "weight": 1.0
+    },
+    {
+      "id": "E::239",
+      "source": "NOBEL::905::med::2014::0",
+      "target": "NOBEL::903::med::2014::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2014",
+      "weight": 1.0
+    },
+    {
+      "id": "E::240",
+      "source": "NOBEL::905::med::2014::0",
+      "target": "NOBEL::904::med::2014::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2014",
+      "weight": 1.0
+    },
+    {
+      "id": "E::241",
+      "source": "NOBEL::903::med::2014::0",
+      "target": "NOBEL::904::med::2014::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2014",
+      "weight": 1.0
+    },
+    {
+      "id": "E::242",
+      "source": "NOBEL::336::med::1943::0",
+      "target": "NOBEL::335::med::1943::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1943",
+      "weight": 1.0
+    },
+    {
+      "id": "E::243",
+      "source": "NOBEL::349::med::1950::0",
+      "target": "NOBEL::351::med::1950::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1950",
+      "weight": 1.0
+    },
+    {
+      "id": "E::244",
+      "source": "NOBEL::349::med::1950::0",
+      "target": "NOBEL::350::med::1950::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1950",
+      "weight": 1.0
+    },
+    {
+      "id": "E::245",
+      "source": "NOBEL::351::med::1950::0",
+      "target": "NOBEL::350::med::1950::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1950",
+      "weight": 1.0
+    },
+    {
+      "id": "E::246",
+      "source": "NOBEL::787::eco::2004::0",
+      "target": "NOBEL::786::eco::2004::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2004",
+      "weight": 1.0
+    },
+    {
+      "id": "E::247",
+      "source": "NOBEL::365::med::1958::0",
+      "target": "NOBEL::364::med::1958::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1958",
+      "weight": 1.0
+    },
+    {
+      "id": "E::248",
+      "source": "NOBEL::365::med::1958::0",
+      "target": "NOBEL::366::med::1958::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1958",
+      "weight": 1.0
+    },
+    {
+      "id": "E::249",
+      "source": "NOBEL::364::med::1958::0",
+      "target": "NOBEL::366::med::1958::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1958",
+      "weight": 1.0
+    },
+    {
+      "id": "E::250",
+      "source": "NOBEL::212::che::1951::0",
+      "target": "NOBEL::213::che::1951::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1951",
+      "weight": 1.0
+    },
+    {
+      "id": "E::251",
+      "source": "NOBEL::348::med::1949::0",
+      "target": "NOBEL::347::med::1949::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1949",
+      "weight": 1.0
+    },
+    {
+      "id": "E::252",
+      "source": "NOBEL::533::pea::1974::0",
+      "target": "NOBEL::532::pea::1974::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1974",
+      "weight": 1.0
+    },
+    {
+      "id": "E::253",
+      "source": "NOBEL::846::eco::2009::0",
+      "target": "NOBEL::847::eco::2009::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2009",
+      "weight": 1.0
+    },
+    {
+      "id": "E::254",
+      "source": "NOBEL::869::pea::2011::0",
+      "target": "NOBEL::870::pea::2011::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2011",
+      "weight": 1.0
+    },
+    {
+      "id": "E::255",
+      "source": "NOBEL::869::pea::2011::0",
+      "target": "NOBEL::871::pea::2011::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2011",
+      "weight": 1.0
+    },
+    {
+      "id": "E::256",
+      "source": "NOBEL::870::pea::2011::0",
+      "target": "NOBEL::871::pea::2011::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2011",
+      "weight": 1.0
+    },
+    {
+      "id": "E::257",
+      "source": "NOBEL::72::phy::1959::0",
+      "target": "NOBEL::73::phy::1959::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1959",
+      "weight": 1.0
+    },
+    {
+      "id": "E::258",
+      "source": "NOBEL::506::pea::1946::0",
+      "target": "NOBEL::507::pea::1946::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1946",
+      "weight": 1.0
+    },
+    {
+      "id": "E::259",
+      "source": "NOBEL::991::che::2020::0",
+      "target": "NOBEL::992::che::2020::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2020",
+      "weight": 1.0
+    },
+    {
+      "id": "E::260",
+      "source": "NOBEL::909::che::2014::0",
+      "target": "NOBEL::910::che::2014::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2014",
+      "weight": 1.0
+    },
+    {
+      "id": "E::261",
+      "source": "NOBEL::909::che::2014::0",
+      "target": "NOBEL::911::che::2014::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2014",
+      "weight": 1.0
+    },
+    {
+      "id": "E::262",
+      "source": "NOBEL::910::che::2014::0",
+      "target": "NOBEL::911::che::2014::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2014",
+      "weight": 1.0
+    },
+    {
+      "id": "E::263",
+      "source": "NOBEL::821::eco::2007::0",
+      "target": "NOBEL::820::eco::2007::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2007",
+      "weight": 1.0
+    },
+    {
+      "id": "E::264",
+      "source": "NOBEL::821::eco::2007::0",
+      "target": "NOBEL::822::eco::2007::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2007",
+      "weight": 1.0
+    },
+    {
+      "id": "E::265",
+      "source": "NOBEL::820::eco::2007::0",
+      "target": "NOBEL::822::eco::2007::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2007",
+      "weight": 1.0
+    },
+    {
+      "id": "E::266",
+      "source": "NOBEL::57::phy::1951::0",
+      "target": "NOBEL::56::phy::1951::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1951",
+      "weight": 1.0
+    },
+    {
+      "id": "E::267",
+      "source": "NOBEL::471::pea::1907::0",
+      "target": "NOBEL::472::pea::1907::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1907",
+      "weight": 1.0
+    },
+    {
+      "id": "E::268",
+      "source": "NOBEL::340::med::1945::0",
+      "target": "NOBEL::339::med::1945::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1945",
+      "weight": 1.0
+    },
+    {
+      "id": "E::269",
+      "source": "NOBEL::340::med::1945::0",
+      "target": "NOBEL::341::med::1945::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1945",
+      "weight": 1.0
+    },
+    {
+      "id": "E::270",
+      "source": "NOBEL::339::med::1945::0",
+      "target": "NOBEL::341::med::1945::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1945",
+      "weight": 1.0
+    },
+    {
+      "id": "E::271",
+      "source": "NOBEL::244::che::1973::0",
+      "target": "NOBEL::245::che::1973::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1973",
+      "weight": 1.0
+    },
+    {
+      "id": "E::272",
+      "source": "NOBEL::127::phy::1986::0",
+      "target": "NOBEL::128::phy::1986::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1986",
+      "weight": 1.0
+    },
+    {
+      "id": "E::273",
+      "source": "NOBEL::127::phy::1986::0",
+      "target": "NOBEL::129::phy::1986::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1986",
+      "weight": 1.0
+    },
+    {
+      "id": "E::274",
+      "source": "NOBEL::128::phy::1986::0",
+      "target": "NOBEL::129::phy::1986::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1986",
+      "weight": 1.0
+    },
+    {
+      "id": "E::275",
+      "source": "NOBEL::39::phy::1933::0",
+      "target": "NOBEL::40::phy::1933::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1933",
+      "weight": 1.0
+    },
+    {
+      "id": "E::276",
+      "source": "NOBEL::894::eco::2013::0",
+      "target": "NOBEL::895::eco::2013::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2013",
+      "weight": 1.0
+    },
+    {
+      "id": "E::277",
+      "source": "NOBEL::894::eco::2013::0",
+      "target": "NOBEL::896::eco::2013::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2013",
+      "weight": 1.0
+    },
+    {
+      "id": "E::278",
+      "source": "NOBEL::895::eco::2013::0",
+      "target": "NOBEL::896::eco::2013::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2013",
+      "weight": 1.0
+    },
+    {
+      "id": "E::279",
+      "source": "NOBEL::78::phy::1963::0",
+      "target": "NOBEL::80::phy::1963::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1963",
+      "weight": 1.0
+    },
+    {
+      "id": "E::280",
+      "source": "NOBEL::78::phy::1963::0",
+      "target": "NOBEL::79::phy::1963::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1963",
+      "weight": 1.0
+    },
+    {
+      "id": "E::281",
+      "source": "NOBEL::80::phy::1963::0",
+      "target": "NOBEL::79::phy::1963::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1963",
+      "weight": 1.0
+    },
+    {
+      "id": "E::282",
+      "source": "NOBEL::649::lit::1974::0",
+      "target": "NOBEL::650::lit::1974::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::lit::1974",
+      "weight": 1.0
+    },
+    {
+      "id": "E::283",
+      "source": "NOBEL::283::che::1995::0",
+      "target": "NOBEL::282::che::1995::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1995",
+      "weight": 1.0
+    },
+    {
+      "id": "E::284",
+      "source": "NOBEL::283::che::1995::0",
+      "target": "NOBEL::281::che::1995::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1995",
+      "weight": 1.0
+    },
+    {
+      "id": "E::285",
+      "source": "NOBEL::282::che::1995::0",
+      "target": "NOBEL::281::che::1995::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1995",
+      "weight": 1.0
+    },
+    {
+      "id": "E::286",
+      "source": "NOBEL::556::pea::1993::0",
+      "target": "NOBEL::555::pea::1993::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1993",
+      "weight": 1.0
+    },
+    {
+      "id": "E::287",
+      "source": "NOBEL::379::med::1964::0",
+      "target": "NOBEL::378::med::1964::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1964",
+      "weight": 1.0
+    },
+    {
+      "id": "E::288",
+      "source": "NOBEL::14::phy::1909::0",
+      "target": "NOBEL::13::phy::1909::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1909",
+      "weight": 1.0
+    },
+    {
+      "id": "E::289",
+      "source": "NOBEL::492::pea::1927::0",
+      "target": "NOBEL::493::pea::1927::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1927",
+      "weight": 1.0
+    },
+    {
+      "id": "E::290",
+      "source": "NOBEL::460::med::1998::0",
+      "target": "NOBEL::459::med::1998::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1998",
+      "weight": 1.0
+    },
+    {
+      "id": "E::291",
+      "source": "NOBEL::460::med::1998::0",
+      "target": "NOBEL::458::med::1998::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1998",
+      "weight": 1.0
+    },
+    {
+      "id": "E::292",
+      "source": "NOBEL::459::med::1998::0",
+      "target": "NOBEL::458::med::1998::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1998",
+      "weight": 1.0
+    },
+    {
+      "id": "E::293",
+      "source": "NOBEL::963::che::2018::0",
+      "target": "NOBEL::964::che::2018::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2018",
+      "weight": 1.0
+    },
+    {
+      "id": "E::294",
+      "source": "NOBEL::963::che::2018::0",
+      "target": "NOBEL::965::che::2018::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2018",
+      "weight": 1.0
+    },
+    {
+      "id": "E::295",
+      "source": "NOBEL::964::che::2018::0",
+      "target": "NOBEL::965::che::2018::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2018",
+      "weight": 1.0
+    },
+    {
+      "id": "E::296",
+      "source": "NOBEL::372::med::1962::0",
+      "target": "NOBEL::373::med::1962::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1962",
+      "weight": 1.0
+    },
+    {
+      "id": "E::297",
+      "source": "NOBEL::372::med::1962::0",
+      "target": "NOBEL::374::med::1962::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1962",
+      "weight": 1.0
+    },
+    {
+      "id": "E::298",
+      "source": "NOBEL::373::med::1962::0",
+      "target": "NOBEL::374::med::1962::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1962",
+      "weight": 1.0
+    },
+    {
+      "id": "E::299",
+      "source": "NOBEL::887::phy::2013::0",
+      "target": "NOBEL::888::phy::2013::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2013",
+      "weight": 1.0
+    },
+    {
+      "id": "E::300",
+      "source": "NOBEL::824::med::2008::0",
+      "target": "NOBEL::823::med::2008::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2008",
+      "weight": 1.0
+    },
+    {
+      "id": "E::301",
+      "source": "NOBEL::824::med::2008::0",
+      "target": "NOBEL::825::med::2008::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2008",
+      "weight": 1.0
+    },
+    {
+      "id": "E::302",
+      "source": "NOBEL::823::med::2008::0",
+      "target": "NOBEL::825::med::2008::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2008",
+      "weight": 1.0
+    },
+    {
+      "id": "E::303",
+      "source": "NOBEL::1048::med::2025::0",
+      "target": "NOBEL::1047::med::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::304",
+      "source": "NOBEL::1048::med::2025::0",
+      "target": "NOBEL::1049::med::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::305",
+      "source": "NOBEL::1047::med::2025::0",
+      "target": "NOBEL::1049::med::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::306",
+      "source": "NOBEL::193::che::1935::0",
+      "target": "NOBEL::194::che::1935::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1935",
+      "weight": 1.0
+    },
+    {
+      "id": "E::307",
+      "source": "NOBEL::573::lit::1904::0",
+      "target": "NOBEL::574::lit::1904::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::lit::1904",
+      "weight": 1.0
+    },
+    {
+      "id": "E::308",
+      "source": "NOBEL::463::pea::1901::0",
+      "target": "NOBEL::462::pea::1901::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1901",
+      "weight": 1.0
+    },
+    {
+      "id": "E::309",
+      "source": "NOBEL::358::med::1954::0",
+      "target": "NOBEL::356::med::1954::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1954",
+      "weight": 1.0
+    },
+    {
+      "id": "E::310",
+      "source": "NOBEL::358::med::1954::0",
+      "target": "NOBEL::357::med::1954::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1954",
+      "weight": 1.0
+    },
+    {
+      "id": "E::311",
+      "source": "NOBEL::356::med::1954::0",
+      "target": "NOBEL::357::med::1954::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1954",
+      "weight": 1.0
+    },
+    {
+      "id": "E::312",
+      "source": "NOBEL::313::med::1923::0",
+      "target": "NOBEL::314::med::1923::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1923",
+      "weight": 1.0
+    },
+    {
+      "id": "E::313",
+      "source": "NOBEL::148::phy::1995::0",
+      "target": "NOBEL::147::phy::1995::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1995",
+      "weight": 1.0
+    },
+    {
+      "id": "E::314",
+      "source": "NOBEL::222::che::1980::1",
+      "target": "NOBEL::254::che::1980::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1980",
+      "weight": 1.0
+    },
+    {
+      "id": "E::315",
+      "source": "NOBEL::222::che::1980::1",
+      "target": "NOBEL::255::che::1980::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1980",
+      "weight": 1.0
+    },
+    {
+      "id": "E::316",
+      "source": "NOBEL::254::che::1980::0",
+      "target": "NOBEL::255::che::1980::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1980",
+      "weight": 1.0
+    },
+    {
+      "id": "E::317",
+      "source": "NOBEL::474::pea::1908::0",
+      "target": "NOBEL::473::pea::1908::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1908",
+      "weight": 1.0
+    },
+    {
+      "id": "E::318",
+      "source": "NOBEL::685::eco::1974::0",
+      "target": "NOBEL::684::eco::1974::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1974",
+      "weight": 1.0
+    },
+    {
+      "id": "E::319",
+      "source": "NOBEL::355::med::1953::0",
+      "target": "NOBEL::354::med::1953::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1953",
+      "weight": 1.0
+    },
+    {
+      "id": "E::320",
+      "source": "NOBEL::1036::med::2024::0",
+      "target": "NOBEL::1035::med::2024::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2024",
+      "weight": 1.0
+    },
+    {
+      "id": "E::321",
+      "source": "NOBEL::1038::phy::2024::0",
+      "target": "NOBEL::1037::phy::2024::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2024",
+      "weight": 1.0
+    },
+    {
+      "id": "E::322",
+      "source": "NOBEL::253::che::1979::0",
+      "target": "NOBEL::252::che::1979::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1979",
+      "weight": 1.0
+    },
+    {
+      "id": "E::323",
+      "source": "NOBEL::805::phy::2006::0",
+      "target": "NOBEL::804::phy::2006::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2006",
+      "weight": 1.0
+    },
+    {
+      "id": "E::324",
+      "source": "NOBEL::439::med::1988::0",
+      "target": "NOBEL::438::med::1988::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1988",
+      "weight": 1.0
+    },
+    {
+      "id": "E::325",
+      "source": "NOBEL::439::med::1988::0",
+      "target": "NOBEL::437::med::1988::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1988",
+      "weight": 1.0
+    },
+    {
+      "id": "E::326",
+      "source": "NOBEL::438::med::1988::0",
+      "target": "NOBEL::437::med::1988::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1988",
+      "weight": 1.0
+    },
+    {
+      "id": "E::327",
+      "source": "NOBEL::326::med::1934::0",
+      "target": "NOBEL::327::med::1934::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1934",
+      "weight": 1.0
+    },
+    {
+      "id": "E::328",
+      "source": "NOBEL::326::med::1934::0",
+      "target": "NOBEL::328::med::1934::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1934",
+      "weight": 1.0
+    },
+    {
+      "id": "E::329",
+      "source": "NOBEL::327::med::1934::0",
+      "target": "NOBEL::328::med::1934::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1934",
+      "weight": 1.0
+    },
+    {
+      "id": "E::330",
+      "source": "NOBEL::235::che::1967::0",
+      "target": "NOBEL::233::che::1967::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1967",
+      "weight": 1.0
+    },
+    {
+      "id": "E::331",
+      "source": "NOBEL::235::che::1967::0",
+      "target": "NOBEL::234::che::1967::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1967",
+      "weight": 1.0
+    },
+    {
+      "id": "E::332",
+      "source": "NOBEL::233::che::1967::0",
+      "target": "NOBEL::234::che::1967::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1967",
+      "weight": 1.0
+    },
+    {
+      "id": "E::333",
+      "source": "NOBEL::387::med::1967::0",
+      "target": "NOBEL::386::med::1967::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1967",
+      "weight": 1.0
+    },
+    {
+      "id": "E::334",
+      "source": "NOBEL::387::med::1967::0",
+      "target": "NOBEL::385::med::1967::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1967",
+      "weight": 1.0
+    },
+    {
+      "id": "E::335",
+      "source": "NOBEL::386::med::1967::0",
+      "target": "NOBEL::385::med::1967::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1967",
+      "weight": 1.0
+    },
+    {
+      "id": "E::336",
+      "source": "NOBEL::398::med::1972::0",
+      "target": "NOBEL::399::med::1972::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1972",
+      "weight": 1.0
+    },
+    {
+      "id": "E::337",
+      "source": "NOBEL::158::phy::1999::0",
+      "target": "NOBEL::159::phy::1999::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1999",
+      "weight": 1.0
+    },
+    {
+      "id": "E::338",
+      "source": "NOBEL::1001::phy::2021::0",
+      "target": "NOBEL::1000::phy::2021::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2021",
+      "weight": 1.0
+    },
+    {
+      "id": "E::339",
+      "source": "NOBEL::1001::phy::2021::0",
+      "target": "NOBEL::999::phy::2021::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2021",
+      "weight": 1.0
+    },
+    {
+      "id": "E::340",
+      "source": "NOBEL::1000::phy::2021::0",
+      "target": "NOBEL::999::phy::2021::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2021",
+      "weight": 1.0
+    },
+    {
+      "id": "E::341",
+      "source": "NOBEL::229::che::1963::0",
+      "target": "NOBEL::228::che::1963::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1963",
+      "weight": 1.0
+    },
+    {
+      "id": "E::342",
+      "source": "NOBEL::810::pea::2006::0",
+      "target": "NOBEL::809::pea::2006::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2006",
+      "weight": 1.0
+    },
+    {
+      "id": "E::343",
+      "source": "NOBEL::972::med::2019::0",
+      "target": "NOBEL::971::med::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::344",
+      "source": "NOBEL::972::med::2019::0",
+      "target": "NOBEL::970::med::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::345",
+      "source": "NOBEL::971::med::2019::0",
+      "target": "NOBEL::970::med::2019::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2019",
+      "weight": 1.0
+    },
+    {
+      "id": "E::346",
+      "source": "NOBEL::31::phy::1925::0",
+      "target": "NOBEL::30::phy::1925::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1925",
+      "weight": 1.0
+    },
+    {
+      "id": "E::347",
+      "source": "NOBEL::389::med::1968::0",
+      "target": "NOBEL::390::med::1968::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1968",
+      "weight": 1.0
+    },
+    {
+      "id": "E::348",
+      "source": "NOBEL::389::med::1968::0",
+      "target": "NOBEL::388::med::1968::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1968",
+      "weight": 1.0
+    },
+    {
+      "id": "E::349",
+      "source": "NOBEL::390::med::1968::0",
+      "target": "NOBEL::388::med::1968::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1968",
+      "weight": 1.0
+    },
+    {
+      "id": "E::350",
+      "source": "NOBEL::751::med::2002::0",
+      "target": "NOBEL::752::med::2002::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2002",
+      "weight": 1.0
+    },
+    {
+      "id": "E::351",
+      "source": "NOBEL::751::med::2002::0",
+      "target": "NOBEL::750::med::2002::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2002",
+      "weight": 1.0
+    },
+    {
+      "id": "E::352",
+      "source": "NOBEL::752::med::2002::0",
+      "target": "NOBEL::750::med::2002::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2002",
+      "weight": 1.0
+    },
+    {
+      "id": "E::353",
+      "source": "NOBEL::91::phy::1970::0",
+      "target": "NOBEL::92::phy::1970::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1970",
+      "weight": 1.0
+    },
+    {
+      "id": "E::354",
+      "source": "NOBEL::136::phy::1989::0",
+      "target": "NOBEL::135::phy::1989::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1989",
+      "weight": 1.0
+    },
+    {
+      "id": "E::355",
+      "source": "NOBEL::136::phy::1989::0",
+      "target": "NOBEL::137::phy::1989::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1989",
+      "weight": 1.0
+    },
+    {
+      "id": "E::356",
+      "source": "NOBEL::135::phy::1989::0",
+      "target": "NOBEL::137::phy::1989::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1989",
+      "weight": 1.0
+    },
+    {
+      "id": "E::357",
+      "source": "NOBEL::441::med::1989::0",
+      "target": "NOBEL::440::med::1989::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1989",
+      "weight": 1.0
+    },
+    {
+      "id": "E::358",
+      "source": "NOBEL::704::eco::1990::0",
+      "target": "NOBEL::705::eco::1990::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1990",
+      "weight": 1.0
+    },
+    {
+      "id": "E::359",
+      "source": "NOBEL::704::eco::1990::0",
+      "target": "NOBEL::706::eco::1990::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1990",
+      "weight": 1.0
+    },
+    {
+      "id": "E::360",
+      "source": "NOBEL::705::eco::1990::0",
+      "target": "NOBEL::706::eco::1990::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1990",
+      "weight": 1.0
+    },
+    {
+      "id": "E::361",
+      "source": "NOBEL::272::che::1988::0",
+      "target": "NOBEL::270::che::1988::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1988",
+      "weight": 1.0
+    },
+    {
+      "id": "E::362",
+      "source": "NOBEL::272::che::1988::0",
+      "target": "NOBEL::271::che::1988::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1988",
+      "weight": 1.0
+    },
+    {
+      "id": "E::363",
+      "source": "NOBEL::270::che::1988::0",
+      "target": "NOBEL::271::che::1988::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1988",
+      "weight": 1.0
+    },
+    {
+      "id": "E::364",
+      "source": "NOBEL::2::phy::1902::0",
+      "target": "NOBEL::3::phy::1902::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1902",
+      "weight": 1.0
+    },
+    {
+      "id": "E::365",
+      "source": "NOBEL::4::phy::1903::0",
+      "target": "NOBEL::6::phy::1903::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1903",
+      "weight": 1.0
+    },
+    {
+      "id": "E::366",
+      "source": "NOBEL::4::phy::1903::0",
+      "target": "NOBEL::5::phy::1903::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1903",
+      "weight": 1.0
+    },
+    {
+      "id": "E::367",
+      "source": "NOBEL::6::phy::1903::0",
+      "target": "NOBEL::5::phy::1903::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1903",
+      "weight": 1.0
+    },
+    {
+      "id": "E::368",
+      "source": "NOBEL::587::lit::1917::0",
+      "target": "NOBEL::586::lit::1917::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::lit::1917",
+      "weight": 1.0
+    },
+    {
+      "id": "E::369",
+      "source": "NOBEL::530::pea::1973::0",
+      "target": "NOBEL::531::pea::1973::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1973",
+      "weight": 1.0
+    },
+    {
+      "id": "E::370",
+      "source": "NOBEL::139::phy::1990::0",
+      "target": "NOBEL::138::phy::1990::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1990",
+      "weight": 1.0
+    },
+    {
+      "id": "E::371",
+      "source": "NOBEL::139::phy::1990::0",
+      "target": "NOBEL::140::phy::1990::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1990",
+      "weight": 1.0
+    },
+    {
+      "id": "E::372",
+      "source": "NOBEL::138::phy::1990::0",
+      "target": "NOBEL::140::phy::1990::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1990",
+      "weight": 1.0
+    },
+    {
+      "id": "E::373",
+      "source": "NOBEL::262::che::1985::0",
+      "target": "NOBEL::263::che::1985::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1985",
+      "weight": 1.0
+    },
+    {
+      "id": "E::374",
+      "source": "NOBEL::727::phy::2000::0",
+      "target": "NOBEL::728::phy::2000::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2000",
+      "weight": 1.0
+    },
+    {
+      "id": "E::375",
+      "source": "NOBEL::727::phy::2000::0",
+      "target": "NOBEL::726::phy::2000::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2000",
+      "weight": 1.0
+    },
+    {
+      "id": "E::376",
+      "source": "NOBEL::728::phy::2000::0",
+      "target": "NOBEL::726::phy::2000::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2000",
+      "weight": 1.0
+    },
+    {
+      "id": "E::377",
+      "source": "NOBEL::338::med::1944::0",
+      "target": "NOBEL::337::med::1944::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1944",
+      "weight": 1.0
+    },
+    {
+      "id": "E::378",
+      "source": "NOBEL::907::phy::2014::0",
+      "target": "NOBEL::906::phy::2014::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2014",
+      "weight": 1.0
+    },
+    {
+      "id": "E::379",
+      "source": "NOBEL::907::phy::2014::0",
+      "target": "NOBEL::908::phy::2014::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2014",
+      "weight": 1.0
+    },
+    {
+      "id": "E::380",
+      "source": "NOBEL::906::phy::2014::0",
+      "target": "NOBEL::908::phy::2014::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2014",
+      "weight": 1.0
+    },
+    {
+      "id": "E::381",
+      "source": "NOBEL::71::phy::1958::0",
+      "target": "NOBEL::721::phy::1958::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1958",
+      "weight": 1.0
+    },
+    {
+      "id": "E::382",
+      "source": "NOBEL::71::phy::1958::0",
+      "target": "NOBEL::70::phy::1958::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1958",
+      "weight": 1.0
+    },
+    {
+      "id": "E::383",
+      "source": "NOBEL::721::phy::1958::0",
+      "target": "NOBEL::70::phy::1958::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1958",
+      "weight": 1.0
+    },
+    {
+      "id": "E::384",
+      "source": "NOBEL::301::med::1908::0",
+      "target": "NOBEL::302::med::1908::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1908",
+      "weight": 1.0
+    },
+    {
+      "id": "E::385",
+      "source": "NOBEL::797::pea::2005::0",
+      "target": "NOBEL::798::pea::2005::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2005",
+      "weight": 1.0
+    },
+    {
+      "id": "E::386",
+      "source": "NOBEL::564::pea::1997::0",
+      "target": "NOBEL::565::pea::1997::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1997",
+      "weight": 1.0
+    },
+    {
+      "id": "E::387",
+      "source": "NOBEL::482::pea::1963::2",
+      "target": "NOBEL::523::pea::1963::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1963",
+      "weight": 1.0
+    },
+    {
+      "id": "E::388",
+      "source": "NOBEL::130::phy::1987::0",
+      "target": "NOBEL::131::phy::1987::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1987",
+      "weight": 1.0
+    },
+    {
+      "id": "E::389",
+      "source": "NOBEL::134::phy::1988::0",
+      "target": "NOBEL::132::phy::1988::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1988",
+      "weight": 1.0
+    },
+    {
+      "id": "E::390",
+      "source": "NOBEL::134::phy::1988::0",
+      "target": "NOBEL::133::phy::1988::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1988",
+      "weight": 1.0
+    },
+    {
+      "id": "E::391",
+      "source": "NOBEL::132::phy::1988::0",
+      "target": "NOBEL::133::phy::1988::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1988",
+      "weight": 1.0
+    },
+    {
+      "id": "E::392",
+      "source": "NOBEL::944::che::2017::0",
+      "target": "NOBEL::945::che::2017::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2017",
+      "weight": 1.0
+    },
+    {
+      "id": "E::393",
+      "source": "NOBEL::944::che::2017::0",
+      "target": "NOBEL::946::che::2017::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2017",
+      "weight": 1.0
+    },
+    {
+      "id": "E::394",
+      "source": "NOBEL::945::che::2017::0",
+      "target": "NOBEL::946::che::2017::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2017",
+      "weight": 1.0
+    },
+    {
+      "id": "E::395",
+      "source": "NOBEL::715::eco::1996::0",
+      "target": "NOBEL::716::eco::1996::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1996",
+      "weight": 1.0
+    },
+    {
+      "id": "E::396",
+      "source": "NOBEL::204::che::1946::0",
+      "target": "NOBEL::205::che::1946::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1946",
+      "weight": 1.0
+    },
+    {
+      "id": "E::397",
+      "source": "NOBEL::204::che::1946::0",
+      "target": "NOBEL::206::che::1946::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1946",
+      "weight": 1.0
+    },
+    {
+      "id": "E::398",
+      "source": "NOBEL::205::che::1946::0",
+      "target": "NOBEL::206::che::1946::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1946",
+      "weight": 1.0
+    },
+    {
+      "id": "E::399",
+      "source": "NOBEL::116::phy::1980::0",
+      "target": "NOBEL::117::phy::1980::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1980",
+      "weight": 1.0
+    },
+    {
+      "id": "E::400",
+      "source": "NOBEL::884::med::2013::0",
+      "target": "NOBEL::885::med::2013::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2013",
+      "weight": 1.0
+    },
+    {
+      "id": "E::401",
+      "source": "NOBEL::884::med::2013::0",
+      "target": "NOBEL::886::med::2013::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2013",
+      "weight": 1.0
+    },
+    {
+      "id": "E::402",
+      "source": "NOBEL::885::med::2013::0",
+      "target": "NOBEL::886::med::2013::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2013",
+      "weight": 1.0
+    },
+    {
+      "id": "E::403",
+      "source": "NOBEL::958::med::2018::0",
+      "target": "NOBEL::959::med::2018::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2018",
+      "weight": 1.0
+    },
+    {
+      "id": "E::404",
+      "source": "NOBEL::678::eco::1969::0",
+      "target": "NOBEL::677::eco::1969::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1969",
+      "weight": 1.0
+    },
+    {
+      "id": "E::405",
+      "source": "NOBEL::496::pea::1931::0",
+      "target": "NOBEL::497::pea::1931::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1931",
+      "weight": 1.0
+    },
+    {
+      "id": "E::406",
+      "source": "NOBEL::938::med::2017::0",
+      "target": "NOBEL::939::med::2017::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2017",
+      "weight": 1.0
+    },
+    {
+      "id": "E::407",
+      "source": "NOBEL::938::med::2017::0",
+      "target": "NOBEL::940::med::2017::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2017",
+      "weight": 1.0
+    },
+    {
+      "id": "E::408",
+      "source": "NOBEL::939::med::2017::0",
+      "target": "NOBEL::940::med::2017::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2017",
+      "weight": 1.0
+    },
+    {
+      "id": "E::409",
+      "source": "NOBEL::289::che::1997::0",
+      "target": "NOBEL::288::che::1997::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1997",
+      "weight": 1.0
+    },
+    {
+      "id": "E::410",
+      "source": "NOBEL::289::che::1997::0",
+      "target": "NOBEL::287::che::1997::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1997",
+      "weight": 1.0
+    },
+    {
+      "id": "E::411",
+      "source": "NOBEL::288::che::1997::0",
+      "target": "NOBEL::287::che::1997::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1997",
+      "weight": 1.0
+    },
+    {
+      "id": "E::412",
+      "source": "NOBEL::1058::eco::2025::0",
+      "target": "NOBEL::1060::eco::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::413",
+      "source": "NOBEL::1058::eco::2025::0",
+      "target": "NOBEL::1059::eco::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::414",
+      "source": "NOBEL::1060::eco::2025::0",
+      "target": "NOBEL::1059::eco::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::415",
+      "source": "NOBEL::756::che::2002::0",
+      "target": "NOBEL::757::che::2002::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2002",
+      "weight": 1.0
+    },
+    {
+      "id": "E::416",
+      "source": "NOBEL::756::che::2002::0",
+      "target": "NOBEL::758::che::2002::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2002",
+      "weight": 1.0
+    },
+    {
+      "id": "E::417",
+      "source": "NOBEL::757::che::2002::0",
+      "target": "NOBEL::758::che::2002::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2002",
+      "weight": 1.0
+    },
+    {
+      "id": "E::418",
+      "source": "NOBEL::66::phy::1956::0",
+      "target": "NOBEL::67::phy::1956::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1956",
+      "weight": 1.0
+    },
+    {
+      "id": "E::419",
+      "source": "NOBEL::66::phy::1956::0",
+      "target": "NOBEL::65::phy::1956::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1956",
+      "weight": 1.0
+    },
+    {
+      "id": "E::420",
+      "source": "NOBEL::67::phy::1956::0",
+      "target": "NOBEL::65::phy::1956::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1956",
+      "weight": 1.0
+    },
+    {
+      "id": "E::421",
+      "source": "NOBEL::66::phy::1972::1",
+      "target": "NOBEL::95::phy::1972::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1972",
+      "weight": 1.0
+    },
+    {
+      "id": "E::422",
+      "source": "NOBEL::66::phy::1972::1",
+      "target": "NOBEL::96::phy::1972::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1972",
+      "weight": 1.0
+    },
+    {
+      "id": "E::423",
+      "source": "NOBEL::95::phy::1972::0",
+      "target": "NOBEL::96::phy::1972::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1972",
+      "weight": 1.0
+    },
+    {
+      "id": "E::424",
+      "source": "NOBEL::711::eco::1994::0",
+      "target": "NOBEL::712::eco::1994::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1994",
+      "weight": 1.0
+    },
+    {
+      "id": "E::425",
+      "source": "NOBEL::711::eco::1994::0",
+      "target": "NOBEL::713::eco::1994::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1994",
+      "weight": 1.0
+    },
+    {
+      "id": "E::426",
+      "source": "NOBEL::712::eco::1994::0",
+      "target": "NOBEL::713::eco::1994::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1994",
+      "weight": 1.0
+    },
+    {
+      "id": "E::427",
+      "source": "NOBEL::227::che::1962::0",
+      "target": "NOBEL::226::che::1962::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1962",
+      "weight": 1.0
+    },
+    {
+      "id": "E::428",
+      "source": "NOBEL::1050::phy::2025::0",
+      "target": "NOBEL::1052::phy::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::429",
+      "source": "NOBEL::1050::phy::2025::0",
+      "target": "NOBEL::1051::phy::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::430",
+      "source": "NOBEL::1052::phy::2025::0",
+      "target": "NOBEL::1051::phy::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::431",
+      "source": "NOBEL::247::che::1975::0",
+      "target": "NOBEL::248::che::1975::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1975",
+      "weight": 1.0
+    },
+    {
+      "id": "E::432",
+      "source": "NOBEL::109::phy::1977::0",
+      "target": "NOBEL::107::phy::1977::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1977",
+      "weight": 1.0
+    },
+    {
+      "id": "E::433",
+      "source": "NOBEL::109::phy::1977::0",
+      "target": "NOBEL::108::phy::1977::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1977",
+      "weight": 1.0
+    },
+    {
+      "id": "E::434",
+      "source": "NOBEL::107::phy::1977::0",
+      "target": "NOBEL::108::phy::1977::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1977",
+      "weight": 1.0
+    },
+    {
+      "id": "E::435",
+      "source": "NOBEL::792::phy::2005::0",
+      "target": "NOBEL::791::phy::2005::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2005",
+      "weight": 1.0
+    },
+    {
+      "id": "E::436",
+      "source": "NOBEL::792::phy::2005::0",
+      "target": "NOBEL::793::phy::2005::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2005",
+      "weight": 1.0
+    },
+    {
+      "id": "E::437",
+      "source": "NOBEL::791::phy::2005::0",
+      "target": "NOBEL::793::phy::2005::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2005",
+      "weight": 1.0
+    },
+    {
+      "id": "E::438",
+      "source": "NOBEL::291::che::1998::0",
+      "target": "NOBEL::290::che::1998::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1998",
+      "weight": 1.0
+    },
+    {
+      "id": "E::439",
+      "source": "NOBEL::681::eco::1972::0",
+      "target": "NOBEL::682::eco::1972::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1972",
+      "weight": 1.0
+    },
+    {
+      "id": "E::440",
+      "source": "NOBEL::144::phy::1993::0",
+      "target": "NOBEL::143::phy::1993::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1993",
+      "weight": 1.0
+    },
+    {
+      "id": "E::441",
+      "source": "NOBEL::433::med::1985::0",
+      "target": "NOBEL::432::med::1985::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1985",
+      "weight": 1.0
+    },
+    {
+      "id": "E::442",
+      "source": "NOBEL::560::pea::1995::0",
+      "target": "NOBEL::561::pea::1995::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1995",
+      "weight": 1.0
+    },
+    {
+      "id": "E::443",
+      "source": "NOBEL::85::phy::1965::0",
+      "target": "NOBEL::86::phy::1965::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1965",
+      "weight": 1.0
+    },
+    {
+      "id": "E::444",
+      "source": "NOBEL::85::phy::1965::0",
+      "target": "NOBEL::84::phy::1965::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1965",
+      "weight": 1.0
+    },
+    {
+      "id": "E::445",
+      "source": "NOBEL::86::phy::1965::0",
+      "target": "NOBEL::84::phy::1965::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1965",
+      "weight": 1.0
+    },
+    {
+      "id": "E::446",
+      "source": "NOBEL::396::med::1970::0",
+      "target": "NOBEL::394::med::1970::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1970",
+      "weight": 1.0
+    },
+    {
+      "id": "E::447",
+      "source": "NOBEL::396::med::1970::0",
+      "target": "NOBEL::395::med::1970::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1970",
+      "weight": 1.0
+    },
+    {
+      "id": "E::448",
+      "source": "NOBEL::394::med::1970::0",
+      "target": "NOBEL::395::med::1970::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1970",
+      "weight": 1.0
+    },
+    {
+      "id": "E::449",
+      "source": "NOBEL::743::che::2001::0",
+      "target": "NOBEL::742::che::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::450",
+      "source": "NOBEL::743::che::2001::0",
+      "target": "NOBEL::741::che::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::451",
+      "source": "NOBEL::742::che::2001::0",
+      "target": "NOBEL::741::che::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::452",
+      "source": "NOBEL::913::pea::2014::0",
+      "target": "NOBEL::914::pea::2014::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2014",
+      "weight": 1.0
+    },
+    {
+      "id": "E::453",
+      "source": "NOBEL::400::med::1973::0",
+      "target": "NOBEL::401::med::1973::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1973",
+      "weight": 1.0
+    },
+    {
+      "id": "E::454",
+      "source": "NOBEL::400::med::1973::0",
+      "target": "NOBEL::402::med::1973::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1973",
+      "weight": 1.0
+    },
+    {
+      "id": "E::455",
+      "source": "NOBEL::401::med::1973::0",
+      "target": "NOBEL::402::med::1973::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1973",
+      "weight": 1.0
+    },
+    {
+      "id": "E::456",
+      "source": "NOBEL::278::che::1993::0",
+      "target": "NOBEL::279::che::1993::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1993",
+      "weight": 1.0
+    },
+    {
+      "id": "E::457",
+      "source": "NOBEL::257::che::1981::0",
+      "target": "NOBEL::258::che::1981::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1981",
+      "weight": 1.0
+    },
+    {
+      "id": "E::458",
+      "source": "NOBEL::749::pea::2001::0",
+      "target": "NOBEL::748::pea::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::459",
+      "source": "NOBEL::211::che::1950::0",
+      "target": "NOBEL::210::che::1950::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1950",
+      "weight": 1.0
+    },
+    {
+      "id": "E::460",
+      "source": "NOBEL::21::phy::1915::0",
+      "target": "NOBEL::20::phy::1915::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1915",
+      "weight": 1.0
+    },
+    {
+      "id": "E::461",
+      "source": "NOBEL::735::med::2001::0",
+      "target": "NOBEL::737::med::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::462",
+      "source": "NOBEL::735::med::2001::0",
+      "target": "NOBEL::736::med::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::463",
+      "source": "NOBEL::737::med::2001::0",
+      "target": "NOBEL::736::med::2001::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2001",
+      "weight": 1.0
+    },
+    {
+      "id": "E::464",
+      "source": "NOBEL::686::eco::1975::0",
+      "target": "NOBEL::687::eco::1975::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1975",
+      "weight": 1.0
+    },
+    {
+      "id": "E::465",
+      "source": "NOBEL::775::med::2004::0",
+      "target": "NOBEL::774::med::2004::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2004",
+      "weight": 1.0
+    },
+    {
+      "id": "E::466",
+      "source": "NOBEL::827::phy::2008::0",
+      "target": "NOBEL::828::phy::2008::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2008",
+      "weight": 1.0
+    },
+    {
+      "id": "E::467",
+      "source": "NOBEL::827::phy::2008::0",
+      "target": "NOBEL::826::phy::2008::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2008",
+      "weight": 1.0
+    },
+    {
+      "id": "E::468",
+      "source": "NOBEL::828::phy::2008::0",
+      "target": "NOBEL::826::phy::2008::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2008",
+      "weight": 1.0
+    },
+    {
+      "id": "E::469",
+      "source": "NOBEL::811::med::2007::0",
+      "target": "NOBEL::813::med::2007::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2007",
+      "weight": 1.0
+    },
+    {
+      "id": "E::470",
+      "source": "NOBEL::811::med::2007::0",
+      "target": "NOBEL::812::med::2007::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2007",
+      "weight": 1.0
+    },
+    {
+      "id": "E::471",
+      "source": "NOBEL::813::med::2007::0",
+      "target": "NOBEL::812::med::2007::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2007",
+      "weight": 1.0
+    },
+    {
+      "id": "E::472",
+      "source": "NOBEL::830::che::2008::0",
+      "target": "NOBEL::829::che::2008::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2008",
+      "weight": 1.0
+    },
+    {
+      "id": "E::473",
+      "source": "NOBEL::830::che::2008::0",
+      "target": "NOBEL::831::che::2008::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2008",
+      "weight": 1.0
+    },
+    {
+      "id": "E::474",
+      "source": "NOBEL::829::che::2008::0",
+      "target": "NOBEL::831::che::2008::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2008",
+      "weight": 1.0
+    },
+    {
+      "id": "E::475",
+      "source": "NOBEL::754::phy::2002::0",
+      "target": "NOBEL::753::phy::2002::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2002",
+      "weight": 1.0
+    },
+    {
+      "id": "E::476",
+      "source": "NOBEL::754::phy::2002::0",
+      "target": "NOBEL::755::phy::2002::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2002",
+      "weight": 1.0
+    },
+    {
+      "id": "E::477",
+      "source": "NOBEL::753::phy::2002::0",
+      "target": "NOBEL::755::phy::2002::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::2002",
+      "weight": 1.0
+    },
+    {
+      "id": "E::478",
+      "source": "NOBEL::61::phy::1954::0",
+      "target": "NOBEL::62::phy::1954::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1954",
+      "weight": 1.0
+    },
+    {
+      "id": "E::479",
+      "source": "NOBEL::718::eco::1997::0",
+      "target": "NOBEL::717::eco::1997::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1997",
+      "weight": 1.0
+    },
+    {
+      "id": "E::480",
+      "source": "NOBEL::640::lit::1966::0",
+      "target": "NOBEL::639::lit::1966::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::lit::1966",
+      "weight": 1.0
+    },
+    {
+      "id": "E::481",
+      "source": "NOBEL::220::che::1956::0",
+      "target": "NOBEL::219::che::1956::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1956",
+      "weight": 1.0
+    },
+    {
+      "id": "E::482",
+      "source": "NOBEL::196::che::1937::0",
+      "target": "NOBEL::197::che::1937::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1937",
+      "weight": 1.0
+    },
+    {
+      "id": "E::483",
+      "source": "NOBEL::1055::che::2025::0",
+      "target": "NOBEL::1054::che::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::484",
+      "source": "NOBEL::1055::che::2025::0",
+      "target": "NOBEL::1053::che::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::485",
+      "source": "NOBEL::1054::che::2025::0",
+      "target": "NOBEL::1053::che::2025::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2025",
+      "weight": 1.0
+    },
+    {
+      "id": "E::486",
+      "source": "NOBEL::331::med::1936::0",
+      "target": "NOBEL::330::med::1936::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1936",
+      "weight": 1.0
+    },
+    {
+      "id": "E::487",
+      "source": "NOBEL::764::med::2003::0",
+      "target": "NOBEL::765::med::2003::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2003",
+      "weight": 1.0
+    },
+    {
+      "id": "E::488",
+      "source": "NOBEL::969::eco::2018::0",
+      "target": "NOBEL::968::eco::2018::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2018",
+      "weight": 1.0
+    },
+    {
+      "id": "E::489",
+      "source": "NOBEL::995::eco::2020::0",
+      "target": "NOBEL::996::eco::2020::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2020",
+      "weight": 1.0
+    },
+    {
+      "id": "E::490",
+      "source": "NOBEL::173::che::1912::0",
+      "target": "NOBEL::172::che::1912::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1912",
+      "weight": 1.0
+    },
+    {
+      "id": "E::491",
+      "source": "NOBEL::769::che::2003::0",
+      "target": "NOBEL::770::che::2003::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2003",
+      "weight": 1.0
+    },
+    {
+      "id": "E::492",
+      "source": "NOBEL::455::med::1996::0",
+      "target": "NOBEL::456::med::1996::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1996",
+      "weight": 1.0
+    },
+    {
+      "id": "E::493",
+      "source": "NOBEL::370::med::1960::0",
+      "target": "NOBEL::369::med::1960::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1960",
+      "weight": 1.0
+    },
+    {
+      "id": "E::494",
+      "source": "NOBEL::449::med::1993::0",
+      "target": "NOBEL::448::med::1993::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1993",
+      "weight": 1.0
+    },
+    {
+      "id": "E::495",
+      "source": "NOBEL::64::phy::1955::0",
+      "target": "NOBEL::63::phy::1955::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1955",
+      "weight": 1.0
+    },
+    {
+      "id": "E::496",
+      "source": "NOBEL::286::che::1996::0",
+      "target": "NOBEL::284::che::1996::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1996",
+      "weight": 1.0
+    },
+    {
+      "id": "E::497",
+      "source": "NOBEL::286::che::1996::0",
+      "target": "NOBEL::285::che::1996::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1996",
+      "weight": 1.0
+    },
+    {
+      "id": "E::498",
+      "source": "NOBEL::284::che::1996::0",
+      "target": "NOBEL::285::che::1996::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1996",
+      "weight": 1.0
+    },
+    {
+      "id": "E::499",
+      "source": "NOBEL::796::che::2005::0",
+      "target": "NOBEL::795::che::2005::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2005",
+      "weight": 1.0
+    },
+    {
+      "id": "E::500",
+      "source": "NOBEL::796::che::2005::0",
+      "target": "NOBEL::794::che::2005::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2005",
+      "weight": 1.0
+    },
+    {
+      "id": "E::501",
+      "source": "NOBEL::795::che::2005::0",
+      "target": "NOBEL::794::che::2005::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::2005",
+      "weight": 1.0
+    },
+    {
+      "id": "E::502",
+      "source": "NOBEL::435::med::1986::0",
+      "target": "NOBEL::434::med::1986::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::1986",
+      "weight": 1.0
+    },
+    {
+      "id": "E::503",
+      "source": "NOBEL::75::phy::1961::0",
+      "target": "NOBEL::76::phy::1961::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1961",
+      "weight": 1.0
+    },
+    {
+      "id": "E::504",
+      "source": "NOBEL::799::eco::2005::0",
+      "target": "NOBEL::800::eco::2005::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::2005",
+      "weight": 1.0
+    },
+    {
+      "id": "E::505",
+      "source": "NOBEL::917::med::2015::0",
+      "target": "NOBEL::918::med::2015::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2015",
+      "weight": 1.0
+    },
+    {
+      "id": "E::506",
+      "source": "NOBEL::917::med::2015::0",
+      "target": "NOBEL::916::med::2015::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2015",
+      "weight": 1.0
+    },
+    {
+      "id": "E::507",
+      "source": "NOBEL::918::med::2015::0",
+      "target": "NOBEL::916::med::2015::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2015",
+      "weight": 1.0
+    },
+    {
+      "id": "E::508",
+      "source": "NOBEL::558::pea::1994::0",
+      "target": "NOBEL::557::pea::1994::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1994",
+      "weight": 1.0
+    },
+    {
+      "id": "E::509",
+      "source": "NOBEL::558::pea::1994::0",
+      "target": "NOBEL::559::pea::1994::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1994",
+      "weight": 1.0
+    },
+    {
+      "id": "E::510",
+      "source": "NOBEL::557::pea::1994::0",
+      "target": "NOBEL::559::pea::1994::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::pea::1994",
+      "weight": 1.0
+    },
+    {
+      "id": "E::511",
+      "source": "NOBEL::875::med::2012::0",
+      "target": "NOBEL::874::med::2012::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::med::2012",
+      "weight": 1.0
+    },
+    {
+      "id": "E::512",
+      "source": "NOBEL::273::che::1989::0",
+      "target": "NOBEL::274::che::1989::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::che::1989",
+      "weight": 1.0
+    },
+    {
+      "id": "E::513",
+      "source": "NOBEL::693::eco::1979::0",
+      "target": "NOBEL::692::eco::1979::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::eco::1979",
+      "weight": 1.0
+    },
+    {
+      "id": "E::514",
+      "source": "NOBEL::122::phy::1983::0",
+      "target": "NOBEL::123::phy::1983::0",
+      "type": "same_prize_event",
+      "event_id": "PRIZE::phy::1983",
+      "weight": 1.0
+    },
+    {
+      "id": "E::515",
+      "source": "NOBEL::222::che::1958::0",
+      "target": "NOBEL::222::che::1980::1",
+      "type": "same_laureate_multiple_award",
+      "laureate_id": "222",
+      "weight": 1.0
+    },
+    {
+      "id": "E::516",
+      "source": "NOBEL::482::pea::1917::0",
+      "target": "NOBEL::482::pea::1944::1",
+      "type": "same_laureate_multiple_award",
+      "laureate_id": "482",
+      "weight": 1.0
+    },
+    {
+      "id": "E::517",
+      "source": "NOBEL::482::pea::1917::0",
+      "target": "NOBEL::482::pea::1963::2",
+      "type": "same_laureate_multiple_award",
+      "laureate_id": "482",
+      "weight": 1.0
+    },
+    {
+      "id": "E::518",
+      "source": "NOBEL::482::pea::1944::1",
+      "target": "NOBEL::482::pea::1963::2",
+      "type": "same_laureate_multiple_award",
+      "laureate_id": "482",
+      "weight": 1.0
+    },
+    {
+      "id": "E::519",
+      "source": "NOBEL::66::phy::1956::0",
+      "target": "NOBEL::66::phy::1972::1",
+      "type": "same_laureate_multiple_award",
+      "laureate_id": "66",
+      "weight": 1.0
+    },
+    {
+      "id": "E::520",
+      "source": "NOBEL::743::che::2001::0",
+      "target": "NOBEL::743::che::2022::1",
+      "type": "same_laureate_multiple_award",
+      "laureate_id": "743",
+      "weight": 1.0
+    },
+    {
+      "id": "E::521",
+      "source": "NOBEL::217::che::1954::0",
+      "target": "NOBEL::217::pea::1962::1",
+      "type": "same_laureate_multiple_award",
+      "laureate_id": "217",
+      "weight": 1.0
+    },
+    {
+      "id": "E::522",
+      "source": "NOBEL::6::phy::1903::0",
+      "target": "NOBEL::6::che::1911::1",
+      "type": "same_laureate_multiple_award",
+      "laureate_id": "6",
+      "weight": 1.0
+    },
+    {
+      "id": "E::523",
+      "source": "NOBEL::515::pea::1954::0",
+      "target": "NOBEL::515::pea::1981::1",
+      "type": "same_laureate_multiple_award",
+      "laureate_id": "515",
+      "weight": 1.0
+    }
+  ]
+}

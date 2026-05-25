@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "generated_at_utc": "2026-05-25T02:40:22.245670+00:00",
+    "source": "Nobel Prize API 2.1",
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "layout": "official_category_poles_plus_motivation_semantics_v1",
+    "node_unit": "laureate_award",
+    "laureate_count": 1018,
+    "award_node_count": 1026,
+    "prize_event_count": 633,
+    "official_prize_endpoint_count": 682,
+    "edge_count": 524,
+    "semantic_neighbors_per_node": 12
+  },
+  "entity_types": {
+    "person": 990,
+    "organization": 28
+  },
+  "organization_ids": [
+    "1019",
+    "1020",
+    "1043",
+    "467",
+    "477",
+    "482",
+    "503",
+    "508",
+    "509",
+    "515",
+    "523",
+    "525",
+    "527",
+    "537",
+    "547",
+    "550",
+    "561",
+    "564",
+    "568",
+    "748",
+    "797",
+    "810",
+    "818",
+    "881",
+    "893",
+    "925",
+    "948",
+    "994"
+  ],
+  "category_counts": {
+    "Ciencias Económicas": 99,
+    "Física": 230,
+    "Química": 200,
+    "Literatura": 122,
+    "Paz": 143,
+    "Fisiología o Medicina": 232
+  },
+  "relationship_counts": {
+    "same_prize_event": 515,
+    "same_laureate_multiple_award": 9
+  },
+  "multiple_award_entities": [
+    {
+      "laureate_id": "482",
+      "name": "International Committee of the Red Cross",
+      "entity_type": "organization",
+      "award_count": 3,
+      "awards": [
+        {
+          "year": 1917,
+          "category": "Paz"
+        },
+        {
+          "year": 1944,
+          "category": "Paz"
+        },
+        {
+          "year": 1963,
+          "category": "Paz"
+        }
+      ]
+    },
+    {
+      "laureate_id": "222",
+      "name": "Frederick Sanger",
+      "entity_type": "person",
+      "award_count": 2,
+      "awards": [
+        {
+          "year": 1958,
+          "category": "Química"
+        },
+        {
+          "year": 1980,
+          "category": "Química"
+        }
+      ]
+    },
+    {
+      "laureate_id": "66",
+      "name": "John Bardeen",
+      "entity_type": "person",
+      "award_count": 2,
+      "awards": [
+        {
+          "year": 1956,
+          "category": "Física"
+        },
+        {
+          "year": 1972,
+          "category": "Física"
+        }
+      ]
+    },
+    {
+      "laureate_id": "743",
+      "name": "K. Barry Sharpless",
+      "entity_type": "person",
+      "award_count": 2,
+      "awards": [
+        {
+          "year": 2001,
+          "category": "Química"
+        },
+        {
+          "year": 2022,
+          "category": "Química"
+        }
+      ]
+    },
+    {
+      "laureate_id": "217",
+      "name": "Linus Pauling",
+      "entity_type": "person",
+      "award_count": 2,
+      "awards": [
+        {
+          "year": 1954,
+          "category": "Química"
+        },
+        {
+          "year": 1962,
+          "category": "Paz"
+        }
+      ]
+    },
+    {
+      "laureate_id": "6",
+      "name": "Marie Curie",
+      "entity_type": "person",
+      "award_count": 2,
+      "awards": [
+        {
+          "year": 1903,
+          "category": "Física"
+        },
+        {
+          "year": 1911,
+          "category": "Química"
+        }
+      ]
+    },
+    {
+      "laureate_id": "515",
+      "name": "Office of the United Nations High Commissioner for Refugees",
+      "entity_type": "organization",
+      "award_count": 2,
+      "awards": [
+        {
+          "year": 1954,
+          "category": "Paz"
+        },
+        {
+          "year": 1981,
+          "category": "Paz"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "motivation": 1026,
+    "birth_coordinates": 969,
+    "affiliation_coordinates": 753
+  }
+}

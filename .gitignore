@@ -128,3 +128,7 @@ __pycache__/
 outputs/nobel/raw/
 outputs/nobel/processed/*.npy
 outputs/explore/neighborhood_test_*.json
+
+# Keep consolidated Nobel folder versioned for now
+!nobel/
+!nobel/**

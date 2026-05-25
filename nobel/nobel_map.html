@@ -1,0 +1,1201 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atlas Nobel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Montserrat:wght@400;500;600;700&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f7f5ef;
+      --paper: #fffdf8;
+      --ink: #181715;
+      --muted: #716d65;
+      --line: #e3dccf;
+      --physics: #D96A72;
+      --chemistry: #58AF83;
+      --medicine: #5A90D4;
+      --peace: #AD79C9;
+      --literature: #E3B950;
+      --economics: #43AAA6;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Montserrat", system-ui, sans-serif;
+    }
+
+    .atlas {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 380px;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .stage {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 42% 42%, rgba(255,255,255,0.94), rgba(247,245,239,0.92) 55%, rgba(240,237,230,1));
+    }
+
+    .stage::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 6% 8%, rgba(214,90,99,0.16), rgba(214,90,99,0.07) 31%, transparent 67%),
+        radial-gradient(circle at 94% 8%, rgba(83,169,120,0.16), rgba(83,169,120,0.07) 31%, transparent 67%),
+        radial-gradient(circle at 94% 94%, rgba(78,134,204,0.16), rgba(78,134,204,0.07) 31%, transparent 67%),
+        radial-gradient(circle at 6% 94%, rgba(224,181,69,0.16), rgba(224,181,69,0.07) 31%, transparent 67%);
+    }
+
+    #nobel-sigma {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+
+    .topbar {
+      position: absolute;
+      top: 72px;
+      left: 30px;
+      right: 28px;
+      z-index: 4;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 20px;
+      pointer-events: none;
+    }
+
+    .brand {
+      font-size: 12px;
+      line-height: 1.5;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #25221e;
+    }
+
+    .brand small {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 500;
+    }
+
+    .controls {
+      pointer-events: auto;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .control {
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,253,248,0.86);
+      backdrop-filter: blur(14px);
+      color: var(--muted);
+      text-transform: uppercase;
+      font-size: 10px;
+      letter-spacing: 0.07em;
+    }
+
+    .control select {
+      border: 0;
+      outline: 0;
+      background: transparent;
+      color: #28241f;
+      font: inherit;
+    }
+
+    .control input {
+      accent-color: #24211d;
+    }
+
+    .legend {
+      position: absolute;
+      left: 30px;
+      bottom: 26px;
+      z-index: 5;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      max-width: calc(100% - 60px);
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 10px;
+      border: 1px solid var(--line);
+      background: rgba(255,253,248,0.84);
+      border-radius: 999px;
+      color: #5d574f;
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    .legend-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    aside {
+      overflow: auto;
+      padding: 72px 29px 34px;
+      border-left: 1px solid var(--line);
+      background: rgba(255,253,248,0.96);
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      color: var(--muted);
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.11em;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      font-size: 34px;
+      line-height: 0.98;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+
+    .description {
+      margin: 0 0 24px;
+      color: #49443d;
+      font-size: 12px;
+      line-height: 1.6;
+      text-transform: uppercase;
+    }
+
+    .meta-grid {
+      display: grid;
+      gap: 14px;
+      padding-top: 18px;
+      margin-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .meta-label {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--muted);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+    }
+
+    .meta-value {
+      color: #27231e;
+      font-size: 12px;
+      line-height: 1.45;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .motivation {
+      margin-top: 22px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 12px;
+      line-height: 1.55;
+      font-weight: 600;
+      color: #dceaf8;
+    }
+
+    .links {
+      margin-top: 26px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .link-btn {
+      display: inline-flex;
+      align-items: center;
+      min-height: 33px;
+      padding: 0 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: #39342d;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 10px;
+    }
+
+    .tooltip {
+      position: absolute;
+      z-index: 9;
+      opacity: 0;
+      pointer-events: none;
+      max-width: 300px;
+      transform: translate(-50%, calc(-100% - 14px));
+      padding: 10px 12px;
+      background: rgba(255,253,248,0.97);
+      border: 1px solid var(--line);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+      color: #28241f;
+      font-size: 11px;
+      line-height: 1.45;
+    }
+
+    .tooltip.visible { opacity: 1; }
+
+    .tooltip strong {
+      display: block;
+      font-family: "Cormorant", Georgia, serif;
+      font-size: 17px;
+      text-transform: uppercase;
+      line-height: 1.05;
+      margin-bottom: 5px;
+    }
+
+    @media (max-width: 980px) {
+      .atlas {
+        grid-template-columns: 1fr;
+      }
+
+      aside {
+        display: none;
+      }
+
+      .topbar {
+        top: 70px;
+      }
+    }
+
+    .controls {
+      max-width: min(980px, calc(100% - 245px));
+    }
+
+    .year-control input {
+      width: 48px;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      color: #28241f;
+      font: inherit;
+      appearance: textfield;
+    }
+
+    .year-control input::-webkit-inner-spin-button,
+    .year-control input::-webkit-outer-spin-button {
+      appearance: none;
+    }
+
+    .clear-btn {
+      height: 34px;
+      padding: 0 13px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #24211d;
+      color: #fffdf8;
+      font: inherit;
+      font-size: 10px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .relation-controls {
+      position: absolute;
+      z-index: 5;
+      left: 30px;
+      bottom: 68px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .relation-chip {
+      height: 31px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 0 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,253,248,0.88);
+      color: #625d55;
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    .relation-chip input {
+      accent-color: #24211d;
+    }
+
+    .visible-count {
+      color: #24211d;
+      font-weight: 700;
+    }
+
+
+    /* nobel-dark-semantic-fields-v5 */
+    :root {
+      --bg: #071426;
+      --paper: #0b1b30;
+      --ink: #edf5ff;
+      --muted: #94abc2;
+      --line: rgba(157,184,210,0.19);
+      --physics: #FF7F8A;
+      --chemistry: #6DDBA4;
+      --medicine: #75B4FF;
+      --peace: #D099FF;
+      --literature: #FFD46A;
+      --economics: #57DED4;
+    }
+
+    body {
+      background: #071426;
+      color: var(--ink);
+    }
+
+    .stage {
+      background:
+        radial-gradient(circle at 50% 44%, rgba(22,47,72,0.74), rgba(7,20,38,0.98) 67%),
+        #071426;
+    }
+
+    .stage::before {
+      background:
+        radial-gradient(circle at 12% 12%, rgba(255,127,138,0.10), transparent 48%),
+        radial-gradient(circle at 88% 12%, rgba(109,219,164,0.09), transparent 48%),
+        radial-gradient(circle at 88% 88%, rgba(117,180,255,0.09), transparent 48%),
+        radial-gradient(circle at 12% 88%, rgba(255,212,106,0.08), transparent 48%);
+    }
+
+    aside {
+      border-left-color: var(--line);
+      background: rgba(8,20,37,0.97);
+      color: var(--ink);
+    }
+
+    .brand,
+    h1,
+    .meta-value,
+    .motivation {
+      margin-top: 22px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 12px;
+      line-height: 1.55;
+      font-weight: 600;
+      color: #dceaf8;
+    }
+
+    .brand small,
+    .eyebrow,
+    .meta-label {
+      color: var(--muted);
+    }
+
+    .description {
+      color: #b8c9da;
+    }
+
+    .control,
+    .relation-chip,
+    .legend-item,
+    .link-btn {
+      border-color: var(--line);
+      background: rgba(12,29,49,0.84);
+      color: #b8c9da;
+    }
+
+    .control select,
+    .control input {
+      color: #edf5ff;
+    }
+
+    .control option {
+      color: #101d30;
+      background: #e8eef5;
+    }
+
+    .clear-btn {
+      border-color: rgba(145,178,210,0.30);
+      background: #e7f1fb;
+      color: #091727;
+    }
+
+    .meta-grid,
+    .motivation {
+      margin-top: 22px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 12px;
+      line-height: 1.55;
+      font-weight: 600;
+      color: #dceaf8;
+    }
+
+    .tooltip {
+      border-color: rgba(145,178,210,0.24);
+      background: rgba(9,23,40,0.98);
+      color: #dceaf8;
+      box-shadow: 0 16px 34px rgba(0,0,0,0.36);
+    }
+
+    .tooltip strong {
+      color: #ffffff;
+    }
+
+  </style>
+</head>
+
+<body>
+  <main class="atlas">
+    <section class="stage">
+      <header class="topbar">
+        <div class="brand">
+          Atlas Nobel · Territorios Semánticos
+          <small id="atlas-count">Cargando mapa semántico...</small>
+        </div>
+
+        <div class="controls">
+          <label class="control year-control">
+            Años
+            <input id="year-from" type="number" min="1901" max="2025" value="1901" />
+            <span>–</span>
+            <input id="year-to" type="number" min="1901" max="2025" value="2025" />
+          </label>
+
+          <label class="control">
+            Disciplina
+            <select id="category-filter">
+              <option value="__all__">Todas</option>
+            </select>
+          </label>
+
+          <label class="control">
+            Geografía
+            <select id="geo-mode">
+              <option value="birth">Origen / nacimiento</option>
+              <option value="award_location">Lugar al premiarse</option>
+              <option value="residence">Residencia al premiarse</option>
+              <option value="institution">Afiliación institucional</option>
+            </select>
+          </label>
+
+          <label class="control">
+            País
+            <select id="country-filter">
+              <option value="__all__">Todos</option>
+            </select>
+          </label>
+
+          <label class="control">
+            Tipo
+            <select id="type-filter">
+              <option value="__all__">Todos</option>
+              <option value="person">Persona</option>
+              <option value="organization">Organización</option>
+            </select>
+          </label>
+
+          <label class="control">
+            Continente
+            <select id="continent-filter">
+              <option value="__all__">Todos</option>
+            </select>
+          </label>
+
+          <label class="control">
+            Color
+            <select id="color-by">
+              <option value="discipline">Disciplina</option>
+              <option value="decade">Década</option>
+              <option value="country">País de afiliación</option>
+              <option value="type">Tipo</option>
+              <option value="continent">Continente</option>
+            </select>
+          </label>
+
+          <button class="clear-btn" id="clear-filters" type="button">Limpiar</button>
+        </div>
+      </header>
+
+      <div id="nobel-sigma"></div>
+      <div id="tooltip" class="tooltip"></div>
+      <div class="relation-controls" aria-label="Tipos de vínculo">
+        <label class="relation-chip">
+          <input id="edge-shared" type="checkbox" checked />
+          Premio compartido
+        </label>
+        <label class="relation-chip">
+          <input id="edge-multiple" type="checkbox" checked />
+          Laureado múltiple
+        </label>
+        <label class="relation-chip">
+          <input id="edge-semantic" type="checkbox" />
+          Ver afinidades semánticas
+        </label>
+      </div>
+      <div id="legend" class="legend"></div>
+    </section>
+
+    <aside id="panel">
+      <p class="eyebrow">Premios Nobel</p>
+      <h1>Mapa de contribuciones</h1>
+      <p class="description">
+        Cada punto representa una contribución premiada. Los territorios parten
+        de las categorías oficiales y se desplazan por cercanía semántica entre motivaciones.
+      </p>
+    </aside>
+  </main>
+
+  <script type="module">
+    import Graph from "https://cdn.jsdelivr.net/npm/graphology@0.25.4/+esm";
+    import Sigma from "https://cdn.jsdelivr.net/npm/sigma@3/+esm";
+
+    const container = document.getElementById("nobel-sigma");
+    const panel = document.getElementById("panel");
+    const tooltip = document.getElementById("tooltip");
+    const legend = document.getElementById("legend");
+    const countLabel = document.getElementById("atlas-count");
+
+    const yearFrom = document.getElementById("year-from");
+    const yearTo = document.getElementById("year-to");
+    const categoryFilter = document.getElementById("category-filter");
+    const geoMode = document.getElementById("geo-mode");
+    const countryFilter = document.getElementById("country-filter");
+    const typeFilter = document.getElementById("type-filter");
+    const continentFilter = document.getElementById("continent-filter");
+    const colorBy = document.getElementById("color-by");
+    const clearFilters = document.getElementById("clear-filters");
+
+    const edgeShared = document.getElementById("edge-shared");
+    const edgeMultiple = document.getElementById("edge-multiple");
+    const edgeSemantic = document.getElementById("edge-semantic");
+
+    const PERIOD_COLORS = [
+      "#C96A66", "#D37C63", "#D99658", "#D3B04F", "#A9AF51",
+      "#70A86D", "#4CA29B", "#4F91C5", "#677AC5", "#906DBA",
+      "#B76C98", "#C95D73", "#4C86C5"
+    ];
+
+    const CONTINENT_COLORS = {
+      "Europe": "#4E86CC",
+      "North America": "#D96A72",
+      "South America": "#E3B950",
+      "Asia": "#58AF83",
+      "Africa": "#AD79C9",
+      "Oceania": "#43AAA6",
+      "Sin dato": "#A5A097"
+    };
+
+    const TYPE_COLORS = {
+      person: "#4E86CC",
+      organization: "#D96A72"
+    };
+
+    const FIELD_COLORS = {
+      matter: "#D96A72",
+      life: "#58AF83",
+      society: "#4E86CC",
+      culture: "#E3B950"
+    };
+
+    let payload = null;
+    let graph = null;
+    let renderer = null;
+    let selectedNode = null;
+    let hoveredNode = null;
+
+    function escapeHTML(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function safeMotivationHTML(value) {
+      // Nobel motivations only use <i>/<I> tags according to audit.
+      // Escape everything first, then re-allow only italic tags.
+      return escapeHTML(value)
+        .replaceAll("&lt;i&gt;", "<i>")
+        .replaceAll("&lt;/i&gt;", "</i>")
+        .replaceAll("&lt;I&gt;", "<i>")
+        .replaceAll("&lt;/I&gt;", "</i>");
+    }
+
+    function hashColor(value) {
+      let hash = 0;
+      for (const char of String(value || "")) {
+        hash = ((hash << 5) - hash + char.charCodeAt(0)) | 0;
+      }
+      const hue = Math.abs(hash) % 360;
+      return `hsl(${hue} 42% 57%)`;
+    }
+
+    function rgba(hex, opacity) {
+      if (!String(hex).startsWith("#")) return hex;
+      const value = hex.slice(1);
+      const r = parseInt(value.slice(0, 2), 16);
+      const g = parseInt(value.slice(2, 4), 16);
+      const b = parseInt(value.slice(4, 6), 16);
+      return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+    }
+
+    function geographyModeLabel() {
+      const labels = {
+        birth: "origen / nacimiento",
+        award_location: "lugar al premiarse",
+        residence: "residencia al premiarse",
+        institution: "afiliación institucional"
+      };
+      return labels[geoMode.value] || labels.birth;
+    }
+
+    function geographyValue(item) {
+      if (geoMode.value === "award_location") {
+        return item.award_location_country || "Sin dato";
+      }
+
+      if (geoMode.value === "residence") {
+        return item.residence_country || "Sin dato";
+      }
+
+      if (geoMode.value === "institution") {
+        return item.institution_country || "Sin dato";
+      }
+
+      return item.birth_country || item.birth_location?.country || "Sin dato";
+    }
+
+    function isVisible(item) {
+      const from = Number(yearFrom.value || 1901);
+      const to = Number(yearTo.value || 2025);
+
+      if (Number(item.award_year) < from || Number(item.award_year) > to) return false;
+      if (categoryFilter.value !== "__all__" && item.category_code !== categoryFilter.value) return false;
+      if (countryFilter.value !== "__all__" && geographyValue(item) !== countryFilter.value) return false;
+      if (typeFilter.value !== "__all__" && item.entity_type !== typeFilter.value) return false;
+      if (continentFilter.value !== "__all__" && item.birth_continent !== continentFilter.value) return false;
+
+      return true;
+    }
+
+    function nodeColor(item) {
+      if (colorBy.value === "discipline") return item.discipline_color || item.color;
+
+      if (colorBy.value === "decade") {
+        const decade = Math.floor(Number(item.award_year) / 10) * 10;
+        const index = Math.max(0, Math.min(PERIOD_COLORS.length - 1, Math.floor((decade - 1900) / 10)));
+        return PERIOD_COLORS[index];
+      }
+
+      if (colorBy.value === "country") {
+        return hashColor(geographyValue(item));
+      }
+
+      if (colorBy.value === "type") {
+        return TYPE_COLORS[item.entity_type] || "#A5A097";
+      }
+
+      if (colorBy.value === "continent") {
+        return CONTINENT_COLORS[item.birth_continent] || "#A5A097";
+      }
+
+      return item.color;
+    }
+
+    async function loadPayload() {
+      for (const route of ["/static/nobel/nobel_atlas_es_ui.json", "/nobel/nobel_atlas_es_ui.json", "/nobel/nobel_atlas.json", "/static/nobel/nobel_atlas.json"]) {
+        const response = await fetch(route);
+        if (response.ok) return await response.json();
+      }
+      throw new Error("No se pudo cargar nobel_atlas.json");
+    }
+
+    function fillSelect(select, values, allLabel) {
+      select.innerHTML = `<option value="__all__">${allLabel}</option>` +
+        values.map(value => `<option value="${escapeHTML(value.value)}">${escapeHTML(value.label)}</option>`).join("");
+    }
+
+    function configureFilters() {
+      fillSelect(
+        categoryFilter,
+        payload.categories.map(item => ({ value: item.code, label: item.es })),
+        "Todas"
+      );
+
+      updateCountryOptions();
+
+      const continents = [...new Set(payload.nodes.map(item => item.birth_continent))]
+        .sort()
+        .map(item => ({ value: item, label: item }));
+
+      fillSelect(continentFilter, continents, "Todos");
+    }
+
+    function updateCountryOptions() {
+      const countryCounts = new Map();
+
+      for (const item of payload.nodes) {
+        const country = geographyValue(item);
+        countryCounts.set(country, (countryCounts.get(country) || 0) + 1);
+      }
+
+      const countries = [...countryCounts.entries()]
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .map(([country, count]) => ({
+          value: country,
+          label: `${country} (${count})`
+        }));
+
+      fillSelect(countryFilter, countries, "Todos");
+      countryFilter.value = "__all__";
+    }
+
+    function currentVisibleNodes() {
+      return payload.nodes.filter(isVisible);
+    }
+
+    function renderLegend() {
+      let items = [];
+
+      if (colorBy.value === "discipline") {
+        items = payload.categories.map(item => ({
+          label: item.es,
+          color: item.color
+        }));
+      } else if (colorBy.value === "type") {
+        items = [
+          { label: "Persona", color: TYPE_COLORS.person },
+          { label: "Organización", color: TYPE_COLORS.organization }
+        ];
+      } else if (colorBy.value === "continent") {
+        items = Object.entries(CONTINENT_COLORS).map(([label, color]) => ({ label, color }));
+      } else if (colorBy.value === "decade") {
+        items = [
+          { label: "1900s", color: PERIOD_COLORS[0] },
+          { label: "1950s", color: PERIOD_COLORS[5] },
+          { label: "2000s", color: PERIOD_COLORS[10] },
+          { label: "2020s", color: PERIOD_COLORS[12] }
+        ];
+      } else {
+        items = [{ label: `País · ${geographyModeLabel()}`, color: "#92C5D8" }];
+      }
+
+      legend.innerHTML = items.map(item => `
+        <div class="legend-item">
+          <span class="legend-dot" style="background:${item.color}"></span>
+          ${escapeHTML(item.label)}
+        </div>
+      `).join("");
+    }
+
+    function renderIntro() {
+      const visible = currentVisibleNodes();
+
+      panel.innerHTML = `
+        <p class="eyebrow">Premios Nobel · 1901–2025</p>
+        <h1>Campo de contribuciones</h1>
+        <p class="description">
+          La posición interpreta afinidades entre cuatro campos semánticos.
+          El color actual representa ${escapeHTML(colorBy.options[colorBy.selectedIndex].text.toLowerCase())}.
+        </p>
+        <div class="meta-grid">
+          <div>
+            <span class="meta-label">Contribuciones visibles</span>
+            <span class="meta-value">${visible.length} de ${payload.nodes.length}</span>
+          </div>
+          <div>
+            <span class="meta-label">Lectura del mapa</span>
+            <span class="meta-value">
+              Materia y universo · Vida y salud · Sociedad y acción pública · Cultura y experiencia humana.
+            </span>
+          </div>
+          <div>
+            <span class="meta-label">Lectura geográfica activa</span>
+            <span class="meta-value">
+              ${escapeHTML(geographyModeLabel())}. El país de origen inicia como vista predeterminada para no privilegiar categorías con afiliaciones institucionales.
+            </span>
+          </div>
+          <div>
+            <span class="meta-label">Vínculos históricos</span>
+            <span class="meta-value">
+              Premio compartido une co-laureados. Laureado múltiple une dos premios de la misma entidad.
+            </span>
+          </div>
+          <div>
+            <span class="meta-label">Afinidad semántica</span>
+            <span class="meta-value">
+              Actívala al seleccionar un premio para ver sus motivaciones más cercanas. Es una inferencia del modelo, no un vínculo histórico.
+            </span>
+          </div>
+        </div>
+      `;
+
+      countLabel.innerHTML = `<span class="visible-count">${visible.length}</span> contribuciones visibles · ${payload.nodes.length} totales`;
+    }
+
+    function renderNodePanel(item) {
+      const affiliations = (item.affiliations || [])
+        .map(value => value.name || value.country)
+        .filter(Boolean)
+        .slice(0, 3)
+        .join(" · ");
+
+      const awardLocationSource = {
+        affiliation: "afiliación institucional",
+        residence: "residencia registrada",
+        unavailable: "sin registro"
+      }[item.award_location_source] || "sin registro";
+
+      panel.innerHTML = `
+        <p class="eyebrow">${escapeHTML(item.category)} · ${escapeHTML(item.award_year)}</p>
+        <h1>${escapeHTML(item.name)}</h1>
+        <div class="meta-grid">
+          <div>
+            <span class="meta-label">Categoría oficial</span>
+            <span class="meta-value">${escapeHTML(item.category)}</span>
+          </div>
+          <div>
+            <span class="meta-label">Tipo</span>
+            <span class="meta-value">${item.entity_type === "organization" ? "Organización" : "Persona"}</span>
+          </div>
+          <div>
+            <span class="meta-label">País de origen / nacimiento</span>
+            <span class="meta-value">${escapeHTML(item.birth_country || "Sin dato")}</span>
+          </div>
+          <div>
+            <span class="meta-label">Lugar al recibir el premio</span>
+            <span class="meta-value">${escapeHTML(item.award_location_country || "Sin dato")} · ${escapeHTML(awardLocationSource)}</span>
+          </div>
+          ${item.residence_country && item.residence_country !== "Sin dato" ? `
+            <div>
+              <span class="meta-label">Residencia al premiarse</span>
+              <span class="meta-value">${escapeHTML(item.residence_country)}</span>
+            </div>
+          ` : ""}
+          ${affiliations ? `
+            <div>
+              <span class="meta-label">Institución afiliada</span>
+              <span class="meta-value">${escapeHTML(affiliations)}</span>
+            </div>
+          ` : ""}
+        </div>
+        <div class="motivation">${safeMotivationHTML(item.motivation_es || item.motivation)}</div>
+        <div class="links">
+          ${item.external_link ? `<a class="link-btn" href="${escapeHTML(item.external_link)}" target="_blank" rel="noopener">Ficha Nobel</a>` : ""}
+          ${item.wikipedia ? `<a class="link-btn" href="${escapeHTML(item.wikipedia)}" target="_blank" rel="noopener">Wikipedia</a>` : ""}
+        </div>
+      `;
+    }
+
+    function selectedNeighborhood() {
+      if (!selectedNode) return new Set();
+      const result = new Set([selectedNode]);
+
+      graph.forEachEdge(selectedNode, (edge, attrs, source, target) => {
+        if (
+          (attrs.relation === "same_prize_event" && edgeShared.checked) ||
+          (attrs.relation === "same_laureate_multiple_award" && edgeMultiple.checked) ||
+          (attrs.relation === "semantic_neighbor" && edgeSemantic.checked)
+        ) {
+          result.add(source);
+          result.add(target);
+        }
+      });
+
+      return result;
+    }
+
+    function relationEnabled(relation) {
+      if (relation === "same_prize_event") return edgeShared.checked;
+      if (relation === "same_laureate_multiple_award") return edgeMultiple.checked;
+      if (relation === "semantic_neighbor") return edgeSemantic.checked;
+      return false;
+    }
+
+    function refresh() {
+      if (selectedNode && !isVisible(graph.getNodeAttribute(selectedNode, "item"))) {
+        selectedNode = null;
+      }
+
+      renderLegend();
+      if (!selectedNode) renderIntro();
+      renderer.refresh();
+    }
+
+    function updateTooltip(node, event) {
+      if (!node || !graph.hasNode(node)) {
+        tooltip.classList.remove("visible");
+        return;
+      }
+
+      const attrs = graph.getNodeAttributes(node);
+      if (attrs.nodeKind !== "award") return;
+
+      tooltip.innerHTML = `
+        <strong>${escapeHTML(attrs.item.name)}</strong>
+        ${escapeHTML(attrs.item.category)} · ${escapeHTML(attrs.item.award_year)}
+      `;
+      tooltip.style.left = `${event.clientX}px`;
+      tooltip.style.top = `${event.clientY}px`;
+      tooltip.classList.add("visible");
+    }
+
+    function makeGraph() {
+      const result = new Graph({ multi: true, type: "undirected" });
+
+      for (const field of payload.fields || []) {
+        result.addNode(`FIELD::${field.id}`, {
+          x: field.pole[0],
+          y: field.pole[1],
+          size: 0.01,
+          label: field.label,
+          labelColor: "#aabfd4",
+          nodeKind: "field",
+          color: "rgba(0,0,0,0)"
+        });
+      }
+
+      for (const item of payload.nodes) {
+        result.addNode(item.id, {
+          x: item.x,
+          y: item.y,
+          size: item.entity_type === "organization" ? 5.6 : 3.6,
+          nodeKind: "award",
+          label: item.name,
+          labelColor: "#edf5ff",
+          item
+        });
+      }
+
+      for (const edge of payload.edges) {
+        result.addEdgeWithKey(`REL::${edge.id}`, edge.source, edge.target, {
+          relation: edge.type
+        });
+      }
+
+      const semanticPairs = new Set();
+      for (const item of payload.nodes) {
+        for (const neighbor of (item.semantic_neighbors || []).slice(0, 5)) {
+          const pair = [item.id, neighbor.id].sort();
+          const key = pair.join("::");
+
+          if (semanticPairs.has(key) || !result.hasNode(neighbor.id)) continue;
+          semanticPairs.add(key);
+
+          result.addEdgeWithKey(`SEM::${key}`, pair[0], pair[1], {
+            relation: "semantic_neighbor",
+            similarity: neighbor.similarity
+          });
+        }
+      }
+
+      return result;
+    }
+
+    loadPayload().then(data => {
+      payload = data;
+      configureFilters();
+      graph = makeGraph();
+      renderLegend();
+      renderIntro();
+
+      renderer = new Sigma(graph, container, {
+        allowInvalidContainer: true,
+        renderEdgeLabels: false,
+        defaultEdgeType: "line",
+        labelFont: "Montserrat",
+        labelSize: 10,
+        labelWeight: "600",
+        labelColor: { attribute: "labelColor", color: "#edf5ff" },
+        minCameraRatio: 0.42,
+        maxCameraRatio: 8,
+        nodeReducer: (node, data) => {
+          const res = { ...data };
+
+          if (data.nodeKind === "field") {
+            res.forceLabel = true;
+            res.size = 0.01;
+            res.color = "rgba(0,0,0,0)";
+            return res;
+          }
+
+          const visible = isVisible(data.item);
+          if (!visible) {
+            res.hidden = true;
+            return res;
+          }
+
+          const selected = node === selectedNode;
+          const hovered = node === hoveredNode;
+          const neighborhood = selectedNeighborhood();
+          const nearSelected = neighborhood.has(node);
+
+          res.color = nodeColor(data.item);
+
+          // Evitar doble etiqueta en hover/click.
+          // La etiqueta grande vive en el tooltip HTML; Sigma no dibuja label sobre el nodo.
+          res.label = "";
+          res.forceLabel = false;
+
+          if (selectedNode && !nearSelected) {
+            res.color = rgba(res.color, 0.18);
+            res.size = data.size * 0.76;
+          }
+
+          if (nearSelected && !selected) res.size = data.size * 1.2;
+          if (hovered) res.size = data.size * 1.34;
+
+          if (selected) {
+            res.highlighted = true;
+            res.size = data.size * 1.7;
+          }
+
+          return res;
+        },
+        edgeReducer: (edge, data) => {
+          const res = { ...data };
+          const [source, target] = graph.extremities(edge);
+
+          if (!selectedNode || !relationEnabled(data.relation)) {
+            res.hidden = true;
+            return res;
+          }
+
+          if (!isVisible(graph.getNodeAttribute(source, "item")) ||
+              !isVisible(graph.getNodeAttribute(target, "item")) ||
+              ![source, target].includes(selectedNode)) {
+            res.hidden = true;
+            return res;
+          }
+
+          if (data.relation === "same_prize_event") {
+            res.color = "rgba(28,25,22,0.46)";
+            res.size = 1.4;
+          } else if (data.relation === "same_laureate_multiple_award") {
+            res.color = "rgba(28,25,22,0.72)";
+            res.size = 2.3;
+          } else {
+            res.color = "rgba(80,74,67,0.24)";
+            res.size = 0.9;
+          }
+
+          return res;
+        }
+      });
+
+      renderer.on("enterNode", ({ node, event }) => {
+        if (graph.getNodeAttribute(node, "nodeKind") !== "award") return;
+        hoveredNode = node;
+        updateTooltip(node, event.original);
+        renderer.refresh();
+      });
+
+      renderer.on("leaveNode", () => {
+        hoveredNode = null;
+        tooltip.classList.remove("visible");
+        renderer.refresh();
+      });
+
+      renderer.on("clickNode", ({ node }) => {
+        if (graph.getNodeAttribute(node, "nodeKind") !== "award") return;
+
+        selectedNode = selectedNode === node ? null : node;
+        if (selectedNode) renderNodePanel(graph.getNodeAttribute(selectedNode, "item"));
+        else renderIntro();
+        renderer.refresh();
+      });
+
+      renderer.on("clickStage", () => {
+        selectedNode = null;
+        tooltip.classList.remove("visible");
+        renderIntro();
+        renderer.refresh();
+      });
+
+      [yearFrom, yearTo, categoryFilter, countryFilter, typeFilter, continentFilter, colorBy,
+       edgeShared, edgeMultiple, edgeSemantic].forEach(element => {
+        element.addEventListener("change", refresh);
+      });
+
+      geoMode.addEventListener("change", () => {
+        updateCountryOptions();
+        refresh();
+      });
+
+      clearFilters.addEventListener("click", () => {
+        yearFrom.value = "1901";
+        yearTo.value = "2025";
+        categoryFilter.value = "__all__";
+        geoMode.value = "birth";
+        updateCountryOptions();
+        countryFilter.value = "__all__";
+        typeFilter.value = "__all__";
+        continentFilter.value = "__all__";
+        colorBy.value = "discipline";
+        edgeShared.checked = true;
+        edgeMultiple.checked = true;
+        edgeSemantic.checked = false;
+        selectedNode = null;
+        refresh();
+      });
+
+      requestAnimationFrame(() => {
+        renderer.resize();
+        renderer.refresh();
+        renderer.getCamera().animatedReset({ duration: 500 });
+      });
+    }).catch(error => {
+      panel.innerHTML = `
+        <p class="eyebrow">Error</p>
+        <h1>No se pudo cargar Nobel</h1>
+        <p class="description">${escapeHTML(error.message)}</p>
+      `;
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,387 @@
+{
+  "source": "static/nobel/nobel_atlas_es_ui.json",
+  "total_nodes": 1026,
+  "fields_checked": [
+    "motivation",
+    "motivation_es",
+    "motivation_es_clean"
+  ],
+  "tag_counts": {
+    "motivation": {
+      "i": 20
+    },
+    "motivation_es": {
+      "i": 20
+    },
+    "motivation_es_clean": {}
+  },
+  "raw_tag_counts": {
+    "motivation": {
+      "<I>": 8,
+      "</I>": 8,
+      "<i>": 2,
+      "</i>": 2
+    },
+    "motivation_es": {
+      "<I>": 8,
+      "</I>": 8,
+      "<i>": 2,
+      "</i>": 2
+    },
+    "motivation_es_clean": {}
+  },
+  "nodes_with_tags_count": {
+    "motivation": 10,
+    "motivation_es": 10,
+    "motivation_es_clean": 0
+  },
+  "nodes_with_tags_sample": {
+    "motivation": [
+      {
+        "id": "NOBEL::789::med::2005::0",
+        "name": "Barry J. Marshall",
+        "year": 2005,
+        "category": "Fisiología o Medicina",
+        "field": "motivation",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<i>",
+          "</i>"
+        ],
+        "text": "for their discovery of the bacterium <i>Helicobacter pylori</i> and its role in gastritis and peptic ulcer disease",
+        "unescaped_text": "for their discovery of the bacterium <i>Helicobacter pylori</i> and its role in gastritis and peptic ulcer disease"
+      },
+      {
+        "id": "NOBEL::588::lit::1919::0",
+        "name": "Carl Spitteler",
+        "year": 1919,
+        "category": "Literatura",
+        "field": "motivation",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "in special appreciation of his epic, <I>Olympian Spring</I>",
+        "unescaped_text": "in special appreciation of his epic, <I>Olympian Spring</I>"
+      },
+      {
+        "id": "NOBEL::625::lit::1954::0",
+        "name": "Ernest Hemingway",
+        "year": 1954,
+        "category": "Literatura",
+        "field": "motivation",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "for his mastery of the art of narrative, most recently demonstrated in <I>The Old Man and the Sea,</I> and for the influence that he has exerted on contemporary style",
+        "unescaped_text": "for his mastery of the art of narrative, most recently demonstrated in <I>The Old Man and the Sea,</I> and for the influence that he has exerted on contemporary style"
+      },
+      {
+        "id": "NOBEL::790::med::2005::0",
+        "name": "J. Robin Warren",
+        "year": 2005,
+        "category": "Fisiología o Medicina",
+        "field": "motivation",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<i>",
+          "</i>"
+        ],
+        "text": "for their discovery of the bacterium <i>Helicobacter pylori</i> and its role in gastritis and peptic ulcer disease",
+        "unescaped_text": "for their discovery of the bacterium <i>Helicobacter pylori</i> and its role in gastritis and peptic ulcer disease"
+      },
+      {
+        "id": "NOBEL::605::lit::1932::0",
+        "name": "John Galsworthy",
+        "year": 1932,
+        "category": "Literatura",
+        "field": "motivation",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "for his distinguished art of narration which takes its highest form in <I>The Forsyte Saga</I>",
+        "unescaped_text": "for his distinguished art of narration which takes its highest form in <I>The Forsyte Saga</I>"
+      },
+      {
+        "id": "NOBEL::589::lit::1920::0",
+        "name": "Knut Hamsun",
+        "year": 1920,
+        "category": "Literatura",
+        "field": "motivation",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "for his monumental work, <I>Growth of the Soil</I>",
+        "unescaped_text": "for his monumental work, <I>Growth of the Soil</I>"
+      },
+      {
+        "id": "NOBEL::609::lit::1937::0",
+        "name": "Roger Martin du Gard",
+        "year": 1937,
+        "category": "Literatura",
+        "field": "motivation",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "for the artistic power and truth with which he has depicted human conflict as well as some fundamental aspects of contemporary life in his novel-cycle <I>Les Thibault</I>",
+        "unescaped_text": "for the artistic power and truth with which he has depicted human conflict as well as some fundamental aspects of contemporary life in his novel-cycle <I>Les Thibault</I>"
+      },
+      {
+        "id": "NOBEL::571::lit::1902::0",
+        "name": "Theodor Mommsen",
+        "year": 1902,
+        "category": "Literatura",
+        "field": "motivation",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "the greatest living master of the art of historical writing, with special reference to his monumental work, <I>A history of Rome</I>",
+        "unescaped_text": "the greatest living master of the art of historical writing, with special reference to his monumental work, <I>A history of Rome</I>"
+      },
+      {
+        "id": "NOBEL::602::lit::1929::0",
+        "name": "Thomas Mann",
+        "year": 1929,
+        "category": "Literatura",
+        "field": "motivation",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "principally for his great novel, <I>Buddenbrooks</I>, which has won steadily increased recognition as one of the classic works of contemporary literature",
+        "unescaped_text": "principally for his great novel, <I>Buddenbrooks</I>, which has won steadily increased recognition as one of the classic works of contemporary literature"
+      },
+      {
+        "id": "NOBEL::594::lit::1924::0",
+        "name": "Władysław Reymont",
+        "year": 1924,
+        "category": "Literatura",
+        "field": "motivation",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "for his great national epic, <I>The Peasants</I>",
+        "unescaped_text": "for his great national epic, <I>The Peasants</I>"
+      }
+    ],
+    "motivation_es": [
+      {
+        "id": "NOBEL::789::med::2005::0",
+        "name": "Barry J. Marshall",
+        "year": 2005,
+        "category": "Fisiología o Medicina",
+        "field": "motivation_es",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<i>",
+          "</i>"
+        ],
+        "text": "por su descubrimiento de la bacteria <i>Helicobacter pylori</i> y su papel en la gastritis y la úlcera péptica",
+        "unescaped_text": "por su descubrimiento de la bacteria <i>Helicobacter pylori</i> y su papel en la gastritis y la úlcera péptica"
+      },
+      {
+        "id": "NOBEL::588::lit::1919::0",
+        "name": "Carl Spitteler",
+        "year": 1919,
+        "category": "Literatura",
+        "field": "motivation_es",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "en especial reconocimiento a su epopeya, <I>Primavera Olímpica</I>",
+        "unescaped_text": "en especial reconocimiento a su epopeya, <I>Primavera Olímpica</I>"
+      },
+      {
+        "id": "NOBEL::625::lit::1954::0",
+        "name": "Ernest Hemingway",
+        "year": 1954,
+        "category": "Literatura",
+        "field": "motivation_es",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "por su dominio del arte de la narrativa, demostrado más recientemente en <I>El viejo y el mar</I>, y por la influencia que ha ejercido en el estilo contemporáneo.",
+        "unescaped_text": "por su dominio del arte de la narrativa, demostrado más recientemente en <I>El viejo y el mar</I>, y por la influencia que ha ejercido en el estilo contemporáneo."
+      },
+      {
+        "id": "NOBEL::790::med::2005::0",
+        "name": "J. Robin Warren",
+        "year": 2005,
+        "category": "Fisiología o Medicina",
+        "field": "motivation_es",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<i>",
+          "</i>"
+        ],
+        "text": "por su descubrimiento de la bacteria <i>Helicobacter pylori</i> y su papel en la gastritis y la úlcera péptica",
+        "unescaped_text": "por su descubrimiento de la bacteria <i>Helicobacter pylori</i> y su papel en la gastritis y la úlcera péptica"
+      },
+      {
+        "id": "NOBEL::605::lit::1932::0",
+        "name": "John Galsworthy",
+        "year": 1932,
+        "category": "Literatura",
+        "field": "motivation_es",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "por su distinguido arte de la narración que toma su forma más elevada en <I>La saga Forsyte</I>",
+        "unescaped_text": "por su distinguido arte de la narración que toma su forma más elevada en <I>La saga Forsyte</I>"
+      },
+      {
+        "id": "NOBEL::589::lit::1920::0",
+        "name": "Knut Hamsun",
+        "year": 1920,
+        "category": "Literatura",
+        "field": "motivation_es",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "por su monumental obra, <I>Crecimiento del suelo</I>",
+        "unescaped_text": "por su monumental obra, <I>Crecimiento del suelo</I>"
+      },
+      {
+        "id": "NOBEL::609::lit::1937::0",
+        "name": "Roger Martin du Gard",
+        "year": 1937,
+        "category": "Literatura",
+        "field": "motivation_es",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "por el poder artístico y la verdad con la que ha representado el conflicto humano, así como algunos aspectos fundamentales de la vida contemporánea en su ciclo de novelas <I>Les Thibault</I>.",
+        "unescaped_text": "por el poder artístico y la verdad con la que ha representado el conflicto humano, así como algunos aspectos fundamentales de la vida contemporánea en su ciclo de novelas <I>Les Thibault</I>."
+      },
+      {
+        "id": "NOBEL::571::lit::1902::0",
+        "name": "Theodor Mommsen",
+        "year": 1902,
+        "category": "Literatura",
+        "field": "motivation_es",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "el mayor maestro vivo del arte de la escritura histórica, con especial referencia a su obra monumental, <I>Una historia de Roma</I>",
+        "unescaped_text": "el mayor maestro vivo del arte de la escritura histórica, con especial referencia a su obra monumental, <I>Una historia de Roma</I>"
+      },
+      {
+        "id": "NOBEL::602::lit::1929::0",
+        "name": "Thomas Mann",
+        "year": 1929,
+        "category": "Literatura",
+        "field": "motivation_es",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "principalmente por su gran novela, <I>Buddenbrooks</I>, que ha ganado un reconocimiento cada vez mayor como una de las obras clásicas de la literatura contemporánea.",
+        "unescaped_text": "principalmente por su gran novela, <I>Buddenbrooks</I>, que ha ganado un reconocimiento cada vez mayor como una de las obras clásicas de la literatura contemporánea."
+      },
+      {
+        "id": "NOBEL::594::lit::1924::0",
+        "name": "Władysław Reymont",
+        "year": 1924,
+        "category": "Literatura",
+        "field": "motivation_es",
+        "tags": [
+          "i",
+          "i"
+        ],
+        "raw_tags": [
+          "<I>",
+          "</I>"
+        ],
+        "text": "por su gran epopeya nacional, <I>Los Campesinos</I>",
+        "unescaped_text": "por su gran epopeya nacional, <I>Los Campesinos</I>"
+      }
+    ],
+    "motivation_es_clean": []
+  },
+  "suspicious_count": 0,
+  "suspicious_sample": []
+}

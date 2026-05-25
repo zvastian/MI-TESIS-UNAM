@@ -1,0 +1,98 @@
+SOURCE: static/nobel/nobel_atlas_es_ui.json
+TOTAL NODES: 1026
+
+=== FIELD: motivation ===
+NODES WITH TAGS: 10
+TAG COUNTS:
+  <i>: 20
+RAW TAG COUNTS:
+  <I>: 8
+  </I>: 8
+  <i>: 2
+  </i>: 2
+
+SAMPLES:
+- 2005 | Fisiología o Medicina | Barry J. Marshall
+  tags: ['<i>', '</i>']
+  text: for their discovery of the bacterium <i>Helicobacter pylori</i> and its role in gastritis and peptic ulcer disease
+- 1919 | Literatura | Carl Spitteler
+  tags: ['<I>', '</I>']
+  text: in special appreciation of his epic, <I>Olympian Spring</I>
+- 1954 | Literatura | Ernest Hemingway
+  tags: ['<I>', '</I>']
+  text: for his mastery of the art of narrative, most recently demonstrated in <I>The Old Man and the Sea,</I> and for the influence that he has exerted on contemporary style
+- 2005 | Fisiología o Medicina | J. Robin Warren
+  tags: ['<i>', '</i>']
+  text: for their discovery of the bacterium <i>Helicobacter pylori</i> and its role in gastritis and peptic ulcer disease
+- 1932 | Literatura | John Galsworthy
+  tags: ['<I>', '</I>']
+  text: for his distinguished art of narration which takes its highest form in <I>The Forsyte Saga</I>
+- 1920 | Literatura | Knut Hamsun
+  tags: ['<I>', '</I>']
+  text: for his monumental work, <I>Growth of the Soil</I>
+- 1937 | Literatura | Roger Martin du Gard
+  tags: ['<I>', '</I>']
+  text: for the artistic power and truth with which he has depicted human conflict as well as some fundamental aspects of contemporary life in his novel-cycle <I>Les Thibault</I>
+- 1902 | Literatura | Theodor Mommsen
+  tags: ['<I>', '</I>']
+  text: the greatest living master of the art of historical writing, with special reference to his monumental work, <I>A history of Rome</I>
+- 1929 | Literatura | Thomas Mann
+  tags: ['<I>', '</I>']
+  text: principally for his great novel, <I>Buddenbrooks</I>, which has won steadily increased recognition as one of the classic works of contemporary literature
+- 1924 | Literatura | Władysław Reymont
+  tags: ['<I>', '</I>']
+  text: for his great national epic, <I>The Peasants</I>
+
+=== FIELD: motivation_es ===
+NODES WITH TAGS: 10
+TAG COUNTS:
+  <i>: 20
+RAW TAG COUNTS:
+  <I>: 8
+  </I>: 8
+  <i>: 2
+  </i>: 2
+
+SAMPLES:
+- 2005 | Fisiología o Medicina | Barry J. Marshall
+  tags: ['<i>', '</i>']
+  text: por su descubrimiento de la bacteria <i>Helicobacter pylori</i> y su papel en la gastritis y la úlcera péptica
+- 1919 | Literatura | Carl Spitteler
+  tags: ['<I>', '</I>']
+  text: en especial reconocimiento a su epopeya, <I>Primavera Olímpica</I>
+- 1954 | Literatura | Ernest Hemingway
+  tags: ['<I>', '</I>']
+  text: por su dominio del arte de la narrativa, demostrado más recientemente en <I>El viejo y el mar</I>, y por la influencia que ha ejercido en el estilo contemporáneo.
+- 2005 | Fisiología o Medicina | J. Robin Warren
+  tags: ['<i>', '</i>']
+  text: por su descubrimiento de la bacteria <i>Helicobacter pylori</i> y su papel en la gastritis y la úlcera péptica
+- 1932 | Literatura | John Galsworthy
+  tags: ['<I>', '</I>']
+  text: por su distinguido arte de la narración que toma su forma más elevada en <I>La saga Forsyte</I>
+- 1920 | Literatura | Knut Hamsun
+  tags: ['<I>', '</I>']
+  text: por su monumental obra, <I>Crecimiento del suelo</I>
+- 1937 | Literatura | Roger Martin du Gard
+  tags: ['<I>', '</I>']
+  text: por el poder artístico y la verdad con la que ha representado el conflicto humano, así como algunos aspectos fundamentales de la vida contemporánea en su ciclo de novelas <I>Les Thibault</I>.
+- 1902 | Literatura | Theodor Mommsen
+  tags: ['<I>', '</I>']
+  text: el mayor maestro vivo del arte de la escritura histórica, con especial referencia a su obra monumental, <I>Una historia de Roma</I>
+- 1929 | Literatura | Thomas Mann
+  tags: ['<I>', '</I>']
+  text: principalmente por su gran novela, <I>Buddenbrooks</I>, que ha ganado un reconocimiento cada vez mayor como una de las obras clásicas de la literatura contemporánea.
+- 1924 | Literatura | Władysław Reymont
+  tags: ['<I>', '</I>']
+  text: por su gran epopeya nacional, <I>Los Campesinos</I>
+
+=== FIELD: motivation_es_clean ===
+NODES WITH TAGS: 0
+TAG COUNTS:
+  none
+RAW TAG COUNTS:
+  none
+
+SAMPLES:
+
+=== SUSPICIOUS ===
+COUNT: 0

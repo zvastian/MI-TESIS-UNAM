@@ -1,0 +1,523 @@
+{
+  "generated_at_utc": "2026-05-25T02:28:30.254856+00:00",
+  "sources": {
+    "laureates": "outputs/nobel/raw/laureates_complete.json",
+    "nobel_prizes": "outputs/nobel/raw/nobelPrizes_complete.json"
+  },
+  "totals": {
+    "laureate_records": 1018,
+    "people": 1018,
+    "organizations": 0,
+    "laureate_award_nodes": 1026,
+    "prize_events": 682,
+    "distinct_award_years": 122,
+    "award_year_min": 1901,
+    "award_year_max": 2025,
+    "laureates_with_multiple_awards": 7
+  },
+  "coverage": {
+    "award_nodes_with_motivation": {
+      "count": 1026,
+      "pct": 100.0
+    },
+    "award_nodes_with_affiliations": {
+      "count": 758,
+      "pct": 73.88
+    },
+    "award_nodes_with_residences": {
+      "count": 230,
+      "pct": 22.42
+    },
+    "award_nodes_with_affiliation_coordinates": {
+      "count": 753,
+      "pct": 73.39
+    },
+    "laureates_with_birth_coordinates": {
+      "count": 964,
+      "pct": 94.7
+    },
+    "laureates_with_wikipedia": {
+      "count": 1018,
+      "pct": 100.0
+    },
+    "laureates_with_wikidata": {
+      "count": 1018,
+      "pct": 100.0
+    },
+    "laureates_with_death_record": {
+      "count": 692,
+      "pct": 67.98
+    }
+  },
+  "distributions": {
+    "award_nodes_by_category": [
+      {
+        "label": "Fisiología o Medicina",
+        "count": 232
+      },
+      {
+        "label": "Física",
+        "count": 230
+      },
+      {
+        "label": "Química",
+        "count": 200
+      },
+      {
+        "label": "Paz",
+        "count": 143
+      },
+      {
+        "label": "Literatura",
+        "count": 122
+      },
+      {
+        "label": "Ciencias Económicas",
+        "count": 99
+      }
+    ],
+    "prize_events_by_category": [
+      {
+        "label": "Química",
+        "count": 125
+      },
+      {
+        "label": "Literatura",
+        "count": 125
+      },
+      {
+        "label": "Paz",
+        "count": 125
+      },
+      {
+        "label": "Física",
+        "count": 125
+      },
+      {
+        "label": "Fisiología o Medicina",
+        "count": 125
+      },
+      {
+        "label": "Ciencias Económicas",
+        "count": 57
+      }
+    ],
+    "laureates_by_gender": [
+      {
+        "label": "male",
+        "count": 923
+      },
+      {
+        "label": "female",
+        "count": 67
+      },
+      {
+        "label": "unknown",
+        "count": 28
+      }
+    ],
+    "award_nodes_by_decade": [
+      {
+        "label": "1900s",
+        "count": 57
+      },
+      {
+        "label": "1910s",
+        "count": 40
+      },
+      {
+        "label": "1920s",
+        "count": 54
+      },
+      {
+        "label": "1930s",
+        "count": 56
+      },
+      {
+        "label": "1940s",
+        "count": 43
+      },
+      {
+        "label": "1950s",
+        "count": 72
+      },
+      {
+        "label": "1960s",
+        "count": 79
+      },
+      {
+        "label": "1970s",
+        "count": 104
+      },
+      {
+        "label": "1980s",
+        "count": 97
+      },
+      {
+        "label": "1990s",
+        "count": 104
+      },
+      {
+        "label": "2000s",
+        "count": 123
+      },
+      {
+        "label": "2010s",
+        "count": 121
+      },
+      {
+        "label": "2020s",
+        "count": 76
+      }
+    ],
+    "top_birth_countries": [
+      {
+        "label": "USA",
+        "count": 296
+      },
+      {
+        "label": "United Kingdom",
+        "count": 94
+      },
+      {
+        "label": "Germany",
+        "count": 84
+      },
+      {
+        "label": "France",
+        "count": 63
+      },
+      {
+        "label": "Japan",
+        "count": 30
+      },
+      {
+        "label": "Sweden",
+        "count": 30
+      },
+      {
+        "label": "Russia",
+        "count": 29
+      },
+      {
+        "label": "Poland",
+        "count": 28
+      },
+      {
+        "label": "Canada",
+        "count": 22
+      },
+      {
+        "label": "the Netherlands",
+        "count": 20
+      },
+      {
+        "label": "Italy",
+        "count": 20
+      },
+      {
+        "label": "Switzerland",
+        "count": 19
+      },
+      {
+        "label": "Austria",
+        "count": 19
+      },
+      {
+        "label": "Norway",
+        "count": 13
+      },
+      {
+        "label": "Denmark",
+        "count": 12
+      },
+      {
+        "label": "Hungary",
+        "count": 12
+      },
+      {
+        "label": "China",
+        "count": 12
+      },
+      {
+        "label": "Scotland",
+        "count": 11
+      },
+      {
+        "label": "Australia",
+        "count": 10
+      },
+      {
+        "label": "India",
+        "count": 9
+      }
+    ],
+    "top_birth_continents": [
+      {
+        "label": "Europe",
+        "count": 523
+      },
+      {
+        "label": "North America",
+        "count": 328
+      },
+      {
+        "label": "Asia",
+        "count": 81
+      },
+      {
+        "label": "Africa",
+        "count": 28
+      },
+      {
+        "label": "Oceania",
+        "count": 15
+      },
+      {
+        "label": "South America",
+        "count": 12
+      }
+    ],
+    "top_affiliation_countries": [
+      {
+        "label": "USA",
+        "count": 448
+      },
+      {
+        "label": "United Kingdom",
+        "count": 100
+      },
+      {
+        "label": "Germany",
+        "count": 86
+      },
+      {
+        "label": "France",
+        "count": 46
+      },
+      {
+        "label": "Switzerland",
+        "count": 25
+      },
+      {
+        "label": "Japan",
+        "count": 24
+      },
+      {
+        "label": "Sweden",
+        "count": 18
+      },
+      {
+        "label": "Russia",
+        "count": 15
+      },
+      {
+        "label": "Denmark",
+        "count": 10
+      },
+      {
+        "label": "Canada",
+        "count": 10
+      },
+      {
+        "label": "the Netherlands",
+        "count": 10
+      },
+      {
+        "label": "Austria",
+        "count": 8
+      },
+      {
+        "label": "Italy",
+        "count": 7
+      },
+      {
+        "label": "Israel",
+        "count": 6
+      },
+      {
+        "label": "Belgium",
+        "count": 6
+      },
+      {
+        "label": "Australia",
+        "count": 6
+      },
+      {
+        "label": "Norway",
+        "count": 5
+      },
+      {
+        "label": "Hungary",
+        "count": 2
+      },
+      {
+        "label": "Argentina",
+        "count": 2
+      },
+      {
+        "label": "China",
+        "count": 2
+      }
+    ],
+    "top_affiliations": [
+      {
+        "label": "University of California",
+        "count": 43
+      },
+      {
+        "label": "Harvard University",
+        "count": 29
+      },
+      {
+        "label": "Massachusetts Institute of Technology (MIT)",
+        "count": 25
+      },
+      {
+        "label": "Stanford University",
+        "count": 22
+      },
+      {
+        "label": "California Institute of Technology (Caltech)",
+        "count": 20
+      },
+      {
+        "label": "University of Chicago",
+        "count": 20
+      },
+      {
+        "label": "University of Cambridge",
+        "count": 18
+      },
+      {
+        "label": "Princeton University",
+        "count": 18
+      },
+      {
+        "label": "Columbia University",
+        "count": 18
+      },
+      {
+        "label": "Howard Hughes Medical Institute",
+        "count": 16
+      },
+      {
+        "label": "Rockefeller University",
+        "count": 13
+      },
+      {
+        "label": "MRC Laboratory of Molecular Biology",
+        "count": 10
+      },
+      {
+        "label": "University of Oxford",
+        "count": 10
+      },
+      {
+        "label": "Yale University",
+        "count": 9
+      },
+      {
+        "label": "Harvard Medical School",
+        "count": 8
+      },
+      {
+        "label": "Cornell University",
+        "count": 8
+      },
+      {
+        "label": "Berlin University",
+        "count": 7
+      },
+      {
+        "label": "University of Heidelberg",
+        "count": 7
+      },
+      {
+        "label": "University College",
+        "count": 7
+      },
+      {
+        "label": "P.N. Lebedev Physical Institute",
+        "count": 6
+      }
+    ]
+  },
+  "multiple_award_laureates": [
+    {
+      "laureate_id": "482",
+      "name": "International Committee of the Red Cross",
+      "award_count": 3,
+      "awards": [
+        "Peace 1917",
+        "Peace 1944",
+        "Peace 1963"
+      ]
+    },
+    {
+      "laureate_id": "222",
+      "name": "Frederick Sanger",
+      "award_count": 2,
+      "awards": [
+        "Chemistry 1958",
+        "Chemistry 1980"
+      ]
+    },
+    {
+      "laureate_id": "66",
+      "name": "John Bardeen",
+      "award_count": 2,
+      "awards": [
+        "Physics 1956",
+        "Physics 1972"
+      ]
+    },
+    {
+      "laureate_id": "743",
+      "name": "K. Barry Sharpless",
+      "award_count": 2,
+      "awards": [
+        "Chemistry 2001",
+        "Chemistry 2022"
+      ]
+    },
+    {
+      "laureate_id": "217",
+      "name": "Linus Pauling",
+      "award_count": 2,
+      "awards": [
+        "Chemistry 1954",
+        "Peace 1962"
+      ]
+    },
+    {
+      "laureate_id": "6",
+      "name": "Marie Curie",
+      "award_count": 2,
+      "awards": [
+        "Physics 1903",
+        "Chemistry 1911"
+      ]
+    },
+    {
+      "laureate_id": "515",
+      "name": "Office of the United Nations High Commissioner for Refugees",
+      "award_count": 2,
+      "awards": [
+        "Peace 1954",
+        "Peace 1981"
+      ]
+    }
+  ],
+  "planning_signals": {
+    "recommended_node_unit": "laureate_award",
+    "semantic_text_available": "motivation",
+    "official_primary_partition": "category",
+    "geographic_views_available": [
+      "birth_place",
+      "affiliation_at_award",
+      "residence_when_provided"
+    ],
+    "frontend_feasibility": "El volumen total cabe cómodamente en una vista Sigma de navegador; no requiere muestreo como las 50k tesis."
+  }
+}
