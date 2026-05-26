@@ -805,6 +805,284 @@
     }
 
 
+
+
+
+    /* taller-dashboard-v2 */
+    .workshop-dashboard {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    .workshop-canvas {
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      padding: 106px 6vw 80px;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(80,80,80,0.16) 1px, transparent 0);
+      background-size: 22px 22px;
+    }
+
+    .workshop-dashboard-head {
+      max-width: 1180px;
+      margin: 0 auto 34px;
+    }
+
+    .workshop-dashboard-head h1 {
+      margin: 0 0 18px;
+      max-width: 840px;
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: clamp(46px, 6vw, 86px);
+      line-height: 0.9;
+      font-weight: 700;
+      color: #121212;
+    }
+
+    .workshop-dashboard-head p {
+      max-width: 760px;
+      color: #4a4742;
+    }
+
+    .workshop-chart-card {
+      max-width: 1180px;
+      margin: 0 auto 22px;
+      padding: 22px;
+      border: 1px solid rgba(20,20,20,0.10);
+      background: rgba(255,255,255,0.92);
+      box-shadow: 0 18px 48px rgba(0,0,0,0.045);
+    }
+
+    .workshop-chart-card-large {
+      padding: 24px;
+    }
+
+    .workshop-grid-two {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .workshop-grid-two .workshop-chart-card {
+      margin: 0 0 22px;
+      max-width: none;
+    }
+
+    .workshop-card-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: flex-start;
+      margin-bottom: 18px;
+    }
+
+    .workshop-card-head h2 {
+      margin: 0 0 9px;
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: 36px;
+      line-height: 0.95;
+      color: #151515;
+    }
+
+    .workshop-card-head p {
+      margin: 0;
+      max-width: 620px;
+      color: #5d5850;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+
+    .workshop-controls-inline {
+      display: flex;
+      gap: 10px;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      min-width: 310px;
+    }
+
+    .workshop-controls-inline.compact {
+      min-width: 210px;
+    }
+
+    .workshop-controls-inline label {
+      display: grid;
+      gap: 6px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 9px;
+      color: #777168;
+    }
+
+    .workshop-controls-inline select {
+      min-width: 138px;
+      height: 32px;
+      border: 1px solid rgba(30,30,30,0.14);
+      background: #ffffff;
+      padding: 0 10px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 10px;
+      color: #1f1d1a;
+      outline: 0;
+    }
+
+    .workshop-series-toggles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 4px 0 18px;
+    }
+
+    .workshop-series-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border: 1px solid rgba(30,30,30,0.12);
+      background: #ffffff;
+      padding: 7px 10px;
+      border-radius: 999px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 9px;
+      color: #4c4740;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .workshop-series-toggle input {
+      accent-color: #111111;
+    }
+
+    .workshop-svg-chart {
+      width: 100%;
+      min-height: 330px;
+    }
+
+    .workshop-svg-chart svg {
+      width: 100%;
+      height: 330px;
+      display: block;
+      overflow: visible;
+    }
+
+    .workshop-svg-label,
+    .workshop-bar-label,
+    .workshop-bar-value,
+    .workshop-heatmap-label {
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 9px;
+      fill: #58544d;
+      color: #58544d;
+    }
+
+    .workshop-bar-chart {
+      display: grid;
+      gap: 9px;
+      margin-top: 14px;
+    }
+
+    .workshop-bar-row {
+      display: grid;
+      grid-template-columns: minmax(160px, 280px) minmax(0, 1fr) 76px;
+      gap: 10px;
+      align-items: center;
+      min-height: 24px;
+    }
+
+    .workshop-bar-track {
+      height: 9px;
+      border-radius: 999px;
+      background: rgba(180,176,168,0.25);
+      overflow: hidden;
+    }
+
+    .workshop-bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: #174EA6;
+    }
+
+    .workshop-bar-value {
+      text-align: right;
+      font-weight: 700;
+    }
+
+    .workshop-heatmap {
+      display: grid;
+      gap: 6px;
+      margin-top: 16px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+    }
+
+    .workshop-heatmap-grid {
+      display: grid;
+      gap: 5px;
+      min-width: 440px;
+    }
+
+    .workshop-heatmap-row {
+      display: grid;
+      grid-template-columns: 118px repeat(var(--cols), minmax(54px, 1fr));
+      gap: 5px;
+      align-items: center;
+    }
+
+    .workshop-heatmap-cell {
+      height: 34px;
+      display: grid;
+      place-items: center;
+      background: rgba(23,78,166,0.08);
+      font-family: "Montserrat", system-ui, sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      color: #27231e;
+    }
+
+    .workshop-heatmap-head {
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 8px;
+      color: #69635b;
+      text-align: center;
+    }
+
+    @media (max-width: 980px) {
+      .workshop-grid-two {
+        grid-template-columns: 1fr;
+      }
+
+      .workshop-card-head {
+        display: grid;
+      }
+
+      .workshop-controls-inline {
+        justify-content: flex-start;
+        min-width: 0;
+      }
+
+      .workshop-canvas {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+    }
+
+
     .tooltip {
       position: absolute;
       z-index: 8;
@@ -1021,17 +1299,143 @@
   </main>
     </section>
 
+
+    
     <section class="tab-panel" data-panel="taller">
-      <div class="simple-panel">
-        <div class="simple-panel-inner">
-          <p class="eyebrow">Taller</p>
-          <h1>Materiales de trabajo</h1>
-          <p>
-            Este espacio queda preparado para agregar ejercicios, notas metodológicas, consignas y herramientas de acompañamiento.
-          </p>
-        </div>
-      </div>
+      <main class="workshop-dashboard">
+        <section class="workshop-canvas">
+          <header class="workshop-dashboard-head">
+            <div>
+              <p class="eyebrow">Taller</p>
+              <h1>Gráficas para leer el acervo</h1>
+              <p>
+                Explora el dataset desde vistas precargadas. Cambia variables, oculta series
+                y convierte patrones del acervo en hallazgos visuales.
+              </p>
+            </div>
+          </header>
+
+          <section class="workshop-chart-card workshop-chart-card-large" data-chart-card="time">
+            <div class="workshop-card-head">
+              <div>
+                <p class="eyebrow">Cambio en el tiempo</p>
+                <h2>¿Cómo ha cambiado el acervo?</h2>
+                <p>Tesis agrupadas por periodo. Cambia la dimensión para comparar áreas, niveles o planteles.</p>
+              </div>
+
+              <div class="workshop-controls-inline">
+                <label>
+                  Dimensión
+                  <select id="workshopTimeDimension">
+                    <option value="area">Área</option>
+                    <option value="nivel_estandar">Nivel</option>
+                    <option value="programa">Programa</option>
+                    <option value="plantel_estandarizado">Plantel</option>
+                  </select>
+                </label>
+
+                <label>
+                  Periodo
+                  <select id="workshopTimeBucket">
+                    <option value="decade">Década</option>
+                    <option value="year">Año</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+
+            <div id="workshopTimeSeriesToggles" class="workshop-series-toggles"></div>
+            <div id="workshopTimeChart" class="workshop-svg-chart"></div>
+          </section>
+
+          <section class="workshop-grid-two">
+            <article class="workshop-chart-card" data-chart-card="composition">
+              <div class="workshop-card-head">
+                <div>
+                  <p class="eyebrow">Composición</p>
+                  <h2>¿Qué domina?</h2>
+                  <p>Ranking de categorías dominantes dentro del acervo.</p>
+                </div>
+
+                <div class="workshop-controls-inline compact">
+                  <label>
+                    Variable
+                    <select id="workshopCompositionDimension">
+                      <option value="programa">Programa</option>
+                      <option value="plantel_estandarizado">Plantel</option>
+                      <option value="area">Área</option>
+                      <option value="nivel_estandar">Nivel</option>
+                      <option value="asesor_limpio_v2">Asesor</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+
+              <div id="workshopCompositionChart" class="workshop-bar-chart"></div>
+            </article>
+
+            <article class="workshop-chart-card" data-chart-card="cross">
+              <div class="workshop-card-head">
+                <div>
+                  <p class="eyebrow">Cruces</p>
+                  <h2>¿Qué variables se encuentran?</h2>
+                  <p>Matriz de concentración entre dos dimensiones académicas.</p>
+                </div>
+
+                <div class="workshop-controls-inline compact">
+                  <label>
+                    Filas
+                    <select id="workshopCrossRows">
+                      <option value="area">Área</option>
+                      <option value="programa">Programa</option>
+                      <option value="plantel_estandarizado">Plantel</option>
+                    </select>
+                  </label>
+
+                  <label>
+                    Columnas
+                    <select id="workshopCrossCols">
+                      <option value="nivel_estandar">Nivel</option>
+                      <option value="area">Área</option>
+                      <option value="decade">Década</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+
+              <div id="workshopCrossChart" class="workshop-heatmap"></div>
+            </article>
+          </section>
+
+          <section class="workshop-chart-card" data-chart-card="people">
+            <div class="workshop-card-head">
+              <div>
+                <p class="eyebrow">Personas</p>
+                <h2>¿Quiénes articulan el acervo?</h2>
+                <p>Asesores con mayor presencia. Después podrá filtrarse por programa, área o periodo.</p>
+              </div>
+
+              <div class="workshop-controls-inline compact">
+                <label>
+                  Top
+                  <select id="workshopPeopleLimit">
+                    <option value="10">10</option>
+                    <option value="20" selected>20</option>
+                    <option value="40">40</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+
+            <div id="workshopPeopleChart" class="workshop-bar-chart wide"></div>
+          </section>
+        </section>
+      </main>
     </section>
+
+
+
+
 
     <section class="tab-panel" data-panel="laboratorio">
       <div class="simple-panel">
@@ -1047,7 +1451,7 @@
     <section class="tab-panel" data-panel="nobel">
       <iframe
         class="nobel-frame"
-        src="/static/nobel_map.html"
+        src="/nobel_map.html"
         title="Atlas Nobel"
         loading="lazy"
       ></iframe>
@@ -1082,10 +1486,329 @@
           }
         });
       }
+
+      if (tab === "taller") {
+        requestAnimationFrame(() => {
+          initWorkshopDashboard();
+        });
+      }
     }
 
     for (const button of tabButtons) {
       button.addEventListener("click", () => setActiveTab(button.dataset.tabTarget));
+    }
+
+
+
+
+
+    // taller-dashboard-v2
+    const workshopDashboardState = {
+      activeSeries: new Set(),
+      initialized: false
+    };
+
+    const WORKSHOP_COLORS = [
+      "#174EA6", "#7A1E3A", "#5A9A7A", "#D08A2E", "#6B4BB7",
+      "#3E7C8B", "#A14D4D", "#76664B", "#4D6A3F", "#B08A00"
+    ];
+
+    const WORKSHOP_DEMO = {
+      time: {
+        area: {
+          decade: [
+            { period: "ANTES 1980", "Area 1": 1120, "Area 2": 2210, "Area 3": 2820, "Area 4": 1345 },
+            { period: "1981-1990", "Area 1": 980, "Area 2": 2020, "Area 3": 1580, "Area 4": 744 },
+            { period: "1991-2000", "Area 1": 1460, "Area 2": 3310, "Area 3": 2480, "Area 4": 1016 },
+            { period: "2001-2010", "Area 1": 2320, "Area 2": 4920, "Area 3": 3320, "Area 4": 1029 },
+            { period: "2011-2020", "Area 1": 2560, "Area 2": 4860, "Area 3": 3150, "Area 4": 828 },
+            { period: "2021-2030", "Area 1": 1655, "Area 2": 3717, "Area 3": 1248, "Area 4": 280 }
+          ]
+        },
+        nivel_estandar: {
+          decade: [
+            { period: "ANTES 1980", "Licenciatura": 6050, "Maestría": 720, "Doctorado": 205, "Especialidad": 520 },
+            { period: "1981-1990", "Licenciatura": 4030, "Maestría": 470, "Doctorado": 160, "Especialidad": 664 },
+            { period: "1991-2000", "Licenciatura": 5720, "Maestría": 740, "Doctorado": 270, "Especialidad": 1536 },
+            { period: "2001-2010", "Licenciatura": 7960, "Maestría": 1190, "Doctorado": 430, "Especialidad": 2009 },
+            { period: "2011-2020", "Licenciatura": 7580, "Maestría": 1190, "Doctorado": 490, "Especialidad": 2138 },
+            { period: "2021-2030", "Licenciatura": 2797, "Maestría": 540, "Doctorado": 338, "Especialidad": 2253 }
+          ]
+        },
+        programa: {
+          decade: [
+            { period: "ANTES 1980", derecho: 840, biologia: 210, economia: 220, psicologia: 280, arquitectura: 340 },
+            { period: "1981-1990", derecho: 920, biologia: 260, economia: 280, psicologia: 390, arquitectura: 410 },
+            { period: "1991-2000", derecho: 1220, biologia: 430, economia: 370, psicologia: 560, arquitectura: 590 },
+            { period: "2001-2010", derecho: 1580, biologia: 510, economia: 420, psicologia: 720, arquitectura: 680 },
+            { period: "2011-2020", derecho: 1390, biologia: 470, economia: 390, psicologia: 650, arquitectura: 540 },
+            { period: "2021-2030", derecho: 475, biologia: 180, economia: 115, psicologia: 224, arquitectura: 126 }
+          ]
+        },
+        plantel_estandarizado: {
+          decade: [
+            { period: "ANTES 1980", "facultad de ciencias unam": 820, "facultad de medicina unam": 910, "fcpyS unam": 670, "fes aragon": 90 },
+            { period: "1981-1990", "facultad de ciencias unam": 640, "facultad de medicina unam": 850, "fcpyS unam": 520, "fes aragon": 260 },
+            { period: "1991-2000", "facultad de ciencias unam": 900, "facultad de medicina unam": 1230, "fcpyS unam": 750, "fes aragon": 540 },
+            { period: "2001-2010", "facultad de ciencias unam": 1250, "facultad de medicina unam": 1640, "fcpyS unam": 980, "fes aragon": 820 },
+            { period: "2011-2020", "facultad de ciencias unam": 1190, "facultad de medicina unam": 1580, "fcpyS unam": 920, "fes aragon": 770 },
+            { period: "2021-2030", "facultad de ciencias unam": 485, "facultad de medicina unam": 1060, "fcpyS unam": 350, "fes aragon": 290 }
+          ]
+        }
+      },
+      composition: {
+        programa: [
+          ["derecho", 6425], ["cirujano dentista", 3010], ["psicologia", 2524], ["arquitectura", 1846],
+          ["biologia", 1708], ["quimica farmaceutico biologica", 1349], ["contaduria", 1344], ["ingenieria civil", 1305],
+          ["economia", 1191], ["medicina veterinaria y zootecnia", 1075]
+        ],
+        plantel_estandarizado: [
+          ["facultad de medicina unam", 6120], ["facultad de ciencias unam", 4320], ["facultad de derecho unam", 3880],
+          ["facultad de ciencias politicas y sociales unam", 3410], ["fes aragon", 2760], ["fes acatlan", 2310],
+          ["fes iztacala", 2190], ["facultad de odontologia unam", 2030]
+        ],
+        area: [
+          ["Area 2", 21037], ["Area 3", 14578], ["Area 1", 10095], ["Area 4", 4242], ["Por Clasificar", 48]
+        ],
+        nivel_estandar: [
+          ["Licenciatura", 34137], ["Especialidad", 9064], ["Maestría", 4850], ["Doctorado", 1893], ["desconocido", 56]
+        ],
+        asesor_limpio_v2: [
+          ["González Reyna, Susana", 62], ["Domínguez Pérez Tejada, César Augusto", 48],
+          ["Quintanilla Obregón, María de Lourdes", 44], ["Pérez García, Juan", 41],
+          ["Hernández López, María", 39], ["Ramírez Sánchez, José", 36]
+        ]
+      },
+      cross: {
+        area_nivel_estandar: {
+          rows: ["Area 1", "Area 2", "Area 3", "Area 4"],
+          cols: ["Licenciatura", "Especialidad", "Maestría", "Doctorado"],
+          values: [
+            [7730, 650, 1210, 505],
+            [12620, 5520, 1990, 907],
+            [10980, 2110, 1035, 453],
+            [2807, 784, 615, 36]
+          ]
+        },
+        programa_nivel_estandar: {
+          rows: ["derecho", "psicologia", "biologia", "economia", "arquitectura"],
+          cols: ["Licenciatura", "Especialidad", "Maestría", "Doctorado"],
+          values: [
+            [4970, 210, 980, 265],
+            [1890, 160, 390, 84],
+            [1210, 30, 330, 138],
+            [830, 20, 280, 61],
+            [1540, 0, 260, 46]
+          ]
+        },
+        plantel_estandarizado_nivel_estandar: {
+          rows: ["fac. medicina", "fac. ciencias", "fcpyS", "fes aragón", "fes acatlán"],
+          cols: ["Licenciatura", "Especialidad", "Maestría", "Doctorado"],
+          values: [
+            [2500, 2910, 530, 180],
+            [3220, 80, 710, 310],
+            [2100, 60, 980, 270],
+            [2230, 120, 340, 70],
+            [1800, 90, 360, 60]
+          ]
+        }
+      }
+    };
+
+    function initWorkshopDashboard() {
+      if (workshopDashboardState.initialized) return;
+
+      const timeDimension = document.getElementById("workshopTimeDimension");
+      const timeBucket = document.getElementById("workshopTimeBucket");
+      const compositionDimension = document.getElementById("workshopCompositionDimension");
+      const crossRows = document.getElementById("workshopCrossRows");
+      const crossCols = document.getElementById("workshopCrossCols");
+      const peopleLimit = document.getElementById("workshopPeopleLimit");
+
+      if (!timeDimension || !timeBucket || !compositionDimension || !crossRows || !crossCols || !peopleLimit) return;
+
+      function upperLabel(value) {
+        return String(value || "").toUpperCase();
+      }
+
+      function seriesFromRows(rows) {
+        const keys = new Set();
+        for (const row of rows) {
+          for (const key of Object.keys(row)) {
+            if (key !== "period") keys.add(key);
+          }
+        }
+        return [...keys];
+      }
+
+      function ensureActiveSeries(series) {
+        const current = workshopDashboardState.activeSeries;
+        const currentValid = [...current].filter(s => series.includes(s));
+
+        if (!currentValid.length) {
+          workshopDashboardState.activeSeries = new Set(series);
+        } else {
+          workshopDashboardState.activeSeries = new Set(currentValid);
+        }
+      }
+
+      function renderSeriesToggles(series) {
+        const container = document.getElementById("workshopTimeSeriesToggles");
+        container.innerHTML = series.map((s, i) => `
+          <label class="workshop-series-toggle">
+            <input type="checkbox" data-workshop-series="${escapeHTML(s)}" ${workshopDashboardState.activeSeries.has(s) ? "checked" : ""}>
+            <span style="width:8px;height:8px;border-radius:50%;display:inline-block;background:${WORKSHOP_COLORS[i % WORKSHOP_COLORS.length]}"></span>
+            ${escapeHTML(upperLabel(s))}
+          </label>
+        `).join("");
+
+        container.querySelectorAll("[data-workshop-series]").forEach(input => {
+          input.addEventListener("change", () => {
+            const key = input.dataset.workshopSeries;
+            if (input.checked) workshopDashboardState.activeSeries.add(key);
+            else workshopDashboardState.activeSeries.delete(key);
+            renderTimeChart();
+          });
+        });
+      }
+
+      function renderTimeChart() {
+        const dim = timeDimension.value;
+        const bucket = timeBucket.value;
+        const rows = WORKSHOP_DEMO.time[dim]?.[bucket] || WORKSHOP_DEMO.time[dim]?.decade || WORKSHOP_DEMO.time.area.decade;
+        const series = seriesFromRows(rows);
+        ensureActiveSeries(series);
+        renderSeriesToggles(series);
+
+        const active = series.filter(s => workshopDashboardState.activeSeries.has(s));
+        const container = document.getElementById("workshopTimeChart");
+
+        const width = 1040;
+        const height = 330;
+        const pad = { left: 54, right: 24, top: 18, bottom: 42 };
+        const innerW = width - pad.left - pad.right;
+        const innerH = height - pad.top - pad.bottom;
+
+        const maxY = Math.max(1, ...rows.map(row => active.reduce((sum, key) => sum + Number(row[key] || 0), 0)));
+        const groupW = innerW / rows.length;
+        const barGap = 6;
+        const seriesW = Math.max(5, (groupW - 18) / Math.max(active.length, 1) - barGap);
+
+        const bars = [];
+
+        rows.forEach((row, rowIndex) => {
+          active.forEach((key, seriesIndex) => {
+            const value = Number(row[key] || 0);
+            const h = value / maxY * innerH;
+            const x = pad.left + rowIndex * groupW + 10 + seriesIndex * (seriesW + barGap);
+            const y = pad.top + innerH - h;
+            const color = WORKSHOP_COLORS[series.indexOf(key) % WORKSHOP_COLORS.length];
+
+            bars.push(`
+              <rect x="${x}" y="${y}" width="${seriesW}" height="${h}" rx="2" fill="${color}" opacity="0.86">
+                <title>${escapeHTML(row.period)} · ${escapeHTML(key)} · ${value}</title>
+              </rect>
+            `);
+          });
+        });
+
+        const xLabels = rows.map((row, i) => {
+          const x = pad.left + i * groupW + groupW / 2;
+          return `<text x="${x}" y="${height - 15}" text-anchor="middle" class="workshop-svg-label">${escapeHTML(row.period)}</text>`;
+        }).join("");
+
+        const grid = [0, 0.25, 0.5, 0.75, 1].map(t => {
+          const y = pad.top + innerH - t * innerH;
+          const label = Math.round(maxY * t);
+          return `
+            <line x1="${pad.left}" x2="${width - pad.right}" y1="${y}" y2="${y}" stroke="rgba(20,20,20,0.08)" />
+            <text x="${pad.left - 10}" y="${y + 3}" text-anchor="end" class="workshop-svg-label">${label}</text>
+          `;
+        }).join("");
+
+        container.innerHTML = `
+          <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Cambio en el tiempo">
+            ${grid}
+            ${bars.join("")}
+            ${xLabels}
+          </svg>
+        `;
+      }
+
+      function renderBarChart(containerId, rows, limit = 12) {
+        const container = document.getElementById(containerId);
+        const sliced = rows.slice(0, limit);
+        const max = Math.max(...sliced.map(row => Number(row[1] || 0)), 1);
+
+        container.innerHTML = sliced.map((row, index) => `
+          <div class="workshop-bar-row">
+            <div class="workshop-bar-label">${escapeHTML(upperLabel(row[0]))}</div>
+            <div class="workshop-bar-track">
+              <div class="workshop-bar-fill" style="width:${Math.max(3, row[1] / max * 100)}%; background:${WORKSHOP_COLORS[index % WORKSHOP_COLORS.length]}"></div>
+            </div>
+            <div class="workshop-bar-value">${escapeHTML(row[1])}</div>
+          </div>
+        `).join("");
+      }
+
+      function renderCompositionChart() {
+        const dim = compositionDimension.value;
+        const rows = WORKSHOP_DEMO.composition[dim] || WORKSHOP_DEMO.composition.programa;
+        renderBarChart("workshopCompositionChart", rows, 10);
+      }
+
+      function renderPeopleChart() {
+        const rows = WORKSHOP_DEMO.composition.asesor_limpio_v2;
+        renderBarChart("workshopPeopleChart", rows, Number(peopleLimit.value || 20));
+      }
+
+      function renderCrossChart() {
+        const key = `${crossRows.value}_${crossCols.value}`;
+        const fallback = "area_nivel_estandar";
+        const data = WORKSHOP_DEMO.cross[key] || WORKSHOP_DEMO.cross[fallback];
+
+        const max = Math.max(...data.values.flat(), 1);
+        const cols = data.cols.length;
+        const container = document.getElementById("workshopCrossChart");
+
+        container.innerHTML = `
+          <div class="workshop-heatmap-grid" style="--cols:${cols}">
+            <div class="workshop-heatmap-row">
+              <div></div>
+              ${data.cols.map(col => `<div class="workshop-heatmap-head">${escapeHTML(upperLabel(col))}</div>`).join("")}
+            </div>
+            ${data.rows.map((row, rowIndex) => `
+              <div class="workshop-heatmap-row">
+                <div class="workshop-heatmap-label">${escapeHTML(upperLabel(row))}</div>
+                ${data.values[rowIndex].map(value => {
+                  const alpha = 0.08 + (Number(value) / max) * 0.72;
+                  return `<div class="workshop-heatmap-cell" style="background:rgba(23,78,166,${alpha})">${escapeHTML(value)}</div>`;
+                }).join("")}
+              </div>
+            `).join("")}
+          </div>
+        `;
+      }
+
+      function renderAllWorkshopCharts() {
+        renderTimeChart();
+        renderCompositionChart();
+        renderCrossChart();
+        renderPeopleChart();
+      }
+
+      [timeDimension, timeBucket].forEach(el => el.addEventListener("change", () => {
+        workshopDashboardState.activeSeries = new Set();
+        renderTimeChart();
+      }));
+
+      compositionDimension.addEventListener("change", renderCompositionChart);
+      crossRows.addEventListener("change", renderCrossChart);
+      crossCols.addEventListener("change", renderCrossChart);
+      peopleLimit.addEventListener("change", renderPeopleChart);
+
+      renderAllWorkshopCharts();
+      workshopDashboardState.initialized = true;
     }
 
 
@@ -1593,6 +2316,14 @@
 
       const endpoint = `/api/explore/neighborhood/${encodeURIComponent(thesis.thesis_id)}?top_k=100`;
       const response = await fetch(endpoint);
+      const contentType = response.headers.get("content-type") || "";
+
+      if (!response.ok || !contentType.includes("application/json")) {
+        throw new Error(
+          "El vecindario requiere la API de FastAPI. Abre esta interfaz desde el puerto 8000 del servidor uvicorn."
+        );
+      }
+
       const result = await response.json();
 
       if (!response.ok || !result.ok) {

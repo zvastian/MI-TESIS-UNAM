@@ -132,3 +132,30 @@ outputs/explore/neighborhood_test_*.json
 # Keep consolidated Nobel folder versioned for now
 !nobel/
 !nobel/**
+
+# Runtime / temporary
+__pycache__/
+*.pyc
+.venv/
+*.tmp
+*.bak
+*.save
+*.before_*.html
+*.before_*.json
+*.before_*.py
+
+# Large/generated data outside curated folders
+*.parquet
+*.npy
+*.npz
+*.db
+*.sqlite
+*.sqlite3
+outputs/
+static/v/
+static/patch.py
+i.html
+
+# Keep consolidated Nobel folder versioned
+!nobel/
+!nobel/**
