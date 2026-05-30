@@ -1,220 +1,4830 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NODO UNAM · Laboratorio de tesis</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NODO UNAM · Sigma Exploration</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Montserrat:wght@400;500;600;700&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    :root {
+      --bg: #06111F;
+      --paper: #0A1728;
+      --ink: #EAF4FF;
+      --muted: #9FB4CA;
+      --soft: #26384D;
+      --line: rgba(170, 205, 240, 0.16);
+      --project: #6B4BB7;
+      --halo: rgba(183, 160, 230, 0.28);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Montserrat", system-ui, sans-serif;
+      overflow: hidden;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .stage {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 46%, rgba(18, 45, 78, 0.52) 0%, rgba(8, 22, 39, 0.92) 42%, #06111F 100%);
+    }
+
+    #sigma-container {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+
+    .similarity-grid {
+      display: none;
+    }
+
+    body[data-mode="analytic"] .similarity-grid {
+      display: none;
+    }
+
+    .similarity-grid svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .similarity-grid ellipse {
+      fill: none;
+      stroke: rgba(70, 68, 62, 0.095);
+      stroke-width: 0.42;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .similarity-grid line,
+    .similarity-grid .grid-axis {
+      stroke: rgba(70, 68, 62, 0.045);
+      stroke-width: 0.38;
+      stroke-dasharray: 1.2 2.8;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .grid-label {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      letter-spacing: 0.04em;
+      font-size: 2.15px;
+      font-weight: 300;
+      fill: rgba(78, 75, 69, 0.34);
+    }
+
+    .topbar {
+      position: absolute;
+      top: 24px;
+      left: 28px;
+      right: 28px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+      z-index: 5;
+      pointer-events: none;
+    }
+
+    .brand {
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.075em;
+      font-size: 12px;
+      font-weight: 700;
+      color: #222;
+      padding-top: 4px;
+    }
+
+    .controls {
+      pointer-events: auto;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      max-width: 860px;
+    }
+
+    .control {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      height: 32px;
+      padding: 0 10px;
+      border: 1px solid rgba(215, 208, 196, 0.88);
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.72);
+      backdrop-filter: blur(14px);
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #625d55;
+    }
+
+    .control select,
+    .control input {
+      border: 0;
+      outline: 0;
+      background: transparent;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 10px;
+      color: #26221e;
+    }
+
+    .mode-toggle {
+      display: inline-flex;
+      gap: 4px;
+      padding: 3px;
+      border: 1px solid rgba(215, 208, 196, 0.88);
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.72);
+      backdrop-filter: blur(14px);
+    }
+
+    .mode-btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 7px 10px;
+      background: transparent;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #625d55;
+      cursor: pointer;
+    }
+
+    .mode-btn.active {
+      background: #1d1b18;
+      color: #fffdf8;
+    }
+
+    aside {
+      background: rgba(255, 253, 248, 0.94);
+      border-left: 1px solid var(--line);
+      padding: 34px 30px;
+      overflow: auto;
+      backdrop-filter: blur(18px);
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.095em;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: 30px;
+      line-height: 1.04;
+      letter-spacing: -0.035em;
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .thesis-title {
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: 30px;
+      line-height: 0.98;
+      font-weight: 700;
+    }
+
+    .tooltip-title {
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      font-size: 14px;
+      line-height: 1.05;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 18px;
+      color: #45413a;
+      line-height: 1.55;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+    }
+
+    .meta-grid {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      display: grid;
+      gap: 12px;
+    }
+
+    .meta-item {
+      display: grid;
+      gap: 3px;
+    }
+
+    .meta-label {
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      font-size: 10px;
+      font-weight: 400;
+      color: var(--muted);
+    }
+
+    .meta-value {
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 12px;
+      font-weight: 700;
+      color: #24211d;
+    }
+
+    .legend {
+      position: absolute;
+      left: 28px;
+      bottom: 26px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      z-index: 5;
+      pointer-events: none;
+    }
+
+    body[data-mode="analytic"] .legend {
+      display: none;
+    }
+
+    .legend-chip {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.68);
+      backdrop-filter: blur(10px);
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 10px;
+      color: #5f5a52;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+
+    .main-tabs {
+      position: fixed;
+      top: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 30;
+      display: inline-flex;
+      gap: 4px;
+      padding: 4px;
+      border: 1px solid rgba(215, 208, 196, 0.88);
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.82);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    }
+
+    .tab-btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 8px 12px;
+      background: transparent;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #625d55;
+      cursor: pointer;
+    }
+
+    .tab-btn.active {
+      background: #1d1b18;
+      color: #fffdf8;
+    }
+
+    .tab-shell {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .tab-panel {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 160ms ease, visibility 160ms ease;
+    }
+
+    body[data-tab="inicio"] .tab-panel[data-panel="inicio"],
+    body[data-tab="explorar"] .tab-panel[data-panel="explorar"],
+    body[data-tab="taller"] .tab-panel[data-panel="taller"],
+    body[data-tab="laboratorio"] .tab-panel[data-panel="laboratorio"],
+    body[data-tab="nobel"] .tab-panel[data-panel="nobel"] {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .simple-panel {
+      width: 100%;
+      height: 100%;
+      padding: 110px 8vw 70px;
+      overflow: auto;
+      background:
+        radial-gradient(circle at 50% 35%, rgba(255,255,255,0.98) 0%, rgba(250,248,243,0.95) 46%, rgba(242,239,232,1) 100%);
+    }
+
+    .simple-panel-inner {
+      max-width: 920px;
+    }
+
+    .simple-panel h1 {
+      max-width: 760px;
+      margin-bottom: 22px;
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: clamp(42px, 6vw, 82px);
+      line-height: 0.92;
+    }
+
+    .simple-panel p {
+      max-width: 680px;
+      font-size: 13px;
+    }
+
+    .simple-grid {
+      margin-top: 34px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      max-width: 900px;
+    }
+
+    .simple-card {
+      border-top: 1px solid var(--line);
+      padding-top: 16px;
+    }
+
+    .simple-card h2 {
+      margin: 0 0 10px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.075em;
+      font-size: 12px;
+    }
+
+    .simple-card p {
+      margin: 0;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 860px) {
+      .main-tabs {
+        left: 14px;
+        right: 14px;
+        transform: none;
+        justify-content: center;
+        overflow-x: auto;
+      }
+
+      .simple-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+
+
+    .tab-panel[data-panel="explorar"] .topbar {
+      top: 70px;
+    }
+
+    .view-action {
+      height: 32px;
+      padding: 0 12px;
+      border: 1px solid rgba(215, 208, 196, 0.88);
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.78);
+      backdrop-filter: blur(14px);
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #423d37;
+      cursor: pointer;
+    }
+
+    .explore-map-view {
+      display: grid;
+    }
+
+    body[data-explore-view="solar"] .explore-map-view {
+      display: none;
+    }
+
+    body[data-explore-view="map"] .solar-view {
+      display: none;
+    }
+
+    .macro-stage {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 46%, rgba(18, 45, 78, 0.52) 0%, rgba(8, 22, 39, 0.92) 46%, #06111F 100%);
+    }
+
+    #macro-container {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+
+
+    .macro-stage {
+      --a1-x: 18%;
+      --a1-y: 18%;
+      --a2-x: 82%;
+      --a2-y: 18%;
+      --a3-x: 82%;
+      --a3-y: 82%;
+      --a4-x: 18%;
+      --a4-y: 82%;
+      --field-radius: 420px;
+      background:
+        radial-gradient(circle at 50% 45%, rgba(18, 45, 78, 0.52) 0%, rgba(8, 22, 39, 0.92) 46%, #06111F 100%);
+    }
+
+    .discipline-field {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .field-axis {
+      position: absolute;
+      border: 1px solid rgba(126, 117, 104, 0.10);
+    }
+
+    .field-axis::before,
+    .field-axis::after {
+      content: "";
+      position: absolute;
+      background: rgba(126, 117, 104, 0.09);
+    }
+
+    .field-axis::before {
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+    }
+
+    .field-axis::after {
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+    }
+
+    .field-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 150px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      text-transform: uppercase;
+      font-size: 9px;
+      line-height: 1.55;
+      color: rgba(91, 85, 77, 0.48);
+    }
+
+    .area-pole {
+      position: absolute;
+      max-width: 152px;
+    }
+
+    .area-pole::before {
+      content: "";
+      display: block;
+      width: 9px;
+      height: 9px;
+      margin-bottom: 8px;
+      border-radius: 50%;
+      background: var(--pole-color);
+    }
+
+    .area-pole strong {
+      display: block;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #29251f;
+    }
+
+    .area-pole span {
+      display: block;
+      margin-top: 5px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      font-size: 9px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    .area-pole.a1 {
+      --pole-color: #D7ECFF;
+      transform: translate(10px, calc(-100% - 10px));
+    }
+
+    .area-pole.a2 {
+      --pole-color: #8CCBFF;
+      text-align: right;
+      transform: translate(calc(-100% - 10px), calc(-100% - 10px));
+    }
+
+    .area-pole.a2::before,
+    .area-pole.a3::before {
+      margin-left: auto;
+    }
+
+    .area-pole.a3 {
+      --pole-color: #4FA3FF;
+      text-align: right;
+      transform: translate(calc(-100% - 10px), 10px);
+    }
+
+    .area-pole.a4 {
+      --pole-color: #2D6BFF;
+      transform: translate(10px, 10px);
+    }
+
+    .area-composition {
+      margin-top: 20px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .area-row {
+      margin-top: 10px;
+    }
+
+    .area-row-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 5px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      font-size: 10px;
+      color: #4b463e;
+    }
+
+    .area-bar {
+      height: 5px;
+      border-radius: 4px;
+      background: rgba(217, 210, 196, 0.45);
+      overflow: hidden;
+    }
+
+    .area-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+    }
+
+    .blend-legend {
+      display: none;
+    }
+
+    .blend-swatch {
+      width: 65px;
+      height: 8px;
+      border-radius: 8px;
+      background: linear-gradient(90deg, #D7ECFF 0%, #8CCBFF 33%, #4FA3FF 67%, #2D6BFF 100%);
+    }
+
+    .blend-legend span {
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.065em;
+      font-size: 9px;
+      color: var(--muted);
+    }
+
+
+    .macro-caption {
+      position: absolute;
+      left: 28px;
+      bottom: 26px;
+      z-index: 6;
+      max-width: 330px;
+      padding: 10px 13px;
+      border: 1px solid var(--line);
+      background: rgba(255,253,248,0.82);
+      backdrop-filter: blur(12px);
+    }
+
+    .macro-caption p {
+      margin: 0;
+      font-size: 10px;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+
+    .explore-map-view .macro-caption {
+      display: none;
+    }
+
+    .macro-panel h1 {
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: 30px;
+      line-height: 0.98;
+    }
+
+    .macro-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .macro-section {
+      margin-top: 20px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .macro-values {
+      margin-top: 7px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 11px;
+      line-height: 1.6;
+      font-weight: 600;
+      color: #24211d;
+    }
+
+
+    .drill-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .drill-btn {
+      border: 1px solid rgba(215, 208, 196, 0.94);
+      background: #fffdf8;
+      min-height: 34px;
+      padding: 0 13px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      color: #3e3932;
+      cursor: pointer;
+    }
+
+    .drill-btn.primary {
+      background: #1d1b18;
+      border-color: #1d1b18;
+      color: #fffdf8;
+    }
+
+    .drill-path {
+      margin: 0 0 16px;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+
+    .representative-note {
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-size: 10px;
+      color: var(--muted);
+    }
+
+    .loading-panel {
+      padding-top: 20px;
+      color: var(--muted);
+    }
+
+
+    .macro-hint {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 10px;
+    }
+
+
+
+
+
+    /* taller-dashboard-v2 */
+    .workshop-dashboard {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    .workshop-canvas {
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      padding: 106px 6vw 80px;
+      background:
+        radial-gradient(circle at 1px 1px, rgba(80,80,80,0.16) 1px, transparent 0);
+      background-size: 22px 22px;
+    }
+
+    .workshop-dashboard-head {
+      max-width: 1180px;
+      margin: 0 auto 34px;
+    }
+
+    .workshop-dashboard-head h1 {
+      margin: 0 0 18px;
+      max-width: 840px;
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: clamp(46px, 6vw, 86px);
+      line-height: 0.9;
+      font-weight: 700;
+      color: #121212;
+    }
+
+    .workshop-dashboard-head p {
+      max-width: 760px;
+      color: #4a4742;
+    }
+
+    .workshop-chart-card {
+      max-width: 1180px;
+      margin: 0 auto 22px;
+      padding: 22px;
+      border: 1px solid rgba(20,20,20,0.10);
+      background: rgba(255,255,255,0.92);
+      box-shadow: 0 18px 48px rgba(0,0,0,0.045);
+    }
+
+    .workshop-chart-card-large {
+      padding: 24px;
+    }
+
+    .workshop-grid-two {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .workshop-grid-two .workshop-chart-card {
+      margin: 0 0 22px;
+      max-width: none;
+    }
+
+    .workshop-card-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: flex-start;
+      margin-bottom: 18px;
+    }
+
+    .workshop-card-head h2 {
+      margin: 0 0 9px;
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: 36px;
+      line-height: 0.95;
+      color: #151515;
+    }
+
+    .workshop-card-head p {
+      margin: 0;
+      max-width: 620px;
+      color: #5d5850;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+
+    .workshop-controls-inline {
+      display: flex;
+      gap: 10px;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      min-width: 310px;
+    }
+
+    .workshop-controls-inline.compact {
+      min-width: 210px;
+    }
+
+    .workshop-controls-inline label {
+      display: grid;
+      gap: 6px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 9px;
+      color: #777168;
+    }
+
+    .workshop-controls-inline select {
+      min-width: 138px;
+      height: 32px;
+      border: 1px solid rgba(30,30,30,0.14);
+      background: #ffffff;
+      padding: 0 10px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 10px;
+      color: #1f1d1a;
+      outline: 0;
+    }
+
+    .workshop-series-toggles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 4px 0 18px;
+    }
+
+    .workshop-series-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border: 1px solid rgba(30,30,30,0.12);
+      background: #ffffff;
+      padding: 7px 10px;
+      border-radius: 999px;
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 9px;
+      color: #4c4740;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .workshop-series-toggle input {
+      accent-color: #111111;
+    }
+
+    .workshop-svg-chart {
+      width: 100%;
+      min-height: 330px;
+    }
+
+    .workshop-svg-chart svg {
+      width: 100%;
+      height: 330px;
+      display: block;
+      overflow: visible;
+    }
+
+    .workshop-svg-label,
+    .workshop-bar-label,
+    .workshop-bar-value,
+    .workshop-heatmap-label {
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 9px;
+      fill: #58544d;
+      color: #58544d;
+    }
+
+    .workshop-bar-chart {
+      display: grid;
+      gap: 9px;
+      margin-top: 14px;
+    }
+
+    .workshop-bar-row {
+      display: grid;
+      grid-template-columns: minmax(160px, 280px) minmax(0, 1fr) 76px;
+      gap: 10px;
+      align-items: center;
+      min-height: 24px;
+    }
+
+    .workshop-bar-track {
+      height: 9px;
+      border-radius: 999px;
+      background: rgba(180,176,168,0.25);
+      overflow: hidden;
+    }
+
+    .workshop-bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: #174EA6;
+    }
+
+    .workshop-bar-value {
+      text-align: right;
+      font-weight: 700;
+    }
+
+    .workshop-heatmap {
+      display: grid;
+      gap: 6px;
+      margin-top: 16px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+    }
+
+    .workshop-heatmap-grid {
+      display: grid;
+      gap: 5px;
+      min-width: 440px;
+    }
+
+    .workshop-heatmap-row {
+      display: grid;
+      grid-template-columns: 118px repeat(var(--cols), minmax(54px, 1fr));
+      gap: 5px;
+      align-items: center;
+    }
+
+    .workshop-heatmap-cell {
+      height: 34px;
+      display: grid;
+      place-items: center;
+      background: rgba(23,78,166,0.08);
+      font-family: "Montserrat", system-ui, sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      color: #27231e;
+    }
+
+    .workshop-heatmap-head {
+      font-family: "Montserrat", system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 8px;
+      color: #69635b;
+      text-align: center;
+    }
+
+    @media (max-width: 980px) {
+      .workshop-grid-two {
+        grid-template-columns: 1fr;
+      }
+
+      .workshop-card-head {
+        display: grid;
+      }
+
+      .workshop-controls-inline {
+        justify-content: flex-start;
+        min-width: 0;
+      }
+
+      .workshop-canvas {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+    }
+
+
+    /* dark-blue-explore-v1 */
+    body {
+      background: #06111F;
+      color: #EAF4FF;
+    }
+
+    .main-tabs {
+      border-color: rgba(170, 205, 240, 0.18);
+      background: rgba(4, 13, 25, 0.82);
+      box-shadow: 0 14px 36px rgba(0,0,0,0.32);
+    }
+
+    .tab-btn {
+      color: #9FB4CA;
+    }
+
+    .tab-btn.active,
+    .mode-btn.active {
+      background: #EAF4FF;
+      color: #06111F;
+    }
+
+    .brand,
+    .area-pole strong,
+    .macro-panel h1,
+    aside h1,
+    .thesis-title {
+      color: #EAF4FF;
+    }
+
+    p,
+    .area-pole span,
+    .macro-values,
+    .meta-value,
+    .area-row-head {
+      color: #B9CBE0;
+    }
+
+    .eyebrow,
+    .meta-label,
+    .field-center,
+    .macro-caption p,
+    .macro-hint,
+    .representative-note {
+      color: #8FA8C2;
+    }
+
+    aside,
+    .macro-panel {
+      background: rgba(6, 17, 31, 0.94);
+      border-left: 1px solid rgba(170, 205, 240, 0.16);
+      backdrop-filter: blur(18px);
+    }
+
+    .control,
+    .mode-toggle,
+    .view-action,
+    .drill-btn,
+    .legend-chip,
+    .macro-caption {
+      border-color: rgba(170, 205, 240, 0.18);
+      background: rgba(9, 24, 43, 0.76);
+      color: #C9DBEE;
+      backdrop-filter: blur(14px);
+    }
+
+    .control select,
+    .control input {
+      color: #EAF4FF;
+    }
+
+    .view-action:hover,
+    .drill-btn:hover {
+      background: rgba(18, 45, 78, 0.88);
+    }
+
+    .field-axis {
+      border-color: rgba(190, 220, 250, 0.12);
+    }
+
+    .field-axis::before,
+    .field-axis::after {
+      background: rgba(190, 220, 250, 0.10);
+    }
+
+    .area-composition,
+    .macro-section,
+    .macro-stats,
+    .meta-grid,
+    .drill-actions {
+      border-top-color: rgba(170, 205, 240, 0.16);
+    }
+
+    .area-bar {
+      background: rgba(170, 205, 240, 0.13);
+    }
+
+    .dot {
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.12);
+    }
+
+
+    .tooltip {
+      position: absolute;
+      z-index: 8;
+      max-width: 320px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      background: rgba(255,253,248,0.96);
+      box-shadow: 0 12px 34px rgba(0,0,0,0.08);
+      border-radius: 14px;
+      font-size: 13px;
+      line-height: 1.35;
+      color: #222;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, calc(-100% - 14px));
+      transition: opacity 120ms ease;
+    }
+
+    .tooltip.visible { opacity: 1; }
+
+    .tooltip {
+      border-color: rgba(170, 205, 240, 0.20);
+      background: rgba(6, 17, 31, 0.96);
+      color: #EAF4FF;
+      box-shadow: 0 18px 42px rgba(0,0,0,0.35);
+    }
+
+    .tooltip-title {
+      color: #EAF4FF;
+    }
+
+    .nobel-frame {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: #f7f5ef;
+    }
+
+
+    /* nobel-parent-nav-dark-v1 */
+    body[data-tab="nobel"] .main-tabs {
+      border-color: rgba(148, 178, 207, 0.20);
+      background: rgba(8, 20, 37, 0.88);
+      box-shadow: 0 12px 34px rgba(0,0,0,0.30);
+    }
+
+    body[data-tab="nobel"] .tab-btn {
+      color: #94abc2;
+    }
+
+    body[data-tab="nobel"] .tab-btn.active {
+      background: #e7f1fb;
+      color: #091727;
+    }
+
+    .lab-page button,
+    .lab-page input,
+    .lab-page textarea,
+    .lab-page select {
+      font: inherit;
+    }
+
+    .lab-title {
+      max-width: 880px;
+      margin: 0 0 22px;
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: clamp(42px, 6vw, 82px);
+      line-height: 0.92;
+      font-weight: 700;
+      color: #151515;
+    }
+
+    .lab-page p {
+      color: #4a4742;
+    }
+
+    .lab-page .eyebrow,
+    .lab-page .meta,
+    .lab-page .source-line,
+    .lab-page .lab-mini-label,
+    .lab-page .lab-field label {
+      color: #6d737c;
+    }
+    .lab-page {
+      --ink: #151515;
+      --muted: #6f6b63;
+      --line: #e7e0d4;
+      --blue: #174EA6;
+      --wine: #7A1E3A;
+      width: 100%;
+      height: 100vh;
+      overflow: auto;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(246, 243, 238, 0.98)),
+        radial-gradient(circle at 14% 16%, rgba(23, 78, 166, 0.10), transparent 34%),
+        radial-gradient(circle at 86% 20%, rgba(122, 30, 58, 0.08), transparent 30%);
+      padding: 112px 6vw 78px;
+      color: var(--ink);
+    }
+
+    .lab-inner {
+      width: min(1060px, 100%);
+      margin: 0 auto;
+    }
+
+    .lab-intro {
+      margin-bottom: 32px;
+    }
+
+    .lab-intro p {
+      max-width: 760px;
+    }
+
+    .lab-form {
+      display: grid;
+      gap: 22px;
+      padding: 28px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.88);
+      box-shadow: 0 18px 52px rgba(20, 22, 26, 0.07);
+    }
+
+    .lab-field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .lab-field label,
+    .lab-mini-label {
+      text-transform: uppercase;
+      letter-spacing: 0.085em;
+      font-size: 10px;
+      font-weight: 700;
+      color: #575b63;
+    }
+
+    .lab-field input,
+    .lab-field textarea,
+    .lab-field select {
+      width: 100%;
+      border: 1px solid rgba(20, 22, 26, 0.14);
+      background: #ffffff;
+      color: #151515;
+      outline: 0;
+      padding: 13px 14px;
+      font-size: 13px;
+    }
+
+    .lab-field textarea {
+      min-height: 92px;
+      resize: vertical;
+      line-height: 1.5;
+    }
+
+    .lab-field input:focus,
+    .lab-field textarea:focus,
+    .lab-field select:focus {
+      border-color: rgba(23, 78, 166, 0.58);
+      box-shadow: 0 0 0 3px rgba(23, 78, 166, 0.08);
+    }
+
+    .lab-compact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .lab-chip-editor {
+      display: grid;
+      gap: 10px;
+    }
+
+    .lab-inline-control {
+      display: flex;
+      gap: 8px;
+    }
+
+    .lab-inline-control input {
+      flex: 1;
+    }
+
+    .lab-icon-btn,
+    .lab-primary-btn,
+    .lab-secondary-btn {
+      min-height: 42px;
+      border: 1px solid rgba(20, 22, 26, 0.16);
+      background: #ffffff;
+      color: #151515;
+      padding: 0 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.075em;
+      font-size: 10px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .lab-icon-btn {
+      width: 46px;
+      padding: 0;
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .lab-primary-btn {
+      justify-self: start;
+      min-width: 190px;
+      border-color: #151515;
+      background: #151515;
+      color: #ffffff;
+    }
+
+    .lab-primary-btn:disabled {
+      cursor: wait;
+      opacity: 0.58;
+    }
+
+    .lab-secondary-btn:hover,
+    .lab-icon-btn:hover {
+      background: #f3f0ea;
+    }
+
+    .chip-row,
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip,
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      min-height: 28px;
+      padding: 6px 10px;
+      border: 1px solid rgba(20, 22, 26, 0.12);
+      border-radius: 999px;
+      background: #f7f4ee;
+      color: #3e4147;
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      font-size: 10px;
+      font-weight: 600;
+    }
+
+    .chip small {
+      color: var(--blue);
+      font-weight: 800;
+    }
+
+    .remove {
+      cursor: pointer;
+      color: #8d2c2c;
+      font-weight: 800;
+    }
+
+    .lab-period {
+      display: grid;
+      gap: 12px;
+      padding-top: 4px;
+    }
+
+    .lab-check {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 10px;
+      font-weight: 700;
+      color: #575b63;
+    }
+
+    .lab-year-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 12px;
+    }
+
+    .bloom-preview {
+      display: grid;
+      gap: 8px;
+      padding: 18px;
+      border: 1px solid rgba(20, 22, 26, 0.10);
+      background: #fbfaf7;
+    }
+
+    .bloom-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 34px;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 0;
+      border-top: 1px solid rgba(20, 22, 26, 0.08);
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .bloom-row:first-child {
+      border-top: 0;
+    }
+
+    .bloom-row small {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    .bloom-count {
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #151515;
+      color: #ffffff;
+    }
+
+    .verb-tools {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .verb-popup {
+      display: none;
+      padding: 18px;
+      border: 1px solid var(--line);
+      background: #ffffff;
+    }
+
+    .verb-popup.open {
+      display: grid;
+      gap: 16px;
+    }
+
+    .verb-section h4 {
+      margin: 0 0 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 10px;
+      color: #4b4f57;
+    }
+
+    .verb-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .verb-chip {
+      border: 1px solid rgba(20, 22, 26, 0.12);
+      border-radius: 999px;
+      background: #f7f4ee;
+      padding: 7px 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      font-size: 9px;
+      cursor: pointer;
+    }
+
+    .lab-status {
+      margin-top: 24px;
+      padding: 22px;
+      border: 1px solid rgba(23, 78, 166, 0.18);
+      background: rgba(255, 255, 255, 0.92);
+    }
+
+    .lab-status h2 {
+      margin: 0 0 8px;
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: 36px;
+      line-height: 0.95;
+    }
+
+    .lab-results {
+      margin-top: 36px;
+      display: grid;
+      gap: 22px;
+    }
+
+    .timeline {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .timeline-step {
+      display: grid;
+      gap: 3px;
+      min-width: 128px;
+      padding: 10px 12px;
+      border-top: 3px solid #151515;
+      background: #ffffff;
+      box-shadow: 0 8px 24px rgba(20, 22, 26, 0.05);
+    }
+
+    .timeline-step small,
+    .meta,
+    .source-line {
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      font-size: 10px;
+      line-height: 1.55;
+    }
+
+    .timeline-step strong {
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      font-size: 10px;
+    }
+
+    .lab-module {
+      padding: 26px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 18px 52px rgba(20, 22, 26, 0.05);
+    }
+
+    .module-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 18px;
+    }
+
+    .module-head h2 {
+      margin: 0;
+      font-family: "Cormorant", Georgia, serif;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      font-size: 36px;
+      line-height: 0.95;
+    }
+
+    .card-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    .card-grid.two-col {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .result-card,
+    .thesis-card,
+    .question-card,
+    .advisor-card {
+      border: 1px solid rgba(20, 22, 26, 0.10);
+      background: #fbfaf7;
+      padding: 16px;
+    }
+
+    .result-card strong,
+    .thesis-card h3,
+    .advisor-card strong,
+    .question-card strong {
+      display: block;
+      margin: 0 0 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 11px;
+      line-height: 1.35;
+      color: #16181c;
+    }
+
+    .thesis-top {
+      margin-bottom: 8px;
+    }
+
+
+    .lab-atlas-micro-map {
+      margin-top: 18px;
+      border: 1px solid rgba(10, 24, 42, 0.16);
+      background: #06111f;
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), 0 18px 52px rgba(6, 17, 31, 0.18);
+    }
+
+    .lab-atlas-micro-map svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      min-height: 420px;
+    }
+
+    .lab-atlas-bg {
+      fill: #06111f;
+    }
+
+    .lab-atlas-edge {
+      stroke: #b9dcff;
+      stroke-linecap: round;
+      fill: none;
+    }
+
+    .trunk-edge {
+      stroke-width: 2.2;
+      stroke-opacity: 0.46;
+    }
+
+    .thesis-edge {
+      stroke: #8ccbff;
+    }
+
+    .lab-atlas-cluster-node circle {
+      fill: #0b3d91;
+      stroke: rgba(215, 236, 255, 0.78);
+      stroke-width: 1.6;
+    }
+
+    .lab-atlas-cluster-node text {
+      fill: #eaf4ff;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+    }
+
+    .micro-node circle {
+      fill: #2f6f9f;
+    }
+
+    .lab-atlas-project-node circle {
+      fill: #d7ecff;
+      stroke: rgba(255,255,255,0.92);
+      stroke-width: 2;
+      filter: drop-shadow(0 12px 24px rgba(140, 203, 255, 0.28));
+    }
+
+    .lab-atlas-project-node text {
+      fill: #06111f;
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+    }
+
+    .lab-atlas-thesis-node {
+      cursor: pointer;
+      outline: none;
+    }
+
+    .lab-atlas-thesis-node circle {
+      fill: #8ccbff;
+      stroke: rgba(255,255,255,0.85);
+      stroke-width: 1.2;
+      transition: transform 160ms ease, fill 160ms ease, stroke-width 160ms ease;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    .lab-atlas-thesis-node text {
+      fill: #06111f;
+      font-size: 10px;
+      font-weight: 900;
+      pointer-events: none;
+    }
+
+    .lab-atlas-thesis-node.is-hovered circle,
+    .lab-atlas-thesis-node.is-selected circle {
+      fill: #d7ecff;
+      stroke-width: 2.2;
+      transform: scale(1.22);
+    }
+
+    .lab-atlas-node-caption,
+    .lab-atlas-cluster-label,
+    .lab-atlas-project-caption {
+      font-family: "Montserrat", Arial, sans-serif;
+      text-align: center;
+      color: #dcecff;
+      line-height: 1.25;
+      pointer-events: none;
+    }
+
+    .lab-atlas-node-caption strong,
+    .lab-atlas-cluster-label span {
+      display: block;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 8px;
+      color: rgba(234, 244, 255, 0.68);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .lab-atlas-node-caption span {
+      display: block;
+      margin-top: 2px;
+      font-size: 9px;
+      color: #8ccbff;
+    }
+
+    .lab-atlas-cluster-label strong {
+      display: block;
+      margin-top: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 10px;
+      color: #eaf4ff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .lab-atlas-project-caption {
+      color: #eaf4ff;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      max-height: 54px;
+      overflow: hidden;
+    }
+
+    .lab-atlas-detail {
+      margin-top: 14px;
+      border: 1px solid rgba(20, 22, 26, 0.10);
+      background: #fbfaf7;
+      padding: 16px;
+    }
+
+    .lab-atlas-detail strong {
+      display: block;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 11px;
+      line-height: 1.35;
+      color: #16181c;
+    }
+
+
+
+    .lab-atlas-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 18px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .lab-atlas-mode-group {
+      display: inline-flex;
+      gap: 6px;
+      padding: 4px;
+      border: 1px solid rgba(20, 22, 26, 0.10);
+      background: #fbfaf7;
+    }
+
+    .lab-atlas-mode-btn {
+      border: 0;
+      background: transparent;
+      padding: 8px 10px;
+      cursor: pointer;
+      font-family: "Montserrat", Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .lab-atlas-mode-btn.active {
+      background: #151515;
+      color: #ffffff;
+    }
+
+    .lab-atlas-control {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: "Montserrat", Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .lab-atlas-control select {
+      border: 1px solid rgba(20, 22, 26, 0.12);
+      background: #ffffff;
+      padding: 8px 10px;
+      font-family: "Montserrat", Arial, sans-serif;
+      font-size: 11px;
+      color: #16181c;
+    }
+
+    .lab-atlas-sigma-shell {
+      position: relative;
+      margin-top: 12px;
+      border: 1px solid rgba(10, 24, 42, 0.16);
+      background:
+        radial-gradient(circle at 50% 45%, rgba(21, 64, 112, 0.72) 0%, rgba(8, 22, 39, 0.94) 46%, #06111F 100%);
+      border-radius: 28px;
+      overflow: hidden;
+      height: 520px;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), 0 18px 52px rgba(6, 17, 31, 0.18);
+    }
+
+    .lab-atlas-sigma {
+      position: absolute;
+      inset: 0;
+    }
+
+    .lab-atlas-overlay {
+      position: absolute;
+      left: 18px;
+      top: 18px;
+      max-width: min(420px, calc(100% - 36px));
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .lab-atlas-overlay-card {
+      border: 1px solid rgba(215, 236, 255, 0.18);
+      background: rgba(6, 17, 31, 0.74);
+      color: #eaf4ff;
+      padding: 12px 14px;
+      backdrop-filter: blur(14px);
+      box-shadow: 0 16px 34px rgba(0,0,0,0.22);
+    }
+
+    .lab-atlas-overlay-card span {
+      display: block;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      font-size: 9px;
+      color: rgba(215,236,255,0.62);
+      font-family: "Montserrat", Arial, sans-serif;
+    }
+
+    .lab-atlas-overlay-card strong {
+      display: block;
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      font-size: 11px;
+      line-height: 1.35;
+      color: #eaf4ff;
+      font-family: "Montserrat", Arial, sans-serif;
+    }
+
+    .lab-atlas-tooltip {
+      position: fixed;
+      z-index: 1000;
+      width: min(340px, calc(100vw - 28px));
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(12px, 12px);
+      transition: opacity 120ms ease;
+      border: 1px solid rgba(215, 236, 255, 0.20);
+      background: rgba(6, 17, 31, 0.96);
+      color: #eaf4ff;
+      padding: 12px 14px;
+      box-shadow: 0 18px 42px rgba(0,0,0,0.35);
+      backdrop-filter: blur(14px);
+      font-family: "Montserrat", Arial, sans-serif;
+    }
+
+    .lab-atlas-tooltip.visible {
+      opacity: 1;
+    }
+
+    .lab-atlas-tooltip strong {
+      display: block;
+      text-transform: uppercase;
+      letter-spacing: 0.055em;
+      font-size: 11px;
+      line-height: 1.35;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    .lab-atlas-tooltip p {
+      margin: 0;
+      color: #b9d4ee;
+      font-size: 11px;
+      line-height: 1.45;
+    }
+
+    .lab-atlas-detail {
+      margin-top: 14px;
+      border: 1px solid rgba(20, 22, 26, 0.10);
+      background: #fbfaf7;
+      padding: 16px;
+    }
+
+    .lab-atlas-detail strong {
+      display: block;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 11px;
+      line-height: 1.35;
+      color: #16181c;
+    }
+100% {
+        opacity: 0.88;
+        transform: translate3d(1.5%, 1%, 0) scale(1.035);
+      }
+    }
+
+
+    .lab-atlas-sigma-shell.is-analytic {
+      background: #fbfaf7 !important;
+      border-color: rgba(20, 22, 26, 0.10);
+      box-shadow: inset 0 0 0 1px rgba(20,22,26,0.03), 0 18px 52px rgba(20, 22, 26, 0.08);
+    }
+
+    .lab-atlas-sigma-shell.is-analytic .lab-atlas-overlay {
+      display: none !important;
+    }
+
+    .lab-atlas-empty {
+      padding: 24px;
+      border: 1px solid rgba(20, 22, 26, 0.10);
+      background: #fbfaf7;
+    }
+
+
+    .quote {
+      margin: 14px 0;
+      padding: 16px 18px;
+      border-left: 4px solid var(--wine);
+      background: #f8f2f3;
+      color: #381922;
+      line-height: 1.55;
+      font-size: 13px;
+    }
+
+    .ladder {
+      display: grid;
+      gap: 10px;
+      margin: 16px 0;
+    }
+
+    .ladder-item {
+      padding: 16px;
+      border-left: 4px solid var(--blue);
+      background: #f4f7fb;
+    }
+
+    .ladder-level {
+      margin-bottom: 8px;
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 0.075em;
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .question-card summary {
+      cursor: pointer;
+      line-height: 1.45;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+      font-size: 11px;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .error-box {
+      border: 1px solid rgba(122, 30, 58, 0.24);
+      background: #fff5f6;
+      padding: 16px;
+      color: #421722;
+    }
+
+    .debug-panel {
+      white-space: pre-wrap;
+      max-height: 320px;
+      overflow: auto;
+      padding: 16px;
+      border: 1px solid rgba(20, 22, 26, 0.12);
+      background: #111418;
+      color: #e8edf3;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 860px) {
+      .main-tabs {
+        left: 14px;
+        right: 14px;
+        transform: none;
+        justify-content: flex-start;
+        overflow-x: auto;
+      }
+
+      .lab-page,
+      .simple-panel {
+        padding: 96px 18px 52px;
+      }
+
+      .lab-form,
+      .lab-module {
+        padding: 20px;
+      }
+
+      .lab-compact-grid,
+      .lab-year-row,
+      .card-grid.two-col {
+        grid-template-columns: 1fr;
+      }
+
+      .lab-inline-control {
+        display: grid;
+      }
+
+      .lab-icon-btn {
+        width: 100%;
+      }
+
+    }
+
+  </style>
 </head>
 
-<body>
-  <div class="node-field" aria-hidden="true">
-    <div class="shape circle circle-one"></div>
-    <div class="shape circle circle-two"></div>
-    <div class="shape rect rect-one"></div>
-    <div class="shape triangle triangle-one"></div>
-    <div class="shape orbit orbit-one"></div>
+<body data-mode="universe" data-tab="inicio" data-explore-view="map">
+  <nav class="main-tabs" aria-label="Secciones">
+    <button class="tab-btn active" type="button" data-tab-target="inicio">Inicio</button>
+    <button class="tab-btn" type="button" data-tab-target="explorar">Explorar</button>
+    <button class="tab-btn" type="button" data-tab-target="taller">Taller</button>
+    <button class="tab-btn" type="button" data-tab-target="laboratorio">Laboratorio</button>
+    <button class="tab-btn" type="button" data-tab-target="nobel">Nobel</button>
+  </nav>
 
-    <svg class="network-art" viewBox="0 0 900 700" preserveAspectRatio="none">
-      <g class="edges">
-        <line x1="140" y1="140" x2="310" y2="230"></line>
-        <line x1="310" y1="230" x2="520" y2="130"></line>
-        <line x1="310" y1="230" x2="620" y2="355"></line>
-        <line x1="620" y1="355" x2="780" y2="250"></line>
-        <line x1="620" y1="355" x2="710" y2="555"></line>
-        <line x1="310" y1="230" x2="230" y2="520"></line>
-      </g>
-      <g class="nodes">
-        <circle cx="140" cy="140" r="8"></circle>
-        <circle cx="310" cy="230" r="13"></circle>
-        <circle cx="520" cy="130" r="7"></circle>
-        <circle cx="620" cy="355" r="16"></circle>
-        <circle cx="780" cy="250" r="9"></circle>
-        <circle cx="710" cy="555" r="10"></circle>
-        <circle cx="230" cy="520" r="8"></circle>
-      </g>
-    </svg>
-  </div>
-
-  <header class="topbar">
-    <div class="brand">
-      <span class="mark">
-        <i></i><i></i><i></i>
-      </span>
-      <span>NODO UNAM</span>
-    </div>
-
-    <nav>
-      <a href="#lab">Laboratorio</a>
-      <a href="#results">Resultados</a>
-      <button id="debugToggle" class="nav-debug" type="button">Debug</button>
-    </nav>
-  </header>
-
-  <main id="lab" class="lab-shell">
-    <section class="intro">
-      <div>
-        <p class="eyebrow">Laboratorio semántico</p>
-        <h1>Analiza tu proyecto de tesis.</h1>
+  <div class="tab-shell">
+    <section class="tab-panel" data-panel="inicio">
+      <div class="simple-panel">
+        <div class="simple-panel-inner">
+          <p class="eyebrow">Nodo UNAM</p>
+          <h1>Exploración académica del acervo</h1>
+          <p>
+            Un espacio para recorrer tesis cercanas, leer relaciones semánticas y preparar nuevas formas de trabajo con el archivo.
+          </p>
+          <div class="simple-grid">
+            <article class="simple-card">
+              <h2>Explorar</h2>
+              <p>Visualiza vecindarios semánticos y cambia entre universo y vista analítica.</p>
+            </article>
+            <article class="simple-card">
+              <h2>Taller</h2>
+              <p>Reserva para ejercicios, guías de lectura y dinámicas de interpretación.</p>
+            </article>
+            <article class="simple-card">
+              <h2>Laboratorio</h2>
+              <p>Reserva para pruebas, prototipos y análisis experimentales.</p>
+            </article>
+          </div>
+        </div>
       </div>
-      <p>
-        Introduce tu idea, objetivos y contexto académico. El sistema buscará tesis afines,
-        analizará tus objetivos, propondrá preguntas y después podrás completar el laboratorio
-        con bibliografía y asesores relacionados.
-      </p>
     </section>
 
-    <section class="workspace">
-      <aside class="project-panel">
-        <form id="labForm" class="input-card">
-          <div class="form-grid">
-            <div class="field field-wide">
-              <label for="title">Título tentativo de tu tesis</label>
-              <textarea id="title" required placeholder="Ej. Análisis del sistema bancario de México y China 1850-2009">Análisis del sistema bancario de México y China 1850-2009</textarea>
+    <section class="tab-panel" data-panel="explorar">
+  
+      <main class="app explore-map-view">
+        <section class="macro-stage">
+          <div class="topbar">
+            <div class="brand">NODO UNAM · TERRITORIOS SEMÁNTICOS</div>
+            <button class="view-action" id="openSolarView" type="button">Abrir vecindario actual</button>
+          </div>
+
+
+          <div class="discipline-field" id="disciplineField" aria-hidden="true">
+            <div class="field-axis" id="fieldAxis"></div>
+            <div class="field-center" id="fieldCenter">Cruces<br>disciplinares</div>
+
+            <div class="area-pole a1" id="areaPole1">
+              <strong>Área 1</strong>
+              <span>Físico-matemáticas e ingenierías</span>
             </div>
 
-            <div class="field">
-              <label for="degree">Grado al que aspiras</label>
-              <select id="degree">
-                <option>Licenciatura</option>
-                <option>Maestría</option>
-                <option>Doctorado</option>
-                <option>Especialidad</option>
-              </select>
+            <div class="area-pole a2" id="areaPole2">
+              <strong>Área 2</strong>
+              <span>Biológicas, químicas y salud</span>
             </div>
 
-            <div class="field">
-              <label for="program">Carrera / programa</label>
-              <input id="program" type="text" placeholder="Ej. Economía" value="Economía" />
+            <div class="area-pole a3" id="areaPole3">
+              <strong>Área 3</strong>
+              <span>Ciencias sociales</span>
             </div>
 
-            <div class="field">
-              <label for="plantel">Plantel</label>
-              <input id="plantel" type="text" placeholder="Ej. Facultad de Economía" value="Facultad de Economía" />
-            </div>
-
-            <div class="field">
-              <label>Periodo de estudio</label>
-              <div class="period-row">
-                <label class="toggle">
-                  <input id="periodApplies" type="checkbox" checked />
-                  <span>Aplica</span>
-                </label>
-                <input id="startYear" type="number" placeholder="Inicio" value="1850" />
-                <input id="endYear" type="number" placeholder="Fin" value="2009" />
-              </div>
+            <div class="area-pole a4" id="areaPole4">
+              <strong>Área 4</strong>
+              <span>Humanidades y artes</span>
             </div>
           </div>
 
-          <div class="field">
-            <label>Palabras clave</label>
-            <div id="keywordsContainer" class="chips-container"></div>
-            <div class="add-field">
-              <input id="newKeyword" type="text" placeholder="Escribe una palabra y presiona +" />
-              <button id="addKeywordBtn" class="btn btn-small" type="button">+</button>
-            </div>
+          <div class="blend-legend" aria-hidden="true">
+            <div class="blend-swatch"></div>
+            <span>Color = mezcla disciplinar</span>
           </div>
 
-          <div class="field" id="objectiveGroup">
-            <label>
-              Objetivo(s) de tu tesis
-              <button id="verbBulb" class="verb-bulb" type="button" title="Ver verbos sugeridos">💡</button>
-            </label>
+          <div id="macro-container"></div>
 
-            <div class="objectives-layout">
-              <div>
-                <div id="objectivesContainer" class="chips-container objective-chips"></div>
-                <div class="add-field">
-                  <input id="newObjective" type="text" placeholder="Escribe un objetivo y presiona +" />
-                  <button id="addObjectiveBtn" class="btn btn-small" type="button">+</button>
-                </div>
-
-                <div id="verbPopup" class="verb-popup">
-                  <div class="verb-popup-header">
-                    <strong>Verbos sugeridos por nivel cognitivo</strong>
-                    <button id="closeVerbPopup" type="button">×</button>
-                  </div>
-                  <div id="verbSuggestionSections"></div>
-                </div>
-              </div>
-
-              <aside class="bloom-panel">
-                <h3>Bloom local</h3>
-                <div id="bloomLocal"></div>
-              </aside>
-            </div>
+          <div class="macro-caption">
+            <p>40 MACROCLUSTERS · SELECCIONA UN TERRITORIO PARA LEER SU COMPOSICIÓN. EL SIGUIENTE NIVEL MOSTRARÁ SUS MICROCLUSTERS.</p>
           </div>
+        </section>
 
-          <button id="runBasicBtn" class="btn btn-primary" type="submit">
-            Generar laboratorio
-          </button>
-
-          <p class="microcopy">
-            El análisis básico genera lectura inicial, tesis cercanas, análisis Bloom y preguntas.
-            Bibliografía y asesores se calculan después para reducir espera.
+        <aside class="macro-panel" id="macroPanel">
+          <p class="eyebrow">Explorar</p>
+          <h1>Territorios semánticos</h1>
+          <p>
+            Cargando el mapa general del acervo.
           </p>
-        </form>
-      </aside>
+        </aside>
+      </main>
 
-      <section id="results" class="results-panel">
-        <div id="emptyState" class="empty-state">
-          <div class="empty-node"></div>
-          <h2>Tu laboratorio aparecerá aquí.</h2>
-          <p>Cuando ejecutes el análisis, los módulos se revelarán progresivamente.</p>
-        </div>
+      <main class="app solar-view">
+    <section class="stage">
+      <div class="topbar">
+        <div class="brand">NODO UNAM</div>
 
-        <div id="loadingState" class="loading-state hidden">
-          <div class="loader-network">
-            <span></span><span></span><span></span><span></span>
+        <div class="controls">
+          <button class="view-action" id="backToMacroMap" type="button">Volver al mapa</button>
+
+          <div class="mode-toggle">
+            <button class="mode-btn active" id="modeUniverse" type="button">Universo</button>
+            <button class="mode-btn" id="modeAnalytic" type="button">Analítico</button>
           </div>
-          <h2 id="loadingTitle">Analizando tu idea...</h2>
-          <p id="loadingText">Construyendo contexto semántico y rutas de investigación.</p>
+
+          <label class="control">
+            Organizar/color
+            <select id="groupBy">
+              <option value="year">Año</option>
+              <option value="program">Programa</option>
+              <option value="plantel">Plantel</option>
+              <option value="level">Nivel</option>
+              <option value="area">Área</option>
+            </select>
+          </label>
+
+          <label class="control">
+            Filtro
+            <select id="filterValue">
+              <option value="__all__">Todo</option>
+            </select>
+          </label>
+
+          <label class="control">
+            Tesis <span id="countLabel">40</span>
+            <input id="countSlider" type="range" min="10" max="100" value="40" step="5" />
+          </label>
         </div>
+      </div>
 
-        <div id="modules" class="modules hidden">
-          <div class="timeline" id="timeline"></div>
+      <div class="similarity-grid" aria-hidden="true">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+          <line x1="50" y1="7" x2="50" y2="93" class="grid-axis"></line>
+          <line x1="10" y1="50" x2="90" y2="50" class="grid-axis"></line>
+          <ellipse cx="50" cy="50" rx="13" ry="17"></ellipse>
+          <ellipse cx="50" cy="50" rx="24" ry="31"></ellipse>
+          <ellipse cx="50" cy="50" rx="36" ry="45"></ellipse>
+          <ellipse cx="50" cy="50" rx="47" ry="58"></ellipse>
+          <text x="64.2" y="50.8" class="grid-label">0.90</text>
+          <text x="75.5" y="50.8" class="grid-label">0.84</text>
+          <text x="87.4" y="50.8" class="grid-label">0.78</text>
+          <text x="96.2" y="50.8" class="grid-label">0.72</text>
+        </svg>
+      </div>
 
-          <section class="module" id="moduleInitial"></section>
-          <section class="module" id="moduleSemantic"></section>
-          <section class="module" id="moduleTheses"></section>
-          <section class="module" id="moduleBloom"></section>
-          <section class="module" id="moduleQuestions"></section>
+      <div id="sigma-container"></div>
+      <div id="tooltip" class="tooltip"></div>
 
-          <section class="module cta-module" id="moduleComplete">
-            <div class="module-head">
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <aside id="panel">
+      <p class="eyebrow">Exploración semántica</p>
+      <h1>Vecindario académico</h1>
+      <p>
+        Una tesis o idea central conectada con tesis cercanas dentro del acervo.
+        Cambia entre universo y vista analítica para leer el vecindario de distintas formas.
+      </p>
+    </aside>
+  </main>
+    </section>
+
+
+    
+    <section class="tab-panel" data-panel="taller">
+      <main class="workshop-dashboard">
+        <section class="workshop-canvas">
+          <header class="workshop-dashboard-head">
+            <div>
+              <p class="eyebrow">Taller</p>
+              <h1>Gráficas para leer el acervo</h1>
+              <p>
+                Explora el dataset desde vistas precargadas. Cambia variables, oculta series
+                y convierte patrones del acervo en hallazgos visuales.
+              </p>
+            </div>
+          </header>
+
+          <section class="workshop-chart-card workshop-chart-card-large" data-chart-card="time">
+            <div class="workshop-card-head">
               <div>
-                <p class="eyebrow">Completa tu laboratorio</p>
-                <h2>Bibliografía y asesores relacionados</h2>
+                <p class="eyebrow">Cambio en el tiempo</p>
+                <h2>¿Cómo ha cambiado el acervo?</h2>
+                <p>Tesis agrupadas por periodo. Cambia la dimensión para comparar áreas, niveles o planteles.</p>
+              </div>
+
+              <div class="workshop-controls-inline">
+                <label>
+                  Dimensión
+                  <select id="workshopTimeDimension">
+                    <option value="area">Área</option>
+                    <option value="nivel_estandar">Nivel</option>
+                    <option value="programa">Programa</option>
+                    <option value="plantel_estandarizado">Plantel</option>
+                  </select>
+                </label>
+
+                <label>
+                  Periodo
+                  <select id="workshopTimeBucket">
+                    <option value="decade">Década</option>
+                    <option value="year">Año</option>
+                  </select>
+                </label>
               </div>
             </div>
 
-            <div class="cta-grid">
-              <button id="runBibliographyBtn" class="cta-card" type="button">
-                <span>Bibliografía recomendada</span>
-                <small>Selecciona fuentes reales extraídas de tesis afines.</small>
-              </button>
-
-              <button id="runAdvisorsBtn" class="cta-card" type="button">
-                <span>Asesores relacionados</span>
-                <small>Ordena asesores por afinidad temática histórica.</small>
-              </button>
-            </div>
+            <div id="workshopTimeSeriesToggles" class="workshop-series-toggles"></div>
+            <div id="workshopTimeChart" class="workshop-svg-chart"></div>
           </section>
 
-          <section class="module hidden" id="moduleBibliography"></section>
-          <section class="module hidden" id="moduleAdvisors"></section>
-        </div>
+          <section class="workshop-grid-two">
+            <article class="workshop-chart-card" data-chart-card="composition">
+              <div class="workshop-card-head">
+                <div>
+                  <p class="eyebrow">Composición</p>
+                  <h2>¿Qué domina?</h2>
+                  <p>Ranking de categorías dominantes dentro del acervo.</p>
+                </div>
 
-        <pre id="debugPanel" class="debug-panel hidden"></pre>
-      </section>
+                <div class="workshop-controls-inline compact">
+                  <label>
+                    Variable
+                    <select id="workshopCompositionDimension">
+                      <option value="programa">Programa</option>
+                      <option value="plantel_estandarizado">Plantel</option>
+                      <option value="area">Área</option>
+                      <option value="nivel_estandar">Nivel</option>
+                      <option value="asesor_limpio_v2">Asesor</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+
+              <div id="workshopCompositionChart" class="workshop-bar-chart"></div>
+            </article>
+
+            <article class="workshop-chart-card" data-chart-card="cross">
+              <div class="workshop-card-head">
+                <div>
+                  <p class="eyebrow">Cruces</p>
+                  <h2>¿Qué variables se encuentran?</h2>
+                  <p>Matriz de concentración entre dos dimensiones académicas.</p>
+                </div>
+
+                <div class="workshop-controls-inline compact">
+                  <label>
+                    Filas
+                    <select id="workshopCrossRows">
+                      <option value="area">Área</option>
+                      <option value="programa">Programa</option>
+                      <option value="plantel_estandarizado">Plantel</option>
+                    </select>
+                  </label>
+
+                  <label>
+                    Columnas
+                    <select id="workshopCrossCols">
+                      <option value="nivel_estandar">Nivel</option>
+                      <option value="area">Área</option>
+                      <option value="decade">Década</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+
+              <div id="workshopCrossChart" class="workshop-heatmap"></div>
+            </article>
+          </section>
+
+          <section class="workshop-chart-card" data-chart-card="people">
+            <div class="workshop-card-head">
+              <div>
+                <p class="eyebrow">Personas</p>
+                <h2>¿Quiénes articulan el acervo?</h2>
+                <p>Asesores con mayor presencia. Después podrá filtrarse por programa, área o periodo.</p>
+              </div>
+
+              <div class="workshop-controls-inline compact">
+                <label>
+                  Top
+                  <select id="workshopPeopleLimit">
+                    <option value="10">10</option>
+                    <option value="20" selected>20</option>
+                    <option value="40">40</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+
+            <div id="workshopPeopleChart" class="workshop-bar-chart wide"></div>
+          </section>
+        </section>
+      </main>
     </section>
-  </main>
 
-  <script src="/app.js"></script>
+
+
+
+
+    <section class="tab-panel" data-panel="laboratorio">
+      <main class="lab-page">
+        <div class="lab-inner">
+          <header class="lab-intro">
+            <p class="eyebrow">Laboratorio</p>
+            <h1 class="lab-title">Analiza tu proyecto de tesis</h1>
+            <p>
+              Escribe una idea, agrega palabras clave y objetivos. El laboratorio generará una lectura completa:
+              tesis cercanas, objetivos, preguntas de investigación y posibles asesores.
+            </p>
+          </header>
+
+          <form class="lab-form" id="labForm">
+            <div class="lab-field">
+              <label for="title">Título o idea central</label>
+              <textarea id="title" name="title" required>Analisis del sistema bancario de Mexico y China 1850-2009</textarea>
+            </div>
+
+            <div class="lab-compact-grid">
+              <div class="lab-field">
+                <label for="degree">Nivel</label>
+                <input id="degree" name="degree" value="Licenciatura" autocomplete="off" />
+              </div>
+
+              <div class="lab-field">
+                <label for="program">Programa</label>
+                <input id="program" name="program" value="Economía" autocomplete="off" />
+              </div>
+
+              <div class="lab-field">
+                <label for="plantel">Plantel</label>
+                <input id="plantel" name="plantel" value="Facultad de Economía" autocomplete="off" />
+              </div>
+            </div>
+
+            <div class="lab-field lab-chip-editor">
+              <span class="lab-mini-label">Palabras clave</span>
+              <div class="lab-inline-control">
+                <input id="newKeyword" type="text" placeholder="Agregar palabra clave" autocomplete="off" />
+                <button class="lab-icon-btn" id="addKeywordBtn" type="button" aria-label="Agregar palabra clave">+</button>
+              </div>
+              <div class="chip-row" id="keywordsContainer"></div>
+            </div>
+
+            <div class="lab-field lab-chip-editor">
+              <span class="lab-mini-label">Objetivos</span>
+              <div class="lab-inline-control">
+                <input id="newObjective" type="text" placeholder="Agregar objetivo" autocomplete="off" />
+                <button class="lab-icon-btn" id="addObjectiveBtn" type="button" aria-label="Agregar objetivo">+</button>
+              </div>
+              <div class="chip-row" id="objectivesContainer"></div>
+            </div>
+
+            <div class="verb-tools">
+              <button class="lab-secondary-btn" id="verbBulb" type="button">Sugerir verbos</button>
+              <span class="meta">Guía rápida para formular objetivos por nivel cognitivo.</span>
+            </div>
+
+            <div class="verb-popup" id="verbPopup">
+              <div class="module-head">
+                <div>
+                  <p class="eyebrow">Objetivos</p>
+                  <h2>Verbos sugeridos</h2>
+                </div>
+                <button class="lab-secondary-btn" id="closeVerbPopup" type="button">Cerrar</button>
+              </div>
+              <div id="verbSuggestionSections"></div>
+            </div>
+
+            <div class="bloom-preview">
+              <span class="lab-mini-label">Lectura local de objetivos</span>
+              <div id="bloomLocal"></div>
+            </div>
+
+            <div class="lab-period">
+              <label class="lab-check">
+                <input id="periodApplies" type="checkbox" checked />
+                Mi tesis trabaja un periodo histórico
+              </label>
+
+              <div class="lab-year-row">
+                <div class="lab-field">
+                  <label for="startYear">Inicio</label>
+                  <input id="startYear" type="number" min="1500" max="2030" value="1850" />
+                </div>
+                <div class="lab-field">
+                  <label for="endYear">Fin</label>
+                  <input id="endYear" type="number" min="1500" max="2030" value="2009" />
+                </div>
+              </div>
+            </div>
+
+            <button class="lab-primary-btn" id="runLabBtn" type="submit">Analizar tesis</button>
+          </form>
+
+          <section class="lab-status hidden" id="loadingState" aria-live="polite">
+            <p class="eyebrow">Procesando</p>
+            <h2 id="loadingTitle">Analizando tu idea</h2>
+            <p id="loadingText">Interpretando núcleo temático.</p>
+          </section>
+
+          <section class="lab-status" id="emptyState">
+            <p class="eyebrow">Salida</p>
+            <h2>El análisis aparecerá aquí</h2>
+            <p>Después de enviar el formulario, verás la lectura inicial, tesis afines, objetivos, preguntas y asesores en una sola secuencia.</p>
+          </section>
+
+          <section class="lab-results hidden" id="modules">
+            <div class="timeline" id="timeline"></div>
+            <article class="lab-module" id="moduleInitial"></article>
+            <article class="lab-module" id="moduleSemantic"></article>
+            <article class="lab-module" id="moduleTheses"></article>
+            <article class="lab-module" id="moduleBloom"></article>
+            <article class="lab-module" id="moduleQuestions"></article>
+            <article class="lab-module" id="moduleAdvisors"></article>
+            <article class="lab-module hidden" id="moduleLocation"></article>
+
+            <button class="lab-secondary-btn" id="debugToggle" type="button">Ver depuración</button>
+            <pre class="debug-panel hidden" id="debugPanel"></pre>
+          </section>
+        </div>
+      </main>
+    </section>
+
+    <section class="tab-panel" data-panel="nobel">
+      <iframe
+        class="nobel-frame"
+        src="./nobel_map.html"
+        title="Atlas Nobel"
+        loading="lazy"
+      ></iframe>
+    </section>
+
+  </div>
+
+  <script type="module">
+    import Graph from "https://cdn.jsdelivr.net/npm/graphology@0.25.4/+esm";
+    import Sigma from "https://cdn.jsdelivr.net/npm/sigma@3/+esm";
+
+    window.NODO_GRAPH_LIBS = { Graph, Sigma };
+
+    const tabButtons = [...document.querySelectorAll("[data-tab-target]")];
+
+    function setActiveTab(tab) {
+      document.body.dataset.tab = tab;
+
+      for (const button of tabButtons) {
+        button.classList.toggle("active", button.dataset.tabTarget === tab);
+      }
+
+      if (tab === "explorar") {
+        requestAnimationFrame(() => {
+          if (document.body.dataset.exploreView === "map") {
+            initMacroMap();
+            if (macroRenderer) {
+              macroRenderer.resize();
+              macroRenderer.refresh();
+            }
+          } else if (renderer) {
+            renderer.resize();
+            renderer.refresh();
+          }
+        });
+      }
+
+      if (tab === "taller") {
+        requestAnimationFrame(() => {
+          initWorkshopDashboard();
+        });
+      }
+    }
+
+    for (const button of tabButtons) {
+      button.addEventListener("click", () => setActiveTab(button.dataset.tabTarget));
+    }
+
+
+
+
+
+    // taller-dashboard-v2
+    const workshopDashboardState = {
+      activeSeries: new Set(),
+      initialized: false
+    };
+
+    const WORKSHOP_COLORS = [
+      "#D7ECFF", "#8CCBFF", "#4FA3FF", "#2D6BFF", "#6B7C93",
+      "#BFE3FF", "#74B9FF", "#3C8DFF", "#1B55D9", "#4B6078"
+    ];
+
+    const WORKSHOP_DEMO = {
+      time: {
+        area: {
+          decade: [
+            { period: "ANTES 1980", "Area 1": 1120, "Area 2": 2210, "Area 3": 2820, "Area 4": 1345 },
+            { period: "1981-1990", "Area 1": 980, "Area 2": 2020, "Area 3": 1580, "Area 4": 744 },
+            { period: "1991-2000", "Area 1": 1460, "Area 2": 3310, "Area 3": 2480, "Area 4": 1016 },
+            { period: "2001-2010", "Area 1": 2320, "Area 2": 4920, "Area 3": 3320, "Area 4": 1029 },
+            { period: "2011-2020", "Area 1": 2560, "Area 2": 4860, "Area 3": 3150, "Area 4": 828 },
+            { period: "2021-2030", "Area 1": 1655, "Area 2": 3717, "Area 3": 1248, "Area 4": 280 }
+          ]
+        },
+        nivel_estandar: {
+          decade: [
+            { period: "ANTES 1980", "Licenciatura": 6050, "Maestría": 720, "Doctorado": 205, "Especialidad": 520 },
+            { period: "1981-1990", "Licenciatura": 4030, "Maestría": 470, "Doctorado": 160, "Especialidad": 664 },
+            { period: "1991-2000", "Licenciatura": 5720, "Maestría": 740, "Doctorado": 270, "Especialidad": 1536 },
+            { period: "2001-2010", "Licenciatura": 7960, "Maestría": 1190, "Doctorado": 430, "Especialidad": 2009 },
+            { period: "2011-2020", "Licenciatura": 7580, "Maestría": 1190, "Doctorado": 490, "Especialidad": 2138 },
+            { period: "2021-2030", "Licenciatura": 2797, "Maestría": 540, "Doctorado": 338, "Especialidad": 2253 }
+          ]
+        },
+        programa: {
+          decade: [
+            { period: "ANTES 1980", derecho: 840, biologia: 210, economia: 220, psicologia: 280, arquitectura: 340 },
+            { period: "1981-1990", derecho: 920, biologia: 260, economia: 280, psicologia: 390, arquitectura: 410 },
+            { period: "1991-2000", derecho: 1220, biologia: 430, economia: 370, psicologia: 560, arquitectura: 590 },
+            { period: "2001-2010", derecho: 1580, biologia: 510, economia: 420, psicologia: 720, arquitectura: 680 },
+            { period: "2011-2020", derecho: 1390, biologia: 470, economia: 390, psicologia: 650, arquitectura: 540 },
+            { period: "2021-2030", derecho: 475, biologia: 180, economia: 115, psicologia: 224, arquitectura: 126 }
+          ]
+        },
+        plantel_estandarizado: {
+          decade: [
+            { period: "ANTES 1980", "facultad de ciencias unam": 820, "facultad de medicina unam": 910, "fcpyS unam": 670, "fes aragon": 90 },
+            { period: "1981-1990", "facultad de ciencias unam": 640, "facultad de medicina unam": 850, "fcpyS unam": 520, "fes aragon": 260 },
+            { period: "1991-2000", "facultad de ciencias unam": 900, "facultad de medicina unam": 1230, "fcpyS unam": 750, "fes aragon": 540 },
+            { period: "2001-2010", "facultad de ciencias unam": 1250, "facultad de medicina unam": 1640, "fcpyS unam": 980, "fes aragon": 820 },
+            { period: "2011-2020", "facultad de ciencias unam": 1190, "facultad de medicina unam": 1580, "fcpyS unam": 920, "fes aragon": 770 },
+            { period: "2021-2030", "facultad de ciencias unam": 485, "facultad de medicina unam": 1060, "fcpyS unam": 350, "fes aragon": 290 }
+          ]
+        }
+      },
+      composition: {
+        programa: [
+          ["derecho", 6425], ["cirujano dentista", 3010], ["psicologia", 2524], ["arquitectura", 1846],
+          ["biologia", 1708], ["quimica farmaceutico biologica", 1349], ["contaduria", 1344], ["ingenieria civil", 1305],
+          ["economia", 1191], ["medicina veterinaria y zootecnia", 1075]
+        ],
+        plantel_estandarizado: [
+          ["facultad de medicina unam", 6120], ["facultad de ciencias unam", 4320], ["facultad de derecho unam", 3880],
+          ["facultad de ciencias politicas y sociales unam", 3410], ["fes aragon", 2760], ["fes acatlan", 2310],
+          ["fes iztacala", 2190], ["facultad de odontologia unam", 2030]
+        ],
+        area: [
+          ["Area 2", 21037], ["Area 3", 14578], ["Area 1", 10095], ["Area 4", 4242], ["Por Clasificar", 48]
+        ],
+        nivel_estandar: [
+          ["Licenciatura", 34137], ["Especialidad", 9064], ["Maestría", 4850], ["Doctorado", 1893], ["desconocido", 56]
+        ],
+        asesor_limpio_v2: [
+          ["González Reyna, Susana", 62], ["Domínguez Pérez Tejada, César Augusto", 48],
+          ["Quintanilla Obregón, María de Lourdes", 44], ["Pérez García, Juan", 41],
+          ["Hernández López, María", 39], ["Ramírez Sánchez, José", 36]
+        ]
+      },
+      cross: {
+        area_nivel_estandar: {
+          rows: ["Area 1", "Area 2", "Area 3", "Area 4"],
+          cols: ["Licenciatura", "Especialidad", "Maestría", "Doctorado"],
+          values: [
+            [7730, 650, 1210, 505],
+            [12620, 5520, 1990, 907],
+            [10980, 2110, 1035, 453],
+            [2807, 784, 615, 36]
+          ]
+        },
+        programa_nivel_estandar: {
+          rows: ["derecho", "psicologia", "biologia", "economia", "arquitectura"],
+          cols: ["Licenciatura", "Especialidad", "Maestría", "Doctorado"],
+          values: [
+            [4970, 210, 980, 265],
+            [1890, 160, 390, 84],
+            [1210, 30, 330, 138],
+            [830, 20, 280, 61],
+            [1540, 0, 260, 46]
+          ]
+        },
+        plantel_estandarizado_nivel_estandar: {
+          rows: ["fac. medicina", "fac. ciencias", "fcpyS", "fes aragón", "fes acatlán"],
+          cols: ["Licenciatura", "Especialidad", "Maestría", "Doctorado"],
+          values: [
+            [2500, 2910, 530, 180],
+            [3220, 80, 710, 310],
+            [2100, 60, 980, 270],
+            [2230, 120, 340, 70],
+            [1800, 90, 360, 60]
+          ]
+        }
+      }
+    };
+
+    function initWorkshopDashboard() {
+      if (workshopDashboardState.initialized) return;
+
+      const timeDimension = document.getElementById("workshopTimeDimension");
+      const timeBucket = document.getElementById("workshopTimeBucket");
+      const compositionDimension = document.getElementById("workshopCompositionDimension");
+      const crossRows = document.getElementById("workshopCrossRows");
+      const crossCols = document.getElementById("workshopCrossCols");
+      const peopleLimit = document.getElementById("workshopPeopleLimit");
+
+      if (!timeDimension || !timeBucket || !compositionDimension || !crossRows || !crossCols || !peopleLimit) return;
+
+      function upperLabel(value) {
+        return String(value || "").toUpperCase();
+      }
+
+      function seriesFromRows(rows) {
+        const keys = new Set();
+        for (const row of rows) {
+          for (const key of Object.keys(row)) {
+            if (key !== "period") keys.add(key);
+          }
+        }
+        return [...keys];
+      }
+
+      function ensureActiveSeries(series) {
+        const current = workshopDashboardState.activeSeries;
+        const currentValid = [...current].filter(s => series.includes(s));
+
+        if (!currentValid.length) {
+          workshopDashboardState.activeSeries = new Set(series);
+        } else {
+          workshopDashboardState.activeSeries = new Set(currentValid);
+        }
+      }
+
+      function renderSeriesToggles(series) {
+        const container = document.getElementById("workshopTimeSeriesToggles");
+        container.innerHTML = series.map((s, i) => `
+          <label class="workshop-series-toggle">
+            <input type="checkbox" data-workshop-series="${escapeHTML(s)}" ${workshopDashboardState.activeSeries.has(s) ? "checked" : ""}>
+            <span style="width:8px;height:8px;border-radius:50%;display:inline-block;background:${WORKSHOP_COLORS[i % WORKSHOP_COLORS.length]}"></span>
+            ${escapeHTML(upperLabel(s))}
+          </label>
+        `).join("");
+
+        container.querySelectorAll("[data-workshop-series]").forEach(input => {
+          input.addEventListener("change", () => {
+            const key = input.dataset.workshopSeries;
+            if (input.checked) workshopDashboardState.activeSeries.add(key);
+            else workshopDashboardState.activeSeries.delete(key);
+            renderTimeChart();
+          });
+        });
+      }
+
+      function renderTimeChart() {
+        const dim = timeDimension.value;
+        const bucket = timeBucket.value;
+        const rows = WORKSHOP_DEMO.time[dim]?.[bucket] || WORKSHOP_DEMO.time[dim]?.decade || WORKSHOP_DEMO.time.area.decade;
+        const series = seriesFromRows(rows);
+        ensureActiveSeries(series);
+        renderSeriesToggles(series);
+
+        const active = series.filter(s => workshopDashboardState.activeSeries.has(s));
+        const container = document.getElementById("workshopTimeChart");
+
+        const width = 1040;
+        const height = 330;
+        const pad = { left: 54, right: 24, top: 18, bottom: 42 };
+        const innerW = width - pad.left - pad.right;
+        const innerH = height - pad.top - pad.bottom;
+
+        const maxY = Math.max(1, ...rows.map(row => active.reduce((sum, key) => sum + Number(row[key] || 0), 0)));
+        const groupW = innerW / rows.length;
+        const barGap = 6;
+        const seriesW = Math.max(5, (groupW - 18) / Math.max(active.length, 1) - barGap);
+
+        const bars = [];
+
+        rows.forEach((row, rowIndex) => {
+          active.forEach((key, seriesIndex) => {
+            const value = Number(row[key] || 0);
+            const h = value / maxY * innerH;
+            const x = pad.left + rowIndex * groupW + 10 + seriesIndex * (seriesW + barGap);
+            const y = pad.top + innerH - h;
+            const color = WORKSHOP_COLORS[series.indexOf(key) % WORKSHOP_COLORS.length];
+
+            bars.push(`
+              <rect x="${x}" y="${y}" width="${seriesW}" height="${h}" rx="2" fill="${color}" opacity="0.86">
+                <title>${escapeHTML(row.period)} · ${escapeHTML(key)} · ${value}</title>
+              </rect>
+            `);
+          });
+        });
+
+        const xLabels = rows.map((row, i) => {
+          const x = pad.left + i * groupW + groupW / 2;
+          return `<text x="${x}" y="${height - 15}" text-anchor="middle" class="workshop-svg-label">${escapeHTML(row.period)}</text>`;
+        }).join("");
+
+        const grid = [0, 0.25, 0.5, 0.75, 1].map(t => {
+          const y = pad.top + innerH - t * innerH;
+          const label = Math.round(maxY * t);
+          return `
+            <line x1="${pad.left}" x2="${width - pad.right}" y1="${y}" y2="${y}" stroke="rgba(20,20,20,0.08)" />
+            <text x="${pad.left - 10}" y="${y + 3}" text-anchor="end" class="workshop-svg-label">${label}</text>
+          `;
+        }).join("");
+
+        container.innerHTML = `
+          <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Cambio en el tiempo">
+            ${grid}
+            ${bars.join("")}
+            ${xLabels}
+          </svg>
+        `;
+      }
+
+      function renderBarChart(containerId, rows, limit = 12) {
+        const container = document.getElementById(containerId);
+        const sliced = rows.slice(0, limit);
+        const max = Math.max(...sliced.map(row => Number(row[1] || 0)), 1);
+
+        container.innerHTML = sliced.map((row, index) => `
+          <div class="workshop-bar-row">
+            <div class="workshop-bar-label">${escapeHTML(upperLabel(row[0]))}</div>
+            <div class="workshop-bar-track">
+              <div class="workshop-bar-fill" style="width:${Math.max(3, row[1] / max * 100)}%; background:${WORKSHOP_COLORS[index % WORKSHOP_COLORS.length]}"></div>
+            </div>
+            <div class="workshop-bar-value">${escapeHTML(row[1])}</div>
+          </div>
+        `).join("");
+      }
+
+      function renderCompositionChart() {
+        const dim = compositionDimension.value;
+        const rows = WORKSHOP_DEMO.composition[dim] || WORKSHOP_DEMO.composition.programa;
+        renderBarChart("workshopCompositionChart", rows, 10);
+      }
+
+      function renderPeopleChart() {
+        const rows = WORKSHOP_DEMO.composition.asesor_limpio_v2;
+        renderBarChart("workshopPeopleChart", rows, Number(peopleLimit.value || 20));
+      }
+
+      function renderCrossChart() {
+        const key = `${crossRows.value}_${crossCols.value}`;
+        const fallback = "area_nivel_estandar";
+        const data = WORKSHOP_DEMO.cross[key] || WORKSHOP_DEMO.cross[fallback];
+
+        const max = Math.max(...data.values.flat(), 1);
+        const cols = data.cols.length;
+        const container = document.getElementById("workshopCrossChart");
+
+        container.innerHTML = `
+          <div class="workshop-heatmap-grid" style="--cols:${cols}">
+            <div class="workshop-heatmap-row">
+              <div></div>
+              ${data.cols.map(col => `<div class="workshop-heatmap-head">${escapeHTML(upperLabel(col))}</div>`).join("")}
+            </div>
+            ${data.rows.map((row, rowIndex) => `
+              <div class="workshop-heatmap-row">
+                <div class="workshop-heatmap-label">${escapeHTML(upperLabel(row))}</div>
+                ${data.values[rowIndex].map(value => {
+                  const alpha = 0.08 + (Number(value) / max) * 0.72;
+                  return `<div class="workshop-heatmap-cell" style="background:rgba(23,78,166,${alpha})">${escapeHTML(value)}</div>`;
+                }).join("")}
+              </div>
+            `).join("")}
+          </div>
+        `;
+      }
+
+      function renderAllWorkshopCharts() {
+        renderTimeChart();
+        renderCompositionChart();
+        renderCrossChart();
+        renderPeopleChart();
+      }
+
+      [timeDimension, timeBucket].forEach(el => el.addEventListener("change", () => {
+        workshopDashboardState.activeSeries = new Set();
+        renderTimeChart();
+      }));
+
+      compositionDimension.addEventListener("change", renderCompositionChart);
+      crossRows.addEventListener("change", renderCrossChart);
+      crossCols.addEventListener("change", renderCrossChart);
+      peopleLimit.addEventListener("change", renderPeopleChart);
+
+      renderAllWorkshopCharts();
+      workshopDashboardState.initialized = true;
+    }
+
+
+    const SUBTLE_NODE_BORDER_COLOR = "rgba(18, 18, 18, 0.42)";
+    const SUBTLE_NODE_BORDER_SIZE = 0.35;
+
+    const PROJECT_COLOR = "#111111";
+    const PROJECT_HALO = "rgba(0, 0, 0, 0)";
+
+    const AREA_COLORS = {
+      "Area 1": "#D7ECFF",
+      "Area 2": "#8CCBFF",
+      "Area 3": "#4FA3FF",
+      "Area 4": "#2D6BFF",
+      "Por Clasificar": "#6B7C93",
+      "": "#9a9a9a"
+    };
+
+    const PALETTE = [
+      "#174EA6", "#7A1E3A", "#5A9A7A", "#9A6A8F", "#D08A2E",
+      "#6B4BB7", "#3E7C8B", "#A14D4D", "#76664B", "#4D6A3F",
+      "#284B63", "#8C6A5D", "#B08A00", "#706C61"
+    ];
+
+    const state = {
+      mode: "universe",
+      groupBy: "year",
+      filterValue: "__all__",
+      displayCount: 40,
+      hoveredNode: null,
+      selectedNode: "PROJECT",
+      visibleIds: new Set(),
+      groupNodes: new Set(),
+      colorMap: new Map()
+    };
+
+    const container = document.getElementById("sigma-container");
+    const panel = document.getElementById("panel");
+    const tooltip = document.getElementById("tooltip");
+    const legend = document.getElementById("legend");
+
+    const modeUniverse = document.getElementById("modeUniverse");
+    const modeAnalytic = document.getElementById("modeAnalytic");
+    const groupBySelect = document.getElementById("groupBy");
+    const filterValueSelect = document.getElementById("filterValue");
+    const sortOrderSelect = null;
+    const countSlider = document.getElementById("countSlider");
+    const countLabel = document.getElementById("countLabel");
+
+    let graph = null;
+    let renderer = null;
+    let allTheses = [];
+    let projectNode = null;
+
+
+    const macroContainer = document.getElementById("macro-container");
+    const macroPanel = document.getElementById("macroPanel");
+    const openSolarView = document.getElementById("openSolarView");
+    const backToMacroMap = document.getElementById("backToMacroMap");
+
+    const AREA_FIELD_COLORS = {
+      "Area 1": "#D7ECFF",
+      "Area 2": "#8CCBFF",
+      "Area 3": "#4FA3FF",
+      "Area 4": "#2D6BFF",
+      "Por Clasificar": "#6B7C93"
+    };
+
+    const AREA_FIELD_LABELS = {
+      "Area 1": "Área 1 · Físico-matemáticas e ingenierías",
+      "Area 2": "Área 2 · Biológicas, químicas y salud",
+      "Area 3": "Área 3 · Ciencias sociales",
+      "Area 4": "Área 4 · Humanidades y artes",
+      "Por Clasificar": "Por clasificar"
+    };
+
+    const AREA_POLES = {
+      "Area 1": { x: -4.8, y: 3.25 },
+      "Area 2": { x: 4.8, y: 3.25 },
+      "Area 3": { x: 4.8, y: -3.25 },
+      "Area 4": { x: -4.8, y: -3.25 }
+    };
+
+    const macroStage = document.querySelector(".explore-map-view .macro-stage");
+    const disciplineField = document.getElementById("disciplineField");
+    const fieldAxis = document.getElementById("fieldAxis");
+    const fieldCenter = document.getElementById("fieldCenter");
+    const areaPoleElements = {
+      "Area 1": document.getElementById("areaPole1"),
+      "Area 2": document.getElementById("areaPole2"),
+      "Area 3": document.getElementById("areaPole3"),
+      "Area 4": document.getElementById("areaPole4")
+    };
+
+    function syncDisciplineField() {
+      if (!macroRenderer || !macroStage || !disciplineField) return;
+
+      const viewportPoles = {};
+
+      for (const [area, graphPosition] of Object.entries(AREA_POLES)) {
+        viewportPoles[area] = macroRenderer.graphToViewport(graphPosition);
+
+        const element = areaPoleElements[area];
+        if (element) {
+          element.style.left = `${viewportPoles[area].x}px`;
+          element.style.top = `${viewportPoles[area].y}px`;
+        }
+      }
+
+      const left = Math.min(viewportPoles["Area 1"].x, viewportPoles["Area 4"].x);
+      const right = Math.max(viewportPoles["Area 2"].x, viewportPoles["Area 3"].x);
+      const top = Math.min(viewportPoles["Area 1"].y, viewportPoles["Area 2"].y);
+      const bottom = Math.max(viewportPoles["Area 3"].y, viewportPoles["Area 4"].y);
+      const width = Math.max(right - left, 1);
+      const height = Math.max(bottom - top, 1);
+      // Each field reaches slightly beyond the center:
+      // quadrants remain legible and blending concentrates near intersections.
+      const poleToCenter = Math.hypot(width / 2, height / 2);
+      const radius = poleToCenter * 1.28;
+
+      fieldAxis.style.left = `${left}px`;
+      fieldAxis.style.top = `${top}px`;
+      fieldAxis.style.width = `${width}px`;
+      fieldAxis.style.height = `${height}px`;
+
+      fieldCenter.style.left = `${left + width / 2}px`;
+      fieldCenter.style.top = `${top + height / 2}px`;
+
+      macroStage.style.setProperty("--a1-x", `${viewportPoles["Area 1"].x}px`);
+      macroStage.style.setProperty("--a1-y", `${viewportPoles["Area 1"].y}px`);
+      macroStage.style.setProperty("--a2-x", `${viewportPoles["Area 2"].x}px`);
+      macroStage.style.setProperty("--a2-y", `${viewportPoles["Area 2"].y}px`);
+      macroStage.style.setProperty("--a3-x", `${viewportPoles["Area 3"].x}px`);
+      macroStage.style.setProperty("--a3-y", `${viewportPoles["Area 3"].y}px`);
+      macroStage.style.setProperty("--a4-x", `${viewportPoles["Area 4"].x}px`);
+      macroStage.style.setProperty("--a4-y", `${viewportPoles["Area 4"].y}px`);
+      macroStage.style.setProperty("--field-radius", `${radius}px`);
+    }
+
+    let macroGraph = null;
+    let macroRenderer = null;
+    let macroLoaded = false;
+    let macroLoading = false;
+    let macroHoveredNode = null;
+    let macroSelectedNode = null;
+    let macroItems = [];
+    const drilldownCache = new Map();
+    let activeMacroItem = null;
+    let activeMicroItem = null;
+    let activeRepresentativeThesis = null;
+    let atlasPayload = null;
+    let atlasLevel = "overview";
+    let atlasMacroId = null;
+    let atlasMicroId = null;
+    const atlasMicroDetails = new Map();
+    const loadedDetailPointIds = new Set();
+
+    function setExploreView(view) {
+      document.body.dataset.exploreView = view;
+
+      requestAnimationFrame(() => {
+        if (view === "map") {
+          initMacroMap();
+          if (macroRenderer) {
+            macroRenderer.resize();
+            macroRenderer.refresh();
+            syncDisciplineField();
+          }
+        } else if (renderer) {
+          renderer.resize();
+          renderer.refresh();
+        }
+      });
+    }
+
+    openSolarView.addEventListener("click", () => setExploreView("solar"));
+    backToMacroMap.addEventListener("click", () => setExploreView("map"));
+
+    function macroLabel(item) {
+      return String(item.macro_label || `MACROCLUSTER ${item.macrocluster_id}`);
+    }
+
+    function shortMacroLabel(item) {
+      return macroLabel(item).split(" · ").slice(0, 2).join(" · ");
+    }
+
+    function topTerms(values) {
+      if (!Array.isArray(values)) return "SIN DATOS";
+      return values.slice(0, 5).map(item => {
+        if (typeof item === "string") return item;
+        return item.term || item.label || "";
+      }).filter(Boolean).join(" · ") || "SIN DATOS";
+    }
+
+    function topLabels(values) {
+      if (!Array.isArray(values)) return "SIN DATOS";
+      return values.slice(0, 4).map(item => {
+        if (typeof item === "string") return item;
+        const label = item.label || item.term || "";
+        return item.count ? `${label} (${item.count})` : label;
+      }).filter(Boolean).join(" · ") || "SIN DATOS";
+    }
+
+    function renderMacroPanel(item) {
+      activeMacroItem = item;
+      activeMicroItem = null;
+      activeRepresentativeThesis = null;
+
+      const period = item.year_min && item.year_max
+        ? `${item.year_min} - ${item.year_max}`
+        : "SIN FECHA";
+
+      macroPanel.innerHTML = `
+        <p class="eyebrow">Macrocluster ${escapeHTML(item.macrocluster_id)}</p>
+        <h1>${escapeHTML(macroLabel(item))}</h1>
+        <div class="macro-stats">
+          <div class="meta-item">
+            <span class="meta-label">Tesis</span>
+            <span class="meta-value">${escapeHTML(item.size)}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Microclusters</span>
+            <span class="meta-value">${escapeHTML(item.microcluster_count || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Periodo</span>
+            <span class="meta-value">${escapeHTML(period)}</span>
+          </div>
+        </div>
+        <div class="macro-section">
+          <span class="meta-label">Términos dominantes</span>
+          <div class="macro-values">${escapeHTML(topTerms(item.top_terms))}</div>
+        </div>
+        <div class="macro-section">
+          <span class="meta-label">Programas dominantes</span>
+          <div class="macro-values">${escapeHTML(topLabels(item.top_programs))}</div>
+        </div>
+        <div class="macro-section">
+          <span class="meta-label">Áreas dominantes</span>
+          <div class="macro-values">${escapeHTML(topLabels(item.top_areas))}</div>
+        </div>
+        ${renderAreaComposition(item)}
+        <p class="macro-hint">CLICK EN ESTE TERRITORIO PARA ABRIR SUS MICROCLUSTERS TEMÁTICOS.</p>
+      `;
+    }
+
+
+    async function fetchDrilldownPayload(macroclusterId) {
+      const key = String(macroclusterId);
+
+      if (drilldownCache.has(key)) {
+        return drilldownCache.get(key);
+      }
+
+      const routes = [
+        `/explore/macroclusters/macro_${key}.json`,
+        `/static/explore/macroclusters/macro_${key}.json`
+      ];
+
+      for (const route of routes) {
+        const response = await fetch(route);
+
+        if (response.ok) {
+          const payload = await response.json();
+          const macrocluster = payload.macrocluster;
+
+          if (!macrocluster) {
+            throw new Error("El payload del territorio no contiene microclusters.");
+          }
+
+          drilldownCache.set(key, macrocluster);
+          return macrocluster;
+        }
+      }
+
+      throw new Error("No se pudieron cargar los microclusters de este territorio.");
+    }
+
+    function resetExploreGraph() {
+      macroGraph.clear();
+
+      for (const [area, pole] of Object.entries(AREA_POLES)) {
+        macroGraph.addNode(`POLE::${area}`, {
+          x: pole.x,
+          y: pole.y,
+          size: 0.01,
+          color: "rgba(0,0,0,0)",
+          label: "",
+          nodeKind: "pole"
+        });
+      }
+    }
+
+    function layerLabel(item, nodeKind) {
+      if (nodeKind === "macrocluster") return shortMacroLabel(item);
+
+      if (nodeKind === "microcluster") {
+        return String(item.micro_label || `MICROCLUSTER ${item.microcluster_id}`)
+          .split(" · ")
+          .slice(0, 2)
+          .join(" · ");
+      }
+
+      return String(item.title || "TESIS").toUpperCase();
+    }
+
+    function drawClusterLayer(items, nodeKind) {
+      if (!macroGraph || !macroRenderer || !items.length) return;
+
+      resetExploreGraph();
+
+      const maxSize = Math.max(...items.map(item => Number(item.size || 1)));
+      const positioned = computeAreaFieldPositions(items, maxSize);
+
+      positioned.forEach(({ item, x, y }, index) => {
+        const key = nodeKind === "macrocluster"
+          ? `MACRO::${item.macrocluster_id}`
+          : `MICRO::${item.microcluster_id}`;
+
+        const scaledSize = nodeKind === "macrocluster"
+          ? 7 + Math.sqrt(Number(item.size || 1) / maxSize) * 21
+          : 6 + Math.sqrt(Number(item.size || 1) / maxSize) * 17;
+
+        macroGraph.addNode(key, {
+          x,
+          y,
+          size: scaledSize,
+          color: mixedAreaColor(item),
+          borderColor: SUBTLE_NODE_BORDER_COLOR,
+          borderSize: SUBTLE_NODE_BORDER_SIZE,
+          label: layerLabel(item, nodeKind),
+          item,
+          rank: index,
+          nodeKind
+        });
+      });
+
+      macroSelectedNode = null;
+      macroHoveredNode = null;
+      macroRenderer.refresh();
+      syncDisciplineField();
+      macroRenderer.getCamera().animatedReset({ duration: 480 });
+    }
+
+    async function showMicroclusters(macroItem) {
+      try {
+        activeMacroItem = macroItem;
+        macroPanel.innerHTML = `
+          <p class="eyebrow">Explorar</p>
+          <h1>Cargando microclusters</h1>
+          <p class="loading-panel">Preparando los temas internos del territorio seleccionado.</p>
+        `;
+
+        const record = await fetchDrilldownPayload(macroItem.macrocluster_id);
+
+        if (!record || !record.microclusters || !record.microclusters.length) {
+          throw new Error("Este macrocluster no contiene microclusters disponibles.");
+        }
+
+        drawClusterLayer(record.microclusters, "microcluster");
+
+        activeMicroItem = record.microclusters[0];
+        renderMicroPanel(activeMicroItem);
+      } catch (err) {
+        macroPanel.innerHTML = `
+          <p class="eyebrow">Error</p>
+          <h1>No se pudieron cargar microclusters</h1>
+          <p>${escapeHTML(err.message)}</p>
+        `;
+      }
+    }
+
+    function renderMicroPanel(item) {
+      activeMicroItem = item;
+      activeRepresentativeThesis = null;
+
+      const period = item.year_min && item.year_max
+        ? `${item.year_min} - ${item.year_max}`
+        : "SIN FECHA";
+
+      macroPanel.innerHTML = `
+        <p class="drill-path">Explorar / ${escapeHTML(activeMacroItem.macro_label)} / Microcluster</p>
+        <p class="eyebrow">Microcluster ${escapeHTML(item.microcluster_id)}</p>
+        <h1>${escapeHTML(item.micro_label)}</h1>
+        <div class="macro-stats">
+          <div class="meta-item">
+            <span class="meta-label">Tesis</span>
+            <span class="meta-value">${escapeHTML(item.size)}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Periodo</span>
+            <span class="meta-value">${escapeHTML(period)}</span>
+          </div>
+        </div>
+        <div class="macro-section">
+          <span class="meta-label">Términos dominantes</span>
+          <div class="macro-values">${escapeHTML(topTerms(item.top_terms))}</div>
+        </div>
+        <div class="macro-section">
+          <span class="meta-label">Programas dominantes</span>
+          <div class="macro-values">${escapeHTML(topLabels(item.top_programs))}</div>
+        </div>
+        ${renderAreaComposition(item)}
+        <p class="macro-hint">CLICK EN UN MICROCLUSTER PARA ABRIR SUS TESIS REPRESENTATIVAS.</p>
+        <div class="drill-actions">
+          <button class="drill-btn" type="button" data-action="back-macroclusters">
+            Volver a territorios
+          </button>
+        </div>
+      `;
+    }
+
+    function thesisAreaMix(area) {
+      return {
+        "Area 1": area === "Area 1" ? 1 : 0,
+        "Area 2": area === "Area 2" ? 1 : 0,
+        "Area 3": area === "Area 3" ? 1 : 0,
+        "Area 4": area === "Area 4" ? 1 : 0,
+        "Por Clasificar": ["Area 1", "Area 2", "Area 3", "Area 4"].includes(area) ? 0 : 1
+      };
+    }
+
+    function showRepresentativeTheses(microItem) {
+      const theses = microItem.representative_theses || [];
+
+      if (!theses.length) {
+        throw new Error("Este microcluster no tiene tesis representativas.");
+      }
+
+      resetExploreGraph();
+
+      const anchor = computeAreaFieldPositions([microItem], Number(microItem.size || 1))[0];
+      const orbitRadius = theses.length > 6 ? 0.86 : 0.72;
+
+      theses.forEach((thesis, index) => {
+        const angle = (-Math.PI / 2) + (index / theses.length) * Math.PI * 2;
+        const radius = orbitRadius + (index % 2) * 0.18;
+
+        macroGraph.addNode(`THESIS::${thesis.thesis_id}`, {
+          x: anchor.x + Math.cos(angle) * radius,
+          y: anchor.y + Math.sin(angle) * radius,
+          size: 11,
+          color: mixedAreaColor({ area_mix: thesisAreaMix(thesis.area) }),
+          label: String(thesis.title || "TESIS").toUpperCase(),
+          item: thesis,
+          rank: index,
+          nodeKind: "representative_thesis"
+        });
+      });
+
+      macroSelectedNode = null;
+      macroHoveredNode = null;
+      macroRenderer.refresh();
+      syncDisciplineField();
+      macroRenderer.getCamera().animatedReset({ duration: 480 });
+
+      activeRepresentativeThesis = theses[0];
+      renderRepresentativeThesisPanel(theses[0]);
+    }
+
+    function renderRepresentativeThesisPanel(thesis) {
+      activeRepresentativeThesis = thesis;
+
+      macroPanel.innerHTML = `
+        <p class="drill-path">Explorar / ${escapeHTML(activeMacroItem.macro_label)} / ${escapeHTML(activeMicroItem.micro_label)}</p>
+        <p class="eyebrow">Tesis seleccionada</p>
+        <h1>${escapeHTML(thesis.title)}</h1>
+        <div class="meta-grid">
+          <div class="meta-item">
+            <span class="meta-label">Autor</span>
+            <span class="meta-value">${escapeHTML(thesis.author || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Programa</span>
+            <span class="meta-value">${escapeHTML(thesis.program || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Año</span>
+            <span class="meta-value">${escapeHTML(thesis.year || "S/F")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Plantel</span>
+            <span class="meta-value">${escapeHTML(thesis.plantel || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Nivel</span>
+            <span class="meta-value">${escapeHTML(thesis.level || "—")}</span>
+          </div>
+        </div>
+        <p class="representative-note">
+          Esta tesis pertenece al microcluster seleccionado.
+        </p>
+        <div class="drill-actions">
+          <button class="drill-btn" type="button" data-action="back-microclusters">
+            Volver a microclusters
+          </button>
+          <button class="drill-btn primary" type="button" data-action="open-neighborhood">
+            Explorar vecindario
+          </button>
+        </div>
+      `;
+    }
+
+    async function openThesisNeighborhood(thesis) {
+      macroPanel.innerHTML = `
+        <p class="eyebrow">Vecindario</p>
+        <h1>Cargando tesis similares</h1>
+        <p class="loading-panel">Calculando las relaciones semánticas cercanas.</p>
+      `;
+
+      const endpoint = `/api/explore/neighborhood/${encodeURIComponent(thesis.thesis_id)}?top_k=100`;
+      const response = await fetch(endpoint);
+      const contentType = response.headers.get("content-type") || "";
+
+      if (!response.ok || !contentType.includes("application/json")) {
+        throw new Error(
+          "El vecindario requiere la API de FastAPI. Abre esta interfaz desde el puerto 8000 del servidor uvicorn."
+        );
+      }
+
+      const result = await response.json();
+
+      if (!response.ok || !result.ok) {
+        const message = result.detail?.message || result.detail?.message || "No se pudo construir el vecindario.";
+        throw new Error(message);
+      }
+
+      const payload = result.data;
+
+      if (!renderer) {
+        throw new Error(
+          "La vista Vecindario no se inicializó. Verifica que static/graph_neighborhood.json exista y recarga la página."
+        );
+      }
+
+      graph = makeGraph(payload);
+      renderer.setGraph(graph);
+
+      state.mode = "universe";
+      state.groupBy = "year";
+      state.filterValue = "__all__";
+      state.displayCount = Math.min(payload.meta?.defaults?.universe_count || 40, allTheses.length);
+      state.hoveredNode = null;
+      state.selectedNode = "PROJECT";
+      state.groupNodes = new Set();
+
+      groupBySelect.value = "year";
+      setExploreView("solar");
+
+      requestAnimationFrame(() => {
+        refreshView(false);
+        renderPanel(graph.getNodeAttributes("PROJECT"));
+        renderer.resize();
+        renderer.refresh();
+        renderer.getCamera().animatedReset({ duration: 500 });
+      });
+    }
+
+
+    async function fetchAtlasPayload() {
+      if (atlasPayload) return atlasPayload;
+
+      const routes = [
+        "/explore/explore_atlas_50k.json",
+        "/static/explore/explore_atlas_50k.json"
+      ];
+
+      for (const route of routes) {
+        const response = await fetch(route);
+        if (response.ok) {
+          atlasPayload = await response.json();
+          return atlasPayload;
+        }
+      }
+
+      throw new Error("No se pudo cargar explore_atlas_50k.json");
+    }
+
+    async function fetchMicroDetails(microclusterId) {
+      const key = String(microclusterId);
+      if (atlasMicroDetails.has(key)) return atlasMicroDetails.get(key);
+
+      const routes = [
+        `/explore/microclusters/micro_${key}.json`,
+        `/static/explore/microclusters/micro_${key}.json`
+      ];
+
+      for (const route of routes) {
+        const response = await fetch(route);
+        if (response.ok) {
+          const payload = await response.json();
+          atlasMicroDetails.set(key, payload);
+          return payload;
+        }
+      }
+
+      throw new Error("No se pudieron cargar las tesis del microcluster.");
+    }
+
+    function atlasAreaColor(area, alpha) {
+      const hex = AREA_FIELD_COLORS[area] || AREA_FIELD_COLORS["Por Clasificar"];
+      return rgbaFromHex(hex, alpha);
+    }
+
+    function appendAtlasActions(html) {
+      macroPanel.insertAdjacentHTML("beforeend", html);
+    }
+
+    function atlasOverview(selectedItem = null) {
+      atlasLevel = "overview";
+      atlasMacroId = null;
+      atlasMicroId = null;
+      activeMicroItem = null;
+      activeRepresentativeThesis = null;
+
+      const item = selectedItem || atlasPayload.macroclusters[0];
+      activeMacroItem = item;
+      macroSelectedNode = `MACRO::${item.macrocluster_id}`;
+
+      renderMacroPanel(item);
+      appendAtlasActions(`
+        <p class="macro-hint">
+          CLICK EN UN TERRITORIO PARA ABRIR SUS MICROCLUSTERS SIN PERDER EL CONTEXTO DEL ACERVO.
+        </p>
+      `);
+
+      macroRenderer.refresh();
+    }
+
+    function atlasFocusMacro(item) {
+      atlasLevel = "macro";
+      atlasMacroId = Number(item.macrocluster_id);
+      atlasMicroId = null;
+      activeMacroItem = item;
+      activeMicroItem = null;
+      activeRepresentativeThesis = null;
+      macroSelectedNode = `MACRO::${atlasMacroId}`;
+
+      renderMacroPanel(item);
+      appendAtlasActions(`
+        <div class="drill-actions">
+          <button class="drill-btn" type="button" data-atlas-action="overview">
+            Volver al atlas
+          </button>
+        </div>
+        <p class="macro-hint">
+          CLICK EN UN MICROCLUSTER PARA REVELAR SUS TESIS.
+        </p>
+      `);
+
+      macroRenderer.refresh();
+    }
+
+    async function atlasFocusMicro(item) {
+      atlasLevel = "micro";
+      atlasMacroId = Number(item.macrocluster_id);
+      atlasMicroId = Number(item.microcluster_id);
+      activeMacroItem = atlasPayload.macroclusters.find(
+        macro => Number(macro.macrocluster_id) === atlasMacroId
+      );
+      activeMicroItem = item;
+      activeRepresentativeThesis = null;
+      macroSelectedNode = `MICRO::${atlasMicroId}`;
+
+      const details = await fetchMicroDetails(atlasMicroId);
+
+      const microNode = macroGraph.getNodeAttributes(`MICRO::${atlasMicroId}`);
+      const total = details.theses.length;
+      const radius = Math.min(0.72, 0.30 + Math.sqrt(total) / 42);
+
+      details.theses.forEach((thesis, index) => {
+        const nodeId = `DOT::${thesis.thesis_id}`;
+
+        if (macroGraph.hasNode(nodeId)) {
+          macroGraph.setNodeAttribute(nodeId, "detail", thesis);
+          return;
+        }
+
+        const angle = index * 2.399963229728653;
+        const distance = radius * Math.sqrt((index + 1) / Math.max(total, 1));
+
+        macroGraph.addNode(nodeId, {
+          x: microNode.x + Math.cos(angle) * distance,
+          y: microNode.y + Math.sin(angle) * distance,
+          size: 0.88,
+          baseSize: 0.88,
+          color: atlasAreaColor(thesis.area, 0.10),
+          area: thesis.area,
+          thesisId: thesis.thesis_id,
+          microclusterId: atlasMicroId,
+          macroclusterId: atlasMacroId,
+          nodeKind: "atlas_thesis",
+          detail: thesis,
+          label: ""
+        });
+
+        loadedDetailPointIds.add(nodeId);
+      });
+
+      renderMicroPanel(item);
+      appendAtlasActions(`
+        <div class="drill-actions">
+          <button class="drill-btn" type="button" data-atlas-action="macro">
+            Volver al territorio
+          </button>
+          <button class="drill-btn" type="button" data-atlas-action="overview">
+            Ver atlas completo
+          </button>
+        </div>
+        <p class="macro-hint">
+          ${details.theses.length} TESIS DEL MICROCLUSTER. CLICK EN CUALQUIER PUNTO DESTACADO PARA ABRIR SU FICHA.
+        </p>
+      `);
+
+      macroRenderer.refresh();
+    }
+
+    async function fetchMacroPayload() {
+      const routes = [
+        "/static/explore/explore_macroclusters_50k.json",
+        "/explore/explore_macroclusters_50k.json",
+        "/outputs/explore/explore_macroclusters_50k.json"
+      ];
+
+      for (const route of routes) {
+        const response = await fetch(route);
+        if (response.ok) return await response.json();
+      }
+
+      throw new Error("No se pudo cargar explore_macroclusters_50k.json");
+    }
+
+    function parseFieldColor(hex) {
+      const clean = hex.replace("#", "");
+      return {
+        r: parseInt(clean.slice(0, 2), 16),
+        g: parseInt(clean.slice(2, 4), 16),
+        b: parseInt(clean.slice(4, 6), 16)
+      };
+    }
+
+    function areaShare(item, area) {
+      return Number((item.area_mix || {})[area] || 0);
+    }
+
+    function mixedAreaColor(item) {
+      const mix = item?.area_mix || {};
+      let bestArea = item?.area || "Por Clasificar";
+      let bestValue = -Infinity;
+
+      for (const area of ["Area 1", "Area 2", "Area 3", "Area 4"]) {
+        const value = Number(mix[area] || 0);
+        if (value > bestValue) {
+          bestValue = value;
+          bestArea = area;
+        }
+      }
+
+      if (!Number.isFinite(bestValue) || bestValue <= 0) {
+        bestArea = item?.area || "Por Clasificar";
+      }
+
+      return AREA_FIELD_COLORS[bestArea] || AREA_FIELD_COLORS["Por Clasificar"] || "#8B877E";
+    }
+
+    function renderAreaComposition(item) {
+      const entries = Object.entries(item.area_mix || {})
+        .filter(([area, pct]) => area !== "Por Clasificar" && Number(pct) > 0.005)
+        .sort((a, b) => Number(b[1]) - Number(a[1]));
+
+      if (!entries.length) return "";
+
+      return `
+        <div class="area-composition">
+          <span class="meta-label">Composición disciplinar</span>
+          ${entries.map(([area, pct]) => `
+            <div class="area-row">
+              <div class="area-row-head">
+                <span>${escapeHTML(AREA_FIELD_LABELS[area] || area)}</span>
+                <strong>${Math.round(Number(pct) * 100)}%</strong>
+              </div>
+              <div class="area-bar">
+                <div class="area-bar-fill" style="width:${Number(pct) * 100}%;background:${AREA_FIELD_COLORS[area] || "#8B877E"}"></div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    function computeAreaFieldPositions(items, maxSize) {
+      const xs = items.map(item => Number(item.x));
+      const ys = items.map(item => Number(item.y));
+      const minX = Math.min(...xs);
+      const maxX = Math.max(...xs);
+      const minY = Math.min(...ys);
+      const maxY = Math.max(...ys);
+      const spanX = Math.max(maxX - minX, 0.000001);
+      const spanY = Math.max(maxY - minY, 0.000001);
+      const centerX = (minX + maxX) / 2;
+      const centerY = (minY + maxY) / 2;
+
+      const positioned = items.map(item => {
+        let x = 0;
+        let y = 0;
+        let total = 0;
+
+        for (const [area, pole] of Object.entries(AREA_POLES)) {
+          const weight = areaShare(item, area);
+          x += pole.x * weight;
+          y += pole.y * weight;
+          total += weight;
+        }
+
+        if (total > 0) {
+          x /= total;
+          y /= total;
+        }
+
+        // Small semantic displacement: preserves distinctions inside similar mixes.
+        x += ((Number(item.x) - centerX) / spanX) * 0.9;
+        y += ((Number(item.y) - centerY) / spanY) * 0.7;
+
+        return {
+          item,
+          x,
+          y,
+          anchorX: x,
+          anchorY: y,
+          radius: 0.20 + Math.sqrt(Number(item.size || 0) / maxSize) * 0.38
+        };
+      });
+
+      for (let iteration = 0; iteration < 190; iteration += 1) {
+        for (let i = 0; i < positioned.length; i += 1) {
+          for (let j = i + 1; j < positioned.length; j += 1) {
+            const a = positioned[i];
+            const b = positioned[j];
+
+            let dx = b.x - a.x;
+            let dy = b.y - a.y;
+            let distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance < 0.0001) {
+              dx = 0.006 * (i + 1);
+              dy = 0.006 * (j + 1);
+              distance = Math.sqrt(dx * dx + dy * dy);
+            }
+
+            const required = a.radius + b.radius + 0.17;
+
+            if (distance < required) {
+              const movement = (required - distance) * 0.54;
+              const ux = dx / distance;
+              const uy = dy / distance;
+
+              a.x -= ux * movement;
+              a.y -= uy * movement;
+              b.x += ux * movement;
+              b.y += uy * movement;
+            }
+          }
+        }
+
+        for (const node of positioned) {
+          node.x += (node.anchorX - node.x) * 0.022;
+          node.y += (node.anchorY - node.y) * 0.022;
+        }
+      }
+
+      return positioned;
+    }
+
+    async function initMacroMap() {
+      if (macroLoaded || macroLoading) return;
+      macroLoading = true;
+
+      try {
+        const payload = await fetchAtlasPayload();
+        const macros = payload.macroclusters || [];
+        const micros = payload.microclusters || [];
+        const points = payload.points || [];
+
+        if (!macros.length || !micros.length || !points.length) {
+          throw new Error("El atlas no contiene todas sus capas visuales.");
+        }
+
+        macroItems = macros;
+        macroGraph = new Graph({ multi: false, type: "undirected" });
+
+        for (const [area, pole] of Object.entries(AREA_POLES)) {
+          macroGraph.addNode(`POLE::${area}`, {
+            x: pole.x,
+            y: pole.y,
+            size: 0.01,
+            color: "rgba(0,0,0,0)",
+            label: "",
+            nodeKind: "pole"
+          });
+        }
+
+        for (const point of points) {
+          const [thesisId, microId, macroId, x, y, area] = point;
+
+          macroGraph.addNode(`DOT::${thesisId}`, {
+            x: Number(x),
+            y: Number(y),
+            size: 0.55,
+            baseSize: 0.55,
+            color: atlasAreaColor(area, 0.10),
+            area,
+            thesisId,
+            microclusterId: Number(microId),
+            macroclusterId: Number(macroId),
+            nodeKind: "atlas_thesis",
+            label: ""
+          });
+        }
+
+        const maxMicro = Math.max(...micros.map(item => Number(item.size || 1)));
+
+        for (const item of micros) {
+          const size = 4.2 + Math.sqrt(Number(item.size || 1) / maxMicro) * 9.4;
+
+          macroGraph.addNode(`MICRO::${item.microcluster_id}`, {
+            x: Number(item.atlas_x),
+            y: Number(item.atlas_y),
+            size,
+            baseSize: size,
+            color: mixedAreaColor(item),
+            borderColor: SUBTLE_NODE_BORDER_COLOR,
+            borderSize: SUBTLE_NODE_BORDER_SIZE,
+            label: layerLabel(item, "microcluster"),
+            item,
+            macroclusterId: Number(item.macrocluster_id),
+            microclusterId: Number(item.microcluster_id),
+            nodeKind: "microcluster"
+          });
+        }
+
+        const maxMacro = Math.max(...macros.map(item => Number(item.size || 1)));
+
+        for (const item of macros) {
+          const size = 11 + Math.sqrt(Number(item.size || 1) / maxMacro) * 17;
+
+          macroGraph.addNode(`MACRO::${item.macrocluster_id}`, {
+            x: Number(item.atlas_x),
+            y: Number(item.atlas_y),
+            size,
+            baseSize: size,
+            color: mixedAreaColor(item),
+            borderColor: SUBTLE_NODE_BORDER_COLOR,
+            borderSize: SUBTLE_NODE_BORDER_SIZE,
+            label: shortMacroLabel(item),
+            item,
+            macroclusterId: Number(item.macrocluster_id),
+            nodeKind: "macrocluster"
+          });
+        }
+
+        macroRenderer = new Sigma(macroGraph, macroContainer, {
+          allowInvalidContainer: true,
+          zIndex: true,
+          labelFont: "Montserrat",
+          labelSize: 11,
+          labelWeight: "600",
+          labelColor: { color: "#EAF4FF" },
+          minCameraRatio: 0.2,
+          maxCameraRatio: 10,
+          nodeReducer: (node, data) => {
+            const res = { ...data };
+
+            if (["macrocluster", "microcluster"].includes(data.nodeKind)) {
+              res.borderColor = data.borderColor || SUBTLE_NODE_BORDER_COLOR;
+              res.borderSize = data.borderSize || SUBTLE_NODE_BORDER_SIZE;
+            }
+
+            const hovered = node === macroHoveredNode;
+            const selected = node === macroSelectedNode;
+
+            if (data.nodeKind === "pole") {
+              res.label = "";
+              res.size = 0.01;
+              res.color = "rgba(0,0,0,0)";
+              return res;
+            }
+
+            if (data.nodeKind === "atlas_thesis") {
+              res.label = "";
+              res.zIndex = 0;
+
+              if (atlasLevel === "overview") {
+                res.size = 0.84;
+                res.color = atlasAreaColor(data.area, 0.10);
+              } else if (atlasLevel === "macro") {
+                const active = data.macroclusterId === atlasMacroId;
+                res.size = active ? 1.35 : 0.34;
+                res.color = atlasAreaColor(data.area, active ? 0.30 : 0.022);
+                res.zIndex = active ? 2 : 0;
+              } else {
+                const active = data.microclusterId === atlasMicroId;
+                const context = data.macroclusterId === atlasMacroId;
+
+                res.size = active ? (hovered ? 4.1 : 2.65) : (context ? 0.36 : 0.16);
+                res.color = atlasAreaColor(data.area, active ? 0.68 : (context ? 0.018 : 0.007));
+                res.zIndex = active ? 6 : 0;
+
+                if (active && hovered && data.detail) {
+                  res.label = String(data.detail.title || "").toUpperCase();
+                  res.forceLabel = true;
+                }
+              }
+
+              return res;
+            }
+
+            if (data.nodeKind === "microcluster") {
+              res.zIndex = 3;
+
+              if (atlasLevel === "overview") {
+                res.size = data.baseSize * (hovered ? 1.16 : 0.74);
+                res.label = hovered ? data.label : "";
+                res.forceLabel = hovered;
+              } else if (atlasLevel === "macro") {
+                const active = data.macroclusterId === atlasMacroId;
+                res.hidden = !active;
+
+                if (active) {
+                  res.size = data.baseSize * (selected ? 1.30 : 1.08);
+                  res.label = (hovered || selected) ? data.label : "";
+                  res.forceLabel = hovered || selected;
+                  res.zIndex = 6;
+                }
+              } else {
+                const active = data.microclusterId === atlasMicroId;
+                const context = data.macroclusterId === atlasMacroId;
+                res.hidden = !context;
+                res.size = active ? data.baseSize * 1.28 : data.baseSize * 0.34;
+                res.label = active ? data.label : "";
+                res.forceLabel = active;
+                res.zIndex = active ? 5 : 1;
+              }
+
+              return res;
+            }
+
+            if (data.nodeKind === "macrocluster") {
+              res.zIndex = 8;
+
+              if (atlasLevel === "overview") {
+                res.size = data.baseSize * (selected ? 1.20 : (hovered ? 1.12 : 1));
+                res.label = (hovered || selected) ? data.label : "";
+                res.forceLabel = hovered || selected;
+              } else {
+                const active = data.macroclusterId === atlasMacroId;
+                res.hidden = !active;
+
+                if (active) {
+                  res.size = data.baseSize * 0.76;
+                  res.label = data.label;
+                  res.forceLabel = true;
+                }
+              }
+            }
+
+            return res;
+          }
+        });
+
+        macroRenderer.getCamera().on("updated", syncDisciplineField);
+        window.addEventListener("resize", syncDisciplineField);
+
+        macroRenderer.on("enterNode", ({ node }) => {
+          const kind = macroGraph.getNodeAttribute(node, "nodeKind");
+          if (kind === "pole") return;
+
+          macroHoveredNode = node;
+          macroRenderer.refresh();
+        });
+
+        macroRenderer.on("leaveNode", () => {
+          macroHoveredNode = null;
+          macroRenderer.refresh();
+        });
+
+        macroRenderer.on("clickNode", async ({ node }) => {
+          const data = macroGraph.getNodeAttributes(node);
+
+          try {
+            if (data.nodeKind === "macrocluster") {
+              atlasFocusMacro(data.item);
+            } else if (data.nodeKind === "microcluster") {
+              if (atlasLevel === "overview") {
+                const parent = macros.find(
+                  item => Number(item.macrocluster_id) === Number(data.macroclusterId)
+                );
+                atlasFocusMacro(parent);
+              } else {
+                await atlasFocusMicro(data.item);
+              }
+            } else if (
+              data.nodeKind === "atlas_thesis" &&
+              atlasLevel === "micro" &&
+              data.microclusterId === atlasMicroId &&
+              data.detail
+            ) {
+              activeRepresentativeThesis = data.detail;
+              renderRepresentativeThesisPanel(data.detail);
+            }
+          } catch (err) {
+            macroPanel.innerHTML = `
+              <p class="eyebrow">Error</p>
+              <h1>No se pudo continuar</h1>
+              <p>${escapeHTML(err.message)}</p>
+            `;
+          }
+        });
+
+        macroLoaded = true;
+        atlasOverview();
+
+        requestAnimationFrame(() => {
+          macroRenderer.resize();
+          macroRenderer.refresh();
+          syncDisciplineField();
+          macroRenderer.getCamera().animatedReset({ duration: 500 });
+        });
+      } catch (err) {
+        macroPanel.innerHTML = `
+          <p class="eyebrow">Error</p>
+          <h1>No se pudo cargar el atlas</h1>
+          <p>${escapeHTML(err.message)}</p>
+        `;
+      } finally {
+        macroLoading = false;
+      }
+    }
+
+
+    macroPanel.addEventListener("click", async event => {
+      const atlasButton = event.target.closest("[data-atlas-action]");
+      if (atlasButton) {
+        if (atlasButton.dataset.atlasAction === "overview") {
+          atlasOverview(activeMacroItem);
+        } else if (atlasButton.dataset.atlasAction === "macro" && activeMacroItem) {
+          atlasFocusMacro(activeMacroItem);
+        }
+        return;
+      }
+
+      const button = event.target.closest("[data-action]");
+      if (!button) return;
+
+      try {
+        if (button.dataset.action === "open-neighborhood" && activeRepresentativeThesis) {
+          await openThesisNeighborhood(activeRepresentativeThesis);
+        }
+      } catch (err) {
+        macroPanel.innerHTML = `
+          <p class="eyebrow">Error</p>
+          <h1>No se pudo continuar</h1>
+          <p>${escapeHTML(err.message)}</p>
+          <div class="drill-actions">
+            <button class="drill-btn" type="button" data-atlas-action="overview">
+              Volver al atlas
+            </button>
+          </div>
+        `;
+      }
+    });
+
+    async function loadGraphPayload() {
+      const routes = [
+        "/graph_neighborhood.json",
+        "/static/graph_neighborhood.json",
+        "/outputs/graph_neighborhood.json"
+      ];
+
+      for (const route of routes) {
+        const res = await fetch(route);
+        if (res.ok) return await res.json();
+      }
+
+      throw new Error("No se pudo cargar graph_neighborhood.json");
+    }
+
+    function escapeHTML(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function clamp(value, min, max) {
+      return Math.max(min, Math.min(max, value));
+    }
+
+    function hexToRgb(hex) {
+      const clean = String(hex || "#999999").replace("#", "");
+      const value = clean.length === 3
+        ? clean.split("").map(ch => ch + ch).join("")
+        : clean.padEnd(6, "9").slice(0, 6);
+      return {
+        r: parseInt(value.slice(0, 2), 16),
+        g: parseInt(value.slice(2, 4), 16),
+        b: parseInt(value.slice(4, 6), 16)
+      };
+    }
+
+    function rgbaFromHex(hex, alpha) {
+      const { r, g, b } = hexToRgb(hex);
+      return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    }
+
+    function decadeLabel(year) {
+      if (!year) return "SIN FECHA";
+      const start = Math.floor(Number(year) / 10) * 10;
+      return `${start}-${start + 9}`;
+    }
+
+    function categoryValue(node, category) {
+      if (category === "year") return decadeLabel(node.year);
+      if (category === "program") return node.program || "SIN PROGRAMA";
+      if (category === "plantel") return node.plantel || "SIN PLANTEL";
+      if (category === "level") return node.level || "SIN NIVEL";
+      if (category === "area") return node.area || "SIN ÁREA";
+      return "SIN CATEGORÍA";
+    }
+
+    function normalizedCategoryLabel(label) {
+      return String(label || "SIN DATO").toUpperCase();
+    }
+
+    function numericGroupKey(label) {
+      const m = String(label).match(/(\d{4})/);
+      return m ? Number(m[1]) : Number.POSITIVE_INFINITY;
+    }
+
+    function areaColor(area) {
+      return AREA_COLORS[area || ""] || "#9a9a9a";
+    }
+
+    function getCategoryColor(label, category) {
+      if (category === "area") return areaColor(label);
+      if (!state.colorMap.has(label)) {
+        state.colorMap.set(label, PALETTE[state.colorMap.size % PALETTE.length]);
+      }
+      return state.colorMap.get(label);
+    }
+
+    function edgeVisualFromSimilarity(weight, targetColor) {
+      const w = Number(weight || 0);
+      const t = clamp((w - 0.70) / 0.25, 0, 1);
+      return {
+        size: 0.35 + t * 2.25,
+        color: rgbaFromHex(targetColor, 0.08 + t * 0.30)
+      };
+    }
+
+    function getFilteredSortedTheses() {
+      let theses = [...allTheses];
+
+      if (state.filterValue !== "__all__") {
+        theses = theses.filter(n => categoryValue(n, state.groupBy) === state.filterValue);
+      }
+
+      // Always display closest theses first by semantic similarity.
+      theses.sort((a, b) => Number(b.similarity || 0) - Number(a.similarity || 0));
+
+      return theses.slice(0, state.displayCount);
+    }
+
+    function groupTheses(theses) {
+      const groups = new Map();
+
+      for (const n of theses) {
+        const key = categoryValue(n, state.groupBy);
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(n);
+      }
+
+      let entries = [...groups.entries()];
+
+      // Groups with the closest thesis appear first.
+      entries.sort((a, b) => {
+        const aMax = Math.max(...a[1].map(n => Number(n.similarity || 0)));
+        const bMax = Math.max(...b[1].map(n => Number(n.similarity || 0)));
+        return bMax - aMax || b[1].length - a[1].length;
+      });
+
+      return entries;
+    }
+
+    function buildColorMap(theses) {
+      state.colorMap = new Map();
+      const labels = [...new Set(theses.map(n => categoryValue(n, state.groupBy)))];
+
+      if (state.groupBy === "year") {
+        labels.sort((a, b) => numericGroupKey(a) - numericGroupKey(b));
+      } else {
+        labels.sort();
+      }
+
+      for (const label of labels) {
+        getCategoryColor(label, state.groupBy);
+      }
+    }
+
+    function updateFilterOptions() {
+      const current = state.filterValue;
+      const labels = [...new Set(allTheses.map(n => categoryValue(n, state.groupBy)))];
+
+      if (state.groupBy === "year") {
+        labels.sort((a, b) => numericGroupKey(a) - numericGroupKey(b));
+      } else {
+        labels.sort();
+      }
+
+      filterValueSelect.innerHTML = `<option value="__all__">Todo</option>` +
+        labels.map(label => `<option value="${escapeHTML(label)}">${escapeHTML(normalizedCategoryLabel(label))}</option>`).join("");
+
+      const available = new Set(["__all__", ...labels]);
+      state.filterValue = available.has(current) ? current : "__all__";
+      filterValueSelect.value = state.filterValue;
+    }
+
+    function updateLegend(theses) {
+      const labels = [...new Set(theses.map(n => categoryValue(n, state.groupBy)))].slice(0, 8);
+      legend.innerHTML = labels.map(label => `
+        <div class="legend-chip">
+          <span class="dot" style="background:${getCategoryColor(label, state.groupBy)}"></span>
+          ${escapeHTML(normalizedCategoryLabel(label))}
+        </div>
+      `).join("");
+    }
+
+    function computeUniversePositions(theses) {
+      const positions = {
+        PROJECT: { x: 0, y: 0 },
+        PROJECT_HALO: { x: 0, y: 0 }
+      };
+
+      const sorted = [...theses].sort((a, b) => Number(b.similarity || 0) - Number(a.similarity || 0));
+      const similarities = sorted.map(n => Number(n.similarity || 0));
+      const minSim = Math.min(...similarities);
+      const maxSim = Math.max(...similarities);
+      const span = Math.max(maxSim - minSim, 0.000001);
+
+      const GOLDEN_ANGLE = Math.PI * (3 - Math.sqrt(5));
+      const innerRadius = 0.70;
+      const outerRadius = 3.95;
+
+      sorted.forEach((n, i) => {
+        const simNorm = (Number(n.similarity || minSim) - minSim) / span;
+        const radius = innerRadius + (1 - simNorm) * (outerRadius - innerRadius);
+        const angle = i * GOLDEN_ANGLE + Math.sin(i * 1.71) * 0.18;
+        const jitter = 0.045 * ((i % 5) - 2);
+
+        positions[n.id] = {
+          x: Math.cos(angle) * (radius + jitter),
+          y: Math.sin(angle) * (radius + jitter)
+        };
+      });
+
+      return positions;
+    }
+
+    function computeAnalyticPositions(theses, groups) {
+      const positions = {
+        PROJECT: { x: 0, y: -3.4 },
+        PROJECT_HALO: { x: 0, y: -3.4 }
+      };
+
+      const groupCount = groups.length;
+      const cols = Math.min(4, Math.max(1, Math.ceil(Math.sqrt(groupCount))));
+      const xGap = 3.1;
+      const yGap = 2.45;
+      const startX = -((cols - 1) * xGap) / 2;
+      const startY = -0.25;
+
+      groups.forEach(([label, items], gi) => {
+        const col = gi % cols;
+        const row = Math.floor(gi / cols);
+        const cx = startX + col * xGap;
+        const cy = startY + row * yGap;
+
+        const sortedItems = [...items];
+
+        // Within every analytic group, closest theses come first.
+        sortedItems.sort((a, b) => Number(b.similarity || 0) - Number(a.similarity || 0));
+
+        const n = sortedItems.length;
+        const innerCols = Math.ceil(Math.sqrt(n));
+        const spacing = n > 16 ? 0.30 : 0.36;
+        const width = (innerCols - 1) * spacing;
+        const rows = Math.ceil(n / innerCols);
+        const height = (rows - 1) * spacing;
+
+        let lowerRight = { x: cx, y: cy };
+
+        sortedItems.forEach((node, i) => {
+          const ix = i % innerCols;
+          const iy = Math.floor(i / innerCols);
+
+          const x = cx - width / 2 + ix * spacing;
+          const y = cy - height / 2 + iy * spacing;
+
+          positions[node.id] = { x, y };
+
+          // Reference: lower-right visible thesis node.
+          if (y > lowerRight.y || (Math.abs(y - lowerRight.y) < 1e-6 && x > lowerRight.x)) {
+            lowerRight = { x, y };
+          }
+        });
+
+        const groupId = `GROUP::${label}`;
+
+        // Put subtitle below the lower-right ball, pulled back toward the group center.
+        positions[groupId] = {
+          x: lowerRight.x + (cx - lowerRight.x) * 0.52,
+          y: lowerRight.y + 0.42
+        };
+      });
+
+      return positions;
+    }
+
+    function ensureGroupNodes(groups) {
+      for (const groupNode of state.groupNodes) {
+        if (graph.hasNode(groupNode)) graph.dropNode(groupNode);
+      }
+
+      state.groupNodes = new Set();
+
+      if (state.mode !== "analytic") return;
+
+      for (const [label, items] of groups) {
+        const id = `GROUP::${label}`;
+        const color = getCategoryColor(label, state.groupBy);
+
+        graph.addNode(id, {
+          nodeKind: "group",
+          type: "circle",
+          x: 0,
+          y: 0,
+          size: 18,
+          color: rgbaFromHex(color, 0.035),
+          label: normalizedCategoryLabel(label),
+          fullLabel: normalizedCategoryLabel(label),
+          displayLabel: normalizedCategoryLabel(label),
+          count: items.length,
+          category: state.groupBy
+        });
+
+        state.groupNodes.add(id);
+      }
+    }
+
+    function applyNodeStyles(theses) {
+      buildColorMap(theses);
+
+      for (const n of allTheses) {
+        if (!graph.hasNode(n.id)) continue;
+
+        const category = categoryValue(n, state.groupBy);
+        const color = getCategoryColor(category, state.groupBy);
+
+        graph.mergeNodeAttributes(n.id, {
+          color,
+          baseColor: color,
+          categoryLabel: category,
+          yearLabel: String(n.year || "")
+        });
+      }
+
+      graph.forEachEdge((edge, attrs, source, target) => {
+        if (!graph.hasNode(target)) return;
+        const targetColor = graph.getNodeAttribute(target, "baseColor") || graph.getNodeAttribute(target, "color") || "#999";
+        const edgeVisual = edgeVisualFromSimilarity(attrs.weight, targetColor);
+
+        graph.mergeEdgeAttributes(edge, {
+          size: edgeVisual.size,
+          color: edgeVisual.color,
+          baseColor: edgeVisual.color,
+          targetColor
+        });
+      });
+    }
+
+    function animateToPositions(positions, duration = 850) {
+      const start = {};
+      const ids = Object.keys(positions);
+
+      for (const id of ids) {
+        if (!graph.hasNode(id)) continue;
+        start[id] = {
+          x: graph.getNodeAttribute(id, "x"),
+          y: graph.getNodeAttribute(id, "y")
+        };
+      }
+
+      const startTime = performance.now();
+
+      function ease(t) {
+        return 1 - Math.pow(1 - t, 3);
+      }
+
+      function frame(now) {
+        const t = clamp((now - startTime) / duration, 0, 1);
+        const k = ease(t);
+
+        for (const id of ids) {
+          if (!graph.hasNode(id) || !start[id]) continue;
+
+          const sx = start[id].x;
+          const sy = start[id].y;
+          const tx = positions[id].x;
+          const ty = positions[id].y;
+
+          graph.setNodeAttribute(id, "x", sx + (tx - sx) * k);
+          graph.setNodeAttribute(id, "y", sy + (ty - sy) * k);
+        }
+
+        renderer.refresh();
+
+        if (t < 1) requestAnimationFrame(frame);
+      }
+
+      requestAnimationFrame(frame);
+    }
+
+    function renderPanel(attrs) {
+      if (!attrs || attrs.nodeKind === "halo" || attrs.nodeKind === "group") return;
+
+      if (attrs.nodeKind === "project" && attrs.center_kind === "thesis") {
+        panel.innerHTML = `
+          <p class="eyebrow">Tesis central</p>
+          <h1 class="thesis-title">${escapeHTML(attrs.displayLabel || attrs.title)}</h1>
+          <div class="meta-grid">
+            <div class="meta-item">
+              <span class="meta-label">Autor</span>
+              <span class="meta-value">${escapeHTML(String(attrs.author || "—").toUpperCase())}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Programa</span>
+              <span class="meta-value">${escapeHTML(attrs.program || "—")}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Año</span>
+              <span class="meta-value">${escapeHTML(attrs.year || "S/F")}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Plantel</span>
+              <span class="meta-value">${escapeHTML(attrs.plantel || "—")}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Área</span>
+              <span class="meta-value">${escapeHTML(attrs.area || "—")}</span>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      if (attrs.nodeKind === "project") {
+        panel.innerHTML = `
+          <p class="eyebrow">Proyecto</p>
+          <h1 class="thesis-title">${escapeHTML(attrs.displayLabel || attrs.fullLabel || attrs.label)}</h1>
+          <p>Esta es la idea central desde la cual se construye el vecindario académico.</p>
+          <div class="meta-grid">
+            <div class="meta-item">
+              <span class="meta-label">Tipo</span>
+              <span class="meta-value">PROYECTO DEL USUARIO</span>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      panel.innerHTML = `
+        <p class="eyebrow">Tesis cercana</p>
+        <h1 class="thesis-title">${escapeHTML(attrs.displayLabel || attrs.title || attrs.fullLabel)}</h1>
+        <div class="meta-grid">
+          <div class="meta-item">
+            <span class="meta-label">Año</span>
+            <span class="meta-value">${escapeHTML(attrs.year || "s/f")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Programa</span>
+            <span class="meta-value">${escapeHTML(attrs.program || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Plantel</span>
+            <span class="meta-value">${escapeHTML(attrs.plantel || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Nivel</span>
+            <span class="meta-value">${escapeHTML(attrs.level || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Área</span>
+            <span class="meta-value">${escapeHTML(attrs.area || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Similitud</span>
+            <span class="meta-value">${escapeHTML(attrs.similarity || "—")}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Autor</span>
+            <span class="meta-value">${escapeHTML(String(attrs.author || "—").toUpperCase())}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Bibliografía</span>
+            <span class="meta-value">${attrs.has_bibliography ? "Disponible" : "No detectada"}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Doc number</span>
+            <span class="meta-value">${escapeHTML(attrs.doc_number_url || "—")}</span>
+          </div>
+        </div>
+        ${attrs.advisor ? `
+          <div class="meta-grid" style="margin-top:20px">
+            <div class="meta-item">
+              <span class="meta-label">Asesor</span>
+              <span class="meta-value">${escapeHTML(String(attrs.advisor).toUpperCase())}</span>
+            </div>
+          </div>
+        ` : ""}
+      `;
+    }
+
+    function updateTooltip(nodeId, event) {
+      if (
+        !nodeId ||
+        !graph.hasNode(nodeId) ||
+        ["halo", "group"].includes(graph.getNodeAttribute(nodeId, "nodeKind"))
+      ) {
+        tooltip.classList.remove("visible");
+        return;
+      }
+
+      const attrs = graph.getNodeAttributes(nodeId);
+
+      tooltip.innerHTML = `
+        <strong class="tooltip-title">${escapeHTML(attrs.displayLabel || attrs.fullLabel || attrs.label || nodeId)}</strong>
+        <br>
+        <span style="font-family:Montserrat,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.045em;font-size:11px;color:#666;">
+          ${escapeHTML(attrs.program || "SIN PROGRAMA")} · ${escapeHTML(attrs.year || "S/F")}
+        </span>
+        ${attrs.plantel ? `<br><span style="font-family:Montserrat,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.045em;font-size:10px;color:#777;">${escapeHTML(attrs.plantel)}</span>` : ""}
+        ${attrs.author ? `<br><span style="font-family:Montserrat,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.045em;font-size:10px;color:#777;">AUTOR: ${escapeHTML(attrs.author)}</span>` : ""}
+      `;
+
+      tooltip.style.left = `${event.clientX}px`;
+      tooltip.style.top = `${event.clientY}px`;
+      tooltip.classList.add("visible");
+    }
+
+    function refreshView(animate = true) {
+      document.body.dataset.mode = state.mode;
+
+      modeUniverse.classList.toggle("active", state.mode === "universe");
+      modeAnalytic.classList.toggle("active", state.mode === "analytic");
+
+      const maxCount = Math.min(300, allTheses.length);
+      countSlider.max = String(maxCount);
+
+      if (state.displayCount > maxCount) state.displayCount = maxCount;
+      countSlider.value = String(state.displayCount);
+      countLabel.textContent = String(state.displayCount);
+
+      updateFilterOptions();
+
+      const visibleTheses = getFilteredSortedTheses();
+      state.visibleIds = new Set(["PROJECT", "PROJECT_HALO", ...visibleTheses.map(n => n.id)]);
+
+      applyNodeStyles(visibleTheses);
+      updateLegend(visibleTheses);
+
+      const groups = groupTheses(visibleTheses);
+      ensureGroupNodes(groups);
+
+      for (const id of state.groupNodes) state.visibleIds.add(id);
+
+      const positions = state.mode === "universe"
+        ? computeUniversePositions(visibleTheses)
+        : computeAnalyticPositions(visibleTheses, groups);
+
+      if (animate) animateToPositions(positions);
+      else {
+        for (const [id, pos] of Object.entries(positions)) {
+          if (!graph.hasNode(id)) continue;
+          graph.setNodeAttribute(id, "x", pos.x);
+          graph.setNodeAttribute(id, "y", pos.y);
+        }
+        renderer.refresh();
+      }
+    }
+
+    function makeGraph(payload) {
+      const g = new Graph({ multi: true, type: "undirected" });
+      projectNode = payload.nodes.find(n => n.type === "project");
+      allTheses = payload.nodes.filter(n => n.type === "thesis");
+
+      g.addNode("PROJECT_HALO", {
+        nodeKind: "halo",
+        type: "circle",
+        x: 0,
+        y: 0,
+        size: 0,
+        color: "rgba(0,0,0,0)",
+        label: "",
+        fullLabel: "",
+        displayLabel: ""
+      });
+
+      g.addNode("PROJECT", {
+        ...projectNode,
+        nodeKind: "project",
+        type: "circle",
+        x: 0,
+        y: 0,
+        size: 19,
+        color: PROJECT_COLOR,
+        label: "PROYECTO",
+        fullLabel: projectNode.label || projectNode.title || "Proyecto",
+        displayLabel: String(projectNode.displayLabel || projectNode.label || projectNode.title || "Proyecto").toUpperCase()
+      });
+
+      for (const n of allTheses) {
+        g.addNode(n.id, {
+          ...n,
+          nodeKind: "thesis",
+          type: "circle",
+          x: 0,
+          y: 0,
+          size: n.size || 10,
+          color: n.color || areaColor(n.area),
+          baseColor: n.color || areaColor(n.area),
+          label: String(n.year || ""),
+          fullLabel: n.title || n.label || n.id,
+          displayLabel: String(n.displayLabel || n.title || n.label || n.id).toUpperCase(),
+          author: n.author || "",
+          yearLabel: String(n.year || ""),
+          categoryLabel: ""
+        });
+      }
+
+      payload.edges.forEach((e, i) => {
+        if (!g.hasNode(e.source) || !g.hasNode(e.target)) return;
+
+        const targetColor = g.getNodeAttribute(e.target, "color") || "#999999";
+        const edgeVisual = edgeVisualFromSimilarity(e.weight, targetColor);
+
+        g.addEdgeWithKey(`e${i}`, e.source, e.target, {
+          ...e,
+          relation: e.type,
+          type: "line",
+          size: edgeVisual.size,
+          color: edgeVisual.color,
+          baseColor: edgeVisual.color,
+          targetColor
+        });
+      });
+
+      return g;
+    }
+
+    loadGraphPayload().then(payload => {
+      graph = makeGraph(payload);
+
+      const defaultUniverse = payload.meta?.defaults?.universe_count || 40;
+      const defaultAnalytic = payload.meta?.defaults?.analytic_count || 100;
+
+      state.displayCount = defaultUniverse;
+      countSlider.max = String(Math.min(300, allTheses.length));
+      countSlider.value = String(state.displayCount);
+      countLabel.textContent = String(state.displayCount);
+
+      renderer = new Sigma(graph, container, {
+        renderEdgeLabels: false,
+        allowInvalidContainer: true,
+        defaultEdgeType: "line",
+        labelFont: "Montserrat",
+        labelSize: 10,
+        labelWeight: "500",
+        labelColor: { color: "#222" },
+        defaultEdgeColor: "rgba(0,0,0,0.12)",
+        enableEdgeEvents: false,
+        minCameraRatio: 0.38,
+        maxCameraRatio: 2.8,
+        nodeReducer: (node, data) => {
+          const res = { ...data };
+
+          const visible = state.visibleIds.has(node);
+          if (!visible) {
+            res.hidden = true;
+            return res;
+          }
+
+          const isHovered = node === state.hoveredNode;
+          const isSelected = node === state.selectedNode;
+
+          if (data.nodeKind === "halo") {
+            res.label = "";
+            res.hidden = true;
+            res.color = "rgba(0,0,0,0)";
+            res.size = 0;
+          }
+
+          if (data.nodeKind === "project") {
+            res.label = (isSelected || isHovered) ? "PROYECTO" : "";
+            res.size = state.mode === "analytic" ? 16 : 19;
+            res.color = PROJECT_COLOR;
+          }
+
+          if (data.nodeKind === "thesis") {
+            // Keep node labels minimal. Detailed hover information lives only in the tooltip.
+            res.label = state.mode === "analytic" ? "" : (data.yearLabel || "");
+
+            if (isHovered || isSelected) {
+              res.size = data.size * 1.25;
+            }
+          }
+
+          if (data.nodeKind === "group") {
+            res.label = data.displayLabel;
+            res.size = 0.2;
+            res.color = "rgba(0,0,0,0)";
+            res.forceLabel = true;
+          }
+
+          if (state.selectedNode && node !== state.selectedNode) {
+            const neighbors = new Set(graph.neighbors(state.selectedNode));
+            if (!neighbors.has(node) && data.nodeKind !== "group") {
+              res.color = "rgba(170,170,170,0.34)";
+            }
+          }
+
+          if (isSelected) {
+            res.highlighted = true;
+            res.size = res.size * 1.35;
+          }
+
+          return res;
+        },
+        edgeReducer: (edge, data) => {
+          const res = { ...data };
+
+          const [source, target] = graph.extremities(edge);
+
+          if (state.mode === "analytic") {
+            res.hidden = true;
+            return res;
+          }
+
+          if (!state.visibleIds.has(source) || !state.visibleIds.has(target)) {
+            res.hidden = true;
+            return res;
+          }
+
+          if (state.selectedNode) {
+            const extremities = graph.extremities(edge);
+            if (!extremities.includes(state.selectedNode)) {
+              res.hidden = true;
+            } else {
+              res.color = rgbaFromHex(data.targetColor || PROJECT_COLOR, 0.62);
+              res.size = Math.max(Number(data.size || 1), 1.65);
+            }
+          }
+
+          return res;
+        }
+      });
+
+      renderer.on("enterNode", ({ node, event }) => {
+        state.hoveredNode = node;
+        updateTooltip(node, event.original);
+        renderer.refresh();
+      });
+
+      renderer.on("leaveNode", () => {
+        state.hoveredNode = null;
+        tooltip.classList.remove("visible");
+        renderer.refresh();
+      });
+
+      renderer.on("clickNode", ({ node }) => {
+        const kind = graph.getNodeAttribute(node, "nodeKind");
+        if (["halo", "group"].includes(kind)) return;
+
+        state.selectedNode = state.selectedNode === node ? null : node;
+        const attrs = state.selectedNode ? graph.getNodeAttributes(state.selectedNode) : null;
+        if (attrs) renderPanel(attrs);
+        renderer.refresh();
+      });
+
+      renderer.on("clickStage", () => {
+        state.selectedNode = null;
+        tooltip.classList.remove("visible");
+        renderer.refresh();
+      });
+
+      modeUniverse.addEventListener("click", () => {
+        state.mode = "universe";
+        state.displayCount = Math.min(defaultUniverse, allTheses.length);
+        refreshView(true);
+      });
+
+      modeAnalytic.addEventListener("click", () => {
+        state.mode = "analytic";
+        state.displayCount = Math.min(defaultAnalytic, allTheses.length);
+        refreshView(true);
+      });
+
+      groupBySelect.addEventListener("change", () => {
+        state.groupBy = groupBySelect.value;
+        state.filterValue = "__all__";
+        refreshView(true);
+      });
+
+      filterValueSelect.addEventListener("change", () => {
+        state.filterValue = filterValueSelect.value;
+        refreshView(true);
+      });
+
+      countSlider.addEventListener("input", () => {
+        state.displayCount = Number(countSlider.value);
+        countLabel.textContent = String(state.displayCount);
+        refreshView(true);
+      });
+
+      refreshView(false);
+      state.selectedNode = "PROJECT";
+      renderPanel(graph.getNodeAttributes("PROJECT"));
+      renderer.refresh();
+
+      const camera = renderer.getCamera();
+      camera.animatedReset({ duration: 500 });
+    }).catch(err => {
+      panel.innerHTML = `
+        <p class="eyebrow">Error</p>
+        <h1>No se pudo cargar el grafo</h1>
+        <p>${escapeHTML(err.message)}</p>
+      `;
+    });
+  </script>
+  <script src="./app.js?v=1780124925"></script>
 </body>
 </html>
