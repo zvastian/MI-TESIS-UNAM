@@ -15,9 +15,55 @@ def validate_initial_note(data: dict) -> tuple[bool, str]:
     if not isinstance(note, dict):
         return False, "missing initial_note"
 
-    for key in MODULE_CONTRACTS["initial_note"]["required"]:
+    # Nuevo contrato estructurado
+    structured_keys = [
+        "central_problem",
+        "main_objects",
+        "interpretive_angle",
+        "scope",
+        "possible_contribution",
+        "cautions",
+    ]
+
+    if any(k in note for k in structured_keys):
+        for key in MODULE_CONTRACTS["initial_note"]["required"]:
+            if not _non_empty(note.get(key)):
+                return False, f"missing {key}"
+
+        if not isinstance(note.get("main_objects"), list):
+            return False, "main_objects must be list"
+
+        if len(note.get("main_objects", [])) < 1:
+            return False, "main_objects empty"
+
+        scope = note.get("scope")
+        if not isinstance(scope, dict):
+            return False, "scope must be object"
+
+        for key in MODULE_CONTRACTS["initial_note"].get("scope_required", []):
+            if not _non_empty(scope.get(key)):
+                return False, f"missing scope.{key}"
+
+        if not isinstance(note.get("cautions"), list):
+            return False, "cautions must be list"
+
+        if len(note.get("cautions", [])) < 1:
+            return False, "cautions empty"
+
+        return True, "ok"
+
+    # Fallback para outputs viejos si se validan manualmente
+    legacy_required = [
+        "title",
+        "paragraph",
+        "possible_angles",
+        "scope_note",
+        "one_sentence_reframe",
+    ]
+
+    for key in legacy_required:
         if not _non_empty(note.get(key)):
-            return False, f"missing {key}"
+            return False, f"missing legacy {key}"
 
     angles = note.get("possible_angles")
 
@@ -38,6 +84,7 @@ def validate_initial_note(data: dict) -> tuple[bool, str]:
             return False, f"angle {i} missing description"
 
     return True, "ok"
+
 
 
 def validate_rerank(

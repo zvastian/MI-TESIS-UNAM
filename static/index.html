@@ -1984,6 +1984,93 @@
     }
 
 
+
+    .initial-reading-intro {
+      max-width: 880px;
+      margin-bottom: 22px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .initial-reading-sequence {
+      margin-top: 18px;
+      max-width: 960px;
+    }
+
+    .initial-reading-block {
+      opacity: 0;
+      transform: translateY(10px);
+      margin: 0 0 24px;
+      transition:
+        opacity 420ms ease,
+        transform 420ms ease;
+    }
+
+    .initial-reading-block.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .initial-reading-block h3 {
+      margin: 0 0 8px;
+      font-family: "Montserrat", Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-size: 11px;
+      line-height: 1.3;
+      color: #16181c;
+    }
+
+    .initial-reading-block p {
+      margin: 0;
+      line-height: 1.72;
+      color: #2f3137;
+    }
+
+    .initial-scope-lines {
+      display: grid;
+      gap: 7px;
+    }
+
+    .initial-scope-lines p {
+      margin: 0;
+    }
+
+    .initial-scope-lines strong {
+      font-family: "Montserrat", Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 10px;
+      color: #16181c;
+    }
+
+    .initial-cautions {
+      margin: 0;
+      padding-left: 22px;
+      display: grid;
+      gap: 9px;
+    }
+
+    .initial-cautions li {
+      line-height: 1.68;
+      color: #2f3137;
+      padding-left: 4px;
+    }
+
+    [data-typewriter].typing::after {
+      content: "▋";
+      display: inline-block;
+      margin-left: 2px;
+      color: rgba(22, 24, 28, 0.45);
+      animation: initialCursorBlink 760ms step-end infinite;
+    }
+
+    @keyframes initialCursorBlink {
+      0%, 45% { opacity: 1; }
+      46%, 100% { opacity: 0; }
+    }
+
+
     .quote {
       margin: 14px 0;
       padding: 16px 18px;
@@ -4821,6 +4908,6 @@
       `;
     });
   </script>
-  <script src="./app.js?v=1780124925"></script>
+<script src="./app.js?v=1780186126"></script>
 </body>
 </html>

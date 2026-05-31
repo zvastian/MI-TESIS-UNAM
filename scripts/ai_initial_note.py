@@ -27,7 +27,7 @@ PRIMARY_MODEL = "gpt-oss-120b"
 INPUT_PRICE_PER_M = 0.0
 OUTPUT_PRICE_PER_M = 0.0
 
-MAX_TOKENS = 1000
+MAX_TOKENS = 1200
 TIMEOUT_SECONDS = 20.0
 
 
@@ -63,30 +63,37 @@ def validate_initial_note(parsed: dict) -> tuple[bool, str]:
 
     required = [
         "title",
-        "paragraph",
-        "possible_angles",
-        "scope_note",
-        "one_sentence_reframe",
+        "intro",
+        "central_problem",
+        "main_objects",
+        "interpretive_angle",
+        "scope",
+        "possible_contribution",
+        "cautions",
     ]
 
     for key in required:
         if key not in note or note[key] in [None, "", [], {}]:
             return False, f"missing {key}"
 
-    angles = note.get("possible_angles", [])
+    if not isinstance(note.get("main_objects"), list):
+        return False, "main_objects is not a list"
 
-    if not isinstance(angles, list):
-        return False, "possible_angles is not a list"
+    if len(note.get("main_objects", [])) < 2:
+        return False, "main_objects too short"
 
-    if len(angles) < 3 or len(angles) > 4:
-        return False, f"expected 3-4 angles, got {len(angles)}"
+    if not isinstance(note.get("scope"), dict):
+        return False, "scope is not an object"
 
-    for i, angle in enumerate(angles):
-        if not isinstance(angle, dict):
-            return False, f"angle {i} is not an object"
+    for key in ["temporal", "geographic", "disciplinary"]:
+        if not note["scope"].get(key):
+            return False, f"missing scope.{key}"
 
-        if not angle.get("title") or not angle.get("description"):
-            return False, f"angle {i} missing title or description"
+    if not isinstance(note.get("cautions"), list):
+        return False, "cautions is not a list"
+
+    if len(note.get("cautions", [])) < 1:
+        return False, "cautions empty"
 
     return True, "ok"
 

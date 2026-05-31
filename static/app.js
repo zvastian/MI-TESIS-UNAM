@@ -381,7 +381,91 @@ function renderInitialNote() {
   const note = results.initial_note || {};
   const root = note.initial_note || note.conceptual_interpretation || note;
 
-  const title = root.title || "Lectura inicial";
+  const title = root.title || "Comprendí tu tesis así";
+  const hasStructuredNote = Boolean(
+    root.central_problem ||
+    root.main_objects ||
+    root.interpretive_angle ||
+    root.scope ||
+    root.possible_contribution ||
+    root.cautions
+  );
+
+  if (hasStructuredNote) {
+    const intro = root.intro || "Leí tu idea como un proyecto con un problema académico propio y un territorio de análisis que conviene precisar.";
+    const mainObjects = Array.isArray(root.main_objects) ? root.main_objects : [];
+    const scope = root.scope && typeof root.scope === "object" ? root.scope : {};
+    const cautions = Array.isArray(root.cautions) ? root.cautions : [];
+
+    $("moduleInitial").innerHTML = `
+      <div class="module-head">
+        <div>
+          <p class="eyebrow">Lectura inicial</p>
+          <h2>${escapeHtml(title)}</h2>
+        </div>
+      </div>
+
+      <p class="initial-reading-intro">${escapeHtml(intro)}</p>
+
+      <div class="initial-reading-sequence" id="initialReadingSequence">
+        ${root.central_problem ? `
+          <section class="initial-reading-block" data-initial-step>
+            <h3>Problema central</h3>
+            <p data-typewriter>${escapeHtml(root.central_problem)}</p>
+          </section>
+        ` : ""}
+
+        ${mainObjects.length ? `
+          <section class="initial-reading-block" data-initial-step>
+            <h3>Objeto principal</h3>
+            <p data-typewriter>${escapeHtml(mainObjects.join(" · "))}</p>
+          </section>
+        ` : ""}
+
+        ${root.interpretive_angle ? `
+          <section class="initial-reading-block" data-initial-step>
+            <h3>Ángulo interpretativo</h3>
+            <p data-typewriter>${escapeHtml(root.interpretive_angle)}</p>
+          </section>
+        ` : ""}
+
+        ${(scope.temporal || scope.geographic || scope.disciplinary) ? `
+          <section class="initial-reading-block" data-initial-step>
+            <h3>Alcance</h3>
+            <div class="initial-scope-lines">
+              <p><strong>Temporal:</strong> <span data-typewriter>${escapeHtml(scope.temporal || "No especificado")}</span></p>
+              <p><strong>Geográfico:</strong> <span data-typewriter>${escapeHtml(scope.geographic || "No especificado")}</span></p>
+              <p><strong>Disciplinario:</strong> <span data-typewriter>${escapeHtml(scope.disciplinary || "No especificado")}</span></p>
+            </div>
+          </section>
+        ` : ""}
+
+        ${root.possible_contribution ? `
+          <section class="initial-reading-block" data-initial-step>
+            <h3>Posible contribución</h3>
+            <p data-typewriter>${escapeHtml(root.possible_contribution)}</p>
+          </section>
+        ` : ""}
+
+        ${cautions.length ? `
+          <section class="initial-reading-block" data-initial-step>
+            <h3>Precauciones</h3>
+            <ol class="initial-cautions">
+              ${cautions.map(caution => `
+                <li><span data-typewriter>${escapeHtml(caution)}</span></li>
+              `).join("")}
+            </ol>
+          </section>
+        ` : ""}
+      </div>
+    `;
+
+    animateInitialReading();
+    return;
+  }
+
+  // Fallback para outputs viejos
+  const legacyTitle = root.title || "Lectura inicial";
   const summary = root.paragraph || root.summary || root.initial_reading || root.interpretation || root.conceptual_reading || root.note || "";
   const reformulation = root.one_sentence_reframe || root.reformulation || root.reformulated_title || root.reformulated_project || "";
   const routes = root.possible_angles || root.routes || root.possible_routes || root.research_routes || [];
@@ -390,22 +474,80 @@ function renderInitialNote() {
     <div class="module-head">
       <div>
         <p class="eyebrow">Lectura inicial</p>
-        <h2>${escapeHtml(title)}</h2>
+        <h2>${escapeHtml(legacyTitle)}</h2>
       </div>
     </div>
     ${summary ? `<p>${escapeHtml(summary)}</p>` : `<p>Se generó una lectura conceptual inicial del proyecto.</p>`}
-    ${reformulation ? `<div class="quote">${escapeHtml(reformulation)}</div>` : ""}
+    ${reformulation ? `<p><strong>Reformulación:</strong> ${escapeHtml(reformulation)}</p>` : ""}
     ${Array.isArray(routes) && routes.length ? `
-      <div class="card-grid two-col">
+      <div class="initial-reading-sequence">
         ${routes.slice(0, 4).map(route => `
-          <div class="result-card">
-            <strong>${escapeHtml(route.title || route.route || "Ruta posible")}</strong>
+          <section class="initial-reading-block visible">
+            <h3>${escapeHtml(route.title || route.route || "Ruta posible")}</h3>
             <p>${escapeHtml(route.description || route.note || route)}</p>
-          </div>
+          </section>
         `).join("")}
       </div>
     ` : ""}
   `;
+}
+
+function animateInitialReading() {
+  const container = $("initialReadingSequence");
+  if (!container) return;
+
+  const steps = Array.from(container.querySelectorAll("[data-initial-step]"));
+  let delay = 180;
+
+  steps.forEach((step) => {
+    const targets = Array.from(step.querySelectorAll("[data-typewriter]"));
+
+    targets.forEach(target => {
+      target.dataset.fullText = target.textContent || "";
+      target.textContent = "";
+    });
+
+    window.setTimeout(() => {
+      step.classList.add("visible");
+      typeInitialReadingTargets(targets);
+    }, delay);
+
+    const charCount = targets.reduce((sum, target) => sum + (target.dataset.fullText || "").length, 0);
+    delay += Math.min(1250, 260 + charCount * 9);
+  });
+}
+
+function typeInitialReadingTargets(targets) {
+  let localDelay = 0;
+
+  targets.forEach(target => {
+    const fullText = target.dataset.fullText || "";
+
+    window.setTimeout(() => {
+      typeInitialReadingText(target, fullText);
+    }, localDelay);
+
+    localDelay += Math.min(900, 120 + fullText.length * 7);
+  });
+}
+
+function typeInitialReadingText(element, text) {
+  let index = 0;
+  element.classList.add("typing");
+
+  function tick() {
+    index += Math.max(1, Math.floor(text.length / 95));
+    element.textContent = text.slice(0, index);
+
+    if (index < text.length) {
+      window.setTimeout(tick, 10 + Math.random() * 14);
+    } else {
+      element.textContent = text;
+      element.classList.remove("typing");
+    }
+  }
+
+  tick();
 }
 
 function renderSemantic() {

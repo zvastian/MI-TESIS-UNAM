@@ -6,10 +6,18 @@ MODULE_CONTRACTS = {
         "root": "initial_note",
         "required": [
             "title",
-            "paragraph",
-            "possible_angles",
-            "scope_note",
-            "one_sentence_reframe",
+            "intro",
+            "central_problem",
+            "main_objects",
+            "interpretive_angle",
+            "scope",
+            "possible_contribution",
+            "cautions",
+        ],
+        "scope_required": [
+            "temporal",
+            "geographic",
+            "disciplinary",
         ],
     },
 

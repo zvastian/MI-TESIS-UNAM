@@ -46,11 +46,56 @@ def normalize_initial_note(data: dict) -> dict:
     note = data.get("initial_note")
 
     if not isinstance(note, dict):
-        if any(k in data for k in ["paragraph", "possible_angles", "scope_note"]):
+        legacy_keys = [
+            "paragraph",
+            "possible_angles",
+            "scope_note",
+            "one_sentence_reframe",
+            "central_problem",
+            "main_objects",
+        ]
+
+        if any(k in data for k in legacy_keys):
             note = data
         else:
             return data
 
+    # Nuevo schema estructurado
+    if any(k in note for k in [
+        "central_problem",
+        "main_objects",
+        "interpretive_angle",
+        "scope",
+        "possible_contribution",
+        "cautions",
+    ]):
+        note.setdefault("title", "Comprendí tu tesis así")
+        note.setdefault("intro", "Leí tu idea como un proyecto con un problema académico propio y un territorio de análisis que conviene precisar.")
+        note.setdefault("central_problem", "")
+        note.setdefault("main_objects", [])
+        note.setdefault("interpretive_angle", "")
+        note.setdefault("possible_contribution", "")
+        note.setdefault("cautions", [])
+
+        scope = note.get("scope")
+        if not isinstance(scope, dict):
+            scope = {}
+
+        scope.setdefault("temporal", "Conviene delimitar con mayor precisión el periodo de análisis.")
+        scope.setdefault("geographic", "Conviene precisar el espacio geográfico o las unidades de comparación.")
+        scope.setdefault("disciplinary", "Conviene precisar el campo disciplinario principal y sus cruces.")
+
+        note["scope"] = scope
+
+        if isinstance(note.get("main_objects"), str):
+            note["main_objects"] = [note["main_objects"]]
+
+        if isinstance(note.get("cautions"), str):
+            note["cautions"] = [note["cautions"]]
+
+        return {"initial_note": note}
+
+    # Compatibilidad con schema viejo
     note.setdefault("title", "Lectura inicial")
     note.setdefault("paragraph", "")
     note.setdefault("possible_angles", [])
@@ -84,6 +129,20 @@ def normalize_initial_note(data: dict) -> dict:
                 })
 
         note["possible_angles"] = normalized_angles
+
+    # Generar un puente mínimo al nuevo schema para frontend futuro,
+    # sin eliminar los campos viejos.
+    note.setdefault("intro", note.get("paragraph", "")[:240])
+    note.setdefault("central_problem", note.get("one_sentence_reframe", ""))
+    note.setdefault("main_objects", [])
+    note.setdefault("interpretive_angle", "")
+    note.setdefault("scope", {
+        "temporal": note.get("scope_note", ""),
+        "geographic": "",
+        "disciplinary": "",
+    })
+    note.setdefault("possible_contribution", "")
+    note.setdefault("cautions", [note.get("scope_note", "")] if note.get("scope_note") else [])
 
     return {"initial_note": note}
 
