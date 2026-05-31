@@ -2132,6 +2132,389 @@
     }
 
 
+
+    /* Lab typography refinement: modern system sans, less uppercase */
+    .lab-module,
+    .lab-module p,
+    .lab-module li,
+    .lab-module button,
+    .lab-module input,
+    .lab-module select,
+    .lab-module textarea,
+    .timeline,
+    .timeline-step,
+    .lab-atlas-toolbar,
+    .lab-atlas-detail,
+    .lab-atlas-tooltip {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Inter, Roboto, Arial, sans-serif;
+    }
+
+    .lab-module h2,
+    .lab-module h3,
+    .lab-module strong,
+    .timeline-step strong,
+    .timeline-step small,
+    .lab-atlas-mode-btn,
+    .lab-atlas-control,
+    .lab-atlas-current-view span,
+    .lab-mini-label,
+    .initial-reading-block h3,
+    .initial-scope-lines strong,
+    .location-summary-line strong,
+    .lab-atlas-detail strong,
+    .eyebrow {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Inter, Roboto, Arial, sans-serif !important;
+      text-transform: none !important;
+      letter-spacing: 0.005em !important;
+    }
+
+    .lab-module h2 {
+      font-weight: 650;
+      letter-spacing: -0.025em !important;
+    }
+
+    .lab-module h3,
+    .initial-reading-block h3 {
+      font-size: 13px !important;
+      font-weight: 650;
+      color: #16181c;
+    }
+
+    .lab-module strong,
+    .location-summary-line strong,
+    .initial-scope-lines strong,
+    .lab-atlas-detail strong {
+      font-size: inherit;
+      font-weight: 650;
+      color: #16181c;
+    }
+
+    .eyebrow,
+    .timeline-step small,
+    .lab-mini-label,
+    .lab-atlas-current-view span {
+      font-size: 12px !important;
+      font-weight: 500;
+      color: var(--muted);
+    }
+
+    .timeline-step strong {
+      font-size: 13px;
+      font-weight: 560;
+    }
+
+    .lab-atlas-mode-btn,
+    .lab-atlas-control {
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .initial-reading-block p,
+    .location-intro,
+    .lab-module p {
+      letter-spacing: -0.005em;
+    }
+
+
+    .bloom-intro {
+      max-width: 900px;
+      margin: 0 0 22px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .bloom-analysis-layout {
+      display: grid;
+      grid-template-columns: minmax(280px, 0.88fr) minmax(0, 1.12fr);
+      gap: 30px;
+      align-items: start;
+      margin: 18px 0 34px;
+    }
+
+    .bloom-pyramid-wrap {
+      padding: 18px;
+      border: 1px solid rgba(20, 22, 26, 0.08);
+      border-radius: 22px;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(17, 8, 191, 0.07), rgba(17, 8, 191, 0) 48%),
+        rgba(255, 255, 255, 0.56);
+    }
+
+    .bloom-pyramid {
+      display: grid;
+      gap: 7px;
+    }
+
+    .bloom-pyramid-level {
+      width: calc(54% + var(--level-index) * 8%);
+      margin: 0 auto;
+      padding: 10px 14px;
+      min-height: 54px;
+      border: 1px solid rgba(20, 22, 26, 0.08);
+      border-radius: 14px;
+      background: rgba(248, 248, 246, 0.82);
+      color: #2f3137;
+      text-align: center;
+      opacity: 0.68;
+      transform: translateY(8px);
+      animation: bloomLevelIn 520ms ease forwards;
+      animation-delay: calc(var(--level-index) * 90ms);
+    }
+
+    .bloom-pyramid-level strong {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 14px;
+      font-weight: 680;
+      color: #16181c;
+    }
+
+    .bloom-pyramid-level span {
+      display: block;
+      font-size: 11.5px;
+      line-height: 1.35;
+      color: var(--muted);
+    }
+
+    .bloom-pyramid-level em {
+      display: inline-block;
+      margin-top: 7px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-style: normal;
+      font-size: 11px;
+      background: rgba(17, 8, 191, 0.09);
+      color: #1108BF;
+    }
+
+    .bloom-pyramid-level.active {
+      opacity: 1;
+      border-color: rgba(17, 8, 191, 0.24);
+      background: rgba(231, 237, 255, 0.88);
+      box-shadow: 0 10px 24px rgba(17, 8, 191, 0.08);
+    }
+
+    .bloom-pyramid-level.missing {
+      opacity: 1;
+      border-color: rgba(176, 0, 0, 0.24);
+      background: rgba(255, 242, 242, 0.90);
+    }
+
+    .bloom-pyramid-level.missing em {
+      background: rgba(176, 0, 0, 0.08);
+      color: #B00000;
+    }
+
+    .bloom-analysis-text {
+      display: grid;
+      gap: 18px;
+    }
+
+    .bloom-text-block {
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(20, 22, 26, 0.08);
+    }
+
+    .bloom-text-block h3,
+    .bloom-section h3 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      font-weight: 680;
+      letter-spacing: -0.01em;
+      color: #16181c;
+    }
+
+    .bloom-text-block p {
+      margin: 0;
+      line-height: 1.68;
+      color: #2f3137;
+    }
+
+    .bloom-risk {
+      border-left: 3px solid rgba(176, 0, 0, 0.34);
+      padding-left: 14px;
+    }
+
+    .bloom-section {
+      margin-top: 28px;
+    }
+
+    .bloom-objective-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .bloom-objective-item {
+      padding: 16px 0;
+      border-top: 1px solid rgba(20, 22, 26, 0.08);
+    }
+
+    .bloom-objective-topline {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 8px;
+      color: var(--muted);
+    }
+
+    .bloom-objective-topline span {
+      font-weight: 650;
+      color: #1108BF;
+    }
+
+    .bloom-objective-topline small {
+      color: var(--muted);
+    }
+
+    .bloom-original {
+      font-weight: 620;
+      color: #16181c;
+    }
+
+    .bloom-objective-item p {
+      margin: 7px 0 0;
+      line-height: 1.62;
+    }
+
+    .bloom-revised-list {
+      margin: 10px 0 0;
+      padding-left: 22px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .bloom-revised-list li {
+      line-height: 1.62;
+    }
+
+    .bloom-final-note {
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(20, 22, 26, 0.08);
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    @keyframes bloomLevelIn {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: var(--target-opacity, 1);
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 920px) {
+      .bloom-analysis-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+
+    /* Bloom real pyramid */
+    .bloom-pyramid-clean {
+      max-width: 620px;
+      margin: 18px 0 34px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .bloom-pyramid-clean-level {
+      width: var(--w);
+      min-height: 54px;
+      padding: 10px 16px;
+      border: 1px solid rgba(20, 22, 26, 0.10);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.58);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      opacity: 0.54;
+      transform: translateY(8px);
+      animation: bloomPyramidIn 440ms ease forwards;
+      animation-delay: calc(var(--i) * 70ms);
+    }
+
+    .bloom-pyramid-clean-level div {
+      min-width: 0;
+    }
+
+    .bloom-pyramid-clean-level strong {
+      display: block;
+      font-size: 14px;
+      font-weight: 680;
+      letter-spacing: -0.015em;
+      color: #16181c;
+    }
+
+    .bloom-pyramid-clean-level span {
+      display: block;
+      margin-top: 2px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .bloom-pyramid-clean-level em {
+      flex: 0 0 auto;
+      padding: 4px 9px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 560;
+      background: rgba(20, 22, 26, 0.06);
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .bloom-pyramid-clean-level.active {
+      opacity: 1;
+      border-color: rgba(17, 8, 191, 0.24);
+      background: rgba(231, 237, 255, 0.90);
+      box-shadow: 0 10px 24px rgba(17, 8, 191, 0.06);
+    }
+
+    .bloom-pyramid-clean-level.active em {
+      background: rgba(17, 8, 191, 0.10);
+      color: #1108BF;
+    }
+
+    .bloom-pyramid-clean-level.missing {
+      opacity: 1;
+      border-color: rgba(176, 0, 0, 0.24);
+      background: rgba(255, 242, 242, 0.94);
+    }
+
+    .bloom-pyramid-clean-level.missing em {
+      background: rgba(176, 0, 0, 0.08);
+      color: #B00000;
+    }
+
+    @keyframes bloomPyramidIn {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 700px) {
+      .bloom-pyramid-clean {
+        max-width: 100%;
+      }
+
+      .bloom-pyramid-clean-level {
+        width: 100%;
+      }
+    }
+
     .quote {
       margin: 14px 0;
       padding: 16px 18px;
@@ -4969,6 +5352,6 @@
       `;
     });
   </script>
-<script src="./app.js?v=1780187005"></script>
+<script src="./app.js?v=1780189234"></script>
 </body>
 </html>

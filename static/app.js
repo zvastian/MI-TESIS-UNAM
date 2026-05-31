@@ -723,42 +723,190 @@ function renderTheses() {
 
 function renderBloom() {
   const bloom = (state.data.results || {}).bloom || {};
-  const analysis = bloom.bloom_analysis || bloom;
-  const ladder = analysis.objective_ladder || [];
-  const revised = analysis.revised_objectives || [];
+
+  // Soporta ambos formatos:
+  // 1) output IA completo: { output: { bloom_analysis: {...} }, validation, token_usage }
+  // 2) output ya normalizado: { bloom_analysis: {...} }
+  const analysis =
+    bloom.output?.bloom_analysis ||
+    bloom.bloom_analysis ||
+    bloom.output ||
+    bloom;
+
+  const ladder = Array.isArray(analysis.objective_ladder) ? analysis.objective_ladder : [];
+  const revised = Array.isArray(analysis.revised_objectives) ? analysis.revised_objectives : [];
+
+  const activeLevels = getBloomActiveLevelsClean(analysis);
+  const missingLevels = getBloomMissingLevelsClean(analysis);
 
   $("moduleBloom").innerHTML = `
     <div class="module-head">
       <div>
-        <p class="eyebrow">Bloom</p>
-        <h2>${escapeHtml(analysis.title || "Análisis cognitivo de tus objetivos")}</h2>
+        <p class="eyebrow">Objetivos Bloom</p>
+        <h2>Tus objetivos, analizados</h2>
       </div>
     </div>
-    ${analysis.cognitive_profile ? `<p>${escapeHtml(analysis.cognitive_profile)}</p>` : ""}
-    ${analysis.main_risk ? `<div class="quote">${escapeHtml(analysis.main_risk)}</div>` : ""}
+
+    <p class="bloom-intro">
+      El laboratorio revisó tus objetivos como una progresión cognitiva: qué operaciones intelectuales ya aparecen,
+      dónde hay saltos y qué nivel conviene reforzar.
+    </p>
+
+    ${buildBloomPyramidCleanHtml(activeLevels, missingLevels)}
+
+    <div class="bloom-reading">
+      ${analysis.cognitive_profile ? `
+        <section>
+          <h3>Perfil cognitivo</h3>
+          <p>${escapeHtml(analysis.cognitive_profile)}</p>
+        </section>
+      ` : ""}
+
+      ${analysis.main_risk ? `
+        <section>
+          <h3>Riesgo principal</h3>
+          <p>${escapeHtml(analysis.main_risk)}</p>
+        </section>
+      ` : ""}
+
+      ${analysis.missing_cognitive_step ? `
+        <section>
+          <h3>Paso cognitivo faltante</h3>
+          <p>${escapeHtml(analysis.missing_cognitive_step)}</p>
+        </section>
+      ` : ""}
+    </div>
+
     ${ladder.length ? `
-      <div class="ladder">
-        ${ladder.map(item => `
-          <div class="ladder-item">
-            <div class="ladder-level">${escapeHtml(item.detected_level || "")}</div>
-            <strong>${escapeHtml(item.original_objective || "")}</strong>
-            <p>${escapeHtml(item.diagnosis || "")}</p>
-            ${item.improvement ? `<p class="meta">Mejora: ${escapeHtml(item.improvement)}</p>` : ""}
-          </div>
-        `).join("")}
-      </div>
+      <section class="bloom-section">
+        <h3>Objetivos originales</h3>
+        <div class="bloom-objective-list">
+          ${ladder.map((item, index) => `
+            <article class="bloom-objective-item">
+              <div class="bloom-objective-topline">
+                <span>${escapeHtml(item.detected_level || "Nivel no detectado")}</span>
+                <small>Objetivo ${index + 1}</small>
+              </div>
+              <p class="bloom-original">${escapeHtml(item.original_objective || "")}</p>
+              ${item.diagnosis ? `<p><strong>Diagnóstico:</strong> ${escapeHtml(item.diagnosis)}</p>` : ""}
+              ${item.improvement ? `<p><strong>Mejora:</strong> ${escapeHtml(item.improvement)}</p>` : ""}
+            </article>
+          `).join("")}
+        </div>
+      </section>
     ` : ""}
+
     ${revised.length ? `
-      <div class="result-card">
-        <strong>Objetivos reescritos</strong>
-        <ol>
+      <section class="bloom-section">
+        <h3>Objetivos revisados</h3>
+        <ol class="bloom-revised-list">
           ${revised.map(objective => `<li>${escapeHtml(objective)}</li>`).join("")}
         </ol>
-      </div>
+      </section>
     ` : ""}
-    ${analysis.final_note ? `<p class="meta">${escapeHtml(analysis.final_note)}</p>` : ""}
+
+    ${analysis.final_note ? `
+      <p class="bloom-final-note">${escapeHtml(analysis.final_note)}</p>
+    ` : ""}
   `;
 }
+
+function getBloomActiveLevelsClean(analysis) {
+  const levels = new Set();
+  const ladder = Array.isArray(analysis.objective_ladder) ? analysis.objective_ladder : [];
+
+  ladder.forEach(item => {
+    const level = normalizeBloomLevelClean(item.detected_level);
+    if (level) levels.add(level);
+  });
+
+  return levels;
+}
+
+function getBloomMissingLevelsClean(analysis) {
+  const levels = new Set();
+  const text = String(analysis.missing_cognitive_step || "").toLowerCase();
+
+  ["Recordar", "Comprender", "Aplicar", "Analizar", "Evaluar", "Crear"].forEach(level => {
+    if (text.includes(level.toLowerCase())) levels.add(level);
+  });
+
+  return levels;
+}
+
+function normalizeBloomLevelClean(value) {
+  const text = String(value || "").trim().toLowerCase();
+
+  const map = {
+    "recordar": "Recordar",
+    "comprender": "Comprender",
+    "aplicar": "Aplicar",
+    "analizar": "Analizar",
+    "evaluar": "Evaluar",
+    "crear": "Crear"
+  };
+
+  return map[text] || "";
+}
+
+function buildBloomPyramidCleanHtml(activeLevels, missingLevels) {
+  const levels = [
+    {
+      name: "Crear",
+      note: "Proponer",
+      width: 38
+    },
+    {
+      name: "Evaluar",
+      note: "Valorar",
+      width: 50
+    },
+    {
+      name: "Analizar",
+      note: "Comparar",
+      width: 62
+    },
+    {
+      name: "Aplicar",
+      note: "Usar criterios",
+      width: 74
+    },
+    {
+      name: "Comprender",
+      note: "Explicar",
+      width: 86
+    },
+    {
+      name: "Recordar",
+      note: "Reconocer",
+      width: 98
+    }
+  ];
+
+  return `
+    <div class="bloom-pyramid-clean" aria-label="Pirámide de Bloom">
+      ${levels.map((level, index) => {
+        const active = activeLevels.has(level.name);
+        const missing = missingLevels.has(level.name);
+
+        return `
+          <div
+            class="bloom-pyramid-clean-level ${active ? "active" : ""} ${missing ? "missing" : ""}"
+            style="--w:${level.width}%; --i:${index};"
+          >
+            <div>
+              <strong>${escapeHtml(level.name)}</strong>
+              <span>${escapeHtml(level.note)}</span>
+            </div>
+            ${active ? `<em>Detectado</em>` : ""}
+            ${missing ? `<em>Falta reforzar</em>` : ""}
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
 
 function renderQuestions() {
   const questions = (state.data.results || {}).questions || {};
