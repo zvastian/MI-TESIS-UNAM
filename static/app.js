@@ -362,10 +362,11 @@ function renderAll() {
 function renderTimeline() {
   const steps = [
     ["01", "Lectura inicial"],
-    ["02", "Tesis cercanas"],
-    ["03", "Objetivos"],
-    ["04", "Preguntas"],
-    ["05", "Asesores"]
+    ["02", "Ubicación en UNAM"],
+    ["03", "Tesis cercanas"],
+    ["04", "Objetivos"],
+    ["05", "Preguntas"],
+    ["06", "Asesores"]
   ];
 
   $("timeline").innerHTML = steps.map(step => `
@@ -552,45 +553,123 @@ function typeInitialReadingText(element, text) {
 
 function renderSemantic() {
   const context = state.data.context || {};
-  const semantic = context.semantic_position || context.location || {};
+  const location =
+    context.inferred_atlas_position ||
+    state.data.results?.inferred_atlas_position ||
+    state.data.inferred_atlas_position ||
+    state.data.location ||
+    context.location ||
+    state.data.results?.location;
+
   const keywords = context.keywords_detected || state.data.input?.keywords || [];
+  const module = $("moduleSemantic");
 
-  const mainCluster = semantic.main_cluster || {};
-  const clusterLabel = readableLabel(
-    semantic.main_cluster_label ||
-    mainCluster.label ||
-    semantic.macro_label ||
-    semantic.main_cluster
-  ) || "Cluster semántico cercano";
+  if (!module) return;
 
-  const mainArea = readableLabel(
-    semantic.main_area ||
-    semantic.area ||
-    mainCluster.main_area ||
-    mainCluster.macro_domain
-  ) || "No especificada";
+  if (!location || !location.available) {
+    module.innerHTML = `
+      <div class="module-head">
+        <div>
+          <p class="eyebrow">Ubicación en UNAM</p>
+          <h2>Aquí se encuentra tu tesis</h2>
+        </div>
+      </div>
 
-  $("moduleSemantic").innerHTML = `
+      <p class="location-intro">
+        Todavía no hay suficiente evidencia para ubicar este proyecto dentro del espacio semántico de la UNAM.
+      </p>
+
+      ${keywords.length ? `
+        <div class="pill-row">
+          ${keywords.slice(0, 12).map(keyword => `<span class="pill">${escapeHtml(keyword.keyword || keyword)}</span>`).join("")}
+        </div>
+      ` : ""}
+    `;
+    return;
+  }
+
+  const confidence = Number(location.confidence || 0);
+  const confidencePct = Math.round(confidence * 100);
+  const confidenceLabel = location.confidence_label || "detectada";
+  const macroId = location.macrocluster_id ?? "—";
+  const microId = location.microcluster_id ?? "—";
+  const macroLabel = location.macro_label || `Macrocluster ${macroId}`;
+  const microLabel = location.micro_label || `Microcluster ${microId}`;
+  const evidence = Array.isArray(location.evidence) ? location.evidence : [];
+  const matched = location.matched_thesis_count ?? location.evidence_count ?? evidence.length ?? 0;
+  const projectTitle = state.data.input?.title || context.user_project?.title || "Tu proyecto";
+  const topCount = Math.min(10, evidence.length || 10);
+
+  module.innerHTML = `
     <div class="module-head">
       <div>
-        <p class="eyebrow">Ubicación semántica</p>
-        <h2>Territorio académico detectado</h2>
+        <p class="eyebrow">Ubicación en UNAM</p>
+        <h2>Aquí se encuentra tu tesis</h2>
       </div>
     </div>
-    <div class="card-grid two-col">
-      <div class="result-card">
-        <strong>Cluster principal</strong>
-        <p>${escapeHtml(clusterLabel)}</p>
-      </div>
-      <div class="result-card">
-        <strong>Área dominante</strong>
-        <p>${escapeHtml(mainArea)}</p>
-      </div>
+
+    <p class="location-intro">
+      ${escapeHtml(location.interpretation || "El laboratorio ubicó tu proyecto dentro del espacio semántico de la UNAM a partir de las tesis más cercanas. Primero verás el territorio general, después la conversación específica y finalmente el vecindario de tesis similares.")}
+    </p>
+
+    <div class="location-summary-line">
+      <p><strong>Macrocluster:</strong> ${escapeHtml(macroLabel)}</p>
+      <p><strong>Microcluster:</strong> ${escapeHtml(microLabel)}</p>
+      <p><strong>Confianza:</strong> ${escapeHtml(confidenceLabel)} · ${confidencePct}%</p>
+      <p><strong>Evidencia:</strong> ${escapeHtml(String(matched))} tesis similares cruzadas</p>
     </div>
-    <div class="pill-row">
-      ${keywords.slice(0, 12).map(keyword => `<span class="pill">${escapeHtml(keyword.keyword || keyword)}</span>`).join("")}
+
+    <div class="lab-atlas-toolbar">
+      <div class="lab-atlas-mode-group" aria-label="Modo de visualización">
+        <button class="lab-atlas-mode-btn active" type="button" data-lab-map-mode="universe">Universo</button>
+        <button class="lab-atlas-mode-btn" type="button" data-lab-map-mode="analytic">Analítico</button>
+      </div>
+
+      <div class="lab-atlas-current-view">
+        <span>Top ${escapeHtml(String(topCount))} tesis cercanas</span>
+      </div>
+
+      <label class="lab-atlas-control">
+        Agrupar por
+        <select id="labAtlasGroupBy">
+          <option value="program">Programa</option>
+          <option value="degree">Nivel</option>
+          <option value="area">Área</option>
+          <option value="plantel">Plantel</option>
+          <option value="period">Periodo</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="lab-atlas-sigma-shell">
+      <div class="lab-atlas-overlay">
+        <div class="lab-atlas-overlay-card">
+          <span>Territorio inferido</span>
+          <strong>${escapeHtml(microLabel)}</strong>
+        </div>
+      </div>
+      <div class="lab-atlas-sigma" id="labAtlasSigma"></div>
+    </div>
+
+    <div class="lab-atlas-tooltip" id="labAtlasTooltip"></div>
+
+    <div class="lab-atlas-detail" id="labAtlasDetail">
+      <p class="lab-mini-label">Selecciona una tesis del mapa</p>
+      <strong>Explora la evidencia</strong>
+      <p>En modo universo verás la ubicación narrativa; en modo analítico verás cómo se compone el vecindario cercano.</p>
     </div>
   `;
+
+  requestAnimationFrame(() => {
+    renderLabMiniSigmaMap({
+      container: $("labAtlasSigma"),
+      tooltip: $("labAtlasTooltip"),
+      detail: $("labAtlasDetail"),
+      module,
+      location,
+      projectTitle
+    });
+  });
 }
 
 function readableLabel(value) {
@@ -739,122 +818,12 @@ function renderAdvisors() {
 }
 
 function renderLocationPlaceholder() {
-  const location =
-    state.data.context?.inferred_atlas_position ||
-    state.data.results?.inferred_atlas_position ||
-    state.data.inferred_atlas_position ||
-    state.data.location ||
-    state.data.context?.location ||
-    state.data.results?.location;
-
+  // La ubicación en UNAM ahora vive dentro de renderSemantic(),
+  // para que texto narrativo, métricas y minimap formen una sola sección.
   const module = $("moduleLocation");
   if (!module) return;
-
-  module.classList.remove("hidden");
-
-  if (!location || !location.available) {
-    module.innerHTML = `
-      <div class="module-head">
-        <div>
-          <p class="eyebrow">Ubicación en el atlas</p>
-          <h2>Territorio semántico</h2>
-        </div>
-      </div>
-      <p>
-        Aún no hay suficiente evidencia para ubicar este proyecto dentro del atlas semántico.
-      </p>
-    `;
-    return;
-  }
-
-  const confidence = Number(location.confidence || 0);
-  const confidencePct = Math.round(confidence * 100);
-  const confidenceLabel = location.confidence_label || "detectada";
-  const macroId = location.macrocluster_id ?? "—";
-  const microId = location.microcluster_id ?? "—";
-  const macroLabel = location.macro_label || `Macrocluster ${macroId}`;
-  const microLabel = location.micro_label || `Microcluster ${microId}`;
-  const matched = location.matched_thesis_count ?? location.evidence_count ?? 0;
-  const projectTitle = state.data.input?.title || state.data.context?.user_project?.title || "Tu proyecto";
-
-  module.innerHTML = `
-    <div class="module-head">
-      <div>
-        <p class="eyebrow">Ubicación en el atlas</p>
-        <h2>Micro universo de evidencia</h2>
-      </div>
-    </div>
-
-    <p>
-      ${escapeHtml(location.interpretation || "El laboratorio usó las tesis similares como evidencia para inferir su ubicación dentro del Atlas.")}
-    </p>
-
-    <div class="card-grid two-col">
-      <div class="result-card">
-        <strong>Macrocluster</strong>
-        <p>${escapeHtml(macroLabel)}</p>
-      </div>
-      <div class="result-card">
-        <strong>Microcluster</strong>
-        <p>${escapeHtml(microLabel)}</p>
-      </div>
-      <div class="result-card">
-        <strong>Confianza</strong>
-        <p>${escapeHtml(confidenceLabel)} · ${confidencePct}%</p>
-      </div>
-      <div class="result-card">
-        <strong>Evidencia</strong>
-        <p>${escapeHtml(String(matched))} tesis similares cruzadas</p>
-      </div>
-    </div>
-
-    <div class="lab-atlas-toolbar">
-      <div class="lab-atlas-mode-group" aria-label="Modo de visualización">
-        <button class="lab-atlas-mode-btn active" type="button" data-lab-map-mode="universe">Universo</button>
-        <button class="lab-atlas-mode-btn" type="button" data-lab-map-mode="analytic">Analítico</button>
-      </div>
-
-      <label class="lab-atlas-control">
-        Agrupar por
-        <select id="labAtlasGroupBy">
-          <option value="program">Programa</option>
-          <option value="degree">Nivel</option>
-          <option value="area">Área</option>
-          <option value="plantel">Plantel</option>
-          <option value="period">Periodo</option>
-        </select>
-      </label>
-    </div>
-
-    <div class="lab-atlas-sigma-shell">
-      <div class="lab-atlas-overlay">
-        <div class="lab-atlas-overlay-card">
-          <span>Territorio inferido</span>
-          <strong>${escapeHtml(microLabel)}</strong>
-        </div>
-      </div>
-      <div class="lab-atlas-sigma" id="labAtlasSigma"></div>
-    </div>
-
-    <div class="lab-atlas-tooltip" id="labAtlasTooltip"></div>
-
-    <div class="lab-atlas-detail" id="labAtlasDetail">
-      <p class="lab-mini-label">Selecciona una tesis del mapa</p>
-      <strong>Explora la evidencia</strong>
-      <p>Haz clic en cualquier nodo para ver programa, nivel, periodo y similitud.</p>
-    </div>
-  `;
-
-  requestAnimationFrame(() => {
-    renderLabMiniSigmaMap({
-      container: $("labAtlasSigma"),
-      tooltip: $("labAtlasTooltip"),
-      detail: $("labAtlasDetail"),
-      module,
-      location,
-      projectTitle
-    });
-  });
+  module.classList.add("hidden");
+  module.innerHTML = "";
 }
 
 function buildLabAtlasMicroMap({ macroId, microId, macroLabel, microLabel, projectTitle, evidence }) {
