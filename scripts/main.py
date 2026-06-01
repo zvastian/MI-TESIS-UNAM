@@ -12,6 +12,7 @@ from pydantic import BaseModel, Field
 
 from lab_orchestrator import LabBusyError, LabOrchestrator
 from build_graph_neighborhood import build_graph_from_query, json_sanitize
+from workshop_api import router as workshop_router
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -323,4 +324,6 @@ def serve_nobel_map():
 
 if STATIC_DIR.exists():
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
-    app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="static-root")
+    app.include_router(workshop_router)
+
+app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="static-root")

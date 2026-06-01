@@ -2275,19 +2275,6 @@
 
 
     /* Lab typography refinement: modern system sans, less uppercase */
-    .lab-module,
-    .lab-module p,
-    .lab-module li,
-    .lab-module button,
-    .lab-module input,
-    .lab-module select,
-    .lab-module textarea,
-    .timeline,
-    .timeline-step,
-    .lab-atlas-toolbar,
-    .lab-atlas-detail,
-    .lab-atlas-tooltip   {
-}
 
     .lab-module h2,
     .lab-module h3,
@@ -2750,7 +2737,7 @@
 
     }
 
-  
+
     /* Final Lab typography unification */
     #modules,
     #modules *,
@@ -4035,7 +4022,7 @@
 }
 /* END NODO LAB EDITORIAL PATCH V1 */
 
-  
+
     /* Workshop replacement UI v1 scoped */
     .workshop-page-v1 {
       width: min(1480px, calc(100vw - 48px));
@@ -5276,6 +5263,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700;800&family=Inter+Tight:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="./workshop.css?v=1780342878">
 </head>
 
 <body data-mode="universe" data-tab="inicio" data-explore-view="map">
@@ -5304,7 +5292,7 @@
     </section>
 
     <section class="tab-panel" data-panel="explorar">
-  
+
       <main class="app explore-map-view">
         <section class="macro-stage">
           <div class="topbar">
@@ -5430,317 +5418,202 @@
     </section>
 
 
-    
-    
+
+
+
     <section class="tab-panel" data-panel="taller">
-      <main class="workshop-page-v1">
-        <aside class="workshop-v1-sidebar">
-          <div>
+      <main class="workshop" data-workshop-root>
+        <aside class="workshop-sidebar">
+          <div class="workshop-sidebar-head">
             <p class="eyebrow">Taller de datos</p>
             <h1>Mesa de trabajo</h1>
-            <p>Explora, cruza y visualiza la producción académica de la UNAM como sistema de datos.</p>
+            <p>Consulta, cruza y visualiza la producción académica de la UNAM como sistema de datos.</p>
           </div>
 
-          <nav class="workshop-v1-nav" aria-label="Modos del taller">
-            <button class="workshop-v1-mode is-active" type="button" data-workshop-mode="explore">
+          <nav class="workshop-nav" aria-label="Modos del Taller">
+            <button class="workshop-nav-btn is-active" type="button" data-ws-section="explore">
               <span>01</span>
               Explorar
             </button>
-            <button class="workshop-v1-mode" type="button" data-workshop-mode="analysis">
+            <button class="workshop-nav-btn" type="button" data-ws-section="analysis">
               <span>02</span>
               Mesa de análisis
             </button>
           </nav>
 
-          <div class="workshop-v1-note">
+          <div class="workshop-note">
             <strong>Dataset</strong>
-            <span>500,000+ tesis normalizadas</span>
+            <span id="workshopDatasetLabel">Cargando acervo…</span>
           </div>
 
-          <div class="workshop-v1-note">
-            <strong>Stack previsto</strong>
-            <span>DuckDB · Parquet · embeddings · búsqueda vectorial</span>
+          <div class="workshop-note">
+            <strong>Motor</strong>
+            <span>DuckDB · Parquet · agregaciones reproducibles</span>
           </div>
         </aside>
 
-        <section class="workshop-v1-main">
-          <section class="workshop-v1-panel is-active" data-workshop-panel="explore">
-            <header class="workshop-v1-hero">
+        <section class="workshop-main">
+          <section class="workshop-panel is-active" data-ws-panel="explore">
+            <header class="workshop-hero">
               <p class="eyebrow">Explorar</p>
-              <h2>Busca un tema. Observa su huella académica.</h2>
-              <p>Dos formas de mirar el archivo: por territorio semántico o por mención exacta en títulos.</p>
+              <h2>Busca un término. Observa su huella académica.</h2>
+              <p>Esta fase conecta la búsqueda exacta al backend. La búsqueda semántica queda preparada para la siguiente etapa.</p>
             </header>
 
-            <div class="workshop-v1-switch">
-              <button class="is-active" type="button" data-explore-mode="semantic">Territorio semántico</button>
-              <button type="button" data-explore-mode="exact">Mención exacta</button>
+            <div class="workshop-switch" role="tablist" aria-label="Modo de búsqueda">
+              <button type="button" data-ws-explore-mode="exact" class="is-active">Mención exacta</button>
+              <button type="button" data-ws-explore-mode="semantic">Territorio semántico</button>
             </div>
 
-            <section class="workshop-v1-search">
-              <label>
-                <span>Tema de interés</span>
-                <input type="text" value="inteligencia artificial" placeholder="Ej. literatura mexicana, banca de desarrollo, inteligencia artificial">
+            <section class="workshop-search-card">
+              <label class="workshop-search-field">
+                <span>Término de interés</span>
+                <input id="workshopQueryInput" type="text" value="inteligencia artificial" placeholder="Ej. banca de desarrollo, literatura mexicana, inteligencia artificial">
               </label>
 
-              <button type="button" class="workshop-v1-primary">Explorar tema</button>
+              <button type="button" class="workshop-primary" id="workshopRunSearch">
+                Buscar
+              </button>
 
-              <div class="workshop-v1-threshold" data-explore-controls="semantic">
+              <div class="workshop-exact-controls" data-ws-controls="exact">
+                <button class="is-active" type="button" data-ws-match-mode="phrase">Frase exacta</button>
+                <button type="button" data-ws-match-mode="all_words">Todas las palabras</button>
+                <button type="button" data-ws-match-mode="any_word">Cualquier palabra</button>
+              </div>
+
+              <div class="workshop-threshold" data-ws-controls="semantic" hidden>
                 <div>
                   <span>Similitud mínima</span>
-                  <strong>0.85</strong>
+                  <strong id="workshopThresholdValue">0.85</strong>
                 </div>
-                <input type="range" min="70" max="95" value="85">
-                <small>Más estricto hacia 0.95 · más amplio hacia 0.70</small>
-              </div>
-
-              <div class="workshop-v1-exact" data-explore-controls="exact" hidden>
-                <button class="is-active" type="button">Frase exacta</button>
-                <button type="button">Todas las palabras</button>
-                <button type="button">Cualquier palabra</button>
+                <input id="workshopThreshold" type="range" min="70" max="95" value="85">
+                <small>Próxima fase: búsqueda vectorial con embeddings.</small>
               </div>
             </section>
 
-            <section class="workshop-v1-result-head">
+            <section class="workshop-status" id="workshopStatus">
+              <strong>Listo para consultar</strong>
+              <span>Ejecuta una búsqueda exacta para generar métricas, gráficas y tabla.</span>
+            </section>
+
+            <section class="workshop-result-head">
               <div>
-                <p class="eyebrow" id="workshopResultMode">Búsqueda semántica · similitud ≥ 0.85</p>
-                <h2 id="workshopResultTitle">Inteligencia artificial en tesis UNAM</h2>
-                <p id="workshopResultCopy">Tesis conceptualmente cercanas al tema, incluso cuando no usan exactamente las mismas palabras.</p>
+                <p class="eyebrow" id="workshopResultMode">Búsqueda exacta · frase en título</p>
+                <h2 id="workshopResultTitle">Explora el acervo por título</h2>
+                <p id="workshopResultCopy">Los resultados se calculan desde el backend con DuckDB sobre el parquet normalizado.</p>
               </div>
 
-              <div class="workshop-v1-actions">
-                <button type="button">CSV</button>
-                <button type="button">PNG</button>
-                <button type="button">Método</button>
+              <div class="workshop-actions">
+                <button type="button" id="workshopExportCsv">CSV</button>
+                <button type="button" id="workshopCopyMethod">Método</button>
               </div>
             </section>
 
-            <section class="workshop-v1-metrics">
-              <article><strong id="workshopMetricTotal">312</strong><span>Tesis encontradas</span></article>
-              <article><strong>1991–2026</strong><span>Periodo cubierto</span></article>
-              <article><strong>42</strong><span>Programas</span></article>
-              <article><strong>0.88</strong><span>Similitud promedio</span></article>
+            <section class="workshop-metrics" id="workshopMetrics">
+              <article><strong>—</strong><span>Tesis encontradas</span></article>
+              <article><strong>—</strong><span>Periodo cubierto</span></article>
+              <article><strong>—</strong><span>Programa dominante</span></article>
+              <article><strong>—</strong><span>Nivel dominante</span></article>
             </section>
 
-            <section class="workshop-v1-grid">
-              <article class="workshop-v1-card workshop-v1-wide">
-                <div class="workshop-v1-card-head">
+            <section class="workshop-grid">
+              <article class="workshop-card workshop-wide">
+                <div class="workshop-card-head">
                   <div>
                     <h3>Evolución temporal</h3>
-                    <p>Tesis relacionadas por año.</p>
+                    <p>Frecuencia de títulos encontrados por año.</p>
                   </div>
-                  <span>Año</span>
                 </div>
-                <div class="workshop-v1-bars">
-                  <i style="height:22%"></i><i style="height:30%"></i><i style="height:27%"></i><i style="height:42%"></i>
-                  <i style="height:48%"></i><i style="height:52%"></i><i style="height:68%"></i><i style="height:76%"></i>
-                  <i style="height:89%"></i><i style="height:62%"></i><i style="height:94%"></i>
-                </div>
+                <div class="workshop-chart" id="workshopChartYear"></div>
               </article>
 
-              <article class="workshop-v1-card">
+              <article class="workshop-card">
                 <h3>Programas principales</h3>
-                <div class="workshop-v1-rank">
-                  <div><span>Ingeniería en computación</span><b style="width:92%"></b><em>86</em></div>
-                  <div><span>Ciencias de la computación</span><b style="width:72%"></b><em>64</em></div>
-                  <div><span>Actuaría</span><b style="width:48%"></b><em>41</em></div>
-                  <div><span>Matemáticas aplicadas</span><b style="width:34%"></b><em>29</em></div>
-                </div>
+                <div class="workshop-chart" id="workshopChartProgram"></div>
               </article>
 
-              <article class="workshop-v1-card">
+              <article class="workshop-card">
                 <h3>Nivel académico</h3>
-                <div class="workshop-v1-rank workshop-v1-yellow">
-                  <div><span>Licenciatura</span><b style="width:74%"></b><em>231</em></div>
-                  <div><span>Maestría</span><b style="width:18%"></b><em>56</em></div>
-                  <div><span>Doctorado</span><b style="width:6%"></b><em>19</em></div>
-                </div>
+                <div class="workshop-chart" id="workshopChartDegree"></div>
               </article>
 
-              <article class="workshop-v1-card">
+              <article class="workshop-card">
                 <h3>Planteles principales</h3>
-                <div class="workshop-v1-rank">
-                  <div><span>Facultad de Ingeniería</span><b style="width:88%"></b><em>71</em></div>
-                  <div><span>Facultad de Ciencias</span><b style="width:74%"></b><em>59</em></div>
-                  <div><span>FES Aragón</span><b style="width:41%"></b><em>33</em></div>
-                </div>
+                <div class="workshop-chart" id="workshopChartPlantel"></div>
               </article>
 
-              <article class="workshop-v1-card">
+              <article class="workshop-card">
                 <h3>Términos recurrentes</h3>
-                <div class="workshop-v1-terms">
-                  <span>algoritmos</span><span>aprendizaje</span><span>datos</span><span>redes neuronales</span>
-                  <span>sistemas expertos</span><span>automatización</span><span>modelo</span>
-                </div>
+                <div class="workshop-terms" id="workshopTopTerms"></div>
               </article>
             </section>
 
-            <section class="workshop-v1-table-card">
-              <div class="workshop-v1-card-head">
+            <section class="workshop-table-card">
+              <div class="workshop-card-head">
                 <div>
-                  <h3>Tesis representativas</h3>
-                  <p>Trabajos simulados que representarían el conjunto encontrado.</p>
+                  <h3>Tesis encontradas</h3>
+                  <p>Primeros resultados devueltos por la búsqueda exacta.</p>
                 </div>
-                <button type="button">Ver tabla completa</button>
               </div>
 
-              <table class="workshop-v1-table">
-                <thead>
-                  <tr><th>Título</th><th>Año</th><th>Programa</th><th>Nivel</th><th>Similitud</th></tr>
-                </thead>
-                <tbody>
-                  <tr><td>Aplicación de redes neuronales al reconocimiento de patrones</td><td>2022</td><td>Ingeniería en computación</td><td>Licenciatura</td><td>0.93</td></tr>
-                  <tr><td>Modelos de aprendizaje automático para clasificación de textos</td><td>2021</td><td>Ciencias de la computación</td><td>Maestría</td><td>0.91</td></tr>
-                  <tr><td>Sistemas expertos aplicados al diagnóstico institucional</td><td>2018</td><td>Actuaría</td><td>Licenciatura</td><td>0.89</td></tr>
-                </tbody>
-              </table>
+              <div class="workshop-table-wrap">
+                <table class="workshop-table">
+                  <thead>
+                    <tr>
+                      <th>Título</th>
+                      <th>Año</th>
+                      <th>Programa</th>
+                      <th>Nivel</th>
+                      <th>Plantel</th>
+                    </tr>
+                  </thead>
+                  <tbody id="workshopThesisTable">
+                    <tr>
+                      <td colspan="5">Sin consulta ejecutada todavía.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </section>
+
+            <details class="workshop-method" id="workshopMethod">
+              <summary>Método de consulta</summary>
+              <div id="workshopMethodBody">
+                <p>Ejecuta una búsqueda para ver los pasos de procesamiento.</p>
+              </div>
+            </details>
           </section>
 
-          <section class="workshop-v1-panel" data-workshop-panel="analysis">
-            <header class="workshop-v1-hero">
+          <section class="workshop-panel" data-ws-panel="analysis">
+            <header class="workshop-hero">
               <p class="eyebrow">Mesa de análisis</p>
               <h2>Construye consultas visuales sobre el dataset.</h2>
-              <p>Cruza variables, filtra registros, genera gráficos y exporta resultados. Esta pantalla es el esqueleto visual del modo avanzado.</p>
+              <p>Esta será la siguiente fase: filtros, agrupaciones, comparaciones, gráficas y exportación.</p>
             </header>
 
-            <section class="workshop-v1-analysis-layout">
-              <aside class="workshop-v1-builder">
-                <div class="workshop-v1-block">
-                  <h3>Plantillas</h3>
-                  <div class="workshop-v1-chip-grid">
-                    <button class="is-active" type="button">Evolución temporal</button>
-                    <button type="button">Ranking de programas</button>
-                    <button type="button">Distribución por nivel</button>
-                    <button type="button">Planteles principales</button>
-                    <button type="button">Asesores asociados</button>
-                    <button type="button">Heatmap programa × año</button>
-                  </div>
-                </div>
+            <section class="workshop-analysis-placeholder">
+              <div>
+                <p class="eyebrow">Fase siguiente</p>
+                <h3>Constructor de análisis</h3>
+                <p>La base ya queda preparada para conectar plantillas, filtros, group by, compare by y chart type contra `/api/workshop/analyze`.</p>
+              </div>
 
-                <div class="workshop-v1-block">
-                  <h3>Qué medir</h3>
-                  <select><option>Conteo de tesis</option><option>Asesores únicos</option><option>Programas únicos</option></select>
-                </div>
-
-                <div class="workshop-v1-block">
-                  <h3>Filtros</h3>
-                  <div class="workshop-v1-years">
-                    <span>Año</span>
-                    <input type="number" value="2010">
-                    <input type="number" value="2026">
-                  </div>
-                  <div class="workshop-v1-chip-grid">
-                    <button type="button">+ Nivel</button><button type="button">+ Programa</button><button type="button">+ Plantel</button><button type="button">+ Área</button>
-                    <button type="button">+ Asesor</button><button type="button">+ Título contiene</button><button type="button">+ Tema semántico</button>
-                  </div>
-                </div>
-
-                <div class="workshop-v1-block">
-                  <h3>Agrupar y comparar</h3>
-                  <label>Agrupar por<select><option>Año</option><option>Programa</option><option>Plantel</option><option>Nivel</option></select></label>
-                  <label>Comparar por<select><option>Nivel</option><option>Programa top 10</option><option>Área</option><option>Ninguno</option></select></label>
-                </div>
-
-                <div class="workshop-v1-block">
-                  <h3>Visualización</h3>
-                  <div class="workshop-v1-chip-grid">
-                    <button class="is-active" type="button">Línea</button><button type="button">Barras</button><button type="button">Apiladas</button><button type="button">Heatmap</button><button type="button">Tabla</button>
-                  </div>
-                </div>
-
-                <button class="workshop-v1-primary" type="button">Generar análisis</button>
-              </aside>
-
-              <section class="workshop-v1-analysis-output">
-                <section class="workshop-v1-result-head">
-                  <div>
-                    <p class="eyebrow">Consulta generada</p>
-                    <h2>Conteo de tesis por año, comparado por nivel</h2>
-                    <p>Filtros: periodo 2010–2026 · todos los programas · todos los planteles.</p>
-                  </div>
-                  <div class="workshop-v1-actions">
-                    <button type="button">CSV</button><button type="button">PNG</button><button type="button">Copiar SQL</button>
-                  </div>
-                </section>
-
-                <section class="workshop-v1-metrics">
-                  <article><strong>128,402</strong><span>Registros incluidos</span></article>
-                  <article><strong>17</strong><span>Años</span></article>
-                  <article><strong>4</strong><span>Niveles</span></article>
-                  <article><strong>312</strong><span>Programas</span></article>
-                </section>
-
-                <article class="workshop-v1-card workshop-v1-wide">
-                  <div class="workshop-v1-card-head">
-                    <div>
-                      <h3>Serie temporal por nivel académico</h3>
-                      <p>Vista simulada del resultado de la consulta.</p>
-                    </div>
-                    <span>line chart</span>
-                  </div>
-                  <div class="workshop-v1-svg-chart">
-                    <svg viewBox="0 0 640 240" preserveAspectRatio="none">
-                      <polyline points="0,190 60,170 120,155 180,145 240,130 300,118 360,105 420,92 480,76 540,68 640,54"></polyline>
-                      <polyline points="0,215 60,205 120,198 180,190 240,180 300,164 360,151 420,144 480,136 540,130 640,119"></polyline>
-                      <polyline points="0,228 60,224 120,220 180,214 240,210 300,204 360,196 420,190 480,181 540,176 640,168"></polyline>
-                    </svg>
-                  </div>
-                </article>
-
-                <section class="workshop-v1-grid">
-                  <article class="workshop-v1-card">
-                    <h3>Ranking resultante</h3>
-                    <div class="workshop-v1-rank">
-                      <div><span>Licenciatura</span><b style="width:90%"></b><em>84,210</em></div>
-                      <div><span>Maestría</span><b style="width:42%"></b><em>31,505</em></div>
-                      <div><span>Doctorado</span><b style="width:15%"></b><em>10,924</em></div>
-                    </div>
-                  </article>
-
-                  <article class="workshop-v1-card">
-                    <h3>Heatmap ejemplo</h3>
-                    <div class="workshop-v1-heatmap">
-                      <i></i><i></i><i></i><i></i><i></i><i></i>
-                      <i></i><i></i><i></i><i></i><i></i><i></i>
-                      <i></i><i></i><i></i><i></i><i></i><i></i>
-                      <i></i><i></i><i></i><i></i><i></i><i></i>
-                    </div>
-                  </article>
-                </section>
-
-                <section class="workshop-v1-table-card">
-                  <div class="workshop-v1-card-head">
-                    <div>
-                      <h3>Tabla de resultados</h3>
-                      <p>Datos que sostienen la visualización.</p>
-                    </div>
-                    <button type="button">Descargar tabla</button>
-                  </div>
-
-                  <table class="workshop-v1-table">
-                    <thead><tr><th>Año</th><th>Nivel</th><th>Tesis</th><th>% del año</th></tr></thead>
-                    <tbody>
-                      <tr><td>2024</td><td>Licenciatura</td><td>6,421</td><td>68%</td></tr>
-                      <tr><td>2024</td><td>Maestría</td><td>2,105</td><td>22%</td></tr>
-                      <tr><td>2024</td><td>Doctorado</td><td>804</td><td>8%</td></tr>
-                    </tbody>
-                  </table>
-                </section>
-
-                <details class="workshop-v1-method" open>
-                  <summary>Consulta generada</summary>
-                  <pre>SELECT year, degree, COUNT(*) AS thesis_count
-FROM thesis_lookup
-WHERE year BETWEEN 2010 AND 2026
-GROUP BY year, degree
-ORDER BY year;</pre>
-                </details>
-              </section>
+              <div class="workshop-analysis-grid">
+                <button type="button">Evolución temporal</button>
+                <button type="button">Ranking de programas</button>
+                <button type="button">Distribución por nivel</button>
+                <button type="button">Heatmap programa × año</button>
+                <button type="button">Asesores asociados</button>
+                <button type="button">Exportar CSV / PNG</button>
+              </div>
             </section>
           </section>
         </section>
       </main>
     </section>
+
+
+
 
 
 
@@ -8244,5 +8117,6 @@ ORDER BY year;</pre>
 
 
 <script src="./app.js?v=1780339718"></script>
+  <script src="./workshop.js?v=1780342878" defer></script>
 </body>
 </html>
