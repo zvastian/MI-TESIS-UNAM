@@ -79,3 +79,4 @@ class ExactSearchResponse(BaseModel):
     charts: dict[str, ChartSpec]
     tables: dict[str, list[dict[str, Any]]]
     method: MethodMetadata
+    editorial: dict[str, Any] | None = None

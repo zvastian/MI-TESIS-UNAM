@@ -139,6 +139,58 @@
     if (resultMode) resultMode.textContent = `Búsqueda exacta · ${matchModeLabel(mode)}`;
   }
 
+
+  function renderEditorial(editorial) {
+    const summaryEl = $("#workshopEditorialSummary");
+    const findingsEl = $("#workshopEditorialFindings");
+    const cardsEl = $("#workshopStoryCards");
+
+    if (!summaryEl || !findingsEl || !cardsEl) return;
+
+    if (!editorial) {
+      summaryEl.textContent = "No hay lectura editorial disponible para esta consulta.";
+      findingsEl.innerHTML = "";
+      cardsEl.innerHTML = "";
+      return;
+    }
+
+    summaryEl.textContent = editorial.summary || "Consulta procesada sin lectura editorial.";
+
+    const findings = Array.isArray(editorial.findings) ? editorial.findings : [];
+
+    if (findings.length) {
+      findingsEl.innerHTML = findings.slice(0, 8).map(item => `
+        <article>
+          <span>${escapeHTML(item.label || "Hallazgo")}</span>
+          <strong>${escapeHTML(item.value ?? "—")}</strong>
+          <p>${escapeHTML(item.detail || "")}</p>
+        </article>
+      `).join("");
+    } else {
+      findingsEl.innerHTML = `
+        <article>
+          <span>Sin hallazgos</span>
+          <strong>—</strong>
+          <p>No se generaron hallazgos para esta consulta.</p>
+        </article>
+      `;
+    }
+
+    const storyCards = Array.isArray(editorial.story_cards) ? editorial.story_cards : [];
+
+    if (storyCards.length) {
+      cardsEl.innerHTML = storyCards.map((card, index) => `
+        <article style="--story-index:${index}">
+          <span>${String(index + 1).padStart(2, "0")}</span>
+          <strong>${escapeHTML(card.title || "Lectura")}</strong>
+          <p>${escapeHTML(card.body || "")}</p>
+        </article>
+      `).join("");
+    } else {
+      cardsEl.innerHTML = "";
+    }
+  }
+
   function renderMetrics(summary) {
     const el = $("#workshopMetrics");
     if (!el) return;
@@ -156,59 +208,94 @@
   }
 
   function renderHorizontalBars(selector, data, limit = 12) {
-    const el = $(selector);
-    if (!el) return;
+  const el = $(selector);
+  if (!el) return;
 
-    const rows = (data || []).slice(0, limit);
-    if (!rows.length) {
-      el.innerHTML = `<p class="workshop-empty">Sin datos.</p>`;
-      return;
-    }
+  const rows = (data || [])
+    .map(row => ({
+      label: String(row.label ?? "Sin dato"),
+      count: Number(row.count || 0)
+    }))
+    .filter(row => row.count > 0)
+    .slice(0, limit);
 
-    const max = Math.max(...rows.map(row => Number(row.count || 0)), 1);
-
-    el.innerHTML = rows.map(row => {
-      const count = Number(row.count || 0);
-      const pct = Math.max(3, count / max * 100);
-      return `
-        <div class="workshop-bar-row">
-          <div class="workshop-bar-label" title="${escapeHTML(row.label)}">${escapeHTML(row.label)}</div>
-          <div class="workshop-bar-track">
-            <div class="workshop-bar-fill" style="width:${pct}%"></div>
-          </div>
-          <div class="workshop-bar-value">${formatNumber(count)}</div>
-        </div>
-      `;
-    }).join("");
+  if (!rows.length) {
+    el.innerHTML = `<p class="workshop-empty">Sin datos.</p>`;
+    return;
   }
+
+  const max = Math.max(...rows.map(row => row.count), 1);
+  const total = rows.reduce((sum, row) => sum + row.count, 0);
+
+  el.innerHTML = `
+    <div class="workshop-mini-summary">
+      <span>${formatNumber(rows.length)} categorías visibles</span>
+      <strong>${formatNumber(total)}</strong>
+    </div>
+
+    <div class="workshop-bar-list">
+      ${rows.map((row, index) => {
+        const pct = Math.max(4, row.count / max * 100);
+        return `
+          <div class="workshop-bar-row" style="--rank:${index + 1}">
+            <div class="workshop-bar-label" title="${escapeHTML(row.label)}">${escapeHTML(row.label)}</div>
+            <div class="workshop-bar-track">
+              <div class="workshop-bar-fill" style="width:${pct}%"></div>
+            </div>
+            <div class="workshop-bar-value">${formatNumber(row.count)}</div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
 
   function renderYearBars(data) {
-    const el = $("#workshopChartYear");
-    if (!el) return;
+  const el = $("#workshopChartYear");
+  if (!el) return;
 
-    const rows = data || [];
-    if (!rows.length) {
-      el.innerHTML = `<p class="workshop-empty">Sin datos temporales.</p>`;
-      return;
-    }
+  const rows = (data || [])
+    .map(row => ({
+      label: String(row.label ?? ""),
+      count: Number(row.count || 0)
+    }))
+    .filter(row => row.label && row.count >= 0);
 
-    const max = Math.max(...rows.map(row => Number(row.count || 0)), 1);
-
-    el.innerHTML = `
-      <div class="workshop-year-bars">
-        ${rows.map(row => {
-          const count = Number(row.count || 0);
-          const height = Math.max(2, count / max * 100);
-          return `
-            <div class="workshop-year-bar"
-              style="height:${height}%"
-              title="${escapeHTML(row.label)} · ${formatNumber(count)} tesis">
-            </div>
-          `;
-        }).join("")}
-      </div>
-    `;
+  if (!rows.length) {
+    el.innerHTML = `<p class="workshop-empty">Sin datos temporales.</p>`;
+    return;
   }
+
+  const max = Math.max(...rows.map(row => row.count), 1);
+  const total = rows.reduce((sum, row) => sum + row.count, 0);
+  const first = rows[0]?.label || "—";
+  const last = rows[rows.length - 1]?.label || "—";
+
+  el.innerHTML = `
+    <div class="workshop-chart-summary">
+      <strong>${formatNumber(total)}</strong>
+      <span>${escapeHTML(first)}–${escapeHTML(last)} · ${formatNumber(rows.length)} años con resultados</span>
+    </div>
+
+    <div class="workshop-year-bars" style="--bars:${rows.length}">
+      ${rows.map(row => {
+        const height = Math.max(4, row.count / max * 100);
+        return `
+          <div class="workshop-year-bar"
+            style="height:${height}%"
+            title="${escapeHTML(row.label)} · ${formatNumber(row.count)} tesis">
+            <span>${formatNumber(row.count)}</span>
+          </div>
+        `;
+      }).join("")}
+    </div>
+
+    <div class="workshop-axis-labels">
+      <span>${escapeHTML(first)}</span>
+      <span>${escapeHTML(last)}</span>
+    </div>
+  `;
+}
 
   function renderTerms(data) {
     const el = $("#workshopTopTerms");
@@ -260,27 +347,41 @@
   }
 
   function renderReport(report) {
-    state.report = report;
+  state.report = report;
 
-    const resultTitle = $("#workshopResultTitle");
-    const resultCopy = $("#workshopResultCopy");
+  const resultMode = $("#workshopResultMode");
+  const resultTitle = $("#workshopResultTitle");
+  const resultCopy = $("#workshopResultCopy");
 
-    if (resultTitle) resultTitle.textContent = `“${report.query}” en tesis UNAM`;
-    if (resultCopy) {
-      resultCopy.textContent = `${formatNumber(report.summary.total_matches)} títulos contienen la consulta bajo el modo ${matchModeLabel(report.match_mode)}.`;
-    }
-
-    renderMetrics(report.summary);
-    renderYearBars(report.charts?.by_year?.data || []);
-    renderHorizontalBars("#workshopChartProgram", report.charts?.by_program?.data || [], 12);
-    renderHorizontalBars("#workshopChartDegree", report.charts?.by_degree?.data || [], 8);
-    renderHorizontalBars("#workshopChartPlantel", report.charts?.by_plantel?.data || [], 12);
-    renderTerms(report.charts?.top_terms?.data || []);
-    renderTable(report.tables?.top_theses || []);
-    renderMethod(report.method);
-
-    setStatus("Consulta completada", `${formatNumber(report.summary.total_matches)} tesis encontradas.`);
+  if (resultMode) resultMode.textContent = `Búsqueda exacta · ${matchModeLabel(report.match_mode)}`;
+  if (resultTitle) resultTitle.textContent = `“${report.query}” en tesis UNAM`;
+  if (resultCopy) {
+    const period = report.summary.first_year && report.summary.last_year
+      ? `${report.summary.first_year}–${report.summary.last_year}`
+      : "periodo no determinado";
+    resultCopy.textContent = `${formatNumber(report.summary.total_matches)} títulos contienen la consulta. El conjunto cubre ${period} y se agregó por año, programa, nivel, plantel, área y asesor.`;
   }
+
+  renderEditorial(report.editorial);
+  renderMetrics(report.summary);
+
+  renderYearBars(report.charts?.by_year?.data || []);
+  renderHorizontalBars("#workshopChartProgram", report.charts?.by_program?.data || [], 12);
+  renderHorizontalBars("#workshopChartDegree", report.charts?.by_degree?.data || [], 8);
+  renderHorizontalBars("#workshopChartPlantel", report.charts?.by_plantel?.data || [], 12);
+  renderHorizontalBars("#workshopChartArea", report.charts?.by_area?.data || [], 10);
+  renderHorizontalBars("#workshopChartAdvisor", report.charts?.by_advisor?.data || [], 10);
+
+  renderTerms(report.charts?.top_terms?.data || []);
+  renderTable(report.tables?.top_theses || []);
+  renderMethod(report.method);
+
+  document.body.classList.add("workshop-has-results");
+
+  setStatus("Consulta completada", `${formatNumber(report.summary.total_matches)} tesis encontradas.`);
+
+  // No forzamos scroll aquí: el usuario debe poder recorrer libremente el dashboard.
+}
 
   async function runSearch() {
     if (state.exploreMode === "semantic") {
@@ -364,6 +465,17 @@
     }
   }
 
+
+  function syncWorkshopScrollMode() {
+    const isWorkshop =
+      document.body?.dataset?.tab === "taller" ||
+      document.querySelector('.tab-panel[data-panel="taller"]')?.matches(':is([style*="visibility: visible"], .is-active)');
+
+    document.documentElement.classList.toggle("workshop-scroll-mode", Boolean(isWorkshop));
+  }
+
+  const workshopScrollObserver = new MutationObserver(syncWorkshopScrollMode);
+
   function bindEvents() {
     document.addEventListener("click", event => {
       const sectionBtn = event.target.closest("[data-ws-section]");
@@ -404,6 +516,13 @@
     if (!root) return;
 
     bindEvents();
+
+    workshopScrollObserver.observe(document.body, {
+      attributes: true,
+      attributeFilter: ["data-tab", "class", "style"]
+    });
+
+    syncWorkshopScrollMode();
     loadFacets();
   }
 

@@ -497,3 +497,768 @@
     height: 180px;
   }
 }
+
+/* WORKSHOP PHASE 1 — EDITORIAL DATA DASHBOARD */
+
+.workshop-result-head {
+  position: relative;
+  overflow: hidden;
+}
+
+.workshop-result-head::after {
+  content: "";
+  position: absolute;
+  right: -90px;
+  top: -120px;
+  width: 260px;
+  height: 260px;
+  border-radius: 999px;
+  background: rgba(0, 106, 235, 0.08);
+  pointer-events: none;
+}
+
+.workshop-metrics article {
+  min-height: 112px;
+  display: grid;
+  align-content: space-between;
+}
+
+.workshop-metrics strong {
+  color: var(--workshop-blue);
+}
+
+.workshop-grid {
+  align-items: stretch;
+}
+
+.workshop-card {
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.workshop-card h3,
+.workshop-card-head h3 {
+  font-family: "Inter Tight", Inter, system-ui, sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+}
+
+.workshop-card-head {
+  flex: 0 0 auto;
+}
+
+.workshop-chart {
+  flex: 1 1 auto;
+  display: grid;
+  align-content: stretch;
+}
+
+.workshop-chart-summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: end;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(21, 24, 32, 0.08);
+}
+
+.workshop-chart-summary strong {
+  font-family: "Inter Tight", Inter, system-ui, sans-serif;
+  font-size: clamp(32px, 4vw, 54px);
+  line-height: 0.9;
+  color: var(--workshop-blue);
+  letter-spacing: -0.04em;
+}
+
+.workshop-chart-summary span,
+.workshop-mini-summary span {
+  color: var(--workshop-muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.workshop-mini-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(21, 24, 32, 0.08);
+}
+
+.workshop-mini-summary strong {
+  color: var(--workshop-blue);
+  font-variant-numeric: tabular-nums;
+}
+
+.workshop-year-bars {
+  height: 320px;
+  border-left: 1px solid var(--workshop-line);
+  border-bottom: 1px solid var(--workshop-line);
+  display: flex;
+  align-items: end;
+  gap: clamp(2px, 0.5vw, 7px);
+  padding: 18px 8px 0;
+  background:
+    linear-gradient(to top, rgba(20,22,26,0.06) 1px, transparent 1px) 0 0 / 100% 25%,
+    linear-gradient(to right, rgba(20,22,26,0.035) 1px, transparent 1px) 0 0 / 8.33% 100%;
+}
+
+.workshop-year-bar {
+  position: relative;
+  flex: 1;
+  min-width: 3px;
+  background:
+    linear-gradient(180deg, rgba(0,106,235,0.92), rgba(0,106,235,0.20));
+  border-radius: 8px 8px 0 0;
+  transition: opacity 140ms ease, transform 140ms ease;
+}
+
+.workshop-year-bar:hover {
+  opacity: 0.82;
+  transform: translateY(-2px);
+}
+
+.workshop-year-bar span {
+  display: none;
+}
+
+.workshop-axis-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  color: var(--workshop-muted);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.workshop-bar-list {
+  display: grid;
+  gap: 11px;
+}
+
+.workshop-bar-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.92fr) minmax(140px, 1.4fr) 64px;
+  gap: 10px;
+  align-items: center;
+  min-height: 28px;
+  font-size: 12.5px;
+}
+
+.workshop-bar-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--workshop-ink);
+  font-weight: 650;
+}
+
+.workshop-bar-track {
+  height: 11px;
+  border-radius: 999px;
+  background: rgba(0, 106, 235, 0.09);
+  overflow: hidden;
+}
+
+.workshop-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background:
+    linear-gradient(90deg, rgba(0, 106, 235, 0.92), rgba(0, 106, 235, 0.42));
+}
+
+.workshop-bar-value {
+  text-align: right;
+  color: var(--workshop-muted);
+  font-variant-numeric: tabular-nums;
+  font-weight: 750;
+}
+
+.workshop-empty {
+  color: var(--workshop-muted);
+  font-size: 13px;
+  margin: 0;
+}
+
+.workshop-terms {
+  align-content: start;
+}
+
+.workshop-terms span {
+  background: rgba(0, 106, 235, 0.07);
+  border-color: rgba(0, 106, 235, 0.14);
+  color: rgba(0, 57, 128, 0.92);
+  font-weight: 700;
+}
+
+.workshop-table td:first-child {
+  max-width: 520px;
+  line-height: 1.45;
+}
+
+.workshop-table tbody tr:hover {
+  background: rgba(0, 106, 235, 0.035);
+}
+
+@media (max-width: 900px) {
+  .workshop-year-bars {
+    height: 220px;
+  }
+
+  .workshop-bar-row {
+    grid-template-columns: minmax(90px, 1fr) minmax(80px, 1fr) 52px;
+  }
+}
+
+/* END WORKSHOP PHASE 1 — EDITORIAL DATA DASHBOARD */
+
+/* WORKSHOP VISIBLE CHARTS FIX */
+
+.workshop-result-head,
+.workshop-metrics,
+.workshop-grid,
+.workshop-table-card,
+.workshop-method {
+  scroll-margin-top: 96px;
+}
+
+.workshop-has-results .workshop-result-head {
+  border-color: rgba(0, 106, 235, 0.28);
+  background:
+    radial-gradient(circle at top right, rgba(0, 106, 235, 0.12), transparent 34%),
+    #ffffff;
+}
+
+.workshop-has-results .workshop-card,
+.workshop-has-results .workshop-table-card {
+  background: #ffffff;
+  border-color: rgba(0, 106, 235, 0.18);
+}
+
+.workshop-grid {
+  margin-top: 18px;
+}
+
+.workshop-card {
+  min-height: 340px;
+}
+
+.workshop-wide {
+  min-height: 440px;
+}
+
+.workshop-chart {
+  min-height: 240px;
+}
+
+#workshopChartYear {
+  min-height: 360px;
+}
+
+.workshop-chart-summary {
+  background: rgba(0, 106, 235, 0.055);
+  border: 1px solid rgba(0, 106, 235, 0.12);
+  border-radius: 18px;
+  padding: 16px;
+  margin-bottom: 18px;
+}
+
+.workshop-year-bars {
+  height: 340px !important;
+  min-height: 340px;
+  align-items: end;
+  background:
+    linear-gradient(to top, rgba(0, 106, 235, 0.10) 1px, transparent 1px) 0 0 / 100% 25%,
+    linear-gradient(to right, rgba(0, 106, 235, 0.06) 1px, transparent 1px) 0 0 / 8.33% 100%,
+    #fbfdff;
+  border: 1px solid rgba(0, 106, 235, 0.18);
+  border-radius: 18px;
+  padding: 22px 12px 0;
+}
+
+.workshop-year-bar {
+  background: rgb(0, 106, 235) !important;
+  box-shadow: 0 -8px 18px rgba(0, 106, 235, 0.18);
+  opacity: 0.9;
+}
+
+.workshop-year-bar:nth-child(2n) {
+  opacity: 0.72;
+}
+
+.workshop-axis-labels {
+  padding: 0 6px;
+  font-size: 12px;
+}
+
+.workshop-bar-list {
+  gap: 13px;
+}
+
+.workshop-bar-row {
+  grid-template-columns: minmax(140px, 1fr) minmax(140px, 1.35fr) 70px;
+  min-height: 32px;
+}
+
+.workshop-bar-track {
+  height: 14px !important;
+  background: rgba(0, 106, 235, 0.10);
+}
+
+.workshop-bar-fill {
+  background: rgb(0, 106, 235) !important;
+  box-shadow: 0 0 0 1px rgba(0, 106, 235, 0.08);
+}
+
+.workshop-mini-summary {
+  background: rgba(0, 106, 235, 0.045);
+  border: 1px solid rgba(0, 106, 235, 0.10);
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+
+.workshop-terms span {
+  background: rgb(0, 106, 235);
+  color: #ffffff;
+  border-color: rgb(0, 106, 235);
+}
+
+.workshop-status {
+  position: sticky;
+  top: 12px;
+  z-index: 20;
+}
+
+.workshop-status strong {
+  color: var(--workshop-blue);
+}
+
+@media (max-width: 900px) {
+  .workshop-card,
+  .workshop-wide {
+    min-height: auto;
+  }
+
+  .workshop-year-bars {
+    height: 240px !important;
+    min-height: 240px;
+  }
+}
+
+/* END WORKSHOP VISIBLE CHARTS FIX */
+
+/* WORKSHOP SCROLL + FLOW FIX
+   El Taller venía de un mockup y puede heredar height/overflow de tab-panel.
+   Este bloque libera el scroll vertical y fuerza que dashboard/cards existan en flujo normal.
+*/
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body[data-tab="taller"] {
+  overflow-y: auto !important;
+  height: auto !important;
+  min-height: 100vh !important;
+}
+
+body[data-tab="taller"] .tab-panel[data-panel="taller"] {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 100vh !important;
+  max-height: none !important;
+  overflow: visible !important;
+  overflow-y: visible !important;
+  pointer-events: auto !important;
+}
+
+body[data-tab="taller"] .workshop {
+  height: auto !important;
+  min-height: 100vh !important;
+  max-height: none !important;
+  overflow: visible !important;
+  align-items: start !important;
+  padding-bottom: 140px !important;
+}
+
+body[data-tab="taller"] .workshop-main,
+body[data-tab="taller"] .workshop-panel,
+body[data-tab="taller"] .workshop-panel.is-active {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+body[data-tab="taller"] .workshop-sidebar {
+  max-height: calc(100vh - 36px);
+  overflow-y: auto;
+}
+
+body[data-tab="taller"] .workshop-status {
+  position: relative !important;
+  top: auto !important;
+  z-index: auto !important;
+}
+
+body[data-tab="taller"] .workshop-result-head,
+body[data-tab="taller"] .workshop-metrics,
+body[data-tab="taller"] .workshop-grid,
+body[data-tab="taller"] .workshop-table-card,
+body[data-tab="taller"] .workshop-method {
+  display: grid;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+body[data-tab="taller"] .workshop-result-head {
+  display: flex !important;
+}
+
+body[data-tab="taller"] .workshop-metrics {
+  display: grid !important;
+}
+
+body[data-tab="taller"] .workshop-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+body[data-tab="taller"] .workshop-card,
+body[data-tab="taller"] .workshop-table-card {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  overflow: visible !important;
+}
+
+body[data-tab="taller"] .workshop-chart {
+  display: block !important;
+  min-height: 220px !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+body[data-tab="taller"] #workshopChartYear {
+  min-height: 420px !important;
+}
+
+body[data-tab="taller"] .workshop-year-bars {
+  display: flex !important;
+  height: 340px !important;
+  min-height: 340px !important;
+}
+
+body[data-tab="taller"] .workshop-bar-list {
+  display: grid !important;
+}
+
+body[data-tab="taller"] .workshop-terms {
+  display: flex !important;
+}
+
+body[data-tab="taller"] .workshop-table-wrap {
+  display: block !important;
+  overflow-x: auto !important;
+}
+
+@media (max-width: 1100px) {
+  body[data-tab="taller"] .workshop-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body[data-tab="taller"] .workshop-sidebar {
+    position: relative;
+    max-height: none;
+  }
+}
+
+/* END WORKSHOP SCROLL + FLOW FIX */
+
+/* WORKSHOP SCROLL MODE FINAL FIX
+   Causa diagnosticada:
+   - Los gráficos existen y tienen HTML.
+   - .tab-panel[data-panel="taller"] mide miles de px.
+   - Pero html/body reportan scrollHeight igual al viewport.
+   - Por tanto, el tab está atrapado en layout absoluto / 100vh / overflow hidden.
+*/
+
+html.workshop-scroll-mode,
+html.workshop-scroll-mode body {
+  height: auto !important;
+  min-height: 100vh !important;
+  max-height: none !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+html.workshop-scroll-mode body {
+  position: static !important;
+}
+
+/* El panel Taller debe dejar de comportarse como pantalla absoluta de 100vh */
+html.workshop-scroll-mode body[data-tab="taller"] .tab-panel[data-panel="taller"] {
+  position: relative !important;
+  inset: auto !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 100vh !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+  overflow-y: visible !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* Ocultar otros panels sin usar position:absolute para el taller */
+html.workshop-scroll-mode body[data-tab="taller"] .tab-panel:not([data-panel="taller"]) {
+  display: none !important;
+}
+
+/* Liberar estructura interna */
+html.workshop-scroll-mode body[data-tab="taller"] .workshop,
+html.workshop-scroll-mode body[data-tab="taller"] .workshop-main,
+html.workshop-scroll-mode body[data-tab="taller"] .workshop-panel,
+html.workshop-scroll-mode body[data-tab="taller"] .workshop-panel.is-active {
+  position: relative !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+html.workshop-scroll-mode body[data-tab="taller"] .workshop {
+  padding-bottom: 180px !important;
+}
+
+html.workshop-scroll-mode body[data-tab="taller"] .workshop-grid,
+html.workshop-scroll-mode body[data-tab="taller"] .workshop-card,
+html.workshop-scroll-mode body[data-tab="taller"] .workshop-table-card,
+html.workshop-scroll-mode body[data-tab="taller"] .workshop-method {
+  position: relative !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  overflow: visible !important;
+}
+
+/* END WORKSHOP SCROLL MODE FINAL FIX */
+
+/* WORKSHOP TAB-SHELL SCROLL FIX
+   Diagnóstico confirmado:
+   .tab-shell mide 602px, tiene overflow:hidden,
+   pero contiene un Taller de ~10964px. Este wrapper recorta todo el dashboard.
+*/
+
+html.workshop-scroll-mode body[data-tab="taller"] .tab-shell {
+  height: auto !important;
+  min-height: 100vh !important;
+  max-height: none !important;
+  overflow: visible !important;
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
+  position: relative !important;
+}
+
+/* Asegurar que el documento vuelva a tomar la altura real del Taller */
+html.workshop-scroll-mode,
+html.workshop-scroll-mode body {
+  height: auto !important;
+  min-height: 100vh !important;
+  max-height: none !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+html.workshop-scroll-mode body[data-tab="taller"] .tab-panel[data-panel="taller"],
+html.workshop-scroll-mode body[data-tab="taller"] .workshop,
+html.workshop-scroll-mode body[data-tab="taller"] .workshop-main,
+html.workshop-scroll-mode body[data-tab="taller"] .workshop-panel.is-active {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* END WORKSHOP TAB-SHELL SCROLL FIX */
+
+/* WORKSHOP EDITORIAL FRONTEND */
+
+.workshop-editorial {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.workshop-editorial-main,
+.workshop-editorial-findings,
+.workshop-story-cards article {
+  border: 1px solid rgba(21, 24, 32, 0.10);
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.workshop-editorial-main {
+  padding: clamp(22px, 3vw, 34px);
+  position: relative;
+  overflow: hidden;
+}
+
+.workshop-editorial-main::after {
+  content: "";
+  position: absolute;
+  right: -80px;
+  bottom: -120px;
+  width: 260px;
+  height: 260px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(0,106,235,0.16), transparent 68%);
+  pointer-events: none;
+}
+
+.workshop-editorial-main h3 {
+  margin: 0 0 12px;
+  max-width: 780px;
+  font-family: "Inter Tight", Inter, system-ui, sans-serif;
+  font-size: clamp(28px, 4vw, 48px);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  color: var(--workshop-ink);
+}
+
+.workshop-editorial-main p:not(.eyebrow) {
+  max-width: 860px;
+  margin: 0;
+  color: rgba(21, 24, 32, 0.76);
+  font-size: clamp(15px, 1.4vw, 18px);
+  line-height: 1.65;
+}
+
+.workshop-editorial-findings {
+  padding: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.workshop-editorial-findings article {
+  min-height: 132px;
+  border: 1px solid rgba(0,106,235,0.11);
+  background:
+    linear-gradient(180deg, rgba(0,106,235,0.055), rgba(255,255,255,0));
+  border-radius: 18px;
+  padding: 14px;
+  display: grid;
+  align-content: space-between;
+  gap: 8px;
+}
+
+.workshop-editorial-findings span,
+.workshop-story-cards span {
+  color: rgba(21, 24, 32, 0.48);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.workshop-editorial-findings strong {
+  display: block;
+  color: var(--workshop-blue);
+  font-family: "Inter Tight", Inter, system-ui, sans-serif;
+  font-size: clamp(22px, 3vw, 34px);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.workshop-editorial-findings p,
+.workshop-story-cards p {
+  margin: 0;
+  color: rgba(21, 24, 32, 0.62);
+  font-size: 12.5px;
+  line-height: 1.45;
+}
+
+.workshop-story-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.workshop-story-cards article {
+  padding: 18px;
+  min-height: 164px;
+  display: grid;
+  align-content: space-between;
+  gap: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+.workshop-story-cards article::before {
+  content: "";
+  position: absolute;
+  inset: auto -40px -70px auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 999px;
+  background: rgba(0,106,235,0.06);
+}
+
+.workshop-story-cards strong {
+  display: block;
+  color: var(--workshop-ink);
+  font-size: 15px;
+  line-height: 1.18;
+  letter-spacing: -0.015em;
+}
+
+.workshop-story-cards article:nth-child(2)::before {
+  background: rgba(236, 133, 50, 0.10);
+}
+
+.workshop-story-cards article:nth-child(3)::before {
+  background: rgba(47, 152, 112, 0.10);
+}
+
+.workshop-story-cards article:nth-child(4)::before {
+  background: rgba(115, 83, 201, 0.10);
+}
+
+@media (max-width: 1180px) {
+  .workshop-editorial {
+    grid-template-columns: 1fr;
+  }
+
+  .workshop-story-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .workshop-editorial-findings,
+  .workshop-story-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* END WORKSHOP EDITORIAL FRONTEND */

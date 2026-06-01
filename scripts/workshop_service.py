@@ -220,7 +220,7 @@ class WorkshopService:
             ),
             "top_terms": horizontal_bar_chart(
                 "Términos recurrentes",
-                self._term_frequency(match_sql, params, top=20),
+                self._term_frequency(match_sql, params, top=20, exclude_terms=req.query),
                 x="count",
                 y="label",
             ),
@@ -234,6 +234,12 @@ class WorkshopService:
         }
         timings["tables_ms"] = round((time.perf_counter() - t_tables) * 1000, 2)
         timings["total_ms"] = round((time.perf_counter() - t0) * 1000, 2)
+
+        editorial = self._build_editorial_layer(
+            query=req.query,
+            summary=summary,
+            charts=charts,
+        )
 
         method = MethodMetadata(
             mode="exact",
@@ -257,6 +263,7 @@ class WorkshopService:
             charts=charts,
             tables=tables,
             method=method,
+            editorial=editorial,
         )
 
 
@@ -403,35 +410,312 @@ class WorkshopService:
             for r in rows
         ]
 
-    def _term_frequency(self, match_sql: str, params: list[Any], top: int = 20) -> list[dict[str, Any]]:
-        col = self.colmap.title_norm or self.colmap.title
-        if not col:
-            return []
 
-        rows = self.conn.execute(
-            f"""
-            WITH matches AS ({match_sql})
-            SELECT {sql_ident(col)} AS title_value
-            FROM matches
-            WHERE {sql_ident(col)} IS NOT NULL
-            LIMIT 5000
-            """,
-            params
-        ).fetchall()
+    def _build_editorial_layer(
+        self,
+        query: str,
+        summary: Any,
+        charts: dict[str, Any],
+    ) -> dict[str, Any]:
+        """Construye una lectura editorial determinística, sin IA.
 
-        freq: dict[str, int] = {}
-        for (title,) in rows:
-            text = normalize_text(str(title or ""))
-            for token in text.split():
-                if len(token) < 4 or token in STOPWORDS_ES:
-                    continue
-                freq[token] = freq.get(token, 0) + 1
+        La idea es que el Taller no sea solo una colección de gráficas,
+        sino un pequeño reporte interpretativo basado en agregaciones.
+        """
 
-        return [
-            {"label": term, "count": count}
-            for term, count in sorted(freq.items(), key=lambda x: (-x[1], x[0]))[:top]
+        def chart_data(key: str) -> list[dict[str, Any]]:
+            chart = charts.get(key)
+            data = getattr(chart, "data", None)
+            if data is None and isinstance(chart, dict):
+                data = chart.get("data")
+            return data or []
+
+        def top_item(key: str) -> dict[str, Any] | None:
+            data = chart_data(key)
+            return data[0] if data else None
+
+        by_year = chart_data("by_year")
+        by_area = chart_data("by_area")
+        by_program = chart_data("by_program")
+        by_degree = chart_data("by_degree")
+        by_plantel = chart_data("by_plantel")
+        by_advisor = chart_data("by_advisor")
+        top_terms = chart_data("top_terms")
+
+        total = getattr(summary, "total_matches", None)
+        first_year = getattr(summary, "first_year", None)
+        last_year = getattr(summary, "last_year", None)
+
+        dominant_area = top_item("by_area")
+        dominant_program = top_item("by_program")
+        dominant_degree = top_item("by_degree")
+        dominant_plantel = top_item("by_plantel")
+        dominant_advisor = top_item("by_advisor")
+
+        peak_year = None
+        if by_year:
+            peak_year = max(
+                by_year,
+                key=lambda row: int(row.get("count") or 0)
+            )
+
+        recent_window = []
+        recent_total = 0
+        recent_share = None
+
+        if by_year:
+            numeric_years = []
+            for row in by_year:
+                try:
+                    numeric_years.append((int(row.get("label")), int(row.get("count") or 0)))
+                except Exception:
+                    pass
+
+            if numeric_years:
+                max_year = max(y for y, _ in numeric_years)
+                recent_window = [
+                    {"label": str(y), "count": c}
+                    for y, c in numeric_years
+                    if y >= max_year - 9
+                ]
+                recent_total = sum(row["count"] for row in recent_window)
+                if total:
+                    recent_share = round(recent_total / total * 100, 1)
+
+        period = "periodo no determinado"
+        if first_year and last_year:
+            period = f"{first_year}–{last_year}"
+
+        dominant_area_label = dominant_area.get("label") if dominant_area else None
+        dominant_program_label = dominant_program.get("label") if dominant_program else None
+        dominant_degree_label = dominant_degree.get("label") if dominant_degree else None
+        dominant_plantel_label = dominant_plantel.get("label") if dominant_plantel else None
+
+        summary_text_parts = [
+            f'La búsqueda “{query}” aparece en {total:,} títulos del acervo analizado.'.replace(",", " "),
+            f"El conjunto cubre {period}.",
         ]
 
+        if peak_year:
+            summary_text_parts.append(
+                f"El año con más menciones es {peak_year.get('label')}, con {peak_year.get('count')} registros."
+            )
+
+        if recent_share is not None:
+            summary_text_parts.append(
+                f"En los últimos diez años del conjunto se concentra aproximadamente {recent_share}% de los resultados."
+            )
+
+        if dominant_program_label:
+            summary_text_parts.append(
+                f"El programa con mayor presencia es {dominant_program_label}."
+            )
+
+        if dominant_area_label:
+            summary_text_parts.append(
+                f"La distribución por área ayuda a leer si el tema está concentrado o circula entre campos disciplinares."
+            )
+
+        findings = []
+
+        findings.append({
+            "label": "Resultados",
+            "value": total,
+            "detail": f"Títulos que contienen la frase consultada en el título limpio.",
+        })
+
+        findings.append({
+            "label": "Periodo",
+            "value": period,
+            "detail": "Rango temporal cubierto por los resultados encontrados.",
+        })
+
+        if peak_year:
+            findings.append({
+                "label": "Pico temporal",
+                "value": peak_year.get("label"),
+                "detail": f"{peak_year.get('count')} tesis encontradas en ese año.",
+            })
+
+        if recent_share is not None:
+            findings.append({
+                "label": "Peso reciente",
+                "value": f"{recent_share}%",
+                "detail": f"{recent_total} resultados en la ventana reciente.",
+            })
+
+        if dominant_area:
+            findings.append({
+                "label": "Área dominante",
+                "value": dominant_area_label,
+                "detail": f"{dominant_area.get('count')} resultados en esta área.",
+            })
+
+        if dominant_program:
+            findings.append({
+                "label": "Programa principal",
+                "value": dominant_program_label,
+                "detail": f"{dominant_program.get('count')} resultados.",
+            })
+
+        if dominant_degree:
+            findings.append({
+                "label": "Nivel principal",
+                "value": dominant_degree_label,
+                "detail": f"{dominant_degree.get('count')} resultados.",
+            })
+
+        if dominant_plantel:
+            findings.append({
+                "label": "Plantel principal",
+                "value": dominant_plantel_label,
+                "detail": f"{dominant_plantel.get('count')} resultados.",
+            })
+
+        story_cards = []
+
+        if by_year:
+            story_cards.append({
+                "title": "Evolución temporal",
+                "body": (
+                    f"El tema aparece a lo largo de {len(by_year)} años con resultados. "
+                    f"El punto más alto se observa en {peak_year.get('label') if peak_year else 'un año no determinado'}."
+                ),
+            })
+
+        if by_area:
+            area_count = len(by_area)
+            story_cards.append({
+                "title": "Distribución disciplinaria",
+                "body": (
+                    f"Los resultados se distribuyen en {area_count} áreas. "
+                    f"La mayor concentración aparece en {dominant_area_label or 'un área no determinada'}, "
+                    "pero la comparación por áreas permite evitar una lectura excesivamente centrada en programas aislados."
+                ),
+            })
+
+        if by_program:
+            story_cards.append({
+                "title": "Programas",
+                "body": (
+                    f"El programa con más resultados es {dominant_program_label}. "
+                    "Esta lectura debe interpretarse junto con el área, porque algunos campos están más fragmentados en varios programas."
+                ),
+            })
+
+        if top_terms:
+            top_labels = ", ".join(row.get("label", "") for row in top_terms[:5])
+            story_cards.append({
+                "title": "Lenguaje asociado",
+                "body": (
+                    f"Después de excluir los términos de la búsqueda, las palabras más frecuentes son: {top_labels}."
+                ),
+            })
+
+        return {
+            "summary": " ".join(summary_text_parts),
+            "findings": findings,
+            "story_cards": story_cards,
+            "dominant_area": dominant_area,
+            "dominant_program": dominant_program,
+            "dominant_degree": dominant_degree,
+            "dominant_plantel": dominant_plantel,
+            "dominant_advisor": dominant_advisor,
+            "peak_year": peak_year,
+            "recent_window": recent_window,
+            "recent_total": recent_total,
+            "recent_share": recent_share,
+        }
+
+
+    def _term_frequency(
+        self,
+        match_sql: str,
+        params: list[Any],
+        top: int = 20,
+        exclude_terms: str | list[str] | None = None,
+    ) -> list[dict[str, Any]]:
+        """Calcula términos recurrentes sobre el título limpio normalizado.
+
+        Excluye dinámicamente los tokens de la consulta.
+        Ejemplo: si el usuario busca "inteligencia artificial",
+        no devuelve "inteligencia" ni "artificial" como términos recurrentes.
+        """
+
+        import re
+        import unicodedata
+        from collections import Counter
+
+        def norm(value: Any) -> str:
+            if value is None:
+                return ""
+            value = str(value)
+            value = unicodedata.normalize("NFKD", value)
+            value = "".join(ch for ch in value if not unicodedata.combining(ch))
+            value = value.lower()
+            value = re.sub(r"[^a-z0-9ñü\s]+", " ", value)
+            value = re.sub(r"\s+", " ", value).strip()
+            return value
+
+        def tokens(value: Any) -> list[str]:
+            return [
+                token
+                for token in norm(value).split()
+                if len(token) >= 3
+            ]
+
+        base_stopwords = {
+            "para", "por", "con", "sin", "del", "las", "los", "una", "uno",
+            "como", "sobre", "entre", "desde", "hasta", "hacia", "contra",
+            "ante", "bajo", "tras", "durante", "mediante", "segun", "según",
+            "este", "esta", "estos", "estas", "ese", "esa", "esos", "esas",
+            "sus", "mas", "más", "menos", "muy", "ser", "son", "fue", "han",
+            "que", "cual", "cuáles", "cuales", "donde", "cuando",
+
+            # Stopwords catalográficas residuales.
+            "tesis", "tesina", "titulo", "título", "grado", "obtener", "optar",
+            "presenta", "presentacion", "presentación", "tutor", "tutora",
+            "asesor", "asesora", "asesores", "director", "directora",
+            "maestro", "maestra", "licenciado", "licenciada", "especialista",
+
+            # Palabras demasiado genéricas para lectura temática.
+            "analisis", "análisis", "estudio", "propuesta", "modelo",
+            "sistema", "sistemas", "caso", "uso",
+        }
+
+        dynamic_stopwords: set[str] = set()
+
+        if isinstance(exclude_terms, str):
+            dynamic_stopwords.update(tokens(exclude_terms))
+        elif isinstance(exclude_terms, list):
+            for item in exclude_terms:
+                dynamic_stopwords.update(tokens(item))
+
+        stopwords = base_stopwords | dynamic_stopwords
+
+        title_col = self.colmap.title_norm or self.colmap.title
+        if not title_col:
+            return []
+
+        safe_col = '"' + title_col.replace('"', '""') + '"'
+
+        rows = self.conn.execute(
+            f"SELECT {safe_col} FROM ({match_sql}) AS matched_titles",
+            params,
+        ).fetchall()
+
+        counter: Counter[str] = Counter()
+
+        for (title_text,) in rows:
+            for token in tokens(title_text):
+                if token in stopwords:
+                    continue
+                counter[token] += 1
+
+        return [
+            {"label": token, "count": count}
+            for token, count in counter.most_common(top)
+        ]
 
 @lru_cache(maxsize=1)
 def get_workshop_service() -> WorkshopService:

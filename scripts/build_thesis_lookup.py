@@ -93,13 +93,68 @@ def clean_title(value: Any) -> str:
     if not text:
         return ""
 
-    # Corta nota catalográfica común para que el Taller muestre títulos limpios.
-    text = re.split(
-        r"\s*/\s*(tesis\s+que\s+para\s+obtener|que\s+para\s+obtener)",
-        text,
-        flags=re.I
-    )[0].strip()
+    # Limpieza mínima: quitar comillas externas.
+    text = text.strip().strip('"').strip("'").strip()
 
+    # Corte quirúrgico:
+    # Solo se corta cuando existe separador catalográfico " / ".
+    # No se borran palabras sueltas como tesis, tutor, presenta, grado, etc.
+    # Si después de " / " viene una fórmula de titulación, conservamos solo
+    # el lado izquierdo, que es el título limpio visible para el usuario.
+    if " / " in text:
+        parts = text.split(" / ")
+        clean_parts = [parts[0].strip()]
+    
+        for part in parts[1:]:
+            low = part.lower().strip()
+    
+            has_degree_formula = (
+                " que para obtener" in low
+                or " que para optar" in low
+                or " que para optar por" in low
+            or " para obtener" in low
+            or " para optar" in low
+            or " para optar por" in low
+            )
+    
+            has_catalog_role = (
+                " presenta " in low
+                or low.startswith("presenta ")
+                or " asesor" in low
+                or " asesora" in low
+                or " asesores" in low
+                or " tutor" in low
+                or " tutora" in low
+                or " director" in low
+                or " directora" in low
+            )
+    
+            starts_like_catalog_type = (
+                low.startswith("tesis ")
+                or low.startswith("tesina ")
+                or low.startswith("tesis teorica ")
+                or low.startswith("tesis teórica ")
+                or low.startswith("tesis por reporte ")
+                or low.startswith("reporte de investigacion ")
+                or low.startswith("reporte de investigación ")
+                or low.startswith("reportaje ")
+                or low.startswith("informe ")
+                or low.startswith("trabajo ")
+                or low.startswith("trabajo escrito ")
+                or low.startswith("memoria ")
+                or low.startswith("seminario-taller ")
+            )
+    
+            # Cortamos solo si el segmento posterior parece ficha catalográfica.
+            if has_degree_formula and (has_catalog_role or starts_like_catalog_type):
+                break
+    
+            # Si no parece ficha catalográfica, preservamos el segmento.
+            clean_parts.append(part.strip())
+    
+        text = " / ".join(p for p in clean_parts if p)
+
+    text = text.strip(" /;:,.").strip()
     return text
 
 
@@ -204,7 +259,8 @@ def main() -> None:
                 title_raw = clean_text(raw_titles[i])
                 title = clean_title(title_raw)
 
-                title_norm = normalize_text(raw_title_norms[i]) if raw_title_norms[i] else normalize_text(title)
+                # Para el Taller, title_norm debe salir del título limpio mostrado al usuario.
+                title_norm = normalize_text(title)
                 if not title_norm:
                     continue
 
