@@ -45,103 +45,121 @@ class LabOrchestrator:
         self._lock = threading.Lock()
         self.strict_scripts = os.getenv("LAB_STRICT_SCRIPTS", "0") == "1"
 
-    # ────────────────────────────────────────────────────────────────────────
-    # PUBLIC API
-    # ────────────────────────────────────────────────────────────────────────
-
-    def run_basic(self, lab_input: dict[str, Any]) -> dict[str, Any]:
+    def run_full(self, lab_input: dict[str, Any]) -> dict[str, Any]:
         """
-        Flujo básico:
-        1. thesis.py/context builder
-        2. conceptual payload
-        3. initial note
-        4. rerank
-        5. bloom
-        6. questions
+        Flujo completo para la UI nueva:
+        1. contexto
+        2. lectura inicial
+        3. tesis afines / rerank
+        4. Bloom
+        5. preguntas
+        6. asesores
 
-        Bibliografía y asesores quedan bajo demanda.
+        No corre bibliografía.
         """
         with self._exclusive():
             project_id = self._new_project_id()
             project_dir = self.projects_dir / project_id
             project_outputs = project_dir / "outputs"
-
             project_outputs.mkdir(parents=True, exist_ok=True)
 
             self._write_json(project_dir / "input.json", lab_input)
-
-            # Exponer input para scripts legacy.
             self._write_json(self.payloads_dir / "input.json", lab_input)
             self._write_json(self.payloads_dir / "lab_input.json", lab_input)
 
             debug: list[StepResult] = []
 
-            # 1. Context builder
-            debug.append(self._run_script("context", "scripts/thesis.py"))
-            self._persist_context(project_dir)
+            debug.extend(self._run_core_analysis(project_dir, project_outputs))
 
-            # 2. Initial note
-            debug.append(self._run_script("conceptual_payload", "payloads/build_conceptual_payload.py"))
-            debug.append(self._run_script("initial_note", "scripts/ai_initial_note.py"))
+            debug.append(self._run_script("advisors_payload", "payloads/build_advisors_payload.py"))
+            debug.append(self._run_script("advisors", "scripts/ai_advisors.py"))
+            debug.append(self._run_script("advisors_hydrate", "scripts/hydrate_advisors_output.py"))
             debug.append(
                 self._normalize_validate_persist(
-                    module="initial_note",
-                    candidates=[
-                        self.outputs_dir / "ai_conceptual_interpretation.json",
-                    ],
-                    destination=project_outputs / "initial_note.json",
-                )
-            )
-
-            # 3. Rerank
-            debug.append(self._run_script("rerank_payload", "payloads/build_rerank_payload.py"))
-            debug.append(self._run_script("rerank", "scripts/ai_rerank.py"))
-            debug.append(
-                self._normalize_validate_persist(
-                    module="rerank",
-                    candidates=[
-                        self.outputs_dir / "ai_rerank_groq_llama.json",
-                    ],
-                    destination=project_outputs / "rerank.json",
-                )
-            )
-
-            # 4. Bloom
-            debug.append(self._run_script("bloom_payload", "payloads/build_bloom_payload.py"))
-            debug.append(self._run_script("bloom", "scripts/ai_bloom.py"))
-            debug.append(
-                self._normalize_validate_persist(
-                    module="bloom",
-                    candidates=[
-                        self.outputs_dir / "ai_bloom_groq_20b.json",
-                    ],
-                    destination=project_outputs / "bloom.json",
-                )
-            )
-
-            # 5. Questions
-            debug.append(self._run_script("questions_payload", "payloads/build_questions_payload.py"))
-            debug.append(self._run_script("questions", "scripts/ai_questions.py"))
-            debug.append(
-                self._normalize_validate_persist(
-                    module="questions",
-                    candidates=[
-                        self.outputs_dir / "ai_questions_groq_20b.json",
-                    ],
-                    destination=project_outputs / "questions.json",
+                    module="advisors",
+                    candidates=[self.outputs_dir / "ai_advisors.json"],
+                    destination=project_outputs / "advisors.json",
                 )
             )
 
             self._write_debug(project_outputs, debug)
-
             return self.consolidate_project(project_id)
+
+    def run_basic(self, lab_input: dict[str, Any]) -> dict[str, Any]:
+        """
+        Flujo parcial legacy:
+        contexto, lectura inicial, rerank, Bloom y preguntas.
+        """
+        with self._exclusive():
+            project_id = self._new_project_id()
+            project_dir = self.projects_dir / project_id
+            project_outputs = project_dir / "outputs"
+            project_outputs.mkdir(parents=True, exist_ok=True)
+
+            self._write_json(project_dir / "input.json", lab_input)
+            self._write_json(self.payloads_dir / "input.json", lab_input)
+            self._write_json(self.payloads_dir / "lab_input.json", lab_input)
+
+            debug = self._run_core_analysis(project_dir, project_outputs)
+
+            self._write_debug(project_outputs, debug)
+            return self.consolidate_project(project_id)
+
+    def _run_core_analysis(
+        self,
+        project_dir: Path,
+        project_outputs: Path,
+    ) -> list[StepResult]:
+        debug: list[StepResult] = []
+
+        debug.append(self._run_script("context", "scripts/thesis.py"))
+        self._persist_context(project_dir)
+
+        debug.append(self._run_script("conceptual_payload", "payloads/build_conceptual_payload.py"))
+        debug.append(self._run_script("initial_note", "scripts/ai_initial_note.py"))
+        debug.append(
+            self._normalize_validate_persist(
+                module="initial_note",
+                candidates=[self.outputs_dir / "ai_conceptual_interpretation.json"],
+                destination=project_outputs / "initial_note.json",
+            )
+        )
+
+        debug.append(self._run_script("rerank_payload", "payloads/build_rerank_payload.py"))
+        debug.append(self._run_script("rerank", "scripts/ai_rerank.py"))
+        debug.append(
+            self._normalize_validate_persist(
+                module="rerank",
+                candidates=[self.outputs_dir / "ai_rerank_groq_llama.json"],
+                destination=project_outputs / "rerank.json",
+            )
+        )
+
+        debug.append(self._run_script("bloom_payload", "payloads/build_bloom_payload.py"))
+        debug.append(self._run_script("bloom", "scripts/ai_bloom.py"))
+        debug.append(
+            self._normalize_validate_persist(
+                module="bloom",
+                candidates=[self.outputs_dir / "ai_bloom_groq_20b.json"],
+                destination=project_outputs / "bloom.json",
+            )
+        )
+
+        debug.append(self._run_script("questions_payload", "payloads/build_questions_payload.py"))
+        debug.append(self._run_script("questions", "scripts/ai_questions.py"))
+        debug.append(
+            self._normalize_validate_persist(
+                module="questions",
+                candidates=[self.outputs_dir / "ai_questions_groq_20b.json"],
+                destination=project_outputs / "questions.json",
+            )
+        )
+
+        return debug
 
     def run_bibliography(self, project_id: str) -> dict[str, Any]:
         """
-        Módulo bajo demanda:
-        bibliografía recomendada.
-
-        Requiere que context_minimal.json tenga bibliography_summaries.
+        Módulo legacy bajo demanda. Ya no forma parte de run_full().
         """
         with self._exclusive():
             project_dir = self._require_project(project_id)
@@ -158,7 +176,7 @@ class LabOrchestrator:
                         "title": "Bibliografía recomendada",
                         "items": [],
                         "coverage_note": "",
-                        "missing_bibliography_warning": "No hay bibliografía disponible para esta muestra."
+                        "missing_bibliography_warning": "No hay bibliografía disponible para esta muestra.",
                     }
                 }
 
@@ -170,7 +188,6 @@ class LabOrchestrator:
                         ok=True,
                         script=None,
                         validation="skipped_no_bibliography_summaries",
-                        error=None,
                         output_file=str(project_outputs / "bibliography.json"),
                     )
                 ])
@@ -181,28 +198,21 @@ class LabOrchestrator:
 
             debug.append(self._run_script("bibliography_payload", "payloads/build_bibliography_payload.py"))
             debug.append(self._run_script("bibliography", "scripts/ai_bibliography.py"))
-
-            # La IA solo ordena bib_id; este paso hidrata title/source_doc_number/source_thesis_title.
             debug.append(self._run_script("bibliography_hydrate", "scripts/hydrate_bibliography_output.py"))
-
             debug.append(
                 self._normalize_validate_persist(
                     module="bibliography",
-                    candidates=[
-                        self.outputs_dir / "ai_bibliography_groq_20b.json",
-                    ],
+                    candidates=[self.outputs_dir / "ai_bibliography_groq_20b.json"],
                     destination=project_outputs / "bibliography.json",
                 )
             )
 
             self._append_debug(project_outputs, debug)
-
             return self.consolidate_project(project_id)
 
     def run_advisors(self, project_id: str) -> dict[str, Any]:
         """
-        Módulo bajo demanda:
-        asesores relacionados.
+        Módulo legacy bajo demanda. run_full() ya lo ejecuta automáticamente.
         """
         with self._exclusive():
             project_dir = self._require_project(project_id)
@@ -214,28 +224,19 @@ class LabOrchestrator:
 
             debug.append(self._run_script("advisors_payload", "payloads/build_advisors_payload.py"))
             debug.append(self._run_script("advisors", "scripts/ai_advisors.py"))
-
-            # La IA solo ordena advisor_id; este paso hidrata nombres/evidencia.
             debug.append(self._run_script("advisors_hydrate", "scripts/hydrate_advisors_output.py"))
-
             debug.append(
                 self._normalize_validate_persist(
                     module="advisors",
-                    candidates=[
-                        self.outputs_dir / "ai_advisors.json",
-                    ],
+                    candidates=[self.outputs_dir / "ai_advisors.json"],
                     destination=project_outputs / "advisors.json",
                 )
             )
 
             self._append_debug(project_outputs, debug)
-
             return self.consolidate_project(project_id)
 
     def consolidate_project(self, project_id: str) -> dict[str, Any]:
-        """
-        Devuelve JSON consolidado listo para frontend.
-        """
         project_dir = self._require_project(project_id)
         out = project_dir / "outputs"
 
@@ -248,15 +249,10 @@ class LabOrchestrator:
                 "rerank": self._safe_read(out / "rerank.json"),
                 "bloom": self._safe_read(out / "bloom.json"),
                 "questions": self._safe_read(out / "questions.json"),
-                "bibliography": self._safe_read(out / "bibliography.json"),
                 "advisors": self._safe_read(out / "advisors.json"),
             },
             "debug": self._safe_read(out / "debug.json") or [],
         }
-
-    # ────────────────────────────────────────────────────────────────────────
-    # LOCK
-    # ────────────────────────────────────────────────────────────────────────
 
     def _exclusive(self):
         orchestrator = self
@@ -266,9 +262,7 @@ class LabOrchestrator:
                 acquired = orchestrator._lock.acquire(blocking=False)
 
                 if not acquired:
-                    raise LabBusyError(
-                        "Ya hay un laboratorio en proceso. Espera a que termine."
-                    )
+                    raise LabBusyError("Ya hay un laboratorio en proceso. Espera a que termine.")
 
                 return self
 
@@ -277,9 +271,29 @@ class LabOrchestrator:
 
         return Guard()
 
-    # ────────────────────────────────────────────────────────────────────────
-    # SCRIPT EXECUTION
-    # ────────────────────────────────────────────────────────────────────────
+
+    def _clean_global_lab_artifacts(self) -> None:
+        """Evita contaminación entre corridas del laboratorio."""
+        relative_paths = [
+            "payloads/query_vector.json",
+            "payloads/context_minimal.json",
+            "payloads/thesis_context_example.json",
+            "payloads/ai_conceptual_payload.json",
+            "payloads/ai_rerank_payload.json",
+            "payloads/ai_bloom_payload.json",
+            "payloads/ai_questions_payload.json",
+            "payloads/ai_advisors_payload.json",
+            "outputs/ai_conceptual_interpretation.json",
+            "outputs/ai_rerank_groq_llama.json",
+            "outputs/ai_bloom_groq_20b.json",
+            "outputs/ai_questions_groq_20b.json",
+            "outputs/ai_advisors.json",
+        ]
+
+        for rel in relative_paths:
+            p = self.base_dir / rel
+            if p.exists():
+                p.unlink()
 
     def _run_script(self, step: str, script_name: str) -> StepResult:
         script = self.base_dir / script_name
@@ -340,10 +354,6 @@ class LabOrchestrator:
                 validation="script_failed",
                 error=f"Script failed with code {exc.returncode}",
             )
-
-    # ────────────────────────────────────────────────────────────────────────
-    # NORMALIZE / VALIDATE / PERSIST
-    # ────────────────────────────────────────────────────────────────────────
 
     def _normalize_validate_persist(
         self,
@@ -436,10 +446,6 @@ class LabOrchestrator:
                 output_file=str(error_path),
             )
 
-    # ────────────────────────────────────────────────────────────────────────
-    # CONTEXT / PROJECT FILES
-    # ────────────────────────────────────────────────────────────────────────
-
     def _persist_context(self, project_dir: Path) -> None:
         self._copy_first_existing(
             [
@@ -450,9 +456,7 @@ class LabOrchestrator:
         )
 
         self._copy_first_existing(
-            [
-                self.payloads_dir / "thesis_context_example.json",
-            ],
+            [self.payloads_dir / "thesis_context_example.json"],
             project_dir / "thesis_context_example.json",
         )
 
@@ -481,10 +485,6 @@ class LabOrchestrator:
             raise FileNotFoundError(f"No existe el proyecto {project_id}")
 
         return project_dir
-
-    # ────────────────────────────────────────────────────────────────────────
-    # FILE HELPERS
-    # ────────────────────────────────────────────────────────────────────────
 
     def _first_existing(self, candidates: list[Path]) -> Path | None:
         for path in candidates:

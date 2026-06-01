@@ -11,12 +11,12 @@
 
   <style>
     :root {
-      --bg: #f7f5ef;
-      --paper: #fffdf8;
-      --ink: #151515;
-      --muted: #6f6b63;
-      --soft: #d9d2c4;
-      --line: #e7e0d4;
+      --bg: #06111F;
+      --paper: #0A1728;
+      --ink: #EAF4FF;
+      --muted: #9FB4CA;
+      --soft: #26384D;
+      --line: rgba(170, 205, 240, 0.16);
       --project: #6B4BB7;
       --halo: rgba(183, 160, 230, 0.28);
     }
@@ -42,7 +42,7 @@
       position: relative;
       overflow: hidden;
       background:
-        radial-gradient(circle at 50% 46%, rgba(255,255,255,0.96) 0%, rgba(250,248,243,0.94) 42%, rgba(242,239,232,1) 100%);
+        radial-gradient(circle at 50% 46%, rgba(18, 45, 78, 0.52) 0%, rgba(8, 22, 39, 0.92) 42%, #06111F 100%);
     }
 
     #sigma-container {
@@ -489,35 +489,7 @@
       --a4-y: 82%;
       --field-radius: 420px;
       background:
-        radial-gradient(circle var(--field-radius) at var(--a1-x) var(--a1-y),
-          rgba(214, 90, 99, 0.135) 0%,
-          rgba(214, 90, 99, 0.105) 35%,
-          rgba(214, 90, 99, 0.070) 58%,
-          rgba(214, 90, 99, 0.040) 75%,
-          rgba(214, 90, 99, 0.012) 91%,
-          transparent 100%),
-        radial-gradient(circle var(--field-radius) at var(--a2-x) var(--a2-y),
-          rgba(83, 169, 120, 0.135) 0%,
-          rgba(83, 169, 120, 0.105) 35%,
-          rgba(83, 169, 120, 0.070) 58%,
-          rgba(83, 169, 120, 0.040) 75%,
-          rgba(83, 169, 120, 0.012) 91%,
-          transparent 100%),
-        radial-gradient(circle var(--field-radius) at var(--a3-x) var(--a3-y),
-          rgba(78, 134, 204, 0.135) 0%,
-          rgba(78, 134, 204, 0.105) 35%,
-          rgba(78, 134, 204, 0.070) 58%,
-          rgba(78, 134, 204, 0.040) 75%,
-          rgba(78, 134, 204, 0.012) 91%,
-          transparent 100%),
-        radial-gradient(circle var(--field-radius) at var(--a4-x) var(--a4-y),
-          rgba(224, 181, 69, 0.135) 0%,
-          rgba(224, 181, 69, 0.105) 35%,
-          rgba(224, 181, 69, 0.070) 58%,
-          rgba(224, 181, 69, 0.040) 75%,
-          rgba(224, 181, 69, 0.012) 91%,
-          transparent 100%),
-        #f7f5ef;
+        radial-gradient(circle at 50% 45%, rgba(18, 45, 78, 0.52) 0%, rgba(8, 22, 39, 0.92) 46%, #06111F 100%);
     }
 
     .discipline-field {
@@ -603,12 +575,12 @@
     }
 
     .area-pole.a1 {
-      --pole-color: #D65A63;
+      --pole-color: #D7ECFF;
       transform: translate(10px, calc(-100% - 10px));
     }
 
     .area-pole.a2 {
-      --pole-color: #53A978;
+      --pole-color: #8CCBFF;
       text-align: right;
       transform: translate(calc(-100% - 10px), calc(-100% - 10px));
     }
@@ -619,13 +591,13 @@
     }
 
     .area-pole.a3 {
-      --pole-color: #4E86CC;
+      --pole-color: #4FA3FF;
       text-align: right;
       transform: translate(calc(-100% - 10px), 10px);
     }
 
     .area-pole.a4 {
-      --pole-color: #E0B545;
+      --pole-color: #2D6BFF;
       transform: translate(10px, 10px);
     }
 
@@ -664,24 +636,14 @@
     }
 
     .blend-legend {
-      position: absolute;
-      left: 28px;
-      bottom: 22px;
-      z-index: 7;
-      display: flex;
-      align-items: center;
-      gap: 9px;
-      padding: 9px 12px;
-      border: 1px solid var(--line);
-      background: rgba(255,253,248,0.84);
-      backdrop-filter: blur(12px);
+      display: none;
     }
 
     .blend-swatch {
       width: 65px;
       height: 8px;
       border-radius: 8px;
-      background: linear-gradient(90deg, #D65A63 0%, #53A978 33%, #4E86CC 67%, #E0B545 100%);
+      background: linear-gradient(90deg, #D7ECFF 0%, #8CCBFF 33%, #4FA3FF 67%, #2D6BFF 100%);
     }
 
     .blend-legend span {
@@ -1080,6 +1042,121 @@
         padding-left: 24px;
         padding-right: 24px;
       }
+    }
+
+
+
+
+    /* dark-blue-explore-v1 */
+    body {
+      background: #06111F;
+      color: #EAF4FF;
+    }
+
+    .main-tabs {
+      border-color: rgba(170, 205, 240, 0.18);
+      background: rgba(4, 13, 25, 0.82);
+      box-shadow: 0 14px 36px rgba(0,0,0,0.32);
+    }
+
+    .tab-btn {
+      color: #9FB4CA;
+    }
+
+    .tab-btn.active,
+    .mode-btn.active {
+      background: #EAF4FF;
+      color: #06111F;
+    }
+
+    .brand,
+    .area-pole strong,
+    .macro-panel h1,
+    aside h1,
+    .thesis-title {
+      color: #EAF4FF;
+    }
+
+    p,
+    .area-pole span,
+    .macro-values,
+    .meta-value,
+    .area-row-head {
+      color: #B9CBE0;
+    }
+
+    .eyebrow,
+    .meta-label,
+    .field-center,
+    .macro-caption p,
+    .macro-hint,
+    .representative-note {
+      color: #8FA8C2;
+    }
+
+    aside,
+    .macro-panel {
+      background: rgba(6, 17, 31, 0.94);
+      border-left: 1px solid rgba(170, 205, 240, 0.16);
+      backdrop-filter: blur(18px);
+    }
+
+    .control,
+    .mode-toggle,
+    .view-action,
+    .drill-btn,
+    .legend-chip,
+    .macro-caption {
+      border-color: rgba(170, 205, 240, 0.18);
+      background: rgba(9, 24, 43, 0.76);
+      color: #C9DBEE;
+      backdrop-filter: blur(14px);
+    }
+
+    .control select,
+    .control input {
+      color: #EAF4FF;
+    }
+
+    .view-action:hover,
+    .drill-btn:hover {
+      background: rgba(18, 45, 78, 0.88);
+    }
+
+    .field-axis {
+      border-color: rgba(190, 220, 250, 0.12);
+    }
+
+    .field-axis::before,
+    .field-axis::after {
+      background: rgba(190, 220, 250, 0.10);
+    }
+
+    .area-composition,
+    .macro-section,
+    .macro-stats,
+    .meta-grid,
+    .drill-actions {
+      border-top-color: rgba(170, 205, 240, 0.16);
+    }
+
+    .area-bar {
+      background: rgba(170, 205, 240, 0.13);
+    }
+
+    .tooltip {
+      border-color: rgba(170, 205, 240, 0.20);
+      background: rgba(6, 17, 31, 0.96);
+      color: #EAF4FF;
+      box-shadow: 0 18px 42px rgba(0,0,0,0.35);
+    }
+
+    .tooltip-title {
+      color: #EAF4FF;
+    }
+
+    .dot {
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.12);
     }
 
 
@@ -1509,8 +1586,8 @@
     };
 
     const WORKSHOP_COLORS = [
-      "#174EA6", "#7A1E3A", "#5A9A7A", "#D08A2E", "#6B4BB7",
-      "#3E7C8B", "#A14D4D", "#76664B", "#4D6A3F", "#B08A00"
+      "#D7ECFF", "#8CCBFF", "#4FA3FF", "#2D6BFF", "#6B7C93",
+      "#BFE3FF", "#74B9FF", "#3C8DFF", "#1B55D9", "#4B6078"
     ];
 
     const WORKSHOP_DEMO = {
@@ -1812,22 +1889,24 @@
     }
 
 
+    const SUBTLE_NODE_BORDER_COLOR = "rgba(18, 18, 18, 0.42)";
+    const SUBTLE_NODE_BORDER_SIZE = 0.35;
+
     const PROJECT_COLOR = "#111111";
     const PROJECT_HALO = "rgba(0, 0, 0, 0)";
 
     const AREA_COLORS = {
-      "Area 1": "#7A1E3A",
-      "Area 2": "#5A9A7A",
-      "Area 3": "#174EA6",
-      "Area 4": "#9A6A8F",
-      "Por Clasificar": "#9a9a9a",
-      "": "#9a9a9a"
+      "Area 1": "#D7ECFF",
+      "Area 2": "#8CCBFF",
+      "Area 3": "#4FA3FF",
+      "Area 4": "#2D6BFF",
+      "Por Clasificar": "#6B7C93"
     };
 
     const PALETTE = [
-      "#174EA6", "#7A1E3A", "#5A9A7A", "#9A6A8F", "#D08A2E",
+      "#174EA6", "#7A1E3A", "#5A9A7A", "#9A6A8F", "#FF5A1F",
       "#6B4BB7", "#3E7C8B", "#A14D4D", "#76664B", "#4D6A3F",
-      "#284B63", "#8C6A5D", "#B08A00", "#706C61"
+      "#284B63", "#8C6A5D", "#64748B", "#706C61"
     ];
 
     const state = {
@@ -1867,11 +1946,11 @@
     const backToMacroMap = document.getElementById("backToMacroMap");
 
     const AREA_FIELD_COLORS = {
-      "Area 1": "#D65A63",
-      "Area 2": "#53A978",
-      "Area 3": "#4E86CC",
-      "Area 4": "#E0B545",
-      "Por Clasificar": "#8B877E"
+      "Area 1": "#D7ECFF",
+      "Area 2": "#8CCBFF",
+      "Area 3": "#4FA3FF",
+      "Area 4": "#2D6BFF",
+      "Por Clasificar": "#6B7C93"
     };
 
     const AREA_FIELD_LABELS = {
@@ -2134,6 +2213,8 @@
           y,
           size: scaledSize,
           color: mixedAreaColor(item),
+          borderColor: SUBTLE_NODE_BORDER_COLOR,
+          borderSize: SUBTLE_NODE_BORDER_SIZE,
           label: layerLabel(item, nodeKind),
           item,
           rank: index,
@@ -2550,28 +2631,25 @@
     }
 
     function mixedAreaColor(item) {
-      let total = 0;
-      let r = 0;
-      let g = 0;
-      let b = 0;
+      // Color plano por área dominante:
+      // toma el área con mayor porcentaje dentro de item.area_mix.
+      const mix = item?.area_mix || {};
+      let bestArea = item?.area || "Por Clasificar";
+      let bestValue = -Infinity;
 
-      for (const area of Object.keys(AREA_FIELD_COLORS)) {
-        const weight = areaShare(item, area);
-        const color = parseFieldColor(AREA_FIELD_COLORS[area]);
-
-        total += weight;
-        r += color.r * weight;
-        g += color.g * weight;
-        b += color.b * weight;
+      for (const area of ["Area 1", "Area 2", "Area 3", "Area 4"]) {
+        const value = Number(mix[area] || 0);
+        if (value > bestValue) {
+          bestValue = value;
+          bestArea = area;
+        }
       }
 
-      if (!total) return "#8B877E";
+      if (!Number.isFinite(bestValue) || bestValue <= 0) {
+        bestArea = item?.area || "Por Clasificar";
+      }
 
-      r = Math.round(r / total);
-      g = Math.round(g / total);
-      b = Math.round(b / total);
-
-      return `rgb(${r}, ${g}, ${b})`;
+      return AREA_FIELD_COLORS[bestArea] || AREA_FIELD_COLORS["Por Clasificar"] || "#8B877E";
     }
 
     function renderAreaComposition(item) {
@@ -2739,6 +2817,8 @@
             size,
             baseSize: size,
             color: mixedAreaColor(item),
+            borderColor: SUBTLE_NODE_BORDER_COLOR,
+            borderSize: SUBTLE_NODE_BORDER_SIZE,
             label: layerLabel(item, "microcluster"),
             item,
             macroclusterId: Number(item.macrocluster_id),
@@ -2758,6 +2838,8 @@
             size,
             baseSize: size,
             color: mixedAreaColor(item),
+            borderColor: SUBTLE_NODE_BORDER_COLOR,
+            borderSize: SUBTLE_NODE_BORDER_SIZE,
             label: shortMacroLabel(item),
             item,
             macroclusterId: Number(item.macrocluster_id),
@@ -2776,6 +2858,12 @@
           maxCameraRatio: 10,
           nodeReducer: (node, data) => {
             const res = { ...data };
+
+          // subtle-node-border-v1
+          if (["macrocluster", "microcluster"].includes(data.nodeKind)) {
+            res.borderColor = data.borderColor || SUBTLE_NODE_BORDER_COLOR;
+            res.borderSize = data.borderSize || SUBTLE_NODE_BORDER_SIZE;
+          }
             const hovered = node === macroHoveredNode;
             const selected = node === macroSelectedNode;
 

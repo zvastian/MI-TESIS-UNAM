@@ -1,0 +1,1752 @@
+{
+  "project_id": "DEV_FIXTURE",
+  "input": {
+    "title": "Analisis del sistema bancario de Mexico y China 1850-2009",
+    "keywords": [
+      "México",
+      "China",
+      "banca",
+      "sistema financiero",
+      "desarrollo económico"
+    ],
+    "objectives": [
+      "Analizar las diferencias entre ambos sistemas bancarios",
+      "Reconocer diferencias en los procesos históricos",
+      "Sugerir mejoras para el sistema bancario mexicano"
+    ],
+    "program": "Economía",
+    "degree": "Licenciatura",
+    "study_period": {
+      "applies": true,
+      "start_year": 1850,
+      "end_year": 2009,
+      "label": "1850-2009"
+    }
+  },
+  "context": {
+    "user_project": {
+      "title": "Analisis del sistema bancario de Mexico y China 1850-2009",
+      "keywords": [
+        "México",
+        "China",
+        "banca",
+        "sistema financiero",
+        "desarrollo económico"
+      ],
+      "objectives": [
+        "Analizar las diferencias entre ambos sistemas bancarios",
+        "Reconocer diferencias en los procesos históricos",
+        "Sugerir mejoras para el sistema bancario mexicano"
+      ],
+      "program": "Economía",
+      "degree": "Licenciatura",
+      "study_period": {
+        "applies": true,
+        "start_year": 1850,
+        "end_year": 2009,
+        "label": "1850-2009"
+      }
+    },
+    "semantic_position": {
+      "main_cluster": {
+        "id": 129,
+        "label": null,
+        "macro_domain": null,
+        "main_area": null
+      },
+      "neighbor_clusters": [],
+      "program_distribution_top50": {
+        "economia": 20,
+        "derecho": 9,
+        "contaduria": 7,
+        "administracion": 5,
+        "actuaria": 3,
+        "ciencias politicas y administracion publica": 3,
+        "finanzas": 1,
+        "relaciones internacionales": 1,
+        "ciencias de la administracion": 1
+      },
+      "degree_distribution_top50": {
+        "Licenciatura": 44,
+        "Maestría": 4,
+        "Doctorado": 2
+      },
+      "area_distribution_top50": {
+        "Area 3": 47,
+        "Area 1": 3
+      }
+    },
+    "keywords_detected": [
+      "banca",
+      "sistema",
+      "financiero",
+      "sistema financiero",
+      "bancario",
+      "reprivatizacion",
+      "banca comercial",
+      "comercial",
+      "reprivatizacion banca",
+      "bancaria",
+      "1994",
+      "sistema bancario",
+      "aspectos",
+      "1990",
+      "desarrollo",
+      "perspectivas",
+      "financiamiento",
+      "economica"
+    ],
+    "temporal_patterns": {
+      "year_min": 1969,
+      "year_max": 2018,
+      "median_year": 2000,
+      "period_distribution_top50": {
+        "2001_2010": 17,
+        "1991_2000": 15,
+        "1981_1990": 8,
+        "2011_2020": 6,
+        "antes_1980": 4
+      },
+      "recent_share_2020_onwards": 0.0,
+      "post_2000_share": 0.52,
+      "historical_depth": "media"
+    },
+    "top_similar_theses": [
+      {
+        "id": "000481285",
+        "thesis_id": "TH_0481285",
+        "doc_number_url": "000840116",
+        "ID_Limpio": "000481285",
+        "ID_Aleph": "000003294",
+        "title": "analisis financiero sobre la perspectiva del sistema bancario mexicano en 2016",
+        "year": 2017,
+        "program": "actuaria",
+        "degree": "Licenciatura",
+        "area": "Area 1",
+        "cluster_id": 129,
+        "similarity": 0.7621
+      },
+      {
+        "id": "000108546",
+        "thesis_id": "TH_0108546",
+        "doc_number_url": "000081857",
+        "ID_Limpio": "000108546",
+        "ID_Aleph": "000000140",
+        "title": "algunos aspectos del sistema bancario en mexico y de las uniones de credito en general",
+        "year": 1971,
+        "program": "contaduria",
+        "degree": "Licenciatura",
+        "area": "Area 3",
+        "cluster_id": 129,
+        "similarity": 0.7572
+      },
+      {
+        "id": "000173645",
+        "thesis_id": "TH_0173645",
+        "doc_number_url": "000005954",
+        "ID_Limpio": "000173645",
+        "ID_Aleph": "000006841",
+        "title": "el arrendamiento financiero y el sistema bancario mexicano",
+        "year": 1984,
+        "program": "contaduria",
+        "degree": "Licenciatura",
+        "area": "Area 3",
+        "cluster_id": 129,
+        "similarity": 0.7328
+      },
+      {
+        "id": "000340229",
+        "thesis_id": "TH_0340229",
+        "doc_number_url": "000618540",
+        "ID_Limpio": "000340229",
+        "ID_Aleph": "000012461",
+        "title": "la banca comercial en mexico 1988 2005 un analisis de indicadores financieros",
+        "year": 2007,
+        "program": "economia",
+        "degree": "Licenciatura",
+        "area": "Area 3",
+        "cluster_id": 129,
+        "similarity": 0.7325
+      },
+      {
+        "id": "000146541",
+        "thesis_id": "TH_0146541",
+        "doc_number_url": "000038198",
+        "ID_Limpio": "000146541",
+        "ID_Aleph": "000005005",
+        "title": "la administracion de las prestaciones en el sistema bancario mexicano",
+        "year": 1979,
+        "program": "administracion",
+        "degree": "Licenciatura",
+        "area": "Area 3",
+        "cluster_id": 129,
+        "similarity": 0.7218
+      },
+      {
+        "id": "000122075",
+        "thesis_id": "TH_0122075",
+        "doc_number_url": "000113708",
+        "ID_Limpio": "000122075",
+        "ID_Aleph": "000001660",
+        "title": "la banca nacional y el desarrollo economico de mexico estructura del sistema financiero mexicano",
+        "year": 1974,
+        "program": "economia",
+        "degree": "Licenciatura",
+        "area": "Area 3",
+        "cluster_id": 129,
+        "similarity": 0.7205
+      },
+      {
+        "id": "000060644",
+        "thesis_id": "TH_0060644",
+        "doc_number_url": "000330939",
+        "ID_Limpio": "000060644",
+        "ID_Aleph": "000009863",
+        "title": "funcionamiento de la banca comercial en mexico durante el periodo 1980 2001",
+        "year": 2004,
+        "program": "economia",
+        "degree": "Licenciatura",
+        "area": "Area 3",
+        "cluster_id": 129,
+        "similarity": 0.7142
+      },
+      {
+        "id": "000348294",
+        "thesis_id": "TH_0348294",
+        "doc_number_url": "000631383",
+        "ID_Limpio": "000348294",
+        "ID_Aleph": "000006808",
+        "title": "analisis comparativo de las comisiones bancarias mexico espana el estudio de banco bilbao vizcaya argentaria bbva",
+        "year": 2008,
+        "program": "finanzas",
+        "degree": "Maestría",
+        "area": "Area 3",
+        "cluster_id": 129,
+        "similarity": 0.7088
+      },
+      {
+        "id": "000366161",
+        "thesis_id": "TH_0366161",
+        "doc_number_url": "000640331",
+        "ID_Limpio": "000366161",
+        "ID_Aleph": "000011196",
+        "title": "desregulacion financiera y desintermediacion bancaria en mexico 1988 2007",
+        "year": 2009,
+        "program": "economia",
+        "degree": "Maestría",
+        "area": "Area 3",
+        "cluster_id": 129,
+        "similarity": 0.7028
+      },
+      {
+        "id": "000493583",
+        "thesis_id": "TH_0493583",
+        "doc_number_url": "000770333",
+        "ID_Limpio": "000493583",
+        "ID_Aleph": "000001306",
+        "title": "mexico privatizacion y extranjerizacion de la banca multiple y sus efectos sobre el margen financiero y otorgamiento de creditos a la actividad productiva 1991 2016",
+        "year": 2018,
+        "program": "economia",
+        "degree": "Licenciatura",
+        "area": "Area 3",
+        "cluster_id": 129,
+        "similarity": 0.702
+      }
+    ],
+    "inferred_atlas_position": {
+      "available": true,
+      "method": "weighted_votes_from_top_similar_theses",
+      "weighting": "similarity^2",
+      "macrocluster_id": 0,
+      "microcluster_id": 129,
+      "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+      "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+      "confidence": 0.9613,
+      "confidence_label": "clara",
+      "interpretation": "El proyecto cae con claridad en un territorio semántico del Atlas.",
+      "evidence_count": 50,
+      "matched_thesis_count": 50,
+      "unmatched_thesis_count": 0,
+      "top_microclusters": [
+        {
+          "microcluster_id": 129,
+          "score": 0.9613,
+          "raw_score": 22.264919,
+          "thesis_count": 48,
+          "macrocluster_id": 0,
+          "label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO"
+        },
+        {
+          "microcluster_id": -1,
+          "score": 0.0198,
+          "raw_score": 0.457951,
+          "thesis_count": 1,
+          "macrocluster_id": -1
+        },
+        {
+          "microcluster_id": 148,
+          "score": 0.0189,
+          "raw_score": 0.437193,
+          "thesis_count": 1,
+          "macrocluster_id": 0,
+          "label": "MEXICO · MEXICANA · ECONOMICA · ESTADO"
+        }
+      ],
+      "top_macroclusters": [
+        {
+          "macrocluster_id": 0,
+          "score": 0.9802,
+          "raw_score": 22.702111,
+          "thesis_count": 49,
+          "label": "MEXICO · MEXICANO · ESTADO · MEXICANA"
+        },
+        {
+          "macrocluster_id": -1,
+          "score": 0.0198,
+          "raw_score": 0.457951,
+          "thesis_count": 1,
+          "label": "NO ASIGNADO"
+        }
+      ],
+      "evidence": [
+        {
+          "thesis_id": "TH_0481285",
+          "doc_number_url": "000840116",
+          "title": "analisis financiero sobre la perspectiva del sistema bancario mexicano en 2016",
+          "similarity": 0.7621,
+          "weight": 0.580836,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4814560413360596,
+          "atlas_y": 3.2107086181640625,
+          "area": "Area 1",
+          "program": "actuaria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de ciencias unam",
+          "year": 2017,
+          "period": "2011-2020"
+        },
+        {
+          "thesis_id": "TH_0108546",
+          "doc_number_url": "000081857",
+          "title": "algunos aspectos del sistema bancario en mexico y de las uniones de credito en general",
+          "similarity": 0.7572,
+          "weight": 0.573303,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.3996608257293701,
+          "atlas_y": 3.1875195503234863,
+          "area": "Area 3",
+          "program": "contaduria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de contaduria y administracion unam",
+          "year": 1971,
+          "period": "Antes de 1980"
+        },
+        {
+          "thesis_id": "TH_0173645",
+          "doc_number_url": "000005954",
+          "title": "el arrendamiento financiero y el sistema bancario mexicano",
+          "similarity": 0.7328,
+          "weight": 0.537059,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4281007051467896,
+          "atlas_y": 3.182546854019165,
+          "area": "Area 3",
+          "program": "contaduria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de contaduria y administracion unam",
+          "year": 1984,
+          "period": "1981-1990"
+        },
+        {
+          "thesis_id": "TH_0340229",
+          "doc_number_url": "000618540",
+          "title": "la banca comercial en mexico 1988 2005 un analisis de indicadores financieros",
+          "similarity": 0.7325,
+          "weight": 0.536597,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4350389242172241,
+          "atlas_y": 3.1458423137664795,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de estudios superiores acatlan unam",
+          "year": 2007,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0146541",
+          "doc_number_url": "000038198",
+          "title": "la administracion de las prestaciones en el sistema bancario mexicano",
+          "similarity": 0.7218,
+          "weight": 0.521006,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4730396270751953,
+          "atlas_y": 3.2166335582733154,
+          "area": "Area 3",
+          "program": "administracion",
+          "degree": "Licenciatura",
+          "plantel": "facultad de contaduria y administracion unam",
+          "year": 1979,
+          "period": "Antes de 1980"
+        },
+        {
+          "thesis_id": "TH_0122075",
+          "doc_number_url": "000113708",
+          "title": "la banca nacional y el desarrollo economico de mexico estructura del sistema financiero mexicano",
+          "similarity": 0.7205,
+          "weight": 0.519168,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4168084859848022,
+          "atlas_y": 3.18042254447937,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 1974,
+          "period": "Antes de 1980"
+        },
+        {
+          "thesis_id": "TH_0060644",
+          "doc_number_url": "000330939",
+          "title": "funcionamiento de la banca comercial en mexico durante el periodo 1980 2001",
+          "similarity": 0.7142,
+          "weight": 0.510076,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4079320430755615,
+          "atlas_y": 3.1799569129943848,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 2004,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0348294",
+          "doc_number_url": "000631383",
+          "title": "analisis comparativo de las comisiones bancarias mexico espana el estudio de banco bilbao vizcaya argentaria bbva",
+          "similarity": 0.7088,
+          "weight": 0.502447,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4323818683624268,
+          "atlas_y": 3.182929277420044,
+          "area": "Area 3",
+          "program": "finanzas",
+          "degree": "Maestría",
+          "plantel": "facultad de contaduria y administracion unam",
+          "year": 2008,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0366161",
+          "doc_number_url": "000640331",
+          "title": "desregulacion financiera y desintermediacion bancaria en mexico 1988 2007",
+          "similarity": 0.7028,
+          "weight": 0.493954,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4736284017562866,
+          "atlas_y": 3.157991409301758,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Maestría",
+          "plantel": "facultad de estudios superiores aragon unam",
+          "year": 2009,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0493583",
+          "doc_number_url": "000770333",
+          "title": "mexico privatizacion y extranjerizacion de la banca multiple y sus efectos sobre el margen financiero y otorgamiento de creditos a la actividad productiva 1991 2016",
+          "similarity": 0.702,
+          "weight": 0.492858,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.462788462638855,
+          "atlas_y": 3.1269938945770264,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de estudios superiores aragon unam",
+          "year": 2018,
+          "period": "2011-2020"
+        },
+        {
+          "thesis_id": "TH_0308063",
+          "doc_number_url": "000341883",
+          "title": "fusion e inovacion de la banca comercial en mexico caso bancomer",
+          "similarity": 0.6984,
+          "weight": 0.487776,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4238234758377075,
+          "atlas_y": 3.1253182888031006,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 2005,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0059693",
+          "doc_number_url": "000336215",
+          "title": "la evaluacion de doce anos de banca privada en mexico 1990 2001",
+          "similarity": 0.6979,
+          "weight": 0.487132,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.421615719795227,
+          "atlas_y": 3.1515800952911377,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 2004,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0337602",
+          "doc_number_url": "000619580",
+          "title": "sistema de monitoreo para instituciones bancarias en mexico en el periodo de septiembre de 1998 a marzo de 1999",
+          "similarity": 0.6978,
+          "weight": 0.486943,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4196745157241821,
+          "atlas_y": 3.1819119453430176,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 2007,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0007870",
+          "doc_number_url": "000279323",
+          "title": "el poder politico de los banqueros en el estado mexicano el caso de la nacionalizacion y privatizacion de la banca 1982 1994",
+          "similarity": 0.6977,
+          "weight": 0.486851,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4014630317687988,
+          "atlas_y": 3.1547417640686035,
+          "area": "Area 3",
+          "program": "ciencias politicas y administracion publica",
+          "degree": "Licenciatura",
+          "plantel": "facultad de estudios superiores acatlan unam",
+          "year": 2000,
+          "period": "1991-2000"
+        },
+        {
+          "thesis_id": "TH_0165858",
+          "doc_number_url": "000010856",
+          "title": "el sistema monetario y financiero mexicano bajo una perspectiva historica el porfiriato",
+          "similarity": 0.6957,
+          "weight": 0.484054,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4207218885421753,
+          "atlas_y": 3.190443515777588,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 1983,
+          "period": "1981-1990"
+        },
+        {
+          "thesis_id": "TH_0259203",
+          "doc_number_url": "000241347",
+          "title": "aspectos relevantes del sistema financiero mexicano",
+          "similarity": 0.6951,
+          "weight": 0.483163,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4169244766235352,
+          "atlas_y": 3.193695306777954,
+          "area": "Area 1",
+          "program": "actuaria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de ciencias unam",
+          "year": 1996,
+          "period": "1991-2000"
+        },
+        {
+          "thesis_id": "TH_0267598",
+          "doc_number_url": "000249134",
+          "title": "estructura del sistema financiero mexicano",
+          "similarity": 0.6937,
+          "weight": 0.481174,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4155806303024292,
+          "atlas_y": 3.197727680206299,
+          "area": "Area 3",
+          "program": "contaduria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de contaduria y administracion unam",
+          "year": 1997,
+          "period": "1991-2000"
+        },
+        {
+          "thesis_id": "TH_0425900",
+          "doc_number_url": "000704857",
+          "title": "evaluacion y perspectivas de la expansion de la banca extranjera en mexico 1994 2006",
+          "similarity": 0.6918,
+          "weight": 0.478557,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4213436841964722,
+          "atlas_y": 3.127311944961548,
+          "area": "Area 3",
+          "program": "relaciones internacionales",
+          "degree": "Licenciatura",
+          "plantel": "facultad de estudios superiores aragon unam",
+          "year": 2013,
+          "period": "2011-2020"
+        },
+        {
+          "thesis_id": "TH_0254769",
+          "doc_number_url": "000230584",
+          "title": "la reprivatizacion bancaria en mexico 1990 1994",
+          "similarity": 0.6872,
+          "weight": 0.472293,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.3915953636169434,
+          "atlas_y": 3.1932806968688965,
+          "area": "Area 1",
+          "program": "actuaria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de ciencias unam",
+          "year": 1995,
+          "period": "1991-2000"
+        },
+        {
+          "thesis_id": "TH_0251607",
+          "doc_number_url": "000223622",
+          "title": "la reprivatizacion de la banca en mexico",
+          "similarity": 0.6827,
+          "weight": 0.466082,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4298146963119507,
+          "atlas_y": 3.175452470779419,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de estudios superiores aragon unam",
+          "year": 1995,
+          "period": "1991-2000"
+        }
+      ],
+      "unmatched": []
+    },
+    "bloom": {
+      "objectives": [
+        "Analizar las diferencias entre ambos sistemas bancarios",
+        "Reconocer diferencias en los procesos históricos",
+        "Sugerir mejoras para el sistema bancario mexicano"
+      ],
+      "detected_verbs": [
+        {
+          "objective_index": 0,
+          "objective": "Analizar las diferencias entre ambos sistemas bancarios",
+          "verb": "analizar",
+          "bloom_level": "analizar"
+        },
+        {
+          "objective_index": 1,
+          "objective": "Reconocer diferencias en los procesos históricos",
+          "verb": "reconocer",
+          "bloom_level": "recordar"
+        },
+        {
+          "objective_index": 2,
+          "objective": "Sugerir mejoras para el sistema bancario mexicano",
+          "verb": "sugerir",
+          "bloom_level": "crear"
+        }
+      ],
+      "counts_by_level": {
+        "recordar": 1,
+        "comprender": 0,
+        "aplicar": 0,
+        "analizar": 1,
+        "evaluar": 0,
+        "crear": 1
+      },
+      "dominant_levels": [
+        "recordar",
+        "analizar",
+        "crear"
+      ],
+      "missing_levels": [
+        "comprender",
+        "aplicar",
+        "evaluar"
+      ]
+    },
+    "advisor_evidence": [
+      {
+        "advisor_name": "Ortiz Palacios, Luis Ángel",
+        "related_thesis_count_top50": 2,
+        "global_advised_count_sample": 3,
+        "global_main_cluster_count_sample": 2,
+        "last_year": 2009,
+        "main_cluster_last_year": 2009,
+        "programs": [
+          "economia"
+        ],
+        "representative_titles": [
+          "la banca comercial en mexico 1988 2005 un analisis de indicadores financieros",
+          "desregulacion financiera y desintermediacion bancaria en mexico 1988 2007"
+        ]
+      },
+      {
+        "advisor_name": "Córdoba Kuthy, Alfredo",
+        "related_thesis_count_top50": 2,
+        "global_advised_count_sample": 29,
+        "global_main_cluster_count_sample": 5,
+        "last_year": 2007,
+        "main_cluster_last_year": 2007,
+        "programs": [
+          "economia"
+        ],
+        "representative_titles": [
+          "fusion e inovacion de la banca comercial en mexico caso bancomer",
+          "sistema de monitoreo para instituciones bancarias en mexico en el periodo de septiembre de 1998 a marzo de 1999"
+        ]
+      },
+      {
+        "advisor_name": "Valdés Michell, Maria Aurora",
+        "related_thesis_count_top50": 2,
+        "global_advised_count_sample": 17,
+        "global_main_cluster_count_sample": 3,
+        "last_year": 1996,
+        "main_cluster_last_year": 2001,
+        "programs": [
+          "actuaria"
+        ],
+        "representative_titles": [
+          "aspectos relevantes del sistema financiero mexicano",
+          "la reprivatizacion bancaria en mexico 1990 1994"
+        ]
+      },
+      {
+        "advisor_name": "Pérez Pérez, Alma Antonieta",
+        "related_thesis_count_top50": 1,
+        "global_advised_count_sample": 1,
+        "global_main_cluster_count_sample": 1,
+        "last_year": 2017,
+        "main_cluster_last_year": 2017,
+        "programs": [
+          "actuaria"
+        ],
+        "representative_titles": [
+          "analisis financiero sobre la perspectiva del sistema bancario mexicano en 2016"
+        ]
+      },
+      {
+        "advisor_name": "Herrera Vargas, Roberto",
+        "related_thesis_count_top50": 1,
+        "global_advised_count_sample": 13,
+        "global_main_cluster_count_sample": 1,
+        "last_year": 1971,
+        "main_cluster_last_year": 1971,
+        "programs": [
+          "contaduria"
+        ],
+        "representative_titles": [
+          "algunos aspectos del sistema bancario en mexico y de las uniones de credito en general"
+        ]
+      }
+    ],
+    "bibliography_status": {
+      "searched_top_n": 50,
+      "matched_exact_titles": 10,
+      "max_records": 10,
+      "max_titles_per_source": 15,
+      "match_policy": "exact_title_top50_internal",
+      "id_policy": "ID_Limpio is not used for bibliography matching"
+    },
+    "bibliography_summaries": [
+      {
+        "source_thesis_title": "la banca comercial en mexico 1988 2005 un analisis de indicadores financieros",
+        "source_similarity": 0.7325,
+        "bibliography_doc_number": "000618540",
+        "match_type": "exact_title",
+        "bibliography_thesis_title": "la banca comercial en mexico (1988-2005) : un análisis de indicadores financieros",
+        "bibliography_year": 2007,
+        "bibliography_program": "economia",
+        "titles": [
+          "Osuna, Germán, “Modelo de Proyecciones financieras de un banco”, Escuela Bancaria Comercial, tesis de licenciatura en contaduría pública, México 1997",
+          "El impacto de la liberación financiera sobre el ahorro privado en México 1980-1998",
+          "Modelo de Proyecciones financieras de un banco",
+          "La administración de riesgos financieros en la Banca",
+          "El proceso de concentración de la banca comercial en México",
+          "Sobre la globalización de los servicios financieros",
+          "La política monetaria y el financiamiento a la inversión en México",
+          "La paradoja neoliberal en México: Márgenes financieros y baja propensión al ahorro"
+        ]
+      },
+      {
+        "source_thesis_title": "funcionamiento de la banca comercial en mexico durante el periodo 1980 2001",
+        "source_similarity": 0.7142,
+        "bibliography_doc_number": "000330939",
+        "match_type": "exact_title",
+        "bibliography_thesis_title": "funcionamiento de la banca comercial en mexico durante el periodo 1980-2001",
+        "bibliography_year": 2004,
+        "bibliography_program": "economia",
+        "titles": [
+          "Banco Nacional de México SNC (1984-1987), \"ESTADISTlCAS DEL DEPARTAMENTO DE ESTUDIOS ECONOMICOS\"",
+          "Opalín, León \"DESAFIOS PARA LA BANCA COMERCIAL\",en Ejecutivos de Finanzas, núm",
+          "Cooperación para el desarrollo (1995), Washington, DC",
+          "DE DESARROLLO 1988-1994\", Gobierno Federal, México,1988",
+          "ESTADISTlCAS DEL DEPARTAMENTO DE ESTUDIOS ECONOMICOS",
+          "Cooperación para el desarrollo (1995), Washington, DC 16",
+          "Bendesky, León, \"LIBERACiÓN FINANCIERA EN CHILE, COREA Y ESPAÑA: EXPERIENCIAS UTILES PARA MEXICO\", Instituto Mexicano de Ejetutivos de Finanzas, México,1991.-Channon, Derek",
+          "EL SISTEMA FINANCIERO EN MEXICO A PRINCIPIOS DE LOS NOVENTA: CRISIS DE UNA REFORMA CONTRADICTORIA"
+        ]
+      },
+      {
+        "source_thesis_title": "mexico privatizacion y extranjerizacion de la banca multiple y sus efectos sobre el margen financiero y otorgamiento de creditos a la actividad productiva 1991 2016",
+        "source_similarity": 0.702,
+        "bibliography_doc_number": "000770333",
+        "match_type": "exact_title",
+        "bibliography_thesis_title": "méxico : privatización y extranjerización de la banca múltiple y sus efectos sobre el margen financiero y otorgamiento de créditos a la actividad productiva, 1991-2016",
+        "bibliography_year": 2018,
+        "bibliography_program": "economia",
+        "titles": [
+          "Econometría Financie ra: Modelos y Pronósticos utilizando QMS E V iews",
+          "México los bancos que perdimos: De la desregulación a la extranjerización del sistema financiero",
+          "Cincuenta años de políticas financieras para el desarrollo en",
+          "6 gráficas para entender causas y efectos del ‘’error de diciembre’’",
+          "Cincuenta años de políticas financieras para el desarrollo en 16",
+          "Unidad 3: Modelos ARIMA: Breve descripción teórica de los procedimientos de detección de raíces unitarias",
+          "Teoría General de la Ocupación, el interés y el dinero",
+          "Tratado del Dinero: Teoría pura y aplicada del dinero"
+        ]
+      },
+      {
+        "source_thesis_title": "la evaluacion de doce anos de banca privada en mexico 1990 2001",
+        "source_similarity": 0.6979,
+        "bibliography_doc_number": "000336215",
+        "match_type": "exact_title",
+        "bibliography_thesis_title": "la evaluacion de doce años de banca privada en mexico 1990-2001",
+        "bibliography_year": 2004,
+        "bibliography_program": "economia",
+        "titles": [
+          "E.I Modelo neoiberal me'ldcano, coatoa, vulnerabilidad, attematlvn",
+          "México hacia el siglo XXI: Crisis y modelo económico alematiw",
+          "Era, 1996; y Jolé Lula Cat.., El Modelo neoliberal mexicano",
+          "UNAM, FE, DMlión De Eatudioade Poegrado,",
+          "La e.nea Meldcana en transicio6n reto. y per.pec:tlYa",
+          "Asoclaci6n Me:icicana de Banquero.., \" La e.nea Meldcana en transicio6n reto",
+          "El camino mexicano de 11 transformación económíca",
+          "de la london School of Economlca"
+        ]
+      },
+      {
+        "source_thesis_title": "sistema de monitoreo para instituciones bancarias en mexico en el periodo de septiembre de 1998 a marzo de 1999",
+        "source_similarity": 0.6978,
+        "bibliography_doc_number": "000619580",
+        "match_type": "exact_title",
+        "bibliography_thesis_title": "sistema de monitoreo para instituciones bancarias en mexico en el periodo de septiembre de 1998 a marzo de 1999",
+        "bibliography_year": 2007,
+        "bibliography_program": "economia",
+        "titles": [
+          "Mansell, Catherine, “L AS F INANZAS P OPULARES EN M ÉXICO ”, El Redescubrimiento de un Sistema Financiero Olvidado, Centro de Estudios Monetarios Latinoamericanos",
+          "E L S ISTEMA F INANCIERO EN M ÉXICO",
+          "B OLETINES ESTADÍSTICOS MENSUALES DE LA B ANCA M ÚLTIPLE",
+          "A NÁLISIS M ULTIVARIADO DEL M ERCADO A SEGURADOR M EXICANO",
+          "FIMS: A N EW M ONITORING S YSTEM FOR B ANKING F AILURE",
+          "L AS F INANZAS P OPULARES EN M ÉXICO",
+          "R IESGO DE CRÉDITO EN M ÉXICO: EL ENFOQUE DE PORTAFOLIO",
+          "Comisión Nacional de Seguros y Finanzas"
+        ]
+      }
+    ],
+    "novelty_signals": {
+      "cluster_pull": [
+        {
+          "cluster_id": 129,
+          "label": null,
+          "macro_domain": null,
+          "pull": 0.96
+        },
+        {
+          "cluster_id": 148,
+          "label": null,
+          "macro_domain": null,
+          "pull": 0.02
+        }
+      ],
+      "main_cluster_pull": 0.96,
+      "top50_cluster_diversity": 2,
+      "interpretation_hint": "zona_central"
+    },
+    "bridge_clusters": []
+  },
+  "results": {
+    "initial_note": {
+      "output": {
+        "initial_note": {
+          "title": "Comprendí tu tesis así",
+          "intro": "He revisado la información que proporcionaste y he tratado de captar los ejes centrales de tu proyecto. A continuación, expongo cómo entiendo la lógica que lo sostiene.",
+          "central_problem": "¿En qué medida las diferencias estructurales e históricas entre los sistemas bancarios de México y China han condicionado sus trayectorias de desarrollo económico entre 1850 y 2009?",
+          "main_objects": [
+            "sistema bancario mexicano",
+            "sistema bancario chino",
+            "desarrollo económico nacional",
+            "procesos históricos institucionales",
+            "políticas financieras"
+          ],
+          "interpretive_angle": "comparativo histórico‑institucional",
+          "scope": {
+            "temporal": "1850‑2009 (periodo amplio que requiere precisar sub‑intervalos para cada país)",
+            "geographic": "México y China",
+            "disciplinary": "Economía (con enfoque en historia económica y finanzas)"
+          },
+          "possible_contribution": "Una visión comparada que identifique qué rasgos institucionales y de política bancaria favorecieron o limitaron el crecimiento económico en ambos países, ofreciendo lecciones potenciales para la reforma del sistema bancario mexicano.",
+          "cautions": [
+            "El rango temporal es extenso; será necesario delimitar etapas históricas coherentes para cada país.",
+            "Los datos disponibles para China en la primera mitad del siglo XIX pueden ser escasos o de calidad variable.",
+            "Existe riesgo de centrar el análisis en México y relegar a China a un papel meramente ilustrativo.",
+            "Definir criterios de comparación claros (e.g., indicadores financieros, marco regulatorio) es esencial para evitar generalizaciones excesivas."
+          ]
+        }
+      },
+      "validation": {
+        "valid": true,
+        "message": "ok"
+      },
+      "token_usage": {
+        "provider": "cerebras",
+        "model": "gpt-oss-120b",
+        "prompt_tokens": 2096,
+        "completion_tokens": 540,
+        "total_tokens": 2636,
+        "estimated_cost_usd_uncached": 0.0,
+        "latency_s": 1.036
+      },
+      "meta": {
+        "provider": "cerebras",
+        "used_model": "gpt-oss-120b"
+      }
+    },
+    "bloom": {
+      "output": {
+        "bloom_analysis": {
+          "title": "Análisis cognitivo de tus objetivos",
+          "cognitive_profile": "Los objetivos comienzan con un análisis comparativo, saltan a la memorización de procesos históricos y culminan en una propuesta creativa sin evaluar la viabilidad ni la calidad de las mejoras.",
+          "main_risk": "La ausencia de una etapa de evaluación impide validar la pertinencia de las mejoras sugeridas.",
+          "objective_ladder": [
+            {
+              "original_objective": "Analizar las diferencias entre ambos sistemas bancarios",
+              "detected_level": "Analizar",
+              "diagnosis": "Buen nivel de análisis, pero carece de una referencia clara a criterios comparativos.",
+              "improvement": "Especificar los criterios y métricas de comparación para orientar el análisis."
+            },
+            {
+              "original_objective": "Reconocer diferencias en los procesos históricos",
+              "detected_level": "Recordar",
+              "diagnosis": "El verbo indica memorización, sin profundizar en la comprensión de causas y efectos.",
+              "improvement": "Reformular como comprender las causas y consecuencias de los procesos históricos."
+            },
+            {
+              "original_objective": "Sugerir mejoras para el sistema bancario mexicano",
+              "detected_level": "Crear",
+              "diagnosis": "Promesa creativa sin previo paso de evaluación, lo que dificulta la sustentabilidad de las propuestas.",
+              "improvement": "Añadir un objetivo de evaluar la viabilidad y el impacto de las mejoras propuestas."
+            }
+          ],
+          "missing_cognitive_step": "Falta una etapa de Evaluar que conecte el análisis con la creación de mejoras, asegurando que las propuestas estén fundamentadas y sean factibles.",
+          "revised_objectives": [
+            "Comprender las causas y efectos de los procesos históricos que moldearon los sistemas bancarios de México y China entre 1850 y 2009.",
+            "Analizar las diferencias clave entre ambos sistemas bancarios utilizando criterios comparativos definidos.",
+            "Evaluar la viabilidad y el impacto potencial de las mejoras propuestas para el sistema bancario mexicano.",
+            "Proponer mejoras sustentables y factibles para el sistema bancario mexicano basadas en los hallazgos de análisis y evaluación."
+          ],
+          "final_note": "Asegúrate de que cada objetivo avance lógicamente y que la evaluación sea rigurosa antes de diseñar las mejoras."
+        }
+      },
+      "validation": {
+        "valid": true,
+        "message": "ok"
+      },
+      "token_usage": {
+        "model": "openai/gpt-oss-20b",
+        "prompt_tokens": 1240,
+        "completion_tokens": 459,
+        "total_tokens": 1699,
+        "finish_reason": "stop",
+        "estimated_cost_usd_uncached": 0.0002307,
+        "attempt": 1
+      },
+      "meta": {
+        "used_model": "openai/gpt-oss-20b",
+        "primary_model": "openai/gpt-oss-20b",
+        "fallback_models": [
+          "llama-3.3-70b-versatile",
+          "llama-3.1-8b-instant"
+        ]
+      }
+    },
+    "questions": {},
+    "advisors": {
+      "output": {
+        "advisor_recommendations": {
+          "title": "Asesores relacionados con tu tema",
+          "ordered_advisor_ids": [
+            "A02",
+            "A01",
+            "A03",
+            "A04",
+            "A05"
+          ],
+          "disclaimer": "Las sugerencias de asesores se basan en tesis históricas del acervo y no indican disponibilidad actual.",
+          "items": [
+            {
+              "rank": 1,
+              "advisor_id": "A02",
+              "advisor_name": "Córdoba Kuthy, Alfredo",
+              "related_thesis_count": 2,
+              "global_advised_count_sample": 29,
+              "global_main_cluster_count_sample": 5,
+              "last_year": 2007,
+              "main_cluster_last_year": 2007,
+              "programs": [
+                "economia"
+              ],
+              "level_counts": {
+                "Licenciatura": 29
+              },
+              "main_cluster_level_counts": {
+                "Licenciatura": 5
+              },
+              "representative_titles": [
+                "fusion e inovacion de la banca comercial en mexico caso bancomer",
+                "sistema de monitoreo para instituciones bancarias en mexico en el periodo de septiembre de 1998 a marzo de 1999"
+              ],
+              "representative_theses": [
+                {
+                  "id": "000308063",
+                  "thesis_id": "TH_0308063",
+                  "doc_number_url": "000341883",
+                  "title": "fusion e inovacion de la banca comercial en mexico caso bancomer",
+                  "year": 2005,
+                  "program": "economia",
+                  "degree": "Licenciatura",
+                  "area": "Area 3",
+                  "plantel": "facultad de economia unam",
+                  "cluster_id": 129,
+                  "similarity": 0.6984
+                },
+                {
+                  "id": "000337602",
+                  "thesis_id": "TH_0337602",
+                  "doc_number_url": "000619580",
+                  "title": "sistema de monitoreo para instituciones bancarias en mexico en el periodo de septiembre de 1998 a marzo de 1999",
+                  "year": 2007,
+                  "program": "economia",
+                  "degree": "Licenciatura",
+                  "area": "Area 3",
+                  "plantel": "facultad de economia unam",
+                  "cluster_id": 129,
+                  "similarity": 0.6978
+                }
+              ]
+            },
+            {
+              "rank": 2,
+              "advisor_id": "A01",
+              "advisor_name": "Ortiz Palacios, Luis Ángel",
+              "related_thesis_count": 2,
+              "global_advised_count_sample": 3,
+              "global_main_cluster_count_sample": 2,
+              "last_year": 2009,
+              "main_cluster_last_year": 2009,
+              "programs": [
+                "economia"
+              ],
+              "level_counts": {
+                "Maestría": 2,
+                "Licenciatura": 1
+              },
+              "main_cluster_level_counts": {
+                "Licenciatura": 1,
+                "Maestría": 1
+              },
+              "representative_titles": [
+                "la banca comercial en mexico 1988 2005 un analisis de indicadores financieros",
+                "desregulacion financiera y desintermediacion bancaria en mexico 1988 2007"
+              ],
+              "representative_theses": [
+                {
+                  "id": "000340229",
+                  "thesis_id": "TH_0340229",
+                  "doc_number_url": "000618540",
+                  "title": "la banca comercial en mexico 1988 2005 un analisis de indicadores financieros",
+                  "year": 2007,
+                  "program": "economia",
+                  "degree": "Licenciatura",
+                  "area": "Area 3",
+                  "plantel": "facultad de estudios superiores acatlan unam",
+                  "cluster_id": 129,
+                  "similarity": 0.7325
+                },
+                {
+                  "id": "000366161",
+                  "thesis_id": "TH_0366161",
+                  "doc_number_url": "000640331",
+                  "title": "desregulacion financiera y desintermediacion bancaria en mexico 1988 2007",
+                  "year": 2009,
+                  "program": "economia",
+                  "degree": "Maestría",
+                  "area": "Area 3",
+                  "plantel": "facultad de estudios superiores aragon unam",
+                  "cluster_id": 129,
+                  "similarity": 0.7028
+                }
+              ]
+            },
+            {
+              "rank": 3,
+              "advisor_id": "A03",
+              "advisor_name": "Valdés Michell, Maria Aurora",
+              "related_thesis_count": 2,
+              "global_advised_count_sample": 17,
+              "global_main_cluster_count_sample": 3,
+              "last_year": 1996,
+              "main_cluster_last_year": 2001,
+              "programs": [
+                "actuaria"
+              ],
+              "level_counts": {
+                "Licenciatura": 17
+              },
+              "main_cluster_level_counts": {
+                "Licenciatura": 3
+              },
+              "representative_titles": [
+                "aspectos relevantes del sistema financiero mexicano",
+                "la reprivatizacion bancaria en mexico 1990 1994"
+              ],
+              "representative_theses": [
+                {
+                  "id": "000259203",
+                  "thesis_id": "TH_0259203",
+                  "doc_number_url": "000241347",
+                  "title": "aspectos relevantes del sistema financiero mexicano",
+                  "year": 1996,
+                  "program": "actuaria",
+                  "degree": "Licenciatura",
+                  "area": "Area 1",
+                  "plantel": "facultad de ciencias unam",
+                  "cluster_id": 129,
+                  "similarity": 0.6951
+                },
+                {
+                  "id": "000254769",
+                  "thesis_id": "TH_0254769",
+                  "doc_number_url": "000230584",
+                  "title": "la reprivatizacion bancaria en mexico 1990 1994",
+                  "year": 1995,
+                  "program": "actuaria",
+                  "degree": "Licenciatura",
+                  "area": "Area 1",
+                  "plantel": "facultad de ciencias unam",
+                  "cluster_id": 129,
+                  "similarity": 0.6872
+                }
+              ]
+            },
+            {
+              "rank": 4,
+              "advisor_id": "A04",
+              "advisor_name": "Pérez Pérez, Alma Antonieta",
+              "related_thesis_count": 1,
+              "global_advised_count_sample": 1,
+              "global_main_cluster_count_sample": 1,
+              "last_year": 2017,
+              "main_cluster_last_year": 2017,
+              "programs": [
+                "actuaria"
+              ],
+              "level_counts": {
+                "Licenciatura": 1
+              },
+              "main_cluster_level_counts": {
+                "Licenciatura": 1
+              },
+              "representative_titles": [
+                "analisis financiero sobre la perspectiva del sistema bancario mexicano en 2016"
+              ],
+              "representative_theses": [
+                {
+                  "id": "000481285",
+                  "thesis_id": "TH_0481285",
+                  "doc_number_url": "000840116",
+                  "title": "analisis financiero sobre la perspectiva del sistema bancario mexicano en 2016",
+                  "year": 2017,
+                  "program": "actuaria",
+                  "degree": "Licenciatura",
+                  "area": "Area 1",
+                  "plantel": "facultad de ciencias unam",
+                  "cluster_id": 129,
+                  "similarity": 0.7621
+                }
+              ]
+            },
+            {
+              "rank": 5,
+              "advisor_id": "A05",
+              "advisor_name": "Herrera Vargas, Roberto",
+              "related_thesis_count": 1,
+              "global_advised_count_sample": 13,
+              "global_main_cluster_count_sample": 1,
+              "last_year": 1971,
+              "main_cluster_last_year": 1971,
+              "programs": [
+                "contaduria"
+              ],
+              "level_counts": {
+                "Licenciatura": 13
+              },
+              "main_cluster_level_counts": {
+                "Licenciatura": 1
+              },
+              "representative_titles": [
+                "algunos aspectos del sistema bancario en mexico y de las uniones de credito en general"
+              ],
+              "representative_theses": [
+                {
+                  "id": "000108546",
+                  "thesis_id": "TH_0108546",
+                  "doc_number_url": "000081857",
+                  "title": "algunos aspectos del sistema bancario en mexico y de las uniones de credito en general",
+                  "year": 1971,
+                  "program": "contaduria",
+                  "degree": "Licenciatura",
+                  "area": "Area 3",
+                  "plantel": "facultad de contaduria y administracion unam",
+                  "cluster_id": 129,
+                  "similarity": 0.7572
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "validation": {
+        "valid": true,
+        "message": "ok"
+      },
+      "token_usage": {
+        "provider": "groq",
+        "model": "llama-3.1-8b-instant",
+        "prompt_tokens": 1173,
+        "completion_tokens": 125,
+        "total_tokens": 1298,
+        "estimated_cost_usd_uncached": 0.00025095,
+        "latency_s": 0.976
+      }
+    },
+    "inferred_atlas_position": {
+      "available": true,
+      "method": "weighted_votes_from_top_similar_theses",
+      "weighting": "similarity^2",
+      "macrocluster_id": 0,
+      "microcluster_id": 129,
+      "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+      "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+      "confidence": 0.9613,
+      "confidence_label": "clara",
+      "interpretation": "El proyecto cae con claridad en un territorio semántico del Atlas.",
+      "evidence_count": 50,
+      "matched_thesis_count": 50,
+      "unmatched_thesis_count": 0,
+      "top_microclusters": [
+        {
+          "microcluster_id": 129,
+          "score": 0.9613,
+          "raw_score": 22.264919,
+          "thesis_count": 48,
+          "macrocluster_id": 0,
+          "label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO"
+        },
+        {
+          "microcluster_id": -1,
+          "score": 0.0198,
+          "raw_score": 0.457951,
+          "thesis_count": 1,
+          "macrocluster_id": -1
+        },
+        {
+          "microcluster_id": 148,
+          "score": 0.0189,
+          "raw_score": 0.437193,
+          "thesis_count": 1,
+          "macrocluster_id": 0,
+          "label": "MEXICO · MEXICANA · ECONOMICA · ESTADO"
+        }
+      ],
+      "top_macroclusters": [
+        {
+          "macrocluster_id": 0,
+          "score": 0.9802,
+          "raw_score": 22.702111,
+          "thesis_count": 49,
+          "label": "MEXICO · MEXICANO · ESTADO · MEXICANA"
+        },
+        {
+          "macrocluster_id": -1,
+          "score": 0.0198,
+          "raw_score": 0.457951,
+          "thesis_count": 1,
+          "label": "NO ASIGNADO"
+        }
+      ],
+      "evidence": [
+        {
+          "thesis_id": "TH_0481285",
+          "doc_number_url": "000840116",
+          "title": "analisis financiero sobre la perspectiva del sistema bancario mexicano en 2016",
+          "similarity": 0.7621,
+          "weight": 0.580836,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4814560413360596,
+          "atlas_y": 3.2107086181640625,
+          "area": "Area 1",
+          "program": "actuaria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de ciencias unam",
+          "year": 2017,
+          "period": "2011-2020"
+        },
+        {
+          "thesis_id": "TH_0108546",
+          "doc_number_url": "000081857",
+          "title": "algunos aspectos del sistema bancario en mexico y de las uniones de credito en general",
+          "similarity": 0.7572,
+          "weight": 0.573303,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.3996608257293701,
+          "atlas_y": 3.1875195503234863,
+          "area": "Area 3",
+          "program": "contaduria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de contaduria y administracion unam",
+          "year": 1971,
+          "period": "Antes de 1980"
+        },
+        {
+          "thesis_id": "TH_0173645",
+          "doc_number_url": "000005954",
+          "title": "el arrendamiento financiero y el sistema bancario mexicano",
+          "similarity": 0.7328,
+          "weight": 0.537059,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4281007051467896,
+          "atlas_y": 3.182546854019165,
+          "area": "Area 3",
+          "program": "contaduria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de contaduria y administracion unam",
+          "year": 1984,
+          "period": "1981-1990"
+        },
+        {
+          "thesis_id": "TH_0340229",
+          "doc_number_url": "000618540",
+          "title": "la banca comercial en mexico 1988 2005 un analisis de indicadores financieros",
+          "similarity": 0.7325,
+          "weight": 0.536597,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4350389242172241,
+          "atlas_y": 3.1458423137664795,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de estudios superiores acatlan unam",
+          "year": 2007,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0146541",
+          "doc_number_url": "000038198",
+          "title": "la administracion de las prestaciones en el sistema bancario mexicano",
+          "similarity": 0.7218,
+          "weight": 0.521006,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4730396270751953,
+          "atlas_y": 3.2166335582733154,
+          "area": "Area 3",
+          "program": "administracion",
+          "degree": "Licenciatura",
+          "plantel": "facultad de contaduria y administracion unam",
+          "year": 1979,
+          "period": "Antes de 1980"
+        },
+        {
+          "thesis_id": "TH_0122075",
+          "doc_number_url": "000113708",
+          "title": "la banca nacional y el desarrollo economico de mexico estructura del sistema financiero mexicano",
+          "similarity": 0.7205,
+          "weight": 0.519168,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4168084859848022,
+          "atlas_y": 3.18042254447937,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 1974,
+          "period": "Antes de 1980"
+        },
+        {
+          "thesis_id": "TH_0060644",
+          "doc_number_url": "000330939",
+          "title": "funcionamiento de la banca comercial en mexico durante el periodo 1980 2001",
+          "similarity": 0.7142,
+          "weight": 0.510076,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4079320430755615,
+          "atlas_y": 3.1799569129943848,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 2004,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0348294",
+          "doc_number_url": "000631383",
+          "title": "analisis comparativo de las comisiones bancarias mexico espana el estudio de banco bilbao vizcaya argentaria bbva",
+          "similarity": 0.7088,
+          "weight": 0.502447,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4323818683624268,
+          "atlas_y": 3.182929277420044,
+          "area": "Area 3",
+          "program": "finanzas",
+          "degree": "Maestría",
+          "plantel": "facultad de contaduria y administracion unam",
+          "year": 2008,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0366161",
+          "doc_number_url": "000640331",
+          "title": "desregulacion financiera y desintermediacion bancaria en mexico 1988 2007",
+          "similarity": 0.7028,
+          "weight": 0.493954,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4736284017562866,
+          "atlas_y": 3.157991409301758,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Maestría",
+          "plantel": "facultad de estudios superiores aragon unam",
+          "year": 2009,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0493583",
+          "doc_number_url": "000770333",
+          "title": "mexico privatizacion y extranjerizacion de la banca multiple y sus efectos sobre el margen financiero y otorgamiento de creditos a la actividad productiva 1991 2016",
+          "similarity": 0.702,
+          "weight": 0.492858,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.462788462638855,
+          "atlas_y": 3.1269938945770264,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de estudios superiores aragon unam",
+          "year": 2018,
+          "period": "2011-2020"
+        },
+        {
+          "thesis_id": "TH_0308063",
+          "doc_number_url": "000341883",
+          "title": "fusion e inovacion de la banca comercial en mexico caso bancomer",
+          "similarity": 0.6984,
+          "weight": 0.487776,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4238234758377075,
+          "atlas_y": 3.1253182888031006,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 2005,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0059693",
+          "doc_number_url": "000336215",
+          "title": "la evaluacion de doce anos de banca privada en mexico 1990 2001",
+          "similarity": 0.6979,
+          "weight": 0.487132,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.421615719795227,
+          "atlas_y": 3.1515800952911377,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 2004,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0337602",
+          "doc_number_url": "000619580",
+          "title": "sistema de monitoreo para instituciones bancarias en mexico en el periodo de septiembre de 1998 a marzo de 1999",
+          "similarity": 0.6978,
+          "weight": 0.486943,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4196745157241821,
+          "atlas_y": 3.1819119453430176,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 2007,
+          "period": "2001-2010"
+        },
+        {
+          "thesis_id": "TH_0007870",
+          "doc_number_url": "000279323",
+          "title": "el poder politico de los banqueros en el estado mexicano el caso de la nacionalizacion y privatizacion de la banca 1982 1994",
+          "similarity": 0.6977,
+          "weight": 0.486851,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4014630317687988,
+          "atlas_y": 3.1547417640686035,
+          "area": "Area 3",
+          "program": "ciencias politicas y administracion publica",
+          "degree": "Licenciatura",
+          "plantel": "facultad de estudios superiores acatlan unam",
+          "year": 2000,
+          "period": "1991-2000"
+        },
+        {
+          "thesis_id": "TH_0165858",
+          "doc_number_url": "000010856",
+          "title": "el sistema monetario y financiero mexicano bajo una perspectiva historica el porfiriato",
+          "similarity": 0.6957,
+          "weight": 0.484054,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4207218885421753,
+          "atlas_y": 3.190443515777588,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de economia unam",
+          "year": 1983,
+          "period": "1981-1990"
+        },
+        {
+          "thesis_id": "TH_0259203",
+          "doc_number_url": "000241347",
+          "title": "aspectos relevantes del sistema financiero mexicano",
+          "similarity": 0.6951,
+          "weight": 0.483163,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4169244766235352,
+          "atlas_y": 3.193695306777954,
+          "area": "Area 1",
+          "program": "actuaria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de ciencias unam",
+          "year": 1996,
+          "period": "1991-2000"
+        },
+        {
+          "thesis_id": "TH_0267598",
+          "doc_number_url": "000249134",
+          "title": "estructura del sistema financiero mexicano",
+          "similarity": 0.6937,
+          "weight": 0.481174,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4155806303024292,
+          "atlas_y": 3.197727680206299,
+          "area": "Area 3",
+          "program": "contaduria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de contaduria y administracion unam",
+          "year": 1997,
+          "period": "1991-2000"
+        },
+        {
+          "thesis_id": "TH_0425900",
+          "doc_number_url": "000704857",
+          "title": "evaluacion y perspectivas de la expansion de la banca extranjera en mexico 1994 2006",
+          "similarity": 0.6918,
+          "weight": 0.478557,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4213436841964722,
+          "atlas_y": 3.127311944961548,
+          "area": "Area 3",
+          "program": "relaciones internacionales",
+          "degree": "Licenciatura",
+          "plantel": "facultad de estudios superiores aragon unam",
+          "year": 2013,
+          "period": "2011-2020"
+        },
+        {
+          "thesis_id": "TH_0254769",
+          "doc_number_url": "000230584",
+          "title": "la reprivatizacion bancaria en mexico 1990 1994",
+          "similarity": 0.6872,
+          "weight": 0.472293,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.3915953636169434,
+          "atlas_y": 3.1932806968688965,
+          "area": "Area 1",
+          "program": "actuaria",
+          "degree": "Licenciatura",
+          "plantel": "facultad de ciencias unam",
+          "year": 1995,
+          "period": "1991-2000"
+        },
+        {
+          "thesis_id": "TH_0251607",
+          "doc_number_url": "000223622",
+          "title": "la reprivatizacion de la banca en mexico",
+          "similarity": 0.6827,
+          "weight": 0.466082,
+          "macrocluster_id": 0,
+          "microcluster_id": 129,
+          "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+          "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+          "atlas_x": -1.4298146963119507,
+          "atlas_y": 3.175452470779419,
+          "area": "Area 3",
+          "program": "economia",
+          "degree": "Licenciatura",
+          "plantel": "facultad de estudios superiores aragon unam",
+          "year": 1995,
+          "period": "1991-2000"
+        }
+      ],
+      "unmatched": []
+    }
+  },
+  "debug": [
+    {
+      "source": "fixture",
+      "message": "Loaded from static/dev/lab_context_fixture.json without calling AI."
+    }
+  ]
+}

@@ -16,11 +16,14 @@ from sentence_transformers import SentenceTransformer
 BASE_DIR = Path(__file__).resolve().parents[1]
 META_PATH = BASE_DIR / "sample_50k_final_15d.parquet"
 EMBEDDINGS_PATH = BASE_DIR / "sample_50k_embeddings.npy"
-NODES_PATH = BASE_DIR / "cluster_nodes_final_50k.parquet"
-EDGES_PATH = BASE_DIR / "cluster_edges_mutual_knn_50k.parquet"
+NODES_PATH = BASE_DIR / "outputs" / "microclusters" / "cluster_summary_50k.parquet"
+THESIS_CLUSTER_NODES_PATH = BASE_DIR / "outputs" / "microclusters" / "cluster_nodes_final_50k.parquet"
+EDGES_PATH = BASE_DIR / "outputs" / "microclusters" / "cluster_edges_mutual_knn_50k.parquet"
 BIBLIOGRAPHY_PATH = BASE_DIR / "semantic_bibliography_dataset.parquet"
 BIBLIOGRAPHY_INDEX_PATH = BASE_DIR / "bibliography_title_index.sqlite"
 QUERY_VECTOR_PATH = BASE_DIR / "payloads" / "query_vector.json"
+THESIS_ATLAS_INDEX_PATH = BASE_DIR / "static" / "explore" / "thesis_atlas_index.json"
+MICROCLUSTERS_DIR = BASE_DIR / "static" / "explore" / "microclusters"
 CLUSTER_COL = "cluster"
 EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 EMBEDDING_DIMENSIONS = 384
@@ -246,7 +249,15 @@ def build_thesis_record(row, similarity=None, cluster_col=CLUSTER_COL):
     Convierte una fila de meta en un registro compacto para el contexto.
     """
     record = {
+        # ID interno histórico del Lab / bibliografía
         "id": normalize_id(row["ID_Limpio"]),
+
+        # IDs estables para cruzar con Atlas / Explore
+        "thesis_id": row.get("thesis_id"),
+        "doc_number_url": row.get("doc_number_url"),
+        "ID_Limpio": normalize_id(row["ID_Limpio"]) if "ID_Limpio" in row.index else None,
+        "ID_Aleph": normalize_id(row["ID_Aleph"]) if "ID_Aleph" in row.index else None,
+
         "title": row.get("titulo_normalizado"),
         "year": int(row["Año"]) if pd.notna(row.get("Año")) else None,
         "program": row.get("programa"),
@@ -819,6 +830,303 @@ def extract_bibliography_titles_clean(bib_record, max_titles=15):
 # FUNCIÓN PRINCIPAL
 # ============================================================
 
+
+def load_thesis_atlas_index(path=THESIS_ATLAS_INDEX_PATH):
+    """
+    Carga índice thesis_id/doc_number_url -> macrocluster/microcluster real del Atlas Explore.
+    Si no existe, devuelve índice vacío para no romper el Lab.
+    """
+    path = Path(path)
+
+    if not path.exists():
+        return {
+            "meta": {"available": False, "reason": f"not_found: {path}"},
+            "by_thesis_id": {},
+            "by_doc_number_url": {},
+            "by_title_key": {}
+        }
+
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    data.setdefault("by_thesis_id", {})
+    data.setdefault("by_doc_number_url", {})
+    data.setdefault("by_title_key", {})
+    data.setdefault("meta", {})
+    data["meta"]["available"] = True
+
+    return data
+
+
+
+def load_microcluster_label_map(path=MICROCLUSTERS_DIR):
+    """
+    Carga microcluster_id -> micro_label directamente desde
+    static/explore/microclusters/micro_*.json.
+    """
+    labels = {}
+    path = Path(path)
+
+    if not path.exists():
+        return labels
+
+    for p in path.glob("micro_*.json"):
+        try:
+            with open(p, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            item = data.get("microcluster", {})
+            micro_id = item.get("microcluster_id")
+            micro_label = item.get("micro_label")
+
+            if micro_id is not None and micro_label:
+                labels[str(int(micro_id))] = str(micro_label).strip()
+        except Exception:
+            continue
+
+    return labels
+
+
+
+def period_from_year_for_lab_map(year):
+    """
+    Convierte año a bucket legible para el mini mapa analítico del Lab.
+    """
+    try:
+        y = int(year)
+    except Exception:
+        return "Sin periodo"
+
+    if y <= 1980:
+        return "Antes de 1980"
+
+    start = ((y - 1) // 10) * 10 + 1
+    end = start + 9
+    return f"{start}-{end}"
+
+
+def infer_atlas_position(top_similar_theses, atlas_index, exponent=2.0, max_items=50):
+    """
+    Infiere ubicación probable del proyecto en el Atlas visual usando tesis similares como votos.
+
+    Importante:
+    - NO usa semantic_position.main_cluster.id.
+    - Usa thesis_id/doc_number_url para cruzar contra el Atlas real.
+    - Pondera por similarity^exponent para favorecer tesis más cercanas.
+    """
+    by_thesis_id = atlas_index.get("by_thesis_id", {}) or {}
+    by_doc_number_url = atlas_index.get("by_doc_number_url", {}) or {}
+
+    # Mapas de labels construidos desde el índice Atlas.
+    # Sirven como fallback aunque alguna evidencia individual no traiga label.
+    macro_label_by_id = {}
+    micro_label_by_id = load_microcluster_label_map()
+
+    for item in by_thesis_id.values():
+        macro_id = item.get("macrocluster_id")
+        micro_id = item.get("microcluster_id")
+
+        if macro_id is not None and item.get("macro_label"):
+            macro_label_by_id[str(macro_id)] = item.get("macro_label")
+
+        if micro_id is not None and item.get("micro_label"):
+            micro_label_by_id[str(micro_id)] = item.get("micro_label")
+
+    micro_scores = {}
+    macro_scores = {}
+    micro_counts = {}
+    macro_counts = {}
+    evidence = []
+    unmatched = []
+
+    total_score = 0.0
+
+    for thesis in (top_similar_theses or [])[:max_items]:
+        thesis_id = str(thesis.get("thesis_id") or "").strip()
+        doc_number_url = str(thesis.get("doc_number_url") or "").strip()
+
+        atlas_item = None
+
+        if thesis_id:
+            atlas_item = by_thesis_id.get(thesis_id)
+
+        if atlas_item is None and doc_number_url:
+            mapped_id = by_doc_number_url.get(doc_number_url)
+            if mapped_id:
+                atlas_item = by_thesis_id.get(mapped_id)
+
+        if atlas_item is None:
+            unmatched.append({
+                "thesis_id": thesis_id or None,
+                "doc_number_url": doc_number_url or None,
+                "title": thesis.get("title")
+            })
+            continue
+
+        try:
+            similarity = float(
+                thesis.get("similarity")
+                if thesis.get("similarity") is not None
+                else thesis.get("embedding_similarity", 0)
+            )
+        except Exception:
+            similarity = 0.0
+
+        if similarity <= 0:
+            similarity = 0.0001
+
+        weight = similarity ** exponent
+
+        micro_id = atlas_item.get("microcluster_id")
+        macro_id = atlas_item.get("macrocluster_id")
+
+        if micro_id is not None:
+            micro_key = str(micro_id)
+            micro_scores[micro_key] = micro_scores.get(micro_key, 0.0) + weight
+            micro_counts[micro_key] = micro_counts.get(micro_key, 0) + 1
+
+        if macro_id is not None:
+            macro_key = str(macro_id)
+            macro_scores[macro_key] = macro_scores.get(macro_key, 0.0) + weight
+            macro_counts[macro_key] = macro_counts.get(macro_key, 0) + 1
+
+        total_score += weight
+
+        evidence.append({
+            "thesis_id": atlas_item.get("thesis_id"),
+            "doc_number_url": atlas_item.get("doc_number_url"),
+            "title": thesis.get("title") or atlas_item.get("title"),
+            "similarity": round(similarity, 4),
+            "weight": round(weight, 6),
+            "macrocluster_id": macro_id,
+            "microcluster_id": micro_id,
+            "macro_label": atlas_item.get("macro_label"),
+            "micro_label": atlas_item.get("micro_label") or micro_label_by_id.get(str(micro_id)),
+            "atlas_x": atlas_item.get("atlas_x"),
+            "atlas_y": atlas_item.get("atlas_y"),
+            "area": atlas_item.get("area") or thesis.get("area"),
+            "program": atlas_item.get("program") or thesis.get("program"),
+            "degree": atlas_item.get("degree") or thesis.get("degree"),
+            "plantel": atlas_item.get("plantel") or thesis.get("plantel"),
+            "year": atlas_item.get("year") or thesis.get("year"),
+            "period": period_from_year_for_lab_map(atlas_item.get("year") or thesis.get("year"))
+        })
+
+    def ranked_clusters(scores, counts, kind):
+        rows = []
+
+        for cluster_id, score in scores.items():
+            normalized_score = score / total_score if total_score > 0 else 0.0
+
+            row = {
+                f"{kind}cluster_id": int(cluster_id),
+                "score": round(normalized_score, 4),
+                "raw_score": round(score, 6),
+                "thesis_count": int(counts.get(cluster_id, 0))
+            }
+
+            if kind == "micro":
+                related = [
+                    e for e in evidence
+                    if str(e.get("microcluster_id")) == str(cluster_id)
+                ]
+
+                macro_votes = [
+                    e.get("macrocluster_id")
+                    for e in related
+                    if e.get("macrocluster_id") is not None
+                ]
+
+                labels = [
+                    e.get("micro_label")
+                    for e in related
+                    if e.get("micro_label")
+                ]
+
+                if macro_votes:
+                    row["macrocluster_id"] = max(set(macro_votes), key=macro_votes.count)
+
+                if labels:
+                    row["label"] = labels[0]
+                elif str(cluster_id) in micro_label_by_id:
+                    row["label"] = micro_label_by_id[str(cluster_id)]
+
+            if kind == "macro":
+                related = [
+                    e for e in evidence
+                    if str(e.get("macrocluster_id")) == str(cluster_id)
+                ]
+
+                labels = [
+                    e.get("macro_label")
+                    for e in related
+                    if e.get("macro_label")
+                ]
+
+                if labels:
+                    row["label"] = labels[0]
+                elif str(cluster_id) in macro_label_by_id:
+                    row["label"] = macro_label_by_id[str(cluster_id)]
+
+            rows.append(row)
+
+        return sorted(
+            rows,
+            key=lambda r: (r["score"], r["thesis_count"]),
+            reverse=True
+        )
+
+    top_microclusters = ranked_clusters(micro_scores, micro_counts, "micro")
+    top_macroclusters = ranked_clusters(macro_scores, macro_counts, "macro")
+
+    winner_micro = top_microclusters[0] if top_microclusters else None
+    winner_macro = top_macroclusters[0] if top_macroclusters else None
+
+    confidence = winner_micro.get("score", 0.0) if winner_micro else 0.0
+
+    if confidence >= 0.60:
+        confidence_label = "clara"
+        interpretation = "El proyecto cae con claridad en un territorio semántico del Atlas."
+    elif confidence >= 0.35:
+        confidence_label = "híbrida"
+        interpretation = "El proyecto se ubica entre territorios relacionados; conviene mostrar 2 o 3 microclusters."
+    elif evidence:
+        confidence_label = "dispersa"
+        interpretation = "El proyecto funciona como puente entre varios territorios del Atlas."
+    else:
+        confidence_label = "sin_evidencia"
+        interpretation = "No hubo suficientes tesis similares cruzables con el Atlas."
+
+    return {
+        "available": bool(evidence),
+        "method": "weighted_votes_from_top_similar_theses",
+        "weighting": f"similarity^{exponent:g}",
+        "macrocluster_id": winner_macro.get("macrocluster_id") if winner_macro else None,
+        "microcluster_id": winner_micro.get("microcluster_id") if winner_micro else None,
+        "macro_label": (
+            winner_macro.get("label")
+            if winner_macro and winner_macro.get("label")
+            else macro_label_by_id.get(str(winner_macro.get("macrocluster_id"))) if winner_macro else None
+        ),
+        "micro_label": (
+            winner_micro.get("label")
+            if winner_micro and winner_micro.get("label")
+            else micro_label_by_id.get(str(winner_micro.get("microcluster_id"))) if winner_micro else None
+        ),
+        "confidence": round(confidence, 4),
+        "confidence_label": confidence_label,
+        "interpretation": interpretation,
+        "evidence_count": len(evidence),
+        "matched_thesis_count": len(evidence),
+        "unmatched_thesis_count": len(unmatched),
+        "top_microclusters": top_microclusters[:5],
+        "top_macroclusters": top_macroclusters[:5],
+        "evidence": evidence[:20],
+        "unmatched": unmatched[:10]
+    }
+
+
+
 def build_thesis_context(
     user_input,
     query_vector,
@@ -872,6 +1180,14 @@ def build_thesis_context(
 
     top_10 = top_50[:10]
     top_5 = top_50[:5]
+    atlas_index = load_thesis_atlas_index()
+    inferred_atlas_position = infer_atlas_position(
+        top_similar_theses=top_50,
+        atlas_index=atlas_index,
+        exponent=2.0,
+        max_items=50
+    )
+
 
     keywords_detected = extract_keywords_from_titles(
     [t["title"] for t in top_50[:50]],
@@ -1098,7 +1414,10 @@ def build_thesis_context(
             c = int(c)
             if c != -1:
                 clusters.append(c)
-                global_advisor = meta[
+
+        # Trayectoria global del asesor en toda la muestra.
+        # Debe calcularse fuera del loop de clusters; si no, puede quedar sin definir.
+        global_advisor = meta[
             meta["asesor_limpio_v2"].astype(str) == str(advisor)
         ]
 
@@ -1116,6 +1435,38 @@ def build_thesis_context(
         cluster_years = sorted([
             int(y) for y in global_in_main_cluster["Año"].dropna().unique().tolist()
         ])
+
+        level_col = None
+        for candidate_col in ["nivel_estandar", "grado", "degree", "nivel"]:
+            if candidate_col in global_advisor.columns:
+                level_col = candidate_col
+                break
+
+        if level_col:
+            level_counts = {
+                str(k): int(v)
+                for k, v in global_advisor[level_col]
+                    .dropna()
+                    .astype(str)
+                    .value_counts()
+                    .head(8)
+                    .items()
+                if str(k).strip()
+            }
+
+            main_cluster_level_counts = {
+                str(k): int(v)
+                for k, v in global_in_main_cluster[level_col]
+                    .dropna()
+                    .astype(str)
+                    .value_counts()
+                    .head(8)
+                    .items()
+                if str(k).strip()
+            } if not global_in_main_cluster.empty and level_col in global_in_main_cluster.columns else {}
+        else:
+            level_counts = {}
+            main_cluster_level_counts = {}
 
         advisor_rows.append({
             "advisor_name": str(advisor),
@@ -1136,6 +1487,8 @@ def build_thesis_context(
             "global_main_cluster_count": int(len(global_in_main_cluster)),
             "global_last_year": max(global_years) if global_years else None,
             "main_cluster_last_year": max(cluster_years) if cluster_years else None,
+            "level_counts": level_counts,
+            "main_cluster_level_counts": main_cluster_level_counts,
         })
 
     advisor_candidates = sorted(
@@ -1251,6 +1604,8 @@ def build_thesis_context(
             "top_5_raw": top_5
         },
 
+        "inferred_atlas_position": inferred_atlas_position,
+
         "bloom": bloom,
 
         "bibliography_pool": bibliography_pool,
@@ -1284,6 +1639,11 @@ def build_context_for_llm(context, max_titles=10, max_advisors=5, max_bib_source
 
     top_10_compact = [
         {
+            "id": t.get("id"),
+            "thesis_id": t.get("thesis_id"),
+            "doc_number_url": t.get("doc_number_url"),
+            "ID_Limpio": t.get("ID_Limpio"),
+            "ID_Aleph": t.get("ID_Aleph"),
             "title": t.get("title"),
             "year": t.get("year"),
             "program": t.get("program"),
@@ -1306,6 +1666,25 @@ def build_context_for_llm(context, max_titles=10, max_advisors=5, max_bib_source
     advisor_evidence = []
 
     for a in context.get("advisor_candidates", [])[:max_advisors]:
+        representative_theses = []
+
+        for r in a.get("representative_theses", [])[:5]:
+            representative_theses.append({
+                "id": r.get("id"),
+                "thesis_id": r.get("thesis_id"),
+                "doc_number_url": r.get("doc_number_url"),
+                "title": r.get("title"),
+                "year": r.get("year"),
+                "program": r.get("program"),
+                "degree": r.get("degree"),
+                "area": r.get("area"),
+                "plantel": r.get("plantel"),
+                "cluster_id": r.get("cluster_id"),
+                "similarity": round(float(r.get("embedding_similarity", 0)), 4)
+                if r.get("embedding_similarity") is not None
+                else None
+            })
+
         advisor_evidence.append({
             "advisor_name": a.get("advisor_name"),
             "related_thesis_count_top50": a.get("related_thesis_count"),
@@ -1314,10 +1693,14 @@ def build_context_for_llm(context, max_titles=10, max_advisors=5, max_bib_source
             "last_year": a.get("last_year"),
             "main_cluster_last_year": a.get("main_cluster_last_year"),
             "programs": a.get("programs", []),
+            "level_counts": a.get("level_counts", {}),
+            "main_cluster_level_counts": a.get("main_cluster_level_counts", {}),
             "representative_titles": [
                 r.get("title")
-                for r in a.get("representative_theses", [])[:3]
-            ]
+                for r in representative_theses[:3]
+                if r.get("title")
+            ],
+            "representative_theses": representative_theses
         })
 
     bibliography_summaries = []
@@ -1357,6 +1740,8 @@ def build_context_for_llm(context, max_titles=10, max_advisors=5, max_bib_source
         "temporal_patterns": context.get("temporal_patterns", {}),
 
         "top_similar_theses": top_10_compact,
+
+        "inferred_atlas_position": context.get("inferred_atlas_position", {}),
 
         "bloom": context.get("bloom", {}),
 
@@ -1479,7 +1864,86 @@ if __name__ == "__main__":
     meta = pd.read_parquet(META_PATH)
     X = np.load(EMBEDDINGS_PATH)
     nodes = pd.read_parquet(NODES_PATH)
+    thesis_cluster_nodes = pd.read_parquet(THESIS_CLUSTER_NODES_PATH)
     mutual_edges = pd.read_parquet(EDGES_PATH)
+
+    # Normalizar resumen de clusters para el Lab.
+    # El Lab espera nodes["id"]; el summary actual trae cluster_id/microcluster_id.
+    if "id" not in nodes.columns:
+        if "cluster_id" in nodes.columns:
+            nodes["id"] = nodes["cluster_id"]
+        elif "microcluster_id" in nodes.columns:
+            nodes["id"] = nodes["microcluster_id"]
+        else:
+            raise ValueError(
+                "NODES_PATH debe tener id, cluster_id o microcluster_id. "
+                f"Columnas actuales: {nodes.columns.tolist()}"
+            )
+
+    # El meta base no siempre trae la columna CLUSTER_COL usada por el Lab.
+    # La recuperamos desde thesis_cluster_nodes usando thesis_id.
+    # OJO: este cluster sigue siendo el cluster interno/microcluster del Lab,
+    # no debe interpretarse como macrocluster del Atlas visual.
+    # Compatibilidad de nombres: el Lab espera "periodo",
+    # pero la muestra actual usa "year_bucket".
+    if "periodo" not in meta.columns:
+        if "year_bucket" in meta.columns:
+            meta["periodo"] = meta["year_bucket"]
+            print("Columna 'periodo' creada desde meta.year_bucket.")
+        elif "Año" in meta.columns:
+            def _period_from_year(y):
+                try:
+                    y = int(y)
+                except Exception:
+                    return "sin_periodo"
+
+                if y <= 1980:
+                    return "hasta_1980"
+
+                start = ((y - 1) // 10) * 10 + 1
+                end = start + 9
+                return f"{start}_{end}"
+
+            meta["periodo"] = meta["Año"].apply(_period_from_year)
+            print("Columna 'periodo' creada desde meta.Año.")
+        else:
+            meta["periodo"] = "sin_periodo"
+            print("Columna 'periodo' creada como sin_periodo.")
+
+    if CLUSTER_COL not in meta.columns:
+        if "thesis_id" in meta.columns and "thesis_id" in thesis_cluster_nodes.columns:
+            cluster_source_col = None
+
+            for candidate in ["cluster", "cluster_id", "microcluster_id"]:
+                if candidate in thesis_cluster_nodes.columns:
+                    cluster_source_col = candidate
+                    break
+
+            if cluster_source_col is None:
+                raise ValueError(
+                    f"No existe '{CLUSTER_COL}' en meta y thesis_cluster_nodes no tiene cluster/cluster_id/microcluster_id. "
+                    f"Columnas thesis_cluster_nodes: {thesis_cluster_nodes.columns.tolist()}"
+                )
+
+            cluster_lookup = (
+                thesis_cluster_nodes[["thesis_id", cluster_source_col]]
+                .dropna(subset=["thesis_id"])
+                .drop_duplicates(subset=["thesis_id"])
+                .rename(columns={cluster_source_col: CLUSTER_COL})
+            )
+
+            meta = meta.merge(cluster_lookup, on="thesis_id", how="left")
+
+            print(
+                f"CLUSTER_COL '{CLUSTER_COL}' agregado a meta desde thesis_cluster_nodes.{cluster_source_col}. "
+                f"Cobertura: {meta[CLUSTER_COL].notna().mean():.2%}"
+            )
+        else:
+            raise ValueError(
+                f"No existe '{CLUSTER_COL}' en meta y no se puede cruzar con thesis_cluster_nodes por thesis_id. "
+                f"Columnas meta: {meta.columns.tolist()}\n"
+                f"Columnas thesis_cluster_nodes: {thesis_cluster_nodes.columns.tolist()}"
+            )
 
     print("meta:", meta.shape)
     print("X:", X.shape)
@@ -1489,12 +1953,15 @@ if __name__ == "__main__":
 
     user_input = load_lab_input()
 
+    # IMPORTANTE:
+    # El query_vector depende directamente del input del usuario.
+    # No debe reutilizarse entre corridas, porque contamina el retrieval:
+    # input nuevo + vector viejo = tesis cercanas viejas.
     if QUERY_VECTOR_PATH.exists():
-        print(f"Usando query vector existente: {QUERY_VECTOR_PATH}")
-        query_vector = load_query_vector(QUERY_VECTOR_PATH)
-    else:
-        print("No existe query_vector.json. Generando nuevo query vector...")
-        query_vector = build_query_vector_from_input(user_input, QUERY_VECTOR_PATH)
+        QUERY_VECTOR_PATH.unlink()
+
+    print("Generando nuevo query vector desde el input actual...")
+    query_vector = build_query_vector_from_input(user_input, QUERY_VECTOR_PATH)
 
     context = build_thesis_context(
         user_input=user_input,

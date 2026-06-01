@@ -84,19 +84,39 @@ def main():
         advisor_id = str(advisor_id).strip()
         c = by_id.get(advisor_id, {})
 
-        representative_titles = first_present(
+        representative_theses = first_present(
             c,
             [
-                "representative_titles",
                 "representative_theses",
-                "related_titles",
+                "similar_theses",
                 "theses",
             ],
             []
         )
 
-        # Si viene como lista de objetos thesis records, convertir a títulos.
-        if isinstance(representative_titles, list):
+        if not isinstance(representative_theses, list):
+            representative_theses = []
+
+        representative_titles = first_present(
+            c,
+            [
+                "representative_titles",
+                "related_titles",
+            ],
+            []
+        )
+
+        # Si no hay títulos planos, derivarlos desde representative_theses.
+        if not isinstance(representative_titles, list) or not representative_titles:
+            representative_titles = []
+            for item in representative_theses:
+                if isinstance(item, dict):
+                    title = first_present(item, ["title", "titulo", "thesis_title"], "")
+                    if title:
+                        representative_titles.append(title)
+                elif item:
+                    representative_titles.append(str(item))
+        else:
             converted = []
             for item in representative_titles:
                 if isinstance(item, dict):
@@ -106,8 +126,6 @@ def main():
                 elif item:
                     converted.append(str(item))
             representative_titles = converted
-        else:
-            representative_titles = []
 
         hydrated_items.append({
             "rank": rank,
@@ -147,7 +165,18 @@ def main():
                 ["programs", "programas"],
                 []
             ),
+            "level_counts": first_present(
+                c,
+                ["level_counts", "degree_counts"],
+                {}
+            ),
+            "main_cluster_level_counts": first_present(
+                c,
+                ["main_cluster_level_counts"],
+                {}
+            ),
             "representative_titles": representative_titles,
+            "representative_theses": representative_theses,
         })
 
     ar["items"] = hydrated_items

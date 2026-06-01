@@ -31,7 +31,10 @@ def main():
             "last_year": advisor.get("last_year"),
             "main_cluster_last_year": advisor.get("main_cluster_last_year"),
             "programs": advisor.get("programs", []),
+            "level_counts": advisor.get("level_counts", {}),
+            "main_cluster_level_counts": advisor.get("main_cluster_level_counts", {}),
             "representative_titles": advisor.get("representative_titles", []),
+            "representative_theses": advisor.get("representative_theses", []),
         })
 
     payload = {

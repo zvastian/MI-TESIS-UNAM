@@ -159,3 +159,25 @@ i.html
 # Keep consolidated Nobel folder versioned
 !nobel/
 !nobel/**
+
+# Local backups / patch safety copies
+backups/
+
+# Local notebooks / scratch
+*.ipynb
+b.ipynb
+
+# Local Lab test outputs
+lab_output.json
+lab_payload.json
+lab_response.txt
+
+# Python / cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local env
+.venv/
+.env

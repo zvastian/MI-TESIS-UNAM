@@ -6,6 +6,7 @@ from typing import Any
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -54,7 +55,7 @@ class ProjectRequest(BaseModel):
     project_id: str = Field(..., min_length=3)
 
 
-def error_response(exc: Exception):
+def error_response(exc: Exception) -> dict[str, Any]:
     return {
         "ok": False,
         "error": type(exc).__name__,
@@ -69,16 +70,13 @@ def health():
         "ok": True,
         "service": "MiTesis UNAM API",
         "base_dir": str(BASE_DIR),
+        "static_dir": str(STATIC_DIR),
         "static_dir_exists": STATIC_DIR.exists(),
     }
 
 
 @app.get("/api/explore/neighborhood/{thesis_id}")
 def get_explore_neighborhood(thesis_id: str, top_k: int = 100):
-    """
-    Construye el vecindario semántico local de una tesis existente
-    para visualizarla como centro del modo Universo / Analítico.
-    """
     try:
         thesis_id = str(thesis_id or "").strip()
 
@@ -115,6 +113,34 @@ def get_explore_neighborhood(thesis_id: str, top_k: int = 100):
 
     except HTTPException:
         raise
+
+    except Exception as exc:
+        raise HTTPException(
+            status_code=500,
+            detail=error_response(exc),
+        )
+
+
+@app.post("/api/lab/run-full")
+def run_full(payload: LabInput):
+    try:
+        data = payload.model_dump()
+        result = orch.run_full(data)
+
+        return {
+            "ok": True,
+            "data": result,
+        }
+
+    except LabBusyError as exc:
+        raise HTTPException(
+            status_code=409,
+            detail={
+                "ok": False,
+                "error": "LabBusyError",
+                "message": str(exc),
+            },
+        )
 
     except Exception as exc:
         raise HTTPException(
@@ -252,5 +278,49 @@ def get_project(project_id: str):
         )
 
 
+@app.get("/")
+def serve_index():
+    index_path = STATIC_DIR / "index.html"
+    graph_path = STATIC_DIR / "graph_sigma.html"
+
+    if index_path.exists():
+        return FileResponse(str(index_path))
+
+    if graph_path.exists():
+        return FileResponse(str(graph_path))
+
+    return {
+        "ok": True,
+        "message": "FastAPI running, but static/index.html or static/graph_sigma.html was not found.",
+    }
+
+
+@app.get("/graph")
+def serve_graph():
+    graph_path = STATIC_DIR / "graph_sigma.html"
+
+    if graph_path.exists():
+        return FileResponse(str(graph_path))
+
+    return {
+        "ok": False,
+        "error": "static/graph_sigma.html not found",
+    }
+
+
+@app.get("/nobel_map.html")
+def serve_nobel_map():
+    nobel_path = STATIC_DIR / "nobel_map.html"
+
+    if nobel_path.exists():
+        return FileResponse(str(nobel_path))
+
+    return {
+        "ok": False,
+        "error": "static/nobel_map.html not found",
+    }
+
+
 if STATIC_DIR.exists():
-    app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="static")
+    app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
+    app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="static-root")

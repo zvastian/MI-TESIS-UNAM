@@ -33,13 +33,13 @@ const bloomDescriptions = {
 };
 
 const loadingSteps = [
-  ["Analizando tu idea", "Interpretando núcleo temático."],
-  ["Ubicando tesis similares", "Buscando afinidades semánticas."],
-  ["Reordenando antecedentes", "Priorizando tesis útiles para tu proyecto."],
-  ["Analizando objetivos", "Leyendo progresión cognitiva."],
-  ["Formulando preguntas", "Construyendo rutas de investigación."],
-  ["Buscando asesores", "Ordenando afinidades temáticas e históricas."],
-  ["Preparando salida", "Consolidando el análisis completo."]
+  ["Leyendo tu proyecto", "Identificando problema, objetos y alcance."],
+  ["Abriendo el archivo UNAM", "Buscando vecindades semánticas entre tesis."],
+  ["Trazando conversaciones", "Ordenando antecedentes cercanos por utilidad académica."],
+  ["Revisando objetivos", "Reconociendo la arquitectura intelectual del proyecto."],
+  ["Formulando rutas", "Construyendo preguntas posibles de investigación."],
+  ["Buscando interlocutores", "Detectando trayectorias académicas relacionadas."],
+  ["Cerrando la lectura", "Preparando una salida legible y navegable."]
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -55,6 +55,27 @@ document.addEventListener("DOMContentLoaded", () => {
 function $(id) {
   return document.getElementById(id);
 }
+
+
+/* NODO LAB EDITORIAL PATCH V1 — JS helpers */
+function revealInitialReadingImmediately() {
+  const container = $("initialReadingSequence");
+  if (!container) return;
+
+  const steps = Array.from(container.querySelectorAll("[data-initial-step]"));
+  steps.forEach(step => {
+    step.classList.add("visible");
+    const targets = Array.from(step.querySelectorAll("[data-typewriter]"));
+    targets.forEach(target => {
+      if (target.dataset.fullText) {
+        target.textContent = target.dataset.fullText;
+      }
+      target.classList.remove("typing");
+    });
+  });
+}
+/* END NODO LAB EDITORIAL PATCH V1 — JS helpers */
+
 
 
 async function maybeLoadLabFixture() {
@@ -361,12 +382,12 @@ function renderAll() {
 
 function renderTimeline() {
   const steps = [
-    ["01", "Lectura inicial"],
-    ["02", "Ubicación en UNAM"],
-    ["03", "Tesis cercanas"],
-    ["04", "Objetivos"],
-    ["05", "Preguntas"],
-    ["06", "Asesores"]
+    ["I", "Lectura"],
+    ["II", "Cartografía"],
+    ["III", "Conversaciones"],
+    ["IV", "Andamiaje"],
+    ["V", "Preguntas de investigación"],
+    ["VI", "Interlocutores"]
   ];
 
   $("timeline").innerHTML = steps.map(step => `
@@ -382,7 +403,7 @@ function renderInitialNote() {
   const note = results.initial_note || {};
   const root = note.initial_note || note.conceptual_interpretation || note;
 
-  const title = root.title || "Comprendí tu tesis así";
+  const title = root.title || "Una primera lectura de tu proyecto";
   const hasStructuredNote = Boolean(
     root.central_problem ||
     root.main_objects ||
@@ -401,7 +422,7 @@ function renderInitialNote() {
     $("moduleInitial").innerHTML = `
       <div class="module-head">
         <div>
-          <p class="eyebrow">Lectura inicial</p>
+          <p class="eyebrow">Lectura del proyecto</p>
           <h2>${escapeHtml(title)}</h2>
         </div>
       </div>
@@ -461,12 +482,12 @@ function renderInitialNote() {
       </div>
     `;
 
-    animateInitialReading();
+    revealInitialReadingImmediately();
     return;
   }
 
   // Fallback para outputs viejos
-  const legacyTitle = root.title || "Lectura inicial";
+  const legacyTitle = root.title || "Lectura del proyecto";
   const summary = root.paragraph || root.summary || root.initial_reading || root.interpretation || root.conceptual_reading || root.note || "";
   const reformulation = root.one_sentence_reframe || root.reformulation || root.reformulated_title || root.reformulated_project || "";
   const routes = root.possible_angles || root.routes || root.possible_routes || root.research_routes || [];
@@ -474,7 +495,7 @@ function renderInitialNote() {
   $("moduleInitial").innerHTML = `
     <div class="module-head">
       <div>
-        <p class="eyebrow">Lectura inicial</p>
+        <p class="eyebrow">Lectura del proyecto</p>
         <h2>${escapeHtml(legacyTitle)}</h2>
       </div>
     </div>
@@ -570,8 +591,8 @@ function renderSemantic() {
     module.innerHTML = `
       <div class="module-head">
         <div>
-          <p class="eyebrow">Ubicación en UNAM</p>
-          <h2>Aquí se encuentra tu tesis</h2>
+          <p class="eyebrow">Cartografía semántica</p>
+          <h2>Tu proyecto dentro del archivo UNAM</h2>
         </div>
       </div>
 
@@ -603,8 +624,8 @@ function renderSemantic() {
   module.innerHTML = `
     <div class="module-head">
       <div>
-        <p class="eyebrow">Ubicación en UNAM</p>
-        <h2>Aquí se encuentra tu tesis</h2>
+        <p class="eyebrow">Cartografía semántica</p>
+        <h2>Tu proyecto dentro del archivo UNAM</h2>
       </div>
     </div>
 
@@ -626,7 +647,7 @@ function renderSemantic() {
       </div>
 
       <div class="lab-atlas-current-view">
-        <span>Top ${escapeHtml(String(topCount))} tesis cercanas</span>
+        <span>${escapeHtml(String(topCount))} tesis cercanas</span>
       </div>
 
       <label class="lab-atlas-control">
@@ -644,7 +665,7 @@ function renderSemantic() {
     <div class="lab-atlas-sigma-shell">
       <div class="lab-atlas-overlay">
         <div class="lab-atlas-overlay-card">
-          <span>Territorio inferido</span>
+          <span>Territorio semántico</span>
           <strong>${escapeHtml(microLabel)}</strong>
         </div>
       </div>
@@ -654,9 +675,9 @@ function renderSemantic() {
     <div class="lab-atlas-tooltip" id="labAtlasTooltip"></div>
 
     <div class="lab-atlas-detail" id="labAtlasDetail">
-      <p class="lab-mini-label">Selecciona una tesis del mapa</p>
-      <strong>Explora la evidencia</strong>
-      <p>En modo universo verás la ubicación narrativa; en modo analítico verás cómo se compone el vecindario cercano.</p>
+      <p class="lab-mini-label">Selecciona un punto del mapa</p>
+      <strong>Explora la conversación</strong>
+      <p>El mapa muestra el vecindario semántico que sostiene esta lectura. Cada punto abre una posible relación académica.</p>
     </div>
   `;
 
@@ -702,8 +723,8 @@ function renderTheses() {
   $("moduleTheses").innerHTML = `
     <div class="module-head">
       <div>
-        <p class="eyebrow">Tesis afines</p>
-        <h2>Tesis más útiles para tu proyecto</h2>
+        <p class="eyebrow">Conversaciones cercanas</p>
+        <h2>Tesis que dialogan con tu proyecto</h2>
       </div>
     </div>
     <div class="card-grid">
@@ -742,14 +763,13 @@ function renderBloom() {
   $("moduleBloom").innerHTML = `
     <div class="module-head">
       <div>
-        <p class="eyebrow">Objetivos Bloom</p>
-        <h2>Tus objetivos, analizados</h2>
+        <p class="eyebrow">Andamiaje intelectual</p>
+        <h2>Cómo piensa tu proyecto</h2>
       </div>
     </div>
 
     <p class="bloom-intro">
-      El laboratorio revisó tus objetivos como una progresión cognitiva: qué operaciones intelectuales ya aparecen,
-      dónde hay saltos y qué nivel conviene reforzar.
+      El laboratorio leyó tus objetivos como una arquitectura de pensamiento: qué operaciones intelectuales ya están presentes, qué pasos faltan y dónde puede ganar profundidad tu investigación.
     </p>
 
     ${buildBloomPyramidCleanHtml(activeLevels, missingLevels)}
@@ -916,8 +936,8 @@ function renderQuestions() {
   $("moduleQuestions").innerHTML = `
     <div class="module-head">
       <div>
-        <p class="eyebrow">Preguntas</p>
-        <h2>${escapeHtml(root.title || "Preguntas de investigación")}</h2>
+        <p class="eyebrow">Preguntas de investigación</p>
+        <h2>${escapeHtml(root.title || "Preguntas de investigación de investigación")}</h2>
       </div>
     </div>
     <div class="card-grid">
@@ -937,33 +957,241 @@ function renderQuestions() {
 
 function renderAdvisors() {
   const advisors = (state.data.results || {}).advisors || {};
-  const root = advisors.advisor_recommendations || advisors;
-  const items = root.items || [];
+
+  // Soporta:
+  // 1) output completo: { output: { advisor_recommendations: {...} } }
+  // 2) output normalizado: { advisor_recommendations: {...} }
+  // 3) fallback viejo: { items: [...] }
+  const root =
+    advisors.output?.advisor_recommendations ||
+    advisors.advisor_recommendations ||
+    advisors.output ||
+    advisors;
+
+  const items = Array.isArray(root.items) ? root.items : [];
+  const topThree = items.slice(0, 3);
+  const tableItems = items.slice(0, 15);
 
   $("moduleAdvisors").innerHTML = `
     <div class="module-head">
       <div>
-        <p class="eyebrow">Asesores</p>
-        <h2>${escapeHtml(root.title || "Asesores relacionados")}</h2>
+        <p class="eyebrow">Interlocutores académicos</p>
+        <h2>Estos son los asesores con los trabajos más similares al tuyo</h2>
       </div>
     </div>
-    <div class="card-grid">
-      ${items.map(item => `
-        <article class="advisor-card">
-          <strong>${item.rank ? `${item.rank}. ` : ""}${escapeHtml(item.advisor_name || item.name || item.advisor_id)}</strong>
-          <div class="pill-row">
-            ${(item.programs || []).map(program => `<span class="pill">${escapeHtml(program)}</span>`).join("")}
-            ${item.last_year ? `<span class="pill">Último año: ${escapeHtml(item.last_year)}</span>` : ""}
-          </div>
-          ${(item.representative_titles || []).slice(0, 2).map(title => `
-            <p class="source-line">Tesis relacionada: ${escapeHtml(title)}</p>
-          `).join("")}
-        </article>
-      `).join("") || `<p>No se recibieron asesores relacionados.</p>`}
-    </div>
+
+    <p class="advisors-intro">
+      Esta lectura no es una recomendación institucional ni una asignación formal de dirección.
+      Es una forma de explorar trayectorias académicas reales que aparecen cerca de tu proyecto por similitud temática.
+    </p>
+
+    ${topThree.length ? `
+      <div class="advisor-top-grid">
+        ${topThree.map(item => buildAdvisorTopCard(item)).join("")}
+      </div>
+    ` : `<p>No se recibieron asesores relacionados.</p>`}
+
+    ${tableItems.length ? `
+      <details class="advisor-full-list">
+        <summary>Ver listado completo</summary>
+
+        <div class="advisor-table-wrap">
+          <table class="advisor-table">
+            <thead>
+              <tr>
+                <th>Asesor</th>
+                <th>Programa</th>
+                <th>Último año</th>
+                <th>Tesis cercanas</th>
+                <th>Trayectoria</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${tableItems.map(item => buildAdvisorTableRow(item)).join("")}
+            </tbody>
+          </table>
+        </div>
+      </details>
+    ` : ""}
+
     ${root.disclaimer ? `<p class="meta">${escapeHtml(root.disclaimer)}</p>` : ""}
   `;
 }
+
+function buildAdvisorTopCard(item) {
+  const name = item.advisor_name || item.name || item.advisor_id || "Asesor sin nombre";
+  const theses = getAdvisorTheses(item).slice(0, 3);
+  const programs = Array.isArray(item.programs) ? item.programs : [];
+
+  return `
+    <article class="advisor-profile-card">
+      <div class="advisor-profile-head">
+        <span>${item.rank ? `#${escapeHtml(item.rank)}` : "Asesor"}</span>
+        <h3>${escapeHtml(name)}</h3>
+      </div>
+
+      <p class="advisor-why">
+        ${escapeHtml(buildAdvisorWhy(item))}
+      </p>
+
+      <div class="advisor-metrics">
+        <div>
+          <strong>${escapeHtml(item.related_thesis_count ?? item.related_thesis_count_top50 ?? "—")}</strong>
+          <span>Tesis cercanas</span>
+        </div>
+        <div>
+          <strong>${escapeHtml(item.global_advised_count_sample ?? "—")}</strong>
+          <span>Tesis asesoradas</span>
+        </div>
+        <div>
+          <strong>${escapeHtml(item.last_year ?? "—")}</strong>
+          <span>Último año</span>
+        </div>
+      </div>
+
+      ${buildAdvisorLevelCounts(item)}
+
+      ${programs.length ? `
+        <div class="pill-row advisor-pills">
+          ${programs.slice(0, 4).map(program => `<span class="pill">${escapeHtml(program)}</span>`).join("")}
+        </div>
+      ` : ""}
+
+      ${theses.length ? `
+        <div class="advisor-thesis-list">
+          <h4>Tesis similares asesoradas</h4>
+          ${theses.map(thesis => buildAdvisorThesisItem(thesis)).join("")}
+        </div>
+      ` : ""}
+    </article>
+  `;
+}
+
+function buildAdvisorWhy(item) {
+  const near = item.related_thesis_count ?? item.related_thesis_count_top50;
+  const global = item.global_advised_count_sample;
+  const cluster = item.global_main_cluster_count_sample;
+  const lastYear = item.last_year;
+
+  const parts = [];
+
+  if (near) parts.push(`aparece por ${near} tesis cercanas al vecindario de tu proyecto`);
+  if (cluster) parts.push(`${cluster} trabajos dentro del mismo territorio semántico`);
+  if (global) parts.push(`${global} tesis asesoradas en la muestra`);
+  if (lastYear) parts.push(`actividad registrada hasta ${lastYear}`);
+
+  return parts.length
+    ? parts.join("; ") + "."
+    : "Aparece por la cercanía temática entre tesis asesoradas y tu proyecto.";
+}
+
+function getAdvisorTheses(item) {
+  if (Array.isArray(item.representative_theses) && item.representative_theses.length) {
+    return item.representative_theses;
+  }
+
+  if (Array.isArray(item.similar_theses) && item.similar_theses.length) {
+    return item.similar_theses;
+  }
+
+  if (Array.isArray(item.representative_titles)) {
+    return item.representative_titles.map(title => ({ title }));
+  }
+
+  return [];
+}
+
+function buildAdvisorThesisItem(thesis) {
+  const title = thesis.title || thesis.thesis_title || thesis.titulo || thesis;
+  const meta = [
+    thesis.program,
+    thesis.degree,
+    thesis.year,
+    thesis.plantel
+  ].filter(Boolean);
+
+  const similarity = thesis.similarity != null
+    ? `<span>Similitud ${escapeHtml(Number(thesis.similarity).toFixed(4))}</span>`
+    : "";
+
+  return `
+    <div class="advisor-thesis-item">
+      <p>${escapeHtml(title)}</p>
+      ${meta.length || similarity ? `
+        <small>
+          ${meta.map(x => escapeHtml(x)).join(" · ")}
+          ${similarity}
+        </small>
+      ` : ""}
+    </div>
+  `;
+}
+
+function buildAdvisorLevelCounts(item) {
+  const counts = item.level_counts || item.degree_counts || {};
+  const entries = Object.entries(counts)
+    .filter(([, value]) => Number(value) > 0)
+    .sort((a, b) => Number(b[1]) - Number(a[1]))
+    .slice(0, 5);
+
+  if (!entries.length) return "";
+
+  const total = entries.reduce((sum, [, value]) => sum + Number(value || 0), 0) || 1;
+
+  return `
+    <div class="advisor-level-counts">
+      <h4>Tesis por nivel</h4>
+      <div class="advisor-level-bars">
+        ${entries.map(([level, value]) => {
+          const n = Number(value || 0);
+          const pct = Math.max(8, Math.round((n / total) * 100));
+
+          return `
+            <div class="advisor-level-row">
+              <div class="advisor-level-label">
+                <span>${escapeHtml(level)}</span>
+                <strong>${escapeHtml(n)}</strong>
+              </div>
+              <div class="advisor-level-track">
+                <i style="width:${pct}%"></i>
+              </div>
+            </div>
+          `;
+        }).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function buildAdvisorTableRow(item) {
+  const name = item.advisor_name || item.name || item.advisor_id || "Asesor sin nombre";
+  const programs = Array.isArray(item.programs) ? item.programs.join(", ") : "";
+  const theses = getAdvisorTheses(item);
+  const firstThesis = theses[0];
+
+  return `
+    <tr>
+      <td>
+        <strong>${item.rank ? `${escapeHtml(item.rank)}. ` : ""}${escapeHtml(name)}</strong>
+      </td>
+      <td>${escapeHtml(programs || "—")}</td>
+      <td>${escapeHtml(item.last_year || "—")}</td>
+      <td>${escapeHtml(item.related_thesis_count ?? item.related_thesis_count_top50 ?? theses.length ?? "—")}</td>
+      <td>
+        <details class="advisor-row-detail">
+          <summary>Ver más</summary>
+          <div>
+            <p>${escapeHtml(buildAdvisorWhy(item))}</p>
+            ${buildAdvisorLevelCounts(item)}
+            ${firstThesis ? buildAdvisorThesisItem(firstThesis) : ""}
+          </div>
+        </details>
+      </td>
+    </tr>
+  `;
+}
+
+
 
 function renderLocationPlaceholder() {
   // La ubicación en UNAM ahora vive dentro de renderSemantic(),
