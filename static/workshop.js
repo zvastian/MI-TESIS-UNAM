@@ -538,7 +538,14 @@
     `;
   }
 
+
+  function forceWorkshopTitlesMode() {
+    document.body.classList.remove("workshop-analysis-mode");
+    document.body.classList.add("workshop-titles-mode");
+  }
+
   function renderReport(report) {
+  forceWorkshopTitlesMode();
   state.report = report;
 
   const resultMode = $("#workshopResultMode");
@@ -568,14 +575,13 @@
   renderTable(report.tables?.top_theses || []);
   renderMethod(report.method);
 
-  document.body.classList.add("workshop-has-results");
-
   setStatus("Consulta completada", `${formatNumber(report.summary.total_matches)} tesis encontradas.`);
 
   // No forzamos scroll aquí: el usuario debe poder recorrer libremente el dashboard.
 }
 
   async function runSearch() {
+    forceWorkshopTitlesMode();
     if (state.exploreMode === "semantic") {
       setStatus("Búsqueda semántica pendiente", "Todavía falta conectar embeddings/FAISS.", "normal");
       return;
@@ -592,6 +598,8 @@
 
     try {
       state.loading = true;
+      forceWorkshopTitlesMode();
+      document.body.classList.add("workshop-has-results");
       if (button) button.disabled = true;
       setStatus("Consultando backend", "Ejecutando DuckDB sobre thesis_lookup.parquet…");
 
@@ -1555,29 +1563,34 @@
   }
 
   function detectWorkshopAnalysisModeFromActiveElements() {
-    const tallerPanel = getWorkshopTallerPanel();
+    const tallerPanel = document.querySelector('.tab-panel[data-panel="taller"]');
     if (!tallerPanel) return false;
 
-    const activeSelectors = [
-      ".is-active",
-      ".active",
-      "[aria-selected='true']",
-      "[data-active='true']"
-    ].join(",");
+    // Fuente de verdad: sólo la navegación interna del Taller.
+    // No leer .is-active dentro de #workshopAnalysisLab, porque la Mesa
+    // tiene su propia nav de plantillas (.wa2-nav-item.is-active).
+    const activeSectionButton = tallerPanel.querySelector(
+      '.workshop-nav-btn[data-ws-section].is-active, [data-ws-section].is-active'
+    );
 
-    const activeText = [...tallerPanel.querySelectorAll(activeSelectors)]
-      .map(el => normalizeWorkshopModeText(el.textContent))
-      .join(" ");
-
-    if (activeText.includes("mesa") || activeText.includes("analisis")) {
-      return true;
+    if (activeSectionButton) {
+      return activeSectionButton.dataset.wsSection === "analysis";
     }
 
-    if (activeText.includes("titulos") || activeText.includes("explorar")) {
-      return false;
-    }
+    const checkedAnalysisButton = tallerPanel.querySelector(
+      '.workshop-nav-btn[data-ws-section="analysis"][aria-selected="true"]'
+    );
 
-    return document.body.classList.contains("workshop-analysis-mode");
+    if (checkedAnalysisButton) return true;
+
+    const checkedTitlesButton = tallerPanel.querySelector(
+      '.workshop-nav-btn[data-ws-section="explore"][aria-selected="true"], .workshop-nav-btn[data-ws-section="titles"][aria-selected="true"]'
+    );
+
+    if (checkedTitlesButton) return false;
+
+    // Fallback conservador: si no hay botón activo claro, Títulos.
+    return false;
   }
 
   function setWorkshopAnalysisMode(isAnalysis) {
