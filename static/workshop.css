@@ -6299,3 +6299,332 @@ body[data-tab="taller"] .wct-clear-selection:disabled {
   opacity: .36;
   cursor: default;
 }
+
+
+/* WCT PLAIN STAGE BACKGROUND */
+
+body[data-tab="taller"] .wct-stage,
+body[data-tab="taller"] .wct-chart-frame {
+  background-image: none !important;
+}
+
+body[data-tab="taller"] .wct-stage {
+  background: rgba(255,255,255,.78) !important;
+}
+
+body[data-tab="taller"] .wct-chart-frame {
+  background: transparent !important;
+}
+
+
+/* WCT ECHART PLAIN BACKGROUND */
+
+body[data-tab="taller"] .wct-echart {
+  background-image: none !important;
+  background: transparent !important;
+}
+
+
+/* WCT SINGLE SURFACE FULLSCREEN */
+
+body[data-tab="taller"] .wct-shell {
+  min-height: calc(100vh - 56px) !important;
+}
+
+body[data-tab="taller"] .wct-main {
+  min-height: calc(100vh - 56px) !important;
+  height: calc(100vh - 56px) !important;
+  grid-template-rows: minmax(0, 1fr) auto !important;
+  gap: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: rgba(255,255,255,.72) !important;
+}
+
+body[data-tab="taller"] .wct-stage {
+  min-height: 0 !important;
+  height: auto !important;
+  border: 0 !important;
+  border-left: 1px solid rgba(7,29,56,.14) !important;
+  border-right: 1px solid rgba(7,29,56,.14) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+}
+
+body[data-tab="taller"] .wct-chart-frame {
+  min-height: 0 !important;
+  height: 100% !important;
+  padding: 14px 18px 6px !important;
+  grid-template-rows: auto minmax(0, 1fr) !important;
+}
+
+body[data-tab="taller"] .wct-chart-head {
+  margin-bottom: 6px !important;
+}
+
+body[data-tab="taller"] .wct-echart {
+  min-height: 0 !important;
+  height: 100% !important;
+  margin: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 0 !important;
+}
+
+body[data-tab="taller"] .wct-chart-note {
+  display: none !important;
+}
+
+body[data-tab="taller"] .wct-controls {
+  border: 0 !important;
+  border-top: 1px solid rgba(7,29,56,.16) !important;
+  border-left: 1px solid rgba(7,29,56,.14) !important;
+  border-right: 1px solid rgba(7,29,56,.14) !important;
+  background: rgba(255,255,255,.88) !important;
+  padding: 10px 14px 12px !important;
+  gap: 8px !important;
+  box-shadow: none !important;
+}
+
+body[data-tab="taller"] .wct-sidebar {
+  min-height: calc(100vh - 56px) !important;
+}
+
+body[data-tab="taller"] .tab-shell,
+body[data-tab="taller"] .tab-panel[data-panel="taller"],
+body[data-tab="taller"] #workshopCuratedTools {
+  min-height: calc(100vh - 56px) !important;
+  height: calc(100vh - 56px) !important;
+  overflow: hidden !important;
+}
+
+
+/* WCT FULL HEIGHT LAYOUT REBALANCE */
+
+body[data-tab="taller"] {
+  --wct-top-nav: 58px;
+  --wct-controls-height: 132px;
+}
+
+body[data-tab="taller"] .tab-shell,
+body[data-tab="taller"] .tab-panel[data-panel="taller"],
+body[data-tab="taller"] #workshopCuratedTools,
+body[data-tab="taller"] .wct-shell {
+  height: calc(100vh - var(--wct-top-nav)) !important;
+  min-height: calc(100vh - var(--wct-top-nav)) !important;
+  max-height: calc(100vh - var(--wct-top-nav)) !important;
+  overflow: hidden !important;
+}
+
+body[data-tab="taller"] .wct-shell {
+  grid-template-columns: 170px minmax(0, 1fr) !important;
+}
+
+body[data-tab="taller"] .wct-sidebar {
+  height: calc(100vh - var(--wct-top-nav)) !important;
+  min-height: calc(100vh - var(--wct-top-nav)) !important;
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
+
+body[data-tab="taller"] .wct-main {
+  height: calc(100vh - var(--wct-top-nav)) !important;
+  min-height: calc(100vh - var(--wct-top-nav)) !important;
+  max-height: calc(100vh - var(--wct-top-nav)) !important;
+  grid-template-rows: minmax(0, calc(100vh - var(--wct-top-nav) - var(--wct-controls-height))) var(--wct-controls-height) !important;
+  gap: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+body[data-tab="taller"] .wct-stage {
+  height: calc(100vh - var(--wct-top-nav) - var(--wct-controls-height)) !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+
+body[data-tab="taller"] .wct-chart-frame {
+  height: 100% !important;
+  min-height: 0 !important;
+  padding: 8px 14px 0 !important;
+  grid-template-rows: auto minmax(0, 1fr) !important;
+}
+
+body[data-tab="taller"] .wct-chart-head {
+  min-height: 18px !important;
+  margin-bottom: 2px !important;
+}
+
+body[data-tab="taller"] .wct-echart {
+  height: 100% !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+}
+
+body[data-tab="taller"] .wct-controls {
+  height: var(--wct-controls-height) !important;
+  min-height: var(--wct-controls-height) !important;
+  align-content: center !important;
+  align-items: center !important;
+  padding: 10px 14px !important;
+  grid-template-columns: 150px 200px minmax(170px, 230px) minmax(240px, 1fr) 72px 150px 150px !important;
+}
+
+body[data-tab="taller"] .wct-control-summary {
+  align-self: center !important;
+}
+
+body[data-tab="taller"] .wct-control-summary strong {
+  font-size: 18px !important;
+}
+
+body[data-tab="taller"] .wct-year-control {
+  grid-column: auto !important;
+}
+
+body[data-tab="taller"] .wct-year-readout {
+  align-self: center !important;
+}
+
+body[data-tab="taller"] .wct-run,
+body[data-tab="taller"] .wct-clear-selection {
+  align-self: end !important;
+}
+
+
+/* WCT NO DOUBLE NAV SUBTRACT */
+
+body[data-tab="taller"] {
+  --wct-top-nav: 0px !important;
+}
+
+body[data-tab="taller"] .tab-shell,
+body[data-tab="taller"] .tab-panel[data-panel="taller"],
+body[data-tab="taller"] #workshopCuratedTools,
+body[data-tab="taller"] .wct-shell,
+body[data-tab="taller"] .wct-sidebar,
+body[data-tab="taller"] .wct-main {
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+}
+
+body[data-tab="taller"] .wct-main {
+  grid-template-rows: minmax(0, calc(100vh - var(--wct-controls-height))) var(--wct-controls-height) !important;
+}
+
+body[data-tab="taller"] .wct-stage {
+  height: calc(100vh - var(--wct-controls-height)) !important;
+}
+
+
+/* WCT NO DOUBLE NAV SUBTRACT */
+
+body[data-tab="taller"] {
+  --wct-top-nav: 0px !important;
+}
+
+body[data-tab="taller"] .tab-shell,
+body[data-tab="taller"] .tab-panel[data-panel="taller"],
+body[data-tab="taller"] #workshopCuratedTools,
+body[data-tab="taller"] .wct-shell,
+body[data-tab="taller"] .wct-sidebar,
+body[data-tab="taller"] .wct-main {
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+}
+
+body[data-tab="taller"] .wct-main {
+  grid-template-rows: minmax(0, calc(100vh - var(--wct-controls-height))) var(--wct-controls-height) !important;
+}
+
+body[data-tab="taller"] .wct-stage {
+  height: calc(100vh - var(--wct-controls-height)) !important;
+}
+
+
+/* WCT TOP BREATHING ROOM */
+
+body[data-tab="taller"] .wct-sidebar {
+  padding-top: 28px !important;
+}
+
+body[data-tab="taller"] .wct-chart-frame {
+  padding-top: 24px !important;
+}
+
+body[data-tab="taller"] .wct-chart-head {
+  margin-bottom: 10px !important;
+}
+
+body[data-tab="taller"] .wct-stage {
+  padding-top: 0 !important;
+}
+
+
+/* WCT CONTROLS COMPACT FIT */
+
+body[data-tab="taller"] {
+  --wct-controls-height: 118px !important;
+}
+
+body[data-tab="taller"] .wct-main {
+  grid-template-rows: minmax(0, calc(100vh - var(--wct-controls-height))) var(--wct-controls-height) !important;
+}
+
+body[data-tab="taller"] .wct-stage {
+  height: calc(100vh - var(--wct-controls-height)) !important;
+}
+
+body[data-tab="taller"] .wct-chart-frame {
+  padding: 18px 26px 0 18px !important;
+}
+
+body[data-tab="taller"] .wct-controls {
+  height: var(--wct-controls-height) !important;
+  min-height: var(--wct-controls-height) !important;
+  padding: 10px 24px 12px 14px !important;
+  grid-template-columns:
+    minmax(120px, 150px)
+    minmax(150px, 190px)
+    minmax(170px, 210px)
+    minmax(220px, 1fr)
+    74px
+    minmax(116px, 140px)
+    minmax(118px, 150px) !important;
+  column-gap: 8px !important;
+  overflow: hidden !important;
+}
+
+body[data-tab="taller"] .wct-control select {
+  height: 32px !important;
+}
+
+body[data-tab="taller"] .wct-year-control input[type="range"] {
+  height: 28px !important;
+}
+
+body[data-tab="taller"] .wct-run,
+body[data-tab="taller"] .wct-clear-selection {
+  height: 32px !important;
+  min-width: 0 !important;
+  padding: 0 10px !important;
+  white-space: nowrap !important;
+}
+
+body[data-tab="taller"] .wct-clear-selection {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+body[data-tab="taller"] .wct-control-summary strong,
+body[data-tab="taller"] .wct-year-readout strong {
+  font-size: 18px !important;
+}
+
+body[data-tab="taller"] .wct-area-filter label {
+  height: 20px !important;
+  padding: 0 6px !important;
+  margin-right: 3px !important;
+}

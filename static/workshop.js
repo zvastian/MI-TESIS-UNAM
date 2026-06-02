@@ -42,6 +42,15 @@
     "": "#9aa4ad"
   };
 
+  const LEVEL_COLORS = {
+    "LICENCIATURA": "#b8d8ba",
+    "ESPECIALIDAD": "#86b58f",
+    "MAESTRÍA": "#4f8f68",
+    "MAESTRIA": "#4f8f68",
+    "DOCTORADO": "#1f5f45",
+    "": "#86b58f"
+  };
+
   const DIMENSION_LABELS = {
     advisor: "Asesores",
     program: "Programas",
@@ -60,6 +69,7 @@
   let bubbleRenderAnimated = true;
   let bubbleDomains = null;
   let bubbleAreaFilter = new Set(["AREA 1", "AREA 2", "AREA 3", "AREA 4"]);
+  let bubbleLevelFilter = new Set(["LICENCIATURA", "ESPECIALIDAD", "MAESTRÍA", "MAESTRIA", "DOCTORADO"]);
   let bubbleSelectedIds = new Set();
 
   function cleanLegacy(tallerPanel) {
@@ -118,7 +128,12 @@
     shell.addEventListener("input", handleWorkshopInput);
     shell.addEventListener("change", handleWorkshopChange);
 
-    renderTool(activeTool);
+    activeTool = activeTool || "bubbles";
+    bubbleDimension = bubbleDimension || "advisor";
+
+    requestAnimationFrame(() => {
+      renderTool(activeTool);
+    });
   }
 
   function handleWorkshopClick(event) {
@@ -167,14 +182,34 @@
       return;
     }
 
+    if (event.target.matches("[data-bubble-level]")) {
+      const level = event.target.dataset.bubbleLevel;
+      if (event.target.checked) {
+        bubbleLevelFilter.add(level);
+      } else {
+        bubbleLevelFilter.delete(level);
+      }
+      scheduleBubbleRender(true);
+      return;
+    }
+
     if (event.target.id === "bubbleDimensionSelect") {
       bubbleDimension = event.target.value;
       bubbleData = null;
       bubbleDomains = null;
       bubbleAreaFilter = new Set(["AREA 1", "AREA 2", "AREA 3", "AREA 4"]);
+      bubbleLevelFilter = new Set(["LICENCIATURA", "ESPECIALIDAD", "MAESTRÍA", "MAESTRIA", "DOCTORADO"]);
       bubbleSelectedIds.clear();
       stopBubblePlayback();
+
+      if (bubbleChart) {
+        try { bubbleChart.dispose(); } catch (err) {}
+        bubbleChart = null;
+      }
+
+      renderBubbleShell();
       loadBubbleData();
+      return;
     }
   }
 
@@ -186,12 +221,50 @@
     });
 
     if (activeTool === "bubbles") {
+      if (bubbleChart) {
+        try { bubbleChart.dispose(); } catch (err) {}
+        bubbleChart = null;
+      }
+
       renderBubbleShell();
       loadBubbleData();
       return;
     }
 
     renderPlaceholderTool(activeTool);
+  }
+
+  function renderBubbleFilterControl() {
+    if (bubbleDimension === "level") {
+      return `
+        <fieldset class="wct-control wct-area-filter" data-filter-kind="level">
+          <legend>Nivel</legend>
+          ${[
+            ["LICENCIATURA", "Licenciatura"],
+            ["ESPECIALIDAD", "Especialidad"],
+            ["MAESTRÍA", "Maestría"],
+            ["DOCTORADO", "Doctorado"]
+          ].map(([value, label]) => `
+            <label>
+              <input type="checkbox" data-bubble-level="${value}" ${bubbleLevelFilter.has(value) || (value === "MAESTRÍA" && bubbleLevelFilter.has("MAESTRIA")) ? "checked" : ""} />
+              <span>${label}</span>
+            </label>
+          `).join("")}
+        </fieldset>
+      `;
+    }
+
+    return `
+      <fieldset class="wct-control wct-area-filter" data-filter-kind="area">
+        <legend>Área</legend>
+        ${["AREA 1", "AREA 2", "AREA 3", "AREA 4"].map(area => `
+          <label>
+            <input type="checkbox" data-bubble-area="${area}" ${bubbleAreaFilter.has(area) ? "checked" : ""} />
+            <span>${area.replace("AREA", "Área")}</span>
+          </label>
+        `).join("")}
+      </fieldset>
+    `;
   }
 
   function renderBubbleShell() {
@@ -211,13 +284,6 @@
           <strong id="bubbleDimensionTitle">${DIMENSION_LABELS[bubbleDimension]}</strong>
         </div>
         <div class="wct-echart" id="bubbleChart"></div>
-        <div class="wct-chart-note">
-          <h2>Trayectorias acumuladas del acervo</h2>
-          <p>
-            X = antigüedad activa. Y = producción acumulada. Tamaño = producción acumulada.
-            Color = área principal. El año se controla abajo.
-          </p>
-        </div>
       </div>
     `;
 
@@ -237,15 +303,7 @@
         </select>
       </label>
 
-      <fieldset class="wct-control wct-area-filter">
-        <legend>Área</legend>
-        ${["AREA 1", "AREA 2", "AREA 3", "AREA 4"].map(area => `
-          <label>
-            <input type="checkbox" data-bubble-area="${area}" ${bubbleAreaFilter.has(area) ? "checked" : ""} />
-            <span>${area.replace("AREA", "Área")}</span>
-          </label>
-        `).join("")}
-      </fieldset>
+      ${renderBubbleFilterControl()}
 
       <label class="wct-control wct-year-control">
         <span>Año</span>
@@ -466,15 +524,30 @@
         borderColor: "rgba(7,29,56,.16)",
         formatter(params) {
           const d = params.data.raw;
+          const name = formatBubbleEntityLabel(d.label);
+          const firstYear = d.first_year || "inicio";
+          const lastYear = d.last_year || bubbleYear;
+          const program = formatBubbleEntityLabel(d.main_program || "SIN DATO");
+          const plantel = formatBubbleEntityLabel(d.main_plantel || "SIN DATO");
+          const area = d.main_area || "SIN DATO";
+          const level = formatBubbleEntityLabel(d.main_level || "");
+
           return `
-            <strong>${escapeHTML(d.label)}</strong><br/>
-            Año: ${bubbleYear}<br/>
-            Producción acumulada: ${formatNumber(d.cumulative)}<br/>
-            Tesis del año: ${formatNumber(d.year_count)}<br/>
-            Antigüedad activa: ${formatNumber(d.active_age)} años<br/>
-            Área: ${escapeHTML(d.main_area || "SIN DATO")}<br/>
-            Programa: ${escapeHTML(d.main_program || "SIN DATO")}<br/>
-            Plantel: ${escapeHTML(d.main_plantel || "SIN DATO")}
+            <div class="wct-tooltip">
+              <strong>${escapeHTML(name)}</strong>
+              <div class="wct-tooltip-main">
+                ${formatNumber(d.cumulative)} tesis acumuladas
+              </div>
+              <div>${formatNumber(d.year_count)} tesis en ${bubbleYear}</div>
+              <hr/>
+              <span>Actividad</span>
+              <div>${escapeHTML(firstYear)}-${escapeHTML(bubbleYear)}: ${formatNumber(d.active_age)} años activos</div>
+              <hr/>
+              <span>Contexto dominante</span>
+              <div>${escapeHTML(program)}</div>
+              <div>${escapeHTML(plantel)}</div>
+              <div>${escapeHTML(area)}${level ? `: ${escapeHTML(level)}` : ""}</div>
+            </div>
           `;
         }
       },
@@ -519,14 +592,14 @@
           const opacity = !hasSelection || isSelected ? 0.9 : 0.16;
 
           return {
-            id: d.id,
-            name: d.label,
+            id: `${bubbleDimension}:${d.id}`,
+            name: `${bubbleDimension}:${d.label}`,
             value: [d.active_age, d.cumulative],
-            raw: d,
+            raw: { ...d, stable_id: `${bubbleDimension}:${d.id}` },
             selected: isSelected,
             label: {
               show: isSelected,
-              formatter: d.label,
+              formatter: formatBubbleEntityLabel(d.label),
               position: "top",
               color: "#071d38",
               fontWeight: 800,
@@ -535,7 +608,7 @@
               padding: [2, 4]
             },
             itemStyle: {
-              color: AREA_COLORS[d.main_area] || AREA_COLORS[""],
+              color: getBubbleColor(d),
               opacity,
               borderColor: isSelected ? "#071d38" : "rgba(7,29,56,.24)",
               borderWidth: isSelected ? 2 : 1
@@ -572,7 +645,12 @@
     const points = [];
 
     for (const entity of data.entities || []) {
-      if (!bubbleAreaFilter.has(entity.main_area)) continue;
+      if (bubbleDimension === "level") {
+        const normalizedLevel = entity.main_level === "MAESTRIA" ? "MAESTRÍA" : entity.main_level;
+        if (!bubbleLevelFilter.has(normalizedLevel) && !bubbleLevelFilter.has(entity.main_level)) continue;
+      } else if (!bubbleAreaFilter.has(entity.main_area)) {
+        continue;
+      }
 
       const series = entity.series || [];
       let selected = null;
@@ -593,7 +671,9 @@
       });
     }
 
-    return points.sort((a, b) => String(a.id).localeCompare(String(b.id)));
+    return points.sort((a, b) =>
+      `${bubbleDimension}:${String(a.id)}`.localeCompare(`${bubbleDimension}:${String(b.id)}`)
+    );
   }
 
   function applyBubbleSelectionStyles() {
@@ -614,7 +694,7 @@
         label: {
           ...(item.label || {}),
           show: isSelected,
-          formatter: raw.label || item.name || "",
+          formatter: formatBubbleEntityLabel(raw.label || item.name || ""),
           position: "top",
           color: "#071d38",
           fontWeight: 800,
@@ -725,6 +805,14 @@
     return `<div class="wct-bars">${Array.from({length: 9}, (_, i) => `<b style="--w:${92 - i * 7}%"></b>`).join("")}</div>`;
   }
 
+  function getBubbleColor(d) {
+    if (bubbleDimension === "level") {
+      return LEVEL_COLORS[d.main_level] || LEVEL_COLORS[""];
+    }
+
+    return AREA_COLORS[d.main_area] || AREA_COLORS[""];
+  }
+
   function escapeHTML(value) {
     return String(value ?? "")
       .replaceAll("&", "&amp;")
@@ -732,6 +820,24 @@
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
+  }
+
+  function titleCaseName(value) {
+    return String(value || "")
+      .toLowerCase()
+      .split(/\s+/)
+      .filter(Boolean)
+      .map(part => {
+        if (["de", "del", "la", "las", "los", "y"].includes(part)) return part;
+        return part.charAt(0).toUpperCase() + part.slice(1);
+      })
+      .join(" ");
+  }
+
+  function formatBubbleEntityLabel(value) {
+    return titleCaseName(value)
+      .replace(/\s*,\s*/g, ", ")
+      .trim();
   }
 
   function formatNumber(value) {
