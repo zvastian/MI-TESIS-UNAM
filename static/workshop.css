@@ -6628,3 +6628,18 @@ body[data-tab="taller"] .wct-area-filter label {
   padding: 0 6px !important;
   margin-right: 3px !important;
 }
+
+
+/* WCT HARD HIDE OUTSIDE TALLER */
+
+body:not([data-tab="taller"]) #workshopCuratedTools,
+body:not([data-tab="taller"]) .wct-shell {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+body:not([data-tab="taller"]).workshop-curated-tools {
+  overflow: auto !important;
+}

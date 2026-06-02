@@ -844,11 +844,74 @@
     return new Intl.NumberFormat("es-MX").format(Number(value || 0));
   }
 
+  function cleanupWorkshopCuratedStateWhenInactive() {
+    if (document.body?.dataset?.tab === "taller") return;
+
+    stopBubblePlayback?.();
+
+    document.body.classList.remove(
+      "workshop-curated-tools",
+      "workshop-analysis-mode",
+      "workshop-titles-mode",
+      "workshop-has-results",
+      "workshop-space-create",
+      "workshop-space-graphs",
+      "workshop-studio-started"
+    );
+  }
+
+  function ensureInitialBubblesAdvisor() {
+    if (document.body?.dataset?.tab !== "taller") return;
+
+    const shell = document.getElementById("workshopCuratedTools");
+    const chart = document.getElementById("bubbleChart");
+    const select = document.getElementById("bubbleDimensionSelect");
+
+    if (!shell) {
+      mountWorkshopCuratedTools();
+      return;
+    }
+
+    if (activeTool !== "bubbles" || !chart || !select) {
+      activeTool = "bubbles";
+      bubbleDimension = "advisor";
+      renderTool("bubbles");
+      return;
+    }
+
+    if (!bubbleData) {
+      bubbleDimension = "advisor";
+      loadBubbleData();
+    }
+  }
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", mountWorkshopCuratedTools);
+    document.addEventListener("DOMContentLoaded", () => {
+      mountWorkshopCuratedTools();
+      setTimeout(ensureInitialBubblesAdvisor, 80);
+      setTimeout(ensureInitialBubblesAdvisor, 300);
+    });
   } else {
     mountWorkshopCuratedTools();
+    setTimeout(ensureInitialBubblesAdvisor, 80);
+    setTimeout(ensureInitialBubblesAdvisor, 300);
+  }
+
+  const workshopTabObserver = new MutationObserver(() => {
+    if (document.body?.dataset?.tab === "taller") {
+      setTimeout(ensureInitialBubblesAdvisor, 60);
+    } else {
+      cleanupWorkshopCuratedStateWhenInactive();
+    }
+  });
+
+  if (document.body) {
+    workshopTabObserver.observe(document.body, {
+      attributes: true,
+      attributeFilter: ["data-tab"]
+    });
   }
 
   window.mountWorkshopCuratedTools = mountWorkshopCuratedTools;
+  window.ensureInitialBubblesAdvisor = ensureInitialBubblesAdvisor;
 })();
