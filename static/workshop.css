@@ -1768,3 +1768,141 @@ body[data-tab="taller"].workshop-analysis-mode .wa2-table-card {
 }
 
 /* END WORKSHOP WA2 FINAL */
+
+/* WORKSHOP TITLES LAYOUT STABILITY
+   Evita saltos visuales cuando la búsqueda exacta carga resultados:
+   scrollbar reservado, grid estable y tablas/charts sin empujar el ancho.
+*/
+
+html,
+body,
+.tab-shell,
+.tab-panel[data-panel="taller"] {
+  scrollbar-gutter: stable;
+}
+
+body[data-tab="taller"].workshop-titles-mode .workshop,
+body[data-tab="taller"].workshop-titles-mode [data-workshop-root],
+body[data-tab="taller"].workshop-titles-mode .workshop-main {
+  min-width: 0;
+  max-width: 100%;
+}
+
+body[data-tab="taller"].workshop-titles-mode .workshop-card,
+body[data-tab="taller"].workshop-titles-mode .workshop-chart-card,
+body[data-tab="taller"].workshop-titles-mode .workshop-results,
+body[data-tab="taller"].workshop-titles-mode #workshopResults {
+  min-width: 0;
+  max-width: 100%;
+}
+
+body[data-tab="taller"].workshop-titles-mode .workshop-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+body[data-tab="taller"].workshop-titles-mode .workshop-table {
+  width: 100%;
+}
+
+body[data-tab="taller"].workshop-titles-mode .workshop-echart,
+body[data-tab="taller"].workshop-titles-mode [id*="Chart"] {
+  max-width: 100%;
+}
+
+/* END WORKSHOP TITLES LAYOUT STABILITY */
+
+/* WORKSHOP TITLES RESULT STABILITY
+   Evita que la llegada de resultados cambie geometría del Taller.
+   El estado workshop-has-results puede cambiar color/opacidad, pero no layout.
+*/
+
+html,
+body,
+.tab-shell,
+.tab-panel[data-panel="taller"] {
+  scrollbar-gutter: stable;
+}
+
+body[data-tab="taller"].workshop-titles-mode .workshop-result-head,
+body[data-tab="taller"].workshop-titles-mode .workshop-card,
+body[data-tab="taller"].workshop-titles-mode .workshop-table-card,
+body[data-tab="taller"].workshop-titles-mode .workshop-grid {
+  min-width: 0;
+  max-width: 100%;
+  transform: none;
+  animation: none;
+}
+
+body[data-tab="taller"].workshop-titles-mode.workshop-has-results .workshop-result-head,
+body[data-tab="taller"].workshop-titles-mode.workshop-has-results .workshop-card,
+body[data-tab="taller"].workshop-titles-mode.workshop-has-results .workshop-table-card {
+  transform: none;
+  animation: none;
+}
+
+body[data-tab="taller"].workshop-titles-mode .workshop-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+body[data-tab="taller"].workshop-titles-mode .workshop-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+body[data-tab="taller"].workshop-titles-mode .workshop-table th,
+body[data-tab="taller"].workshop-titles-mode .workshop-table td {
+  overflow-wrap: anywhere;
+}
+
+/* END WORKSHOP TITLES RESULT STABILITY */
+
+/* WORKSHOP MODE GUARD
+   La Mesa de análisis vive en el DOM del Taller, pero sólo debe verse
+   cuando el modo interno es workshop-analysis-mode. En Títulos, incluso
+   después de cargar resultados, queda completamente cerrada.
+*/
+
+body[data-tab="taller"] #workshopAnalysisLab,
+body[data-tab="taller"]:not(.workshop-analysis-mode) #workshopAnalysisLab,
+body[data-tab="taller"].workshop-titles-mode #workshopAnalysisLab,
+body:not([data-tab="taller"]) #workshopAnalysisLab {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+body[data-tab="taller"].workshop-analysis-mode #workshopAnalysisLab {
+  display: grid !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* workshop-has-results no puede cambiar layout ni revelar Mesa */
+body[data-tab="taller"].workshop-has-results:not(.workshop-analysis-mode) #workshopAnalysisLab {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+body[data-tab="taller"].workshop-titles-mode.workshop-has-results .workshop,
+body[data-tab="taller"].workshop-titles-mode.workshop-has-results [data-workshop-root],
+body[data-tab="taller"].workshop-titles-mode.workshop-has-results .workshop-main,
+body[data-tab="taller"].workshop-titles-mode.workshop-has-results .workshop-grid,
+body[data-tab="taller"].workshop-titles-mode.workshop-has-results .workshop-card,
+body[data-tab="taller"].workshop-titles-mode.workshop-has-results .workshop-table-card,
+body[data-tab="taller"].workshop-titles-mode.workshop-has-results .workshop-result-head {
+  transform: none !important;
+  animation: none !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+}
+
+html,
+body,
+.tab-shell,
+.tab-panel[data-panel="taller"] {
+  scrollbar-gutter: stable;
+}
+
+/* END WORKSHOP MODE GUARD */
