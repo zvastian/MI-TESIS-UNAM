@@ -44,3 +44,11 @@ def analyze_workshop(req: AnalysisRequest):
     svc = get_workshop_service()
     return svc.analyze(req)
 
+
+@router.get("/tools/bubbles")
+def workshop_tool_bubbles(dimension: str = "advisor", limit: int = 50):
+    try:
+        return get_workshop_service().tool_bubbles(dimension=dimension, limit=limit)
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+

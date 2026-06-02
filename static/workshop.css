@@ -4544,3 +4544,1699 @@ body[data-tab="taller"].workshop-space-create .ws3-canvas {
 }
 
 /* END WS4 TAB SHELL SCROLL FIX */
+
+/* WS4 EMPTY STATE SYSTEM STYLE */
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty {
+  color: #8a929d !important;
+  gap: 8px !important;
+  padding: 42px 24px !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty::before {
+  content: "i";
+  width: 28px;
+  height: 28px;
+  margin: 0 auto 8px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid rgba(120, 130, 142, .34);
+  border-radius: 999px;
+  color: rgba(100, 110, 122, .72);
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty .ws3-empty-image {
+  width: 88px !important;
+  max-height: 88px !important;
+  opacity: .28 !important;
+  filter: grayscale(1) contrast(.86) !important;
+  margin: 0 auto 4px !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty h3 {
+  margin: 0 !important;
+  color: rgba(82, 91, 103, .78) !important;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 17px !important;
+  font-weight: 300 !important;
+  line-height: 1.25 !important;
+  letter-spacing: .01em !important;
+  text-transform: none !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty p {
+  max-width: 300px !important;
+  margin: 0 auto !important;
+  color: rgba(103, 113, 126, .68) !important;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  line-height: 1.55 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty .ws3-empty-create {
+  margin-top: 12px !important;
+  min-height: 30px !important;
+  padding: 0 16px !important;
+  border: 1px solid rgba(112, 122, 134, .32) !important;
+  background: transparent !important;
+  color: rgba(76, 86, 99, .82) !important;
+  font-family: Inter, system-ui, sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  letter-spacing: .01em !important;
+  text-transform: none !important;
+}
+
+/* END WS4 EMPTY STATE SYSTEM STYLE */
+
+/* WS4 EMPTY STATE SYSTEM STYLE REFINEMENT */
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty::before {
+  content: none !important;
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty {
+  gap: 4px !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty .ws3-empty-image {
+  opacity: .46 !important;
+  filter: grayscale(1) contrast(.96) brightness(.82) !important;
+  margin-bottom: 6px !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty h3 {
+  margin-bottom: 0 !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty p {
+  margin-top: -2px !important;
+}
+
+/* END WS4 EMPTY STATE SYSTEM STYLE REFINEMENT */
+
+/* WS4 EMPTY IMAGE RECENTER */
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty {
+  justify-content: center !important;
+  transform: translateY(26px) !important;
+  gap: 5px !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty .ws3-empty-image {
+  width: 142px !important;
+  max-height: 142px !important;
+  opacity: .52 !important;
+  filter: grayscale(1) contrast(.98) brightness(.82) !important;
+  margin: 0 auto 18px !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty h3,
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty p,
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty .ws3-empty-create {
+  transform: none !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty h3 {
+  margin-top: 0 !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty p {
+  margin-top: -3px !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty .ws3-empty-create {
+  margin-top: 14px !important;
+}
+
+/* END WS4 EMPTY IMAGE RECENTER */
+
+/* WS4 EMPTY DOT FIELD */
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty,
+body[data-tab="taller"].workshop-space-graphs .ws3-canvas {
+  background-color: #f3f5f7 !important;
+  background-image: radial-gradient(circle, rgba(118, 128, 140, .22) 1px, transparent 1.2px) !important;
+  background-size: 18px 18px !important;
+  background-position: center !important;
+}
+
+/* END WS4 EMPTY DOT FIELD */
+
+/* WS4 EMPTY IMAGE MANUAL POSITION */
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty .ws3-empty-image {
+  transform: translate(-10px, 19px) !important;
+}
+
+/* END WS4 EMPTY IMAGE MANUAL POSITION */
+
+/* WS4 EMPTY TEXT SIZE FINAL */
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty > h3 {
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 1.2 !important;
+}
+
+body[data-tab="taller"].workshop-space-graphs #workshopStudioEmpty > p {
+  font-size: 10px !important;
+  font-weight: 300 !important;
+  line-height: 1.4 !important;
+}
+
+/* END WS4 EMPTY TEXT SIZE FINAL */
+
+/* LAB INTRO VISBUG ADJUST */
+
+body[data-tab="laboratorio"] .lab-title {
+  position: relative !important;
+  left: -4px !important;
+  top: -24px !important;
+}
+
+body[data-tab="laboratorio"] .lab-intro > p {
+  position: relative !important;
+  left: 1px !important;
+  top: 1px !important;
+}
+
+/* END LAB INTRO VISBUG ADJUST */
+
+/* LAB INTRO BEFORE UPPER */
+
+body[data-tab="laboratorio"] .lab-intro::before {
+  content: "LABORATORIO" !important;
+  font-size: 13px !important;
+  text-transform: uppercase !important;
+}
+
+/* END LAB INTRO BEFORE UPPER */
+
+/* WA2 CREATION COMPACT INSTRUMENT */
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab {
+  gap: 14px !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-builder.wa2-analysis-blocks {
+  width: min(860px, 100%) !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-mode-strip {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+  margin: 0 0 10px !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-mode-strip button {
+  min-height: 28px !important;
+  padding: 0 10px !important;
+  border: 1px solid rgba(16, 28, 44, .16) !important;
+  background: rgba(255,255,255,.72) !important;
+  color: #071d38 !important;
+  font-size: 9.5px !important;
+  font-weight: 800 !important;
+  letter-spacing: .035em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-mode-strip button.is-active {
+  background: #071d38 !important;
+  border-color: #071d38 !important;
+  color: #fff !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-blocks-head {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block-grid {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 8px !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block {
+  display: grid !important;
+  grid-template-columns: 116px minmax(0, 1fr) !important;
+  align-items: center !important;
+  gap: 10px 14px !important;
+  min-height: 0 !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(16, 28, 44, .12) !important;
+  background: rgba(255,255,255,.84) !important;
+  box-shadow: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block-index {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block > div {
+  min-width: 0 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block .eyebrow {
+  margin: 0 0 3px !important;
+  color: rgba(7, 29, 56, .42) !important;
+  font-size: 9px !important;
+  font-weight: 500 !important;
+  letter-spacing: .02em !important;
+  text-transform: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block h4 {
+  margin: 0 !important;
+  color: #071d38 !important;
+  font-size: 14px !important;
+  font-weight: 650 !important;
+  line-height: 1.05 !important;
+  letter-spacing: 0 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block label {
+  min-width: 0 !important;
+  display: grid !important;
+  gap: 5px !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block label > span {
+  color: rgba(7, 29, 56, .54) !important;
+  font-size: 9px !important;
+  font-weight: 750 !important;
+  letter-spacing: .04em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block input,
+body[data-tab="taller"].workshop-space-create .wa2-block select {
+  min-height: 30px !important;
+  height: 30px !important;
+  padding: 0 9px !important;
+  border: 1px solid rgba(16, 28, 44, .16) !important;
+  border-radius: 0 !important;
+  background: rgba(255,255,255,.92) !important;
+  color: #071d38 !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block-row {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 8px !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-block-wide {
+  grid-column: 2 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-run {
+  min-height: 34px !important;
+  height: 34px !important;
+  margin-top: 2px !important;
+  border: 1px solid #071d38 !important;
+  background: #071d38 !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  font-weight: 850 !important;
+  letter-spacing: .05em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-query-note {
+  margin-top: 8px !important;
+  padding: 8px 10px !important;
+  background: transparent !important;
+  border: 1px solid rgba(16, 28, 44, .12) !important;
+  color: rgba(7, 29, 56, .58) !important;
+  font-size: 10px !important;
+  line-height: 1.4 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-result {
+  width: min(980px, 100%) !important;
+  margin: 4px auto 0 !important;
+  gap: 10px !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-chart {
+  min-height: 520px !important;
+}
+
+/* END WA2 CREATION COMPACT INSTRUMENT */
+
+/* WA2 TITLES FORM REPAIR
+   Mantiene el formulario funcional de Títulos.
+   Quita el encime de años y oculta sólo los formularios generales no usados.
+*/
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+  margin: 0 0 10px !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button {
+  min-height: 28px !important;
+  padding: 0 11px !important;
+  border: 1px solid rgba(7,29,56,.16) !important;
+  background: rgba(255,255,255,.86) !important;
+  color: #071d38 !important;
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  letter-spacing: .035em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button.is-active,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button[data-mode-strip="titles"] {
+  background: #071d38 !important;
+  border-color: #071d38 !important;
+  color: #fff !important;
+}
+
+/* Oculta formularios generales: métrica, agrupación, comparación.
+   Conserva Universo/Títulos y Salida porque ya funcionan. */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block:not(.wa2-block-universe):not(.wa2-block-output) {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-grid {
+  width: min(880px, 100%) !important;
+  margin: 0 auto !important;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 0 !important;
+  border: 1px solid rgba(7,29,56,.14) !important;
+  background: rgba(255,255,255,.9) !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block {
+  border: 0 !important;
+  border-bottom: 1px solid rgba(7,29,56,.1) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block:last-child {
+  border-bottom: 0 !important;
+}
+
+/* Universo/Títulos: dos filas limpias, sin encime */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe {
+  display: grid !important;
+  grid-template-columns: 140px minmax(0, 1fr) !important;
+  gap: 10px 14px !important;
+  align-items: start !important;
+  min-height: 0 !important;
+  padding: 12px !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe .wa2-block-index {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe > div {
+  grid-column: 1 !important;
+  grid-row: 1 / span 2 !important;
+  align-self: start !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe .wa2-block-wide {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  min-width: 0 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe .wa2-block-row {
+  grid-column: 2 !important;
+  grid-row: 2 !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 10px !important;
+  min-width: 0 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe label,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe .wa2-block-row label {
+  display: grid !important;
+  gap: 4px !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+}
+
+/* Salida: deja límite/vista/color/botón sin invadir */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output {
+  display: grid !important;
+  grid-template-columns: 140px minmax(0, 1fr) !important;
+  gap: 10px 14px !important;
+  padding: 12px !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output .wa2-block-index {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output > div:first-of-type {
+  grid-column: 1 !important;
+  grid-row: 1 / span 3 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output > label {
+  grid-column: 2 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-tools {
+  grid-column: 2 !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 10px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-run {
+  grid-column: 1 / -1 !important;
+  justify-self: stretch !important;
+  min-height: 34px !important;
+  margin-top: 10px !important;
+  border: 1px solid #071d38 !important;
+  background: #071d38 !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  font-weight: 850 !important;
+  letter-spacing: .05em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-query-note {
+  width: min(880px, 100%) !important;
+  margin: 8px auto 0 !important;
+}
+
+/* Controles */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block label > span,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-tools span {
+  color: rgba(7,29,56,.52) !important;
+  font-size: 8.5px !important;
+  font-weight: 760 !important;
+  letter-spacing: .035em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block input,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block select {
+  height: 30px !important;
+  min-height: 30px !important;
+  padding: 0 9px !important;
+  border: 1px solid rgba(7,29,56,.16) !important;
+  border-radius: 0 !important;
+  background: rgba(255,255,255,.94) !important;
+  color: #071d38 !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block .eyebrow {
+  margin: 0 0 3px !important;
+  color: rgba(7,29,56,.38) !important;
+  font-size: 8.5px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block h4 {
+  margin: 0 !important;
+  color: #071d38 !important;
+  font-size: 13px !important;
+  font-weight: 650 !important;
+  line-height: 1.08 !important;
+}
+
+/* END WA2 TITLES FORM REPAIR */
+
+/* WA2 NON TITLES PLACEHOLDER */
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab:not(.wa2-mode-titles) .wa2-block-grid,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab:not(.wa2-mode-titles) .wa2-query-note,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab:not(.wa2-mode-titles) .wa2-result {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab.wa2-mode-titles #analysisModePlaceholder {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-mode-placeholder {
+  width: min(760px, 100%) !important;
+  margin: 18px auto 0 !important;
+  padding: 34px 28px !important;
+  border: 1px solid rgba(7, 29, 56, .14) !important;
+  background: rgba(255, 255, 255, .72) !important;
+  color: rgba(7, 29, 56, .68) !important;
+  text-align: center !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-mode-placeholder span {
+  display: block !important;
+  margin-bottom: 8px !important;
+  color: rgba(7, 29, 56, .45) !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  letter-spacing: .04em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-mode-placeholder strong {
+  display: block !important;
+  color: #071d38 !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .wa2-mode-placeholder p {
+  max-width: 420px !important;
+  margin: 8px auto 0 !important;
+  color: rgba(7, 29, 56, .58) !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  line-height: 1.55 !important;
+}
+
+/* END WA2 NON TITLES PLACEHOLDER */
+
+/* WA2 FORCE NON TITLES NO FORMS */
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-builder[hidden],
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-result[hidden],
+body[data-tab="taller"].workshop-space-create #analysisModePlaceholder[hidden] {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab.wa2-mode-placeholder-active .wa2-builder,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab.wa2-mode-placeholder-active .wa2-result {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab.wa2-mode-placeholder-active #analysisModePlaceholder {
+  display: block !important;
+}
+
+/* END WA2 FORCE NON TITLES NO FORMS */
+
+/* WA2 HARD TITLES ONLY CLEANUP */
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button:not([data-mode-strip="titles"]) {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip {
+  display: flex !important;
+  margin: 0 0 10px !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button[data-mode-strip="titles"] {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 28px !important;
+  padding: 0 12px !important;
+  border: 1px solid #071d38 !important;
+  background: #071d38 !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  font-weight: 820 !important;
+  letter-spacing: .04em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create #analysisModePlaceholder {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-builder,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-result {
+  display: grid !important;
+  visibility: visible !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block:not(.wa2-block-universe):not(.wa2-block-output) {
+  display: none !important;
+}
+
+/* END WA2 HARD TITLES ONLY CLEANUP */
+
+/* WA2 QUESTION UI PROTOTYPE
+   Primera prueba: Universo + pregunta visual + detalle compacto.
+*/
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab {
+  width: min(980px, 100%) !important;
+  margin: 0 auto !important;
+  gap: 14px !important;
+}
+
+/* La barra de modos se vuelve pregunta visual */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip {
+  width: min(880px, 100%) !important;
+  margin: 0 auto 10px !important;
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 8px !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip::before {
+  content: "Pregunta visual";
+  grid-column: 1 / -1;
+  color: rgba(7, 29, 56, .46);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button[data-mode-strip="titles"],
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button[data-mode-strip="distribution"],
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button[data-mode-strip="magnitude"],
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button[data-mode-strip="advisors"] {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button {
+  min-height: 56px !important;
+  padding: 10px 12px !important;
+  display: grid !important;
+  align-content: center !important;
+  gap: 4px !important;
+  border: 1px solid rgba(7, 29, 56, .14) !important;
+  background: rgba(255,255,255,.82) !important;
+  color: #071d38 !important;
+  text-align: left !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button strong {
+  font-size: 13px !important;
+  font-weight: 560 !important;
+  line-height: 1.1 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button span {
+  color: rgba(7, 29, 56, .52) !important;
+  font-size: 10px !important;
+  font-weight: 300 !important;
+  line-height: 1.25 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button.is-active {
+  border-color: #071d38 !important;
+  background: #071d38 !important;
+  color: #fff !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip button.is-active span {
+  color: rgba(255,255,255,.68) !important;
+}
+
+/* Contenedor del instrumento */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-builder.wa2-analysis-blocks {
+  width: min(880px, 100%) !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-grid {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 10px !important;
+  width: 100% !important;
+  margin: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+/* 1. Universo */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe {
+  display: grid !important;
+  grid-template-columns: 130px minmax(0, 1fr) !important;
+  gap: 10px 14px !important;
+  align-items: start !important;
+  padding: 14px !important;
+  border: 1px solid rgba(7,29,56,.14) !important;
+  background: rgba(255,255,255,.86) !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe .wa2-block-index {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe > div {
+  grid-column: 1 !important;
+  grid-row: 1 / span 2 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe .wa2-block-wide {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe .wa2-block-row {
+  grid-column: 2 !important;
+  grid-row: 2 !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 10px !important;
+}
+
+/* 2. Detalle: ocultar métrica, mostrar agrupación/comparación/salida */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-grid > .wa2-block:nth-of-type(2) {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-grid > .wa2-block:nth-of-type(3),
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-grid > .wa2-block:nth-of-type(4),
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output {
+  display: grid !important;
+  grid-template-columns: 130px minmax(0, 1fr) !important;
+  gap: 10px 14px !important;
+  align-items: center !important;
+  padding: 10px 14px !important;
+  border: 1px solid rgba(7,29,56,.12) !important;
+  background: rgba(255,255,255,.74) !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-grid > .wa2-block:nth-of-type(3)::before {
+  content: "Detalle";
+  grid-column: 1 / -1;
+  color: rgba(7, 29, 56, .46);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-index {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block > div {
+  min-width: 0 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output > div:first-of-type,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output > label {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-tools {
+  grid-column: 1 / -1 !important;
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-query-note {
+  width: min(880px, 100%) !important;
+  margin: 8px auto 0 !important;
+  padding: 8px 10px !important;
+  border: 1px solid rgba(7,29,56,.10) !important;
+  background: rgba(255,255,255,.55) !important;
+  color: rgba(7,29,56,.52) !important;
+  font-size: 10px !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-run {
+  grid-column: 1 / -1 !important;
+  justify-self: stretch !important;
+  min-height: 34px !important;
+  border: 1px solid #071d38 !important;
+  background: #071d38 !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  font-weight: 850 !important;
+  letter-spacing: .05em !important;
+  text-transform: uppercase !important;
+}
+
+/* Labels y campos */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block .eyebrow {
+  margin: 0 0 3px !important;
+  color: rgba(7,29,56,.38) !important;
+  font-size: 9px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block h4 {
+  margin: 0 !important;
+  color: #071d38 !important;
+  font-size: 13px !important;
+  font-weight: 620 !important;
+  line-height: 1.1 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block label {
+  display: grid !important;
+  gap: 4px !important;
+  min-width: 0 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block label > span {
+  color: rgba(7,29,56,.52) !important;
+  font-size: 8.5px !important;
+  font-weight: 760 !important;
+  letter-spacing: .035em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block input,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block select {
+  height: 30px !important;
+  min-height: 30px !important;
+  padding: 0 9px !important;
+  border: 1px solid rgba(7,29,56,.16) !important;
+  border-radius: 0 !important;
+  background: rgba(255,255,255,.94) !important;
+  color: #071d38 !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+/* Resultado */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-result {
+  width: min(980px, 100%) !important;
+  margin: 14px auto 0 !important;
+}
+
+/* END WA2 QUESTION UI PROTOTYPE */
+
+/* WA2 TITLES CLEAN CREATION VIEW */
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-mode-strip {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-grid {
+  width: min(880px, 100%) !important;
+  margin: 0 auto !important;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 10px !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+/* Mantener sólo Universo y Salida */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block:not(.wa2-block-universe):not(.wa2-block-output) {
+  display: none !important;
+}
+
+/* Universo */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe {
+  display: grid !important;
+  grid-template-columns: 140px minmax(0, 1fr) !important;
+  gap: 12px 14px !important;
+  align-items: start !important;
+  padding: 14px !important;
+  border: 1px solid rgba(7,29,56,.14) !important;
+  background: rgba(255,255,255,.88) !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe .wa2-block-index {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe > div {
+  grid-column: 1 !important;
+  grid-row: 1 / span 2 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe .wa2-block-wide {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-universe .wa2-block-row {
+  grid-column: 2 !important;
+  grid-row: 2 !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 10px !important;
+}
+
+/* Salida compacta: límite + ejecutar */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output {
+  display: grid !important;
+  grid-template-columns: 140px minmax(0, 1fr) 180px !important;
+  gap: 12px 14px !important;
+  align-items: end !important;
+  padding: 14px !important;
+  border: 1px solid rgba(7,29,56,.14) !important;
+  background: rgba(255,255,255,.82) !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output .wa2-block-index,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output .wa2-mode-tools,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-query-note {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output > div:first-of-type {
+  grid-column: 1 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block-output > label {
+  grid-column: 2 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-run {
+  grid-column: 3 !important;
+  width: 100% !important;
+  height: 32px !important;
+  min-height: 32px !important;
+  margin: 0 !important;
+  border: 1px solid #071d38 !important;
+  background: #071d38 !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  font-weight: 850 !important;
+  letter-spacing: .05em !important;
+  text-transform: uppercase !important;
+}
+
+/* Campos */
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block label {
+  display: grid !important;
+  gap: 4px !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block label > span {
+  color: rgba(7,29,56,.52) !important;
+  font-size: 8.5px !important;
+  font-weight: 760 !important;
+  letter-spacing: .035em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block input {
+  height: 30px !important;
+  min-height: 30px !important;
+  padding: 0 9px !important;
+  border: 1px solid rgba(7,29,56,.16) !important;
+  border-radius: 0 !important;
+  background: rgba(255,255,255,.94) !important;
+  color: #071d38 !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block .eyebrow {
+  margin: 0 0 3px !important;
+  color: rgba(7,29,56,.38) !important;
+  font-size: 8.5px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-block h4 {
+  margin: 0 !important;
+  color: #071d38 !important;
+  font-size: 13px !important;
+  font-weight: 650 !important;
+  line-height: 1.08 !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-result {
+  width: min(980px, 100%) !important;
+  margin: 14px auto 0 !important;
+}
+
+/* END WA2 TITLES CLEAN CREATION VIEW */
+
+/* GENERAL ANALYSIS STUDIO */
+
+body[data-tab="taller"].workshop-space-create #titleStudioShell,
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-builder[hidden],
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-builder {
+  display: none !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab {
+  width: min(1060px, 100%) !important;
+  margin: 0 auto !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio {
+  width: min(980px, 100%) !important;
+  margin: 0 auto 16px !important;
+  display: grid !important;
+  gap: 10px !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-bar {
+  display: grid !important;
+  grid-template-columns: 220px minmax(0, 1fr) !important;
+  gap: 18px !important;
+  align-items: end !important;
+  padding: 14px 16px !important;
+  border: 1px solid rgba(7,29,56,.14) !important;
+  background: rgba(255,255,255,.82) !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-brand span {
+  display: block !important;
+  margin-bottom: 4px !important;
+  color: rgba(7,29,56,.48) !important;
+  font-size: 9px !important;
+  font-weight: 500 !important;
+  letter-spacing: .04em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-brand strong {
+  display: block !important;
+  color: #071d38 !important;
+  font-size: 18px !important;
+  font-weight: 520 !important;
+  line-height: 1.05 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-bar p {
+  margin: 0 !important;
+  color: rgba(7,29,56,.58) !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  line-height: 1.45 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-universe {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 110px 110px !important;
+  gap: 8px !important;
+  padding: 12px !important;
+  border: 1px solid rgba(7,29,56,.14) !important;
+  background: rgba(255,255,255,.9) !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-question {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 8px !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-question button {
+  min-height: 70px !important;
+  padding: 10px 12px !important;
+  display: grid !important;
+  align-content: center !important;
+  gap: 3px !important;
+  border: 1px solid rgba(7,29,56,.14) !important;
+  background: rgba(255,255,255,.78) !important;
+  color: #071d38 !important;
+  text-align: left !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-question button span {
+  color: rgba(7,29,56,.42) !important;
+  font-size: 9px !important;
+  font-weight: 500 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-question button strong {
+  font-size: 15px !important;
+  font-weight: 560 !important;
+  line-height: 1.1 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-question button em {
+  color: rgba(7,29,56,.56) !important;
+  font-size: 10.5px !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-question button.is-active {
+  background: #071d38 !important;
+  border-color: #071d38 !important;
+  color: #fff !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-question button.is-active span,
+body[data-tab="taller"].workshop-space-create .analysis-studio-question button.is-active em {
+  color: rgba(255,255,255,.65) !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-detail {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 90px 130px !important;
+  gap: 8px !important;
+  align-items: end !important;
+  padding: 12px !important;
+  border: 1px solid rgba(7,29,56,.14) !important;
+  background: rgba(255,255,255,.88) !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio label {
+  display: grid !important;
+  gap: 5px !important;
+  min-width: 0 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio label span {
+  color: rgba(7,29,56,.52) !important;
+  font-size: 8.5px !important;
+  font-weight: 760 !important;
+  letter-spacing: .035em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio input,
+body[data-tab="taller"].workshop-space-create .analysis-studio select {
+  width: 100% !important;
+  height: 32px !important;
+  min-height: 32px !important;
+  padding: 0 9px !important;
+  border: 1px solid rgba(7,29,56,.18) !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+  color: #071d38 !important;
+  font-size: 12px !important;
+  font-weight: 450 !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio .as-action {
+  display: grid !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio .wa2-run {
+  width: 100% !important;
+  height: 32px !important;
+  min-height: 32px !important;
+  margin: 0 !important;
+  border: 1px solid #071d38 !important;
+  background: #071d38 !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  font-weight: 820 !important;
+  letter-spacing: .04em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-tab="taller"].workshop-space-create .analysis-studio-method {
+  margin: 0 !important;
+  padding: 8px 10px !important;
+  border: 1px solid rgba(7,29,56,.10) !important;
+  background: rgba(255,255,255,.55) !important;
+  color: rgba(7,29,56,.50) !important;
+  font-family: ui-monospace, "IBM Plex Mono", monospace !important;
+  font-size: 10px !important;
+}
+
+body[data-tab="taller"].workshop-space-create #workshopAnalysisLab .wa2-result {
+  width: min(1060px, 100%) !important;
+  margin: 14px auto 0 !important;
+}
+
+/* END GENERAL ANALYSIS STUDIO */
+
+
+
+/* TALLER RESET: stage limpio para herramientas curadas */
+
+body[data-tab="taller"] .tab-panel[data-panel="taller"] {
+  min-height: calc(100vh - 64px);
+  background: #eef1f4;
+  background-image: radial-gradient(rgba(7, 29, 56, .14) 1px, transparent 1px);
+  background-size: 24px 24px;
+  overflow: visible;
+}
+
+body[data-tab="taller"] .tab-panel[data-panel="taller"] > main.workshop,
+body[data-tab="taller"] #workshopStudio,
+body[data-tab="taller"] #workshopAnalysisLab,
+body[data-tab="taller"] .wa2 {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+
+body[data-tab="taller"] #workshopCuratedShell {
+  display: grid;
+  grid-template-columns: 156px minmax(0, 1fr);
+  min-height: calc(100vh - 64px);
+  width: 100%;
+}
+
+body[data-tab="taller"] .workshop-curated-nav {
+  background: #071d38;
+  border-right: 1px solid rgba(255,255,255,.12);
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+body[data-tab="taller"] .workshop-curated-nav button {
+  height: 38px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: transparent;
+  color: rgba(255,255,255,.72);
+  font: 800 11px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+body[data-tab="taller"] .workshop-curated-nav button.is-active {
+  background: rgba(255,255,255,.10);
+  color: #fff;
+  border-left-color: #fff;
+}
+
+body[data-tab="taller"] .workshop-curated-stage {
+  min-height: calc(100vh - 64px);
+  display: grid;
+  place-items: center;
+  padding: 32px;
+}
+
+body[data-tab="taller"] .workshop-curated-empty {
+  width: min(760px, 100%);
+  min-height: 360px;
+  border: 1px solid rgba(7, 29, 56, .14);
+  background: rgba(255,255,255,.72);
+  display: grid;
+  place-items: center;
+  align-content: center;
+  text-align: center;
+  gap: 8px;
+}
+
+body[data-tab="taller"] .workshop-curated-empty span {
+  color: rgba(7, 29, 56, .46);
+  font: 700 10px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"] .workshop-curated-empty h2 {
+  margin: 0;
+  color: #071d38;
+  font: 400 24px/1.1 Inter, system-ui, sans-serif;
+  letter-spacing: 0;
+}
+
+body[data-tab="taller"] .workshop-curated-empty p {
+  margin: 0;
+  color: rgba(7, 29, 56, .56);
+  font: 300 13px/1.5 Inter, system-ui, sans-serif;
+}
+
+
+
+/* TALLER CURADO: herramientas visuales */
+
+body[data-tab="taller"] .tab-panel[data-panel="taller"] {
+  min-height: calc(100vh - 64px);
+  background: #eef1f4;
+  background-image: radial-gradient(rgba(7, 29, 56, .16) 1px, transparent 1px);
+  background-size: 24px 24px;
+  overflow: visible !important;
+}
+
+body[data-tab="taller"] .tab-panel[data-panel="taller"] > main.workshop,
+body[data-tab="taller"] #workshopStudio,
+body[data-tab="taller"] #workshopAnalysisLab,
+body[data-tab="taller"] .wa2 {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+
+body[data-tab="taller"] .wct-shell {
+  display: grid;
+  grid-template-columns: 172px minmax(0, 1fr);
+  min-height: calc(100vh - 64px);
+  width: 100%;
+}
+
+body[data-tab="taller"] .wct-sidebar {
+  background: #071d38;
+  padding: 18px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-right: 1px solid rgba(255,255,255,.12);
+}
+
+body[data-tab="taller"] .wct-sidebar p {
+  margin: 0 0 10px;
+  color: rgba(255,255,255,.42);
+  font: 700 10px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"] .wct-sidebar button {
+  height: 44px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: transparent;
+  color: rgba(255,255,255,.72);
+  font: 800 11px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+body[data-tab="taller"] .wct-sidebar button span {
+  display: block;
+  color: rgba(255,255,255,.36);
+  font-size: 9px;
+  margin-bottom: 4px;
+}
+
+body[data-tab="taller"] .wct-sidebar button.is-active {
+  background: rgba(255,255,255,.11);
+  border-left-color: #fff;
+  color: #fff;
+}
+
+body[data-tab="taller"] .wct-main {
+  min-width: 0;
+  min-height: calc(100vh - 64px);
+  display: grid;
+  grid-template-rows: minmax(440px, 1fr) auto;
+  gap: 14px;
+  padding: 20px;
+}
+
+body[data-tab="taller"] .wct-stage {
+  min-width: 0;
+  border: 1px solid rgba(7,29,56,.14);
+  background: rgba(255,255,255,.74);
+  box-shadow: 0 1px 0 rgba(7,29,56,.05);
+}
+
+body[data-tab="taller"] .wct-chart-frame {
+  height: 100%;
+  min-height: 440px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 18px;
+}
+
+body[data-tab="taller"] .wct-chart-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: rgba(7,29,56,.52);
+  font: 700 10px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"] .wct-chart-head strong {
+  color: #071d38;
+  font-size: 12px;
+}
+
+body[data-tab="taller"] .wct-plot-area {
+  position: relative;
+  min-height: 320px;
+  margin: 18px 0;
+  border-left: 1px solid rgba(7,29,56,.32);
+  border-bottom: 1px solid rgba(7,29,56,.32);
+  background-image:
+    linear-gradient(rgba(7,29,56,.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(7,29,56,.08) 1px, transparent 1px);
+  background-size: 64px 48px;
+  overflow: hidden;
+}
+
+body[data-tab="taller"] .wct-plot-area i {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--s);
+  height: var(--s);
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--c), transparent 10%);
+  border: 1px solid rgba(7,29,56,.22);
+}
+
+body[data-tab="taller"] .wct-year {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: rgba(7,29,56,.055);
+  font: 800 clamp(86px, 18vw, 220px)/1 Inter, system-ui, sans-serif;
+  pointer-events: none;
+}
+
+body[data-tab="taller"] .wct-chart-note {
+  max-width: 760px;
+}
+
+body[data-tab="taller"] .wct-chart-note h2 {
+  margin: 0 0 6px;
+  color: #071d38;
+  font: 500 24px/1.1 Inter, system-ui, sans-serif;
+  letter-spacing: 0;
+}
+
+body[data-tab="taller"] .wct-chart-note p {
+  margin: 0;
+  color: rgba(7,29,56,.62);
+  font: 300 13px/1.55 Inter, system-ui, sans-serif;
+}
+
+body[data-tab="taller"] .wct-controls {
+  display: grid;
+  grid-template-columns: 150px repeat(4, minmax(120px, 1fr)) 140px;
+  gap: 8px;
+  align-items: end;
+  border: 1px solid rgba(7,29,56,.14);
+  background: rgba(255,255,255,.84);
+  padding: 12px;
+}
+
+body[data-tab="taller"] .wct-control-summary span,
+body[data-tab="taller"] .wct-control span {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(7,29,56,.46);
+  font: 800 9px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"] .wct-control-summary strong {
+  color: #071d38;
+  font: 600 18px/1.1 Inter, system-ui, sans-serif;
+}
+
+body[data-tab="taller"] .wct-control select {
+  width: 100%;
+  height: 34px;
+  border: 1px solid rgba(7,29,56,.18);
+  background: #fff;
+  color: #071d38;
+  padding: 0 10px;
+  font: 500 12px/1 Inter, system-ui, sans-serif;
+}
+
+body[data-tab="taller"] .wct-run {
+  height: 34px;
+  border: 0;
+  background: #071d38;
+  color: #fff;
+  font: 800 10px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"] .wct-bars {
+  display: grid;
+  align-content: center;
+  gap: 13px;
+  height: 100%;
+  padding: 38px;
+}
+
+body[data-tab="taller"] .wct-bars b {
+  display: block;
+  width: var(--w);
+  height: 18px;
+  background: #5fa5ad;
+  border-right: 3px solid #071d38;
+}
+
+body[data-tab="taller"] .wct-heat {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 4px;
+  height: 100%;
+  padding: 36px;
+}
+
+body[data-tab="taller"] .wct-heat b {
+  background: rgba(216, 107, 101, var(--o));
+  border: 1px solid rgba(7,29,56,.08);
+}
+
+body[data-tab="taller"] .wct-plot-area svg {
+  width: 100%;
+  height: 100%;
+}
+
+body[data-tab="taller"] .wct-plot-area svg path {
+  fill: none;
+  stroke: #5fa5ad;
+  stroke-width: 4;
+}
+
+body[data-tab="taller"] .wct-plot-area svg path.fill {
+  fill: rgba(95,165,173,.18);
+  stroke: none;
+}
+
+@media (max-width: 900px) {
+  body[data-tab="taller"] .wct-shell {
+    grid-template-columns: 118px minmax(0, 1fr);
+  }
+
+  body[data-tab="taller"] .wct-controls {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+/* WCT SIDEBAR TOP OFFSET */
+
+body[data-tab="taller"] .wct-sidebar {
+  padding-top: 34px !important;
+}
+
+body[data-tab="taller"] .wct-sidebar p {
+  margin-top: 0 !important;
+}
+
+
+
+
+/* WCT BUBBLES FRONTEND */
+
+body[data-tab="taller"] .wct-echart {
+  position: relative;
+  min-height: 360px;
+  height: 100%;
+  margin: 18px 0;
+  border-left: 1px solid rgba(7,29,56,.32);
+  border-bottom: 1px solid rgba(7,29,56,.32);
+  background-image:
+    linear-gradient(rgba(7,29,56,.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(7,29,56,.08) 1px, transparent 1px);
+  background-size: 64px 48px;
+}
+
+body[data-tab="taller"] .wct-loading {
+  height: 100%;
+  min-height: 320px;
+  display: grid;
+  place-items: center;
+  color: rgba(7,29,56,.54);
+  font: 300 13px/1.4 Inter, system-ui, sans-serif;
+}
+
+body[data-tab="taller"] .wct-loading.is-error {
+  color: #b7443e;
+}
+
+body[data-tab="taller"] .wct-year-control {
+  grid-column: span 2;
+}
+
+body[data-tab="taller"] .wct-year-control input[type="range"] {
+  width: 100%;
+  height: 34px;
+  accent-color: #071d38;
+}
+
+body[data-tab="taller"] .wct-year-readout span {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(7,29,56,.46);
+  font: 800 9px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"] .wct-year-readout strong {
+  color: #071d38;
+  font: 600 18px/1.1 Inter, system-ui, sans-serif;
+}
+
+
+/* WCT BUBBLES RENDER + SCROLL FIX */
+
+body[data-tab="taller"] .tab-shell,
+body[data-tab="taller"] .tab-panel[data-panel="taller"] {
+  overflow: visible !important;
+  overflow-y: visible !important;
+  height: auto !important;
+  min-height: calc(100vh - 64px) !important;
+}
+
+html:has(body[data-tab="taller"]),
+body[data-tab="taller"] {
+  overflow-y: auto !important;
+  height: auto !important;
+  min-height: 100vh !important;
+}
+
+body[data-tab="taller"] #workshopCuratedTools,
+body[data-tab="taller"] .wct-main {
+  min-height: calc(100vh - 64px) !important;
+  height: auto !important;
+}

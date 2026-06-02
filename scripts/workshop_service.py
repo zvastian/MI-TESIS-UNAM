@@ -459,6 +459,186 @@ class WorkshopService:
 
 
 
+
+    def tool_bubbles(self, dimension: str = "advisor", limit: int = 50) -> dict[str, Any]:
+        """Dataset curado para burbujas tipo Gapminder.
+
+        Slider: year
+        X: active_age = years since first appearance
+        Y: cumulative production
+        Size: cumulative production
+        Color: main area
+        """
+        dimension_map = {
+            "advisor": self.colmap.advisor or "asesor_limpio_v2",
+            "advisors": self.colmap.advisor or "asesor_limpio_v2",
+            "program": self.colmap.program or "programa",
+            "programa": self.colmap.program or "programa",
+            "plantel": self.colmap.plantel or "plantel_estandarizado",
+            "campus": self.colmap.plantel or "plantel_estandarizado",
+            "level": self.colmap.degree or "nivel_estandar",
+            "nivel": self.colmap.degree or "nivel_estandar",
+        }
+
+        dimension = (dimension or "advisor").lower().strip()
+        entity_col = dimension_map.get(dimension)
+        if not entity_col:
+            raise ValueError(f"dimension no soportada: {dimension}")
+
+        year_col = self.colmap.year or "Año"
+        area_col = self.colmap.area or "area"
+        program_col = self.colmap.program or "programa"
+        degree_col = getattr(self.colmap, "degree", None) or "nivel_estandar"
+        plantel_col = self.colmap.plantel or "plantel_estandarizado"
+
+        limit = max(1, min(int(limit or 50), 100))
+
+        missing_values = (
+            "sin dato", "s/d", "n/a", "na", "null", "none",
+            "no aplica", "por clasificar", "-", "--"
+        )
+
+        missing_sql = ", ".join(["?"] * len(missing_values))
+        params = [*missing_values, limit]
+
+        rows = self.conn.execute(
+            f"""
+            WITH raw AS (
+              SELECT
+                try_cast({sql_ident(year_col)} AS INTEGER) AS year,
+                upper(trim(CAST({sql_ident(entity_col)} AS VARCHAR))) AS entity,
+                upper(trim(CAST({sql_ident(area_col)} AS VARCHAR))) AS area,
+                upper(trim(CAST({sql_ident(program_col)} AS VARCHAR))) AS program,
+                upper(trim(CAST({sql_ident(degree_col)} AS VARCHAR))) AS level,
+                upper(trim(CAST({sql_ident(plantel_col)} AS VARCHAR))) AS plantel
+              FROM {self.table}
+            ),
+            clean AS (
+              SELECT *
+              FROM raw
+              WHERE year IS NOT NULL
+                AND entity IS NOT NULL
+                AND entity <> ''
+                AND lower(entity) NOT IN ({missing_sql})
+            ),
+            top_entities AS (
+              SELECT entity, COUNT(*) AS total
+              FROM clean
+              GROUP BY entity
+              ORDER BY total DESC, entity ASC
+              LIMIT ?
+            ),
+            yearly AS (
+              SELECT
+                c.entity,
+                c.year,
+                COUNT(*) AS year_count
+              FROM clean c
+              JOIN top_entities t USING(entity)
+              GROUP BY c.entity, c.year
+            ),
+            cumulative AS (
+              SELECT
+                entity,
+                year,
+                year_count,
+                SUM(year_count) OVER (
+                  PARTITION BY entity
+                  ORDER BY year
+                  ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+                ) AS cumulative
+              FROM yearly
+            ),
+            meta AS (
+              SELECT
+                c.entity,
+                COUNT(*) AS total,
+                MIN(c.year) AS first_year,
+                MAX(c.year) AS last_year,
+                mode(c.area) AS main_area,
+                mode(c.program) AS main_program,
+                mode(c.level) AS main_level,
+                mode(c.plantel) AS main_plantel
+              FROM clean c
+              JOIN top_entities t USING(entity)
+              GROUP BY c.entity
+            )
+            SELECT
+              m.entity,
+              m.total,
+              m.first_year,
+              m.last_year,
+              m.main_area,
+              m.main_program,
+              m.main_level,
+              m.main_plantel,
+              c.year,
+              c.year_count,
+              c.cumulative,
+              c.year - m.first_year + 1 AS active_age
+            FROM meta m
+            JOIN cumulative c USING(entity)
+            ORDER BY m.total DESC, m.entity ASC, c.year ASC
+            """,
+            params,
+        ).fetchall()
+
+        entities: dict[str, dict[str, Any]] = {}
+        years_set: set[int] = set()
+
+        for (
+            entity,
+            total,
+            first_year,
+            last_year,
+            main_area,
+            main_program,
+            main_level,
+            main_plantel,
+            year,
+            year_count,
+            cumulative,
+            active_age,
+        ) in rows:
+            key = str(entity)
+
+            if key not in entities:
+                entities[key] = {
+                    "id": key,
+                    "label": key,
+                    "total": int(total or 0),
+                    "first_year": int(first_year) if first_year is not None else None,
+                    "last_year": int(last_year) if last_year is not None else None,
+                    "main_area": main_area or "",
+                    "main_program": main_program or "",
+                    "main_level": main_level or "",
+                    "main_plantel": main_plantel or "",
+                    "series": [],
+                }
+
+            years_set.add(int(year))
+            entities[key]["series"].append({
+                "year": int(year),
+                "year_count": int(year_count or 0),
+                "cumulative": int(cumulative or 0),
+                "active_age": int(active_age or 0),
+            })
+
+        return {
+            "tool": "bubbles",
+            "dimension": dimension,
+            "limit": limit,
+            "years": sorted(years_set),
+            "encoding": {
+                "time": "year",
+                "x": "active_age",
+                "y": "cumulative",
+                "size": "cumulative",
+                "color": "main_area",
+            },
+            "entities": list(entities.values()),
+        }
+
     def analyze(self, req: AnalysisRequest) -> AnalysisResponse:
         """Mesa de análisis: agrupaciones y cruces sobre thesis_lookup.
 
