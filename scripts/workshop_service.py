@@ -17,6 +17,9 @@ from workshop_queries import (
     sql_ident,
 )
 from workshop_schema import (
+    AnalysisRequest,
+    AnalysisResponse,
+    AnalysisSummary,
     ExactSearchRequest,
     ExactSearchResponse,
     FacetsResponse,
@@ -43,6 +46,50 @@ STOPWORDS_ES = {
     "que", "como", "sobre", "entre", "desde", "hacia", "analisis", "estudio",
     "caso", "propuesta", "modelo", "sistema", "sistemas"
 }
+
+
+MISSING_ANALYSIS_VALUES = {
+    "",
+    "-",
+    "--",
+    "—",
+    "na",
+    "n/a",
+    "s/d",
+    "sd",
+    "sin dato",
+    "sin datos",
+    "no disponible",
+    "no especificado",
+    "no especificada",
+    "no aplica",
+    "null",
+    "none",
+    "nan",
+}
+
+
+def _is_missing_analysis_value(value: object) -> bool:
+    if value is None:
+        return True
+
+    normalized = " ".join(str(value).strip().lower().split())
+    return normalized in MISSING_ANALYSIS_VALUES
+
+
+def _sql_non_missing_condition(column: str) -> str:
+    ident = sql_ident(column)
+    normalized = f"lower(trim(cast({ident} as varchar)))"
+    return (
+        f"{ident} IS NOT NULL "
+        f"AND trim(cast({ident} as varchar)) <> '' "
+        f"AND {normalized} NOT IN ("
+        "'-', '--', '—', 'na', 'n/a', 's/d', 'sd', "
+        "'sin dato', 'sin datos', 'no disponible', "
+        "'no especificado', 'no especificada', 'no aplica', "
+        "'null', 'none', 'nan'"
+        ")"
+    )
 
 
 class WorkshopService:
@@ -409,6 +456,275 @@ class WorkshopService:
             {k: r[i] for i, k in enumerate(keys)}
             for r in rows
         ]
+
+
+
+    def analyze(self, req: AnalysisRequest) -> AnalysisResponse:
+        """Mesa de análisis: agrupaciones y cruces sobre thesis_lookup.
+
+        MVP:
+        - group_by simple
+        - group_by + compare_by
+        - filtros por año, área, nivel, programa, plantel y texto en título
+        """
+
+        allowed_dimensions = {
+            "year": self.colmap.year,
+            "area": self.colmap.area,
+            "degree": self.colmap.degree,
+            "program": self.colmap.program,
+            "plantel": self.colmap.plantel,
+            "advisor": self.colmap.advisor,
+        }
+
+        group_by = req.group_by
+        compare_by = req.compare_by
+
+        if group_by not in allowed_dimensions or not allowed_dimensions[group_by]:
+            raise ValueError(f"group_by no soportado: {group_by}")
+
+        if compare_by and (compare_by not in allowed_dimensions or not allowed_dimensions[compare_by]):
+            raise ValueError(f"compare_by no soportado: {compare_by}")
+
+        params: list[Any] = []
+        where_parts: list[str] = []
+
+        def add_in_filter(column: str | None, values: list[str] | None):
+            if not column or not values:
+                return
+            clean_values = [v for v in values if v is not None and str(v).strip()]
+            if not clean_values:
+                return
+            placeholders = ", ".join(["?"] * len(clean_values))
+            where_parts.append(f'{sql_ident(column)} IN ({placeholders})')
+            params.extend(clean_values)
+
+        f = req.filters
+
+        if f.year_min is not None and self.colmap.year:
+            where_parts.append(f"{sql_ident(self.colmap.year)} >= ?")
+            params.append(int(f.year_min))
+
+        if f.year_max is not None and self.colmap.year:
+            where_parts.append(f"{sql_ident(self.colmap.year)} <= ?")
+            params.append(int(f.year_max))
+
+        add_in_filter(self.colmap.area, f.areas)
+        add_in_filter(self.colmap.degree, f.degrees)
+        add_in_filter(self.colmap.program, f.programs)
+        add_in_filter(self.colmap.plantel, f.plantels)
+
+        if f.title_contains:
+            q = normalize_text(f.title_contains)
+            title_col = self.colmap.title_norm or self.colmap.title
+            where_parts.append(f"{sql_ident(title_col)} LIKE ?")
+            params.append(f"%{q}%")
+
+        group_col = allowed_dimensions[group_by]
+        compare_col = allowed_dimensions.get(compare_by) if compare_by else None
+
+        where_parts.append(_sql_non_missing_condition(group_col))
+        if compare_col:
+            where_parts.append(_sql_non_missing_condition(compare_col))
+
+        where_sql = ""
+        if where_parts:
+            where_sql = "WHERE " + " AND ".join(where_parts)
+
+        # Total filtrado
+        total_rows = self.conn.execute(
+            f"SELECT COUNT(*) FROM {self.table} {where_sql}",
+            params,
+        ).fetchone()[0]
+
+        # Rango de años filtrado
+        year_min = None
+        year_max = None
+        if self.colmap.year:
+            yr = self.conn.execute(
+                f"""
+                SELECT MIN({sql_ident(self.colmap.year)}), MAX({sql_ident(self.colmap.year)})
+                FROM {self.table}
+                {where_sql}
+                """,
+                params,
+            ).fetchone()
+            year_min, year_max = yr[0], yr[1]
+
+        table_rows: list[dict[str, Any]] = []
+
+        if compare_col:
+            sql = f"""
+                SELECT
+                    CAST({sql_ident(group_col)} AS VARCHAR) AS group_value,
+                    CAST({sql_ident(compare_col)} AS VARCHAR) AS compare_value,
+                    COUNT(*) AS count
+                FROM {self.table}
+                {where_sql}
+                GROUP BY 1, 2
+                ORDER BY group_value ASC, count DESC
+                LIMIT ?
+            """
+            rows = self.conn.execute(sql, params + [int(req.limit) * 20]).fetchall()
+
+            for group_value, compare_value, count in rows:
+                table_rows.append({
+                    "group": group_value,
+                    "compare": compare_value,
+                    "count": int(count),
+                })
+
+            chart = {
+                "type": "grouped_bar" if group_by != "year" else "stacked_time",
+                "group_by": group_by,
+                "compare_by": compare_by,
+                "data": table_rows,
+            }
+
+            # Dominante por suma de group
+            group_totals: dict[str, int] = {}
+            for row in table_rows:
+                group_totals[row["group"]] = group_totals.get(row["group"], 0) + row["count"]
+
+            dominant_group = None
+            dominant_group_count = None
+            if group_totals:
+                dominant_group, dominant_group_count = max(group_totals.items(), key=lambda kv: kv[1])
+
+        else:
+            sql = f"""
+                SELECT
+                    CAST({sql_ident(group_col)} AS VARCHAR) AS group_value,
+                    COUNT(*) AS count
+                FROM {self.table}
+                {where_sql}
+                GROUP BY 1
+                ORDER BY count DESC, group_value ASC
+                LIMIT ?
+            """
+
+            # Para year, ordenar cronológicamente.
+            if group_by == "year":
+                sql = f"""
+                    SELECT
+                        CAST({sql_ident(group_col)} AS VARCHAR) AS group_value,
+                        COUNT(*) AS count
+                    FROM {self.table}
+                    {where_sql}
+                    GROUP BY 1
+                    ORDER BY group_value ASC
+                    LIMIT ?
+                """
+
+            rows = self.conn.execute(sql, params + [int(req.limit)]).fetchall()
+
+            for group_value, count in rows:
+                table_rows.append({
+                    "group": group_value,
+                    "count": int(count),
+                })
+
+            chart = {
+                "type": "bar" if group_by != "year" else "time_bar",
+                "group_by": group_by,
+                "compare_by": None,
+                "data": table_rows,
+            }
+
+            dominant_group = None
+            dominant_group_count = None
+            if table_rows:
+                dominant = max(table_rows, key=lambda row: row["count"])
+                dominant_group = dominant["group"]
+                dominant_group_count = dominant["count"]
+
+        summary = AnalysisSummary(
+            total_rows=int(total_rows or 0),
+            group_by=group_by,
+            compare_by=compare_by,
+            groups_returned=len(table_rows),
+            year_min=year_min,
+            year_max=year_max,
+            dominant_group=dominant_group,
+            dominant_group_count=dominant_group_count,
+        )
+
+        editorial = {
+            "summary": self._analysis_editorial_summary(req, summary),
+            "findings": [
+                {
+                    "label": "Tesis filtradas",
+                    "value": int(total_rows or 0),
+                    "detail": "Registros que cumplen los filtros seleccionados.",
+                },
+                {
+                    "label": "Agrupación",
+                    "value": group_by,
+                    "detail": "Variable principal usada para construir la visualización.",
+                },
+                {
+                    "label": "Grupo dominante",
+                    "value": dominant_group or "—",
+                    "detail": f"{dominant_group_count or 0} tesis en el grupo con mayor frecuencia.",
+                },
+            ],
+        }
+
+        method = MethodMetadata(
+            mode="analysis",
+            source="workshop_analyze",
+            steps=[
+                MethodStep(
+                    label="Selección de datos",
+                    detail="Se consultó thesis_lookup.parquet mediante DuckDB.",
+                ),
+                MethodStep(
+                    label="Filtros",
+                    detail=str(req.filters.model_dump(exclude_none=True)),
+                ),
+                MethodStep(
+                    label="Agrupación",
+                    detail=f"group_by={group_by}; compare_by={compare_by or 'none'}",
+                ),
+                MethodStep(
+                    label="SQL reproducible",
+                    detail="La consulta agrupa registros y calcula COUNT(*) por las variables seleccionadas.",
+                ),
+            ],
+            generated_sql="analysis query generated by WorkshopService.analyze",
+        )
+
+        return AnalysisResponse(
+            ok=True,
+            mode="analysis",
+            request=req.model_dump(),
+            summary=summary,
+            chart=chart,
+            table=table_rows,
+            editorial=editorial,
+            method=method,
+        )
+
+    def _analysis_editorial_summary(self, req: AnalysisRequest, summary: AnalysisSummary) -> str:
+        period = "periodo no determinado"
+        if summary.year_min and summary.year_max:
+            period = f"{summary.year_min}–{summary.year_max}"
+
+        parts = [
+            f"La consulta analiza {summary.total_rows:,} tesis del acervo filtrado.".replace(",", " "),
+            f"La agrupación principal es “{summary.group_by}”.",
+            f"El periodo cubierto es {period}.",
+        ]
+
+        if summary.compare_by:
+            parts.append(f"La visualización compara los resultados por “{summary.compare_by}”.")
+
+        if summary.dominant_group:
+            parts.append(
+                f"El grupo con mayor frecuencia es “{summary.dominant_group}”, con {summary.dominant_group_count} registros."
+            )
+
+        return " ".join(parts)
 
 
     def _build_editorial_layer(

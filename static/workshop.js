@@ -12,6 +12,13 @@
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 
+
+  function parquetDisplay(value) {
+    const text = String(value ?? "").trim();
+    if (!text) return "";
+    return text.toLocaleUpperCase("es-MX");
+  }
+
   function escapeHTML(value) {
     return String(value ?? "")
       .replaceAll("&", "&amp;")
@@ -27,16 +34,186 @@
   }
 
 
-  const WORKSHOP_CHART_COLORS = [
-    "#006AEB",
-    "#E36B2C",
-    "#2F9870",
-    "#7353C9",
-    "#D4A017",
-    "#D64C7F",
-    "#1D8FA3",
-    "#5B6C86"
+  
+  
+  let workshopActiveMode = "temporal";
+  let workshopActiveChartView = "bar";
+  let workshopActivePalette = "institutional";
+
+const WORKSHOP_MODE_CONFIGS = {
+    titles: {
+      label: "Títulos",
+      prompt: "Búsqueda exacta por título",
+      hint: "Busca frases verificables en títulos limpios.",
+      group_by: "year",
+      compare_by: "",
+      limit: "50",
+      chartViews: [["bar", "Barras"], ["line", "Línea"], ["table", "Tabla"]]
+    },
+    temporal: {
+      label: "Tiempo",
+      prompt: "Evolución temporal",
+      hint: "Observa cambios por año dentro del acervo.",
+      group_by: "year",
+      compare_by: "",
+      limit: "60",
+      chartViews: [["bar", "Barras"], ["line", "Línea"], ["area", "Área"]]
+    },
+    ranking: {
+      label: "Ranking",
+      prompt: "Orden de categorías",
+      hint: "Identifica los grupos con mayor concentración.",
+      group_by: "program",
+      compare_by: "",
+      limit: "20",
+      chartViews: [["bar", "Barras"], ["lollipop", "Lollipop"], ["treemap", "Treemap"]]
+    },
+    comparison: {
+      label: "Comparación",
+      prompt: "Comparación de categorías",
+      hint: "Cruza una dimensión principal con una segmentación.",
+      group_by: "program",
+      compare_by: "degree",
+      limit: "40",
+      chartViews: [["grouped_bar", "Barras"], ["stacked", "Apiladas"], ["table", "Tabla"]]
+    },
+    distribution: {
+      label: "Distribución",
+      prompt: "Distribución del conjunto",
+      hint: "Revisa concentración y forma de una variable.",
+      group_by: "year",
+      compare_by: "",
+      limit: "60",
+      chartViews: [["bar", "Frecuencia"], ["area", "Área"], ["line", "Perfil"]]
+    },
+    partwhole: {
+      label: "Parte del total",
+      prompt: "Composición proporcional",
+      hint: "Mide participación dentro del total filtrado.",
+      group_by: "degree",
+      compare_by: "",
+      limit: "20",
+      chartViews: [["donut", "Donut"], ["bar", "Barras"], ["treemap", "Treemap"]]
+    },
+    magnitude: {
+      label: "Magnitud",
+      prompt: "Tamaños absolutos",
+      hint: "Compara volúmenes entre dimensiones.",
+      group_by: "area",
+      compare_by: "",
+      limit: "20",
+      chartViews: [["bar", "Barras"], ["treemap", "Treemap"], ["table", "Tabla"]]
+    },
+    advisors: {
+      label: "Asesores",
+      prompt: "Actividad de asesores",
+      hint: "Explora patrones de dirección y concentración.",
+      group_by: "advisor",
+      compare_by: "",
+      limit: "30",
+      chartViews: [["bar", "Ranking"], ["lollipop", "Lollipop"], ["table", "Tabla"]]
+    }
+  };
+
+const WORKSHOP_CHART_COLORS = [
+    "#5F9FA7",
+    "#D87472",
+    "#D8AA70",
+    "#8E9D8A",
+    "#6F7178",
+    "#7A5262",
+    "#A8B7BD",
+    "#C7A27A"
   ];
+
+
+  const WORKSHOP_CHART_TEXT = "#252A33";
+  const WORKSHOP_CHART_MUTED = "rgba(37,42,51,.58)";
+  const WORKSHOP_CHART_GRID = "rgba(37,42,51,.14)";
+  const WORKSHOP_CHART_AXIS = "rgba(37,42,51,.42)";
+
+  function workshopTooltipStyle() {
+    return {
+      backgroundColor: "rgba(255,255,255,.96)",
+      borderColor: "rgba(37,42,51,.16)",
+      borderWidth: 1,
+      padding: [8, 10],
+      textStyle: {
+        color: WORKSHOP_CHART_TEXT,
+        fontFamily: "Inter, Montserrat, system-ui, sans-serif",
+        fontSize: 12
+      },
+      extraCssText: "box-shadow:none;border-radius:4px;"
+    };
+  }
+
+  function workshopGridStyle(extra = {}) {
+    return {
+      left: 48,
+      right: 28,
+      top: 36,
+      bottom: 42,
+      containLabel: true,
+      ...extra
+    };
+  }
+
+  function workshopCategoryAxis(data = [], extra = {}) {
+    return {
+      type: "category",
+      data,
+      axisTick: { show: false },
+      axisLine: { lineStyle: { color: WORKSHOP_CHART_AXIS } },
+      axisLabel: {
+        color: WORKSHOP_CHART_MUTED,
+        fontSize: 11,
+        hideOverlap: true
+      },
+      splitLine: {
+        show: true,
+        lineStyle: { color: WORKSHOP_CHART_GRID, width: 1 }
+      },
+      ...extra
+    };
+  }
+
+  function workshopValueAxis(extra = {}) {
+    return {
+      type: "value",
+      axisTick: { show: false },
+      axisLine: { lineStyle: { color: WORKSHOP_CHART_AXIS } },
+      axisLabel: {
+        color: WORKSHOP_CHART_MUTED,
+        fontSize: 11
+      },
+      splitLine: {
+        show: true,
+        lineStyle: { color: WORKSHOP_CHART_GRID, width: 1 }
+      },
+      ...extra
+    };
+  }
+
+  function workshopBaseOption(extra = {}) {
+    return {
+      color: WORKSHOP_CHART_COLORS,
+      backgroundColor: "transparent",
+      textStyle: {
+        fontFamily: "Inter, Montserrat, system-ui, sans-serif",
+        color: WORKSHOP_CHART_TEXT
+      },
+      tooltip: workshopTooltipStyle(),
+      animationDuration: 520,
+      animationEasing: "cubicOut",
+      ...extra
+    };
+  }
+
+  function shortChartLabel(value, max = 18) {
+    const text = parquetDisplay(value || "");
+    return text.length > max ? `${text.slice(0, max - 1)}…` : text;
+  }
+
 
   const workshopChartInstances = new Map();
 
@@ -112,6 +289,8 @@
   }
 
   async function loadFacets() {
+    if (!window.__NODO_WORKSHOP_STARTED) return null;
+    if (!window.__NODO_WORKSHOP_STARTED) return null;
     try {
       const facets = await fetchJSON("/api/workshop/facets");
       state.facets = facets;
@@ -515,11 +694,11 @@
 
     tbody.innerHTML = rows.slice(0, 50).map(row => `
       <tr>
-        <td>${escapeHTML(row.title || "—")}</td>
+        <td>${escapeHTML(parquetDisplay(row.title) || "—")}</td>
         <td>${escapeHTML(row.year || "—")}</td>
-        <td>${escapeHTML(row.program || "—")}</td>
-        <td>${escapeHTML(row.degree || "—")}</td>
-        <td>${escapeHTML(row.plantel || "—")}</td>
+        <td>${escapeHTML(parquetDisplay(row.program) || "—")}</td>
+        <td>${escapeHTML(parquetDisplay(row.degree) || "—")}</td>
+        <td>${escapeHTML(parquetDisplay(row.plantel) || "—")}</td>
       </tr>
     `).join("");
   }
@@ -538,7 +717,14 @@
     `;
   }
 
+
+  function forceWorkshopTitlesMode() {
+    document.body.classList.remove("workshop-analysis-mode");
+    document.body.classList.add("workshop-titles-mode");
+  }
+
   function renderReport(report) {
+  forceWorkshopTitlesMode();
   state.report = report;
 
   const resultMode = $("#workshopResultMode");
@@ -568,14 +754,13 @@
   renderTable(report.tables?.top_theses || []);
   renderMethod(report.method);
 
-  document.body.classList.add("workshop-has-results");
-
   setStatus("Consulta completada", `${formatNumber(report.summary.total_matches)} tesis encontradas.`);
 
   // No forzamos scroll aquí: el usuario debe poder recorrer libremente el dashboard.
 }
 
   async function runSearch() {
+    forceWorkshopTitlesMode();
     if (state.exploreMode === "semantic") {
       setStatus("Búsqueda semántica pendiente", "Todavía falta conectar embeddings/FAISS.", "normal");
       return;
@@ -592,6 +777,8 @@
 
     try {
       state.loading = true;
+      forceWorkshopTitlesMode();
+      document.body.classList.add("workshop-has-results");
       if (button) button.disabled = true;
       setStatus("Consultando backend", "Ejecutando DuckDB sobre thesis_lookup.parquet…");
 
@@ -717,149 +904,262 @@
     const tallerPanel = document.querySelector('.tab-panel[data-panel="taller"]');
     if (!tallerPanel) return;
 
+    const analysisPanel =
+      tallerPanel.querySelector('.workshop-panel[data-ws-panel="analysis"]') ||
+      tallerPanel.querySelector('.workshop-panel[data-workshop-panel="analysis"]') ||
+      tallerPanel.querySelector('[data-ws-panel="analysis"]') ||
+      tallerPanel.querySelector('[data-workshop-panel="analysis"]');
+
     const root =
+      analysisPanel ||
       tallerPanel.querySelector("[data-workshop-root]") ||
       tallerPanel.querySelector(".workshop-main") ||
       tallerPanel;
 
+    if (analysisPanel) {
+      analysisPanel.replaceChildren();
+    }
+
     const section = document.createElement("section");
-    section.className = "wa2";
+    section.className = "wa2 wa2-editorial";
     section.id = "workshopAnalysisLab";
 
     section.innerHTML = `
       <header class="wa2-hero">
-        <div>
+        <div class="wa2-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="wa2-hero-copy">
           <p class="eyebrow">Mesa de análisis</p>
-          <h2>Construye visualizaciones del acervo UNAM</h2>
+          <h2>Construye evidencia visual del acervo UNAM</h2>
           <p>
-            Elige una relación visual, ajusta filtros y genera una gráfica reproducible sobre las tesis.
-            La Mesa trabaja directamente con DuckDB, Parquet y Apache ECharts.
+            Elige una relación visual. La Mesa traduce esa intención a una consulta reproducible
+            sobre títulos, años, programas, áreas, niveles, planteles y asesores.
           </p>
         </div>
-        <div class="wa2-badge">
-          <span>Constructor general</span>
-          <strong>COUNT · GROUP BY · FILTER</strong>
-        </div>
+        <aside class="wa2-method-card">
+          <span>Motor</span>
+          <strong>DuckDB · Parquet · ECharts</strong>
+          <p>Consulta reproducible, tabla auditable y visualización exportable.</p>
+        </aside>
       </header>
 
-      <nav class="wa2-nav" aria-label="Tipos de análisis">
-        <button class="wa2-nav-item is-active" type="button" data-template="temporal">
-          <strong>Tiempo</strong>
-          <span>Cambio por año</span>
-        </button>
-        <button class="wa2-nav-item" type="button" data-template="comparison">
-          <strong>Comparación</strong>
-          <span>Categorías lado a lado</span>
-        </button>
-        <button class="wa2-nav-item" type="button" data-template="ranking">
-          <strong>Ranking</strong>
-          <span>Mayor a menor</span>
-        </button>
-        <button class="wa2-nav-item" type="button" data-template="distribution">
-          <strong>Distribución</strong>
-          <span>Concentración</span>
-        </button>
-        <button class="wa2-nav-item" type="button" data-template="partwhole">
-          <strong>Parte del total</strong>
-          <span>Composición</span>
-        </button>
-        <button class="wa2-nav-item" type="button" data-template="magnitude">
-          <strong>Magnitud</strong>
-          <span>Tamaños absolutos</span>
-        </button>
-      </nav>
+      <section class="wa2-chooser" aria-labelledby="analysisRelationTitle">
+        <div class="wa2-section-title">
+          <p class="eyebrow">Relación visual</p>
+          <h3>¿Qué quieres observar?</h3>
+        </div>
+
+        <nav class="wa2-nav" aria-label="Categorías visuales">
+          <button class="wa2-nav-item is-active" type="button" data-template="temporal">
+            <small>01</small>
+            <strong>Tiempo</strong>
+            <span>Evolución por año</span>
+          </button>
+          <button class="wa2-nav-item" type="button" data-template="comparison">
+            <small>02</small>
+            <strong>Comparación</strong>
+            <span>Categorías frente a frente</span>
+          </button>
+          <button class="wa2-nav-item" type="button" data-template="ranking">
+            <small>03</small>
+            <strong>Ranking</strong>
+            <span>Mayor a menor</span>
+          </button>
+          <button class="wa2-nav-item" type="button" data-template="distribution">
+            <small>04</small>
+            <strong>Distribución</strong>
+            <span>Concentración y dispersión</span>
+          </button>
+          <button class="wa2-nav-item" type="button" data-template="partwhole">
+            <small>05</small>
+            <strong>Parte del total</strong>
+            <span>Composición proporcional</span>
+          </button>
+          <button class="wa2-nav-item" type="button" data-template="magnitude">
+            <small>06</small>
+            <strong>Magnitud</strong>
+            <span>Tamaños absolutos</span>
+          </button>
+        </nav>
+      </section>
 
       <section class="wa2-guide">
         <article class="wa2-intro" id="analysisVocabIntro">
           <p class="eyebrow">Tiempo</p>
-          <h3>Cambio a través de los años</h3>
-          <p>Úsalo para observar cuándo aparece, crece o se concentra un tema dentro del acervo.</p>
+          <h3 id="analysisRelationTitle">Cambio a través de los años</h3>
+          <p id="analysisRelationCopy">Úsalo para observar cuándo aparece, crece o se concentra un tema dentro del acervo.</p>
         </article>
 
         <article class="wa2-demo-card">
-          <div class="wa2-demo-chart" id="analysisDemoChart"></div>
+          <div class="wa2-card-head">
+            <span>Demo visual</span>
+            <strong id="analysisDemoLabel">Barras temporales</strong>
+          </div>
+          <div id="analysisDemoChart" class="wa2-demo"></div>
         </article>
 
-        <article class="wa2-types" id="analysisChartTypes"></article>
+        <aside class="wa2-types" id="analysisChartTypes"></aside>
       </section>
 
-      <section class="wa2-builder">
-        <div class="wa2-builder-copy">
-          <p class="eyebrow">Constructor</p>
-          <h3>Ajusta la consulta</h3>
-          <p>Las plantillas configuran los campos por ti, pero puedes cambiarlos manualmente.</p>
+      <section class="wa2-builder wa2-analysis-blocks" aria-label="Mesa de análisis cuantitativo">
+        <nav class="wa2-mode-strip" id="analysisModeStrip" aria-label="Categorías de análisis">
+          <button type="button" data-mode-strip="titles">Títulos</button>
+          <button type="button" data-mode-strip="temporal">Tiempo</button>
+          <button type="button" data-mode-strip="ranking">Ranking</button>
+          <button type="button" data-mode-strip="comparison">Comparación</button>
+          <button type="button" data-mode-strip="distribution">Distribución</button>
+          <button type="button" data-mode-strip="partwhole">Parte del total</button>
+          <button type="button" data-mode-strip="magnitude">Magnitud</button>
+          <button type="button" data-mode-strip="advisors">Asesores</button>
+        </nav>
+        <header class="wa2-blocks-head">
+          <div>
+            <p class="eyebrow">Mesa cuantitativa</p>
+            <h3>Define el universo, mide y visualiza.</h3>
+          </div>
+          <p>
+            Cada bloque representa una decisión analítica. La consulta técnica se conserva como método reproducible.
+          </p>
+        </header>
+
+        <div class="wa2-block-grid">
+          <article class="wa2-block wa2-block-universe">
+            <span class="wa2-block-index">01</span>
+            <div>
+              <p class="eyebrow">Universo</p>
+              <h4>Conjunto de tesis</h4>
+            </div>
+            <label class="wa2-block-wide">
+              <span>Títulos que contienen</span>
+              <input id="analysisTitleContains" type="text" placeholder="inteligencia artificial, banca, muralismo…" />
+            </label>
+            <div class="wa2-block-row">
+              <label>
+                <span>Desde</span>
+                <input id="analysisYearMin" type="number" min="1900" max="2026" placeholder="2000" />
+              </label>
+              <label>
+                <span>Hasta</span>
+                <input id="analysisYearMax" type="number" min="1900" max="2026" placeholder="2026" />
+              </label>
+            </div>
+          </article>
+
+          <article class="wa2-block">
+            <span class="wa2-block-index">02</span>
+            <div>
+              <p class="eyebrow">Medición</p>
+              <h4>Métrica</h4>
+            </div>
+            <label>
+              <span>Medir</span>
+              <select id="analysisMetric">
+                <option value="count">número de tesis</option>
+                <option value="distinct_programs" disabled>programas distintos</option>
+                <option value="distinct_advisors" disabled>asesores distintos</option>
+                <option value="share" disabled>participación porcentual</option>
+              </select>
+            </label>
+          </article>
+
+          <article class="wa2-block">
+            <span class="wa2-block-index">03</span>
+            <div>
+              <p class="eyebrow">Agrupación</p>
+              <h4>Dimensión principal</h4>
+            </div>
+            <label>
+              <span>Agrupar por</span>
+              <select id="analysisGroupBy">
+                <option value="year">año</option>
+                <option value="program">programa</option>
+                <option value="area">área</option>
+                <option value="degree">nivel</option>
+                <option value="plantel">plantel</option>
+                <option value="advisor">asesor</option>
+              </select>
+            </label>
+          </article>
+
+          <article class="wa2-block">
+            <span class="wa2-block-index">04</span>
+            <div>
+              <p class="eyebrow">Segmentación</p>
+              <h4>Comparación</h4>
+            </div>
+            <label>
+              <span>Segmentar por</span>
+              <select id="analysisCompareBy">
+                <option value="">sin segmentación</option>
+                <option value="area">área</option>
+                <option value="degree">nivel</option>
+                <option value="program">programa</option>
+                <option value="plantel">plantel</option>
+              </select>
+            </label>
+          </article>
+
+          <article class="wa2-block wa2-block-output">
+            <span class="wa2-block-index">05</span>
+            <div>
+              <p class="eyebrow">Salida</p>
+              <h4>Lectura visual</h4>
+            </div>
+            <label>
+              <span>Límite</span>
+              <input id="analysisLimit" type="number" min="5" max="100" value="80" />
+            </label>
+            <div class="wa2-mode-tools" id="analysisModeTools">
+              <div>
+                <span>Vista</span>
+                <div class="wa2-chart-toolbar" id="analysisChartViews"></div>
+              </div>
+              <div>
+                <span>Color</span>
+                <div class="wa2-palette-toolbar" id="analysisPaletteViews">
+                  <button type="button" data-palette="institutional">Institucional</button>
+                  <button type="button" data-palette="sober">Sobria</button>
+                  <button type="button" data-palette="contrast">Contraste</button>
+                  <button type="button" data-palette="mono">Mono</button>
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
 
-        <div class="wa2-controls">
-          <label>
-            Variable principal
-            <select id="analysisGroupBy">
-              <option value="year">Año</option>
-              <option value="area">Área</option>
-              <option value="degree">Nivel</option>
-              <option value="program">Programa</option>
-              <option value="plantel">Plantel</option>
-              <option value="advisor">Asesor</option>
-            </select>
-          </label>
-
-          <label>
-            Comparar con
-            <select id="analysisCompareBy">
-              <option value="">Sin comparación</option>
-              <option value="area">Área</option>
-              <option value="degree">Nivel</option>
-              <option value="program">Programa</option>
-              <option value="plantel">Plantel</option>
-            </select>
-          </label>
-
-          <label>
-            Desde
-            <input id="analysisYearMin" type="number" min="1873" max="2026" placeholder="2000">
-          </label>
-
-          <label>
-            Hasta
-            <input id="analysisYearMax" type="number" min="1873" max="2026" placeholder="2026">
-          </label>
-
-          <label class="wa2-wide">
-            Tema o palabra en título
-            <input id="analysisTitleContains" type="text" placeholder="Ej. inteligencia artificial, banca, literatura mexicana">
-          </label>
-
-          <label>
-            Máximo
-            <input id="analysisLimit" type="number" min="1" max="100" value="80">
-          </label>
-
+        <footer class="wa2-block-footer">
+          <div class="wa2-query-note" id="analysisQueryNote">
+            universe=all · metric=count · group_by=year · compare_by=none · chart_type=auto
+          </div>
           <button class="workshop-primary wa2-run" id="analysisRunBtn" type="button">
-            Construir visualización
+            Ejecutar análisis
           </button>
-        </div>
+        </footer>
       </section>
 
       <section class="wa2-result">
         <article class="wa2-summary" id="analysisSummary">
           <span>Plantilla seleccionada</span>
           <strong>Tiempo</strong>
-          <p>Agrega un tema en el título o deja el campo vacío para analizar todo el acervo.</p>
+          <p>Agrega un tema o analiza todo el acervo. La lectura aparecerá aquí cuando generes la visualización.</p>
         </article>
 
-        <article class="wa2-chart" id="analysisChart"></article>
+        <article class="wa2-chart">
+          <div class="wa2-card-head">
+            <span>Visualización</span>
+            <strong id="analysisChartTitle">Gráfico reproducible</strong>
+          </div>
+          <div id="analysisChart"></div>
+        </article>
 
         <article class="wa2-table-card">
-          <div class="workshop-card-head">
-            <div>
-              <p class="eyebrow">Datos de la visualización</p>
-              <h3>Tabla reproducible</h3>
-            </div>
+          <div class="wa2-card-head">
+            <span>Datos y método</span>
             <button class="workshop-secondary" id="analysisCopyBtn" type="button">Copiar CSV</button>
           </div>
-
           <div class="workshop-table-wrap">
-            <table class="workshop-table">
+            <table class="workshop-table wa2-table">
               <thead id="analysisTableHead"></thead>
               <tbody id="analysisTableBody"></tbody>
             </table>
@@ -881,10 +1181,9 @@
   }
 
 
+  
 
-
-
-
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
   function scheduleWorkshopChartResize(reason = "unknown") {
     requestAnimationFrame(() => {
       resizeWorkshopCharts();
@@ -894,6 +1193,134 @@
   }
 
 
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
+  function renderAnalysisDemo(kind) {
+    const chart = ensureEChart("analysisDemoChart");
+    if (!chart) return;
+
+    const years = ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"];
+    const values = [18, 22, 19, 28, 34, 42, 57, 73];
+
+    if (kind === "partwhole") {
+      chart.setOption(workshopBaseOption({
+        tooltip: { ...workshopTooltipStyle(), trigger: "item" },
+        legend: {
+          bottom: 0,
+          itemWidth: 10,
+          itemHeight: 10,
+          textStyle: { color: WORKSHOP_CHART_MUTED, fontSize: 11 }
+        },
+        series: [{
+          type: "pie",
+          radius: ["46%", "72%"],
+          center: ["50%", "46%"],
+          avoidLabelOverlap: true,
+          itemStyle: {
+            borderColor: "#fff",
+            borderWidth: 2
+          },
+          label: {
+            color: WORKSHOP_CHART_MUTED,
+            fontSize: 11,
+            formatter: "{b}"
+          },
+          labelLine: {
+            lineStyle: { color: WORKSHOP_CHART_AXIS }
+          },
+          data: [
+            { name: "Área 1", value: 31 },
+            { name: "Área 2", value: 42 },
+            { name: "Área 3", value: 21 },
+            { name: "Área 4", value: 10 }
+          ]
+        }]
+      }), true);
+      return;
+    }
+
+    if (kind === "ranking" || kind === "magnitude" || kind === "comparison") {
+      const labels = kind === "comparison"
+        ? ["Economía", "Derecho", "Arquitectura", "Medicina", "Historia"]
+        : ["Programa A", "Programa B", "Programa C", "Programa D", "Programa E"];
+      const counts = kind === "comparison" ? [92, 81, 64, 58, 47] : [116, 98, 74, 63, 41];
+
+      chart.setOption(workshopBaseOption({
+        tooltip: { ...workshopTooltipStyle(), trigger: "axis", axisPointer: { type: "shadow" } },
+        grid: workshopGridStyle({ left: 108, top: 24, bottom: 24 }),
+        xAxis: workshopValueAxis(),
+        yAxis: workshopCategoryAxis(labels, {
+          inverse: true,
+          axisLabel: {
+            color: WORKSHOP_CHART_MUTED,
+            fontSize: 11,
+            formatter: value => shortChartLabel(value, 16)
+          },
+          splitLine: { show: false }
+        }),
+        series: [{
+          type: "bar",
+          data: counts,
+          barWidth: 16,
+          itemStyle: { borderRadius: [0, 2, 2, 0] },
+          label: {
+            show: true,
+            position: "right",
+            color: WORKSHOP_CHART_MUTED,
+            fontSize: 10
+          }
+        }]
+      }), true);
+      return;
+    }
+
+    if (kind === "distribution") {
+      chart.setOption(workshopBaseOption({
+        tooltip: { ...workshopTooltipStyle(), trigger: "axis" },
+        grid: workshopGridStyle({ top: 26, bottom: 34 }),
+        xAxis: workshopCategoryAxis(["0-10", "11-20", "21-30", "31-40", "41-50", "51+"], {
+          splitLine: { show: false }
+        }),
+        yAxis: workshopValueAxis(),
+        series: [{
+          type: "bar",
+          data: [14, 38, 62, 45, 24, 11],
+          barWidth: 24,
+          itemStyle: { color: WORKSHOP_CHART_COLORS[2], borderRadius: [2, 2, 0, 0] }
+        }]
+      }), true);
+      return;
+    }
+
+    chart.setOption(workshopBaseOption({
+      tooltip: { ...workshopTooltipStyle(), trigger: "axis" },
+      grid: workshopGridStyle({ top: 28, bottom: 34 }),
+      xAxis: workshopCategoryAxis(years, {
+        splitLine: { show: false }
+      }),
+      yAxis: workshopValueAxis(),
+      series: [{
+        type: "line",
+        smooth: true,
+        symbolSize: 6,
+        lineStyle: { width: 2, color: WORKSHOP_CHART_COLORS[0] },
+        itemStyle: { color: WORKSHOP_CHART_COLORS[0], borderColor: "#fff", borderWidth: 1.5 },
+        areaStyle: { opacity: .26, color: WORKSHOP_CHART_COLORS[0] },
+        label: {
+          show: true,
+          position: "top",
+          color: WORKSHOP_CHART_COLORS[0],
+          fontSize: 10,
+          formatter: params => params.dataIndex === 0 || params.dataIndex === values.length - 1 ? params.value : ""
+        },
+        data: values
+      }]
+    }), true);
+
+    setTimeout(resizeWorkshopCharts, 40);
+  }
+
+
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
   function applyAnalysisTemplate(template) {
     const groupBy = document.getElementById("analysisGroupBy");
     const compareBy = document.getElementById("analysisCompareBy");
@@ -913,96 +1340,102 @@
         limit: "80",
         year_min: "2000",
         year_max: "2026",
+        chartLabel: "Línea / barras temporales",
         chartTypes: [
-          ["Barras temporales", "Conteos por año"],
-          ["Línea", "Tendencia continua"],
-          ["Área", "Volumen acumulado"],
-          ["Área apilada", "Tiempo comparado"]
+          ["Línea", "tendencia continua"],
+          ["Barras temporales", "conteos por año"],
+          ["Área", "volumen acumulado"],
+          ["Heatmap", "año por categoría"]
         ],
         demo: "temporal"
       },
       comparison: {
         title: "Comparación",
-        subtitle: "Comparar categorías",
-        body: "Úsalo para comparar programas, niveles, planteles, áreas o asesores.",
+        subtitle: "Categorías frente a frente",
+        body: "Compara programas, áreas, niveles, planteles o asesores para ver diferencias claras entre grupos.",
         group_by: "program",
-        compare_by: "",
+        compare_by: "degree",
         limit: "30",
         year_min: "",
         year_max: "",
+        chartLabel: "Barras agrupadas",
         chartTypes: [
-          ["Barras agrupadas", "Comparación directa"],
-          ["Dot plot", "Lectura precisa"],
-          ["Small multiples", "Vistas paralelas"],
-          ["Barras horizontales", "Categorías largas"]
+          ["Barras agrupadas", "comparación directa"],
+          ["Barras horizontales", "categorías largas"],
+          ["Dot plot", "diferencias finas"],
+          ["Small multiples", "series comparables"]
         ],
         demo: "comparison"
       },
       ranking: {
         title: "Ranking",
         subtitle: "Ordenar de mayor a menor",
-        body: "Úsalo para identificar qué categorías concentran más tesis dentro del conjunto filtrado.",
+        body: "Encuentra qué programas, planteles, áreas o asesores concentran más tesis dentro de un conjunto.",
         group_by: "program",
         compare_by: "",
-        limit: "30",
+        limit: "20",
         year_min: "",
         year_max: "",
+        chartLabel: "Ranking de barras",
         chartTypes: [
-          ["Ranking de barras", "Top categorías"],
-          ["Lollipop", "Ranking ligero"],
-          ["Tabla ordenada", "Máxima precisión"],
-          ["Highlight bars", "Resaltar líderes"]
+          ["Barras ranking", "top categorías"],
+          ["Lollipop", "ranking editorial"],
+          ["Tabla ordenada", "lectura exacta"],
+          ["Highlight bars", "enfatizar un grupo"]
         ],
         demo: "ranking"
       },
       distribution: {
         title: "Distribución",
         subtitle: "Concentración y dispersión",
-        body: "Úsalo para estudiar cómo se reparte una variable y detectar concentración.",
-        group_by: "degree",
+        body: "Observa la forma del conjunto: dónde se acumulan las tesis y qué valores aparecen como extremos.",
+        group_by: "year",
         compare_by: "",
-        limit: "30",
+        limit: "60",
         year_min: "",
         year_max: "",
+        chartLabel: "Histograma / distribución",
         chartTypes: [
-          ["Histograma", "Distribución numérica"],
-          ["Boxplot", "Rangos y atípicos"],
-          ["Densidad", "Forma general"],
-          ["Strip plot", "Puntos individuales"]
+          ["Histograma", "frecuencia por rangos"],
+          ["Boxplot", "valores extremos"],
+          ["Strip plot", "puntos individuales"],
+          ["Densidad", "forma suavizada"]
         ],
         demo: "distribution"
       },
       partwhole: {
         title: "Parte del total",
-        subtitle: "Composición del conjunto",
-        body: "Úsalo para ver qué proporción ocupa cada categoría dentro de un conjunto.",
-        group_by: "degree",
+        subtitle: "Composición proporcional",
+        body: "Muestra qué proporción ocupa cada área, nivel, programa o plantel dentro del conjunto filtrado.",
+        group_by: "area",
         compare_by: "",
         limit: "20",
         year_min: "",
         year_max: "",
+        chartLabel: "Dona / barra 100%",
         chartTypes: [
-          ["Donut", "Composición simple"],
-          ["Treemap", "Partes jerárquicas"],
-          ["Barra 100%", "Proporciones"],
-          ["Waffle", "Composición visual"]
+          ["Dona", "composición simple"],
+          ["Treemap", "peso relativo"],
+          ["Barra 100%", "comparar proporciones"],
+          ["Waffle", "lectura modular"]
         ],
         demo: "partwhole"
       },
       magnitude: {
         title: "Magnitud",
         subtitle: "Tamaños absolutos",
-        body: "Úsalo cuando lo central sea comparar volúmenes absolutos entre categorías.",
+        body: "Compara el tamaño bruto de conjuntos: cuántas tesis hay por programa, plantel, área o nivel.",
         group_by: "plantel",
         compare_by: "",
-        limit: "30",
+        limit: "25",
         year_min: "",
         year_max: "",
+        chartLabel: "Barras / burbujas",
         chartTypes: [
-          ["Barras", "Medición directa"],
-          ["Burbujas", "Tamaño proporcional"],
-          ["Treemap", "Magnitud compacta"],
-          ["Packed circles", "Volumen relativo"]
+          ["Barras", "magnitud absoluta"],
+          ["Burbujas", "tamaño visual"],
+          ["Packed circles", "conjuntos compactos"],
+          ["Treemap", "áreas proporcionales"]
         ],
         demo: "magnitude"
       }
@@ -1012,9 +1445,9 @@
 
     groupBy.value = cfg.group_by;
     compareBy.value = cfg.compare_by;
-    if (limit) limit.value = cfg.limit;
     if (yearMin) yearMin.value = cfg.year_min;
     if (yearMax) yearMax.value = cfg.year_max;
+    if (limit) limit.value = cfg.limit;
 
     document.querySelectorAll(".wa2-nav-item").forEach(btn => {
       btn.classList.toggle("is-active", btn.dataset.template === template);
@@ -1024,10 +1457,13 @@
     if (intro) {
       intro.innerHTML = `
         <p class="eyebrow">${escapeHTML(cfg.title)}</p>
-        <h3>${escapeHTML(cfg.subtitle)}</h3>
-        <p>${escapeHTML(cfg.body)}</p>
+        <h3 id="analysisRelationTitle">${escapeHTML(cfg.subtitle)}</h3>
+        <p id="analysisRelationCopy">${escapeHTML(cfg.body)}</p>
       `;
     }
+
+    const demoLabel = document.getElementById("analysisDemoLabel");
+    if (demoLabel) demoLabel.textContent = cfg.chartLabel;
 
     const types = document.getElementById("analysisChartTypes");
     if (types) {
@@ -1039,21 +1475,29 @@
       `).join("");
     }
 
-    renderAnalysisDemo(cfg.demo);
-    scheduleWorkshopChartResize("template");
+    const note = document.getElementById("analysisQueryNote");
+    if (note) {
+      note.textContent = `group_by=${cfg.group_by} · compare_by=${cfg.compare_by || "none"} · limit=${cfg.limit} · chart_type=auto`;
+    }
 
     const summaryEl = document.getElementById("analysisSummary");
     if (summaryEl) {
       summaryEl.innerHTML = `
-        <span>Plantilla seleccionada</span>
+        <span>Relación visual</span>
         <strong>${escapeHTML(cfg.title)}</strong>
         <p>${escapeHTML(cfg.body)} Agrega un tema en el título o deja el campo vacío para analizar todo el acervo.</p>
       `;
     }
+
+    const chartTitle = document.getElementById("analysisChartTitle");
+    if (chartTitle) chartTitle.textContent = cfg.chartLabel;
+
+    renderAnalysisDemo(cfg.demo);
+    scheduleWorkshopChartResize("template");
   }
 
 
-
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
   function bindAnalysisTemplates() {
     document.querySelectorAll(".wa2-nav-item").forEach(btn => {
       btn.addEventListener("click", () => {
@@ -1063,158 +1507,7 @@
   }
 
 
-
-  function renderAnalysisDemo(kind) {
-    const chart = ensureEChart("analysisDemoChart");
-    if (!chart) return;
-
-    const palette = WORKSHOP_CHART_COLORS;
-    const years = ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"];
-    const values = [18, 22, 19, 28, 34, 42, 57, 73];
-
-    const baseGrid = {
-      left: 34,
-      right: 18,
-      top: 28,
-      bottom: 28,
-      containLabel: true
-    };
-
-    if (kind === "partwhole") {
-      chart.setOption({
-        color: palette,
-        tooltip: { trigger: "item" },
-        series: [{
-          type: "pie",
-          radius: ["46%", "72%"],
-          center: ["50%", "52%"],
-          itemStyle: { borderRadius: 8, borderColor: "#fff", borderWidth: 2 },
-          data: [
-            { name: "Nivel A", value: 42 },
-            { name: "Nivel B", value: 28 },
-            { name: "Nivel C", value: 18 },
-            { name: "Nivel D", value: 12 }
-          ]
-        }]
-      }, true);
-      return;
-    }
-
-    if (kind === "distribution") {
-      chart.setOption({
-        color: [palette[2]],
-        grid: baseGrid,
-        tooltip: { trigger: "axis" },
-        xAxis: {
-          type: "category",
-          data: ["0–5", "6–10", "11–15", "16–20", "21–25", "26+"],
-          axisTick: { show: false }
-        },
-        yAxis: { type: "value", splitLine: { lineStyle: { color: "rgba(21,24,32,.08)" } } },
-        series: [{
-          type: "bar",
-          data: [8, 18, 31, 22, 13, 6],
-          barMaxWidth: 34,
-          itemStyle: { borderRadius: [8, 8, 0, 0] }
-        }]
-      }, true);
-      return;
-    }
-
-    if (kind === "ranking" || kind === "comparison" || kind === "magnitude") {
-      const labels = ["Programa A", "Programa B", "Programa C", "Programa D", "Programa E"].reverse();
-      const data = [75, 61, 48, 32, 21].reverse();
-
-      chart.setOption({
-        color: palette,
-        grid: { left: 18, right: 34, top: 24, bottom: 18, containLabel: true },
-        tooltip: { trigger: "axis", axisPointer: { type: "shadow" } },
-        xAxis: { type: "value", splitLine: { lineStyle: { color: "rgba(21,24,32,.08)" } } },
-        yAxis: {
-          type: "category",
-          data: labels,
-          axisTick: { show: false },
-          axisLine: { show: false }
-        },
-        series: [{
-          type: "bar",
-          data,
-          barMaxWidth: 20,
-          label: { show: true, position: "right" },
-          itemStyle: {
-            borderRadius: [0, 8, 8, 0],
-            color: params => palette[params.dataIndex % palette.length]
-          }
-        }]
-      }, true);
-      return;
-    }
-
-    if (kind === "correlation") {
-      chart.setOption({
-        color: [palette[3]],
-        grid: baseGrid,
-        tooltip: { trigger: "item" },
-        xAxis: { type: "value", splitLine: { lineStyle: { color: "rgba(21,24,32,.08)" } } },
-        yAxis: { type: "value", splitLine: { lineStyle: { color: "rgba(21,24,32,.08)" } } },
-        series: [{
-          type: "scatter",
-          symbolSize: val => Math.max(8, val[2] / 2),
-          data: [[10, 12, 20], [20, 23, 30], [31, 28, 42], [45, 40, 28], [57, 51, 50], [72, 65, 36]]
-        }]
-      }, true);
-      return;
-    }
-
-    if (kind === "flow") {
-      chart.setOption({
-        color: palette,
-        tooltip: { trigger: "item" },
-        series: [{
-          type: "sankey",
-          layout: "none",
-          emphasis: { focus: "adjacency" },
-          data: [
-            { name: "Área" }, { name: "Programa" }, { name: "Nivel" }, { name: "Plantel" }
-          ],
-          links: [
-            { source: "Área", target: "Programa", value: 10 },
-            { source: "Programa", target: "Nivel", value: 8 },
-            { source: "Nivel", target: "Plantel", value: 6 }
-          ]
-        }]
-      }, true);
-      return;
-    }
-
-    chart.setOption({
-      color: [palette[0], palette[1]],
-      grid: baseGrid,
-      tooltip: { trigger: "axis" },
-      xAxis: {
-        type: "category",
-        data: years,
-        axisTick: { show: false },
-        axisLabel: { color: "rgba(21,24,32,.58)" }
-      },
-      yAxis: {
-        type: "value",
-        splitLine: { lineStyle: { color: "rgba(21,24,32,.08)" } },
-        axisLabel: { color: "rgba(21,24,32,.58)" }
-      },
-      series: [{
-        type: "line",
-        smooth: true,
-        symbolSize: 7,
-        areaStyle: { opacity: 0.12 },
-        lineStyle: { width: 3 },
-        data: values
-      }]
-    }, true);
-
-    setTimeout(resizeWorkshopCharts, 40);
-  }
-
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
   function readAnalysisRequest() {
     const groupBy = document.getElementById("analysisGroupBy")?.value || "year";
     const compareBy = document.getElementById("analysisCompareBy")?.value || null;
@@ -1234,11 +1527,16 @@
       compare_by: compareBy || null,
       filters,
       limit: Math.max(1, Math.min(100, limit || 50)),
-      chart_type: "auto"
+      chart_type: workshopActiveChartView || "auto"
     };
   }
 
+
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
   async function runAnalysis() {
+    if (window.__NODO_WORKSHOP_STUDIO_MODE === "titles") {
+      return runTitlesAnalysis();
+    }
     const summaryEl = document.getElementById("analysisSummary");
     if (summaryEl) {
       summaryEl.innerHTML = `
@@ -1278,29 +1576,39 @@
     }
   }
 
+
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
   function renderAnalysisReport(report) {
     renderAnalysisSummary(report);
     renderAnalysisChart(report);
     renderAnalysisTable(report.table || []);
   }
 
+
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
   function renderAnalysisSummary(report) {
     const el = document.getElementById("analysisSummary");
     if (!el) return;
 
     const summary = report.summary || {};
     const editorial = report.editorial || {};
+    const req = report.request || {};
+    const filters = req.filters || {};
+    const topic = filters.title_contains ? ` sobre “${filters.title_contains}”` : "";
+    const group = summary.group_by || req.group_by || "variable";
 
     el.innerHTML = `
-      <span>${escapeHTML(report.chart?.type || "analysis")}</span>
-      <strong>${formatNumber(summary.total_rows || 0)} tesis analizadas</strong>
-      <p>${escapeHTML(editorial.summary || "Análisis generado correctamente.")}</p>
+      <span>${escapeHTML(report.chart?.type || "visualización")}</span>
+      <strong>${formatNumber(summary.total_rows || 0)} TESIS${escapeHTML(parquetDisplay(topic))}</strong>
+      <p>${escapeHTML(editorial.summary || `Agrupación por ${group}. La tabla inferior conserva los datos para auditar o reutilizar la consulta.`)}</p>
     `;
   }
 
+
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
   function renderAnalysisChart(report) {
     const chartData = report.chart?.data || [];
-    const chartType = report.chart?.type || "bar";
+    const chartType = workshopActiveChartView || report.chart?.type || "bar";
     const groupBy = report.summary?.group_by || "group";
     const compareBy = report.summary?.compare_by || null;
 
@@ -1324,145 +1632,187 @@
   }
 
 
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
+  function renderAnalysisSimpleChart(chart, chartData, groupBy, chartType) {
+    const rows = chartData.slice(0, 80);
+    const labels = rows.map(row => parquetDisplay(row.group));
+    const values = rows.map(row => Number(row.count || 0));
+    const isTemporal = groupBy === "year";
 
-  function buildAnalysisChartTitle(report) {
-    const req = report.request || {};
-    const filters = req.filters || {};
-    const group = req.group_by || "variable";
-    const compare = req.compare_by;
-    const topic = filters.title_contains ? ` sobre “${filters.title_contains}”` : "";
-    const years = filters.year_min || filters.year_max
-      ? `, ${filters.year_min || "inicio"}–${filters.year_max || "actualidad"}`
-      : "";
-
-    if (compare) {
-      return `Tesis${topic} agrupadas por ${group} y comparadas por ${compare}${years}`;
+    if (chartType === "donut") {
+      chart.setOption(workshopBaseOption({
+        tooltip: { ...workshopTooltipStyle(), trigger: "item" },
+        legend: {
+          bottom: 0,
+          type: "scroll",
+          itemWidth: 10,
+          itemHeight: 10,
+          textStyle: { color: WORKSHOP_CHART_MUTED, fontSize: 11 }
+        },
+        series: [{
+          type: "pie",
+          radius: ["44%", "70%"],
+          center: ["50%", "45%"],
+          itemStyle: { borderColor: "#fff", borderWidth: 2 },
+          label: { color: WORKSHOP_CHART_MUTED, fontSize: 11, formatter: "{b}" },
+          labelLine: { lineStyle: { color: WORKSHOP_CHART_AXIS } },
+          data: rows.map(row => ({ name: parquetDisplay(row.group), value: Number(row.count || 0) }))
+        }]
+      }), true);
+      return;
     }
 
-    return `Tesis${topic} agrupadas por ${group}${years}`;
-  }
+    if (chartType === "treemap") {
+      chart.setOption(workshopBaseOption({
+        tooltip: { ...workshopTooltipStyle(), trigger: "item" },
+        series: [{
+          type: "treemap",
+          roam: false,
+          nodeClick: false,
+          breadcrumb: { show: false },
+          label: { show: true, color: "#fff", fontSize: 11, formatter: "{b}" },
+          upperLabel: { show: false },
+          itemStyle: { borderColor: "#fff", borderWidth: 2 },
+          data: rows.slice(0, 24).map(row => ({ name: parquetDisplay(row.group), value: Number(row.count || 0) }))
+        }]
+      }), true);
+      return;
+    }
 
-  function renderAnalysisSimpleChart(chart, rows, groupBy, chartType) {
-    const labels = rows.map(row => String(row.group ?? "Sin dato"));
-    const values = rows.map(row => Number(row.count || 0));
+    if (isTemporal) {
+      const asBar = chartType === "bar";
+      chart.setOption(workshopBaseOption({
+        tooltip: { ...workshopTooltipStyle(), trigger: "axis" },
+        grid: workshopGridStyle({ top: 34, bottom: 44 }),
+        xAxis: workshopCategoryAxis(labels, {
+          splitLine: { show: false },
+          axisLabel: { color: WORKSHOP_CHART_MUTED, fontSize: 11, rotate: labels.length > 18 ? 35 : 0 }
+        }),
+        yAxis: workshopValueAxis(),
+        series: [{
+          type: asBar ? "bar" : "line",
+          smooth: !asBar,
+          symbolSize: asBar ? 0 : 5,
+          barWidth: asBar ? 16 : undefined,
+          lineStyle: asBar ? undefined : { width: 2, color: WORKSHOP_CHART_COLORS[0] },
+          itemStyle: { color: WORKSHOP_CHART_COLORS[0], borderColor: "#fff", borderWidth: asBar ? 0 : 1.5, borderRadius: asBar ? [2,2,0,0] : 0 },
+          areaStyle: !asBar && chartType === "area" ? { opacity: .24, color: WORKSHOP_CHART_COLORS[0] } : undefined,
+          data: values
+        }]
+      }), true);
+      return;
+    }
 
-    const isTime = groupBy === "year" || chartType === "time_bar";
+    const barRows = rows.slice(0, 30);
+    const barLabels = barRows.map(row => parquetDisplay(row.group));
+    const barValues = barRows.map(row => Number(row.count || 0));
 
-    chart.setOption({
-      color: ["#006AEB"],
-      tooltip: {
-        trigger: "axis",
-        axisPointer: { type: "shadow" },
-        formatter: params => {
-          const p = params[0];
-          return `<strong>${escapeHTML(p.axisValue)}</strong><br>${formatNumber(p.value)} tesis`;
-        }
-      },
-      grid: {
-        left: isTime ? 48 : 16,
-        right: 36,
-        top: 36,
-        bottom: isTime ? 44 : 24,
-        containLabel: true
-      },
-      xAxis: isTime ? {
-        type: "category",
-        data: labels,
-        axisLabel: { color: "rgba(21,24,32,.60)", rotate: labels.length > 20 ? 35 : 0 },
-        axisTick: { show: false }
-      } : {
-        type: "value",
-        splitLine: { lineStyle: { color: "rgba(21,24,32,.08)" } },
-        axisLabel: { color: "rgba(21,24,32,.55)" }
-      },
-      yAxis: isTime ? {
-        type: "value",
-        splitLine: { lineStyle: { color: "rgba(21,24,32,.08)" } },
-        axisLabel: { color: "rgba(21,24,32,.55)" }
-      } : {
-        type: "category",
-        data: labels.slice().reverse(),
-        axisTick: { show: false },
-        axisLine: { show: false },
-        axisLabel: { color: "rgba(21,24,32,.68)", width: 180, overflow: "truncate" }
-      },
+    if (chartType === "lollipop") {
+      chart.setOption(workshopBaseOption({
+        tooltip: { ...workshopTooltipStyle(), trigger: "axis" },
+        grid: workshopGridStyle({ left: 150, top: 28, bottom: 28 }),
+        xAxis: workshopValueAxis(),
+        yAxis: workshopCategoryAxis(barLabels, {
+          inverse: true,
+          axisLabel: { color: WORKSHOP_CHART_MUTED, fontSize: 11, formatter: value => shortChartLabel(value, 22) },
+          splitLine: { show: false }
+        }),
+        series: [
+          {
+            type: "bar",
+            data: barValues,
+            barWidth: 2,
+            itemStyle: { color: "rgba(37,42,51,.24)" },
+            silent: true
+          },
+          {
+            type: "scatter",
+            symbolSize: 10,
+            data: barValues,
+            itemStyle: { color: WORKSHOP_CHART_COLORS[0] },
+            label: { show: true, position: "right", color: WORKSHOP_CHART_MUTED, fontSize: 10 }
+          }
+        ]
+      }), true);
+      return;
+    }
+
+    chart.setOption(workshopBaseOption({
+      tooltip: { ...workshopTooltipStyle(), trigger: "axis", axisPointer: { type: "shadow" } },
+      grid: workshopGridStyle({ left: 150, top: 28, bottom: 28 }),
+      xAxis: workshopValueAxis(),
+      yAxis: workshopCategoryAxis(barLabels, {
+        inverse: true,
+        axisLabel: { color: WORKSHOP_CHART_MUTED, fontSize: 11, formatter: value => shortChartLabel(value, 22) },
+        splitLine: { show: false }
+      }),
       series: [{
         type: "bar",
-        data: isTime ? values : values.slice().reverse(),
-        barMaxWidth: 22,
-        label: isTime ? undefined : {
-          show: true,
-          position: "right",
-          color: "rgba(21,24,32,.62)",
-          formatter: p => formatNumber(p.value)
-        },
-        itemStyle: {
-          borderRadius: isTime ? [8, 8, 0, 0] : [0, 8, 8, 0],
-          color: params => WORKSHOP_CHART_COLORS[params.dataIndex % WORKSHOP_CHART_COLORS.length]
-        }
+        data: barValues,
+        barWidth: 16,
+        itemStyle: { color: WORKSHOP_CHART_COLORS[0], borderRadius: [0, 2, 2, 0] },
+        label: { show: true, position: "right", color: WORKSHOP_CHART_MUTED, fontSize: 10 }
       }]
-    }, true);
+    }), true);
   }
 
-  function renderAnalysisCompareChart(chart, rows, groupBy, compareBy, chartType) {
-    const groups = [...new Set(rows.map(row => String(row.group ?? "Sin dato")))];
-    const compares = [...new Set(rows.map(row => String(row.compare ?? "Sin dato")))].slice(0, 8);
 
-    const lookup = new Map();
-    for (const row of rows) {
-      lookup.set(`${row.group}|||${row.compare}`, Number(row.count || 0));
-    }
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
+  function renderAnalysisCompareChart(chart, chartData, groupBy, compareBy, chartType) {
+    const groups = [...new Set(chartData.map(row => row.group ?? ""))].slice(0, 28);
+    const compares = [...new Set(chartData.map(row => row.compare ?? ""))].slice(0, 8);
 
-    const isTime = groupBy === "year" || chartType === "stacked_time";
+    const byKey = new Map();
+    chartData.forEach(row => {
+      byKey.set(`${row.group ?? "Sin dato"}|||${row.compare ?? "Sin dato"}`, Number(row.count || 0));
+    });
 
-    const series = compares.map((compare, idx) => ({
-      name: compare,
-      type: "bar",
-      stack: isTime ? "total" : undefined,
-      barMaxWidth: 26,
-      data: groups.map(group => lookup.get(`${group}|||${compare}`) || 0),
+    const series = compares.map((compare, index) => ({
+      name: parquetDisplay(compare),
+      type: groupBy === "year" ? "line" : "bar",
+      smooth: groupBy === "year",
+      symbolSize: groupBy === "year" ? 4 : 0,
+      barMaxWidth: 18,
+      stack: groupBy === "year" ? "total" : undefined,
+      areaStyle: groupBy === "year" ? { opacity: .16 } : undefined,
+      lineStyle: groupBy === "year" ? { width: 1.8 } : undefined,
       itemStyle: {
-        borderRadius: isTime ? [3, 3, 0, 0] : [0, 6, 6, 0],
-        color: WORKSHOP_CHART_COLORS[idx % WORKSHOP_CHART_COLORS.length]
-      }
+        color: WORKSHOP_CHART_COLORS[index % WORKSHOP_CHART_COLORS.length],
+        borderRadius: groupBy === "year" ? 0 : [2, 2, 0, 0]
+      },
+      data: groups.map(group => byKey.get(`${group}|||${compare}`) || 0)
     }));
 
-    chart.setOption({
-      color: WORKSHOP_CHART_COLORS,
+    chart.setOption(workshopBaseOption({
       legend: {
         top: 0,
         type: "scroll",
-        textStyle: { color: "rgba(21,24,32,.65)", fontSize: 11 }
+        itemWidth: 10,
+        itemHeight: 10,
+        textStyle: { color: WORKSHOP_CHART_MUTED, fontSize: 11 }
       },
       tooltip: {
+        ...workshopTooltipStyle(),
         trigger: "axis",
-        axisPointer: { type: "shadow" }
+        axisPointer: { type: groupBy === "year" ? "line" : "shadow" }
       },
-      grid: {
-        left: 48,
-        right: 28,
-        top: 52,
-        bottom: 48,
-        containLabel: true
-      },
-      xAxis: {
-        type: "category",
-        data: groups,
+      grid: workshopGridStyle({ top: 56, bottom: 52 }),
+      xAxis: workshopCategoryAxis(groups, {
         axisLabel: {
-          color: "rgba(21,24,32,.60)",
-          rotate: groups.length > 18 ? 35 : 0
+          color: WORKSHOP_CHART_MUTED,
+          fontSize: 11,
+          rotate: groups.length > 16 ? 35 : 0,
+          formatter: value => shortChartLabel(value, 14)
         },
-        axisTick: { show: false }
-      },
-      yAxis: {
-        type: "value",
-        splitLine: { lineStyle: { color: "rgba(21,24,32,.08)" } },
-        axisLabel: { color: "rgba(21,24,32,.55)" }
-      },
+        splitLine: { show: groupBy === "year", lineStyle: { color: WORKSHOP_CHART_GRID } }
+      }),
+      yAxis: workshopValueAxis(),
       series
-    }, true);
+    }), true);
   }
 
+
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
   function renderAnalysisTable(rows) {
     const head = document.getElementById("analysisTableHead");
     const body = document.getElementById("analysisTableBody");
@@ -1475,25 +1825,45 @@
     }
 
     const hasCompare = Object.prototype.hasOwnProperty.call(rows[0], "compare");
+    const total = rows.reduce((sum, row) => sum + Number(row.count || 0), 0) || 1;
 
     head.innerHTML = `
       <tr>
-        <th>Grupo</th>
+        <th>${hasCompare ? "Grupo" : "Categoría"}</th>
         ${hasCompare ? "<th>Comparación</th>" : ""}
-        <th>Conteo</th>
+        <th>Tesis</th>
+        <th>Participación</th>
+        <th>Lectura</th>
       </tr>
     `;
 
-    body.innerHTML = rows.slice(0, 200).map(row => `
-      <tr>
-        <td>${escapeHTML(row.group ?? "Sin dato")}</td>
-        ${hasCompare ? `<td>${escapeHTML(row.compare ?? "Sin dato")}</td>` : ""}
-        <td>${formatNumber(row.count || 0)}</td>
-      </tr>
-    `).join("");
+    body.innerHTML = rows.slice(0, 200).map((row, index) => {
+      const count = Number(row.count || 0);
+      const share = count / total;
+      const pct = `${(share * 100).toFixed(1)}%`;
+      const reading = index === 0
+        ? "Concentración principal"
+        : share >= 0.15
+          ? "Peso alto"
+          : share >= 0.05
+            ? "Peso medio"
+            : "Presencia baja";
+
+      return `
+        <tr>
+          <td><strong>${escapeHTML(parquetDisplay(row.group))}</strong></td>
+          ${hasCompare ? `<td>${escapeHTML(parquetDisplay(row.compare))}</td>` : ""}
+          <td>${formatNumber(count)}</td>
+          <td>${pct}</td>
+          <td><span class="wa2-reading">${reading}</span></td>
+        </tr>
+      `;
+    }).join("");
   }
 
-  function copyAnalysisCSV() {
+
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
+  async function copyAnalysisCSV() {
     const report = window.__lastWorkshopAnalysis;
     const rows = report?.table || [];
 
@@ -1514,166 +1884,466 @@
   }
 
 
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
+  async function runTitlesAnalysis() {
+    const input = document.getElementById("analysisTitleContains");
+    const limit = Number(document.getElementById("analysisLimit")?.value || 100);
+    const query = input?.value?.trim();
 
-  // ============================================================
-  // Taller internal mode fix: "Títulos" vs "Mesa de análisis"
-  // ============================================================
-
-  function normalizeWorkshopModeText(value) {
-    return String(value || "")
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase()
-      .trim();
-  }
-
-  function getWorkshopTallerPanel() {
-    return document.querySelector('.tab-panel[data-panel="taller"]');
-  }
-
-  function renameWorkshopInternalExploreToTitles() {
-    const tallerPanel = getWorkshopTallerPanel();
-    if (!tallerPanel) return;
-
-    const candidates = tallerPanel.querySelectorAll("button, a, span, strong, h2, h3, p");
-
-    candidates.forEach(el => {
-      const raw = el.textContent || "";
-      const text = raw.trim();
-      const normalized = normalizeWorkshopModeText(text);
-
-      // Solo renombrar la etiqueta interna exacta.
-      // No tocamos textos largos tipo "Explorar un tema..." ni el tab global.
-      if (normalized === "explorar") {
-        el.textContent = raw.replace(/Explorar/i, "Títulos");
+    if (!query) {
+      const summaryEl = document.getElementById("analysisSummary");
+      if (summaryEl) {
+        summaryEl.innerHTML = `
+          <span>Títulos</span>
+          <strong>AGREGA UNA CONSULTA</strong>
+          <p>Escribe una palabra o frase para buscar en títulos limpios.</p>
+        `;
       }
+      return;
+    }
 
-      if (normalized === "busqueda exacta" || normalized === "búsqueda exacta") {
-        // No cambiamos esto; sigue siendo el método dentro de Títulos.
-      }
+    const summaryEl = document.getElementById("analysisSummary");
+    if (summaryEl) {
+      summaryEl.innerHTML = `
+        <span>Consultando</span>
+        <strong>TÍTULOS LIMPIOS</strong>
+        <p>Ejecutando búsqueda exacta sobre title_norm.</p>
+      `;
+    }
+
+    const report = await fetchJSON("/api/workshop/exact", {
+      method: "POST",
+      body: JSON.stringify({
+        query,
+        match_mode: "phrase",
+        limit: Math.max(1, Math.min(200, limit || 100))
+      })
     });
+
+    window.__lastWorkshopTitles = report;
+    renderTitlesInsideAnalysis(report);
   }
 
-  function detectWorkshopAnalysisModeFromActiveElements() {
-    const tallerPanel = getWorkshopTallerPanel();
-    if (!tallerPanel) return false;
 
-    const activeSelectors = [
-      ".is-active",
-      ".active",
-      "[aria-selected='true']",
-      "[data-active='true']"
-    ].join(",");
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
+  function renderTitlesInsideAnalysis(report) {
+    const summaryEl = document.getElementById("analysisSummary");
+    const chart = ensureEChart("analysisChart");
 
-    const activeText = [...tallerPanel.querySelectorAll(activeSelectors)]
-      .map(el => normalizeWorkshopModeText(el.textContent))
-      .join(" ");
-
-    if (activeText.includes("mesa") || activeText.includes("analisis")) {
-      return true;
+    if (summaryEl) {
+      const total = report.summary?.total_matches || 0;
+      const first = report.summary?.first_year;
+      const last = report.summary?.last_year;
+      summaryEl.innerHTML = `
+        <span>Títulos</span>
+        <strong>${formatNumber(total)} TESIS</strong>
+        <p>Consulta “${escapeHTML(parquetDisplay(report.query || ""))}” · periodo ${escapeHTML(first && last ? `${first}–${last}` : "NO DETERMINADO")}.</p>
+      `;
     }
 
-    if (activeText.includes("titulos") || activeText.includes("explorar")) {
-      return false;
+    const rows = report.charts?.by_year?.data || [];
+    if (chart) {
+      const labels = rows.map(row => parquetDisplay(row.group ?? row.year ?? row[0]));
+      const values = rows.map(row => Number(row.count ?? row.value ?? row[1] ?? 0));
+
+      chart.setOption(workshopBaseOption({
+        tooltip: { ...workshopTooltipStyle(), trigger: "axis" },
+        grid: workshopGridStyle({ top: 34, bottom: 44 }),
+        xAxis: workshopCategoryAxis(labels, {
+          splitLine: { show: false },
+          axisLabel: { color: WORKSHOP_CHART_MUTED, fontSize: 11, rotate: labels.length > 18 ? 35 : 0 }
+        }),
+        yAxis: workshopValueAxis(),
+        series: [{
+          type: "bar",
+          data: values,
+          barWidth: 16,
+          itemStyle: { color: WORKSHOP_CHART_COLORS[0], borderRadius: [2,2,0,0] }
+        }]
+      }), true);
     }
 
-    return document.body.classList.contains("workshop-analysis-mode");
+    const tableRows = report.tables?.top_theses || [];
+    renderAnalysisTable(tableRows.map(row => ({
+      group: row.title,
+      compare: row.program || row.degree || "",
+      count: row.year || 0
+    })));
+
+    scheduleWorkshopChartResize("titles-analysis");
   }
 
-  function setWorkshopAnalysisMode(isAnalysis) {
-    document.body.classList.toggle("workshop-analysis-mode", Boolean(isAnalysis));
-    document.body.classList.toggle("workshop-titles-mode", !Boolean(isAnalysis));
+
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
+  function applyWorkshopModeControls(mode) {
+    if (!WORKSHOP_MODE_CONFIGS[mode]) return;
+
+    workshopActiveMode = mode;
+    const cfg = WORKSHOP_MODE_CONFIGS[mode];
+
+    const groupBy = document.getElementById("analysisGroupBy");
+    const compareBy = document.getElementById("analysisCompareBy");
+    const summaryEl = document.getElementById("analysisSummary");
+    const chartTitle = document.getElementById("analysisChartTitle");
+    const builder = document.querySelector(".wa2-builder");
+
+    if (groupBy) groupBy.value = cfg.group_by;
+    if (compareBy) compareBy.value = cfg.compare_by;
+
+    if (!cfg.chartViews.some(([value]) => value === workshopActiveChartView)) {
+      workshopActiveChartView = cfg.chartViews[0][0];
+    }
+
+    if (summaryEl) {
+      summaryEl.innerHTML = `
+        <span>${escapeHTML(cfg.label)}</span>
+        <strong>${escapeHTML(parquetDisplay(cfg.prompt))}</strong>
+        <p>${escapeHTML(cfg.hint)} Ajusta tema, años y agrupación antes de generar.</p>
+      `;
+    }
+
+    if (chartTitle) {
+      const active = cfg.chartViews.find(([value]) => value === workshopActiveChartView);
+      chartTitle.textContent = active ? active[1] : cfg.label;
+    }
+    const views = document.getElementById("analysisChartViews");
+    if (views) {
+      views.innerHTML = cfg.chartViews.map(([value, label]) => `
+        <button type="button" data-chart-view="${escapeHTML(value)}" class="${value === workshopActiveChartView ? "is-active" : ""}">
+          ${escapeHTML(label)}
+        </button>
+      `).join("");
+    }
+
+    document.querySelectorAll("[data-palette]").forEach(btn => {
+      btn.classList.toggle("is-active", btn.dataset.palette === workshopActivePalette);
+    });
+
+    const note = document.getElementById("analysisQueryNote");
+    if (note) {
+      note.textContent = `modo=${mode} · group_by=${cfg.group_by} · compare_by=${cfg.compare_by || "none"} · vista=${workshopActiveChartView} · paleta=${workshopActivePalette}`;
+    }
   }
 
-  function syncWorkshopTitlesAndAnalysisMode() {
-    renameWorkshopInternalExploreToTitles();
 
-    const tallerPanel = getWorkshopTallerPanel();
+  /* RESTORED FROM workshop.before_graphs_first_t_image_1780372084.js */
+  function applyTitlesModeControls() {
     const lab = document.getElementById("workshopAnalysisLab");
-
-    if (!tallerPanel || !lab) return;
-
-    // Si por cualquier razón quedó fuera del panel Taller, regresarlo al Taller.
-    if (!tallerPanel.contains(lab)) {
-      const root =
-        tallerPanel.querySelector("[data-workshop-root]") ||
-        tallerPanel.querySelector(".workshop-main") ||
-        tallerPanel;
-      root.appendChild(lab);
+    if (lab) {
+      lab.classList.add("wa2-mode-titles");
+      lab.classList.remove("wa2-mode-temporal", "wa2-mode-ranking", "wa2-mode-comparison", "wa2-mode-distribution", "wa2-mode-partwhole", "wa2-mode-magnitude", "wa2-mode-advisors");
     }
 
-    const isAnalysis = detectWorkshopAnalysisModeFromActiveElements();
-    setWorkshopAnalysisMode(isAnalysis);
-  }
-
-  function bindWorkshopTitlesAndAnalysisMode() {
-    if (window.__workshopTitlesAnalysisModeBound) return;
-    window.__workshopTitlesAnalysisModeBound = true;
-
-    document.addEventListener("click", event => {
-      const tallerPanel = getWorkshopTallerPanel();
-      if (!tallerPanel) return;
-
-      const target = event.target.closest("button, a, [role='tab'], [data-workshop-mode], [data-mode]");
-      if (!target || !tallerPanel.contains(target)) return;
-
-      const text = normalizeWorkshopModeText(target.textContent);
-
-      if (text.includes("mesa") || text.includes("analisis")) {
-        setWorkshopAnalysisMode(true);
-        scheduleWorkshopChartResize("analysis-mode");
-        setTimeout(syncWorkshopTitlesAndAnalysisMode, 30);
-        return;
-      }
-
-      if (text.includes("titulos") || text.includes("explorar")) {
-        setWorkshopAnalysisMode(false);
-        setTimeout(syncWorkshopTitlesAndAnalysisMode, 30);
-      }
+    document.querySelectorAll("[data-mode-strip]").forEach(btn => {
+      btn.classList.toggle("is-active", btn.dataset.modeStrip === "titles");
     });
 
-    const observer = new MutationObserver(() => {
-      syncWorkshopTitlesAndAnalysisMode();
-    });
+    const groupBy = document.getElementById("analysisGroupBy");
+    const compareBy = document.getElementById("analysisCompareBy");
+    const limit = document.getElementById("analysisLimit");
+    const summaryEl = document.getElementById("analysisSummary");
+    const note = document.getElementById("analysisQueryNote");
 
-    if (document.body) {
-      observer.observe(document.body, {
-        childList: true,
-        subtree: true,
-        attributes: true,
-        attributeFilter: ["class", "aria-selected", "data-active"]
-      });
+    if (groupBy) groupBy.value = "year";
+    if (compareBy) compareBy.value = "";
+    if (limit) limit.value = "100";
+
+    if (summaryEl) {
+      summaryEl.innerHTML = `
+        <span>Títulos</span>
+        <strong>BÚSQUEDA EXACTA EN TÍTULOS</strong>
+        <p>Consulta el título limpio normalizado y genera evidencia temporal, disciplinar y tabular.</p>
+      `;
     }
 
-    window.addEventListener("load", syncWorkshopTitlesAndAnalysisMode);
-    document.addEventListener("DOMContentLoaded", syncWorkshopTitlesAndAnalysisMode);
+    if (note) {
+      note.textContent = "modo=titles · endpoint=/api/workshop/exact · match_mode=phrase";
+    }
 
-    setTimeout(syncWorkshopTitlesAndAnalysisMode, 100);
-    setTimeout(syncWorkshopTitlesAndAnalysisMode, 500);
-    setTimeout(syncWorkshopTitlesAndAnalysisMode, 1200);
+    const views = document.getElementById("analysisChartViews");
+    if (views) {
+      views.innerHTML = `
+        <button type="button" data-chart-view="time_bar" class="is-active">Años</button>
+        <button type="button" data-chart-view="bar">Ranking</button>
+        <button type="button" data-chart-view="donut">Composición</button>
+      `;
+    }
   }
 
-  bindWorkshopTitlesAndAnalysisMode();
+  function backToWorkshopPreview() {
+    const home = document.getElementById("workshopStudioHome");
+    const workbench = document.getElementById("workshopStudioWorkbench");
 
-  function init() {
-    const root = $("[data-workshop-root]");
-    if (!root) return;
+    if (workbench) workbench.hidden = true;
+    if (home) home.hidden = false;
 
-    bindEvents();
+    document.body.classList.remove("workshop-studio-started", "workshop-analysis-mode", "workshop-titles-mode");
+    scheduleWorkshopChartResize("studio-preview");
+  }
+
+
+  function ensureWorkshopPreviewButton() {
+    const sidebar = document.querySelector("#workshopStudio .ws3-sidebar");
+    if (!sidebar || document.getElementById("workshopBackToPreviewBtn")) return;
+
+    const btn = document.createElement("button");
+    btn.id = "workshopBackToPreviewBtn";
+    btn.className = "ws3-back";
+    btn.type = "button";
+    btn.setAttribute("aria-label", "Volver al preview del Taller");
+    btn.textContent = "←";
+
+    sidebar.insertBefore(btn, sidebar.firstElementChild);
+  }
+
+
+  function setWorkshopStudioSpace(space) {
+    const normalized = space === "create" ? "create" : "graphs";
+    const empty = document.getElementById("workshopStudioEmpty");
+    const host = document.getElementById("workshopStudioHost");
+
+    document.body.classList.toggle("workshop-space-graphs", normalized === "graphs");
+    document.body.classList.toggle("workshop-space-create", normalized === "create");
+
+    document.querySelectorAll("[data-ws4-space]").forEach(btn => {
+      btn.classList.toggle("is-active", btn.dataset.ws4Space === normalized);
+    });
+
+    if (normalized === "graphs") {
+      if (host) {
+        host.hidden = true;
+        host.style.display = "none";
+      }
+
+      if (empty) {
+        empty.hidden = false;
+        empty.style.display = "grid";
+        const title = empty.querySelector("h3");
+        const copy = empty.querySelector("p");
+        if (title) title.textContent = "¡EXPLORA LA INFORMACIÓN!";
+        if (copy) copy.textContent = "Los gráficos que guardes aparecerán aquí.";
+      }
+
+      document.body.classList.remove("workshop-analysis-mode", "workshop-titles-mode");
+      window.__NODO_WORKSHOP_STUDIO_SPACE = "graphs";
+      return;
+    }
+
+    if (empty) {
+      empty.hidden = true;
+      empty.style.display = "none";
+    }
+
+    if (host) {
+      host.hidden = false;
+      host.style.display = "block";
+    }
+
+    window.__NODO_WORKSHOP_STUDIO_SPACE = "create";
+
     ensureAnalysisLab();
+    prepareWorkshopStudioPanels();
 
-    workshopScrollObserver.observe(document.body, {
-      attributes: true,
-      attributeFilter: ["data-tab", "class", "style"]
+    if (!window.__NODO_WORKSHOP_STUDIO_MODE || window.__NODO_WORKSHOP_STUDIO_MODE === "empty") {
+      setWorkshopStudioMode("temporal");
+    } else {
+      setWorkshopStudioMode(window.__NODO_WORKSHOP_STUDIO_MODE);
+    }
+  }
+
+  
+  function ensureWorkshopStudio() {
+    const tallerPanel = document.querySelector('.tab-panel[data-panel="taller"]');
+    if (!tallerPanel) return null;
+
+    let studio = document.getElementById("workshopStudio");
+    if (studio) {
+      if (studio.parentElement !== tallerPanel) {
+        tallerPanel.appendChild(studio);
+      }
+      return studio;
+    }
+
+    const root = tallerPanel;
+
+    studio = document.createElement("section");
+    studio.className = "ws3";
+    studio.id = "workshopStudio";
+
+    studio.innerHTML = `
+      <section class="ws3-workbench" id="workshopStudioWorkbench">
+        <aside class="ws4-sidebar" id="workshopStudioSidebar" aria-label="Taller">
+          <button class="ws4-toggle" id="workshopSidebarToggle" type="button" aria-label="Contraer o expandir">☰</button>
+          <button class="ws4-nav" type="button" data-ws4-space="create">Creación</button>
+          <button class="ws4-nav is-active" type="button" data-ws4-space="graphs">Mis gráficos</button>
+        </aside>
+        <main class="ws3-canvas">
+          <section class="ws3-empty" id="workshopStudioEmpty">
+            <img class="ws3-empty-image" src="./t.png" alt="" />
+            <h3>¡EXPLORA LA INFORMACIÓN!</h3>
+            <p>Los gráficos que guardes aparecerán aquí.</p>
+            <button class="ws3-empty-create" type="button" data-ws4-space="create">Crear</button>
+          </section>
+          <div class="ws3-host" id="workshopStudioHost" hidden></div>
+        </main>
+      </section>
+    `;
+
+    root.appendChild(studio);
+    setWorkshopStudioSpace("graphs");
+    return studio;
+  }
+
+function startWorkshopStudio() {
+    const studio = ensureWorkshopStudio();
+    if (!studio) return;
+
+    window.__NODO_WORKSHOP_STARTED = true;
+
+    document.body.classList.add("workshop-studio-started");
+    document.body.classList.remove("workshop-analysis-mode");
+    document.body.classList.add("workshop-titles-mode");
+
+    const home = document.getElementById("workshopStudioHome");
+    const workbench = document.getElementById("workshopStudioWorkbench");
+
+    if (home) home.hidden = true;
+    if (workbench) workbench.hidden = false;
+
+    ensureWorkshopPreviewButton();
+
+    ensureAnalysisLab();
+    prepareWorkshopStudioPanels();
+
+    if (typeof loadFacets === "function") {
+      try { loadFacets(); } catch (err) { console.warn("[NODO Taller] loadFacets diferido falló", err); }
+    }
+
+    setWorkshopStudioSpace("graphs");
+    scheduleWorkshopChartResize("studio-start");
+  }
+
+  function prepareWorkshopStudioPanels() {
+    const host = document.getElementById("workshopStudioHost");
+    const tallerPanel = document.querySelector('.tab-panel[data-panel="taller"]');
+    if (!host || !tallerPanel) return;
+
+    const titlesPanel =
+      tallerPanel.querySelector('.workshop-panel[data-ws-panel="explore"]') ||
+      tallerPanel.querySelector('.workshop-panel[data-workshop-panel="explore"]') ||
+      tallerPanel.querySelector('[data-ws-panel="explore"]');
+
+    if (titlesPanel && !titlesPanel.dataset.ws3Moved) {
+      titlesPanel.dataset.ws3Moved = "true";
+      titlesPanel.classList.add("ws3-mode-panel", "ws3-titles-panel");
+      host.appendChild(titlesPanel);
+    }
+
+    const analysisLab = document.getElementById("workshopAnalysisLab");
+    if (analysisLab && !analysisLab.dataset.ws3Moved) {
+      analysisLab.dataset.ws3Moved = "true";
+      analysisLab.classList.add("ws3-mode-panel", "ws3-analysis-panel");
+      host.appendChild(analysisLab);
+    }
+  }
+
+  function setWorkshopStudioMode(mode) {
+    const studio = document.getElementById("workshopStudio");
+    const empty = document.getElementById("workshopStudioEmpty");
+    const titlesPanel = document.querySelector(".ws3-titles-panel");
+    const analysisLab = document.getElementById("workshopAnalysisLab");
+
+    if (!studio) return;
+
+    const analysisModes = ["titles", "temporal", "ranking", "comparison", "distribution", "partwhole", "magnitude", "advisors"];
+    const isAnalysis = analysisModes.includes(mode);
+    const isTitles = false;
+    const isEmpty = mode === "empty";
+
+    window.__NODO_WORKSHOP_STUDIO_MODE = mode;
+if (empty) empty.hidden = !isEmpty;
+
+    if (titlesPanel) {
+      titlesPanel.hidden = !isTitles;
+      titlesPanel.style.display = isTitles ? "block" : "none";
+      titlesPanel.style.visibility = isTitles ? "visible" : "hidden";
+    }
+
+    if (analysisLab) {
+      analysisLab.hidden = !isAnalysis;
+      analysisLab.style.display = isAnalysis ? "grid" : "none";
+      analysisLab.style.visibility = isAnalysis ? "visible" : "hidden";
+    }
+
+    document.body.classList.toggle("workshop-analysis-mode", isAnalysis);
+    document.body.classList.toggle("workshop-titles-mode", isTitles);
+
+    document.querySelectorAll("[data-mode-strip]").forEach(btn => {
+      btn.classList.toggle("is-active", isTitles && btn.dataset.modeStrip === "titles");
     });
 
-    syncWorkshopScrollMode();
-    loadFacets();
+    if (isAnalysis) {
+      if (mode === "titles") {
+        applyTitlesModeControls();
+      } else {
+        const template = mode === "advisors" ? "ranking" : mode;
+        if (typeof applyAnalysisTemplate === "function") applyAnalysisTemplate(template);
+        if (typeof applyWorkshopModeControls === "function") applyWorkshopModeControls(mode);
+      }
+
+      if (mode !== "titles" && mode === "advisors") {
+        const groupBy = document.getElementById("analysisGroupBy");
+        const compareBy = document.getElementById("analysisCompareBy");
+        const summaryEl = document.getElementById("analysisSummary");
+        const chartTitle = document.getElementById("analysisChartTitle");
+
+        if (groupBy) groupBy.value = "advisor";
+        if (compareBy) compareBy.value = "";
+        if (chartTitle) chartTitle.textContent = "Ranking de asesores";
+        if (summaryEl) {
+          summaryEl.innerHTML = `
+            <span>Asesores</span>
+            <strong>TRAYECTORIAS Y CONCENTRACIÓN</strong>
+            <p>Construye rankings y lecturas sobre dirección de tesis. Puedes filtrar por tema o periodo antes de generar.</p>
+          `;
+        }
+      }
+    }
+
+    scheduleWorkshopChartResize("studio-mode");
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init);
-  } else {
-    init();
-  }
+  document.addEventListener("DOMContentLoaded", ensureWorkshopStudio);
+
+
+  document.addEventListener("click", event => {
+    if (event.target.closest("#workshopBackToPreviewBtn")) {
+      backToWorkshopPreview();
+    }
+  });
+
+  document.addEventListener("click", event => {
+    const btn = event.target.closest("[data-mode-strip]");
+    if (!btn) return;
+
+    const mode = btn.dataset.modeStrip || "temporal";
+    setWorkshopStudioMode(mode);
+  });
+
+  document.addEventListener("click", event => {
+    const toggle = event.target.closest("#workshopSidebarToggle");
+    if (toggle) {
+      document.getElementById("workshopStudioSidebar")?.classList.toggle("is-collapsed");
+      return;
+    }
+
+    const spaceBtn = event.target.closest("[data-ws4-space]");
+    if (spaceBtn) {
+      event.preventDefault();
+      setWorkshopStudioSpace(spaceBtn.dataset.ws4Space || "create");
+      return;
+    }
+  });
+
+
 })();
