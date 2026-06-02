@@ -725,126 +725,166 @@
     const tallerPanel = document.querySelector('.tab-panel[data-panel="taller"]');
     if (!tallerPanel) return;
 
+    const analysisPanel =
+      tallerPanel.querySelector('.workshop-panel[data-ws-panel="analysis"]') ||
+      tallerPanel.querySelector('.workshop-panel[data-workshop-panel="analysis"]') ||
+      tallerPanel.querySelector('[data-ws-panel="analysis"]') ||
+      tallerPanel.querySelector('[data-workshop-panel="analysis"]');
+
     const root =
+      analysisPanel ||
       tallerPanel.querySelector("[data-workshop-root]") ||
       tallerPanel.querySelector(".workshop-main") ||
       tallerPanel;
 
+    if (analysisPanel) {
+      analysisPanel.replaceChildren();
+    }
+
     const section = document.createElement("section");
-    section.className = "wa2";
+    section.className = "wa2 wa2-editorial";
     section.id = "workshopAnalysisLab";
 
     section.innerHTML = `
       <header class="wa2-hero">
-        <div>
+        <div class="wa2-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="wa2-hero-copy">
           <p class="eyebrow">Mesa de análisis</p>
-          <h2>Construye visualizaciones del acervo UNAM</h2>
+          <h2>Construye evidencia visual del acervo UNAM</h2>
           <p>
-            Elige una relación visual, ajusta filtros y genera una gráfica reproducible sobre las tesis.
-            La Mesa trabaja directamente con DuckDB, Parquet y Apache ECharts.
+            Elige una relación visual. La Mesa traduce esa intención a una consulta reproducible
+            sobre títulos, años, programas, áreas, niveles, planteles y asesores.
           </p>
         </div>
-        <div class="wa2-badge">
-          <span>Constructor general</span>
-          <strong>COUNT · GROUP BY · FILTER</strong>
-        </div>
+        <aside class="wa2-method-card">
+          <span>Motor</span>
+          <strong>DuckDB · Parquet · ECharts</strong>
+          <p>Consulta reproducible, tabla auditable y visualización exportable.</p>
+        </aside>
       </header>
 
-      <nav class="wa2-nav" aria-label="Tipos de análisis">
-        <button class="wa2-nav-item is-active" type="button" data-template="temporal">
-          <strong>Tiempo</strong>
-          <span>Cambio por año</span>
-        </button>
-        <button class="wa2-nav-item" type="button" data-template="comparison">
-          <strong>Comparación</strong>
-          <span>Categorías lado a lado</span>
-        </button>
-        <button class="wa2-nav-item" type="button" data-template="ranking">
-          <strong>Ranking</strong>
-          <span>Mayor a menor</span>
-        </button>
-        <button class="wa2-nav-item" type="button" data-template="distribution">
-          <strong>Distribución</strong>
-          <span>Concentración</span>
-        </button>
-        <button class="wa2-nav-item" type="button" data-template="partwhole">
-          <strong>Parte del total</strong>
-          <span>Composición</span>
-        </button>
-        <button class="wa2-nav-item" type="button" data-template="magnitude">
-          <strong>Magnitud</strong>
-          <span>Tamaños absolutos</span>
-        </button>
-      </nav>
+      <section class="wa2-chooser" aria-labelledby="analysisRelationTitle">
+        <div class="wa2-section-title">
+          <p class="eyebrow">Relación visual</p>
+          <h3>¿Qué quieres observar?</h3>
+        </div>
+
+        <nav class="wa2-nav" aria-label="Categorías visuales">
+          <button class="wa2-nav-item is-active" type="button" data-template="temporal">
+            <small>01</small>
+            <strong>Tiempo</strong>
+            <span>Evolución por año</span>
+          </button>
+          <button class="wa2-nav-item" type="button" data-template="comparison">
+            <small>02</small>
+            <strong>Comparación</strong>
+            <span>Categorías frente a frente</span>
+          </button>
+          <button class="wa2-nav-item" type="button" data-template="ranking">
+            <small>03</small>
+            <strong>Ranking</strong>
+            <span>Mayor a menor</span>
+          </button>
+          <button class="wa2-nav-item" type="button" data-template="distribution">
+            <small>04</small>
+            <strong>Distribución</strong>
+            <span>Concentración y dispersión</span>
+          </button>
+          <button class="wa2-nav-item" type="button" data-template="partwhole">
+            <small>05</small>
+            <strong>Parte del total</strong>
+            <span>Composición proporcional</span>
+          </button>
+          <button class="wa2-nav-item" type="button" data-template="magnitude">
+            <small>06</small>
+            <strong>Magnitud</strong>
+            <span>Tamaños absolutos</span>
+          </button>
+        </nav>
+      </section>
 
       <section class="wa2-guide">
         <article class="wa2-intro" id="analysisVocabIntro">
           <p class="eyebrow">Tiempo</p>
-          <h3>Cambio a través de los años</h3>
-          <p>Úsalo para observar cuándo aparece, crece o se concentra un tema dentro del acervo.</p>
+          <h3 id="analysisRelationTitle">Cambio a través de los años</h3>
+          <p id="analysisRelationCopy">Úsalo para observar cuándo aparece, crece o se concentra un tema dentro del acervo.</p>
         </article>
 
         <article class="wa2-demo-card">
-          <div class="wa2-demo-chart" id="analysisDemoChart"></div>
+          <div class="wa2-card-head">
+            <span>Demo visual</span>
+            <strong id="analysisDemoLabel">Barras temporales</strong>
+          </div>
+          <div id="analysisDemoChart" class="wa2-demo"></div>
         </article>
 
-        <article class="wa2-types" id="analysisChartTypes"></article>
+        <aside class="wa2-types" id="analysisChartTypes"></aside>
       </section>
 
-      <section class="wa2-builder">
+      <section class="wa2-builder" aria-label="Constructor de consulta">
         <div class="wa2-builder-copy">
           <p class="eyebrow">Constructor</p>
-          <h3>Ajusta la consulta</h3>
-          <p>Las plantillas configuran los campos por ti, pero puedes cambiarlos manualmente.</p>
+          <h3>Formula la pregunta como una frase.</h3>
+          <p>
+            La interfaz mantiene el lenguaje visual arriba y deja la consulta técnica visible
+            sólo como método reproducible.
+          </p>
         </div>
 
-        <div class="wa2-controls">
+        <div class="wa2-sentence">
+          <span>Quiero ver</span>
           <label>
-            Variable principal
+            <span>agrupado por</span>
             <select id="analysisGroupBy">
-              <option value="year">Año</option>
-              <option value="area">Área</option>
-              <option value="degree">Nivel</option>
-              <option value="program">Programa</option>
-              <option value="plantel">Plantel</option>
-              <option value="advisor">Asesor</option>
+              <option value="year">año</option>
+              <option value="program">programa</option>
+              <option value="area">área</option>
+              <option value="degree">nivel</option>
+              <option value="plantel">plantel</option>
+              <option value="advisor">asesor</option>
             </select>
           </label>
 
           <label>
-            Comparar con
+            <span>comparado con</span>
             <select id="analysisCompareBy">
-              <option value="">Sin comparación</option>
-              <option value="area">Área</option>
-              <option value="degree">Nivel</option>
-              <option value="program">Programa</option>
-              <option value="plantel">Plantel</option>
+              <option value="">sin comparación</option>
+              <option value="area">área</option>
+              <option value="degree">nivel</option>
+              <option value="program">programa</option>
+              <option value="plantel">plantel</option>
             </select>
-          </label>
-
-          <label>
-            Desde
-            <input id="analysisYearMin" type="number" min="1873" max="2026" placeholder="2000">
-          </label>
-
-          <label>
-            Hasta
-            <input id="analysisYearMax" type="number" min="1873" max="2026" placeholder="2026">
           </label>
 
           <label class="wa2-wide">
-            Tema o palabra en título
-            <input id="analysisTitleContains" type="text" placeholder="Ej. inteligencia artificial, banca, literatura mexicana">
+            <span>sobre títulos que contienen</span>
+            <input id="analysisTitleContains" type="text" placeholder="inteligencia artificial, banca, muralismo…" />
           </label>
 
           <label>
-            Máximo
-            <input id="analysisLimit" type="number" min="1" max="100" value="80">
+            <span>desde</span>
+            <input id="analysisYearMin" type="number" min="1900" max="2026" placeholder="2000" />
+          </label>
+
+          <label>
+            <span>hasta</span>
+            <input id="analysisYearMax" type="number" min="1900" max="2026" placeholder="2026" />
+          </label>
+
+          <label>
+            <span>máximo</span>
+            <input id="analysisLimit" type="number" min="5" max="100" value="80" />
           </label>
 
           <button class="workshop-primary wa2-run" id="analysisRunBtn" type="button">
-            Construir visualización
+            Generar visualización
           </button>
+        </div>
+
+        <div class="wa2-query-note" id="analysisQueryNote">
+          group_by=year · compare_by=none · chart_type=auto
         </div>
       </section>
 
@@ -852,22 +892,24 @@
         <article class="wa2-summary" id="analysisSummary">
           <span>Plantilla seleccionada</span>
           <strong>Tiempo</strong>
-          <p>Agrega un tema en el título o deja el campo vacío para analizar todo el acervo.</p>
+          <p>Agrega un tema o analiza todo el acervo. La lectura aparecerá aquí cuando generes la visualización.</p>
         </article>
 
-        <article class="wa2-chart" id="analysisChart"></article>
+        <article class="wa2-chart">
+          <div class="wa2-card-head">
+            <span>Visualización</span>
+            <strong id="analysisChartTitle">Gráfico reproducible</strong>
+          </div>
+          <div id="analysisChart"></div>
+        </article>
 
         <article class="wa2-table-card">
-          <div class="workshop-card-head">
-            <div>
-              <p class="eyebrow">Datos de la visualización</p>
-              <h3>Tabla reproducible</h3>
-            </div>
+          <div class="wa2-card-head">
+            <span>Datos y método</span>
             <button class="workshop-secondary" id="analysisCopyBtn" type="button">Copiar CSV</button>
           </div>
-
           <div class="workshop-table-wrap">
-            <table class="workshop-table">
+            <table class="workshop-table wa2-table">
               <thead id="analysisTableHead"></thead>
               <tbody id="analysisTableBody"></tbody>
             </table>
@@ -921,96 +963,102 @@
         limit: "80",
         year_min: "2000",
         year_max: "2026",
+        chartLabel: "Línea / barras temporales",
         chartTypes: [
-          ["Barras temporales", "Conteos por año"],
-          ["Línea", "Tendencia continua"],
-          ["Área", "Volumen acumulado"],
-          ["Área apilada", "Tiempo comparado"]
+          ["Línea", "tendencia continua"],
+          ["Barras temporales", "conteos por año"],
+          ["Área", "volumen acumulado"],
+          ["Heatmap", "año por categoría"]
         ],
         demo: "temporal"
       },
       comparison: {
         title: "Comparación",
-        subtitle: "Comparar categorías",
-        body: "Úsalo para comparar programas, niveles, planteles, áreas o asesores.",
+        subtitle: "Categorías frente a frente",
+        body: "Compara programas, áreas, niveles, planteles o asesores para ver diferencias claras entre grupos.",
         group_by: "program",
-        compare_by: "",
+        compare_by: "degree",
         limit: "30",
         year_min: "",
         year_max: "",
+        chartLabel: "Barras agrupadas",
         chartTypes: [
-          ["Barras agrupadas", "Comparación directa"],
-          ["Dot plot", "Lectura precisa"],
-          ["Small multiples", "Vistas paralelas"],
-          ["Barras horizontales", "Categorías largas"]
+          ["Barras agrupadas", "comparación directa"],
+          ["Barras horizontales", "categorías largas"],
+          ["Dot plot", "diferencias finas"],
+          ["Small multiples", "series comparables"]
         ],
         demo: "comparison"
       },
       ranking: {
         title: "Ranking",
         subtitle: "Ordenar de mayor a menor",
-        body: "Úsalo para identificar qué categorías concentran más tesis dentro del conjunto filtrado.",
+        body: "Encuentra qué programas, planteles, áreas o asesores concentran más tesis dentro de un conjunto.",
         group_by: "program",
         compare_by: "",
-        limit: "30",
+        limit: "20",
         year_min: "",
         year_max: "",
+        chartLabel: "Ranking de barras",
         chartTypes: [
-          ["Ranking de barras", "Top categorías"],
-          ["Lollipop", "Ranking ligero"],
-          ["Tabla ordenada", "Máxima precisión"],
-          ["Highlight bars", "Resaltar líderes"]
+          ["Barras ranking", "top categorías"],
+          ["Lollipop", "ranking editorial"],
+          ["Tabla ordenada", "lectura exacta"],
+          ["Highlight bars", "enfatizar un grupo"]
         ],
         demo: "ranking"
       },
       distribution: {
         title: "Distribución",
         subtitle: "Concentración y dispersión",
-        body: "Úsalo para estudiar cómo se reparte una variable y detectar concentración.",
-        group_by: "degree",
+        body: "Observa la forma del conjunto: dónde se acumulan las tesis y qué valores aparecen como extremos.",
+        group_by: "year",
         compare_by: "",
-        limit: "30",
+        limit: "60",
         year_min: "",
         year_max: "",
+        chartLabel: "Histograma / distribución",
         chartTypes: [
-          ["Histograma", "Distribución numérica"],
-          ["Boxplot", "Rangos y atípicos"],
-          ["Densidad", "Forma general"],
-          ["Strip plot", "Puntos individuales"]
+          ["Histograma", "frecuencia por rangos"],
+          ["Boxplot", "valores extremos"],
+          ["Strip plot", "puntos individuales"],
+          ["Densidad", "forma suavizada"]
         ],
         demo: "distribution"
       },
       partwhole: {
         title: "Parte del total",
-        subtitle: "Composición del conjunto",
-        body: "Úsalo para ver qué proporción ocupa cada categoría dentro de un conjunto.",
-        group_by: "degree",
+        subtitle: "Composición proporcional",
+        body: "Muestra qué proporción ocupa cada área, nivel, programa o plantel dentro del conjunto filtrado.",
+        group_by: "area",
         compare_by: "",
         limit: "20",
         year_min: "",
         year_max: "",
+        chartLabel: "Dona / barra 100%",
         chartTypes: [
-          ["Donut", "Composición simple"],
-          ["Treemap", "Partes jerárquicas"],
-          ["Barra 100%", "Proporciones"],
-          ["Waffle", "Composición visual"]
+          ["Dona", "composición simple"],
+          ["Treemap", "peso relativo"],
+          ["Barra 100%", "comparar proporciones"],
+          ["Waffle", "lectura modular"]
         ],
         demo: "partwhole"
       },
       magnitude: {
         title: "Magnitud",
         subtitle: "Tamaños absolutos",
-        body: "Úsalo cuando lo central sea comparar volúmenes absolutos entre categorías.",
+        body: "Compara el tamaño bruto de conjuntos: cuántas tesis hay por programa, plantel, área o nivel.",
         group_by: "plantel",
         compare_by: "",
-        limit: "30",
+        limit: "25",
         year_min: "",
         year_max: "",
+        chartLabel: "Barras / burbujas",
         chartTypes: [
-          ["Barras", "Medición directa"],
-          ["Burbujas", "Tamaño proporcional"],
-          ["Treemap", "Magnitud compacta"],
-          ["Packed circles", "Volumen relativo"]
+          ["Barras", "magnitud absoluta"],
+          ["Burbujas", "tamaño visual"],
+          ["Packed circles", "conjuntos compactos"],
+          ["Treemap", "áreas proporcionales"]
         ],
         demo: "magnitude"
       }
@@ -1020,9 +1068,9 @@
 
     groupBy.value = cfg.group_by;
     compareBy.value = cfg.compare_by;
-    if (limit) limit.value = cfg.limit;
     if (yearMin) yearMin.value = cfg.year_min;
     if (yearMax) yearMax.value = cfg.year_max;
+    if (limit) limit.value = cfg.limit;
 
     document.querySelectorAll(".wa2-nav-item").forEach(btn => {
       btn.classList.toggle("is-active", btn.dataset.template === template);
@@ -1032,10 +1080,13 @@
     if (intro) {
       intro.innerHTML = `
         <p class="eyebrow">${escapeHTML(cfg.title)}</p>
-        <h3>${escapeHTML(cfg.subtitle)}</h3>
-        <p>${escapeHTML(cfg.body)}</p>
+        <h3 id="analysisRelationTitle">${escapeHTML(cfg.subtitle)}</h3>
+        <p id="analysisRelationCopy">${escapeHTML(cfg.body)}</p>
       `;
     }
+
+    const demoLabel = document.getElementById("analysisDemoLabel");
+    if (demoLabel) demoLabel.textContent = cfg.chartLabel;
 
     const types = document.getElementById("analysisChartTypes");
     if (types) {
@@ -1047,17 +1098,25 @@
       `).join("");
     }
 
-    renderAnalysisDemo(cfg.demo);
-    scheduleWorkshopChartResize("template");
+    const note = document.getElementById("analysisQueryNote");
+    if (note) {
+      note.textContent = `group_by=${cfg.group_by} · compare_by=${cfg.compare_by || "none"} · limit=${cfg.limit} · chart_type=auto`;
+    }
 
     const summaryEl = document.getElementById("analysisSummary");
     if (summaryEl) {
       summaryEl.innerHTML = `
-        <span>Plantilla seleccionada</span>
+        <span>Relación visual</span>
         <strong>${escapeHTML(cfg.title)}</strong>
         <p>${escapeHTML(cfg.body)} Agrega un tema en el título o deja el campo vacío para analizar todo el acervo.</p>
       `;
     }
+
+    const chartTitle = document.getElementById("analysisChartTitle");
+    if (chartTitle) chartTitle.textContent = cfg.chartLabel;
+
+    renderAnalysisDemo(cfg.demo);
+    scheduleWorkshopChartResize("template");
   }
 
 
@@ -1298,11 +1357,15 @@
 
     const summary = report.summary || {};
     const editorial = report.editorial || {};
+    const req = report.request || {};
+    const filters = req.filters || {};
+    const topic = filters.title_contains ? ` sobre “${filters.title_contains}”` : "";
+    const group = summary.group_by || req.group_by || "variable";
 
     el.innerHTML = `
-      <span>${escapeHTML(report.chart?.type || "analysis")}</span>
-      <strong>${formatNumber(summary.total_rows || 0)} tesis analizadas</strong>
-      <p>${escapeHTML(editorial.summary || "Análisis generado correctamente.")}</p>
+      <span>${escapeHTML(report.chart?.type || "visualización")}</span>
+      <strong>${formatNumber(summary.total_rows || 0)} tesis${escapeHTML(topic)}</strong>
+      <p>${escapeHTML(editorial.summary || `Agrupación por ${group}. La tabla inferior conserva los datos para auditar o reutilizar la consulta.`)}</p>
     `;
   }
 
@@ -1483,22 +1546,40 @@
     }
 
     const hasCompare = Object.prototype.hasOwnProperty.call(rows[0], "compare");
+    const total = rows.reduce((sum, row) => sum + Number(row.count || 0), 0) || 1;
 
     head.innerHTML = `
       <tr>
-        <th>Grupo</th>
+        <th>${hasCompare ? "Grupo" : "Categoría"}</th>
         ${hasCompare ? "<th>Comparación</th>" : ""}
-        <th>Conteo</th>
+        <th>Tesis</th>
+        <th>Participación</th>
+        <th>Lectura</th>
       </tr>
     `;
 
-    body.innerHTML = rows.slice(0, 200).map(row => `
-      <tr>
-        <td>${escapeHTML(row.group ?? "Sin dato")}</td>
-        ${hasCompare ? `<td>${escapeHTML(row.compare ?? "Sin dato")}</td>` : ""}
-        <td>${formatNumber(row.count || 0)}</td>
-      </tr>
-    `).join("");
+    body.innerHTML = rows.slice(0, 200).map((row, index) => {
+      const count = Number(row.count || 0);
+      const share = count / total;
+      const pct = `${(share * 100).toFixed(1)}%`;
+      const reading = index === 0
+        ? "Concentración principal"
+        : share >= 0.15
+          ? "Peso alto"
+          : share >= 0.05
+            ? "Peso medio"
+            : "Presencia baja";
+
+      return `
+        <tr>
+          <td><strong>${escapeHTML(row.group ?? "Sin dato")}</strong></td>
+          ${hasCompare ? `<td>${escapeHTML(row.compare ?? "Sin dato")}</td>` : ""}
+          <td>${formatNumber(count)}</td>
+          <td>${pct}</td>
+          <td><span class="wa2-reading">${reading}</span></td>
+        </tr>
+      `;
+    }).join("");
   }
 
   function copyAnalysisCSV() {
