@@ -6240,3 +6240,62 @@ body[data-tab="taller"] .wct-main {
   min-height: calc(100vh - 64px) !important;
   height: auto !important;
 }
+
+
+/* WCT AREA MULTISELECT */
+
+body[data-tab="taller"] .wct-area-filter {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body[data-tab="taller"] .wct-area-filter legend {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(7,29,56,.46);
+  font: 800 9px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"] .wct-area-filter label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 22px;
+  margin: 0 4px 4px 0;
+  padding: 0 7px;
+  border: 1px solid rgba(7,29,56,.16);
+  background: #fff;
+  color: rgba(7,29,56,.74);
+  font: 700 10px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .02em;
+  cursor: pointer;
+}
+
+body[data-tab="taller"] .wct-area-filter input {
+  width: 11px;
+  height: 11px;
+  margin: 0;
+  accent-color: #071d38;
+}
+
+
+/* WCT BUBBLE SELECTION */
+
+body[data-tab="taller"] .wct-clear-selection {
+  height: 34px;
+  border: 1px solid rgba(7,29,56,.18);
+  background: #fff;
+  color: rgba(7,29,56,.72);
+  font: 800 10px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+body[data-tab="taller"] .wct-clear-selection:disabled {
+  opacity: .36;
+  cursor: default;
+}

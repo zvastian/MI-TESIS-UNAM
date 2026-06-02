@@ -59,6 +59,8 @@
   let bubbleRenderQueued = false;
   let bubbleRenderAnimated = true;
   let bubbleDomains = null;
+  let bubbleAreaFilter = new Set(["AREA 1", "AREA 2", "AREA 3", "AREA 4"]);
+  let bubbleSelectedIds = new Set();
 
   function cleanLegacy(tallerPanel) {
     tallerPanel.querySelectorAll(
@@ -130,6 +132,13 @@
     const playBtn = event.target.closest("#bubblePlayBtn");
     if (playBtn) {
       toggleBubblePlayback();
+      return;
+    }
+
+    const clearBtn = event.target.closest("#bubbleClearSelectionBtn");
+    if (clearBtn) {
+      bubbleSelectedIds.clear();
+      applyBubbleSelectionStyles();
     }
   }
 
@@ -147,10 +156,23 @@
       return;
     }
 
+    if (event.target.matches("[data-bubble-area]")) {
+      const area = event.target.dataset.bubbleArea;
+      if (event.target.checked) {
+        bubbleAreaFilter.add(area);
+      } else {
+        bubbleAreaFilter.delete(area);
+      }
+      scheduleBubbleRender(true);
+      return;
+    }
+
     if (event.target.id === "bubbleDimensionSelect") {
       bubbleDimension = event.target.value;
       bubbleData = null;
       bubbleDomains = null;
+      bubbleAreaFilter = new Set(["AREA 1", "AREA 2", "AREA 3", "AREA 4"]);
+      bubbleSelectedIds.clear();
       stopBubblePlayback();
       loadBubbleData();
     }
@@ -215,6 +237,16 @@
         </select>
       </label>
 
+      <fieldset class="wct-control wct-area-filter">
+        <legend>Área</legend>
+        ${["AREA 1", "AREA 2", "AREA 3", "AREA 4"].map(area => `
+          <label>
+            <input type="checkbox" data-bubble-area="${area}" ${bubbleAreaFilter.has(area) ? "checked" : ""} />
+            <span>${area.replace("AREA", "Área")}</span>
+          </label>
+        `).join("")}
+      </fieldset>
+
       <label class="wct-control wct-year-control">
         <span>Año</span>
         <input id="bubbleYearSlider" type="range" min="1954" max="2026" value="${bubbleYear || 2026}" />
@@ -226,6 +258,7 @@
       </div>
 
       <button class="wct-run" id="bubblePlayBtn" type="button">Reproducir</button>
+      <button class="wct-clear-selection" id="bubbleClearSelectionBtn" type="button">Limpiar selección</button>
     `;
   }
 
@@ -311,12 +344,81 @@
     const yearLabel = document.getElementById("bubbleYearLabel");
     if (yearLabel) yearLabel.textContent = String(bubbleYear);
 
+    const clearBtn = document.getElementById("bubbleClearSelectionBtn");
+    if (clearBtn) {
+      clearBtn.disabled = bubbleSelectedIds.size === 0;
+      clearBtn.textContent = bubbleSelectedIds.size
+        ? `Limpiar (${bubbleSelectedIds.size})`
+        : "Limpiar selección";
+    }
+
     const slider = document.getElementById("bubbleYearSlider");
     if (slider && Number(slider.value) !== Number(bubbleYear)) {
       slider.value = String(bubbleYear);
     }
 
     const points = buildBubblePoints(bubbleData, bubbleYear);
+    if (!points.length) {
+      if (!window.echarts) {
+        el.innerHTML = "";
+        return;
+      }
+
+      if (el.querySelector(".wct-loading")) {
+        el.innerHTML = "";
+        if (bubbleChart) {
+          try { bubbleChart.dispose(); } catch (err) {}
+          bubbleChart = null;
+        }
+      }
+
+      if (!bubbleChart) {
+        bubbleChart = window.echarts.init(el, null, { renderer: "canvas" });
+        window.addEventListener("resize", () => bubbleChart?.resize());
+      }
+
+      bubbleChart.setOption({
+        animation: false,
+        grid: { left: 56, right: 28, top: 42, bottom: 52, containLabel: true },
+        xAxis: {
+          type: "value",
+          name: "Antigüedad activa",
+          min: 0,
+          max: bubbleDomains?.maxAge || 10,
+          nameLocation: "middle",
+          nameGap: 32,
+          splitLine: { lineStyle: { color: "rgba(7,29,56,.08)" } },
+          axisLine: { lineStyle: { color: "rgba(7,29,56,.35)" } },
+          axisLabel: { color: "rgba(7,29,56,.58)" }
+        },
+        yAxis: {
+          type: "value",
+          name: "Producción acumulada",
+          min: 0,
+          max: bubbleDomains?.maxY || 10,
+          nameLocation: "middle",
+          nameGap: 44,
+          splitLine: { lineStyle: { color: "rgba(7,29,56,.08)" } },
+          axisLine: { lineStyle: { color: "rgba(7,29,56,.35)" } },
+          axisLabel: { color: "rgba(7,29,56,.58)" }
+        },
+        graphic: [{
+          type: "text",
+          left: "center",
+          top: "middle",
+          silent: true,
+          style: {
+            text: String(bubbleYear),
+            fill: "rgba(7,29,56,.055)",
+            font: "800 150px Inter, system-ui, sans-serif"
+          }
+        }],
+        series: [{ type: "scatter", data: [] }]
+      }, true);
+
+      return;
+    }
+
     const maxCumulative = bubbleDomains?.maxCumulative || Math.max(1, ...points.map(d => d.cumulative));
     const maxAge = bubbleDomains?.maxAge || Math.max(10, ...points.map(d => d.active_age));
     const maxY = bubbleDomains?.maxY || Math.max(10, ...points.map(d => d.cumulative));
@@ -326,9 +428,30 @@
       return;
     }
 
+    if (el.querySelector(".wct-loading")) {
+      el.innerHTML = "";
+      if (bubbleChart) {
+        try { bubbleChart.dispose(); } catch (err) {}
+        bubbleChart = null;
+      }
+    }
+
     if (!bubbleChart) {
       bubbleChart = window.echarts.init(el, null, { renderer: "canvas" });
       window.addEventListener("resize", () => bubbleChart?.resize());
+
+      bubbleChart.on("click", params => {
+        const id = params?.data?.raw?.id;
+        if (!id) return;
+
+        if (bubbleSelectedIds.has(id)) {
+          bubbleSelectedIds.delete(id);
+        } else {
+          bubbleSelectedIds.add(id);
+        }
+
+        applyBubbleSelectionStyles();
+      });
     }
 
     bubbleChart.setOption({
@@ -390,21 +513,46 @@
       }],
       series: [{
         type: "scatter",
-        data: points.map(d => ({
-          value: [d.active_age, d.cumulative],
-          raw: d,
-          itemStyle: {
-            color: AREA_COLORS[d.main_area] || AREA_COLORS[""],
-            borderColor: "rgba(7,29,56,.24)",
-            borderWidth: 1
-          }
-        })),
+        data: points.map(d => {
+          const hasSelection = bubbleSelectedIds.size > 0;
+          const isSelected = bubbleSelectedIds.has(d.id);
+          const opacity = !hasSelection || isSelected ? 0.9 : 0.16;
+
+          return {
+            id: d.id,
+            name: d.label,
+            value: [d.active_age, d.cumulative],
+            raw: d,
+            selected: isSelected,
+            label: {
+              show: isSelected,
+              formatter: d.label,
+              position: "top",
+              color: "#071d38",
+              fontWeight: 800,
+              fontSize: 10,
+              backgroundColor: "rgba(255,255,255,.72)",
+              padding: [2, 4]
+            },
+            itemStyle: {
+              color: AREA_COLORS[d.main_area] || AREA_COLORS[""],
+              opacity,
+              borderColor: isSelected ? "#071d38" : "rgba(7,29,56,.24)",
+              borderWidth: isSelected ? 2 : 1
+            }
+          };
+        }),
         symbolSize(value, params) {
           const d = params.data.raw;
           return 8 + Math.sqrt(d.cumulative / maxCumulative) * 54;
         },
         emphasis: {
           focus: "self",
+          itemStyle: {
+            opacity: 1,
+            borderColor: "#071d38",
+            borderWidth: 2
+          },
           label: {
             show: true,
             formatter(params) {
@@ -424,6 +572,8 @@
     const points = [];
 
     for (const entity of data.entities || []) {
+      if (!bubbleAreaFilter.has(entity.main_area)) continue;
+
       const series = entity.series || [];
       let selected = null;
 
@@ -443,7 +593,56 @@
       });
     }
 
-    return points.sort((a, b) => b.cumulative - a.cumulative);
+    return points.sort((a, b) => String(a.id).localeCompare(String(b.id)));
+  }
+
+  function applyBubbleSelectionStyles() {
+    if (!bubbleChart) return;
+
+    const option = bubbleChart.getOption();
+    const currentData = option?.series?.[0]?.data || [];
+    const hasSelection = bubbleSelectedIds.size > 0;
+
+    const nextData = currentData.map(item => {
+      const raw = item.raw || {};
+      const isSelected = bubbleSelectedIds.has(raw.id);
+      const opacity = !hasSelection || isSelected ? 0.9 : 0.16;
+
+      return {
+        ...item,
+        selected: isSelected,
+        label: {
+          ...(item.label || {}),
+          show: isSelected,
+          formatter: raw.label || item.name || "",
+          position: "top",
+          color: "#071d38",
+          fontWeight: 800,
+          fontSize: 10,
+          backgroundColor: "rgba(255,255,255,.72)",
+          padding: [2, 4]
+        },
+        itemStyle: {
+          ...(item.itemStyle || {}),
+          opacity,
+          borderColor: isSelected ? "#071d38" : "rgba(7,29,56,.24)",
+          borderWidth: isSelected ? 2 : 1
+        }
+      };
+    });
+
+    bubbleChart.setOption({
+      animation: false,
+      series: [{ data: nextData }]
+    }, false);
+
+    const clearBtn = document.getElementById("bubbleClearSelectionBtn");
+    if (clearBtn) {
+      clearBtn.disabled = bubbleSelectedIds.size === 0;
+      clearBtn.textContent = bubbleSelectedIds.size
+        ? `Limpiar (${bubbleSelectedIds.size})`
+        : "Limpiar selección";
+    }
   }
 
   function toggleBubblePlayback() {
