@@ -48,6 +48,50 @@ STOPWORDS_ES = {
 }
 
 
+MISSING_ANALYSIS_VALUES = {
+    "",
+    "-",
+    "--",
+    "—",
+    "na",
+    "n/a",
+    "s/d",
+    "sd",
+    "sin dato",
+    "sin datos",
+    "no disponible",
+    "no especificado",
+    "no especificada",
+    "no aplica",
+    "null",
+    "none",
+    "nan",
+}
+
+
+def _is_missing_analysis_value(value: object) -> bool:
+    if value is None:
+        return True
+
+    normalized = " ".join(str(value).strip().lower().split())
+    return normalized in MISSING_ANALYSIS_VALUES
+
+
+def _sql_non_missing_condition(column: str) -> str:
+    ident = sql_ident(column)
+    normalized = f"lower(trim(cast({ident} as varchar)))"
+    return (
+        f"{ident} IS NOT NULL "
+        f"AND trim(cast({ident} as varchar)) <> '' "
+        f"AND {normalized} NOT IN ("
+        "'-', '--', '—', 'na', 'n/a', 's/d', 'sd', "
+        "'sin dato', 'sin datos', 'no disponible', "
+        "'no especificado', 'no especificada', 'no aplica', "
+        "'null', 'none', 'nan'"
+        ")"
+    )
+
+
 class WorkshopService:
     def __init__(self, dataset_path: Path | None = None):
         self.dataset_path = dataset_path or self.find_dataset()
@@ -476,12 +520,16 @@ class WorkshopService:
             where_parts.append(f"{sql_ident(title_col)} LIKE ?")
             params.append(f"%{q}%")
 
+        group_col = allowed_dimensions[group_by]
+        compare_col = allowed_dimensions.get(compare_by) if compare_by else None
+
+        where_parts.append(_sql_non_missing_condition(group_col))
+        if compare_col:
+            where_parts.append(_sql_non_missing_condition(compare_col))
+
         where_sql = ""
         if where_parts:
             where_sql = "WHERE " + " AND ".join(where_parts)
-
-        group_col = allowed_dimensions[group_by]
-        compare_col = allowed_dimensions.get(compare_by) if compare_by else None
 
         # Total filtrado
         total_rows = self.conn.execute(
@@ -521,8 +569,8 @@ class WorkshopService:
 
             for group_value, compare_value, count in rows:
                 table_rows.append({
-                    "group": group_value or "Sin dato",
-                    "compare": compare_value or "Sin dato",
+                    "group": group_value,
+                    "compare": compare_value,
                     "count": int(count),
                 })
 
@@ -572,7 +620,7 @@ class WorkshopService:
 
             for group_value, count in rows:
                 table_rows.append({
-                    "group": group_value or "Sin dato",
+                    "group": group_value,
                     "count": int(count),
                 })
 
