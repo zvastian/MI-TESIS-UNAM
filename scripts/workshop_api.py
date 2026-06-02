@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException
 
-from workshop_schema import ExactSearchRequest
+from workshop_schema import AnalysisRequest, AnalysisResponse, ExactSearchRequest
 from workshop_service import get_workshop_service
 
 
@@ -38,3 +38,9 @@ def workshop_exact(req: ExactSearchRequest):
         raise HTTPException(status_code=422, detail=str(exc))
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc))
+
+@router.post("/analyze", response_model=AnalysisResponse)
+def analyze_workshop(req: AnalysisRequest):
+    svc = get_workshop_service()
+    return svc.analyze(req)
+
