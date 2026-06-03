@@ -460,6 +460,382 @@ class WorkshopService:
 
 
 
+
+
+    def tool_heatmap(
+        self,
+        dimension: str = "area",
+        limit: int = 25,
+        year_min: int | None = None,
+        year_max: int | None = None,
+        areas: list[str] | None = None,
+        levels: list[str] | None = None,
+        scale: str = "absolute",
+    ) -> dict[str, Any]:
+        """Dataset curado para heatmap año × categoría."""
+        summary_path = Path("data/workshop/ranking_summary.parquet")
+        if not summary_path.exists():
+            raise FileNotFoundError("No existe data/workshop/ranking_summary.parquet")
+
+        dimension_map = {
+            "program": "program",
+            "programa": "program",
+            "advisor": "advisor",
+            "asesor": "advisor",
+            "plantel": "plantel",
+            "campus": "plantel",
+            "level": "level",
+            "nivel": "level",
+            "area": "area",
+            "degree": "degree",
+            "grado": "degree",
+        }
+
+        dimension = (dimension or "area").lower().strip()
+        dimension = dimension_map.get(dimension, dimension)
+        if dimension not in {"program", "advisor", "plantel", "level", "area", "degree"}:
+            raise ValueError(f"dimension no soportada: {dimension}")
+
+        scale = (scale or "absolute").lower().strip()
+        if scale not in {"absolute", "year_share", "log"}:
+            raise ValueError(f"scale no soportada: {scale}")
+
+        limit = max(1, min(int(limit or 25), 75))
+
+        where_parts = ["dimension = ?"]
+        params: list[Any] = [dimension]
+
+        if year_min is not None:
+            where_parts.append("year >= ?")
+            params.append(int(year_min))
+
+        if year_max is not None:
+            where_parts.append("year <= ?")
+            params.append(int(year_max))
+
+        def add_in_filter(column: str, values: list[str] | None):
+            clean = [
+                str(v).strip().upper()
+                for v in (values or [])
+                if v is not None and str(v).strip()
+            ]
+            if not clean:
+                return
+            placeholders = ", ".join(["?"] * len(clean))
+            where_parts.append(f"{column} IN ({placeholders})")
+            params.extend(clean)
+
+        add_in_filter("area", areas)
+
+        clean_levels = []
+        for value in levels or []:
+            level = str(value).strip().upper()
+            if level == "MAESTRIA":
+                level = "MAESTRÍA"
+            if level:
+                clean_levels.append(level)
+
+        if clean_levels:
+            placeholders = ", ".join(["?"] * len(clean_levels))
+            where_parts.append(f"level IN ({placeholders})")
+            params.extend(clean_levels)
+
+        where_sql = "WHERE " + " AND ".join(where_parts)
+
+        top_labels = [
+            row[0]
+            for row in self.conn.execute(
+                f"""
+                SELECT label, SUM(count) AS total
+                FROM read_parquet('{summary_path.as_posix()}')
+                {where_sql}
+                GROUP BY label
+                ORDER BY total DESC, label ASC
+                LIMIT ?
+                """,
+                params + [limit],
+            ).fetchall()
+        ]
+
+        if not top_labels:
+            return {
+                "tool": "heatmap",
+                "dimension": dimension,
+                "scale": scale,
+                "limit": limit,
+                "years": [],
+                "labels": [],
+                "cells": [],
+                "summary": {
+                    "total_rows": 0,
+                    "max_value": 0,
+                    "top_label": None,
+                },
+            }
+
+        label_placeholders = ", ".join(["?"] * len(top_labels))
+
+        raw_rows = self.conn.execute(
+            f"""
+            WITH filtered AS (
+              SELECT label, year, SUM(count) AS raw
+              FROM read_parquet('{summary_path.as_posix()}')
+              {where_sql}
+                AND label IN ({label_placeholders})
+              GROUP BY label, year
+            ),
+            year_totals AS (
+              SELECT year, SUM(raw) AS year_total
+              FROM filtered
+              GROUP BY year
+            )
+            SELECT
+              f.label,
+              f.year,
+              f.raw,
+              CASE
+                WHEN ? = 'log' THEN log10(f.raw + 1)
+                WHEN ? = 'year_share' THEN f.raw / NULLIF(y.year_total, 0)
+                ELSE f.raw
+              END AS value
+            FROM filtered f
+            JOIN year_totals y USING(year)
+            ORDER BY f.year ASC, f.label ASC
+            """,
+            params + top_labels + [scale, scale],
+        ).fetchall()
+
+        years = sorted({int(row[1]) for row in raw_rows})
+        label_order = {label: index for index, label in enumerate(top_labels)}
+        max_value = max((float(row[3] or 0) for row in raw_rows), default=0)
+        total_rows = sum(int(row[2] or 0) for row in raw_rows)
+
+        cells = [
+            {
+                "x": int(year),
+                "y": label,
+                "label_index": label_order.get(label, 0),
+                "year_index": years.index(int(year)),
+                "raw": int(raw or 0),
+                "value": float(value or 0),
+            }
+            for label, year, raw, value in raw_rows
+        ]
+
+        return {
+            "tool": "heatmap",
+            "dimension": dimension,
+            "scale": scale,
+            "limit": limit,
+            "years": years,
+            "labels": top_labels,
+            "cells": cells,
+            "summary": {
+                "total_rows": int(total_rows),
+                "max_value": max_value,
+                "top_label": top_labels[0] if top_labels else None,
+            },
+        }
+
+    def tool_ranking(
+        self,
+        dimension: str = "program",
+        limit: int = 25,
+        year_min: int | None = None,
+        year_max: int | None = None,
+        areas: list[str] | None = None,
+        levels: list[str] | None = None,
+    ) -> dict[str, Any]:
+        """Dataset curado para rankings.
+
+        Lee data/workshop/ranking_summary.parquet, un parquet preagregado.
+        """
+        ranking_path = Path("data/workshop/ranking_summary.parquet")
+        if not ranking_path.exists():
+            raise FileNotFoundError("No existe data/workshop/ranking_summary.parquet")
+
+        dimension_map = {
+            "program": "program",
+            "programa": "program",
+            "advisor": "advisor",
+            "asesor": "advisor",
+            "advisors": "advisor",
+            "plantel": "plantel",
+            "campus": "plantel",
+            "level": "level",
+            "nivel": "level",
+            "area": "area",
+            "degree": "degree",
+            "grado": "degree",
+        }
+
+        dimension = (dimension or "program").lower().strip()
+        dimension = dimension_map.get(dimension, dimension)
+        if dimension not in {"program", "advisor", "plantel", "level", "area", "degree"}:
+            raise ValueError(f"dimension no soportada: {dimension}")
+
+        limit = max(1, min(int(limit or 25), 100))
+
+        where_parts = ["dimension = ?"]
+        params: list[Any] = [dimension]
+
+        if year_min is not None:
+            where_parts.append("year >= ?")
+            params.append(int(year_min))
+
+        if year_max is not None:
+            where_parts.append("year <= ?")
+            params.append(int(year_max))
+
+        def add_in_filter(column: str, values: list[str] | None):
+            clean = [
+                str(v).strip().upper()
+                for v in (values or [])
+                if v is not None and str(v).strip()
+            ]
+            if not clean:
+                return
+            placeholders = ", ".join(["?"] * len(clean))
+            where_parts.append(f"{column} IN ({placeholders})")
+            params.extend(clean)
+
+        add_in_filter("area", areas)
+
+        clean_levels = []
+        for value in levels or []:
+            level = str(value).strip().upper()
+            if level == "MAESTRIA":
+                level = "MAESTRÍA"
+            if level:
+                clean_levels.append(level)
+
+        if clean_levels:
+            placeholders = ", ".join(["?"] * len(clean_levels))
+            where_parts.append(f"level IN ({placeholders})")
+            params.extend(clean_levels)
+
+        where_sql = "WHERE " + " AND ".join(where_parts)
+
+        total_rows = self.conn.execute(
+            f"""
+            SELECT COALESCE(SUM(count), 0)
+            FROM read_parquet('{ranking_path.as_posix()}')
+            {where_sql}
+            """,
+            params,
+        ).fetchone()[0] or 0
+
+        rows = self.conn.execute(
+            f"""
+            WITH ranked AS (
+              SELECT
+                label,
+                SUM(count) AS count,
+                MIN(first_year) AS first_year,
+                MAX(last_year) AS last_year,
+                mode(main_area) AS main_area,
+                mode(main_level) AS main_level,
+                mode(main_plantel) AS main_plantel,
+                mode(main_program) AS main_program
+              FROM read_parquet('{ranking_path.as_posix()}')
+              {where_sql}
+              GROUP BY label
+            ),
+            ordered AS (
+              SELECT
+                label,
+                count,
+                count / NULLIF(SUM(count) OVER (), 0) AS share,
+                SUM(count) OVER (
+                  ORDER BY count DESC, label ASC
+                  ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+                ) / NULLIF(SUM(count) OVER (), 0) AS cumulative_share,
+                first_year,
+                last_year,
+                main_area,
+                main_level,
+                main_plantel,
+                main_program,
+                ROW_NUMBER() OVER (ORDER BY count DESC, label ASC) AS rank
+              FROM ranked
+            )
+            SELECT
+              rank,
+              label,
+              count,
+              share,
+              cumulative_share,
+              first_year,
+              last_year,
+              main_area,
+              main_level,
+              main_plantel,
+              main_program
+            FROM ordered
+            ORDER BY rank
+            LIMIT ?
+            """,
+            params + [limit],
+        ).fetchall()
+
+        result_rows = [
+            {
+                "rank": int(rank),
+                "label": label,
+                "count": int(count or 0),
+                "share": float(share or 0),
+                "cumulative_share": float(cumulative_share or 0),
+                "first_year": int(first_year) if first_year is not None else None,
+                "last_year": int(last_year) if last_year is not None else None,
+                "main_area": main_area or "",
+                "main_level": main_level or "",
+                "main_plantel": main_plantel or "",
+                "main_program": main_program or "",
+            }
+            for (
+                rank,
+                label,
+                count,
+                share,
+                cumulative_share,
+                first_year,
+                last_year,
+                main_area,
+                main_level,
+                main_plantel,
+                main_program,
+            ) in rows
+        ]
+
+        concentration_80_count = None
+        for row in result_rows:
+            if row["cumulative_share"] >= 0.8:
+                concentration_80_count = row["rank"]
+                break
+
+        top = result_rows[0] if result_rows else None
+
+        return {
+            "tool": "ranking",
+            "dimension": dimension,
+            "limit": limit,
+            "filters": {
+                "year_min": year_min,
+                "year_max": year_max,
+                "areas": areas or [],
+                "levels": levels or [],
+            },
+            "summary": {
+                "total_rows": int(total_rows),
+                "returned_rows": len(result_rows),
+                "top_label": top["label"] if top else None,
+                "top_count": top["count"] if top else 0,
+                "top_share": top["share"] if top else 0,
+                "concentration_80_count": concentration_80_count,
+            },
+            "rows": result_rows,
+        }
+
     def tool_bubbles(self, dimension: str = "advisor", limit: int = 50) -> dict[str, Any]:
         """Dataset curado para burbujas tipo Gapminder.
 
@@ -1216,3 +1592,292 @@ class WorkshopService:
 @lru_cache(maxsize=1)
 def get_workshop_service() -> WorkshopService:
     return WorkshopService()
+
+
+# WCT HEATMAP MATRIX API START
+
+def _workshop_tool_heatmap_matrix(self, matrix: str = "program_level", limit: int = 10,
+                                  year_min: int | None = None, year_max: int | None = None,
+                                  scale: str = "log"):
+    """Matrices categóricas curadas para Heatmap.
+
+    program_level: top programas x nivel
+    area_level: áreas x nivel
+    program_area: top programas x área
+    """
+    from pathlib import Path
+    import math
+
+    parquet = Path("data/workshop/ranking_summary.parquet")
+    if not parquet.exists():
+        raise FileNotFoundError("No encontré data/workshop/ranking_summary.parquet")
+
+    matrix_specs = {
+        "program_level": {
+            "dimension": "program",
+            "row_expr": "label",
+            "col_expr": "level",
+            "row_label": "Programa",
+            "col_label": "Nivel",
+        },
+        "area_level": {
+            "dimension": "area",
+            "row_expr": "label",
+            "col_expr": "level",
+            "row_label": "Área",
+            "col_label": "Nivel",
+        },
+        "program_area": {
+            "dimension": "program",
+            "row_expr": "label",
+            "col_expr": "area",
+            "row_label": "Programa",
+            "col_label": "Área",
+        },
+    }
+
+    if matrix not in matrix_specs:
+        raise ValueError(f"matrix no soportada: {matrix}")
+
+    if scale not in {"absolute", "log", "row_share"}:
+        raise ValueError(f"scale no soportada: {scale}")
+
+    spec = matrix_specs[matrix]
+    limit = max(1, min(int(limit or 10), 50))
+
+    where = ["dimension = ?"]
+    params = [spec["dimension"]]
+
+    if year_min is not None:
+        where.append("year >= ?")
+        params.append(int(year_min))
+
+    if year_max is not None:
+        where.append("year <= ?")
+        params.append(int(year_max))
+
+    where_sql = " AND ".join(where)
+
+    top_rows = self.conn.execute(f"""
+        SELECT {spec["row_expr"]} AS row_label, SUM(count) AS total
+        FROM read_parquet('{parquet.as_posix()}')
+        WHERE {where_sql}
+          AND {spec["row_expr"]} IS NOT NULL
+          AND {spec["col_expr"]} IS NOT NULL
+        GROUP BY 1
+        ORDER BY total DESC, row_label ASC
+        LIMIT ?
+    """, params + [limit]).fetchall()
+
+    rows = [r[0] for r in top_rows]
+    if not rows:
+        return {
+            "tool": "heatmap_matrix",
+            "matrix": matrix,
+            "scale": scale,
+            "rows": [],
+            "columns": [],
+            "cells": [],
+            "summary": {"total_rows": 0, "max_value": 0},
+            "encoding": {"x": spec["col_label"], "y": spec["row_label"], "value": "tesis"},
+        }
+
+    placeholders = ", ".join(["?"] * len(rows))
+
+    raw = self.conn.execute(f"""
+        WITH base AS (
+          SELECT
+            {spec["row_expr"]} AS row_label,
+            {spec["col_expr"]} AS col_label,
+            SUM(count) AS raw
+          FROM read_parquet('{parquet.as_posix()}')
+          WHERE {where_sql}
+            AND {spec["row_expr"]} IN ({placeholders})
+            AND {spec["col_expr"]} IS NOT NULL
+          GROUP BY 1, 2
+        ),
+        row_totals AS (
+          SELECT row_label, SUM(raw) AS row_total
+          FROM base
+          GROUP BY 1
+        )
+        SELECT base.row_label, base.col_label, base.raw, row_totals.row_total
+        FROM base
+        JOIN row_totals USING (row_label)
+        ORDER BY base.row_label ASC, base.col_label ASC
+    """, params + rows).fetchall()
+
+    columns = sorted({str(r[1]) for r in raw})
+    row_index = {str(v): i for i, v in enumerate(rows)}
+    col_index = {str(v): i for i, v in enumerate(columns)}
+
+    cells = []
+    values = []
+
+    for row_label, col_label, count, row_total in raw:
+        row_label = str(row_label)
+        col_label = str(col_label)
+        count = int(count or 0)
+        row_total = int(row_total or 0)
+
+        if scale == "log":
+            value = math.log10(count + 1)
+        elif scale == "row_share":
+            value = (count / row_total) if row_total else 0
+        else:
+            value = float(count)
+
+        values.append(value)
+        cells.append({
+            "x": col_label,
+            "y": row_label,
+            "column_index": col_index[col_label],
+            "row_index": row_index[row_label],
+            "raw": count,
+            "value": value,
+        })
+
+    return {
+        "tool": "heatmap_matrix",
+        "matrix": matrix,
+        "scale": scale,
+        "limit": limit,
+        "rows": [str(r) for r in rows],
+        "columns": columns,
+        "cells": cells,
+        "summary": {
+            "total_rows": sum(int(r[2] or 0) for r in raw),
+            "max_value": max(values) if values else 0,
+            "top_row": str(rows[0]) if rows else None,
+        },
+        "encoding": {
+            "x": spec["col_label"],
+            "y": spec["row_label"],
+            "value": "tesis",
+        },
+    }
+
+try:
+    WorkshopService.tool_heatmap_matrix = _workshop_tool_heatmap_matrix
+except NameError:
+    pass
+
+# WCT HEATMAP MATRIX API END
+
+
+# WCT SERIES API START
+
+def _workshop_tool_series(self, dimension: str = "level", limit: int = 8,
+                          year_min: int | None = 2000, year_max: int | None = 2026):
+    """Series temporales curadas para el Taller."""
+    from pathlib import Path
+
+    parquet = Path("data/workshop/series_summary.parquet")
+    if not parquet.exists():
+        raise FileNotFoundError("No encontré data/workshop/series_summary.parquet")
+
+    allowed = {"area", "level", "program", "plantel", "advisor"}
+    if dimension not in allowed:
+        raise ValueError(f"dimension no soportada: {dimension}")
+
+    limit = max(1, min(int(limit or 8), 30))
+
+    where = ["dimension = ?"]
+    params = [dimension]
+
+    if year_min is not None:
+        where.append("year >= ?")
+        params.append(int(year_min))
+
+    if year_max is not None:
+        where.append("year <= ?")
+        params.append(int(year_max))
+
+    where_sql = " AND ".join(where)
+
+    labels = self.conn.execute(f"""
+        SELECT label, SUM(count) AS period_count, MIN(series_rank) AS series_rank
+        FROM read_parquet('{parquet.as_posix()}')
+        WHERE {where_sql}
+        GROUP BY 1
+        ORDER BY
+          CASE WHEN ? IN ('area', 'level') THEN MIN(series_rank) ELSE SUM(count) * -1 END ASC,
+          label ASC
+        LIMIT ?
+    """, params + [dimension, limit]).fetchall()
+
+    selected = [row[0] for row in labels]
+    if not selected:
+        return {
+            "tool": "series",
+            "dimension": dimension,
+            "limit": limit,
+            "years": [],
+            "labels": [],
+            "rows": [],
+            "summary": {"total_rows": 0},
+        }
+
+    placeholders = ", ".join(["?"] * len(selected))
+
+    rows = self.conn.execute(f"""
+        SELECT
+          dimension,
+          label,
+          year,
+          count,
+          share_of_year,
+          index_base_100,
+          series_rank,
+          total_count,
+          first_year,
+          last_year
+        FROM read_parquet('{parquet.as_posix()}')
+        WHERE {where_sql}
+          AND label IN ({placeholders})
+        ORDER BY year ASC, series_rank ASC, label ASC
+    """, params + selected).fetchall()
+
+    years = [r[0] for r in self.conn.execute(f"""
+        SELECT DISTINCT year
+        FROM read_parquet('{parquet.as_posix()}')
+        WHERE {where_sql}
+        ORDER BY year ASC
+    """, params).fetchall()]
+
+    return {
+        "tool": "series",
+        "dimension": dimension,
+        "limit": limit,
+        "years": [int(y) for y in years],
+        "labels": [str(v) for v in selected],
+        "rows": [
+            {
+                "dimension": str(r[0]),
+                "label": str(r[1]),
+                "year": int(r[2]),
+                "count": float(r[3] or 0),
+                "share_of_year": float(r[4] or 0),
+                "index_base_100": float(r[5]) if r[5] is not None else None,
+                "series_rank": int(r[6] or 0),
+                "total_count": float(r[7] or 0),
+                "first_year": int(r[8]) if r[8] is not None else None,
+                "last_year": int(r[9]) if r[9] is not None else None,
+            }
+            for r in rows
+        ],
+        "summary": {
+            "total_rows": float(sum(r[3] or 0 for r in rows)),
+            "label_count": len(selected),
+            "min_year": min(years) if years else None,
+            "max_year": max(years) if years else None,
+        },
+    }
+
+try:
+    WorkshopService.tool_series = _workshop_tool_series
+except NameError:
+    pass
+
+# WCT SERIES API END
+

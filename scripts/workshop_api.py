@@ -52,3 +52,101 @@ def workshop_tool_bubbles(dimension: str = "advisor", limit: int = 50):
     except Exception as exc:
         raise HTTPException(status_code=400, detail=str(exc))
 
+
+@router.get("/tools/ranking")
+def workshop_tool_ranking(
+    dimension: str = "program",
+    limit: int = 25,
+    year_min: int | None = None,
+    year_max: int | None = None,
+    areas: str | None = None,
+    levels: str | None = None,
+):
+    try:
+        area_values = [v.strip() for v in areas.split(",")] if areas else []
+        level_values = [v.strip() for v in levels.split(",")] if levels else []
+        return get_workshop_service().tool_ranking(
+            dimension=dimension,
+            limit=limit,
+            year_min=year_min,
+            year_max=year_max,
+            areas=area_values,
+            levels=level_values,
+        )
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+
+
+@router.get("/tools/heatmap")
+def workshop_tool_heatmap(
+    dimension: str = "area",
+    limit: int = 25,
+    year_min: int | None = None,
+    year_max: int | None = None,
+    areas: str | None = None,
+    levels: str | None = None,
+    scale: str = "absolute",
+):
+    try:
+        area_values = [v.strip() for v in areas.split(",")] if areas else []
+        level_values = [v.strip() for v in levels.split(",")] if levels else []
+        return get_workshop_service().tool_heatmap(
+            dimension=dimension,
+            limit=limit,
+            year_min=year_min,
+            year_max=year_max,
+            areas=area_values,
+            levels=level_values,
+            scale=scale,
+        )
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+
+
+
+
+# WCT HEATMAP MATRIX ROUTE START
+
+@router.get("/tools/heatmap-matrix")
+def workshop_tool_heatmap_matrix(
+    matrix: str = "program_level",
+    limit: int = 10,
+    year_min: int | None = None,
+    year_max: int | None = None,
+    scale: str = "log",
+):
+    try:
+        return get_workshop_service().tool_heatmap_matrix(
+            matrix=matrix,
+            limit=limit,
+            year_min=year_min,
+            year_max=year_max,
+            scale=scale,
+        )
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+
+# WCT HEATMAP MATRIX ROUTE END
+
+
+# WCT SERIES ROUTE START
+
+@router.get("/tools/series")
+def workshop_tool_series(
+    dimension: str = "level",
+    limit: int = 8,
+    year_min: int | None = 2000,
+    year_max: int | None = 2026,
+):
+    try:
+        return get_workshop_service().tool_series(
+            dimension=dimension,
+            limit=limit,
+            year_min=year_min,
+            year_max=year_max,
+        )
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+
+# WCT SERIES ROUTE END
+

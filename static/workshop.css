@@ -6643,3 +6643,746 @@ body:not([data-tab="taller"]) .wct-shell {
 body:not([data-tab="taller"]).workshop-curated-tools {
   overflow: auto !important;
 }
+
+
+/* WCT RANKING FRONTEND */
+
+body[data-tab="taller"] .wct-chart-ranking .wct-echart {
+  background: transparent !important;
+}
+
+body[data-tab="taller"] .wct-ranking-years {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+body[data-tab="taller"] .wct-ranking-years span {
+  grid-column: 1 / -1;
+}
+
+body[data-tab="taller"] .wct-ranking-years input,
+body[data-tab="taller"] #rankingLimit {
+  width: 100%;
+  height: 32px;
+  border: 1px solid rgba(7,29,56,.18);
+  background: #fff;
+  color: #071d38;
+  padding: 0 8px;
+  font: 500 12px/1 Inter, system-ui, sans-serif;
+}
+
+body[data-tab="taller"] #rankingLimit {
+  padding: 0;
+  accent-color: #071d38;
+}
+
+body[data-tab="taller"] .wct-save {
+  height: 32px;
+  border: 1px solid rgba(7,29,56,.18);
+  background: #fff;
+  color: rgba(7,29,56,.38);
+  font: 800 10px/1 Inter, system-ui, sans-serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"] .wct-save:disabled {
+  opacity: .55;
+}
+
+
+/* WCT RANKING CONTROLS FIT */
+
+body[data-tab="taller"] .wct-controls:has(#rankingDimension) {
+  grid-template-columns:
+    minmax(112px, 140px)
+    minmax(130px, 170px)
+    minmax(112px, 140px)
+    minmax(150px, 190px)
+    minmax(170px, 220px)
+    minmax(130px, 150px) !important;
+}
+
+body[data-tab="taller"] .wct-controls:has(#rankingDimension) .wct-control-summary {
+  display: none !important;
+}
+
+body[data-tab="taller"] .wct-ranking-years {
+  min-width: 170px !important;
+}
+
+body[data-tab="taller"] .wct-ranking-years input {
+  min-width: 0 !important;
+}
+
+body[data-tab="taller"] .wct-ranking-filter {
+  min-width: 160px !important;
+}
+
+body[data-tab="taller"] .wct-controls:has(#rankingDimension) .wct-area-filter label {
+  height: 18px !important;
+  padding: 0 5px !important;
+  margin: 0 2px 3px 0 !important;
+  font-size: 9px !important;
+}
+
+body[data-tab="taller"] .wct-controls:has(#rankingDimension) .wct-save {
+  align-self: end !important;
+}
+
+
+/* WCT RANKING DUAL YEAR RANGE */
+
+body[data-tab="taller"] .wct-ranking-period {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 6px !important;
+  min-width: 210px !important;
+}
+
+body[data-tab="taller"] .wct-period-readout {
+  display: flex;
+  justify-content: space-between;
+  color: #071d38;
+}
+
+body[data-tab="taller"] .wct-period-readout strong {
+  font: 700 12px/1 Inter, system-ui, sans-serif;
+}
+
+body[data-tab="taller"] .wct-dual-range {
+  position: relative;
+  height: 26px;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"] {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 26px;
+  margin: 0;
+  background: transparent;
+  pointer-events: none;
+  accent-color: #071d38;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"]::-webkit-slider-thumb {
+  pointer-events: auto;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"]::-moz-range-thumb {
+  pointer-events: auto;
+}
+
+body[data-tab="taller"] .wct-dual-range::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 12px;
+  height: 2px;
+  background: rgba(7,29,56,.24);
+}
+
+
+/* WCT RANKING PERIOD COMPACT */
+
+body[data-tab="taller"] .wct-controls:has(#rankingDimension) {
+  grid-template-columns:
+    minmax(108px, 132px)
+    minmax(126px, 154px)
+    minmax(104px, 126px)
+    minmax(170px, 210px)
+    minmax(150px, 185px)
+    minmax(108px, 132px) !important;
+  column-gap: 7px !important;
+  padding-right: 20px !important;
+}
+
+body[data-tab="taller"] .wct-ranking-period {
+  min-width: 0 !important;
+  max-width: 210px !important;
+}
+
+body[data-tab="taller"] .wct-period-readout strong {
+  font-size: 11px !important;
+}
+
+body[data-tab="taller"] .wct-dual-range {
+  height: 24px !important;
+  padding: 0 8px !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+body[data-tab="taller"] .wct-dual-range::before {
+  left: 8px !important;
+  right: 8px !important;
+  top: 11px !important;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"] {
+  left: 8px !important;
+  right: 8px !important;
+  width: calc(100% - 16px) !important;
+  height: 24px !important;
+}
+
+body[data-tab="taller"] .wct-ranking-filter {
+  min-width: 0 !important;
+  max-width: 185px !important;
+}
+
+body[data-tab="taller"] .wct-controls:has(#rankingDimension) .wct-area-filter label {
+  height: 18px !important;
+  padding: 0 4px !important;
+  font-size: 8.5px !important;
+}
+
+
+/* WCT RANKING PERIOD COMPACT */
+
+body[data-tab="taller"] .wct-controls:has(#rankingDimension) {
+  grid-template-columns:
+    minmax(108px, 132px)
+    minmax(126px, 154px)
+    minmax(104px, 126px)
+    minmax(170px, 210px)
+    minmax(150px, 185px)
+    minmax(108px, 132px) !important;
+  column-gap: 7px !important;
+  padding-right: 20px !important;
+}
+
+body[data-tab="taller"] .wct-ranking-period {
+  min-width: 0 !important;
+  max-width: 210px !important;
+}
+
+body[data-tab="taller"] .wct-period-readout strong {
+  font-size: 11px !important;
+}
+
+body[data-tab="taller"] .wct-dual-range {
+  height: 24px !important;
+  padding: 0 8px !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+body[data-tab="taller"] .wct-dual-range::before {
+  left: 8px !important;
+  right: 8px !important;
+  top: 11px !important;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"] {
+  left: 8px !important;
+  right: 8px !important;
+  width: calc(100% - 16px) !important;
+  height: 24px !important;
+}
+
+body[data-tab="taller"] .wct-ranking-filter {
+  min-width: 0 !important;
+  max-width: 185px !important;
+}
+
+body[data-tab="taller"] .wct-controls:has(#rankingDimension) .wct-area-filter label {
+  height: 18px !important;
+  padding: 0 4px !important;
+  font-size: 8.5px !important;
+}
+
+
+/* WCT DUAL RANGE TRACK CLEANUP */
+
+body[data-tab="taller"] .wct-dual-range {
+  position: relative !important;
+  height: 24px !important;
+  padding: 0 7px !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+}
+
+body[data-tab="taller"] .wct-dual-range::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 7px !important;
+  right: 7px !important;
+  top: 11px !important;
+  height: 2px !important;
+  background: rgba(7,29,56,.28) !important;
+  border-radius: 2px !important;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"] {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  position: absolute !important;
+  left: 7px !important;
+  right: 7px !important;
+  top: 0 !important;
+  width: calc(100% - 14px) !important;
+  height: 24px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  pointer-events: none !important;
+  accent-color: auto !important;
+}
+
+/* Chrome / Edge / Brave */
+body[data-tab="taller"] .wct-dual-range input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none !important;
+  height: 2px !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin-top: -6px !important;
+  border-radius: 999px !important;
+  border: 0 !important;
+  background: #071d38 !important;
+  box-shadow: none !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+/* Firefox */
+body[data-tab="taller"] .wct-dual-range input[type="range"]::-moz-range-track {
+  height: 2px !important;
+  background: transparent !important;
+  border: 0 !important;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"]::-moz-range-progress {
+  background: transparent !important;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"]::-moz-range-thumb {
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 999px !important;
+  border: 0 !important;
+  background: #071d38 !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+
+/* WCT DUAL RANGE MATCH LIMIT SLIDER */
+
+body[data-tab="taller"] .wct-dual-range {
+  height: 20px !important;
+  padding: 0 7px !important;
+}
+
+body[data-tab="taller"] .wct-dual-range::before {
+  left: 7px !important;
+  right: 7px !important;
+  top: 9px !important;
+  height: 2px !important;
+  background: rgba(7,29,56,.26) !important;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"] {
+  top: 0 !important;
+  height: 20px !important;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"]::-webkit-slider-thumb {
+  width: 12px !important;
+  height: 12px !important;
+  margin-top: -5px !important;
+  background: #071d38 !important;
+}
+
+body[data-tab="taller"] .wct-dual-range input[type="range"]::-moz-range-thumb {
+  width: 12px !important;
+  height: 12px !important;
+  background: #071d38 !important;
+}
+
+body[data-tab="taller"] .wct-period-readout {
+  margin-bottom: -2px !important;
+}
+
+body[data-tab="taller"] .wct-period-readout strong {
+  font-size: 10px !important;
+  font-weight: 800 !important;
+}
+
+
+/* WCT RANKING PERIOD AS SIMPLE SLIDERS */
+
+body[data-tab="taller"] .wct-ranking-period {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 3px !important;
+  min-width: 0 !important;
+  max-width: 190px !important;
+}
+
+body[data-tab="taller"] .wct-period-slider {
+  display: grid !important;
+  grid-template-columns: 42px minmax(0, 1fr) !important;
+  align-items: center !important;
+  gap: 6px !important;
+  height: 18px !important;
+  margin: 0 !important;
+}
+
+body[data-tab="taller"] .wct-period-slider b {
+  color: #071d38 !important;
+  font: 800 10px/1 Inter, system-ui, sans-serif !important;
+}
+
+body[data-tab="taller"] .wct-period-slider input[type="range"] {
+  width: 100% !important;
+  height: 18px !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  accent-color: #071d38 !important;
+}
+
+/* Neutraliza restos del control doble anterior si quedan en cascada */
+body[data-tab="taller"] .wct-ranking-period .wct-dual-range {
+  display: none !important;
+}
+
+
+/* WCT RANKING PERIOD ONE LINE TWO NODES */
+
+body[data-tab="taller"] .wct-ranking-period {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 4px !important;
+  max-width: 190px !important;
+}
+
+body[data-tab="taller"] .wct-period-readout {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin: 0 !important;
+  height: 11px !important;
+}
+
+body[data-tab="taller"] .wct-period-readout strong {
+  color: #071d38 !important;
+  font: 800 10px/1 Inter, system-ui, sans-serif !important;
+}
+
+body[data-tab="taller"] .wct-period-one-line {
+  position: relative !important;
+  height: 20px !important;
+}
+
+body[data-tab="taller"] .wct-period-one-line input[type="range"] {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 20px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  accent-color: #071d38 !important;
+  pointer-events: none !important;
+}
+
+body[data-tab="taller"] .wct-period-one-line input[type="range"]::-webkit-slider-thumb {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+body[data-tab="taller"] .wct-period-one-line input[type="range"]::-moz-range-thumb {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+/* Sólo el slider mínimo pinta el track; el máximo aporta el segundo nodo */
+body[data-tab="taller"] #rankingYearMaxRange {
+  accent-color: transparent !important;
+}
+
+body[data-tab="taller"] #rankingYearMaxRange::-webkit-slider-runnable-track {
+  background: transparent !important;
+}
+
+body[data-tab="taller"] #rankingYearMaxRange::-moz-range-track {
+  background: transparent !important;
+}
+
+
+/* WCT PERIOD CUSTOM TRACK FINAL */
+
+body[data-tab="taller"] .wct-period-one-line {
+  position: relative !important;
+  height: 18px !important;
+  margin-top: 1px !important;
+}
+
+body[data-tab="taller"] .wct-period-one-line::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 6px !important;
+  right: 6px !important;
+  top: 8px !important;
+  height: 2px !important;
+  background: rgba(7,29,56,.32) !important;
+  border-radius: 99px !important;
+  z-index: 0 !important;
+}
+
+/* Ambos inputs sólo aportan thumbs. Ninguno pinta track. */
+body[data-tab="taller"] .wct-period-one-line input[type="range"] {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  position: absolute !important;
+  left: 6px !important;
+  right: 6px !important;
+  top: 0 !important;
+  width: calc(100% - 12px) !important;
+  height: 18px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  pointer-events: none !important;
+  z-index: 1 !important;
+  accent-color: auto !important;
+}
+
+body[data-tab="taller"] .wct-period-one-line input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none !important;
+  height: 2px !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+body[data-tab="taller"] .wct-period-one-line input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  width: 12px !important;
+  height: 12px !important;
+  margin-top: -5px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: #071d38 !important;
+  box-shadow: none !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+body[data-tab="taller"] .wct-period-one-line input[type="range"]::-moz-range-track {
+  height: 2px !important;
+  background: transparent !important;
+  border: 0 !important;
+}
+
+body[data-tab="taller"] .wct-period-one-line input[type="range"]::-moz-range-progress {
+  background: transparent !important;
+}
+
+body[data-tab="taller"] .wct-period-one-line input[type="range"]::-moz-range-thumb {
+  width: 12px !important;
+  height: 12px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: #071d38 !important;
+  box-shadow: none !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+
+/* WCT PERIOD BUTTON SLIDER EXACT */
+
+body[data-tab="taller"] .wct-period-one-line,
+body[data-tab="taller"] .wct-dual-range {
+  display: none !important;
+}
+
+body[data-tab="taller"] .wct-period-track {
+  position: relative !important;
+  height: 18px !important;
+  margin-top: 1px !important;
+  cursor: pointer !important;
+}
+
+body[data-tab="taller"] .wct-period-track::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 8px !important;
+  height: 2px !important;
+  background: rgba(7,29,56,.30) !important;
+  border-radius: 99px !important;
+}
+
+body[data-tab="taller"] .wct-period-handle {
+  position: absolute !important;
+  top: 3px !important;
+  width: 12px !important;
+  height: 12px !important;
+  padding: 0 !important;
+  margin: 0 0 0 -6px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: #071d38 !important;
+  cursor: grab !important;
+  z-index: 2 !important;
+}
+
+body[data-tab="taller"] .wct-period-handle:active {
+  cursor: grabbing !important;
+}
+
+
+/* WCT HEATMAP FRONTEND START */
+
+body[data-tab="taller"] .wct-heatmap-stage {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+body[data-tab="taller"] .wct-heatmap-chart {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  background:
+    radial-gradient(circle at 1px 1px, rgba(7, 29, 56, .12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+body[data-tab="taller"] .wct-loading,
+body[data-tab="taller"] .wct-empty-state {
+  height: 100%;
+  min-height: 360px;
+  display: grid;
+  place-items: center;
+  color: rgba(7, 29, 56, .52);
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+body[data-tab="taller"] .wct-empty-state {
+  align-content: center;
+  gap: 6px;
+  text-align: center;
+}
+
+body[data-tab="taller"] .wct-empty-state strong {
+  color: rgba(7, 29, 56, .72);
+  font-size: 13px;
+}
+
+body[data-tab="taller"] .wct-empty-state span {
+  color: rgba(7, 29, 56, .48);
+  font-size: 11px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+body[data-tab="taller"] .wct-heatmap-limit input[type="range"] {
+  width: min(170px, 100%);
+  accent-color: #071d38;
+}
+
+body[data-tab="taller"] .wct-heatmap-period {
+  min-width: 160px;
+}
+
+body[data-tab="taller"] .wct-heatmap-period > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+body[data-tab="taller"] .wct-heatmap-period input {
+  width: 100%;
+  height: 32px;
+  border: 1px solid rgba(7, 29, 56, .16);
+  background: rgba(255, 255, 255, .68);
+  color: #071d38;
+  font: 700 12px/1 Inter, Arial, sans-serif;
+  padding: 0 8px;
+}
+
+/* WCT HEATMAP FRONTEND END */
+
+/* WCT HEATMAP GEOMETRY FIX */
+
+body[data-tab="taller"] .wct-heatmap-stage {
+  padding: 24px 28px 0 28px !important;
+  box-sizing: border-box !important;
+}
+
+body[data-tab="taller"] .wct-heatmap-chart {
+  height: calc(100% - 24px) !important;
+  min-height: 420px !important;
+  overflow: hidden !important;
+}
+
+body[data-tab="taller"] .wct-stage:has(.wct-heatmap-stage) {
+  padding-top: 0 !important;
+}
+
+
+/* WCT SERIES FRONTEND START */
+
+body[data-tab="taller"] .wct-series-stage {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+body[data-tab="taller"] .wct-series-chart {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  background:
+    radial-gradient(circle at 1px 1px, rgba(7, 29, 56, .12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+body[data-tab="taller"] .wct-series-period {
+  min-width: 160px;
+}
+
+body[data-tab="taller"] .wct-series-period > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+body[data-tab="taller"] .wct-series-period input {
+  width: 100%;
+  height: 32px;
+  border: 1px solid rgba(7, 29, 56, .16);
+  background: rgba(255, 255, 255, .68);
+  color: #071d38;
+  font: 700 12px/1 Inter, Arial, sans-serif;
+  padding: 0 8px;
+}
+
+body[data-tab="taller"] .wct-series-limit input[type="range"] {
+  width: min(160px, 100%);
+  accent-color: #071d38;
+}
+
+/* WCT SERIES FRONTEND END */
+
