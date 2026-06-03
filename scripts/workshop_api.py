@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from threading import RLock
 from fastapi import APIRouter, HTTPException
 
 from workshop_schema import AnalysisRequest, AnalysisResponse, ExactSearchRequest
@@ -7,6 +8,8 @@ from workshop_service import get_workshop_service
 
 
 router = APIRouter(prefix="/api/workshop", tags=["workshop"])
+
+WORKSHOP_TOOL_LOCK = RLock()
 
 
 @router.get("/health")
@@ -48,7 +51,8 @@ def analyze_workshop(req: AnalysisRequest):
 @router.get("/tools/bubbles")
 def workshop_tool_bubbles(dimension: str = "advisor", limit: int = 50):
     try:
-        return get_workshop_service().tool_bubbles(dimension=dimension, limit=limit)
+        with WORKSHOP_TOOL_LOCK:
+            return get_workshop_service().tool_bubbles(dimension=dimension, limit=limit)
     except Exception as exc:
         raise HTTPException(status_code=400, detail=str(exc))
 
@@ -65,14 +69,15 @@ def workshop_tool_ranking(
     try:
         area_values = [v.strip() for v in areas.split(",")] if areas else []
         level_values = [v.strip() for v in levels.split(",")] if levels else []
-        return get_workshop_service().tool_ranking(
-            dimension=dimension,
-            limit=limit,
-            year_min=year_min,
-            year_max=year_max,
-            areas=area_values,
-            levels=level_values,
-        )
+        with WORKSHOP_TOOL_LOCK:
+            return get_workshop_service().tool_ranking(
+                dimension=dimension,
+                limit=limit,
+                year_min=year_min,
+                year_max=year_max,
+                areas=area_values,
+                levels=level_values,
+            )
     except Exception as exc:
         raise HTTPException(status_code=400, detail=str(exc))
 
@@ -90,15 +95,16 @@ def workshop_tool_heatmap(
     try:
         area_values = [v.strip() for v in areas.split(",")] if areas else []
         level_values = [v.strip() for v in levels.split(",")] if levels else []
-        return get_workshop_service().tool_heatmap(
-            dimension=dimension,
-            limit=limit,
-            year_min=year_min,
-            year_max=year_max,
-            areas=area_values,
-            levels=level_values,
-            scale=scale,
-        )
+        with WORKSHOP_TOOL_LOCK:
+            return get_workshop_service().tool_heatmap(
+                dimension=dimension,
+                limit=limit,
+                year_min=year_min,
+                year_max=year_max,
+                areas=area_values,
+                levels=level_values,
+                scale=scale,
+            )
     except Exception as exc:
         raise HTTPException(status_code=400, detail=str(exc))
 
@@ -116,13 +122,14 @@ def workshop_tool_heatmap_matrix(
     scale: str = "log",
 ):
     try:
-        return get_workshop_service().tool_heatmap_matrix(
-            matrix=matrix,
-            limit=limit,
-            year_min=year_min,
-            year_max=year_max,
-            scale=scale,
-        )
+        with WORKSHOP_TOOL_LOCK:
+            return get_workshop_service().tool_heatmap_matrix(
+                matrix=matrix,
+                limit=limit,
+                year_min=year_min,
+                year_max=year_max,
+                scale=scale,
+            )
     except Exception as exc:
         raise HTTPException(status_code=400, detail=str(exc))
 

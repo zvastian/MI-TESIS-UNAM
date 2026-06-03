@@ -5263,7 +5263,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700;800&family=Inter+Tight:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./workshop.css?v=1780446806">
+  <link rel="stylesheet" href="./workshop.css?v=1780501932">
 </head>
 
 <body data-mode="universe" data-tab="inicio" data-explore-view="map">
@@ -8156,6 +8156,48 @@
 <script src="./app.js?v=1780339718"></script>
   <script src="./vendor/echarts.min.js?v=1780349885" defer></script>
 
-<script src="./workshop.js?v=1780446806" defer></script>
-</body>
+<script src="./workshop.js?v=1780501861" defer></script>
+cd /workspaces/MI-TESIS-UNAM
+
+python3 - <<'PY'
+from pathlib import Path
+import re, time
+
+stamp = int(time.time())
+css_path = Path("static/workshop.css")
+html_path = Path("static/index.html")
+
+css = css_path.read_text(encoding="utf-8", errors="ignore")
+html = html_path.read_text(encoding="utf-8", errors="ignore")
+
+backup = css_path.with_suffix(f".before_ranking_canvas_visbug_{stamp}.css")
+backup.write_text(css, encoding="utf-8")
+
+block = """
+
+/* WCT VISBUG CANVAS OFFSETS START */
+body[data-tab="taller"] #rankingChart canvas {
+  left: -93px !important;
+  top: 10px !important;
+}
+/* WCT VISBUG CANVAS OFFSETS END */
+"""
+
+css = re.sub(
+    r'\n/\* WCT VISBUG CANVAS OFFSETS START \*/.*?/\* WCT VISBUG CANVAS OFFSETS END \*/\n?',
+    "\n",
+    css,
+    flags=re.S
+)
+
+css += block
+
+html = re.sub(r'workshop\.css\?v=\d+', f'workshop.css?v={stamp}', html)
+
+css_path.write_text(css, encoding="utf-8")
+html_path.write_text(html, encoding="utf-8")
+
+print("OK ranking canvas visbug:", stamp)
+print("Backup:", backup)
+PY</body>
 </html>

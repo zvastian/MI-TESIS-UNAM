@@ -7386,3 +7386,96 @@ body[data-tab="taller"] .wct-series-limit input[type="range"] {
 
 /* WCT SERIES FRONTEND END */
 
+
+/* WCT HEATMAP SERIES GEOMETRY FIX START */
+
+body[data-tab="taller"] .wct-heatmap-stage,
+body[data-tab="taller"] .wct-series-stage {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 46px 28px 0 28px !important;
+  min-height: 0 !important;
+}
+
+body[data-tab="taller"] .wct-heatmap-chart,
+body[data-tab="taller"] .wct-series-chart {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: calc(100% - 46px) !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* WCT HEATMAP SERIES GEOMETRY FIX END */
+
+
+/* WCT SERIES EXTRA LOWER START */
+
+body[data-tab="taller"] .wct-series-stage {
+  padding-top: 68px !important;
+}
+
+body[data-tab="taller"] .wct-series-chart {
+  height: calc(100% - 68px) !important;
+}
+
+/* WCT SERIES EXTRA LOWER END */
+
+
+/* WCT SHARED CHART FRAME START */
+
+body[data-tab="taller"] .wct-heatmap-stage,
+body[data-tab="taller"] .wct-series-stage {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 46px 26px 0 18px !important;
+  min-height: 0 !important;
+}
+
+body[data-tab="taller"] .wct-heatmap-chart,
+body[data-tab="taller"] .wct-series-chart {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* WCT SHARED CHART FRAME END */
+
+
+
+/* WCT VISBUG CANVAS OFFSETS START */
+body[data-tab="taller"] #rankingChart canvas {
+  left: -93px !important;
+  top: 10px !important;
+}
+/* WCT VISBUG CANVAS OFFSETS END */
+
+
+
+
+/* WCT HEATMAP CANVAS POSITION START */
+body[data-tab="taller"] #heatmapChart canvas {
+  left: -95px !important;
+  top: 6px !important;
+}
+/* WCT HEATMAP CANVAS POSITION END */
+
+
+/* WCT HEATMAP DOTS MATCH RANKING START */
+body[data-tab="taller"] #heatmapChart {
+  background: transparent !important;
+  background-image: none !important;
+}
+/* WCT HEATMAP DOTS MATCH RANKING END */
+
+
+/* WCT SERIES DOTS MATCH RANKING START */
+body[data-tab="taller"] #seriesChart {
+  background: transparent !important;
+  background-image: none !important;
+}
+/* WCT SERIES DOTS MATCH RANKING END */

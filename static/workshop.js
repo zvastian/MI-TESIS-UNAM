@@ -19,14 +19,7 @@
       kicker: "Matriz temporal",
       title: "Intensidad por categoría y año",
       text: "Módulo preparado para detectar concentraciones por año y categoría."
-    },
-    comparison: {
-      label: "Comparación",
-      kicker: "Contraste",
-      title: "Categorías frente a frente",
-      text: "Módulo preparado para comparar dimensiones del acervo."
-    },
-    series: {
+    },    series: {
       label: "Series",
       kicker: "Evolución",
       title: "Tendencias anuales del acervo",
@@ -1366,6 +1359,37 @@
 
 
 
+
+/* WCT SHARED CHART GEOMETRY START */
+function getWorkshopChartGrid(type) {
+  const base = {
+    top: 56,
+    right: 38,
+    bottom: 76,
+    left: 76,
+    containLabel: true,
+  };
+
+  if (type === "heatmap") {
+    return {
+      ...base,
+      left: 142,
+      bottom: 64,
+    };
+  }
+
+  if (type === "series") {
+    return {
+      ...base,
+      left: 76,
+      bottom: 84,
+    };
+  }
+
+  return base;
+}
+/* WCT SHARED CHART GEOMETRY END */
+
 /* WCT HEATMAP UNIFIED START */
 (() => {
   const HEATMAP_MODES = [
@@ -1672,13 +1696,7 @@
 
     heatmapChart.setOption({
       animation: false,
-      grid: {
-        left: 120,
-        right: 32,
-        top: 46,
-        bottom: 54,
-        containLabel: true,
-      },
+      grid: getWorkshopChartGrid("heatmap"),
       tooltip: {
         borderWidth: 1,
         borderColor: "rgba(7,29,56,.16)",
@@ -1787,13 +1805,7 @@
 
     heatmapChart.setOption({
       animation: false,
-      grid: {
-        left: 150,
-        right: 34,
-        top: 42,
-        bottom: 66,
-        containLabel: true,
-      },
+      grid: getWorkshopChartGrid("heatmap"),
       tooltip: {
         borderWidth: 1,
         borderColor: "rgba(7,29,56,.16)",
@@ -2151,13 +2163,7 @@
     seriesChart.setOption({
       animation: false,
       color: SERIES_COLORS,
-      grid: {
-        left: 64,
-        right: 34,
-        top: 36,
-        bottom: 76,
-        containLabel: true,
-      },
+      grid: getWorkshopChartGrid("series"),
       tooltip: {
         trigger: "axis",
         borderWidth: 1,
