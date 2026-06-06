@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C718",
+    "clusterId": 718,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0015037",
+      "title": "introduccion al desarrollo y validacion de un metodo analitico por polarografia diferencial de pulsos, para la cuantificacion de metronidazol en materia prima y producto terminado",
+      "year": 2001,
+      "author": "Martin Daniel Guadarrama Atrizco",
+      "advisor": "José Alejandro Baeza Reyes",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-58953?func=service&doc_library=TES01&doc_number=000299483&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.913777,
+      "titleKey": "introduccion al desarrollo y validacion de un metodo analitico por polarografia diferencial de pulsos para la cuantificacion de metronidazol en materia prima y producto terminado",
+      "titleFamilyKey": "introduc desarrol valida metodo analitic polarogr diferenc pulsos"
+    },
+    {
+      "thesisId": "TH_0212398",
+      "title": "desarrollo y validacion de un metodo analitico por polarografia diferencial de pulsos para la cuantificacion de acido nalidixico en materia prima y producto terminado",
+      "year": 1992,
+      "author": "José Gerardo Medina Alonso",
+      "advisor": "José Alejandro Baeza Reyes",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/TAKQ7GCFSBVPTGBGEDN5JBT5SK1MYHJJ8Y977BA49A22GDIK2C-63662?func=service&doc_library=TES01&doc_number=000177970&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.908292,
+      "titleKey": "desarrollo y validacion de un metodo analitico por polarografia diferencial de pulsos para la cuantificacion de acido nalidixico en materia prima y producto terminado",
+      "titleFamilyKey": "desarrol valida metodo analitic polarogr diferenc pulsos cuantifica"
+    },
+    {
+      "thesisId": "TH_0423776",
+      "title": "validación de una metodología para cuantificación de as(iii) mediante polarografía diferencial de pulsos (pdp)",
+      "year": 2014,
+      "author": "María Fernanda Mehle Jordan",
+      "advisor": "Margarita Eugenia Gutiérrez Ruiz",
+      "program": "quimica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SJE94G6227D24YUGVES7Q4GLDBG4F8FFQAC8FHR7Q2FFHIDP4L-19724?func=service&doc_library=TES01&doc_number=000719595&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.90036,
+      "titleKey": "validacion de una metodologia para cuantificacion de as iii mediante polarografia diferencial de pulsos pdp",
+      "titleFamilyKey": "valida metodolo cuantifica iii mediante polarogr diferenc pulsos"
+    },
+    {
+      "thesisId": "TH_0202207",
+      "title": "polarografia diferencial de pulsos, teoria, tecnica y aplicaciones : cuantificacion de herbicidas del tipo del acido 2,4 diclorofenoxiacetico",
+      "year": 1991,
+      "author": "Monica Alejandra Guzman Rojas",
+      "advisor": "Alberto Rojas Hernandez",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/VTV2KRTAU4R1XM34YSA37TU4PD7YJ1E7JT2328XC9E6PASQNMU-42300?func=service&doc_library=TES01&doc_number=000161317&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.854815,
+      "titleKey": "polarografia diferencial de pulsos teoria tecnica y aplicaciones cuantificacion de herbicidas del tipo del acido 2 4 diclorofenoxiacetico",
+      "titleFamilyKey": "polarogr diferenc pulsos teoria tecnica aplicaci cuantifica herbicid"
+    },
+    {
+      "thesisId": "TH_0475917",
+      "title": "validación de polarografía diferencial de pulsos para proponerse como método alterno para la determinación de cromo hexavalente en la nom-147",
+      "year": 2018,
+      "author": "Laura Esperanza Cristóbal Legorreta",
+      "advisor": "Agueda Elena Ceniceros Gómez",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-46473?func=service&doc_library=TES01&doc_number=000783028&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.852597,
+      "titleKey": "validacion de polarografia diferencial de pulsos para proponerse como metodo alterno para la determinacion de cromo hexavalente en la nom 147",
+      "titleFamilyKey": "valida polarogr diferenc pulsos proponer como metodo alterno"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C796",
+    "clusterId": 796,
+    "macroId": "Area1_M02",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0587587",
+      "title": "Diseno de un sistema de tratamiento de aguas residuales para una planta de galvanoplastia",
+      "year": 1989,
+      "author": "Victor Rincon Arce",
+      "advisor": "Margarita Alonso Espinosa",
+      "program": "Ingeniería Química",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0096642/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.937798,
+      "titleKey": "diseno de un sistema de tratamiento de aguas residuales para una planta de galvanoplastia",
+      "titleFamilyKey": "diseno sistema trata aguas residual planta galvanop"
+    },
+    {
+      "thesisId": "TH_0026636",
+      "title": "diseño e implementacion de un sistema de tratamiento de aguas residuales para una industria manufacturera de joyeria en su area de galvanoplastia",
+      "year": 2002,
+      "author": "Alejandro Esquivel Esquivel",
+      "advisor": "Daniel Aldama Ávalos",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SJXERTQRCDIAKJCYVLXUVNRL4LG65VIDREUM7K5UUBKGEMH8FF-38397?func=service&doc_library=TES01&doc_number=000309194&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.935714,
+      "titleKey": "diseno e implementacion de un sistema de tratamiento de aguas residuales para una industria manufacturera de joyeria en su area de galvanoplastia",
+      "titleFamilyKey": "diseno implementa sistema trata aguas residual industri manufact"
+    },
+    {
+      "thesisId": "TH_0462927",
+      "title": "análisis de las técnicas de tratamiento de aguas residuales aplicables a la industria de la galvanoplastia que permitan cumplir : el marco legal aplicable y coadyuven a reducir el impacto ambiental",
+      "year": 2017,
+      "author": "Rosaeliud Galeno Ruíz",
+      "advisor": "Jonathan Franco López",
+      "program": "quimica industrial",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-49250?func=service&doc_library=TES01&doc_number=000760154&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.885765,
+      "titleKey": "analisis de las tecnicas de tratamiento de aguas residuales aplicables a la industria de la galvanoplastia que permitan cumplir el marco legal aplicable y coadyuven a reducir el impacto ambiental",
+      "titleFamilyKey": "analisis tecnicas trata aguas residual aplicabl industri galvanop"
+    },
+    {
+      "thesisId": "TH_0092137",
+      "title": "estudio de la construccion de una planta para tratamientos de los productos de desecho de una planta de galvanostegia",
+      "year": 1965,
+      "author": "Gertrudis Carreon Zamarripa de Astorga",
+      "advisor": "Asesor no registrado",
+      "program": "ingenieria quimica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G1ALS6FDX6EVU7NHV1LG9JS2XLY23PCP3HPD6C46BRK45B8R4T-01943?func=service&doc_library=TES01&doc_number=000165281&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.853491,
+      "titleKey": "estudio de la construccion de una planta para tratamientos de los productos de desecho de una planta de galvanostegia",
+      "titleFamilyKey": "estudio construc planta tratamie producto desecho planta galvanos"
+    },
+    {
+      "thesisId": "TH_0341767",
+      "title": "diseño de una planta de tratamiento de aguas residuales para el fraccionamiento punta diamante",
+      "year": 2009,
+      "author": "Carlos Erasto Limias Bache",
+      "advisor": "Eduardo Fabián Nieto García",
+      "program": "ingenieria civil",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "universidad villa rica",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-67037?func=service&doc_library=TES01&doc_number=000648709&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.833145,
+      "titleKey": "diseno de una planta de tratamiento de aguas residuales para el fraccionamiento punta diamante",
+      "titleFamilyKey": "diseno planta trata aguas residual fracciona punta diamante"
+    }
+  ]
+}

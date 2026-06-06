@@ -1,0 +1,53 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C326",
+    "clusterId": 326,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 18,
+    "shown": 2,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0133664",
+      "title": "generalidades de endodoncia",
+      "year": 1977,
+      "author": "Martha Gudelia Castilla López",
+      "advisor": "Mario Martínez Osorio",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7MP7L8T99DA3UQIEU6SAKX5AP6PUYFXJ4XEV75TL3VBQ27AHPB-17828?func=service&doc_library=TES01&doc_number=000152468&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "generalidades de endodoncia",
+      "titleFamilyKey": "generalid endodonc"
+    },
+    {
+      "thesisId": "TH_0591307",
+      "title": "Generalidades de endodoncia",
+      "year": 1989,
+      "author": "Ma. de Lourdes Fernandez Flores",
+      "advisor": "Alfonso Otero Cano",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0093679/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 1.0,
+      "titleKey": "generalidades de endodoncia",
+      "titleFamilyKey": "generalid endodonc"
+    }
+  ]
+}

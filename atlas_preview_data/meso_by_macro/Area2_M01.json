@@ -1,0 +1,107 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M01",
+    "label": "Biomedicina, Neurociencias y Ciencias Biológicas",
+    "shortLabel": "Biomedicina, Neurociencias y Cien...",
+    "area": "Area 2",
+    "size": 6461,
+    "description": "Investigaciones de biomedicina, neurobiología, ciencias bioquímicas, biología y ciencias de la salud."
+  },
+  "nodes": [
+    {
+      "id": "C30",
+      "clusterId": 30,
+      "macroId": "Area2_M01",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Cerebro Raton - Biología",
+      "size": 4748,
+      "radius": 30.0,
+      "position": {
+        "x": -0.47968,
+        "y": -0.4011
+      },
+      "dominantAreaShare": 0.7376,
+      "programsTop": "Biologia (876) | Quimica Farmaceutico Biologica (597) | Ciencias Biomedicas (435) | Psicologia (397) | Ciencias Bioquimicas (284) | Ciencias Biologicas (202) | Investigacion Biomedica Basica (180) | Neurobiologia (156) | Quimica de Alimentos (101) | Medicina Veterinaria y Zootecnia (96)",
+      "levelsTop": "Licenciatura (2469) | Maestria (957) | Doctorado (756) | Especialidad (560)",
+      "campusesTop": "Facultad de Medicina Unam (870) | Facultad de Ciencias Unam (738) | Facultad de Quimica Unam (723) | No Especificado Unam (399) | Facultad de Psicologia Unam (331) | Facultad de Estudios Superiores Iztacala Unam (295)",
+      "sampleTitles": "susceptibilidad del ratón cd1 et | Sistema experto tutorial de redes neuronales artificiales | papel de la glutamato sintasa en saccharomyces cerevisiae | estudio clinico retrospectivo de poliomielitis en el periodo comprendido 1977-1986, en el hospital infantil de mexico | memoria de actividades tercera etapa de la reforma educativa | caracterización del estrés oxidativo en prematuros con muy bajo peso al nacimiento según su velocidad de crecimiento en la fase hospitalaria | desarrollo de una formulacion para tabletas de melatonina por compresion directa | memoria de actividades : tercera fase de la reforma educativa",
+      "color": "#2E9D71",
+      "originalLabel": "Biologia",
+      "shortLabel": "Cerebro Raton - Biología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C110",
+      "clusterId": 110,
+      "macroId": "Area2_M01",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Espectro Autista - Psicología",
+      "size": 1050,
+      "radius": 13.9,
+      "position": {
+        "x": 0.67814,
+        "y": -0.38685
+      },
+      "dominantAreaShare": 0.681,
+      "programsTop": "Psicologia (219) | Ciencias Bioquimicas (82) | Biologia (73) | Cirujano Dentista (71) | Quimica Farmaceutico Biologica (62) | Pedagogia (47) | Ciencias Biomedicas (37) | Psiquiatria Infantil y de la Adolescencia (34) | Enfermeria y Obstetricia (31) | Ciencias Biologicas (25)",
+      "levelsTop": "Licenciatura (591) | Maestria (193) | Especialidad (166) | Doctorado (100)",
+      "campusesTop": "Facultad de Medicina Unam (191) | Facultad de Quimica Unam (105) | Facultad de Psicologia Unam (94) | No Especificado Unam (81) | Facultad de Estudios Superiores Iztacala Unam (80) | Facultad de Ciencias Unam (62)",
+      "sampleTitles": "amiloidosis cutanea primitiva : revision de cinco años | depresión, sobrecarga y ansiedad en cuidadores de pacientes con demencia en \"alzheimer méxico i.a.p.\" | autismo | Purificacion y marcaje de toxinas del alacran Centruroides noxius para el estudio de canales ionicos de membranas excitables | amiloidosis primaria al en la umae hospital de especialidades de centro médico nacional siglo xxi : informe de casos diagnosticados por biopsia en el servicio de anatomía patológica durante el periodo de 2005-2009 | estudio computacional del mecanismo de acción de gamma-secretasa, enzima involucrada en la enfermedad de alzheimer | fiebre mediterranea familiar: revision de la literatura y discusion sobre una hipotesis integradera de su etiopatogenia | enfermedad periodontal y su relacion con el alzheimer y parkinson",
+      "color": "#2E9D71",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Espectro Autista - Psicología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C121",
+      "clusterId": 121,
+      "macroId": "Area2_M01",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Neurología Pediatrica",
+      "size": 663,
+      "radius": 9.0,
+      "position": {
+        "x": -0.69299,
+        "y": -0.57426
+      },
+      "dominantAreaShare": 0.902,
+      "programsTop": "Neurologia Pediatrica (102) | Neurologia (67) | Psicologia (63) | Pediatria (61) | Cirujano Dentista (35) | Pediatria Medica (27) | Medico Cirujano (26) | Psiquiatria (26) | Medicina Interna (21) | Medicina Familiar (20)",
+      "levelsTop": "Especialidad (447) | Licenciatura (156) | Maestria (47) | Doctorado (12)",
+      "campusesTop": "Facultad de Medicina Unam (485) | Facultad de Psicologia Unam (36) | Facultad de Odontologia Unam (34) | Facultad de Estudios Superiores Zaragoza Unam (20) | Facultad de Quimica Unam (13) | No Especificado Unam (12)",
+      "sampleTitles": "la vaguectomia tiroidea en el tratamiento de la epilepsia | ligeras consideraciones sobre la patogenia de la epilepsia | epilepsia y embarazo | la epilepsia y su importancia en odontologia | efectividad de la dieta cetogénica en pacientes pediátricos con epilepsia refractaria, seguimiento a 6 meses | simulacion de la epilepsia | prevalencia y factores de seudorrefractariedad en pacientes con diagnóstico de epilepsia refractaria atendidos en la consulta de primera vez del servicio de neurologia del cmn 20 de noviembre | evaluación psiquiátrica pre y post-quirúrgica a pacientes sometidos a cirugía de epilepsia y determinación de trastornos neuro-psiquiátricos asociados",
+      "color": "#2E9D71",
+      "originalLabel": "Neurologia Pediatrica",
+      "shortLabel": "Neurología Pediatrica",
+      "labelMethod": "unique_original"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C110",
+      "target": "C30",
+      "count": 47,
+      "meanScore": 0.801199,
+      "maxScore": 0.937307,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C121",
+      "target": "C30",
+      "count": 13,
+      "meanScore": 0.826429,
+      "maxScore": 0.866418,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

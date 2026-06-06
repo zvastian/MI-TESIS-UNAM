@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C765",
+    "clusterId": 765,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0298374",
+      "title": "síntesis de nuevos materiales a partir de fullereno c60 con potencial actividad biológica",
+      "year": 2006,
+      "author": "Dayanara Cruz Tapia",
+      "advisor": "José Manuel Saniger Blesa",
+      "program": "ciencias",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-11140?func=service&doc_library=TES01&doc_number=000823450&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.899939,
+      "titleKey": "sintesis de nuevos materiales a partir de fullereno c60 con potencial actividad biologica",
+      "titleFamilyKey": "sintesis nuevos material partir fulleren c60 potencia activ"
+    },
+    {
+      "thesisId": "TH_0388943",
+      "title": "interacciones de compuestos orgánicos con fullereno c60 : estudios por la teoría de funcional de la densidad y la microscopía de barrido por sonda",
+      "year": 2012,
+      "author": "Oscar Felipe Amelines Sarria",
+      "advisor": "Vladimir Basiuk Evdokimenko",
+      "program": "ciencias quimicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DPI1CJIL2CV8EDT85S77S5M8BYH4ARAGJSRQH92IF35AFV94XR-16205?func=service&doc_library=TES01&doc_number=000686829&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.886849,
+      "titleKey": "interacciones de compuestos organicos con fullereno c60 estudios por la teoria de funcional de la densidad y la microscopia de barrido por sonda",
+      "titleFamilyKey": "interacci compuest organico fulleren c60 estudios teoria funciona"
+    },
+    {
+      "thesisId": "TH_0491898",
+      "title": "adición múltiple de octadecilamina sobre fullereno c60",
+      "year": 2020,
+      "author": "Carlos Uriel Mendoza Domínguez",
+      "advisor": "Vladimir Bassiouk Evdokimenko",
+      "program": "ciencias quimicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EL1S2NAJI2NQTF1SUHFYTEDIGD4XTX2AP6UYVIELMINNBQYA69-04587?func=service&doc_library=TES01&doc_number=000800251&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.8784,
+      "titleKey": "adicion multiple de octadecilamina sobre fullereno c60",
+      "titleFamilyKey": "adic multiple octadeci fulleren c60"
+    },
+    {
+      "thesisId": "TH_0604327",
+      "title": "Sintesis y caracterizacion del complejo fullereno (C60)-tetraciclohexan [b,e,h,k] [1,4,7,10] tetraoxaciclododecano",
+      "year": 1995,
+      "author": "Bernardo Villaneda Cortés",
+      "advisor": "Roberto Martínez · +1 más",
+      "program": "Química Farmacéutico Biológica",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2016/0230371/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.874445,
+      "titleKey": "sintesis y caracterizacion del complejo fullereno c60 tetraciclohexan b e h k 1 4 7 10 tetraoxaciclododecano",
+      "titleFamilyKey": "sintesis caracteriza complejo fulleren c60 tetracic tetraoxa"
+    },
+    {
+      "thesisId": "TH_0261824",
+      "title": "estudio comparativo de niquelado quimico, niquelado quimico compuesto con adicion de particulas duras de oxidos de cromo y fullerenos",
+      "year": 1998,
+      "author": "Eduardo Garduño",
+      "advisor": "Luis Flavio Romero Perez",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/113XIUYQSYRNCI7B598YGB2KYKLCDBJS4AJRYNSUVB4AH9PMK9-21701?func=service&doc_library=TES01&doc_number=000260487&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.862827,
+      "titleKey": "estudio comparativo de niquelado quimico niquelado quimico compuesto con adicion de particulas duras de oxidos de cromo y fullerenos",
+      "titleFamilyKey": "estudio comparat niquelad quimico niquelad quimico compuest adic"
+    }
+  ]
+}

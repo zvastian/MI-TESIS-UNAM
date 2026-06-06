@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area4_M05",
+    "label": "Artes, Diseño y Humanidades Aplicadas",
+    "shortLabel": "Artes, Diseño y Humanidades Aplic...",
+    "area": "Area 4",
+    "size": 371,
+    "description": "Conjunto peque?o de artes, diseño, psicología, historia, comunicación y humanidades aplicadas."
+  },
+  "nodes": [
+    {
+      "id": "C130",
+      "clusterId": 130,
+      "macroId": "Area4_M05",
+      "level": "meso",
+      "area": "Area 4",
+      "areaLabel": "Área 4",
+      "label": "Escuela Danza - Arquitectura",
+      "size": 371,
+      "radius": 19.5,
+      "position": {
+        "x": 0.71192,
+        "y": -0.5506
+      },
+      "dominantAreaShare": 0.4367,
+      "programsTop": "Arquitectura (59) | Psicologia (49) | Pedagogia (40) | Historia (21) | Ciencias de la Comunicacion (17) | Sociologia (13) | Historia del Arte (13) | Periodismo (12) | Literatura Dramatica y Teatro (12) | Diseño Grafico (9)",
+      "levelsTop": "Licenciatura (302) | Maestria (45) | Doctorado (18) | Especialidad (6)",
+      "campusesTop": "Facultad de Filosofia y Letras Unam (88) | Facultad de Arquitectura Unam (42) | Facultad de Ciencias Politicas y Sociales Unam (38) | Facultad de Estudios Superiores Acatlan Unam (28) | Facultad de Estudios Superiores Aragon Unam (23) | No Especificado Unam (22)",
+      "sampleTitles": "Academia de danza en el Puerto de Ensenada, B.C. | escuela de danza | centro universitario de danza | escuela de danza en la ciudad de guadalajara | escuela de danza altavista | escuela de danza y coreografia | escuela de danza en toluca | escuela superior de danza unam",
+      "color": "#D7A441",
+      "originalLabel": "Arquitectura",
+      "shortLabel": "Escuela Danza - Arquitectura",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

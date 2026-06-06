@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C746",
+    "clusterId": 746,
+    "macroId": "Area2_M08",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0515884",
+      "title": "curvas de referencia de la longitud de hueso nasal en población mexicana de fetos con edad gestacional de 18 a 22.6 semanas de gestación",
+      "year": 2022,
+      "author": "Sebastián Alejandro Martínez García",
+      "advisor": "Eduardo Ernesto Mejía Islas",
+      "program": "medicina materno fetal",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-41532?func=service&doc_library=TES01&doc_number=000829727&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.943312,
+      "titleKey": "curvas de referencia de la longitud de hueso nasal en poblacion mexicana de fetos con edad gestacional de 18 a 22 6 semanas de gestacion",
+      "titleFamilyKey": "curvas referenc longitud hueso nasal pobla mexicana fetos"
+    },
+    {
+      "thesisId": "TH_0511176",
+      "title": "utilidad del hueso nasal hipoplásico a las 11-14 semanas de gestación para la detección de aneuploidía fetal en una población mexicana",
+      "year": 2022,
+      "author": "Alfredo Javier Cervantes Ricaud",
+      "advisor": "Jorge Gálvez Muñoz · +1 más",
+      "program": "ginecologia y obstetricia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-65414?func=service&doc_library=TES01&doc_number=000829853&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.929258,
+      "titleKey": "utilidad del hueso nasal hipoplasico a las 11 14 semanas de gestacion para la deteccion de aneuploidia fetal en una poblacion mexicana",
+      "titleFamilyKey": "util hueso nasal hipoplas semanas gesta detec aneuploi"
+    },
+    {
+      "thesisId": "TH_0462857",
+      "title": "curvas de normalidad de hueso nasal y distancia prenasal en fetos sanos 18-23.6 semanas en pacientes embarazadas sanas del hospital general de méxico, servicio de ginecología y obstetricia, área de medicina materno-fetal : estudio preliminar",
+      "year": 2017,
+      "author": "Gladys Georgina Frazer Moreira",
+      "advisor": "Fausto Moisés Coronel Cruz",
+      "program": "medicina materno fetal",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-61999?func=service&doc_library=TES01&doc_number=000761990&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.913177,
+      "titleKey": "curvas de normalidad de hueso nasal y distancia prenasal en fetos sanos 18 23 6 semanas en pacientes embarazadas sanas del hospital general de mexico servicio de ginecologia y obstetricia area de medicina materno fetal estudio preliminar",
+      "titleFamilyKey": "curvas normal hueso nasal distanci prenasal fetos sanos"
+    },
+    {
+      "thesisId": "TH_0392474",
+      "title": "valores de referencia de la longitud del hueso nasal en población mexicana durante el primer trimestre de la gestación y su asociación con cromosomopatias",
+      "year": 2012,
+      "author": "Luis Francisco García Hernandez",
+      "advisor": "Mario Guzmán Huerta · +1 más",
+      "program": "medicina materno fetal",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DPI1CJIL2CV8EDT85S77S5M8BYH4ARAGJSRQH92IF35AFV94XR-68961?func=service&doc_library=TES01&doc_number=000681900&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.898855,
+      "titleKey": "valores de referencia de la longitud del hueso nasal en poblacion mexicana durante el primer trimestre de la gestacion y su asociacion con cromosomopatias",
+      "titleFamilyKey": "valores referenc longitud hueso nasal pobla mexicana primer"
+    },
+    {
+      "thesisId": "TH_0305397",
+      "title": "medicion del hueso nasal a fetos de 11 a 14 semanas, en mujeres embarazadas que acudan al servicio de perinatologia del hospital regional licenciado adolfo lopez mateos",
+      "year": 2006,
+      "author": "Baltazar Reyes Figueroa",
+      "advisor": "Alma G Vazquez Gutierrez · +1 más",
+      "program": "radiologia e imagen",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-31189?func=service&doc_library=TES01&doc_number=000612889&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.85629,
+      "titleKey": "medicion del hueso nasal a fetos de 11 a 14 semanas en mujeres embarazadas que acudan al servicio de perinatologia del hospital regional licenciado adolfo lopez mateos",
+      "titleFamilyKey": "medi hueso nasal fetos semanas mujeres embaraza que"
+    }
+  ]
+}

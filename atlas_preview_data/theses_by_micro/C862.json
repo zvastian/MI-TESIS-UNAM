@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C862",
+    "clusterId": 862,
+    "macroId": "Area2_M01",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0141427",
+      "title": "neurologia del trigemino",
+      "year": 1979,
+      "author": "Adriana Alejandre Saucedo",
+      "advisor": "Victor Manuel Diaz Michel",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GSQBMGJRFXATKKJL4EC34FSN1XUJ5UFREVJSFRMF4YMMNCN7AC-28735?func=service&doc_library=TES01&doc_number=000018697&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.995401,
+      "titleKey": "neurologia del trigemino",
+      "titleFamilyKey": "neurolog trigemin"
+    },
+    {
+      "thesisId": "TH_0157289",
+      "title": "neurologia del trigemino",
+      "year": 1982,
+      "author": "Francisco Javier Ramirez Reyna",
+      "advisor": "Víctor Azuara Pavón",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-15822?func=service&doc_library=TES01&doc_number=000043192&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.995401,
+      "titleKey": "neurologia del trigemino",
+      "titleFamilyKey": "neurolog trigemin"
+    },
+    {
+      "thesisId": "TH_0183746",
+      "title": "neurologia esencial del trigemino",
+      "year": 1988,
+      "author": "Diana Patricia Díaz Infante Carbajal",
+      "advisor": "Jorge Guillermo Zarza Cadena",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q6VEJ1KK6P8UTBMDE7CBYC9E8D883HDEQ8PPCFT4U619SFJQ29-37377?func=service&doc_library=TES01&doc_number=000073431&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.979849,
+      "titleKey": "neurologia esencial del trigemino",
+      "titleFamilyKey": "neurolog esencial trigemin"
+    },
+    {
+      "thesisId": "TH_0569794",
+      "title": "Trigemino : Anatomia fisiologia y neurologia",
+      "year": 1985,
+      "author": "Maria Eugenia Ávila García",
+      "advisor": "Jose Manuel Sanchez Arreola",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0046550/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.945309,
+      "titleKey": "trigemino anatomia fisiologia y neurologia",
+      "titleFamilyKey": "trigemin anatomia fisiolog neurolog"
+    }
+  ]
+}

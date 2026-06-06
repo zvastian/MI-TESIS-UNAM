@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C702",
+    "clusterId": 702,
+    "macroId": "Area4_M04",
+    "area": "Area 4",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0324573",
+      "title": "los surrealistas en méxico : reportaje",
+      "year": 2008,
+      "author": "Rosalba Chávez Castillo",
+      "advisor": "Carmen Avilés Solís",
+      "program": "ciencias de la comunicacion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-02969?func=service&doc_library=TES01&doc_number=000638569&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.981251,
+      "titleKey": "los surrealistas en mexico reportaje",
+      "titleFamilyKey": "surreali mexico reportaj"
+    },
+    {
+      "thesisId": "TH_0093381",
+      "title": "wolfgang paalen : introductor del surrealismo en méxico",
+      "year": 1965,
+      "author": "Leonor Morales García",
+      "advisor": "Asesor no registrado",
+      "program": "historia de las artes plasticas",
+      "level": "Maestría",
+      "area": "Area 4",
+      "campus": "universidad iberoamericana",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G1ALS6FDX6EVU7NHV1LG9JS2XLY23PCP3HPD6C46BRK45B8R4T-08560?func=service&doc_library=TES01&doc_number=000799940&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.962321,
+      "titleKey": "wolfgang paalen introductor del surrealismo en mexico",
+      "titleFamilyKey": "wolfgang paalen introduc surreali mexico"
+    },
+    {
+      "thesisId": "TH_0284862",
+      "title": "el surrealismo en méxico: alice rahón, remedios varo y leonora carrington",
+      "year": 2005,
+      "author": "Diana Yuriko Estevez Gómez",
+      "advisor": "José Daniel Manzano Águila",
+      "program": "artes visuales",
+      "level": "Licenciatura",
+      "area": "Area 4",
+      "campus": "facultad de artes y diseno unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/HLGB7H733DCK7GXMUM33I1P22VQ6JQ7ASCK9EJBV96IAV9UR9H-00367?func=service&doc_library=TES01&doc_number=000348576&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.961983,
+      "titleKey": "el surrealismo en mexico alice rahon remedios varo y leonora carrington",
+      "titleFamilyKey": "surreali mexico alice rahon remedios varo leonora carringt"
+    },
+    {
+      "thesisId": "TH_0541946",
+      "title": "el legado del surrealismo en méxico, 1961-1965 : una reconsideración disidente",
+      "year": 2024,
+      "author": "Esteban King Álvarez",
+      "advisor": "Marisol Luna Chávez · +4 más",
+      "program": "historia del arte",
+      "level": "Doctorado",
+      "area": "Area 4",
+      "campus": "facultad de filosofia y letras unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-62675?func=service&doc_library=TES01&doc_number=000857836&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.949866,
+      "titleKey": "el legado del surrealismo en mexico 1961 1965 una reconsideracion disidente",
+      "titleFamilyKey": "legado surreali mexico 1961 1965 reconsidera disident"
+    },
+    {
+      "thesisId": "TH_0181541",
+      "title": "el intercambio entre realidad y fantasia en dos hitorietas mexicanas : kaliman y fantomas",
+      "year": 1986,
+      "author": "Hector Temujin Wicab Gutierrez",
+      "advisor": "Maria Eugenia Chellet Diaz",
+      "program": "sociologia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/63VM6398TRRQHVHTCQXLDLF9DI6B5SCXM2TG5K52SAL4JLYNXF-55396?func=service&doc_library=TES01&doc_number=000045789&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.888832,
+      "titleKey": "el intercambio entre realidad y fantasia en dos hitorietas mexicanas kaliman y fantomas",
+      "titleFamilyKey": "intercam real fantasia dos hitoriet mexicana kaliman fantomas"
+    }
+  ]
+}

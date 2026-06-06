@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C752",
+    "clusterId": 752,
+    "macroId": "Area1_M05",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0333486",
+      "title": "el desarrollo del balanced scorecard como herramienta para alcanzar los objetivos de una empresa",
+      "year": 2008,
+      "author": "Elisa Grisel Ruiz Ramírez",
+      "advisor": "Alejandro Zanelli Trejo",
+      "program": "ingenieria quimica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-15421?func=service&doc_library=TES01&doc_number=000674010&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.916384,
+      "titleKey": "el desarrollo del balanced scorecard como herramienta para alcanzar los objetivos de una empresa",
+      "titleFamilyKey": "desarrol balanced scorecar como herramie alcanzar objetivo empresa"
+    },
+    {
+      "thesisId": "TH_0513167",
+      "title": "planeación estratégica basada en la herramienta del balanced scorecard : el caso de una mipyme",
+      "year": 2022,
+      "author": "Ana Cristina García Rodríguez",
+      "advisor": "Javier Suárez Rocha",
+      "program": "ingenieria de sistemas",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-27247?func=service&doc_library=TES01&doc_number=000823279&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.899761,
+      "titleKey": "planeacion estrategica basada en la herramienta del balanced scorecard el caso de una mipyme",
+      "titleFamilyKey": "planea estrateg basada herramie balanced scorecar caso mipyme"
+    },
+    {
+      "thesisId": "TH_0465080",
+      "title": "modelo de sistemas viables como herramienta de diseño para mejorar la implementación del balanced scorecard : un caso de aplicación",
+      "year": 2017,
+      "author": "Nora Jimena Jarillo Aguilar",
+      "advisor": "Javier Suárez Rocha",
+      "program": "ingenieria de sistemas",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-60279?func=service&doc_library=TES01&doc_number=000768386&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.886101,
+      "titleKey": "modelo de sistemas viables como herramienta de diseno para mejorar la implementacion del balanced scorecard un caso de aplicacion",
+      "titleFamilyKey": "modelo sistemas viables como herramie diseno mejorar implementa"
+    },
+    {
+      "thesisId": "TH_0309334",
+      "title": "la planeacion estrategica mediante el marcador balanceado (balanced scorecard) en la administración del imss",
+      "year": 2007,
+      "author": "Delia Cristina Arista Hernandez",
+      "advisor": "José Fabián González Flores",
+      "program": "actuaria",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/MTTGSJYP8VJ1TXME4GIPTHQC6T39PYYV7P8JXE4HRSYGRUJL2E-55537?func=service&doc_library=TES01&doc_number=000616305&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.883082,
+      "titleKey": "la planeacion estrategica mediante el marcador balanceado balanced scorecard en la administracion del imss",
+      "titleFamilyKey": "planea estrateg mediante marcador balancea balanced scorecar administra"
+    },
+    {
+      "thesisId": "TH_0369871",
+      "title": "propuesta de aplicación del balanced scorecard como una herramienta de control en una empresa comercializadora de productos químicos",
+      "year": 2010,
+      "author": "Diana Berenice Martínez Hernández",
+      "advisor": "Gustavo Armando Rodríguez Medina",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/U68FN28KYTJFHRRVMIKMXVNXX6SNLUUHGH9GHMUY1A97VM1V7D-31171?func=service&doc_library=TES01&doc_number=000657184&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.862289,
+      "titleKey": "propuesta de aplicacion del balanced scorecard como una herramienta de control en una empresa comercializadora de productos quimicos",
+      "titleFamilyKey": "propuest aplica balanced scorecar como herramie control empresa"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C832",
+    "clusterId": 832,
+    "macroId": "Area3_M06",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0106653",
+      "title": "metodos de depreciacion",
+      "year": 1970,
+      "author": "Joséfa Neria Martinez",
+      "advisor": "Jose Covarrubias M.",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-13369?func=service&doc_library=TES01&doc_number=000080750&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.968467,
+      "titleKey": "metodos de depreciacion",
+      "titleFamilyKey": "metodos deprecia"
+    },
+    {
+      "thesisId": "TH_0128648",
+      "title": "metodos de depreciacion",
+      "year": 1976,
+      "author": "Mario Castellanos Ramirez",
+      "advisor": "Francisco Daniel Cortes",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3A7UEJ312MD2NRHJ7PU1J4CVPPBCK9Q9D1FQSIQT6V3MFM52EI-61164?func=service&doc_library=TES01&doc_number=000176966&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.968467,
+      "titleKey": "metodos de depreciacion",
+      "titleFamilyKey": "metodos deprecia"
+    },
+    {
+      "thesisId": "TH_0106155",
+      "title": "consideraciones sobre los diferentes metodos de depreciacion",
+      "year": 1970,
+      "author": "Manuel López Tello",
+      "advisor": "Gustavo Mondragon Hidalgo",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-21533?func=service&doc_library=TES01&doc_number=000080460&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.964541,
+      "titleKey": "consideraciones sobre los diferentes metodos de depreciacion",
+      "titleFamilyKey": "consideraci diferent metodos deprecia"
+    },
+    {
+      "thesisId": "TH_0090687",
+      "title": "una base diferente para el calculo de la depreciacion",
+      "year": 1964,
+      "author": "Mario Guerrero del Castillo",
+      "advisor": "Asesor no registrado",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/INCBXJSNSUVS6IGTS4H42TR1I98NSF3TSB7SFJ9UHGJSD4V5XQ-14812?func=service&doc_library=TES01&doc_number=000074636&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.938969,
+      "titleKey": "una base diferente para el calculo de la depreciacion",
+      "titleFamilyKey": "base diferent calculo deprecia"
+    },
+    {
+      "thesisId": "TH_0091346",
+      "title": "bases estimadas para el calculo de la depreciacion",
+      "year": 1964,
+      "author": "Jorge Rico Trujillo",
+      "advisor": "Asesor no registrado",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/INCBXJSNSUVS6IGTS4H42TR1I98NSF3TSB7SFJ9UHGJSD4V5XQ-34569?func=service&doc_library=TES01&doc_number=000074739&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.926269,
+      "titleKey": "bases estimadas para el calculo de la depreciacion",
+      "titleFamilyKey": "bases estimada calculo deprecia"
+    }
+  ]
+}

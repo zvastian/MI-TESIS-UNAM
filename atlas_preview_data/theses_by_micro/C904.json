@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C904",
+    "clusterId": 904,
+    "macroId": "Area1_M03",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0407171",
+      "title": "estudio microestructural y mecánico de una aleación al-20sn (% en masa) sometida a un proceso de extrusión angular en canal de sección constante (ecap)",
+      "year": 2013,
+      "author": "Cecilio Hernández Bethancourt",
+      "advisor": "José Gonzalo González Reyes · +2 más",
+      "program": "ciencias e ingenieria de materiales",
+      "level": "Doctorado",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DNNT4PMDVH7MUEIP22HBSXKQDXSC88NG83PH7CASM6JRRXCYS3-30828?func=service&doc_library=TES01&doc_number=000695631&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.937565,
+      "titleKey": "estudio microestructural y mecanico de una aleacion al 20sn en masa sometida a un proceso de extrusion angular en canal de seccion constante ecap",
+      "titleFamilyKey": "estudio microest mecanico alea 20sn masa sometida proceso"
+    },
+    {
+      "thesisId": "TH_0551038",
+      "title": "estudio microestructural de una aleación al-ti-nd procesada por extrusión angular a canal constante",
+      "year": 2025,
+      "author": "Francisco Maximino Camacho Hernández",
+      "advisor": "José Gonzalo González Reyes",
+      "program": "ingenieria quimica",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/9UJP594LRLLEDG8VJIAPTA2RM5QT88AVKM2CMSGTVIKXE2RC49-30899?func=service&doc_library=TES01&doc_number=000871633&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.916987,
+      "titleKey": "estudio microestructural de una aleacion al ti nd procesada por extrusion angular a canal constante",
+      "titleFamilyKey": "estudio microest alea procesad extrusio angular canal constant"
+    },
+    {
+      "thesisId": "TH_0405555",
+      "title": "estudio microestructural de una aleación aa5083 sometida a un proceso de extrusión angular a sección constante",
+      "year": 2013,
+      "author": "Alberto Flores Rivera",
+      "advisor": "José Gonzalo González Reyes",
+      "program": "ciencia e ingenieria de materiales",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DNNT4PMDVH7MUEIP22HBSXKQDXSC88NG83PH7CASM6JRRXCYS3-59465?func=service&doc_library=TES01&doc_number=000694244&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.8996,
+      "titleKey": "estudio microestructural de una aleacion aa5083 sometida a un proceso de extrusion angular a seccion constante",
+      "titleFamilyKey": "estudio microest alea aa5083 sometida proceso extrusio angular"
+    },
+    {
+      "thesisId": "TH_0455427",
+      "title": "estudio microestructural y mecánico de una aleación de aluminio 6061-t6 sometida a un proceso de extrusión angular en canal de sección constante (ecap)",
+      "year": 2016,
+      "author": "Carlos Reyes Ruiz",
+      "advisor": "José Gonzalo González Reyes",
+      "program": "ciencia e ingenieria de materiales",
+      "level": "Doctorado",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5VC1B25ISXIERJRLHXLIN7S8AS3UEJY1FX2987DMHHQFJHND3U-09413?func=service&doc_library=TES01&doc_number=000745957&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.897975,
+      "titleKey": "estudio microestructural y mecanico de una aleacion de aluminio 6061 t6 sometida a un proceso de extrusion angular en canal de seccion constante ecap",
+      "titleFamilyKey": "estudio microest mecanico alea aluminio 6061 sometida proceso"
+    },
+    {
+      "thesisId": "TH_0431717",
+      "title": "estudio microestructural de un sistema al-al3 ti sometido a un proceso de extrusión angular a sección constante",
+      "year": 2015,
+      "author": "Francisco Maximino Camacho Hernández",
+      "advisor": "Gonzalo González Reyes · +2 más",
+      "program": "ciencia e ingenieria de materiales",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-21458?func=service&doc_library=TES01&doc_number=000727832&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.885469,
+      "titleKey": "estudio microestructural de un sistema al al3 ti sometido a un proceso de extrusion angular a seccion constante",
+      "titleFamilyKey": "estudio microest sistema al3 sometido proceso extrusio angular"
+    }
+  ]
+}

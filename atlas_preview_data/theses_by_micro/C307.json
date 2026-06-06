@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C307",
+    "clusterId": 307,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 19,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0205298",
+      "title": "anestesia local en odontologia",
+      "year": 1991,
+      "author": "Abel Rivera Rede",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "instituto universitario del norte chihuahua chi",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/IUG75YBFLJEUARPS5G7VRKJE7136GB5LX6AIHXD78N89D3KLAX-57074?func=service&doc_library=TES01&doc_number=000152367&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999683,
+      "titleKey": "anestesia local en odontologia",
+      "titleFamilyKey": "anestesi local odontolo"
+    },
+    {
+      "thesisId": "TH_0065499",
+      "title": "anestesia local en odontologia",
+      "year": 1934,
+      "author": "Guillermo Salas y Rosete",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/9QSC6JXB79UHBRYE2TCF69EBYXXLT3EFREMVM7J8G9DY9IE164-32020?func=service&doc_library=TES01&doc_number=000134041&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999683,
+      "titleKey": "anestesia local en odontologia",
+      "titleFamilyKey": "anestesi local odontolo"
+    },
+    {
+      "thesisId": "TH_0144601",
+      "title": "la anestesia local en odontologia",
+      "year": 1979,
+      "author": "Lesvia Meza Mendez",
+      "advisor": "Victor Manuel Diaz Michel",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GSQBMGJRFXATKKJL4EC34FSN1XUJ5UFREVJSFRMF4YMMNCN7AC-10465?func=service&doc_library=TES01&doc_number=000014931&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.99751,
+      "titleKey": "la anestesia local en odontologia",
+      "titleFamilyKey": "anestesi local odontolo"
+    },
+    {
+      "thesisId": "TH_0571709",
+      "title": "La Anestesia Local en Odontologia",
+      "year": 1985,
+      "author": "José Gerardo Ramirez Villafuerte",
+      "advisor": "Luis Rosas Altamirano",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0035756/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.99751,
+      "titleKey": "la anestesia local en odontologia",
+      "titleFamilyKey": "anestesi local odontolo"
+    }
+  ]
+}

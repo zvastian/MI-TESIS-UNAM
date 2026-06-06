@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C902",
+    "clusterId": 902,
+    "macroId": "Area2_M13",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0110638",
+      "title": "frecuencia de sarcocystis spp. en corazones de bovinos",
+      "year": 1971,
+      "author": "Marcela Amalia Mercado Pezzat",
+      "advisor": "Aline Schuneman Hofer",
+      "program": "medicina veterinaria y zootecnia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina veterinaria y zootecnia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/CVXBQ8V46HNESE83GEDEICG3D3JVFQ2IU4Q485DVPBCNBM3ETS-37284?func=service&doc_library=TES01&doc_number=000158845&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.936667,
+      "titleKey": "frecuencia de sarcocystis spp en corazones de bovinos",
+      "titleFamilyKey": "frecuenc sarcocys spp corazone bovinos"
+    },
+    {
+      "thesisId": "TH_0120083",
+      "title": "frecuencia de sarcocystis spp. en musculo estriado de corazon, esofago y diafragma de ovinos",
+      "year": 1973,
+      "author": "Alejandro Villa Godoy",
+      "advisor": "Nuria de Buen Llado",
+      "program": "medicina veterinaria y zootecnia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina veterinaria y zootecnia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/1EBGPF9I12JTRDGGM7DP6G6KTYBXSCKATBCPS4YGD8VV9YJA1A-24281?func=service&doc_library=TES01&doc_number=000159082&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.930183,
+      "titleKey": "frecuencia de sarcocystis spp en musculo estriado de corazon esofago y diafragma de ovinos",
+      "titleFamilyKey": "frecuenc sarcocys spp musculo estriado corazon esofago diafragm"
+    },
+    {
+      "thesisId": "TH_0174813",
+      "title": "frecuencia de sarcocystis spp. en corazon diafragma y esofago de cerdos sacrificados en el rastro municipal de cuautitlan de romero rubio",
+      "year": 1986,
+      "author": "Miguel Angel Cornejo Cortés",
+      "advisor": "Antonio Acevedo Hernández · +1 más",
+      "program": "medicina veterinaria y zootecnia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina veterinaria y zootecnia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/63VM6398TRRQHVHTCQXLDLF9DI6B5SCXM2TG5K52SAL4JLYNXF-04065?func=service&doc_library=TES01&doc_number=000036237&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.911329,
+      "titleKey": "frecuencia de sarcocystis spp en corazon diafragma y esofago de cerdos sacrificados en el rastro municipal de cuautitlan de romero rubio",
+      "titleFamilyKey": "frecuenc sarcocys spp corazon diafragm esofago cerdos sacrific"
+    },
+    {
+      "thesisId": "TH_0588096",
+      "title": "Identificación y diferenciación de cisticerco bovino y Sarcocystis spp en corazones de bovinos de abasto",
+      "year": 1989,
+      "author": "María Isabel Martínez Moreno",
+      "advisor": "Ricardo Carreon Maya",
+      "program": "Medicina Veterinaria y Zootecnia",
+      "level": "licenciatura",
+      "area": "Ciencias Biológicas, Químicas y de la Salud",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/ptd2019/marzo/0786890/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.871079,
+      "titleKey": "identificacion y diferenciacion de cisticerco bovino y sarcocystis spp en corazones de bovinos de abasto",
+      "titleFamilyKey": "identifica diferencia cisticer bovino sarcocys spp corazone bovinos"
+    },
+    {
+      "thesisId": "TH_0120619",
+      "title": "frecuencia de sarcocystis spp en algunos musculos de equinos",
+      "year": 1974,
+      "author": "Cleofas Brito Bernach",
+      "advisor": "Reyna Sanchez San Martin",
+      "program": "medicina veterinaria y zootecnia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina veterinaria y zootecnia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/LM7H7H1IVJEJNC7BMNYGCTY1V8JI13GUTGNVTFP6N8RTMJGRX1-29364?func=service&doc_library=TES01&doc_number=000159107&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.818773,
+      "titleKey": "frecuencia de sarcocystis spp en algunos musculos de equinos",
+      "titleFamilyKey": "frecuenc sarcocys spp algunos musculos equinos"
+    }
+  ]
+}

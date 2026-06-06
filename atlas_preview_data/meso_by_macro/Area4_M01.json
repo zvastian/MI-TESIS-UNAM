@@ -1,0 +1,66 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area4_M01",
+    "label": "Artes Visuales, Diseño y Comunicación Gráfica",
+    "shortLabel": "Artes Visuales, Diseño y Comunica...",
+    "area": "Area 4",
+    "size": 5649,
+    "description": "Trabajos sobre artes visuales, diseño gr?fico, comunicación visual, arquitectura, pedagogía e historia del arte."
+  },
+  "nodes": [
+    {
+      "id": "C21",
+      "clusterId": 21,
+      "macroId": "Area4_M01",
+      "level": "meso",
+      "area": "Area 4",
+      "areaLabel": "Área 4",
+      "label": "Artes Visuales",
+      "size": 5649,
+      "radius": 30.0,
+      "position": {
+        "x": -0.43059,
+        "y": 0.56405
+      },
+      "dominantAreaShare": 0.5716,
+      "programsTop": "Artes Visuales (712) | Diseño Grafico (464) | Arquitectura (343) | Diseño y Comunicacion Visual (322) | Pedagogia (291) | Comunicacion Grafica (251) | Psicologia (238) | Historia del Arte (202) | Filosofia (184) | Ciencias de la Comunicacion (166)",
+      "levelsTop": "Licenciatura (4241) | Maestria (1101) | Doctorado (250) | Especialidad (33)",
+      "campusesTop": "Facultad de Artes y Diseno Unam (1574) | Facultad de Filosofia y Letras Unam (866) | No Especificado Unam (338) | Facultad de Arquitectura Unam (336) | Facultad de Ciencias Politicas y Sociales Unam (285) | Facultad de Ingenieria Unam (284)",
+      "sampleTitles": "instituto nacional de antropologia e historia | floating toy museum | analisis del mural en la obra de diego rivera sueno de una tarde dominical en la alameda central | Imagen corporativa en una Casa de bolsa | teoria y programacion de graficos animados por computadora aplicados al diseño de promocionales | reordenamiento de los servicios complementarios del museo nacional de antropología | carillas esteticas | anteproyecto de una fabrica de productos estructurales ceramicos no refractarios",
+      "color": "#D7A441",
+      "originalLabel": "Artes Visuales",
+      "shortLabel": "Artes Visuales",
+      "labelMethod": "unique_original"
+    },
+    {
+      "id": "C190",
+      "clusterId": 190,
+      "macroId": "Area4_M01",
+      "level": "meso",
+      "area": "Area 4",
+      "areaLabel": "Área 4",
+      "label": "AMA Esto Dejalo - Psicología",
+      "size": 45,
+      "radius": 9.0,
+      "position": {
+        "x": -0.89746,
+        "y": 0.06753
+      },
+      "dominantAreaShare": 0.4889,
+      "programsTop": "Psicologia (6) | Artes Visuales (6) | Diseño y Comunicacion Visual (5) | Comunicacion y Periodismo (3) | Medicina Legal (2) | Medico Cirujano (2) | Historia (2) | Sociologia (2) | Psiquiatria Infantil y de la Adolescencia (2) | Quimica Farmaceutico Biologica (2)",
+      "levelsTop": "Licenciatura (30) | Maestria (7) | Especialidad (6) | Doctorado (2)",
+      "campusesTop": "Facultad de Medicina Unam (8) | Facultad de Artes y Diseno Unam (7) | No Especificado Unam (6) | Facultad de Ciencias Politicas y Sociales Unam (5) | Facultad de Filosofia y Letras Unam (4) | Facultad de Estudios Superiores Aragon Unam (4)",
+      "sampleTitles": "tatuaje una expresion de la violencia contemporanea | apuntes sobre el tatuaje | \"ama esto o déjalo\" : reflexiones sociológicas acerca del oficio de tatuador en la ciudad de méxico | la formalidad de la ilustración aplicada para la realización de tatuajes | el tatuaje en méxico : una ventana a través de la prensa a las miradas del cuerpo tatuado : ciudad de méxico 1890-1900 | algunas caracteristicas de reclusos tatuados | representaciones sociales del tatuaje en mujeres adultas de la ciudad de méxico : una perspectiva desde la psicología social | el comportamiento informativo de los tatuadores de la ciudad de méxico",
+      "color": "#D7A441",
+      "originalLabel": "Psicologia",
+      "shortLabel": "AMA Esto Dejalo - Psicología",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

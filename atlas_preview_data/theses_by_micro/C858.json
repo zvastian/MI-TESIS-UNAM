@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C858",
+    "clusterId": 858,
+    "macroId": "Area2_M05",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0383721",
+      "title": "influencia del tiempo de la lesión medular sobre la farmacocinética de la ciprofloxacina en mono rhesus",
+      "year": 2011,
+      "author": "Jesús Daniel Montoya Vega",
+      "advisor": "Leticia Cruz Antonio · +4 más",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3XNJ4G6FHB3SJBFUA3HYH9FBBXXJFJE6XTP4JQQFMIFL6HUXUV-00305?func=service&doc_library=TES01&doc_number=000700307&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.948985,
+      "titleKey": "influencia del tiempo de la lesion medular sobre la farmacocinetica de la ciprofloxacina en mono rhesus",
+      "titleFamilyKey": "influenc tiempo lesion medular farmacoc ciproflo mono rhesus"
+    },
+    {
+      "thesisId": "TH_0378800",
+      "title": "influencia del tiempo de la lesión medular sobre la farmacocinética de la ciprofloxacina en mono rhesus",
+      "year": 2011,
+      "author": "Leticia Cruz Antonio",
+      "advisor": "Leticia Cruz Antonio",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3XNJ4G6FHB3SJBFUA3HYH9FBBXXJFJE6XTP4JQQFMIFL6HUXUV-06799?func=service&doc_library=TES01&doc_number=000677283&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.944999,
+      "titleKey": "influencia del tiempo de la lesion medular sobre la farmacocinetica de la ciprofloxacina en mono rhesus",
+      "titleFamilyKey": "influenc tiempo lesion medular farmacoc ciproflo mono rhesus"
+    },
+    {
+      "thesisId": "TH_0325571",
+      "title": "influencia del por ciento de compresión para lograr una lesión de medula espinal sobre la farmacocinética de ciprofloxacina administrada por infusión intravenosa en primates no humanos (papiit in 221706-3)",
+      "year": 2008,
+      "author": "Fernando Espargo Hilario",
+      "advisor": "Leticia Cruz Antonio",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-35450?func=service&doc_library=TES01&doc_number=000636300&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.898185,
+      "titleKey": "influencia del por ciento de compresion para lograr una lesion de medula espinal sobre la farmacocinetica de ciprofloxacina administrada por infusion intravenosa en primates no humanos papiit in 221706 3",
+      "titleFamilyKey": "influenc ciento compresi lograr lesion medula espinal farmacoc"
+    },
+    {
+      "thesisId": "TH_0295965",
+      "title": "farmacocinética de ciprofloxacina administrada por infusión intravenosa en primate no humano con lesión traumática de médula espinal en fase aguda",
+      "year": 2006,
+      "author": "Maricela Alonso Mejía",
+      "advisor": "Leticia Cruz Antonio",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-59518?func=service&doc_library=TES01&doc_number=000665594&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.870544,
+      "titleKey": "farmacocinetica de ciprofloxacina administrada por infusion intravenosa en primate no humano con lesion traumatica de medula espinal en fase aguda",
+      "titleFamilyKey": "farmacoc ciproflo administ infusion intraven primate humano lesion"
+    },
+    {
+      "thesisId": "TH_0374317",
+      "title": "farmacocinética de ciprofloxacino en mono rhesus con lesión medular experimental por método de compresión y sección",
+      "year": 2010,
+      "author": "César Daniel Ronces Ocampo",
+      "advisor": "Leticia Cruz Antonio · +1 más",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/B87LA8R4I11FSPN88K9SVRJELCAK392UI282BVC7US7NUCP5ME-30346?func=service&doc_library=TES01&doc_number=000671334&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.864274,
+      "titleKey": "farmacocinetica de ciprofloxacino en mono rhesus con lesion medular experimental por metodo de compresion y seccion",
+      "titleFamilyKey": "farmacoc ciproflo mono rhesus lesion medular experime metodo"
+    }
+  ]
+}

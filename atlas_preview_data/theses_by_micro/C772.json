@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C772",
+    "clusterId": 772,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0133506",
+      "title": "caso clinico puente removible de semiprecision",
+      "year": 1977,
+      "author": "Norma Beatriz Camacho Angeles",
+      "advisor": "Roberto Serrano Siles",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7MP7L8T99DA3UQIEU6SAKX5AP6PUYFXJ4XEV75TL3VBQ27AHPB-15946?func=service&doc_library=TES01&doc_number=000152182&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.938847,
+      "titleKey": "caso clinico puente removible de semiprecision",
+      "titleFamilyKey": "caso clinico puente removibl semiprec"
+    },
+    {
+      "thesisId": "TH_0138928",
+      "title": "puente de semipresicion, en un caso clinico",
+      "year": 1978,
+      "author": "Martha García Rosas",
+      "advisor": "Roberto Serrano Siles",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5L5TS12VQ68VIUXEJUXTSXA1R9J12JS3BATU94THFADKP51P54-23169?func=service&doc_library=TES01&doc_number=000149106&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.933535,
+      "titleKey": "puente de semipresicion en un caso clinico",
+      "titleFamilyKey": "puente semipresi caso clinico"
+    },
+    {
+      "thesisId": "TH_0135207",
+      "title": "caso clinico de puente removible de semiprecision",
+      "year": 1977,
+      "author": "David Sergio Laso López",
+      "advisor": "Roberto Serrano Siles",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7MP7L8T99DA3UQIEU6SAKX5AP6PUYFXJ4XEV75TL3VBQ27AHPB-32626?func=service&doc_library=TES01&doc_number=000152799&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.923693,
+      "titleKey": "caso clinico de puente removible de semiprecision",
+      "titleFamilyKey": "caso clinico puente removibl semiprec"
+    },
+    {
+      "thesisId": "TH_0150153",
+      "title": "aditamentos de semiprecision y su aplicacion en un caso clinico",
+      "year": 1981,
+      "author": "Maria Teresa Medina Rivera",
+      "advisor": "Jesús Cruz Chávez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5E8H58QDXC9N2YJUPLYYNUXUDRPPAIIGNCXQVH89EUP9J3U3QT-25044?func=service&doc_library=TES01&doc_number=000025929&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.912724,
+      "titleKey": "aditamentos de semiprecision y su aplicacion en un caso clinico",
+      "titleFamilyKey": "aditamen semiprec aplica caso clinico"
+    },
+    {
+      "thesisId": "TH_0132330",
+      "title": "aditamentos de semiprecision y su aplicacion en un caso clinico",
+      "year": 1976,
+      "author": "Ninfa Maria Sosa Saucedo",
+      "advisor": "Roberto Serrano Siles",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3A7UEJ312MD2NRHJ7PU1J4CVPPBCK9Q9D1FQSIQT6V3MFM52EI-12370?func=service&doc_library=TES01&doc_number=000151571&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.912724,
+      "titleKey": "aditamentos de semiprecision y su aplicacion en un caso clinico",
+      "titleFamilyKey": "aditamen semiprec aplica caso clinico"
+    }
+  ]
+}

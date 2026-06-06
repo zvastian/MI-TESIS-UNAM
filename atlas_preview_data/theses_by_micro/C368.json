@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C368",
+    "clusterId": 368,
+    "macroId": "Area3_M06",
+    "area": "Area 3",
+    "size": 16,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0154429",
+      "title": "reexpresion de estados financieros",
+      "year": 1982,
+      "author": "Antonieta Flores Calva",
+      "advisor": "Jaime Bladinieres Jiménez",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-54096?func=service&doc_library=TES01&doc_number=000005247&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999534,
+      "titleKey": "reexpresion de estados financieros",
+      "titleFamilyKey": "reexpres estados financie"
+    },
+    {
+      "thesisId": "TH_0565635",
+      "title": "Reexpresión de estados financieros",
+      "year": 1980,
+      "author": "Alfredo Hinojos Ramírez",
+      "advisor": "Asesor no registrado",
+      "program": "Contaduría",
+      "level": "licenciatura",
+      "area": "Ciencias Sociales",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0003769/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.999534,
+      "titleKey": "reexpresion de estados financieros",
+      "titleFamilyKey": "reexpres estados financie"
+    },
+    {
+      "thesisId": "TH_0575752",
+      "title": "La reexpresion de estados financieros",
+      "year": 1985,
+      "author": "Irma Yanez Maldonado",
+      "advisor": "Felipe de Jesus Hernandez Robles",
+      "program": "Contaduría",
+      "level": "licenciatura",
+      "area": "Ciencias Sociales",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0013614/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.997069,
+      "titleKey": "la reexpresion de estados financieros",
+      "titleFamilyKey": "reexpres estados financie"
+    },
+    {
+      "thesisId": "TH_0186082",
+      "title": "la reexpresion de los estados financieros",
+      "year": 1988,
+      "author": "Gustavo López Silva",
+      "advisor": "Sebastián Hinojosa Covarrubias",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q6VEJ1KK6P8UTBMDE7CBYC9E8D883HDEQ8PPCFT4U619SFJQ29-09009?func=service&doc_library=TES01&doc_number=000126326&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.993593,
+      "titleKey": "la reexpresion de los estados financieros",
+      "titleFamilyKey": "reexpres estados financie"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C286",
+    "clusterId": 286,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 20,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0571628",
+      "title": "Endodoncia infantil",
+      "year": 1985,
+      "author": "Irma Altagracia Hernandez Vargas",
+      "advisor": "Guadalupe Cruz Chávez",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0038127/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.999341,
+      "titleKey": "endodoncia infantil",
+      "titleFamilyKey": "endodonc infantil"
+    },
+    {
+      "thesisId": "TH_0573458",
+      "title": "Endodoncia Infantil",
+      "year": 1985,
+      "author": "Maria Luisa Nava Teran",
+      "advisor": "Emilio Carlos Beltrán Lara",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0035692/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.999341,
+      "titleKey": "endodoncia infantil",
+      "titleFamilyKey": "endodonc infantil"
+    },
+    {
+      "thesisId": "TH_0085739",
+      "title": "endodoncia en infantil",
+      "year": 1961,
+      "author": "Eugenio Ramos Monroy",
+      "advisor": "Jose Fernandez Beltran",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/4TEVDH7C3CFJD8CJFEMQ8SMKYITRKP5UX8A9IDDKCN88IUQ6VE-00538?func=service&doc_library=TES01&doc_number=000138713&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.994055,
+      "titleKey": "endodoncia en infantil",
+      "titleFamilyKey": "endodonc infantil"
+    },
+    {
+      "thesisId": "TH_0098092",
+      "title": "endodoncia en infantil",
+      "year": 1967,
+      "author": "Luz Maria Palomeque Tenorio",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/12RFLYH1H7A1N2H7X9UTFFX29FSFTJ1I97UQ2KJBHGB31NU3YG-44458?func=service&doc_library=TES01&doc_number=000137791&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.994055,
+      "titleKey": "endodoncia en infantil",
+      "titleFamilyKey": "endodonc infantil"
+    }
+  ]
+}

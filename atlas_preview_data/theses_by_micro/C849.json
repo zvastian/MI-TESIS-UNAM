@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C849",
+    "clusterId": 849,
+    "macroId": "Area2_M11",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0170163",
+      "title": "determinación de las estructuras químicas de nuevos diterpenos aislados del género brickellia",
+      "year": 1984,
+      "author": "Florencia Marina Morán Pineda",
+      "advisor": "José S Calderón",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "universidad veracruzana",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.928693,
+      "titleKey": "determinacion de las estructuras quimicas de nuevos diterpenos aislados del genero brickellia",
+      "titleFamilyKey": "determina estructu quimicas nuevos diterpen aislados genero brickell"
+    },
+    {
+      "thesisId": "TH_0239747",
+      "title": "aislamiento y elucidacion estructural de cuatro nuevos diterpenos labdanicos de hyptis spicigera lam. (lamiaceae)",
+      "year": 1996,
+      "author": "Emma Gonzalez Chimeo",
+      "advisor": "Rogelio Gregorio Pereda Miranda",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JTHMY5FFEU5IYNEFR2RXL661C4A6EDFVXF58QK9YPJJ6DY8G9K-58673?func=service&doc_library=TES01&doc_number=000233435&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.877485,
+      "titleKey": "aislamiento y elucidacion estructural de cuatro nuevos diterpenos labdanicos de hyptis spicigera lam lamiaceae",
+      "titleFamilyKey": "aisla elucida estructu cuatro nuevos diterpen labdanic hyptis"
+    },
+    {
+      "thesisId": "TH_0171696",
+      "title": "aislamiento y determinación de las estructuras moleculares de nuevos diterpenoides del \"zoapatle\" (montanoa tomentosa)",
+      "year": 1984,
+      "author": "Virginia Rosario Moreno",
+      "advisor": "Leovigildo Quijano · +1 más",
+      "program": null,
+      "level": "Licenciatura",
+      "area": "Por Clasificar",
+      "campus": "universidad veracruzana",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.871038,
+      "titleKey": "aislamiento y determinacion de las estructuras moleculares de nuevos diterpenoides del zoapatle montanoa tomentosa",
+      "titleFamilyKey": "aisla determina estructu molecula nuevos diterpen zoapatle montanoa"
+    },
+    {
+      "thesisId": "TH_0579398",
+      "title": "Determinación estructural de los componentes diterpénicos de Salvia Pubescens Benth (Labiatae)",
+      "year": 1987,
+      "author": "Miguel A Galicia Sánchez",
+      "advisor": "Lydia Rodríguez Hahn · +1 más",
+      "program": "Química Farmacéutico Biológica",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "no especificado unam",
+      "url": null,
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.866848,
+      "titleKey": "determinacion estructural de los componentes diterpenicos de salvia pubescens benth labiatae",
+      "titleFamilyKey": "determina estructu componen diterpen salvia pubescen benth labiatae"
+    },
+    {
+      "thesisId": "TH_0389591",
+      "title": "elucidación estructural y evaluacion de la actividad biologica de diterpenos tipo neo-clerodano aislados de salvia herbacea, s. shannoni y s. microphylla",
+      "year": 2012,
+      "author": "Francisco Elihu Bautista Redonda",
+      "advisor": "Alfredo R Ortega",
+      "program": "ciencias quimicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DPI1CJIL2CV8EDT85S77S5M8BYH4ARAGJSRQH92IF35AFV94XR-59968?func=service&doc_library=TES01&doc_number=000685352&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.862741,
+      "titleKey": "elucidacion estructural y evaluacion de la actividad biologica de diterpenos tipo neo clerodano aislados de salvia herbacea s shannoni y s microphylla",
+      "titleFamilyKey": "elucida estructu evalua activ biologic diterpen tipo neo"
+    }
+  ]
+}

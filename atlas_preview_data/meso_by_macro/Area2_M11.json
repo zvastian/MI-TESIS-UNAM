@@ -1,0 +1,163 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M11",
+    "label": "Bioquímica, Alimentos y Biotecnología",
+    "shortLabel": "Bioquímica, Alimentos y Biotecnol...",
+    "area": "Area 2",
+    "size": 4367,
+    "description": "Tesis sobre biología, QFB, bioquímica, alimentos, biotecnología, gen?tica e ingeniería agr?cola."
+  },
+  "nodes": [
+    {
+      "id": "C61",
+      "clusterId": 61,
+      "macroId": "Area2_M11",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Germinacion Maiz - Biología",
+      "size": 3156,
+      "radius": 30.0,
+      "position": {
+        "x": 0.0227,
+        "y": 0.54021
+      },
+      "dominantAreaShare": 0.5057,
+      "programsTop": "Biologia (463) | Quimica Farmaceutico Biologica (371) | Derecho (256) | Quimica de Alimentos (223) | Ingenieria en Alimentos (201) | Ingenieria Agricola (187) | Ciencias Bioquimicas (148) | Genetica Medica (80) | Ciencias Biologicas (74) | Cirujano Dentista (58)",
+      "levelsTop": "Licenciatura (2226) | Maestria (490) | Doctorado (225) | Especialidad (215)",
+      "campusesTop": "Facultad de Quimica Unam (739) | Facultad de Estudios Superiores Cuautitlan Unam (447) | Facultad de Ciencias Unam (413) | Facultad de Medicina Unam (268) | No Especificado Unam (179) | Facultad de Derecho Unam (155)",
+      "sampleTitles": "el albaceazgo y su naturaleza juridica | centro regulador de produccion y venta de maiz lerma, edo. de mexico | perspectivas de la instrumentacion de un modelo para actividades productivas en el medio rural | estenosis mitral evolutiva | odontogenesis | desarrollo de tortillas de maíz nixtamalizado con nopal y espinaca adicionadas con cúrcuma como alternativa en la alimentación saludable | estudio critico del pan | factores hereditarios en odontopediatria",
+      "color": "#2E9D71",
+      "originalLabel": "Biologia",
+      "shortLabel": "Germinacion Maiz - Biología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C129",
+      "clusterId": 129,
+      "macroId": "Area2_M11",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Trypanosoma Cruzi - Biología",
+      "size": 423,
+      "radius": 14.5,
+      "position": {
+        "x": 0.6606,
+        "y": 0.02564
+      },
+      "dominantAreaShare": 0.7305,
+      "programsTop": "Biologia (124) | Quimica Farmaceutico Biologica (91) | Ciencias Biologicas (49) | Ciencias Biomedicas (28) | Ciencias Bioquimicas (22) | Investigacion Biomedica Basica (14) | Ciencias Quimicas (9) | Dermatologia (8) | Ciencias de la Produccion y de la Salud Animal (8) | Medicina Veterinaria y Zootecnia (7)",
+      "levelsTop": "Licenciatura (241) | Maestria (86) | Doctorado (59) | Especialidad (37)",
+      "campusesTop": "Facultad de Ciencias Unam (92) | Facultad de Quimica Unam (92) | Facultad de Medicina Unam (68) | No Especificado Unam (44) | Facultad de Estudios Superiores Iztacala Unam (43) | Facultad de Estudios Superiores Zaragoza Unam (18)",
+      "sampleTitles": "caracterizacion molecular de aislados mexicanos de trypanosoma cruzi | perfil proteico de la hemolinfa de triatoma pallidipennis infectado con trypanosoma cruzi | participacion de las cisteinas en la estabilidad y estructura de la triosafosfato isomerasa de trypanosoma brucei | analisis molecular del gen de la subunidad c128 de la rna polimerasa iii de leishmania major | reactividad de la cisteina de la interfase y estabilidad estructural de la triosafosfato isomerasa de trypanosoma brucei y trypanosoma cruzi | análisis molecular de la subunidad tau95 del factor de transcripción tfiiic en leishmania major | biología de profilina en trypanosoma cruzi | trypanosoma cruzi : efecto de la infección experimental en ratones sobre la respuesta inmune",
+      "color": "#2E9D71",
+      "originalLabel": "Biologia",
+      "shortLabel": "Trypanosoma Cruzi - Biología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C133",
+      "clusterId": 133,
+      "macroId": "Area2_M11",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Phaseolus Vulgaris - Biología",
+      "size": 328,
+      "radius": 12.54,
+      "position": {
+        "x": 0.25686,
+        "y": -0.70836
+      },
+      "dominantAreaShare": 0.7348,
+      "programsTop": "Biologia (64) | Investigacion Biomedica Basica (57) | Ciencias Bioquimicas (57) | Ciencias Biomedicas (44) | Quimica Farmaceutico Biologica (28) | Biotecnologia (16) | Bioquimica (12) | Ciencias Biologicas (9) | Ciencias Agrogenomicas (8) | Ingenieria Agricola (6)",
+      "levelsTop": "Licenciatura (125) | Doctorado (106) | Maestria (97)",
+      "campusesTop": "Colegio de Ciencias y Humanidades Unam (54) | Facultad de Ciencias Unam (51) | Instituto de Biotecnologia Unam (49) | Facultad de Quimica Unam (49) | No Especificado Unam (38) | Centro de Ciencias Genomicas Unam (27)",
+      "sampleTitles": "caracterizacion molecular de las adenil ciclasas de rhizobium etli | construccion de mutaciones en las regiones nif de rhizobium phaseoli | estudio del papel de las proteínas avin34710 y avin34720 en el metabolismo de polihidroxibutirato (phb) en la bacteria azotobacter vinelandii | características cinéticas y moleculares de la enzima fosfoenolpiruvato carboxilasa en relación con la regulación de su actividad in vivo en hoja de maíz | mecanismo cinético y regulación alosterica de la enzima fosfoenolpiruvato carboxilasa de hoja de maíz | Estudios sobre la regulación de la enzima fosfoenolpirulvato carboxilasa de hoja de maíz | analisis estructural y de expresion de los genes reiterados para la nitrogenasa en rhizobium phaseoli | produccion de alginatos por fermentacion con azotobacter vinelandii",
+      "color": "#2E9D71",
+      "originalLabel": "Biologia",
+      "shortLabel": "Phaseolus Vulgaris - Biología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C140",
+      "clusterId": 140,
+      "macroId": "Area2_M11",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Ciencias Bioquimicas",
+      "size": 253,
+      "radius": 10.54,
+      "position": {
+        "x": 0.55032,
+        "y": 0.62316
+      },
+      "dominantAreaShare": 0.7154,
+      "programsTop": "Ciencias Bioquimicas (70) | Biologia (65) | Quimica Farmaceutico Biologica (27) | Ciencias Biologicas (22) | Quimica de Alimentos (19) | Ciencias Biomedicas (16) | Quimica (8) | Bioquimicas (5) | Fisica (4) | Bioquimica (4)",
+      "levelsTop": "Licenciatura (127) | Maestria (79) | Doctorado (47)",
+      "campusesTop": "Facultad de Quimica Unam (85) | Facultad de Ciencias Unam (63) | No Especificado Unam (45) | Instituto de Biotecnologia Unam (26) | Instituto de Ecologia Unam (14) | Facultad de Estudios Superiores Iztacala Unam (7)",
+      "sampleTitles": "análisis bioinformático de las calmodulinas de plantas en arabidopsis thaliana | un modelo de red de regulacion genica para la determinacion de organos florales en arabidopsis thaliana | caracterización de una mutante de arabidopsis thaliana afectada en el desarrollo de la raíz | analisis funcional preliminar de un gen mads-box en el desarrollo de la raiz de arabidopsis thaliana (l.) heynh | genes mads-box en el desarrollo de la raiz de arabidopsis thaliana : patrones de expresion in situ y análisis filogenetico | modelo dinámico de la red de regulación del ciclo celular de arabidopsis thaliana | analisis preliminar de la funcion del gen mads-box agl 19 en el desarrollo de arabidopsis thaliana (l.) heynh | analisis de la funcion del gen mads-box agl21 usando lineas de sobre-expresion en arabidopsis thaliana",
+      "color": "#2E9D71",
+      "originalLabel": "Ciencias Bioquimicas",
+      "shortLabel": "Ciencias Bioquimicas",
+      "labelMethod": "unique_original"
+    },
+    {
+      "id": "C147",
+      "clusterId": 147,
+      "macroId": "Area2_M11",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Drosophila Melanogaster - Biología",
+      "size": 207,
+      "radius": 9.0,
+      "position": {
+        "x": -0.54546,
+        "y": -0.71587
+      },
+      "dominantAreaShare": 0.5266,
+      "programsTop": "Biologia (129) | Ciencias Bioquimicas (34) | Ciencias Biologicas (10) | Neurobiologia (7) | Biologia Celular (6) | Investigacion Biomedica Basica (4) | Ciencias Biomedicas (4) | Quimica Farmaceutico Biologica (3) | Bioquimica (2) | Medicina Veterinaria y Zootecnia (2)",
+      "levelsTop": "Licenciatura (134) | Maestria (53) | Doctorado (20)",
+      "campusesTop": "Facultad de Ciencias Unam (96) | Facultad de Estudios Superiores Iztacala Unam (46) | Instituto de Biotecnologia Unam (19) | No Especificado Unam (18) | Facultad de Quimica Unam (8) | Instituto de Neurobiologia Unam (8)",
+      "sampleTitles": "evaluación del efecto del resveratrol sobre la genotoxicidad de la nicotina en smart en ala de drosophila melanogaster en las cruzas estándar y de bioactivación elevada | evaluación del posible efecto modulador del resveratrol en cotratamiento con nicotina, con smart en ala de drosophila melanogaster, cruza de bioactivación elevada (hb) | estudio de un elemento regulatorio interno del locus de notch en drosophila melanogaster | evaluación de la interacción del mms, feso4 y vitamina c con la prueba smart en ala de drosophila melanogaster | evaluación del efecto del resveratrol en co-tratamiento con nicotina en smart en ala de drosophila melanogaster meigen, 1830 (diptera drosophillidae), ce | comparacion de la actividad genotoxica de tres compuestos del grupo de las azidas en celulas somaticas de drosophila melanogaster | determinacion del efecto genotoxico de malmea depressa mediante el empleo de celulas somaticas del ala de drosophila melanogaster | algunos componentes genéticos de cuatro poblaciones experimentales de drosophila melanogaster",
+      "color": "#2E9D71",
+      "originalLabel": "Biologia",
+      "shortLabel": "Drosophila Melanogaster - Biología",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C133",
+      "target": "C61",
+      "count": 2,
+      "meanScore": 0.756155,
+      "maxScore": 0.759159,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C140",
+      "target": "C61",
+      "count": 2,
+      "meanScore": 0.762709,
+      "maxScore": 0.770248,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C129",
+      "target": "C61",
+      "count": 1,
+      "meanScore": 0.790601,
+      "maxScore": 0.790601,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

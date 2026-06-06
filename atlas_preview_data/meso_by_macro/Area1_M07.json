@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area1_M07",
+    "label": "Computación, Información y Sistemas",
+    "shortLabel": "Computación, Información y Sistem...",
+    "area": "Area 1",
+    "size": 5549,
+    "description": "Tesis relacionadas con computación, información, bibliotecología, sistemas, pedagogía tecnol?gica y comunicación del conocimiento."
+  },
+  "nodes": [
+    {
+      "id": "C23",
+      "clusterId": 23,
+      "macroId": "Area1_M07",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Ingeniería en Computación",
+      "size": 5549,
+      "radius": 19.5,
+      "position": {
+        "x": -0.89698,
+        "y": -0.07365
+      },
+      "dominantAreaShare": 0.4732,
+      "programsTop": "Ingenieria en Computacion (692) | Ingenieria Mecanica Electrica (608) | Psicologia (531) | Pedagogia (442) | Bibliotecologia y Estudios de la Informacion (251) | Bibliotecologia (236) | Arquitectura (193) | Ciencias de la Comunicacion (128) | Derecho (125) | Informatica (122)",
+      "levelsTop": "Licenciatura (4504) | Maestria (738) | Doctorado (181) | Especialidad (123)",
+      "campusesTop": "Facultad de Ingenieria Unam (1150) | Facultad de Filosofia y Letras Unam (750) | Facultad de Estudios Superiores Aragon Unam (651) | Facultad de Ciencias Politicas y Sociales Unam (328) | No Especificado Unam (268) | Facultad de Estudios Superiores Acatlan Unam (251)",
+      "sampleTitles": "Diseno de una red para la comunicacion de voz y datos entre las ciudades de Mexico, Monterrey, Guadalajara, Puebla y Merida, para una empresa de telefonia celular mediante enlaces digitales norma G.703 | los contratos aleatorios | naturaleza juridica de la loteria nacional para la asistencia publica | Diseno de una red para la comunicacion de voz y datos entre las ciudades de Mexico, Monterrey, Guadalajara, Puebla y Merida para una empresa de telefonia celular mediante enlaces digitales norma G.703 | biblioteca publica | biblioteca regional | sistema de monitoreo de telefonos públicos alcancias | telemetria y control remoto",
+      "color": "#D8524A",
+      "originalLabel": "Ingenieria en Computacion",
+      "shortLabel": "Ingeniería en Computación",
+      "labelMethod": "unique_original"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

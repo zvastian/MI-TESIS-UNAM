@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C828",
+    "clusterId": 828,
+    "macroId": "Area1_M09",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0435934",
+      "title": "software para la modelación de datos gravimétricos",
+      "year": 2015,
+      "author": "Gustavo Hernández Martínez",
+      "advisor": "Araceli Zamora Camacho · +1 más",
+      "program": "ingenieria en computacion",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-40587?func=service&doc_library=TES01&doc_number=000729423&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.935753,
+      "titleKey": "software para la modelacion de datos gravimetricos",
+      "titleFamilyKey": "software modela datos gravimet"
+    },
+    {
+      "thesisId": "TH_0452065",
+      "title": "levantamiento de datos gravimétricos : diseño de adquisición, procesamiento e interpretación guiados por modelado",
+      "year": 2016,
+      "author": "Zaida Martínez Casas",
+      "advisor": "Osvaldo Sánchez Zamora · +4 más",
+      "program": "ingenieria geofisica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5VC1B25ISXIERJRLHXLIN7S8AS3UEJY1FX2987DMHHQFJHND3U-21170?func=service&doc_library=TES01&doc_number=000753996&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.909532,
+      "titleKey": "levantamiento de datos gravimetricos diseno de adquisicion procesamiento e interpretacion guiados por modelado",
+      "titleFamilyKey": "levanta datos gravimet diseno adquisi procesa interpreta guiados"
+    },
+    {
+      "thesisId": "TH_0580356",
+      "title": "Optimizacion y modelacion tridimensional de datos gravimetricos",
+      "year": 1987,
+      "author": "Maria Lourdes Lezcano Trejos",
+      "advisor": "René E Chávez",
+      "program": "Ciencias (Geofísica)",
+      "level": "maestria",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "no especificado unam",
+      "url": null,
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.896809,
+      "titleKey": "optimizacion y modelacion tridimensional de datos gravimetricos",
+      "titleFamilyKey": "optimiza modela tridimen datos gravimet"
+    },
+    {
+      "thesisId": "TH_0155490",
+      "title": "paquete de programas para procesado de datos gravimetricos",
+      "year": 1982,
+      "author": "Juan Jimenez Mendez",
+      "advisor": "Octavio Lazaro Mancilla",
+      "program": "ingenieria geofisica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-53158?func=service&doc_library=TES01&doc_number=000021871&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.879153,
+      "titleKey": "paquete de programas para procesado de datos gravimetricos",
+      "titleFamilyKey": "paquete programa procesad datos gravimet"
+    },
+    {
+      "thesisId": "TH_0361194",
+      "title": "análisis de aplicabilidad e implementación del algoritmo de optimización por enjambre de partículas en la inversión de datos de gradiometría gravimétrica",
+      "year": 2019,
+      "author": "Eduardo Tapia Romero",
+      "advisor": "Mauricio Nava Flores",
+      "program": "ingenieria geofisica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-40383?func=service&doc_library=TES01&doc_number=000787268&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.82984,
+      "titleKey": "analisis de aplicabilidad e implementacion del algoritmo de optimizacion por enjambre de particulas en la inversion de datos de gradiometria gravimetrica",
+      "titleFamilyKey": "analisis aplicabil implementa algoritm optimiza enjambre particul inversio"
+    }
+  ]
+}

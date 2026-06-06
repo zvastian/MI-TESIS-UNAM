@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C687",
+    "clusterId": 687,
+    "macroId": "Area3_M04",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0298284",
+      "title": "nuevas estrategias de mercadotecnia politica para gobiernos caso estado de mexico",
+      "year": 2006,
+      "author": "Irma Cruz Esquivel",
+      "advisor": "Adela Mabarak Celis",
+      "program": "ciencias de la comunicacion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-09523?func=service&doc_library=TES01&doc_number=000602812&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.933952,
+      "titleKey": "nuevas estrategias de mercadotecnia politica para gobiernos caso estado de mexico",
+      "titleFamilyKey": "nuevas estrateg mercadot politica gobierno caso estado mexico"
+    },
+    {
+      "thesisId": "TH_0049612",
+      "title": "mercadotecnia estrategica como enfoque de gestion publica, su aplicacion en mexico a una organizacion del gobierno federal",
+      "year": 2003,
+      "author": "Claudia Eugenia Toca Torres",
+      "advisor": "Edgar Ortiz",
+      "program": "ciencia politica",
+      "level": "Doctorado",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3JKIMGNSB3DIKCR7AH42EK2S94JT2MTEEC3F6KUND2NL471CXT-15908?func=service&doc_library=TES01&doc_number=000323759&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.919943,
+      "titleKey": "mercadotecnia estrategica como enfoque de gestion publica su aplicacion en mexico a una organizacion del gobierno federal",
+      "titleFamilyKey": "mercadot estrateg como enfoque gestion publica aplica mexico"
+    },
+    {
+      "thesisId": "TH_0470755",
+      "title": "ordenamiento territorial de mercados públicos y tianguis : una política para nezahualcóyotl, estado de méxico",
+      "year": 2017,
+      "author": "Mariana Salazar Vargas",
+      "advisor": "Fernando Palma Galván",
+      "program": "urbanismo",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-24597?func=service&doc_library=TES01&doc_number=000766932&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.907582,
+      "titleKey": "ordenamiento territorial de mercados publicos y tianguis una politica para nezahualcoyotl estado de mexico",
+      "titleFamilyKey": "ordena territor mercados publicos tianguis politica nezahual estado"
+    },
+    {
+      "thesisId": "TH_0603216",
+      "title": "Alternativa al programa de remodelacion de mercados en el Valle de Chalco, Estado de Mexico : Mercado Independencia",
+      "year": 1995,
+      "author": "José Antonio Morales Vilchis",
+      "advisor": "Alfredo Toledo Molina",
+      "program": "Arquitectura",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/ppt1997/0224141/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.863274,
+      "titleKey": "alternativa al programa de remodelacion de mercados en el valle de chalco estado de mexico mercado independencia",
+      "titleFamilyKey": "alternat programa remodela mercados valle chalco estado mexico"
+    },
+    {
+      "thesisId": "TH_0107786",
+      "title": "algunos aspectos de la administración financiera como instrumento de la administración publica y su practica en empresas descentralizadas y de participacion estatal para su aplicacion en los estados en desarrollo en mexico",
+      "year": 1970,
+      "author": "J. Enrique Torres Maldonado O’charte",
+      "advisor": "Guillermo Cuevas Fernandez",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-33547?func=service&doc_library=TES01&doc_number=000081739&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.845894,
+      "titleKey": "algunos aspectos de la administracion financiera como instrumento de la administracion publica y su practica en empresas descentralizadas y de participacion estatal para su aplicacion en los estados en desarrollo en mexico",
+      "titleFamilyKey": "algunos aspectos administra financie como instrume administra publica"
+    }
+  ]
+}

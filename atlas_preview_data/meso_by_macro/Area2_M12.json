@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M12",
+    "label": "Reumatología e Inmunología Clínica",
+    "shortLabel": "Reumatología e Inmunología Clínica",
+    "area": "Area 2",
+    "size": 1340,
+    "description": "producción sobre reumatología, medicina interna, inmunología clínica, pediatr?a y enfermedades sist?micas."
+  },
+  "nodes": [
+    {
+      "id": "C99",
+      "clusterId": 99,
+      "macroId": "Area2_M12",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Reumatologia",
+      "size": 1340,
+      "radius": 19.5,
+      "position": {
+        "x": 0.49269,
+        "y": -0.75317
+      },
+      "dominantAreaShare": 0.9701,
+      "programsTop": "Reumatologia (285) | Medicina Interna (202) | Cirujano Dentista (86) | Medicina Familiar (73) | Pediatria Medica (66) | Reumatologia Pediatrica (53) | Pediatria (48) | Quimica Farmaceutico Biologica (39) | Ciencias Medicas (35) | Psicologia (33)",
+      "levelsTop": "Especialidad (1036) | Licenciatura (216) | Maestria (58) | Doctorado (29)",
+      "campusesTop": "Facultad de Medicina Unam (1080) | Facultad de Odontologia Unam (68) | No Especificado Unam (28) | Facultad de Quimica Unam (24) | Facultad de Estudios Superiores Iztacala Unam (23) | Facultad de Psicologia Unam (19)",
+      "sampleTitles": "calidad de vida en pacientes pediátricos con lupus eritematoso sistémico | características clínicas y de laboratorio de pacientes pediátricos mexicanos con lupus eritematoso sistémico | lupus eritematoso | manifestaciones pulmonares en niños con lupus eritematoso sistémico | prevencion primaria de fiebre reumatica | artritis de la articulacion temporomandibular | fiebre reumatica | daño acumulado y mortalidad de los pacientes con lupus eritematoso sistémico de inicio juvenil comparado con aquellos de inicio en edad adulta",
+      "color": "#2E9D71",
+      "originalLabel": "Reumatologia",
+      "shortLabel": "Reumatologia",
+      "labelMethod": "unique_original"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

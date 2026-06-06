@@ -1,0 +1,1556 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atlas Macro Preview</title>
+  <style>
+    :root {
+      --ink: #eaf3ff;
+      --muted: #9aabc2;
+      --line: rgba(166, 205, 255, .18);
+      --paper: #020817;
+      --panel: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 1px 1px, rgba(147,197,253,.16) 1px, transparent 1.2px) 0 0 / 24px 24px,
+        radial-gradient(circle at 75% 20%, rgba(34,211,238,.12), transparent 36%),
+        radial-gradient(circle at 18% 72%, rgba(167,139,250,.10), transparent 38%),
+        var(--paper);
+      overflow: hidden;
+    }
+
+    .shell {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      height: 100vh;
+      min-height: 620px;
+    }
+
+    .stage {
+      position: relative;
+      min-width: 0;
+      overflow: hidden;
+      border-right: 1px solid var(--line);
+      background:
+        radial-gradient(circle at 1px 1px, rgba(147,197,253,.14) 1px, transparent 1.2px) 0 0 / 24px 24px,
+        linear-gradient(180deg, rgba(15,23,42,.76), rgba(2,8,23,.94));
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    #sigmaStage {
+      position: absolute;
+      inset: 0;
+      display: none;
+    }
+
+    #sigmaStage.is-visible { display: block; }
+
+    #chart.is-hidden { display: none; }
+
+    .panel {
+      display: grid;
+      grid-template-rows: auto auto 1fr;
+      gap: 14px;
+      padding: 22px;
+      background: rgba(4, 12, 28, .92);
+      border-left: 1px solid rgba(147,197,253,.22);
+      overflow: auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .sub {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+      margin-top: 6px;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .neighborhood-controls {
+      display: none;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 12px;
+      border: 1px solid rgba(7,29,56,.12);
+      background: rgba(245,247,249,.72);
+    }
+
+    .neighborhood-controls.is-visible { display: grid; }
+
+    .segmented {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border: 1px solid #cfd6df;
+      background: #fff;
+    }
+
+    .segmented button {
+      min-height: 34px;
+      border: 0;
+      background: transparent;
+      color: var(--ink);
+    }
+
+    .segmented button.is-active {
+      background: var(--ink);
+      color: #fff;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--ink);
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      color: #8290a3;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    select,
+    input[type="file"],
+    button {
+      width: 100%;
+      min-height: 36px;
+      border: 1px solid #cfd6df;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      font-size: 13px;
+      padding: 0 10px;
+      border-radius: 0;
+    }
+
+    button {
+      background: var(--ink);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .full { grid-column: 1 / -1; }
+
+    .card {
+      border-top: 1px solid var(--line);
+      padding-top: 14px;
+    }
+
+    .metric {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(7,29,56,.08);
+      font-size: 13px;
+    }
+
+    .metric span:first-child { color: var(--muted); }
+    .metric strong { text-align: right; }
+
+    .legend {
+      display: grid;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .legend-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: #c7d6ea;
+    }
+
+    .swatch {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 1px solid rgba(7,29,56,.18);
+    }
+
+    .node {
+      cursor: pointer;
+      transition: opacity .18s ease;
+    }
+
+    .node circle {
+      stroke: rgba(7, 29, 56, .36);
+      stroke-width: 1.2;
+      vector-effect: non-scaling-stroke;
+    }
+
+    .node text {
+      font-size: 11px;
+      font-weight: 800;
+      fill: rgba(7,29,56,.82);
+      paint-order: stroke;
+      stroke: rgba(245,247,249,.96);
+      stroke-width: 4px;
+      stroke-linejoin: round;
+      pointer-events: none;
+    }
+
+    .edge {
+      fill: none;
+      stroke: rgba(7,29,56,.18);
+      vector-effect: non-scaling-stroke;
+    }
+
+    .edge.strong { stroke-opacity: .46; }
+    .edge.medium { stroke-opacity: .24; }
+    .edge.weak { stroke-opacity: .08; }
+    .edge.cross { stroke-dasharray: 4 4; }
+
+    .anchor-label {
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      fill: rgba(210,229,255,.54);
+    }
+
+    .is-dim { opacity: .18; }
+    .is-selected circle { stroke: #071d38; stroke-width: 3; }
+
+    .node.is-group {
+      cursor: default;
+      pointer-events: none;
+    }
+
+    .node.is-group circle {
+      stroke: rgba(7,29,56,.16);
+      stroke-dasharray: 4 5;
+    }
+
+    .node.is-group text {
+      font-size: 10px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      fill: rgba(7,29,56,.55);
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="stage">
+      <div id="sigmaStage" aria-label="Vista macro interactiva del atlas semántico"></div>
+      <svg id="chart" role="img" aria-label="Vista macro del atlas semántico"></svg>
+    </section>
+
+    <aside class="panel">
+      <header>
+        <h1>Atlas Macro Preview</h1>
+        <p class="sub">Carga <code>atlas_balanced_macro_graph.json</code> o colócalo junto a este HTML en <code>semantic_full/</code>.</p>
+      </header>
+
+      <section class="controls">
+        <label>
+          Radio
+          <select id="radiusMode">
+            <option value="balanced">Equilibrado</option>
+            <option value="volume">Volumen real</option>
+          </select>
+        </label>
+
+        <label>
+          Edges
+          <select id="edgeMode">
+            <option value="default">Strong + medium</option>
+            <option value="strong">Solo strong</option>
+            <option value="all">Todos</option>
+            <option value="none">Sin edges</option>
+          </select>
+        </label>
+
+        <label class="full">
+          JSON
+          <input id="fileInput" type="file" accept=".json,application/json" />
+        </label>
+
+        <button class="full" id="reloadBtn" type="button">Cargar ruta local</button>
+        <button class="full" id="backBtn" type="button" disabled>Volver al macro</button>
+        <button class="full" id="microBtn" type="button" disabled>Ver microclusters</button>
+      </section>
+
+      <section class="neighborhood-controls" id="neighborhoodControls">
+        <label class="full">
+          Modo
+          <span class="segmented">
+            <button id="modeUniverse" type="button">Universo</button>
+            <button id="modeAnalytic" type="button">Analitico</button>
+          </span>
+        </label>
+
+        <label>
+          Organizar/color
+          <select id="groupBy">
+            <option value="year">Ano</option>
+            <option value="program">Programa</option>
+            <option value="plantel">Plantel</option>
+            <option value="level">Nivel</option>
+            <option value="area">Area</option>
+          </select>
+        </label>
+
+        <label>
+          Filtro
+          <select id="filterValue">
+            <option value="__all__">Todo</option>
+          </select>
+        </label>
+
+        <label class="full">
+          Tesis <span id="countLabel">50</span>
+          <input id="countSlider" type="range" min="10" max="50" value="50" step="5" />
+        </label>
+      </section>
+
+      <section class="card" id="details">
+        <h1>Sin selección</h1>
+        <p class="sub">Haz click en un nodo para inspeccionarlo.</p>
+      </section>
+
+      <section class="card">
+        <h1>Áreas</h1>
+        <div class="legend" id="legend"></div>
+      </section>
+    </aside>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/graphology@0.25.4/dist/graphology.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sigma@2.4.0/build/sigma.min.js"></script>
+  <script>
+    const state = {
+      data: null,
+      macroData: null,
+      selected: null,
+      radiusMode: "balanced",
+      edgeMode: "default",
+      viewLevel: "macro",
+      currentMacroId: null,
+      navStack: [],
+      previousLayout: new Map(),
+      neighborhood: {
+        mode: "universe",
+        groupBy: "year",
+        filterValue: "__all__",
+        displayCount: 50,
+      },
+    };
+
+    const DISPLAY_POLICY = {
+      micro: {
+        minVisibleSize: 5,
+        maxVisibleNodesPerMacro: 30,
+      },
+    };
+
+    const svg = document.querySelector("#chart");
+    const sigmaStage = document.querySelector("#sigmaStage");
+    const details = document.querySelector("#details");
+    const legend = document.querySelector("#legend");
+    const neighborhoodControls = document.querySelector("#neighborhoodControls");
+    const modeUniverse = document.querySelector("#modeUniverse");
+    const modeAnalytic = document.querySelector("#modeAnalytic");
+    const groupBySelect = document.querySelector("#groupBy");
+    const filterValueSelect = document.querySelector("#filterValue");
+    const countSlider = document.querySelector("#countSlider");
+    const countLabel = document.querySelector("#countLabel");
+    let sigmaRenderer = null;
+    let sigmaGraph = null;
+    let sigmaInitialRatio = 1;
+    window.__atlasPreviewState = state;
+
+    document.querySelector("#radiusMode").addEventListener("change", event => {
+      state.radiusMode = event.target.value;
+      render();
+    });
+
+    document.querySelector("#edgeMode").addEventListener("change", event => {
+      state.edgeMode = event.target.value;
+      render();
+    });
+
+    document.querySelector("#fileInput").addEventListener("change", async event => {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      const text = await file.text();
+      state.data = JSON.parse(text);
+      state.macroData = state.data;
+      state.selected = null;
+      state.viewLevel = "macro";
+      state.currentMacroId = null;
+      state.navStack = [];
+      render();
+    });
+
+    document.querySelector("#reloadBtn").addEventListener("click", loadDefault);
+    document.querySelector("#backBtn").addEventListener("click", () => {
+      const previous = state.navStack.pop();
+      if (previous) {
+        state.data = previous.data;
+        state.selected = previous.selected || null;
+        state.viewLevel = previous.viewLevel;
+        state.currentMacroId = previous.currentMacroId || null;
+      } else if (state.macroData) {
+        state.data = state.macroData;
+        state.selected = null;
+        state.viewLevel = "macro";
+        state.currentMacroId = null;
+      }
+      render();
+    });
+    document.querySelector("#microBtn").addEventListener("click", async () => {
+      if (!state.currentMacroId) return;
+      await loadSubmap(state.currentMacroId, "micro");
+    });
+    modeUniverse.addEventListener("click", () => {
+      state.neighborhood.mode = "universe";
+      rebuildNeighborhoodView();
+    });
+    modeAnalytic.addEventListener("click", () => {
+      state.neighborhood.mode = "analytic";
+      rebuildNeighborhoodView();
+    });
+    groupBySelect.addEventListener("change", event => {
+      state.neighborhood.groupBy = event.target.value;
+      state.neighborhood.filterValue = "__all__";
+      rebuildNeighborhoodView();
+    });
+    filterValueSelect.addEventListener("change", event => {
+      state.neighborhood.filterValue = event.target.value;
+      rebuildNeighborhoodView();
+    });
+    countSlider.addEventListener("input", event => {
+      state.neighborhood.displayCount = Number(event.target.value);
+      rebuildNeighborhoodView();
+    });
+    window.addEventListener("resize", () => render());
+
+    function areaColor(area) {
+      const anchor = state.data?.anchors?.find(item => item.id === area);
+      return anchor?.color || "#6b7280";
+    }
+
+    function macroColor(area) {
+      const colors = {
+        "Area 1": "#ff6b6b",
+        "Area 2": "#45f5b0",
+        "Area 3": "#65a8ff",
+        "Area 4": "#ffd166",
+      };
+      return colors[area] || areaColor(area);
+    }
+
+    function project(pos, width, height) {
+      const pad = Math.min(width, height) * 0.12;
+      const x = pad + ((pos.x + 1) / 2) * (width - pad * 2);
+      const y = pad + ((pos.y + 1) / 2) * (height - pad * 2);
+      return { x, y };
+    }
+
+    function getRadius(node) {
+      if (typeof node.radius === "number") return node.radius;
+      if (node.level === "neighborhood_center") return node.radius || 18;
+      if (node.level === "neighbor") return node.radius || 8;
+      if (node.level === "thesis") return node.radius || 8;
+      return node.radius?.[state.radiusMode] || node.radius?.balanced || 18;
+    }
+
+    function pushView() {
+      if (!state.data) return;
+      state.navStack.push({
+        data: state.data,
+        selected: state.selected,
+        viewLevel: state.viewLevel,
+        currentMacroId: state.currentMacroId,
+      });
+    }
+
+    function hashString(value) {
+      let hash = 2166136261;
+      const text = String(value || "");
+      for (let i = 0; i < text.length; i++) {
+        hash ^= text.charCodeAt(i);
+        hash = Math.imul(hash, 16777619);
+      }
+      return hash >>> 0;
+    }
+
+    function thesisPosition(thesis, index, total) {
+      const seed = hashString(thesis.thesisId || thesis.title || index);
+      const ring = Math.floor(index / 8);
+      const angle = (index * 2.399963 + (seed % 1000) / 1000) % (Math.PI * 2);
+      const radius = Math.min(0.82, 0.18 + ring * 0.18 + ((seed % 17) / 100) * 0.16);
+      const squeeze = Math.max(0.72, Math.min(1, total / 16));
+      return {
+        x: Math.cos(angle) * radius * squeeze,
+        y: Math.sin(angle) * radius * 0.72,
+      };
+    }
+
+    function neighborhoodPosition(item, index, total) {
+      if (item.type === "project") return { x: 0, y: 0.48 };
+      const cols = Math.min(10, Math.max(5, Math.ceil(Math.sqrt(total) * 1.35)));
+      const row = Math.floor(index / cols);
+      const col = index % cols;
+      const rows = Math.ceil(total / cols);
+      const x = cols <= 1 ? 0 : -0.86 + (col / (cols - 1)) * 1.72;
+      const y = -0.78 + (row / Math.max(1, rows - 1)) * 0.58;
+      return {
+        x: x + ((hashString(item.id || index) % 100) / 1000) - 0.05,
+        y: y + ((hashString(`${item.id}-y`) % 80) / 1000) - 0.04,
+      };
+    }
+
+    function normalizeText(value, fallback = "s/d") {
+      const text = String(value || "").trim();
+      return text || fallback;
+    }
+
+    function categoryValue(node, groupBy) {
+      if (groupBy === "year") {
+        const year = Number(node.year);
+        if (!Number.isFinite(year)) return "s/f";
+        const decade = Math.floor(year / 10) * 10;
+        return `${decade}s`;
+      }
+      if (groupBy === "program") return normalizeText(node.program);
+      if (groupBy === "plantel") return normalizeText(node.campus || node.plantel);
+      if (groupBy === "level") return normalizeText(node.levelLabel || node.level);
+      if (groupBy === "area") return normalizeText(node.area);
+      return "Todo";
+    }
+
+    function groupColor(label, index) {
+      const palette = [
+        "#2f6fb1", "#d9534f", "#38a078", "#d8a84e", "#7e62b8",
+        "#4c9aa5", "#c96f3d", "#5b7f4d", "#b75d93", "#6d8799",
+      ];
+      return palette[(hashString(label) + index) % palette.length];
+    }
+
+    function filteredNeighborhoodNodes() {
+      const payload = state.data?.rawNeighborhoodPayload;
+      if (!payload) return [];
+      const rawNodes = payload.nodes || [];
+      const centerRaw = rawNodes.find(node => node.type === "project") || rawNodes[0] || {};
+      const neighbors = rawNodes
+        .filter(node => node.type !== "project")
+        .map((node, index) => ({
+          ...node,
+          rank: node.rank || index + 1,
+          similarity: Number(node.similarity || 0),
+        }))
+        .sort((a, b) => Number(b.similarity || 0) - Number(a.similarity || 0));
+
+      const selectedFilter = state.neighborhood.filterValue;
+      const filtered = selectedFilter === "__all__"
+        ? neighbors
+        : neighbors.filter(node => categoryValue({
+            year: node.year,
+            program: node.program,
+            campus: node.plantel,
+            plantel: node.plantel,
+            levelLabel: node.level,
+            area: node.area,
+          }, state.neighborhood.groupBy) === selectedFilter);
+
+      return { centerRaw, neighbors: filtered.slice(0, state.neighborhood.displayCount) };
+    }
+
+    function groupNeighborhoodNodes(nodes) {
+      const grouped = new Map();
+      for (const node of nodes) {
+        const label = categoryValue(node, state.neighborhood.groupBy);
+        if (!grouped.has(label)) grouped.set(label, []);
+        grouped.get(label).push(node);
+      }
+      return [...grouped.entries()]
+        .sort((a, b) => b[1].length - a[1].length || String(a[0]).localeCompare(String(b[0]), "es"));
+    }
+
+    function updateNeighborhoodControls() {
+      const isNeighborhood = state.viewLevel === "neighborhood" && !!state.data?.rawNeighborhoodPayload;
+      neighborhoodControls.classList.toggle("is-visible", isNeighborhood);
+      modeUniverse.classList.toggle("is-active", state.neighborhood.mode === "universe");
+      modeAnalytic.classList.toggle("is-active", state.neighborhood.mode === "analytic");
+      groupBySelect.value = state.neighborhood.groupBy;
+      countSlider.value = String(state.neighborhood.displayCount);
+      countLabel.textContent = String(state.neighborhood.displayCount);
+
+      if (!isNeighborhood) return;
+
+      const payload = state.data.rawNeighborhoodPayload;
+      const rawNodes = (payload.nodes || []).filter(node => node.type !== "project");
+      const values = [...new Set(rawNodes.map(node => categoryValue({
+        year: node.year,
+        program: node.program,
+        campus: node.plantel,
+        plantel: node.plantel,
+        levelLabel: node.level,
+        area: node.area,
+      }, state.neighborhood.groupBy)))].sort((a, b) => String(a).localeCompare(String(b), "es"));
+
+      const current = state.neighborhood.filterValue;
+      filterValueSelect.innerHTML = `<option value="__all__">Todo</option>`;
+      for (const value of values) {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        filterValueSelect.appendChild(option);
+      }
+      if (current !== "__all__" && values.includes(current)) {
+        filterValueSelect.value = current;
+      } else {
+        state.neighborhood.filterValue = "__all__";
+        filterValueSelect.value = "__all__";
+      }
+    }
+
+    function computeNeighborhoodUniversePositions(neighbors) {
+      const total = Math.max(1, neighbors.length);
+      const positions = new Map([["PROJECT", { x: 0, y: 0.48 }]]);
+      neighbors.forEach((node, index) => {
+        positions.set(node.id, neighborhoodPosition(node, index, total));
+      });
+      return positions;
+    }
+
+    function computeNeighborhoodAnalyticPositions(neighbors, groups) {
+      const positions = new Map([["PROJECT", { x: 0, y: -0.76 }]]);
+      const count = groups.length;
+      const cols = Math.min(4, Math.max(1, Math.ceil(Math.sqrt(count))));
+      const rows = Math.ceil(count / cols);
+      const xGap = cols > 1 ? 1.54 / (cols - 1) : 0;
+      const yGap = rows > 1 ? 1.08 / (rows - 1) : 0;
+      const startX = -((cols - 1) * xGap) / 2;
+      const startY = -0.12;
+
+      groups.forEach(([label, items], gi) => {
+        const col = gi % cols;
+        const row = Math.floor(gi / cols);
+        const cx = startX + col * xGap;
+        const cy = startY + row * yGap;
+        const innerCols = Math.max(1, Math.ceil(Math.sqrt(items.length)));
+        const spacing = items.length > 16 ? 0.055 : items.length > 8 ? 0.07 : 0.085;
+        const width = (innerCols - 1) * spacing;
+        const groupRows = Math.ceil(items.length / innerCols);
+        const height = (groupRows - 1) * spacing;
+
+        items.forEach((node, index) => {
+          const ix = index % innerCols;
+          const iy = Math.floor(index / innerCols);
+          positions.set(node.id, {
+            x: cx - width / 2 + ix * spacing,
+            y: cy - height / 2 + iy * spacing,
+          });
+        });
+        positions.set(`GROUP::${label}`, { x: cx, y: cy + height / 2 + 0.18 });
+      });
+      return positions;
+    }
+
+    function rebuildNeighborhoodView() {
+      if (state.viewLevel !== "neighborhood" || !state.data?.rawNeighborhoodPayload) return;
+      const payload = state.data.rawNeighborhoodPayload;
+      const { centerRaw, neighbors } = filteredNeighborhoodNodes();
+      const centerId = centerRaw.id || payload.centerId || "PROJECT";
+      const groups = groupNeighborhoodNodes(neighbors);
+      const positions = state.neighborhood.mode === "analytic"
+        ? computeNeighborhoodAnalyticPositions(neighbors, groups)
+        : computeNeighborhoodUniversePositions(neighbors);
+      const scores = neighbors.map(node => Number(node.similarity || 0));
+      const maxScore = Math.max(...scores, 1);
+      const minScore = Math.min(...scores, maxScore);
+      const span = Math.max(0.000001, maxScore - minScore);
+      const groupIndex = new Map(groups.map(([label], index) => [label, index]));
+
+      const nodes = [
+        {
+          id: centerId,
+          level: "neighborhood_center",
+          title: centerRaw.title || centerRaw.label || centerId,
+          shortLabel: "Centro",
+          label: centerRaw.title || centerRaw.label || centerId,
+          year: centerRaw.year,
+          author: centerRaw.author,
+          advisor: centerRaw.advisor,
+          program: centerRaw.program,
+          levelLabel: centerRaw.level,
+          area: centerRaw.area,
+          campus: centerRaw.plantel,
+          url: centerRaw.url,
+          position: positions.get("PROJECT") || { x: 0, y: 0 },
+          radius: 20,
+          color: areaColor(centerRaw.area),
+        },
+      ];
+
+      for (const [label, items] of groups) {
+        if (state.neighborhood.mode !== "analytic") break;
+        const index = groupIndex.get(label) || 0;
+        nodes.push({
+          id: `GROUP::${label}`,
+          level: "neighborhood_group",
+          title: label,
+          label,
+          shortLabel: label.length > 24 ? `${label.slice(0, 21)}...` : label,
+          area: centerRaw.area,
+          position: positions.get(`GROUP::${label}`) || { x: 0, y: 0 },
+          radius: Math.min(30, 12 + items.length * 1.15),
+          color: groupColor(label, index),
+          count: items.length,
+        });
+      }
+
+      neighbors.forEach((node, index) => {
+        const score = Number(node.similarity || minScore);
+        const norm = (score - minScore) / span;
+        const groupLabel = categoryValue({
+          year: node.year,
+          program: node.program,
+          campus: node.plantel,
+          plantel: node.plantel,
+          levelLabel: node.level,
+          area: node.area,
+        }, state.neighborhood.groupBy);
+        nodes.push({
+          id: node.id,
+          level: "neighbor",
+          title: node.title || node.label || node.id,
+          shortLabel: String(node.rank || index + 1),
+          label: node.title || node.label || node.id,
+          rank: node.rank || index + 1,
+          similarity: score,
+          year: node.year,
+          author: node.author,
+          advisor: node.advisor,
+          program: node.program,
+          levelLabel: node.level,
+          area: node.area,
+          campus: node.plantel,
+          url: node.url,
+          position: positions.get(node.id) || { x: 0, y: 0 },
+          radius: 7 + norm * 5,
+          color: state.neighborhood.mode === "analytic"
+            ? groupColor(groupLabel, groupIndex.get(groupLabel) || 0)
+            : areaColor(node.area),
+          categoryLabel: groupLabel,
+        });
+      });
+
+      const edges = neighbors.map((node, index) => ({
+        source: centerId,
+        target: node.id,
+        weight: Number(node.similarity || 0),
+        rank: node.rank || index + 1,
+        tier: index < 10 ? "strong" : index < 30 ? "medium" : "weak",
+        strokeWidth: 1.2 + Math.max(0, Number(node.similarity || 0) - 0.72) * 9,
+        isCrossArea: node.area && centerRaw.area && node.area !== centerRaw.area,
+      }));
+
+      state.data.nodes = nodes;
+      state.data.edges = edges;
+      state.data.center = nodes[0];
+      state.data.meta = {
+        ...(payload.meta || {}),
+        returned: neighbors.length,
+        scoreMin: scores.length ? Math.min(...scores) : null,
+        scoreMax: scores.length ? Math.max(...scores) : null,
+        groups: groups.length,
+      };
+      state.selected = null;
+      render();
+    }
+
+    function layoutNodes(nodes, width, height) {
+      const pad = Math.min(width, height) * 0.08;
+      const points = nodes.map(node => {
+        const projected = project(node.position, width, height);
+        const r = getRadius(node);
+        return {
+          id: node.id,
+          node,
+          x: projected.x,
+          y: projected.y,
+          anchorX: projected.x,
+          anchorY: projected.y,
+          r,
+        };
+      });
+
+      for (let iter = 0; iter < 120; iter++) {
+        for (let i = 0; i < points.length; i++) {
+          const a = points[i];
+
+          for (let j = i + 1; j < points.length; j++) {
+            const b = points[j];
+            let dx = b.x - a.x;
+            let dy = b.y - a.y;
+            let dist = Math.hypot(dx, dy);
+            if (dist < 0.001) {
+              const angle = ((i + 1) * 1.618 + j) % Math.PI;
+              dx = Math.cos(angle);
+              dy = Math.sin(angle);
+              dist = 1;
+            }
+
+            const minDist = a.r + b.r + 18;
+            if (dist < minDist) {
+              const push = (minDist - dist) * 0.52;
+              const ux = dx / dist;
+              const uy = dy / dist;
+              a.x -= ux * push;
+              a.y -= uy * push;
+              b.x += ux * push;
+              b.y += uy * push;
+            }
+          }
+        }
+
+        for (const p of points) {
+          p.x += (p.anchorX - p.x) * 0.055;
+          p.y += (p.anchorY - p.y) * 0.055;
+          p.x = Math.max(pad + p.r, Math.min(width - pad - p.r, p.x));
+          p.y = Math.max(pad + p.r, Math.min(height - pad - p.r, p.y));
+        }
+      }
+
+      return new Map(points.map(point => [point.id, point]));
+    }
+
+    function visibleEdges(edges) {
+      if (state.edgeMode === "none") return [];
+      if (state.edgeMode === "strong") return edges.filter(edge => edge.tier === "strong");
+      if (state.edgeMode === "all") return edges;
+      return edges.filter(edge => edge.tier === "strong" || edge.tier === "medium").slice(0, 120);
+    }
+
+    function applyDisplayPolicy(payload, level) {
+      if (level !== "micro") return payload;
+
+      const minSize = DISPLAY_POLICY.micro.minVisibleSize;
+      const maxNodes = DISPLAY_POLICY.micro.maxVisibleNodesPerMacro;
+      const originalNodes = payload.nodes || [];
+      let visibleNodes = originalNodes
+        .filter(node => Number(node.size || 0) >= minSize)
+        .sort((a, b) => Number(b.size || 0) - Number(a.size || 0))
+        .slice(0, maxNodes);
+
+      if (!visibleNodes.length && originalNodes.length) {
+        visibleNodes = [...originalNodes]
+          .sort((a, b) => Number(b.size || 0) - Number(a.size || 0))
+          .slice(0, Math.min(8, originalNodes.length));
+      }
+
+      const visibleIds = new Set(visibleNodes.map(node => node.id));
+      const visibleEdges = (payload.edges || []).filter(edge =>
+        visibleIds.has(edge.source) && visibleIds.has(edge.target)
+      );
+      const hiddenNodes = originalNodes.filter(node => !visibleIds.has(node.id));
+
+      return {
+        ...payload,
+        nodes: visibleNodes,
+        edges: visibleEdges,
+        displayPolicy: {
+          level,
+          minVisibleSize: minSize,
+          maxVisibleNodesPerMacro: maxNodes,
+          originalNodeCount: originalNodes.length,
+          visibleNodeCount: visibleNodes.length,
+          hiddenNodeCount: hiddenNodes.length,
+          hiddenThesisCount: hiddenNodes.reduce((sum, node) => sum + Number(node.size || 0), 0),
+        },
+      };
+    }
+
+    function getEdgeTier(edge) {
+      if (edge.tier) return edge.tier;
+      if ((edge.count || 0) >= 100) return "strong";
+      if ((edge.count || 0) >= 20) return "medium";
+      return "weak";
+    }
+
+    function edgeOpacity(edge) {
+      if (state.selected && (edge.source === state.selected || edge.target === state.selected)) return 0.72;
+      if (state.selected) return 0.06;
+      if (edge.tier === "strong") return 0.34;
+      if (edge.tier === "medium") return 0.18;
+      return 0.06;
+    }
+
+    function destroySigma() {
+      if (sigmaRenderer) {
+        sigmaRenderer.kill();
+        sigmaRenderer = null;
+      }
+      sigmaGraph = null;
+      sigmaStage.classList.remove("is-visible");
+      svg.classList.remove("is-hidden");
+    }
+
+    function sigmaLibsReady() {
+      return Boolean(window.graphology && window.Sigma);
+    }
+
+    function sigmaEdgeColor(edge) {
+      if (edge.isCrossArea) return "rgba(209, 213, 255, 0.24)";
+      const tier = getEdgeTier(edge);
+      if (tier === "strong") return "rgba(186, 230, 253, 0.32)";
+      if (tier === "medium") return "rgba(147, 197, 253, 0.18)";
+      return "rgba(148, 163, 184, 0.08)";
+    }
+
+    function renderSigmaMacro() {
+      if (!sigmaLibsReady() || state.viewLevel !== "macro") return false;
+
+      svg.innerHTML = "";
+      svg.classList.add("is-hidden");
+      sigmaStage.classList.add("is-visible");
+
+      if (sigmaRenderer) sigmaRenderer.kill();
+      const Graph = window.graphology.Graph;
+      const graph = new Graph({ multi: false, type: "undirected" });
+      sigmaGraph = graph;
+
+      const nodes = state.data.nodes || [];
+      const edges = visibleEdges(state.data.edges || []);
+
+      for (const node of nodes) {
+        const p = node.position || { x: 0, y: 0 };
+        graph.addNode(node.id, {
+          atlasNode: node,
+          x: Number(p.x || 0),
+          y: -Number(p.y || 0),
+          size: Math.max(8, getRadius(node) * 0.72),
+          label: node.shortLabel || node.label || node.id,
+          color: macroColor(node.area),
+          borderColor: "rgba(255,255,255,.92)",
+          forceLabel: Number(node.size || 0) > 12000,
+        });
+      }
+
+      edges.forEach((edge, index) => {
+        if (!graph.hasNode(edge.source) || !graph.hasNode(edge.target)) return;
+        const key = `${edge.source}::${edge.target}::${index}`;
+        graph.addEdgeWithKey(key, edge.source, edge.target, {
+          size: Math.max(0.25, Number(edge.strokeWidth || 1) * 0.34),
+          color: sigmaEdgeColor(edge),
+          hidden: state.edgeMode === "none",
+        });
+      });
+
+      sigmaRenderer = new window.Sigma(graph, sigmaStage, {
+        allowInvalidContainer: true,
+        defaultNodeType: "circle",
+        defaultEdgeType: "line",
+        renderEdgeLabels: false,
+        labelColor: { color: "#dbeafe" },
+        labelWeight: "700",
+        labelSize: 11,
+        labelDensity: 0.09,
+        labelGridCellSize: 90,
+        stagePadding: 44,
+        minCameraRatio: 0.18,
+        maxCameraRatio: 1,
+        enableEdgeEvents: false,
+      });
+      window.__atlasSigmaRenderer = sigmaRenderer;
+      window.__atlasSigmaGraph = graph;
+
+      const camera = sigmaRenderer.getCamera();
+      sigmaInitialRatio = camera.getState().ratio || 1;
+      camera.on("updated", () => {
+        const next = camera.getState();
+        if (next.ratio > sigmaInitialRatio) {
+          camera.setState({ ...next, ratio: sigmaInitialRatio });
+        }
+      });
+
+      const blockZoomOut = event => {
+        if (event.deltaY > 0) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+      };
+      sigmaStage.onwheel = blockZoomOut;
+      sigmaStage.addEventListener("wheel", blockZoomOut, { capture: true, passive: false });
+
+      sigmaRenderer.on("clickNode", async ({ node }) => {
+        const atlasNode = graph.getNodeAttribute(node, "atlasNode");
+        state.selected = atlasNode.id;
+        renderDetails(atlasNode);
+        await openMacro(atlasNode);
+      });
+
+      sigmaRenderer.on("enterNode", ({ node }) => {
+        const atlasNode = graph.getNodeAttribute(node, "atlasNode");
+        renderDetails(atlasNode);
+      });
+
+      return true;
+    }
+
+    function render() {
+      if (!state.data) {
+        destroySigma();
+        svg.innerHTML = "";
+        details.innerHTML = "<h1>Sin datos</h1><p class=\"sub\">Carga el JSON para iniciar.</p>";
+        return;
+      }
+
+      document.querySelector("#backBtn").disabled = state.viewLevel === "macro" && state.navStack.length === 0;
+      document.querySelector("#microBtn").disabled = state.viewLevel !== "meso" || !state.currentMacroId;
+      updateNeighborhoodControls();
+
+      if (state.viewLevel === "macro" && renderSigmaMacro()) {
+        renderLegend();
+        if (!state.selected) renderMacroIntro();
+        return;
+      }
+
+      destroySigma();
+
+      const width = svg.clientWidth || 960;
+      const height = svg.clientHeight || 720;
+      const nodes = state.data.nodes || [];
+      const edges = visibleEdges(state.data.edges || []);
+      const byId = new Map(nodes.map(node => [node.id, node]));
+      const layout = layoutNodes(nodes, width, height);
+
+      svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+      svg.innerHTML = "";
+
+      const anchorGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      for (const anchor of state.data.anchors || []) {
+        const p = project(anchor.anchor, width, height);
+        const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        text.setAttribute("x", p.x);
+        text.setAttribute("y", p.y);
+        text.setAttribute("class", "anchor-label");
+        text.setAttribute("text-anchor", p.x < width / 2 ? "start" : "end");
+        text.textContent = `${anchor.label} · ${anchor.name}`;
+        anchorGroup.appendChild(text);
+      }
+      svg.appendChild(anchorGroup);
+
+      const edgeGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      for (const edge of edges) {
+        const a = byId.get(edge.source);
+        const b = byId.get(edge.target);
+        if (!a || !b) continue;
+
+        const pa = layout.get(a.id);
+        const pb = layout.get(b.id);
+        if (!pa || !pb) continue;
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        const mx = (pa.x + pb.x) / 2;
+        const my = (pa.y + pb.y) / 2;
+        const dx = pb.x - pa.x;
+        const dy = pb.y - pa.y;
+        const curve = Math.min(70, Math.hypot(dx, dy) * 0.18);
+        const cx = mx - dy / Math.hypot(dx || 1, dy || 1) * curve;
+        const cy = my + dx / Math.hypot(dx || 1, dy || 1) * curve;
+
+        path.setAttribute("d", `M ${pa.x} ${pa.y} Q ${cx} ${cy} ${pb.x} ${pb.y}`);
+        const tier = getEdgeTier(edge);
+        path.setAttribute("class", `edge ${tier} ${edge.isCrossArea ? "cross" : ""}`);
+        const edgeWidth = edge.strokeWidth || (edge.weight ? 0.8 + Math.max(0, edge.weight - 0.72) * 8 : 1.2);
+        path.setAttribute("stroke-width", Math.max(.6, edgeWidth * .42));
+        path.setAttribute("stroke", edge.isCrossArea ? "rgba(7,29,56,.34)" : "rgba(7,29,56,.22)");
+        path.setAttribute("stroke-opacity", edgeOpacity(edge));
+        edgeGroup.appendChild(path);
+      }
+      svg.appendChild(edgeGroup);
+
+      const nodeGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      for (const node of nodes) {
+        const p = layout.get(node.id) || project(node.position, width, height);
+        const r = getRadius(node);
+        const selected = state.selected === node.id;
+        const dim = state.selected && !selected && !(state.data.edges || []).some(edge =>
+          (edge.source === state.selected && edge.target === node.id) ||
+          (edge.target === state.selected && edge.source === node.id)
+        );
+
+        const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        const isGroup = node.level === "neighborhood_group";
+        g.setAttribute("class", `node ${isGroup ? "is-group" : ""} ${selected ? "is-selected" : ""} ${dim ? "is-dim" : ""}`);
+        const previous = state.previousLayout.get(node.id);
+        g.setAttribute("transform", `translate(${previous?.x ?? p.x},${previous?.y ?? p.y})`);
+        g.style.transition = "transform .55s cubic-bezier(.22,1,.36,1), opacity .18s ease";
+        requestAnimationFrame(() => {
+          g.setAttribute("transform", `translate(${p.x},${p.y})`);
+        });
+        g.addEventListener("click", async () => {
+          if (isGroup) return;
+          if (state.viewLevel === "macro") {
+            await openMacro(node);
+            return;
+          }
+          if (node.level === "meso" || node.level === "micro") {
+            await openTheses(node);
+            return;
+          }
+          state.selected = state.selected === node.id ? null : node.id;
+          render();
+          renderDetails(node);
+        });
+
+        const c = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+        c.setAttribute("r", r);
+        c.setAttribute("fill", node.color || areaColor(node.area));
+        const interdisciplinarity = Number(node.interdisciplinarity || 0);
+        c.setAttribute("fill-opacity", 0.78 - Math.min(0.34, interdisciplinarity * 0.28));
+        g.appendChild(c);
+
+        if (interdisciplinarity > 0.42) {
+          const halo = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+          halo.setAttribute("r", r + 5);
+          halo.setAttribute("fill", "none");
+          halo.setAttribute("stroke", "rgba(7,29,56,.42)");
+          halo.setAttribute("stroke-width", 1.4);
+          halo.setAttribute("stroke-dasharray", "3 4");
+          g.insertBefore(halo, c);
+        }
+
+        const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        label.setAttribute("y", (node.level === "thesis" || node.level === "neighbor") ? r + 13 : r + 15);
+        label.setAttribute("text-anchor", "middle");
+        label.textContent = node.shortLabel || node.id;
+        g.appendChild(label);
+
+        nodeGroup.appendChild(g);
+      }
+      svg.appendChild(nodeGroup);
+      state.previousLayout = new Map([...layout.entries()].map(([id, point]) => [id, { x: point.x, y: point.y }]));
+
+      renderLegend();
+      if (state.selected) {
+        const node = byId.get(state.selected);
+        if (node) renderDetails(node);
+      } else if (state.viewLevel === "neighborhood" && state.data.center) {
+        renderNeighborhoodIntro();
+      } else if (state.viewLevel === "theses" && state.data.parent) {
+        renderThesisIntro();
+      } else if (state.viewLevel !== "macro" && state.data.macro) {
+        renderSubmapIntro();
+      }
+    }
+
+    function renderLegend() {
+      legend.innerHTML = "";
+      for (const anchor of state.data.anchors || []) {
+        const row = document.createElement("div");
+        row.className = "legend-row";
+        row.innerHTML = `<span class="swatch" style="background:${anchor.color}"></span><span>${anchor.label}: ${anchor.name}</span>`;
+        legend.appendChild(row);
+      }
+    }
+
+    function renderDetails(node) {
+      if (node.level === "thesis") {
+        details.innerHTML = `
+          <h1>${node.title}</h1>
+          <p class="sub">${node.author || ""}${node.advisor ? ` · ${node.advisor}` : ""}</p>
+          <div class="metric"><span>ID</span><strong>${node.id}</strong></div>
+          <div class="metric"><span>Año</span><strong>${node.year || "s/d"}</strong></div>
+          <div class="metric"><span>Programa</span><strong>${node.program || "s/d"}</strong></div>
+          <div class="metric"><span>Nivel</span><strong>${node.levelLabel || "s/d"}</strong></div>
+          <div class="metric"><span>Área</span><strong>${node.areaLabel || node.area || "s/d"}</strong></div>
+          <div class="metric"><span>Score</span><strong>${Number(node.representativeScore || 0).toFixed(3)}</strong></div>
+          ${node.url ? `<p class="sub"><a href="${node.url}" target="_blank" rel="noreferrer">Abrir registro</a></p>` : ""}
+          <button class="full" type="button" data-action="open-neighborhood" data-thesis-id="${node.id}">
+            Abrir análisis
+          </button>
+        `;
+        return;
+      }
+
+      if (node.level === "neighborhood_center" || node.level === "neighbor") {
+        details.innerHTML = `
+          <h1>${node.title}</h1>
+          <p class="sub">${node.level === "neighborhood_center" ? "Tesis central" : `Tesis similar #${node.rank}`}</p>
+          <div class="metric"><span>ID</span><strong>${node.id}</strong></div>
+          <div class="metric"><span>Año</span><strong>${node.year || "s/d"}</strong></div>
+          <div class="metric"><span>Programa</span><strong>${node.program || "s/d"}</strong></div>
+          <div class="metric"><span>Nivel</span><strong>${node.levelLabel || "s/d"}</strong></div>
+          <div class="metric"><span>Área</span><strong>${node.area || "s/d"}</strong></div>
+          ${node.similarity ? `<div class="metric"><span>Similitud</span><strong>${Number(node.similarity).toFixed(3)}</strong></div>` : ""}
+          ${node.url ? `<p class="sub"><a href="${node.url}" target="_blank" rel="noreferrer">Abrir registro</a></p>` : ""}
+        `;
+        return;
+      }
+
+      if (node.level === "neighborhood_group") {
+        details.innerHTML = `
+          <h1>${node.label}</h1>
+          <p class="sub">Grupo analitico dentro del vecindario seleccionado.</p>
+          <div class="metric"><span>Variable</span><strong>${state.neighborhood.groupBy}</strong></div>
+          <div class="metric"><span>Tesis visibles</span><strong>${Number(node.count || 0).toLocaleString("es-MX")}</strong></div>
+        `;
+        return;
+      }
+
+      if (node.level !== "macro") {
+        details.innerHTML = `
+          <h1>${node.label}</h1>
+          <p class="sub">${node.sampleTitles || node.programsTop || ""}</p>
+          <p class="sub">Click para abrir tesis representativas de este conjunto.</p>
+          <div class="metric"><span>ID</span><strong>${node.id}</strong></div>
+          <div class="metric"><span>Nivel</span><strong>${node.level}</strong></div>
+          <div class="metric"><span>Área</span><strong>${node.areaLabel || node.area}</strong></div>
+          <div class="metric"><span>Tesis</span><strong>${Number(node.size || 0).toLocaleString("es-MX")}</strong></div>
+          <div class="metric"><span>Pureza área</span><strong>${Math.round((node.dominantAreaShare || 0) * 100)}%</strong></div>
+        `;
+        return;
+      }
+
+      details.innerHTML = `
+        <h1>${node.label}</h1>
+        <p class="sub">${node.description || ""}</p>
+        <div class="metric"><span>ID</span><strong>${node.id}</strong></div>
+        <div class="metric"><span>Área</span><strong>${node.areaLabel}</strong></div>
+        <div class="metric"><span>Tesis</span><strong>${node.size.toLocaleString("es-MX")}</strong></div>
+        <div class="metric"><span>Interdisciplina</span><strong>${Math.round(node.interdisciplinarity * 100)}%</strong></div>
+        <div class="metric"><span>Área 1</span><strong>${Math.round(node.areaMix.area1 * 100)}%</strong></div>
+        <div class="metric"><span>Área 2</span><strong>${Math.round(node.areaMix.area2 * 100)}%</strong></div>
+        <div class="metric"><span>Área 3</span><strong>${Math.round(node.areaMix.area3 * 100)}%</strong></div>
+        <div class="metric"><span>Área 4</span><strong>${Math.round(node.areaMix.area4 * 100)}%</strong></div>
+      `;
+    }
+
+    function renderMacroIntro() {
+      const nodes = state.data?.nodes || [];
+      const edges = visibleEdges(state.data?.edges || []);
+      details.innerHTML = `
+        <h1>Atlas Macro</h1>
+        <p class="sub">Vista Sigma interactiva: arrastra para desplazarte y usa la rueda para acercarte. El zoom hacia fuera queda bloqueado para mantener la lectura editorial del mapa.</p>
+        <div class="metric"><span>Nivel</span><strong>Macroclusters</strong></div>
+        <div class="metric"><span>Nodos</span><strong>${nodes.length}</strong></div>
+        <div class="metric"><span>Edges visibles</span><strong>${edges.length}</strong></div>
+        <div class="metric"><span>Vista</span><strong>${state.radiusMode === "volume" ? "Volumen real" : "Equilibrada"}</strong></div>
+      `;
+    }
+
+    function renderSubmapIntro() {
+      const macro = state.data.macro;
+      const policy = state.data.displayPolicy;
+      details.innerHTML = `
+        <h1>${macro?.label || "Submapa"}</h1>
+        <p class="sub">${state.viewLevel === "meso" ? "Subtemas meso" : "Microclusters principales"} dentro del macrocluster seleccionado. Click en un nodo para abrir sus tesis representativas.</p>
+        <div class="metric"><span>Nivel</span><strong>${state.viewLevel}</strong></div>
+        <div class="metric"><span>Nodos</span><strong>${(state.data.nodes || []).length}</strong></div>
+        <div class="metric"><span>Edges</span><strong>${(state.data.edges || []).length}</strong></div>
+        ${policy ? `
+          <div class="metric"><span>Ocultos por display</span><strong>${policy.hiddenNodeCount}</strong></div>
+          <div class="metric"><span>Minimo visual</span><strong>${policy.minVisibleSize} tesis</strong></div>
+        ` : ""}
+      `;
+    }
+
+    function renderThesisIntro() {
+      const parent = state.data.parent || {};
+      const source = state.data.source || {};
+      details.innerHTML = `
+        <h1>${parent.label || parent.id || "Tesis representativas"}</h1>
+        <p class="sub">Tesis más cercanas al centro semántico del conjunto, diversificadas por título.</p>
+        <div class="metric"><span>Nivel</span><strong>Tesis</strong></div>
+        <div class="metric"><span>Conjunto</span><strong>${parent.id || ""}</strong></div>
+        <div class="metric"><span>Tesis del conjunto</span><strong>${Number(source.micro?.size || parent.size || 0).toLocaleString("es-MX")}</strong></div>
+        <div class="metric"><span>Mostradas</span><strong>${(state.data.nodes || []).length}</strong></div>
+      `;
+    }
+
+    function renderNeighborhoodIntro() {
+      const center = state.data.center || {};
+      const meta = state.data.meta || {};
+      details.innerHTML = `
+        <h1>${center.title || "Vecindario semántico"}</h1>
+        <p class="sub">Top ${meta.returned || 50} tesis similares a la tesis central. Cambia entre Universo y Analitico para reorganizar por ano, programa, plantel, nivel o area.</p>
+        <div class="metric"><span>Nivel</span><strong>Vecindario</strong></div>
+        <div class="metric"><span>Modo</span><strong>${state.neighborhood.mode}</strong></div>
+        <div class="metric"><span>Organizacion</span><strong>${state.neighborhood.groupBy}</strong></div>
+        <div class="metric"><span>Tesis central</span><strong>${center.id || ""}</strong></div>
+        <div class="metric"><span>Similitud mínima</span><strong>${meta.scoreMin ? Number(meta.scoreMin).toFixed(3) : "s/d"}</strong></div>
+        <div class="metric"><span>Similitud máxima</span><strong>${meta.scoreMax ? Number(meta.scoreMax).toFixed(3) : "s/d"}</strong></div>
+      `;
+    }
+
+    async function fetchJson(url) {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error(`${res.status} ${url}`);
+      return res.json();
+    }
+
+    async function openMacro(node) {
+      const mesoUrl = `./atlas_preview_data/meso_by_macro/${node.id}.json`;
+      const microUrl = `./atlas_preview_data/micro_by_macro/${node.id}.json`;
+
+      try {
+        const meso = await fetchJson(mesoUrl);
+        if ((meso.nodes || []).length >= 4 && (meso.edges || []).length > 0) {
+          pushView();
+          state.data = meso;
+          state.viewLevel = "meso";
+          state.currentMacroId = node.id;
+          state.selected = null;
+          render();
+          return;
+        }
+      } catch {}
+
+      try {
+        const micro = await fetchJson(microUrl);
+        pushView();
+        state.data = applyDisplayPolicy(micro, "micro");
+        state.viewLevel = "micro";
+        state.currentMacroId = node.id;
+        state.selected = null;
+        render();
+      } catch (error) {
+        state.selected = node.id;
+        render();
+        renderDetails(node);
+      }
+    }
+
+    async function loadSubmap(macroId, level) {
+      const url = `./atlas_preview_data/${level}_by_macro/${macroId}.json`;
+      try {
+        pushView();
+        state.data = applyDisplayPolicy(await fetchJson(url), level);
+        state.viewLevel = level;
+        state.currentMacroId = macroId;
+        state.selected = null;
+        render();
+      } catch (error) {
+        details.innerHTML = `<h1>No se pudo cargar</h1><p class="sub">${error.message}</p>`;
+      }
+    }
+
+    function makeThesisData(parentNode, payload) {
+      const theses = payload.theses || [];
+      const area = parentNode.area || payload.micro?.area || state.data?.macro?.area || "";
+      const color = parentNode.color || areaColor(area);
+      const nodes = theses.map((thesis, index) => {
+        const title = thesis.title || thesis.thesisId || `Tesis ${index + 1}`;
+        const short = title.length > 34 ? `${title.slice(0, 31)}...` : title;
+        return {
+          id: thesis.thesisId || `T${index}`,
+          level: "thesis",
+          title,
+          shortLabel: thesis.year ? String(thesis.year) : short,
+          label: title,
+          year: thesis.year,
+          author: thesis.author,
+          advisor: thesis.advisor,
+          program: thesis.program,
+          levelLabel: thesis.level,
+          area,
+          areaLabel: thesis.area || parentNode.areaLabel || area,
+          campus: thesis.campus,
+          url: thesis.url,
+          representativeScore: thesis.representativeScore,
+          sourceRecord: thesis.sourceRecord,
+          position: thesisPosition(thesis, index, theses.length),
+          radius: 7 + Math.max(0, Math.min(1, thesis.representativeScore || 0)) * 4,
+          color,
+        };
+      });
+
+      return {
+        version: payload.version || "atlas-theses",
+        parent: parentNode,
+        source: payload,
+        macro: state.data?.macro || null,
+        anchors: state.data?.anchors || state.macroData?.anchors || [],
+        nodes,
+        edges: [],
+      };
+    }
+
+    function makeNeighborhoodData(payload) {
+      const rawNodes = payload.nodes || [];
+      const centerRaw = rawNodes.find(node => node.type === "project") || rawNodes[0] || {};
+      const neighbors = rawNodes.filter(node => node.type !== "project").slice(0, 50);
+      const centerId = centerRaw.id || payload.centerId;
+      const anchors = state.data?.anchors || state.macroData?.anchors || [];
+      const scores = neighbors.map(node => Number(node.similarity || 0));
+      const maxScore = Math.max(...scores, 1);
+      const minScore = Math.min(...scores, maxScore);
+      const span = Math.max(0.000001, maxScore - minScore);
+
+      const nodes = [
+        {
+          id: centerId,
+          level: "neighborhood_center",
+          title: centerRaw.title || centerRaw.label || centerId,
+          shortLabel: "Centro",
+          label: centerRaw.title || centerRaw.label || centerId,
+          year: centerRaw.year,
+          author: centerRaw.author,
+          advisor: centerRaw.advisor,
+          program: centerRaw.program,
+          levelLabel: centerRaw.level,
+          area: centerRaw.area,
+          campus: centerRaw.plantel,
+          url: centerRaw.url,
+          position: neighborhoodPosition({ ...centerRaw, type: "project" }, 0, neighbors.length),
+          radius: 20,
+          color: areaColor(centerRaw.area),
+        },
+        ...neighbors.map((node, index) => {
+          const score = Number(node.similarity || minScore);
+          const norm = (score - minScore) / span;
+          return {
+            id: node.id,
+            level: "neighbor",
+            title: node.title || node.label || node.id,
+            shortLabel: String(node.rank || index + 1),
+            label: node.title || node.label || node.id,
+            rank: node.rank || index + 1,
+            similarity: score,
+            year: node.year,
+            author: node.author,
+            advisor: node.advisor,
+            program: node.program,
+            levelLabel: node.level,
+            area: node.area,
+            campus: node.plantel,
+            url: node.url,
+            position: neighborhoodPosition(node, index, neighbors.length),
+            radius: 7 + norm * 5,
+            color: areaColor(node.area),
+          };
+        }),
+      ];
+
+      const edges = neighbors.map((node, index) => ({
+        source: centerId,
+        target: node.id,
+        weight: Number(node.similarity || 0),
+        rank: node.rank || index + 1,
+        tier: index < 10 ? "strong" : index < 30 ? "medium" : "weak",
+        strokeWidth: 1.2 + Math.max(0, Number(node.similarity || 0) - 0.72) * 9,
+        isCrossArea: node.area && centerRaw.area && node.area !== centerRaw.area,
+      }));
+
+      return {
+        version: payload.version || "atlas-thesis-neighborhood",
+        rawNeighborhoodPayload: payload,
+        center: nodes[0],
+        meta: payload.meta || {},
+        anchors,
+        nodes,
+        edges,
+      };
+    }
+
+    async function openTheses(node) {
+      const url = `./atlas_preview_data/theses_by_micro/${node.id}.json`;
+      try {
+        const payload = await fetchJson(url);
+        pushView();
+        state.data = makeThesisData(node, payload);
+        state.viewLevel = "theses";
+        state.selected = null;
+        render();
+      } catch (error) {
+        state.selected = node.id;
+        render();
+        details.innerHTML = `
+          <h1>${node.label || node.id}</h1>
+          <p class="sub">No se encontraron tesis representativas para este conjunto.</p>
+          <div class="metric"><span>ID</span><strong>${node.id}</strong></div>
+          <div class="metric"><span>Error</span><strong>${error.message}</strong></div>
+        `;
+      }
+    }
+
+    async function openNeighborhood(thesisId) {
+      const url = `./atlas_preview_data/neighborhood_by_thesis/${thesisId}.json`;
+      try {
+        const payload = await fetchJson(url);
+        pushView();
+        state.data = makeNeighborhoodData(payload);
+        state.viewLevel = "neighborhood";
+        state.selected = null;
+        rebuildNeighborhoodView();
+      } catch (error) {
+        details.innerHTML = `
+          <h1>No se pudo cargar vecindario</h1>
+          <p class="sub">${error.message}</p>
+        `;
+      }
+    }
+
+    details.addEventListener("click", async event => {
+      const button = event.target.closest("[data-action]");
+      if (!button) return;
+      if (button.dataset.action === "open-neighborhood" && button.dataset.thesisId) {
+        await openNeighborhood(button.dataset.thesisId);
+      }
+    });
+
+    async function loadDefault() {
+      const candidates = [
+        "./atlas_preview_data/atlas_balanced_macro_graph.json",
+        "./semantic_full/atlas_balanced_macro_graph.json",
+        "./atlas_balanced_macro_graph.json",
+      ];
+
+      for (const url of candidates) {
+        try {
+          const res = await fetch(url, { cache: "no-store" });
+          if (!res.ok) continue;
+          state.data = await res.json();
+          state.macroData = state.data;
+          state.selected = null;
+          state.viewLevel = "macro";
+          state.currentMacroId = null;
+          state.navStack = [];
+          render();
+          return;
+        } catch {}
+      }
+
+      details.innerHTML = "<h1>No se pudo cargar</h1><p class=\"sub\">Usa el selector de archivo y carga atlas_balanced_macro_graph.json.</p>";
+    }
+
+    loadDefault();
+  </script>
+</body>
+</html>

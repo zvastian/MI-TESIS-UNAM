@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C715",
+    "clusterId": 715,
+    "macroId": "Area3_M03",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0423714",
+      "title": "hacia una formación de directores de escena : una propuesta didáctica",
+      "year": 2014,
+      "author": "Tania Yabel Mayren Degollado",
+      "advisor": "Fidel Monroy Bautista",
+      "program": "literatura dramatica y teatro",
+      "level": "Licenciatura",
+      "area": "Area 4",
+      "campus": "facultad de filosofia y letras unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SJE94G6227D24YUGVES7Q4GLDBG4F8FFQAC8FHR7Q2FFHIDP4L-65621?func=service&doc_library=TES01&doc_number=000722477&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.927287,
+      "titleKey": "hacia una formacion de directores de escena una propuesta didactica",
+      "titleFamilyKey": "forma director escena propuest didactic"
+    },
+    {
+      "thesisId": "TH_0393759",
+      "title": "la comunicación organizacional dentro de la producción cinematográfica : reportaje de experiencia profesional como gerente de producción en el cortometraje, réquiem para la eternidad",
+      "year": 2012,
+      "author": "Brenda Lizeth Hernández Maya",
+      "advisor": "José Miguel Álvarez Ibargüengoitia",
+      "program": "ciencias de la comunicacion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DPI1CJIL2CV8EDT85S77S5M8BYH4ARAGJSRQH92IF35AFV94XR-45381?func=service&doc_library=TES01&doc_number=000693040&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.899711,
+      "titleKey": "la comunicacion organizacional dentro de la produccion cinematografica reportaje de experiencia profesional como gerente de produccion en el cortometraje requiem para la eternidad",
+      "titleFamilyKey": "comunica organiza dentro produc cinemato reportaj experien profesio"
+    },
+    {
+      "thesisId": "TH_0478504",
+      "title": "la cinematografía aplicada al ámbito de la comunicación organizacional : el guión de en zona muerta como medio de capacitación empresarial",
+      "year": 2018,
+      "author": "Jesús Armando Guerrero Morales",
+      "advisor": "Arturo Guillemaud Rodríguez Vázquez",
+      "program": "periodismo",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-51619?func=service&doc_library=TES01&doc_number=000781922&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.879993,
+      "titleKey": "la cinematografia aplicada al ambito de la comunicacion organizacional el guion de en zona muerta como medio de capacitacion empresarial",
+      "titleFamilyKey": "cinemato aplicada ambito comunica organiza guion zona muerta"
+    },
+    {
+      "thesisId": "TH_0332143",
+      "title": "el oficio del director de cine en sus propias palabras : la experiencia de hacer cine, versión del director",
+      "year": 2008,
+      "author": "Francisco Javier Ramírez Flores",
+      "advisor": "Leopoldo Gaytán Apáez",
+      "program": "ciencias de la comunicacion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-29745?func=service&doc_library=TES01&doc_number=000631999&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.876349,
+      "titleKey": "el oficio del director de cine en sus propias palabras la experiencia de hacer cine version del director",
+      "titleFamilyKey": "oficio director cine propias palabras experien hacer cine"
+    },
+    {
+      "thesisId": "TH_0373988",
+      "title": "proceso de aprendizaje como director de escena en el ogrito de suzanne lebeau",
+      "year": 2010,
+      "author": "Fernando Rodríguez Leal y León",
+      "advisor": "Martha Julia Toriz Proenza · +4 más",
+      "program": "literatura dramatica y teatro",
+      "level": "Licenciatura",
+      "area": "Area 4",
+      "campus": "facultad de filosofia y letras unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/B87LA8R4I11FSPN88K9SVRJELCAK392UI282BVC7US7NUCP5ME-05138?func=service&doc_library=TES01&doc_number=000725280&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.813033,
+      "titleKey": "proceso de aprendizaje como director de escena en el ogrito de suzanne lebeau",
+      "titleFamilyKey": "proceso aprendiz como director escena ogrito suzanne lebeau"
+    }
+  ]
+}

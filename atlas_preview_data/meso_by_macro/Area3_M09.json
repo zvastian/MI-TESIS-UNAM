@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area3_M09",
+    "label": "Derecho y Práctica Jurídica",
+    "shortLabel": "Derecho y Práctica Jurídica",
+    "area": "Area 3",
+    "size": 232,
+    "description": "Conjunto concentrado en derecho, práctica jurídica y v?nculos menores con psicología, pedagogía y trabajo social."
+  },
+  "nodes": [
+    {
+      "id": "C143",
+      "clusterId": 143,
+      "macroId": "Area3_M09",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Adopcion Internacional - Derecho",
+      "size": 232,
+      "radius": 19.5,
+      "position": {
+        "x": 0.2095,
+        "y": 0.87528
+      },
+      "dominantAreaShare": 0.9741,
+      "programsTop": "Derecho (211) | Psicologia (5) | Pedagogia (5) | Trabajo Social (4) | Administracion (2) | Sociologia (2) | Ciencias de la Salud (1) | Quimica (1) | Ciencias Politicas y Administracion Publica (1)",
+      "levelsTop": "Licenciatura (228) | Doctorado (2) | Maestria (2)",
+      "campusesTop": "Facultad de Derecho Unam (110) | Facultad de Estudios Superiores Aragon Unam (40) | Facultad de Estudios Superiores Acatlan Unam (18) | Universidad del Valle de Mexico (11) | Universidad Lasallista Benavente (8) | Universidad Latina (5)",
+      "sampleTitles": "adopcion internacional | la adopcion | la adopcion por comportamiento | la adopcion en el ambito internacional | adopcion internacional de menores | la adopción internacional | adopcion | la adopcion de menores en el derecho internacional privado",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Adopcion Internacional - Derecho",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

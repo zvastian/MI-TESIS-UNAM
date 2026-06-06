@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C869",
+    "clusterId": 869,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0305646",
+      "title": "prevalencia de maloclusiones en pacientes de 6 a 14 años de las clinicas perifericas las aguilas y aragon",
+      "year": 2006,
+      "author": "Rosaline Robledo Yslas",
+      "advisor": "Mario Hernández Pérez · +2 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-17248?func=service&doc_library=TES01&doc_number=000610272&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.961558,
+      "titleKey": "prevalencia de maloclusiones en pacientes de 6 a 14 anos de las clinicas perifericas las aguilas y aragon",
+      "titleFamilyKey": "prevalen maloclus paciente anos clinicas periferi aguilas aragon"
+    },
+    {
+      "thesisId": "TH_0038422",
+      "title": "prevalencia demaloclusiones en pacientes de 7 a 12 años de edad en la clinica periferica las aguilas",
+      "year": 2003,
+      "author": "America Ávila Pasten",
+      "advisor": "Mario Hernández Pérez · +2 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3JKIMGNSB3DIKCR7AH42EK2S94JT2MTEEC3F6KUND2NL471CXT-05915?func=service&doc_library=TES01&doc_number=000320113&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.941367,
+      "titleKey": "prevalencia demaloclusiones en pacientes de 7 a 12 anos de edad en la clinica periferica las aguilas",
+      "titleFamilyKey": "prevalen demalocl paciente anos edad clinica periferi aguilas"
+    },
+    {
+      "thesisId": "TH_0325137",
+      "title": "evaluación de factores de riesgo a caries en 200 pacientes de 3 a 12 años de la clínica periférica las águilas de la f.o. turno matutino",
+      "year": 2008,
+      "author": "Mariana Cumplido Aguirre",
+      "advisor": "Emilia Valenzuela Espinoza",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-21187?func=service&doc_library=TES01&doc_number=000637374&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.9063,
+      "titleKey": "evaluacion de factores de riesgo a caries en 200 pacientes de 3 a 12 anos de la clinica periferica las aguilas de la f o turno matutino",
+      "titleFamilyKey": "evalua factores riesgo caries 200 paciente anos clinica"
+    },
+    {
+      "thesisId": "TH_0392132",
+      "title": "prevalencia de hábitos bucales perniciosos y su asociación con las maloclusiones entre los niños que asistieron a la clínica periférica, las águilas, en el año 2009-2010",
+      "year": 2012,
+      "author": "Paulina Fraga Rodríguez",
+      "advisor": "Erika Heredia Ponce · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DPI1CJIL2CV8EDT85S77S5M8BYH4ARAGJSRQH92IF35AFV94XR-01683?func=service&doc_library=TES01&doc_number=000695896&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.881532,
+      "titleKey": "prevalencia de habitos bucales perniciosos y su asociacion con las maloclusiones entre los ninos que asistieron a la clinica periferica las aguilas en el ano 2009 2010",
+      "titleFamilyKey": "prevalen habitos bucales pernicio asocia maloclus ninos que"
+    },
+    {
+      "thesisId": "TH_0212020",
+      "title": "cirugia bucal, datos estadisticos de 1988-1991 en pacientes intervenidos en la clinica periferica las aguilas",
+      "year": 1992,
+      "author": "German Malanche Abbala",
+      "advisor": "Jorge Guillermo Zarza Cadena",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/TAKQ7GCFSBVPTGBGEDN5JBT5SK1MYHJJ8Y977BA49A22GDIK2C-46585?func=service&doc_library=TES01&doc_number=000180785&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.865866,
+      "titleKey": "cirugia bucal datos estadisticos de 1988 1991 en pacientes intervenidos en la clinica periferica las aguilas",
+      "titleFamilyKey": "cirugia bucal datos estadist 1988 1991 paciente interven"
+    }
+  ]
+}

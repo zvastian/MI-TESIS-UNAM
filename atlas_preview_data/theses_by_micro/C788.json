@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C788",
+    "clusterId": 788,
+    "macroId": "Area3_M06",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0107432",
+      "title": "aspectos sobre la auditoria de cuentas por cobrar",
+      "year": 1970,
+      "author": "Marco Tulio Saavedra Sanchez",
+      "advisor": "Servando Soto Ruiz de Chávez",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-08132?func=service&doc_library=TES01&doc_number=000080949&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.983837,
+      "titleKey": "aspectos sobre la auditoria de cuentas por cobrar",
+      "titleFamilyKey": "aspectos auditori cuentas cobrar"
+    },
+    {
+      "thesisId": "TH_0090915",
+      "title": "breve estudio sobre la auditoria de cuentas por cobrar",
+      "year": 1964,
+      "author": "Francisco Luna Llamosa",
+      "advisor": "Asesor no registrado",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/INCBXJSNSUVS6IGTS4H42TR1I98NSF3TSB7SFJ9UHGJSD4V5XQ-21460?func=service&doc_library=TES01&doc_number=000074676&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.974583,
+      "titleKey": "breve estudio sobre la auditoria de cuentas por cobrar",
+      "titleFamilyKey": "breve estudio auditori cuentas cobrar"
+    },
+    {
+      "thesisId": "TH_0605923",
+      "title": "Aspectos de auditoria sobre el rubro de cuentas por cobrar",
+      "year": 1995,
+      "author": "Irene Magaña Gonzalez",
+      "advisor": "Gerardo Alfredo Delgado Contreras",
+      "program": "Contaduría",
+      "level": "licenciatura",
+      "area": "Ciencias Sociales",
+      "campus": "facultad de administracion y contabilidad unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2016/0221647/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.973226,
+      "titleKey": "aspectos de auditoria sobre el rubro de cuentas por cobrar",
+      "titleFamilyKey": "aspectos auditori rubro cuentas cobrar"
+    },
+    {
+      "thesisId": "TH_0106024",
+      "title": "breve estudio sobre auditoria de cuentas por pagar",
+      "year": 1970,
+      "author": "Arturo Lemus Carrillo",
+      "advisor": "Asesor no registrado",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-05051?func=service&doc_library=TES01&doc_number=000080099&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.969129,
+      "titleKey": "breve estudio sobre auditoria de cuentas por pagar",
+      "titleFamilyKey": "breve estudio auditori cuentas pagar"
+    },
+    {
+      "thesisId": "TH_0016545",
+      "title": "aspectos generales en la auditoria de cuentas por pagar",
+      "year": 2001,
+      "author": "Pablo Ignacio López Flores",
+      "advisor": "Pedro Felipe Olivera Figueroa",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-38990?func=service&doc_library=TES01&doc_number=000298153&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.96191,
+      "titleKey": "aspectos generales en la auditoria de cuentas por pagar",
+      "titleFamilyKey": "aspectos generale auditori cuentas pagar"
+    }
+  ]
+}

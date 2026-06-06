@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C693",
+    "clusterId": 693,
+    "macroId": "Area1_M08",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0090168",
+      "title": "solucion al problema de transportacion vertical en los diferentes tipos de edificios",
+      "year": 1964,
+      "author": "Rafael Benitez Rojas",
+      "advisor": "Asesor no registrado",
+      "program": "ingenieria civil",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Y4EA2E7U8ABE2PJGGJBJF9881GYPUFKDCVXUTQH6RB7CE6E2P7-01176?func=service&doc_library=TES01&doc_number=000118191&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.92444,
+      "titleKey": "solucion al problema de transportacion vertical en los diferentes tipos de edificios",
+      "titleFamilyKey": "solu problema transporta vertical diferent tipos edificio"
+    },
+    {
+      "thesisId": "TH_0232741",
+      "title": "manual basico de transporte en circulacin vertical de edificios",
+      "year": 1994,
+      "author": "Victor Manuel Ortiz Fuentes",
+      "advisor": "Eduardo Navarro Guerrero",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/X3M1JK3ASDY754G7Q62EK6RENA6B5YMGXU7N85HKGD4QXKPPHL-31741?func=service&doc_library=TES01&doc_number=000210701&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.915328,
+      "titleKey": "manual basico de transporte en circulacin vertical de edificios",
+      "titleFamilyKey": "manual basico transpor circulac vertical edificio"
+    },
+    {
+      "thesisId": "TH_0133976",
+      "title": "transportacion vertical y horizontal en edificios",
+      "year": 1977,
+      "author": "Alejandro Alberto Damm Barles",
+      "advisor": "Asesor no registrado",
+      "program": "ingenieria civil",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7MP7L8T99DA3UQIEU6SAKX5AP6PUYFXJ4XEV75TL3VBQ27AHPB-20649?func=service&doc_library=TES01&doc_number=000134637&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.914024,
+      "titleKey": "transportacion vertical y horizontal en edificios",
+      "titleFamilyKey": "transporta vertical horizont edificio"
+    },
+    {
+      "thesisId": "TH_0091394",
+      "title": "solucion moderna al problema del transporte vertical",
+      "year": 1964,
+      "author": "Arsenio Rodriguez Trillas",
+      "advisor": "Asesor no registrado",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/INCBXJSNSUVS6IGTS4H42TR1I98NSF3TSB7SFJ9UHGJSD4V5XQ-54595?func=service&doc_library=TES01&doc_number=000129423&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.899477,
+      "titleKey": "solucion moderna al problema del transporte vertical",
+      "titleFamilyKey": "solu moderna problema transpor vertical"
+    },
+    {
+      "thesisId": "TH_0211171",
+      "title": "tratamiento numerico de trasporte dominado por adveccion",
+      "year": 1992,
+      "author": "Graciela del Socorro Herrera Zamarrón",
+      "advisor": "Ismael Herrera",
+      "program": "modelacion matematica y computacional de sistemas geofisicos",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.767782,
+      "titleKey": "tratamiento numerico de trasporte dominado por adveccion",
+      "titleFamilyKey": "trata numerico trasport dominado advec"
+    }
+  ]
+}

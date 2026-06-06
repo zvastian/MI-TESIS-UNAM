@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C855",
+    "clusterId": 855,
+    "macroId": "Area1_M09",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0328585",
+      "title": "puntos extremos de conjuntos de medidas",
+      "year": 2008,
+      "author": "Federico Lasa Gonsebatt",
+      "advisor": "Ana Meda",
+      "program": "matematicas",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-61053?func=service&doc_library=TES01&doc_number=000637799&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.905063,
+      "titleKey": "puntos extremos de conjuntos de medidas",
+      "titleFamilyKey": "puntos extremos conjunto medidas"
+    },
+    {
+      "thesisId": "TH_0402499",
+      "title": "medidas tipo lebesgue",
+      "year": 2013,
+      "author": "Jesús Antonio Astorga Moreno",
+      "advisor": "Salvador García Ferreira",
+      "program": "ciencias matematicas",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DNNT4PMDVH7MUEIP22HBSXKQDXSC88NG83PH7CASM6JRRXCYS3-49241?func=service&doc_library=TES01&doc_number=000695030&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.893845,
+      "titleKey": "medidas tipo lebesgue",
+      "titleFamilyKey": "medidas tipo lebesgue"
+    },
+    {
+      "thesisId": "TH_0263316",
+      "title": "problemas extremos y medidas",
+      "year": 1998,
+      "author": "Juan Jimenez Krassel",
+      "advisor": "Javier Páez Cárdenas",
+      "program": "matematicas",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/113XIUYQSYRNCI7B598YGB2KYKLCDBJS4AJRYNSUVB4AH9PMK9-35601?func=service&doc_library=TES01&doc_number=000264005&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.885256,
+      "titleKey": "problemas extremos y medidas",
+      "titleFamilyKey": "problema extremos medidas"
+    },
+    {
+      "thesisId": "TH_0503053",
+      "title": "derivación de medidas complejas",
+      "year": 2021,
+      "author": "José Alberto Meléndez Piña",
+      "advisor": "Pierre Bayard",
+      "program": "matematicas",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/8CNK4H5X97HH7RQ4T38GXYRMESUFSYN4LAB6XJ1M3E2XEHCU4F-52040?func=service&doc_library=TES01&doc_number=000814032&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.883053,
+      "titleKey": "derivacion de medidas complejas",
+      "titleFamilyKey": "deriva medidas compleja"
+    },
+    {
+      "thesisId": "TH_0315445",
+      "title": "medidas de hausdorff y ejemplos",
+      "year": 2007,
+      "author": "Sergio Ivan López Ortega",
+      "advisor": "Ana Meda",
+      "program": "actuaria",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DI8XT185UVTFQANYSJCK383TKG3C3L5RX6VBHJ9QRJBGID7TY7-51159?func=service&doc_library=TES01&doc_number=000618052&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.882768,
+      "titleKey": "medidas de hausdorff y ejemplos",
+      "titleFamilyKey": "medidas hausdorf ejemplos"
+    }
+  ]
+}

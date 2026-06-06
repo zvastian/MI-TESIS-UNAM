@@ -1,0 +1,163 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area3_M02",
+    "label": "Psicología, Pedagogía y Trabajo Social",
+    "shortLabel": "Psicología, Pedagogía y Trabajo S...",
+    "area": "Area 3",
+    "size": 23952,
+    "description": "Tesis sobre psicología, pedagogía, trabajo social, derecho, sociolog?a, salud mental y educación."
+  },
+  "nodes": [
+    {
+      "id": "C6",
+      "clusterId": 6,
+      "macroId": "Area3_M02",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Ninos Rendimiento Escolar - Psicología",
+      "size": 10518,
+      "radius": 30.0,
+      "position": {
+        "x": -0.57463,
+        "y": 0.02052
+      },
+      "dominantAreaShare": 0.5435,
+      "programsTop": "Psicologia (4231) | Derecho (1860) | Pedagogia (1530) | Cirujano Dentista (426) | Medicina Familiar (302) | Trabajo Social (255) | Arquitectura (206) | Psiquiatria (175) | Psiquiatria Infantil y de la Adolescencia (89) | Sociologia (89)",
+      "levelsTop": "Licenciatura (8585) | Especialidad (971) | Maestria (722) | Doctorado (227)",
+      "campusesTop": "Facultad de Psicologia Unam (1893) | Facultad de Estudios Superiores Iztacala Unam (1208) | Facultad de Derecho Unam (948) | Facultad de Medicina Unam (910) | Facultad de Filosofia y Letras Unam (683) | Facultad de Estudios Superiores Aragon Unam (637)",
+      "sampleTitles": "trastorno por déficit de atención | la custodia de los menores | estimulacion temprana | el adulterio como figura delictiva | asociación de los patrones de irritabilidad, agresión y hostilidad con psicopatología en niños y adolescentes hijos de pacientes con trastornos afectivos | la conducta antisocial del menor | frecuencia de niños con bajo rendimiento escolar en familias disfuncionales | factores de protección en la adolescencia",
+      "color": "#2F6FB3",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Ninos Rendimiento Escolar - Psico...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C8",
+      "clusterId": 8,
+      "macroId": "Area3_M02",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Pedagogia",
+      "size": 9027,
+      "radius": 28.72,
+      "position": {
+        "x": -0.67088,
+        "y": 0.23126
+      },
+      "dominantAreaShare": 0.4804,
+      "programsTop": "Pedagogia (2843) | Psicologia (1334) | Arquitectura (626) | Derecho (515) | Trabajo Social (367) | Sociologia (321) | Administracion (266) | Ciencias Politicas y Administracion Publica (201) | Ingenieria en Computacion (181) | Historia (177)",
+      "levelsTop": "Licenciatura (7479) | Maestria (1134) | Doctorado (344) | Especialidad (62)",
+      "campusesTop": "Facultad de Filosofia y Letras Unam (1782) | Facultad de Estudios Superiores Aragon Unam (898) | Facultad de Psicologia Unam (711) | Facultad de Ciencias Politicas y Sociales Unam (592) | Facultad de Arquitectura Unam (559) | Facultad de Estudios Superiores Acatlan Unam (545)",
+      "sampleTitles": "planetario universitario | la educacion como base de la estructura social | aspectos de cultura y desempeño académico en estudiantes universitarios del área contable y administrativa | conocimientos sobre vih | escuela secundaria tecnica | escuela de enfermeria | escuela secundaria tecnica en zacatecas, zac | centro de educación especial infantil",
+      "color": "#2F6FB3",
+      "originalLabel": "Pedagogia",
+      "shortLabel": "Pedagogia",
+      "labelMethod": "unique_original"
+    },
+    {
+      "id": "C54",
+      "clusterId": 54,
+      "macroId": "Area3_M02",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Papel Psicologo - Psicología",
+      "size": 3543,
+      "radius": 20.85,
+      "position": {
+        "x": -0.33379,
+        "y": -0.74123
+      },
+      "dominantAreaShare": 0.4584,
+      "programsTop": "Psicologia (2007) | Derecho (260) | Psiquiatria (146) | Pedagogia (129) | Medicina Familiar (104) | Arquitectura (100) | Filosofia (92) | Cirujano Dentista (70) | Trabajo Social (49) | Psicologia Clinica (41)",
+      "levelsTop": "Licenciatura (2786) | Especialidad (416) | Maestria (256) | Doctorado (82)",
+      "campusesTop": "Facultad de Psicologia Unam (862) | Facultad de Estudios Superiores Iztacala Unam (841) | Facultad de Medicina Unam (409) | Facultad de Filosofia y Letras Unam (199) | Facultad de Estudios Superiores Zaragoza Unam (198) | Facultad de Derecho Unam (145)",
+      "sampleTitles": "informe final del servicio social de la carrera de psicologia | centro de readaptacion social | el estrés y su relación con el clima organizacional | hospital psiquiatrico | intervención psicológica en el ámbito hospitalario | la autoeficacia como recurso para disminuir o proteger a los trabajadores de los efectos negativos del estrés laboral | centro de readaptación social | peritaje psicológico y atención a víctimas",
+      "color": "#2F6FB3",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Papel Psicologo - Psicología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C114",
+      "clusterId": 114,
+      "macroId": "Area3_M02",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Centro Rehabilitacion - Psicología",
+      "size": 864,
+      "radius": 9.0,
+      "position": {
+        "x": 0.46342,
+        "y": 0.77152
+      },
+      "dominantAreaShare": 0.3634,
+      "programsTop": "Psicologia (220) | Arquitectura (178) | Derecho (94) | Pedagogia (76) | Cirujano Dentista (63) | Trabajo Social (32) | Medicina de Rehabilitacion (31) | Medicina Familiar (19) | Odontologia (9) | Diseño Grafico (7)",
+      "levelsTop": "Licenciatura (689) | Especialidad (114) | Maestria (43) | Doctorado (18)",
+      "campusesTop": "Facultad de Arquitectura Unam (125) | Facultad de Psicologia Unam (115) | Facultad de Medicina Unam (88) | Facultad de Estudios Superiores Aragon Unam (82) | Facultad de Estudios Superiores Iztacala Unam (67) | Facultad de Odontologia Unam (60)",
+      "sampleTitles": "centro de rehabilitacion infantil | odontologia para el nino incapacitado | centro de desarrollo para niños discapacitados | centro de readaptacion para menores | centro de rehabilitacion integral para deportistas de alto rendimiento | centro de rehabilitacion para minusvalidos | centro de rehabilitacion y educacion especial | centro de rehabilitacion social para menores infractores",
+      "color": "#2F6FB3",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Centro Rehabilitacion - Psicología",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C6",
+      "target": "C8",
+      "count": 909,
+      "meanScore": 0.818683,
+      "maxScore": 0.920913,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C54",
+      "target": "C6",
+      "count": 334,
+      "meanScore": 0.818665,
+      "maxScore": 0.941034,
+      "strokeWidth": 1.723
+    },
+    {
+      "source": "C54",
+      "target": "C8",
+      "count": 182,
+      "meanScore": 0.808675,
+      "maxScore": 0.886196,
+      "strokeWidth": 1.174
+    },
+    {
+      "source": "C114",
+      "target": "C6",
+      "count": 102,
+      "meanScore": 0.831999,
+      "maxScore": 0.905858,
+      "strokeWidth": 0.885
+    },
+    {
+      "source": "C114",
+      "target": "C54",
+      "count": 41,
+      "meanScore": 0.801507,
+      "maxScore": 0.864787,
+      "strokeWidth": 0.665
+    },
+    {
+      "source": "C114",
+      "target": "C8",
+      "count": 23,
+      "meanScore": 0.826329,
+      "maxScore": 0.888957,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

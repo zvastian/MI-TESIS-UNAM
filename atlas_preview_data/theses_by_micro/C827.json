@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C827",
+    "clusterId": 827,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0582584",
+      "title": "El factor de transferencia en la enfermedad de Aujesky",
+      "year": 1987,
+      "author": "David Arturo Rodriguez Lazcano",
+      "advisor": "Angel Retana Reyes · +1 más",
+      "program": "Medicina Veterinaria y Zootecnia",
+      "level": "licenciatura",
+      "area": "Ciencias Biológicas, Químicas y de la Salud",
+      "campus": "facultad de medicina veterinaria y zootecnia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0039380/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.916298,
+      "titleKey": "el factor de transferencia en la enfermedad de aujesky",
+      "titleFamilyKey": "factor transfer enfermed aujesky"
+    },
+    {
+      "thesisId": "TH_0447191",
+      "title": "factor de transferencia como coadyuvante en enfermedades sistémicas",
+      "year": 2016,
+      "author": "Eduardo Cortés Imbilimbo",
+      "advisor": "Luz del Carmen González García",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ERYGNQS1UF5ALV91F8IVY5IPF6XDJDBCJ54EMDULMD5EQG8NG9-43972?func=service&doc_library=TES01&doc_number=000752137&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.901635,
+      "titleKey": "factor de transferencia como coadyuvante en enfermedades sistemicas",
+      "titleFamilyKey": "factor transfer como coadyuva enfermed sistemic"
+    },
+    {
+      "thesisId": "TH_0167504",
+      "title": "el factor de transferencia: propiedades biologicas quimicas y aplicacion clinica",
+      "year": 1984,
+      "author": "Iris Edith Escudero Abarca",
+      "advisor": "Carlos Eduardo Salas Contreras",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5ASBNXLGSVAJ956FBQDC6XG6JG88TNQB6CN4ABSD97ITAFLPML-20953?func=service&doc_library=TES01&doc_number=000036837&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.870417,
+      "titleKey": "el factor de transferencia propiedades biologicas quimicas y aplicacion clinica",
+      "titleFamilyKey": "factor transfer propieda biologic quimicas aplica clinica"
+    },
+    {
+      "thesisId": "TH_0037694",
+      "title": "analisis de la transferencia : sus implicaciones como proceso y procedimiento terapeutico",
+      "year": 2003,
+      "author": "Maria Ivonne Aguirre Lara",
+      "advisor": "María Asunción Valenzuela Cota",
+      "program": "psicologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de psicologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3JKIMGNSB3DIKCR7AH42EK2S94JT2MTEEC3F6KUND2NL471CXT-38362?func=service&doc_library=TES01&doc_number=000319555&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.747812,
+      "titleKey": "analisis de la transferencia sus implicaciones como proceso y procedimiento terapeutico",
+      "titleFamilyKey": "analisis transfer implicaci como proceso procedi terapeut"
+    },
+    {
+      "thesisId": "TH_0137765",
+      "title": "contribucion de los estudios epizootiologicos de la enfermedad de aujezsky",
+      "year": 1978,
+      "author": "Jorge Alcayde Orraca",
+      "advisor": "Asesor no registrado",
+      "program": "medicina veterinaria y zootecnia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina veterinaria y zootecnia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5L5TS12VQ68VIUXEJUXTSXA1R9J12JS3BATU94THFADKP51P54-22513?func=service&doc_library=TES01&doc_number=000157947&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.720426,
+      "titleKey": "contribucion de los estudios epizootiologicos de la enfermedad de aujezsky",
+      "titleFamilyKey": "contribu estudios epizooti enfermed aujezsky"
+    }
+  ]
+}

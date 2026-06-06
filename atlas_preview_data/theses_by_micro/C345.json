@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C345",
+    "clusterId": 345,
+    "macroId": "Area2_M13",
+    "area": "Area 2",
+    "size": 17,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0134346",
+      "title": "quistes de los maxilares",
+      "year": 1977,
+      "author": "Cynthia Pamela Florin Torres",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7MP7L8T99DA3UQIEU6SAKX5AP6PUYFXJ4XEV75TL3VBQ27AHPB-19982?func=service&doc_library=TES01&doc_number=000152603&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.995811,
+      "titleKey": "quistes de los maxilares",
+      "titleFamilyKey": "quistes maxilare"
+    },
+    {
+      "thesisId": "TH_0152590",
+      "title": "quistes de los maxilares",
+      "year": 1981,
+      "author": "José Manuel Zermeno Romo",
+      "advisor": "Miguel A Rodriguez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5E8H58QDXC9N2YJUPLYYNUXUDRPPAIIGNCXQVH89EUP9J3U3QT-37695?func=service&doc_library=TES01&doc_number=000041620&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.995811,
+      "titleKey": "quistes de los maxilares",
+      "titleFamilyKey": "quistes maxilare"
+    },
+    {
+      "thesisId": "TH_0045679",
+      "title": "quistes maxilares",
+      "year": 2003,
+      "author": "Fabiola Morales Mendez",
+      "advisor": "Gabriel Piñera Flores",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3JKIMGNSB3DIKCR7AH42EK2S94JT2MTEEC3F6KUND2NL471CXT-65258?func=service&doc_library=TES01&doc_number=000317794&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.976661,
+      "titleKey": "quistes maxilares",
+      "titleFamilyKey": "quistes maxilare"
+    },
+    {
+      "thesisId": "TH_0189592",
+      "title": "quistes fisulares y seudoquistes de los maxilares",
+      "year": 1988,
+      "author": "Margarita de Jesus del Toro Moreno",
+      "advisor": "Celia Margarita Gomar Franco",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "universidad autonoma de guadalajara",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q6VEJ1KK6P8UTBMDE7CBYC9E8D883HDEQ8PPCFT4U619SFJQ29-23037?func=service&doc_library=TES01&doc_number=000087146&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.969472,
+      "titleKey": "quistes fisulares y seudoquistes de los maxilares",
+      "titleFamilyKey": "quistes fisulare seudoqui maxilare"
+    },
+    {
+      "thesisId": "TH_0568788",
+      "title": "Quistes en los maxilares",
+      "year": 1980,
+      "author": "F. Carlos Vargas Dorantes",
+      "advisor": "Jorge Guillermo Zarza Cadena",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0016967/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.967875,
+      "titleKey": "quistes en los maxilares",
+      "titleFamilyKey": "quistes maxilare"
+    }
+  ]
+}

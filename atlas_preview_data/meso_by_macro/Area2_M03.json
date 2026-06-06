@@ -1,0 +1,90 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M03",
+    "label": "Medicina General, Neumología e Infectología",
+    "shortLabel": "Medicina General, Neumología e In...",
+    "area": "Area 2",
+    "size": 1331,
+    "description": "Tesis de medicina general, neumología, infectología, epidemiolog?a, pediatr?a y ciencias biom?dicas."
+  },
+  "nodes": [
+    {
+      "id": "C111",
+      "clusterId": 111,
+      "macroId": "Area2_M03",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Tuberculosis Pulmonar - Medico Cirujano",
+      "size": 1007,
+      "radius": 30.0,
+      "position": {
+        "x": -0.05354,
+        "y": -0.62298
+      },
+      "dominantAreaShare": 0.8957,
+      "programsTop": "Medico Cirujano (148) | Quimica Farmaceutico Biologica (90) | Medicina Interna (59) | Biologia (59) | Neumologia (58) | Medicina Familiar (56) | Infectologia (42) | Pediatria (37) | Enfermeria y Obstetricia (36) | Pediatria Medica (30)",
+      "levelsTop": "Especialidad (444) | Licenciatura (423) | Maestria (81) | Doctorado (59)",
+      "campusesTop": "Facultad de Medicina Unam (620) | Facultad de Quimica Unam (82) | Facultad de Ciencias Unam (57) | No Especificado Unam (37) | Facultad de Enfermeria y Obstetricia Unam (30) | Facultad de Estudios Superiores Cuautitlan Unam (27)",
+      "sampleTitles": "tuberculosis genital como causa de esterilidad en la mujer | el neumotorax terapeutico en la tuberculosis pulmonar | frecuencia de diabetes mellitus en pacientes con tuberculosis pulmonar que acuden a la consulta externa de neumologia | tuberculosis y embarazo | algunas consideraciones acerca del tratamiento de la tuberculosis pulmonar de marcha cronica | manifestaciones orales de la tuberculosis | efecto de la vacunación sobre la virulencia de diversos genotipos de mycobacterium tuberculosis | tratamiento quirurgico de la tuberculosis pulmonar",
+      "color": "#2E9D71",
+      "originalLabel": "Medico Cirujano",
+      "shortLabel": "Tuberculosis Pulmonar - Medico Ci...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C151",
+      "clusterId": 151,
+      "macroId": "Area2_M03",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Virus Dengue - Química Farmacéutico Biológ...",
+      "size": 167,
+      "radius": 9.7,
+      "position": {
+        "x": -0.73604,
+        "y": 0.26033
+      },
+      "dominantAreaShare": 0.7964,
+      "programsTop": "Quimica Farmaceutico Biologica (22) | Biologia (17) | Ciencias Bioquimicas (16) | Epidemiologia (15) | Geografia (9) | Ciencias Biologicas (8) | Medicina Familiar (8) | Ciencias Biomedicas (8) | Pediatria (7) | Investigacion Biomedica Basica (5)",
+      "levelsTop": "Licenciatura (63) | Especialidad (47) | Maestria (34) | Doctorado (23)",
+      "campusesTop": "Facultad de Medicina Unam (54) | Facultad de Estudios Superiores Cuautitlan Unam (23) | No Especificado Unam (18) | Facultad de Ciencias Unam (14) | Facultad de Quimica Unam (10) | Facultad de Filosofia y Letras Unam (8)",
+      "sampleTitles": "conocimiento sobre la prevención del dengue clásico | participacion del virus del dengue en el proceso fibrinolitico | epidemiologia del dengue en el hospital infantil del estado de sonora | asociacion entre el serotipo de dengue virus infectante y el cuadro clinico de los casos de fiebre hemorragica por dengue : mexico 1996-2006 | respuesta inmune de linfocitos b inducida por el virus del dengue serotipo ii en un modelo murido | infeccion de celulas neurogenicas de raton por el virus del dengue | estudio del comportamiento clinico de los casos de dengue clasico y hemorragico en el hospital del niño dr. rodolfo nieto padron durante 1997 | caracteristicas clinicas y epidemiologicas de los casos hospitalizados por probable dengue durante el brote en merida, yucatan 2001",
+      "color": "#2E9D71",
+      "originalLabel": "Quimica Farmaceutico Biologica",
+      "shortLabel": "Virus Dengue - Química Farmacéuti...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C153",
+      "clusterId": 153,
+      "macroId": "Area2_M03",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Previo Paludismo - Medico Cirujano",
+      "size": 157,
+      "radius": 9.0,
+      "position": {
+        "x": -0.31172,
+        "y": 0.84429
+      },
+      "dominantAreaShare": 0.949,
+      "programsTop": "Medico Cirujano (117) | Quimica Farmaceutico Biologica (21) | Ciencias Biologicas (4) | Epidemiologia (3) | Geografia (2) | Medicina Veterinaria y Zootecnia (2) | Biologia (2) | Medicina Familiar (1) | Ciencias Biologicas Programa de Posgrado en Ciencias Biologicas (1) | Investigacion Biomedica Basica (1)",
+      "levelsTop": "Licenciatura (143) | Especialidad (6) | Maestria (5) | Doctorado (3)",
+      "campusesTop": "Facultad de Medicina Unam (126) | Facultad de Estudios Superiores Zaragoza Unam (12) | Facultad de Quimica Unam (10) | Facultad de Filosofia y Letras Unam (2) | Facultad de Ciencias Unam (1) | Colegio de Ciencias y Humanidades Unam (1)",
+      "sampleTitles": "estudio previo sobre paludismo y exploracion sanitaria en el municipio de rosario | informe general sobre la exploracion sanitaria de isla, ver. y breve estudio sobre paludismo | estudio previo del paludismo en ciudad guerrero, tamps | informe sanitario de xicotencatl, tamps., formas clinicas de paludismo | el problema del paludismo en la poblacion de comalteco, veracruz | estudio previo del paludismo en juchitlan, oax | concepto del tratamiento moderno del paludismo | aislamiento de proteinas antigenicas de plasmodiun-yoelli yoelli en un modelo de paludismo en roedores",
+      "color": "#2E9D71",
+      "originalLabel": "Medico Cirujano",
+      "shortLabel": "Previo Paludismo - Medico Cirujano",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C759",
+    "clusterId": 759,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0149867",
+      "title": "endodoncia actualizada",
+      "year": 1981,
+      "author": "Fernando Lozano Flores",
+      "advisor": "Rafael Trejo Serrano",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5E8H58QDXC9N2YJUPLYYNUXUDRPPAIIGNCXQVH89EUP9J3U3QT-31793?func=service&doc_library=TES01&doc_number=000025879&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.997688,
+      "titleKey": "endodoncia actualizada",
+      "titleFamilyKey": "endodonc actualiz"
+    },
+    {
+      "thesisId": "TH_0154815",
+      "title": "endodoncia actualizada",
+      "year": 1982,
+      "author": "Amando Gomez Alvarez",
+      "advisor": "Jose Antonio Ocampo Avila",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-73789?func=service&doc_library=TES01&doc_number=000026386&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.997688,
+      "titleKey": "endodoncia actualizada",
+      "titleFamilyKey": "endodonc actualiz"
+    },
+    {
+      "thesisId": "TH_0168884",
+      "title": "actualizaciones en endodoncia",
+      "year": 1984,
+      "author": "Mauricio Felipe Huertos Maldonado",
+      "advisor": "Jose Gonzalo Bandera Zuñiga",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5ASBNXLGSVAJ956FBQDC6XG6JG88TNQB6CN4ABSD97ITAFLPML-18742?func=service&doc_library=TES01&doc_number=000043676&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.976752,
+      "titleKey": "actualizaciones en endodoncia",
+      "titleFamilyKey": "actualizaci endodonc"
+    },
+    {
+      "thesisId": "TH_0126744",
+      "title": "actualizacion endodontica",
+      "year": 1975,
+      "author": "Anabel Georgina Ramirez Rojas",
+      "advisor": "Rafael Trejo Serrano",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Y5RJVA1NUIE1GF8F3MG8D8UQGEKPSYITRFMTFXTBD784JQXJ7P-19062?func=service&doc_library=TES01&doc_number=000148340&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.963236,
+      "titleKey": "actualizacion endodontica",
+      "titleFamilyKey": "actualiza endodont"
+    }
+  ]
+}

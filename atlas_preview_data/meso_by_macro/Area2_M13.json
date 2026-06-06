@@ -1,0 +1,75 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M13",
+    "label": "Veterinaria, Producción Animal y Biología Aplicada",
+    "shortLabel": "Veterinaria, Producción Animal y...",
+    "area": "Area 2",
+    "size": 17152,
+    "description": "Trabajos de medicina veterinaria, producción animal, biología reproductiva, salud animal y ciencias biológicas aplicadas."
+  },
+  "nodes": [
+    {
+      "id": "C2",
+      "clusterId": 2,
+      "macroId": "Area2_M13",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Parametros Reproductivos - Medicina Veterinaria y ZOO...",
+      "size": 11849,
+      "radius": 30.0,
+      "position": {
+        "x": 0.66603,
+        "y": -0.24487
+      },
+      "dominantAreaShare": 0.8411,
+      "programsTop": "Medicina Veterinaria y Zootecnia (4563) | Ginecologia y Obstetricia (887) | Biologia (772) | Quimica Farmaceutico Biologica (624) | Ciencias de la Produccion y de la Salud Animal (546) | Biologia de la Reproduccion Humana (384) | Quimica de Alimentos (341) | Derecho (216) | Medicina Familiar (177) | Psicologia (176)",
+      "levelsTop": "Licenciatura (7913) | Especialidad (2114) | Maestria (1336) | Doctorado (483)",
+      "campusesTop": "Facultad de Medicina Veterinaria y Zootecnia Unam (3886) | Facultad de Medicina Unam (2325) | Facultad de Estudios Superiores Cuautitlan Unam (1715) | Facultad de Quimica Unam (998) | Facultad de Ciencias Unam (511) | No Especificado Unam (414)",
+      "sampleTitles": "índice lactato | correlacion histopatologica entre biopsia de endometrio por canula y legrado | Organizacion administrativa de una empresa avicola productora de pollo de engorda | relación lactato | el ejido ganadero | lateralizacion de la respuesta ovulatoria en ratas ciclicas con seccion del tronco derecho o izquierdo del nervio vago | Evaluacion zootecnica del establo lechero Alamoxtitla en Tulancingo, Hidalgo, en la modalidad de : bovinos | evaluacion zootecnica de una explotacion de bovinos productores de carne",
+      "color": "#2E9D71",
+      "originalLabel": "Medicina Veterinaria y Zootecnia",
+      "shortLabel": "Parametros Reproductivos - Medici...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C26",
+      "clusterId": 26,
+      "macroId": "Area2_M13",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Exploracion Sanitaria - Medicina Veterinaria y Zoot...",
+      "size": 5303,
+      "radius": 9.0,
+      "position": {
+        "x": -0.71273,
+        "y": -0.54956
+      },
+      "dominantAreaShare": 0.7809,
+      "programsTop": "Medicina Veterinaria y Zootecnia (2928) | Biologia (435) | Cirujano Dentista (253) | Ciencias de la Produccion y de la Salud Animal (150) | Derecho (146) | Medico Cirujano (136) | Quimica Farmaceutico Biologica (103) | Arquitectura (103) | Ciencias Biologicas (99) | Psicologia (52)",
+      "levelsTop": "Licenciatura (4572) | Maestria (375) | Especialidad (221) | Doctorado (131)",
+      "campusesTop": "Facultad de Medicina Veterinaria y Zootecnia Unam (2212) | Facultad de Estudios Superiores Cuautitlan Unam (884) | Facultad de Medicina Unam (348) | Facultad de Ciencias Unam (307) | Facultad de Odontologia Unam (220) | Facultad de Estudios Superiores Iztacala Unam (172)",
+      "sampleTitles": "determinacion de las diferencias que existen entre los principales musculos del hombre y los correspondientes de algunos animales | aplicación de periostio para fracturas : estudio experimental en ratas | caninos superiores retenidos | tecnica quirurgica para la extraccion de caninos superiores incluidos | cirugia y ortodoncia de caninos retenidos | caninos retenidos superiores | informe sobre las condiciones sanitarias del municipio de coyame, edo. de chihuahua | mexico y el gatt",
+      "color": "#2E9D71",
+      "originalLabel": "Medicina Veterinaria y Zootecnia",
+      "shortLabel": "Exploracion Sanitaria - Medicina...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C2",
+      "target": "C26",
+      "count": 403,
+      "meanScore": 0.794335,
+      "maxScore": 0.905429,
+      "strokeWidth": 1.4
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

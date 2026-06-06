@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C874",
+    "clusterId": 874,
+    "macroId": "Area2_M06",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0434002",
+      "title": "evaluación de variantes de mrna del antígeno nuclear de proliferación celular (pcna) en leucemia linfoblástica aguda",
+      "year": 2015,
+      "author": "Marco Antonio Fonseca Montaño",
+      "advisor": "Sergio Juárez Méndez",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-75267?func=service&doc_library=TES01&doc_number=000727721&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.944059,
+      "titleKey": "evaluacion de variantes de mrna del antigeno nuclear de proliferacion celular pcna en leucemia linfoblastica aguda",
+      "titleFamilyKey": "evalua variante mrna antigeno nuclear prolifera celular pcna"
+    },
+    {
+      "thesisId": "TH_0422736",
+      "title": "timidina kinasa : una prueba diagnóstica de proliferación tumoral en leucemias agudas",
+      "year": 2014,
+      "author": "Briceida López Martínez",
+      "advisor": "Guillermo J Ruiz Arguelles · +1 más",
+      "program": "ciencias medicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SJE94G6227D24YUGVES7Q4GLDBG4F8FFQAC8FHR7Q2FFHIDP4L-39988?func=service&doc_library=TES01&doc_number=000711201&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.841682,
+      "titleKey": "timidina kinasa una prueba diagnostica de proliferacion tumoral en leucemias agudas",
+      "titleFamilyKey": "timidina kinasa prueba diagnost prolifera tumoral leucemia agudas"
+    },
+    {
+      "thesisId": "TH_0275998",
+      "title": "sobreexpresion y purificacion del antigeno nuclear de proliferacion celular : pcna",
+      "year": 1999,
+      "author": "Maritzel Rosas Carballo",
+      "advisor": "Jorge Manuel Vázquez Ramos",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/UEFY74PPKK8731CEAN7CQMBPIUGTSCA466CNQD5XPP5PABLFS3-17071?func=service&doc_library=TES01&doc_number=000278632&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.82938,
+      "titleKey": "sobreexpresion y purificacion del antigeno nuclear de proliferacion celular pcna",
+      "titleFamilyKey": "sobreexp purifica antigeno nuclear prolifera celular pcna"
+    },
+    {
+      "thesisId": "TH_0477067",
+      "title": "caracterización estructural y funcional de variantes de rna mensajero generadas por splicing alternativo del antígeno nuclear de proliferación celular (pcna)",
+      "year": 2018,
+      "author": "Marco Antonio Fonseca Montaño",
+      "advisor": "Sergio Juárez Méndez",
+      "program": "ciencias biologicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-52386?func=service&doc_library=TES01&doc_number=000769183&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.800982,
+      "titleKey": "caracterizacion estructural y funcional de variantes de rna mensajero generadas por splicing alternativo del antigeno nuclear de proliferacion celular pcna",
+      "titleFamilyKey": "caracteriza estructu funciona variante rna mensajer generada splicing"
+    },
+    {
+      "thesisId": "TH_0233271",
+      "title": "revision bibliografica sobre oncogenes, metastasis en neoplasias y rearreglos moleculares en leucemias. aislamiento y valoracion de dna en pacientes con este padecimiento",
+      "year": 1994,
+      "author": "Maria del Consuelo Plata Ramos",
+      "advisor": "Alicia Beatriz Cervantes Peredo",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/BVHGI23SURQ3K8R1B3U53PM29RS41IGIR7B4KUT1EU24TGSRSK-54116?func=service&doc_library=TES01&doc_number=000202175&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.750092,
+      "titleKey": "revision bibliografica sobre oncogenes metastasis en neoplasias y rearreglos moleculares en leucemias aislamiento y valoracion de dna en pacientes con este padecimiento",
+      "titleFamilyKey": "revision bibliogr oncogene metastas neoplasi rearregl molecula leucemia"
+    }
+  ]
+}

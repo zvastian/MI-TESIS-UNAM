@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C790",
+    "clusterId": 790,
+    "macroId": "Area2_M05",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0382226",
+      "title": "análisis descriptivo del comportamiento inmunológico de los pacientes con ataxia telangiectasia atendidos en el instituto nacional de pediatría en los últimos 30 años",
+      "year": 2011,
+      "author": "Beatriz Adriana Llamas Guillén",
+      "advisor": "Alonso Gutiérrez Hernández · +1 más",
+      "program": "alergia e inmunologia clinica pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3XNJ4G6FHB3SJBFUA3HYH9FBBXXJFJE6XTP4JQQFMIFL6HUXUV-11290?func=service&doc_library=TES01&doc_number=000675392&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.943573,
+      "titleKey": "analisis descriptivo del comportamiento inmunologico de los pacientes con ataxia telangiectasia atendidos en el instituto nacional de pediatria en los ultimos 30 anos",
+      "titleFamilyKey": "analisis descript comporta inmunolo paciente ataxia telangie atendido"
+    },
+    {
+      "thesisId": "TH_0390569",
+      "title": "análisis prospectivo del comportamiento inmunológico de los pacientes con ataxia-telangiectasia atendidos en el instituto nacional de pediatría",
+      "year": 2012,
+      "author": "Saraid Cerda Reyes",
+      "advisor": "Jose Alonso Gutiérrez Hernandez · +1 más",
+      "program": "alergia e inmunologia clinica pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DPI1CJIL2CV8EDT85S77S5M8BYH4ARAGJSRQH92IF35AFV94XR-54550?func=service&doc_library=TES01&doc_number=000681691&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.915008,
+      "titleKey": "analisis prospectivo del comportamiento inmunologico de los pacientes con ataxia telangiectasia atendidos en el instituto nacional de pediatria",
+      "titleFamilyKey": "analisis prospect comporta inmunolo paciente ataxia telangie atendido"
+    },
+    {
+      "thesisId": "TH_0216547",
+      "title": "estudio inmunogenetico de la ataxia telangiectasia",
+      "year": 1993,
+      "author": "Maria de Lourdes Aguirre Zarco",
+      "advisor": "Julio Granados Arriola",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/M2VBNV5LCYY4A74T9627TGDFHNGGDMVL94K5V36UICF9IHKJ8T-05229?func=service&doc_library=TES01&doc_number=000198404&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.909165,
+      "titleKey": "estudio inmunogenetico de la ataxia telangiectasia",
+      "titleFamilyKey": "estudio inmunoge ataxia telangie"
+    },
+    {
+      "thesisId": "TH_0253028",
+      "title": "ataxia telangiectasia : revision del patron clinico. experiencia de 25 años en el servicio de inmunologia del instituto nacional de pediatria",
+      "year": 1997,
+      "author": "Alejandra Medina Hernandez",
+      "advisor": "Ernesto Onuma Takame",
+      "program": "pediatria medica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5HC68QGQSQF1BUP7Q2GPMVS2K4G7KUMY4B9TI73VCL1CACFSY2-13315?func=service&doc_library=TES01&doc_number=000254556&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.90079,
+      "titleKey": "ataxia telangiectasia revision del patron clinico experiencia de 25 anos en el servicio de inmunologia del instituto nacional de pediatria",
+      "titleFamilyKey": "ataxia telangie revision patron clinico experien anos servicio"
+    },
+    {
+      "thesisId": "TH_0273894",
+      "title": "estudio genetico del gen afectado en ataxia telangiectasia, deteccion de heterocigotos y asesoramiento genetico",
+      "year": 1999,
+      "author": "Miguel Arturo Marquez Gutierrez",
+      "advisor": "Fabio Abdel Salamanca Gomez · +1 más",
+      "program": "genetica medica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/UEFY74PPKK8731CEAN7CQMBPIUGTSCA466CNQD5XPP5PABLFS3-18382?func=service&doc_library=TES01&doc_number=000278341&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.827736,
+      "titleKey": "estudio genetico del gen afectado en ataxia telangiectasia deteccion de heterocigotos y asesoramiento genetico",
+      "titleFamilyKey": "estudio genetico gen afectado ataxia telangie detec heteroci"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C350",
+    "clusterId": 350,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 16,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0093642",
+      "title": "etiologia de las enfermedades parodontales",
+      "year": 1965,
+      "author": "Ricardo de la Pena Rodriguez",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G1ALS6FDX6EVU7NHV1LG9JS2XLY23PCP3HPD6C46BRK45B8R4T-47741?func=service&doc_library=TES01&doc_number=000135257&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.997053,
+      "titleKey": "etiologia de las enfermedades parodontales",
+      "titleFamilyKey": "etiologi enfermed parodont"
+    },
+    {
+      "thesisId": "TH_0120641",
+      "title": "etiologia de las enfermedades parodontales",
+      "year": 1974,
+      "author": "Maria Guadalupe Butanda Rivera",
+      "advisor": "Daniel García Rodríguez · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/LM7H7H1IVJEJNC7BMNYGCTY1V8JI13GUTGNVTFP6N8RTMJGRX1-21617?func=service&doc_library=TES01&doc_number=000166963&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.997053,
+      "titleKey": "etiologia de las enfermedades parodontales",
+      "titleFamilyKey": "etiologi enfermed parodont"
+    },
+    {
+      "thesisId": "TH_0090798",
+      "title": "la etiologia de las enfermedades parodontales",
+      "year": 1964,
+      "author": "Alejandro Jacques Fraga",
+      "advisor": "Rafael Lozano",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/INCBXJSNSUVS6IGTS4H42TR1I98NSF3TSB7SFJ9UHGJSD4V5XQ-18201?func=service&doc_library=TES01&doc_number=000136546&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.994768,
+      "titleKey": "la etiologia de las enfermedades parodontales",
+      "titleFamilyKey": "etiologi enfermed parodont"
+    },
+    {
+      "thesisId": "TH_0152836",
+      "title": "etiologia de la enfermedad parodontal",
+      "year": 1982,
+      "author": "Guadalupe Alvarez Barrera",
+      "advisor": "Jose Antonio Guerra Castellanos",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-37983?func=service&doc_library=TES01&doc_number=000031894&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.993788,
+      "titleKey": "etiologia de la enfermedad parodontal",
+      "titleFamilyKey": "etiologi enfermed parodont"
+    },
+    {
+      "thesisId": "TH_0121986",
+      "title": "enfermedades parodontales y su etiologia",
+      "year": 1974,
+      "author": "Manuel Lázzeri Fernández",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/LM7H7H1IVJEJNC7BMNYGCTY1V8JI13GUTGNVTFP6N8RTMJGRX1-58883?func=service&doc_library=TES01&doc_number=000145504&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.977545,
+      "titleKey": "enfermedades parodontales y su etiologia",
+      "titleFamilyKey": "enfermed parodont etiologi"
+    }
+  ]
+}

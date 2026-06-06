@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C729",
+    "clusterId": 729,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0011355",
+      "title": "diseño y elaboracion de el activador abierto elastico de klammt",
+      "year": 2001,
+      "author": "Jessica Minela Barroso Mosqueda",
+      "advisor": "Arturo Alvarado Rossano · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-51551?func=service&doc_library=TES01&doc_number=000291877&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.938702,
+      "titleKey": "diseno y elaboracion de el activador abierto elastico de klammt",
+      "titleFamilyKey": "diseno elabora activado abierto elastico klammt"
+    },
+    {
+      "thesisId": "TH_0013886",
+      "title": "origen y evolucion del activador abierto elastico de klammt",
+      "year": 2001,
+      "author": "Maria Asuncion Fontanet Baranda",
+      "advisor": "Francisco Javier Lamadrid Contreras · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-52533?func=service&doc_library=TES01&doc_number=000297031&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.937514,
+      "titleKey": "origen y evolucion del activador abierto elastico de klammt",
+      "titleFamilyKey": "origen evolu activado abierto elastico klammt"
+    },
+    {
+      "thesisId": "TH_0269725",
+      "title": "activador abierto elastico de klammt",
+      "year": 1998,
+      "author": "Virginia Veronica Villegas Abascal",
+      "advisor": "Francisco Javier Lamadrid Contreras · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JHUNFG7DY9VPL7G2NB43PDD2RP9YD8FJ6M43VRGBAPHYRU6FB7-66345?func=service&doc_library=TES01&doc_number=000269460&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.925863,
+      "titleKey": "activador abierto elastico de klammt",
+      "titleFamilyKey": "activado abierto elastico klammt"
+    },
+    {
+      "thesisId": "TH_0272952",
+      "title": "elaboracion del activador abierto elastico de klammt (aaek)",
+      "year": 1999,
+      "author": "Elizabeth Hernandez Garacia",
+      "advisor": "Francisco Javier Lamadrid Contreras · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/UEFY74PPKK8731CEAN7CQMBPIUGTSCA466CNQD5XPP5PABLFS3-36512?func=service&doc_library=TES01&doc_number=000274455&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.908188,
+      "titleKey": "elaboracion del activador abierto elastico de klammt aaek",
+      "titleFamilyKey": "elabora activado abierto elastico klammt aaek"
+    },
+    {
+      "thesisId": "TH_0513777",
+      "title": "indicaciones y contraindicaciones del activador abierto elástico de klammt",
+      "year": 2022,
+      "author": "Brenda Guadalupe Romero",
+      "advisor": "Fidel Flores Gerónimo",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-43070?func=service&doc_library=TES01&doc_number=000834405&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.858626,
+      "titleKey": "indicaciones y contraindicaciones del activador abierto elastico de klammt",
+      "titleFamilyKey": "indicaci contraindicaci activado abierto elastico klammt"
+    }
+  ]
+}

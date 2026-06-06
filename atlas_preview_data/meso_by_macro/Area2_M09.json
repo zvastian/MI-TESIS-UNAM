@@ -1,0 +1,90 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M09",
+    "label": "Salud Materna, Dental y Medicina Familiar",
+    "shortLabel": "Salud Materna, Dental y Medicina...",
+    "area": "Area 2",
+    "size": 969,
+    "description": "Trabajos de salud materna, odontolog?a, medicina familiar, biología, enfermer?a y práctica clínica."
+  },
+  "nodes": [
+    {
+      "id": "C125",
+      "clusterId": 125,
+      "macroId": "Area2_M09",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Virus Papiloma Humano - Ginecologia y Obstetricia",
+      "size": 503,
+      "radius": 30.0,
+      "position": {
+        "x": 0.18178,
+        "y": 0.59827
+      },
+      "dominantAreaShare": 0.9085,
+      "programsTop": "Ginecologia y Obstetricia (100) | Medicina Familiar (61) | Biologia (54) | Cirujano Dentista (31) | Enfermeria y Obstetricia (24) | Ciencias Biologicas (20) | Ciencias Bioquimicas (20) | Quimica Farmaceutico Biologica (17) | Ciencias Biomedicas (15) | Psicologia (13)",
+      "levelsTop": "Especialidad (267) | Licenciatura (158) | Maestria (48) | Doctorado (30)",
+      "campusesTop": "Facultad de Medicina Unam (288) | Facultad de Odontologia Unam (32) | Facultad de Estudios Superiores Iztacala Unam (28) | Facultad de Estudios Superiores Zaragoza Unam (27) | Facultad de Quimica Unam (26) | Facultad de Ciencias Unam (20)",
+      "sampleTitles": "prevalencia del virus del papiloma humano en mujeres infectadas con el virus de la inmunodeficiencia humana | actitudes de la pareja ante el reporte de infección por virus del papiloma humano en mujeres de la consulta externa de la clínica chimalhuacán | enmienda al estudio validación de biomarcadores asociados al desarrollo y pronóstico de neoplasias atribuidas a la infección del virus del papiloma humano | virus papiloma humano | correlacion citologica-colposcopica-histopatologica de las lesiones cervicales preinvasoras e infeccion cervical por papilomavirus humano | experiencia en el manejo anestésico de los pacientes con papilomatosis laríngea en el instituto nacional de pediatría durante el periodo de 2010 a 2015 | virus del papiloma humano y participación de la enfermera | asociacion de la infeccion del virus del papiloma humano con displacia leve moderada y severa en el desarrollo del cancer cervicouterino",
+      "color": "#2E9D71",
+      "originalLabel": "Ginecologia y Obstetricia",
+      "shortLabel": "Virus Papiloma Humano - Ginecolog...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C138",
+      "clusterId": 138,
+      "macroId": "Area2_M09",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Sida Odontología - Derecho",
+      "size": 286,
+      "radius": 18.45,
+      "position": {
+        "x": -0.35363,
+        "y": -0.69604
+      },
+      "dominantAreaShare": 0.4301,
+      "programsTop": "Derecho (63) | Psicologia (47) | Cirujano Dentista (34) | Medicina Interna (15) | Arquitectura (12) | Pedagogia (11) | Quimica Farmaceutico Biologica (7) | Medicina Familiar (7) | Infectologia (7) | Ciencias de la Comunicacion (7)",
+      "levelsTop": "Licenciatura (214) | Especialidad (58) | Maestria (12) | Doctorado (1)",
+      "campusesTop": "Facultad de Medicina Unam (57) | Facultad de Derecho Unam (34) | Facultad de Psicologia Unam (28) | Facultad de Odontologia Unam (26) | Facultad de Estudios Superiores Aragon Unam (19) | Facultad de Estudios Superiores Iztacala Unam (17)",
+      "sampleTitles": "el sida y la odontologia | cartel folleto y encuesta contra el sida | el sida como riesgo de trabajo | sida en pediatria | sida en la odontologia | manifestaciones bucales del sida | el sida como riesgo de trabajo para las personas que laboran en los hospitales | Sindrome de immunodeficiencia adquirida (SIDA)",
+      "color": "#2E9D71",
+      "originalLabel": "Derecho",
+      "shortLabel": "Sida Odontología - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C150",
+      "clusterId": 150,
+      "macroId": "Area2_M09",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Manifestaciones Bucales - Medico Cirujano",
+      "size": 180,
+      "radius": 9.0,
+      "position": {
+        "x": -0.81636,
+        "y": -0.37888
+      },
+      "dominantAreaShare": 0.9611,
+      "programsTop": "Medico Cirujano (72) | Cirujano Dentista (44) | Quimica Farmaceutico Biologica (14) | Pediatria (11) | Medicina Familiar (7) | Ginecologia y Obstetricia (6) | Infectologia (4) | Oftalmologia (4) | Pediatria Medica (3) | Enfermeria y Obstetricia (3)",
+      "levelsTop": "Licenciatura (138) | Especialidad (42)",
+      "campusesTop": "Facultad de Medicina Unam (113) | Facultad de Odontologia Unam (36) | Facultad de Quimica Unam (11) | Facultad de Estudios Superiores Zaragoza Unam (6) | Facultad de Estudios Superiores Iztacala Unam (5) | No Especificado Unam (3)",
+      "sampleTitles": "sifilis bucal | sifilis | breves consideraciones sobre la sifilis hereditaria | manifestaciones generales, bucales y dentales de un paciente sifilitico | estudio comparativo de la reaccion balon de muller con las reacciones de wasser mann, hech, jacobstahl y meinicke (m.t:r.) para el diagnostico suerologico de la sifilis | importancia de la investigacion sistematica de las sifilis en las mujeres embarazadas | estudios citologicos y nucleolares en el liquido cefalo-raquideo de los sifiliticos del sistema nervioso | sifilis y sus manifestaciones orales",
+      "color": "#2E9D71",
+      "originalLabel": "Medico Cirujano",
+      "shortLabel": "Manifestaciones Bucales - Medico...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

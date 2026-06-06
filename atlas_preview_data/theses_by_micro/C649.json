@@ -1,0 +1,53 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C649",
+    "clusterId": 649,
+    "macroId": "Area4_M03",
+    "area": "Area 4",
+    "size": 6,
+    "shown": 2,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0039593",
+      "title": "notas al programa",
+      "year": 2003,
+      "author": "Alvar Antonio Castillo Medrano",
+      "advisor": "Eloy Cruz · +1 más",
+      "program": "composicion",
+      "level": "Licenciatura",
+      "area": "Area 4",
+      "campus": "facultad de musica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3JKIMGNSB3DIKCR7AH42EK2S94JT2MTEEC3F6KUND2NL471CXT-60012?func=service&doc_library=TES01&doc_number=000315222&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "notas al programa",
+      "titleFamilyKey": "notas programa"
+    },
+    {
+      "thesisId": "TH_0039617",
+      "title": "notas al programa",
+      "year": 2003,
+      "author": "Vilka Elisa Castillo Silva",
+      "advisor": "Felipe Ramírez Gil",
+      "program": "instrumentista",
+      "level": "Licenciatura",
+      "area": "Area 4",
+      "campus": "facultad de musica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3JKIMGNSB3DIKCR7AH42EK2S94JT2MTEEC3F6KUND2NL471CXT-21190?func=service&doc_library=TES01&doc_number=000314003&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "notas al programa",
+      "titleFamilyKey": "notas programa"
+    }
+  ]
+}

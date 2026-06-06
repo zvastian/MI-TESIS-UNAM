@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area4_M02",
+    "label": "Comunicación, Periodismo y Cultura Mediática",
+    "shortLabel": "Comunicación, Periodismo y Cultur...",
+    "area": "Area 4",
+    "size": 4675,
+    "description": "producción sobre comunicación, periodismo, medios, cultura, música, arquitectura, psicología y esfera pública."
+  },
+  "nodes": [
+    {
+      "id": "C31",
+      "clusterId": 31,
+      "macroId": "Area4_M02",
+      "level": "meso",
+      "area": "Area 4",
+      "areaLabel": "Área 4",
+      "label": "Ciencias de la Comunicación",
+      "size": 4675,
+      "radius": 19.5,
+      "position": {
+        "x": -0.67528,
+        "y": 0.59498
+      },
+      "dominantAreaShare": 0.3814,
+      "programsTop": "Ciencias de la Comunicacion (529) | Ingenieria Mecanica Electrica (265) | Cirujano Dentista (257) | Psicologia (206) | Arquitectura (188) | Periodismo (175) | Comunicacion y Periodismo (157) | Pedagogia (155) | Instrumentista (145) | Derecho (132)",
+      "levelsTop": "Licenciatura (3809) | Maestria (521) | Especialidad (209) | Doctorado (132)",
+      "campusesTop": "Facultad de Musica Unam (697) | Facultad de Ciencias Politicas y Sociales Unam (670) | Facultad de Estudios Superiores Aragon Unam (395) | Facultad de Ingenieria Unam (372) | Facultad de Filosofia y Letras Unam (359) | Facultad de Estudios Superiores Acatlan Unam (223)",
+      "sampleTitles": "conservatorio nacional de musica | intérprete en la grabación de música mexicana | la problematica del ruido | utilidad del audiovisual en el proceso de ensenanza-aprendizaje de los medicos residentes de oftalmologia | radiologia odontologica | centro universitario de produccion de recursos audiovisuales | investigacion de trauma acustico cronico en los trabajadores de moresa industrial s.a. de c.v | grabacion de musica mexicana contemporanea",
+      "color": "#D7A441",
+      "originalLabel": "Ciencias de la Comunicacion",
+      "shortLabel": "Ciencias de la Comunicación",
+      "labelMethod": "unique_original"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

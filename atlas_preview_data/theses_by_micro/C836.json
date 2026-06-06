@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C836",
+    "clusterId": 836,
+    "macroId": "Area2_M01",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0443150",
+      "title": "análisis de la expresión de la vía adenosinérgica (cd39",
+      "year": 2015,
+      "author": "Daniela Berenice Torres Pineda",
+      "advisor": "Alberto Monroy García",
+      "program": "ciencias biologicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-60957?func=service&doc_library=TES01&doc_number=000725329&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.924622,
+      "titleKey": "analisis de la expresion de la via adenosinergica cd39",
+      "titleFamilyKey": "analisis expresio via adenosin cd39"
+    },
+    {
+      "thesisId": "TH_0416594",
+      "title": "análisis funcional de la vía adenosinérgica (cd39",
+      "year": 2014,
+      "author": "Luis Roberto Avila Ibarra",
+      "advisor": "Alberto Monroy García",
+      "program": "ciencias biologicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SJE94G6227D24YUGVES7Q4GLDBG4F8FFQAC8FHR7Q2FFHIDP4L-02180?func=service&doc_library=TES01&doc_number=000719866&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.917073,
+      "titleKey": "analisis funcional de la via adenosinergica cd39",
+      "titleFamilyKey": "analisis funciona via adenosin cd39"
+    },
+    {
+      "thesisId": "TH_0014807",
+      "title": "estudio del papel de los receptores para adenosina a2a del globo palido, en la conducta motora mediada por receptores d2",
+      "year": 2001,
+      "author": "Brenda Gonzalez Hernandez",
+      "advisor": "Benjamin Floran Garduño",
+      "program": "neurociencias",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-35997?func=service&doc_library=TES01&doc_number=000297463&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.90437,
+      "titleKey": "estudio del papel de los receptores para adenosina a2a del globo palido en la conducta motora mediada por receptores d2",
+      "titleFamilyKey": "estudio papel receptor adenosin a2a globo palido conducta"
+    },
+    {
+      "thesisId": "TH_0433606",
+      "title": "participación de los receptores de adenosina a2a en la modulación y plasticidad corticoestriatal",
+      "year": 2015,
+      "author": "Edmundo Espíritu Santo Barajas",
+      "advisor": "Elizabeth Hernández Echeagaray",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-50304?func=service&doc_library=TES01&doc_number=000733481&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.895108,
+      "titleKey": "participacion de los receptores de adenosina a2a en la modulacion y plasticidad corticoestriatal",
+      "titleFamilyKey": "participa receptor adenosin a2a modula plastic corticoe"
+    },
+    {
+      "thesisId": "TH_0422044",
+      "title": "estudio del efecto de la 1-metilxantina sobre receptores de adenosina a2a en un modelo experimental de la enfermedad de parkinson",
+      "year": 2014,
+      "author": "Luis Clemente Jiménez Botello",
+      "advisor": "María Rosa de Lourdes Ávila Costa · +2 más",
+      "program": "ciencias biologicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SJE94G6227D24YUGVES7Q4GLDBG4F8FFQAC8FHR7Q2FFHIDP4L-50622?func=service&doc_library=TES01&doc_number=000719261&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.893889,
+      "titleKey": "estudio del efecto de la 1 metilxantina sobre receptores de adenosina a2a en un modelo experimental de la enfermedad de parkinson",
+      "titleFamilyKey": "estudio efecto metilxan receptor adenosin a2a modelo experime"
+    }
+  ]
+}

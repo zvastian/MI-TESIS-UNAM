@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C743",
+    "clusterId": 743,
+    "macroId": "Area1_M07",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0379982",
+      "title": "realidad aumentada - una aplicación para el sistema operativo android",
+      "year": 2011,
+      "author": "Sebastián García Anderman",
+      "advisor": "José de Jesús Galaviz Casas",
+      "program": "ciencias de la computacion",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3XNJ4G6FHB3SJBFUA3HYH9FBBXXJFJE6XTP4JQQFMIFL6HUXUV-17815?func=service&doc_library=TES01&doc_number=000673282&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.927942,
+      "titleKey": "realidad aumentada una aplicacion para el sistema operativo android",
+      "titleFamilyKey": "real aumentad aplica sistema operativ android"
+    },
+    {
+      "thesisId": "TH_0430133",
+      "title": "desarrollo de un nuevo enfoque de realidad aumentada en interiores y sus aplicaciones en dispositivos móviles android",
+      "year": 2015,
+      "author": "César Eduardo Aguirre Pineda",
+      "advisor": "Amaury Héctor Perea Matsumura",
+      "program": "ingenieria en computacion",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-16902?func=service&doc_library=TES01&doc_number=000736677&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.91194,
+      "titleKey": "desarrollo de un nuevo enfoque de realidad aumentada en interiores y sus aplicaciones en dispositivos moviles android",
+      "titleFamilyKey": "desarrol nuevo enfoque real aumentad interior aplicaci disposit"
+    },
+    {
+      "thesisId": "TH_0491220",
+      "title": "de las rotativas al contexto multimedia : el desarrollo de la aplicación móvil de excélsior para android",
+      "year": 2020,
+      "author": "Juan Carlos López Arreola",
+      "advisor": "Rafael Ahumada Barajas",
+      "program": "comunicacion y periodismo",
+      "level": "Licenciatura",
+      "area": "Area 4",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EL1S2NAJI2NQTF1SUHFYTEDIGD4XTX2AP6UYVIELMINNBQYA69-65975?func=service&doc_library=TES01&doc_number=000804273&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.881785,
+      "titleKey": "de las rotativas al contexto multimedia el desarrollo de la aplicacion movil de excelsior para android",
+      "titleFamilyKey": "rotativa contexto multimed desarrol aplica movil excelsio android"
+    },
+    {
+      "thesisId": "TH_0452963",
+      "title": "juegos didácticos con realidad aumentada para matemáticas utilizando el sistema operativo android",
+      "year": 2016,
+      "author": "David Ricardo Montalvan Rodríguez",
+      "advisor": "Rosalba Rodríguez Chávez",
+      "program": "ingenieria en computacion",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5VC1B25ISXIERJRLHXLIN7S8AS3UEJY1FX2987DMHHQFJHND3U-67923?func=service&doc_library=TES01&doc_number=000753102&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.827352,
+      "titleKey": "juegos didacticos con realidad aumentada para matematicas utilizando el sistema operativo android",
+      "titleFamilyKey": "juegos didactic real aumentad matemati utilizan sistema operativ"
+    },
+    {
+      "thesisId": "TH_0435388",
+      "title": "desarrollo de la aplicación móvil podcast unamóvil para el sistema operativo android",
+      "year": 2015,
+      "author": "Roberto Enrique Gudiño Vázquez",
+      "advisor": "Elio Vega Munguía",
+      "program": "ingenieria en computacion",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-27242?func=service&doc_library=TES01&doc_number=000730525&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.788986,
+      "titleKey": "desarrollo de la aplicacion movil podcast unamovil para el sistema operativo android",
+      "titleFamilyKey": "desarrol aplica movil podcast unamovil sistema operativ android"
+    }
+  ]
+}

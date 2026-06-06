@@ -1,0 +1,1188 @@
+{
+  "version": "atlas-balanced-micro-v1",
+  "macro": {
+    "id": "Area3_M04",
+    "label": "Economía, Política y Relaciones Internacionales",
+    "shortLabel": "Economía, Política y Relaciones I...",
+    "area": "Area 3",
+    "size": 37273,
+    "description": "Investigaciones sobre economía, derecho, relaciones internacionales, política, estudios latinoamericanos, sociolog?a e historia social."
+  },
+  "displayPolicy": {
+    "maxMicroNodes": 30,
+    "sort": "micro_size_desc",
+    "note": "Top microclusters by size inside macrocluster."
+  },
+  "nodes": [
+    {
+      "id": "C4",
+      "clusterId": 4,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Política Economica - Economía",
+      "size": 11415,
+      "radius": 24.0,
+      "position": {
+        "x": -0.0728,
+        "y": -0.3271
+      },
+      "dominantAreaShare": 0.891,
+      "programsTop": "Economia (3575) | Derecho (3011) | Relaciones Internacionales (1141) | Ciencias Politicas y Administracion Publica (550) | Administracion (511) | Contaduria (490) | Actuaria (236) | Sociologia (196) | Historia (177) | Psicologia (106)",
+      "levelsTop": "Licenciatura (9929) | Maestria (877) | Doctorado (467) | Especialidad (129)",
+      "campusesTop": "Facultad de Economia Unam (2784) | Facultad de Derecho Unam (1917) | Facultad de Ciencias Politicas y Sociales Unam (1425) | Facultad de Estudios Superiores Acatlan Unam (1130) | Facultad de Estudios Superiores Aragon Unam (1055) | Facultad de Contaduria y Administracion Unam (719)",
+      "sampleTitles": "la empresa publica factor de crecimiento economico y social en mexico | incentivos fiscales como instrumento de la administración publica en el desarrollo economico de mexico | perfil del ejecutivo de finanzas en mexico | la empresa publica en mexico | sistema financiero mexicano | implicaciones socioeconomicas de la estrategia mexicana para la renegociacion de la deuda externa 1982-88 | la inversion extranjera en mexico | el arrendamiento financiero en mexico",
+      "color": "#2F6FB3",
+      "originalLabel": "Economia",
+      "shortLabel": "Política Economica - Economía",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C52",
+      "clusterId": 52,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Socio Juridico Educación - Derecho",
+      "size": 3572,
+      "radius": 21.38,
+      "position": {
+        "x": 0.39107,
+        "y": 0.00101
+      },
+      "dominantAreaShare": 0.5423,
+      "programsTop": "Derecho (628) | Psicologia (596) | Pedagogia (451) | Arquitectura (286) | Economia (162) | Sociologia (148) | Historia (128) | Ciencias Politicas y Administracion Publica (107) | Relaciones Internacionales (78) | Administracion (63)",
+      "levelsTop": "Licenciatura (2862) | Maestria (349) | Especialidad (201) | Doctorado (158)",
+      "campusesTop": "Facultad de Filosofia y Letras Unam (468) | Facultad de Ciencias Politicas y Sociales Unam (360) | Facultad de Derecho Unam (340) | Facultad de Psicologia Unam (288) | Facultad de Estudios Superiores Aragon Unam (279) | Facultad de Estudios Superiores Acatlan Unam (239)",
+      "sampleTitles": "desarrollo de la psicologia industrial en el ambito empresarial mexicano | casa hogar para niños de la calle | el problema del nino maltratado en mexico | revision de escuela estrategica y estructural de terapia familiar y su posible aplicacion a la familia en mexico | Educacion y formacion del estado-nacion : Catorce anos de politica educativa en Mexico (1920-1934) | capacitacion en mexico | los menores infractores en mexico | guarderia infantil para hijos del personal de la u.n.a.m. en la ciudad universitaria de mexico",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Socio Juridico Educación - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C53",
+      "clusterId": 53,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Actualidad Pensamiento Jose - Estudios Latinoamerican...",
+      "size": 3556,
+      "radius": 21.37,
+      "position": {
+        "x": 0.24316,
+        "y": 0.35949
+      },
+      "dominantAreaShare": 0.5824,
+      "programsTop": "Estudios Latinoamericanos (876) | Relaciones Internacionales (607) | Derecho (323) | Economia (303) | Sociologia (153) | Historia (153) | Ciencias Politicas y Sociales (113) | Arquitectura (68) | Pedagogia (66) | Ciencias Politicas y Administracion Publica (64)",
+      "levelsTop": "Licenciatura (2051) | Maestria (891) | Doctorado (579) | Especialidad (29)",
+      "campusesTop": "Facultad de Filosofia y Letras Unam (1134) | Facultad de Ciencias Politicas y Sociales Unam (833) | No Especificado Unam (372) | Facultad de Derecho Unam (255) | Facultad de Economia Unam (254) | Facultad de Estudios Superiores Aragon Unam (189)",
+      "sampleTitles": "el canal de panama | utopías y configuración del proyecto de nación : estudio comparativo sobre lugares de memoria en el salvador y méxico | la integracion economica latinoamericana | hacia un imaginario del brasil : un acercamiento a traves de las tesis en la unam | la educacion como medio de integracion latinoamericana | desarrollo capitalista y concentracion urbana en el brasil | la politica economica actual en panama : un análisis teorico basado en la estrategia nacional de desarrollo y modernizacion economica de panama 1990 | diseño visual y animación de un producto literario con realidad aumentada para la preservación de una lengua indígena : estudio de caso diidxa libro español-zapoteco",
+      "color": "#2F6FB3",
+      "originalLabel": "Estudios Latinoamericanos",
+      "shortLabel": "Actualidad Pensamiento Jose - Est...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C55",
+      "clusterId": 55,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Asilado Politico - Derecho",
+      "size": 3538,
+      "radius": 21.36,
+      "position": {
+        "x": 0.44123,
+        "y": -0.16253
+      },
+      "dominantAreaShare": 0.9652,
+      "programsTop": "Derecho (2699) | Ciencias Politicas y Administracion Publica (296) | Relaciones Internacionales (82) | Sociologia (54) | Ciencias Politicas y Sociales (34) | Economia (33) | Estudios Politicos y Sociales (27) | Historia (27) | Ciencia Politica (27) | Contaduria (23)",
+      "levelsTop": "Licenciatura (3140) | Maestria (192) | Doctorado (156) | Especialidad (50)",
+      "campusesTop": "Facultad de Derecho Unam (1591) | Facultad de Estudios Superiores Acatlan Unam (476) | Facultad de Estudios Superiores Aragon Unam (435) | Facultad de Ciencias Politicas y Sociales Unam (418) | No Especificado Unam (95) | Facultad de Filosofia y Letras Unam (60)",
+      "sampleTitles": "la doble nacionalidad en mexico | el regimen juridico del subsuelo mexicano | la condicion juridica del extranjero en mexico | el juicio politico en mexico | la naturalizacion en mexico | La ejecucion de las sentencias extranjeras en Mexico | El presidencialismo en Mexico | el presidencialismo en mexico",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Asilado Politico - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C69",
+      "clusterId": 69,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Representaciones Sociales - Derecho",
+      "size": 2752,
+      "radius": 20.8,
+      "position": {
+        "x": -0.46641,
+        "y": 0.18594
+      },
+      "dominantAreaShare": 0.6043,
+      "programsTop": "Derecho (933) | Relaciones Internacionales (248) | Arquitectura (233) | Historia (114) | Sociologia (78) | Pedagogia (68) | Economia (61) | Psicologia (56) | Ciencias Politicas y Administracion Publica (55) | Geografia (54)",
+      "levelsTop": "Licenciatura (2216) | Maestria (328) | Doctorado (186) | Especialidad (20)",
+      "campusesTop": "Facultad de Derecho Unam (624) | Facultad de Filosofia y Letras Unam (396) | Facultad de Ciencias Politicas y Sociales Unam (373) | Facultad de Estudios Superiores Aragon Unam (259) | Facultad de Arquitectura Unam (211) | Facultad de Estudios Superiores Acatlan Unam (196)",
+      "sampleTitles": "regeneracion de monumentos historicos del siglo xvii y xviii en huichapan, hgo | secretaria de relaciones exteriores | museo de historia natural | mexico y el derecho de asilo | La proteccion internacional de los extranjeros | el derecho de asilo diplomatico | analisis de la reforma constitucional en materia de derechos y cultura indigenas | el problema internacional que origina la inmigracion de trabajadores a un estado determinado",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Representaciones Sociales - Derec...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C71",
+      "clusterId": 71,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Medios Comunicación - Derecho",
+      "size": 2739,
+      "radius": 20.79,
+      "position": {
+        "x": -0.11145,
+        "y": -0.51911
+      },
+      "dominantAreaShare": 0.6345,
+      "programsTop": "Derecho (439) | Ciencias de la Comunicacion (392) | Economia (194) | Periodismo (159) | Comunicacion y Periodismo (122) | Relaciones Internacionales (108) | Arquitectura (102) | Ciencias Politicas y Administracion Publica (100) | Periodismo y Comunicacion Colectiva (93) | Administracion (92)",
+      "levelsTop": "Licenciatura (2253) | Maestria (334) | Doctorado (123) | Especialidad (29)",
+      "campusesTop": "Facultad de Ciencias Politicas y Sociales Unam (755) | Facultad de Estudios Superiores Aragon Unam (334) | Facultad de Estudios Superiores Acatlan Unam (268) | Facultad de Derecho Unam (266) | Facultad de Filosofia y Letras Unam (181) | Facultad de Economia Unam (166)",
+      "sampleTitles": "la industria de radio y television en mexico, 1972 y la organizacion de su camara | televisión digital terrestre en méxico | investigacion de red inteligente con desarrollo e implementacion de un tutorial y explicacion de sus primeros servicios en mexico | cine club en la ciudad de mexico | el teletrabajo en méxico | el desarrollo de la telefonía celular en méxico | la industria cinematografica de mexico | el servicio postal mexicano",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Medios Comunicación - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C78",
+      "clusterId": 78,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Jurídica Social - Derecho",
+      "size": 2466,
+      "radius": 20.55,
+      "position": {
+        "x": -0.22146,
+        "y": 0.51158
+      },
+      "dominantAreaShare": 0.7417,
+      "programsTop": "Derecho (1041) | Psicologia (275) | Sociologia (121) | Relaciones Internacionales (75) | Economia (72) | Ciencias de la Comunicacion (67) | Historia (66) | Pedagogia (61) | Periodismo (51) | Ciencias Politicas y Administracion Publica (49)",
+      "levelsTop": "Licenciatura (2008) | Maestria (215) | Doctorado (126) | Especialidad (111)",
+      "campusesTop": "Facultad de Derecho Unam (401) | Facultad de Ciencias Politicas y Sociales Unam (344) | Facultad de Estudios Superiores Aragon Unam (324) | Facultad de Estudios Superiores Acatlan Unam (257) | Facultad de Filosofia y Letras Unam (194) | Facultad de Psicologia Unam (124)",
+      "sampleTitles": "la despenalizacion del aborto en mexico | construcción de la identidad sexual y de género en hombres y mujeres adultas en méxico | el delito de incesto | reglamentacion del concubinato en nuestra legislacion civil mexicana en un termino de dos años | El delito de incesto | el patrimonio familiar en mexico | derecho familiar internacional | perspectiva de la familia en méxico como un sistema de identidades",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Jurídica Social - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C81",
+      "clusterId": 81,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Laboral Mexicano - Derecho",
+      "size": 2374,
+      "radius": 20.47,
+      "position": {
+        "x": -0.01711,
+        "y": 0.58188
+      },
+      "dominantAreaShare": 0.8875,
+      "programsTop": "Derecho (1279) | Economia (299) | Psicologia (169) | Administracion (94) | Ciencias Politicas y Administracion Publica (91) | Sociologia (69) | Contaduria (61) | Relaciones Internacionales (52) | Trabajo Social (32) | Pedagogia (27)",
+      "levelsTop": "Licenciatura (2180) | Maestria (106) | Doctorado (60) | Especialidad (28)",
+      "campusesTop": "Facultad de Derecho Unam (909) | Facultad de Economia Unam (243) | Facultad de Ciencias Politicas y Sociales Unam (197) | Facultad de Estudios Superiores Acatlan Unam (194) | Facultad de Estudios Superiores Aragon Unam (189) | Facultad de Psicologia Unam (114)",
+      "sampleTitles": "integracion del sistema mexicano de seguridad social | la fuerza de trabajo en función a la población en méxico | el seguro social en mexico | la reversion de la carga de la prueba en el procedimiento laboral mexicano | el movimiento obrero y el sindicato en mexico | los trabajadores del servicio exterior mexicano | la inspeccion del trabajo en mexico | el procedimiento conciliatorio en el derecho mexicano del trabajo",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Laboral Mexicano - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C87",
+      "clusterId": 87,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Transporte Ferroviario - Ingeniería Civil",
+      "size": 2038,
+      "radius": 20.12,
+      "position": {
+        "x": 0.60318,
+        "y": -0.05074
+      },
+      "dominantAreaShare": 0.4725,
+      "programsTop": "Ingenieria Civil (408) | Derecho (287) | Economia (267) | Relaciones Internacionales (158) | Arquitectura (131) | Actuaria (84) | Ingenieria Mecanica Electrica (79) | Administracion (63) | Urbanismo (52) | Ciencias Politicas y Administracion Publica (44)",
+      "levelsTop": "Licenciatura (1762) | Maestria (189) | Doctorado (54) | Especialidad (33)",
+      "campusesTop": "Facultad de Ingenieria Unam (490) | Facultad de Economia Unam (239) | Facultad de Ciencias Politicas y Sociales Unam (191) | Facultad de Derecho Unam (186) | Facultad de Estudios Superiores Aragon Unam (162) | Facultad de Arquitectura Unam (158)",
+      "sampleTitles": "la industria automotriz en mexico | el seguro agricola en mexico | La plataforma continental maritima de Mexico y el aprovechamiento economico de sus recursos naturales en relacion con el articulo 27 constitucional | Guia para el importador y exportador mexicano en la comercializacion a traves del transporte maritimo | las lineas de contacto en los transportes electricos en mexico | estacion de pasajeros de ferrocarril en aguascalientes, ags | america latina el tercer mundo y el regimen internacional de los fondos marinos | estudio preliminar del ferrocarril suburbano para el valle de mexico y proposicion de sus elementos",
+      "color": "#2F6FB3",
+      "originalLabel": "Ingenieria Civil",
+      "shortLabel": "Transporte Ferroviario - Ingenier...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C93",
+      "clusterId": 93,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Penal Mexicano - Derecho",
+      "size": 1758,
+      "radius": 19.79,
+      "position": {
+        "x": -0.11992,
+        "y": -0.61567
+      },
+      "dominantAreaShare": 0.934,
+      "programsTop": "Derecho (1370) | Relaciones Internacionales (53) | Ciencias Politicas y Administracion Publica (34) | Politica Criminal (30) | Economia (27) | Sociologia (27) | Psicologia (24) | Historia (16) | Derecho Penal (15) | Arquitectura (15)",
+      "levelsTop": "Licenciatura (1521) | Maestria (137) | Doctorado (65) | Especialidad (34)",
+      "campusesTop": "Facultad de Derecho Unam (519) | Facultad de Estudios Superiores Aragon Unam (356) | Facultad de Estudios Superiores Acatlan Unam (342) | Facultad de Ciencias Politicas y Sociales Unam (125) | No Especificado Unam (61) | Facultad de Filosofia y Letras Unam (36)",
+      "sampleTitles": "el defensor de oficio en el procedimiento penal mexicano | analisis del sistema penitenciario mexicano | los tratados internacionales sobre derechos humanos y la legislacion mexicana | el sistema penitenciario en méxico | analisis comparativo y critica de los articulos 200 del codigo penal vigente en el estado de mexico y 171 fraccion ii del codigo penal vigente en el distrito federal | las medidas de seguridad en el derecho penal mexicano | los derechos humanos de los reclusos en el sistema penitenciario mexicano | el sistema penitenciario en mexico",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Penal Mexicano - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C117",
+      "clusterId": 117,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Relaciones Comerciales Japon - Relaciones Internacion...",
+      "size": 820,
+      "radius": 18.07,
+      "position": {
+        "x": -0.58398,
+        "y": -0.28106
+      },
+      "dominantAreaShare": 0.8024,
+      "programsTop": "Relaciones Internacionales (365) | Economia (140) | Derecho (40) | Historia (32) | Administracion (17) | Estudios en Relaciones Internacionales (16) | Arquitectura (15) | Ciencias de la Comunicacion (12) | Periodismo (12) | Estudios Latinoamericanos (11)",
+      "levelsTop": "Licenciatura (697) | Maestria (86) | Doctorado (32) | Especialidad (5)",
+      "campusesTop": "Facultad de Ciencias Politicas y Sociales Unam (275) | Facultad de Estudios Superiores Aragon Unam (116) | Facultad de Economia Unam (115) | Facultad de Estudios Superiores Acatlan Unam (89) | Facultad de Filosofia y Letras Unam (63) | No Especificado Unam (36)",
+      "sampleTitles": "las inversiones extranjeras en america latina | siete migraciones japonesas a mexico : 1890-1978 | japon : la tercera potencia mundial | las inversiones extranjeras en américa latina | becas otorgadas por el conacyt en el japon a estudiantes mexicanos | mexico en el mecanismo de cooperacion economica asia-pacifico : un balance en la globalizacion | museo de arte en china | analisis actual de las relaciones : mexico y la republica popular china",
+      "color": "#2F6FB3",
+      "originalLabel": "Relaciones Internacionales",
+      "shortLabel": "Relaciones Comerciales Japon - Re...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C141",
+      "clusterId": 141,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Sociedad Cooperativa - Derecho",
+      "size": 245,
+      "radius": 15.36,
+      "position": {
+        "x": 0.43539,
+        "y": -0.50664
+      },
+      "dominantAreaShare": 0.9755,
+      "programsTop": "Derecho (175) | Economia (18) | Ciencias Politicas y Administracion Publica (12) | Administracion (9) | Sociologia (8) | Contaduria (7) | Trabajo Social (3) | Relaciones Internacionales (3) | Historia (2) | Ciencias de la Administracion (2)",
+      "levelsTop": "Licenciatura (229) | Maestria (8) | Doctorado (7) | Especialidad (1)",
+      "campusesTop": "Facultad de Derecho Unam (115) | Facultad de Estudios Superiores Aragon Unam (27) | Facultad de Estudios Superiores Acatlan Unam (26) | Facultad de Economia Unam (17) | Facultad de Contaduria y Administracion Unam (16) | Facultad de Ciencias Politicas y Sociales Unam (15)",
+      "sampleTitles": "el movimiento cooperativo en mexico | el cooperativismo en mexico | las sociedades anonimas en mexico | causas de disolucion propias de la sociedad anonima en el sistema juridico mexicano | las sociedades unipersonales en el sistema jurídico mexicano | La sociedad cooperativa en Mexico | la fusion de sociedades anonimas en el derecho mexicano | el destino del derecho de huelga en mexico",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Sociedad Cooperativa - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C178",
+      "clusterId": 178,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Legislacion Mexicana - Derecho",
+      "size": 56,
+      "radius": 12.07,
+      "position": {
+        "x": -0.65768,
+        "y": 0.19902
+      },
+      "dominantAreaShare": 0.9821,
+      "programsTop": "Derecho (51) | Sociologia (2) | Relaciones Internacionales (1) | Ciencias Politicas y Administracion Publica (1) | Ciencia Forense (1)",
+      "levelsTop": "Licenciatura (53) | Maestria (2) | Doctorado (1)",
+      "campusesTop": "Facultad de Derecho Unam (20) | Facultad de Estudios Superiores Aragon Unam (12) | Facultad de Estudios Superiores Acatlan Unam (12) | Universidad del Valle de Mexico (6) | Facultad de Ciencias Politicas y Sociales Unam (2) | Universidad la Salle (1)",
+      "sampleTitles": "la tortura en mexico | la tortura en el sistema penal mexicano | analisis sociojuridico de la tortura y su erradicacion en mexico | la comision nacional de derechos humanos como medio para evitar la tortura en mexico | la tortura como violacion de los derechos humanos en mexico | ineficacia de la ley federal para prevenir y sancionar la tortura en mexico | analisis juridico de la tortura en la legislacion mexicana | historia de la tortura y su incursion en la legislacion mexicana",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Legislacion Mexicana - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C180",
+      "clusterId": 180,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Credito Agricola - Derecho",
+      "size": 54,
+      "radius": 11.99,
+      "position": {
+        "x": -0.70347,
+        "y": -0.05371
+      },
+      "dominantAreaShare": 0.9815,
+      "programsTop": "Derecho (34) | Economia (12) | Contaduria (4) | Administracion (2) | Planificacion para El Desarrollo Agropecuario (1) | Ciencias Politicas y Administracion Publica (1)",
+      "levelsTop": "Licenciatura (53) | Doctorado (1)",
+      "campusesTop": "Facultad de Derecho Unam (29) | Facultad de Economia Unam (10) | Facultad de Contaduria y Administracion Unam (5) | Facultad de Estudios Superiores Acatlan Unam (3) | Universidad Anahuac (1) | Universidad del Valle de Mexico (1)",
+      "sampleTitles": "el credito agricola en mexico | estudio juridico e historico del credito agrario en mexico : funciones de la banca privada en el credito agricola; su importancia actual y posibilidades de desarrollo | breve estudio del credito agricola en mexico | estructura juridica del credito agricola en mexico | el credito agricola, su evolucion y funcionamiento en mexico | aspectos sobre el credito agricola en mexico | estudio critico del credito agricola en mexico | investigacion sobre el credito agricola en mexico",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Credito Agricola - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C189",
+      "clusterId": 189,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Television Azteca - Ciencias de la Comunicación",
+      "size": 46,
+      "radius": 11.63,
+      "position": {
+        "x": -0.72013,
+        "y": 0.06719
+      },
+      "dominantAreaShare": 0.6087,
+      "programsTop": "Ciencias de la Comunicacion (17) | Periodismo y Comunicacion Colectiva (8) | Periodismo (8) | Comunicacion (4) | Estudios Politicos y Sociales (2) | Comunicacion y Periodismo (1) | Ingenieria en Computacion (1) | Ingenieria Mecanica Electrica (1) | Relaciones Internacionales (1) | Sociologia (1)",
+      "levelsTop": "Licenciatura (44) | Maestria (2)",
+      "campusesTop": "Facultad de Ciencias Politicas y Sociales Unam (27) | Facultad de Estudios Superiores Acatlan Unam (11) | Facultad de Estudios Superiores Aragon Unam (4) | No Especificado Unam (1) | Facultad de Estudios Superiores Cuautitlan Unam (1) | Facultad de Filosofia y Letras Unam (1)",
+      "sampleTitles": "analisis comparativo de los noticieros de televisa y tv azteca | los corresponsales nacionales de tv azteca | el proceso de producción del noticiario am revista informativa de tv azteca | analisis de la audiencia televisiva : tv azteca 2001 | el proceso de elaboracion de la nota informativa : en el noticiero de la noche de television azteca | los generos periodisticos de opinion en television azteca | el trabajo de un calificador dentro de la videoteca de noticias de television azteca | el uso del internet como herramienta de trabajo en los noticieros de tv. azteca",
+      "color": "#2F6FB3",
+      "originalLabel": "Ciencias de la Comunicacion",
+      "shortLabel": "Television Azteca - Ciencias de l...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C241",
+      "clusterId": 241,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Futuro Sindicalismo - Derecho",
+      "size": 26,
+      "radius": 10.39,
+      "position": {
+        "x": -0.65933,
+        "y": -0.3369
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Derecho (20) | Administracion (4) | Contaduria (1) | Economia (1)",
+      "levelsTop": "Licenciatura (25) | Maestria (1)",
+      "campusesTop": "Facultad de Derecho Unam (15) | Facultad de Contaduria y Administracion Unam (5) | Universidad Villa Rica (2) | Facultad de Estudios Superiores Acatlan Unam (1) | Universidad del Valle de Mexico (1) | Programa de Posgrado en Economia Unam (1)",
+      "sampleTitles": "el sindicalismo en mexico | El sindicalismo en Mexico | finalidad del sindicalismo en mexico | la trascendencia y futuro del sindicalismo en mexico | proyeccion del sindicalismo en mexico | historia presente y futuro del sindicalismo en mexico | historia del sindicalismo en mexico | evolucion historica del sindicalismo en mexico",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Futuro Sindicalismo - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C272",
+      "clusterId": 272,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Impuesto Predial - Derecho",
+      "size": 22,
+      "radius": 10.03,
+      "position": {
+        "x": -0.31338,
+        "y": 0.68914
+      },
+      "dominantAreaShare": 0.9091,
+      "programsTop": "Derecho (8) | Economia (7) | Contaduria (2) | Urbanismo (2) | Ciencias Politicas y Administracion Publica (2) | Valuacion Inmobiliaria (1)",
+      "levelsTop": "Licenciatura (20) | Maestria (1) | Especialidad (1)",
+      "campusesTop": "Facultad de Estudios Superiores Acatlan Unam (5) | Facultad de Economia Unam (5) | Facultad de Derecho Unam (3) | Facultad de Estudios Superiores Cuautitlan Unam (2) | No Especificado Unam (2) | Facultad de Estudios Superiores Aragon Unam (2)",
+      "sampleTitles": "mexico : recaudacion municipal del impuesto predial, problemas y perspectivas | administración catastral en la ciudad de méxico y su relación con el impuesto predial | manual para la determinacion del impuesto predial en el municipio de tecamac estado de mexico | el impuesto predial en la ciudad de mexico : una vision desde el federalismo fiscal | calculo de impuestos y derechos municipales en el estado de mexico | la inconstitucionalidad de la determinacion del impuesto predial en el estado de mexico | importancia del catastro y su repercusión en la recaudación del impuesto predial en dos casos : tlalnepantla de baz, estado de méxico y ciudad de méxico | estudio y análisis del impuesto predial en la ciudad de méxico : propuesta de modernización e innovación administrativa",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Impuesto Predial - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C299",
+      "clusterId": 299,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Grupos Presion - Derecho",
+      "size": 19,
+      "radius": 9.71,
+      "position": {
+        "x": -0.76283,
+        "y": 0.12623
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Derecho (15) | Ciencias Politicas y Administracion Publica (2) | Sociologia (1) | Estudios Politicos y Sociales (1)",
+      "levelsTop": "Licenciatura (18) | Maestria (1)",
+      "campusesTop": "Facultad de Derecho Unam (10) | Facultad de Ciencias Politicas y Sociales Unam (3) | Facultad de Estudios Superiores Acatlan Unam (3) | Universidad la Salle (1) | Facultad de Estudios Superiores Aragon Unam (1) | Escuela de Derecho (1)",
+      "sampleTitles": "las agrupaciones patronales como grupos de presion en el sistema politico mexicano | los grupos de presion en el sistema politico mexicano | los grupos de presion en mexico : la confederacion patronal de la rep. mexicana (un estudio de caso) | los grupos de presion politica, factores de poder y grupos de interes en la estructura politica del estado mexicano | los partidos politicos como grupos de presion en el estado mexicano contemporaneo | la vinculación entre los partidos políticos en méxico y los grupos de presión | los grupos de presion y los partidos politicos en el derecho mexicano | Los grupos de presion en Mexico y su incidencia en la normatividad",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Grupos Presion - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C538",
+      "clusterId": 538,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Constitucion Política Estados - Derecho",
+      "size": 7,
+      "radius": 7.65,
+      "position": {
+        "x": 0.76281,
+        "y": -0.20124
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Derecho (7)",
+      "levelsTop": "Licenciatura (7)",
+      "campusesTop": "Facultad de Derecho Unam (3) | Facultad de Estudios Superiores Acatlan Unam (2) | Facultad de Estudios Superiores Aragon Unam (2)",
+      "sampleTitles": "reforma del articulo 239 del codigo fiscal de la federacion, en terminos de lo establecido por el tercer parrafo del articulo 17 de la constitucion politica de los estados unidos mexicanos | necesidad de adicionar al artículo 123 fracción x de la constitución política de los estados unidos mexicanos como forma de pago, la tarjeta de crédito | la creacion de la corte constitucional del estado de mexico en el codigo fiscal de la federacion | la contradiccion existente entre la ley general de deuda publica y el articulo 73 fraccion viii de la constitucion politica de los estados unidos mexicanos | propuesta de reforma a los articulos 9o. y 10o. de la ley general de deuda publica de mexico | propuesta de reforma al artículo 121 del código fiscal de la federación, por ser violatorio al párrafo segundo del artículo 17 de la constitución política de los estados unidos mexicanos | contravencion del articulo 167 del codigo financiero del distrito federal al articulo 73 fraccion x de la constitucion politica de los estados unidos mexicanos",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Constitucion Política Estados - D...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C557",
+      "clusterId": 557,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Seguridad Pública - Psicología",
+      "size": 7,
+      "radius": 7.65,
+      "position": {
+        "x": 0.40708,
+        "y": -0.69357
+      },
+      "dominantAreaShare": 0.5714,
+      "programsTop": "Psicologia (2) | Organizaciones (1) | Enfermeria y Obstetricia (1) | Derecho (1) | Fisioterapia (1) | Pedagogia (1)",
+      "levelsTop": "Licenciatura (6) | Maestria (1)",
+      "campusesTop": "Universidad Don Vasco Uruapan (2) | Facultad de Contaduria y Administracion Unam (1) | Facultad de Enfermeria y Obstetricia Unam (1) | Facultad de Derecho Unam (1) | Facultad de Medicina Unam (1) | Facultad de Filosofia y Letras Unam (1)",
+      "sampleTitles": "correlación entre el estrés y el desgaste ocupacional en los elementos de la policía municipal de uruapan, michoacán | relación entre el estrés y el desgaste ocupacional en los oficiales de la dirección de seguridad pública de uruapan, michoacán | la capacitacion de los recursos humanos en los cuerpos de seguridad privada del estado de hidalgo | de procedimientos en situaciones de urgencias de primer contacto para agentes de seguridad publica y transito del gobierno del estado de mexico | condiciones generales de trabajo del personal operativo de seguridad privada en la ciudad de méxico | correlación entre el estrés laboral y el trastorno de somatizacion en guardias de seguridad privada de un museo de la ciudad de méxico | capacitación de los cuerpos de seguridad pública de la ciudad de méxico para la aplicación del protocolo nacional de primer respondiente",
+      "color": "#2F6FB3",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Seguridad Pública - Psicología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C563",
+      "clusterId": 563,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Uniforme Titulos Valores - Derecho",
+      "size": 7,
+      "radius": 7.65,
+      "position": {
+        "x": -0.63516,
+        "y": -0.51725
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Derecho (7)",
+      "levelsTop": "Licenciatura (7)",
+      "campusesTop": "Facultad de Derecho Unam (5) | Facultad de Estudios Superiores Aragon Unam (1) | Facultad de Estudios Superiores Acatlan Unam (1)",
+      "sampleTitles": "el delito de comision por omision en el codigo de tipo latinoamericano | estudio sociojuridico de los menores infractores en america latina y la necesidad de reformar el codigo penal en el distrito federal | la imputabilidad en el codigo penal tipo latinoamericano | necesidad de una codificacion uniforme sobre titulos-valores en america latina | la letra de cambio en el proyecto de ley uniforme de titulos valores para america latina | Estudio de legislacion comparada de delincuencia juvenil entre Estados Unidos de America, Argentina y Mexico | elementos comparativos entre el proyecto de ley uniforme de titulos valores para la ameria latina, elaborado en buenos aires en 1967 y nuestra ley de titulos y operaciones de credito vigente desde el ano de 1932",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Uniforme Titulos Valores - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C574",
+      "clusterId": 574,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Suprema Corte Justicia - Derecho",
+      "size": 7,
+      "radius": 7.65,
+      "position": {
+        "x": 0.06822,
+        "y": 0.8309
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Derecho (4) | Ciencias Politicas y Administracion Publica (2) | Ciencias Politicas y Sociales (1)",
+      "levelsTop": "Doctorado (3) | Licenciatura (3) | Maestria (1)",
+      "campusesTop": "Facultad de Ciencias Politicas y Sociales Unam (3) | Facultad de Derecho Unam (2) | Facultad de Estudios Superiores Aragon Unam (1) | Facultad de Estudios Superiores Acatlan Unam (1)",
+      "sampleTitles": "la consolidación de la suprema corte de justicia de la nación, como el árbitro de la transición democrática mexicana | la suprema corte de justicia y la relación de los poderes públicos en la transición democrática de méxico | aportaciones y retrocesos de la suprema corte de justicia de la nación al proceso de democratización del sistema político mexicano (1994-2011) | nombramiento de ministros de la suprema corte de justicia en el méxico actual | la suprema corte de justicia de la nación como tribunal constitucional : la vida política mexicana (1995-2009) | transformación del balance de poder en méxico, construcción de capacidades de la suprema corte de justicia de la nación | la democracia en la designación de los ministros de la suprema corte de justicia de la nación en méxico",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Suprema Corte Justicia - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C604",
+      "clusterId": 604,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Registro Publico Propiedad - Derecho",
+      "size": 6,
+      "radius": 7.35,
+      "position": {
+        "x": -0.0207,
+        "y": -0.84769
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Derecho (6)",
+      "levelsTop": "Licenciatura (6)",
+      "campusesTop": "Facultad de Estudios Superiores Acatlan Unam (2) | Facultad de Derecho Unam (1) | Universidad del Valle de Mexico (1) | Universidad Nuevo Mundo (1) | Facultad de Estudios Superiores Aragon Unam (1)",
+      "sampleTitles": "las anotaciones preventivas en el sistema registral mexicano | del sistema de transcripcion y la irregularidad de los asientos registrales en el registro publico de la propiedad del estado de mexico | improcedencia de protocolizar las informaciones de dominio en el distrito federal como en el estado de méxico | negativa de registro por grado de confusion dentro del sistema registral marcario mexicano | el control de actas en el registro civil mexicano : su problema y proyecto de solucion con la informatica | ineficacia de los plazos relativos a la calificacion registral de actos relacionados a la transmision de dominio en el registro publico de la propiedad del estado de mexico",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Registro Publico Propiedad - Dere...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C627",
+      "clusterId": 627,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Identificacion Criminal - Derecho",
+      "size": 6,
+      "radius": 7.35,
+      "position": {
+        "x": 0.01952,
+        "y": 0.86166
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Derecho (6)",
+      "levelsTop": "Licenciatura (6)",
+      "campusesTop": "Facultad de Derecho Unam (2) | Facultad de Estudios Superiores Aragon Unam (2) | Universidad Latina (1) | Universidad Villa Rica (1)",
+      "sampleTitles": "la identificacion en el proceso penal mexicano | la identificacion criminal en mexico | la creación de bases de datos de adn con fines de identificación criminal en méxico | la necesidad de unificar los datos de la identificacion judicial en mexico | la identificacion dentro del procedimiento penal mexicano | creación del registro nacional de evidencias y cadena de custodia dentro de plataforma méxico bajo el sistema acusatorio",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Identificacion Criminal - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C673",
+      "clusterId": 673,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Sistema Penitenciario - Derecho",
+      "size": 6,
+      "radius": 7.35,
+      "position": {
+        "x": 0.82944,
+        "y": 0.2803
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Derecho (5) | Economia (1)",
+      "levelsTop": "Licenciatura (6)",
+      "campusesTop": "Facultad de Derecho Unam (1) | Facultad de Estudios Superiores Aragon Unam (1) | Facultad de Estudios Superiores Acatlan Unam (1) | Universidad Don Vasco Uruapan (1) | Instituto Universitario Nezahualcoyotl (1) | Facultad de Economia Unam (1)",
+      "sampleTitles": "sistema penitenciario mexicano y su privatización | constitucionalidad de privatizar el sistema penitenciario en otumba, estado de mexico | efectos economicos de la privatizacion de los reclusorios en mexico | hacia una privatización penitenciaria en méxico | la privatización como alternativa para lograr la eficacia de la reinserción social en el sistema penitenciario mexicano | la encrucijada en el rescate carretero en méxico durante el periodo 1995-1997 : privatización o rescate",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Sistema Penitenciario - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C687",
+      "clusterId": 687,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Mercadotecnia Estrategica Enfoque - Ciencia Política",
+      "size": 5,
+      "radius": 7.0,
+      "position": {
+        "x": 0.82245,
+        "y": 0.33724
+      },
+      "dominantAreaShare": 0.6,
+      "programsTop": "Ciencia Politica (1) | Ciencias de la Comunicacion (1) | Urbanismo (1) | Administracion (1) | Arquitectura (1)",
+      "levelsTop": "Licenciatura (3) | Doctorado (1) | Maestria (1)",
+      "campusesTop": "Facultad de Ciencias Politicas y Sociales Unam (2) | No Especificado Unam (1) | Facultad de Contaduria y Administracion Unam (1) | Facultad de Arquitectura Unam (1)",
+      "sampleTitles": "mercadotecnia estrategica como enfoque de gestion publica, su aplicacion en mexico a una organizacion del gobierno federal | nuevas estrategias de mercadotecnia politica para gobiernos caso estado de mexico | ordenamiento territorial de mercados públicos y tianguis : una política para nezahualcóyotl, estado de méxico | algunos aspectos de la administración financiera como instrumento de la administración publica y su practica en empresas descentralizadas y de participacion estatal para su aplicacion en los estados en desarrollo en mexico | Alternativa al programa de remodelacion de mercados en el Valle de Chalco, Estado de Mexico : Mercado Independencia",
+      "color": "#2F6FB3",
+      "originalLabel": "Ciencia Politica",
+      "shortLabel": "Mercadotecnia Estrategica Enfoque...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C733",
+      "clusterId": 733,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Reservas Internacionales - Economía",
+      "size": 5,
+      "radius": 7.0,
+      "position": {
+        "x": -0.60528,
+        "y": -0.6688
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Economia (3) | Derecho (2)",
+      "levelsTop": "Licenciatura (5)",
+      "campusesTop": "Facultad de Economia Unam (2) | Facultad de Derecho Unam (2) | Facultad de Estudios Superiores Acatlan Unam (1)",
+      "sampleTitles": "aspectos teóricos y empíricos de las dimensiones de reservas internacionales del banco de méxico. 1994-2009 | el banco de mexico y la reserva federal de los estados unidos de america (fed) : estudio comparativo | la acumulación de reservas internacionales en el régimen cambiario de libre flotación en méxico 2000-2012 | la banca central en inglaterra, los estados unidos y mexico | nivel óptimo de reservas internacionales y costo de oportunidad en la economía mexicana, 2000-2017",
+      "color": "#2F6FB3",
+      "originalLabel": "Economia",
+      "shortLabel": "Reservas Internacionales - Econom...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C753",
+      "clusterId": 753,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Bilaterales India - Relaciones Internacionales",
+      "size": 5,
+      "radius": 7.0,
+      "position": {
+        "x": -0.54008,
+        "y": 0.73849
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Relaciones Internacionales (4) | Negocios Internacionales (1)",
+      "levelsTop": "Licenciatura (4) | Maestria (1)",
+      "campusesTop": "Facultad de Estudios Superiores Aragon Unam (2) | Facultad de Ciencias Politicas y Sociales Unam (2) | Facultad de Contaduria y Administracion Unam (1)",
+      "sampleTitles": "oportunidades de inversión en la relación méxico-india en el nuevo siglo | impulso a las negociaciones comerciales bilaterales con india a partir de la estrategia de diversificación de la política exterior de méxico | relaciones bilaterales mexico-india de 1951 a 2000 | las relaciones méxico-india y su proyección futura como mercados complementarios | retos y perspectivas de las tics como promotoras de la cooperación económica y del desarrollo humano de las potencia emergentes : estudio de caso india méxico (2000-2012)",
+      "color": "#2F6FB3",
+      "originalLabel": "Relaciones Internacionales",
+      "shortLabel": "Bilaterales India - Relaciones In...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C773",
+      "clusterId": 773,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Representacion Proporcional - Derecho",
+      "size": 5,
+      "radius": 7.0,
+      "position": {
+        "x": 0.92228,
+        "y": 0.09881
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Derecho (4) | Ciencias Politicas y Administracion Publica (1)",
+      "levelsTop": "Licenciatura (4) | Maestria (1)",
+      "campusesTop": "Facultad de Derecho Unam (3) | Universidad Villa Rica (1) | Facultad de Estudios Superiores Acatlan Unam (1)",
+      "sampleTitles": "analisis para la desaparicion del principio de representacion proporcional en el sistema federal electoral mexicano | la representacion proporcional en el sistema electoral mexicano y su utilizacion para lograr una representacion politica participativa | análisis del principio de representación proporcional y su posible modificación en el sistema electoral mexicano | proporcionalidad en sistemas electorales mixtos : una comparación de los casos de méxico y bolivia (1997-2009) | la representación proporcional en mexico : hacia una formula electoral compensatoria",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Representacion Proporcional - Der...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C774",
+      "clusterId": 774,
+      "macroId": "Area3_M04",
+      "level": "micro",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Organización Naciones Unidas - Derecho",
+      "size": 5,
+      "radius": 7.0,
+      "position": {
+        "x": -0.06834,
+        "y": 0.93751
+      },
+      "dominantAreaShare": 0.8,
+      "programsTop": "Derecho (2) | Relaciones Internacionales (1) | Comunicacion y Periodismo (1) | Ciencias Politicas y Administracion Publica (1)",
+      "levelsTop": "Licenciatura (4) | Especialidad (1)",
+      "campusesTop": "Facultad de Ciencias Politicas y Sociales Unam (2) | Facultad de Derecho Unam (1) | Facultad de Estudios Superiores Aragon Unam (1) | Universidad Alzate de Ozumba (1)",
+      "sampleTitles": "la participacion de la organizacion de las naciones unidas en el proceso electoral mexicano de 1994 | integracion del congreso de la union en mexico : el caso de la coalicion alianza para todos en las elecciones federales de 2003 | la presencia de la organizacion de las naciones unidas durante el proceso electoral federal de mexico en 1994 | la necesidad de una reforma electoral para la integración del congreso de la unión de los estados unidos mexicanos | analisis de la alianza por chiapas de 2000 : una aproximacion al estudio de las alianzas electorales en mexico",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Organización Naciones Unidas - De...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C4",
+      "target": "C55",
+      "count": 467,
+      "meanScore": 0.912538,
+      "maxScore": 0.964974,
+      "strokeWidth": 3.3
+    },
+    {
+      "source": "C4",
+      "target": "C81",
+      "count": 206,
+      "meanScore": 0.892196,
+      "maxScore": 0.976908,
+      "strokeWidth": 1.732
+    },
+    {
+      "source": "C4",
+      "target": "C53",
+      "count": 124,
+      "meanScore": 0.868051,
+      "maxScore": 0.93016,
+      "strokeWidth": 1.239
+    },
+    {
+      "source": "C4",
+      "target": "C87",
+      "count": 112,
+      "meanScore": 0.875648,
+      "maxScore": 0.93256,
+      "strokeWidth": 1.167
+    },
+    {
+      "source": "C4",
+      "target": "C71",
+      "count": 109,
+      "meanScore": 0.856695,
+      "maxScore": 0.921523,
+      "strokeWidth": 1.149
+    },
+    {
+      "source": "C4",
+      "target": "C52",
+      "count": 95,
+      "meanScore": 0.853916,
+      "maxScore": 0.934757,
+      "strokeWidth": 1.065
+    },
+    {
+      "source": "C52",
+      "target": "C78",
+      "count": 93,
+      "meanScore": 0.83882,
+      "maxScore": 0.932979,
+      "strokeWidth": 1.053
+    },
+    {
+      "source": "C55",
+      "target": "C93",
+      "count": 77,
+      "meanScore": 0.921976,
+      "maxScore": 0.95572,
+      "strokeWidth": 0.957
+    },
+    {
+      "source": "C52",
+      "target": "C81",
+      "count": 73,
+      "meanScore": 0.859722,
+      "maxScore": 0.940159,
+      "strokeWidth": 0.933
+    },
+    {
+      "source": "C52",
+      "target": "C71",
+      "count": 62,
+      "meanScore": 0.841393,
+      "maxScore": 0.904869,
+      "strokeWidth": 0.867
+    },
+    {
+      "source": "C4",
+      "target": "C93",
+      "count": 55,
+      "meanScore": 0.890387,
+      "maxScore": 0.945732,
+      "strokeWidth": 0.824
+    },
+    {
+      "source": "C53",
+      "target": "C69",
+      "count": 41,
+      "meanScore": 0.796454,
+      "maxScore": 0.887042,
+      "strokeWidth": 0.74
+    },
+    {
+      "source": "C55",
+      "target": "C71",
+      "count": 39,
+      "meanScore": 0.89074,
+      "maxScore": 0.937948,
+      "strokeWidth": 0.728
+    },
+    {
+      "source": "C141",
+      "target": "C4",
+      "count": 37,
+      "meanScore": 0.889834,
+      "maxScore": 0.948331,
+      "strokeWidth": 0.716
+    },
+    {
+      "source": "C52",
+      "target": "C55",
+      "count": 37,
+      "meanScore": 0.883198,
+      "maxScore": 0.981027,
+      "strokeWidth": 0.716
+    },
+    {
+      "source": "C52",
+      "target": "C93",
+      "count": 31,
+      "meanScore": 0.88353,
+      "maxScore": 0.939968,
+      "strokeWidth": 0.68
+    },
+    {
+      "source": "C53",
+      "target": "C78",
+      "count": 30,
+      "meanScore": 0.821396,
+      "maxScore": 0.868481,
+      "strokeWidth": 0.674
+    },
+    {
+      "source": "C55",
+      "target": "C81",
+      "count": 27,
+      "meanScore": 0.8973,
+      "maxScore": 0.935564,
+      "strokeWidth": 0.656
+    },
+    {
+      "source": "C53",
+      "target": "C71",
+      "count": 25,
+      "meanScore": 0.840432,
+      "maxScore": 0.907579,
+      "strokeWidth": 0.644
+    },
+    {
+      "source": "C4",
+      "target": "C69",
+      "count": 24,
+      "meanScore": 0.845548,
+      "maxScore": 0.928178,
+      "strokeWidth": 0.638
+    },
+    {
+      "source": "C78",
+      "target": "C81",
+      "count": 22,
+      "meanScore": 0.88588,
+      "maxScore": 0.932259,
+      "strokeWidth": 0.626
+    },
+    {
+      "source": "C71",
+      "target": "C78",
+      "count": 19,
+      "meanScore": 0.846228,
+      "maxScore": 0.883765,
+      "strokeWidth": 0.608
+    },
+    {
+      "source": "C4",
+      "target": "C78",
+      "count": 19,
+      "meanScore": 0.866734,
+      "maxScore": 0.928646,
+      "strokeWidth": 0.608
+    },
+    {
+      "source": "C117",
+      "target": "C4",
+      "count": 18,
+      "meanScore": 0.869729,
+      "maxScore": 0.91756,
+      "strokeWidth": 0.602
+    },
+    {
+      "source": "C52",
+      "target": "C53",
+      "count": 16,
+      "meanScore": 0.83133,
+      "maxScore": 0.879697,
+      "strokeWidth": 0.59
+    },
+    {
+      "source": "C78",
+      "target": "C93",
+      "count": 15,
+      "meanScore": 0.86861,
+      "maxScore": 0.931209,
+      "strokeWidth": 0.584
+    },
+    {
+      "source": "C117",
+      "target": "C53",
+      "count": 15,
+      "meanScore": 0.828134,
+      "maxScore": 0.861066,
+      "strokeWidth": 0.584
+    },
+    {
+      "source": "C55",
+      "target": "C78",
+      "count": 14,
+      "meanScore": 0.906046,
+      "maxScore": 0.941863,
+      "strokeWidth": 0.578
+    },
+    {
+      "source": "C81",
+      "target": "C87",
+      "count": 12,
+      "meanScore": 0.871268,
+      "maxScore": 0.899362,
+      "strokeWidth": 0.566
+    },
+    {
+      "source": "C52",
+      "target": "C87",
+      "count": 10,
+      "meanScore": 0.806726,
+      "maxScore": 0.860522,
+      "strokeWidth": 0.554
+    },
+    {
+      "source": "C69",
+      "target": "C81",
+      "count": 10,
+      "meanScore": 0.864641,
+      "maxScore": 0.895724,
+      "strokeWidth": 0.554
+    },
+    {
+      "source": "C71",
+      "target": "C87",
+      "count": 9,
+      "meanScore": 0.847022,
+      "maxScore": 0.871877,
+      "strokeWidth": 0.548
+    },
+    {
+      "source": "C71",
+      "target": "C81",
+      "count": 9,
+      "meanScore": 0.841922,
+      "maxScore": 0.885991,
+      "strokeWidth": 0.548
+    },
+    {
+      "source": "C71",
+      "target": "C93",
+      "count": 9,
+      "meanScore": 0.854384,
+      "maxScore": 0.91792,
+      "strokeWidth": 0.548
+    },
+    {
+      "source": "C52",
+      "target": "C69",
+      "count": 8,
+      "meanScore": 0.818359,
+      "maxScore": 0.854919,
+      "strokeWidth": 0.542
+    },
+    {
+      "source": "C53",
+      "target": "C87",
+      "count": 8,
+      "meanScore": 0.839694,
+      "maxScore": 0.882941,
+      "strokeWidth": 0.542
+    },
+    {
+      "source": "C53",
+      "target": "C81",
+      "count": 7,
+      "meanScore": 0.839486,
+      "maxScore": 0.896046,
+      "strokeWidth": 0.536
+    },
+    {
+      "source": "C53",
+      "target": "C93",
+      "count": 6,
+      "meanScore": 0.823855,
+      "maxScore": 0.835499,
+      "strokeWidth": 0.53
+    },
+    {
+      "source": "C69",
+      "target": "C71",
+      "count": 5,
+      "meanScore": 0.81651,
+      "maxScore": 0.872714,
+      "strokeWidth": 0.524
+    },
+    {
+      "source": "C117",
+      "target": "C52",
+      "count": 4,
+      "meanScore": 0.832717,
+      "maxScore": 0.893909,
+      "strokeWidth": 0.518
+    },
+    {
+      "source": "C117",
+      "target": "C87",
+      "count": 4,
+      "meanScore": 0.851752,
+      "maxScore": 0.896258,
+      "strokeWidth": 0.518
+    },
+    {
+      "source": "C180",
+      "target": "C4",
+      "count": 4,
+      "meanScore": 0.911403,
+      "maxScore": 0.927165,
+      "strokeWidth": 0.518
+    },
+    {
+      "source": "C141",
+      "target": "C55",
+      "count": 4,
+      "meanScore": 0.915729,
+      "maxScore": 0.93314,
+      "strokeWidth": 0.518
+    },
+    {
+      "source": "C53",
+      "target": "C55",
+      "count": 3,
+      "meanScore": 0.852233,
+      "maxScore": 0.879156,
+      "strokeWidth": 0.512
+    },
+    {
+      "source": "C78",
+      "target": "C87",
+      "count": 3,
+      "meanScore": 0.819187,
+      "maxScore": 0.860951,
+      "strokeWidth": 0.512
+    },
+    {
+      "source": "C141",
+      "target": "C52",
+      "count": 3,
+      "meanScore": 0.87445,
+      "maxScore": 0.880371,
+      "strokeWidth": 0.512
+    },
+    {
+      "source": "C69",
+      "target": "C78",
+      "count": 3,
+      "meanScore": 0.815391,
+      "maxScore": 0.869403,
+      "strokeWidth": 0.512
+    },
+    {
+      "source": "C117",
+      "target": "C69",
+      "count": 2,
+      "meanScore": 0.800533,
+      "maxScore": 0.830134,
+      "strokeWidth": 0.506
+    },
+    {
+      "source": "C55",
+      "target": "C87",
+      "count": 2,
+      "meanScore": 0.881941,
+      "maxScore": 0.894133,
+      "strokeWidth": 0.506
+    },
+    {
+      "source": "C272",
+      "target": "C4",
+      "count": 2,
+      "meanScore": 0.90003,
+      "maxScore": 0.908519,
+      "strokeWidth": 0.506
+    },
+    {
+      "source": "C141",
+      "target": "C81",
+      "count": 2,
+      "meanScore": 0.905267,
+      "maxScore": 0.914551,
+      "strokeWidth": 0.506
+    },
+    {
+      "source": "C117",
+      "target": "C71",
+      "count": 2,
+      "meanScore": 0.809557,
+      "maxScore": 0.836053,
+      "strokeWidth": 0.506
+    },
+    {
+      "source": "C69",
+      "target": "C87",
+      "count": 2,
+      "meanScore": 0.772417,
+      "maxScore": 0.792523,
+      "strokeWidth": 0.506
+    },
+    {
+      "source": "C241",
+      "target": "C81",
+      "count": 1,
+      "meanScore": 0.974909,
+      "maxScore": 0.974909,
+      "strokeWidth": 0.5
+    },
+    {
+      "source": "C69",
+      "target": "C93",
+      "count": 1,
+      "meanScore": 0.860437,
+      "maxScore": 0.860437,
+      "strokeWidth": 0.5
+    },
+    {
+      "source": "C81",
+      "target": "C93",
+      "count": 1,
+      "meanScore": 0.818809,
+      "maxScore": 0.818809,
+      "strokeWidth": 0.5
+    }
+  ]
+}

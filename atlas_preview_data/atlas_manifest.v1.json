@@ -1,0 +1,131 @@
+{
+  "schema": "nodo-atlas-manifest",
+  "version": "v1",
+  "created_at": "2026-06-06T16:38:07.765940+00:00",
+  "root": "atlas_preview_data",
+  "loading_strategy": {
+    "macro": "eager",
+    "meso_by_macro": "lazy",
+    "micro_by_macro": "lazy",
+    "theses_by_micro": "lazy",
+    "neighborhood_by_thesis": "lazy"
+  },
+  "files": {
+    "display_policy": {
+      "path": "atlas_display_policy.v1.json",
+      "schema": "nodo-atlas-display-policy",
+      "required_top_level_keys": [
+        "schema",
+        "version",
+        "micro",
+        "representative_theses",
+        "neighborhood"
+      ],
+      "size_mb": 0.0031
+    },
+    "macro_graph": {
+      "path": "atlas_balanced_macro_graph.json",
+      "schema": "nodo-atlas-macro-graph",
+      "required_top_level_keys": [
+        "version",
+        "anchors",
+        "nodes",
+        "edges"
+      ],
+      "node_id_pattern": "Area{1-4}_M{00..}",
+      "size_mb": 0.2445
+    },
+    "meso_by_macro": {
+      "path_template": "meso_by_macro/{macro_id}.json",
+      "schema": "nodo-atlas-subgraph",
+      "required_top_level_keys": [
+        "version",
+        "macro",
+        "anchors",
+        "nodes",
+        "edges"
+      ],
+      "count": 43,
+      "size_mb": 0.3705
+    },
+    "micro_by_macro": {
+      "path_template": "micro_by_macro/{macro_id}.json",
+      "schema": "nodo-atlas-subgraph",
+      "required_top_level_keys": [
+        "version",
+        "macro",
+        "anchors",
+        "nodes",
+        "edges"
+      ],
+      "count": 43,
+      "size_mb": 1.5842
+    },
+    "theses_by_micro": {
+      "path_template": "theses_by_micro/{micro_id}.json",
+      "schema": "nodo-atlas-representative-theses",
+      "required_top_level_keys": [
+        "version",
+        "micro",
+        "selection",
+        "theses"
+      ],
+      "min_theses_display": 2,
+      "max_theses_display": 25,
+      "count": 912,
+      "size_mb": 8.6931
+    },
+    "neighborhood_by_thesis": {
+      "path_template": "neighborhood_by_thesis/{thesis_id}.json",
+      "schema": "nodo-atlas-thesis-neighborhood",
+      "required_top_level_keys": [
+        "version",
+        "centerId",
+        "nodes",
+        "edges",
+        "meta"
+      ],
+      "expected_neighbors": 50,
+      "count": 10068,
+      "size_mb": 516.4819
+    }
+  },
+  "ui_contract": {
+    "levels": [
+      "macro",
+      "meso",
+      "micro",
+      "theses",
+      "neighborhood"
+    ],
+    "click_flow": [
+      "macro node -> meso subgraph if available",
+      "macro node -> micro subgraph fallback",
+      "meso/micro node -> representative theses",
+      "representative thesis -> thesis neighborhood"
+    ],
+    "neighborhood_controls": {
+      "modes": [
+        "universe",
+        "analytic"
+      ],
+      "group_by": [
+        "year",
+        "program",
+        "plantel",
+        "level",
+        "area"
+      ],
+      "display_count": {
+        "min": 10,
+        "max": 50,
+        "step": 5
+      }
+    }
+  },
+  "notes": [
+    "This is the beta contract for the preview data bundle, not the final public API.",
+    "All heavy layers must be lazy-loaded. Do not load neighborhoods eagerly.",
+    "If JSON filenames change, update this manifest and the preview loader together."
+  ]
+}

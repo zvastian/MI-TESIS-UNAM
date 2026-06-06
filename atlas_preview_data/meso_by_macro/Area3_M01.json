@@ -1,0 +1,1115 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area3_M01",
+    "label": "Derecho, Administración Pública y Ciencias Sociales",
+    "shortLabel": "Derecho, Administración Pública y...",
+    "area": "Area 3",
+    "size": 45469,
+    "description": "producción dominante en derecho, administración pública, contaduría, economía, comunicación, sociolog?a y ciencias sociales."
+  },
+  "nodes": [
+    {
+      "id": "C15",
+      "clusterId": 15,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Procedimiento Penal - Derecho",
+      "size": 7096,
+      "radius": 30.0,
+      "position": {
+        "x": -0.36664,
+        "y": -0.18903
+      },
+      "dominantAreaShare": 0.9746,
+      "programsTop": "Derecho (6701) | Arquitectura (49) | Psicologia (47) | Filosofia (25) | Derecho Penal (22) | Trabajo Social (22) | Ciencias Politicas y Administracion Publica (22) | Politica Criminal (19) | Pedagogia (17) | Cirujano Dentista (14)",
+      "levelsTop": "Licenciatura (6731) | Maestria (172) | Doctorado (135) | Especialidad (56)",
+      "campusesTop": "Facultad de Derecho Unam (3585) | Facultad de Estudios Superiores Aragon Unam (1317) | Facultad de Estudios Superiores Acatlan Unam (911) | Universidad del Valle de Mexico (124) | Universidad Lasallista Benavente (121) | No Especificado Unam (113)",
+      "sampleTitles": "la responsabilidad civil objetiva | el delito continuado | el amparo indirecto en materia civil | la instruccion en el proceso penal | delito y sociedad | las partes en el proceso civil | los derechos humanos a la luz del derecho comparado | el fuero constitucional",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Procedimiento Penal - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C20",
+      "clusterId": 20,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "LEY Federal Trabajo - Derecho",
+      "size": 6082,
+      "radius": 29.08,
+      "position": {
+        "x": -0.01392,
+        "y": 0.47961
+      },
+      "dominantAreaShare": 0.9658,
+      "programsTop": "Derecho (5102) | Contaduria (452) | Administracion (113) | Economia (75) | Psicologia (59) | Actuaria (43) | Ingenieria Civil (27) | Trabajo Social (26) | Ciencias Politicas y Administracion Publica (21) | Sociologia (21)",
+      "levelsTop": "Licenciatura (5985) | Maestria (44) | Especialidad (28) | Doctorado (23)",
+      "campusesTop": "Facultad de Derecho Unam (3592) | Facultad de Estudios Superiores Aragon Unam (549) | Facultad de Estudios Superiores Acatlan Unam (457) | Facultad de Contaduria y Administracion Unam (275) | Facultad de Estudios Superiores Cuautitlan Unam (237) | Universidad del Valle de Mexico (104)",
+      "sampleTitles": "regimen laboral de los organismos descentralizados | analisis del articulo 161 de la ley federal del trabajo | dictamen para efectos del seguro social | los delitos laborales | la prueba presuncional en el proceso del trabajo | la seguridad social de los trabajadores domesticos | el salario minimo | el derecho de huelga",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "LEY Federal Trabajo - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C27",
+      "clusterId": 27,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Amparo Materia Política - Derecho",
+      "size": 5217,
+      "radius": 28.17,
+      "position": {
+        "x": -0.52957,
+        "y": 0.0448
+      },
+      "dominantAreaShare": 0.6787,
+      "programsTop": "Derecho (1695) | Ciencias Politicas y Administracion Publica (566) | Filosofia (441) | Historia (371) | Sociologia (278) | Economia (207) | Ciencias de la Comunicacion (184) | Arquitectura (132) | Estudios Latinoamericanos (90) | Relaciones Internacionales (89)",
+      "levelsTop": "Licenciatura (4177) | Maestria (656) | Doctorado (340) | Especialidad (40)",
+      "campusesTop": "Facultad de Ciencias Politicas y Sociales Unam (1181) | Facultad de Derecho Unam (1127) | Facultad de Filosofia y Letras Unam (957) | Facultad de Estudios Superiores Acatlan Unam (450) | Facultad de Estudios Superiores Aragon Unam (383) | No Especificado Unam (234)",
+      "sampleTitles": "centro de difusion cultural en el bosque de chapultepec | sistema integral de la jornada electoral | escision de sociedades | el procedimiento en los juicios sucesorios | lo real-politico y el tiempo | la escision de sociedades | sociedades unimembres | la democracia municipal",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Amparo Materia Política - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C39",
+      "clusterId": 39,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Distrito Federal - Derecho",
+      "size": 4204,
+      "radius": 26.89,
+      "position": {
+        "x": -0.46739,
+        "y": 0.33492
+      },
+      "dominantAreaShare": 0.9588,
+      "programsTop": "Derecho (3544) | Ciencias Politicas y Administracion Publica (159) | Contaduria (99) | Administracion (71) | Arquitectura (55) | Psicologia (41) | Economia (34) | Estudios Politicos y Sociales (16) | Sociologia (13) | Pedagogia (11)",
+      "levelsTop": "Licenciatura (4014) | Maestria (105) | Doctorado (53) | Especialidad (32)",
+      "campusesTop": "Facultad de Derecho Unam (1737) | Facultad de Estudios Superiores Aragon Unam (818) | Facultad de Estudios Superiores Acatlan Unam (555) | Facultad de Ciencias Politicas y Sociales Unam (186) | Facultad de Contaduria y Administracion Unam (143) | Universidad del Valle de Mexico (86)",
+      "sampleTitles": "funciones y atribuciones del ministerio publico como representante de la sociedad | la suplencia de la queja en el juicio de amparo | la suspension del acto reclamado en el juicio de amparo | la funcion social del ministerio publico | los incidentes en el juicio de amparo | estudio y evaluacion del control interno a traves de diagramas de flujo | academia para la policia federal de caminos | la responsabilidad de los servidores públicos",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Distrito Federal - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C41",
+      "clusterId": 41,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Comercio Exterior - Derecho",
+      "size": 4100,
+      "radius": 26.74,
+      "position": {
+        "x": 0.5511,
+        "y": -0.26927
+      },
+      "dominantAreaShare": 0.7683,
+      "programsTop": "Derecho (1213) | Economia (893) | Relaciones Internacionales (265) | Contaduria (225) | Administracion (209) | Actuaria (99) | Ciencias Politicas y Administracion Publica (98) | Ingenieria Mecanica Electrica (95) | Geografia (89) | Arquitectura (60)",
+      "levelsTop": "Licenciatura (3608) | Maestria (303) | Doctorado (128) | Especialidad (61)",
+      "campusesTop": "Facultad de Derecho Unam (883) | Facultad de Economia Unam (796) | Facultad de Ciencias Politicas y Sociales Unam (328) | Facultad de Contaduria y Administracion Unam (315) | Facultad de Estudios Superiores Acatlan Unam (246) | Facultad de Estudios Superiores Aragon Unam (206)",
+      "sampleTitles": "consorcios de exportación | m.t.m. análisis su uso y aplicacion a la industria | Sistema de permisos de importacion y exportacion | tecnologia adecuada para el desarrollo regional | un modelo de calidad total empresarial ante el tratado de libre comercio | Naturaleza juridica de las empresas multinacionales | competencia del tribunal fiscal de la federacion en materia de comercio exterior | la naturaleza juridica de las cuotas compensatorias",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Comercio Exterior - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C56",
+      "clusterId": 56,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Contador Publico - Contaduría",
+      "size": 3479,
+      "radius": 25.76,
+      "position": {
+        "x": -0.04305,
+        "y": 0.64661
+      },
+      "dominantAreaShare": 0.8974,
+      "programsTop": "Contaduria (1159) | Derecho (1145) | Administracion (314) | Ciencias Politicas y Administracion Publica (247) | Ingenieria Civil (89) | Psicologia (82) | Economia (76) | Pedagogia (46) | Arquitectura (31) | Relaciones Internacionales (27)",
+      "levelsTop": "Licenciatura (3343) | Maestria (84) | Doctorado (41) | Especialidad (11)",
+      "campusesTop": "Facultad de Contaduria y Administracion Unam (1231) | Facultad de Derecho Unam (777) | Facultad de Ciencias Politicas y Sociales Unam (269) | Facultad de Estudios Superiores Aragon Unam (198) | Facultad de Estudios Superiores Acatlan Unam (198) | Facultad de Estudios Superiores Cuautitlan Unam (132)",
+      "sampleTitles": "el contador publico y la auditoria administrativa | contabilidad financiera y administrativa | el estado patron | los servicios públicos | importancia de la contabilidad en la administración | tecnicas de auditoria | el contrato de prestacion de servicios profesionales | la auditoria gubernamental",
+      "color": "#2F6FB3",
+      "originalLabel": "Contaduria",
+      "shortLabel": "Contador Publico - Contaduría",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C62",
+      "clusterId": 62,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Medios Masivos Comunicación - Derecho",
+      "size": 3103,
+      "radius": 25.08,
+      "position": {
+        "x": 0.5912,
+        "y": 0.33584
+      },
+      "dominantAreaShare": 0.6842,
+      "programsTop": "Derecho (1075) | Ciencias de la Comunicacion (375) | Administracion (208) | Periodismo (155) | Comunicacion y Periodismo (148) | Periodismo y Comunicacion Colectiva (140) | Contaduria (100) | Psicologia (96) | Diseño Grafico (68) | Ingenieria en Computacion (65)",
+      "levelsTop": "Licenciatura (2834) | Maestria (185) | Doctorado (52) | Especialidad (31)",
+      "campusesTop": "Facultad de Ciencias Politicas y Sociales Unam (585) | Facultad de Derecho Unam (572) | Facultad de Estudios Superiores Aragon Unam (478) | Facultad de Estudios Superiores Acatlan Unam (307) | Facultad de Contaduria y Administracion Unam (177) | Facultad de Filosofia y Letras Unam (123)",
+      "sampleTitles": "Cirugia preprotesica | Cirugia Preprotesica | cirugia preprotesica | sistema de administración de noticias | la transparencia en el gobierno del distrito federal, periodo 2000 a 2006 | estudio dogmatico del delito de atentados al pudor | Red de monitoreo de signos vitales | el delito de administración fraudulenta",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Medios Masivos Comunicación - Der...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C64",
+      "clusterId": 64,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Derecho Internacional Publico - Derecho",
+      "size": 3080,
+      "radius": 25.04,
+      "position": {
+        "x": 0.68598,
+        "y": -0.18164
+      },
+      "dominantAreaShare": 0.9104,
+      "programsTop": "Derecho (1946) | Relaciones Internacionales (494) | Ciencias Politicas y Administracion Publica (76) | Psicologia (52) | Pedagogia (41) | Estudios en Relaciones Internacionales (35) | Historia (34) | Economia (32) | Sociologia (31) | Filosofia (26)",
+      "levelsTop": "Licenciatura (2810) | Maestria (166) | Doctorado (85) | Especialidad (19)",
+      "campusesTop": "Facultad de Derecho Unam (1397) | Facultad de Ciencias Politicas y Sociales Unam (470) | Facultad de Estudios Superiores Aragon Unam (331) | Facultad de Estudios Superiores Acatlan Unam (300) | Facultad de Filosofia y Letras Unam (115) | No Especificado Unam (70)",
+      "sampleTitles": "la justicia de paz | las resoluciones de los organismos internacionales como fuente del derecho internacional | la extradicion en el sistema interamericano | la mision diplomatica | las obligaciones convencionales en el derecho internacional privado | consideraciones juridicas sobre los tratados en el plano del derecho interno y del derecho internacional | la seguridad social en el ambito del derecho internacional | ejecucion de sentencias extranjeras",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Derecho Internacional Publico - D...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C68",
+      "clusterId": 68,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Naturaleza Jurídica - Derecho",
+      "size": 2855,
+      "radius": 24.58,
+      "position": {
+        "x": -0.69516,
+        "y": -0.2463
+      },
+      "dominantAreaShare": 0.9527,
+      "programsTop": "Derecho (2251) | Contaduria (241) | Administracion (66) | Economia (47) | Psicologia (36) | Ciencias Politicas y Administracion Publica (23) | Sociologia (18) | Ciencias de la Comunicacion (12) | Arquitectura (12) | Ingenieria Mecanica Electrica (9)",
+      "levelsTop": "Licenciatura (2748) | Maestria (55) | Especialidad (28) | Doctorado (24)",
+      "campusesTop": "Facultad de Derecho Unam (1377) | Facultad de Estudios Superiores Aragon Unam (333) | Facultad de Estudios Superiores Acatlan Unam (252) | Facultad de Contaduria y Administracion Unam (187) | Facultad de Estudios Superiores Cuautitlan Unam (94) | Facultad de Ciencias Politicas y Sociales Unam (54)",
+      "sampleTitles": "la transaccion | la personalidad juridica de las sociedades mercantiles | naturaleza juridica de la asociacion en participacion | el contrato de suministro | complicidad correspectiva | el embargo en el juicio ejecutivo mercantil | la compraventa con reserva de dominio | la asociacion en participacion",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Naturaleza Jurídica - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C83",
+      "clusterId": 83,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Naturaleza Jurídica Tutela - Derecho",
+      "size": 2233,
+      "radius": 23.12,
+      "position": {
+        "x": 0.31016,
+        "y": 0.69807
+      },
+      "dominantAreaShare": 0.8974,
+      "programsTop": "Derecho (1877) | Psicologia (67) | Filosofia (47) | Cirujano Dentista (46) | Contaduria (32) | Actuaria (13) | Sociologia (11) | Arquitectura (8) | Economia (8) | Administracion (7)",
+      "levelsTop": "Licenciatura (2053) | Maestria (103) | Doctorado (60) | Especialidad (17)",
+      "campusesTop": "Facultad de Derecho Unam (1389) | Facultad de Estudios Superiores Aragon Unam (157) | Facultad de Estudios Superiores Acatlan Unam (144) | Facultad de Filosofia y Letras Unam (57) | No Especificado Unam (53) | Facultad de Estudios Superiores Iztacala Unam (37)",
+      "sampleTitles": "la jurisprudencia como fuente del derecho | modalidades de las obligaciones | el uso abusivo del derecho | las obligaciones reales | el estado de necesidad | la persona juridica a la luz de la filosofia del derecho | la problematica de la legitima defensa | el desvio de poder",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Naturaleza Jurídica Tutela - Dere...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C104",
+      "clusterId": 104,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Codigo Procedimientos Civiles - Derecho",
+      "size": 1192,
+      "radius": 19.39,
+      "position": {
+        "x": 0.78499,
+        "y": -0.07892
+      },
+      "dominantAreaShare": 0.995,
+      "programsTop": "Derecho (1176) | Psicologia (6) | Derecho Civil (4) | Comunicacion y Periodismo (1) | Contaduria (1) | Administracion (1) | Letras (letras Espanolas) (1) | Filosofia (1) | Artes Visuales (1)",
+      "levelsTop": "Licenciatura (1173) | Maestria (11) | Especialidad (5) | Doctorado (3)",
+      "campusesTop": "Facultad de Derecho Unam (521) | Facultad de Estudios Superiores Aragon Unam (291) | Facultad de Estudios Superiores Acatlan Unam (178) | Universidad del Valle de Mexico (32) | Universidad Latina (24) | Universidad del Tepeyac (18)",
+      "sampleTitles": "propuesta de reforma al articulo 278 del codigo civil para el distrito federal | la apelacion en materia civil | Analisis critico del recurso de apelacion en materia penal en el Distrito Federal a nivel doctrinario, legislativo y jurisprudencial | el recurso de apelacion en el procedimiento penal | la apelacion extraordinaria | comprobacion del cuerpo del delito | estudio de la doctrina de la reconvencion y la legislacion vigente aplicable dentro del juicio ordinario civil en el distrito federal | el contrato de cuota litis en relacion con el articulo 2276 del codigo civil para el distrito y territorios federales",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Codigo Procedimientos Civiles - D...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C105",
+      "clusterId": 105,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Derechos Autor - Derecho",
+      "size": 1129,
+      "radius": 19.07,
+      "position": {
+        "x": 0.24442,
+        "y": -0.7753
+      },
+      "dominantAreaShare": 0.9088,
+      "programsTop": "Derecho (940) | Relaciones Internacionales (19) | Economia (15) | Ingenieria Quimica (15) | Administracion (13) | Bibliotecologia y Estudios de la Informacion (12) | Bibliotecologia (7) | Diseño Grafico (7) | Historia (6) | Quimica Farmaceutico Biologica (6)",
+      "levelsTop": "Licenciatura (1059) | Maestria (39) | Doctorado (22) | Especialidad (9)",
+      "campusesTop": "Facultad de Derecho Unam (594) | Facultad de Estudios Superiores Acatlan Unam (131) | Facultad de Estudios Superiores Aragon Unam (103) | Facultad de Filosofia y Letras Unam (32) | Facultad de Ciencias Politicas y Sociales Unam (24) | No Especificado Unam (22)",
+      "sampleTitles": "el nombre de las personas fisicas | el dominio publico en el derecho intelectual | el monopolio | el articulo 28 constitucional y la ley de monopolios | derechos de autor | estudio dogmatico del delito de abuso de confianza | los derechos de autor | proteccion penal a los derechos de autor",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Derechos Autor - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C118",
+      "clusterId": 118,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Testamento Publico - Derecho",
+      "size": 745,
+      "radius": 16.6,
+      "position": {
+        "x": -0.0363,
+        "y": 0.83511
+      },
+      "dominantAreaShare": 0.9758,
+      "programsTop": "Derecho (704) | Contaduria (12) | Historia (7) | Derecho Civil (3) | Filosofia (3) | Lengua y Literaturas Hispanicas (2) | Civil y Mercantil (1) | Psicologia (1) | Administracion (1) | Mediacion y Medios Alternativos de Solucion de Conflictos (1)",
+      "levelsTop": "Licenciatura (727) | Especialidad (6) | Maestria (6) | Doctorado (6)",
+      "campusesTop": "Facultad de Derecho Unam (355) | Facultad de Estudios Superiores Aragon Unam (105) | Facultad de Estudios Superiores Acatlan Unam (96) | Universidad Latina (20) | Escuela de Derecho (19) | Universidad Panamericana (14)",
+      "sampleTitles": "el testamento publico simplificado | testamento publico simplificado | propuesta para la creacion de un registro nacional de testamentos | el testamento como fuente de obligaciones | el testamento olografo | naturaleza juridica de la funcion notarial | la jurisdiccion voluntaria | los testigos en el testamento publico abierto",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Testamento Publico - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C123",
+      "clusterId": 123,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Sociedades Anonimas - Derecho",
+      "size": 536,
+      "radius": 14.64,
+      "position": {
+        "x": -0.77119,
+        "y": -0.37612
+      },
+      "dominantAreaShare": 0.9963,
+      "programsTop": "Derecho (371) | Contaduria (153) | Administracion (5) | Psicologia (2) | Sociologia (1) | Fiscal (1) | Derecho Empresarial (1) | Civil y Mercantil (1) | Ingenieria de Sistemas (1)",
+      "levelsTop": "Licenciatura (527) | Especialidad (4) | Maestria (3) | Doctorado (2)",
+      "campusesTop": "Facultad de Derecho Unam (244) | Facultad de Contaduria y Administracion Unam (96) | Facultad de Estudios Superiores Cuautitlan Unam (50) | Facultad de Estudios Superiores Aragon Unam (34) | Facultad de Estudios Superiores Acatlan Unam (32) | Universidad Panamericana (17)",
+      "sampleTitles": "disolucion y liquidacion de una sociedad anonima | el derecho de voto en la sociedad anonima | proteccion de las minorias en las sociedades anonimas | la liquidacion de la sociedad anonima | el capital en las sociedades anonimas | la representacion de las sociedades anonimas | la responsabilidad de los administradores en la sociedad anonima | la representacion en las sociedades anonimas",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Sociedades Anonimas - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C146",
+      "clusterId": 146,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Trabajadores Confianza - Derecho",
+      "size": 211,
+      "radius": 9.11,
+      "position": {
+        "x": -0.16344,
+        "y": 0.86404
+      },
+      "dominantAreaShare": 0.9953,
+      "programsTop": "Derecho (209) | Contaduria (1) | Psicologia (1)",
+      "levelsTop": "Licenciatura (210) | Maestria (1)",
+      "campusesTop": "Facultad de Derecho Unam (133) | Facultad de Estudios Superiores Aragon Unam (28) | Facultad de Estudios Superiores Acatlan Unam (21) | Universidad del Valle de Mexico (8) | Universidad del Tepeyac (3) | Universidad Lasallista Benavente (3)",
+      "sampleTitles": "la personalidad juridica de los sindicatos | los trabajadores de confianza | el regimen juridico de los trabajadores de confianza | los trabajadores de confianza al servicio del estado | la sindicalizacion patronal y de los empleados de confianza | la inestabilidad en el empleo de los trabajadores de confianza al servicio del estado | la estabilidad en el empleo de los trabajadores de confianza al servicio del estado | la situacion laboral de los trabajadores de confianza",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Trabajadores Confianza - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C148",
+      "clusterId": 148,
+      "macroId": "Area3_M01",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Procuraduria Federal Consumidor - Derecho",
+      "size": 207,
+      "radius": 9.0,
+      "position": {
+        "x": -0.88932,
+        "y": 0.13823
+      },
+      "dominantAreaShare": 0.9952,
+      "programsTop": "Derecho (193) | Ciencias Politicas y Administracion Publica (5) | Administracion (4) | Economia (2) | Contaduria (2) | Ingenieria en Computacion (1)",
+      "levelsTop": "Licenciatura (206) | Maestria (1)",
+      "campusesTop": "Facultad de Derecho Unam (67) | Facultad de Estudios Superiores Aragon Unam (61) | Facultad de Estudios Superiores Acatlan Unam (38) | Universidad del Valle de Mexico (12) | No Especificado Unam (4) | Facultad de Contaduria y Administracion Unam (4)",
+      "sampleTitles": "la funcion arbitral de la procuraduria federal del consumidor | breve analisis a la ley federal de proteccion al consumidor | analisis juridico de la procuraduria federal del consumidor | los contratos de adhesion en la ley federal de proteccion al consumidor | ley federal de proteccion al consumidor | la procuraduría federal del consumidor como órgano de la administración publica | el contrato de adhesion en la ley federal de proteccion al consumidor | analisis y aplicacion de la ley federal de proteccion al consumidor",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Procuraduria Federal Consumidor -...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C15",
+      "target": "C39",
+      "count": 430,
+      "meanScore": 0.863048,
+      "maxScore": 0.97372,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C15",
+      "target": "C83",
+      "count": 190,
+      "meanScore": 0.854596,
+      "maxScore": 0.927373,
+      "strokeWidth": 2.01
+    },
+    {
+      "source": "C27",
+      "target": "C39",
+      "count": 177,
+      "meanScore": 0.830496,
+      "maxScore": 0.938282,
+      "strokeWidth": 1.913
+    },
+    {
+      "source": "C39",
+      "target": "C56",
+      "count": 173,
+      "meanScore": 0.843378,
+      "maxScore": 0.945119,
+      "strokeWidth": 1.883
+    },
+    {
+      "source": "C41",
+      "target": "C64",
+      "count": 171,
+      "meanScore": 0.824492,
+      "maxScore": 0.921044,
+      "strokeWidth": 1.868
+    },
+    {
+      "source": "C15",
+      "target": "C27",
+      "count": 160,
+      "meanScore": 0.839445,
+      "maxScore": 0.920895,
+      "strokeWidth": 1.786
+    },
+    {
+      "source": "C27",
+      "target": "C41",
+      "count": 159,
+      "meanScore": 0.78868,
+      "maxScore": 0.889448,
+      "strokeWidth": 1.779
+    },
+    {
+      "source": "C27",
+      "target": "C56",
+      "count": 140,
+      "meanScore": 0.809494,
+      "maxScore": 0.883237,
+      "strokeWidth": 1.637
+    },
+    {
+      "source": "C20",
+      "target": "C56",
+      "count": 113,
+      "meanScore": 0.839663,
+      "maxScore": 0.945583,
+      "strokeWidth": 1.435
+    },
+    {
+      "source": "C27",
+      "target": "C62",
+      "count": 109,
+      "meanScore": 0.798086,
+      "maxScore": 0.87531,
+      "strokeWidth": 1.406
+    },
+    {
+      "source": "C27",
+      "target": "C64",
+      "count": 109,
+      "meanScore": 0.796388,
+      "maxScore": 0.896667,
+      "strokeWidth": 1.406
+    },
+    {
+      "source": "C27",
+      "target": "C83",
+      "count": 109,
+      "meanScore": 0.82263,
+      "maxScore": 0.90661,
+      "strokeWidth": 1.406
+    },
+    {
+      "source": "C41",
+      "target": "C56",
+      "count": 104,
+      "meanScore": 0.805431,
+      "maxScore": 0.89918,
+      "strokeWidth": 1.368
+    },
+    {
+      "source": "C56",
+      "target": "C68",
+      "count": 77,
+      "meanScore": 0.831827,
+      "maxScore": 0.915186,
+      "strokeWidth": 1.167
+    },
+    {
+      "source": "C15",
+      "target": "C68",
+      "count": 76,
+      "meanScore": 0.843123,
+      "maxScore": 0.912615,
+      "strokeWidth": 1.159
+    },
+    {
+      "source": "C39",
+      "target": "C83",
+      "count": 74,
+      "meanScore": 0.839052,
+      "maxScore": 0.925214,
+      "strokeWidth": 1.145
+    },
+    {
+      "source": "C41",
+      "target": "C68",
+      "count": 73,
+      "meanScore": 0.818164,
+      "maxScore": 0.899111,
+      "strokeWidth": 1.137
+    },
+    {
+      "source": "C104",
+      "target": "C15",
+      "count": 65,
+      "meanScore": 0.870695,
+      "maxScore": 0.92123,
+      "strokeWidth": 1.077
+    },
+    {
+      "source": "C15",
+      "target": "C64",
+      "count": 63,
+      "meanScore": 0.834543,
+      "maxScore": 0.897381,
+      "strokeWidth": 1.062
+    },
+    {
+      "source": "C56",
+      "target": "C64",
+      "count": 63,
+      "meanScore": 0.806872,
+      "maxScore": 0.876073,
+      "strokeWidth": 1.062
+    },
+    {
+      "source": "C56",
+      "target": "C62",
+      "count": 62,
+      "meanScore": 0.805531,
+      "maxScore": 0.90171,
+      "strokeWidth": 1.055
+    },
+    {
+      "source": "C20",
+      "target": "C27",
+      "count": 60,
+      "meanScore": 0.810577,
+      "maxScore": 0.87168,
+      "strokeWidth": 1.04
+    },
+    {
+      "source": "C68",
+      "target": "C83",
+      "count": 57,
+      "meanScore": 0.840152,
+      "maxScore": 0.95253,
+      "strokeWidth": 1.018
+    },
+    {
+      "source": "C15",
+      "target": "C20",
+      "count": 56,
+      "meanScore": 0.846021,
+      "maxScore": 0.928912,
+      "strokeWidth": 1.01
+    },
+    {
+      "source": "C20",
+      "target": "C83",
+      "count": 56,
+      "meanScore": 0.836247,
+      "maxScore": 0.915412,
+      "strokeWidth": 1.01
+    },
+    {
+      "source": "C39",
+      "target": "C64",
+      "count": 56,
+      "meanScore": 0.826052,
+      "maxScore": 0.893404,
+      "strokeWidth": 1.01
+    },
+    {
+      "source": "C56",
+      "target": "C83",
+      "count": 51,
+      "meanScore": 0.831857,
+      "maxScore": 0.956534,
+      "strokeWidth": 0.973
+    },
+    {
+      "source": "C20",
+      "target": "C68",
+      "count": 46,
+      "meanScore": 0.827309,
+      "maxScore": 0.937402,
+      "strokeWidth": 0.936
+    },
+    {
+      "source": "C20",
+      "target": "C39",
+      "count": 45,
+      "meanScore": 0.837717,
+      "maxScore": 0.968545,
+      "strokeWidth": 0.928
+    },
+    {
+      "source": "C104",
+      "target": "C39",
+      "count": 45,
+      "meanScore": 0.873497,
+      "maxScore": 0.92324,
+      "strokeWidth": 0.928
+    },
+    {
+      "source": "C64",
+      "target": "C68",
+      "count": 44,
+      "meanScore": 0.819319,
+      "maxScore": 0.887128,
+      "strokeWidth": 0.921
+    },
+    {
+      "source": "C39",
+      "target": "C68",
+      "count": 41,
+      "meanScore": 0.845899,
+      "maxScore": 0.9354,
+      "strokeWidth": 0.898
+    },
+    {
+      "source": "C27",
+      "target": "C68",
+      "count": 39,
+      "meanScore": 0.801894,
+      "maxScore": 0.92604,
+      "strokeWidth": 0.883
+    },
+    {
+      "source": "C105",
+      "target": "C68",
+      "count": 34,
+      "meanScore": 0.831305,
+      "maxScore": 0.886367,
+      "strokeWidth": 0.846
+    },
+    {
+      "source": "C15",
+      "target": "C56",
+      "count": 32,
+      "meanScore": 0.83692,
+      "maxScore": 0.902063,
+      "strokeWidth": 0.831
+    },
+    {
+      "source": "C62",
+      "target": "C64",
+      "count": 30,
+      "meanScore": 0.813665,
+      "maxScore": 0.926687,
+      "strokeWidth": 0.816
+    },
+    {
+      "source": "C104",
+      "target": "C68",
+      "count": 30,
+      "meanScore": 0.840112,
+      "maxScore": 0.886859,
+      "strokeWidth": 0.816
+    },
+    {
+      "source": "C39",
+      "target": "C62",
+      "count": 25,
+      "meanScore": 0.801693,
+      "maxScore": 0.86001,
+      "strokeWidth": 0.779
+    },
+    {
+      "source": "C118",
+      "target": "C39",
+      "count": 24,
+      "meanScore": 0.840515,
+      "maxScore": 0.898183,
+      "strokeWidth": 0.772
+    },
+    {
+      "source": "C20",
+      "target": "C41",
+      "count": 24,
+      "meanScore": 0.80777,
+      "maxScore": 0.918416,
+      "strokeWidth": 0.772
+    },
+    {
+      "source": "C105",
+      "target": "C41",
+      "count": 24,
+      "meanScore": 0.820785,
+      "maxScore": 0.891388,
+      "strokeWidth": 0.772
+    },
+    {
+      "source": "C118",
+      "target": "C83",
+      "count": 23,
+      "meanScore": 0.827335,
+      "maxScore": 0.895045,
+      "strokeWidth": 0.764
+    },
+    {
+      "source": "C62",
+      "target": "C68",
+      "count": 22,
+      "meanScore": 0.816185,
+      "maxScore": 0.878481,
+      "strokeWidth": 0.757
+    },
+    {
+      "source": "C15",
+      "target": "C41",
+      "count": 21,
+      "meanScore": 0.833487,
+      "maxScore": 0.937743,
+      "strokeWidth": 0.749
+    },
+    {
+      "source": "C15",
+      "target": "C62",
+      "count": 20,
+      "meanScore": 0.842492,
+      "maxScore": 0.909034,
+      "strokeWidth": 0.742
+    },
+    {
+      "source": "C41",
+      "target": "C62",
+      "count": 19,
+      "meanScore": 0.795776,
+      "maxScore": 0.843296,
+      "strokeWidth": 0.734
+    },
+    {
+      "source": "C64",
+      "target": "C83",
+      "count": 19,
+      "meanScore": 0.83657,
+      "maxScore": 0.918316,
+      "strokeWidth": 0.734
+    },
+    {
+      "source": "C105",
+      "target": "C62",
+      "count": 17,
+      "meanScore": 0.806619,
+      "maxScore": 0.853289,
+      "strokeWidth": 0.719
+    },
+    {
+      "source": "C146",
+      "target": "C20",
+      "count": 17,
+      "meanScore": 0.874949,
+      "maxScore": 0.906601,
+      "strokeWidth": 0.719
+    },
+    {
+      "source": "C20",
+      "target": "C64",
+      "count": 16,
+      "meanScore": 0.811577,
+      "maxScore": 0.890268,
+      "strokeWidth": 0.712
+    },
+    {
+      "source": "C118",
+      "target": "C15",
+      "count": 15,
+      "meanScore": 0.830354,
+      "maxScore": 0.889899,
+      "strokeWidth": 0.704
+    },
+    {
+      "source": "C104",
+      "target": "C64",
+      "count": 13,
+      "meanScore": 0.85,
+      "maxScore": 0.905803,
+      "strokeWidth": 0.69
+    },
+    {
+      "source": "C118",
+      "target": "C68",
+      "count": 13,
+      "meanScore": 0.802998,
+      "maxScore": 0.89258,
+      "strokeWidth": 0.69
+    },
+    {
+      "source": "C104",
+      "target": "C20",
+      "count": 13,
+      "meanScore": 0.823073,
+      "maxScore": 0.854181,
+      "strokeWidth": 0.69
+    },
+    {
+      "source": "C105",
+      "target": "C56",
+      "count": 12,
+      "meanScore": 0.803583,
+      "maxScore": 0.834324,
+      "strokeWidth": 0.682
+    },
+    {
+      "source": "C104",
+      "target": "C83",
+      "count": 11,
+      "meanScore": 0.862417,
+      "maxScore": 0.906302,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C118",
+      "target": "C27",
+      "count": 11,
+      "meanScore": 0.809602,
+      "maxScore": 0.854075,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C62",
+      "target": "C83",
+      "count": 11,
+      "meanScore": 0.813834,
+      "maxScore": 0.872653,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C39",
+      "target": "C41",
+      "count": 11,
+      "meanScore": 0.784261,
+      "maxScore": 0.822318,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C104",
+      "target": "C27",
+      "count": 11,
+      "meanScore": 0.836153,
+      "maxScore": 0.889197,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C123",
+      "target": "C27",
+      "count": 9,
+      "meanScore": 0.815675,
+      "maxScore": 0.833727,
+      "strokeWidth": 0.66
+    },
+    {
+      "source": "C105",
+      "target": "C15",
+      "count": 8,
+      "meanScore": 0.848715,
+      "maxScore": 0.881813,
+      "strokeWidth": 0.652
+    },
+    {
+      "source": "C20",
+      "target": "C62",
+      "count": 8,
+      "meanScore": 0.808514,
+      "maxScore": 0.868892,
+      "strokeWidth": 0.652
+    },
+    {
+      "source": "C41",
+      "target": "C83",
+      "count": 7,
+      "meanScore": 0.804791,
+      "maxScore": 0.842806,
+      "strokeWidth": 0.645
+    },
+    {
+      "source": "C123",
+      "target": "C68",
+      "count": 6,
+      "meanScore": 0.8374,
+      "maxScore": 0.910707,
+      "strokeWidth": 0.637
+    },
+    {
+      "source": "C105",
+      "target": "C39",
+      "count": 5,
+      "meanScore": 0.80866,
+      "maxScore": 0.821978,
+      "strokeWidth": 0.63
+    },
+    {
+      "source": "C105",
+      "target": "C27",
+      "count": 4,
+      "meanScore": 0.824398,
+      "maxScore": 0.889097,
+      "strokeWidth": 0.622
+    },
+    {
+      "source": "C123",
+      "target": "C83",
+      "count": 4,
+      "meanScore": 0.819399,
+      "maxScore": 0.84427,
+      "strokeWidth": 0.622
+    },
+    {
+      "source": "C105",
+      "target": "C64",
+      "count": 4,
+      "meanScore": 0.811161,
+      "maxScore": 0.855251,
+      "strokeWidth": 0.622
+    },
+    {
+      "source": "C104",
+      "target": "C105",
+      "count": 3,
+      "meanScore": 0.909594,
+      "maxScore": 0.938565,
+      "strokeWidth": 0.615
+    },
+    {
+      "source": "C104",
+      "target": "C118",
+      "count": 3,
+      "meanScore": 0.83524,
+      "maxScore": 0.871565,
+      "strokeWidth": 0.615
+    },
+    {
+      "source": "C118",
+      "target": "C56",
+      "count": 3,
+      "meanScore": 0.804999,
+      "maxScore": 0.841528,
+      "strokeWidth": 0.615
+    },
+    {
+      "source": "C104",
+      "target": "C62",
+      "count": 2,
+      "meanScore": 0.807544,
+      "maxScore": 0.858673,
+      "strokeWidth": 0.607
+    },
+    {
+      "source": "C118",
+      "target": "C62",
+      "count": 2,
+      "meanScore": 0.7732,
+      "maxScore": 0.785903,
+      "strokeWidth": 0.607
+    },
+    {
+      "source": "C118",
+      "target": "C41",
+      "count": 2,
+      "meanScore": 0.816413,
+      "maxScore": 0.822128,
+      "strokeWidth": 0.607
+    },
+    {
+      "source": "C105",
+      "target": "C118",
+      "count": 2,
+      "meanScore": 0.812896,
+      "maxScore": 0.866512,
+      "strokeWidth": 0.607
+    },
+    {
+      "source": "C118",
+      "target": "C20",
+      "count": 2,
+      "meanScore": 0.764358,
+      "maxScore": 0.768391,
+      "strokeWidth": 0.607
+    },
+    {
+      "source": "C148",
+      "target": "C62",
+      "count": 2,
+      "meanScore": 0.874089,
+      "maxScore": 0.87944,
+      "strokeWidth": 0.607
+    },
+    {
+      "source": "C118",
+      "target": "C64",
+      "count": 2,
+      "meanScore": 0.782546,
+      "maxScore": 0.783083,
+      "strokeWidth": 0.607
+    },
+    {
+      "source": "C105",
+      "target": "C148",
+      "count": 1,
+      "meanScore": 0.878157,
+      "maxScore": 0.878157,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C104",
+      "target": "C56",
+      "count": 1,
+      "meanScore": 0.795397,
+      "maxScore": 0.795397,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C148",
+      "target": "C83",
+      "count": 1,
+      "meanScore": 0.888784,
+      "maxScore": 0.888784,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C148",
+      "target": "C41",
+      "count": 1,
+      "meanScore": 0.805096,
+      "maxScore": 0.805096,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C123",
+      "target": "C20",
+      "count": 1,
+      "meanScore": 0.876398,
+      "maxScore": 0.876398,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C123",
+      "target": "C64",
+      "count": 1,
+      "meanScore": 0.827665,
+      "maxScore": 0.827665,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C123",
+      "target": "C62",
+      "count": 1,
+      "meanScore": 0.807586,
+      "maxScore": 0.807586,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C146",
+      "target": "C39",
+      "count": 1,
+      "meanScore": 0.804281,
+      "maxScore": 0.804281,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C146",
+      "target": "C56",
+      "count": 1,
+      "meanScore": 0.865492,
+      "maxScore": 0.865492,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C146",
+      "target": "C68",
+      "count": 1,
+      "meanScore": 0.824407,
+      "maxScore": 0.824407,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

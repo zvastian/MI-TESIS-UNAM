@@ -1,0 +1,115 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area1_M01",
+    "label": "Ingeniería Civil, Geociencias y Territorio",
+    "shortLabel": "Ingeniería Civil, Geociencias y T...",
+    "area": "Area 1",
+    "size": 9005,
+    "description": "producción sobre ingeniería civil, geolog?a, geofísica, estructuras, topograf?a, territorio y sistemas constructivos."
+  },
+  "nodes": [
+    {
+      "id": "C38",
+      "clusterId": 38,
+      "macroId": "Area1_M01",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Geológico Área - Ingeniería Civil",
+      "size": 4226,
+      "radius": 30.0,
+      "position": {
+        "x": -0.11768,
+        "y": 0.6141
+      },
+      "dominantAreaShare": 0.7745,
+      "programsTop": "Ingenieria Civil (1340) | Ingenieria Geologica (372) | Ciencias de la Tierra (369) | Geografia (320) | Ingenieria Geofisica (155) | Ingenieria Petrolera (146) | Ingenieria Quimica (126) | Biologia (110) | Ingenieria Topografica y Geodesica (109) | Cirujano Dentista (84)",
+      "levelsTop": "Licenciatura (3220) | Maestria (665) | Doctorado (228) | Especialidad (96)",
+      "campusesTop": "Facultad de Ingenieria Unam (1988) | Facultad de Filosofia y Letras Unam (358) | No Especificado Unam (249) | Facultad de Ciencias Unam (247) | Facultad de Estudios Superiores Aragon Unam (209) | Facultad de Quimica Unam (187)",
+      "sampleTitles": "instrumentacion en tuneles | sistemas de informacion geografica | pavimentos asfalticos | algunas graficas de interseccion | fabrica de cemento bernal, queretaro | uso y aplicacion de los geosinteticos en el campo de la ingenieria civil | anteproyecto de una autopista de cuatro carriles | analisis cefalometrico de steiner",
+      "color": "#D8524A",
+      "originalLabel": "Ingenieria Civil",
+      "shortLabel": "Geológico Área - Ingeniería Civil",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C50",
+      "clusterId": 50,
+      "macroId": "Area1_M01",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Estructura Concreto - Ingeniería Civil",
+      "size": 3785,
+      "radius": 28.4,
+      "position": {
+        "x": 0.24063,
+        "y": -0.74271
+      },
+      "dominantAreaShare": 0.8634,
+      "programsTop": "Ingenieria Civil (2053) | Arquitectura (312) | Estructuras (196) | Psicologia (124) | Ingenieria Geofisica (97) | Ciencias de la Tierra (72) | Geografia (72) | Ingenieria (53) | Ingenieria Mecanica Electrica (52) | Fisica (38)",
+      "levelsTop": "Licenciatura (2775) | Maestria (720) | Doctorado (166) | Especialidad (118)",
+      "campusesTop": "Facultad de Ingenieria Unam (2004) | Facultad de Arquitectura Unam (305) | No Especificado Unam (264) | Facultad de Estudios Superiores Aragon Unam (219) | Facultad de Estudios Superiores Acatlan Unam (130) | Facultad de Ciencias Unam (109)",
+      "sampleTitles": "calculo de una estructura de concreto armado | calculo de la estructura de un edificio | desarrollo de herramientas de análisis estructural para su uso desde la internet | recimentacion de un edificio | edificio cimentado a base de cascarones | edificio de oficinas | el concreto lanzado como material utilizable en obras civiles | concreto prefatigado",
+      "color": "#D8524A",
+      "originalLabel": "Ingenieria Civil",
+      "shortLabel": "Estructura Concreto - Ingeniería...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C112",
+      "clusterId": 112,
+      "macroId": "Area1_M01",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Puente Definitivo Camino - Ingeniería Civil",
+      "size": 994,
+      "radius": 9.0,
+      "position": {
+        "x": 0.81719,
+        "y": -0.37709
+      },
+      "dominantAreaShare": 0.9034,
+      "programsTop": "Ingenieria Civil (836) | Cirujano Dentista (91) | Estructuras (27) | Puentes (8) | Construccion (4) | Estructura (3) | Ingenieria Mecanica Electrica (2) | Ingenieria (2) | Relaciones Internacionales (2) | Ingenieria Topografica y Geodesica (2)",
+      "levelsTop": "Licenciatura (915) | Maestria (47) | Especialidad (24) | Doctorado (8)",
+      "campusesTop": "Facultad de Ingenieria Unam (729) | Facultad de Odontologia Unam (86) | Facultad de Estudios Superiores Aragon Unam (67) | Facultad de Estudios Superiores Acatlan Unam (45) | No Especificado Unam (38) | Universidad la Salle (5)",
+      "sampleTitles": "proyecto de puente carretero sobre el rio champoton | puentes maryland | puentes removibles | problemas previos y durante la construccion de puentes fijos | factores previos para la construccion de puentes fijos | proyecto de un puente carretero en el cruce del camino mexico-nogales con el rio sinaloa | proyecto de un puente definitivo para camino para cruzar el rio cuencame del camino mexico-cd. juarez, tramo rio grande cuencame km. 136-800 | retenedores de puentes fijos",
+      "color": "#D8524A",
+      "originalLabel": "Ingenieria Civil",
+      "shortLabel": "Puente Definitivo Camino - Ingeni...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C38",
+      "target": "C50",
+      "count": 95,
+      "meanScore": 0.816162,
+      "maxScore": 0.901868,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C112",
+      "target": "C50",
+      "count": 28,
+      "meanScore": 0.828883,
+      "maxScore": 0.898883,
+      "strokeWidth": 1.391
+    },
+    {
+      "source": "C112",
+      "target": "C38",
+      "count": 6,
+      "meanScore": 0.819985,
+      "maxScore": 0.842389,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

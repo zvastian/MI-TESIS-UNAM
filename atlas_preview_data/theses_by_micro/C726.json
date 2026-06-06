@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C726",
+    "clusterId": 726,
+    "macroId": "Area1_M03",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0515591",
+      "title": "fotometría ccd del cúmulo globular ngc 5897",
+      "year": 2022,
+      "author": "Eric Macías Estrada",
+      "advisor": "Roberto Alejandro Ruelas Mayorga",
+      "program": "fisica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-15578?func=service&doc_library=TES01&doc_number=000828409&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.96489,
+      "titleKey": "fotometria ccd del cumulo globular ngc 5897",
+      "titleFamilyKey": "fotometr ccd cumulo globular ngc 5897"
+    },
+    {
+      "thesisId": "TH_0389698",
+      "title": "fotometría ccd del cúmulo globular ngc 6093",
+      "year": 2012,
+      "author": "Cesar Augusto Bernal Herrera",
+      "advisor": "Roberto Alejandro Ruelas Mayorga",
+      "program": "fisica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DPI1CJIL2CV8EDT85S77S5M8BYH4ARAGJSRQH92IF35AFV94XR-62940?func=service&doc_library=TES01&doc_number=000681704&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.964767,
+      "titleKey": "fotometria ccd del cumulo globular ngc 6093",
+      "titleFamilyKey": "fotometr ccd cumulo globular ngc 6093"
+    },
+    {
+      "thesisId": "TH_0471893",
+      "title": "estudio fotométrico de los cúmulos abiertos ngc2335 y ngc2302",
+      "year": 2017,
+      "author": "Oriana Trejo Álvarez",
+      "advisor": "José Hermenegildo Peña Saint Martín",
+      "program": "astrofisica",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-26812?func=service&doc_library=TES01&doc_number=000761276&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.894339,
+      "titleKey": "estudio fotometrico de los cumulos abiertos ngc2335 y ngc2302",
+      "titleFamilyKey": "estudio fotometr cumulos abiertos ngc2335 ngc2302"
+    },
+    {
+      "thesisId": "TH_0446899",
+      "title": "modelos combinados de fotoionización para ngc6153",
+      "year": 2016,
+      "author": "Manuel de Jesús Chimal Hernández",
+      "advisor": "Christophe Morisset Bernabe",
+      "program": "fisica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ERYGNQS1UF5ALV91F8IVY5IPF6XDJDBCJ54EMDULMD5EQG8NG9-49088?func=service&doc_library=TES01&doc_number=000741378&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.878634,
+      "titleKey": "modelos combinados de fotoionizacion para ngc6153",
+      "titleFamilyKey": "modelos combinad fotoioniza ngc6153"
+    },
+    {
+      "thesisId": "TH_0015779",
+      "title": "fotometria ccd del cumulo globular m15",
+      "year": 2001,
+      "author": "Guillermo Manuel Herrera Perez",
+      "advisor": "Roberto Alejandro Ruelas Mayorga",
+      "program": "fisica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-44750?func=service&doc_library=TES01&doc_number=000294752&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.846766,
+      "titleKey": "fotometria ccd del cumulo globular m15",
+      "titleFamilyKey": "fotometr ccd cumulo globular m15"
+    }
+  ]
+}

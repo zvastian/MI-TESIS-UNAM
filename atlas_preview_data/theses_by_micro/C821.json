@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C821",
+    "clusterId": 821,
+    "macroId": "Area2_M08",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0005711",
+      "title": "correlación entre el co2 alveolar, arterial y capilarenel recién nacido ventilado mecánicamente",
+      "year": 2000,
+      "author": "Blanca Medina González",
+      "advisor": "Guadalupe Cordero González · +1 más",
+      "program": "neonatologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/IKD1LNTMGQ6E5KENEL54SN25MLIR9LH51C7RU7HFGAURC8G7SU-37651?func=service&doc_library=TES01&doc_number=000706241&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.932468,
+      "titleKey": "correlacion entre el co2 alveolar arterial y capilarenel recien nacido ventilado mecanicamente",
+      "titleFamilyKey": "correla co2 alveolar arterial capilare recien nacido ventilad"
+    },
+    {
+      "thesisId": "TH_0261040",
+      "title": "comparacion de indices gasometricos de muestras arteriales y capilares de recien nacidos con ventilacion mecanica",
+      "year": 1998,
+      "author": "Carmen Luisa Fernandez Sierra",
+      "advisor": "James Albert Zapata Pallagi",
+      "program": "neonatologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/677AK8M49I47XVTDUDL1YSEBMLKGK8HKIG33V6THCD2IX3XDSJ-30539?func=service&doc_library=TES01&doc_number=000268860&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.86648,
+      "titleKey": "comparacion de indices gasometricos de muestras arteriales y capilares de recien nacidos con ventilacion mecanica",
+      "titleFamilyKey": "compara indices gasometr muestras arterial capilare recien nacidos"
+    },
+    {
+      "thesisId": "TH_0201490",
+      "title": "estudio comparativo de gasometria arterial y arterializada en recien nacido con insuficiencia respiratoria",
+      "year": 1991,
+      "author": "Susana García Jauregui",
+      "advisor": "David Jimenez Rojas",
+      "program": "pediatria medica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/VTV2KRTAU4R1XM34YSA37TU4PD7YJ1E7JT2328XC9E6PASQNMU-52578?func=service&doc_library=TES01&doc_number=000174901&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.862592,
+      "titleKey": "estudio comparativo de gasometria arterial y arterializada en recien nacido con insuficiencia respiratoria",
+      "titleFamilyKey": "estudio comparat gasometr arterial arterial recien nacido insufici"
+    },
+    {
+      "thesisId": "TH_0261761",
+      "title": "correlacion del co2 alveolar y el co2 arterial en el recien nacido",
+      "year": 1998,
+      "author": "Santiago García Sanchez",
+      "advisor": "Vicente Salinas Ramirez",
+      "program": "neonatologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/113XIUYQSYRNCI7B598YGB2KYKLCDBJS4AJRYNSUVB4AH9PMK9-31369?func=service&doc_library=TES01&doc_number=000268861&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.851792,
+      "titleKey": "correlacion del co2 alveolar y el co2 arterial en el recien nacido",
+      "titleFamilyKey": "correla co2 alveolar co2 arterial recien nacido"
+    },
+    {
+      "thesisId": "TH_0083986",
+      "title": "contribucion al estudio del equilibrio acido basico en el nino prematuro : diferencias regionales de las constantes homeostaticas y h y co2 del plasma capilar",
+      "year": 1959,
+      "author": "Lucia Bustamante Vivanco",
+      "advisor": "Eduardo Jurado Garcia",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/26XUN5YIPQH3HPDRE96IN7RAXSVG9XP1SXLBJK4S3FTDYUMR1R-30159?func=service&doc_library=TES01&doc_number=000175142&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.841164,
+      "titleKey": "contribucion al estudio del equilibrio acido basico en el nino prematuro diferencias regionales de las constantes homeostaticas y h y co2 del plasma capilar",
+      "titleFamilyKey": "contribu estudio equilibr acido basico nino prematur diferenc"
+    }
+  ]
+}

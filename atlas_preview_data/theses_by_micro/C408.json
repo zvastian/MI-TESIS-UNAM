@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C408",
+    "clusterId": 408,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 13,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0165751",
+      "title": "terapia pulpar en odontopediatria",
+      "year": 1984,
+      "author": "Maria Eugenia Alvarez Ortiz",
+      "advisor": "José Antonio Pérez Brand",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5ASBNXLGSVAJ956FBQDC6XG6JG88TNQB6CN4ABSD97ITAFLPML-03502?func=service&doc_library=TES01&doc_number=000022215&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998263,
+      "titleKey": "terapia pulpar en odontopediatria",
+      "titleFamilyKey": "terapia pulpar odontope"
+    },
+    {
+      "thesisId": "TH_0166485",
+      "title": "terapia pulpar en odontopediatria",
+      "year": 1984,
+      "author": "Gerardo Calderon Martinez",
+      "advisor": "Maria Teresa Montante",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5ASBNXLGSVAJ956FBQDC6XG6JG88TNQB6CN4ABSD97ITAFLPML-10496?func=service&doc_library=TES01&doc_number=000022286&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998263,
+      "titleKey": "terapia pulpar en odontopediatria",
+      "titleFamilyKey": "terapia pulpar odontope"
+    },
+    {
+      "thesisId": "TH_0575616",
+      "title": "Tratamiento pulpar en odontopediatria",
+      "year": 1985,
+      "author": "Margarita Trinidad Davila",
+      "advisor": "Luis Alfonso Salazar Zazueta",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0019270/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.991973,
+      "titleKey": "tratamiento pulpar en odontopediatria",
+      "titleFamilyKey": "trata pulpar odontope"
+    },
+    {
+      "thesisId": "TH_0142615",
+      "title": "tratamiento pulpar en odontopediatria",
+      "year": 1979,
+      "author": "Elsa Patricia Díaz Ordaz Castillejos",
+      "advisor": "José Tarsicio Escamilla Pérez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GSQBMGJRFXATKKJL4EC34FSN1XUJ5UFREVJSFRMF4YMMNCN7AC-55300?func=service&doc_library=TES01&doc_number=000022518&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.991973,
+      "titleKey": "tratamiento pulpar en odontopediatria",
+      "titleFamilyKey": "trata pulpar odontope"
+    },
+    {
+      "thesisId": "TH_0154977",
+      "title": "la caries y tratamiento pulpar en odontopediatria",
+      "year": 1982,
+      "author": "Maria del Carmen Gonzalez Ramirez",
+      "advisor": "Víctor Azuara Pavón",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-50607?func=service&doc_library=TES01&doc_number=000042788&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.972093,
+      "titleKey": "la caries y tratamiento pulpar en odontopediatria",
+      "titleFamilyKey": "caries trata pulpar odontope"
+    }
+  ]
+}

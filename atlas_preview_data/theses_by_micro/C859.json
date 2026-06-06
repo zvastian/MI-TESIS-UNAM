@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C859",
+    "clusterId": 859,
+    "macroId": "Area2_M07",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0554991",
+      "title": "efecto de la administración oral del resveratrol sobre el control metabólico y los marcadores de estrés oxidante en una población de adultos mayores con diabetes mellitus tipo 2",
+      "year": 2025,
+      "author": "Nelly Rubí Hurtado García",
+      "advisor": "Mirna Ruíz Ramos · +2 más",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/S2C8K29PH469HEI8I7LDXTHBIRP9LD8J58J8AAJ7DG1EBDHPCG-14369?func=service&doc_library=TES01&doc_number=000867019&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.951836,
+      "titleKey": "efecto de la administracion oral del resveratrol sobre el control metabolico y los marcadores de estres oxidante en una poblacion de adultos mayores con diabetes mellitus tipo 2",
+      "titleFamilyKey": "efecto administra oral resverat control metaboli marcador estres"
+    },
+    {
+      "thesisId": "TH_0528400",
+      "title": "efecto de la administración oral de resveratrol en pacientes con diabetes mellitus tipo 2 y enfermedad periodontal",
+      "year": 2023,
+      "author": "Frida López Avelino",
+      "advisor": "Beatriz Hernández-Monjaraz · +2 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GKG46Q5J6TJGRXX619352L8C41K61PI2S7IT64P9RPLJM15UUN-63161?func=service&doc_library=TES01&doc_number=000842649&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.940713,
+      "titleKey": "efecto de la administracion oral de resveratrol en pacientes con diabetes mellitus tipo 2 y enfermedad periodontal",
+      "titleFamilyKey": "efecto administra oral resverat paciente diabetes mellitus tipo"
+    },
+    {
+      "thesisId": "TH_0561406",
+      "title": "efecto de la administración oral del resveratrol sobre el control metabólico, el estrés oxidante y las funciones cognitivas en una población de adultos mayores con diabetes mellitus tipo 2",
+      "year": 2025,
+      "author": "Diana Itzel Valdez Sánchez",
+      "advisor": "Mirna Ruíz Ramos · +2 más",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/S2C8K29PH469HEI8I7LDXTHBIRP9LD8J58J8AAJ7DG1EBDHPCG-01459?func=service&doc_library=TES01&doc_number=000880097&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.935426,
+      "titleKey": "efecto de la administracion oral del resveratrol sobre el control metabolico el estres oxidante y las funciones cognitivas en una poblacion de adultos mayores con diabetes mellitus tipo 2",
+      "titleFamilyKey": "efecto administra oral resverat control metaboli estres oxidante"
+    },
+    {
+      "thesisId": "TH_0539902",
+      "title": "efecto de la administración oral de resveratrol sobre marcadores de estrés oxidante y sirtuína 1 en adultos mayores con diabetes tipo 2",
+      "year": 2024,
+      "author": "Beatriz Isabel García Martínez",
+      "advisor": "Víctor Manuel Mendoza Núñez",
+      "program": "ciencias biologicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-52254?func=service&doc_library=TES01&doc_number=000852014&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.925267,
+      "titleKey": "efecto de la administracion oral de resveratrol sobre marcadores de estres oxidante y sirtuina 1 en adultos mayores con diabetes tipo 2",
+      "titleFamilyKey": "efecto administra oral resverat marcador estres oxidante sirtuina"
+    },
+    {
+      "thesisId": "TH_0549321",
+      "title": "efecto del resveratrol en la evolución clínica de la enfermedad periodontal : una revisión sistemática y metaanálisis",
+      "year": 2024,
+      "author": "Belem Lucero Zanabria Luna",
+      "advisor": "Beatriz Hernández-Monjaraz · +2 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-28031?func=service&doc_library=TES01&doc_number=000856975&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.815331,
+      "titleKey": "efecto del resveratrol en la evolucion clinica de la enfermedad periodontal una revision sistematica y metaanalisis",
+      "titleFamilyKey": "efecto resverat evolu clinica enfermed periodon revision sistemat"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area3_M06",
+    "label": "Contaduría, Finanzas y Gestión Fiscal",
+    "shortLabel": "Contaduría, Finanzas y Gestión Fi...",
+    "area": "Area 3",
+    "size": 13975,
+    "description": "producción sobre contaduría, administración, finanzas, fiscalidad, derecho, economía y gestión."
+  },
+  "nodes": [
+    {
+      "id": "C7",
+      "clusterId": 7,
+      "macroId": "Area3_M06",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Cuentas Cobrar - Contaduría",
+      "size": 9251,
+      "radius": 30.0,
+      "position": {
+        "x": -0.23931,
+        "y": 0.52283
+      },
+      "dominantAreaShare": 0.8472,
+      "programsTop": "Contaduria (3374) | Derecho (2614) | Administracion (892) | Economia (609) | Actuaria (583) | Ingenieria Civil (136) | Ingenieria en Computacion (113) | Ingenieria Mecanica Electrica (85) | Psicologia (80) | Finanzas (64)",
+      "levelsTop": "Licenciatura (8793) | Maestria (336) | Especialidad (77) | Doctorado (44)",
+      "campusesTop": "Facultad de Contaduria y Administracion Unam (2979) | Facultad de Derecho Unam (1739) | Facultad de Estudios Superiores Cuautitlan Unam (759) | Facultad de Ciencias Unam (543) | Facultad de Economia Unam (521) | Facultad de Estudios Superiores Acatlan Unam (453)",
+      "sampleTitles": "el arrendamiento como fuente de financiamiento | La hipoteca maritima | auditoria de activo fijo | fuentes de financiamiento | centro financiero | el deposito bancario | el análisis financiero como base para la toma de decisiones | el contrato de reaseguro",
+      "color": "#2F6FB3",
+      "originalLabel": "Contaduria",
+      "shortLabel": "Cuentas Cobrar - Contaduría",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C43",
+      "clusterId": 43,
+      "macroId": "Area3_M06",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Materia Fiscal - Derecho",
+      "size": 3984,
+      "radius": 24.85,
+      "position": {
+        "x": 0.33623,
+        "y": -0.62491
+      },
+      "dominantAreaShare": 0.9779,
+      "programsTop": "Derecho (1749) | Contaduria (1683) | Economia (211) | Administracion (101) | Ciencias Politicas y Administracion Publica (65) | Fiscal (26) | Actuaria (15) | Ingenieria en Computacion (11) | Psicologia (11) | Ingenieria Civil (11)",
+      "levelsTop": "Licenciatura (3853) | Maestria (64) | Especialidad (42) | Doctorado (25)",
+      "campusesTop": "Facultad de Contaduria y Administracion Unam (901) | Facultad de Derecho Unam (874) | Facultad de Estudios Superiores Cuautitlan Unam (745) | Facultad de Estudios Superiores Aragon Unam (370) | Facultad de Estudios Superiores Acatlan Unam (276) | Facultad de Economia Unam (187)",
+      "sampleTitles": "el contador publico y el dictamen para efectos fiscales | el recurso de oposicion al procedimiento administrativo de ejecucion | dividendos | El licenciado en contaduria como consultor fiscal | el impuesto al valor agregado | impuesto al ingreso de las personas fisicas | planeacion fiscal | la compensacion fiscal",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Materia Fiscal - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C128",
+      "clusterId": 128,
+      "macroId": "Area3_M06",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Estados Financieros - Contaduría",
+      "size": 443,
+      "radius": 11.44,
+      "position": {
+        "x": -0.63062,
+        "y": 0.51298
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Contaduria (429) | Administracion (10) | Derecho (3) | Organizaciones (1)",
+      "levelsTop": "Licenciatura (442) | Maestria (1)",
+      "campusesTop": "Facultad de Contaduria y Administracion Unam (362) | Facultad de Estudios Superiores Cuautitlan Unam (38) | Universidad Autonoma de Guadalajara (6) | Universidad Panamericana (6) | Universidad Villa Rica (5) | Universidad la Salle (4)",
+      "sampleTitles": "la auditoria de estados financieros | desarrollo de una auditoria de estados financieros | consolidacion de estados financieros | la influencia de los principios de contabilidad en la interpretacion de los estados financieros | planeacion de la auditoria de estados financieros | estados financieros proforma | revisiones preliminares en la auditoria de estados financieros | analisis de estados financieros",
+      "color": "#2F6FB3",
+      "originalLabel": "Contaduria",
+      "shortLabel": "Estados Financieros - Contaduría",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C136",
+      "clusterId": 136,
+      "macroId": "Area3_M06",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Informacion Financiera - Contaduría",
+      "size": 297,
+      "radius": 9.0,
+      "position": {
+        "x": -0.73732,
+        "y": -0.5161
+      },
+      "dominantAreaShare": 0.8923,
+      "programsTop": "Contaduria (221) | Administracion (22) | Economia (10) | Actuaria (9) | Ingenieria Civil (9) | Derecho (6) | Fisica (5) | Ingenieria Mecanica Electrica (3) | Ingenieria Quimica (3) | Organizaciones (2)",
+      "levelsTop": "Licenciatura (288) | Maestria (5) | Especialidad (3) | Doctorado (1)",
+      "campusesTop": "Facultad de Contaduria y Administracion Unam (165) | Facultad de Estudios Superiores Cuautitlan Unam (42) | Universidad la Salle (13) | Universidad Autonoma de Guadalajara (10) | Facultad de Ingenieria Unam (10) | Facultad de Economia Unam (9)",
+      "sampleTitles": "efectos de la inflacion en la informacion financiera | Efectos de la inflacion en la informacion financiera | La informacion financiera en epocas de inflacion | la informacion financiera en epocas de inflacion | papel del licenciado en contaduria ante los efectos de la situacion inflacionaria | principales problemas financieros de una empresa industrial en épocas de inflación | evaluacion de proyectos de inversion en epocas de inflacion | Evaluacion de proyectos de inversion y la inflacion",
+      "color": "#2F6FB3",
+      "originalLabel": "Contaduria",
+      "shortLabel": "Informacion Financiera - Contadur...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C43",
+      "target": "C7",
+      "count": 257,
+      "meanScore": 0.841196,
+      "maxScore": 0.968457,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C128",
+      "target": "C7",
+      "count": 25,
+      "meanScore": 0.89391,
+      "maxScore": 0.964159,
+      "strokeWidth": 0.877
+    },
+    {
+      "source": "C136",
+      "target": "C7",
+      "count": 20,
+      "meanScore": 0.851931,
+      "maxScore": 0.899017,
+      "strokeWidth": 0.814
+    },
+    {
+      "source": "C128",
+      "target": "C43",
+      "count": 10,
+      "meanScore": 0.882798,
+      "maxScore": 0.913428,
+      "strokeWidth": 0.688
+    },
+    {
+      "source": "C136",
+      "target": "C43",
+      "count": 3,
+      "meanScore": 0.821796,
+      "maxScore": 0.851115,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

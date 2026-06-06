@@ -1,0 +1,69 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C422",
+    "clusterId": 422,
+    "macroId": "Area1_M00",
+    "area": "Area 1",
+    "size": 12,
+    "shown": 3,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0107258",
+      "title": "hotel para ejecutivos en mexico, d.f",
+      "year": 1970,
+      "author": "Sergio Roberto Rodriguez Borrego",
+      "advisor": "Asesor no registrado",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-31617?func=service&doc_library=TES01&doc_number=000066805&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998731,
+      "titleKey": "hotel para ejecutivos en mexico d f",
+      "titleFamilyKey": "hotel ejecutiv mexico"
+    },
+    {
+      "thesisId": "TH_0108021",
+      "title": "hotel para ejecutivos en mexico, d.f",
+      "year": 1970,
+      "author": "Cesar Ubaldo Villa Treviño",
+      "advisor": "Asesor no registrado",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-38944?func=service&doc_library=TES01&doc_number=000067051&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998731,
+      "titleKey": "hotel para ejecutivos en mexico d f",
+      "titleFamilyKey": "hotel ejecutiv mexico"
+    },
+    {
+      "thesisId": "TH_0244192",
+      "title": "hotel para ejecutivos en la ciudad de mexico, d.f",
+      "year": 1996,
+      "author": "Alberto Rico Becerra",
+      "advisor": "Jorge Garcia Espinosa",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores acatlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JTHMY5FFEU5IYNEFR2RXL661C4A6EDFVXF58QK9YPJJ6DY8G9K-24597?func=service&doc_library=TES01&doc_number=000242797&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.987425,
+      "titleKey": "hotel para ejecutivos en la ciudad de mexico d f",
+      "titleFamilyKey": "hotel ejecutiv ciudad mexico"
+    }
+  ]
+}

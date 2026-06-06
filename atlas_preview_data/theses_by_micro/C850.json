@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C850",
+    "clusterId": 850,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0450423",
+      "title": "carpectomía de fila proximal versus artrodesis de cuatro esquinas en pacientes con lesiones de colapso avanzado escafo-semilunar y colapso avanzado de pseudoartrosis del escafoides",
+      "year": 2016,
+      "author": "Enrique Hernández Salcedo",
+      "advisor": "Ma. Francisca Vázquez Alonso",
+      "program": "ortopedia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ERYGNQS1UF5ALV91F8IVY5IPF6XDJDBCJ54EMDULMD5EQG8NG9-06115?func=service&doc_library=TES01&doc_number=000748926&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.928064,
+      "titleKey": "carpectomia de fila proximal versus artrodesis de cuatro esquinas en pacientes con lesiones de colapso avanzado escafo semilunar y colapso avanzado de pseudoartrosis del escafoides",
+      "titleFamilyKey": "carpecto fila proximal versus artrodes cuatro esquinas paciente"
+    },
+    {
+      "thesisId": "TH_0444091",
+      "title": "artrodesis de cuatro esquinas en pacientes con lesiones de colapso avanzado escafo-semilunar y colapso avanzado de pseudoartrosis del escafoides",
+      "year": 2015,
+      "author": "Alberto Viñas Silva",
+      "advisor": "Ma. Francisca Vázquez Alonso",
+      "program": "ortopedia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-14224?func=service&doc_library=TES01&doc_number=000733331&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.911372,
+      "titleKey": "artrodesis de cuatro esquinas en pacientes con lesiones de colapso avanzado escafo semilunar y colapso avanzado de pseudoartrosis del escafoides",
+      "titleFamilyKey": "artrodes cuatro esquinas paciente lesiones colapso avanzado escafo"
+    },
+    {
+      "thesisId": "TH_0149315",
+      "title": "el tratamiento en pseudoartrosis del escafoides cappal con compresion interfragmentaria",
+      "year": 1981,
+      "author": "Arnulfo Hernandez Mendez",
+      "advisor": "Jesus Rosales Hernandez",
+      "program": "traumatologia y ortopedia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5E8H58QDXC9N2YJUPLYYNUXUDRPPAIIGNCXQVH89EUP9J3U3QT-18673?func=service&doc_library=TES01&doc_number=000052801&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.857813,
+      "titleKey": "el tratamiento en pseudoartrosis del escafoides cappal con compresion interfragmentaria",
+      "titleFamilyKey": "trata pseudoar escafoid cappal compresi interfra"
+    },
+    {
+      "thesisId": "TH_0402941",
+      "title": "resección del polo distal del escafoides como tratamiento en la pseudoartrosis de escafoides",
+      "year": 2013,
+      "author": "Alfredo Mario Benitez Muñoz",
+      "advisor": "Jesús Javier Briseño Pérez",
+      "program": "ortopedia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DNNT4PMDVH7MUEIP22HBSXKQDXSC88NG83PH7CASM6JRRXCYS3-27331?func=service&doc_library=TES01&doc_number=000690784&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.852381,
+      "titleKey": "reseccion del polo distal del escafoides como tratamiento en la pseudoartrosis de escafoides",
+      "titleFamilyKey": "resec polo distal escafoid como trata pseudoar escafoid"
+    },
+    {
+      "thesisId": "TH_0365558",
+      "title": "resultados funcionales de la carpectomía proximal en pacientes con artrosis de muñeca",
+      "year": 2010,
+      "author": "José Joaquín Díaz López",
+      "advisor": "Omar Tovar Beltrán",
+      "program": "ortopedia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JYY5361NQSBDCKIJ1KHECBBSGK7KGGJQ4FJ8G2CN4CKX73CKPN-11680?func=service&doc_library=TES01&doc_number=000661548&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.774451,
+      "titleKey": "resultados funcionales de la carpectomia proximal en pacientes con artrosis de muneca",
+      "titleFamilyKey": "resultad funciona carpecto proximal paciente artrosis muneca"
+    }
+  ]
+}

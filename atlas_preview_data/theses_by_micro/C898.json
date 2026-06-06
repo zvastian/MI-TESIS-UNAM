@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C898",
+    "clusterId": 898,
+    "macroId": "Area2_M13",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0110867",
+      "title": "importancia del molar de los seis anos",
+      "year": 1971,
+      "author": "Manuel Navarro Marmolejo",
+      "advisor": "Jose Fernandez Beltran",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/CVXBQ8V46HNESE83GEDEICG3D3JVFQ2IU4Q485DVPBCNBM3ETS-65203?func=service&doc_library=TES01&doc_number=000139617&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.982108,
+      "titleKey": "importancia del molar de los seis anos",
+      "titleFamilyKey": "importan molar seis anos"
+    },
+    {
+      "thesisId": "TH_0105643",
+      "title": "la importancia del molar de los seis anos",
+      "year": 1970,
+      "author": "Rosa Elena Gonzalez Vigueras",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-46454?func=service&doc_library=TES01&doc_number=000145339&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.972057,
+      "titleKey": "la importancia del molar de los seis anos",
+      "titleFamilyKey": "importan molar seis anos"
+    },
+    {
+      "thesisId": "TH_0098180",
+      "title": "el molar de los seis anos como pilar de la oclusion",
+      "year": 1967,
+      "author": "Maria del Pilar Ponce y Felix",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/12RFLYH1H7A1N2H7X9UTFFX29FSFTJ1I97UQ2KJBHGB31NU3YG-58484?func=service&doc_library=TES01&doc_number=000137798&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.944085,
+      "titleKey": "el molar de los seis anos como pilar de la oclusion",
+      "titleFamilyKey": "molar seis anos como pilar oclusion"
+    },
+    {
+      "thesisId": "TH_0103929",
+      "title": "el molar de los seis anos y su importancia en odontologia",
+      "year": 1969,
+      "author": "Martha Rosa Toscano Rodriguez",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/KKBIRVFGMDMHXA7IRTPKHFQG1DGYEY8KHKI2SL82T4QCGV43SY-55296?func=service&doc_library=TES01&doc_number=000143740&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.93463,
+      "titleKey": "el molar de los seis anos y su importancia en odontologia",
+      "titleFamilyKey": "molar seis anos importan odontolo"
+    },
+    {
+      "thesisId": "TH_0145543",
+      "title": "perdida del molar de los seis anos",
+      "year": 1979,
+      "author": "Gloria Reyes Hernandez",
+      "advisor": "Victor Esponda Gaxiola",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GSQBMGJRFXATKKJL4EC34FSN1XUJ5UFREVJSFRMF4YMMNCN7AC-42057?func=service&doc_library=TES01&doc_number=000041107&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.901057,
+      "titleKey": "perdida del molar de los seis anos",
+      "titleFamilyKey": "perdida molar seis anos"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area1_M04",
+    "label": "Tierra, Geografía y Relaciones Territoriales",
+    "shortLabel": "Tierra, Geografía y Relaciones Te...",
+    "area": "Area 1",
+    "size": 1653,
+    "description": "Investigaciones sobre ciencias de la tierra, geografía, relaciones territoriales, economía, ingeniería y ambiente."
+  },
+  "nodes": [
+    {
+      "id": "C94",
+      "clusterId": 94,
+      "macroId": "Area1_M04",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Ciencias de la Tierra",
+      "size": 1653,
+      "radius": 19.5,
+      "position": {
+        "x": 0.59118,
+        "y": 0.67861
+      },
+      "dominantAreaShare": 0.4864,
+      "programsTop": "Ciencias de la Tierra (157) | Economia (154) | Ingenieria Civil (128) | Geografia (116) | Relaciones Internacionales (102) | Derecho (87) | Ingenieria Quimica (82) | Biologia (82) | Ingenieria Mecanica Electrica (54) | Fisica (42)",
+      "levelsTop": "Licenciatura (978) | Maestria (444) | Doctorado (178) | Especialidad (51)",
+      "campusesTop": "Facultad de Ingenieria Unam (305) | No Especificado Unam (184) | Facultad de Ciencias Unam (155) | Facultad de Economia Unam (138) | Facultad de Ciencias Politicas y Sociales Unam (132) | Facultad de Filosofia y Letras Unam (131)",
+      "sampleTitles": "proyecto electrico de la subestacion de la planta de etileno de la cangrejera, veracruz | instrumentacion en meteorologia | proyecto electrico de la subestacion de la planta de etileno de la cangrejera veracruz | distribucion subterranea de energia electrica en la ciudad de mexico | contaminacion atmosferica en la zona metropolitana de la ciudad de mexico | estudio termogravimetrico de la descomposion de carbones bituminosos mexicanos | Estudios climatológico y geográfico de Yucatán | estudio del impacto economico del robo de energia electrica en mexico",
+      "color": "#D8524A",
+      "originalLabel": "Ciencias de la Tierra",
+      "shortLabel": "Ciencias de la Tierra",
+      "labelMethod": "unique_original"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

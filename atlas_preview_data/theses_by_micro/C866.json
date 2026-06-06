@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C866",
+    "clusterId": 866,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0200648",
+      "title": "indice epidemiologico c.p.o. del primer molar permanente y grado de erupcion, aplicado a niños de 6 a 7 años de la delegacion coyoacan",
+      "year": 1991,
+      "author": "Adriana Cuevas Aceves",
+      "advisor": "Ángeles Leticia Mondragón del Valle",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/VTV2KRTAU4R1XM34YSA37TU4PD7YJ1E7JT2328XC9E6PASQNMU-16801?func=service&doc_library=TES01&doc_number=000159264&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.971862,
+      "titleKey": "indice epidemiologico c p o del primer molar permanente y grado de erupcion aplicado a ninos de 6 a 7 anos de la delegacion coyoacan",
+      "titleFamilyKey": "indice epidemio primer molar permanen grado erup aplicado"
+    },
+    {
+      "thesisId": "TH_0204524",
+      "title": "indice epidemiologico c.p.o. del primer molar permanente y grado de erupcion, aplicado a ninos y ninas de 6 a 7 anos de la delegacion coyoacan",
+      "year": 1991,
+      "author": "Mercedes Pano García",
+      "advisor": "María Elena Nieto Cruz",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/IUG75YBFLJEUARPS5G7VRKJE7136GB5LX6AIHXD78N89D3KLAX-29672?func=service&doc_library=TES01&doc_number=000159306&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.964268,
+      "titleKey": "indice epidemiologico c p o del primer molar permanente y grado de erupcion aplicado a ninos y ninas de 6 a 7 anos de la delegacion coyoacan",
+      "titleFamilyKey": "indice epidemio primer molar permanen grado erup aplicado"
+    },
+    {
+      "thesisId": "TH_0200772",
+      "title": "indice epidemiologico c.p.o. del primer molar permanente y grado de erupcion, aplicado a ninas de 6 a 7 anos de la delegacion coyoacan",
+      "year": 1991,
+      "author": "Ana Isabel Díaz Zamudio",
+      "advisor": "Ángeles Leticia Mondragón del Valle",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/VTV2KRTAU4R1XM34YSA37TU4PD7YJ1E7JT2328XC9E6PASQNMU-17074?func=service&doc_library=TES01&doc_number=000159405&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.901886,
+      "titleKey": "indice epidemiologico c p o del primer molar permanente y grado de erupcion aplicado a ninas de 6 a 7 anos de la delegacion coyoacan",
+      "titleFamilyKey": "indice epidemio primer molar permanen grado erup aplicado"
+    },
+    {
+      "thesisId": "TH_0226432",
+      "title": "erupcion ectopica anterior : caso clinico en infantil",
+      "year": 1994,
+      "author": "Agustin Jacobo Amezcua Torquemada",
+      "advisor": "Héctor Ortega Herrera",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/X3M1JK3ASDY754G7Q62EK6RENA6B5YMGXU7N85HKGD4QXKPPHL-03237?func=service&doc_library=TES01&doc_number=000211289&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.857209,
+      "titleKey": "erupcion ectopica anterior caso clinico en infantil",
+      "titleFamilyKey": "erup ectopica anterior caso clinico infantil"
+    },
+    {
+      "thesisId": "TH_0350729",
+      "title": "cronología de erupción en escolares de 6 a 9 años de naucalpan estado de méxico",
+      "year": 2019,
+      "author": "Angela Chávez Madrigal",
+      "advisor": "Cecilia Carlota Barrera Ortega · +1 más",
+      "program": "estomatologia pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/E6IJ83V9VTYM8X5JT1PIN25DGNXN8KVVCIFJS6GEDBI9IA7SVS-65660?func=service&doc_library=TES01&doc_number=000795659&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.814796,
+      "titleKey": "cronologia de erupcion en escolares de 6 a 9 anos de naucalpan estado de mexico",
+      "titleFamilyKey": "cronolog erup escolare anos naucalpa estado mexico"
+    }
+  ]
+}

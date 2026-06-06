@@ -1,0 +1,107 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M08",
+    "label": "Ginecología, Obstetricia y Neonatología",
+    "shortLabel": "Ginecología, Obstetricia y Neonat...",
+    "area": "Area 2",
+    "size": 7944,
+    "description": "Trabajos sobre ginecología, obstetricia, neonatología, enfermer?a obst?trica, pediatr?a y medicina materno fetal."
+  },
+  "nodes": [
+    {
+      "id": "C13",
+      "clusterId": 13,
+      "macroId": "Area2_M08",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Parto Pretermino - Ginecologia y Obstetricia",
+      "size": 7212,
+      "radius": 30.0,
+      "position": {
+        "x": -0.34617,
+        "y": 0.52071
+      },
+      "dominantAreaShare": 0.9117,
+      "programsTop": "Ginecologia y Obstetricia (1908) | Enfermeria y Obstetricia (781) | Medicina Familiar (682) | Neonatologia (477) | Pediatria Medica (400) | Medicina Materno Fetal (296) | Pediatria (275) | Derecho (236) | Medico Cirujano (216) | Psicologia (173)",
+      "levelsTop": "Especialidad (5073) | Licenciatura (1962) | Maestria (136) | Doctorado (37)",
+      "campusesTop": "Facultad de Medicina Unam (5189) | Facultad de Enfermeria y Obstetricia Unam (539) | Facultad de Odontologia Unam (115) | Facultad de Derecho Unam (101) | Facultad de Psicologia Unam (99) | No Especificado Unam (82)",
+      "sampleTitles": "neuroinfeccion en neonatos criticamente enfermos con sospecha fundada de sepsis | neurodistonias gravidicas | embarazo gemelar | apendicitis y embarazo | aborto espontáneo | etiologia e incidencia de sepsis neonatal en la unidad de cuidados intensivos neonatales del hospital juarez de mexico | factores de riesgo perinatal de peso bajo y prematurez en hijos de madres adolescentes | ictericia neonatal",
+      "color": "#2E9D71",
+      "originalLabel": "Ginecologia y Obstetricia",
+      "shortLabel": "Parto Pretermino - Ginecologia y...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C124",
+      "clusterId": 124,
+      "macroId": "Area2_M08",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Diabetes Gestacional - Ginecologia y Obstetricia",
+      "size": 528,
+      "radius": 14.59,
+      "position": {
+        "x": -0.58818,
+        "y": -0.51339
+      },
+      "dominantAreaShare": 0.9811,
+      "programsTop": "Ginecologia y Obstetricia (226) | Medicina Materno Fetal (100) | Medicina Familiar (38) | Enfermeria y Obstetricia (33) | Neonatologia (14) | Quimica Farmaceutico Biologica (14) | Pediatria Medica (13) | Cirujano Dentista (11) | Pediatria (8) | Medicina (ginecologia y Obstetricia) (8)",
+      "levelsTop": "Especialidad (441) | Licenciatura (72) | Maestria (10) | Doctorado (5)",
+      "campusesTop": "Facultad de Medicina Unam (438) | Facultad de Enfermeria y Obstetricia Unam (20) | Facultad de Quimica Unam (11) | Facultad de Odontologia Unam (10) | Del Hospital de Nuestra Senora de la Salud (9) | Facultad de Estudios Superiores Cuautitlan Unam (7)",
+      "sampleTitles": "diabetes gestacional | diabetes y embarazo | estudio de valor diagnostico entre la prueba de tamiz de glucosa y la curva de tolerancia a la glucosa oral en el servicio de medicina materno fetal del c.m.n. 20 de noviembre | factores de riesgo en la diabetes gestacional | búsqueda de genes de susceptibilidad para el desarrollo de diabetes gestacional en población mexicana | diabetes mellitus y embarazo : factores de riesgo | diabetes gestacional y factores de riesgo | diabetes mellitus en el embarazo",
+      "color": "#2E9D71",
+      "originalLabel": "Ginecologia y Obstetricia",
+      "shortLabel": "Diabetes Gestacional - Ginecologi...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C149",
+      "clusterId": 149,
+      "macroId": "Area2_M08",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Ruptura Prematura Membranas - Ginecologia y Obstetric...",
+      "size": 204,
+      "radius": 9.0,
+      "position": {
+        "x": 0.37398,
+        "y": 0.81862
+      },
+      "dominantAreaShare": 0.9755,
+      "programsTop": "Ginecologia y Obstetricia (120) | Medicina (ginecologia y Obstetricia) (20) | Enfermeria y Obstetricia (17) | Pediatria Medica (12) | Neonatologia (8) | Oftalmologia (4) | Cirugia Plastica y Reconstructiva (3) | Quimica Farmaceutico Biologica (3) | Pediatria (3) | Ciencias Medicas (3)",
+      "levelsTop": "Especialidad (179) | Licenciatura (20) | Maestria (3) | Doctorado (2)",
+      "campusesTop": "Facultad de Medicina Unam (180) | Escuela Nacional de Enfermeria y Obstetricia Unam (3) | No Especificado Unam (3) | Escuela de Enfermeria del Hospital de Nuestra Senora de la Salud (morelia) (2) | Del Hospital de Nuestra Senora de la Salud (2) | Escuela de Enfermeria del Hospital de Nuestra Senora de la Salud (2)",
+      "sampleTitles": "ruptura prematura de membranas | actualizacion del estudio de la flora bacteriana implicada en la ruptura prematura de membranas | Ruptura prematura de membranas | ruptura prematura de membranas fetales | manejo conservador de la ruptura prematura de membranas en embarazos pretermino | hormona gonadotropina corionica humana vaginal cualitativa versus cristalografia y nitrazina para el diagnostico de ruptura prematura de membranas | ruptura prematura de membranas y sus consecuencias fetales | frecuencia de ruptura prematura de membranas y su asociacion con infeccion neonatal",
+      "color": "#2E9D71",
+      "originalLabel": "Ginecologia y Obstetricia",
+      "shortLabel": "Ruptura Prematura Membranas - Gin...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C124",
+      "target": "C13",
+      "count": 36,
+      "meanScore": 0.834968,
+      "maxScore": 0.916569,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C13",
+      "target": "C149",
+      "count": 13,
+      "meanScore": 0.834123,
+      "maxScore": 0.920584,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

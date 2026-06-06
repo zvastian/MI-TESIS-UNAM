@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C737",
+    "clusterId": 737,
+    "macroId": "Area3_M03",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0025443",
+      "title": "productos y servicios en el sector ejidal",
+      "year": 2002,
+      "author": "José Francisco Chavarin Ramirez",
+      "advisor": "Rene Lechuga Peregrina",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SJXERTQRCDIAKJCYVLXUVNRL4LG65VIDREUM7K5UUBKGEMH8FF-00375?func=service&doc_library=TES01&doc_number=000219528&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.990015,
+      "titleKey": "productos y servicios en el sector ejidal",
+      "titleFamilyKey": "producto servicio sector ejidal"
+    },
+    {
+      "thesisId": "TH_0132883",
+      "title": "productos y servicios en el sector ejidal",
+      "year": 1977,
+      "author": "J. M. Agustín Aguilar Cuevas",
+      "advisor": "René Lechuga Peregrina",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7MP7L8T99DA3UQIEU6SAKX5AP6PUYFXJ4XEV75TL3VBQ27AHPB-10236?func=service&doc_library=TES01&doc_number=000838269&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.990015,
+      "titleKey": "productos y servicios en el sector ejidal",
+      "titleFamilyKey": "producto servicio sector ejidal"
+    },
+    {
+      "thesisId": "TH_0140619",
+      "title": "mercado de productos y servicios en el sector ejidal",
+      "year": 1978,
+      "author": "Francisco Javier Roque Vázquez",
+      "advisor": "Rene Lechuga Peregrina",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5L5TS12VQ68VIUXEJUXTSXA1R9J12JS3BATU94THFADKP51P54-18450?func=service&doc_library=TES01&doc_number=000838741&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.977341,
+      "titleKey": "mercado de productos y servicios en el sector ejidal",
+      "titleFamilyKey": "mercado producto servicio sector ejidal"
+    },
+    {
+      "thesisId": "TH_0130417",
+      "title": "el mercado de productos y servicios en el sector ejidal",
+      "year": 1976,
+      "author": "Guillermo López Esparza",
+      "advisor": "Rene Lechuga Peregrina",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3A7UEJ312MD2NRHJ7PU1J4CVPPBCK9Q9D1FQSIQT6V3MFM52EI-66814?func=service&doc_library=TES01&doc_number=000105927&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.976843,
+      "titleKey": "el mercado de productos y servicios en el sector ejidal",
+      "titleFamilyKey": "mercado producto servicio sector ejidal"
+    }
+  ]
+}

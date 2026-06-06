@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C903",
+    "clusterId": 903,
+    "macroId": "Area2_M14",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0065924",
+      "title": "estudio sobre el te",
+      "year": 1935,
+      "author": "Xavier Mendez Fernandez",
+      "advisor": "Asesor no registrado",
+      "program": "quimica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.933618,
+      "titleKey": "estudio sobre el te",
+      "titleFamilyKey": "estudio"
+    },
+    {
+      "thesisId": "TH_0361158",
+      "title": "conocimiento que sobre tea tiene una muestra de académicos de la facultad de odontología de la unam, 2019",
+      "year": 2019,
+      "author": "Estefani Sayuri Takara Nakahodo",
+      "advisor": "María Concepción Ramírez Soberón",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-63819?func=service&doc_library=TES01&doc_number=000797651&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.882124,
+      "titleKey": "conocimiento que sobre tea tiene una muestra de academicos de la facultad de odontologia de la unam 2019",
+      "titleFamilyKey": "conoci que tea tiene muestra academic facultad odontolo"
+    },
+    {
+      "thesisId": "TH_0540908",
+      "title": "\"métodos de aprendizaje y la influencia de la calidad de vida en el tratamiento de una joven adulta con tea\"",
+      "year": 2024,
+      "author": "Gabriela Gutiérrez Vargas",
+      "advisor": "Ivonne Carreón Cázares",
+      "program": "psicologia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "universidad alzate de ozumba",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-18400?func=service&doc_library=TES01&doc_number=000852429&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.881895,
+      "titleKey": "metodos de aprendizaje y la influencia de la calidad de vida en el tratamiento de una joven adulta con tea",
+      "titleFamilyKey": "metodos aprendiz influenc cali vida trata joven adulta"
+    },
+    {
+      "thesisId": "TH_0066398",
+      "title": "el te desde el punto de vista bromatologico",
+      "year": 1936,
+      "author": "Soledad Inguanzo Suarez",
+      "advisor": "Asesor no registrado",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.875561,
+      "titleKey": "el te desde el punto de vista bromatologico",
+      "titleFamilyKey": "punto vista bromatol"
+    },
+    {
+      "thesisId": "TH_0357158",
+      "title": "promoción de competencias socioemocionales en un alumno que enfrenta barreras para el aprendizaje asociadas al tea : propuesta de actividades",
+      "year": 2019,
+      "author": "Sara Jaqueline Moreno Vázquez",
+      "advisor": "Fernando Fierro Luna",
+      "program": "psicologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de psicologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-02566?func=service&doc_library=TES01&doc_number=000795252&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.817796,
+      "titleKey": "promocion de competencias socioemocionales en un alumno que enfrenta barreras para el aprendizaje asociadas al tea propuesta de actividades",
+      "titleFamilyKey": "promo competen socioemo alumno que enfrenta barreras aprendiz"
+    }
+  ]
+}

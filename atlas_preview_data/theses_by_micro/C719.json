@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C719",
+    "clusterId": 719,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0518526",
+      "title": "analogos de somatostatina en el pre y postoperatorio de pacientes con acromegalia : estudio de cohorte",
+      "year": 2022,
+      "author": "Rubén Ramírez Montes de Oca",
+      "advisor": "Alma Vergara López",
+      "program": "endocrinologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.920588,
+      "titleKey": "analogos de somatostatina en el pre y postoperatorio de pacientes con acromegalia estudio de cohorte",
+      "titleFamilyKey": "analogos somatost pre postoper paciente acromega estudio cohorte"
+    },
+    {
+      "thesisId": "TH_0537716",
+      "title": "acromegalia, experiencia en el tratamiento con análogos de somatostatina (lanreotide) en los pacientes atendidos en el hospital general de méxico durante el periodo 2021 al 2023 : (reporte de casos)",
+      "year": 2024,
+      "author": "María Paz Castillo Cabrera",
+      "advisor": "Juan Antonio Peralta Calcáneo",
+      "program": "endocrinologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-08478?func=service&doc_library=TES01&doc_number=000858925&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.903241,
+      "titleKey": "acromegalia experiencia en el tratamiento con analogos de somatostatina lanreotide en los pacientes atendidos en el hospital general de mexico durante el periodo 2021 al 2023 reporte de casos",
+      "titleFamilyKey": "acromega experien trata analogos somatost lanreoti paciente atendido"
+    },
+    {
+      "thesisId": "TH_0528926",
+      "title": "\"tratamiento de acromegalia con análogos de somatostatina con intervalos de dósis extendidos\"",
+      "year": 2023,
+      "author": "Viridiana Mancilla Hernández",
+      "advisor": "Adriana Balderrama Soto",
+      "program": "endocrinologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GKG46Q5J6TJGRXX619352L8C41K61PI2S7IT64P9RPLJM15UUN-50548?func=service&doc_library=TES01&doc_number=000847050&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.850574,
+      "titleKey": "tratamiento de acromegalia con analogos de somatostatina con intervalos de dosis extendidos",
+      "titleFamilyKey": "trata acromega analogos somatost interval dosis extendid"
+    },
+    {
+      "thesisId": "TH_0536838",
+      "title": "\"intensidad de la señal ponderada en secuencia en t2 de la imagen de resonancia magnética como factor predictor de respuesta a análogos de somatostatina en pacientes con acromegalia en población mexicana\"",
+      "year": 2024,
+      "author": "Sara Ivet Bautista Padrón",
+      "advisor": "Baldomero José Gregorio González Virla",
+      "program": "endocrinologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-37409?func=service&doc_library=TES01&doc_number=000851721&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.844516,
+      "titleKey": "intensidad de la senal ponderada en secuencia en t2 de la imagen de resonancia magnetica como factor predictor de respuesta a analogos de somatostatina en pacientes con acromegalia en poblacion mexicana",
+      "titleFamilyKey": "intens senal ponderad secuenci imagen resonanc magnetic como"
+    },
+    {
+      "thesisId": "TH_0485485",
+      "title": "prevalencia de miocardiopatía por acromegalia en pacientes que ya recibieron tratamiento combinado con análogos de somatostatina más agonistas dopaminergicos durante por lo menos 6 meses de tratamiento",
+      "year": 2018,
+      "author": "David Sánchez García",
+      "advisor": "Andrés Muñoz Solís · +2 más",
+      "program": "endocrinologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-08549?func=service&doc_library=TES01&doc_number=000773933&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.84106,
+      "titleKey": "prevalencia de miocardiopatia por acromegalia en pacientes que ya recibieron tratamiento combinado con analogos de somatostatina mas agonistas dopaminergicos durante por lo menos 6 meses de tratamiento",
+      "titleFamilyKey": "prevalen miocardi acromega paciente que recibier trata combinad"
+    }
+  ]
+}

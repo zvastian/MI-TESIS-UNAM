@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C807",
+    "clusterId": 807,
+    "macroId": "Area2_M08",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0481388",
+      "title": "prolapso de cúpula vaginal : factores de riesgo asociados y resolución por colposacrosuspensión",
+      "year": 2018,
+      "author": "Luis Fernando Mendoza Contreras",
+      "advisor": "Juan Tinajero Corona",
+      "program": "ginecologia y obstetricia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-05584?func=service&doc_library=TES01&doc_number=000776801&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.956444,
+      "titleKey": "prolapso de cupula vaginal factores de riesgo asociados y resolucion por colposacrosuspension",
+      "titleFamilyKey": "prolapso cupula vaginal factores riesgo asociado resolu colposac"
+    },
+    {
+      "thesisId": "TH_0399330",
+      "title": "factores de riesgo para prolapso de cupula vaginal y complicaciones asociadas a la colposacropexia",
+      "year": 2013,
+      "author": "Lizzete Verónica Aguilera Maldonado",
+      "advisor": "Carlos Ramón Jiménez Vieyra",
+      "program": "urologia ginecologica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/LT2D5DTMETAHE5F7M9EDN7JSR7Y8ANECQRM5ASRGTBPTHLXGYB-29973?func=service&doc_library=TES01&doc_number=000700505&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.9387,
+      "titleKey": "factores de riesgo para prolapso de cupula vaginal y complicaciones asociadas a la colposacropexia",
+      "titleFamilyKey": "factores riesgo prolapso cupula vaginal complicaci asociada colposac"
+    },
+    {
+      "thesisId": "TH_0301803",
+      "title": "colposacropexia y tecnica de moschcowitz en pacientes con prolapso de cupula vaginal",
+      "year": 2006,
+      "author": "Yolanda Licona Rangel",
+      "advisor": "Martha Gabriela Garcia Sandoval · +1 más",
+      "program": "ginecologia y obstetricia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-20782?func=service&doc_library=TES01&doc_number=000612383&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.923247,
+      "titleKey": "colposacropexia y tecnica de moschcowitz en pacientes con prolapso de cupula vaginal",
+      "titleFamilyKey": "colposac tecnica moschcow paciente prolapso cupula vaginal"
+    },
+    {
+      "thesisId": "TH_0434477",
+      "title": "tratamiento del prolapso de cúpula vaginal colposacropexia con malla y grapa",
+      "year": 2015,
+      "author": "Jorge Luis García León",
+      "advisor": "Antonio Gutiérrez Ramírez",
+      "program": "ginecologia y obstetricia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-58802?func=service&doc_library=TES01&doc_number=000732276&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.911262,
+      "titleKey": "tratamiento del prolapso de cupula vaginal colposacropexia con malla y grapa",
+      "titleFamilyKey": "trata prolapso cupula vaginal colposac malla grapa"
+    },
+    {
+      "thesisId": "TH_0501858",
+      "title": "tasa de recidiva del prolapso genital en pacientes sometidas a colposacropexia abdominal y a fijación de cúpula vaginal a ligamento sacroespinoso",
+      "year": 2021,
+      "author": "Ena Michelle Lomelí Muñoz Márquez",
+      "advisor": "Carmen Janet Marín Méndez",
+      "program": "urologia ginecologica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/8CNK4H5X97HH7RQ4T38GXYRMESUFSYN4LAB6XJ1M3E2XEHCU4F-41222?func=service&doc_library=TES01&doc_number=000808234&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.884771,
+      "titleKey": "tasa de recidiva del prolapso genital en pacientes sometidas a colposacropexia abdominal y a fijacion de cupula vaginal a ligamento sacroespinoso",
+      "titleFamilyKey": "tasa recidiva prolapso genital paciente sometida colposac abdomina"
+    }
+  ]
+}

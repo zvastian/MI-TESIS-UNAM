@@ -1,0 +1,53 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C291",
+    "clusterId": 291,
+    "macroId": "Area2_M13",
+    "area": "Area 2",
+    "size": 20,
+    "shown": 2,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0087329",
+      "title": "caninos incluidos",
+      "year": 1962,
+      "author": "Manuel Yudavich Burak",
+      "advisor": "Ernestina Martinez Espinosa",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q8MDNRDY8K8J7X1XP17K3FRU1JS2GPF3MY57BEK7BNLACNRNMS-06165?func=service&doc_library=TES01&doc_number=000139214&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "caninos incluidos",
+      "titleFamilyKey": "caninos incluido"
+    },
+    {
+      "thesisId": "TH_0126505",
+      "title": "caninos incluidos",
+      "year": 1975,
+      "author": "Isaac Paredes Gonzalez",
+      "advisor": "Roberto Flores Granados",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Y5RJVA1NUIE1GF8F3MG8D8UQGEKPSYITRFMTFXTBD784JQXJ7P-16845?func=service&doc_library=TES01&doc_number=000148299&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "caninos incluidos",
+      "titleFamilyKey": "caninos incluido"
+    }
+  ]
+}

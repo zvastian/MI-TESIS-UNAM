@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area1_M11",
+    "label": "Biología, Ambiente y Ciencias Naturales",
+    "shortLabel": "Biología, Ambiente y Ciencias Nat...",
+    "area": "Area 1",
+    "size": 19172,
+    "description": "Investigaciones sobre biología, ciencias naturales, ambiente, biodiversidad, ciencias del mar y v?nculos con territorio y salud."
+  },
+  "nodes": [
+    {
+      "id": "C0",
+      "clusterId": 0,
+      "macroId": "Area1_M11",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Distribucion Abundancia - Biología",
+      "size": 19172,
+      "radius": 19.5,
+      "position": {
+        "x": -0.69079,
+        "y": -0.57689
+      },
+      "dominantAreaShare": 0.4796,
+      "programsTop": "Biologia (7594) | Ciencias Biologicas (1845) | Ingenieria Civil (743) | Ciencias del Mar y Limnologia (739) | Quimica Farmaceutico Biologica (696) | Arquitectura (682) | Medicina Veterinaria y Zootecnia (514) | Derecho (483) | Geografia (458) | Ingenieria Quimica (380)",
+      "levelsTop": "Licenciatura (13678) | Maestria (3740) | Doctorado (1560) | Especialidad (154)",
+      "campusesTop": "Facultad de Ciencias Unam (5708) | Facultad de Estudios Superiores Iztacala Unam (2156) | Facultad de Quimica Unam (1429) | No Especificado Unam (1389) | Facultad de Ingenieria Unam (1112) | Facultad de Estudios Superiores Zaragoza Unam (1098)",
+      "sampleTitles": "naturaleza e historia del seguro maritimo internacional | diques para la construccion y reparacion de buques | el habitat del manana | exploracion y explotacion de yacimientos minerales en calizas, con referencia especial a criaderos de mercurio | correlacion de la riqueza de especies de amebas desnudas con los factores fisicoquimicos del suelo en una terraza degradada de la cuenca baja del rio salado, zapotitlan de las salinas, puebla | instituto de ciencias del mar y limnologia | La concesion de la zona federal maritimo terrestre | escuela de ciencias maritimas y tecnologia de alimentos puerto de mazatlan, sinaloa",
+      "color": "#D8524A",
+      "originalLabel": "Biologia",
+      "shortLabel": "Distribucion Abundancia - Biología",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

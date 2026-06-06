@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C784",
+    "clusterId": 784,
+    "macroId": "Area1_M03",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0564528",
+      "title": "El problema de Benard-Rayleigh",
+      "year": 1980,
+      "author": "Elizabeth Maritza Salinas Barrios",
+      "advisor": "Rosalío Rodríguez",
+      "program": "Física",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0002162/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.916939,
+      "titleKey": "el problema de benard rayleigh",
+      "titleFamilyKey": "problema benard rayleigh"
+    },
+    {
+      "thesisId": "TH_0443382",
+      "title": "un dispositivo para estudiar la inestabilidad de rayleigh-bénard",
+      "year": 2015,
+      "author": "Valentín Valdés González",
+      "advisor": "Sergio Hernández Zapata",
+      "program": "fisica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-38339?func=service&doc_library=TES01&doc_number=000725073&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.913943,
+      "titleKey": "un dispositivo para estudiar la inestabilidad de rayleigh benard",
+      "titleFamilyKey": "disposit estudiar inestabil rayleigh benard"
+    },
+    {
+      "thesisId": "TH_0438300",
+      "title": "perturbaciones fuertes y débiles al oscilador de rayleigh",
+      "year": 2015,
+      "author": "Yetzabel Fabiola Mendoza Galindo",
+      "advisor": "Jorge Humberto Arce Rincón",
+      "program": "fisica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-21351?func=service&doc_library=TES01&doc_number=000725249&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.901233,
+      "titleKey": "perturbaciones fuertes y debiles al oscilador de rayleigh",
+      "titleFamilyKey": "perturbaci fuertes debiles oscilado rayleigh"
+    },
+    {
+      "thesisId": "TH_0370601",
+      "title": "el problema de rayleigh-bénard en un contenedor cilíndrico",
+      "year": 2010,
+      "author": "Martín Molina Fructuoso",
+      "advisor": "Jorge Ize Lamache",
+      "program": "matematicas",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/U68FN28KYTJFHRRVMIKMXVNXX6SNLUUHGH9GHMUY1A97VM1V7D-53830?func=service&doc_library=TES01&doc_number=000658968&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.879505,
+      "titleKey": "el problema de rayleigh benard en un contenedor cilindrico",
+      "titleFamilyKey": "problema rayleigh benard contened cilindri"
+    },
+    {
+      "thesisId": "TH_0285326",
+      "title": "experimento de visualizacion y medicion del campo de temperatura de la inestabilidad de rayleigh taylor",
+      "year": 2005,
+      "author": "Daniel Fuentes del Rio",
+      "advisor": "Alejandro Rodríguez Valdés",
+      "program": "ingenieria mecanica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/HLGB7H733DCK7GXMUM33I1P22VQ6JQ7ASCK9EJBV96IAV9UR9H-04991?func=service&doc_library=TES01&doc_number=000601935&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.815977,
+      "titleKey": "experimento de visualizacion y medicion del campo de temperatura de la inestabilidad de rayleigh taylor",
+      "titleFamilyKey": "experime visualiza medi campo temperat inestabil rayleigh taylor"
+    }
+  ]
+}

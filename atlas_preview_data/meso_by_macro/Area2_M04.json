@@ -1,0 +1,283 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M04",
+    "label": "Psicología Clínica, Salud Familiar y Psiquiatría",
+    "shortLabel": "Psicología Clínica, Salud Familia...",
+    "area": "Area 2",
+    "size": 8909,
+    "description": "Tesis sobre psicología, medicina familiar, psiquiatría, geriatr?a, salud mental y atenci?n clínica."
+  },
+  "nodes": [
+    {
+      "id": "C42",
+      "clusterId": 42,
+      "macroId": "Area2_M04",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Adultos Mayores - Medicina Familiar",
+      "size": 4045,
+      "radius": 30.0,
+      "position": {
+        "x": 0.46338,
+        "y": -0.17599
+      },
+      "dominantAreaShare": 0.5256,
+      "programsTop": "Medicina Familiar (653) | Derecho (535) | Psicologia (430) | Arquitectura (302) | Actuaria (267) | Geriatria (205) | Cirujano Dentista (189) | Economia (95) | Medicina Interna (85) | Cirugia General (71)",
+      "levelsTop": "Licenciatura (2266) | Especialidad (1521) | Maestria (191) | Doctorado (66)",
+      "campusesTop": "Facultad de Medicina Unam (1541) | Facultad de Derecho Unam (304) | Facultad de Ciencias Unam (224) | Facultad de Arquitectura Unam (204) | Facultad de Estudios Superiores Iztacala Unam (170) | Facultad de Psicologia Unam (165)",
+      "sampleTitles": "centro geriatrico | cirugia preprotesica en el paciente geriatrico | el sistema de ahorro para el retiro | la jubilacion en el derecho del trabajo | sistema de ahorro para el retiro | cotidianidad y trayectoria de vida de las y los adultos mayores del asilo sta. maría de guadalupe | nuevo sistema de pensiones : afore, análisis y perspectivas | residencia para adultos mayores",
+      "color": "#2E9D71",
+      "originalLabel": "Medicina Familiar",
+      "shortLabel": "Adultos Mayores - Medicina Famili...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C44",
+      "clusterId": 44,
+      "macroId": "Area2_M04",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Obesidad Ninos - Medicina Familiar",
+      "size": 3974,
+      "radius": 29.89,
+      "position": {
+        "x": -0.51409,
+        "y": 0.30438
+      },
+      "dominantAreaShare": 0.8226,
+      "programsTop": "Medicina Familiar (921) | Psicologia (543) | Pediatria (275) | Cirujano Dentista (228) | Pediatria Medica (156) | Enfermeria y Obstetricia (149) | Neonatologia (104) | Medicina Interna (94) | Quimica Farmaceutico Biologica (79) | Medico Cirujano (60)",
+      "levelsTop": "Especialidad (2253) | Licenciatura (1437) | Maestria (183) | Doctorado (100)",
+      "campusesTop": "Facultad de Medicina Unam (2330) | Facultad de Psicologia Unam (246) | Facultad de Estudios Superiores Iztacala Unam (224) | Facultad de Odontologia Unam (193) | Facultad de Quimica Unam (111) | No Especificado Unam (109)",
+      "sampleTitles": "nutricion y caries | diagnóstico para la promoción y convicción de la importancia de la lactancia materna | estudio comparativo de formulas lacteas especiales para recien nacidos prematuros | desnutricion infantil | lactancia materna | obesidad infantil | importancia de la nutricion en odontologia | contribucion al estudio de la alimentacion en la primera infancia",
+      "color": "#2E9D71",
+      "originalLabel": "Medicina Familiar",
+      "shortLabel": "Obesidad Ninos - Medicina Familiar",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C63",
+      "clusterId": 63,
+      "macroId": "Area2_M04",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Unidad Medicina Familiar - Psicología",
+      "size": 3090,
+      "radius": 28.34,
+      "position": {
+        "x": 0.48495,
+        "y": -0.47028
+      },
+      "dominantAreaShare": 0.7683,
+      "programsTop": "Psicologia (1037) | Medicina Familiar (604) | Psiquiatria (528) | Enfermeria y Obstetricia (112) | Anestesiologia (95) | Cirujano Dentista (67) | Ginecologia y Obstetricia (50) | Psiquiatria Infantil y de la Adolescencia (49) | Medicina (psiquiatria) (41) | Enfermeria (41)",
+      "levelsTop": "Especialidad (1614) | Licenciatura (1259) | Maestria (158) | Doctorado (58)",
+      "campusesTop": "Facultad de Medicina Unam (1645) | Facultad de Psicologia Unam (474) | Facultad de Estudios Superiores Iztacala Unam (244) | Facultad de Estudios Superiores Zaragoza Unam (107) | No Especificado Unam (77) | Facultad de Odontologia Unam (57)",
+      "sampleTitles": "examen odontopsicologico de el miedo y la ansiedad en el nino | embarazo y depresion | frecuencia de ansiedad y | depresion en pacientes hospitalizados en medicina interna | depresión en niños | depresión post-parto | \"prevalencía del trastorno de ansiedad y depresión en los pasantes del servicio social de enfermería en el hospital regional issste león\" | detección de trastorno depresivo mayor en estudiantes de secundaria",
+      "color": "#2E9D71",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Unidad Medicina Familiar - Psicol...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C113",
+      "clusterId": 113,
+      "macroId": "Area2_M04",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Trastornos Sueno - Medicina Familiar",
+      "size": 916,
+      "radius": 20.85,
+      "position": {
+        "x": -0.72816,
+        "y": 0.13925
+      },
+      "dominantAreaShare": 0.7795,
+      "programsTop": "Medicina Familiar (147) | Psicologia (133) | Biologia (88) | Psiquiatria (69) | Cirujano Dentista (40) | Neumologia (38) | Ciencias Biomedicas (27) | Anestesiologia (24) | Neumologia Pediatrica (23) | Ciencias Biologicas (20)",
+      "levelsTop": "Especialidad (464) | Licenciatura (312) | Maestria (85) | Doctorado (53)",
+      "campusesTop": "Facultad de Medicina Unam (502) | Facultad de Psicologia Unam (92) | Facultad de Ciencias Unam (91) | Facultad de Odontologia Unam (42) | No Especificado Unam (38) | Facultad de Estudios Superiores Zaragoza Unam (30)",
+      "sampleTitles": "evaluación de un programa psicoeducativo de tratamiento cognitivo conductual para pacientes con insomnio | descripción del estado cognitivo y calidad de vida en el paciente geriátrico con síndrome de apnea obstructiva del sueño posterior al uso del continuos positive airway pressure (cpap) en el hospital general regional # 72, imss | validación del cuestionario stop bang para identificar apnea obstructiva del sueño como tamizaje preoperatorio en una población quirúrgica mexicana del hospital de especialidades, en el cmnsxxi | \"efecto de una intervención educativa de higiene del sueño en el control glucémico del paciente con diabetes tipo 2 y síndrome de apnea-hipopnea obstructiva del sueño\" | alteraciones del sueño nocturno en niños con sindrome del niño maltratado comparados con controles historicos sanos de la clinica de sueño del instituto nacional de pediatria | proceso de atencion de enfermeria aplicado a paciente con sindrome de apnea obstructiva durante el sueño | analisis de la imaginacion como recurso psicoterapeutico | analisis de la expresion pictorica del enfermo mental",
+      "color": "#2E9D71",
+      "originalLabel": "Medicina Familiar",
+      "shortLabel": "Trastornos Sueno - Medicina Famil...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C127",
+      "clusterId": 127,
+      "macroId": "Area2_M04",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Sindrome Burnout - Psicología",
+      "size": 450,
+      "radius": 16.48,
+      "position": {
+        "x": 0.06451,
+        "y": 0.79674
+      },
+      "dominantAreaShare": 0.7689,
+      "programsTop": "Psicologia (138) | Medicina Familiar (91) | Anestesiologia (29) | Enfermeria y Obstetricia (27) | Enfermeria (22) | Cirujano Dentista (19) | Psiquiatria (18) | Pediatria (14) | Medicina Interna (10) | Medicina de Urgencias (10)",
+      "levelsTop": "Licenciatura (218) | Especialidad (218) | Maestria (12) | Doctorado (2)",
+      "campusesTop": "Facultad de Medicina Unam (204) | Facultad de Psicologia Unam (49) | Facultad de Estudios Superiores Zaragoza Unam (43) | Facultad de Estudios Superiores Iztacala Unam (32) | Universidad de Sotavento (14) | Facultad de Enfermeria y Obstetricia Unam (12)",
+      "sampleTitles": "síndrome de burnout | conocimiento de los cirujanos dentistas pasantes de odontología y estudiantes sobre el uso de barreras y protocolo de prevención durante la pandemia covid-19 | sindrome de burnout en los medicos legistas de la secretaria de salud del distrito federal | presencia del síndrome de burnout en personal de enfermería | síndrome de burnout en profesionales de enfermería | sindrome de burnout en el personal de enfermería | incidencia del síndrome de burnout en el personal de enfermería | la presencia del sindrome de burnout en el personal de enfermerìa",
+      "color": "#2E9D71",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Sindrome Burnout - Psicología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C131",
+      "clusterId": 131,
+      "macroId": "Area2_M04",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Sindrome Down - Cirujano Dentista",
+      "size": 346,
+      "radius": 14.86,
+      "position": {
+        "x": -0.69828,
+        "y": -0.48779
+      },
+      "dominantAreaShare": 0.5116,
+      "programsTop": "Cirujano Dentista (100) | Psicologia (97) | Pedagogia (50) | Pediatria (15) | Arquitectura (14) | Medicina Familiar (7) | Genetica Medica (5) | Comunicacion Grafica (4) | Quimica Farmaceutico Biologica (3) | Trabajo Social (3)",
+      "levelsTop": "Licenciatura (287) | Especialidad (46) | Maestria (9) | Doctorado (3)",
+      "campusesTop": "Facultad de Odontologia Unam (76) | Facultad de Medicina Unam (43) | Facultad de Estudios Superiores Iztacala Unam (41) | Facultad de Psicologia Unam (36) | Facultad de Filosofia y Letras Unam (14) | Facultad de Estudios Superiores Aragon Unam (13)",
+      "sampleTitles": "estudio estomatologico del sindrome de down | manejo del nino con sindrome de down en el consultorio dental | sindrome de down | manejo odontologico en el nino con sindrome de down | caracteristicas y manejo del paciente con sindrome de down en el consultorio dental | manifestaciones orales del sindrome de down | Sindrome de down y su terapia dental | tratamiento en el consultorio dental de pacientes con sindrome de down",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Sindrome Down - Cirujano Dentista",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C158",
+      "clusterId": 158,
+      "macroId": "Area2_M04",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Anorexia Bulimia - Psicología",
+      "size": 133,
+      "radius": 9.0,
+      "position": {
+        "x": -0.85391,
+        "y": 0.28432
+      },
+      "dominantAreaShare": 0.5338,
+      "programsTop": "Psicologia (49) | Cirujano Dentista (17) | Psiquiatria (8) | Ciencias de la Comunicacion (6) | Pediatria (6) | Periodismo y Comunicacion Colectiva (6) | Trabajo Social (5) | Medicina Familiar (3) | Sociologia (3) | Enfermeria (3)",
+      "levelsTop": "Licenciatura (97) | Especialidad (27) | Maestria (6) | Doctorado (3)",
+      "campusesTop": "Facultad de Medicina Unam (28) | Facultad de Psicologia Unam (20) | Facultad de Odontologia Unam (16) | Facultad de Estudios Superiores Iztacala Unam (12) | Facultad de Ciencias Politicas y Sociales Unam (11) | Facultad de Estudios Superiores Aragon Unam (7)",
+      "sampleTitles": "alteraciones bucales en pacientes con anorexia y bulimia | la belleza que mata : reportaje sobre anorexia y bulimia | anorexia nerviosa : un problema nosologico | evolucion diagnostica y conceptual de los trastornos alimentarios : anorexia y bulimia nerviosa | anorexia y bulimia en adolescentes : una propuesta de trabajo desde la pnl | anorexia nerviosa : una investigacion psicodinamica | analisis del funcionamiento familiar en pacientes con anorexia nerviosa y bulimia nerviosa | presencia de candidosis oral en pacientes con anorexia y bulimia",
+      "color": "#2E9D71",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Anorexia Bulimia - Psicología",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C42",
+      "target": "C63",
+      "count": 95,
+      "meanScore": 0.824914,
+      "maxScore": 0.892108,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C42",
+      "target": "C44",
+      "count": 64,
+      "meanScore": 0.796603,
+      "maxScore": 0.872396,
+      "strokeWidth": 2.745
+    },
+    {
+      "source": "C44",
+      "target": "C63",
+      "count": 35,
+      "meanScore": 0.808809,
+      "maxScore": 0.895224,
+      "strokeWidth": 1.757
+    },
+    {
+      "source": "C113",
+      "target": "C63",
+      "count": 11,
+      "meanScore": 0.794795,
+      "maxScore": 0.834784,
+      "strokeWidth": 0.94
+    },
+    {
+      "source": "C113",
+      "target": "C42",
+      "count": 8,
+      "meanScore": 0.794567,
+      "maxScore": 0.878945,
+      "strokeWidth": 0.838
+    },
+    {
+      "source": "C131",
+      "target": "C42",
+      "count": 4,
+      "meanScore": 0.761614,
+      "maxScore": 0.78711,
+      "strokeWidth": 0.702
+    },
+    {
+      "source": "C127",
+      "target": "C63",
+      "count": 3,
+      "meanScore": 0.810869,
+      "maxScore": 0.825846,
+      "strokeWidth": 0.668
+    },
+    {
+      "source": "C158",
+      "target": "C44",
+      "count": 2,
+      "meanScore": 0.811784,
+      "maxScore": 0.820571,
+      "strokeWidth": 0.634
+    },
+    {
+      "source": "C127",
+      "target": "C131",
+      "count": 1,
+      "meanScore": 0.830678,
+      "maxScore": 0.830678,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C113",
+      "target": "C44",
+      "count": 1,
+      "meanScore": 0.810159,
+      "maxScore": 0.810159,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C131",
+      "target": "C44",
+      "count": 1,
+      "meanScore": 0.800005,
+      "maxScore": 0.800005,
+      "strokeWidth": 0.6
+    },
+    {
+      "source": "C127",
+      "target": "C42",
+      "count": 1,
+      "meanScore": 0.819946,
+      "maxScore": 0.819946,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

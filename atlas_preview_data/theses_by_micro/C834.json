@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C834",
+    "clusterId": 834,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0487261",
+      "title": "eficacia y seguridad de 5-azacitidina en pacientes con síndrome mielodisplásico de riesgo intermedio-alto",
+      "year": 2018,
+      "author": "Shendel Paulina Vilchis González",
+      "advisor": "Santa Maricela Ortiz Zepeda",
+      "program": "hematologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.955969,
+      "titleKey": "eficacia y seguridad de 5 azacitidina en pacientes con sindrome mielodisplasico de riesgo intermedio alto",
+      "titleFamilyKey": "eficacia segur azacitid paciente sindrome mielodis riesgo intermed"
+    },
+    {
+      "thesisId": "TH_0449340",
+      "title": "respuesta del tratamiento con 5-azacitidina en síndrome mielodisplásico",
+      "year": 2016,
+      "author": "Patricia Gómez Rosas",
+      "advisor": "Martha Alvarado Ibarra",
+      "program": "hematologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.932427,
+      "titleKey": "respuesta del tratamiento con 5 azacitidina en sindrome mielodisplasico",
+      "titleFamilyKey": "respuest trata azacitid sindrome mielodis"
+    },
+    {
+      "thesisId": "TH_0549592",
+      "title": "experiencia con el uso de 5-azacitidina a lo largo de 12 años en pacientes con síndrome mielodisplásico de riesgo intermedio-alto en el servicio de hematología",
+      "year": 2025,
+      "author": "José Antonio Aguilar Hidalgo",
+      "advisor": "José Antonio de la Peña Celaya",
+      "program": "hematologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/AH3E6V36RA2JPIMY2JKLX346DUNQ34TX96A5EEQU868TK57LRE-37987?func=service&doc_library=TES01&doc_number=000869851&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.921155,
+      "titleKey": "experiencia con el uso de 5 azacitidina a lo largo de 12 anos en pacientes con sindrome mielodisplasico de riesgo intermedio alto en el servicio de hematologia",
+      "titleFamilyKey": "experien uso azacitid largo anos paciente sindrome mielodis"
+    },
+    {
+      "thesisId": "TH_0551590",
+      "title": "azacitidina-venetoclax vs. azacitidina monoterapia en pacientes con síndrome mielodisplásico de riesgo alto : análisis multicéntrico",
+      "year": 2025,
+      "author": "Lyam Carlo Chacón Rangel",
+      "advisor": "Elia Ixel Apodaca Chávez",
+      "program": "hematologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/9UJP594LRLLEDG8VJIAPTA2RM5QT88AVKM2CMSGTVIKXE2RC49-45590?func=service&doc_library=TES01&doc_number=000873535&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.903136,
+      "titleKey": "azacitidina venetoclax vs azacitidina monoterapia en pacientes con sindrome mielodisplasico de riesgo alto analisis multicentrico",
+      "titleFamilyKey": "azacitid venetocl azacitid monotera paciente sindrome mielodis riesgo"
+    },
+    {
+      "thesisId": "TH_0506895",
+      "title": "uso de azacitidina en pacientes pediátricos con síndrome mielodisplásico : experiencia centro médico nacional 20 de noviembre",
+      "year": 2021,
+      "author": "Ricardo Saldaña Vargas",
+      "advisor": "María Raquel Miranda Madrazo",
+      "program": "hematologia pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/8CNK4H5X97HH7RQ4T38GXYRMESUFSYN4LAB6XJ1M3E2XEHCU4F-06053?func=service&doc_library=TES01&doc_number=000817220&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.875135,
+      "titleKey": "uso de azacitidina en pacientes pediatricos con sindrome mielodisplasico experiencia centro medico nacional 20 de noviembre",
+      "titleFamilyKey": "uso azacitid paciente pediatri sindrome mielodis experien centro"
+    }
+  ]
+}

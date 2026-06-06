@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C888",
+    "clusterId": 888,
+    "macroId": "Area2_M11",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0343764",
+      "title": "el control biológico de la conchuela del eucalipto : glycaspis brimblecombei moore (hemiptera: spondyliaspididae) un estudio de caso en el parque nacional de los remedios naucalpan edo. de méxico",
+      "year": 2009,
+      "author": "Edsel Elesban Nava Vargas",
+      "advisor": "Jorge Ricardo Padilla Ramírez",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-39198?func=service&doc_library=TES01&doc_number=000655894&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.918291,
+      "titleKey": "el control biologico de la conchuela del eucalipto glycaspis brimblecombei moore hemiptera spondyliaspididae un estudio de caso en el parque nacional de los remedios naucalpan edo de mexico",
+      "titleFamilyKey": "control biologic conchuel eucalipt glycaspi brimblec moore hemipter"
+    },
+    {
+      "thesisId": "TH_0041865",
+      "title": "fluctuacion poblacional del psilido del eucalipto glycaspis brimblecombei y el efecto del control biologico con la avispa parasitoide psyllaephagus bliteus",
+      "year": 2003,
+      "author": "Ana Laura García Ramirez",
+      "advisor": "Jesus Jaime Guerra Santos",
+      "program": "ingenieria agricola",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3JKIMGNSB3DIKCR7AH42EK2S94JT2MTEEC3F6KUND2NL471CXT-27180?func=service&doc_library=TES01&doc_number=000325258&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.917309,
+      "titleKey": "fluctuacion poblacional del psilido del eucalipto glycaspis brimblecombei y el efecto del control biologico con la avispa parasitoide psyllaephagus bliteus",
+      "titleFamilyKey": "fluctua poblacio psilido eucalipt glycaspi brimblec efecto control"
+    },
+    {
+      "thesisId": "TH_0052052",
+      "title": "fluctuacion polbacional de glycaspis brimblecombei moore y su parasitoide (psyllaephagus bliteus en xochita tepotzotlan estado de mexico",
+      "year": 2004,
+      "author": "Gregorio Bautista García",
+      "advisor": "David Cibrian Tovar",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ALL78NNIBIX5X7IS4KEX64QJY4CIXT1R74F8PAQAXRMQFJ291T-06383?func=service&doc_library=TES01&doc_number=000601231&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.881011,
+      "titleKey": "fluctuacion polbacional de glycaspis brimblecombei moore y su parasitoide psyllaephagus bliteus en xochita tepotzotlan estado de mexico",
+      "titleFamilyKey": "fluctua polbacio glycaspi brimblec moore parasito psyllaep bliteus"
+    },
+    {
+      "thesisId": "TH_0331673",
+      "title": "impacto del psilido (glycaspis brimblecombei moore) en el arbolado de eucalipto del vivero nezahualcoyotl y su control biológico con psyllaephagus bliteus",
+      "year": 2008,
+      "author": "Pedro Felipe Pérez González",
+      "advisor": "Ramiro Ríos Gómez",
+      "program": "planificacion para el desarrollo agropecuario",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-25026?func=service&doc_library=TES01&doc_number=000642419&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.861419,
+      "titleKey": "impacto del psilido glycaspis brimblecombei moore en el arbolado de eucalipto del vivero nezahualcoyotl y su control biologico con psyllaephagus bliteus",
+      "titleFamilyKey": "impacto psilido glycaspi brimblec moore arbolado eucalipt vivero"
+    },
+    {
+      "thesisId": "TH_0431854",
+      "title": "control biológico de glycaspis brimblecombei en las áreas verdes del distrito federal",
+      "year": 2015,
+      "author": "María Teresa Cantoral Herrera",
+      "advisor": "David Cibrián Tovar",
+      "program": "biologia",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-32501?func=service&doc_library=TES01&doc_number=000730163&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.828847,
+      "titleKey": "control biologico de glycaspis brimblecombei en las areas verdes del distrito federal",
+      "titleFamilyKey": "control biologic glycaspi brimblec areas verdes distrito federal"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C381",
+    "clusterId": 381,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 16,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0103988",
+      "title": "preparacion de cavidades en operatoria dental",
+      "year": 1969,
+      "author": "Reynaldo Vallejo Patino",
+      "advisor": "Salomon Evelson Gutierrez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/T6P9G2P4QEGATMC3JIMMX214AYMFHVF5M351PIHPVBRD4L7LYP-00030?func=service&doc_library=TES01&doc_number=000143748&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999959,
+      "titleKey": "preparacion de cavidades en operatoria dental",
+      "titleFamilyKey": "prepara cavid operator dental"
+    },
+    {
+      "thesisId": "TH_0113580",
+      "title": "preparacion de cavidades en operatoria dental",
+      "year": 1972,
+      "author": "Consuelo Flores Ruelas",
+      "advisor": "Manuel Rey Garcia",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N7JREXUPMHAHEDYLB8J8LGQHU5NDLM74T7NPAQDSBXEQB28VXN-23801?func=service&doc_library=TES01&doc_number=000144518&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999959,
+      "titleKey": "preparacion de cavidades en operatoria dental",
+      "titleFamilyKey": "prepara cavid operator dental"
+    },
+    {
+      "thesisId": "TH_0586016",
+      "title": "Preparacion de cavidades en la operatoria dental",
+      "year": 1987,
+      "author": "Elsa Gonzalez López",
+      "advisor": "Daniel García Rodríguez",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0041977/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.99879,
+      "titleKey": "preparacion de cavidades en la operatoria dental",
+      "titleFamilyKey": "prepara cavid operator dental"
+    },
+    {
+      "thesisId": "TH_0573799",
+      "title": "Preparacion de cavidad en operatoria dental",
+      "year": 1985,
+      "author": "Maria del Carmen Calixto Alpizar",
+      "advisor": "José Antonio Pérez Brand",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0023124/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.993572,
+      "titleKey": "preparacion de cavidad en operatoria dental",
+      "titleFamilyKey": "prepara cavi operator dental"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C853",
+    "clusterId": 853,
+    "macroId": "Area2_M01",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0493600",
+      "title": "efecto de los productos avanzados de la glucosilación (ages) en las células mesoteliales de pacientes sometidos a diálisis peritoneal",
+      "year": 2020,
+      "author": "María Isabel Rojas Martínez",
+      "advisor": "Amalia Gloria Mota Hernández · +3 más",
+      "program": "nefrologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EL1S2NAJI2NQTF1SUHFYTEDIGD4XTX2AP6UYVIELMINNBQYA69-41511?func=service&doc_library=TES01&doc_number=000802482&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.923232,
+      "titleKey": "efecto de los productos avanzados de la glucosilacion ages en las celulas mesoteliales de pacientes sometidos a dialisis peritoneal",
+      "titleFamilyKey": "efecto producto avanzado glucosila ages celulas mesoteli paciente"
+    },
+    {
+      "thesisId": "TH_0363455",
+      "title": "efecto del líquido de diálisis en la expresión de los transportadores de glucosa en células mesoteliales de rata",
+      "year": 2010,
+      "author": "Arnulfo Jésus Ávila León",
+      "advisor": "José Luis Reyes Sánchez",
+      "program": "nefrologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/HRII1RCXVD2GPFXYUI57XFMU6PYBQCVJR314RQELYR1TT7L611-52940?func=service&doc_library=TES01&doc_number=000661475&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.881131,
+      "titleKey": "efecto del liquido de dialisis en la expresion de los transportadores de glucosa en celulas mesoteliales de rata",
+      "titleFamilyKey": "efecto liquido dialisis expresio transpor glucosa celulas mesoteli"
+    },
+    {
+      "thesisId": "TH_0359026",
+      "title": "estructura y función de las células mesoteliales de pacientes en diálisis peritoneal continua ambulatoria (dpca) con transporte peritoneal alto y bajo",
+      "year": 2019,
+      "author": "Jesús Manolo Ramos Gordillo",
+      "advisor": "Alejandro Pérez López · +1 más",
+      "program": "ciencias medicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-50135?func=service&doc_library=TES01&doc_number=000788778&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.863859,
+      "titleKey": "estructura y funcion de las celulas mesoteliales de pacientes en dialisis peritoneal continua ambulatoria dpca con transporte peritoneal alto y bajo",
+      "titleFamilyKey": "estructu func celulas mesoteli paciente dialisis peritone continua"
+    },
+    {
+      "thesisId": "TH_0291924",
+      "title": "optimizacion en el aislamiento e identificacion de las celulas mesoteliales peritoneales en cultivo primario de pacientes en dialisis peritoneal continua ambulatoria (dpca)",
+      "year": 2005,
+      "author": "Jesus Manolo Ramos Gordillo",
+      "advisor": "Alfonso Luis Gonzalez Sanchez",
+      "program": "nefrologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/HLGB7H733DCK7GXMUM33I1P22VQ6JQ7ASCK9EJBV96IAV9UR9H-04628?func=service&doc_library=TES01&doc_number=000347934&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.779691,
+      "titleKey": "optimizacion en el aislamiento e identificacion de las celulas mesoteliales peritoneales en cultivo primario de pacientes en dialisis peritoneal continua ambulatoria dpca",
+      "titleFamilyKey": "optimiza aisla identifica celulas mesoteli peritone cultivo primario"
+    },
+    {
+      "thesisId": "TH_0384931",
+      "title": "efecto del aceite de linaza (ácido alfa linolénico) sobre la fluidez membranal en células de ratas espontáneamente hipertensas con diabetes",
+      "year": 2011,
+      "author": "Ismael Herminio Perez Hernandez",
+      "advisor": "Ricardo Mejía Zepeda",
+      "program": "ciencias biologicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3XNJ4G6FHB3SJBFUA3HYH9FBBXXJFJE6XTP4JQQFMIFL6HUXUV-65717?func=service&doc_library=TES01&doc_number=000692943&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.738223,
+      "titleKey": "efecto del aceite de linaza acido alfa linolenico sobre la fluidez membranal en celulas de ratas espontaneamente hipertensas con diabetes",
+      "titleFamilyKey": "efecto aceite linaza acido alfa linoleni fluidez membrana"
+    }
+  ]
+}

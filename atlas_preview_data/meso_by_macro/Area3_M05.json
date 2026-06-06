@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area3_M05",
+    "label": "Economía, Administración e Industria",
+    "shortLabel": "Economía, Administración e Indust...",
+    "area": "Area 3",
+    "size": 151,
+    "description": "Trabajos sobre economía, administración, contaduría, industria, sistemas e ingeniería aplicada."
+  },
+  "nodes": [
+    {
+      "id": "C155",
+      "clusterId": 155,
+      "macroId": "Area3_M05",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Industria Calzado - Economía",
+      "size": 151,
+      "radius": 19.5,
+      "position": {
+        "x": 0.12279,
+        "y": -0.89158
+      },
+      "dominantAreaShare": 0.7219,
+      "programsTop": "Economia (36) | Administracion (30) | Ingenieria Mecanica Electrica (16) | Contaduria (16) | Relaciones Internacionales (13) | Derecho (4) | Ingenieria Quimica (4) | Ingenieria en Computacion (3) | Ingenieria de Sistemas (3) | Ingenieria Industrial (3)",
+      "levelsTop": "Licenciatura (137) | Doctorado (7) | Maestria (7)",
+      "campusesTop": "Facultad de Contaduria y Administracion Unam (30) | Facultad de Economia Unam (30) | Facultad de Ingenieria Unam (12) | Facultad de Estudios Superiores Aragon Unam (11) | Facultad de Ciencias Politicas y Sociales Unam (11) | No Especificado Unam (7)",
+      "sampleTitles": "sistema punto de venta para la comercializacion en la industria del calzado | Estudio de la factibilidad para la introduccion de una nueva marca de calzado de plastico inyectado | la industria del calzado en mexico | las mipymes y su problemática actual en méxico | panorama actual de las mipymes en méxico 2000-2008 | exportacion de calzado mexicano a los estados unidos y la identificacion de un mercado potencial | estudio de los costos en la industria del calzado para dama | los costos en la industria del calzado",
+      "color": "#2F6FB3",
+      "originalLabel": "Economia",
+      "shortLabel": "Industria Calzado - Economía",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

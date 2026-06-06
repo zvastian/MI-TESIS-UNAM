@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C864",
+    "clusterId": 864,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0015628",
+      "title": "revisión bibliográfica del diagnóstico y tratamiento de la inestabilidad anterior glenohumeral",
+      "year": 2001,
+      "author": "José Armando Hernández Pérez",
+      "advisor": "Eduardo Delgado Arzate",
+      "program": "ortopedia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-62087?func=service&doc_library=TES01&doc_number=000678166&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.911539,
+      "titleKey": "revision bibliografica del diagnostico y tratamiento de la inestabilidad anterior glenohumeral",
+      "titleFamilyKey": "revision bibliogr diagnost trata inestabil anterior glenohum"
+    },
+    {
+      "thesisId": "TH_0555990",
+      "title": "\"resultados clínicos en pacientes con inestabilidad glenohumeral anterior operados con reparación de bankart y estabilización dinámica anterior\"",
+      "year": 2025,
+      "author": "Carlos Rafael Luna Lizárraga",
+      "advisor": "Javier Martín Becerra · +1 más",
+      "program": "traumatologia y ortopedia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/S2C8K29PH469HEI8I7LDXTHBIRP9LD8J58J8AAJ7DG1EBDHPCG-06448?func=service&doc_library=TES01&doc_number=000873475&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.906728,
+      "titleKey": "resultados clinicos en pacientes con inestabilidad glenohumeral anterior operados con reparacion de bankart y estabilizacion dinamica anterior",
+      "titleFamilyKey": "resultad clinicos paciente inestabil glenohum anterior operados repara"
+    },
+    {
+      "thesisId": "TH_0223953",
+      "title": "valoracion clinica artroscopica en pacientes con inestabilidad glenohumeral",
+      "year": 1993,
+      "author": "Martha Ivonne Rivadeneyra Perez",
+      "advisor": "Sergio Pucheta Garcia",
+      "program": "traumatologia y ortopedia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/6AC3Y7TDGV8GKD4MEGMCEHG4MN94IBM4VL3Q23N87DADM4S3AG-55240?func=service&doc_library=TES01&doc_number=000197820&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.900995,
+      "titleKey": "valoracion clinica artroscopica en pacientes con inestabilidad glenohumeral",
+      "titleFamilyKey": "valora clinica artrosco paciente inestabil glenohum"
+    },
+    {
+      "thesisId": "TH_0053382",
+      "title": "evaluacion clinica de los pacientes con inestabilidad lumbar, manifestada por artrosis facetaria y enfermedad discal, operados mediante disectomia y artrodecis interfacetaria lumbar",
+      "year": 2004,
+      "author": "Tomas Eduardo Colmenares Cuevas",
+      "advisor": "Oscar Martinez Molina",
+      "program": "traumatologia y ortopedia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ALL78NNIBIX5X7IS4KEX64QJY4CIXT1R74F8PAQAXRMQFJ291T-42132?func=service&doc_library=TES01&doc_number=000335590&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.836443,
+      "titleKey": "evaluacion clinica de los pacientes con inestabilidad lumbar manifestada por artrosis facetaria y enfermedad discal operados mediante disectomia y artrodecis interfacetaria lumbar",
+      "titleFamilyKey": "evalua clinica paciente inestabil lumbar manifest artrosis facetari"
+    },
+    {
+      "thesisId": "TH_0403456",
+      "title": "defectos óseos asociados a inestabilidad glenohumeral postraumática",
+      "year": 2013,
+      "author": "David Arturo Cantu Morales",
+      "advisor": "Fernando Valero González · +2 más",
+      "program": "ortopedia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DNNT4PMDVH7MUEIP22HBSXKQDXSC88NG83PH7CASM6JRRXCYS3-30177?func=service&doc_library=TES01&doc_number=000697980&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.825425,
+      "titleKey": "defectos oseos asociados a inestabilidad glenohumeral postraumatica",
+      "titleFamilyKey": "defectos oseos asociado inestabil glenohum postraum"
+    }
+  ]
+}

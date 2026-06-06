@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C901",
+    "clusterId": 901,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0062983",
+      "title": "anestesia local por medio de la novocaina-suprarrenina",
+      "year": 1926,
+      "author": "Rafael C Revilla Galina",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/9RXEMG1ABLCABKD224TVGCHFQDGRG2EYU18M6TF7CDX8DHLHHV-23132?func=service&doc_library=TES01&doc_number=000131999&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.985044,
+      "titleKey": "anestesia local por medio de la novocaina suprarrenina",
+      "titleFamilyKey": "anestesi local medio novocain suprarre"
+    },
+    {
+      "thesisId": "TH_0064022",
+      "title": "anestesia local por la novocaina suprarrenina",
+      "year": 1931,
+      "author": "Andrés Marquez Arguelles",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/AU1KDEFHGHDVDCYPXB38RT6JRKF6MFEYKD3L2XMBYJL6RYFYML-15858?func=service&doc_library=TES01&doc_number=000133226&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.974838,
+      "titleKey": "anestesia local por la novocaina suprarrenina",
+      "titleFamilyKey": "anestesi local novocain suprarre"
+    },
+    {
+      "thesisId": "TH_0063675",
+      "title": "la anestesia local por medio de la boconina",
+      "year": 1930,
+      "author": "Alfredo Lejarza",
+      "advisor": "Asesor no registrado",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/493N6JL7UK256IA2GYQEGVJ4ETRX7JNXUDBD5UMJCGNXGPD5FC-03624?func=service&doc_library=TES01&doc_number=000139738&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.946906,
+      "titleKey": "la anestesia local por medio de la boconina",
+      "titleFamilyKey": "anestesi local medio boconina"
+    },
+    {
+      "thesisId": "TH_0064484",
+      "title": "las anestesias localizadas en ginecologia",
+      "year": 1932,
+      "author": "Federico J Romero",
+      "advisor": "Asesor no registrado",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3M6UHFMPBVKI2EGIG4EX8BDLK6QYUMJD5N9USUFTQ9ISG4S1LP-40077?func=service&doc_library=TES01&doc_number=000140189&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.937872,
+      "titleKey": "las anestesias localizadas en ginecologia",
+      "titleFamilyKey": "anestesi localiza ginecolo"
+    },
+    {
+      "thesisId": "TH_0075931",
+      "title": "anestesia loco-regional en odontologia por medio de las inyecciones de novocaina con suprarrenina",
+      "year": 1948,
+      "author": "Lauro Rivera Falla",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/6GUX3QPCL39UYRHVKF99C311CEUN3AUTQ2MI477QHJT25H8XGG-27756?func=service&doc_library=TES01&doc_number=000217940&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.925171,
+      "titleKey": "anestesia loco regional en odontologia por medio de las inyecciones de novocaina con suprarrenina",
+      "titleFamilyKey": "anestesi loco regional odontolo medio inyecci novocain suprarre"
+    }
+  ]
+}

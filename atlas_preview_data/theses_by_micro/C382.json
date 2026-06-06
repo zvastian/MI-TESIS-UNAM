@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C382",
+    "clusterId": 382,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 16,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0585819",
+      "title": "Principios basicos de endodoncia",
+      "year": 1987,
+      "author": "Maria del Socorro Hernandez Hernandez",
+      "advisor": "Silvia Sandoval Martinez",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0047569/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.999651,
+      "titleKey": "principios basicos de endodoncia",
+      "titleFamilyKey": "principi basicos endodonc"
+    },
+    {
+      "thesisId": "TH_0080660",
+      "title": "principios basicos de endodoncia",
+      "year": 1955,
+      "author": "Sabina Morales Zuniga",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/4RAA5144IBAJQFLMEEHPTCSHR93C3YR7MATAMHQ2P5S9TTF1AF-58474?func=service&doc_library=TES01&doc_number=000219929&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999651,
+      "titleKey": "principios basicos de endodoncia",
+      "titleFamilyKey": "principi basicos endodonc"
+    },
+    {
+      "thesisId": "TH_0156941",
+      "title": "principios basicos en endodoncia",
+      "year": 1982,
+      "author": "Wilbert Oswaldo Pavon Verdugo",
+      "advisor": "Jesus Roberto Verdugo Diaz",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-12326?func=service&doc_library=TES01&doc_number=000042967&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999586,
+      "titleKey": "principios basicos en endodoncia",
+      "titleFamilyKey": "principi basicos endodonc"
+    },
+    {
+      "thesisId": "TH_0176050",
+      "title": "principios basicos en endodoncia",
+      "year": 1986,
+      "author": "Fidela Gasca Hernandez",
+      "advisor": "Justo Candelario Zapata Acosta",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/63VM6398TRRQHVHTCQXLDLF9DI6B5SCXM2TG5K52SAL4JLYNXF-75483?func=service&doc_library=TES01&doc_number=000035153&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999586,
+      "titleKey": "principios basicos en endodoncia",
+      "titleFamilyKey": "principi basicos endodonc"
+    }
+  ]
+}

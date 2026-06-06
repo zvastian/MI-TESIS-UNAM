@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C736",
+    "clusterId": 736,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0028610",
+      "title": "obtencion de alcaloides de interes farmacologico de erythrina americana a partir de cultivos de tejidos",
+      "year": 2002,
+      "author": "Juan Manuel Gutierrez Rodriguez",
+      "advisor": "Maria del Rosario Garcia Mateos",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/PC3XPQPP9ANQHI8IPKIP4UACNXSI64EACCXLPCK24HYKIKSMNT-01145?func=service&doc_library=TES01&doc_number=000300708&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.927082,
+      "titleKey": "obtencion de alcaloides de interes farmacologico de erythrina americana a partir de cultivos de tejidos",
+      "titleFamilyKey": "obten alcaloid interes farmacol erythrin american partir cultivos"
+    },
+    {
+      "thesisId": "TH_0400181",
+      "title": "efecto de la fracción de alcaloides liberados y erisopina alcaloide aislado de erythrina americana, sobre una tarea de laberinto t elevado",
+      "year": 2012,
+      "author": "Clyo Xunaxi Ruiz López",
+      "advisor": "Maria Eugenia Garin Aguilar",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/UXIUUASJVN2DRUR1AIP3JD66RY3GPB1EEBAN2IQ7T6EHMIR93X-29603?func=service&doc_library=TES01&doc_number=000696223&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.904789,
+      "titleKey": "efecto de la fraccion de alcaloides liberados y erisopina alcaloide aislado de erythrina americana sobre una tarea de laberinto t elevado",
+      "titleFamilyKey": "efecto frac alcaloid liberado erisopin alcaloid aislado erythrin"
+    },
+    {
+      "thesisId": "TH_0107148",
+      "title": "alcaloides del genero erythrina",
+      "year": 1970,
+      "author": "Maria Aurora Rebolledo López",
+      "advisor": "Francisco Giral Gonzalez",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-16168?func=service&doc_library=TES01&doc_number=000171127&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.893618,
+      "titleKey": "alcaloides del genero erythrina",
+      "titleFamilyKey": "alcaloid genero erythrin"
+    },
+    {
+      "thesisId": "TH_0139596",
+      "title": "estudio del efecto terapeutico del alcaloide de las hojas de erythorina americana en canidos",
+      "year": 1978,
+      "author": "Jorge Maksabedian de la Roquette",
+      "advisor": "Ramón Auro Saldaña",
+      "program": "medicina veterinaria y zootecnia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina veterinaria y zootecnia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5L5TS12VQ68VIUXEJUXTSXA1R9J12JS3BATU94THFADKP51P54-29400?func=service&doc_library=TES01&doc_number=000158213&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.861639,
+      "titleKey": "estudio del efecto terapeutico del alcaloide de las hojas de erythorina americana en canidos",
+      "titleFamilyKey": "estudio efecto terapeut alcaloid hojas erythori american canidos"
+    },
+    {
+      "thesisId": "TH_0018175",
+      "title": "estimacion de la toxicidad aguda y cuantificacion de alcaloides totales en erythrina americana en diferentes fases de desarrollo",
+      "year": 2001,
+      "author": "Rosa Imelda Moreno Enriquez",
+      "advisor": "Ángela Sotelo López",
+      "program": "quimica de alimentos",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-04820?func=service&doc_library=TES01&doc_number=000300185&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.860246,
+      "titleKey": "estimacion de la toxicidad aguda y cuantificacion de alcaloides totales en erythrina americana en diferentes fases de desarrollo",
+      "titleFamilyKey": "estima toxic aguda cuantifica alcaloid totales erythrin american"
+    }
+  ]
+}

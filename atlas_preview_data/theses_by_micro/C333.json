@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C333",
+    "clusterId": 333,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 17,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0138874",
+      "title": "tecnicas de obturacion en endodoncia",
+      "year": 1978,
+      "author": "Fernando García Aguirre",
+      "advisor": "Magdalena Gutierrez Guerrero",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5L5TS12VQ68VIUXEJUXTSXA1R9J12JS3BATU94THFADKP51P54-49366?func=service&doc_library=TES01&doc_number=000149095&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.99937,
+      "titleKey": "tecnicas de obturacion en endodoncia",
+      "titleFamilyKey": "tecnicas obtura endodonc"
+    },
+    {
+      "thesisId": "TH_0141569",
+      "title": "tecnicas de obturacion en endodoncia",
+      "year": 1979,
+      "author": "José Luis Anton de la Concha",
+      "advisor": "Raul Luis García Aranda",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GSQBMGJRFXATKKJL4EC34FSN1XUJ5UFREVJSFRMF4YMMNCN7AC-20890?func=service&doc_library=TES01&doc_number=000018729&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.99937,
+      "titleKey": "tecnicas de obturacion en endodoncia",
+      "titleFamilyKey": "tecnicas obtura endodonc"
+    },
+    {
+      "thesisId": "TH_0150285",
+      "title": "diferentes tecnicas de obturacion en endodoncia",
+      "year": 1981,
+      "author": "Patricia Mijangos Ibarra",
+      "advisor": "Jaime Coutino Guillen",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5E8H58QDXC9N2YJUPLYYNUXUDRPPAIIGNCXQVH89EUP9J3U3QT-41794?func=service&doc_library=TES01&doc_number=000025954&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.993216,
+      "titleKey": "diferentes tecnicas de obturacion en endodoncia",
+      "titleFamilyKey": "diferent tecnicas obtura endodonc"
+    },
+    {
+      "thesisId": "TH_0567484",
+      "title": "Diferentes tecnicas de obturacion en endodoncia",
+      "year": 1980,
+      "author": "Bernardo Luna Zenteno",
+      "advisor": "Miguel Angel W Belmont Cozaya",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0020108/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.993216,
+      "titleKey": "diferentes tecnicas de obturacion en endodoncia",
+      "titleFamilyKey": "diferent tecnicas obtura endodonc"
+    },
+    {
+      "thesisId": "TH_0567524",
+      "title": "Tecnicas de obturacion mas empleadas en endodoncia",
+      "year": 1980,
+      "author": "José Luis Castillo Arriaga",
+      "advisor": "Anselmo Apodaca Lugo",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0019925/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.986309,
+      "titleKey": "tecnicas de obturacion mas empleadas en endodoncia",
+      "titleFamilyKey": "tecnicas obtura mas empleada endodonc"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M07",
+    "label": "Medicina Familiar, Interna y Urgencias",
+    "shortLabel": "Medicina Familiar, Interna y Urge...",
+    "area": "Area 2",
+    "size": 5222,
+    "description": "producción sobre medicina familiar, medicina interna, urgencias, endocrinología, cuidado cr?tico y práctica clínica."
+  },
+  "nodes": [
+    {
+      "id": "C34",
+      "clusterId": 34,
+      "macroId": "Area2_M07",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Diabetes Mellitus - Medicina Familiar",
+      "size": 4506,
+      "radius": 30.0,
+      "position": {
+        "x": -0.12106,
+        "y": 0.69922
+      },
+      "dominantAreaShare": 0.9245,
+      "programsTop": "Medicina Familiar (1739) | Medicina Interna (411) | Cirujano Dentista (224) | Psicologia (206) | Quimica Farmaceutico Biologica (203) | Enfermeria y Obstetricia (143) | Endocrinologia (100) | Medicina de Urgencias (96) | Pediatria (82) | Endocrinologia Pediatrica (79)",
+      "levelsTop": "Especialidad (3258) | Licenciatura (994) | Maestria (180) | Doctorado (71)",
+      "campusesTop": "Facultad de Medicina Unam (3330) | Facultad de Odontologia Unam (186) | Facultad de Quimica Unam (170) | Facultad de Estudios Superiores Iztacala Unam (138) | Facultad de Estudios Superiores Zaragoza Unam (108) | Facultad de Enfermeria y Obstetricia Unam (105)",
+      "sampleTitles": "la insulina en la cicatrizacion de algunas ulceras venereas | tratamiento de la diabetes | factores de riesgo en pacientes con diabetes mellitus tipo 2 | relación de la tensión arterial y nivel de glucosa en sangre con el desempeño cognoscitivo en adultos mayores | comparación de dos tratamientos para el control estricto de la glucemia en pacientes con diabetes mellitus tipo 2 hospitalizados por enfermedad aguda | la diabetes mellitus y sus manifestaciones bucales | diabetes | nivel de conocimientos sobre diabetes mellitus en pacientes diabéticos tipo 2, en centro de salud urbano lázaro cárdenas, 2020-2021",
+      "color": "#2E9D71",
+      "originalLabel": "Medicina Familiar",
+      "shortLabel": "Diabetes Mellitus - Medicina Fami...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C119",
+      "clusterId": 119,
+      "macroId": "Area2_M07",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Pancreatitis Aguda - Cirugía General",
+      "size": 716,
+      "radius": 9.0,
+      "position": {
+        "x": -0.57753,
+        "y": 0.69026
+      },
+      "dominantAreaShare": 0.9874,
+      "programsTop": "Cirugia General (291) | Gastroenterologia (46) | Medicina Interna (39) | Medicina (cirugia General) (35) | Medicina del Enfermo en Estado Critico (29) | Radiodiagnostico (26) | Medicina de Urgencias (26) | Cirugia Oncologica (19) | Pediatria (18) | Anatomia Patologica (17)",
+      "levelsTop": "Especialidad (660) | Licenciatura (44) | Maestria (9) | Doctorado (3)",
+      "campusesTop": "Facultad de Medicina Unam (664) | Facultad de Enfermeria y Obstetricia Unam (16) | No Especificado Unam (7) | Facultad de Ciencias Unam (7) | Facultad de Quimica Unam (5) | Facultad de Estudios Superiores Zaragoza Unam (4)",
+      "sampleTitles": "pancreatitis aguda | tratamiento medico quirurgico de la pancreatitis aguda grave | asociación entre las variables utilizadas en escalas de severidad con la presencia de complicaciones en pancreatitis aguda | pseudoquiste de pancreas | pancreatitis aguda en niños | pancreatitis | neoplasias quisticas del pancreas | determinacion de la acción proteolitica de la pancreatina : comparacion de dos metodos",
+      "color": "#2E9D71",
+      "originalLabel": "Cirugia General",
+      "shortLabel": "Pancreatitis Aguda - Cirugía Gene...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C119",
+      "target": "C34",
+      "count": 1,
+      "meanScore": 0.768477,
+      "maxScore": 0.768477,
+      "strokeWidth": 1.4
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

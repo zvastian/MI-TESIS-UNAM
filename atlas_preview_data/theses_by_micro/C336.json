@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C336",
+    "clusterId": 336,
+    "macroId": "Area1_M00",
+    "area": "Area 1",
+    "size": 17,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0022477",
+      "title": "centro de desarrollo infantil",
+      "year": 2001,
+      "author": "José Luis Velázquez Torres",
+      "advisor": "Miguel Alfredo Pérez y González · +1 más",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-33071?func=service&doc_library=TES01&doc_number=000290150&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999505,
+      "titleKey": "centro de desarrollo infantil",
+      "titleFamilyKey": "centro desarrol infantil"
+    },
+    {
+      "thesisId": "TH_0023850",
+      "title": "centro de desarrollo infantil",
+      "year": 2002,
+      "author": "Mariana Arzate Méndez",
+      "advisor": "Raúl Fernando Gutiérrez García · +2 más",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SJXERTQRCDIAKJCYVLXUVNRL4LG65VIDREUM7K5UUBKGEMH8FF-29003?func=service&doc_library=TES01&doc_number=000312627&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999505,
+      "titleKey": "centro de desarrollo infantil",
+      "titleFamilyKey": "centro desarrol infantil"
+    },
+    {
+      "thesisId": "TH_0491741",
+      "title": "cei : centro de desarrollo infantil",
+      "year": 2020,
+      "author": "Román Martínez Santiago",
+      "advisor": "Oscar Adrián Enríquez Delgado · +2 más",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EL1S2NAJI2NQTF1SUHFYTEDIGD4XTX2AP6UYVIELMINNBQYA69-03214?func=service&doc_library=TES01&doc_number=000877085&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.978448,
+      "titleKey": "cei centro de desarrollo infantil",
+      "titleFamilyKey": "cei centro desarrol infantil"
+    },
+    {
+      "thesisId": "TH_0053344",
+      "title": "centro de desarrollo infantil iztacalco",
+      "year": 2004,
+      "author": "Arnulfo Cisneros Martínez",
+      "advisor": "Bertha García Casillas · +2 más",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ALL78NNIBIX5X7IS4KEX64QJY4CIXT1R74F8PAQAXRMQFJ291T-63963?func=service&doc_library=TES01&doc_number=000332738&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.978002,
+      "titleKey": "centro de desarrollo infantil iztacalco",
+      "titleFamilyKey": "centro desarrol infantil iztacalc"
+    },
+    {
+      "thesisId": "TH_0587748",
+      "title": "Centro de desarrollo infantil Acatlán",
+      "year": 1989,
+      "author": "Marisela Cabrera Paredes",
+      "advisor": "Raúl Vincent Jacquet · +2 más",
+      "program": "Arquitectura",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de estudios superiores acatlan unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2017/0093743/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.97751,
+      "titleKey": "centro de desarrollo infantil acatlan",
+      "titleFamilyKey": "centro desarrol infantil acatlan"
+    }
+  ]
+}

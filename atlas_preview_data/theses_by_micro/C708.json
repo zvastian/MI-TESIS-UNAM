@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C708",
+    "clusterId": 708,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0123508",
+      "title": "determinacion experimental de coeficientes de transferencia de masa",
+      "year": 1974,
+      "author": "Jesus Armando Tapia Perez",
+      "advisor": "Antonio Valiente",
+      "program": "ingenieria quimica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/LM7H7H1IVJEJNC7BMNYGCTY1V8JI13GUTGNVTFP6N8RTMJGRX1-34284?func=service&doc_library=TES01&doc_number=000166098&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.955723,
+      "titleKey": "determinacion experimental de coeficientes de transferencia de masa",
+      "titleFamilyKey": "determina experime coeficie transfer masa"
+    },
+    {
+      "thesisId": "TH_0051264",
+      "title": "coeficientes de transferencia de masa : una revision actualizada",
+      "year": 2004,
+      "author": "Edgar Alvarez Mayen",
+      "advisor": "Fernando Orozco Ferreyra",
+      "program": "ingenieria quimica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ALL78NNIBIX5X7IS4KEX64QJY4CIXT1R74F8PAQAXRMQFJ291T-60489?func=service&doc_library=TES01&doc_number=000330505&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.933911,
+      "titleKey": "coeficientes de transferencia de masa una revision actualizada",
+      "titleFamilyKey": "coeficie transfer masa revision actualiz"
+    },
+    {
+      "thesisId": "TH_0127513",
+      "title": "determinacion de los coeficientes de transferencia de masa en destilacion",
+      "year": 1975,
+      "author": "Miguel Moises Vargas Aguilar",
+      "advisor": "Antonio Valiente",
+      "program": "ingenieria quimica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Y5RJVA1NUIE1GF8F3MG8D8UQGEKPSYITRFMTFXTBD784JQXJ7P-61384?func=service&doc_library=TES01&doc_number=000166679&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.900616,
+      "titleKey": "determinacion de los coeficientes de transferencia de masa en destilacion",
+      "titleFamilyKey": "determina coeficie transfer masa destila"
+    },
+    {
+      "thesisId": "TH_0449713",
+      "title": "análisis de intercambiadores de masa",
+      "year": 2016,
+      "author": "Victor Alfonso Gracia Medrano Bravo",
+      "advisor": "Ángel Enrique Chávez Castellanos",
+      "program": "ingenieria quimica",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ERYGNQS1UF5ALV91F8IVY5IPF6XDJDBCJ54EMDULMD5EQG8NG9-52879?func=service&doc_library=TES01&doc_number=000747608&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.867249,
+      "titleKey": "analisis de intercambiadores de masa",
+      "titleFamilyKey": "analisis intercam masa"
+    },
+    {
+      "thesisId": "TH_0054616",
+      "title": "analisis comparativo de la solucion exacta de una ecuacion de difusion transitoria y algunas aproximaciones en transferencia de masa",
+      "year": 2004,
+      "author": "Leonardo Flores Elenes",
+      "advisor": "Angel Enrique Chávez Castellanos",
+      "program": "ingenieria quimica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ALL78NNIBIX5X7IS4KEX64QJY4CIXT1R74F8PAQAXRMQFJ291T-04109?func=service&doc_library=TES01&doc_number=000338155&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.852287,
+      "titleKey": "analisis comparativo de la solucion exacta de una ecuacion de difusion transitoria y algunas aproximaciones en transferencia de masa",
+      "titleFamilyKey": "analisis comparat solu exacta ecua difusion transito algunas"
+    }
+  ]
+}

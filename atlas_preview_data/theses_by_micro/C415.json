@@ -1,0 +1,69 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C415",
+    "clusterId": 415,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 13,
+    "shown": 3,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0182422",
+      "title": "sincope",
+      "year": 1988,
+      "author": "Leticia Bahena Medina",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q6VEJ1KK6P8UTBMDE7CBYC9E8D883HDEQ8PPCFT4U619SFJQ29-14453?func=service&doc_library=TES01&doc_number=000097025&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999502,
+      "titleKey": "sincope",
+      "titleFamilyKey": "sincope"
+    },
+    {
+      "thesisId": "TH_0191701",
+      "title": "sincope",
+      "year": 1990,
+      "author": "Maria de Lourdes Chávez Martinez",
+      "advisor": "Porfirio Jiménez Vázquez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ISYYJTG35CVF9K2CIL1DAA57BB2YHLHG154VUPA69IIJGPL3TR-54813?func=service&doc_library=TES01&doc_number=000126231&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999502,
+      "titleKey": "sincope",
+      "titleFamilyKey": "sincope"
+    },
+    {
+      "thesisId": "TH_0226130",
+      "title": "sincope vasovagal",
+      "year": 1994,
+      "author": "Monica Aguilar Ordoñez",
+      "advisor": "Porfirio Jiménez Vázquez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/X3M1JK3ASDY754G7Q62EK6RENA6B5YMGXU7N85HKGD4QXKPPHL-60001?func=service&doc_library=TES01&doc_number=000204842&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.925483,
+      "titleKey": "sincope vasovagal",
+      "titleFamilyKey": "sincope vasovaga"
+    }
+  ]
+}

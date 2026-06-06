@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C585",
+    "clusterId": 585,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 7,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0070258",
+      "title": "informe general sobre la exploracion sanitaria del municipio de pijijiapan, distrito de tonala, estado de chiapas",
+      "year": 1942,
+      "author": "Alfonso V Morales y M.",
+      "advisor": "Asesor no registrado",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/LUYCBMNVVMNFGSS71TEXEXG58TVYHVARLV2DQGHEUX6MQVPD79-07582?func=service&doc_library=TES01&doc_number=000135085&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999563,
+      "titleKey": "informe general sobre la exploracion sanitaria del municipio de pijijiapan distrito de tonala estado de chiapas",
+      "titleFamilyKey": "informe general explora sanitari municipi pijijiap distrito tonala"
+    },
+    {
+      "thesisId": "TH_0071918",
+      "title": "informe general sobre la exploracion sanitaria del municipio de pijijiapan, distrito de tonala, estado de chiapas",
+      "year": 1944,
+      "author": "Luis Manero Sastre",
+      "advisor": "Asesor no registrado",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/PVA82727623BS7XTU8EX7EY7J34PJCFCK3I67J1IFNHRACB6N4-32543?func=service&doc_library=TES01&doc_number=000140042&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999563,
+      "titleKey": "informe general sobre la exploracion sanitaria del municipio de pijijiapan distrito de tonala estado de chiapas",
+      "titleFamilyKey": "informe general explora sanitari municipi pijijiap distrito tonala"
+    },
+    {
+      "thesisId": "TH_0069314",
+      "title": "informe general sobre la exploracion sanitaria del municipio de pijijiapan, distrito de tonala del estado de chiapas",
+      "year": 1941,
+      "author": "Carlos Chávez Carrion",
+      "advisor": "Asesor no registrado",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/A4AS78IBHTVNF8H92AT2MTEQPDCU8H4YRAJTQDHJNR8YL62VUI-41078?func=service&doc_library=TES01&doc_number=000142100&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998168,
+      "titleKey": "informe general sobre la exploracion sanitaria del municipio de pijijiapan distrito de tonala del estado de chiapas",
+      "titleFamilyKey": "informe general explora sanitari municipi pijijiap distrito tonala"
+    },
+    {
+      "thesisId": "TH_0069424",
+      "title": "informe general sobre la exploracion sanitaria del municipio de pijijiapan, distrito de tonala del estado de chiapas",
+      "year": 1941,
+      "author": "Rene Graziano Heche",
+      "advisor": "Asesor no registrado",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/A4AS78IBHTVNF8H92AT2MTEQPDCU8H4YRAJTQDHJNR8YL62VUI-44243?func=service&doc_library=TES01&doc_number=000142145&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998168,
+      "titleKey": "informe general sobre la exploracion sanitaria del municipio de pijijiapan distrito de tonala del estado de chiapas",
+      "titleFamilyKey": "informe general explora sanitari municipi pijijiap distrito tonala"
+    }
+  ]
+}

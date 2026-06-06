@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C769",
+    "clusterId": 769,
+    "macroId": "Area1_M00",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0186498",
+      "title": "planteamiento de desarrollo urbano y de centro de barrio cerro del judio, d.f",
+      "year": 1988,
+      "author": "José Luis Martinez Rivera",
+      "advisor": "Sylvia Decanini Terán",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q6VEJ1KK6P8UTBMDE7CBYC9E8D883HDEQ8PPCFT4U619SFJQ29-57943?func=service&doc_library=TES01&doc_number=000083502&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.916197,
+      "titleKey": "planteamiento de desarrollo urbano y de centro de barrio cerro del judio d f",
+      "titleFamilyKey": "plantea desarrol urbano centro barrio cerro judio"
+    },
+    {
+      "thesisId": "TH_0514846",
+      "title": "apropiación y disputa simbólica del espacio urbano : el barrio de loreto y la comunidad judía",
+      "year": 2022,
+      "author": "Diego Juárez Chávez",
+      "advisor": "Alejandra Leal Martínez",
+      "program": "sociologia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-60129?func=service&doc_library=TES01&doc_number=000821407&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.898541,
+      "titleKey": "apropiacion y disputa simbolica del espacio urbano el barrio de loreto y la comunidad judia",
+      "titleFamilyKey": "apropia disputa simbolic espacio urbano barrio loreto comun"
+    },
+    {
+      "thesisId": "TH_0141737",
+      "title": "unidad habitacional cerro del judio",
+      "year": 1979,
+      "author": "Guillermo Baez Sanchez",
+      "advisor": "Asesor no registrado",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GSQBMGJRFXATKKJL4EC34FSN1XUJ5UFREVJSFRMF4YMMNCN7AC-39214?func=service&doc_library=TES01&doc_number=000000021&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.893174,
+      "titleKey": "unidad habitacional cerro del judio",
+      "titleFamilyKey": "unid habitaci cerro judio"
+    },
+    {
+      "thesisId": "TH_0359024",
+      "title": "la situación de mantenimiento-desplazamiento en la comunidad de jesús maría, nayarit",
+      "year": 2019,
+      "author": "Verónica Aidee Ramos García",
+      "advisor": "Roland Terborg Schmidt",
+      "program": "ling istica aplicada",
+      "level": "Maestría",
+      "area": "Area 4",
+      "campus": "facultad de filosofia y letras unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-09334?func=service&doc_library=TES01&doc_number=000797599&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.860986,
+      "titleKey": "la situacion de mantenimiento desplazamiento en la comunidad de jesus maria nayarit",
+      "titleFamilyKey": "situa manteni desplaza comun jesus maria nayarit"
+    },
+    {
+      "thesisId": "TH_0571701",
+      "title": "Alternativas de vivienda progresiva y mejoramiento urbano en la colina El Tanque, Cerro del Judio, Delegacion Magdalena Contreras, D.F.",
+      "year": 1985,
+      "author": "Cira Yolanda Elisa Abrego Escobar",
+      "advisor": "Rafael Martinez Rosiles",
+      "program": "Arquitectura",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0036272/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.853775,
+      "titleKey": "alternativas de vivienda progresiva y mejoramiento urbano en la colina el tanque cerro del judio delegacion magdalena contreras d f",
+      "titleFamilyKey": "alternat vivienda progresi mejora urbano colina tanque cerro"
+    }
+  ]
+}

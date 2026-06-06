@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C722",
+    "clusterId": 722,
+    "macroId": "Area2_M11",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0483894",
+      "title": "estudio in vitro del efecto de lactoferrina en la producción y secreción de proteasas de mannheimia haemolytica a2",
+      "year": 2018,
+      "author": "Gerardo Alberto Ramírez Rico",
+      "advisor": "Guadalupe Mireya de la Garza Amaya · +2 más",
+      "program": "ciencias de la produccion y de la salud animal",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-45759?func=service&doc_library=TES01&doc_number=000774030&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.929313,
+      "titleKey": "estudio in vitro del efecto de lactoferrina en la produccion y secrecion de proteasas de mannheimia haemolytica a2",
+      "titleFamilyKey": "estudio vitro efecto lactofer produc secre proteasa mannheim"
+    },
+    {
+      "thesisId": "TH_0545904",
+      "title": "interacción in vitro de apo-lactoferrina bovina con una proteasa producida por mannheimia haemolytica a2",
+      "year": 2024,
+      "author": "Gerardo Alberto Ramírez Rico",
+      "advisor": "Mireya Guadalupe de la Garza Amaya · +1 más",
+      "program": "ciencias",
+      "level": "Doctorado",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-00989?func=service&doc_library=TES01&doc_number=000864702&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.920732,
+      "titleKey": "interaccion in vitro de apo lactoferrina bovina con una proteasa producida por mannheimia haemolytica a2",
+      "titleFamilyKey": "interac vitro apo lactofer bovina proteasa producid mannheim"
+    },
+    {
+      "thesisId": "TH_0412058",
+      "title": "determinación y caracterización de proteasas de secreción acarreadas en microvesículas (mvs) de mannheimia haemolytica a2",
+      "year": 2013,
+      "author": "Gerardo Alberto Ramirez Rico",
+      "advisor": "Guadalupe Mireya de la Garza Amaya · +1 más",
+      "program": "medicina veterinaria y zootecnia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/1MPA5FVFYT3S2S7U62UED1YUCADU9E92GG51BV61RFMEXG4SYH-28030?func=service&doc_library=TES01&doc_number=000704924&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.896435,
+      "titleKey": "determinacion y caracterizacion de proteasas de secrecion acarreadas en microvesiculas mvs de mannheimia haemolytica a2",
+      "titleFamilyKey": "determina caracteriza proteasa secre acarread microves mvs mannheim"
+    },
+    {
+      "thesisId": "TH_0488170",
+      "title": "efecto de apo-lactoferrina en la secreción de leucotoxina y vesículas de membrana externa de mannheimia haemolytica a2",
+      "year": 2020,
+      "author": "Christian Ávalos Gómez",
+      "advisor": "Guadalupe Mireya de la Garza Amaya",
+      "program": "ciencias de la produccion y de la salud animal",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "facultad de medicina veterinaria y zootecnia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EL1S2NAJI2NQTF1SUHFYTEDIGD4XTX2AP6UYVIELMINNBQYA69-44557?func=service&doc_library=TES01&doc_number=000802729&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.85247,
+      "titleKey": "efecto de apo lactoferrina en la secrecion de leucotoxina y vesiculas de membrana externa de mannheimia haemolytica a2",
+      "titleFamilyKey": "efecto apo lactofer secre leucotox vesicula membrana externa"
+    },
+    {
+      "thesisId": "TH_0532974",
+      "title": "aislamiento y caracterización de una fracción enriquecida que contiene una proteasa secretada por mannheimia haemolytica",
+      "year": 2023,
+      "author": "Verónica Rosales Islas",
+      "advisor": "Erasmo Negrete Abascal",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GKG46Q5J6TJGRXX619352L8C41K61PI2S7IT64P9RPLJM15UUN-28947?func=service&doc_library=TES01&doc_number=000840659&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.822308,
+      "titleKey": "aislamiento y caracterizacion de una fraccion enriquecida que contiene una proteasa secretada por mannheimia haemolytica",
+      "titleFamilyKey": "aisla caracteriza frac enriquec que contiene proteasa secretad"
+    }
+  ]
+}

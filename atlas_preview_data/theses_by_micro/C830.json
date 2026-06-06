@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C830",
+    "clusterId": 830,
+    "macroId": "Area2_M08",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0308893",
+      "title": "modificacion y validacion de la escala de nosep-1 para el diagnostico de sepsis tardia en recien nacidos prematuros menores de 1500g",
+      "year": 2007,
+      "author": "Martha Elena Almaguer Hernandez",
+      "advisor": "Jesus Reyna Figueroa",
+      "program": "infectologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/MTTGSJYP8VJ1TXME4GIPTHQC6T39PYYV7P8JXE4HRSYGRUJL2E-51193?func=service&doc_library=TES01&doc_number=000621820&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.929604,
+      "titleKey": "modificacion y validacion de la escala de nosep 1 para el diagnostico de sepsis tardia en recien nacidos prematuros menores de 1500g",
+      "titleFamilyKey": "modifica valida escala nosep diagnost sepsis tardia recien"
+    },
+    {
+      "thesisId": "TH_0052369",
+      "title": "evaluacion de la escala neosep-1 para deteccion temprana de sepsis nosocomial en neonatos menores de 1500 gramos al nacimiento",
+      "year": 2004,
+      "author": "Rafael Alberto Briseño Vazquez",
+      "advisor": "Javier Barroso Aguirre",
+      "program": "neonatologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ALL78NNIBIX5X7IS4KEX64QJY4CIXT1R74F8PAQAXRMQFJ291T-61718?func=service&doc_library=TES01&doc_number=000336230&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.904176,
+      "titleKey": "evaluacion de la escala neosep 1 para deteccion temprana de sepsis nosocomial en neonatos menores de 1500 gramos al nacimiento",
+      "titleFamilyKey": "evalua escala neosep detec temprana sepsis nosocomi neonatos"
+    },
+    {
+      "thesisId": "TH_0297068",
+      "title": "validacion de escala diagnostica por consenso para el diagnostico de sepsis nosocomial en recien nacido de bajo peso",
+      "year": 2006,
+      "author": "Luzmery Isabel Brito Quevedo",
+      "advisor": "Gabino Yescas Buendia",
+      "program": "neonatologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-06807?func=service&doc_library=TES01&doc_number=000612089&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.8851,
+      "titleKey": "validacion de escala diagnostica por consenso para el diagnostico de sepsis nosocomial en recien nacido de bajo peso",
+      "titleFamilyKey": "valida escala diagnost consenso diagnost sepsis nosocomi recien"
+    },
+    {
+      "thesisId": "TH_0296697",
+      "title": "utilidad y aplicacion de la escala nosep-1 para determinar el riesgo de sepsis neonatal intrahospitalaria",
+      "year": 2006,
+      "author": "Pedro Ivan Barrera Martinez",
+      "advisor": "Jorge Alberto del Castillo Medina · +1 más",
+      "program": "pediatria",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-05731?func=service&doc_library=TES01&doc_number=000611856&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.881736,
+      "titleKey": "utilidad y aplicacion de la escala nosep 1 para determinar el riesgo de sepsis neonatal intrahospitalaria",
+      "titleFamilyKey": "util aplica escala nosep determin riesgo sepsis neonatal"
+    },
+    {
+      "thesisId": "TH_0585359",
+      "title": "Diagnostico temprano de septicemia por indices de laboratorio en el primer ano de vida",
+      "year": 1987,
+      "author": "Margarito Francisco Gutiérrez Guzmán",
+      "advisor": "David Jimenez Rojas",
+      "program": "Medicina (Pediatría Médica)",
+      "level": "especialidad",
+      "area": "Ciencias Biológicas, Químicas y de la Salud",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0057345/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.850298,
+      "titleKey": "diagnostico temprano de septicemia por indices de laboratorio en el primer ano de vida",
+      "titleFamilyKey": "diagnost temprano septicem indices laborato primer ano vida"
+    }
+  ]
+}

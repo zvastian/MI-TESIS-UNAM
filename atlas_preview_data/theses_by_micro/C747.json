@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C747",
+    "clusterId": 747,
+    "macroId": "Area1_M03",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0251390",
+      "title": "analisis de frecuencias regional de sequias",
+      "year": 1997,
+      "author": "Jorge Omar Hernandez Reyes",
+      "advisor": "Carlos A Escalante Sandoval",
+      "program": "hidraulica",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5HC68QGQSQF1BUP7Q2GPMVS2K4G7KUMY4B9TI73VCL1CACFSY2-36704?func=service&doc_library=TES01&doc_number=000256061&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.923806,
+      "titleKey": "analisis de frecuencias regional de sequias",
+      "titleFamilyKey": "analisis frecuenc regional sequias"
+    },
+    {
+      "thesisId": "TH_0261702",
+      "title": "analisis de frecuencias de sequias para el estado de sinaloa",
+      "year": 1998,
+      "author": "Fernando García Paez",
+      "advisor": "Carlos A Escalante Sandoval",
+      "program": "hidraulica",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/113XIUYQSYRNCI7B598YGB2KYKLCDBJS4AJRYNSUVB4AH9PMK9-29733?func=service&doc_library=TES01&doc_number=000268104&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.844858,
+      "titleKey": "analisis de frecuencias de sequias para el estado de sinaloa",
+      "titleFamilyKey": "analisis frecuenc sequias estado sinaloa"
+    },
+    {
+      "thesisId": "TH_0019934",
+      "title": "analisis regional de sequias",
+      "year": 2001,
+      "author": "Lilia Reyes Chávez",
+      "advisor": "Carlos A Escalante Sandoval",
+      "program": "ingenieria",
+      "level": "Doctorado",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-18744?func=service&doc_library=TES01&doc_number=000294408&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.834573,
+      "titleKey": "analisis regional de sequias",
+      "titleFamilyKey": "analisis regional sequias"
+    },
+    {
+      "thesisId": "TH_0583741",
+      "title": "Analisis univariado DF. frecuencia de sequias",
+      "year": 1987,
+      "author": "José Carlos Douriel Cárdenas",
+      "advisor": "José A Raynal Villasenor",
+      "program": "Ingeniería (Hidráulica)",
+      "level": "maestria",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0054071/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.825657,
+      "titleKey": "analisis univariado df frecuencia de sequias",
+      "titleFamilyKey": "analisis univaria frecuenc sequias"
+    },
+    {
+      "thesisId": "TH_0059562",
+      "title": "caracterizacion municipal de sequias",
+      "year": 2004,
+      "author": "Said L Navarrete Ávila",
+      "advisor": "Óscar Arturo Fuentes Mariles",
+      "program": "hidraulica",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3E7UE53KY9K8CDJ7JAAR5NSNXB8SN8HE4PRT3Y5ATG6UJPLG4I-02000?func=service&doc_library=TES01&doc_number=000337717&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.758664,
+      "titleKey": "caracterizacion municipal de sequias",
+      "titleFamilyKey": "caracteriza municipa sequias"
+    }
+  ]
+}

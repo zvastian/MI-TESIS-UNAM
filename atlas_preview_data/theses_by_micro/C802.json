@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C802",
+    "clusterId": 802,
+    "macroId": "Area3_M01",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0570204",
+      "title": "El fraude a la ley en el derecho internacional privado",
+      "year": 1985,
+      "author": "Arturo Escutia Salazar",
+      "advisor": "Carlos Arellano García",
+      "program": "Derecho",
+      "level": "licenciatura",
+      "area": "Ciencias Sociales",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0032420/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.99738,
+      "titleKey": "el fraude a la ley en el derecho internacional privado",
+      "titleFamilyKey": "fraude ley derecho internac privado"
+    },
+    {
+      "thesisId": "TH_0095946",
+      "title": "fraude a la ley en el derecho internacional privado",
+      "year": 1966,
+      "author": "Alfonso G Ortega García",
+      "advisor": "Asesor no registrado",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/MHD9UK277SKRM613UBGA44LN2HUB3ISDVH8NUV191JU87MQTP9-14700?func=service&doc_library=TES01&doc_number=000098779&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.995326,
+      "titleKey": "fraude a la ley en el derecho internacional privado",
+      "titleFamilyKey": "fraude ley derecho internac privado"
+    },
+    {
+      "thesisId": "TH_0103560",
+      "title": "fraude a la ley dentro del derecho internacional privado",
+      "year": 1969,
+      "author": "Waldo Rodriguez Valenzuela",
+      "advisor": "Miguel Acosta Romero · +1 más",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/KKBIRVFGMDMHXA7IRTPKHFQG1DGYEY8KHKI2SL82T4QCGV43SY-48873?func=service&doc_library=TES01&doc_number=000102495&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.994501,
+      "titleKey": "fraude a la ley dentro del derecho internacional privado",
+      "titleFamilyKey": "fraude ley dentro derecho internac privado"
+    },
+    {
+      "thesisId": "TH_0127647",
+      "title": "problematica del fraude a la ley y su repercusion en derecho internacional privado",
+      "year": 1975,
+      "author": "Lauro Vite Arenas",
+      "advisor": "Asesor no registrado",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Y5RJVA1NUIE1GF8F3MG8D8UQGEKPSYITRFMTFXTBD784JQXJ7P-27557?func=service&doc_library=TES01&doc_number=000110777&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.982919,
+      "titleKey": "problematica del fraude a la ley y su repercusion en derecho internacional privado",
+      "titleFamilyKey": "problema fraude ley repercus derecho internac privado"
+    },
+    {
+      "thesisId": "TH_0589294",
+      "title": "El orden publico y el fraude a la Ley en el Derecho internacional privado",
+      "year": 1989,
+      "author": "Jorge Jafet Sanchez Servin",
+      "advisor": "Antonio Reyes Cortés",
+      "program": "Derecho",
+      "level": "licenciatura",
+      "area": "Ciencias Sociales",
+      "campus": "no especificado unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2020/0097346/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.974224,
+      "titleKey": "el orden publico y el fraude a la ley en el derecho internacional privado",
+      "titleFamilyKey": "orden publico fraude ley derecho internac privado"
+    }
+  ]
+}

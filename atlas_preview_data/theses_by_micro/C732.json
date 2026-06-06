@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C732",
+    "clusterId": 732,
+    "macroId": "Area2_M05",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0039851",
+      "title": "uso de bleomicina local mediante reservorio de ommaya en craneofaringiomas quisticos",
+      "year": 2003,
+      "author": "José Antonio Chávez López",
+      "advisor": "Antonio Zarate Mendez",
+      "program": "neurocirugia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3JKIMGNSB3DIKCR7AH42EK2S94JT2MTEEC3F6KUND2NL471CXT-07686?func=service&doc_library=TES01&doc_number=000323583&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.966146,
+      "titleKey": "uso de bleomicina local mediante reservorio de ommaya en craneofaringiomas quisticos",
+      "titleFamilyKey": "uso bleomici local mediante reservor ommaya craneofa quistico"
+    },
+    {
+      "thesisId": "TH_0288348",
+      "title": "uso de bleomicina local mediante reservorio de ommaya en craneofaringeomas quisticos",
+      "year": 2005,
+      "author": "Alfredo López Parra",
+      "advisor": "Manuel Hernandez Salazar",
+      "program": "neurocirugia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/HLGB7H733DCK7GXMUM33I1P22VQ6JQ7ASCK9EJBV96IAV9UR9H-53896?func=service&doc_library=TES01&doc_number=000347930&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.958348,
+      "titleKey": "uso de bleomicina local mediante reservorio de ommaya en craneofaringeomas quisticos",
+      "titleFamilyKey": "uso bleomici local mediante reservor ommaya craneofa quistico"
+    },
+    {
+      "thesisId": "TH_0028744",
+      "title": "uso de bleomicina con reservorio local en craneofaringiomas quisticos",
+      "year": 2002,
+      "author": "José Manuel Hernandez Arguelles",
+      "advisor": "Antonio Zarate Mendez",
+      "program": "neurocirugia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/PC3XPQPP9ANQHI8IPKIP4UACNXSI64EACCXLPCK24HYKIKSMNT-05118?func=service&doc_library=TES01&doc_number=000310534&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.946218,
+      "titleKey": "uso de bleomicina con reservorio local en craneofaringiomas quisticos",
+      "titleFamilyKey": "uso bleomici reservor local craneofa quistico"
+    },
+    {
+      "thesisId": "TH_0448772",
+      "title": "bleomicina intratumoral mediante reservorio ommaya en el tratamiento de craniofaringiomas : estudio retrospectivo y comparativo de la experiencia en el cmn 20 de noviembre",
+      "year": 2016,
+      "author": "Rosalina García Cisneros",
+      "advisor": "Carmen Morel Trejo",
+      "program": "neurocirugia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ERYGNQS1UF5ALV91F8IVY5IPF6XDJDBCJ54EMDULMD5EQG8NG9-31385?func=service&doc_library=TES01&doc_number=000747876&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.887688,
+      "titleKey": "bleomicina intratumoral mediante reservorio ommaya en el tratamiento de craniofaringiomas estudio retrospectivo y comparativo de la experiencia en el cmn 20 de noviembre",
+      "titleFamilyKey": "bleomici intratum mediante reservor ommaya trata craniofa estudio"
+    },
+    {
+      "thesisId": "TH_0307293",
+      "title": "tratamiento con bleomicina por medio de reservorio de ommaya en craneofaringioma quisticos de pacientes pediatricos : experiencia del instituto nacional de pediatria",
+      "year": 2006,
+      "author": "Javier Terrazo y Lluch",
+      "advisor": "Fernando Rueda Franco · +1 más",
+      "program": "neurocirugia pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-63143?func=service&doc_library=TES01&doc_number=000612546&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.837749,
+      "titleKey": "tratamiento con bleomicina por medio de reservorio de ommaya en craneofaringioma quisticos de pacientes pediatricos experiencia del instituto nacional de pediatria",
+      "titleFamilyKey": "trata bleomici medio reservor ommaya craneofa quistico paciente"
+    }
+  ]
+}

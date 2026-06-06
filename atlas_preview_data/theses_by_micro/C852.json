@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C852",
+    "clusterId": 852,
+    "macroId": "Area2_M01",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0223517",
+      "title": "estudio de dermatoglifos en pacientes esquizofrenicos",
+      "year": 1993,
+      "author": "Alberto José Puig Valades",
+      "advisor": "José Humberto Nicolini Sanchez",
+      "program": "psiquiatria",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/6AC3Y7TDGV8GKD4MEGMCEHG4MN94IBM4VL3Q23N87DADM4S3AG-66290?func=service&doc_library=TES01&doc_number=000196271&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.985368,
+      "titleKey": "estudio de dermatoglifos en pacientes esquizofrenicos",
+      "titleFamilyKey": "estudio dermatog paciente esquizof"
+    },
+    {
+      "thesisId": "TH_0103093",
+      "title": "estudio de los dermatoglifos en la esquizofrenia",
+      "year": 1969,
+      "author": "Carlota Núñez Román",
+      "advisor": "Rubén Lisker · +1 más",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "universidad motolinia",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/KKBIRVFGMDMHXA7IRTPKHFQG1DGYEY8KHKI2SL82T4QCGV43SY-37583?func=service&doc_library=TES01&doc_number=000855224&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.973236,
+      "titleKey": "estudio de los dermatoglifos en la esquizofrenia",
+      "titleFamilyKey": "estudio dermatog esquizof"
+    },
+    {
+      "thesisId": "TH_0439272",
+      "title": "características dermatoglíficas en pacientes con esquizofrenia",
+      "year": 2015,
+      "author": "David Ocampo Fonseca",
+      "advisor": "Lina Diaz Castro · +1 más",
+      "program": "psiquiatria",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-44587?func=service&doc_library=TES01&doc_number=000732408&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.956146,
+      "titleKey": "caracteristicas dermatoglificas en pacientes con esquizofrenia",
+      "titleFamilyKey": "caracter dermatog paciente esquizof"
+    },
+    {
+      "thesisId": "TH_0572257",
+      "title": "Analisis de los patrones dermatogificos palmares en un grupo de pacientes esquizofrenicos",
+      "year": 1985,
+      "author": "Maria de la Paz Salgado Arteaga",
+      "advisor": "Asesor no registrado",
+      "program": "Biología",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0014463/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.947405,
+      "titleKey": "analisis de los patrones dermatogificos palmares en un grupo de pacientes esquizofrenicos",
+      "titleFamilyKey": "analisis patrones dermatog palmares grupo paciente esquizof"
+    },
+    {
+      "thesisId": "TH_0267522",
+      "title": "dermatoglifos y esquizofrenia : un nuevo enfoque para dermatologos",
+      "year": 1998,
+      "author": "Maria Gabriela Rodriguez Ramos",
+      "advisor": "Luis Fernando Iglesias",
+      "program": "dermatologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JHUNFG7DY9VPL7G2NB43PDD2RP9YD8FJ6M43VRGBAPHYRU6FB7-16325?func=service&doc_library=TES01&doc_number=000279439&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.93604,
+      "titleKey": "dermatoglifos y esquizofrenia un nuevo enfoque para dermatologos",
+      "titleFamilyKey": "dermatog esquizof nuevo enfoque dermatol"
+    }
+  ]
+}

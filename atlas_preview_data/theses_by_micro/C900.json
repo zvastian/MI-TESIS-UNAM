@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C900",
+    "clusterId": 900,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0226266",
+      "title": "neumonia por aspiracion",
+      "year": 1994,
+      "author": "Maria del Rosario Aleman Valdes",
+      "advisor": "Enrique Elguero Pineda",
+      "program": "medicina interna",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/X3M1JK3ASDY754G7Q62EK6RENA6B5YMGXU7N85HKGD4QXKPPHL-11166?func=service&doc_library=TES01&doc_number=000212820&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.953288,
+      "titleKey": "neumonia por aspiracion",
+      "titleFamilyKey": "neumonia aspira"
+    },
+    {
+      "thesisId": "TH_0593284",
+      "title": "Principales causas de neumonia por aspiracion : reporte de su casos y revision de la literatura",
+      "year": 1989,
+      "author": "José Antonio Mireles Serrano",
+      "advisor": "Oswaldo Arana Muñoz",
+      "program": "Medicina (Pediatría Médica)",
+      "level": "especialidad",
+      "area": "Ciencias Biológicas, Químicas y de la Salud",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2017/0089672/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.88497,
+      "titleKey": "principales causas de neumonia por aspiracion reporte de su casos y revision de la literatura",
+      "titleFamilyKey": "principa causas neumonia aspira reporte casos revision literatu"
+    },
+    {
+      "thesisId": "TH_0196917",
+      "title": "utilidad del aspirado transtraqueal en neumonias",
+      "year": 1990,
+      "author": "Arturo José Rizo López",
+      "advisor": "Julian Medina Martinez",
+      "program": "medicina interna",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ISYYJTG35CVF9K2CIL1DAA57BB2YHLHG154VUPA69IIJGPL3TR-05652?func=service&doc_library=TES01&doc_number=000120281&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.872346,
+      "titleKey": "utilidad del aspirado transtraqueal en neumonias",
+      "titleFamilyKey": "util aspirado transtra neumonia"
+    },
+    {
+      "thesisId": "TH_0131062",
+      "title": "aspiracion gastrica en recien nacidos con neumonia con determinacion de polimorfonucleares",
+      "year": 1976,
+      "author": "Ma. Yolanda Naranjo López",
+      "advisor": "C.] Martinez Vilchis",
+      "program": "pediatria medica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3A7UEJ312MD2NRHJ7PU1J4CVPPBCK9Q9D1FQSIQT6V3MFM52EI-06352?func=service&doc_library=TES01&doc_number=000151517&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.867127,
+      "titleKey": "aspiracion gastrica en recien nacidos con neumonia con determinacion de polimorfonucleares",
+      "titleFamilyKey": "aspira gastrica recien nacidos neumonia determina polimorf"
+    },
+    {
+      "thesisId": "TH_0060973",
+      "title": "breve estudio sobre la toracentesis por aspiracion",
+      "year": 1884,
+      "author": "Enrique Herrera",
+      "advisor": "Asesor no registrado",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/TU2VBLGF2LH8IN1V1MAN27DMPQXRGNF9R5I1PAQHQ8HGM4I9F1-28564?func=service&doc_library=TES01&doc_number=000159934&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.802655,
+      "titleKey": "breve estudio sobre la toracentesis por aspiracion",
+      "titleFamilyKey": "breve estudio toracent aspira"
+    }
+  ]
+}

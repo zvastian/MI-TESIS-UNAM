@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C801",
+    "clusterId": 801,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0566399",
+      "title": "Accidentes y complicaciones de la extraccion dentaria y sus tratamientos",
+      "year": 1980,
+      "author": "Agustin Villanueva Gudino",
+      "advisor": "Rafael Ruiz",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0017018/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.995166,
+      "titleKey": "accidentes y complicaciones de la extraccion dentaria y sus tratamientos",
+      "titleFamilyKey": "accident complicaci extrac dentaria tratamie"
+    },
+    {
+      "thesisId": "TH_0064327",
+      "title": "accidentes y complicaciones de la extraccion dentaria y su tratamiento",
+      "year": 1932,
+      "author": "Enrique Gomez Cárdenas",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3M6UHFMPBVKI2EGIG4EX8BDLK6QYUMJD5N9USUFTQ9ISG4S1LP-39075?func=service&doc_library=TES01&doc_number=000133263&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.995159,
+      "titleKey": "accidentes y complicaciones de la extraccion dentaria y su tratamiento",
+      "titleFamilyKey": "accident complicaci extrac dentaria trata"
+    },
+    {
+      "thesisId": "TH_0115229",
+      "title": "accidentes y complicaciones en la extraccion dentaria, su prevencion y tratamiento",
+      "year": 1972,
+      "author": "Miguel Angel Ponce Alarcon",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N7JREXUPMHAHEDYLB8J8LGQHU5NDLM74T7NPAQDSBXEQB28VXN-26903?func=service&doc_library=TES01&doc_number=000145079&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.99379,
+      "titleKey": "accidentes y complicaciones en la extraccion dentaria su prevencion y tratamiento",
+      "titleFamilyKey": "accident complicaci extrac dentaria preven trata"
+    },
+    {
+      "thesisId": "TH_0153583",
+      "title": "tratamiento en accidentes y complicaciones en la extraccion dentaria",
+      "year": 1982,
+      "author": "Maria del Carmen Carranza Aguirre",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-44786?func=service&doc_library=TES01&doc_number=000032015&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.986576,
+      "titleKey": "tratamiento en accidentes y complicaciones en la extraccion dentaria",
+      "titleFamilyKey": "trata accident complicaci extrac dentaria"
+    },
+    {
+      "thesisId": "TH_0174023",
+      "title": "accidentes y complicaciones de la extraccion dental, prevencion y tratamiento",
+      "year": 1986,
+      "author": "Jorge Humberto Bringas Ortiz",
+      "advisor": "Hilse Alcocer Tapia",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/63VM6398TRRQHVHTCQXLDLF9DI6B5SCXM2TG5K52SAL4JLYNXF-09806?func=service&doc_library=TES01&doc_number=000022083&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.980752,
+      "titleKey": "accidentes y complicaciones de la extraccion dental prevencion y tratamiento",
+      "titleFamilyKey": "accident complicaci extrac dental preven trata"
+    }
+  ]
+}

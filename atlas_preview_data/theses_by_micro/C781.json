@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C781",
+    "clusterId": 781,
+    "macroId": "Area2_M01",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0590390",
+      "title": "Existencia y distribucion anatomica de peptidos opioides en la hipofisis del axolotl Ambystoma mexicanum",
+      "year": 1989,
+      "author": "Martha Maria de la Salud Leon Olea",
+      "advisor": "Maria del Carmen Aguilar",
+      "program": "Ciencias Biomédicas",
+      "level": "maestria",
+      "area": "Ciencias Biológicas, Químicas y de la Salud",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0111834/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.967039,
+      "titleKey": "existencia y distribucion anatomica de peptidos opioides en la hipofisis del axolotl ambystoma mexicanum",
+      "titleFamilyKey": "existenc distribu anatomic peptidos opioides hipofisi axolotl ambystom"
+    },
+    {
+      "thesisId": "TH_0256225",
+      "title": "ontogenia de los peptidos opioides en el sistema nervioso central del axolotl, ambystoma mexicanum",
+      "year": 1997,
+      "author": "Eduardo Sanchez Islas",
+      "advisor": "Martha Maria de la Salud Leon Olea",
+      "program": "ciencias fisiologicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "colegio de ciencias y humanidades unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5HC68QGQSQF1BUP7Q2GPMVS2K4G7KUMY4B9TI73VCL1CACFSY2-21841?func=service&doc_library=TES01&doc_number=000252571&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.965881,
+      "titleKey": "ontogenia de los peptidos opioides en el sistema nervioso central del axolotl ambystoma mexicanum",
+      "titleFamilyKey": "ontogeni peptidos opioides sistema nervioso central axolotl ambystom"
+    },
+    {
+      "thesisId": "TH_0241060",
+      "title": "estudio ontogenetico de los peptidos opioides en la hipofisis del axolotl ambystoma mexicanum",
+      "year": 1996,
+      "author": "Martha Maria de la Salud Leon Olea",
+      "advisor": "Francisco Javier Pellicer Graham",
+      "program": "ciencias biomedicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JTHMY5FFEU5IYNEFR2RXL661C4A6EDFVXF58QK9YPJJ6DY8G9K-57136?func=service&doc_library=TES01&doc_number=000235364&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.953992,
+      "titleKey": "estudio ontogenetico de los peptidos opioides en la hipofisis del axolotl ambystoma mexicanum",
+      "titleFamilyKey": "estudio ontogene peptidos opioides hipofisi axolotl ambystom mexicanu"
+    },
+    {
+      "thesisId": "TH_0224681",
+      "title": "estudio inmunohistoquimico de la distribucion anatomica de los peptidos opioides en el cerebro del axolotl ambystoma mexicanum",
+      "year": 1993,
+      "author": "Eduardo Sanchez Islas",
+      "advisor": "Martha Maria de la Salud Leon Olea · +1 más",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/6AC3Y7TDGV8GKD4MEGMCEHG4MN94IBM4VL3Q23N87DADM4S3AG-01117?func=service&doc_library=TES01&doc_number=000197598&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.951084,
+      "titleKey": "estudio inmunohistoquimico de la distribucion anatomica de los peptidos opioides en el cerebro del axolotl ambystoma mexicanum",
+      "titleFamilyKey": "estudio inmunohi distribu anatomic peptidos opioides cerebro axolotl"
+    },
+    {
+      "thesisId": "TH_0279062",
+      "title": "distribucion anatomica de la sintasa del oxido nitrico durante el desarrollo del sistema nervioso central del axolotl, ambystoma mexicanum y el efecto de los inhibidores de la sintasa sobre este proceso",
+      "year": 2004,
+      "author": "Eduardo Sanchez Islas",
+      "advisor": "Martha Maria de la Salud Leon Olea",
+      "program": "ciencias biomedicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DK5MPSEGQAIB8JF2LMNN74MUHTVBP3I65HX15FT5KTMGJQN9LI-60831?func=service&doc_library=TES01&doc_number=000336845&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.828901,
+      "titleKey": "distribucion anatomica de la sintasa del oxido nitrico durante el desarrollo del sistema nervioso central del axolotl ambystoma mexicanum y el efecto de los inhibidores de la sintasa sobre este proceso",
+      "titleFamilyKey": "distribu anatomic sintasa oxido nitrico desarrol sistema nervioso"
+    }
+  ]
+}

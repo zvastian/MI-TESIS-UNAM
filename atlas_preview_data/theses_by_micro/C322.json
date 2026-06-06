@@ -1,0 +1,53 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C322",
+    "clusterId": 322,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 18,
+    "shown": 2,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0570066",
+      "title": "Accidentes y complicaciones en exodoncia",
+      "year": 1985,
+      "author": "Marybel Olivares Iglesias",
+      "advisor": "Luis Humberto Rios Garcia",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0035703/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 1.0,
+      "titleKey": "accidentes y complicaciones en exodoncia",
+      "titleFamilyKey": "accident complicaci exodonci"
+    },
+    {
+      "thesisId": "TH_0020269",
+      "title": "accidentes y complicaciones en exodoncia",
+      "year": 2001,
+      "author": "Adriana Rodriguez del Pozo",
+      "advisor": "José Luis Antonio Cortés Basurto",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "universidad latinoamericana",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-58266?func=service&doc_library=TES01&doc_number=000295021&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "accidentes y complicaciones en exodoncia",
+      "titleFamilyKey": "accident complicaci exodonci"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C818",
+    "clusterId": 818,
+    "macroId": "Area1_M07",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0189888",
+      "title": "desarrollo de un interprete de prolog",
+      "year": 1988,
+      "author": "Maria del Socorro Vargas Vera",
+      "advisor": "Guillermo Levine Gutiérrez",
+      "program": "ciencias de la computacion",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "colegio de ciencias y humanidades unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q6VEJ1KK6P8UTBMDE7CBYC9E8D883HDEQ8PPCFT4U619SFJQ29-34289?func=service&doc_library=TES01&doc_number=000064308&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.916364,
+      "titleKey": "desarrollo de un interprete de prolog",
+      "titleFamilyKey": "desarrol interpre prolog"
+    },
+    {
+      "thesisId": "TH_0201750",
+      "title": "prolog como lenguaje en el desarrollo de un sistema experto en dinamica y control de procesos quimicos",
+      "year": 1991,
+      "author": "Angel Gomez Gonzalez",
+      "advisor": "Eduardo Vazquez Zamora",
+      "program": "ingenieria quimica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/VTV2KRTAU4R1XM34YSA37TU4PD7YJ1E7JT2328XC9E6PASQNMU-14679?func=service&doc_library=TES01&doc_number=000169039&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.912926,
+      "titleKey": "prolog como lenguaje en el desarrollo de un sistema experto en dinamica y control de procesos quimicos",
+      "titleFamilyKey": "prolog como lenguaje desarrol sistema experto dinamica control"
+    },
+    {
+      "thesisId": "TH_0580283",
+      "title": "Desarrollo de un sistema para la comprension de lenguaje natural, utilizando Prolog como lenguaje de soporte",
+      "year": 1987,
+      "author": "Alfonso San Miguel Aguirre",
+      "advisor": "Miguel Tomasena Fagoaga",
+      "program": "Ciencias de la Computación",
+      "level": "maestria",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "colegio de ciencias y humanidades unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0054315/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.871893,
+      "titleKey": "desarrollo de un sistema para la comprension de lenguaje natural utilizando prolog como lenguaje de soporte",
+      "titleFamilyKey": "desarrol sistema comprens lenguaje natural utilizan prolog como"
+    },
+    {
+      "thesisId": "TH_0206791",
+      "title": "un manejador de base de datos relacional implementado en prolog",
+      "year": 1991,
+      "author": "Adalberto Velazquez Mendez",
+      "advisor": "María Guadalupe Elena Ibarguengoitia González",
+      "program": "matematicas",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/IUG75YBFLJEUARPS5G7VRKJE7136GB5LX6AIHXD78N89D3KLAX-16955?func=service&doc_library=TES01&doc_number=000161475&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.867729,
+      "titleKey": "un manejador de base de datos relacional implementado en prolog",
+      "titleFamilyKey": "manejado base datos relacion implemen prolog"
+    },
+    {
+      "thesisId": "TH_0512256",
+      "title": "interfaz inteligente para el control de un sistema domótico gestionado por prolog",
+      "year": 2022,
+      "author": "Víctor Adrián Espinosa de los Monteros Parra",
+      "advisor": "David Tinoco Varela",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-60043?func=service&doc_library=TES01&doc_number=000822999&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.864748,
+      "titleKey": "interfaz inteligente para el control de un sistema domotico gestionado por prolog",
+      "titleFamilyKey": "interfaz intelige control sistema domotico gestiona prolog"
+    }
+  ]
+}

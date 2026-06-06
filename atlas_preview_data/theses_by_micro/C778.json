@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C778",
+    "clusterId": 778,
+    "macroId": "Area3_M00",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0214258",
+      "title": "algunos aspectos sobre los incidentes",
+      "year": 1992,
+      "author": "Alejandra Leonor Riego Delgadillo",
+      "advisor": "Gonzalo Vilchis Prieto",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "universidad la salle",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/TAKQ7GCFSBVPTGBGEDN5JBT5SK1MYHJJ8Y977BA49A22GDIK2C-60448?func=service&doc_library=TES01&doc_number=000186842&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.93836,
+      "titleKey": "algunos aspectos sobre los incidentes",
+      "titleFamilyKey": "algunos aspectos incident"
+    },
+    {
+      "thesisId": "TH_0093144",
+      "title": "relato de un incidente",
+      "year": 1965,
+      "author": "José María Luján",
+      "advisor": "Asesor no registrado",
+      "program": "historia de mexico",
+      "level": "Maestría",
+      "area": "Area 4",
+      "campus": "facultad de filosofia y letras unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G1ALS6FDX6EVU7NHV1LG9JS2XLY23PCP3HPD6C46BRK45B8R4T-32371?func=service&doc_library=TES01&doc_number=000116488&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.898203,
+      "titleKey": "relato de un incidente",
+      "titleFamilyKey": "relato incident"
+    },
+    {
+      "thesisId": "TH_0584791",
+      "title": "\"Cirugia incidental\"",
+      "year": 1987,
+      "author": "Eduardo Becerril Flores",
+      "advisor": "Felipe Huerta López",
+      "program": "Medicina (Cirugía General)",
+      "level": "especialidad",
+      "area": "Ciencias Biológicas, Químicas y de la Salud",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0071549/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.849831,
+      "titleKey": "cirugia incidental",
+      "titleFamilyKey": "cirugia incident"
+    },
+    {
+      "thesisId": "TH_0342900",
+      "title": "la diferencia entre las tercerías y los incidentes",
+      "year": 2009,
+      "author": "David Enrique Melesio García",
+      "advisor": "Francisco Gutiérrez Negrete",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "universidad lasallista benavente",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-11899?func=service&doc_library=TES01&doc_number=000642492&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.844525,
+      "titleKey": "la diferencia entre las tercerias y los incidentes",
+      "titleFamilyKey": "diferenc terceria incident"
+    },
+    {
+      "thesisId": "TH_0165382",
+      "title": "la auditoria de los eventos subsecuentes",
+      "year": 1983,
+      "author": "Raul Zarate Enciso",
+      "advisor": "Jaime E Espinosa de los Monteros Cadena",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/KPK4S9PPDPXJQ6F1FY5NMQ8P8QHGLFYTT37RP4KU7BRPA2VM4B-19595?func=service&doc_library=TES01&doc_number=000009211&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.825318,
+      "titleKey": "la auditoria de los eventos subsecuentes",
+      "titleFamilyKey": "auditori eventos subsecue"
+    }
+  ]
+}

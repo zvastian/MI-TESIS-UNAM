@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C775",
+    "clusterId": 775,
+    "macroId": "Area1_M00",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0463859",
+      "title": "estudios de impacto vial para la exención del programa de transporte escolar obligatorio en las escuelas privadas de la ciudad de méxico",
+      "year": 2017,
+      "author": "Miguel Ángel González López",
+      "advisor": "Enrique Soto Álva",
+      "program": "urbanismo",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-66354?func=service&doc_library=TES01&doc_number=000758200&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.944242,
+      "titleKey": "estudios de impacto vial para la exencion del programa de transporte escolar obligatorio en las escuelas privadas de la ciudad de mexico",
+      "titleFamilyKey": "estudios impacto vial exen programa transpor escolar obligato"
+    },
+    {
+      "thesisId": "TH_0330791",
+      "title": "programa autobuses aula, instaurado como alternativa parcial ante la insuficiente infraestructura educativa en méxico 2001-2006",
+      "year": 2008,
+      "author": "Amalia Margarita Navarrete Espinosa",
+      "advisor": "Claudia Fernández Romero",
+      "program": "comunicacion y periodismo",
+      "level": "Licenciatura",
+      "area": "Area 4",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-15346?func=service&doc_library=TES01&doc_number=000647265&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.913749,
+      "titleKey": "programa autobuses aula instaurado como alternativa parcial ante la insuficiente infraestructura educativa en mexico 2001 2006",
+      "titleFamilyKey": "programa autobuse aula instaura como alternat parcial insufici"
+    },
+    {
+      "thesisId": "TH_0014412",
+      "title": "administracion publica y politica social en mexico, estudio de caso : programa de transporte escolar gratuito para el traslado de alumnos de escuelas publicas de nivel basico de la delegacion gustavo a. madero a los diversos centros culturales y recreativos del distrito federal (2000-2001)",
+      "year": 2001,
+      "author": "Enrique García Soto",
+      "advisor": "Miguel Ángel Márquez Zárate",
+      "program": "ciencias politicas y administracion publica",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-55123?func=service&doc_library=TES01&doc_number=000299857&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.893883,
+      "titleKey": "administracion publica y politica social en mexico estudio de caso programa de transporte escolar gratuito para el traslado de alumnos de escuelas publicas de nivel basico de la delegacion gustavo a madero a los diversos centros culturales y recreativos del distrito federal 2000 2001",
+      "titleFamilyKey": "administra publica politica social mexico estudio caso programa"
+    },
+    {
+      "thesisId": "TH_0459252",
+      "title": "los logros del programa prepasí en la disminución de la deserción escolar en la ciudad de méxico, durante el ciclo escolar 2007-2008",
+      "year": 2017,
+      "author": "Francisco Álvarez González",
+      "advisor": "María de los Ángeles Sánchez Noriega Armengol",
+      "program": "ciencias politicas y administracion publica",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-51913?func=service&doc_library=TES01&doc_number=000765851&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.890287,
+      "titleKey": "los logros del programa prepasi en la disminucion de la desercion escolar en la ciudad de mexico durante el ciclo escolar 2007 2008",
+      "titleFamilyKey": "logros programa prepasi disminu deser escolar ciudad mexico"
+    },
+    {
+      "thesisId": "TH_0430035",
+      "title": "caracterización de la movilidad no motorizada e incidencias de tránsito en zonas escolares a nivel educación básica, caso de estudio escuela primaria en la delegación cuauhtémoc de la ciudad de méxico",
+      "year": 2015,
+      "author": "Sonia Aguilar González",
+      "advisor": "Héctor Reséndiz López",
+      "program": "ingenieria de sistemas",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-03487?func=service&doc_library=TES01&doc_number=000737698&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.878178,
+      "titleKey": "caracterizacion de la movilidad no motorizada e incidencias de transito en zonas escolares a nivel educacion basica caso de estudio escuela primaria en la delegacion cuauhtemoc de la ciudad de mexico",
+      "titleFamilyKey": "caracteriza movil motoriza incidenc transito zonas escolare nivel"
+    }
+  ]
+}

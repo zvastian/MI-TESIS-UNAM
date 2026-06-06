@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C721",
+    "clusterId": 721,
+    "macroId": "Area2_M05",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0493729",
+      "title": "utilidad de la proteina c reactiva en diagnóstico oportuno de fuga anastomótica intestinal",
+      "year": 2020,
+      "author": "Erick Rueda Don Juan",
+      "advisor": "Jesús Arenas Osuna",
+      "program": "cirugia general",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EL1S2NAJI2NQTF1SUHFYTEDIGD4XTX2AP6UYVIELMINNBQYA69-44249?func=service&doc_library=TES01&doc_number=000801075&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.955394,
+      "titleKey": "utilidad de la proteina c reactiva en diagnostico oportuno de fuga anastomotica intestinal",
+      "titleFamilyKey": "util proteina reactiva diagnost oportuno fuga anastomo intestin"
+    },
+    {
+      "thesisId": "TH_0497185",
+      "title": "proteína c reactiva cómo predictor de fuga de anastomosis en restitución del transito intestinal",
+      "year": 2021,
+      "author": "Leonel Castellanos Aguilar",
+      "advisor": "Sinue Cázarez Huazano",
+      "program": "cirugia general",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/8CNK4H5X97HH7RQ4T38GXYRMESUFSYN4LAB6XJ1M3E2XEHCU4F-34729?func=service&doc_library=TES01&doc_number=000817874&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.945244,
+      "titleKey": "proteina c reactiva como predictor de fuga de anastomosis en restitucion del transito intestinal",
+      "titleFamilyKey": "proteina reactiva como predicto fuga anastomo restitu transito"
+    },
+    {
+      "thesisId": "TH_0478045",
+      "title": "elevación de proteína c reactiva, procalcitonina y velocidad de sedimentación globular en fuga de anastomosis intestinal",
+      "year": 2018,
+      "author": "Dagoberto González Arenas",
+      "advisor": "Gabriel Alberto Mejía Consuelos",
+      "program": "cirugia general",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-61066?func=service&doc_library=TES01&doc_number=000776773&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.868576,
+      "titleKey": "elevacion de proteina c reactiva procalcitonina y velocidad de sedimentacion globular en fuga de anastomosis intestinal",
+      "titleFamilyKey": "eleva proteina reactiva procalci veloc sedimenta globular fuga"
+    },
+    {
+      "thesisId": "TH_0530098",
+      "title": "\"valor predictivo diagnóstico de fuga anastomosis con el uso de índice proteína c reactiva",
+      "year": 2023,
+      "author": "Marco Alexis, de la Mora Romero",
+      "advisor": "Moises Freddy Rojas Illanes · +1 más",
+      "program": "coloproctologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GKG46Q5J6TJGRXX619352L8C41K61PI2S7IT64P9RPLJM15UUN-03458?func=service&doc_library=TES01&doc_number=000844676&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.858704,
+      "titleKey": "valor predictivo diagnostico de fuga anastomosis con el uso de indice proteina c reactiva",
+      "titleFamilyKey": "valor predicti diagnost fuga anastomo uso indice proteina"
+    },
+    {
+      "thesisId": "TH_0466313",
+      "title": "proteina c reactiva como factor de riesgo de morbilidad en pacientes sometidos a restitución del tránsito intestinal en forma electiva en el hospital de especialidades centro médico nacional siglo xxi",
+      "year": 2017,
+      "author": "Luis Francisco Martínez Aldrete",
+      "advisor": "Eduardo Antonio Ferat Osorio",
+      "program": "cirugia general",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-69915?func=service&doc_library=TES01&doc_number=000756283&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.853139,
+      "titleKey": "proteina c reactiva como factor de riesgo de morbilidad en pacientes sometidos a restitucion del transito intestinal en forma electiva en el hospital de especialidades centro medico nacional siglo xxi",
+      "titleFamilyKey": "proteina reactiva como factor riesgo morbil paciente sometido"
+    }
+  ]
+}

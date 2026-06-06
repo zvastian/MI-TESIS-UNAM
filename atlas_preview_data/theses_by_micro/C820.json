@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C820",
+    "clusterId": 820,
+    "macroId": "Area2_M01",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0314178",
+      "title": "vias de degradacion de las oncoproteinas ski y snon independientes del tgf-beta",
+      "year": 2007,
+      "author": "Jacqueline Hernandez Damian",
+      "advisor": "Marina Macías Silva",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DI8XT185UVTFQANYSJCK383TKG3C3L5RX6VBHJ9QRJBGID7TY7-12729?func=service&doc_library=TES01&doc_number=000614432&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.945484,
+      "titleKey": "vias de degradacion de las oncoproteinas ski y snon independientes del tgf beta",
+      "titleFamilyKey": "vias degrada oncoprot ski snon independ tgf beta"
+    },
+    {
+      "thesisId": "TH_0443700",
+      "title": "la vía de señalización del tgf-beta y la dinámica del citoesqueleto de actina controlan la estabilidad de la oncoproteína ski",
+      "year": 2015,
+      "author": "Genaro Vázquez Victorio",
+      "advisor": "Marina Macías Silva",
+      "program": "ciencias biomedicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-10169?func=service&doc_library=TES01&doc_number=000730170&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.921042,
+      "titleKey": "la via de senalizacion del tgf beta y la dinamica del citoesqueleto de actina controlan la estabilidad de la oncoproteina ski",
+      "titleFamilyKey": "via senaliza tgf beta dinamica citoesqu actina controla"
+    },
+    {
+      "thesisId": "TH_0310268",
+      "title": "regulacion de los correpresores ski y snon por la citocina tgf-beta",
+      "year": 2007,
+      "author": "Cassandre Caligaris Benoit",
+      "advisor": "Marina Macías Silva",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/MTTGSJYP8VJ1TXME4GIPTHQC6T39PYYV7P8JXE4HRSYGRUJL2E-17445?func=service&doc_library=TES01&doc_number=000614471&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.918412,
+      "titleKey": "regulacion de los correpresores ski y snon por la citocina tgf beta",
+      "titleFamilyKey": "regula correpre ski snon citocina tgf beta"
+    },
+    {
+      "thesisId": "TH_0414785",
+      "title": "estudio de las modificaciones postraduccionales que modulan la función y estabilidad de la oncoproteina ski",
+      "year": 2013,
+      "author": "Eugenio del Valle Espinosa",
+      "advisor": "Marina Macías Silva · +2 más",
+      "program": "ciencias bioquimicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/1MPA5FVFYT3S2S7U62UED1YUCADU9E92GG51BV61RFMEXG4SYH-18323?func=service&doc_library=TES01&doc_number=000706740&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.901866,
+      "titleKey": "estudio de las modificaciones postraduccionales que modulan la funcion y estabilidad de la oncoproteina ski",
+      "titleFamilyKey": "estudio modificaci postradu que modulan func estabil oncoprot"
+    },
+    {
+      "thesisId": "TH_0340792",
+      "title": "vías de degradación de las proteínas supresoras de tumores ski y snon independientes de la vía del tgf-beta",
+      "year": 2009,
+      "author": "Jacqueline Hernández Damián",
+      "advisor": "Marina Macías Silva",
+      "program": "ciencias bioquimicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-01411?func=service&doc_library=TES01&doc_number=000649727&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.822579,
+      "titleKey": "vias de degradacion de las proteinas supresoras de tumores ski y snon independientes de la via del tgf beta",
+      "titleFamilyKey": "vias degrada proteina supresor tumores ski snon independ"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C222",
+    "clusterId": 222,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 29,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0149012",
+      "title": "generalidades en operatoria dental",
+      "year": 1981,
+      "author": "Ma. Elia Elizabeth Gonzalez López",
+      "advisor": "Eduardo Bermudez Requeña",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5E8H58QDXC9N2YJUPLYYNUXUDRPPAIIGNCXQVH89EUP9J3U3QT-10938?func=service&doc_library=TES01&doc_number=000022834&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998746,
+      "titleKey": "generalidades en operatoria dental",
+      "titleFamilyKey": "generalid operator dental"
+    },
+    {
+      "thesisId": "TH_0178557",
+      "title": "generalidades en operatoria dental",
+      "year": 1986,
+      "author": "Ana Isabel Navarro Mazariegos",
+      "advisor": "Casildo Aguirre Velez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/63VM6398TRRQHVHTCQXLDLF9DI6B5SCXM2TG5K52SAL4JLYNXF-60461?func=service&doc_library=TES01&doc_number=000019668&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998746,
+      "titleKey": "generalidades en operatoria dental",
+      "titleFamilyKey": "generalid operator dental"
+    },
+    {
+      "thesisId": "TH_0120199",
+      "title": "generalidades en la operatoria dental",
+      "year": 1974,
+      "author": "Yolanda Leticia Acuña Mena",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/LM7H7H1IVJEJNC7BMNYGCTY1V8JI13GUTGNVTFP6N8RTMJGRX1-25535?func=service&doc_library=TES01&doc_number=000146105&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998358,
+      "titleKey": "generalidades en la operatoria dental",
+      "titleFamilyKey": "generalid operator dental"
+    },
+    {
+      "thesisId": "TH_0129130",
+      "title": "generalidades en la operatoria dental",
+      "year": 1976,
+      "author": "Ma. Luz Leticia Enriquez Galindo",
+      "advisor": "Anselmo Apodaca Lugo",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3A7UEJ312MD2NRHJ7PU1J4CVPPBCK9Q9D1FQSIQT6V3MFM52EI-30457?func=service&doc_library=TES01&doc_number=000148700&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998358,
+      "titleKey": "generalidades en la operatoria dental",
+      "titleFamilyKey": "generalid operator dental"
+    }
+  ]
+}

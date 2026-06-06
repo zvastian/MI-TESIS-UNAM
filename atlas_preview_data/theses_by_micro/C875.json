@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C875",
+    "clusterId": 875,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0473823",
+      "title": "incidencia de síndrome de iris flácido intraoperatorio en pacientes tratados con antihipertensivos sistémicos sometidos a facoemulsificación en el instituto de oftalmología conde de valenciana",
+      "year": 2018,
+      "author": "Claudia Lorena Arellano Martínez",
+      "advisor": "Eduardo Chávez Mondragón",
+      "program": "oftalmologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/XAJCXT1VPICXFBS9YNLJR78A9URKBQ3LECFQ4VKIYXAII4TYCC-22366?func=service&doc_library=TES01&doc_number=000779462&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.93616,
+      "titleKey": "incidencia de sindrome de iris flacido intraoperatorio en pacientes tratados con antihipertensivos sistemicos sometidos a facoemulsificacion en el instituto de oftalmologia conde de valenciana",
+      "titleFamilyKey": "incidenc sindrome iris flacido intraope paciente tratados antihipe"
+    },
+    {
+      "thesisId": "TH_0456219",
+      "title": "síndrome de iris flácido en pacientes bajo tratamiento con antagonistas alfa-1 adrenérgicos y sus complicaciones durante la cirugía de catarata",
+      "year": 2016,
+      "author": "María de Lourdes Rubalcava Soberanis",
+      "advisor": "Jaime Lozano Alcazar",
+      "program": "oftalmologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5VC1B25ISXIERJRLHXLIN7S8AS3UEJY1FX2987DMHHQFJHND3U-36009?func=service&doc_library=TES01&doc_number=000749677&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.911275,
+      "titleKey": "sindrome de iris flacido en pacientes bajo tratamiento con antagonistas alfa 1 adrenergicos y sus complicaciones durante la cirugia de catarata",
+      "titleFamilyKey": "sindrome iris flacido paciente trata antagoni alfa adrenerg"
+    },
+    {
+      "thesisId": "TH_0453423",
+      "title": "análisis de hallazgos oftalmológicos de pacientes en tratamiento con tamsulosina con síndrome de iris flácido en el periodo transoperatorio de facoemulsificación en el hospital general de méxico",
+      "year": 2016,
+      "author": "Víctor Manuel Murillo Hernández",
+      "advisor": "Marilú Anahí Guido Jiménez",
+      "program": "oftalmologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5VC1B25ISXIERJRLHXLIN7S8AS3UEJY1FX2987DMHHQFJHND3U-33816?func=service&doc_library=TES01&doc_number=000748790&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.905739,
+      "titleKey": "analisis de hallazgos oftalmologicos de pacientes en tratamiento con tamsulosina con sindrome de iris flacido en el periodo transoperatorio de facoemulsificacion en el hospital general de mexico",
+      "titleFamilyKey": "analisis hallazgo oftalmol paciente trata tamsulos sindrome iris"
+    },
+    {
+      "thesisId": "TH_0542570",
+      "title": "descripción de factores de riesgo del síndrome de iris flácido intraoperatorio en pacientes sometidos a cirugía de catarata en el instituto nacional de rehabilitación",
+      "year": 2024,
+      "author": "Georgina Lozano Hernández",
+      "advisor": "Martha Cinthia Fuentes Cataño",
+      "program": "oftalmologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-34301?func=service&doc_library=TES01&doc_number=000862383&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.903144,
+      "titleKey": "descripcion de factores de riesgo del sindrome de iris flacido intraoperatorio en pacientes sometidos a cirugia de catarata en el instituto nacional de rehabilitacion",
+      "titleFamilyKey": "descrip factores riesgo sindrome iris flacido intraope paciente"
+    },
+    {
+      "thesisId": "TH_0354570",
+      "title": "efectividad de una esponja instilada con lidocaína y ketorolaco al 0.5% en pacientes tratados con tamsulosina para el manejo de síndrome de iris flácido intraoperatorio",
+      "year": 2019,
+      "author": "Leire Irusteta Jiménez",
+      "advisor": "Eduardo Chávez Mondragón",
+      "program": "oftalmologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-36346?func=service&doc_library=TES01&doc_number=000794368&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.83902,
+      "titleKey": "efectividad de una esponja instilada con lidocaina y ketorolaco al 0 5 en pacientes tratados con tamsulosina para el manejo de sindrome de iris flacido intraoperatorio",
+      "titleFamilyKey": "efectiv esponja instilad lidocain ketorola paciente tratados tamsulos"
+    }
+  ]
+}

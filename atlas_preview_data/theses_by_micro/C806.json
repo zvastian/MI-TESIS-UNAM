@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C806",
+    "clusterId": 806,
+    "macroId": "Area2_M08",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0483103",
+      "title": "utilidad de la escala snape-ii como predictor de mortalidad en la unidad de cuidados intensivos neonatales",
+      "year": 2018,
+      "author": "Fernando Gonzalo Peláez Guerrero",
+      "advisor": "Guadalupe Cecilia López Anacleto",
+      "program": "neonatologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-38754?func=service&doc_library=TES01&doc_number=000801193&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.939539,
+      "titleKey": "utilidad de la escala snape ii como predictor de mortalidad en la unidad de cuidados intensivos neonatales",
+      "titleFamilyKey": "util escala snape como predicto mortal unid cuidados"
+    },
+    {
+      "thesisId": "TH_0370182",
+      "title": "escala de gravedad snap-pe ii como factor predictivo de mortalidad neonatal",
+      "year": 2010,
+      "author": "Nancy Erika Medina Martínez",
+      "advisor": "Alejandro González Sánchez",
+      "program": "pediatria",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/U68FN28KYTJFHRRVMIKMXVNXX6SNLUUHGH9GHMUY1A97VM1V7D-55567?func=service&doc_library=TES01&doc_number=000660531&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.924208,
+      "titleKey": "escala de gravedad snap pe ii como factor predictivo de mortalidad neonatal",
+      "titleFamilyKey": "escala gravedad snap como factor predicti mortal neonatal"
+    },
+    {
+      "thesisId": "TH_0337616",
+      "title": "pronóstico del recién nacido mediante la escala de snap en una unidad de cuidados intensivos neonatales",
+      "year": 2009,
+      "author": "Mario Alfonso Castellanos Coutiño",
+      "advisor": "Rodrigo Santamaría Muñoz",
+      "program": "pediatria",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-34580?func=service&doc_library=TES01&doc_number=000648527&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.909521,
+      "titleKey": "pronostico del recien nacido mediante la escala de snap en una unidad de cuidados intensivos neonatales",
+      "titleFamilyKey": "pronosti recien nacido mediante escala snap unid cuidados"
+    },
+    {
+      "thesisId": "TH_0281133",
+      "title": "comparacion de dos escalas de gravedad neonatal 8crib vs snappe-ii) para evaluar el riesgo de mortalidad en los recien nacidos que ingresan a la ucin",
+      "year": 2005,
+      "author": "Jorge Mauricio Acosta García",
+      "advisor": "Luis Alberto Fernandez Carrocera · +1 más",
+      "program": "neonatologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/HLGB7H733DCK7GXMUM33I1P22VQ6JQ7ASCK9EJBV96IAV9UR9H-50718?func=service&doc_library=TES01&doc_number=000350168&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.896482,
+      "titleKey": "comparacion de dos escalas de gravedad neonatal 8crib vs snappe ii para evaluar el riesgo de mortalidad en los recien nacidos que ingresan a la ucin",
+      "titleFamilyKey": "compara dos escalas gravedad neonatal 8crib snappe evaluar"
+    },
+    {
+      "thesisId": "TH_0503785",
+      "title": "comparación del resultado de la escala snappe-ii entre pacientes sobrevivientes y fallecidos en la unidad de cuidados intensivos neonatales del hospital general dr. manuel gea gonzález del 1 de enero de 2016 al 31 de diciembre de 2020",
+      "year": 2021,
+      "author": "Patricia Moreno Reyes",
+      "advisor": "Norma Angélica Alcántara Estrada",
+      "program": "pediatria",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/8CNK4H5X97HH7RQ4T38GXYRMESUFSYN4LAB6XJ1M3E2XEHCU4F-73619?func=service&doc_library=TES01&doc_number=000817021&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.879014,
+      "titleKey": "comparacion del resultado de la escala snappe ii entre pacientes sobrevivientes y fallecidos en la unidad de cuidados intensivos neonatales del hospital general dr manuel gea gonzalez del 1 de enero de 2016 al 31 de diciembre de 2020",
+      "titleFamilyKey": "compara resultad escala snappe paciente sobreviv fallecid unid"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C911",
+    "clusterId": 911,
+    "macroId": "Area2_M01",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0447972",
+      "title": "evaluación del efecto fotoquimioprotector del verbascósido en ratones skh-1 irradiados con luz ultravioleta",
+      "year": 2016,
+      "author": "Adriana Montserrat Espinosa González",
+      "advisor": "José Guillermo Ávila Acevedo",
+      "program": "ciencias biologicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ERYGNQS1UF5ALV91F8IVY5IPF6XDJDBCJ54EMDULMD5EQG8NG9-13118?func=service&doc_library=TES01&doc_number=000746491&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.954188,
+      "titleKey": "evaluacion del efecto fotoquimioprotector del verbascosido en ratones skh 1 irradiados con luz ultravioleta",
+      "titleFamilyKey": "evalua efecto fotoquim verbasco ratones skh irradiad luz"
+    },
+    {
+      "thesisId": "TH_0489956",
+      "title": "efecto fotoprotector de hyptis mociniana (benth) en piel de ratones skh-1 expuestos a radiación ultravioleta de forma crónica",
+      "year": 2020,
+      "author": "Rebeca García Hernández",
+      "advisor": "Adriana Montserrat Espinosa González · +4 más",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EL1S2NAJI2NQTF1SUHFYTEDIGD4XTX2AP6UYVIELMINNBQYA69-61567?func=service&doc_library=TES01&doc_number=000804646&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.95287,
+      "titleKey": "efecto fotoprotector de hyptis mociniana benth en piel de ratones skh 1 expuestos a radiacion ultravioleta de forma cronica",
+      "titleFamilyKey": "efecto fotoprot hyptis mocinian benth piel ratones skh"
+    },
+    {
+      "thesisId": "TH_0396887",
+      "title": "efecto fotoprotector del ácido clorogénico sobre los daños ocasionados por la radiación uv en la piel de ratones skh-1",
+      "year": 2012,
+      "author": "Sandra Ivonne Ocampo Pérez",
+      "advisor": "Ana María García Bores",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DPI1CJIL2CV8EDT85S77S5M8BYH4ARAGJSRQH92IF35AFV94XR-61433?func=service&doc_library=TES01&doc_number=000690536&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.938518,
+      "titleKey": "efecto fotoprotector del acido clorogenico sobre los danos ocasionados por la radiacion uv en la piel de ratones skh 1",
+      "titleFamilyKey": "efecto fotoprot acido clorogen danos ocasiona radia piel"
+    },
+    {
+      "thesisId": "TH_0379827",
+      "title": "efecto protector del verbascósido sobre el daño inducido en la piel por luz ultravioleta de ratones skh-1",
+      "year": 2011,
+      "author": "Cindy Astred Fuentes Romo",
+      "advisor": "Ana María García Bores",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3XNJ4G6FHB3SJBFUA3HYH9FBBXXJFJE6XTP4JQQFMIFL6HUXUV-23729?func=service&doc_library=TES01&doc_number=000679393&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.909572,
+      "titleKey": "efecto protector del verbascosido sobre el dano inducido en la piel por luz ultravioleta de ratones skh 1",
+      "titleFamilyKey": "efecto protecto verbasco dano inducido piel luz ultravio"
+    },
+    {
+      "thesisId": "TH_0480684",
+      "title": "fotoprotección de buddleja cordata en regiones específicas del gen p53 de ratones skh-1 irradiados con luz ultravioleta",
+      "year": 2018,
+      "author": "Lorena Arianne Márquez Ponce",
+      "advisor": "Adriana Montserrat Espinosa González",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-46473?func=service&doc_library=TES01&doc_number=000782323&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.863142,
+      "titleKey": "fotoproteccion de buddleja cordata en regiones especificas del gen p53 de ratones skh 1 irradiados con luz ultravioleta",
+      "titleFamilyKey": "fotoprotec buddleja cordata regiones especifi gen p53 ratones"
+    }
+  ]
+}

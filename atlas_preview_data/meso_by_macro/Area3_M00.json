@@ -1,0 +1,211 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area3_M00",
+    "label": "Derecho, Psicología Social y Comunicación",
+    "shortLabel": "Derecho, Psicología Social y Comu...",
+    "area": "Area 3",
+    "size": 12770,
+    "description": "Trabajos entre derecho, psicología, pedagogía, trabajo social, comunicación, periodismo y sociedad."
+  },
+  "nodes": [
+    {
+      "id": "C18",
+      "clusterId": 18,
+      "macroId": "Area3_M00",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Perspectiva Genero - Psicología",
+      "size": 6543,
+      "radius": 30.0,
+      "position": {
+        "x": 0.07452,
+        "y": -0.53553
+      },
+      "dominantAreaShare": 0.5585,
+      "programsTop": "Psicologia (2286) | Derecho (1248) | Pedagogia (372) | Medicina Familiar (221) | Trabajo Social (175) | Lengua y Literaturas Hispanicas (164) | Sociologia (143) | Ciencias de la Comunicacion (127) | Filosofia (109) | Periodismo (91)",
+      "levelsTop": "Licenciatura (5203) | Maestria (610) | Especialidad (510) | Doctorado (215)",
+      "campusesTop": "Facultad de Estudios Superiores Iztacala Unam (905) | Facultad de Psicologia Unam (891) | Facultad de Filosofia y Letras Unam (755) | Facultad de Derecho Unam (626) | Facultad de Medicina Unam (490) | Facultad de Estudios Superiores Aragon Unam (462)",
+      "sampleTitles": "caracteristicas de los pacientes vasectomizados | el aborto como consecuencia de un riesgo de trabajo | estudio dogmatico del delito de estupro | el delito de violacion | el delito de corrupción de menores | la unidad agricola industrial para la mujer no ejidataria en la ley federal de reforma agraria | \"factores que determinan la actividad sexual temprana en adolescentes de 12 a 19 años del área de valle de san josé, municipio de león guanajuato\" | sialolitiasis : diagnostico y tratamiento",
+      "color": "#2F6FB3",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Perspectiva Genero - Psicología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C75",
+      "clusterId": 75,
+      "macroId": "Area3_M00",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Violencia Intrafamiliar - Psicología",
+      "size": 2553,
+      "radius": 19.09,
+      "position": {
+        "x": 0.26723,
+        "y": -0.60468
+      },
+      "dominantAreaShare": 0.6757,
+      "programsTop": "Psicologia (1017) | Derecho (746) | Medicina Familiar (140) | Pedagogia (120) | Trabajo Social (81) | Sociologia (47) | Filosofia (28) | Enfermeria y Obstetricia (27) | Psiquiatria (24) | Arquitectura (19)",
+      "levelsTop": "Licenciatura (2093) | Especialidad (226) | Maestria (166) | Doctorado (65)",
+      "campusesTop": "Facultad de Psicologia Unam (363) | Facultad de Estudios Superiores Iztacala Unam (307) | Facultad de Derecho Unam (297) | Facultad de Estudios Superiores Aragon Unam (224) | Facultad de Medicina Unam (221) | Facultad de Estudios Superiores Acatlan Unam (130)",
+      "sampleTitles": "medidas para prevenir la violencia intrafamiliar en el distrito federal | estudio dogmatico del delito de allanamiento de morada | robo de uso | el robo | el delito de amenazas | violencia en el noviazgo | violencia psicológica en la pareja en estudiantes de la carrera de suayed psicología | diagnóstico institucional de violencia escolar en la facultad de estudios superiores iztacala",
+      "color": "#2F6FB3",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Violencia Intrafamiliar - Psicolo...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C100",
+      "clusterId": 100,
+      "macroId": "Area3_M00",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Disolucion Matrimonio - Derecho",
+      "size": 1311,
+      "radius": 11.37,
+      "position": {
+        "x": 0.46913,
+        "y": 0.58963
+      },
+      "dominantAreaShare": 0.9748,
+      "programsTop": "Derecho (1204) | Psicologia (55) | Trabajo Social (11) | Pedagogia (10) | Derecho Civil (9) | Medicina (medicina Familiar) (2) | Derecho Familiar (2) | Periodismo (2) | Lengua y Literaturas Hispanicas (2) | Sociologia (1)",
+      "levelsTop": "Licenciatura (1276) | Especialidad (18) | Maestria (12) | Doctorado (4)",
+      "campusesTop": "Facultad de Derecho Unam (597) | Facultad de Estudios Superiores Aragon Unam (247) | Facultad de Estudios Superiores Acatlan Unam (149) | Universidad del Valle de Mexico (49) | Universidad Latina (33) | Universidad Lasallista Benavente (20)",
+      "sampleTitles": "el divorcio | el matrimonio en el derecho internacional privado | naturaleza juridica del matrimonio | el adulterio como causal de divorcio | la sevicia como causal de divorcio | las capitulaciones matrimoniales en el derecho internacional privado | la nacionalidad de la mujer casada | naturaleza juridica del concubinato",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Disolucion Matrimonio - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C101",
+      "clusterId": 101,
+      "macroId": "Area3_M00",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Ideacion Suicida - Psicología",
+      "size": 1295,
+      "radius": 11.23,
+      "position": {
+        "x": -0.82423,
+        "y": -0.10879
+      },
+      "dominantAreaShare": 0.4834,
+      "programsTop": "Psicologia (520) | Derecho (243) | Psiquiatria (110) | Filosofia (44) | Medicina Familiar (42) | Pediatria (29) | Psiquiatria Infantil y de la Adolescencia (28) | Pedagogia (17) | Enfermeria (16) | Psicologia Clinica (16)",
+      "levelsTop": "Licenciatura (911) | Especialidad (260) | Maestria (85) | Doctorado (39)",
+      "campusesTop": "Facultad de Medicina Unam (272) | Facultad de Psicologia Unam (207) | Facultad de Estudios Superiores Iztacala Unam (206) | Facultad de Derecho Unam (106) | Facultad de Estudios Superiores Aragon Unam (68) | Facultad de Filosofia y Letras Unam (67)",
+      "sampleTitles": "la eutanasia | La eutanasia | vínculo y funciones maternas en las dificultades para la elaboración del duelo | la eutanasia como causa de justificación | eutanasia | duelo perinatal | el suicidio | \"la ideación suicida : una experiencia sin estigmas : estudio de caso de la ideación suicida en una mujer trabajadora de la salud\"",
+      "color": "#2F6FB3",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Ideacion Suicida - Psicología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C109",
+      "clusterId": 109,
+      "macroId": "Area3_M00",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Delito Homicidio - Derecho",
+      "size": 1068,
+      "radius": 9.0,
+      "position": {
+        "x": -0.29575,
+        "y": -0.85002
+      },
+      "dominantAreaShare": 0.9354,
+      "programsTop": "Derecho (932) | Psicologia (65) | Medico Cirujano (10) | Medicina Legal (9) | Relaciones Internacionales (8) | Cirujano Dentista (6) | Arquitectura (5) | Periodismo (4) | Trabajo Social (3) | Ciencias de la Comunicacion (3)",
+      "levelsTop": "Licenciatura (1037) | Especialidad (16) | Maestria (13) | Doctorado (2)",
+      "campusesTop": "Facultad de Derecho Unam (355) | Facultad de Estudios Superiores Aragon Unam (228) | Facultad de Estudios Superiores Acatlan Unam (186) | Universidad del Valle de Mexico (30) | Facultad de Medicina Unam (24) | Facultad de Psicologia Unam (21)",
+      "sampleTitles": "estudio dogmatico del delito de injurias | el robo de infante | estudio dogmatico del delito de homicidio | el disparo de arma de fuego | la pena de muerte en mexico | la pena de muerte | el delito de parricidio | la pena de muerte en el derecho penal mexicano",
+      "color": "#2F6FB3",
+      "originalLabel": "Derecho",
+      "shortLabel": "Delito Homicidio - Derecho",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C18",
+      "target": "C75",
+      "count": 158,
+      "meanScore": 0.829523,
+      "maxScore": 0.926619,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C100",
+      "target": "C18",
+      "count": 50,
+      "meanScore": 0.843144,
+      "maxScore": 0.897482,
+      "strokeWidth": 1.57
+    },
+    {
+      "source": "C109",
+      "target": "C75",
+      "count": 20,
+      "meanScore": 0.837937,
+      "maxScore": 0.893165,
+      "strokeWidth": 0.951
+    },
+    {
+      "source": "C109",
+      "target": "C18",
+      "count": 18,
+      "meanScore": 0.810499,
+      "maxScore": 0.868229,
+      "strokeWidth": 0.91
+    },
+    {
+      "source": "C101",
+      "target": "C18",
+      "count": 17,
+      "meanScore": 0.811125,
+      "maxScore": 0.867452,
+      "strokeWidth": 0.889
+    },
+    {
+      "source": "C101",
+      "target": "C109",
+      "count": 13,
+      "meanScore": 0.849938,
+      "maxScore": 0.910403,
+      "strokeWidth": 0.806
+    },
+    {
+      "source": "C100",
+      "target": "C75",
+      "count": 5,
+      "meanScore": 0.851216,
+      "maxScore": 0.881227,
+      "strokeWidth": 0.641
+    },
+    {
+      "source": "C101",
+      "target": "C75",
+      "count": 4,
+      "meanScore": 0.81807,
+      "maxScore": 0.86467,
+      "strokeWidth": 0.621
+    },
+    {
+      "source": "C100",
+      "target": "C101",
+      "count": 3,
+      "meanScore": 0.824627,
+      "maxScore": 0.839545,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

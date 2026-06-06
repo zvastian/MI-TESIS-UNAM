@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C803",
+    "clusterId": 803,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0487097",
+      "title": "defectos periodontales distales en segundo molar, posterior a la extracción quirúrgica del tercer molar inferior",
+      "year": 2018,
+      "author": "Armando Velazco Magaña",
+      "advisor": "Jerem Yolanda Cruz Aliphat · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "universidad villa rica",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-44420?func=service&doc_library=TES01&doc_number=000780909&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.966764,
+      "titleKey": "defectos periodontales distales en segundo molar posterior a la extraccion quirurgica del tercer molar inferior",
+      "titleFamilyKey": "defectos periodon distales segundo molar posterio extrac quirurgi"
+    },
+    {
+      "thesisId": "TH_0505683",
+      "title": "complicaciones periodontales en segundo molar posterior a cirugía de terceros molares",
+      "year": 2021,
+      "author": "Nancy Ivonne Ramos Vásquez",
+      "advisor": "Jorge Pérez Villaseñor",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/8CNK4H5X97HH7RQ4T38GXYRMESUFSYN4LAB6XJ1M3E2XEHCU4F-58625?func=service&doc_library=TES01&doc_number=000811558&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.956057,
+      "titleKey": "complicaciones periodontales en segundo molar posterior a cirugia de terceros molares",
+      "titleFamilyKey": "complicaci periodon segundo molar posterio cirugia terceros molares"
+    },
+    {
+      "thesisId": "TH_0444361",
+      "title": "factores de riesgo de defectos periodontales en el 2º molar postextracción quirúrgica del 3er molar",
+      "year": 2015,
+      "author": "Andrea de Jesús Zúñiga González",
+      "advisor": "Águeda Marisol Arellano Flores",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-40808?func=service&doc_library=TES01&doc_number=000737277&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.954141,
+      "titleKey": "factores de riesgo de defectos periodontales en el 2 molar postextraccion quirurgica del 3er molar",
+      "titleFamilyKey": "factores riesgo defectos periodon molar postextrac quirurgi 3er"
+    },
+    {
+      "thesisId": "TH_0511386",
+      "title": "alternativas de tratamiento en defectos periodontales del segundo molar en cirugía del tercer molar impactado",
+      "year": 2022,
+      "author": "Isaac Contreras Cantú",
+      "advisor": "Fabiola Salgado Chavarría",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-67268?func=service&doc_library=TES01&doc_number=000824137&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.946712,
+      "titleKey": "alternativas de tratamiento en defectos periodontales del segundo molar en cirugia del tercer molar impactado",
+      "titleFamilyKey": "alternat trata defectos periodon segundo molar cirugia tercer"
+    },
+    {
+      "thesisId": "TH_0524148",
+      "title": "defectos periodontales relacionados a la extracción quirúrgica del tercer molar inferior : revisión monográfica",
+      "year": 2023,
+      "author": "Angélica Guadalupe Chávez Flores",
+      "advisor": "Alejandro Israel Galicia Partida",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GKG46Q5J6TJGRXX619352L8C41K61PI2S7IT64P9RPLJM15UUN-41035?func=service&doc_library=TES01&doc_number=000834555&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.927156,
+      "titleKey": "defectos periodontales relacionados a la extraccion quirurgica del tercer molar inferior revision monografica",
+      "titleFamilyKey": "defectos periodon relacion extrac quirurgi tercer molar inferior"
+    }
+  ]
+}

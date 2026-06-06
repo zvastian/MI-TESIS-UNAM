@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area3_M08",
+    "label": "Relaciones Internacionales y Estudios Globales",
+    "shortLabel": "Relaciones Internacionales y Estu...",
+    "area": "Area 3",
+    "size": 827,
+    "description": "producción sobre relaciones internacionales, derecho, economía, filosofía, historia y estudios globales."
+  },
+  "nodes": [
+    {
+      "id": "C116",
+      "clusterId": 116,
+      "macroId": "Area3_M08",
+      "level": "meso",
+      "area": "Area 3",
+      "areaLabel": "Área 3",
+      "label": "Union Europea - Relaciones Internacionales",
+      "size": 827,
+      "radius": 19.5,
+      "position": {
+        "x": -0.33205,
+        "y": 0.83651
+      },
+      "dominantAreaShare": 0.7074,
+      "programsTop": "Relaciones Internacionales (350) | Derecho (76) | Filosofia (58) | Economia (58) | Historia (30) | Lengua y Literaturas Modernas Alemanas (29) | Estudios en Relaciones Internacionales (28) | Ciencias Politicas y Administracion Publica (22) | Sociologia (14) | Ingenieria Civil (12)",
+      "levelsTop": "Licenciatura (683) | Maestria (92) | Doctorado (40) | Especialidad (12)",
+      "campusesTop": "Facultad de Ciencias Politicas y Sociales Unam (283) | Facultad de Filosofia y Letras Unam (141) | Facultad de Estudios Superiores Acatlan Unam (90) | Facultad de Estudios Superiores Aragon Unam (75) | Facultad de Derecho Unam (66) | Facultad de Economia Unam (47)",
+      "sampleTitles": "el sistema monetario europeo | las platicas sobre la limitación de las armas estratégicas (plae) y la seguridad europea | analisis de la naturaleza juridica de la union europea | esquema del estado fascista | el estridentismo : una escritura de vanguardia | ampliacion de la union europea hacia europa central y oriental | el proceso actual de integracion economica de la union europea | la angustia como principio de individuacion en kierkegaard",
+      "color": "#2F6FB3",
+      "originalLabel": "Relaciones Internacionales",
+      "shortLabel": "Union Europea - Relaciones Intern...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

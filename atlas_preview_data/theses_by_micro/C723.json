@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C723",
+    "clusterId": 723,
+    "macroId": "Area2_M05",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0350242",
+      "title": "angina de ludwig, como complicación de infección odontogénica, diagnóstico y tratamiento",
+      "year": 2019,
+      "author": "Daniel Antonio Carrera Sánchez",
+      "advisor": "Victor Manuel Diaz Michel · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/E6IJ83V9VTYM8X5JT1PIN25DGNXN8KVVCIFJS6GEDBI9IA7SVS-61303?func=service&doc_library=TES01&doc_number=000797726&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.973365,
+      "titleKey": "angina de ludwig como complicacion de infeccion odontogenica diagnostico y tratamiento",
+      "titleFamilyKey": "angina ludwig como complica infec odontoge diagnost trata"
+    },
+    {
+      "thesisId": "TH_0468055",
+      "title": "angina de ludwig, como complicación de una infección odontogénica : diagnóstico y tratamiento",
+      "year": 2017,
+      "author": "Stephanie Nallely Olivares Galindo",
+      "advisor": "Fabiola Salgado Chavarría",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-37123?func=service&doc_library=TES01&doc_number=000757557&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.963972,
+      "titleKey": "angina de ludwig como complicacion de una infeccion odontogenica diagnostico y tratamiento",
+      "titleFamilyKey": "angina ludwig como complica infec odontoge diagnost trata"
+    },
+    {
+      "thesisId": "TH_0508635",
+      "title": "angina de ludwig, complicación de las infecciones odontogénicas",
+      "year": 2021,
+      "author": "Eric Giovanni Venegas Ramírez",
+      "advisor": "Gabriel Piñera Flores · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/8CNK4H5X97HH7RQ4T38GXYRMESUFSYN4LAB6XJ1M3E2XEHCU4F-39977?func=service&doc_library=TES01&doc_number=000820714&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.931583,
+      "titleKey": "angina de ludwig complicacion de las infecciones odontogenicas",
+      "titleFamilyKey": "angina ludwig complica infecci odontoge"
+    },
+    {
+      "thesisId": "TH_0480057",
+      "title": "factores etiológicos de la angina de ludwig, signos y síntomas para su diagnóstico",
+      "year": 2018,
+      "author": "Iván López Camero",
+      "advisor": "Alejandro Muñoz Cano Chávez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-10963?func=service&doc_library=TES01&doc_number=000781955&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.895015,
+      "titleKey": "factores etiologicos de la angina de ludwig signos y sintomas para su diagnostico",
+      "titleFamilyKey": "factores etiologi angina ludwig signos sintomas diagnost"
+    },
+    {
+      "thesisId": "TH_0332924",
+      "title": "etiopatogenia y manifestaciones clínicas de angina de ludwig",
+      "year": 2008,
+      "author": "Ana Belén Rodríguez López",
+      "advisor": "Eduardo Andrade Rodríguez · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-42641?func=service&doc_library=TES01&doc_number=000630635&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.830318,
+      "titleKey": "etiopatogenia y manifestaciones clinicas de angina de ludwig",
+      "titleFamilyKey": "etiopato manifestaci clinicas angina ludwig"
+    }
+  ]
+}

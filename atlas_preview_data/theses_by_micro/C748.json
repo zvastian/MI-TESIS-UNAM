@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C748",
+    "clusterId": 748,
+    "macroId": "Area3_M03",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0225149",
+      "title": "proyecto para el aprovechamiento integral del tiburon en puerto madero, chiapas",
+      "year": 1993,
+      "author": "Carlos Enrique Tapia Ramirez",
+      "advisor": "Roberto López Risueño",
+      "program": "economia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de economia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/6AC3Y7TDGV8GKD4MEGMCEHG4MN94IBM4VL3Q23N87DADM4S3AG-53957?func=service&doc_library=TES01&doc_number=000197205&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.936714,
+      "titleKey": "proyecto para el aprovechamiento integral del tiburon en puerto madero chiapas",
+      "titleFamilyKey": "proyecto aprovecha integral tiburon puerto madero chiapas"
+    },
+    {
+      "thesisId": "TH_0171155",
+      "title": "proyecto para la implantacion de una planta industrializadora de tiburon en el estado de chiapas (puerto madero)",
+      "year": 1984,
+      "author": "Francisco Jesús Ramírez Mendoza",
+      "advisor": "Raymundo Abel Morales Ortega",
+      "program": "economia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de economia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5ASBNXLGSVAJ956FBQDC6XG6JG88TNQB6CN4ABSD97ITAFLPML-54821?func=service&doc_library=TES01&doc_number=000027361&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.882016,
+      "titleKey": "proyecto para la implantacion de una planta industrializadora de tiburon en el estado de chiapas puerto madero",
+      "titleFamilyKey": "proyecto implanta planta industri tiburon estado chiapas puerto"
+    },
+    {
+      "thesisId": "TH_0149171",
+      "title": "el aprovechamiento optimo del tiburon",
+      "year": 1981,
+      "author": "Marco Antonio Gutierrez Perez",
+      "advisor": "Asesor no registrado",
+      "program": "economia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de economia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5E8H58QDXC9N2YJUPLYYNUXUDRPPAIIGNCXQVH89EUP9J3U3QT-15081?func=service&doc_library=TES01&doc_number=000010316&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.860867,
+      "titleKey": "el aprovechamiento optimo del tiburon",
+      "titleFamilyKey": "aprovecha optimo tiburon"
+    },
+    {
+      "thesisId": "TH_0570479",
+      "title": "Anteproyecto para una planta industrializadora del tiburon localizada en puerto Madero, Chiapas",
+      "year": 1985,
+      "author": "Juan José Díaz Qrats",
+      "advisor": "Enrique García Galiano",
+      "program": "Ingeniería Química",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0021200/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.851102,
+      "titleKey": "anteproyecto para una planta industrializadora del tiburon localizada en puerto madero chiapas",
+      "titleFamilyKey": "anteproy planta industri tiburon localiza puerto madero chiapas"
+    },
+    {
+      "thesisId": "TH_0153922",
+      "title": "el curtimiento de la piel de tiburon. un proyecto de inversion a establecerse en las islas marias",
+      "year": 1982,
+      "author": "Alfonso Cortazar Martinez",
+      "advisor": "Asesor no registrado",
+      "program": "economia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de economia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-54534?func=service&doc_library=TES01&doc_number=000010499&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.845784,
+      "titleKey": "el curtimiento de la piel de tiburon un proyecto de inversion a establecerse en las islas marias",
+      "titleFamilyKey": "curti piel tiburon proyecto inversio establec islas marias"
+    }
+  ]
+}

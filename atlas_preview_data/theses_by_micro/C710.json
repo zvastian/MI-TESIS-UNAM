@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C710",
+    "clusterId": 710,
+    "macroId": "Area3_M02",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0331058",
+      "title": "la mejora de la comunicación interna en el servicio social del papalote museo del niño",
+      "year": 2008,
+      "author": "Mayra Paola Onofre González",
+      "advisor": "Francisca Robles",
+      "program": "ciencias de la comunicacion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-58824?func=service&doc_library=TES01&doc_number=000633233&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.942472,
+      "titleKey": "la mejora de la comunicacion interna en el servicio social del papalote museo del nino",
+      "titleFamilyKey": "mejora comunica interna servicio social papalote museo nino"
+    },
+    {
+      "thesisId": "TH_0342964",
+      "title": "comunicación organizacional : conflictos comunicativos y productividad en papalote museo del niño durante 2008",
+      "year": 2009,
+      "author": "Sara Adriana Méndez Rubio",
+      "advisor": "Jorge Pérez Gómez",
+      "program": "comunicacion",
+      "level": "Licenciatura",
+      "area": "Area 4",
+      "campus": "facultad de estudios superiores acatlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-12401?func=service&doc_library=TES01&doc_number=000648815&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.892875,
+      "titleKey": "comunicacion organizacional conflictos comunicativos y productividad en papalote museo del nino durante 2008",
+      "titleFamilyKey": "comunica organiza conflict comunica productiv papalote museo nino"
+    },
+    {
+      "thesisId": "TH_0443789",
+      "title": "la comunicación externa e interna en el jardín de niños peter pan",
+      "year": 2015,
+      "author": "Aldo Rair Velázquez Cruz",
+      "advisor": "Zully Tovaven Constela · +1 más",
+      "program": "ciencias de la comunicacion",
+      "level": "Licenciatura",
+      "area": "Area 4",
+      "campus": "universidad villa rica",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-11046?func=service&doc_library=TES01&doc_number=000737844&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.845361,
+      "titleKey": "la comunicacion externa e interna en el jardin de ninos peter pan",
+      "titleFamilyKey": "comunica externa interna jardin ninos peter pan"
+    },
+    {
+      "thesisId": "TH_0012263",
+      "title": "comportamiento humano en el trabajo. conducta organizacional.el proceso de induccion como cimiento para desarrollar el sentido de pertenencia y comunicacion en los colaboradores de papalote museo del niño",
+      "year": 2001,
+      "author": "Veronica Castrejon Gonzalez",
+      "advisor": "Blanca Estela Montañes Montes",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-02641?func=service&doc_library=TES01&doc_number=000293652&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.843952,
+      "titleKey": "comportamiento humano en el trabajo conducta organizacional el proceso de induccion como cimiento para desarrollar el sentido de pertenencia y comunicacion en los colaboradores de papalote museo del nino",
+      "titleFamilyKey": "comporta humano trabajo conducta organiza proceso induc como"
+    },
+    {
+      "thesisId": "TH_0282875",
+      "title": "memoria de servicio social en papalote museo del niño",
+      "year": 2005,
+      "author": "Alejandro Calderon Sotelo",
+      "advisor": "Silvia Vega Muytoy",
+      "program": "ingenieria en computacion",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/HLGB7H733DCK7GXMUM33I1P22VQ6JQ7ASCK9EJBV96IAV9UR9H-34085?func=service&doc_library=TES01&doc_number=000350968&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.808506,
+      "titleKey": "memoria de servicio social en papalote museo del nino",
+      "titleFamilyKey": "memoria servicio social papalote museo nino"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C243",
+    "clusterId": 243,
+    "macroId": "Area2_M06",
+    "area": "Area 2",
+    "size": 25,
+    "shown": 2,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0140776",
+      "title": "apicectomia",
+      "year": 1978,
+      "author": "Lourdes Lucia Sanchez Peralta",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5L5TS12VQ68VIUXEJUXTSXA1R9J12JS3BATU94THFADKP51P54-41943?func=service&doc_library=TES01&doc_number=000154228&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "apicectomia",
+      "titleFamilyKey": "apicecto"
+    },
+    {
+      "thesisId": "TH_0141138",
+      "title": "apicectomia",
+      "year": 1978,
+      "author": "Francisco Javier Vela Velazquez",
+      "advisor": "Jesus Gutierrez Ramos",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5L5TS12VQ68VIUXEJUXTSXA1R9J12JS3BATU94THFADKP51P54-19580?func=service&doc_library=TES01&doc_number=000154468&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "apicectomia",
+      "titleFamilyKey": "apicecto"
+    }
+  ]
+}

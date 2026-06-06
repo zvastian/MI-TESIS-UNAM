@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M10",
+    "label": "Cirugía, Endocrinología e Imagenología",
+    "shortLabel": "Cirugía, Endocrinología e Imageno...",
+    "area": "Area 2",
+    "size": 1429,
+    "description": "Investigaciones sobre cirugía, endocrinología, imagenología, nefrolog?a, ginecología y especialidades clínicas."
+  },
+  "nodes": [
+    {
+      "id": "C97",
+      "clusterId": 97,
+      "macroId": "Area2_M10",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Cancer Tiroides - Cirugía General",
+      "size": 1429,
+      "radius": 19.5,
+      "position": {
+        "x": 0.04224,
+        "y": 0.89901
+      },
+      "dominantAreaShare": 0.9811,
+      "programsTop": "Cirugia General (222) | Endocrinologia (144) | Medicina Interna (130) | Imagenologia Diagnostica y Terapeutica (69) | Ginecologia y Obstetricia (67) | Pediatria (58) | Endocrinologia Pediatrica (50) | Cirugia Oncologica (47) | Endocrinologia y Nutriologia (43) | Pediatria Medica (42)",
+      "levelsTop": "Especialidad (1263) | Licenciatura (134) | Maestria (24) | Doctorado (7)",
+      "campusesTop": "Facultad de Medicina Unam (1294) | Facultad de Odontologia Unam (32) | No Especificado Unam (17) | Facultad de Quimica Unam (16) | Facultad de Estudios Superiores Zaragoza Unam (9) | Facultad de Estudios Superiores Cuautitlan Unam (9)",
+      "sampleTitles": "resultados del tratamiento con 131 i en pacientes hipertiroideos | tratamiento quirurgico de las hemorroides | respuesta clinica y de laboratorio al manejo con calcitriol en pacientes con raquitismo hipofosfatemico familiar | Cirugia de tiroides | crisis tirotoxica | comparación de resultados oncológicos en pacientes con cáncer bien diferenciado de tiroides tratados con sorafenib de acuerdo a la mutación del gen braf v600e del cmn 20 de noviembre | cancer de tiroides | hipotiroidismo congenito : es util la dosis ponderal de l-tiroxina utilizada actualmente en el tratamiento?",
+      "color": "#2E9D71",
+      "originalLabel": "Cirugia General",
+      "shortLabel": "Cancer Tiroides - Cirugía General",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

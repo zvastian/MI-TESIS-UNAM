@@ -1,0 +1,75 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area1_M08",
+    "label": "Ingeniería, Gestión y Proyectos Aplicados",
+    "shortLabel": "Ingeniería, Gestión y Proyectos A...",
+    "area": "Area 1",
+    "size": 5227,
+    "description": "Cruces entre ingeniería, derecho, arquitectura, administración, gestión de proyectos y aplicaciones t?cnicas."
+  },
+  "nodes": [
+    {
+      "id": "C60",
+      "clusterId": 60,
+      "macroId": "Area1_M08",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Empresa Autotransportes - Derecho",
+      "size": 3273,
+      "radius": 30.0,
+      "position": {
+        "x": -0.69428,
+        "y": 0.14674
+      },
+      "dominantAreaShare": 0.4494,
+      "programsTop": "Derecho (787) | Arquitectura (494) | Ingenieria Mecanica Electrica (282) | Contaduria (252) | Ingenieria Civil (240) | Administracion (166) | Economia (90) | Cirujano Dentista (85) | Actuaria (62) | Psicologia (53)",
+      "levelsTop": "Licenciatura (2924) | Maestria (180) | Especialidad (130) | Doctorado (36)",
+      "campusesTop": "Facultad de Ingenieria Unam (553) | Facultad de Arquitectura Unam (432) | Facultad de Derecho Unam (417) | Facultad de Estudios Superiores Aragon Unam (303) | Facultad de Contaduria y Administracion Unam (259) | Facultad de Estudios Superiores Acatlan Unam (183)",
+      "sampleTitles": "sistemas de transporte | ingenieria de transito | programa sobre las medidas en la prevencion de accidentes para empresas medianas | central de autobuses foraneos texcoco | acceso y libertad de transito para los estados sin litoral | estacion de pasajeros en morelia, mich | contrato de transporte | motoconformadoras",
+      "color": "#D8524A",
+      "originalLabel": "Derecho",
+      "shortLabel": "Empresa Autotransportes - Derecho",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C90",
+      "clusterId": 90,
+      "macroId": "Area1_M08",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Aeropuerto Internacional - Ingeniería Civil",
+      "size": 1954,
+      "radius": 9.0,
+      "position": {
+        "x": -0.85995,
+        "y": 0.26549
+      },
+      "dominantAreaShare": 0.6059,
+      "programsTop": "Ingenieria Civil (484) | Derecho (307) | Arquitectura (209) | Ingenieria Mecanica Electrica (137) | Relaciones Internacionales (74) | Cirujano Dentista (60) | Ingenieria Mecanica (58) | Administracion (52) | Economia (52) | Contaduria (34)",
+      "levelsTop": "Licenciatura (1654) | Maestria (213) | Doctorado (45) | Especialidad (41)",
+      "campusesTop": "Facultad de Ingenieria Unam (650) | Facultad de Derecho Unam (248) | Facultad de Estudios Superiores Aragon Unam (178) | Facultad de Arquitectura Unam (174) | No Especificado Unam (82) | Facultad de Estudios Superiores Acatlan Unam (79)",
+      "sampleTitles": "aeropuerto internacional ciudad de mexico | el apoderamiento ilicito de aeronaves como estrategia politica | Desviación vertical disociada | aeropuerto internacional en la paz, b.c | aeropuerto internacional en la paz, baja california | diagnostico organizacional de aeropuertos y servicios auxiliares | aprovechamiento de energía eólica por métodos no convencionales | La mercadotecnia, los prestadores de servicios turisticos y el convenio bilateral aereo Mexico Estados Unidos",
+      "color": "#D8524A",
+      "originalLabel": "Ingenieria Civil",
+      "shortLabel": "Aeropuerto Internacional - Ingeni...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C60",
+      "target": "C90",
+      "count": 36,
+      "meanScore": 0.788474,
+      "maxScore": 0.871531,
+      "strokeWidth": 1.4
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

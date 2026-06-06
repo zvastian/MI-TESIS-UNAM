@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C878",
+    "clusterId": 878,
+    "macroId": "Area1_M07",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0300485",
+      "title": "sistema de admision hospitalaria : hospital central sur de alta especialidad de pemex",
+      "year": 2006,
+      "author": "Hector Francisco Guarneros Castrejon",
+      "advisor": "Lucila Patricia Mendoza Arellano",
+      "program": "ingenieria en computacion",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-06885?func=service&doc_library=TES01&doc_number=000602868&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.949169,
+      "titleKey": "sistema de admision hospitalaria hospital central sur de alta especialidad de pemex",
+      "titleFamilyKey": "sistema admision hospital hospital central sur alta especial"
+    },
+    {
+      "thesisId": "TH_0060703",
+      "title": "sistema de control y pago a pacientes foraneos hospital central sur de alta especialidad de pemex",
+      "year": 2004,
+      "author": "Julio Cesar Piña Lara",
+      "advisor": "Ana María Vázquez Vargas",
+      "program": "ingenieria en computacion",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3E7UE53KY9K8CDJ7JAAR5NSNXB8SN8HE4PRT3Y5ATG6UJPLG4I-15371?func=service&doc_library=TES01&doc_number=000600087&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.903198,
+      "titleKey": "sistema de control y pago a pacientes foraneos hospital central sur de alta especialidad de pemex",
+      "titleFamilyKey": "sistema control pago paciente foraneos hospital central sur"
+    },
+    {
+      "thesisId": "TH_0279065",
+      "title": "la informatica y la administración de los recursos materiales en los servicios medicos de pemex 1992-2003 : una propuesta de mejoramiento del sistema de registro y control del activo fijo en el hospital central sur de alta especialidad",
+      "year": 2004,
+      "author": "Alejandro Sanchez Juarez",
+      "advisor": "Miguel Ángel Márquez Zárate",
+      "program": "ciencias politicas y administracion publica",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DK5MPSEGQAIB8JF2LMNN74MUHTVBP3I65HX15FT5KTMGJQN9LI-60899?func=service&doc_library=TES01&doc_number=000600080&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.885822,
+      "titleKey": "la informatica y la administracion de los recursos materiales en los servicios medicos de pemex 1992 2003 una propuesta de mejoramiento del sistema de registro y control del activo fijo en el hospital central sur de alta especialidad",
+      "titleFamilyKey": "informat administra recursos material servicio medicos pemex 1992"
+    },
+    {
+      "thesisId": "TH_0314916",
+      "title": "hospital central norte de pemex : a organizacion desorganizada",
+      "year": 2007,
+      "author": "Claudia Araceli Juarez Arauz",
+      "advisor": "Urso Martín Camacho Roque",
+      "program": "comunicacion",
+      "level": "Licenciatura",
+      "area": "Area 4",
+      "campus": "facultad de estudios superiores acatlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DI8XT185UVTFQANYSJCK383TKG3C3L5RX6VBHJ9QRJBGID7TY7-50382?func=service&doc_library=TES01&doc_number=000619441&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.863704,
+      "titleKey": "hospital central norte de pemex a organizacion desorganizada",
+      "titleFamilyKey": "hospital central norte pemex organiza desorgan"
+    },
+    {
+      "thesisId": "TH_0269488",
+      "title": "propuesta para elevar la calidad en el servicio del hospital de pemex",
+      "year": 1998,
+      "author": "Maria del Carmen Velasco Bravo",
+      "advisor": "Arturo Vargas Washington",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "universidad nuevo mundo",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JHUNFG7DY9VPL7G2NB43PDD2RP9YD8FJ6M43VRGBAPHYRU6FB7-18162?func=service&doc_library=TES01&doc_number=000259850&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.862208,
+      "titleKey": "propuesta para elevar la calidad en el servicio del hospital de pemex",
+      "titleFamilyKey": "propuest elevar cali servicio hospital pemex"
+    }
+  ]
+}

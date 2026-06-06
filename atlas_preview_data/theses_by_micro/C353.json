@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C353",
+    "clusterId": 353,
+    "macroId": "Area3_M06",
+    "area": "Area 3",
+    "size": 16,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0101980",
+      "title": "analisis e interpretacion de estados financieros",
+      "year": 1969,
+      "author": "Xavier Figueroa Navarro",
+      "advisor": "Asesor no registrado",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/KKBIRVFGMDMHXA7IRTPKHFQG1DGYEY8KHKI2SL82T4QCGV43SY-06979?func=service&doc_library=TES01&doc_number=000078246&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999927,
+      "titleKey": "analisis e interpretacion de estados financieros",
+      "titleFamilyKey": "analisis interpreta estados financie"
+    },
+    {
+      "thesisId": "TH_0567961",
+      "title": "Analisis e interpretacion de estados financieros",
+      "year": 1980,
+      "author": "Angela del Carmen Contreras",
+      "advisor": "Asesor no registrado",
+      "program": "Contaduría",
+      "level": "licenciatura",
+      "area": "Ciencias Sociales",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0003749/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.999927,
+      "titleKey": "analisis e interpretacion de estados financieros",
+      "titleFamilyKey": "analisis interpreta estados financie"
+    },
+    {
+      "thesisId": "TH_0600415",
+      "title": "Analisis e interpretacion de los estados financieros",
+      "year": 1995,
+      "author": "Beatriz Calderon Infante",
+      "advisor": "Roberto Resa Monroy",
+      "program": "Contaduría",
+      "level": "licenciatura",
+      "area": "Ciencias Sociales",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/ppt1997/0227261/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.998258,
+      "titleKey": "analisis e interpretacion de los estados financieros",
+      "titleFamilyKey": "analisis interpreta estados financie"
+    },
+    {
+      "thesisId": "TH_0114972",
+      "title": "analisis e interpretacion contable de los estados financieros",
+      "year": 1972,
+      "author": "Gloria Ortega Covarrubias",
+      "advisor": "Roberto Herrera Vargas",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N7JREXUPMHAHEDYLB8J8LGQHU5NDLM74T7NPAQDSBXEQB28VXN-14160?func=service&doc_library=TES01&doc_number=000090822&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.989189,
+      "titleKey": "analisis e interpretacion contable de los estados financieros",
+      "titleFamilyKey": "analisis interpreta contable estados financie"
+    }
+  ]
+}

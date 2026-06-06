@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C819",
+    "clusterId": 819,
+    "macroId": "Area3_M01",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0246139",
+      "title": "necesidad de equiparar la ratificacion de documentos a la prueba testimonial en cuanto a su desahogo en materia laboral",
+      "year": 1996,
+      "author": "Miguel Angel Velasco Pinon",
+      "advisor": "Alfonso Omar Vivas Zacarias",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JTHMY5FFEU5IYNEFR2RXL661C4A6EDFVXF58QK9YPJJ6DY8G9K-45591?func=service&doc_library=TES01&doc_number=000241594&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.971545,
+      "titleKey": "necesidad de equiparar la ratificacion de documentos a la prueba testimonial en cuanto a su desahogo en materia laboral",
+      "titleFamilyKey": "neces equipara ratifica document prueba testimon cuanto desahogo"
+    },
+    {
+      "thesisId": "TH_0250517",
+      "title": "la prueba en el proceso laboral de testimonial y de ratificacion de documentos sus semejanzas y discrepancias",
+      "year": 1997,
+      "author": "Susana Gomez Cardel",
+      "advisor": "Leticia María del Rosario Araiza Méndez · +1 más",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "universidad del valle de mexico",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5HC68QGQSQF1BUP7Q2GPMVS2K4G7KUMY4B9TI73VCL1CACFSY2-08359?func=service&doc_library=TES01&doc_number=000254837&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.965546,
+      "titleKey": "la prueba en el proceso laboral de testimonial y de ratificacion de documentos sus semejanzas y discrepancias",
+      "titleFamilyKey": "prueba proceso laboral testimon ratifica document semejanz discrepa"
+    },
+    {
+      "thesisId": "TH_0336479",
+      "title": "análisis de la ratificación de documentos por terceros en cuanto a su desahogo en el procedimiento laboral",
+      "year": 2009,
+      "author": "Sheila Arriaga Lecona",
+      "advisor": "Leticia Domínguez Subias",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-09137?func=service&doc_library=TES01&doc_number=000641011&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.916759,
+      "titleKey": "analisis de la ratificacion de documentos por terceros en cuanto a su desahogo en el procedimiento laboral",
+      "titleFamilyKey": "analisis ratifica document terceros cuanto desahogo procedi laboral"
+    },
+    {
+      "thesisId": "TH_0248402",
+      "title": "prueba de ratificacion como medio de perfeccionamiento en el derecho procesal del trabajo",
+      "year": 1997,
+      "author": "Isela Castillo Reyes",
+      "advisor": "Rodolfo Hernandez Garcia",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5HC68QGQSQF1BUP7Q2GPMVS2K4G7KUMY4B9TI73VCL1CACFSY2-03193?func=service&doc_library=TES01&doc_number=000253052&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.903398,
+      "titleKey": "prueba de ratificacion como medio de perfeccionamiento en el derecho procesal del trabajo",
+      "titleFamilyKey": "prueba ratifica como medio perfecciona derecho procesal trabajo"
+    },
+    {
+      "thesisId": "TH_0195017",
+      "title": "similitudes y diferencias entre la prueba testimonial y la ratificacion de documentos",
+      "year": 1990,
+      "author": "Columba Martinez Vazquez",
+      "advisor": "Luis Monsalvo Valderrama",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ISYYJTG35CVF9K2CIL1DAA57BB2YHLHG154VUPA69IIJGPL3TR-17740?func=service&doc_library=TES01&doc_number=000123268&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.887183,
+      "titleKey": "similitudes y diferencias entre la prueba testimonial y la ratificacion de documentos",
+      "titleFamilyKey": "similitu diferenc prueba testimon ratifica document"
+    }
+  ]
+}

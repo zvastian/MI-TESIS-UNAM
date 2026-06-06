@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C876",
+    "clusterId": 876,
+    "macroId": "Area3_M04",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0539895",
+      "title": "\"estudio sobre reclutamiento y selección de personal en el departamento de seguridad pública municipal de coatzacoalcos, veracruz\"",
+      "year": 2024,
+      "author": "Fernando García Madrigal",
+      "advisor": "Raúl de Jesús Ocampo Colín",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "universidad de sotavento",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-05589?func=service&doc_library=TES01&doc_number=000853810&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.923759,
+      "titleKey": "estudio sobre reclutamiento y seleccion de personal en el departamento de seguridad publica municipal de coatzacoalcos veracruz",
+      "titleFamilyKey": "estudio recluta selec personal departam segur publica municipa"
+    },
+    {
+      "thesisId": "TH_0511977",
+      "title": "\"desarrollo de experiencia profesional ejecutado en el edificio de seguridad pública municipal de ayapango, estado de méxico\"",
+      "year": 2022,
+      "author": "Luis Daniel Díaz Treviño",
+      "advisor": "Ma. Alejandra Garnica Aguiñaga",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "universidad alzate de ozumba",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-70674?func=service&doc_library=TES01&doc_number=000825376&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.879267,
+      "titleKey": "desarrollo de experiencia profesional ejecutado en el edificio de seguridad publica municipal de ayapango estado de mexico",
+      "titleFamilyKey": "desarrol experien profesio ejecutad edificio segur publica municipa"
+    },
+    {
+      "thesisId": "TH_0217135",
+      "title": "diagnostico de la funcionabilidad de la evaluacion del desempeno del personal en la ciudad de veracruz",
+      "year": 1993,
+      "author": "Adriana Guadalupe Baca Lebrun",
+      "advisor": "Ramón Ríos Espinosa",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "universidad villa rica",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/M2VBNV5LCYY4A74T9627TGDFHNGGDMVL94K5V36UICF9IHKJ8T-13480?func=service&doc_library=TES01&doc_number=000199601&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.840091,
+      "titleKey": "diagnostico de la funcionabilidad de la evaluacion del desempeno del personal en la ciudad de veracruz",
+      "titleFamilyKey": "diagnost funcionabil evalua desempen personal ciudad veracruz"
+    },
+    {
+      "thesisId": "TH_0535002",
+      "title": "residencia de obra en la construcción del cuartel de policía en el municipio de malinalco, estado de méxico, 2014",
+      "year": 2023,
+      "author": "Alberto Velázquez Dávila",
+      "advisor": "Claudia Rocio Cervantes Sanchez",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores acatlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GKG46Q5J6TJGRXX619352L8C41K61PI2S7IT64P9RPLJM15UUN-28280?func=service&doc_library=TES01&doc_number=000836532&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.83529,
+      "titleKey": "residencia de obra en la construccion del cuartel de policia en el municipio de malinalco estado de mexico 2014",
+      "titleFamilyKey": "residenc obra construc cuartel policia municipi malinalc estado"
+    },
+    {
+      "thesisId": "TH_0358222",
+      "title": "proceso de selección y evaluación de aspirantes a policía del estado de veracruz y revalidación de licencia oficial colectiva",
+      "year": 2019,
+      "author": "Pascual Perea Corona",
+      "advisor": "Juan Martínez Hernández",
+      "program": "psicologia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "universidad alzate de ozumba",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-45786?func=service&doc_library=TES01&doc_number=000797045&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.830586,
+      "titleKey": "proceso de seleccion y evaluacion de aspirantes a policia del estado de veracruz y revalidacion de licencia oficial colectiva",
+      "titleFamilyKey": "proceso selec evalua aspirant policia estado veracruz revalida"
+    }
+  ]
+}

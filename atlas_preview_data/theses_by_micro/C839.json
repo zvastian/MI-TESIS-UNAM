@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C839",
+    "clusterId": 839,
+    "macroId": "Area1_M07",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0431389",
+      "title": "análisis e implementación del cloud computing",
+      "year": 2015,
+      "author": "Gerardo Eduardo Blancas Carbajal",
+      "advisor": "Carlos Alberto Román Zamítiz",
+      "program": "ingenieria en computacion",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-13374?func=service&doc_library=TES01&doc_number=000727028&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.914828,
+      "titleKey": "analisis e implementacion del cloud computing",
+      "titleFamilyKey": "analisis implementa cloud computin"
+    },
+    {
+      "thesisId": "TH_0348922",
+      "title": "modelo de procesos para desarrollos basados en la nube",
+      "year": 2019,
+      "author": "David Antúnez Montoya",
+      "advisor": "María Guadalupe Elena Ibarguengoitia González",
+      "program": "ciencia e ingenieria de la computacion",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "instituto de investigaciones en matematicas aplicadas y en sistemas unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/E6IJ83V9VTYM8X5JT1PIN25DGNXN8KVVCIFJS6GEDBI9IA7SVS-14841?func=service&doc_library=TES01&doc_number=000784204&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.906357,
+      "titleKey": "modelo de procesos para desarrollos basados en la nube",
+      "titleFamilyKey": "modelo procesos desarrol basados nube"
+    },
+    {
+      "thesisId": "TH_0470595",
+      "title": "implementación de una aplicación en la nube para desarrollo de software",
+      "year": 2017,
+      "author": "Ken Ruiz Inoue",
+      "advisor": "María Jaquelina López Barrientos",
+      "program": "ingenieria en computacion",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-44225?func=service&doc_library=TES01&doc_number=000767653&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.857403,
+      "titleKey": "implementacion de una aplicacion en la nube para desarrollo de software",
+      "titleFamilyKey": "implementa aplica nube desarrol software"
+    },
+    {
+      "thesisId": "TH_0353184",
+      "title": "gravamen de las operaciones internacionales que utilizan cloud computing",
+      "year": 2019,
+      "author": "Liz Miriam González Barajas",
+      "advisor": "Martha Angelina Valle Solís",
+      "program": "fiscal",
+      "level": "Especialidad",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-45179?func=service&doc_library=TES01&doc_number=000795843&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.844585,
+      "titleKey": "gravamen de las operaciones internacionales que utilizan cloud computing",
+      "titleFamilyKey": "gravamen operaci internac que utilizan cloud computin"
+    },
+    {
+      "thesisId": "TH_0267514",
+      "title": "realizacion de un sistema experto para el calculo de nubes explosivas",
+      "year": 1998,
+      "author": "Reyna Isabel Rodriguez Pimentel",
+      "advisor": "Eduardo Vazquez Zamora",
+      "program": "ingenieria quimica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JHUNFG7DY9VPL7G2NB43PDD2RP9YD8FJ6M43VRGBAPHYRU6FB7-00887?func=service&doc_library=TES01&doc_number=000260458&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.819577,
+      "titleKey": "realizacion de un sistema experto para el calculo de nubes explosivas",
+      "titleFamilyKey": "realiza sistema experto calculo nubes explosiv"
+    }
+  ]
+}

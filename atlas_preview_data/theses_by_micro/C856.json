@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C856",
+    "clusterId": 856,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0447157",
+      "title": "uso de ácido hialurónico como una alternativa para la regeneración de papila interdental",
+      "year": 2016,
+      "author": "Daniela Corte Sánchez",
+      "advisor": "Beatríz Raquel Yáñez Ocampo",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ERYGNQS1UF5ALV91F8IVY5IPF6XDJDBCJ54EMDULMD5EQG8NG9-73780?func=service&doc_library=TES01&doc_number=000743139&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.946453,
+      "titleKey": "uso de acido hialuronico como una alternativa para la regeneracion de papila interdental",
+      "titleFamilyKey": "uso acido hialuron como alternat regenera papila interden"
+    },
+    {
+      "thesisId": "TH_0515711",
+      "title": "ácido hialurónico : una alternativa para restablecer el volumen de la papila interdental",
+      "year": 2022,
+      "author": "Mario Fernando Marcos Viquez",
+      "advisor": "Aurora Beatriz Ortiz Cruz",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-18622?func=service&doc_library=TES01&doc_number=000824145&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.886309,
+      "titleKey": "acido hialuronico una alternativa para restablecer el volumen de la papila interdental",
+      "titleFamilyKey": "acido hialuron alternat restable volumen papila interden"
+    },
+    {
+      "thesisId": "TH_0512790",
+      "title": "uso del ácido hialurónico para coadyuvar a la regeneración de los tejidos orales",
+      "year": 2022,
+      "author": "Claudia Hidali Galindo Pineda",
+      "advisor": "Alba Estela Basurto Calva · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-16330?func=service&doc_library=TES01&doc_number=000821110&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.860461,
+      "titleKey": "uso del acido hialuronico para coadyuvar a la regeneracion de los tejidos orales",
+      "titleFamilyKey": "uso acido hialuron coadyuva regenera tejidos orales"
+    },
+    {
+      "thesisId": "TH_0449451",
+      "title": "evaluación de la eficacia del ácido hialurónico en regeneración tisular guiada",
+      "year": 2016,
+      "author": "Dante Luis González Enríquez",
+      "advisor": "Irlanda Barrón Garcés",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ERYGNQS1UF5ALV91F8IVY5IPF6XDJDBCJ54EMDULMD5EQG8NG9-46587?func=service&doc_library=TES01&doc_number=000752067&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.854645,
+      "titleKey": "evaluacion de la eficacia del acido hialuronico en regeneracion tisular guiada",
+      "titleFamilyKey": "evalua eficacia acido hialuron regenera tisular guiada"
+    },
+    {
+      "thesisId": "TH_0358888",
+      "title": "uso de ácido hialurónico como técnica no quirúrgica para la reconstrucción de la papila interdental en pacientes de posgrado de odontología de la universidad nacional autónoma de méxico",
+      "year": 2019,
+      "author": "Miguel Ángel Ramírez Hernández",
+      "advisor": "Mercedes Guadalupe Porras Ocampo · +2 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-46166?func=service&doc_library=TES01&doc_number=000795293&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.843612,
+      "titleKey": "uso de acido hialuronico como tecnica no quirurgica para la reconstruccion de la papila interdental en pacientes de posgrado de odontologia de la universidad nacional autonoma de mexico",
+      "titleFamilyKey": "uso acido hialuron como tecnica quirurgi reconstruc papila"
+    }
+  ]
+}

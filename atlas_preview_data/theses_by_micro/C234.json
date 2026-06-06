@@ -1,0 +1,53 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C234",
+    "clusterId": 234,
+    "macroId": "Area2_M02",
+    "area": "Por clasificar",
+    "size": 27,
+    "shown": 2,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0564077",
+      "title": "Operatoria dental",
+      "year": 1980,
+      "author": "Rosa Maria Perez Santos",
+      "advisor": "Erasmo González Coss",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0016938/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 1.0,
+      "titleKey": "operatoria dental",
+      "titleFamilyKey": "operator dental"
+    },
+    {
+      "thesisId": "TH_0568773",
+      "title": "Operatoria dental",
+      "year": 1980,
+      "author": "Abel Victorio de la Cruz",
+      "advisor": "Ignacio Oceguera",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0017005/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 1.0,
+      "titleKey": "operatoria dental",
+      "titleFamilyKey": "operator dental"
+    }
+  ]
+}

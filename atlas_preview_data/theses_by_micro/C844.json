@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C844",
+    "clusterId": 844,
+    "macroId": "Area1_M01",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0409285",
+      "title": "modelación de la circulación en la bahía de la paz, b. c. s",
+      "year": 2013,
+      "author": "Jorge Luis Martinez Merida",
+      "advisor": "María Adela Monreal Gómez",
+      "program": "ciencias del mar y limnologia",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "instituto de ciencias del mar y limnologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/1MPA5FVFYT3S2S7U62UED1YUCADU9E92GG51BV61RFMEXG4SYH-01816?func=service&doc_library=TES01&doc_number=000687667&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.941553,
+      "titleKey": "modelacion de la circulacion en la bahia de la paz b c s",
+      "titleFamilyKey": "modela circula bahia paz"
+    },
+    {
+      "thesisId": "TH_0366830",
+      "title": "análisis de las características del giro ciclónico de la bahía de la paz",
+      "year": 2010,
+      "author": "Sarai García Mirafuentes",
+      "advisor": "María Adela Monreal Gómez · +4 más",
+      "program": "ciencias del mar y limnologia",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "instituto de ciencias del mar y limnologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JYY5361NQSBDCKIJ1KHECBBSGK7KGGJQ4FJ8G2CN4CKX73CKPN-22220?func=service&doc_library=TES01&doc_number=000666443&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.938294,
+      "titleKey": "analisis de las caracteristicas del giro ciclonico de la bahia de la paz",
+      "titleFamilyKey": "analisis caracter giro ciclonic bahia paz"
+    },
+    {
+      "thesisId": "TH_0448657",
+      "title": "conformación de un modelo batimétrico de alta resolución de la bahía de la paz",
+      "year": 2016,
+      "author": "Celia Gama Osorio",
+      "advisor": "Ligia Pérez-Cruz",
+      "program": "ingenieria geofisica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ERYGNQS1UF5ALV91F8IVY5IPF6XDJDBCJ54EMDULMD5EQG8NG9-28442?func=service&doc_library=TES01&doc_number=000753454&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.929086,
+      "titleKey": "conformacion de un modelo batimetrico de alta resolucion de la bahia de la paz",
+      "titleFamilyKey": "conforma modelo batimetr alta resolu bahia paz"
+    },
+    {
+      "thesisId": "TH_0430339",
+      "title": "aplicación de un modelo npz-hidrodinámico a la bahía de la paz",
+      "year": 2015,
+      "author": "Víctor Hugo Alvarado Becerril",
+      "advisor": "David Alberto Salas de León",
+      "program": "ciencias del mar y limnologia",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-02965?func=service&doc_library=TES01&doc_number=000731118&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.868097,
+      "titleKey": "aplicacion de un modelo npz hidrodinamico a la bahia de la paz",
+      "titleFamilyKey": "aplica modelo npz hidrodin bahia paz"
+    },
+    {
+      "thesisId": "TH_0240837",
+      "title": "analisis de procesos barotropicos y baroclinicos de la bahia de la paz b.c.s",
+      "year": 1996,
+      "author": "Angel Rafael Jimenez Illescas",
+      "advisor": "David Alberto Salas de León",
+      "program": "oceanografia fisica",
+      "level": "Doctorado",
+      "area": "Area 1",
+      "campus": "colegio de ciencias y humanidades unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JTHMY5FFEU5IYNEFR2RXL661C4A6EDFVXF58QK9YPJJ6DY8G9K-20289?func=service&doc_library=TES01&doc_number=000241397&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.843429,
+      "titleKey": "analisis de procesos barotropicos y baroclinicos de la bahia de la paz b c s",
+      "titleFamilyKey": "analisis procesos barotrop baroclin bahia paz"
+    }
+  ]
+}

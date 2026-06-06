@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C846",
+    "clusterId": 846,
+    "macroId": "Area3_M04",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0459551",
+      "title": "la aportación educativa de finlandia y la reforma educativa para méxico",
+      "year": 2017,
+      "author": "Octavio Arellano Velasco",
+      "advisor": "Joel Herrera López",
+      "program": "ciencias politicas y administracion publica",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SBRSTJFN69GY4RQ1BKMPGPM99XCINAYU3UY4QVI6DP2BPLI1LL-24026?func=service&doc_library=TES01&doc_number=000766114&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.92898,
+      "titleKey": "la aportacion educativa de finlandia y la reforma educativa para mexico",
+      "titleFamilyKey": "aporta educativ finlandi reforma educativ mexico"
+    },
+    {
+      "thesisId": "TH_0548287",
+      "title": "análisis comparativo de las reformas educativas en méxico y finlandia : retos y desafíos para el sistema mexicano 2018-2024",
+      "year": 2024,
+      "author": "Alejandro Torres Castro",
+      "advisor": "Penelope García Aranda",
+      "program": "relaciones internacionales",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-00602?func=service&doc_library=TES01&doc_number=000855381&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.913423,
+      "titleKey": "analisis comparativo de las reformas educativas en mexico y finlandia retos y desafios para el sistema mexicano 2018 2024",
+      "titleFamilyKey": "analisis comparat reformas educativ mexico finlandi retos desafios"
+    },
+    {
+      "thesisId": "TH_0437298",
+      "title": "la importancia de la educación en el marco de los objetivos del milenio y su reflejo en el programa de educación para todos : expectativas y resultados para 2015 , caso méxico-finlandia",
+      "year": 2015,
+      "author": "Lucero Lozano Vilchis",
+      "advisor": "Gabriela Delgado Ballesteros",
+      "program": "relaciones internacionales",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-16758?func=service&doc_library=TES01&doc_number=000734952&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.909612,
+      "titleKey": "la importancia de la educacion en el marco de los objetivos del milenio y su reflejo en el programa de educacion para todos expectativas y resultados para 2015 caso mexico finlandia",
+      "titleFamilyKey": "importan educa marco objetivo milenio reflejo programa educa"
+    },
+    {
+      "thesisId": "TH_0484963",
+      "title": "finlandia y méxico : comparación entre los sistemas educativos de dos paises miembros de la ocde resultados comparativos de la prueba pisa 2015",
+      "year": 2018,
+      "author": "Marco Iziel Romero Rivas",
+      "advisor": "Penélope García Aranda",
+      "program": "relaciones internacionales",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-24469?func=service&doc_library=TES01&doc_number=000774280&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.892463,
+      "titleKey": "finlandia y mexico comparacion entre los sistemas educativos de dos paises miembros de la ocde resultados comparativos de la prueba pisa 2015",
+      "titleFamilyKey": "finlandi mexico compara sistemas educativ dos paises miembros"
+    },
+    {
+      "thesisId": "TH_0345973",
+      "title": "pérfil del pedagogo como actor social para el alcance en méxico de los objetivos de desarrollo del milenio",
+      "year": 2009,
+      "author": "Adriana Roque del Ángel",
+      "advisor": "María de los Ángeles Trejo González",
+      "program": "pedagogia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores acatlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-45073?func=service&doc_library=TES01&doc_number=000650965&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.851786,
+      "titleKey": "perfil del pedagogo como actor social para el alcance en mexico de los objetivos de desarrollo del milenio",
+      "titleFamilyKey": "perfil pedagogo como actor social alcance mexico objetivo"
+    }
+  ]
+}

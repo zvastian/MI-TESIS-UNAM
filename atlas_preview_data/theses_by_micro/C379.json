@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C379",
+    "clusterId": 379,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 16,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0134157",
+      "title": "generalidades en odontologia infantil",
+      "year": 1977,
+      "author": "Amelia Escudero Rodriguez",
+      "advisor": "José Tarsicio Escamilla Pérez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7MP7L8T99DA3UQIEU6SAKX5AP6PUYFXJ4XEV75TL3VBQ27AHPB-22432?func=service&doc_library=TES01&doc_number=000152564&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.99868,
+      "titleKey": "generalidades en odontologia infantil",
+      "titleFamilyKey": "generalid odontolo infantil"
+    },
+    {
+      "thesisId": "TH_0139060",
+      "title": "generalidades en odontologia infantil",
+      "year": 1978,
+      "author": "Elia Maricela Gonzalez Hernandez",
+      "advisor": "Jorge Jesus Alvarez Peña",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5L5TS12VQ68VIUXEJUXTSXA1R9J12JS3BATU94THFADKP51P54-22354?func=service&doc_library=TES01&doc_number=000149263&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.99868,
+      "titleKey": "generalidades en odontologia infantil",
+      "titleFamilyKey": "generalid odontolo infantil"
+    },
+    {
+      "thesisId": "TH_0158495",
+      "title": "generalidades de la odontologia infantil",
+      "year": 1982,
+      "author": "Elena Vazquez Perez",
+      "advisor": "Guadalupe Nieto Martinez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-06428?func=service&doc_library=TES01&doc_number=000026140&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998431,
+      "titleKey": "generalidades de la odontologia infantil",
+      "titleFamilyKey": "generalid odontolo infantil"
+    },
+    {
+      "thesisId": "TH_0162214",
+      "title": "generalidades de la odontologia infantil",
+      "year": 1983,
+      "author": "Irene López Salinas",
+      "advisor": "Gustavo Humberto Dominguez Ramos",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/KPK4S9PPDPXJQ6F1FY5NMQ8P8QHGLFYTT37RP4KU7BRPA2VM4B-63238?func=service&doc_library=TES01&doc_number=000029040&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998431,
+      "titleKey": "generalidades de la odontologia infantil",
+      "titleFamilyKey": "generalid odontolo infantil"
+    }
+  ]
+}

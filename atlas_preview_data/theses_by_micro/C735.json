@@ -1,0 +1,69 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C735",
+    "clusterId": 735,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 3,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0569969",
+      "title": "Generalidades endodonticas",
+      "year": 1985,
+      "author": "Maria de Jesus Hernandez Espinosa",
+      "advisor": "José Antonio Pérez Brand",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0038175/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.999352,
+      "titleKey": "generalidades endodonticas",
+      "titleFamilyKey": "generalid endodont"
+    },
+    {
+      "thesisId": "TH_0587629",
+      "title": "Generalidades endodonticas",
+      "year": 1989,
+      "author": "Adrian García Balderas",
+      "advisor": "Gerardo Fabian Bustamante",
+      "program": "Cirujano Dentista",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2017/0094665/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.999351,
+      "titleKey": "generalidades endodonticas",
+      "titleFamilyKey": "generalid endodont"
+    },
+    {
+      "thesisId": "TH_0086079",
+      "title": "generalidades endodoncicas",
+      "year": 1962,
+      "author": "Roberto Alvarado Coello",
+      "advisor": "Francisco, Almicar Mijangos Navarro",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q8MDNRDY8K8J7X1XP17K3FRU1JS2GPF3MY57BEK7BNLACNRNMS-56143?func=service&doc_library=TES01&doc_number=000138740&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.989572,
+      "titleKey": "generalidades endodoncicas",
+      "titleFamilyKey": "generalid endodonc"
+    }
+  ]
+}

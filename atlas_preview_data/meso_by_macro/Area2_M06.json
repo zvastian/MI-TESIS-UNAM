@@ -1,0 +1,139 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M06",
+    "label": "Oncología, Urología y Patología Clínica",
+    "shortLabel": "Oncología, Urología y Patología C...",
+    "area": "Area 2",
+    "size": 8051,
+    "description": "producción sobre oncología, urología, anatom?a patol?gica, ginecología oncol?gica, cirugía y diagn?stico cl?nico."
+  },
+  "nodes": [
+    {
+      "id": "C12",
+      "clusterId": 12,
+      "macroId": "Area2_M06",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Cancer Mama - Cirujano Dentista",
+      "size": 7226,
+      "radius": 30.0,
+      "position": {
+        "x": 0.47555,
+        "y": -0.32323
+      },
+      "dominantAreaShare": 0.9226,
+      "programsTop": "Cirujano Dentista (630) | Ginecologia y Obstetricia (564) | Cirugia Oncologica (382) | Biologia (351) | Medicina Familiar (307) | Oncologia Medica (284) | Anatomia Patologica (267) | Psicologia (258) | Cirugia General (230) | Ginecologia Oncologica (209)",
+      "levelsTop": "Especialidad (4678) | Licenciatura (1945) | Maestria (405) | Doctorado (194)",
+      "campusesTop": "Facultad de Medicina Unam (4834) | Facultad de Odontologia Unam (532) | Facultad de Estudios Superiores Zaragoza Unam (362) | No Especificado Unam (215) | Facultad de Quimica Unam (207) | Facultad de Estudios Superiores Iztacala Unam (178)",
+      "sampleTitles": "evaluacion del efecto microbicida de leucocitos humanos en pacientes con cancer cervico uterino | cancer laringeo | biopsia por aspiracion con aguja fina | cancer gastrico | neoplasias benignas de la cavidad bucal | displasia fibrosa | tratamiento de la mastopatia fibroquistica con lisurida | cancer cervico uterino",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Cancer Mama - Cirujano Dentista",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C103",
+      "clusterId": 103,
+      "macroId": "Area2_M06",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Hematologia",
+      "size": 1247,
+      "radius": 20.75,
+      "position": {
+        "x": -0.29814,
+        "y": -0.64395
+      },
+      "dominantAreaShare": 0.927,
+      "programsTop": "Hematologia (162) | Pediatria (140) | Cirujano Dentista (99) | Hematologia Pediatrica (88) | Medico Cirujano (81) | Pediatria Medica (75) | Oncologia Pediatrica (69) | Quimica Farmaceutico Biologica (68) | Medicina Veterinaria y Zootecnia (47) | Medicina Interna (37)",
+      "levelsTop": "Especialidad (767) | Licenciatura (406) | Maestria (58) | Doctorado (16)",
+      "campusesTop": "Facultad de Medicina Unam (834) | Facultad de Odontologia Unam (66) | Facultad de Quimica Unam (56) | Facultad de Estudios Superiores Iztacala Unam (47) | Facultad de Estudios Superiores Zaragoza Unam (40) | Facultad de Medicina Veterinaria y Zootecnia Unam (39)",
+      "sampleTitles": "catastro sanitario del municipio de tecozautla, hidalgo | epidemiologia de la lesion medular traumatica en el distrito federal | epidemiologia de la enfermedad parodontal | aspecto actual del manejo y tratamiento de la leucemia aguda linfoblastica en ninos | leucoplasia oral | Estudio morfologico estructural de leucemias agudas en sangre periferica y medula osea metodo de concentrado celular | alteraciones cognitivas en pacientes pediátricos con leucemia linfoblástica aguda : impacto del tratamiento | evolucion de la fiebre y la neutropenia en niños con leucemia aguda linfoblastica en etapa de induccion a la remision con diagnostico presuncional de sepsis despues del uso de antimicrobianos de amplio espectro. revision de 1981-1989, en el instituto nacional de pediatria",
+      "color": "#2E9D71",
+      "originalLabel": "Hematologia",
+      "shortLabel": "Hematologia",
+      "labelMethod": "unique_original"
+    },
+    {
+      "id": "C120",
+      "clusterId": 120,
+      "macroId": "Area2_M06",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Urologia",
+      "size": 692,
+      "radius": 17.65,
+      "position": {
+        "x": -0.75611,
+        "y": -0.29856
+      },
+      "dominantAreaShare": 0.9783,
+      "programsTop": "Urologia (293) | Anestesiologia (57) | Anatomia Patologica (46) | Medico Cirujano (32) | Quimica Farmaceutico Biologica (27) | Radiodiagnostico (23) | Medicina Familiar (22) | Radio Oncologia (19) | Oncologia Medica (18) | Imagenologia Diagnostica y Terapeutica (15)",
+      "levelsTop": "Especialidad (572) | Licenciatura (86) | Maestria (20) | Doctorado (13)",
+      "campusesTop": "Facultad de Medicina Unam (607) | Facultad de Quimica Unam (29) | No Especificado Unam (14) | Facultad de Estudios Superiores Cuautitlan Unam (8) | Facultad de Estudios Superiores Zaragoza Unam (4) | Facultad de Estudios Superiores Iztacala Unam (4)",
+      "sampleTitles": "El ultrasonido transrectal y biopsia en el cancer de la prostata | algunas consideraciones sobre la tecnica de la prostatectomia parcial con transiluminacion del recto | biopsia transrectal de prostata guiada por ultrasonido | absorcion de liquido de irrigacion durante la reseccion transuretral de prostata | disfunción eréctil en pacientes post-operados de resección transuretral de próstata en el hospital regional lic. adolfo lopez mateos, issste | \"evolución de los pacientes con cáncer de próstata metastásico resistente a la castración tratados con enzalutamida en el centro médico nacional 20 de noviembre issste\" | estudio prospectivo aleatorizado de radioterapia hipofraccionada vs radioterapia con fraccionamiento estándar en cáncer de próstata t1-t4 riesgo intermedio y alto análisis de tolerancia y morbilidad tardía | contribucion a la propedeutica urologica la exploracion de la prostata y las vesiculas seminales",
+      "color": "#2E9D71",
+      "originalLabel": "Urologia",
+      "shortLabel": "Urologia",
+      "labelMethod": "unique_original"
+    },
+    {
+      "id": "C159",
+      "clusterId": 159,
+      "macroId": "Area2_M06",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Cancer Cavidad Oral - Cirujano Dentista",
+      "size": 133,
+      "radius": 9.0,
+      "position": {
+        "x": 0.89966,
+        "y": 0.02473
+      },
+      "dominantAreaShare": 0.9248,
+      "programsTop": "Cirujano Dentista (112) | Biologia (4) | Ciencias Medicas Odontologicas y de la Salud (4) | Cirugia Oncologica (3) | Ciencias Odontologicas Basicas (3) | Ciencias Odontologicas (2) | Ciencias Biologicas (1) | Odontologia (1) | Odontologia (patologia Bucal) (1) | Patologia Bucal (1)",
+      "levelsTop": "Licenciatura (117) | Maestria (10) | Especialidad (4) | Doctorado (2)",
+      "campusesTop": "Facultad de Odontologia Unam (106) | Facultad de Estudios Superiores Zaragoza Unam (6) | No Especificado Unam (6) | Facultad de Estudios Superiores Iztacala Unam (5) | Facultad de Medicina Unam (3) | Universidad de Ixtlahuaca Cui (2)",
+      "sampleTitles": "tumores benignos y malignos de la cavidad oral | carcinomas orales | cancer en cavidad oral | diagnostico precoz de cancer oral | Carcinomas orales | cancer de la cavidad oral | tumores benignos de la cavidad oral | tumores malignos y benignos en la cavidad oral",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Cancer Cavidad Oral - Cirujano De...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C103",
+      "target": "C12",
+      "count": 37,
+      "meanScore": 0.799149,
+      "maxScore": 0.900782,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C12",
+      "target": "C120",
+      "count": 29,
+      "meanScore": 0.791494,
+      "maxScore": 0.860217,
+      "strokeWidth": 3.0
+    },
+    {
+      "source": "C12",
+      "target": "C159",
+      "count": 5,
+      "meanScore": 0.841059,
+      "maxScore": 0.864873,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

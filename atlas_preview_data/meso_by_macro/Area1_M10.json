@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area1_M10",
+    "label": "Arquitectura, Comunicación y Diseño Aplicado",
+    "shortLabel": "Arquitectura, Comunicación y Dise...",
+    "area": "Area 1",
+    "size": 1891,
+    "description": "Trabajos entre arquitectura, comunicación, periodismo, diseño, psicología y prácticas proyectuales."
+  },
+  "nodes": [
+    {
+      "id": "C91",
+      "clusterId": 91,
+      "macroId": "Area1_M10",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Cultural Deportivo - Arquitectura",
+      "size": 1891,
+      "radius": 19.5,
+      "position": {
+        "x": 0.00043,
+        "y": 0.9
+      },
+      "dominantAreaShare": 0.4368,
+      "programsTop": "Arquitectura (664) | Psicologia (227) | Derecho (184) | Pedagogia (73) | Ciencias de la Comunicacion (68) | Ingenieria Civil (47) | Periodismo (45) | Ingenieria en Computacion (37) | Administracion (33) | Comunicacion y Periodismo (33)",
+      "levelsTop": "Licenciatura (1723) | Maestria (77) | Especialidad (69) | Doctorado (18)",
+      "campusesTop": "Facultad de Arquitectura Unam (488) | Facultad de Estudios Superiores Aragon Unam (228) | Facultad de Ciencias Politicas y Sociales Unam (148) | Facultad de Derecho Unam (115) | Facultad de Estudios Superiores Acatlan Unam (114) | Facultad de Estudios Superiores Iztacala Unam (88)",
+      "sampleTitles": "centro cultural y deportivo | club deportivo | club deportivo y cultural en el d.f | centro deportivo de alto rendimiento | centro social cultural y deportivo | estadio de béisbol para ciudad universitaria | estadio de futbol | cine club en coyoacan",
+      "color": "#D8524A",
+      "originalLabel": "Arquitectura",
+      "shortLabel": "Cultural Deportivo - Arquitectura",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

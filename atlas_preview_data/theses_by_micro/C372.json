@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C372",
+    "clusterId": 372,
+    "macroId": "Area3_M01",
+    "area": "Area 3",
+    "size": 16,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0012306",
+      "title": "la condena condicional",
+      "year": 2001,
+      "author": "Maria Elena Castro Peralta",
+      "advisor": "Joel Segura Mata",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-13910?func=service&doc_library=TES01&doc_number=000297598&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999805,
+      "titleKey": "la condena condicional",
+      "titleFamilyKey": "condena condicio"
+    },
+    {
+      "thesisId": "TH_0064895",
+      "title": "la condena condicional",
+      "year": 1933,
+      "author": "Ladislao Rea Hernandez",
+      "advisor": "Asesor no registrado",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5SKQG29EJ4KE1F2GV4JUTXJF2MY12UIMXJ6B82QESY2HHVKB58-24883?func=service&doc_library=TES01&doc_number=000076714&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.999805,
+      "titleKey": "la condena condicional",
+      "titleFamilyKey": "condena condicio"
+    },
+    {
+      "thesisId": "TH_0064833",
+      "title": "condena condicional",
+      "year": 1933,
+      "author": "Octavio Oreza Jordan",
+      "advisor": "Asesor no registrado",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5SKQG29EJ4KE1F2GV4JUTXJF2MY12UIMXJ6B82QESY2HHVKB58-43514?func=service&doc_library=TES01&doc_number=000076696&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.994252,
+      "titleKey": "condena condicional",
+      "titleFamilyKey": "condena condicio"
+    },
+    {
+      "thesisId": "TH_0077581",
+      "title": "condena condicional",
+      "year": 1951,
+      "author": "L. Enrique Galindo Rivera",
+      "advisor": "Asesor no registrado",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/FE3HMXHHF28P7N7QYI6MYHE8D1D6BX3243SKQXXYPF82FJEV5G-18696?func=service&doc_library=TES01&doc_number=000084365&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.994252,
+      "titleKey": "condena condicional",
+      "titleFamilyKey": "condena condicio"
+    },
+    {
+      "thesisId": "TH_0076249",
+      "title": "temas a proposito de la condena condicional",
+      "year": 1949,
+      "author": "Javier Esquinca Esquinca",
+      "advisor": "Asesor no registrado",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/D2XP8DR7HTUKKRGPKGCUBAJFT53LDQ86RGM3JXQFXIRAQDX5YB-12486?func=service&doc_library=TES01&doc_number=000080690&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.949547,
+      "titleKey": "temas a proposito de la condena condicional",
+      "titleFamilyKey": "temas proposit condena condicio"
+    }
+  ]
+}

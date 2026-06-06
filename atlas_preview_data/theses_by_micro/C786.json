@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C786",
+    "clusterId": 786,
+    "macroId": "Area3_M04",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0314384",
+      "title": "estudio dogmatico del delito de extorsion en el estado de mexico",
+      "year": 2007,
+      "author": "Erika Hernandez Peralta",
+      "advisor": "Juan Jesús Juárez Rojas",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DI8XT185UVTFQANYSJCK383TKG3C3L5RX6VBHJ9QRJBGID7TY7-18576?func=service&doc_library=TES01&doc_number=000604718&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.974441,
+      "titleKey": "estudio dogmatico del delito de extorsion en el estado de mexico",
+      "titleFamilyKey": "estudio dogmatic delito extorsio estado mexico"
+    },
+    {
+      "thesisId": "TH_0437172",
+      "title": "factores que indicen en el delito de extorsión en méxico (1997.01 - 2014.04)",
+      "year": 2015,
+      "author": "Silvia López Navarro",
+      "advisor": "Eduardo Loría Díaz",
+      "program": "econometria aplicada",
+      "level": "Especialidad",
+      "area": "Area 3",
+      "campus": "facultad de economia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-70428?func=service&doc_library=TES01&doc_number=000734903&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.937112,
+      "titleKey": "factores que indicen en el delito de extorsion en mexico 1997 01 2014 04",
+      "titleFamilyKey": "factores que indicen delito extorsio mexico 1997 2014"
+    },
+    {
+      "thesisId": "TH_0254925",
+      "title": "estudio juridico dogmatico del delito de extorsion en mexico (cometido por servidores públicos agentes del ministerio publico y agentes de la policia judicial federal)",
+      "year": 1997,
+      "author": "Oscar Ramirez Domínguez",
+      "advisor": "Roberto Reyes Velázquez",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5HC68QGQSQF1BUP7Q2GPMVS2K4G7KUMY4B9TI73VCL1CACFSY2-05129?func=service&doc_library=TES01&doc_number=000249962&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.934893,
+      "titleKey": "estudio juridico dogmatico del delito de extorsion en mexico cometido por servidores publicos agentes del ministerio publico y agentes de la policia judicial federal",
+      "titleFamilyKey": "estudio juridico dogmatic delito extorsio mexico cometido servidor"
+    },
+    {
+      "thesisId": "TH_0088792",
+      "title": "la extorcion: necesidad de tipificarla en la legislacion mexicana",
+      "year": 1963,
+      "author": "Maria Elena Martin del Campo",
+      "advisor": "Asesor no registrado",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de derecho unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/BS6Q51C9L9R8MMV3FLU44ULT3HEDH8RPJLBSH25CQE2IHC39HB-21095?func=service&doc_library=TES01&doc_number=000095566&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.932408,
+      "titleKey": "la extorcion necesidad de tipificarla en la legislacion mexicana",
+      "titleFamilyKey": "extor neces tipifica legisla mexicana"
+    },
+    {
+      "thesisId": "TH_0519717",
+      "title": "\"extorsión como delito grave en la ciudad de méxico\"",
+      "year": 2022,
+      "author": "Sergio Uriel Salazar Ochoa",
+      "advisor": "Pablo Álvarez Fernández",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-52267?func=service&doc_library=TES01&doc_number=000833339&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.926963,
+      "titleKey": "extorsion como delito grave en la ciudad de mexico",
+      "titleFamilyKey": "extorsio como delito grave ciudad mexico"
+    }
+  ]
+}

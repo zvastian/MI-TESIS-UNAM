@@ -1,0 +1,275 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area1_M00",
+    "label": "Arquitectura, Territorio y Ciudad",
+    "shortLabel": "Arquitectura, Territorio y Ciudad",
+    "area": "Area 1",
+    "size": 21756,
+    "description": "Trabajos sobre arquitectura, urbanismo, territorio, geografía, economía urbana y formas de organización espacial."
+  },
+  "nodes": [
+    {
+      "id": "C10",
+      "clusterId": 10,
+      "macroId": "Area1_M00",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Municipio Mexicano - Arquitectura",
+      "size": 8109,
+      "radius": 30.0,
+      "position": {
+        "x": 0.30788,
+        "y": -0.41329
+      },
+      "dominantAreaShare": 0.5207,
+      "programsTop": "Arquitectura (2600) | Derecho (834) | Ingenieria Civil (656) | Economia (515) | Geografia (319) | Ciencias Politicas y Administracion Publica (233) | Urbanismo (222) | Biologia (188) | Historia (180) | Sociologia (140)",
+      "levelsTop": "Licenciatura (6577) | Maestria (1034) | Doctorado (391) | Especialidad (91)",
+      "campusesTop": "Facultad de Arquitectura Unam (2496) | Facultad de Ingenieria Unam (776) | Facultad de Filosofia y Letras Unam (734) | Facultad de Ciencias Politicas y Sociales Unam (510) | Facultad de Derecho Unam (503) | Facultad de Estudios Superiores Acatlan Unam (448)",
+      "sampleTitles": "el problema de la habitacion en mexico | contribucion al conocimiento de la avifauna de bejucos, municipio de tejupilco, estado de mexico | edificio de estacionamiento en la ciudad de mexico | el municipio mexicano | la auditoria en la mercadotecnia | estudio urbanistico de estacionamientos en la ciudad de mexico | mercado col. las trancas delegacion azcapotzalco, d.f | conjunto habitacional para el spaunam en terrenos de c.u. mexico, d.f",
+      "color": "#D8524A",
+      "originalLabel": "Arquitectura",
+      "shortLabel": "Municipio Mexicano - Arquitectura",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C16",
+      "clusterId": 16,
+      "macroId": "Area1_M00",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Urbano Arquitectónico - Arquitectura",
+      "size": 6964,
+      "radius": 28.85,
+      "position": {
+        "x": -0.58049,
+        "y": 0.23238
+      },
+      "dominantAreaShare": 0.588,
+      "programsTop": "Arquitectura (2784) | Derecho (1448) | Ingenieria Civil (405) | Urbanismo (313) | Geografia (175) | Contaduria (161) | Ciencias Politicas y Administracion Publica (104) | Valuacion Inmobiliaria (100) | Economia (98) | Diseño Industrial (81)",
+      "levelsTop": "Licenciatura (5632) | Maestria (911) | Doctorado (226) | Especialidad (179)",
+      "campusesTop": "Facultad de Arquitectura Unam (3050) | Facultad de Derecho Unam (843) | Facultad de Ingenieria Unam (398) | Facultad de Estudios Superiores Aragon Unam (366) | Facultad de Estudios Superiores Acatlan Unam (352) | No Especificado Unam (329)",
+      "sampleTitles": "programas de vivienda para santiago acahualtepec | Conjunto habitacional | centro de investigaciones en arquitectura y urbanismo | centro social popular | centro de desarrollo comunitario | Embotelladora para la sociedad cooperativa pascual boing en Ixtacuixtla, Tlax. | la vivienda como factor de cambio | factibilidad económica de un proyecto de edificación habitacional sustentable en el distrito federal, para la obtención de un financiamiento",
+      "color": "#D8524A",
+      "originalLabel": "Arquitectura",
+      "shortLabel": "Urbano Arquitectónico - Arquitect...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C73",
+      "clusterId": 73,
+      "macroId": "Area1_M00",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Centro Cultural - Arquitectura",
+      "size": 2634,
+      "radius": 21.54,
+      "position": {
+        "x": -0.64375,
+        "y": -0.29856
+      },
+      "dominantAreaShare": 0.4286,
+      "programsTop": "Arquitectura (1019) | Literatura Dramatica y Teatro (247) | Derecho (187) | Ciencias de la Comunicacion (140) | Historia (64) | Pedagogia (61) | Periodismo (61) | Lengua y Literaturas Hispanicas (58) | Filosofia (41) | Diseño y Comunicacion Visual (40)",
+      "levelsTop": "Licenciatura (2316) | Maestria (231) | Doctorado (76) | Especialidad (6)",
+      "campusesTop": "Facultad de Arquitectura Unam (779) | Facultad de Filosofia y Letras Unam (595) | Facultad de Estudios Superiores Aragon Unam (222) | Facultad de Ciencias Politicas y Sociales Unam (202) | Facultad de Estudios Superiores Acatlan Unam (186) | Facultad de Derecho Unam (110)",
+      "sampleTitles": "centro cultural pizzica en melpignano, italia | centro cultural iztapalapa | museo universitario contemporaneo de arte | centro universitario de estudios cinematograficos | cineteca nacional | centro cultural | casa de la cultura | centro social y cultural",
+      "color": "#D8524A",
+      "originalLabel": "Arquitectura",
+      "shortLabel": "Centro Cultural - Arquitectura",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C79",
+      "clusterId": 79,
+      "macroId": "Area1_M00",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Organización Territorial - Arquitectura",
+      "size": 2464,
+      "radius": 21.04,
+      "position": {
+        "x": 0.56291,
+        "y": 0.54098
+      },
+      "dominantAreaShare": 0.4375,
+      "programsTop": "Arquitectura (787) | Administracion (201) | Geografia (184) | Derecho (180) | Contaduria (171) | Biologia (163) | Economia (147) | Relaciones Internacionales (90) | Ingenieria Civil (66) | Urbanismo (54)",
+      "levelsTop": "Licenciatura (2166) | Maestria (207) | Doctorado (75) | Especialidad (8)",
+      "campusesTop": "Facultad de Arquitectura Unam (683) | Facultad de Contaduria y Administracion Unam (272) | Facultad de Filosofia y Letras Unam (200) | Facultad de Ciencias Politicas y Sociales Unam (136) | Facultad de Estudios Superiores Aragon Unam (131) | Facultad de Derecho Unam (126)",
+      "sampleTitles": "ampliacion centro vacacional oaxtepec | ampliacion centro vacacional oaxtepec mor | condicion juridica del turista en mexico | el turismo como factor de desarrollo | investigacion sobre turismo | el fideicomiso turistico en mexico | Contabilidad Hotelera | contabilidad hotelera",
+      "color": "#D8524A",
+      "originalLabel": "Arquitectura",
+      "shortLabel": "Organización Territorial - Arquit...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C107",
+      "clusterId": 107,
+      "macroId": "Area1_M00",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Ciudad Guanajuato - Arquitectura",
+      "size": 1088,
+      "radius": 14.89,
+      "position": {
+        "x": -0.82481,
+        "y": -0.17593
+      },
+      "dominantAreaShare": 0.4945,
+      "programsTop": "Arquitectura (465) | Derecho (190) | Economia (54) | Medico Cirujano (53) | Geografia (43) | Biologia (28) | Historia (26) | Medicina Veterinaria y Zootecnia (24) | Ingenieria Civil (15) | Administracion (14)",
+      "levelsTop": "Licenciatura (1001) | Maestria (55) | Doctorado (29) | Especialidad (1)",
+      "campusesTop": "Facultad de Arquitectura Unam (386) | Universidad Lasallista Benavente (128) | Facultad de Filosofia y Letras Unam (77) | Facultad de Medicina Unam (54) | Facultad de Derecho Unam (48) | Facultad de Economia Unam (46)",
+      "sampleTitles": "centro comercial en tijuana, baja california | palacio municipal en uruapan, michoacan | palacio federal en manzanillo, col | centro de convenciones u.n.a.m | rastro municipal cerro azul, veracruz | clinica hospital en salamanca, gto | centro artesanal en la ciudad de guanajuato | palacio federal en manzanillo, colima",
+      "color": "#D8524A",
+      "originalLabel": "Arquitectura",
+      "shortLabel": "Ciudad Guanajuato - Arquitectura",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C126",
+      "clusterId": 126,
+      "macroId": "Area1_M00",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Quintana Roo - Arquitectura",
+      "size": 497,
+      "radius": 9.0,
+      "position": {
+        "x": 0.3761,
+        "y": -0.81765
+      },
+      "dominantAreaShare": 1.0,
+      "programsTop": "Arquitectura (494) | Valuacion Inmobiliaria (1) | Tecnologia (1) | Ingenieria Civil (1)",
+      "levelsTop": "Licenciatura (494) | Maestria (2) | Especialidad (1)",
+      "campusesTop": "Facultad de Arquitectura Unam (386) | Facultad de Estudios Superiores Aragon Unam (59) | Facultad de Estudios Superiores Acatlan Unam (20) | Universidad Anahuac (6) | Universidad Autonoma de Guadalajara (6) | Universidad la Salle (5)",
+      "sampleTitles": "Hotel de playa | motel en carretera | hotel de cinco estrellas | hotel de playa en ensenada b.c | hotel en villa rica veracruz | hotel de playa en ensenada, b.c | hotel gran turismo en ixtapa zihuatanejo gro | hotel en la paz baja california sur",
+      "color": "#D8524A",
+      "originalLabel": "Arquitectura",
+      "shortLabel": "Quintana Roo - Arquitectura",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C10",
+      "target": "C16",
+      "count": 300,
+      "meanScore": 0.83589,
+      "maxScore": 0.942021,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C10",
+      "target": "C79",
+      "count": 167,
+      "meanScore": 0.847516,
+      "maxScore": 0.943219,
+      "strokeWidth": 2.372
+    },
+    {
+      "source": "C16",
+      "target": "C79",
+      "count": 85,
+      "meanScore": 0.801558,
+      "maxScore": 0.88797,
+      "strokeWidth": 1.491
+    },
+    {
+      "source": "C16",
+      "target": "C73",
+      "count": 66,
+      "meanScore": 0.816936,
+      "maxScore": 0.90175,
+      "strokeWidth": 1.287
+    },
+    {
+      "source": "C10",
+      "target": "C73",
+      "count": 54,
+      "meanScore": 0.846119,
+      "maxScore": 0.940991,
+      "strokeWidth": 1.158
+    },
+    {
+      "source": "C107",
+      "target": "C16",
+      "count": 39,
+      "meanScore": 0.806749,
+      "maxScore": 0.893698,
+      "strokeWidth": 0.997
+    },
+    {
+      "source": "C10",
+      "target": "C107",
+      "count": 37,
+      "meanScore": 0.819301,
+      "maxScore": 0.92873,
+      "strokeWidth": 0.976
+    },
+    {
+      "source": "C107",
+      "target": "C79",
+      "count": 20,
+      "meanScore": 0.831936,
+      "maxScore": 0.9241,
+      "strokeWidth": 0.793
+    },
+    {
+      "source": "C73",
+      "target": "C79",
+      "count": 18,
+      "meanScore": 0.84578,
+      "maxScore": 0.908348,
+      "strokeWidth": 0.772
+    },
+    {
+      "source": "C107",
+      "target": "C73",
+      "count": 14,
+      "meanScore": 0.834907,
+      "maxScore": 0.899457,
+      "strokeWidth": 0.729
+    },
+    {
+      "source": "C126",
+      "target": "C79",
+      "count": 12,
+      "meanScore": 0.875585,
+      "maxScore": 0.899457,
+      "strokeWidth": 0.707
+    },
+    {
+      "source": "C10",
+      "target": "C126",
+      "count": 6,
+      "meanScore": 0.893997,
+      "maxScore": 0.929382,
+      "strokeWidth": 0.643
+    },
+    {
+      "source": "C126",
+      "target": "C16",
+      "count": 3,
+      "meanScore": 0.868682,
+      "maxScore": 0.931642,
+      "strokeWidth": 0.611
+    },
+    {
+      "source": "C107",
+      "target": "C126",
+      "count": 2,
+      "meanScore": 0.906049,
+      "maxScore": 0.906049,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

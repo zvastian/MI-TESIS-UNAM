@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C808",
+    "clusterId": 808,
+    "macroId": "Area1_M02",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0276067",
+      "title": "simulacion y análisis de un mecanismo de cuatro barras",
+      "year": 1999,
+      "author": "Juan Gabriel Ruiz Muñoz",
+      "advisor": "Felipe Díaz del Castillo Rodríguez",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/UEFY74PPKK8731CEAN7CQMBPIUGTSCA466CNQD5XPP5PABLFS3-39299?func=service&doc_library=TES01&doc_number=000270054&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.921481,
+      "titleKey": "simulacion y analisis de un mecanismo de cuatro barras",
+      "titleFamilyKey": "simula analisis mecanism cuatro barras"
+    },
+    {
+      "thesisId": "TH_0591515",
+      "title": "Sintesis de un mecanismo de cuatro barras",
+      "year": 1989,
+      "author": "José Luis García García",
+      "advisor": "Marco Antonio Alarcon Ramirez",
+      "program": "Ingeniería Mecánica Eléctrica",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0089656/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.888551,
+      "titleKey": "sintesis de un mecanismo de cuatro barras",
+      "titleFamilyKey": "sintesis mecanism cuatro barras"
+    },
+    {
+      "thesisId": "TH_0502860",
+      "title": "diseño, construcción y operación de un sistema de accionamiento de cuatro barras",
+      "year": 2021,
+      "author": "Irving Ricardo Martínez Velasco",
+      "advisor": "Benjamin Contreras Santacruz",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/8CNK4H5X97HH7RQ4T38GXYRMESUFSYN4LAB6XJ1M3E2XEHCU4F-64511?func=service&doc_library=TES01&doc_number=000813503&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.881829,
+      "titleKey": "diseno construccion y operacion de un sistema de accionamiento de cuatro barras",
+      "titleFamilyKey": "diseno construc opera sistema acciona cuatro barras"
+    },
+    {
+      "thesisId": "TH_0184215",
+      "title": "metodos numericos para el análisis y sintesis de mecanismos de barras articuladas",
+      "year": 1988,
+      "author": "Alejandro Flores Guerrero",
+      "advisor": "Federique Jáuregui Renaud",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q6VEJ1KK6P8UTBMDE7CBYC9E8D883HDEQ8PPCFT4U619SFJQ29-00031?func=service&doc_library=TES01&doc_number=000065993&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.87559,
+      "titleKey": "metodos numericos para el analisis y sintesis de mecanismos de barras articuladas",
+      "titleFamilyKey": "metodos numerico analisis sintesis mecanism barras articula"
+    },
+    {
+      "thesisId": "TH_0193577",
+      "title": "elementos para el diseño de barras colectoras en subestaciones",
+      "year": 1990,
+      "author": "Pablo Guerrero Orozco",
+      "advisor": "Pascual Rivera Muñoz",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ISYYJTG35CVF9K2CIL1DAA57BB2YHLHG154VUPA69IIJGPL3TR-00903?func=service&doc_library=TES01&doc_number=000133609&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.851154,
+      "titleKey": "elementos para el diseno de barras colectoras en subestaciones",
+      "titleFamilyKey": "elemento diseno barras colector subestaci"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C873",
+    "clusterId": 873,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0402504",
+      "title": "simulación del enfriamiento asociado con la solidificación de una aleación eutéctica a partir de modelado mecanístico e información experimental",
+      "year": 2013,
+      "author": "E. Cándido Atlatenco",
+      "advisor": "Carlos González Rivera",
+      "program": "metalurgia",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DNNT4PMDVH7MUEIP22HBSXKQDXSC88NG83PH7CASM6JRRXCYS3-24783?func=service&doc_library=TES01&doc_number=000701241&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.917401,
+      "titleKey": "simulacion del enfriamiento asociado con la solidificacion de una aleacion eutectica a partir de modelado mecanistico e informacion experimental",
+      "titleFamilyKey": "simula enfria asociado solidifica alea eutectic partir modelado"
+    },
+    {
+      "thesisId": "TH_0255510",
+      "title": "simulacion e interpretacion de curva de enfriamiento de una aleacion al-si hipoeutectica",
+      "year": 1997,
+      "author": "Sergio Rodriguez Arias",
+      "advisor": "Carlos Gonzalez Rivera",
+      "program": "ingenieria quimica metalurgica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5HC68QGQSQF1BUP7Q2GPMVS2K4G7KUMY4B9TI73VCL1CACFSY2-14713?func=service&doc_library=TES01&doc_number=000249018&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.91301,
+      "titleKey": "simulacion e interpretacion de curva de enfriamiento de una aleacion al si hipoeutectica",
+      "titleFamilyKey": "simula interpreta curva enfria alea hipoeute"
+    },
+    {
+      "thesisId": "TH_0421986",
+      "title": "modelado del enfriamiento y solidificación de una aleación eutectica con base en información experimental",
+      "year": 2014,
+      "author": "Gloria Alicia Jara Chávez",
+      "advisor": "Carlos Gonzáles Rivera",
+      "program": "ingenieria quimica metalurgica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/SJE94G6227D24YUGVES7Q4GLDBG4F8FFQAC8FHR7Q2FFHIDP4L-50119?func=service&doc_library=TES01&doc_number=000712574&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.892339,
+      "titleKey": "modelado del enfriamiento y solidificacion de una aleacion eutectica con base en informacion experimental",
+      "titleFamilyKey": "modelado enfria solidifica alea eutectic base informa experime"
+    },
+    {
+      "thesisId": "TH_0057726",
+      "title": "simulacion y análisis de la cinetica de solidificacion de aleaciones pb-sn mediante modelado mecanistico y procesamiento numerico de curvas de enfriamiento",
+      "year": 2004,
+      "author": "Lazaro Alejandro López Ramirez",
+      "advisor": "Carlos Gonzalez Rivera",
+      "program": "ingenieria quimica",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/IV3AQRNPGP7D4SNCYP7N3HTU85BM1A5YA474V2DA1DSD3CY27F-44561?func=service&doc_library=TES01&doc_number=000327418&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.87035,
+      "titleKey": "simulacion y analisis de la cinetica de solidificacion de aleaciones pb sn mediante modelado mecanistico y procesamiento numerico de curvas de enfriamiento",
+      "titleFamilyKey": "simula analisis cinetica solidifica aleaci mediante modelado mecanist"
+    },
+    {
+      "thesisId": "TH_0381871",
+      "title": "análisis, asistido por computadora de curvas de enfriamiento para una aleación al-si eutéctica sin modificar y modificada con diferentes contenidos de sr",
+      "year": 2011,
+      "author": "Anabell Jiménez Sosa",
+      "advisor": "Carlos González Rivera",
+      "program": "ingenieria quimica metalurgica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3XNJ4G6FHB3SJBFUA3HYH9FBBXXJFJE6XTP4JQQFMIFL6HUXUV-36422?func=service&doc_library=TES01&doc_number=000677074&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.818611,
+      "titleKey": "analisis asistido por computadora de curvas de enfriamiento para una aleacion al si eutectica sin modificar y modificada con diferentes contenidos de sr",
+      "titleFamilyKey": "analisis asistido computad curvas enfria alea eutectic modifica"
+    }
+  ]
+}

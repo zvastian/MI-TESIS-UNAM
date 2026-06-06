@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C868",
+    "clusterId": 868,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0066249",
+      "title": "ovaritis escleroquistica : su concepto y tratamiento",
+      "year": 1936,
+      "author": "Jesus Carmona Alvarez",
+      "advisor": "Asesor no registrado",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/LLQ7V7PL6HD8IJXYHQ3SKTBR7P5XAGR91G9HMBD67S9VXB94SG-48948?func=service&doc_library=TES01&doc_number=000143758&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.95365,
+      "titleKey": "ovaritis escleroquistica su concepto y tratamiento",
+      "titleFamilyKey": "ovaritis escleroq concepto trata"
+    },
+    {
+      "thesisId": "TH_0063389",
+      "title": "contribucion al estudio del tratamiento de la ovaritis esclero-quistica",
+      "year": 1929,
+      "author": "José Durán Cordova",
+      "advisor": "Alejo Larrañaga D.",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/P3EXFJVLBVA6HIFFTQ1G2364U4DAFP4YU28KMM2PP4AKD3FC9V-52695?func=service&doc_library=TES01&doc_number=000138337&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.945635,
+      "titleKey": "contribucion al estudio del tratamiento de la ovaritis esclero quistica",
+      "titleFamilyKey": "contribu estudio trata ovaritis esclero quistica"
+    },
+    {
+      "thesisId": "TH_0063388",
+      "title": "contribucion al estudio del tratamiento de la ovaritis esclero quistica",
+      "year": 1929,
+      "author": "José Durán Cordova",
+      "advisor": "Asesor no registrado",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.945282,
+      "titleKey": "contribucion al estudio del tratamiento de la ovaritis esclero quistica",
+      "titleFamilyKey": "contribu estudio trata ovaritis esclero quistica"
+    },
+    {
+      "thesisId": "TH_0065688",
+      "title": "ovaritis escleroquistica su concepto y tratamiento",
+      "year": 1935,
+      "author": "Jesus Carmona Alvarez",
+      "advisor": "Asesor no registrado",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.939565,
+      "titleKey": "ovaritis escleroquistica su concepto y tratamiento",
+      "titleFamilyKey": "ovaritis escleroq concepto trata"
+    },
+    {
+      "thesisId": "TH_0063623",
+      "title": "contribucion al estudio del seno esfenoidal",
+      "year": 1930,
+      "author": "Enrique Espinosa y Leon",
+      "advisor": "Jose Vicente Manero",
+      "program": "medico cirujano",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/493N6JL7UK256IA2GYQEGVJ4ETRX7JNXUDBD5UMJCGNXGPD5FC-02345?func=service&doc_library=TES01&doc_number=000139714&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.839224,
+      "titleKey": "contribucion al estudio del seno esfenoidal",
+      "titleFamilyKey": "contribu estudio seno esfenoid"
+    }
+  ]
+}

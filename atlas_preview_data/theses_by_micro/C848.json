@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C848",
+    "clusterId": 848,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0478161",
+      "title": "identificación de srnas en geobacter sulfurreducens durante la reducción de fumarato y fe (iii)",
+      "year": 2018,
+      "author": "María Getzabeth González Gutiérrez",
+      "advisor": "Katy Juárez López",
+      "program": "ciencias bioquimicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-57683?func=service&doc_library=TES01&doc_number=000774923&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.912032,
+      "titleKey": "identificacion de srnas en geobacter sulfurreducens durante la reduccion de fumarato y fe iii",
+      "titleFamilyKey": "identifica srnas geobacte sulfurre reduc fumarato iii"
+    },
+    {
+      "thesisId": "TH_0546715",
+      "title": "determinación de la estructura y componentes de biopelícula de diferentes cepas de geobacter sulfurreducens sobre diversas superficies",
+      "year": 2024,
+      "author": "Luis Miguel Rodríguez Torres",
+      "advisor": "Katy Juárez López · +2 más",
+      "program": "ciencias bioquimicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "instituto de biotecnologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-08352?func=service&doc_library=TES01&doc_number=000852312&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.867529,
+      "titleKey": "determinacion de la estructura y componentes de biopelicula de diferentes cepas de geobacter sulfurreducens sobre diversas superficies",
+      "titleFamilyKey": "determina estructu componen biopelic diferent cepas geobacte sulfurre"
+    },
+    {
+      "thesisId": "TH_0514691",
+      "title": "caracterización del regulón gsu1771 de geobacter sulfurreducens en condiciones de formación de biopelícula",
+      "year": 2022,
+      "author": "Juan Bernardo Jaramillo Rodríguez",
+      "advisor": "Katy Juárez López",
+      "program": "ciencias bioquimicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "instituto de biotecnologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-30546?func=service&doc_library=TES01&doc_number=000823773&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.865739,
+      "titleKey": "caracterizacion del regulon gsu1771 de geobacter sulfurreducens en condiciones de formacion de biopelicula",
+      "titleFamilyKey": "caracteriza regulon gsu1771 geobacte sulfurre condici forma biopelic"
+    },
+    {
+      "thesisId": "TH_0075736",
+      "title": "contribucion al conocimiento de las bacterias sulfurosas y ferrosas de mexico",
+      "year": 1948,
+      "author": "Teófilo Herrera",
+      "advisor": "Asesor no registrado",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/6GUX3QPCL39UYRHVKF99C311CEUN3AUTQ2MI477QHJT25H8XGG-22198?func=service&doc_library=TES01&doc_number=000060192&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.847211,
+      "titleKey": "contribucion al conocimiento de las bacterias sulfurosas y ferrosas de mexico",
+      "titleFamilyKey": "contribu conoci bacteria sulfuros ferrosas mexico"
+    },
+    {
+      "thesisId": "TH_0513017",
+      "title": "aislamiento e identificación de bacterias oxidantes del azufre en el jal minero \"la concha\" en taxco de álarcón, guerrero",
+      "year": 2022,
+      "author": "Diana Hansel García Gutiérrez",
+      "advisor": "Jorge Antonio Valdivia Anistro · +1 más",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-22952?func=service&doc_library=TES01&doc_number=000831937&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.809363,
+      "titleKey": "aislamiento e identificacion de bacterias oxidantes del azufre en el jal minero la concha en taxco de alarcon guerrero",
+      "titleFamilyKey": "aisla identifica bacteria oxidante azufre jal minero concha"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C785",
+    "clusterId": 785,
+    "macroId": "Area2_M06",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0473980",
+      "title": "carcinoma mucoepidermoide de alto grado de malignidad : (caso clínico)",
+      "year": 2018,
+      "author": "Moisés Jehu Ata Becerra",
+      "advisor": "Ivonne Sánchez Fabián",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/XAJCXT1VPICXFBS9YNLJR78A9URKBQ3LECFQ4VKIYXAII4TYCC-30232?func=service&doc_library=TES01&doc_number=000774442&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.93523,
+      "titleKey": "carcinoma mucoepidermoide de alto grado de malignidad caso clinico",
+      "titleFamilyKey": "carcinom mucoepid alto grado malign caso clinico"
+    },
+    {
+      "thesisId": "TH_0308839",
+      "title": "conceptos actuales del carcinoma mucoepidermoide",
+      "year": 2007,
+      "author": "Jacqueline Aldana Quintero",
+      "advisor": "Humberto Reyes Guzman",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/MTTGSJYP8VJ1TXME4GIPTHQC6T39PYYV7P8JXE4HRSYGRUJL2E-39389?func=service&doc_library=TES01&doc_number=000618793&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.920313,
+      "titleKey": "conceptos actuales del carcinoma mucoepidermoide",
+      "titleFamilyKey": "concepto actuales carcinom mucoepid"
+    },
+    {
+      "thesisId": "TH_0382262",
+      "title": "paciente pediátrico con carcinoma mucoepidermoide : diagnóstico y tratamiento",
+      "year": 2011,
+      "author": "Dulce Alma López Álvarez",
+      "advisor": "Gustavo Eduardo Pares Vidrio",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3XNJ4G6FHB3SJBFUA3HYH9FBBXXJFJE6XTP4JQQFMIFL6HUXUV-12081?func=service&doc_library=TES01&doc_number=000679541&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.893502,
+      "titleKey": "paciente pediatrico con carcinoma mucoepidermoide diagnostico y tratamiento",
+      "titleFamilyKey": "paciente pediatri carcinom mucoepid diagnost trata"
+    },
+    {
+      "thesisId": "TH_0518511",
+      "title": "análisis del estado de metilación y acetilación en carcinoma mucoepidermoide y carcinoma adenoideo quístico",
+      "year": 2022,
+      "author": "Carla Monserrat Ramírez Martínez",
+      "advisor": "Elba Rosa Leyva Huerta",
+      "program": "ciencias odontologicas basicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-11808?func=service&doc_library=TES01&doc_number=000832772&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.822596,
+      "titleKey": "analisis del estado de metilacion y acetilacion en carcinoma mucoepidermoide y carcinoma adenoideo quistico",
+      "titleFamilyKey": "analisis estado metila acetila carcinom mucoepid carcinom adenoide"
+    },
+    {
+      "thesisId": "TH_0485942",
+      "title": "factores de riesgo asociados al desarrollo de mucositis en pacientes pediátricos con tumores sólidos tratados con quimioterapia a base de cisplatino",
+      "year": 2018,
+      "author": "Sandra Ivett Silis Santos",
+      "advisor": "Osvaldo D Castelán Martínez",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-64330?func=service&doc_library=TES01&doc_number=000772129&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.777622,
+      "titleKey": "factores de riesgo asociados al desarrollo de mucositis en pacientes pediatricos con tumores solidos tratados con quimioterapia a base de cisplatino",
+      "titleFamilyKey": "factores riesgo asociado desarrol mucositi paciente pediatri tumores"
+    }
+  ]
+}

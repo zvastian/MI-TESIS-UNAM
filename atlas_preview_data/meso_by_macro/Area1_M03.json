@@ -1,0 +1,115 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area1_M03",
+    "label": "Física, Energía y Ciencias Básicas",
+    "shortLabel": "Física, Energía y Ciencias Básicas",
+    "area": "Area 1",
+    "size": 5989,
+    "description": "Trabajos de física, astrofísica, energía, electricidad, química y ciencias básicas aplicadas."
+  },
+  "nodes": [
+    {
+      "id": "C70",
+      "clusterId": 70,
+      "macroId": "Area1_M03",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Centro Divulgacion - Física",
+      "size": 2752,
+      "radius": 30.0,
+      "position": {
+        "x": 0.21259,
+        "y": 0.58803
+      },
+      "dominantAreaShare": 0.8223,
+      "programsTop": "Fisica (572) | Ingenieria Mecanica Electrica (342) | Astrofisica (181) | Arquitectura (88) | Ciencias de la Tierra (87) | Astronomia (86) | Ingenieria Electrica Electronica (80) | Energia (72) | Ingenieria Energia (71) | Derecho (70)",
+      "levelsTop": "Licenciatura (1738) | Maestria (620) | Doctorado (356) | Especialidad (37)",
+      "campusesTop": "Facultad de Ciencias Unam (592) | Facultad de Ingenieria Unam (582) | No Especificado Unam (298) | Facultad de Estudios Superiores Cuautitlan Unam (132) | Facultad de Quimica Unam (121) | Facultad de Estudios Superiores Aragon Unam (118)",
+      "sampleTitles": "coronas telescopicas | modelos numéricos de chorros astrofísicos variables | centro de divulgacion de estudios astronomicos : centro cultural universitario | simulación molecular multiescala de moléculas orgánicas con aplicación fotovoltaica | observatorio astronomico | instituto de astronomia | derecho cosmico | aspectos juridicos y politicos del uso de satelites para transmision directa",
+      "color": "#D8524A",
+      "originalLabel": "Fisica",
+      "shortLabel": "Centro Divulgacion - Física",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C95",
+      "clusterId": 95,
+      "macroId": "Area1_M03",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Trampa Magneto Óptica - Física",
+      "size": 1647,
+      "radius": 10.35,
+      "position": {
+        "x": 0.78072,
+        "y": 9e-05
+      },
+      "dominantAreaShare": 0.7614,
+      "programsTop": "Fisica (493) | Ingenieria Mecanica Electrica (162) | Cirujano Dentista (98) | Ingenieria Electrica (95) | Ciencia e Ingenieria de Materiales (52) | Ingenieria en Telecomunicaciones (51) | Ingenieria Geofisica (51) | Quimica (48) | Ingenieria Quimica (41) | Ciencias de la Tierra (38)",
+      "levelsTop": "Licenciatura (1043) | Maestria (348) | Doctorado (180) | Especialidad (75)",
+      "campusesTop": "Facultad de Ciencias Unam (461) | Facultad de Ingenieria Unam (324) | No Especificado Unam (175) | Facultad de Quimica Unam (153) | Facultad de Odontologia Unam (83) | Facultad de Medicina Unam (82)",
+      "sampleTitles": "aplicacion del rayo laser en odontologia | laser en operatoria dental | síntesis, caracterización estructural y propiedades magnéticas de manganitas la2 | diseno de un prototipo para comunicacion de voz y datos por medio de fibra optica | los decaimientos beta de bariones : quarks de valencia y del mar | auditoria de estados financieros y el dictamen fiscal en disco magnetico flexible | configuración y puesta en marcha de un backbone de fibra óptica para el instituto nacional de rehabilitación (inr) | estudio de investigacion clinica : efectividad de la laserterapia en medicina de rehabilitacion",
+      "color": "#D8524A",
+      "originalLabel": "Fisica",
+      "shortLabel": "Trampa Magneto Óptica - Física",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C96",
+      "clusterId": 96,
+      "macroId": "Area1_M03",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Reactores Nucleares - Física",
+      "size": 1590,
+      "radius": 9.0,
+      "position": {
+        "x": -0.75338,
+        "y": -0.49235
+      },
+      "dominantAreaShare": 0.6314,
+      "programsTop": "Fisica (506) | Ingenieria Quimica (276) | Quimica (79) | Derecho (59) | Ingenieria Mecanica Electrica (47) | Quimica Farmaceutico Biologica (43) | Fisica Medica (39) | Ingenieria Electrica Electronica (31) | Relaciones Internacionales (30) | Ciencias Nucleares (27)",
+      "levelsTop": "Licenciatura (1179) | Maestria (255) | Doctorado (112) | Especialidad (44)",
+      "campusesTop": "Facultad de Ciencias Unam (490) | Facultad de Quimica Unam (379) | Facultad de Ingenieria Unam (166) | No Especificado Unam (107) | Facultad de Estudios Superiores Cuautitlan Unam (57) | Facultad de Medicina Unam (46)",
+      "sampleTitles": "higiene de las radiaciones | metodos matematicos aplicados al análisis y simulacion de reactores quimicos | utilizacion de la energia nuclear en mexico para la produccion de energia electrica | la responsabilidad civil por danos nucleares | detección de neutrones mediante la metodología de trazas nucleares en sólidos | analisis y reglamentacion para la localizacion de reactores nucleares en mexico | diferentes alternativas para la generacion de energia nucleoelectrica en mexico | cronología y diferencias de la tecnología del proceso industrial del metanol",
+      "color": "#D8524A",
+      "originalLabel": "Fisica",
+      "shortLabel": "Reactores Nucleares - Física",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C70",
+      "target": "C95",
+      "count": 42,
+      "meanScore": 0.76688,
+      "maxScore": 0.793497,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C70",
+      "target": "C96",
+      "count": 38,
+      "meanScore": 0.784723,
+      "maxScore": 0.861212,
+      "strokeWidth": 3.267
+    },
+    {
+      "source": "C95",
+      "target": "C96",
+      "count": 18,
+      "meanScore": 0.773404,
+      "maxScore": 0.86862,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

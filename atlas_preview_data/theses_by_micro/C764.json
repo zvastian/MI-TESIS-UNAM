@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C764",
+    "clusterId": 764,
+    "macroId": "Area3_M06",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0027572",
+      "title": "analisis de la iniciativa de alivio a la deuda para los paises pobres muy endeudados propuesta por el fondo monetario internacional y el banco mundial",
+      "year": 2002,
+      "author": "Liliana García Nieto",
+      "advisor": "Jorge Rolando Horacio Almanza Cabrera",
+      "program": "relaciones internacionales",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores acatlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/PC3XPQPP9ANQHI8IPKIP4UACNXSI64EACCXLPCK24HYKIKSMNT-61718?func=service&doc_library=TES01&doc_number=000309878&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.942713,
+      "titleKey": "analisis de la iniciativa de alivio a la deuda para los paises pobres muy endeudados propuesta por el fondo monetario internacional y el banco mundial",
+      "titleFamilyKey": "analisis iniciati alivio deuda paises pobres muy endeudad"
+    },
+    {
+      "thesisId": "TH_0183362",
+      "title": "una experienca subregional de gestion de la deuda exterana : africa al sur del sahara",
+      "year": 1988,
+      "author": "Mauricio Martin Chávez Medina",
+      "advisor": "Jose Gaston Sosa Ferreira",
+      "program": "economia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de economia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q6VEJ1KK6P8UTBMDE7CBYC9E8D883HDEQ8PPCFT4U619SFJQ29-37963?func=service&doc_library=TES01&doc_number=000094812&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.853731,
+      "titleKey": "una experienca subregional de gestion de la deuda exterana africa al sur del sahara",
+      "titleFamilyKey": "experien subregio gestion deuda exterana africa sur sahara"
+    },
+    {
+      "thesisId": "TH_0572386",
+      "title": "El banco mundial y su enfoque sobre la pobreza",
+      "year": 1985,
+      "author": "Virginia Perez Cota",
+      "advisor": "Enrique González Tiburcio",
+      "program": "Economía",
+      "level": "licenciatura",
+      "area": "Ciencias Sociales",
+      "campus": "facultad de economia unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0010985/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.852836,
+      "titleKey": "el banco mundial y su enfoque sobre la pobreza",
+      "titleFamilyKey": "banco mundial enfoque pobreza"
+    },
+    {
+      "thesisId": "TH_0534514",
+      "title": "modelación de la calificación de deuda soberana para economías en desarrollo y sus determinantes subjetivos 1995-2017",
+      "year": 2023,
+      "author": "Elias Ulloa Moreno",
+      "advisor": "Alicia Girón",
+      "program": "economia",
+      "level": "Maestría",
+      "area": "Area 3",
+      "campus": "instituto de investigaciones economicas unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GKG46Q5J6TJGRXX619352L8C41K61PI2S7IT64P9RPLJM15UUN-20773?func=service&doc_library=TES01&doc_number=000850140&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.851116,
+      "titleKey": "modelacion de la calificacion de deuda soberana para economias en desarrollo y sus determinantes subjetivos 1995 2017",
+      "titleFamilyKey": "modela califica deuda soberana economia desarrol determin subjetiv"
+    },
+    {
+      "thesisId": "TH_0513497",
+      "title": "sistema de contribución y atribución de rendimientos en carteras de inversión de deuda y renta variable aplicando la metodología internacional gips",
+      "year": 2022,
+      "author": "José Antonio González Balderas",
+      "advisor": "Magnolia Miriam Sosa Castro",
+      "program": "ingenieria de sistemas",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-36084?func=service&doc_library=TES01&doc_number=000821727&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.85069,
+      "titleKey": "sistema de contribucion y atribucion de rendimientos en carteras de inversion de deuda y renta variable aplicando la metodologia internacional gips",
+      "titleFamilyKey": "sistema contribu atribu rendim carteras inversio deuda renta"
+    }
+  ]
+}

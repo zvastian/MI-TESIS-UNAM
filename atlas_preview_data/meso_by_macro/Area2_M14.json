@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M14",
+    "label": "Psicología, Salud y Práctica Clínica",
+    "shortLabel": "Psicología, Salud y Práctica Clín...",
+    "area": "Area 2",
+    "size": 2724,
+    "description": "Trabajos que cruzan psicología, medicina familiar, psiquiatría, derecho, salud y atenci?n clínica."
+  },
+  "nodes": [
+    {
+      "id": "C72",
+      "clusterId": 72,
+      "macroId": "Area2_M14",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Consumo Alcohol - Psicología",
+      "size": 2724,
+      "radius": 19.5,
+      "position": {
+        "x": 0.2465,
+        "y": -0.86558
+      },
+      "dominantAreaShare": 0.547,
+      "programsTop": "Psicologia (864) | Medicina Familiar (253) | Derecho (180) | Quimica Farmaceutico Biologica (135) | Psiquiatria (102) | Cirujano Dentista (98) | Arquitectura (96) | Medico Cirujano (84) | Pedagogia (67) | Economia (58)",
+      "levelsTop": "Licenciatura (1865) | Especialidad (525) | Maestria (243) | Doctorado (87)",
+      "campusesTop": "Facultad de Medicina Unam (617) | Facultad de Psicologia Unam (493) | Facultad de Estudios Superiores Iztacala Unam (169) | Facultad de Quimica Unam (135) | Facultad de Estudios Superiores Zaragoza Unam (114) | No Especificado Unam (107)",
+      "sampleTitles": "Analisis de una politica del desarrollo regional tabasqueno : Centros integradores de la region Usumacinta | reporte de un caso atendido bajo el programa de tratamiento auto-cambio dirigido para bebedores problema | la familia del farmacodependiente | intervención breve para adolescentes : experiencia con un usuario de marihuana | creencias y tabaquismo en universitarios | mercado municipal en paraiso tabasco | aplicación del programa de prevención estructurada de recaídas en un paciente dependiente de alcohol | la participación ciudadana en el distrito federal, la elección vecinal de 2010 en la colonia tabacalera",
+      "color": "#2E9D71",
+      "originalLabel": "Psicologia",
+      "shortLabel": "Consumo Alcohol - Psicología",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area4_M00",
+    "label": "Filosofía, Letras, Historia y Humanidades",
+    "shortLabel": "Filosofía, Letras, Historia y Hum...",
+    "area": "Area 4",
+    "size": 11291,
+    "description": "producción sobre filosofía, letras, historia, literatura, historia del arte, arquitectura y pensamiento human?stico."
+  },
+  "nodes": [
+    {
+      "id": "C5",
+      "clusterId": 5,
+      "macroId": "Area4_M00",
+      "level": "meso",
+      "area": "Area 4",
+      "areaLabel": "Área 4",
+      "label": "Filosofia",
+      "size": 11291,
+      "radius": 19.5,
+      "position": {
+        "x": 0.89951,
+        "y": -0.02967
+      },
+      "dominantAreaShare": 0.6439,
+      "programsTop": "Filosofia (1551) | Lengua y Literaturas Hispanicas (1152) | Historia (958) | Arquitectura (935) | Derecho (670) | Letras (457) | Psicologia (368) | Letras Clasicas (248) | Historia del Arte (228) | Lengua y Literaturas Modernas Inglesas (226)",
+      "levelsTop": "Licenciatura (7944) | Maestria (2286) | Doctorado (960) | Especialidad (85)",
+      "campusesTop": "Facultad de Filosofia y Letras Unam (5313) | No Especificado Unam (797) | Facultad de Arquitectura Unam (764) | Facultad de Estudios Superiores Acatlan Unam (692) | Facultad de Ciencias Politicas y Sociales Unam (597) | Facultad de Derecho Unam (450)",
+      "sampleTitles": "centro parroquial | centro parroquial en el estado de mexico | centro cultural santa fe | cementerio vertical | regimen juridico de los cuerpos celestes | estudio sobre el mal del pinto | un estudio sobre las dos versiones de la ciencia nueva de juan bautista vico | convento concepcionista",
+      "color": "#D7A441",
+      "originalLabel": "Filosofia",
+      "shortLabel": "Filosofia",
+      "labelMethod": "unique_original"
+    }
+  ],
+  "edges": [],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

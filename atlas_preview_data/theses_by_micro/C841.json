@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C841",
+    "clusterId": 841,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0063648",
+      "title": "accidentes de la denticion en general",
+      "year": 1930,
+      "author": "Julian Gonzalez Escudero",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/493N6JL7UK256IA2GYQEGVJ4ETRX7JNXUDBD5UMJCGNXGPD5FC-26472?func=service&doc_library=TES01&doc_number=000133200&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.97708,
+      "titleKey": "accidentes de la denticion en general",
+      "titleFamilyKey": "accident denti general"
+    },
+    {
+      "thesisId": "TH_0066050",
+      "title": "accidentes de la primera denticion",
+      "year": 1935,
+      "author": "Jesus Homero Romero Leon",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/77URHJRLCIITDESG9FLNA6918EUE6CC541JEMJFDKJFD32L3RP-48000?func=service&doc_library=TES01&doc_number=000134090&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.97545,
+      "titleKey": "accidentes de la primera denticion",
+      "titleFamilyKey": "accident primera denti"
+    },
+    {
+      "thesisId": "TH_0070869",
+      "title": "accidentes de la primera denticion",
+      "year": 1943,
+      "author": "Jesus Gomez Rodriguez",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/XAUMGB8T54PKRC8KLXEH23LCQ2D11MJT4UTFYCCMYIAJS6L3SY-19759?func=service&doc_library=TES01&doc_number=000136371&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.97545,
+      "titleKey": "accidentes de la primera denticion",
+      "titleFamilyKey": "accident primera denti"
+    },
+    {
+      "thesisId": "TH_0174604",
+      "title": "accidentes mas frecuentes y restauracion en dientes anteriores",
+      "year": 1986,
+      "author": "Elisa Beatriz Cervantes Castro",
+      "advisor": "Jose Luis Sinbeck Escobedo",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/63VM6398TRRQHVHTCQXLDLF9DI6B5SCXM2TG5K52SAL4JLYNXF-39789?func=service&doc_library=TES01&doc_number=000019358&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.946008,
+      "titleKey": "accidentes mas frecuentes y restauracion en dientes anteriores",
+      "titleFamilyKey": "accident mas frecuent restaura dientes anterior"
+    },
+    {
+      "thesisId": "TH_0064583",
+      "title": "principales accidentes y complicaciones con la avulsion de las piezas dentarias",
+      "year": 1933,
+      "author": "Rafael Arroyo C.",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5SKQG29EJ4KE1F2GV4JUTXJF2MY12UIMXJ6B82QESY2HHVKB58-21695?func=service&doc_library=TES01&doc_number=000133296&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.945193,
+      "titleKey": "principales accidentes y complicaciones con la avulsion de las piezas dentarias",
+      "titleFamilyKey": "principa accident complicaci avulsion piezas dentaria"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C804",
+    "clusterId": 804,
+    "macroId": "Area1_M08",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0079088",
+      "title": "calculo de un edificio para estacionamiento de automoviles",
+      "year": 1953,
+      "author": "Carlos Martinez Desfassiaux",
+      "advisor": "Asesor no registrado",
+      "program": "ingenieria civil",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/A9T86K2RKFITTU42PD9M4YGGYM3NBIHY57ALYHB13DJF2KFEYS-62596?func=service&doc_library=TES01&doc_number=000122043&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.963182,
+      "titleKey": "calculo de un edificio para estacionamiento de automoviles",
+      "titleFamilyKey": "calculo edificio estaciona automovi"
+    },
+    {
+      "thesisId": "TH_0087680",
+      "title": "calculo de la estructura de un edificio para estacionamiento de automoviles de 12 pisos",
+      "year": 1963,
+      "author": "Javier Buenrostro Zubiaga",
+      "advisor": "Francisco J Serrano",
+      "program": "ingenieria civil",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/BS6Q51C9L9R8MMV3FLU44ULT3HEDH8RPJLBSH25CQE2IHC39HB-09550?func=service&doc_library=TES01&doc_number=000127389&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.946896,
+      "titleKey": "calculo de la estructura de un edificio para estacionamiento de automoviles de 12 pisos",
+      "titleFamilyKey": "calculo estructu edificio estaciona automovi pisos"
+    },
+    {
+      "thesisId": "TH_0075280",
+      "title": "proyecto y calculo de un edificio de 15 pisos con estacionamiento para automoviles en los sotanos",
+      "year": 1947,
+      "author": "Moises Romano Totah",
+      "advisor": "Asesor no registrado",
+      "program": "ingenieria civil",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.927824,
+      "titleKey": "proyecto y calculo de un edificio de 15 pisos con estacionamiento para automoviles en los sotanos",
+      "titleFamilyKey": "proyecto calculo edificio pisos estaciona automovi sotanos"
+    },
+    {
+      "thesisId": "TH_0080668",
+      "title": "estudio economico de un edificio para estacionamiento de automoviles",
+      "year": 1955,
+      "author": "Ernesto Murguia Vaca",
+      "advisor": "Asesor no registrado",
+      "program": "ingenieria civil",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/4RAA5144IBAJQFLMEEHPTCSHR93C3YR7MATAMHQ2P5S9TTF1AF-43907?func=service&doc_library=TES01&doc_number=000122481&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.894915,
+      "titleKey": "estudio economico de un edificio para estacionamiento de automoviles",
+      "titleFamilyKey": "estudio economic edificio estaciona automovi"
+    },
+    {
+      "thesisId": "TH_0078395",
+      "title": "[calculos estructurales de un edificio destinado a estacionamiento de vehiculos en republica del salvador no. 89, : presentando los calculos de la super estructura organizada a base de lozas planas]",
+      "year": 1952,
+      "author": "Hector López Sibaja",
+      "advisor": "Asesor no registrado",
+      "program": "ingenieria civil",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/28IRHKEBSK6CM44NDDLYRSTY986MD78J6SBINXHEV4PEE8N2YX-35424?func=service&doc_library=TES01&doc_number=000121667&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.880832,
+      "titleKey": "calculos estructurales de un edificio destinado a estacionamiento de vehiculos en republica del salvador no 89 presentando los calculos de la super estructura organizada a base de lozas planas",
+      "titleFamilyKey": "calculos estructu edificio destinad estaciona vehiculo republic salvador"
+    }
+  ]
+}

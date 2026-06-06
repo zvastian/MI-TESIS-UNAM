@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C703",
+    "clusterId": 703,
+    "macroId": "Area2_M13",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0010439",
+      "title": "efectos de la furosemida en la taquipnea transitoria de el recien nacido",
+      "year": 2001,
+      "author": "Oscar Augusto Ahlborn Ramírez",
+      "advisor": "Álvaro Lechuga Guerrero",
+      "program": "pediatria medica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-12029?func=service&doc_library=TES01&doc_number=000299295&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.949914,
+      "titleKey": "efectos de la furosemida en la taquipnea transitoria de el recien nacido",
+      "titleFamilyKey": "efectos furosemi taquipne transito recien nacido"
+    },
+    {
+      "thesisId": "TH_0018711",
+      "title": "taquipnea transitoria del recien nacido",
+      "year": 2001,
+      "author": "Lina Esther Orozco Vazquez",
+      "advisor": "Federico Sacristán Ruiz",
+      "program": "enfermeria y obstetricia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de enfermeria y obstetricia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-18457?func=service&doc_library=TES01&doc_number=000292555&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.935638,
+      "titleKey": "taquipnea transitoria del recien nacido",
+      "titleFamilyKey": "taquipne transito recien nacido"
+    },
+    {
+      "thesisId": "TH_0053154",
+      "title": "efecto del furosemide sobre el tiempo de resolucion en la taquipnea transitoria del recien nacido",
+      "year": 2004,
+      "author": "Victoria Cervantes Parra",
+      "advisor": "Carlos Ramon Medina Hernandez",
+      "program": "pediatria medica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ALL78NNIBIX5X7IS4KEX64QJY4CIXT1R74F8PAQAXRMQFJ291T-62881?func=service&doc_library=TES01&doc_number=000327805&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.918397,
+      "titleKey": "efecto del furosemide sobre el tiempo de resolucion en la taquipnea transitoria del recien nacido",
+      "titleFamilyKey": "efecto furosemi tiempo resolu taquipne transito recien nacido"
+    },
+    {
+      "thesisId": "TH_0276510",
+      "title": "efecto del furosemide en el curso clinico de la taquipnea transitoria del recien nacido",
+      "year": 1999,
+      "author": "Elizabeth Soto Santana",
+      "advisor": "Juan Jose Rodriguez Zepeda",
+      "program": "pediatria medica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/UEFY74PPKK8731CEAN7CQMBPIUGTSCA466CNQD5XPP5PABLFS3-52103?func=service&doc_library=TES01&doc_number=000272184&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.854501,
+      "titleKey": "efecto del furosemide en el curso clinico de la taquipnea transitoria del recien nacido",
+      "titleFamilyKey": "efecto furosemi curso clinico taquipne transito recien nacido"
+    },
+    {
+      "thesisId": "TH_0138842",
+      "title": "el periodo de transicion del recien nacido",
+      "year": 1978,
+      "author": "Maria Magdalena Galicia Rubio",
+      "advisor": "Asesor no registrado",
+      "program": "pediatria medica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5L5TS12VQ68VIUXEJUXTSXA1R9J12JS3BATU94THFADKP51P54-22730?func=service&doc_library=TES01&doc_number=000153165&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.821894,
+      "titleKey": "el periodo de transicion del recien nacido",
+      "titleFamilyKey": "periodo transi recien nacido"
+    }
+  ]
+}

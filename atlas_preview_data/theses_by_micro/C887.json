@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C887",
+    "clusterId": 887,
+    "macroId": "Area1_M00",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0339444",
+      "title": "chapultepec+chapultepec : conexión urbana",
+      "year": 2009,
+      "author": "María Elena Galván Hernández",
+      "advisor": "Gustavo Romero Fernández · +2 más",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-45331?func=service&doc_library=TES01&doc_number=000653050&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.946236,
+      "titleKey": "chapultepec chapultepec conexion urbana",
+      "titleFamilyKey": "chapulte chapulte conexion urbana"
+    },
+    {
+      "thesisId": "TH_0347822",
+      "title": "chapultepec+chapultepec : conexión urbana",
+      "year": 2009,
+      "author": "Manami Vera Hazama",
+      "advisor": "Gustavo Romero Fernández · +4 más",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-57834?func=service&doc_library=TES01&doc_number=000642049&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.946236,
+      "titleKey": "chapultepec chapultepec conexion urbana",
+      "titleFamilyKey": "chapulte chapulte conexion urbana"
+    },
+    {
+      "thesisId": "TH_0363202",
+      "title": "análisis urbano del borde de chapultepec : cetram chapultepec",
+      "year": 2010,
+      "author": "Héctor Raúl Araiza Olivera Toro",
+      "advisor": "Asesor no registrado",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/HRII1RCXVD2GPFXYUI57XFMU6PYBQCVJR314RQELYR1TT7L611-09001?func=service&doc_library=TES01&doc_number=000656313&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.936889,
+      "titleKey": "analisis urbano del borde de chapultepec cetram chapultepec",
+      "titleFamilyKey": "analisis urbano borde chapulte cetram chapulte"
+    },
+    {
+      "thesisId": "TH_0348027",
+      "title": "chapultepec lomas : portal urbano",
+      "year": 2009,
+      "author": "Camilo Kazuo Watanabe Rojas",
+      "advisor": "Carlos González Lobo",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-40843?func=service&doc_library=TES01&doc_number=000639822&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.921062,
+      "titleKey": "chapultepec lomas portal urbano",
+      "titleFamilyKey": "chapulte lomas portal urbano"
+    },
+    {
+      "thesisId": "TH_0335909",
+      "title": "bordes de ciudad : borde de chapultepec - jardín gandhi",
+      "year": 2009,
+      "author": "Iris Youali Aguilar Talamantes",
+      "advisor": "Carlos González Lobo · +2 más",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-02357?func=service&doc_library=TES01&doc_number=000641367&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.83096,
+      "titleKey": "bordes de ciudad borde de chapultepec jardin gandhi",
+      "titleFamilyKey": "bordes ciudad borde chapulte jardin gandhi"
+    }
+  ]
+}

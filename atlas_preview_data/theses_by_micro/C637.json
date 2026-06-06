@@ -1,0 +1,53 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C637",
+    "clusterId": 637,
+    "macroId": "Area1_M02",
+    "area": "Area 1",
+    "size": 6,
+    "shown": 2,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0564557",
+      "title": "Plan Milpa Alta",
+      "year": 1980,
+      "author": "Jesus Thomas Jimeno",
+      "advisor": "Asesor no registrado",
+      "program": "Arquitectura",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "no especificado unam",
+      "url": null,
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 1.0,
+      "titleKey": "plan milpa alta",
+      "titleFamilyKey": "plan milpa alta"
+    },
+    {
+      "thesisId": "TH_0564562",
+      "title": "Plan Milpa Alta",
+      "year": 1980,
+      "author": "Alvaro Javier Navarro Martinez",
+      "advisor": "Asesor no registrado",
+      "program": "Arquitectura",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2019/0000272/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 1.0,
+      "titleKey": "plan milpa alta",
+      "titleFamilyKey": "plan milpa alta"
+    }
+  ]
+}

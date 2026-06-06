@@ -1,0 +1,139 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area2_M05",
+    "label": "Biomedicina, QFB e Infectología",
+    "shortLabel": "Biomedicina, QFB e Infectología",
+    "area": "Area 2",
+    "size": 13447,
+    "description": "Investigaciones en QFB, biomedicina, infectología, pediatr?a, medicina interna, salud animal y ciencias bioquímicas."
+  },
+  "nodes": [
+    {
+      "id": "C14",
+      "clusterId": 14,
+      "macroId": "Area2_M05",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Respuesta Inmune - Medicina Veterinaria y Zoot...",
+      "size": 7167,
+      "radius": 30.0,
+      "position": {
+        "x": -0.2761,
+        "y": 0.50437
+      },
+      "dominantAreaShare": 0.8624,
+      "programsTop": "Medicina Veterinaria y Zootecnia (1078) | Quimica Farmaceutico Biologica (787) | Biologia (473) | Cirujano Dentista (365) | Medicina Interna (333) | Medicina Familiar (305) | Ciencias de la Produccion y de la Salud Animal (261) | Pediatria (246) | Psicologia (210) | Infectologia (187)",
+      "levelsTop": "Licenciatura (3424) | Especialidad (2533) | Maestria (821) | Doctorado (386)",
+      "campusesTop": "Facultad de Medicina Unam (2723) | Facultad de Medicina Veterinaria y Zootecnia Unam (972) | Facultad de Estudios Superiores Cuautitlan Unam (627) | Facultad de Quimica Unam (612) | Facultad de Ciencias Unam (395) | No Especificado Unam (316)",
+      "sampleTitles": "aplicación del protocolo para la prevención de transmisión perinatal de vih en el lapso 1998-2008 en el hies | cambios citologicos en cavidad oral de pacientes expuestos a factores irritativos | penicilina | dimero d y punto de corte poblacional como predictor de mortalidad en pacientes con neumonía por virus sars-cov-2 en el hospital de especialidades dr. belisario domínguez | estudio de la persistencia del virus de la fiebre porcina clasica (vfpc) en jamones procesados por el metodo de cocido | herpes simple | amibiasis invasora del higado | papel de la ubiquitinación en la replicación del astrovirus neurotrópico va1",
+      "color": "#2E9D71",
+      "originalLabel": "Medicina Veterinaria y Zootecnia",
+      "shortLabel": "Respuesta Inmune - Medicina Veter...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C22",
+      "clusterId": 22,
+      "macroId": "Area2_M05",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Contribucion Puerperio Examen - Química Farmacéutico....",
+      "size": 5587,
+      "radius": 28.63,
+      "position": {
+        "x": 0.66689,
+        "y": -0.24253
+      },
+      "dominantAreaShare": 0.877,
+      "programsTop": "Quimica Farmaceutico Biologica (876) | Biologia (693) | Cirujano Dentista (471) | Pediatria Medica (324) | Medicina Interna (254) | Pediatria (252) | Medicina Veterinaria y Zootecnia (230) | Ciencias Bioquimicas (220) | Infectologia (157) | Medicina Familiar (119)",
+      "levelsTop": "Licenciatura (2734) | Especialidad (1982) | Maestria (569) | Doctorado (300)",
+      "campusesTop": "Facultad de Medicina Unam (2110) | Facultad de Quimica Unam (739) | Facultad de Odontologia Unam (391) | Facultad de Estudios Superiores Iztacala Unam (386) | Facultad de Ciencias Unam (356) | Facultad de Estudios Superiores Cuautitlan Unam (310)",
+      "sampleTitles": "uso de antibióticos en un hospital pediátrico de alta especialidad | complicaciones de varicela en niños sanos | halitosis | diagnostico y tratamiento en patologia periapical | placa bacteriana | analisis de los agentes quimioterapeuticos en el control de placa bacteriana | Aspectos aduanales de antibioticos y su mecanismo de importacion y exportacion | terapeutica antimicrobiana en odontologia",
+      "color": "#2E9D71",
+      "originalLabel": "Quimica Farmaceutico Biologica",
+      "shortLabel": "Contribucion Puerperio Examen - Q...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C142",
+      "clusterId": 142,
+      "macroId": "Area2_M05",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Helicobacter Pylori - Química Farmacéutico Biológ...",
+      "size": 238,
+      "radius": 11.25,
+      "position": {
+        "x": 0.78133,
+        "y": 0.2244
+      },
+      "dominantAreaShare": 0.9244,
+      "programsTop": "Quimica Farmaceutico Biologica (41) | Gastroenterologia (25) | Biologia (22) | Medicina Interna (17) | Anatomia Patologica (15) | Ciencias Biologicas (11) | Pediatria (11) | Ciencias Biomedicas (11) | Gastroenterologia y Nutricion Pediatrica (10) | Pediatria Medica (10)",
+      "levelsTop": "Especialidad (118) | Licenciatura (86) | Maestria (20) | Doctorado (13)",
+      "campusesTop": "Facultad de Medicina Unam (132) | Facultad de Estudios Superiores Cuautitlan Unam (23) | Facultad de Quimica Unam (22) | Facultad de Ciencias Unam (16) | Facultad de Odontologia Unam (10) | Facultad de Estudios Superiores Iztacala Unam (10)",
+      "sampleTitles": "hallazgos endoscópicos en pacientes con infección por helicobacter pylori en el instituto nacional de pediatria en un período comprendido entre marzo 2017 a marzo 2018 | modificaciones de los criterios histopatologicos en el diagnostico de infeccion por helicobacter pylori | ulcera peptica perforada asociada a helicobacter pylori | prevalencia de helicobacter pylori en pacientes pediatricos | caracterización clínica, endoscópica y diagnóstica de pacientes con infección por helicobacter pylori en el instituto nacional de pediatría de marzo 2017 a marzo 2019 | gastritis folicular asociada a infeccion por helicobacter pylori | respuesta inflamatoria y respuesta inmune especifica a la infeccion por helicobacter pylori en niños y adultos | granuloma ulcerativo traumatico con eosinofilia estromal (tugse) : revision de la literatura",
+      "color": "#2E9D71",
+      "originalLabel": "Quimica Farmaceutico Biologica",
+      "shortLabel": "Helicobacter Pylori - Química Far...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C152",
+      "clusterId": 152,
+      "macroId": "Area2_M05",
+      "level": "meso",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Parasitosis Intestinales - Medico Cirujano",
+      "size": 158,
+      "radius": 9.0,
+      "position": {
+        "x": -0.50346,
+        "y": -0.74601
+      },
+      "dominantAreaShare": 0.943,
+      "programsTop": "Medico Cirujano (58) | Medicina Familiar (27) | Biologia (20) | Quimica Farmaceutico Biologica (17) | Pediatria Medica (10) | Medicina (medicina Familiar) (9) | Medicina (pediatria Medica) (6) | Enfermeria y Obstetricia (5) | Medicina Veterinaria y Zootecnia (3) | Infectologia (1)",
+      "levelsTop": "Licenciatura (104) | Especialidad (54)",
+      "campusesTop": "Facultad de Medicina Unam (110) | Facultad de Estudios Superiores Iztacala Unam (13) | Facultad de Quimica Unam (7) | Facultad de Estudios Superiores Zaragoza Unam (6) | Facultad de Ciencias Unam (6) | Facultad de Enfermeria y Obstetricia Unam (5)",
+      "sampleTitles": "estudio sobre la parasitosis intestinal y exploracion sanitaria de cocula, guerrero | el problema de las parasitosis intestinales en la poblacion de xico, veracruz | el problema de la parasitosis intestinal en camaron, ver | la parasitosis intestinal en la consulta externa de medicina familiar | Parasitosis intestinal en el municipio de Ixtapalauca, Estado de Mexico | prevalencia de parasitosis intestinal en pacientes pediatricos en la consulta externa del hospital general de mexico | prevalencia de parasitosis intestinal en menores de 6 años adscritos a la unidad de medicina familiar # 21 | estudio e incidencia de la parasitosis intestinal en el hospital infantil",
+      "color": "#2E9D71",
+      "originalLabel": "Medico Cirujano",
+      "shortLabel": "Parasitosis Intestinales - Medico...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C14",
+      "target": "C22",
+      "count": 211,
+      "meanScore": 0.797396,
+      "maxScore": 0.884858,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C142",
+      "target": "C22",
+      "count": 2,
+      "meanScore": 0.78208,
+      "maxScore": 0.810794,
+      "strokeWidth": 0.615
+    },
+    {
+      "source": "C152",
+      "target": "C22",
+      "count": 1,
+      "meanScore": 0.769138,
+      "maxScore": 0.769138,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

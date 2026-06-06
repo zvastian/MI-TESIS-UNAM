@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C794",
+    "clusterId": 794,
+    "macroId": "Area3_M08",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0598060",
+      "title": "Superdesarrollo y diferencias sociales en Suiza : reportaje",
+      "year": 1995,
+      "author": "Silvia Belmont Viramontes",
+      "advisor": "Ricardo Garcia Santacruz",
+      "program": "Comunicación y Periodismo",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2016/0228538/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.914115,
+      "titleKey": "superdesarrollo y diferencias sociales en suiza reportaje",
+      "titleFamilyKey": "superdes diferenc sociales suiza reportaj"
+    },
+    {
+      "thesisId": "TH_0381015",
+      "title": "suiza : bello lugar. futuro incierto",
+      "year": 2011,
+      "author": "Lesli Gutiérrez Garduño",
+      "advisor": "Ana Cristina Castillo Petersen",
+      "program": "relaciones internacionales",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3XNJ4G6FHB3SJBFUA3HYH9FBBXXJFJE6XTP4JQQFMIFL6HUXUV-43000?func=service&doc_library=TES01&doc_number=000670511&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.87753,
+      "titleKey": "suiza bello lugar futuro incierto",
+      "titleFamilyKey": "suiza bello lugar futuro incierto"
+    },
+    {
+      "thesisId": "TH_0438335",
+      "title": "la diversidad cultural en la confederación suiza : ¿hacia la construcción de una sociedad cosmopolita?",
+      "year": 2015,
+      "author": "Laura Selene Mendoza Pedroza",
+      "advisor": "Ana Cristina Castillo Petersen",
+      "program": "relaciones internacionales",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/L58GDF4XBGQ9IHR1BSUBVXUPX1KPMV7DY1U33VFXPYRDN7DL8N-21899?func=service&doc_library=TES01&doc_number=000726676&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.876618,
+      "titleKey": "la diversidad cultural en la confederacion suiza hacia la construccion de una sociedad cosmopolita",
+      "titleFamilyKey": "divers cultural confedera suiza construc sociedad cosmopol"
+    },
+    {
+      "thesisId": "TH_0296990",
+      "title": "cultura politica y cohesion social : el caso de la confederacion suiza",
+      "year": 2006,
+      "author": "Claudia Boltshauser Goya",
+      "advisor": "Vicente Godinez Valencia",
+      "program": "sociologia",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de ciencias politicas y sociales unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-38277?func=service&doc_library=TES01&doc_number=000613011&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.875736,
+      "titleKey": "cultura politica y cohesion social el caso de la confederacion suiza",
+      "titleFamilyKey": "cultura politica cohesion social caso confedera suiza"
+    },
+    {
+      "thesisId": "TH_0306044",
+      "title": "cimas del bienestar : termas en adelboden, suiza",
+      "year": 2006,
+      "author": "Oriana Romero Nava",
+      "advisor": "Felipe Fernandez Leal · +2 más",
+      "program": "arquitectura",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de arquitectura unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-17503?func=service&doc_library=TES01&doc_number=000604483&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.847828,
+      "titleKey": "cimas del bienestar termas en adelboden suiza",
+      "titleFamilyKey": "cimas bienesta termas adelbode suiza"
+    }
+  ]
+}

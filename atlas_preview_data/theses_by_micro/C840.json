@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C840",
+    "clusterId": 840,
+    "macroId": "Area2_M07",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0455623",
+      "title": "frecuencia de las alteraciones en el metabolismo de los carbohidratos en pacientes con fibrosis quística en la etapa pediátrica tratados en el instituto nacional de pediatría",
+      "year": 2016,
+      "author": "Gina María Rivera Tovar",
+      "advisor": "Sletza Lissette Arguinzoniz Valenzuela",
+      "program": "endocrinologia pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5VC1B25ISXIERJRLHXLIN7S8AS3UEJY1FX2987DMHHQFJHND3U-09027?func=service&doc_library=TES01&doc_number=000747362&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.971873,
+      "titleKey": "frecuencia de las alteraciones en el metabolismo de los carbohidratos en pacientes con fibrosis quistica en la etapa pediatrica tratados en el instituto nacional de pediatria",
+      "titleFamilyKey": "frecuenc alteraci metaboli carbohid paciente fibrosis quistica etapa"
+    },
+    {
+      "thesisId": "TH_0474543",
+      "title": "frecuencia de las alteraciones en el metabolismo de los carbohidratos en pacientes con fibrosis quistica en la etapa pediátrica tratados en el instituto nacional de pediatría",
+      "year": 2018,
+      "author": "Carla Jeorgina Borda Riveros",
+      "advisor": "Sletza Lissette Arguinzoniz Valenzuela",
+      "program": "endocrinologia pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/XAJCXT1VPICXFBS9YNLJR78A9URKBQ3LECFQ4VKIYXAII4TYCC-29346?func=service&doc_library=TES01&doc_number=000770936&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.970191,
+      "titleKey": "frecuencia de las alteraciones en el metabolismo de los carbohidratos en pacientes con fibrosis quistica en la etapa pediatrica tratados en el instituto nacional de pediatria",
+      "titleFamilyKey": "frecuenc alteraci metaboli carbohid paciente fibrosis quistica etapa"
+    },
+    {
+      "thesisId": "TH_0324399",
+      "title": "alteracion en el metabolismo de los carbohidratos en pacientes con fibrosis quística",
+      "year": 2008,
+      "author": "Tavita Cázares Gómez",
+      "advisor": "Hector Manuel Cárdenas Tirado · +1 más",
+      "program": "endocrinologia pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-02969?func=service&doc_library=TES01&doc_number=000634927&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.95711,
+      "titleKey": "alteracion en el metabolismo de los carbohidratos en pacientes con fibrosis quistica",
+      "titleFamilyKey": "altera metaboli carbohid paciente fibrosis quistica"
+    },
+    {
+      "thesisId": "TH_0546661",
+      "title": "alteraciones en el metabolismo de los carbohidratos en niños con fibrosis quística de la umae, hospital general centro medico nacional \"la raza\"",
+      "year": 2024,
+      "author": "Claudia Rodríguez Pérez",
+      "advisor": "Mayra Cristina Torres Castañeda",
+      "program": "endocrinologia pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JB991EFI4T9PH5EKLMDLYFFBT73DG2PKNNE51MKFNGLX4MULII-18145?func=service&doc_library=TES01&doc_number=000859765&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.941503,
+      "titleKey": "alteraciones en el metabolismo de los carbohidratos en ninos con fibrosis quistica de la umae hospital general centro medico nacional la raza",
+      "titleFamilyKey": "alteraci metaboli carbohid ninos fibrosis quistica umae hospital"
+    },
+    {
+      "thesisId": "TH_0183720",
+      "title": "metabolismo de carbohidratos en el paciente con cirrosis hepatica",
+      "year": 1988,
+      "author": "Edgardo Arnoldo Díaz Cervantes",
+      "advisor": "Asesor no registrado",
+      "program": "gastroenterologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q6VEJ1KK6P8UTBMDE7CBYC9E8D883HDEQ8PPCFT4U619SFJQ29-47446?func=service&doc_library=TES01&doc_number=000089640&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.867225,
+      "titleKey": "metabolismo de carbohidratos en el paciente con cirrosis hepatica",
+      "titleFamilyKey": "metaboli carbohid paciente cirrosis hepatica"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C870",
+    "clusterId": 870,
+    "macroId": "Area3_M04",
+    "area": "Area 3",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0019929",
+      "title": "el perdon del ofendido en el derecho procesal penal en el estado libre y soberano de mexico",
+      "year": 2001,
+      "author": "Escolastica Soledad Reyes Castillo",
+      "advisor": "José Dibray García Cabrera",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores acatlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-17392?func=service&doc_library=TES01&doc_number=000295621&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.969217,
+      "titleKey": "el perdon del ofendido en el derecho procesal penal en el estado libre y soberano de mexico",
+      "titleFamilyKey": "perdon ofendido derecho procesal penal estado libre soberano"
+    },
+    {
+      "thesisId": "TH_0337994",
+      "title": "fortalecimiento de la figura del perdón del ofendido en la legislación penal mexicana",
+      "year": 2009,
+      "author": "Rafael Clavel López",
+      "advisor": "René Archundia Diaz",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores acatlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-46937?func=service&doc_library=TES01&doc_number=000655505&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.968073,
+      "titleKey": "fortalecimiento de la figura del perdon del ofendido en la legislacion penal mexicana",
+      "titleFamilyKey": "fortaleci figura perdon ofendido legisla penal mexicana"
+    },
+    {
+      "thesisId": "TH_0594137",
+      "title": "El perdon en el procedimiento penal mexicano",
+      "year": 1989,
+      "author": "Francisco Olivares Moreno",
+      "advisor": "Elías Polanco Braga",
+      "program": "Derecho",
+      "level": "licenciatura",
+      "area": "Ciencias Sociales",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2020/0102122/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.966866,
+      "titleKey": "el perdon en el procedimiento penal mexicano",
+      "titleFamilyKey": "perdon procedi penal mexicano"
+    },
+    {
+      "thesisId": "TH_0291479",
+      "title": "analisis juridico-penal sobre el perdon del ofendido, en el caso del articulo 91 del codigo penal del estado de mexico : propuesta de reforma",
+      "year": 2005,
+      "author": "Juan Daniel Plata Alvarado",
+      "advisor": "Juan Jesús Juárez Rojas",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores aragon unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/HLGB7H733DCK7GXMUM33I1P22VQ6JQ7ASCK9EJBV96IAV9UR9H-04261?func=service&doc_library=TES01&doc_number=000352482&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.960614,
+      "titleKey": "analisis juridico penal sobre el perdon del ofendido en el caso del articulo 91 del codigo penal del estado de mexico propuesta de reforma",
+      "titleFamilyKey": "analisis juridico penal perdon ofendido caso articulo codigo"
+    },
+    {
+      "thesisId": "TH_0033592",
+      "title": "comparacion y axiologia del codigo penal del estado de mexico respecto de la divisibilidad del perdon del ofendido",
+      "year": 2002,
+      "author": "Maria Concepcion Prado García",
+      "advisor": "Jorge Peralta Sánchez",
+      "program": "derecho",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores acatlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/PC3XPQPP9ANQHI8IPKIP4UACNXSI64EACCXLPCK24HYKIKSMNT-71865?func=service&doc_library=TES01&doc_number=000311420&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.9484,
+      "titleKey": "comparacion y axiologia del codigo penal del estado de mexico respecto de la divisibilidad del perdon del ofendido",
+      "titleFamilyKey": "compara axiologi codigo penal estado mexico respecto divisibil"
+    }
+  ]
+}

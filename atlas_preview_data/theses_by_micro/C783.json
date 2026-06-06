@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C783",
+    "clusterId": 783,
+    "macroId": "Area1_M11",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0294273",
+      "title": "principales variables que afectan el desarrollo de taenia solium en el modelo experimental del hamster dorado (mesocricetus auratus)",
+      "year": 2005,
+      "author": "Nancy Miriam Teran Hernandez",
+      "advisor": "Guillermina Avila Ramirez",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/HLGB7H733DCK7GXMUM33I1P22VQ6JQ7ASCK9EJBV96IAV9UR9H-29373?func=service&doc_library=TES01&doc_number=000347083&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.94905,
+      "titleKey": "principales variables que afectan el desarrollo de taenia solium en el modelo experimental del hamster dorado mesocricetus auratus",
+      "titleFamilyKey": "principa variable que afectan desarrol taenia solium modelo"
+    },
+    {
+      "thesisId": "TH_0314830",
+      "title": "valoracion el estado fisico del hamster dorado (mesocricetus auratus) en el modelo experimental de teniosis debida a taenia solium",
+      "year": 2007,
+      "author": "Diego Emiliano Jimenez Gonzalez",
+      "advisor": "Jose Pablo Maravilla Campillo",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/DI8XT185UVTFQANYSJCK383TKG3C3L5RX6VBHJ9QRJBGID7TY7-31886?func=service&doc_library=TES01&doc_number=000615547&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.910408,
+      "titleKey": "valoracion el estado fisico del hamster dorado mesocricetus auratus en el modelo experimental de teniosis debida a taenia solium",
+      "titleFamilyKey": "valora estado fisico hamster dorado mesocric auratus modelo"
+    },
+    {
+      "thesisId": "TH_0606176",
+      "title": "Efecto de la carga parasitaria y la dosis del esteroide metilprednisolona en el desarrollo del estadio adulto de Taenia solium en el modelo experimental del Mesocricetus auratus",
+      "year": 1995,
+      "author": "Laura Aguilar Vega",
+      "advisor": "Guillermina Avila Ramirez",
+      "program": "Biología",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/ppt1997/0218798/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.879467,
+      "titleKey": "efecto de la carga parasitaria y la dosis del esteroide metilprednisolona en el desarrollo del estadio adulto de taenia solium en el modelo experimental del mesocricetus auratus",
+      "titleFamilyKey": "efecto carga parasita dosis esteroid metilpre desarrol estadio"
+    },
+    {
+      "thesisId": "TH_0147143",
+      "title": "efecto del acetado de cortisona sobre el desarrollo de la taenia solium en hamsters doradas (mesocricetus cauratus)",
+      "year": 1981,
+      "author": "José del Carmen Arias Naranjo",
+      "advisor": "Manuel Chavarria Chavarria",
+      "program": "medicina veterinaria y zootecnia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina veterinaria y zootecnia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5E8H58QDXC9N2YJUPLYYNUXUDRPPAIIGNCXQVH89EUP9J3U3QT-26761?func=service&doc_library=TES01&doc_number=000025349&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.872086,
+      "titleKey": "efecto del acetado de cortisona sobre el desarrollo de la taenia solium en hamsters doradas mesocricetus cauratus",
+      "titleFamilyKey": "efecto acetado cortison desarrol taenia solium hamsters doradas"
+    },
+    {
+      "thesisId": "TH_0485526",
+      "title": "inoculación con el metacestodo de taenia solium en hámster dorado (mesocricetus auratus) para la obtención de taenias inmaduras y su posterior desarrollo in vitro",
+      "year": 2018,
+      "author": "Myriam Sánchez Landeros",
+      "advisor": "Aline Schuneman Hofer · +1 más",
+      "program": "medicina veterinaria y zootecnia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina veterinaria y zootecnia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-58439?func=service&doc_library=TES01&doc_number=000781543&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.870424,
+      "titleKey": "inoculacion con el metacestodo de taenia solium en hamster dorado mesocricetus auratus para la obtencion de taenias inmaduras y su posterior desarrollo in vitro",
+      "titleFamilyKey": "inocula metacest taenia solium hamster dorado mesocric auratus"
+    }
+  ]
+}

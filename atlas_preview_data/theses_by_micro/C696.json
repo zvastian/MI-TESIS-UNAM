@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C696",
+    "clusterId": 696,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0177917",
+      "title": "morbi-mortalidad en obstruccion duodenal : congenita 1974-1984",
+      "year": 1986,
+      "author": "Arturo Medecigo Vite",
+      "advisor": "Nicolas Martin del Campo",
+      "program": "pediatria medica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.9293,
+      "titleKey": "morbi mortalidad en obstruccion duodenal congenita 1974 1984",
+      "titleFamilyKey": "morbi mortal obstruc duodenal congenit 1974 1984"
+    },
+    {
+      "thesisId": "TH_0177916",
+      "title": "morbi-mortalidad en obstruccion duodenal congenita 1974-1984",
+      "year": 1986,
+      "author": "Arturo Medecigo Vite",
+      "advisor": "Nicolas Martin del Campo",
+      "program": "cirugia pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/63VM6398TRRQHVHTCQXLDLF9DI6B5SCXM2TG5K52SAL4JLYNXF-46759?func=service&doc_library=TES01&doc_number=000093453&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.921751,
+      "titleKey": "morbi mortalidad en obstruccion duodenal congenita 1974 1984",
+      "titleFamilyKey": "morbi mortal obstruc duodenal congenit 1974 1984"
+    },
+    {
+      "thesisId": "TH_0177226",
+      "title": "factores determinantes en la mortalidad en la obstruccion duodenal congenita intrinseca",
+      "year": 1986,
+      "author": "Miguel Leon Leon Maycotle",
+      "advisor": "Arturo Silva Cuevas",
+      "program": "cirugia pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/63VM6398TRRQHVHTCQXLDLF9DI6B5SCXM2TG5K52SAL4JLYNXF-27922?func=service&doc_library=TES01&doc_number=000048334&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.917609,
+      "titleKey": "factores determinantes en la mortalidad en la obstruccion duodenal congenita intrinseca",
+      "titleFamilyKey": "factores determin mortal obstruc duodenal congenit intrinse"
+    },
+    {
+      "thesisId": "TH_0191619",
+      "title": "obstruccion duodenal congenita",
+      "year": 1990,
+      "author": "Wilhelm Herve Ceron Grajales",
+      "advisor": "Jose Luis Hernandez Lozano",
+      "program": "pediatria medica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/ISYYJTG35CVF9K2CIL1DAA57BB2YHLHG154VUPA69IIJGPL3TR-52555?func=service&doc_library=TES01&doc_number=000120511&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.897772,
+      "titleKey": "obstruccion duodenal congenita",
+      "titleFamilyKey": "obstruc duodenal congenit"
+    },
+    {
+      "thesisId": "TH_0330386",
+      "title": "obstrucción duodenal congénita : rstudio de dos métodos correctivos",
+      "year": 2008,
+      "author": "Carlos Alberto Montero Uscanga",
+      "advisor": "Carlos Baeza Herrera",
+      "program": "cirugia pediatrica",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/R22REM35YK6GFMDPC3S5JQ6NYQ9RY7DQJMNF89X66FV43PRNH1-17401?func=service&doc_library=TES01&doc_number=000633825&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.86317,
+      "titleKey": "obstruccion duodenal congenita rstudio de dos metodos correctivos",
+      "titleFamilyKey": "obstruc duodenal congenit rstudio dos metodos correcti"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C376",
+    "clusterId": 376,
+    "macroId": "Area2_M00",
+    "area": "Area 2",
+    "size": 16,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0016876",
+      "title": "carillas de porcelana",
+      "year": 2001,
+      "author": "Fabiola Machuca Sanchez",
+      "advisor": "Mauricio Alfonso Zaldivar Perez · +1 más",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/N6LKK7N39RR3V3XHX3BPPEEQQI94A42H6GLRJ8EREPFIVCEI62-47386?func=service&doc_library=TES01&doc_number=000291855&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.992479,
+      "titleKey": "carillas de porcelana",
+      "titleFamilyKey": "carillas porcelan"
+    },
+    {
+      "thesisId": "TH_0222904",
+      "title": "carillas de porcelana",
+      "year": 1993,
+      "author": "Luis Armando Orozco Patoni",
+      "advisor": "Ignacio Velázquez Nava",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/6AC3Y7TDGV8GKD4MEGMCEHG4MN94IBM4VL3Q23N87DADM4S3AG-48845?func=service&doc_library=TES01&doc_number=000192903&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.992479,
+      "titleKey": "carillas de porcelana",
+      "titleFamilyKey": "carillas porcelan"
+    },
+    {
+      "thesisId": "TH_0062928",
+      "title": "incrustaciones de porcelana",
+      "year": 1926,
+      "author": "Roberto González Mendoza",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/9RXEMG1ABLCABKD224TVGCHFQDGRG2EYU18M6TF7CDX8DHLHHV-22938?func=service&doc_library=TES01&doc_number=000839701&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.991994,
+      "titleKey": "incrustaciones de porcelana",
+      "titleFamilyKey": "incrustaci porcelan"
+    },
+    {
+      "thesisId": "TH_0071106",
+      "title": "incrustaciones de porcelana",
+      "year": 1943,
+      "author": "Saul Ortiz Díaz",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/XAUMGB8T54PKRC8KLXEH23LCQ2D11MJT4UTFYCCMYIAJS6L3SY-12136?func=service&doc_library=TES01&doc_number=000136379&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.991994,
+      "titleKey": "incrustaciones de porcelana",
+      "titleFamilyKey": "incrustaci porcelan"
+    },
+    {
+      "thesisId": "TH_0236014",
+      "title": "inlays de porcelana",
+      "year": 1996,
+      "author": "Maria Teresa Agonizante Berruecos",
+      "advisor": "Marcelo Yolli Sato Sato",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JTHMY5FFEU5IYNEFR2RXL661C4A6EDFVXF58QK9YPJJ6DY8G9K-28374?func=service&doc_library=TES01&doc_number=000244263&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.973393,
+      "titleKey": "inlays de porcelana",
+      "titleFamilyKey": "inlays porcelan"
+    }
+  ]
+}

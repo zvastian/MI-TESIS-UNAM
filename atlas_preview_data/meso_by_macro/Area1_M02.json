@@ -1,0 +1,163 @@
+{
+  "version": "atlas-balanced-meso-v1",
+  "macro": {
+    "id": "Area1_M02",
+    "label": "Ingeniería, Energía e Infraestructura Industrial",
+    "shortLabel": "Ingeniería, Energía e Infraestruc...",
+    "area": "Area 1",
+    "size": 23941,
+    "description": "producción acad?mica sobre ingeniería mecánica, civil, química, petrolera, energía, procesos industriales e infraestructura t?cnica."
+  },
+  "nodes": [
+    {
+      "id": "C9",
+      "clusterId": 9,
+      "macroId": "Area1_M02",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Abastecimiento Agua - Ingeniería Civil",
+      "size": 8245,
+      "radius": 30.0,
+      "position": {
+        "x": 0.52765,
+        "y": -0.22849
+      },
+      "dominantAreaShare": 0.713,
+      "programsTop": "Ingenieria Civil (2830) | Ingenieria Quimica (767) | Ingenieria Petrolera (533) | Ingenieria Mecanica Electrica (334) | Derecho (261) | Arquitectura (202) | Geografia (184) | Biologia (182) | Ingenieria Geologica (178) | Economia (171)",
+      "levelsTop": "Licenciatura (6595) | Maestria (1207) | Doctorado (263) | Especialidad (170)",
+      "campusesTop": "Facultad de Ingenieria Unam (3740) | Facultad de Quimica Unam (757) | No Especificado Unam (461) | Facultad de Estudios Superiores Aragon Unam (373) | Facultad de Estudios Superiores Acatlan Unam (292) | Facultad de Filosofia y Letras Unam (237)",
+      "sampleTitles": "abastecimiento de agua potable en sola de vega, oaxaca | la laguna centro social y cultural | seleccion de instrumentos para la medicion de flujo | breves consideraciones sobre los derrames de pecho | Aprovechamiento del agua para riego en beneficio del Valle Del Mezquital, municipios de Ixmiquilpan y Cardonal | Delegacion municipal San Juan del Rio, Queretaro | construccion de una presa hidroelectrica | automatizacion de una planta hidroelectrica",
+      "color": "#D8524A",
+      "originalLabel": "Ingenieria Civil",
+      "shortLabel": "Abastecimiento Agua - Ingeniería...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C17",
+      "clusterId": 17,
+      "macroId": "Area1_M02",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Gas Licuado Petróleo - Ingeniería Química",
+      "size": 6877,
+      "radius": 24.46,
+      "position": {
+        "x": -0.47868,
+        "y": 0.52386
+      },
+      "dominantAreaShare": 0.6411,
+      "programsTop": "Ingenieria Quimica (1350) | Ingenieria Mecanica Electrica (1121) | Ingenieria Petrolera (1080) | Ingenieria Civil (303) | Derecho (293) | Economia (243) | Ingenieria Mecanica (192) | Fisica (152) | Relaciones Internacionales (123) | Quimica (115)",
+      "levelsTop": "Licenciatura (5794) | Maestria (798) | Doctorado (199) | Especialidad (84)",
+      "campusesTop": "Facultad de Ingenieria Unam (2606) | Facultad de Quimica Unam (1331) | Facultad de Estudios Superiores Cuautitlan Unam (399) | Facultad de Estudios Superiores Aragon Unam (394) | No Especificado Unam (274) | Facultad de Ciencias Unam (251)",
+      "sampleTitles": "estimacion automatizada de la recuperacion de aceite por medio de inyeccion de agua | hornos para ladrillos : estudio previo a la elaboracion de disenos para su construccion | calculo del volumen original de hidrocarburos por el metodo de isohidrocarburos | diseno mecanico y secuencia de montaje de un generador de vapor quemando gas natural para una planta de procesos | consideraciones basicas para el proyecto de una planta termoelectrica | bombeo mecanico | estudio sobre operacion y mantenimiento en plantas de comprension de gas | sistemas de proteccion contra incendio aplicados a almacenes",
+      "color": "#D8524A",
+      "originalLabel": "Ingenieria Quimica",
+      "shortLabel": "Gas Licuado Petróleo - Ingeniería...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C32",
+      "clusterId": 32,
+      "macroId": "Area1_M02",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Ingeniería Mecánica Eléctrica",
+      "size": 4672,
+      "radius": 12.64,
+      "position": {
+        "x": 0.67767,
+        "y": 0.44899
+      },
+      "dominantAreaShare": 0.7652,
+      "programsTop": "Ingenieria Mecanica Electrica (1812) | Ingenieria Electrica Electronica (267) | Ingenieria Quimica (240) | Ingenieria en Computacion (160) | Contaduria (131) | Ingenieria Civil (131) | Ingenieria Mecanica (124) | Derecho (108) | Fisica (102) | Ingenieria Electrica (88)",
+      "levelsTop": "Licenciatura (3856) | Maestria (520) | Especialidad (174) | Doctorado (117)",
+      "campusesTop": "Facultad de Ingenieria Unam (1871) | Facultad de Estudios Superiores Aragon Unam (500) | Facultad de Estudios Superiores Cuautitlan Unam (484) | Facultad de Quimica Unam (320) | No Especificado Unam (186) | Facultad de Ciencias Unam (164)",
+      "sampleTitles": "estudio del corto circuito | estudio de una posible distribucion y readaptacion modular del laboratorio de conversion de energia electromecanica | finanzas corporativas : optimización de inventarios para incrementar la rentabilidad de una comercializadora de material eléctrico | diseño de un programador inteligente de dispositivos logicos programables | diseño de un sistema de control para la interfaz dnt que nos muestra una aplicacion real de los componentes que forman a cualquier sistema electronico digital con capacidad de procesamiento de datos | instalaciones electricas industriales | automatización para reducir el consumo de energía en una tienda de autoservicio | control electronico de motores de corriente directa",
+      "color": "#D8524A",
+      "originalLabel": "Ingenieria Mecanica Electrica",
+      "shortLabel": "Ingeniería Mecánica Eléctrica",
+      "labelMethod": "unique_original"
+    },
+    {
+      "id": "C40",
+      "clusterId": 40,
+      "macroId": "Area1_M02",
+      "level": "meso",
+      "area": "Area 1",
+      "areaLabel": "Área 1",
+      "label": "Fabrica Productos Quimicos - Ingeniería Química",
+      "size": 4147,
+      "radius": 9.0,
+      "position": {
+        "x": -0.86312,
+        "y": 0.255
+      },
+      "dominantAreaShare": 0.5223,
+      "programsTop": "Ingenieria Quimica (877) | Ingenieria Mecanica Electrica (679) | Ingenieria Civil (400) | Arquitectura (180) | Contaduria (157) | Quimica Farmaceutico Biologica (148) | Biologia (129) | Quimica (122) | Economia (116) | Administracion (94)",
+      "levelsTop": "Licenciatura (3644) | Maestria (371) | Doctorado (65) | Especialidad (64)",
+      "campusesTop": "Facultad de Quimica Unam (989) | Facultad de Ingenieria Unam (946) | Facultad de Estudios Superiores Cuautitlan Unam (307) | Facultad de Arquitectura Unam (245) | Facultad de Contaduria y Administracion Unam (188) | Facultad de Estudios Superiores Aragon Unam (168)",
+      "sampleTitles": "auditoria de inmuebles, maquinaria y equipo | reestructuracion de la col. san lorenzo la cebada, xochimilco | organizacion administrativa y contable de una fabrica de papel | equipo pesado de acarreo | escuela de diseno industrial | el trabajo en el laboratorio escolar | Avances en el desarrollo de cultivos celulares a partir de cisticercos de Taenia crassiceps | troqueles, diseño, construccion y ensamble",
+      "color": "#D8524A",
+      "originalLabel": "Ingenieria Quimica",
+      "shortLabel": "Fabrica Productos Quimicos - Inge...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C17",
+      "target": "C9",
+      "count": 453,
+      "meanScore": 0.79282,
+      "maxScore": 0.915097,
+      "strokeWidth": 3.8
+    },
+    {
+      "source": "C17",
+      "target": "C32",
+      "count": 195,
+      "meanScore": 0.788135,
+      "maxScore": 0.873743,
+      "strokeWidth": 1.771
+    },
+    {
+      "source": "C40",
+      "target": "C9",
+      "count": 115,
+      "meanScore": 0.804713,
+      "maxScore": 0.888821,
+      "strokeWidth": 1.143
+    },
+    {
+      "source": "C17",
+      "target": "C40",
+      "count": 98,
+      "meanScore": 0.787542,
+      "maxScore": 0.873436,
+      "strokeWidth": 1.009
+    },
+    {
+      "source": "C32",
+      "target": "C40",
+      "count": 94,
+      "meanScore": 0.789598,
+      "maxScore": 0.925649,
+      "strokeWidth": 0.977
+    },
+    {
+      "source": "C32",
+      "target": "C9",
+      "count": 46,
+      "meanScore": 0.7858,
+      "maxScore": 0.844556,
+      "strokeWidth": 0.6
+    }
+  ],
+  "edgePolicy": {
+    "defaultMaxEdges": 80,
+    "interaction": "show_all_edges_for_selected_meso"
+  }
+}

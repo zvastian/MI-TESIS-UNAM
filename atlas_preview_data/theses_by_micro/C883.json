@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C883",
+    "clusterId": 883,
+    "macroId": "Area1_M02",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0603681",
+      "title": "Aspectos importantes en la fabricacion y seleccion de valvulas de mariposa",
+      "year": 1995,
+      "author": "Enrique Jaime Jarillo Aviles",
+      "advisor": "F. J Solorio Ordaz",
+      "program": "Ingeniería Mecánica Eléctrica",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/ppt1997/0221237/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.944285,
+      "titleKey": "aspectos importantes en la fabricacion y seleccion de valvulas de mariposa",
+      "titleFamilyKey": "aspectos importan fabrica selec valvulas mariposa"
+    },
+    {
+      "thesisId": "TH_0103425",
+      "title": "monografia sobre las valvulas de mariposa",
+      "year": 1969,
+      "author": "Maria Elena Rebuelta Lacal",
+      "advisor": "Carlos Doormann Montero",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/KKBIRVFGMDMHXA7IRTPKHFQG1DGYEY8KHKI2SL82T4QCGV43SY-45974?func=service&doc_library=TES01&doc_number=000171076&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.912822,
+      "titleKey": "monografia sobre las valvulas de mariposa",
+      "titleFamilyKey": "monograf valvulas mariposa"
+    },
+    {
+      "thesisId": "TH_0099685",
+      "title": "fabricacion y montaje de una valvula de mariposa para la planta hidroelectrica de el retiro",
+      "year": 1968,
+      "author": "Oscar Pedro Govela Flores",
+      "advisor": "Asesor no registrado",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/UM1VH6UTMEU8TPM31NQ8X3E6HXIF7VDT9QN8I7S76LVBP4GPE6-19309?func=service&doc_library=TES01&doc_number=000130148&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.903232,
+      "titleKey": "fabricacion y montaje de una valvula de mariposa para la planta hidroelectrica de el retiro",
+      "titleFamilyKey": "fabrica montaje valvula mariposa planta hidroele retiro"
+    },
+    {
+      "thesisId": "TH_0090125",
+      "title": "planeacion de fabricacion de las valvulas de mariposa de las turbinas hidraulicas de el infiernillo",
+      "year": 1964,
+      "author": "Alejandro Athie Alavedra",
+      "advisor": "Asesor no registrado",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Y4EA2E7U8ABE2PJGGJBJF9881GYPUFKDCVXUTQH6RB7CE6E2P7-34657?func=service&doc_library=TES01&doc_number=000129992&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.880727,
+      "titleKey": "planeacion de fabricacion de las valvulas de mariposa de las turbinas hidraulicas de el infiernillo",
+      "titleFamilyKey": "planea fabrica valvulas mariposa turbinas hidrauli infierni"
+    },
+    {
+      "thesisId": "TH_0275472",
+      "title": "sistema de calidad en la garantia de valvulas de compuerta, globo, retencion bola y de mariposa",
+      "year": 1999,
+      "author": "Ernesto Ramirez Sanchez",
+      "advisor": "José Juan Contreras Espinosa",
+      "program": "ingenieria mecanica electrica",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/UEFY74PPKK8731CEAN7CQMBPIUGTSCA466CNQD5XPP5PABLFS3-22412?func=service&doc_library=TES01&doc_number=000270168&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.842923,
+      "titleKey": "sistema de calidad en la garantia de valvulas de compuerta globo retencion bola y de mariposa",
+      "titleFamilyKey": "sistema cali garantia valvulas compuert globo reten bola"
+    }
+  ]
+}

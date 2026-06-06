@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C826",
+    "clusterId": 826,
+    "macroId": "Area2_M12",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0033766",
+      "title": "laserterapia en pacientes con artritis reumatoide",
+      "year": 2002,
+      "author": "José Antonio Ramirez Espinoza",
+      "advisor": "Carlos Manuel González Becerra",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/PC3XPQPP9ANQHI8IPKIP4UACNXSI64EACCXLPCK24HYKIKSMNT-02525?func=service&doc_library=TES01&doc_number=000304971&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.951064,
+      "titleKey": "laserterapia en pacientes con artritis reumatoide",
+      "titleFamilyKey": "laserter paciente artritis reumatoi"
+    },
+    {
+      "thesisId": "TH_0189125",
+      "title": "laser radiacion \"blanda\" en artritis reumatoide",
+      "year": 1988,
+      "author": "José Juan Manuel Sanchez Huerta",
+      "advisor": "Jorge Badia Flores",
+      "program": "reumatologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.943588,
+      "titleKey": "laser radiacion blanda en artritis reumatoide",
+      "titleFamilyKey": "laser radia blanda artritis reumatoi"
+    },
+    {
+      "thesisId": "TH_0189124",
+      "title": "laser : radiacion \"blanda\" en artritis reumatoide",
+      "year": 1988,
+      "author": "José Juan Manuel Sanchez Huerta",
+      "advisor": "Jorge Badia Flores",
+      "program": "reumatologia",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.941159,
+      "titleKey": "laser radiacion blanda en artritis reumatoide",
+      "titleFamilyKey": "laser radia blanda artritis reumatoi"
+    },
+    {
+      "thesisId": "TH_0295654",
+      "title": "tratamiento rehabilitatorio con aplicacion de rayo laser de galio-aluminio-arsenico en pacientes con artritis reumatoide activa con afeccion a mano",
+      "year": 2006,
+      "author": "Margareli Acosta Teran",
+      "advisor": "Maria Teresa Rojas Jimenez · +2 más",
+      "program": "medicina de rehabilitacion",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/QPPFTE97A5YKLLYRS74T2P3B6GNUKM1BIQ5JHA22A981M3GEHF-68688?func=service&doc_library=TES01&doc_number=000605720&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.929806,
+      "titleKey": "tratamiento rehabilitatorio con aplicacion de rayo laser de galio aluminio arsenico en pacientes con artritis reumatoide activa con afeccion a mano",
+      "titleFamilyKey": "trata rehabili aplica rayo laser galio aluminio arsenico"
+    },
+    {
+      "thesisId": "TH_0260697",
+      "title": "manejo rehabilitatorio de hombro doloroso por artritis degenerativa con aplicacion de corrientes interferenciales y laser terapia",
+      "year": 1998,
+      "author": "Leticia Elizalde Camino",
+      "advisor": "Maria Teresa Rojas Jimenez · +1 más",
+      "program": "medicina de rehabilitacion",
+      "level": "Especialidad",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/677AK8M49I47XVTDUDL1YSEBMLKGK8HKIG33V6THCD2IX3XDSJ-02899?func=service&doc_library=TES01&doc_number=000262988&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.823072,
+      "titleKey": "manejo rehabilitatorio de hombro doloroso por artritis degenerativa con aplicacion de corrientes interferenciales y laser terapia",
+      "titleFamilyKey": "manejo rehabili hombro doloroso artritis degenera aplica corrient"
+    }
+  ]
+}

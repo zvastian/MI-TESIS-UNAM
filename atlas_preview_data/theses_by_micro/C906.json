@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C906",
+    "clusterId": 906,
+    "macroId": "Area1_M03",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0158674",
+      "title": "mecanismos de la acción protectora de la taurina sobre la estructura del fotorreceptor",
+      "year": 1982,
+      "author": "Gonzalo Yanes Gomez",
+      "advisor": "Herminia Pasantes Morales",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-03773?func=service&doc_library=TES01&doc_number=000002960&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.971171,
+      "titleKey": "mecanismos de la accion protectora de la taurina sobre la estructura del fotorreceptor",
+      "titleFamilyKey": "mecanism acci protecto taurina estructu fotorrec"
+    },
+    {
+      "thesisId": "TH_0572670",
+      "title": "Efecto estabilizador de la taurina en los fotorreceptores",
+      "year": 1985,
+      "author": "Carlos Cruz Fuentes",
+      "advisor": "Herminia Pasantes Morales",
+      "program": "Ciencias Químicas (Bioquímica)",
+      "level": "maestria",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "centro de investigaciones en fisiologia celular",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/ptd2021/septiembre/0815205/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.969759,
+      "titleKey": "efecto estabilizador de la taurina en los fotorreceptores",
+      "titleFamilyKey": "efecto estabili taurina fotorrec"
+    },
+    {
+      "thesisId": "TH_0146846",
+      "title": "la taurina como estabilizador de membranas en los fotorreceptores",
+      "year": 1981,
+      "author": "Rosa Maria Ademe Bancroft",
+      "advisor": "Herminia Pasantes Morales",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5E8H58QDXC9N2YJUPLYYNUXUDRPPAIIGNCXQVH89EUP9J3U3QT-07516?func=service&doc_library=TES01&doc_number=000002558&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.962352,
+      "titleKey": "la taurina como estabilizador de membranas en los fotorreceptores",
+      "titleFamilyKey": "taurina como estabili membrana fotorrec"
+    },
+    {
+      "thesisId": "TH_0583537",
+      "title": "Interaccion de la taurina con la membrana del segmento externo del fotorreceptor",
+      "year": 1987,
+      "author": "Magdalena Sotelo López",
+      "advisor": "Herminia Rosantes Morales",
+      "program": "Biología",
+      "level": "licenciatura",
+      "area": null,
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0057654/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.961604,
+      "titleKey": "interaccion de la taurina con la membrana del segmento externo del fotorreceptor",
+      "titleFamilyKey": "interac taurina membrana segmento externo fotorrec"
+    },
+    {
+      "thesisId": "TH_0157188",
+      "title": "participacion de la taurina en la fotoexcitacion: localizacion de su acción fisiologica",
+      "year": 1982,
+      "author": "Octavio Quezada García",
+      "advisor": "Asesor no registrado",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EHVSR2T3EXM7F7IDA7YDVAFLCYANI8163NLXBJM5K9M1CQYM7K-62391?func=service&doc_library=TES01&doc_number=000002915&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.893801,
+      "titleKey": "participacion de la taurina en la fotoexcitacion localizacion de su accion fisiologica",
+      "titleFamilyKey": "participa taurina fotoexcita localiza acci fisiolog"
+    }
+  ]
+}

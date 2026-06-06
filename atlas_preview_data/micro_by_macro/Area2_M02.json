@@ -1,0 +1,1700 @@
+{
+  "version": "atlas-balanced-micro-v1",
+  "macro": {
+    "id": "Area2_M02",
+    "label": "Medicina Clínica, Cirugía y Especialidades",
+    "shortLabel": "Medicina Clínica, Cirugía y Espec...",
+    "area": "Area 2",
+    "size": 88410,
+    "description": "Gran territorio de medicina clínica, cirugía, anestesiolog?a, pediatr?a, medicina interna, cardiolog?a, ortopedia y especialidades hospitalarias."
+  },
+  "displayPolicy": {
+    "maxMicroNodes": 30,
+    "sort": "micro_size_desc",
+    "note": "Top microclusters by size inside macrocluster."
+  },
+  "nodes": [
+    {
+      "id": "C11",
+      "clusterId": 11,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Cardiologia",
+      "size": 7607,
+      "radius": 24.0,
+      "position": {
+        "x": -0.21142,
+        "y": -0.26
+      },
+      "dominantAreaShare": 0.9579,
+      "programsTop": "Cardiologia (1615) | Medicina Familiar (639) | Medicina Interna (440) | Cardiologia Pediatrica (309) | Pediatria (304) | Anestesiologia (250) | Medicina de Urgencias (240) | Cirujano Dentista (230) | Pediatria Medica (199) | Cirugia Cardiotoracica (159)",
+      "levelsTop": "Especialidad (6393) | Licenciatura (955) | Maestria (185) | Doctorado (72)",
+      "campusesTop": "Facultad de Medicina Unam (6506) | Facultad de Odontologia Unam (202) | Facultad de Enfermeria y Obstetricia Unam (154) | No Especificado Unam (125) | Facultad de Estudios Superiores Cuautitlan Unam (92) | Facultad de Estudios Superiores Zaragoza Unam (72)",
+      "sampleTitles": "cardiopatia y embarazo | alteraciones electrocardiograficas en pacientes con enfermedades neurologicas | paro cardiaco | estreptocinasa intravenosa en el infarto agudo del miocardio : revision de la literatura y protocolo de manejo | tratamiento quirurgico de la hipertension portal | sistema informatico de apoyo para el registro, análisis y almacenamiento de señales electrocardiograficas | trauma vascular de miembros pelvicos | tratamiento farmacológico del infarto de miocardio con arterias coronarias no obstructivas (minoca) : impacto a mediano plazo en los eventos cardiovasculares y la supervivencia",
+      "color": "#2E9D71",
+      "originalLabel": "Cardiologia",
+      "shortLabel": "Cardiologia",
+      "labelMethod": "unique_original"
+    },
+    {
+      "id": "C19",
+      "clusterId": 19,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Hospital Regional - Cirugía General",
+      "size": 6541,
+      "radius": 23.21,
+      "position": {
+        "x": -0.38721,
+        "y": -0.05476
+      },
+      "dominantAreaShare": 0.9771,
+      "programsTop": "Cirugia General (1425) | Ginecologia y Obstetricia (487) | Pediatria (339) | Medico Cirujano (283) | Pediatria Medica (278) | Cirugia Pediatrica (273) | Medicina Familiar (220) | Medicina Interna (186) | Urologia (174) | Medicina de Urgencias (167)",
+      "levelsTop": "Especialidad (5630) | Licenciatura (806) | Maestria (73) | Doctorado (29)",
+      "campusesTop": "Facultad de Medicina Unam (5875) | Facultad de Odontologia Unam (132) | Facultad de Quimica Unam (80) | Facultad de Enfermeria y Obstetricia Unam (75) | No Especificado Unam (59) | Facultad de Estudios Superiores Iztacala Unam (47)",
+      "sampleTitles": "embarazo abdominal | complicaciones en cirugia gastrica | la exploracion funcional del estomago | masaje ginecologico | fisiologia bucal en relacion con la digestion | duplicaciones del tubo digestivo | cancer de colon y recto | colecistectomia por laparoscopia",
+      "color": "#2E9D71",
+      "originalLabel": "Cirugia General",
+      "shortLabel": "Hospital Regional - Cirugía Gener...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C24",
+      "clusterId": 24,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Atencion Médica - Enfermeria y Obstetricia",
+      "size": 5538,
+      "radius": 22.33,
+      "position": {
+        "x": -0.42693,
+        "y": 0.07806
+      },
+      "dominantAreaShare": 0.647,
+      "programsTop": "Enfermeria y Obstetricia (877) | Medicina Familiar (680) | Arquitectura (447) | Enfermeria (373) | Derecho (319) | Cirujano Dentista (302) | Psicologia (235) | Administracion (127) | Trabajo Social (123) | Cirugia General (117)",
+      "levelsTop": "Licenciatura (3373) | Especialidad (1726) | Maestria (391) | Doctorado (47)",
+      "campusesTop": "Facultad de Medicina Unam (1621) | Facultad de Enfermeria y Obstetricia Unam (818) | Facultad de Arquitectura Unam (375) | Facultad de Odontologia Unam (243) | Facultad de Estudios Superiores Iztacala Unam (216) | No Especificado Unam (183)",
+      "sampleTitles": "centro de salud | residencia en medicina conductual | analisis de procesos e implantacion del modelo abc para el control de inventarios en una empresa de salud y belleza a partir del diagrama causa - efecto | resultados de dacriocistorrinostomias en el centro medico la raza | nuevo hospital general dr. ruben lenero | hospital general de zona | planeacion de un sistema de entrega de salud | clinica hospital",
+      "color": "#2E9D71",
+      "originalLabel": "Enfermeria y Obstetricia",
+      "shortLabel": "Atencion Médica - Enfermeria y Ob...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C25",
+      "clusterId": 25,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Anestesia Local - Anestesiología",
+      "size": 5396,
+      "radius": 22.2,
+      "position": {
+        "x": 0.45004,
+        "y": 0.13624
+      },
+      "dominantAreaShare": 0.9705,
+      "programsTop": "Anestesiologia (3324) | Cirujano Dentista (550) | Medicina (anestesiologia) (225) | Anestesiologia Pediatrica (183) | Quimica Farmaceutico Biologica (63) | Medico Cirujano (62) | Psicologia (54) | Pediatria (51) | Psiquiatria (46) | Medicina del Enfermo en Estado Critico (45)",
+      "levelsTop": "Especialidad (4478) | Licenciatura (846) | Maestria (54) | Doctorado (16)",
+      "campusesTop": "Facultad de Medicina Unam (4378) | Facultad de Odontologia Unam (437) | No Especificado Unam (194) | Facultad de Estudios Superiores Iztacala Unam (74) | Facultad de Quimica Unam (55) | Facultad de Estudios Superiores Zaragoza Unam (50)",
+      "sampleTitles": "anestesia local | anestesia en la practica odontologica | diferencia del consumo de opioide entre dos esquemas de analgesia multimodal para pacientes postoperadas de histerectomía total abdominal | programa piloto para el manejo de pacientes con dolor cronico en afecciones neuro-musculo-esqueleticas | anestesia local y general para intervenciones odontologicas en ninos | anestesia general en odontopediatria | reversion de los efectos psicomimeticos producidos por la ketamina mediante la aplicacion del salicilato de fisostigmina | anestesia general en odontologia",
+      "color": "#2E9D71",
+      "originalLabel": "Anestesiologia",
+      "shortLabel": "Anestesia Local - Anestesiología",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C28",
+      "clusterId": 28,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Hospital Infantil Federico - Pediatría",
+      "size": 5175,
+      "radius": 21.98,
+      "position": {
+        "x": -0.29786,
+        "y": -0.40421
+      },
+      "dominantAreaShare": 0.8073,
+      "programsTop": "Pediatria (451) | Pediatria Medica (343) | Medicina Interna (250) | Arquitectura (203) | Cirujano Dentista (177) | Cirugia General (169) | Quimica Farmaceutico Biologica (150) | Medico Cirujano (149) | Medicina Familiar (120) | Anestesiologia (102)",
+      "levelsTop": "Especialidad (3281) | Licenciatura (1549) | Maestria (217) | Doctorado (125)",
+      "campusesTop": "Facultad de Medicina Unam (3419) | Facultad de Ciencias Unam (186) | Facultad de Arquitectura Unam (157) | Facultad de Odontologia Unam (152) | No Especificado Unam (107) | Facultad de Enfermeria y Obstetricia Unam (101)",
+      "sampleTitles": "encajando conos en hiperespacios | comparacion de metolazone y furosemide en el tratamiento del edema secundario al sindrome nefrotico en el paciente pediatrico | seguimiento y valoracion en el tratamiento de la enterocolitis necrosante | diatermia y diatermoterapia | continuos 1 | vagotomia | conceptos sobre fobia a la fiebre en familiares de pacientes en atención ambulatoria en el hospital infantil de méxico federico gómez | crisis convulsivas neonatales",
+      "color": "#2E9D71",
+      "originalLabel": "Pediatria",
+      "shortLabel": "Hospital Infantil Federico - Pedi...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C29",
+      "clusterId": 29,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Caries Dental - Cirujano Dentista",
+      "size": 4858,
+      "radius": 21.65,
+      "position": {
+        "x": 0.07443,
+        "y": 0.5257
+      },
+      "dominantAreaShare": 0.8726,
+      "programsTop": "Cirujano Dentista (4411) | Odontologia (96) | Estomatologia del Ni O y del Adolescente (31) | Ortodoncia (27) | Quimica Farmaceutico Biologica (27) | Estomatologia en Atencion Primaria (25) | Endoperiodontologia (14) | Odontopediatria (13) | Estomatologia (10) | Ciencias Medicas Odontologicas y de la Salud (10)",
+      "levelsTop": "Licenciatura (4535) | Especialidad (191) | Maestria (101) | Doctorado (20)",
+      "campusesTop": "Facultad de Odontologia Unam (3499) | Facultad de Estudios Superiores Iztacala Unam (455) | Facultad de Estudios Superiores Zaragoza Unam (362) | No Especificado Unam (94) | Universidad Latinoamericana (88) | Universidad de Ixtlahuaca Cui (55)",
+      "sampleTitles": "riesgos y complicaciones inmediatas al procedimiento de extracción dental | cementos dentales | Terapeutica Pulpar en dientes temporales y permanentes jovenes | pequenos movimientos dentarios | tratamientos pulpares en dientes infantiles | la extraccion dentaria en la segunda denticion | caries dental y su prevencion | desarrollo de la primera denticion",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Caries Dental - Cirujano Dentista",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C33",
+      "clusterId": 33,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Enfermedades Respiratorias - Pediatría",
+      "size": 4633,
+      "radius": 21.4,
+      "position": {
+        "x": -0.55226,
+        "y": -0.07594
+      },
+      "dominantAreaShare": 0.9443,
+      "programsTop": "Pediatria (333) | Neumologia (267) | Pediatria Medica (241) | Anestesiologia (232) | Neumologia Pediatrica (215) | Medicina Interna (202) | Medicina del Enfermo en Estado Critico (201) | Neonatologia (199) | Medicina Critica (178) | Enfermeria y Obstetricia (171)",
+      "levelsTop": "Especialidad (3594) | Licenciatura (787) | Maestria (162) | Doctorado (87)",
+      "campusesTop": "Facultad de Medicina Unam (3604) | Facultad de Enfermeria y Obstetricia Unam (260) | Facultad de Ciencias Unam (130) | Facultad de Quimica Unam (128) | Facultad de Odontologia Unam (95) | No Especificado Unam (93)",
+      "sampleTitles": "diagnóstico de conexión anomala de venas pulmonares por ecocardiografía versus tomografía axial computada | evaluación funcional respiratoria en niños mayores de 5 años con antecedente de displasia broncopulmonar | manejo anestesico del paciente hipertenso | uso de glucocorticoides como inductores de madurez pulmonar y su efecto sobre el electroencefalograma fetal | validación de las reglas de predicción clínica para el diagnóstico de tromboembolia pulmonar en un hospital de referencia de enfermedades respiratorias | complicaciones pulmonares post-operatorias : un metodo para disminuirlas | factores de riesgo para extubación fallida en pretermino de muy bajo peso al nacer | características clínicas y radiológicas de los pacientes pediátricos con alteraciones de la ultraestructura ciliar respiratoria",
+      "color": "#2E9D71",
+      "originalLabel": "Pediatria",
+      "shortLabel": "Enfermedades Respiratorias - Pedi...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C36",
+      "clusterId": 36,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Ortopedia",
+      "size": 4390,
+      "radius": 21.12,
+      "position": {
+        "x": -0.10303,
+        "y": 0.57294
+      },
+      "dominantAreaShare": 0.9508,
+      "programsTop": "Ortopedia (1188) | Traumatologia y Ortopedia (958) | Cirujano Dentista (334) | Medicina de Rehabilitacion (270) | Medicina (traumatologia y Ortopedia) (172) | Cirugia Plastica y Reconstructiva (147) | Medicina Familiar (97) | Medico Cirujano (89) | Pediatria (45) | Imagenologia Diagnostica y Terapeutica (41)",
+      "levelsTop": "Especialidad (3529) | Licenciatura (739) | Maestria (103) | Doctorado (19)",
+      "campusesTop": "Facultad de Medicina Unam (3580) | Facultad de Odontologia Unam (307) | Facultad de Ingenieria Unam (90) | No Especificado Unam (66) | Facultad de Estudios Superiores Iztacala Unam (58) | Facultad de Enfermeria y Obstetricia Unam (40)",
+      "sampleTitles": "tratamiento de las fracturas del cuello anatomico del femur por el enclavijamiento | osteomielitis de los maxilares | osteogenesis imperfecta | osteomielitis | luxacion congenita de cadera | fracturas radiculares | Osteogénesis imperfecta : | valoracion del estado funcional de pacientes con amputacion transfemoral en el centro nacional de rehabilitacion",
+      "color": "#2E9D71",
+      "originalLabel": "Ortopedia",
+      "shortLabel": "Ortopedia",
+      "labelMethod": "unique_original"
+    },
+    {
+      "id": "C37",
+      "clusterId": 37,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Instituto Nacional Neurología - Cirujano Dentista",
+      "size": 4358,
+      "radius": 21.08,
+      "position": {
+        "x": -0.21712,
+        "y": 0.56504
+      },
+      "dominantAreaShare": 0.9045,
+      "programsTop": "Cirujano Dentista (387) | Neurologia (302) | Psicologia (265) | Neurocirugia (223) | Medicina de Rehabilitacion (216) | Anestesiologia (180) | Medicina Interna (174) | Imagenologia Diagnostica y Terapeutica (140) | Pediatria Medica (117) | Pediatria (114)",
+      "levelsTop": "Especialidad (3069) | Licenciatura (1029) | Maestria (187) | Doctorado (72)",
+      "campusesTop": "Facultad de Medicina Unam (3120) | Facultad de Odontologia Unam (337) | Facultad de Psicologia Unam (147) | Facultad de Enfermeria y Obstetricia Unam (101) | No Especificado Unam (101) | Facultad de Estudios Superiores Iztacala Unam (90)",
+      "sampleTitles": "Evaluacion funcional de los pacientes postoperados de malformacion anorectal alta o intermedia | \"Atención multidisciplinaria en pacientes con diagnóstico de infarto cerebral agudo (ICTUS) con tratamiento trombolítico en una institución de especialidad neurológica\" | cambios en el análisis de marcha en pacientes con parálisis cerebral posterior a terapia con kinect comparada con terapia convencional | aneurisma del seno de valsalva | centro de rehabilitacion de paralisis cerebral | sindrome de mayer-rokitansky-kuster-hauser | absceso cerebral | Sindrome de mamila",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Instituto Nacional Neurología - C...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C59",
+      "clusterId": 59,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Tratamiento Parodontal - Cirujano Dentista",
+      "size": 3319,
+      "radius": 19.65,
+      "position": {
+        "x": 0.1409,
+        "y": 0.61121
+      },
+      "dominantAreaShare": 0.784,
+      "programsTop": "Cirujano Dentista (1931) | Medico Cirujano (132) | Psicologia (121) | Derecho (116) | Oftalmologia (78) | Cirugia General (75) | Quimica Farmaceutico Biologica (61) | Anestesiologia (47) | Medicina Veterinaria y Zootecnia (46) | Medicina Interna (37)",
+      "levelsTop": "Licenciatura (2626) | Especialidad (604) | Maestria (72) | Doctorado (14)",
+      "campusesTop": "Facultad de Odontologia Unam (1588) | Facultad de Medicina Unam (699) | Facultad de Estudios Superiores Iztacala Unam (245) | Facultad de Estudios Superiores Zaragoza Unam (83) | Facultad de Quimica Unam (78) | Facultad de Derecho Unam (73)",
+      "sampleTitles": "manejo del recien nacido con labio y paladar hendido | la odontopediatria en la practica general | principios de odontopediatria | metodos comprobados en prevencion de caries | antro de highmore | tratamiento y complicaciones del tercer molar retenido | importancia de la odontología preventiva | deteccion y prevencion de maloclusiones",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Tratamiento Parodontal - Cirujano...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C65",
+      "clusterId": 65,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Nefrologia",
+      "size": 3048,
+      "radius": 19.2,
+      "position": {
+        "x": 0.35348,
+        "y": 0.54321
+      },
+      "dominantAreaShare": 0.9698,
+      "programsTop": "Nefrologia (450) | Medicina Interna (356) | Medicina Familiar (235) | Urologia (166) | Nefrologia Pediatrica (142) | Anestesiologia (128) | Pediatria Medica (121) | Pediatria (103) | Enfermeria y Obstetricia (84) | Medicina Critica (68)",
+      "levelsTop": "Especialidad (2598) | Licenciatura (317) | Maestria (90) | Doctorado (42)",
+      "campusesTop": "Facultad de Medicina Unam (2623) | Facultad de Enfermeria y Obstetricia Unam (61) | Facultad de Quimica Unam (60) | No Especificado Unam (49) | Facultad de Odontologia Unam (36) | Facultad de Psicologia Unam (31)",
+      "sampleTitles": "incidencia y evolución de la lesión renal aguda en pacientes hospitalizados en la unidad de cuidados intensivos neonatales | evaluacion del estado bioquimico de pacientes pediatricos con insuficiencia renal cronica en fase terminal en programa de dialisis peritoneal intermitente de 24 horas | utilidad de la fórmula de cockroft-gault para detectar insuficiencia renal en pacientes con diabetes mellitus tipo 2 | reserva funcional renal en niños con tumores solidos | el indice salivar de urea como prueba de funcion renal : el metodo de hench-aldrich | insuficiencia renal cronica | asignación de dosis de tacrolimus según el genotipo cyp3a5 en niños en programa de trasplante renal y la evolución del injerto a 12 meses | embolizacion renal",
+      "color": "#2E9D71",
+      "originalLabel": "Nefrologia",
+      "shortLabel": "Nefrologia",
+      "labelMethod": "unique_original"
+    },
+    {
+      "id": "C67",
+      "clusterId": 67,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Desprendimiento Retina - Oftalmologia",
+      "size": 2967,
+      "radius": 19.06,
+      "position": {
+        "x": -0.08208,
+        "y": 0.66296
+      },
+      "dominantAreaShare": 0.8743,
+      "programsTop": "Oftalmologia (1548) | Medicina (oftalmologia) (106) | Biologia (93) | Psicologia (82) | Pediatria (65) | Medico Cirujano (62) | Arquitectura (54) | Medicina Familiar (53) | Pedagogia (50) | Cirujano Dentista (45)",
+      "levelsTop": "Especialidad (2197) | Licenciatura (575) | Maestria (124) | Doctorado (69)",
+      "campusesTop": "Facultad de Medicina Unam (2281) | Facultad de Ciencias Unam (101) | No Especificado Unam (63) | Facultad de Estudios Superiores Iztacala Unam (62) | Facultad de Psicologia Unam (56) | Facultad de Arquitectura Unam (48)",
+      "sampleTitles": "desprendimiento de retina regmatogeno : análisis de resultados anatomicos y funcionales posteriores al tratamiento quirurgico | oclusion de vena central de la retina | oftalmia simpatica | Lesiones oculares por riesgo de trabajo. Incidencia y complicaciones | retinoblastoma | analisis de resultados de la cirugia del desprendimiento de retina en el hospital general de mexico de la s.s | estudio piloto de vitrectomia y diopexia en desprendimiento de retina regmatogeno primario | incidencia del edema macular cistoideo mediante far en cirugia extracapsular de catarata",
+      "color": "#2E9D71",
+      "originalLabel": "Oftalmologia",
+      "shortLabel": "Desprendimiento Retina - Oftalmol...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C74",
+      "clusterId": 74,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Rinitis Alergica - Dermatologia",
+      "size": 2559,
+      "radius": 18.28,
+      "position": {
+        "x": -0.03039,
+        "y": -0.68646
+      },
+      "dominantAreaShare": 0.9547,
+      "programsTop": "Dermatologia (295) | Cirujano Dentista (257) | Pediatria (246) | Pediatria Medica (181) | Medicina Familiar (164) | Otorrinolaringologia (135) | Alergia e Inmunologia Clinica (130) | Alergia e Inmunologia Clinica Pediatrica (116) | Otorrinolaringologia y Cirugia de Cabeza y Cuello (77) | Inmunologia Clinica y Alergia (75)",
+      "levelsTop": "Especialidad (1975) | Licenciatura (497) | Maestria (62) | Doctorado (24)",
+      "campusesTop": "Facultad de Medicina Unam (2033) | Facultad de Odontologia Unam (219) | Facultad de Quimica Unam (57) | Facultad de Ciencias Unam (43) | No Especificado Unam (39) | Facultad de Estudios Superiores Iztacala Unam (32)",
+      "sampleTitles": "asma bronquial | psoriasis | sinusitis | dermatosis en el embarazo | el rinoescleroma | anatomia quirurgica de la endoscopia nasal | medidas antropometricas de las estructuras nasales en la raza mestiza | beclometasona vs cromoglicato de sodio en pulverizaciones para el tratamiento de la rinitis alergica",
+      "color": "#2E9D71",
+      "originalLabel": "Dermatologia",
+      "shortLabel": "Rinitis Alergica - Dermatologia",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C76",
+      "clusterId": 76,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Odontología Pediatrica - Cirujano Dentista",
+      "size": 2529,
+      "radius": 18.22,
+      "position": {
+        "x": 0.66215,
+        "y": 0.24355
+      },
+      "dominantAreaShare": 0.8913,
+      "programsTop": "Cirujano Dentista (563) | Pediatria (245) | Pediatria Medica (162) | Cirugia General (124) | Arquitectura (87) | Anestesiologia (76) | Coloproctologia (56) | Medicina Interna (53) | Cirugia Pediatrica (49) | Cardiologia (42)",
+      "levelsTop": "Especialidad (1622) | Licenciatura (864) | Maestria (35) | Doctorado (4)",
+      "campusesTop": "Facultad de Medicina Unam (1619) | Facultad de Odontologia Unam (455) | Facultad de Estudios Superiores Iztacala Unam (105) | Facultad de Arquitectura Unam (61) | Facultad de Estudios Superiores Zaragoza Unam (28) | Facultad de Psicologia Unam (27)",
+      "sampleTitles": "hospital materno infantil en puebla, pue | parodoncia en ninos | estudio epidemiologico del paciente hospitalizado en el servicio de urgencias pediatria | estudio epidemiologico de pie plano en preescolares de la consulta externa del hospital pediatrico azcapotzalco | hospital infantil en toluca | hospital infantil en la ciudad de toluca edo. de mexico | tratamiento odontologico del nino impedido | el nino",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Odontología Pediatrica - Cirujano...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C77",
+      "clusterId": 77,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Trastornos Hemorragicos - Cirujano Dentista",
+      "size": 2470,
+      "radius": 18.1,
+      "position": {
+        "x": -0.25578,
+        "y": -0.67652
+      },
+      "dominantAreaShare": 0.947,
+      "programsTop": "Cirujano Dentista (348) | Quimica Farmaceutico Biologica (177) | Pediatria (130) | Medicina Interna (123) | Pediatria Medica (122) | Medico Cirujano (122) | Ginecologia y Obstetricia (108) | Hematologia (103) | Anestesiologia (100) | Hematologia Pediatrica (78)",
+      "levelsTop": "Especialidad (1547) | Licenciatura (837) | Maestria (57) | Doctorado (29)",
+      "campusesTop": "Facultad de Medicina Unam (1652) | Facultad de Odontologia Unam (270) | Facultad de Quimica Unam (131) | Facultad de Estudios Superiores Zaragoza Unam (77) | Facultad de Estudios Superiores Iztacala Unam (66) | No Especificado Unam (56)",
+      "sampleTitles": "enfermedad de niemann-pick | infecciones fúngicas invasivas en niños con cáncer en el instituto nacional de pediatría | hemorragia bucal | prevalencia de la incompatibilidad de grupo sanguíneo abo en el trasplante de células progenitoras hematopoyéticas y sus complicaciones | hemorragias | evaluación muscular de pacientes con espondiloartritis axial y | reconstitución inmunológica en niños receptores de trasplante de células progenitoras hematopoyéticas | hemorragia en exodoncia",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Trastornos Hemorragicos - Cirujan...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C82",
+      "clusterId": 82,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Cirrosis Hepatica - Cirugía General",
+      "size": 2334,
+      "radius": 17.8,
+      "position": {
+        "x": -0.03605,
+        "y": 0.73954
+      },
+      "dominantAreaShare": 0.9644,
+      "programsTop": "Cirugia General (323) | Gastroenterologia (294) | Medicina Interna (267) | Quimica Farmaceutico Biologica (107) | Pediatria Medica (106) | Pediatria (92) | Imagenologia Diagnostica y Terapeutica (82) | Cirujano Dentista (75) | Gastroenterologia y Nutricion Pediatrica (69) | Medico Cirujano (58)",
+      "levelsTop": "Especialidad (1893) | Licenciatura (354) | Maestria (56) | Doctorado (30)",
+      "campusesTop": "Facultad de Medicina Unam (1973) | Facultad de Quimica Unam (78) | Facultad de Odontologia Unam (65) | No Especificado Unam (36) | Facultad de Estudios Superiores Cuautitlan Unam (34) | Facultad de Estudios Superiores Zaragoza Unam (22)",
+      "sampleTitles": "histopatologia pulpar | hepatitis intercelular | hepatitis cronica | enfermedad hepatica veno-oclusiva presentacion de un caso clinico | histiocitosis | evaluación del riesgo ateroesclerótico en pacientes con infección crónica por virus de hepatitis c | absceso hepatico amibiano | histopatologia del parodonto",
+      "color": "#2E9D71",
+      "originalLabel": "Cirugia General",
+      "shortLabel": "Cirrosis Hepatica - Cirugía Gener...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C85",
+      "clusterId": 85,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Cavidad Oral - Cirujano Dentista",
+      "size": 2151,
+      "radius": 17.37,
+      "position": {
+        "x": 0.10238,
+        "y": 0.7501
+      },
+      "dominantAreaShare": 0.7903,
+      "programsTop": "Cirujano Dentista (1392) | Medico Cirujano (263) | Derecho (62) | Administracion (56) | Medicina Veterinaria y Zootecnia (53) | Quimica Farmaceutico Biologica (35) | Ingenieria Quimica (29) | Ingenieria Mecanica Electrica (22) | Psicologia (19) | Ingenieria Civil (15)",
+      "levelsTop": "Licenciatura (2065) | Especialidad (48) | Maestria (28) | Doctorado (9)",
+      "campusesTop": "Facultad de Odontologia Unam (1090) | Facultad de Medicina Unam (298) | Facultad de Estudios Superiores Iztacala Unam (134) | Facultad de Estudios Superiores Zaragoza Unam (125) | Facultad de Medicina Veterinaria y Zootecnia Unam (53) | Facultad de Quimica Unam (51)",
+      "sampleTitles": "lesiones blancas de la mucosa bucal | rehabilitacion oral | habitos orales | preparacion quirurgica de la cavidad oral con fines protesicos | quistes en la cavidad oral | neoplasias orales | las comisiones mixtas de seguridad e higiene | condiciones de higiene aplicables a los trabajadores y sus familias en los campos de la united sugar cies",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Cavidad Oral - Cirujano Dentista",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C86",
+      "clusterId": 86,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Lesiones Cervicales - Ginecologia y Obstetricia",
+      "size": 2134,
+      "radius": 17.33,
+      "position": {
+        "x": -0.19274,
+        "y": -0.74879
+      },
+      "dominantAreaShare": 0.9569,
+      "programsTop": "Ginecologia y Obstetricia (499) | Cirujano Dentista (213) | Medicina Familiar (145) | Medico Cirujano (98) | Cirugia General (82) | Quimica Farmaceutico Biologica (79) | Pediatria Medica (74) | Ortopedia (71) | Pediatria (62) | Traumatologia y Ortopedia (59)",
+      "levelsTop": "Especialidad (1518) | Licenciatura (572) | Maestria (32) | Doctorado (12)",
+      "campusesTop": "Facultad de Medicina Unam (1601) | Facultad de Odontologia Unam (177) | Facultad de Estudios Superiores Iztacala Unam (49) | Facultad de Estudios Superiores Cuautitlan Unam (43) | Facultad de Quimica Unam (41) | Facultad de Medicina Veterinaria y Zootecnia Unam (40)",
+      "sampleTitles": "prolactinoma y embarazo | vulvovaginitis en pediatria | lesiones quisticas | traumatismo craneoencefalico | trauma obstetrico | diagnostico y tratamiento de lesiones en furcaciones | Cicatrizacion | luxacion traumatica de cadera",
+      "color": "#2E9D71",
+      "originalLabel": "Ginecologia y Obstetricia",
+      "shortLabel": "Lesiones Cervicales - Ginecologia...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C88",
+      "clusterId": 88,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Fundamentales Protesis Fija - Cirujano Dentista",
+      "size": 1999,
+      "radius": 16.99,
+      "position": {
+        "x": 0.76687,
+        "y": -0.18515
+      },
+      "dominantAreaShare": 0.8554,
+      "programsTop": "Cirujano Dentista (1626) | Medico Cirujano (49) | Cirugia Plastica y Reconstructiva (33) | Traumatologia y Ortopedia (32) | Odontologia (31) | Biologia (12) | Ortopedia (12) | Ingenieria Mecanica (11) | Medicina Veterinaria y Zootecnia (11) | Quimica Farmaceutico Biologica (11)",
+      "levelsTop": "Licenciatura (1782) | Especialidad (166) | Maestria (28) | Doctorado (21)",
+      "campusesTop": "Facultad de Odontologia Unam (1377) | Facultad de Medicina Unam (184) | Facultad de Estudios Superiores Iztacala Unam (153) | Facultad de Estudios Superiores Zaragoza Unam (55) | No Especificado Unam (45) | Escuela Nacional de Estudios Superiores Unidad Leon Unam (19)",
+      "sampleTitles": "injerto gingival libre | protesis removible | principios fundamentales en protesis fija | Retenedores en protesis fija | preparaciones richmond en protesis fija | protesis con retencion intrarradicular | regeneracion y reparacion de los tejidos despues del tratamiento de conductos radiculares | generalidades de protesis parcial removible",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Fundamentales Protesis Fija - Cir...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C89",
+      "clusterId": 89,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Exploracion Sanitaria Municipio - Medico Cirujano",
+      "size": 1996,
+      "radius": 16.98,
+      "position": {
+        "x": -0.77703,
+        "y": -0.2073
+      },
+      "dominantAreaShare": 0.9659,
+      "programsTop": "Medico Cirujano (1885) | Arquitectura (19) | Cirujano Dentista (13) | Enfermeria y Obstetricia (12) | Enfermeria (8) | Geografia (8) | Medicina Veterinaria y Zootecnia (8) | Ingenieria Civil (6) | Trabajo Social (6) | Economia (4)",
+      "levelsTop": "Licenciatura (1988) | Especialidad (3) | Maestria (3) | Doctorado (1)",
+      "campusesTop": "Facultad de Medicina Unam (1874) | Universidad Autonoma de Guadalajara (23) | Facultad de Arquitectura Unam (14) | Facultad de Filosofia y Letras Unam (9) | Facultad de Odontologia Unam (9) | Escuela Nacional de Enfermeria y Obstetricia Unam (8)",
+      "sampleTitles": "exploracion sanitaria del municipio de villanueva, zacatecas | estudio sanitario del municipio de coeneo, michoacan | informe general de la exploracion sanitaria de estacion santa engracia dependiente del municipio de hidalgo, edo. de tamaulipas | exploracion sanitaria del municipio de nazas, dgo | informe general sobre la exploracion sanitaria del municipio de santiago tuxtla, ver | informe sanitario sobre el municipio de villa jimenez, michoacan | exploracion sanitaria sobre villa de arriaga, s.l.p | informe general sobre la exploracion sanitaria del municipio de tamazulapam, oax",
+      "color": "#2E9D71",
+      "originalLabel": "Medico Cirujano",
+      "shortLabel": "Exploracion Sanitaria Municipio -...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C92",
+      "clusterId": 92,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Seno Maxilar - Cirujano Dentista",
+      "size": 1831,
+      "radius": 16.53,
+      "position": {
+        "x": -0.80712,
+        "y": 0.13975
+      },
+      "dominantAreaShare": 0.8897,
+      "programsTop": "Cirujano Dentista (1347) | Odontologia (64) | Cirugia Plastica y Reconstructiva (49) | Otorrinolaringologia (26) | Cirugia General (21) | Ortodoncia (20) | Medicina de Rehabilitacion (19) | Medico Cirujano (14) | Alta Especializacion en Implantologia Oral Quirurgica y Protesica (14) | Radiologia e Imagen (10)",
+      "levelsTop": "Licenciatura (1427) | Especialidad (350) | Maestria (40) | Doctorado (7)",
+      "campusesTop": "Facultad de Odontologia Unam (1183) | Facultad de Medicina Unam (255) | Facultad de Estudios Superiores Iztacala Unam (130) | Facultad de Estudios Superiores Zaragoza Unam (70) | No Especificado Unam (46) | Universidad Autonoma de Guadalajara (17)",
+      "sampleTitles": "crecimiento y desarrollo craneo facial | fracturas de los maxilares | fracturas del tercio inferior de la cara | dientes supernumerarios | fracturas del maxilar superior | malformaciones congenitas de cara | seno maxilar | manifestaciones de cancer en cara, boca y cuello",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Seno Maxilar - Cirujano Dentista",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C98",
+      "clusterId": 98,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Hospital Infantil Estado - Otorrinolaringologia",
+      "size": 1371,
+      "radius": 15.01,
+      "position": {
+        "x": -0.77123,
+        "y": -0.31663
+      },
+      "dominantAreaShare": 0.8191,
+      "programsTop": "Otorrinolaringologia (159) | Psicologia (137) | Otorrinolaringologia y Cirugia de Cabeza y Cuello (95) | Audiologia Otoneurologia y Foniatria (93) | Pediatria (82) | Comunicacion Audiologia y Foniatria (82) | Cirujano Dentista (70) | Pediatria Medica (70) | Pedagogia (59) | Comunicacion Humana Audiologia y Foniatria (33)",
+      "levelsTop": "Especialidad (935) | Licenciatura (376) | Maestria (45) | Doctorado (14)",
+      "campusesTop": "Facultad de Medicina Unam (956) | Facultad de Psicologia Unam (62) | Facultad de Odontologia Unam (54) | Facultad de Estudios Superiores Iztacala Unam (50) | Facultad de Filosofia y Letras Unam (36) | Facultad de Estudios Superiores Zaragoza Unam (23)",
+      "sampleTitles": "adenomiosis | Funcion de la trompa de eustaquio en pacientes postplastia de paladar hendido | evaluacion clinica comparativa posterior a tratamiento topico en el oido cronicamente infectado | \"evaluación del resultado audiométrico de la estapedotomía en pacientes con otosclerosis e hipoacusia mixta | estudio bacteriologico en la otitis media cronica supurada | maloclusion dentoalveolar que presenta la poblacion controlada del programa de adultos de apac, asociacion pro personas con paralisis cerebral | complicaciones y factores de riesgo asociados a morbi-mortalidad en pacientes que son operados de adenoamigdalectomia | adenomiosis : estudio clinico patologico",
+      "color": "#2E9D71",
+      "originalLabel": "Otorrinolaringologia",
+      "shortLabel": "Hospital Infantil Estado - Otorri...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C102",
+      "clusterId": 102,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Enfermedad Periodontal - Cirujano Dentista",
+      "size": 1251,
+      "radius": 14.53,
+      "position": {
+        "x": -0.38655,
+        "y": 0.7547
+      },
+      "dominantAreaShare": 0.8777,
+      "programsTop": "Cirujano Dentista (1069) | Odontologia (33) | Ciencias Odontologicas Basicas (21) | Ciencias Medicas Odontologicas y de la Salud (15) | Endoperiodontologia (12) | Cirugia Plastica y Reconstructiva (8) | Psicologia (8) | Traumatologia y Ortopedia (6) | Derecho (6) | Ortodoncia (5)",
+      "levelsTop": "Licenciatura (1116) | Especialidad (63) | Maestria (46) | Doctorado (21)",
+      "campusesTop": "Facultad de Odontologia Unam (932) | Facultad de Estudios Superiores Iztacala Unam (93) | Facultad de Estudios Superiores Zaragoza Unam (51) | Facultad de Medicina Unam (36) | No Especificado Unam (34) | Escuela Nacional de Estudios Superiores Unidad Leon Unam (16)",
+      "sampleTitles": "injertos periodontales | alteraciones de la articulacion temporomandibular | articulacion temporomandibular dolorosa | enfermedades periodontales agudas | periodontitis juvenil | articulacion temporomandibular | cirugia periodontal | agrandamientos gingivales",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Enfermedad Periodontal - Cirujano...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C106",
+      "clusterId": 106,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Anemia Prematuro - Química Farmacéutico Biológ...",
+      "size": 1117,
+      "radius": 13.94,
+      "position": {
+        "x": 0.72945,
+        "y": 0.45906
+      },
+      "dominantAreaShare": 0.9463,
+      "programsTop": "Quimica Farmaceutico Biologica (175) | Cirujano Dentista (106) | Medicina Interna (60) | Pediatria Medica (59) | Ginecologia y Obstetricia (58) | Pediatria (54) | Medicina Veterinaria y Zootecnia (54) | Medicina Familiar (42) | Medico Cirujano (30) | Nefrologia (26)",
+      "levelsTop": "Especialidad (569) | Licenciatura (470) | Maestria (57) | Doctorado (21)",
+      "campusesTop": "Facultad de Medicina Unam (616) | Facultad de Quimica Unam (157) | Facultad de Odontologia Unam (85) | Facultad de Estudios Superiores Cuautitlan Unam (60) | Facultad de Medicina Veterinaria y Zootecnia Unam (37) | Facultad de Estudios Superiores Zaragoza Unam (34)",
+      "sampleTitles": "toxoplasmosis ocular | utilidad de la aplicacion de vitamina k en el recien nacido | determinar las frecuencias de anticuerpos autoinmunes y de aloanticuerpos en pacientes con anemia hemolitica | toxemia gravidica | anemias | anemia de celulas falciformes | efecto de la aplicacion de eritropoyetina recombinante humana sobre la formula roja en pacientes pediatricos con anemia por insuficiencia renal cronica | efecto de la suplementación de vitamina d en la resistencia a la insulina en escolares y adolescentes con obesidad",
+      "color": "#2E9D71",
+      "originalLabel": "Quimica Farmaceutico Biologica",
+      "shortLabel": "Anemia Prematuro - Química Farmac...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C115",
+      "clusterId": 115,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Ortodoncia Preventiva - Cirujano Dentista",
+      "size": 847,
+      "radius": 12.49,
+      "position": {
+        "x": 0.82825,
+        "y": -0.2838
+      },
+      "dominantAreaShare": 0.8536,
+      "programsTop": "Cirujano Dentista (583) | Ortopedia (73) | Traumatologia y Ortopedia (45) | Ortodoncia (34) | Odontologia (19) | Anestesiologia (8) | Medicina Familiar (6) | Medicina de Rehabilitacion (6) | Medicina (traumatologia y Ortopedia) (6) | Arquitectura (5)",
+      "levelsTop": "Licenciatura (616) | Especialidad (223) | Maestria (5) | Doctorado (1)",
+      "campusesTop": "Facultad de Odontologia Unam (467) | Facultad de Medicina Unam (170) | Facultad de Estudios Superiores Iztacala Unam (92) | Facultad de Estudios Superiores Zaragoza Unam (35) | No Especificado Unam (24) | Universidad Latinoamericana (10)",
+      "sampleTitles": "principios basicos de ortodoncia | generalidades en ortodoncia preventiva | conceptos generales de ortodoncia preventiva | ortodoncia preventiva e interceptiva | principios fundamentales de ortodoncia preventiva | curso de especializacion en ortopedia y traumatologia | Analisis del proceso de fabricacion de implantes ortopedicos | ortodoncia preventiva generalidades",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Ortodoncia Preventiva - Cirujano...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C122",
+      "clusterId": 122,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Consideraciones Endodoncia - Cirujano Dentista",
+      "size": 605,
+      "radius": 10.72,
+      "position": {
+        "x": -0.87865,
+        "y": 0.13459
+      },
+      "dominantAreaShare": 0.795,
+      "programsTop": "Cirujano Dentista (599) | Relaciones Internacionales (1) | Odontologia (1) | Endodoncia (1)",
+      "levelsTop": "Licenciatura (601) | Especialidad (1)",
+      "campusesTop": "Facultad de Odontologia Unam (516) | Facultad de Estudios Superiores Iztacala Unam (39) | No Especificado Unam (14) | Universidad Latinoamericana (12) | Facultad de Estudios Superiores Zaragoza Unam (6) | Escuela de Odontologia (6)",
+      "sampleTitles": "conceptos generales de endodoncia | conceptos generales en endodoncia | estabilizadores endodonticos intraoseos | diagnostico en endodoncia | terapeutica endodontica | Terapeutica endodontica | terapia endodontica | exitos accidentes y fracasos en endodoncia",
+      "color": "#2E9D71",
+      "originalLabel": "Cirujano Dentista",
+      "shortLabel": "Consideraciones Endodoncia - Ciru...",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C132",
+      "clusterId": 132,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Cirugía Plastica y Reconstructiva",
+      "size": 337,
+      "radius": 7.66,
+      "position": {
+        "x": -0.35845,
+        "y": -0.82774
+      },
+      "dominantAreaShare": 0.8665,
+      "programsTop": "Cirugia Plastica y Reconstructiva (61) | Pediatria (28) | Pediatria Medica (27) | Enfermeria y Obstetricia (22) | Cirujano Dentista (20) | Medicina de Rehabilitacion (20) | Anestesiologia (12) | Quimica Farmaceutico Biologica (12) | Psicologia (11) | Arquitectura (9)",
+      "levelsTop": "Especialidad (220) | Licenciatura (114) | Doctorado (2) | Maestria (1)",
+      "campusesTop": "Facultad de Medicina Unam (220) | Facultad de Odontologia Unam (18) | Facultad de Enfermeria y Obstetricia Unam (18) | Facultad de Psicologia Unam (9) | Facultad de Estudios Superiores Zaragoza Unam (9) | Facultad de Arquitectura Unam (7)",
+      "sampleTitles": "quemaduras en pediatria | la radiologia como metodo de identificacion de cadaveres en odontologia forense | programa de difusion en la prevencion de accidentes por quemadura para el instituto de la atencion integral del niño quemado (realizacion de soportes graficos) | calidad de vida en el paciente quemado : traducción y adaptación al español de la escala de salud específica para pacientes quemados versión simplificada \"the life impact burn recovery evaluation\" | identificacion de cadaveres por medio de la odontologia forense | morbimortalidad del paciente quemado en el hospital regional 20 de noviembre | aspectos basicos en la identificacion de cadaveres por medio de la odontologia forense | identificacion de cadaveres por medio de la odontologia",
+      "color": "#2E9D71",
+      "originalLabel": "Cirugia Plastica y Reconstructiva",
+      "shortLabel": "Cirugía Plastica y Reconstructiva",
+      "labelMethod": "unique_original"
+    },
+    {
+      "id": "C134",
+      "clusterId": 134,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Toxina Botulinica - Oftalmologia",
+      "size": 306,
+      "radius": 7.16,
+      "position": {
+        "x": 0.82677,
+        "y": -0.39181
+      },
+      "dominantAreaShare": 0.9412,
+      "programsTop": "Oftalmologia (32) | Neurologia (28) | Neurologia Pediatrica (26) | Medicina de Rehabilitacion (26) | Cirujano Dentista (26) | Psicologia (25) | Pediatria (15) | Otorrinolaringologia (12) | Medicina Familiar (11) | Pediatria Medica (9)",
+      "levelsTop": "Especialidad (231) | Licenciatura (68) | Maestria (5) | Doctorado (2)",
+      "campusesTop": "Facultad de Medicina Unam (236) | Facultad de Odontologia Unam (24) | Facultad de Psicologia Unam (14) | Facultad de Estudios Superiores Zaragoza Unam (9) | Facultad de Estudios Superiores Iztacala Unam (6) | Facultad de Quimica Unam (3)",
+      "sampleTitles": "características clínicas en pacientes pediátricos con migraña y repercusión del tratamiento profiláctico con topiramato sobre las funciones ejecutivas | tratamiento del ataque agudo de migrana en ninos : estudio comparativo con acetaminofen, acido acetilsalicilico y naproxen | migraña en niños | características clínicas en pacientes pediátricos con migraña y repercusión del tratamiento profiláctico con topiramato sobre las funciones ejecutivas : reporte de resultados de evaluación inicial | estudio comparativo sobre la eficacia y seguridad del valproato y el propranolol en la profilaxis de la migraña en los niños resultados | uso de la toxina botulinica tipo a para el manejo del dolor posoperatorio en pacientes con paralisis cerebral | uso del propofol en reanimacion cerebral en el paciente pediatrico | uso de toxina botulinica en la espasticidad y distonia de la edad pediatrica",
+      "color": "#2E9D71",
+      "originalLabel": "Oftalmologia",
+      "shortLabel": "Toxina Botulinica - Oftalmologia",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C135",
+      "clusterId": 135,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Ulcera Peptica - Cirugía General",
+      "size": 300,
+      "radius": 7.05,
+      "position": {
+        "x": 0.36393,
+        "y": 0.85318
+      },
+      "dominantAreaShare": 0.9767,
+      "programsTop": "Cirugia General (72) | Cirujano Dentista (39) | Medico Cirujano (35) | Enfermeria y Obstetricia (30) | Oftalmologia (14) | Cirugia Plastica y Reconstructiva (14) | Enfermeria (13) | Medicina Interna (9) | Dermatologia (8) | Medicina (cirugia General) (7)",
+      "levelsTop": "Especialidad (175) | Licenciatura (118) | Maestria (6)",
+      "campusesTop": "Facultad de Medicina Unam (203) | Facultad de Odontologia Unam (30) | Facultad de Enfermeria y Obstetricia Unam (14) | No Especificado Unam (11) | Facultad de Estudios Superiores Iztacala Unam (8) | Del Hospital de Nuestra Senora de la Salud (8)",
+      "sampleTitles": "un tratamiento medico de las ulceras gastroduodenales | enfermedades ulcerativas de la boca | ulceras en estomatologia | tratamiento quirurgico de la ulcera duodenal | queratitis ulcerativa periferica | factores de riesgo para presentar úlcera por presión en niños de estado crítico | intervenciones de enfermería en la prevención y control de úlceras por presión en pacientes hospitalizados | tratamiento de ulceras metaherpeticas con suero autologo : una nueva alternativa",
+      "color": "#2E9D71",
+      "originalLabel": "Cirugia General",
+      "shortLabel": "Ulcera Peptica - Cirugía General",
+      "labelMethod": "program_plus_topic"
+    },
+    {
+      "id": "C137",
+      "clusterId": 137,
+      "macroId": "Area2_M02",
+      "level": "micro",
+      "area": "Area 2",
+      "areaLabel": "Área 2",
+      "label": "Meningitis Bacteriana - Pediatría Médica",
+      "size": 297,
+      "radius": 7.0,
+      "position": {
+        "x": 0.50444,
+        "y": 0.79318
+      },
+      "dominantAreaShare": 0.9798,
+      "programsTop": "Pediatria Medica (72) | Neurocirugia (36) | Pediatria (20) | Medicina (pediatria Medica) (13) | Traumatologia y Ortopedia (13) | Ortopedia (12) | Cirujano Dentista (8) | Enfermeria y Obstetricia (7) | Quimica Farmaceutico Biologica (7) | Anatomia Patologica (7)",
+      "levelsTop": "Especialidad (259) | Licenciatura (33) | Maestria (4)",
+      "campusesTop": "Facultad de Medicina Unam (262) | Facultad de Enfermeria y Obstetricia Unam (8) | Facultad de Odontologia Unam (7) | Facultad de Quimica Unam (6) | No Especificado Unam (5) | Facultad de Estudios Superiores Zaragoza Unam (3)",
+      "sampleTitles": "recurrencia de meningiomas de acuerdo a resección de simpson | meningitis meningococcica | Meningitis bacteriana | meningitis bacteriana | correlacion entre el tiempo de evolucion clinica y estudio citoquimico de liquido cefalorraquideo en ninos con meningoencafalitis bacteriana | Meningitis bacterianas y micoticas | cambios epidemiologicos en la meningitis bacteriana en el hospital infantil de mexico federico gomez | antibioticos de reciente introduccion en el tratamiento de la meningitis bacteriana infantil",
+      "color": "#2E9D71",
+      "originalLabel": "Pediatria Medica",
+      "shortLabel": "Meningitis Bacteriana - Pediatría...",
+      "labelMethod": "program_plus_topic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C19",
+      "target": "C28",
+      "count": 209,
+      "meanScore": 0.792619,
+      "maxScore": 0.88217,
+      "strokeWidth": 3.3
+    },
+    {
+      "source": "C24",
+      "target": "C59",
+      "count": 178,
+      "meanScore": 0.796651,
+      "maxScore": 0.931261,
+      "strokeWidth": 2.883
+    },
+    {
+      "source": "C11",
+      "target": "C33",
+      "count": 166,
+      "meanScore": 0.805712,
+      "maxScore": 0.88207,
+      "strokeWidth": 2.721
+    },
+    {
+      "source": "C11",
+      "target": "C37",
+      "count": 152,
+      "meanScore": 0.795837,
+      "maxScore": 0.898989,
+      "strokeWidth": 2.533
+    },
+    {
+      "source": "C19",
+      "target": "C76",
+      "count": 141,
+      "meanScore": 0.79603,
+      "maxScore": 0.903861,
+      "strokeWidth": 2.385
+    },
+    {
+      "source": "C33",
+      "target": "C74",
+      "count": 139,
+      "meanScore": 0.825818,
+      "maxScore": 0.918297,
+      "strokeWidth": 2.358
+    },
+    {
+      "source": "C24",
+      "target": "C28",
+      "count": 139,
+      "meanScore": 0.802954,
+      "maxScore": 0.955333,
+      "strokeWidth": 2.358
+    },
+    {
+      "source": "C28",
+      "target": "C37",
+      "count": 139,
+      "meanScore": 0.796064,
+      "maxScore": 0.913454,
+      "strokeWidth": 2.358
+    },
+    {
+      "source": "C11",
+      "target": "C28",
+      "count": 129,
+      "meanScore": 0.804251,
+      "maxScore": 0.911075,
+      "strokeWidth": 2.223
+    },
+    {
+      "source": "C19",
+      "target": "C24",
+      "count": 123,
+      "meanScore": 0.791909,
+      "maxScore": 0.865395,
+      "strokeWidth": 2.142
+    },
+    {
+      "source": "C11",
+      "target": "C19",
+      "count": 115,
+      "meanScore": 0.799993,
+      "maxScore": 0.935288,
+      "strokeWidth": 2.035
+    },
+    {
+      "source": "C28",
+      "target": "C76",
+      "count": 111,
+      "meanScore": 0.811092,
+      "maxScore": 0.884653,
+      "strokeWidth": 1.981
+    },
+    {
+      "source": "C25",
+      "target": "C28",
+      "count": 101,
+      "meanScore": 0.801325,
+      "maxScore": 0.924233,
+      "strokeWidth": 1.846
+    },
+    {
+      "source": "C11",
+      "target": "C24",
+      "count": 97,
+      "meanScore": 0.819031,
+      "maxScore": 0.898212,
+      "strokeWidth": 1.792
+    },
+    {
+      "source": "C24",
+      "target": "C76",
+      "count": 94,
+      "meanScore": 0.795433,
+      "maxScore": 0.866797,
+      "strokeWidth": 1.752
+    },
+    {
+      "source": "C25",
+      "target": "C33",
+      "count": 92,
+      "meanScore": 0.805759,
+      "maxScore": 0.877891,
+      "strokeWidth": 1.725
+    },
+    {
+      "source": "C11",
+      "target": "C25",
+      "count": 89,
+      "meanScore": 0.795006,
+      "maxScore": 0.942522,
+      "strokeWidth": 1.685
+    },
+    {
+      "source": "C11",
+      "target": "C77",
+      "count": 87,
+      "meanScore": 0.789346,
+      "maxScore": 0.847556,
+      "strokeWidth": 1.658
+    },
+    {
+      "source": "C28",
+      "target": "C77",
+      "count": 86,
+      "meanScore": 0.797647,
+      "maxScore": 0.86779,
+      "strokeWidth": 1.644
+    },
+    {
+      "source": "C11",
+      "target": "C65",
+      "count": 84,
+      "meanScore": 0.805434,
+      "maxScore": 0.911318,
+      "strokeWidth": 1.617
+    },
+    {
+      "source": "C19",
+      "target": "C25",
+      "count": 77,
+      "meanScore": 0.802951,
+      "maxScore": 0.857227,
+      "strokeWidth": 1.523
+    },
+    {
+      "source": "C19",
+      "target": "C77",
+      "count": 72,
+      "meanScore": 0.788662,
+      "maxScore": 0.869358,
+      "strokeWidth": 1.456
+    },
+    {
+      "source": "C19",
+      "target": "C82",
+      "count": 70,
+      "meanScore": 0.791133,
+      "maxScore": 0.871559,
+      "strokeWidth": 1.429
+    },
+    {
+      "source": "C19",
+      "target": "C59",
+      "count": 70,
+      "meanScore": 0.805624,
+      "maxScore": 0.881307,
+      "strokeWidth": 1.429
+    },
+    {
+      "source": "C29",
+      "target": "C92",
+      "count": 70,
+      "meanScore": 0.850906,
+      "maxScore": 0.943424,
+      "strokeWidth": 1.429
+    },
+    {
+      "source": "C25",
+      "target": "C37",
+      "count": 70,
+      "meanScore": 0.80419,
+      "maxScore": 0.909907,
+      "strokeWidth": 1.429
+    },
+    {
+      "source": "C37",
+      "target": "C76",
+      "count": 67,
+      "meanScore": 0.799833,
+      "maxScore": 0.882013,
+      "strokeWidth": 1.388
+    },
+    {
+      "source": "C19",
+      "target": "C86",
+      "count": 67,
+      "meanScore": 0.81079,
+      "maxScore": 0.89395,
+      "strokeWidth": 1.388
+    },
+    {
+      "source": "C11",
+      "target": "C76",
+      "count": 64,
+      "meanScore": 0.793955,
+      "maxScore": 0.893242,
+      "strokeWidth": 1.348
+    },
+    {
+      "source": "C36",
+      "target": "C86",
+      "count": 62,
+      "meanScore": 0.821546,
+      "maxScore": 0.911303,
+      "strokeWidth": 1.321
+    },
+    {
+      "source": "C28",
+      "target": "C33",
+      "count": 56,
+      "meanScore": 0.798659,
+      "maxScore": 0.895983,
+      "strokeWidth": 1.24
+    },
+    {
+      "source": "C59",
+      "target": "C88",
+      "count": 53,
+      "meanScore": 0.8045,
+      "maxScore": 0.899142,
+      "strokeWidth": 1.2
+    },
+    {
+      "source": "C24",
+      "target": "C33",
+      "count": 53,
+      "meanScore": 0.831552,
+      "maxScore": 0.91485,
+      "strokeWidth": 1.2
+    },
+    {
+      "source": "C24",
+      "target": "C36",
+      "count": 50,
+      "meanScore": 0.791277,
+      "maxScore": 0.864654,
+      "strokeWidth": 1.16
+    },
+    {
+      "source": "C25",
+      "target": "C76",
+      "count": 47,
+      "meanScore": 0.79188,
+      "maxScore": 0.877086,
+      "strokeWidth": 1.119
+    },
+    {
+      "source": "C67",
+      "target": "C98",
+      "count": 46,
+      "meanScore": 0.805599,
+      "maxScore": 0.909097,
+      "strokeWidth": 1.106
+    },
+    {
+      "source": "C19",
+      "target": "C37",
+      "count": 46,
+      "meanScore": 0.777851,
+      "maxScore": 0.879476,
+      "strokeWidth": 1.106
+    },
+    {
+      "source": "C29",
+      "target": "C85",
+      "count": 45,
+      "meanScore": 0.835272,
+      "maxScore": 0.911993,
+      "strokeWidth": 1.092
+    },
+    {
+      "source": "C37",
+      "target": "C86",
+      "count": 43,
+      "meanScore": 0.794813,
+      "maxScore": 0.852422,
+      "strokeWidth": 1.065
+    },
+    {
+      "source": "C28",
+      "target": "C82",
+      "count": 42,
+      "meanScore": 0.782898,
+      "maxScore": 0.831483,
+      "strokeWidth": 1.052
+    },
+    {
+      "source": "C19",
+      "target": "C65",
+      "count": 42,
+      "meanScore": 0.812679,
+      "maxScore": 0.901228,
+      "strokeWidth": 1.052
+    },
+    {
+      "source": "C24",
+      "target": "C86",
+      "count": 41,
+      "meanScore": 0.804565,
+      "maxScore": 0.876858,
+      "strokeWidth": 1.038
+    },
+    {
+      "source": "C24",
+      "target": "C25",
+      "count": 40,
+      "meanScore": 0.794533,
+      "maxScore": 0.874577,
+      "strokeWidth": 1.025
+    },
+    {
+      "source": "C115",
+      "target": "C59",
+      "count": 39,
+      "meanScore": 0.833171,
+      "maxScore": 0.918859,
+      "strokeWidth": 1.012
+    },
+    {
+      "source": "C25",
+      "target": "C36",
+      "count": 39,
+      "meanScore": 0.784914,
+      "maxScore": 0.841345,
+      "strokeWidth": 1.012
+    },
+    {
+      "source": "C11",
+      "target": "C36",
+      "count": 38,
+      "meanScore": 0.798245,
+      "maxScore": 0.864616,
+      "strokeWidth": 0.998
+    },
+    {
+      "source": "C67",
+      "target": "C76",
+      "count": 38,
+      "meanScore": 0.796784,
+      "maxScore": 0.870738,
+      "strokeWidth": 0.998
+    },
+    {
+      "source": "C36",
+      "target": "C88",
+      "count": 38,
+      "meanScore": 0.787521,
+      "maxScore": 0.858706,
+      "strokeWidth": 0.998
+    },
+    {
+      "source": "C77",
+      "target": "C82",
+      "count": 37,
+      "meanScore": 0.79416,
+      "maxScore": 0.879451,
+      "strokeWidth": 0.985
+    },
+    {
+      "source": "C11",
+      "target": "C82",
+      "count": 37,
+      "meanScore": 0.798897,
+      "maxScore": 0.865706,
+      "strokeWidth": 0.985
+    },
+    {
+      "source": "C37",
+      "target": "C77",
+      "count": 37,
+      "meanScore": 0.791549,
+      "maxScore": 0.871921,
+      "strokeWidth": 0.985
+    },
+    {
+      "source": "C115",
+      "target": "C36",
+      "count": 37,
+      "meanScore": 0.792683,
+      "maxScore": 0.888511,
+      "strokeWidth": 0.985
+    },
+    {
+      "source": "C19",
+      "target": "C33",
+      "count": 36,
+      "meanScore": 0.789762,
+      "maxScore": 0.87262,
+      "strokeWidth": 0.971
+    },
+    {
+      "source": "C24",
+      "target": "C37",
+      "count": 36,
+      "meanScore": 0.791976,
+      "maxScore": 0.850794,
+      "strokeWidth": 0.971
+    },
+    {
+      "source": "C106",
+      "target": "C77",
+      "count": 35,
+      "meanScore": 0.791318,
+      "maxScore": 0.819009,
+      "strokeWidth": 0.958
+    },
+    {
+      "source": "C19",
+      "target": "C98",
+      "count": 34,
+      "meanScore": 0.793157,
+      "maxScore": 0.877875,
+      "strokeWidth": 0.944
+    },
+    {
+      "source": "C36",
+      "target": "C37",
+      "count": 33,
+      "meanScore": 0.777773,
+      "maxScore": 0.838075,
+      "strokeWidth": 0.931
+    },
+    {
+      "source": "C37",
+      "target": "C67",
+      "count": 32,
+      "meanScore": 0.787489,
+      "maxScore": 0.863925,
+      "strokeWidth": 0.917
+    },
+    {
+      "source": "C24",
+      "target": "C89",
+      "count": 32,
+      "meanScore": 0.841288,
+      "maxScore": 0.895233,
+      "strokeWidth": 0.917
+    },
+    {
+      "source": "C76",
+      "target": "C77",
+      "count": 31,
+      "meanScore": 0.789649,
+      "maxScore": 0.843052,
+      "strokeWidth": 0.904
+    },
+    {
+      "source": "C19",
+      "target": "C36",
+      "count": 31,
+      "meanScore": 0.783025,
+      "maxScore": 0.9142,
+      "strokeWidth": 0.904
+    },
+    {
+      "source": "C59",
+      "target": "C85",
+      "count": 27,
+      "meanScore": 0.824678,
+      "maxScore": 0.901793,
+      "strokeWidth": 0.85
+    },
+    {
+      "source": "C28",
+      "target": "C98",
+      "count": 26,
+      "meanScore": 0.790857,
+      "maxScore": 0.838944,
+      "strokeWidth": 0.837
+    },
+    {
+      "source": "C11",
+      "target": "C86",
+      "count": 26,
+      "meanScore": 0.804317,
+      "maxScore": 0.854498,
+      "strokeWidth": 0.837
+    },
+    {
+      "source": "C85",
+      "target": "C92",
+      "count": 26,
+      "meanScore": 0.813211,
+      "maxScore": 0.909047,
+      "strokeWidth": 0.837
+    },
+    {
+      "source": "C11",
+      "target": "C67",
+      "count": 25,
+      "meanScore": 0.780697,
+      "maxScore": 0.863695,
+      "strokeWidth": 0.823
+    },
+    {
+      "source": "C11",
+      "target": "C98",
+      "count": 24,
+      "meanScore": 0.834578,
+      "maxScore": 0.90413,
+      "strokeWidth": 0.81
+    },
+    {
+      "source": "C11",
+      "target": "C59",
+      "count": 24,
+      "meanScore": 0.793812,
+      "maxScore": 0.894022,
+      "strokeWidth": 0.81
+    },
+    {
+      "source": "C36",
+      "target": "C59",
+      "count": 24,
+      "meanScore": 0.788648,
+      "maxScore": 0.84185,
+      "strokeWidth": 0.81
+    },
+    {
+      "source": "C24",
+      "target": "C77",
+      "count": 24,
+      "meanScore": 0.79446,
+      "maxScore": 0.900872,
+      "strokeWidth": 0.81
+    },
+    {
+      "source": "C28",
+      "target": "C67",
+      "count": 23,
+      "meanScore": 0.78377,
+      "maxScore": 0.852063,
+      "strokeWidth": 0.796
+    },
+    {
+      "source": "C37",
+      "target": "C98",
+      "count": 23,
+      "meanScore": 0.811502,
+      "maxScore": 0.892023,
+      "strokeWidth": 0.796
+    },
+    {
+      "source": "C37",
+      "target": "C59",
+      "count": 23,
+      "meanScore": 0.81519,
+      "maxScore": 0.938875,
+      "strokeWidth": 0.796
+    },
+    {
+      "source": "C76",
+      "target": "C98",
+      "count": 23,
+      "meanScore": 0.808654,
+      "maxScore": 0.871475,
+      "strokeWidth": 0.796
+    },
+    {
+      "source": "C19",
+      "target": "C85",
+      "count": 22,
+      "meanScore": 0.817212,
+      "maxScore": 0.886695,
+      "strokeWidth": 0.783
+    },
+    {
+      "source": "C33",
+      "target": "C76",
+      "count": 22,
+      "meanScore": 0.781112,
+      "maxScore": 0.81721,
+      "strokeWidth": 0.783
+    },
+    {
+      "source": "C33",
+      "target": "C77",
+      "count": 21,
+      "meanScore": 0.795132,
+      "maxScore": 0.856483,
+      "strokeWidth": 0.769
+    },
+    {
+      "source": "C24",
+      "target": "C82",
+      "count": 20,
+      "meanScore": 0.783043,
+      "maxScore": 0.848501,
+      "strokeWidth": 0.756
+    },
+    {
+      "source": "C85",
+      "target": "C88",
+      "count": 19,
+      "meanScore": 0.803773,
+      "maxScore": 0.852355,
+      "strokeWidth": 0.742
+    },
+    {
+      "source": "C59",
+      "target": "C76",
+      "count": 19,
+      "meanScore": 0.809308,
+      "maxScore": 0.963409,
+      "strokeWidth": 0.742
+    },
+    {
+      "source": "C28",
+      "target": "C36",
+      "count": 19,
+      "meanScore": 0.768462,
+      "maxScore": 0.805028,
+      "strokeWidth": 0.742
+    },
+    {
+      "source": "C65",
+      "target": "C82",
+      "count": 18,
+      "meanScore": 0.800499,
+      "maxScore": 0.850466,
+      "strokeWidth": 0.729
+    },
+    {
+      "source": "C28",
+      "target": "C89",
+      "count": 18,
+      "meanScore": 0.860862,
+      "maxScore": 0.925183,
+      "strokeWidth": 0.729
+    },
+    {
+      "source": "C88",
+      "target": "C92",
+      "count": 17,
+      "meanScore": 0.792339,
+      "maxScore": 0.84037,
+      "strokeWidth": 0.715
+    },
+    {
+      "source": "C115",
+      "target": "C92",
+      "count": 17,
+      "meanScore": 0.828328,
+      "maxScore": 0.888516,
+      "strokeWidth": 0.715
+    },
+    {
+      "source": "C76",
+      "target": "C82",
+      "count": 17,
+      "meanScore": 0.77725,
+      "maxScore": 0.813303,
+      "strokeWidth": 0.715
+    },
+    {
+      "source": "C24",
+      "target": "C67",
+      "count": 16,
+      "meanScore": 0.786699,
+      "maxScore": 0.861237,
+      "strokeWidth": 0.702
+    },
+    {
+      "source": "C25",
+      "target": "C77",
+      "count": 16,
+      "meanScore": 0.797106,
+      "maxScore": 0.861943,
+      "strokeWidth": 0.702
+    },
+    {
+      "source": "C115",
+      "target": "C24",
+      "count": 16,
+      "meanScore": 0.776242,
+      "maxScore": 0.817708,
+      "strokeWidth": 0.702
+    },
+    {
+      "source": "C115",
+      "target": "C88",
+      "count": 16,
+      "meanScore": 0.783765,
+      "maxScore": 0.843516,
+      "strokeWidth": 0.702
+    },
+    {
+      "source": "C28",
+      "target": "C92",
+      "count": 16,
+      "meanScore": 0.781228,
+      "maxScore": 0.829186,
+      "strokeWidth": 0.702
+    },
+    {
+      "source": "C28",
+      "target": "C65",
+      "count": 16,
+      "meanScore": 0.783879,
+      "maxScore": 0.887298,
+      "strokeWidth": 0.702
+    },
+    {
+      "source": "C25",
+      "target": "C74",
+      "count": 14,
+      "meanScore": 0.797296,
+      "maxScore": 0.925371,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C37",
+      "target": "C74",
+      "count": 14,
+      "meanScore": 0.806465,
+      "maxScore": 0.893693,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C102",
+      "target": "C88",
+      "count": 14,
+      "meanScore": 0.780245,
+      "maxScore": 0.838484,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C33",
+      "target": "C37",
+      "count": 14,
+      "meanScore": 0.781867,
+      "maxScore": 0.829333,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C19",
+      "target": "C67",
+      "count": 14,
+      "meanScore": 0.774221,
+      "maxScore": 0.795086,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C28",
+      "target": "C86",
+      "count": 14,
+      "meanScore": 0.780442,
+      "maxScore": 0.870024,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C74",
+      "target": "C98",
+      "count": 14,
+      "meanScore": 0.830834,
+      "maxScore": 0.914355,
+      "strokeWidth": 0.675
+    },
+    {
+      "source": "C28",
+      "target": "C74",
+      "count": 13,
+      "meanScore": 0.782606,
+      "maxScore": 0.813298,
+      "strokeWidth": 0.662
+    },
+    {
+      "source": "C76",
+      "target": "C88",
+      "count": 13,
+      "meanScore": 0.825998,
+      "maxScore": 0.934808,
+      "strokeWidth": 0.662
+    },
+    {
+      "source": "C122",
+      "target": "C29",
+      "count": 13,
+      "meanScore": 0.904131,
+      "maxScore": 0.930426,
+      "strokeWidth": 0.662
+    },
+    {
+      "source": "C36",
+      "target": "C92",
+      "count": 13,
+      "meanScore": 0.804452,
+      "maxScore": 0.876961,
+      "strokeWidth": 0.662
+    },
+    {
+      "source": "C106",
+      "target": "C65",
+      "count": 13,
+      "meanScore": 0.790193,
+      "maxScore": 0.852281,
+      "strokeWidth": 0.662
+    },
+    {
+      "source": "C59",
+      "target": "C86",
+      "count": 12,
+      "meanScore": 0.817005,
+      "maxScore": 0.888929,
+      "strokeWidth": 0.648
+    },
+    {
+      "source": "C25",
+      "target": "C98",
+      "count": 12,
+      "meanScore": 0.776853,
+      "maxScore": 0.825155,
+      "strokeWidth": 0.648
+    },
+    {
+      "source": "C25",
+      "target": "C86",
+      "count": 12,
+      "meanScore": 0.790023,
+      "maxScore": 0.828392,
+      "strokeWidth": 0.648
+    },
+    {
+      "source": "C25",
+      "target": "C59",
+      "count": 12,
+      "meanScore": 0.814013,
+      "maxScore": 0.867218,
+      "strokeWidth": 0.648
+    },
+    {
+      "source": "C19",
+      "target": "C88",
+      "count": 12,
+      "meanScore": 0.788136,
+      "maxScore": 0.836207,
+      "strokeWidth": 0.648
+    },
+    {
+      "source": "C28",
+      "target": "C59",
+      "count": 12,
+      "meanScore": 0.784562,
+      "maxScore": 0.841305,
+      "strokeWidth": 0.648
+    },
+    {
+      "source": "C11",
+      "target": "C92",
+      "count": 12,
+      "meanScore": 0.783237,
+      "maxScore": 0.832416,
+      "strokeWidth": 0.648
+    },
+    {
+      "source": "C37",
+      "target": "C92",
+      "count": 11,
+      "meanScore": 0.777513,
+      "maxScore": 0.793307,
+      "strokeWidth": 0.635
+    },
+    {
+      "source": "C77",
+      "target": "C86",
+      "count": 11,
+      "meanScore": 0.781543,
+      "maxScore": 0.822337,
+      "strokeWidth": 0.635
+    },
+    {
+      "source": "C76",
+      "target": "C86",
+      "count": 11,
+      "meanScore": 0.815174,
+      "maxScore": 0.884175,
+      "strokeWidth": 0.635
+    },
+    {
+      "source": "C102",
+      "target": "C29",
+      "count": 11,
+      "meanScore": 0.824663,
+      "maxScore": 0.892004,
+      "strokeWidth": 0.635
+    },
+    {
+      "source": "C67",
+      "target": "C92",
+      "count": 11,
+      "meanScore": 0.797536,
+      "maxScore": 0.87268,
+      "strokeWidth": 0.635
+    },
+    {
+      "source": "C59",
+      "target": "C92",
+      "count": 10,
+      "meanScore": 0.824008,
+      "maxScore": 0.884352,
+      "strokeWidth": 0.621
+    },
+    {
+      "source": "C86",
+      "target": "C92",
+      "count": 10,
+      "meanScore": 0.816413,
+      "maxScore": 0.863086,
+      "strokeWidth": 0.621
+    },
+    {
+      "source": "C29",
+      "target": "C88",
+      "count": 10,
+      "meanScore": 0.798709,
+      "maxScore": 0.838683,
+      "strokeWidth": 0.621
+    },
+    {
+      "source": "C74",
+      "target": "C92",
+      "count": 10,
+      "meanScore": 0.812524,
+      "maxScore": 0.87175,
+      "strokeWidth": 0.621
+    }
+  ]
+}

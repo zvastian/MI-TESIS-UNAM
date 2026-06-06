@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C756",
+    "clusterId": 756,
+    "macroId": "Area1_M05",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0236568",
+      "title": "elementos, procedimientos y análisis de la valuacion actuarial",
+      "year": 1996,
+      "author": "Fernando Arguelles Guerrero",
+      "advisor": "Enrique Vega Villanueva",
+      "program": "actuaria",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JTHMY5FFEU5IYNEFR2RXL661C4A6EDFVXF58QK9YPJJ6DY8G9K-23724?func=service&doc_library=TES01&doc_number=000234803&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.926321,
+      "titleKey": "elementos procedimientos y analisis de la valuacion actuarial",
+      "titleFamilyKey": "elemento procedim analisis valua actuaria"
+    },
+    {
+      "thesisId": "TH_0136133",
+      "title": "la tecnica actuarial aplicada a la valuacion y financiamiento de la prima de antiguedad",
+      "year": 1977,
+      "author": "Armando Raul Orta Gutierrez",
+      "advisor": "Asesor no registrado",
+      "program": "actuaria",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/PEJDV8ML36UQ19SAPYEBLBMNAGI2GG4L4H3SVXK7M5XNC9BBQG-12240?func=service&doc_library=TES01&doc_number=000061228&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.883047,
+      "titleKey": "la tecnica actuarial aplicada a la valuacion y financiamiento de la prima de antiguedad",
+      "titleFamilyKey": "tecnica actuaria aplicada valua financia prima antigued"
+    },
+    {
+      "thesisId": "TH_0358872",
+      "title": "valuación actuarial bajo ias 19, análisis de presentación de resultados",
+      "year": 2019,
+      "author": "Alan Ramírez Guerrero",
+      "advisor": "Abraham Ernesto Hernández Pacheco",
+      "program": "actuaria",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-45847?func=service&doc_library=TES01&doc_number=000840237&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.877454,
+      "titleKey": "valuacion actuarial bajo ias 19 analisis de presentacion de resultados",
+      "titleFamilyKey": "valua actuaria ias analisis presenta resultad"
+    },
+    {
+      "thesisId": "TH_0229755",
+      "title": "valuacion actuarial inicial y subsecuente de pasivos contingentes de acuerdo con el boletin d-3",
+      "year": 1994,
+      "author": "Monica Elizabeth Gonzalez Palomeque",
+      "advisor": "Carlos Gustavo Rosado Muñoz",
+      "program": "actuaria",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "universidad anahuac",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/X3M1JK3ASDY754G7Q62EK6RENA6B5YMGXU7N85HKGD4QXKPPHL-27235?func=service&doc_library=TES01&doc_number=000209289&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.838345,
+      "titleKey": "valuacion actuarial inicial y subsecuente de pasivos contingentes de acuerdo con el boletin d 3",
+      "titleFamilyKey": "valua actuaria inicial subsecue pasivos continge acuerdo boletin"
+    },
+    {
+      "thesisId": "TH_0580097",
+      "title": "Sistematizacion actuarial del beneficio otorgado por prima de antiguedad",
+      "year": 1987,
+      "author": "Ana Beatriz Martinez López Arellano",
+      "advisor": "Hugo Delgado Alonso",
+      "program": "Actuaría",
+      "level": "licenciatura",
+      "area": "Ciencias Físico-Matemáticas e Ingenierías",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/pmig2018/0057672/Index.html",
+      "sourceRecord": "marc_recovered",
+      "representativeScore": 0.808712,
+      "titleKey": "sistematizacion actuarial del beneficio otorgado por prima de antiguedad",
+      "titleFamilyKey": "sistematiza actuaria benefici otorgado prima antigued"
+    }
+  ]
+}

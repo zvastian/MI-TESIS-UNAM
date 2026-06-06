@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C713",
+    "clusterId": 713,
+    "macroId": "Area2_M14",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0260039",
+      "title": "validacion de la prueba de frases incompletas de j. grados y e. sanchez con aplicacion a la industria",
+      "year": 1998,
+      "author": "Sandra Conde Guerrero",
+      "advisor": "Raúl Tenorio Ramírez · +1 más",
+      "program": "psicologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de psicologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/677AK8M49I47XVTDUDL1YSEBMLKGK8HKIG33V6THCD2IX3XDSJ-34304?func=service&doc_library=TES01&doc_number=000034070&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.945227,
+      "titleKey": "validacion de la prueba de frases incompletas de j grados y e sanchez con aplicacion a la industria",
+      "titleFamilyKey": "valida prueba frases incomple grados sanchez aplica industri"
+    },
+    {
+      "thesisId": "TH_0237912",
+      "title": "obtencion del indice de confiabilidad de la prueba de frases incompletas con aplicacion a la industria (figs)",
+      "year": 1996,
+      "author": "Ma Edilia Chia Domeneche",
+      "advisor": "Raúl Tenorio Ramírez",
+      "program": "psicologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de psicologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/JTHMY5FFEU5IYNEFR2RXL661C4A6EDFVXF58QK9YPJJ6DY8G9K-23440?func=service&doc_library=TES01&doc_number=000239522&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.940821,
+      "titleKey": "obtencion del indice de confiabilidad de la prueba de frases incompletas con aplicacion a la industria figs",
+      "titleFamilyKey": "obten indice confiabil prueba frases incomple aplica industri"
+    },
+    {
+      "thesisId": "TH_0046641",
+      "title": "obtencion de la confiabilidad de la prueba de frases incompletas con aplicacion a la industria (figs) a nivel operativo en la embotelladora aga de méxico",
+      "year": 2003,
+      "author": "Leodegario Bernardo Pancardo Durán",
+      "advisor": "Raúl Tenorio Ramírez",
+      "program": "psicologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de psicologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3JKIMGNSB3DIKCR7AH42EK2S94JT2MTEEC3F6KUND2NL471CXT-04578?func=service&doc_library=TES01&doc_number=000315011&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.903059,
+      "titleKey": "obtencion de la confiabilidad de la prueba de frases incompletas con aplicacion a la industria figs a nivel operativo en la embotelladora aga de mexico",
+      "titleFamilyKey": "obten confiabil prueba frases incomple aplica industri figs"
+    },
+    {
+      "thesisId": "TH_0208276",
+      "title": "obtencion de las normas de la prueba de frases incompletas de grados, aplicada a la seleccion de personal en una institucion publica",
+      "year": 1992,
+      "author": "Dionisio Cabello Jimenez",
+      "advisor": "Raúl Tenorio Ramírez",
+      "program": "psicologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de psicologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/TAKQ7GCFSBVPTGBGEDN5JBT5SK1MYHJJ8Y977BA49A22GDIK2C-73656?func=service&doc_library=TES01&doc_number=000182185&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.850665,
+      "titleKey": "obtencion de las normas de la prueba de frases incompletas de grados aplicada a la seleccion de personal en una institucion publica",
+      "titleFamilyKey": "obten normas prueba frases incomple grados aplicada selec"
+    },
+    {
+      "thesisId": "TH_0121674",
+      "title": "construcción de una prueba de frases incompletas con aplicación a la psicología industrial",
+      "year": 1974,
+      "author": "Jaime A Grados",
+      "advisor": "Luis Lara Tapia",
+      "program": "psicologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de psicologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/LM7H7H1IVJEJNC7BMNYGCTY1V8JI13GUTGNVTFP6N8RTMJGRX1-16001?func=service&doc_library=TES01&doc_number=000660190&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.843953,
+      "titleKey": "construccion de una prueba de frases incompletas con aplicacion a la psicologia industrial",
+      "titleFamilyKey": "construc prueba frases incomple aplica psicolog industri"
+    }
+  ]
+}

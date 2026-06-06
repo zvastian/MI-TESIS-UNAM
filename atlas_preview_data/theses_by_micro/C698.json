@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C698",
+    "clusterId": 698,
+    "macroId": "Area2_M11",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0087547",
+      "title": "estudios cinéticos en las isozimas de la fosfatasa alcalina presente en hígado y en hueso humano : iii.- energías de activación, conversion, estabilidad de mezclas de enzimas, y efecto del suero humano sobre las enzimas purificadas",
+      "year": 1963,
+      "author": "Mercedes Baca L. de G.",
+      "advisor": "Jesús Torres G.",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "universidad iberoamericana",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/BS6Q51C9L9R8MMV3FLU44ULT3HEDH8RPJLBSH25CQE2IHC39HB-50004?func=service&doc_library=TES01&doc_number=000855066&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.921183,
+      "titleKey": "estudios cineticos en las isozimas de la fosfatasa alcalina presente en higado y en hueso humano iii energias de activacion conversion estabilidad de mezclas de enzimas y efecto del suero humano sobre las enzimas purificadas",
+      "titleFamilyKey": "estudios cinetico isozimas fosfatas alcalina presente higado hueso"
+    },
+    {
+      "thesisId": "TH_0087334",
+      "title": "estudio cinético de las isozimas de la fosfatasa alcalina de hígado y hueso humanos : influencia de la temperatura y el ph sobre las energías de activación y conversión",
+      "year": 1962,
+      "author": "Graciela Zárate Durán",
+      "advisor": "Guillermo Soberón Acevedo · +1 más",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "universidad motolinia",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q8MDNRDY8K8J7X1XP17K3FRU1JS2GPF3MY57BEK7BNLACNRNMS-43998?func=service&doc_library=TES01&doc_number=000855272&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.88167,
+      "titleKey": "estudio cinetico de las isozimas de la fosfatasa alcalina de higado y hueso humanos influencia de la temperatura y el ph sobre las energias de activacion y conversion",
+      "titleFamilyKey": "estudio cinetico isozimas fosfatas alcalina higado hueso humanos"
+    },
+    {
+      "thesisId": "TH_0091301",
+      "title": "estudio citoquimico de algunas enzimas del higado humano normal y patologico",
+      "year": 1964,
+      "author": "Ma. Elena Ramirez Espinosa",
+      "advisor": "Asesor no registrado",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 1",
+      "campus": "facultad de ciencias unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/INCBXJSNSUVS6IGTS4H42TR1I98NSF3TSB7SFJ9UHGJSD4V5XQ-25198?func=service&doc_library=TES01&doc_number=000058972&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.861093,
+      "titleKey": "estudio citoquimico de algunas enzimas del higado humano normal y patologico",
+      "titleFamilyKey": "estudio citoquim algunas enzimas higado humano normal patologi"
+    },
+    {
+      "thesisId": "TH_0087219",
+      "title": "estudios cineticos en las iso-zimas de la fosfatasa alcalina, presentes en higado y en hueso 1. : efecto del ph y de la temperatura sobre la constante de michaelis y la velocidad maxima",
+      "year": 1962,
+      "author": "Rebeca Tarrab Zafrani",
+      "advisor": "Jesús Torres Merino",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/Q8MDNRDY8K8J7X1XP17K3FRU1JS2GPF3MY57BEK7BNLACNRNMS-40984?func=service&doc_library=TES01&doc_number=000170138&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.814045,
+      "titleKey": "estudios cineticos en las iso zimas de la fosfatasa alcalina presentes en higado y en hueso 1 efecto del ph y de la temperatura sobre la constante de michaelis y la velocidad maxima",
+      "titleFamilyKey": "estudios cinetico iso zimas fosfatas alcalina presente higado"
+    },
+    {
+      "thesisId": "TH_0119335",
+      "title": "determinacion cinetica de cuatro enzimas en casos normales y patologicos",
+      "year": 1973,
+      "author": "Mallinalli Robles Soriano",
+      "advisor": "Oscar Amor Dodero",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/1EBGPF9I12JTRDGGM7DP6G6KTYBXSCKATBCPS4YGD8VV9YJA1A-17055?func=service&doc_library=TES01&doc_number=000172424&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.796834,
+      "titleKey": "determinacion cinetica de cuatro enzimas en casos normales y patologicos",
+      "titleFamilyKey": "determina cinetica cuatro enzimas casos normales patologi"
+    }
+  ]
+}

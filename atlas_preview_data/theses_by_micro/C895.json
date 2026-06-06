@@ -1,0 +1,85 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C895",
+    "clusterId": 895,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 4,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0145376",
+      "title": "enfermedades parodontales agudas",
+      "year": 1979,
+      "author": "Marcela Portillo Oliver",
+      "advisor": "Jose Rodolfo Deveza Tello",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GSQBMGJRFXATKKJL4EC34FSN1XUJ5UFREVJSFRMF4YMMNCN7AC-17859?func=service&doc_library=TES01&doc_number=000039916&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998552,
+      "titleKey": "enfermedades parodontales agudas",
+      "titleFamilyKey": "enfermed parodont agudas"
+    },
+    {
+      "thesisId": "TH_0147531",
+      "title": "enfermedades parodontales agudas",
+      "year": 1981,
+      "author": "Ma. Teresa Buitron Alcaraz",
+      "advisor": "Asesor no registrado",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5E8H58QDXC9N2YJUPLYYNUXUDRPPAIIGNCXQVH89EUP9J3U3QT-51567?func=service&doc_library=TES01&doc_number=000020752&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.998552,
+      "titleKey": "enfermedades parodontales agudas",
+      "titleFamilyKey": "enfermed parodont agudas"
+    },
+    {
+      "thesisId": "TH_0162166",
+      "title": "enfermedades agudas parodontales",
+      "year": 1983,
+      "author": "Maria Yolanda Soledad López Martinez",
+      "advisor": "Antonio Saavedra Martinez",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/KPK4S9PPDPXJQ6F1FY5NMQ8P8QHGLFYTT37RP4KU7BRPA2VM4B-17775?func=service&doc_library=TES01&doc_number=000029034&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.993864,
+      "titleKey": "enfermedades agudas parodontales",
+      "titleFamilyKey": "enfermed agudas parodont"
+    },
+    {
+      "thesisId": "TH_0172864",
+      "title": "enfermedad parodontal aguda",
+      "year": 1984,
+      "author": "Marisela Villegas Cordoba",
+      "advisor": "Alfonso Otero Cano",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5ASBNXLGSVAJ956FBQDC6XG6JG88TNQB6CN4ABSD97ITAFLPML-11503?func=service&doc_library=TES01&doc_number=000023029&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.983367,
+      "titleKey": "enfermedad parodontal aguda",
+      "titleFamilyKey": "enfermed parodont aguda"
+    }
+  ]
+}

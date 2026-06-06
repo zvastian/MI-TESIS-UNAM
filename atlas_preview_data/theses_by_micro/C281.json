@@ -1,0 +1,53 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C281",
+    "clusterId": 281,
+    "macroId": "Area3_M06",
+    "area": "Area 3",
+    "size": 20,
+    "shown": 2,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0105630",
+      "title": "contabilidad por areas de responsabilidad",
+      "year": 1970,
+      "author": "Luis Alberto Gonzalez Rodriguez",
+      "advisor": "Asesor no registrado",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-45959?func=service&doc_library=TES01&doc_number=000079895&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "contabilidad por areas de responsabilidad",
+      "titleFamilyKey": "contabil areas responsabil"
+    },
+    {
+      "thesisId": "TH_0107424",
+      "title": "contabilidad por areas de responsabilidad",
+      "year": 1970,
+      "author": "Fernando B Ruiz Sahagun",
+      "advisor": "Asesor no registrado",
+      "program": "contaduria",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G287QD3D6G4TVD3CYYDEXKIXDBBAGLDFFYJ67B9LNVHUP28QYN-23431?func=service&doc_library=TES01&doc_number=000080935&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "contabilidad por areas de responsabilidad",
+      "titleFamilyKey": "contabil areas responsabil"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C755",
+    "clusterId": 755,
+    "macroId": "Area2_M11",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0504256",
+      "title": "construcción de vectores de expresión de las variantes de rna del gen dedos de zinc 695 (znf695)",
+      "year": 2021,
+      "author": "Karina Olmos Valdez",
+      "advisor": "Vanessa Villegas Ruíz · +1 más",
+      "program": "quimica farmaceutico biologica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/8CNK4H5X97HH7RQ4T38GXYRMESUFSYN4LAB6XJ1M3E2XEHCU4F-09936?func=service&doc_library=TES01&doc_number=000808905&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.901211,
+      "titleKey": "construccion de vectores de expresion de las variantes de rna del gen dedos de zinc 695 znf695",
+      "titleFamilyKey": "construc vectores expresio variante rna gen dedos zinc"
+    },
+    {
+      "thesisId": "TH_0008363",
+      "title": "clonacion del extremo 5´del gen de la proteina asociada a las uniones estrechas zo-1",
+      "year": 2000,
+      "author": "Marco Antonio de la Rosa Rios",
+      "advisor": "Jesus Valdes Flores",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/IKD1LNTMGQ6E5KENEL54SN25MLIR9LH51C7RU7HFGAURC8G7SU-32115?func=service&doc_library=TES01&doc_number=000278857&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.900971,
+      "titleKey": "clonacion del extremo 5 del gen de la proteina asociada a las uniones estrechas zo 1",
+      "titleFamilyKey": "clona extremo gen proteina asociada uniones estrecha"
+    },
+    {
+      "thesisId": "TH_0008512",
+      "title": "determinacion del inicio de la transcripcion del gene de la proteina asociada a uniones estrechas zo-1",
+      "year": 2000,
+      "author": "Omar Khayyan Ruvalcaba Salazar",
+      "advisor": "Jesus Valdes flores",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores iztacala unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/IKD1LNTMGQ6E5KENEL54SN25MLIR9LH51C7RU7HFGAURC8G7SU-22029?func=service&doc_library=TES01&doc_number=000284689&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.891523,
+      "titleKey": "determinacion del inicio de la transcripcion del gene de la proteina asociada a uniones estrechas zo 1",
+      "titleFamilyKey": "determina inicio transcrip gene proteina asociada uniones estrecha"
+    },
+    {
+      "thesisId": "TH_0485006",
+      "title": "caracterización de las variantes de splicing alternativo del gen que codifica para la proteína znf695",
+      "year": 2018,
+      "author": "Ricardo de la Rosa Vázquez",
+      "advisor": "Sergio Juárez Méndez · +1 más",
+      "program": "biologia",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de estudios superiores zaragoza unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/7371YCBBYKNV5UKCHMBF9AXMBLFHVQSG39I1D89BS235XMQGE5-55992?func=service&doc_library=TES01&doc_number=000774602&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.880261,
+      "titleKey": "caracterizacion de las variantes de splicing alternativo del gen que codifica para la proteina znf695",
+      "titleFamilyKey": "caracteriza variante splicing alternat gen que codifica proteina"
+    },
+    {
+      "thesisId": "TH_0533700",
+      "title": "\"identificación de cisteínas susceptibles a modificaciones postraduccionales en una familia de proteínas de dedos de zinc en la levadura saccharomyces cerevisiae\"",
+      "year": 2023,
+      "author": "Ligia Estela Santiago Ríos",
+      "advisor": "Francisco Torres Quiroz",
+      "program": "quimica de alimentos",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/GKG46Q5J6TJGRXX619352L8C41K61PI2S7IT64P9RPLJM15UUN-47207?func=service&doc_library=TES01&doc_number=000839136&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.775046,
+      "titleKey": "identificacion de cisteinas susceptibles a modificaciones postraduccionales en una familia de proteinas de dedos de zinc en la levadura saccharomyces cerevisiae",
+      "titleFamilyKey": "identifica cisteina suscepti modificaci postradu familia proteina dedos"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C761",
+    "clusterId": 761,
+    "macroId": "Area2_M01",
+    "area": "Area 2",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0337582",
+      "title": "papel de la región transmembranal 11 en la afinidad por tiazidas del cotransportador renal de nacl (ncc)",
+      "year": 2009,
+      "author": "María Castañeda Bueno",
+      "advisor": "Gerardo Gamba Ayala",
+      "program": "investigacion biomedica basica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "instituto de investigaciones biomedicas unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/274918Y9SCUE445P2QFIDABN4BSTDE9LR9KQJ7AITFJ99TLBYR-33186?func=service&doc_library=TES01&doc_number=000646587&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.908537,
+      "titleKey": "papel de la region transmembranal 11 en la afinidad por tiazidas del cotransportador renal de nacl ncc",
+      "titleFamilyKey": "papel region transmem afin tiazidas cotransp renal nacl"
+    },
+    {
+      "thesisId": "TH_0056719",
+      "title": "analisis funcional y molecular de la regulacion sexual dimorfica del contransportador renal de na+:ci- sensible a tiazidas",
+      "year": 2004,
+      "author": "Paola Ana de los Heros Rios",
+      "advisor": "Gerardo Gamba Ayala",
+      "program": "ciencias bioquimicas",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/IV3AQRNPGP7D4SNCYP7N3HTU85BM1A5YA474V2DA1DSD3CY27F-00694?func=service&doc_library=TES01&doc_number=000338761&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.905681,
+      "titleKey": "analisis funcional y molecular de la regulacion sexual dimorfica del contransportador renal de na ci sensible a tiazidas",
+      "titleFamilyKey": "analisis funciona molecula regula sexual dimorfic contrans renal"
+    },
+    {
+      "thesisId": "TH_0274126",
+      "title": "efecto del genero sobre la respuesta a la administración aguda de tiazida y la expresion genica del cotransportador de na+:cl- sensible a tiazidas en riñon",
+      "year": 1999,
+      "author": "Patricia Meade Huerta",
+      "advisor": "Gerardo Gamba Ayala",
+      "program": "investigacion biomedica basica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/UEFY74PPKK8731CEAN7CQMBPIUGTSCA466CNQD5XPP5PABLFS3-20569?func=service&doc_library=TES01&doc_number=000275662&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.890925,
+      "titleKey": "efecto del genero sobre la respuesta a la administracion aguda de tiazida y la expresion genica del cotransportador de na cl sensible a tiazidas en rinon",
+      "titleFamilyKey": "efecto genero respuest administra aguda tiazida expresio genica"
+    },
+    {
+      "thesisId": "TH_0455990",
+      "title": "la investigación básica y traslacional sobre el cotransportador renal de nacl : i. regulación por hormonas femeninas. ii. papel en la hipertensión arterial inducida por tacrolimus en pacientes con trasplante renal",
+      "year": 2016,
+      "author": "Lorena Leonor Rojas Vega",
+      "advisor": "Gerardo Gamba Ayala",
+      "program": "ciencias biomedicas",
+      "level": "Doctorado",
+      "area": "Area 2",
+      "campus": "no especificado unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/5VC1B25ISXIERJRLHXLIN7S8AS3UEJY1FX2987DMHHQFJHND3U-57650?func=service&doc_library=TES01&doc_number=000739754&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.851682,
+      "titleKey": "la investigacion basica y traslacional sobre el cotransportador renal de nacl i regulacion por hormonas femeninas ii papel en la hipertension arterial inducida por tacrolimus en pacientes con trasplante renal",
+      "titleFamilyKey": "investiga basica traslaci cotransp renal nacl regula hormonas"
+    },
+    {
+      "thesisId": "TH_0060680",
+      "title": "analisis funcional de quimeras del extremo aminoterminal entre los cotransportadores renales na-cl y na-k-cl",
+      "year": 2004,
+      "author": "Israel Pichardo Casas",
+      "advisor": "Gerardo Gamba Ayala",
+      "program": "investigacion biomedica basica",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de medicina unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3E7UE53KY9K8CDJ7JAAR5NSNXB8SN8HE4PRT3Y5ATG6UJPLG4I-03190?func=service&doc_library=TES01&doc_number=000333550&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.840929,
+      "titleKey": "analisis funcional de quimeras del extremo aminoterminal entre los cotransportadores renales na cl y na k cl",
+      "titleFamilyKey": "analisis funciona quimeras extremo aminoter cotransp renales"
+    }
+  ]
+}

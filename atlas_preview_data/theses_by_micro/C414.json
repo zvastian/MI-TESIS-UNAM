@@ -1,0 +1,53 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C414",
+    "clusterId": 414,
+    "macroId": "Area2_M02",
+    "area": "Area 2",
+    "size": 13,
+    "shown": 2,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0131311",
+      "title": "ortodoncia preventiva",
+      "year": 1976,
+      "author": "Kleber Renato Pareds Cordoba",
+      "advisor": "Gilberto Nidome Inzunza",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3A7UEJ312MD2NRHJ7PU1J4CVPPBCK9Q9D1FQSIQT6V3MFM52EI-62563?func=service&doc_library=TES01&doc_number=000149445&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "ortodoncia preventiva",
+      "titleFamilyKey": "ortodonc preventi"
+    },
+    {
+      "thesisId": "TH_0132780",
+      "title": "ortodoncia preventiva",
+      "year": 1976,
+      "author": "Jorge Yamanaka Gonzalez",
+      "advisor": "Mario Martínez Osorio",
+      "program": "cirujano dentista",
+      "level": "Licenciatura",
+      "area": "Area 2",
+      "campus": "facultad de odontologia unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/3A7UEJ312MD2NRHJ7PU1J4CVPPBCK9Q9D1FQSIQT6V3MFM52EI-09387?func=service&doc_library=TES01&doc_number=000152304&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 1.0,
+      "titleKey": "ortodoncia preventiva",
+      "titleFamilyKey": "ortodonc preventi"
+    }
+  ]
+}

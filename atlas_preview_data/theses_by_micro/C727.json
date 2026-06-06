@@ -1,0 +1,101 @@
+{
+  "version": "atlas-representative-theses-v3",
+  "micro": {
+    "id": "C727",
+    "clusterId": 727,
+    "macroId": "Area1_M07",
+    "area": "Area 1",
+    "size": 5,
+    "shown": 5,
+    "selection": {
+      "method": "nearest_to_microcluster_centroid_diversified_by_exact_and_family_title",
+      "minClusterSize": 5,
+      "maxTheses": 25,
+      "maxPerTitle": 2,
+      "maxPerTitleFamily": 4,
+      "note": "If a microcluster is title-homogeneous, fewer than five theses may be shown to avoid duplicate-looking lists."
+    }
+  },
+  "theses": [
+    {
+      "thesisId": "TH_0511231",
+      "title": "análisis y mejora de procesos para aumentar la productividad de una mipyme",
+      "year": 2022,
+      "author": "Luis Angel Chávez Contreras",
+      "advisor": "Francis Soler Anguiano",
+      "program": "ingenieria de sistemas",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/RQS3XP9GKIKEDBN51Q6P1ILTTBD1J98877CGJ4K6KHR8S5FRLA-40510?func=service&doc_library=TES01&doc_number=000833089&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.912002,
+      "titleKey": "analisis y mejora de procesos para aumentar la productividad de una mipyme",
+      "titleFamilyKey": "analisis mejora procesos aumentar productiv mipyme"
+    },
+    {
+      "thesisId": "TH_0358467",
+      "title": "desarrollo de herramientas tecnológicas para la gestión y fortalecimiento de las mipymes",
+      "year": 2019,
+      "author": "Armando Moisés Pérez Silva",
+      "advisor": "Francis Soler Anguiano",
+      "program": "ingenieria de sistemas",
+      "level": "Maestría",
+      "area": "Area 1",
+      "campus": "facultad de ingenieria unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/G9V1GTS1PFM7LQPNLKEX4N43IFYPY1ML4Q68GM2BPDIH2ETEDT-47239?func=service&doc_library=TES01&doc_number=000795334&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.890894,
+      "titleKey": "desarrollo de herramientas tecnologicas para la gestion y fortalecimiento de las mipymes",
+      "titleFamilyKey": "desarrol herramie tecnolog gestion fortaleci mipymes"
+    },
+    {
+      "thesisId": "TH_0493721",
+      "title": "propuesta metodológica para la implementación de un sistema de gestión de calidad en las mipymes",
+      "year": 2020,
+      "author": "Ixtzul Hayde Rubalcava Hernández",
+      "advisor": "Horton Muñoz Héctor",
+      "program": "ingenieria quimica",
+      "level": "Maestría",
+      "area": "Area 2",
+      "campus": "facultad de quimica unam",
+      "url": null,
+      "sourceRecord": "base6",
+      "representativeScore": 0.884628,
+      "titleKey": "propuesta metodologica para la implementacion de un sistema de gestion de calidad en las mipymes",
+      "titleFamilyKey": "propuest metodolo implementa sistema gestion cali mipymes"
+    },
+    {
+      "thesisId": "TH_0488994",
+      "title": "el impacto de la ergonomia en la productividad de las mipymes",
+      "year": 2020,
+      "author": "Jorge Erick Colín Álvarez",
+      "advisor": "Juvenal Flores Sánchez",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de contaduria y administracion unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/EL1S2NAJI2NQTF1SUHFYTEDIGD4XTX2AP6UYVIELMINNBQYA69-55998?func=service&doc_library=TES01&doc_number=000799228&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.820248,
+      "titleKey": "el impacto de la ergonomia en la productividad de las mipymes",
+      "titleFamilyKey": "impacto ergonomi productiv mipymes"
+    },
+    {
+      "thesisId": "TH_0371638",
+      "title": "diseño y desarrollo de un sgc (sistema de gestión de la calidad) para mipymes (micro, pequeñas y medianas empresas) basado en la norma iso-9001 2008",
+      "year": 2010,
+      "author": "Denton Ortiz Luna",
+      "advisor": "Celia Rodríguez Chávez",
+      "program": "administracion",
+      "level": "Licenciatura",
+      "area": "Area 3",
+      "campus": "facultad de estudios superiores cuautitlan unam",
+      "url": "https://tesiunam.dgb.unam.mx:443/F/U68FN28KYTJFHRRVMIKMXVNXX6SNLUUHGH9GHMUY1A97VM1V7D-03512?func=service&doc_library=TES01&doc_number=000673169&line_number=0001&func_code=WEB-FULL&service_type=MEDIA\\\");",
+      "sourceRecord": "base6",
+      "representativeScore": 0.799049,
+      "titleKey": "diseno y desarrollo de un sgc sistema de gestion de la calidad para mipymes micro pequenas y medianas empresas basado en la norma iso 9001 2008",
+      "titleFamilyKey": "diseno desarrol sgc sistema gestion cali mipymes micro"
+    }
+  ]
+}
