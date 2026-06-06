@@ -1,0 +1,322 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 39,
+    "macro_label": "INDIGENAS · INDIGENA · PUEBLOS · DERECHOS",
+    "size": 52,
+    "microcluster_count": 1,
+    "microclusters": [
+      {
+        "microcluster_id": 122,
+        "macrocluster_id": 39,
+        "micro_label": "INDIGENAS · INDIGENA · PUEBLOS · DERECHOS",
+        "size": 52,
+        "x": 0.942626,
+        "y": -1.612677,
+        "year_min": 1970,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "indigenas",
+            "score": 0.131993
+          },
+          {
+            "term": "indigena",
+            "score": 0.11321
+          },
+          {
+            "term": "pueblos",
+            "score": 0.083578
+          },
+          {
+            "term": "derechos",
+            "score": 0.07391
+          },
+          {
+            "term": "pueblos indigenas",
+            "score": 0.067681
+          },
+          {
+            "term": "nacional",
+            "score": 0.057135
+          },
+          {
+            "term": "caso",
+            "score": 0.050813
+          },
+          {
+            "term": "derecho",
+            "score": 0.046367
+          },
+          {
+            "term": "constitucional",
+            "score": 0.042028
+          },
+          {
+            "term": "estudio",
+            "score": 0.040503
+          },
+          {
+            "term": "indigenista",
+            "score": 0.038542
+          },
+          {
+            "term": "politica",
+            "score": 0.03753
+          },
+          {
+            "term": "humanos",
+            "score": 0.0312
+          },
+          {
+            "term": "derechos humanos",
+            "score": 0.0312
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 19
+          },
+          {
+            "label": "pedagogia",
+            "count": 4
+          },
+          {
+            "label": "sociologia",
+            "count": 4
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 4
+          },
+          {
+            "label": "arquitectura",
+            "count": 2
+          },
+          {
+            "label": "geografia",
+            "count": 2
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 2
+          },
+          {
+            "label": "trabajo social",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 36
+          },
+          {
+            "label": "Area 4",
+            "count": 11
+          },
+          {
+            "label": "Area 1",
+            "count": 3
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 39
+          },
+          {
+            "label": "Maestría",
+            "count": 7
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 48
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 3
+          },
+          {
+            "label": "universiteit gent (ghent belgium) faculty of sciences institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.057692,
+          "Area 2": 0.019231,
+          "Area 3": 0.692308,
+          "Area 4": 0.211538,
+          "Por Clasificar": 0.019231
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 36,
+            "pct": 0.692308
+          },
+          {
+            "area": "Area 4",
+            "count": 11,
+            "pct": 0.211538
+          },
+          {
+            "area": "Area 1",
+            "count": 3,
+            "pct": 0.057692
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.019231
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.019231
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0264250",
+            "doc_number_url": "000241865",
+            "title": "politica educativa en el medio indigena durante el periodo 1970-1994",
+            "program": "pedagogia",
+            "year": 1996,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Sanchez García, Maria Ernestina",
+            "advisor": "Buenfil Burgos, Rosa Nidia",
+            "x": 0.941147,
+            "y": -1.610812,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0527396",
+            "doc_number_url": "000813339",
+            "title": "la amazonía rebelde : paradoja civilizatoria y pueblos indígenas en resistencia",
+            "program": "estudios latinoamericanos",
+            "year": 2021,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Urquijo Pineda, Miguel Ángel",
+            "advisor": "Makaran Kubis, Gaja Joanna",
+            "x": 0.966512,
+            "y": -1.620382,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0566595",
+            "doc_number_url": "000854447",
+            "title": "el papel de la identidad indígena en la construcción de autonomías urbanas : el caso de los pueblos y barrios originarios de xochimilco",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2024,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Sánchez Baz, Ilce Valeria",
+            "advisor": "González Ortuño, Gabriela",
+            "x": 0.96403,
+            "y": -1.596323,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0051962",
+            "doc_number_url": null,
+            "title": "symbolism, knowledge and management of soil and land resources in indigenous communities = symboliek, kennis en beheer van bodeer -en land- hulpbronnen in inheemse gemeenschappen : ethnopedology at global, regional and local scales = etnopedologie op wereld, regional en local niveau",
+            "program": "SIN PROGRAMA",
+            "year": 2004,
+            "area": "Por Clasificar",
+            "level": "desconocido",
+            "plantel": "universiteit gent",
+            "author": "Barrera Bassols, Narciso",
+            "advisor": "Van Ranst, E ; Zinck, J. Alfred",
+            "x": 0.96918,
+            "y": -1.623675,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0282954",
+            "doc_number_url": "000161329",
+            "title": "derecho indigena",
+            "program": "derecho",
+            "year": 1998,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Lledias Sandoval, Maria Rita",
+            "advisor": "Senior Gonzalez, Alberto Francisco",
+            "x": 0.971655,
+            "y": -1.608134,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0401382",
+            "doc_number_url": "000671621",
+            "title": "la educación básica para indígenas que residen en el distrito federal : el caso de los programas del conafe",
+            "program": "pedagogia",
+            "year": 2011,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "León Pacheco, María del Rosario",
+            "advisor": "Carpy Navarro, Clara Isabel",
+            "x": 0.974994,
+            "y": -1.625953,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0341906",
+            "doc_number_url": "000638409",
+            "title": "el estatuto como norma interna de las comunidades indígenas para regular los usos y costumbres de cada comunidad",
+            "program": "derecho",
+            "year": 2008,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad don vasco uruapan",
+            "author": "Álvarez del Toro, Víctor Hugo",
+            "advisor": "Jiménez Tejero, Federico",
+            "x": 0.907555,
+            "y": -1.622014,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0379309",
+            "doc_number_url": "000793384",
+            "title": "desigualdad, diversidad y política educativa indígena",
+            "program": "sociologia",
+            "year": 2019,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Rubí Ramírez, Ángeles Michelle",
+            "advisor": "Rubio Carriquiriborde, Ignacio",
+            "x": 0.906497,
+            "y": -1.602757,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

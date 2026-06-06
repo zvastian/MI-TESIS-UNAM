@@ -1,0 +1,1270 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 20,
+    "macro_label": "TUBERCULOSIS · PACIENTES · VIRUS · HOSPITAL",
+    "size": 566,
+    "microcluster_count": 4,
+    "microclusters": [
+      {
+        "microcluster_id": 86,
+        "macrocluster_id": 20,
+        "micro_label": "PACIENTES · HOSPITAL · INFECCIONES · INFECCION",
+        "size": 271,
+        "x": 7.986597,
+        "y": 0.560844,
+        "year_min": 1906,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "pacientes",
+            "score": 0.045399
+          },
+          {
+            "term": "hospital",
+            "score": 0.040988
+          },
+          {
+            "term": "infecciones",
+            "score": 0.039686
+          },
+          {
+            "term": "infeccion",
+            "score": 0.036689
+          },
+          {
+            "term": "antibioticos",
+            "score": 0.029174
+          },
+          {
+            "term": "factores",
+            "score": 0.021829
+          },
+          {
+            "term": "pediatricos",
+            "score": 0.020796
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.020646
+          },
+          {
+            "term": "pacientes pediatricos",
+            "score": 0.019351
+          },
+          {
+            "term": "neumonia",
+            "score": 0.018577
+          },
+          {
+            "term": "nivel",
+            "score": 0.018182
+          },
+          {
+            "term": "riesgo",
+            "score": 0.018158
+          },
+          {
+            "term": "uso",
+            "score": 0.017132
+          },
+          {
+            "term": "estudio",
+            "score": 0.016525
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 44
+          },
+          {
+            "label": "pediatria",
+            "count": 28
+          },
+          {
+            "label": "pediatria medica",
+            "count": 24
+          },
+          {
+            "label": "infectologia",
+            "count": 23
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 19
+          },
+          {
+            "label": "medicina interna",
+            "count": 17
+          },
+          {
+            "label": "medicina del enfermo en estado critico",
+            "count": 11
+          },
+          {
+            "label": "cirugia general",
+            "count": 7
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 265
+          },
+          {
+            "label": "Area 1",
+            "count": 5
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 180
+          },
+          {
+            "label": "Licenciatura",
+            "count": 84
+          },
+          {
+            "label": "Maestría",
+            "count": 6
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 258
+          },
+          {
+            "label": "universidad iberoamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "instituto marillac (mexico). escuela de enfermería y obstetricia, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra sra. de la salud,",
+            "count": 1
+          },
+          {
+            "label": "universidad de ixtlahuaca cui",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de odontología",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.01845,
+          "Area 2": 0.97786,
+          "Area 3": 0.0,
+          "Area 4": 0.00369,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 265,
+            "pct": 0.97786
+          },
+          {
+            "area": "Area 1",
+            "count": 5,
+            "pct": 0.01845
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.00369
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0510127",
+            "doc_number_url": "000801188",
+            "title": "factores individuales, laborales y sociodemográficos asociados a la contaminación bacteriana en la pantalla de teléfonos celulares en trabajadores del hospital de especialidades cmn siglo xxi del imss",
+            "program": "epidemiologia",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Infante López, José Lorenzo",
+            "advisor": "Zacate Palacios, Yazmin",
+            "x": 7.92811,
+            "y": 0.562633,
+            "cluster_strength": 0.949524
+          },
+          {
+            "thesis_id": "TH_0279086",
+            "doc_number_url": "000257614",
+            "title": "recopilacion bibliografica del origen, causas y efectos de las infecciones intrahospitalarias asi como la elaboracion de un manual para disminuir la incidencia de estas",
+            "program": "quimica farmaceutico biologica",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "universidad la salle",
+            "author": "Ceron Nava, Anabelle",
+            "advisor": "Morales Meza, Guadalupe",
+            "x": 7.935299,
+            "y": 0.61084,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0533135",
+            "doc_number_url": "000832401",
+            "title": "intervenciones de enfermería en infecciones nosocomiales en pacientes quirúrgicos desde la perspectiva de hildegard peplau",
+            "program": "enfermeria y obstetricia",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "del hospital de nuestra senora de la salud",
+            "author": "Guillén Jerez, Aralé Jaqueline",
+            "advisor": "Cortés Rangel, María Elva",
+            "x": 7.948411,
+            "y": 0.498411,
+            "cluster_strength": 0.933994
+          },
+          {
+            "thesis_id": "TH_0436121",
+            "doc_number_url": "000710541",
+            "title": "perfil bacteriológico de las infecciones nosocomiales en la unidad de quemados de un hospital de segundo nivel",
+            "program": "pediatria",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Barrios García, Williams Antonio",
+            "advisor": "García López, Luis Ramiro ; Rodríguez Villalobos, Luis Rodolfo",
+            "x": 8.053254,
+            "y": 0.59357,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0048078",
+            "doc_number_url": "000317223",
+            "title": "agentes patogenos bacterianos mas frecuentemente aislados en pacientes quemados en el hospital pediatrico tacubaya durante los años 2000-2002",
+            "program": "pediatria medica",
+            "year": 2003,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Rodriguez Flores, Agustin",
+            "advisor": "Rodriguez Villalobos, Luis Rodolfo",
+            "x": 8.050741,
+            "y": 0.603356,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0317620",
+            "doc_number_url": "000604809",
+            "title": "diagnostico y tratamiento de infecciones de origen odontogenico : indicaciones de la aplicacion de oxigeno hiperbarico",
+            "program": "cirujano dentista",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Cruz Sotelo, Rosalia Victoria",
+            "advisor": "Zarza Cadena, Jorge Guillermo ; Fernández López, Rocío Gloria",
+            "x": 8.009366,
+            "y": 0.487098,
+            "cluster_strength": 0.774318
+          },
+          {
+            "thesis_id": "TH_0144302",
+            "doc_number_url": "000153254",
+            "title": "neutropenia y fiebre : estudio prospectivo para valorar la administración empirica de antibioticos",
+            "program": "hematologia",
+            "year": 1979,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Lomeli Guerrero, Abel",
+            "advisor": "",
+            "x": 7.946082,
+            "y": 0.630099,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0337126",
+            "doc_number_url": "000621147",
+            "title": "influencia del tratamiento antibiotico empìrico sobre el pronostico de los pacientes con bacteriemia o fungemia en la unidad de cuidados intensivos del incmnsz, enero a diciembre 2005",
+            "program": "medicina del enfermo en estado critico",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Padilla Martinez, Luis Manuel",
+            "advisor": "Rodriguez Osorio, Carlos Antonio ; Baltazar Torres, José Ángel",
+            "x": 7.992029,
+            "y": 0.641501,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 102,
+        "macrocluster_id": 20,
+        "micro_label": "VIRUS · INFLUENZA · ROTAVIRUS · CONTRA",
+        "size": 137,
+        "x": 7.71625,
+        "y": 1.844856,
+        "year_min": 1962,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "virus",
+            "score": 0.081959
+          },
+          {
+            "term": "influenza",
+            "score": 0.044935
+          },
+          {
+            "term": "rotavirus",
+            "score": 0.04076
+          },
+          {
+            "term": "contra",
+            "score": 0.034208
+          },
+          {
+            "term": "mexico",
+            "score": 0.032136
+          },
+          {
+            "term": "estudio",
+            "score": 0.030112
+          },
+          {
+            "term": "caracterizacion",
+            "score": 0.030062
+          },
+          {
+            "term": "infeccion",
+            "score": 0.027417
+          },
+          {
+            "term": "vacuna",
+            "score": 0.027085
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.02602
+          },
+          {
+            "term": "celulas",
+            "score": 0.024392
+          },
+          {
+            "term": "virales",
+            "score": 0.024026
+          },
+          {
+            "term": "anticuerpos",
+            "score": 0.023916
+          },
+          {
+            "term": "deteccion",
+            "score": 0.023061
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 40
+          },
+          {
+            "label": "biologia",
+            "count": 19
+          },
+          {
+            "label": "ciencias de la produccion y de la salud animal",
+            "count": 15
+          },
+          {
+            "label": "ciencias bioquimicas",
+            "count": 10
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 8
+          },
+          {
+            "label": "bioquimicas",
+            "count": 4
+          },
+          {
+            "label": "medicina interna",
+            "count": 3
+          },
+          {
+            "label": "oftalmologia",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 122
+          },
+          {
+            "label": "Area 1",
+            "count": 14
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 77
+          },
+          {
+            "label": "Maestría",
+            "count": 28
+          },
+          {
+            "label": "Especialidad",
+            "count": 18
+          },
+          {
+            "label": "Doctorado",
+            "count": 14
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 133
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores cuautitlan institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias de la producción y de la salud animal",
+            "count": 1
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.10219,
+          "Area 2": 0.890511,
+          "Area 3": 0.0,
+          "Area 4": 0.007299,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 122,
+            "pct": 0.890511
+          },
+          {
+            "area": "Area 1",
+            "count": 14,
+            "pct": 0.10219
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.007299
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0094944",
+            "doc_number_url": "000156475",
+            "title": "vialidad del virus flury alto pasaje a diferentes temperaturas utilizando dos conservadores",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1966,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Batalla Campero, Diodoro",
+            "advisor": "Valdes Ornelas, Oscar",
+            "x": 7.720452,
+            "y": 1.859332,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0152779",
+            "doc_number_url": "000002763",
+            "title": "diagnostico del virus del moteado del clavel, detectado en material de importacion de hoalnda y estados unidos de norteamerica",
+            "program": "biologia",
+            "year": 1981,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Robles Hernandez, Elena",
+            "advisor": "",
+            "x": 7.7233,
+            "y": 1.829947,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0208538",
+            "doc_number_url": "000126707",
+            "title": "infeccion por el virus varicela-zoster",
+            "program": "cirujano dentista",
+            "year": 1990,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Rodriguez Gaspar, Maria Cristina Gloria",
+            "advisor": "Ledesma Montes, Constantino",
+            "x": 7.725633,
+            "y": 1.82876,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0278687",
+            "doc_number_url": "000266835",
+            "title": "mecanismos de patogenia viral. proteinas virales asociadas a polirribosomas en celulas hela infectadas con virus de la poliomielitis",
+            "program": "biologia",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Cantero Aguilar, Maria Lilia",
+            "advisor": "Tapia Ramirez, Jose Isabel ; Gonzalez Moreno, Sergio",
+            "x": 7.735332,
+            "y": 1.839807,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0450213",
+            "doc_number_url": "000736969",
+            "title": "detección del virus de la parálisis aguda israelí y su interacción con varroa destructor y nosema spp. en apiarios de méxico",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Bacilio López, Elizabeth",
+            "advisor": "Leal Hernández, Marisela ; Tenorio Gutiérrez, Víctor Rubén",
+            "x": 7.725631,
+            "y": 1.826341,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0304966",
+            "doc_number_url": "000351027",
+            "title": "desarrollo de un metodo molecular (rt-pcr) como una herramienta en la caracterizacion del virus de la rabia",
+            "program": "quimica farmaceutico biologica",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "García Martinez, Aida",
+            "advisor": "Ramirez Gonzalez, Jose Ernesto ; Cruz Jiménez, Gerardo ; Ramirez Gonzalez, Jose Ernesto ; Cruz Jiménez, Gerardo",
+            "x": 7.736079,
+            "y": 1.851584,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0569894",
+            "doc_number_url": "000865654",
+            "title": "distribución nanométrica de la localización espacio-temporal de ácidos nucleicos en compartimentos de replicación de adenovirus",
+            "program": "ciencias bioquimicas",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "instituto de biotecnologia unam",
+            "author": "Becerril Cuevas, Alexis Ricardo",
+            "advisor": "Guerrero, Adán",
+            "x": 7.704996,
+            "y": 1.872015,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0550686",
+            "doc_number_url": "000849527",
+            "title": "eliminación de secuencias virales de sf-rhabdovirus en células de spodoptera frugiperda sf9 mediante el sistema crispr-cas13a",
+            "program": "ciencias bioquimicas",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "instituto de biotecnologia unam",
+            "author": "Pérez Hernández, Alonso Ulises",
+            "advisor": "Palomares Aguilera, Laura Alicia",
+            "x": 7.730388,
+            "y": 1.873966,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 2,
+        "macrocluster_id": 20,
+        "micro_label": "PULMONAR · TUBERCULOSIS PULMONAR · MYCOBACTERIUM · MYCOBACTERIUM TUBERCULOSIS",
+        "size": 99,
+        "x": 8.74941,
+        "y": 2.902191,
+        "year_min": 1889,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "pulmonar",
+            "score": 0.080814
+          },
+          {
+            "term": "tuberculosis pulmonar",
+            "score": 0.070653
+          },
+          {
+            "term": "mycobacterium",
+            "score": 0.046838
+          },
+          {
+            "term": "mycobacterium tuberculosis",
+            "score": 0.041527
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.038588
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.035696
+          },
+          {
+            "term": "pacientes",
+            "score": 0.035066
+          },
+          {
+            "term": "estudio",
+            "score": 0.033257
+          },
+          {
+            "term": "mexico",
+            "score": 0.032073
+          },
+          {
+            "term": "tuberculosos",
+            "score": 0.030553
+          },
+          {
+            "term": "hospital",
+            "score": 0.030524
+          },
+          {
+            "term": "no",
+            "score": 0.030237
+          },
+          {
+            "term": "modelo",
+            "score": 0.024454
+          },
+          {
+            "term": "diagnostico tuberculosis",
+            "score": 0.023014
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medico cirujano",
+            "count": 20
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 10
+          },
+          {
+            "label": "medicina interna",
+            "count": 6
+          },
+          {
+            "label": "biologia",
+            "count": 5
+          },
+          {
+            "label": "medicina familiar",
+            "count": 5
+          },
+          {
+            "label": "neumologia",
+            "count": 5
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 4
+          },
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 91
+          },
+          {
+            "label": "Area 1",
+            "count": 8
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 45
+          },
+          {
+            "label": "Especialidad",
+            "count": 37
+          },
+          {
+            "label": "Doctorado",
+            "count": 9
+          },
+          {
+            "label": "Maestría",
+            "count": 8
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 92
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias bioquímicas",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.080808,
+          "Area 2": 0.919192,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 91,
+            "pct": 0.919192
+          },
+          {
+            "area": "Area 1",
+            "count": 8,
+            "pct": 0.080808
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0465888",
+            "doc_number_url": "000741033",
+            "title": "frecuencia de resistencia a farmacos antituberculosos en pacientes monoinfectados por mycobacterium tuberculosis y en coinfección con vih en un hospital de tercer nivel de la ciudad de méxico",
+            "program": "infectologia",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Castruita García, Miguel",
+            "advisor": "Chaparro Sánchez, Alberto",
+            "x": 8.756734,
+            "y": 2.902969,
+            "cluster_strength": 0.272485
+          },
+          {
+            "thesis_id": "TH_0514122",
+            "doc_number_url": "000800815",
+            "title": "síntesis y evaluación de la actividad antituberculosis de análogos de pirrol y ácido cinámico",
+            "program": "ciencias quimicas",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de quimica unam",
+            "author": "Villanueva Escobar, Karla Estefania",
+            "advisor": "Martínez, Roberto",
+            "x": 8.745512,
+            "y": 2.914551,
+            "cluster_strength": 0.300898
+          },
+          {
+            "thesis_id": "TH_0511853",
+            "doc_number_url": "000802574",
+            "title": "perfil de expresión génica en individuos con tuberculosis latente antes y después del tratamiento con isoniazida",
+            "program": "ciencias biomedicas",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de medicina unam",
+            "author": "Oyarzabal Méndez, Eleané de",
+            "advisor": "Torres Rojas, Martha",
+            "x": 8.764809,
+            "y": 2.906582,
+            "cluster_strength": 0.463028
+          },
+          {
+            "thesis_id": "TH_0451050",
+            "doc_number_url": "000724195",
+            "title": "síntesis de la caulerpina y sus análogos : evaluación de su actividad antiinflamatoria y antituberculosa",
+            "program": "ciencias quimicas",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Canche Chay, Cristina Isabel",
+            "advisor": "Martínez, Roberto",
+            "x": 8.751782,
+            "y": 2.918067,
+            "cluster_strength": 0.226547
+          },
+          {
+            "thesis_id": "TH_0064563",
+            "doc_number_url": "000140214",
+            "title": "el cloruro de colina en el tratamiento de la tuberculosis",
+            "program": "medico cirujano",
+            "year": 1932,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Zamarripa Torres, Carlos",
+            "advisor": "",
+            "x": 8.768257,
+            "y": 2.908309,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0413234",
+            "doc_number_url": "000682933",
+            "title": "posible participación del factor de virulencia whib5 en la inmunopatogénesis de la tuberculosis",
+            "program": "biologia",
+            "year": 2012,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Herrera Maya, Gabriel",
+            "advisor": "Aguilar León, Diana Elodia",
+            "x": 8.764958,
+            "y": 2.91585,
+            "cluster_strength": 0.66305
+          },
+          {
+            "thesis_id": "TH_0518167",
+            "doc_number_url": "000807776",
+            "title": "estudio descriptivo de la infección pulmonar y extrapulmonar por mycobacterium tuberculosis y sus complicaciones en pacientes pediátricos",
+            "program": "pediatria",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Flores Castillo, Luis Rodrigo",
+            "advisor": "Avilés Robles, Martha J",
+            "x": 8.766926,
+            "y": 2.889268,
+            "cluster_strength": 0.526744
+          },
+          {
+            "thesis_id": "TH_0308318",
+            "doc_number_url": "000342814",
+            "title": "revision sistematica de los principios activos antituberculosos extraidos de productos naturales",
+            "program": "quimica farmaceutico biologica",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Martinez Ramirez, Ivan",
+            "advisor": "Retana Ugalde, Raquel",
+            "x": 8.730186,
+            "y": 2.915111,
+            "cluster_strength": 0.182366
+          }
+        ]
+      },
+      {
+        "microcluster_id": 85,
+        "macrocluster_id": 20,
+        "micro_label": "VIH · PACIENTES · PACIENTES VIH · SINDROME",
+        "size": 59,
+        "x": 7.698092,
+        "y": 0.414181,
+        "year_min": 1988,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "vih",
+            "score": 0.130942
+          },
+          {
+            "term": "pacientes",
+            "score": 0.094828
+          },
+          {
+            "term": "pacientes vih",
+            "score": 0.061207
+          },
+          {
+            "term": "sindrome",
+            "score": 0.058727
+          },
+          {
+            "term": "sida",
+            "score": 0.051782
+          },
+          {
+            "term": "paciente",
+            "score": 0.048632
+          },
+          {
+            "term": "vih sida",
+            "score": 0.039034
+          },
+          {
+            "term": "adquirida",
+            "score": 0.037388
+          },
+          {
+            "term": "infeccion",
+            "score": 0.036541
+          },
+          {
+            "term": "factores",
+            "score": 0.034637
+          },
+          {
+            "term": "infeccion vih",
+            "score": 0.033279
+          },
+          {
+            "term": "riesgo",
+            "score": 0.031339
+          },
+          {
+            "term": "adultos",
+            "score": 0.031244
+          },
+          {
+            "term": "vacunacion",
+            "score": 0.030859
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 7
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 6
+          },
+          {
+            "label": "medicina familiar",
+            "count": 6
+          },
+          {
+            "label": "derecho",
+            "count": 4
+          },
+          {
+            "label": "medicina interna",
+            "count": 4
+          },
+          {
+            "label": "infectologia",
+            "count": 3
+          },
+          {
+            "label": "enfermeria",
+            "count": 2
+          },
+          {
+            "label": "epidemiologia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 46
+          },
+          {
+            "label": "Area 3",
+            "count": 9
+          },
+          {
+            "label": "Area 1",
+            "count": 4
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 29
+          },
+          {
+            "label": "Licenciatura",
+            "count": 26
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 53
+          },
+          {
+            "label": "universidad de negocios isec",
+            "count": 1
+          },
+          {
+            "label": "centro de estudios amparo del castillo,",
+            "count": 1
+          },
+          {
+            "label": "centro académico y capacitación de excelencia \"dr. ernesto giovanni porras\"",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (campus cuernavaca)",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.067797,
+          "Area 2": 0.779661,
+          "Area 3": 0.152542,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 46,
+            "pct": 0.779661
+          },
+          {
+            "area": "Area 3",
+            "count": 9,
+            "pct": 0.152542
+          },
+          {
+            "area": "Area 1",
+            "count": 4,
+            "pct": 0.067797
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0459842",
+            "doc_number_url": "000733251",
+            "title": "deterioro neurocognitivo asociado a vih en pacientes atendidos en el incmnsz, respuesta clínica a largo plazo posterior al inicio de terapia antirretroviral altamente activa",
+            "program": "infectologia",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ramírez González, Luis Esteban",
+            "advisor": "Belaunzarán Zamudio, Pablo Francisco",
+            "x": 7.689861,
+            "y": 0.416048,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0515857",
+            "doc_number_url": "000807178",
+            "title": "complicaciones infecciosas en pacientes con vih y linfoma difuso de células grandes b en el istituto nacional de cancerología",
+            "program": "hematologia",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Bravo Villa, Verónica",
+            "advisor": "Ramírez Ibargüen, Ana Florencia",
+            "x": 7.709748,
+            "y": 0.386605,
+            "cluster_strength": 0.978036
+          },
+          {
+            "thesis_id": "TH_0033553",
+            "doc_number_url": "000301440",
+            "title": "prevalencia de cryptosporidium en el paciente seropositivo para vih, determinada mediante la observacion de ooquistes",
+            "program": "patologia clinica",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Porras Nuñez, Luis Octavio",
+            "advisor": "Garcia Elorriaga, Guadalupe de los Angeles",
+            "x": 7.674994,
+            "y": 0.379605,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0459348",
+            "doc_number_url": "000732430",
+            "title": "mortalidad de los pacientes hospitalizados con infección por vih",
+            "program": "infectologia",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Pérez Guzmán, Pablo Noel",
+            "advisor": "Solache Alcaraz, Graciela",
+            "x": 7.735342,
+            "y": 0.389916,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0051508",
+            "doc_number_url": "000337377",
+            "title": "centro de infectologia de atencion a enfermos con vih-sida",
+            "program": "arquitectura",
+            "year": 2004,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Arellano Jurado, Miguel Angel",
+            "advisor": "Diaz Barreiro, Enrique",
+            "x": 7.662555,
+            "y": 0.386987,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0367719",
+            "doc_number_url": "000797619",
+            "title": "la promoción de la salud y la prevención ante el contagio del vih en odontología",
+            "program": "cirujano dentista",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Alarcón Flores, Roxanne",
+            "advisor": "Meneses Reyes, Christian ; Nieto Cruz, María Elena",
+            "x": 7.648284,
+            "y": 0.410065,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0564850",
+            "doc_number_url": "000855422",
+            "title": "experiencia del tratamiento con inhibidores de la integrasa en pacientes con vih en el hospital regional de alta especialidad del niño dr rodolfo nieto padrón 2021-2023",
+            "program": "pediatria",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ponce Luna, Jeany Brigida",
+            "advisor": "Aguilar Arguello, Carlos Humberto ; Neme Díaz, Gonzalo Antonio ; Ramírez de los Santos, José de Jesús ; Borbolla Sala, Manuel Eduardo",
+            "x": 7.692412,
+            "y": 0.347477,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0214545",
+            "doc_number_url": "000174293",
+            "title": "mecanismo de negacion y su relacion con la infeccion por el vih",
+            "program": "psicologia",
+            "year": 1991,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "López Muñoz, Alma Azucena",
+            "advisor": "Rivera Aragón, Sofía",
+            "x": 7.708014,
+            "y": 0.486383,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

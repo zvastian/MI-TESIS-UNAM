@@ -1,0 +1,1322 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 27,
+    "macro_label": "TEATRO · PERIODISMO · PUBLICIDAD · TELEVISION",
+    "size": 335,
+    "microcluster_count": 4,
+    "microclusters": [
+      {
+        "microcluster_id": 59,
+        "macrocluster_id": 27,
+        "micro_label": "PERIODISMO · COMUNICACION · MEDIOS · PRENSA",
+        "size": 108,
+        "x": 1.202269,
+        "y": -0.9889,
+        "year_min": 1943,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "periodismo",
+            "score": 0.099566
+          },
+          {
+            "term": "comunicacion",
+            "score": 0.047027
+          },
+          {
+            "term": "medios",
+            "score": 0.045667
+          },
+          {
+            "term": "prensa",
+            "score": 0.043692
+          },
+          {
+            "term": "sociales",
+            "score": 0.038098
+          },
+          {
+            "term": "analisis",
+            "score": 0.037191
+          },
+          {
+            "term": "social",
+            "score": 0.032957
+          },
+          {
+            "term": "informacion",
+            "score": 0.032068
+          },
+          {
+            "term": "noticias",
+            "score": 0.031639
+          },
+          {
+            "term": "medios comunicacion",
+            "score": 0.031302
+          },
+          {
+            "term": "redes sociales",
+            "score": 0.030303
+          },
+          {
+            "term": "redes",
+            "score": 0.030303
+          },
+          {
+            "term": "caso",
+            "score": 0.027999
+          },
+          {
+            "term": "periodista",
+            "score": 0.025032
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "periodismo",
+            "count": 23
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 23
+          },
+          {
+            "label": "comunicacion y periodismo",
+            "count": 12
+          },
+          {
+            "label": "periodismo y comunicacion colectiva",
+            "count": 11
+          },
+          {
+            "label": "psicologia",
+            "count": 5
+          },
+          {
+            "label": "comunicacion",
+            "count": 5
+          },
+          {
+            "label": "derecho",
+            "count": 5
+          },
+          {
+            "label": "bibliotecologia y estudios de la informacion",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 60
+          },
+          {
+            "label": "Area 4",
+            "count": 42
+          },
+          {
+            "label": "Area 2",
+            "count": 4
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 98
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 96
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias políticas y sociales",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de filosofía y letras",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad insurgentes (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de psicología",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias políticas y sociales",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.018519,
+          "Area 2": 0.037037,
+          "Area 3": 0.555556,
+          "Area 4": 0.388889,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 60,
+            "pct": 0.555556
+          },
+          {
+            "area": "Area 4",
+            "count": 42,
+            "pct": 0.388889
+          },
+          {
+            "area": "Area 2",
+            "count": 4,
+            "pct": 0.037037
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.018519
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0541828",
+            "doc_number_url": "000839956",
+            "title": "periodismo y redes sociales en tiempos de coronavirus, la pandemia y su tratamiento mediático : los riesgos de las fake news, el sensacionalismo y la saturación informativa",
+            "program": "comunicacion y periodismo",
+            "year": 2023,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Armijo González, Anabel Fabiola",
+            "advisor": "García Badillo, Jesús Guadalupe",
+            "x": 1.20224,
+            "y": -0.988935,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0313486",
+            "doc_number_url": "000345565",
+            "title": "mas de una decada de actividad reporteril",
+            "program": "periodismo y comunicacion colectiva",
+            "year": 2005,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Tellez Marin, Carlos",
+            "advisor": "O Tapia, Aldo Silvestre de la",
+            "x": 1.215326,
+            "y": -0.985056,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0317093",
+            "doc_number_url": "000603743",
+            "title": "el uso de los intertextos como recurso de credibilidad periodistica",
+            "program": "ciencias de la comunicacion",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Chavarria Alvarez, Monica",
+            "advisor": "Robles, Francisca",
+            "x": 1.203581,
+            "y": -0.973706,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0421952",
+            "doc_number_url": "000689568",
+            "title": "el periodismo científico en los periódicos la jornada, el universal, reforma y excélsior",
+            "program": "periodismo",
+            "year": 2013,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Barcena Pérez, Ivonne Anaid",
+            "advisor": "Mendiola Andrade, María de Jesús",
+            "x": 1.205549,
+            "y": -1.00587,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0567194",
+            "doc_number_url": "000852005",
+            "title": "bate que bate... la evolución de las audiencias del reguetón en la cdmx, un análisis sociológico de sus estrategias mediáticas",
+            "program": "sociologia",
+            "year": 2024,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Solís García, Emiliano",
+            "advisor": "García Chediak, Rosa",
+            "x": 1.19989,
+            "y": -0.970836,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0497221",
+            "doc_number_url": "000771391",
+            "title": "la función del coeditor en una cobertura periodística : los juegos olímpicos de beijing 2008 en el periódico reforma, un reporte de experiencia laboral",
+            "program": "periodismo",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Gómez Negrete, Gabriela",
+            "advisor": "Robles, Francisca",
+            "x": 1.207941,
+            "y": -0.970444,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0482250",
+            "doc_number_url": "000765325",
+            "title": "la cobertura de situaciones críticas para un periodista multiplataforma : reporte de experiencia profesional",
+            "program": "periodismo",
+            "year": 2017,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Galván Pimentel, Jerónimo David",
+            "advisor": "Robles, Francisca",
+            "x": 1.20348,
+            "y": -1.011023,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0341509",
+            "doc_number_url": "000636052",
+            "title": "el papel del periodista en el reportaje",
+            "program": "ciencias de la comunicacion",
+            "year": 2008,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Abreu Cruz, Sergio Humberto",
+            "advisor": "Hernández Carballido, Elina Sonia",
+            "x": 1.182977,
+            "y": -1.000981,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 132,
+        "macrocluster_id": 27,
+        "micro_label": "TEATRO · CINE · CINEMATOGRAFICA · CINEMATOGRAFICO",
+        "size": 108,
+        "x": 2.156108,
+        "y": -1.840138,
+        "year_min": 1933,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "teatro",
+            "score": 0.156085
+          },
+          {
+            "term": "cine",
+            "score": 0.084291
+          },
+          {
+            "term": "cinematografica",
+            "score": 0.05591
+          },
+          {
+            "term": "cinematografico",
+            "score": 0.055247
+          },
+          {
+            "term": "teatral",
+            "score": 0.045953
+          },
+          {
+            "term": "cultural",
+            "score": 0.031181
+          },
+          {
+            "term": "traves",
+            "score": 0.024177
+          },
+          {
+            "term": "propuesta",
+            "score": 0.022597
+          },
+          {
+            "term": "formacion",
+            "score": 0.022237
+          },
+          {
+            "term": "unidad cultural",
+            "score": 0.021957
+          },
+          {
+            "term": "unidad",
+            "score": 0.021957
+          },
+          {
+            "term": "cultural cinematografica",
+            "score": 0.021957
+          },
+          {
+            "term": "analisis",
+            "score": 0.020739
+          },
+          {
+            "term": "centro",
+            "score": 0.020608
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 26
+          },
+          {
+            "label": "literatura dramatica y teatro",
+            "count": 16
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 13
+          },
+          {
+            "label": "pedagogia",
+            "count": 9
+          },
+          {
+            "label": "comunicacion",
+            "count": 4
+          },
+          {
+            "label": "periodismo",
+            "count": 3
+          },
+          {
+            "label": "derecho",
+            "count": 3
+          },
+          {
+            "label": "contaduria",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 4",
+            "count": 49
+          },
+          {
+            "label": "Area 1",
+            "count": 30
+          },
+          {
+            "label": "Area 3",
+            "count": 26
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 93
+          },
+          {
+            "label": "Maestría",
+            "count": 7
+          },
+          {
+            "label": "Doctorado",
+            "count": 7
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 97
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 2
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 2
+          },
+          {
+            "label": "universidad lasallista benavente",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias políticas y sociales",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.277778,
+          "Area 2": 0.018519,
+          "Area 3": 0.240741,
+          "Area 4": 0.453704,
+          "Por Clasificar": 0.009259
+        },
+        "area_distribution": [
+          {
+            "area": "Area 4",
+            "count": 49,
+            "pct": 0.453704
+          },
+          {
+            "area": "Area 1",
+            "count": 30,
+            "pct": 0.277778
+          },
+          {
+            "area": "Area 3",
+            "count": 26,
+            "pct": 0.240741
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.018519
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.009259
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0531905",
+            "doc_number_url": "000831732",
+            "title": "todo lo que nos falta, ensayo : la materialidad del cine",
+            "program": "cinematografia",
+            "year": 2022,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "escuela nacional de artes cinematograficas unam",
+            "author": "Franco Castillo, Jorge Eduardo",
+            "advisor": "Bellamy, Adriana",
+            "x": 2.166952,
+            "y": -1.824044,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0513916",
+            "doc_number_url": "000804054",
+            "title": "construcción de masculinidades y cine de superhéroes : el universo cinematográfico marvel",
+            "program": "comunicacion",
+            "year": 2020,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Vázquez Choreño, Román",
+            "advisor": "López González de Orduña, Helena",
+            "x": 2.132366,
+            "y": -1.834089,
+            "cluster_strength": 0.970662
+          },
+          {
+            "thesis_id": "TH_0487604",
+            "doc_number_url": "000766907",
+            "title": "fashion film como género cinematográfico",
+            "program": "periodismo",
+            "year": 2017,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Ortiz Rivera, Lea",
+            "advisor": "Bárcenas Curtis, César",
+            "x": 2.1604,
+            "y": -1.81394,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0293782",
+            "doc_number_url": "000271214",
+            "title": "el video home y su relacion con el actor",
+            "program": "ciencias de la comunicacion",
+            "year": 1999,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Moran Mora, Arturo",
+            "advisor": "Araujo Paullada, Roberto",
+            "x": 2.181962,
+            "y": -1.826454,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0396599",
+            "doc_number_url": "000723230",
+            "title": "natura : teatro físico",
+            "program": "literatura dramatica y teatro",
+            "year": 2011,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Barrera Rivas, Lluvia",
+            "advisor": "Bak Geler, Tibor",
+            "x": 2.152657,
+            "y": -1.803426,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0074862",
+            "doc_number_url": "000073720",
+            "title": "las bases del credito a la produccion cinematografica",
+            "program": "contaduria",
+            "year": 1947,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Gonzalez Franco, José",
+            "advisor": "",
+            "x": 2.135938,
+            "y": -1.803603,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0027952",
+            "doc_number_url": "000308284",
+            "title": "la vigencia e importancia de ciertos elementos de la commedia dell’arte en la formacion teatral",
+            "program": "literatura dramatica y teatro",
+            "year": 2002,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Gomez, Liliana Dolores",
+            "advisor": "Hellwig-Gorzynski, Lech",
+            "x": 2.152918,
+            "y": -1.789362,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0098819",
+            "doc_number_url": "000058788",
+            "title": "unidad cultural cinematografica",
+            "program": "arquitectura",
+            "year": 1967,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Swirski Rosenthal, Aaron",
+            "advisor": "",
+            "x": 2.157123,
+            "y": -1.786696,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 107,
+        "macrocluster_id": 27,
+        "micro_label": "PUBLICIDAD · PUBLICITARIA · CAMPANA · CAMPANA PUBLICITARIA",
+        "size": 68,
+        "x": 0.909965,
+        "y": -0.271857,
+        "year_min": 1959,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "publicidad",
+            "score": 0.158052
+          },
+          {
+            "term": "publicitaria",
+            "score": 0.096851
+          },
+          {
+            "term": "campana",
+            "score": 0.070262
+          },
+          {
+            "term": "campana publicitaria",
+            "score": 0.061547
+          },
+          {
+            "term": "estrategia",
+            "score": 0.049366
+          },
+          {
+            "term": "publicitario",
+            "score": 0.049356
+          },
+          {
+            "term": "propuesta",
+            "score": 0.045794
+          },
+          {
+            "term": "diseno",
+            "score": 0.041777
+          },
+          {
+            "term": "medios",
+            "score": 0.040036
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.039412
+          },
+          {
+            "term": "propuesta campana",
+            "score": 0.036425
+          },
+          {
+            "term": "marca",
+            "score": 0.035516
+          },
+          {
+            "term": "publicitarios",
+            "score": 0.03551
+          },
+          {
+            "term": "analisis",
+            "score": 0.035317
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "administracion",
+            "count": 21
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 15
+          },
+          {
+            "label": "periodismo",
+            "count": 8
+          },
+          {
+            "label": "contaduria",
+            "count": 4
+          },
+          {
+            "label": "derecho",
+            "count": 4
+          },
+          {
+            "label": "psicologia",
+            "count": 3
+          },
+          {
+            "label": "comunicacion grafica",
+            "count": 2
+          },
+          {
+            "label": "dise o y comunicacion visual",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 50
+          },
+          {
+            "label": "Area 4",
+            "count": 13
+          },
+          {
+            "label": "Area 2",
+            "count": 3
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 65
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 60
+          },
+          {
+            "label": "universidad intercontinental (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del rio",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad alzate de ozúmba (ozúmba",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.014706,
+          "Area 2": 0.044118,
+          "Area 3": 0.735294,
+          "Area 4": 0.191176,
+          "Por Clasificar": 0.014706
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 50,
+            "pct": 0.735294
+          },
+          {
+            "area": "Area 4",
+            "count": 13,
+            "pct": 0.191176
+          },
+          {
+            "area": "Area 2",
+            "count": 3,
+            "pct": 0.044118
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.014706
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.014706
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0468502",
+            "doc_number_url": "000752875",
+            "title": "semiótica del branding : valores de consumo en los discursos de marca del ford focus y el volkswagen nuevo jetta",
+            "program": "comunicacion",
+            "year": 2016,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Gómez Castellanos, Fernando",
+            "advisor": "Reséndiz Rodríguez, Rafael C",
+            "x": 0.885299,
+            "y": -0.260307,
+            "cluster_strength": 0.939659
+          },
+          {
+            "thesis_id": "TH_0417849",
+            "doc_number_url": "000691388",
+            "title": "estilos de vida y moda en la publicidad de marcas de lujo : el caso de louis voitton",
+            "program": "ciencias de la comunicacion",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Rivera Dávila, A. Argelia",
+            "advisor": "Romero Servín, Verónica",
+            "x": 0.94228,
+            "y": -0.281822,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0181153",
+            "doc_number_url": "000130849",
+            "title": "material punto de venta centro de una campana promocional",
+            "program": "SIN PROGRAMA",
+            "year": 1986,
+            "area": "Por Clasificar",
+            "level": "Licenciatura",
+            "plantel": "universidad autonoma de guadalajara",
+            "author": "Elias Orvañanos, Catalina",
+            "advisor": "",
+            "x": 0.950274,
+            "y": -0.2627,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0103496",
+            "doc_number_url": "000078659",
+            "title": "la publicidad para tiendas de departamentos",
+            "program": "administracion",
+            "year": 1969,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Pena, Luna, Rosa Maria",
+            "advisor": "",
+            "x": 0.868229,
+            "y": -0.280575,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0412044",
+            "doc_number_url": "000697338",
+            "title": "propuesta de campaña publicitaria para la empresa iss",
+            "program": "periodismo",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Gómez Alvarado, Hitzel del Carmen",
+            "advisor": "Mabarak Celis, Adela",
+            "x": 0.9072,
+            "y": -0.314595,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0333539",
+            "doc_number_url": "000623762",
+            "title": "sistema de ventas de espacios publicitarios",
+            "program": "matematicas aplicadas y computacion",
+            "year": 2007,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Hernandez López, Francisco Galdino",
+            "advisor": "Caballero Martínez, Oscar Gabriel",
+            "x": 0.861326,
+            "y": -0.264294,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0399342",
+            "doc_number_url": "000670178",
+            "title": "las nuevas tendencias de la publicidad : el microsegmento de los adultos mayores : grey marketing",
+            "program": "ciencias de la comunicacion",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "García Guerrero, Martha Patricia",
+            "advisor": "Romero Servín, Verónica",
+            "x": 0.921654,
+            "y": -0.324415,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0169595",
+            "doc_number_url": "000032547",
+            "title": "la publicidad como estrategia de mercado",
+            "program": "administracion",
+            "year": 1984,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Gómez Favila, Rufino",
+            "advisor": "Calderón Velázquez, José",
+            "x": 0.864729,
+            "y": -0.305112,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 101,
+        "macrocluster_id": 27,
+        "micro_label": "TELEVISION · PRODUCCION · PROGRAMA · CANAL",
+        "size": 51,
+        "x": 2.17126,
+        "y": -1.042804,
+        "year_min": 1978,
+        "year_max": 2023,
+        "top_terms": [
+          {
+            "term": "television",
+            "score": 0.169062
+          },
+          {
+            "term": "produccion",
+            "score": 0.077021
+          },
+          {
+            "term": "programa",
+            "score": 0.062764
+          },
+          {
+            "term": "canal",
+            "score": 0.052477
+          },
+          {
+            "term": "educacion",
+            "score": 0.052173
+          },
+          {
+            "term": "televisiva",
+            "score": 0.050066
+          },
+          {
+            "term": "diseno",
+            "score": 0.047
+          },
+          {
+            "term": "televisa",
+            "score": 0.045294
+          },
+          {
+            "term": "experiencia",
+            "score": 0.042668
+          },
+          {
+            "term": "tv",
+            "score": 0.042103
+          },
+          {
+            "term": "propuesta",
+            "score": 0.042085
+          },
+          {
+            "term": "analisis",
+            "score": 0.036738
+          },
+          {
+            "term": "educativa",
+            "score": 0.035277
+          },
+          {
+            "term": "ninos",
+            "score": 0.032696
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 14
+          },
+          {
+            "label": "pedagogia",
+            "count": 7
+          },
+          {
+            "label": "comunicacion y periodismo",
+            "count": 5
+          },
+          {
+            "label": "periodismo y comunicacion colectiva",
+            "count": 3
+          },
+          {
+            "label": "psicologia",
+            "count": 3
+          },
+          {
+            "label": "periodismo",
+            "count": 3
+          },
+          {
+            "label": "dise o y comunicacion visual",
+            "count": 2
+          },
+          {
+            "label": "arquitectura",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 27
+          },
+          {
+            "label": "Area 4",
+            "count": 16
+          },
+          {
+            "label": "Area 1",
+            "count": 7
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 49
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 44
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad salesiana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "instituto universitario de ciencias de la educación. escuela de pedagogia,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.137255,
+          "Area 2": 0.019608,
+          "Area 3": 0.529412,
+          "Area 4": 0.313725,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 27,
+            "pct": 0.529412
+          },
+          {
+            "area": "Area 4",
+            "count": 16,
+            "pct": 0.313725
+          },
+          {
+            "area": "Area 1",
+            "count": 7,
+            "pct": 0.137255
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.019608
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0287795",
+            "doc_number_url": "000266909",
+            "title": "produccion y conduccion de un programa de television de espectaculos en la ciudad de celaya, gto",
+            "program": "ciencias de la comunicacion",
+            "year": 1998,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "universidad lasallista benavente",
+            "author": "Silvadoray Flores, Cecilia",
+            "advisor": "Rocha Ledesma, Juan Jose de la",
+            "x": 2.139251,
+            "y": -1.026051,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0215487",
+            "doc_number_url": "000171871",
+            "title": "algunas consideraciones sobre la produccion televisiva de programas en vivo por la television estatal",
+            "program": "comunicacion y periodismo",
+            "year": 1991,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Moran Mora, Graciela",
+            "advisor": "Hernandez Ordaz, Jorge",
+            "x": 2.135603,
+            "y": -1.049854,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0254127",
+            "doc_number_url": "000229088",
+            "title": "modelo de diseño y análisis para programas de television cuyo referente es la politica",
+            "program": "periodismo y comunicacion colectiva",
+            "year": 1995,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Merlo Mondragon, Violeta",
+            "advisor": "Arellano Aguilar, Enrique Cuauhtemoc",
+            "x": 2.131753,
+            "y": -1.072588,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0485426",
+            "doc_number_url": "000762940",
+            "title": "el canal judicial de televisión, un ejemplo de televisión pública, origen y funcionamiento",
+            "program": "periodismo",
+            "year": 2017,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Mancera Patiño, Rosendo",
+            "advisor": "Mendiola Andrade, María de Jesús",
+            "x": 2.117438,
+            "y": -1.018754,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0429226",
+            "doc_number_url": "000703543",
+            "title": "la programación televisiva como apoyo al proceso educativo infantil, vista desde el ámbito jurídico: el caso de la programación de sábado y domingo del canal 7 de tv azteca y canal 5 de televisa (mayo y junio del 2012)",
+            "program": "ciencias de la comunicacion",
+            "year": 2013,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Monroy Salinas, Georgina Ivonne",
+            "advisor": "Solís Delgado, Juan José",
+            "x": 2.191772,
+            "y": -1.098292,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0193882",
+            "doc_number_url": "000101712",
+            "title": "el departamento de produccion como el factor de realizacion del producto final de televisora del yaqui, s.a. de c.v",
+            "program": "ciencias de la comunicacion",
+            "year": 1988,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "universidad autonoma de guadalajara",
+            "author": "Palencia Mayoral, Javier Martin",
+            "advisor": "López Hernandez, Ubaldo",
+            "x": 2.118578,
+            "y": -1.071159,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0553316",
+            "doc_number_url": "000846161",
+            "title": "mi experiencia laboral como parte del equipo de producción del programa de televisa \"el retador\" 2021",
+            "program": "literatura dramatica y teatro",
+            "year": 2023,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Soto Pérez, Laura",
+            "advisor": "Malpica López, Esperanza Yoalli",
+            "x": 2.115579,
+            "y": -1.072837,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0405599",
+            "doc_number_url": "000679301",
+            "title": "la televisión educativa como herramienta para la transformación social",
+            "program": "ciencias de la comunicacion",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Ruiz Capdevielle, Claudia",
+            "advisor": "Vega Shiota, Gustavo de la",
+            "x": 2.204062,
+            "y": -1.107281,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

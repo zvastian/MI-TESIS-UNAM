@@ -1,0 +1,2794 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 5,
+    "macro_label": "PACIENTES · TRATAMIENTO · RENAL · SINDROME",
+    "size": 1127,
+    "microcluster_count": 9,
+    "microclusters": [
+      {
+        "microcluster_id": 15,
+        "macrocluster_id": 5,
+        "micro_label": "PACIENTES · CRONICA · RENAL CRONICA · INSUFICIENCIA",
+        "size": 312,
+        "x": 10.896984,
+        "y": -0.407054,
+        "year_min": 1959,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "pacientes",
+            "score": 0.05621
+          },
+          {
+            "term": "cronica",
+            "score": 0.048926
+          },
+          {
+            "term": "renal cronica",
+            "score": 0.046041
+          },
+          {
+            "term": "insuficiencia",
+            "score": 0.037229
+          },
+          {
+            "term": "insuficiencia renal",
+            "score": 0.036621
+          },
+          {
+            "term": "enfermedad",
+            "score": 0.034794
+          },
+          {
+            "term": "enfermedad renal",
+            "score": 0.033982
+          },
+          {
+            "term": "trasplante",
+            "score": 0.027219
+          },
+          {
+            "term": "hospital",
+            "score": 0.025364
+          },
+          {
+            "term": "trasplante renal",
+            "score": 0.024139
+          },
+          {
+            "term": "aguda",
+            "score": 0.023454
+          },
+          {
+            "term": "renales",
+            "score": 0.023357
+          },
+          {
+            "term": "funcion",
+            "score": 0.022878
+          },
+          {
+            "term": "renal aguda",
+            "score": 0.022516
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "nefrologia",
+            "count": 45
+          },
+          {
+            "label": "medicina interna",
+            "count": 41
+          },
+          {
+            "label": "medicina familiar",
+            "count": 29
+          },
+          {
+            "label": "nefrologia pediatrica",
+            "count": 18
+          },
+          {
+            "label": "pediatria",
+            "count": 14
+          },
+          {
+            "label": "pediatria medica",
+            "count": 14
+          },
+          {
+            "label": "anestesiologia",
+            "count": 13
+          },
+          {
+            "label": "urologia",
+            "count": 13
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 297
+          },
+          {
+            "label": "Area 3",
+            "count": 12
+          },
+          {
+            "label": "Area 1",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 262
+          },
+          {
+            "label": "Licenciatura",
+            "count": 35
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          },
+          {
+            "label": "Doctorado",
+            "count": 6
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 294
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 2
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra señora de la salud",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biomédicas",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermeria de zamora (zamora, mich.). escuela de enfermeria, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad alzate de ozumba",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.009615,
+          "Area 2": 0.951923,
+          "Area 3": 0.038462,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 297,
+            "pct": 0.951923
+          },
+          {
+            "area": "Area 3",
+            "count": 12,
+            "pct": 0.038462
+          },
+          {
+            "area": "Area 1",
+            "count": 3,
+            "pct": 0.009615
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0351810",
+            "doc_number_url": "000634871",
+            "title": "comparación de la calidad de vida de los pacientes con insuficiencia renal terminal, y tratamiento sustitutivo renal con hemodiálisis vs diálisis peritoneal en el hospital central norte de petróleos mexicanos",
+            "program": "medicina interna",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Reyes Vázquez, Gabriel Iván",
+            "advisor": "Cruz Islas, Martha Laura ; Castro D’ Francis, Luis Javier ; Espinosa López, Fernando Rogelio",
+            "x": 10.895478,
+            "y": -0.406358,
+            "cluster_strength": 0.36971
+          },
+          {
+            "thesis_id": "TH_0417368",
+            "doc_number_url": "000681994",
+            "title": "correlación de la longitud renal medida ultrasonográficamente con el aclaramiento de la creatinina en pacientes embarazadas con insuficiencia renal crónica",
+            "program": "ginecologia y obstetricia",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ramirez Gonzalez, Alejandra",
+            "advisor": "Vázquez Rodríguez, Juan Gustavo",
+            "x": 10.895181,
+            "y": -0.403174,
+            "cluster_strength": 0.714325
+          },
+          {
+            "thesis_id": "TH_0364632",
+            "doc_number_url": "000664540",
+            "title": "funcionalidad de la pareja de acuerdo al género, ante un hijo en edad pediátrica con insuficiencia renal crónica",
+            "program": "medicina familiar",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Reza Garay, Zita María de Lourdes",
+            "advisor": "Reyes Ruíz, María Esther",
+            "x": 10.900736,
+            "y": -0.403674,
+            "cluster_strength": 0.612121
+          },
+          {
+            "thesis_id": "TH_0010889",
+            "doc_number_url": "000294393",
+            "title": "neoplasias cutaneas y trasplante renal : experiencia del instituto nacional de la nutricion salvador subiran",
+            "program": "dermatologia",
+            "year": 2001,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Archer Dubon, Carla Gene",
+            "advisor": "Orozco Topete, Rocio de la Luz",
+            "x": 10.903081,
+            "y": -0.40997,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0479644",
+            "doc_number_url": "000757665",
+            "title": "función temprana del injerto renal obtenido por nefrectomía laparoscópica vs. nefrectomía abierta de donador vivo relacionado en el hospital de especialidades del centro médico nacional la raza",
+            "program": "anestesiologia",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Buendia Soto, Erick",
+            "advisor": "López Burgos, Juan Francisco ; Meza Jiménez, Guillermo",
+            "x": 10.889736,
+            "y": -0.404694,
+            "cluster_strength": 0.757878
+          },
+          {
+            "thesis_id": "TH_0411772",
+            "doc_number_url": "000689649",
+            "title": "perfil epidemiológico de los trabajadores con dictamen de invalidez por insuficiencia renal crónica de la delegación estado de méxico oriente",
+            "program": "medicina del trabajo y ambiental",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Especialidad",
+            "plantel": "facultad de derecho unam",
+            "author": "García Martínez, Ricardo",
+            "advisor": "González Martínez, Paula ; Quezada Ortega, Martín Rafael ; Vázquez Dávila, Martín Rafael",
+            "x": 10.890807,
+            "y": -0.413323,
+            "cluster_strength": 0.615939
+          },
+          {
+            "thesis_id": "TH_0522052",
+            "doc_number_url": "000817607",
+            "title": "calidad de vida en pacientes con enfermedad renal crónica en prediálisis, diálisis peritoneal y hemodiálisis en la umf n° 61",
+            "program": "medicina familiar",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Martínez Rosales, Edith",
+            "advisor": "Aguilar González, Mayra Adoraim",
+            "x": 10.898544,
+            "y": -0.396959,
+            "cluster_strength": 0.631111
+          },
+          {
+            "thesis_id": "TH_0527281",
+            "doc_number_url": "000809552",
+            "title": "sobrevida de pacientes con enfermedad renal terminal en las diferentes modalidades de diálisis peritoneal y hemodiálisis en el instituto mexicano del seguro social",
+            "program": "epidemiologia",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Trejo Lerma, Laura Alejandra",
+            "advisor": "Hernández-Avila, Mauricio",
+            "x": 10.885311,
+            "y": -0.411236,
+            "cluster_strength": 0.562206
+          }
+        ]
+      },
+      {
+        "microcluster_id": 21,
+        "macrocluster_id": 5,
+        "micro_label": "HEPATICA · HEPATITIS · PACIENTES · CIRROSIS",
+        "size": 173,
+        "x": 8.811989,
+        "y": -0.253082,
+        "year_min": 1889,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "hepatica",
+            "score": 0.06367
+          },
+          {
+            "term": "hepatitis",
+            "score": 0.058495
+          },
+          {
+            "term": "pacientes",
+            "score": 0.056463
+          },
+          {
+            "term": "cirrosis",
+            "score": 0.039837
+          },
+          {
+            "term": "cirrosis hepatica",
+            "score": 0.032752
+          },
+          {
+            "term": "fibrosis",
+            "score": 0.032432
+          },
+          {
+            "term": "estudio",
+            "score": 0.031088
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.026838
+          },
+          {
+            "term": "hospital",
+            "score": 0.026129
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.025871
+          },
+          {
+            "term": "no",
+            "score": 0.024187
+          },
+          {
+            "term": "cronica",
+            "score": 0.02327
+          },
+          {
+            "term": "factores",
+            "score": 0.022006
+          },
+          {
+            "term": "hepatico",
+            "score": 0.021422
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "gastroenterologia",
+            "count": 27
+          },
+          {
+            "label": "medicina interna",
+            "count": 24
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 11
+          },
+          {
+            "label": "pediatria medica",
+            "count": 8
+          },
+          {
+            "label": "cirugia general",
+            "count": 8
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 8
+          },
+          {
+            "label": "medicina familiar",
+            "count": 7
+          },
+          {
+            "label": "pediatria",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 169
+          },
+          {
+            "label": "Area 1",
+            "count": 4
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 129
+          },
+          {
+            "label": "Licenciatura",
+            "count": 31
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          },
+          {
+            "label": "desconocido",
+            "count": 2
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 166
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores cuautitlan institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de odontología",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de medicina",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermeria del hospital de jesús,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.023121,
+          "Area 2": 0.976879,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 169,
+            "pct": 0.976879
+          },
+          {
+            "area": "Area 1",
+            "count": 4,
+            "pct": 0.023121
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0417979",
+            "doc_number_url": "000693719",
+            "title": "modificaciones de la regulación epigenética por el hepatoprotector ifc-305 en cirrosis",
+            "program": "quimica farmaceutico biologica",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Rodríguez Aguilera, Jesús Rafael",
+            "advisor": "Chagoya de Sánchez, Victoria",
+            "x": 8.786386,
+            "y": -0.246125,
+            "cluster_strength": 0.759886
+          },
+          {
+            "thesis_id": "TH_0269346",
+            "doc_number_url": "000254355",
+            "title": "farmacocinetica preclinica del hepp",
+            "program": "biofarmacia",
+            "year": 1997,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de quimica unam",
+            "author": "García Aguirre, Luis Jesus",
+            "advisor": "Jung Cook, Helgi Helen",
+            "x": 8.835554,
+            "y": -0.228705,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0264943",
+            "doc_number_url": "000235414",
+            "title": "efectos de captopril en pacientes con ascitis por cirrosis hepatica",
+            "program": "medicina interna",
+            "year": 1996,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Torres Melendez, Fernando",
+            "advisor": "Reynoso Marenco, Marco Tulio",
+            "x": 8.846724,
+            "y": -0.248883,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0066675",
+            "doc_number_url": "000144758",
+            "title": "contribucion al estudio de la reaccion de takata-ara en las cirrosis hepaticas",
+            "program": "medico cirujano",
+            "year": 1936,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Treviño Gutierrez, Luis",
+            "advisor": "",
+            "x": 8.838428,
+            "y": -0.280974,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0414484",
+            "doc_number_url": "000683626",
+            "title": "uso de heparina de bajo peso molecular en pacientes con fallas de implantación",
+            "program": "biologia de la reproduccion humana",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Mamani Cancino, Alex Daniel",
+            "advisor": "Godoy Morales, Héctor Salvador",
+            "x": 8.842435,
+            "y": -0.280268,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0455165",
+            "doc_number_url": "000716225",
+            "title": "manejo antitrombótico con heparinas de bajo peso molecular en mujeres con antecedentes obstétricos asociados a disfunción placentaria sin enfermedad trombofílica diagnosticada : metaanálisis",
+            "program": "medicina materno fetal",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Hernández López, Sergio Humberto",
+            "advisor": "Acevedo Gallegos, Sandra",
+            "x": 8.843928,
+            "y": -0.279551,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0037635",
+            "doc_number_url": "000316848",
+            "title": "el inicio temprano de acido ursodesoxicolico disminuye el riesgo de colestasis intra-hepatica en los recien nacidos sometidos a uso prolongado por npt",
+            "program": "neonatologia",
+            "year": 2003,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Aguilar Quiñones, Maria Cristina",
+            "advisor": "Cazares Ortiz, Manuel",
+            "x": 8.851351,
+            "y": -0.235733,
+            "cluster_strength": 0.99441
+          },
+          {
+            "thesis_id": "TH_0093516",
+            "doc_number_url": "000170520",
+            "title": "la prueba de generacion de tromboplastina en enfermos con cirrosis hepatica : estudio basado en 50 casos",
+            "program": "quimica farmaceutico biologica",
+            "year": 1965,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Medel Reyes, Teresa",
+            "advisor": "",
+            "x": 8.822531,
+            "y": -0.299348,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 118,
+        "macrocluster_id": 5,
+        "micro_label": "TRATAMIENTO · DIAGNOSTICO · ENFERMEDAD · ENFERMEDADES",
+        "size": 169,
+        "x": 7.404315,
+        "y": -0.827588,
+        "year_min": 1890,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "tratamiento",
+            "score": 0.11382
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.077646
+          },
+          {
+            "term": "enfermedad",
+            "score": 0.061388
+          },
+          {
+            "term": "enfermedades",
+            "score": 0.047457
+          },
+          {
+            "term": "parodontales",
+            "score": 0.035172
+          },
+          {
+            "term": "patologia",
+            "score": 0.034166
+          },
+          {
+            "term": "pacientes",
+            "score": 0.033657
+          },
+          {
+            "term": "enfermedades parodontales",
+            "score": 0.030898
+          },
+          {
+            "term": "casos",
+            "score": 0.027142
+          },
+          {
+            "term": "diagnostico tratamiento",
+            "score": 0.025676
+          },
+          {
+            "term": "terapeutica",
+            "score": 0.025584
+          },
+          {
+            "term": "prevalencia",
+            "score": 0.022625
+          },
+          {
+            "term": "caso",
+            "score": 0.020933
+          },
+          {
+            "term": "odontopediatria",
+            "score": 0.020928
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 87
+          },
+          {
+            "label": "medico cirujano",
+            "count": 16
+          },
+          {
+            "label": "oftalmologia",
+            "count": 9
+          },
+          {
+            "label": "pediatria medica",
+            "count": 8
+          },
+          {
+            "label": "cirugia general",
+            "count": 4
+          },
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 3
+          },
+          {
+            "label": "medicina de rehabilitacion",
+            "count": 3
+          },
+          {
+            "label": "pediatria",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 168
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 109
+          },
+          {
+            "label": "Especialidad",
+            "count": 59
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 153
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 6
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de odontologia institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "escuela nacional de medicina (mexico), institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad latinoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.994083,
+          "Area 3": 0.005917,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 168,
+            "pct": 0.994083
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.005917
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0073785",
+            "doc_number_url": null,
+            "title": "aspectos clinicos de la onchocercosis",
+            "program": "medico cirujano",
+            "year": 1946,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Gaxiola, Vinicio",
+            "advisor": "",
+            "x": 7.37762,
+            "y": -0.850642,
+            "cluster_strength": 0.892409
+          },
+          {
+            "thesis_id": "TH_0139928",
+            "doc_number_url": "000149419",
+            "title": "patologia y tratamiento de las enfermedades parodontales",
+            "program": "cirujano dentista",
+            "year": 1978,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Martinez Noguez, Socorro",
+            "advisor": "Moscoso Barrera, Ariel",
+            "x": 7.393225,
+            "y": -0.782942,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0468203",
+            "doc_number_url": "000743452",
+            "title": "tratamiento ortodóncico en pacientes con síndrome de moebius, treacher collins y pierre robin",
+            "program": "cirujano dentista",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "García Murillo, Erika Jaquelin",
+            "advisor": "Peniche Becerra, Adriana Graciela",
+            "x": 7.443647,
+            "y": -0.792464,
+            "cluster_strength": 0.892409
+          },
+          {
+            "thesis_id": "TH_0066148",
+            "doc_number_url": "000139178",
+            "title": "la sarna y sus complicaciones : nuevas indicaciones terapeuticas",
+            "program": "medico cirujano",
+            "year": 1935,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Urrea Sarabia, Daniel",
+            "advisor": "",
+            "x": 7.376447,
+            "y": -0.873085,
+            "cluster_strength": 0.892409
+          },
+          {
+            "thesis_id": "TH_0212381",
+            "doc_number_url": "000152260",
+            "title": "diagnostoci clunico de la escoliosis dentro del primer nievel de atencion medica",
+            "program": "medicina familiar",
+            "year": 1991,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Echeverria Barragan, Guadalupe Araceli",
+            "advisor": "Avila Trejo, David Antonio",
+            "x": 7.440398,
+            "y": -0.869353,
+            "cluster_strength": 0.874792
+          },
+          {
+            "thesis_id": "TH_0497608",
+            "doc_number_url": "000771957",
+            "title": "planteamiento de un método diagnóstico para la disfunción craneomandibular : prueba piloto",
+            "program": "odontologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "escuela nacional de estudios superiores leon",
+            "author": "González Velázquez, Jorge Mauricio",
+            "advisor": "Vilar Pineda, Gabriela ; Aguilar Díaz, Fátima del Carmen",
+            "x": 7.451006,
+            "y": -0.796747,
+            "cluster_strength": 0.989375
+          },
+          {
+            "thesis_id": "TH_0568570",
+            "doc_number_url": "000861430",
+            "title": "factores implicados en el éxito de queratoplastia penetrante en pacientes con queratopatia bullosa en cmn siglo xxi",
+            "program": "oftalmologia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Zanella Contreras, Linda Paola",
+            "advisor": "Carrasco Quiroz, Arturo",
+            "x": 7.456212,
+            "y": -0.804328,
+            "cluster_strength": 0.855622
+          },
+          {
+            "thesis_id": "TH_0563599",
+            "doc_number_url": "000863356",
+            "title": "manifestaciones y manejo odontológico en pacientes con enfermedad de gaucher tipo iii : reporte de dos casos",
+            "program": "odontologia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de odontologia unam",
+            "author": "Nava Leyva, Victoria Isabel",
+            "advisor": "Magaña Barrios, Guadalupe Violeta",
+            "x": 7.474008,
+            "y": -0.818553,
+            "cluster_strength": 0.798474
+          }
+        ]
+      },
+      {
+        "microcluster_id": 54,
+        "macrocluster_id": 5,
+        "micro_label": "HEMORRAGIA · PACIENTES · SANGRE · TRATAMIENTO",
+        "size": 165,
+        "x": 9.110169,
+        "y": -0.240914,
+        "year_min": 1895,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "hemorragia",
+            "score": 0.055599
+          },
+          {
+            "term": "pacientes",
+            "score": 0.055344
+          },
+          {
+            "term": "sangre",
+            "score": 0.041501
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.03797
+          },
+          {
+            "term": "hospital",
+            "score": 0.028401
+          },
+          {
+            "term": "anemia",
+            "score": 0.025748
+          },
+          {
+            "term": "transfusion",
+            "score": 0.024224
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.024033
+          },
+          {
+            "term": "hemofilia",
+            "score": 0.022225
+          },
+          {
+            "term": "estudio",
+            "score": 0.021918
+          },
+          {
+            "term": "cirugia",
+            "score": 0.020738
+          },
+          {
+            "term": "coagulacion",
+            "score": 0.020297
+          },
+          {
+            "term": "hemorragias",
+            "score": 0.019974
+          },
+          {
+            "term": "manejo",
+            "score": 0.017495
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 30
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 14
+          },
+          {
+            "label": "anestesiologia",
+            "count": 11
+          },
+          {
+            "label": "medico cirujano",
+            "count": 10
+          },
+          {
+            "label": "pediatria medica",
+            "count": 8
+          },
+          {
+            "label": "hematologia pediatrica",
+            "count": 8
+          },
+          {
+            "label": "pediatria",
+            "count": 8
+          },
+          {
+            "label": "medicina interna",
+            "count": 7
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 158
+          },
+          {
+            "label": "Area 3",
+            "count": 4
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 96
+          },
+          {
+            "label": "Licenciatura",
+            "count": 66
+          },
+          {
+            "label": "Maestría",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 153
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra sra. de la salud,",
+            "count": 1
+          },
+          {
+            "label": "universidad metropolitana de tlaxcala",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales iztacala institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.012121,
+          "Area 2": 0.957576,
+          "Area 3": 0.024242,
+          "Area 4": 0.006061,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 158,
+            "pct": 0.957576
+          },
+          {
+            "area": "Area 3",
+            "count": 4,
+            "pct": 0.024242
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.012121
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.006061
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0229871",
+            "doc_number_url": "000198637",
+            "title": "tratamiento de las hemorragias postoperatoria",
+            "program": "cirujano dentista",
+            "year": 1993,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Cornelio Espinoza, Efrain",
+            "advisor": "Jiménez Vázquez, Porfirio",
+            "x": 9.104416,
+            "y": -0.241591,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0166441",
+            "doc_number_url": null,
+            "title": "importancia de las alteraciones hematicas en odontologia",
+            "program": "cirujano dentista",
+            "year": 1983,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Valles Sanchez, Maria Guadalupe",
+            "advisor": "Kuri Karam, Victor E",
+            "x": 9.113137,
+            "y": -0.235909,
+            "cluster_strength": 0.89758
+          },
+          {
+            "thesis_id": "TH_0126988",
+            "doc_number_url": "000148338",
+            "title": "odontoterapia en pacientes hemofilicos",
+            "program": "cirujano dentista",
+            "year": 1975,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Ramirez Ordonez, Laura Victoria",
+            "advisor": "",
+            "x": 9.107514,
+            "y": -0.248087,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0001492",
+            "doc_number_url": "000280638",
+            "title": "importancia clinica del tiempo en el diagnostico, tratamiento y pronostico de los e.v.c. hemorragicos",
+            "program": "neurocirugia",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Casarrubias Islas, Roberto",
+            "advisor": "Salazar Castillo, Octavio Antonio",
+            "x": 9.101686,
+            "y": -0.249842,
+            "cluster_strength": 0.5331
+          },
+          {
+            "thesis_id": "TH_0086141",
+            "doc_number_url": "000170008",
+            "title": "dosificacion de munganeso en sangre",
+            "program": "quimica farmaceutico biologica",
+            "year": 1961,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Siliceo Camacho, Maria de Lourdes",
+            "advisor": "",
+            "x": 9.096196,
+            "y": -0.23914,
+            "cluster_strength": 0.477872
+          },
+          {
+            "thesis_id": "TH_0065179",
+            "doc_number_url": "000137579",
+            "title": "las grupos sanguineos : su importancia en la transfusion de sangre, la determinacion de la no paternidad y en las razas",
+            "program": "medico cirujano",
+            "year": 1934,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Elizondo Cárdenas, Manuel",
+            "advisor": "",
+            "x": 9.121553,
+            "y": -0.25205,
+            "cluster_strength": 0.523801
+          },
+          {
+            "thesis_id": "TH_0067098",
+            "doc_number_url": "000136125",
+            "title": "profilaxis y tratamiento de la hemorragia en odontologia",
+            "program": "cirujano dentista",
+            "year": 1937,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Mercado Valdes, Luis",
+            "advisor": "",
+            "x": 9.123295,
+            "y": -0.231892,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0143215",
+            "doc_number_url": "000154794",
+            "title": "hernia por aplasia congenita del hemidiafragma",
+            "program": "pediatria medica",
+            "year": 1979,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Fuentes Florencia, Enrique",
+            "advisor": "",
+            "x": 9.100158,
+            "y": -0.256651,
+            "cluster_strength": 0.449241
+          }
+        ]
+      },
+      {
+        "microcluster_id": 28,
+        "macrocluster_id": 5,
+        "micro_label": "URINARIA · URINARIAS · INFECCION · VIAS URINARIAS",
+        "size": 91,
+        "x": 10.408704,
+        "y": -0.966551,
+        "year_min": 1927,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "urinaria",
+            "score": 0.081774
+          },
+          {
+            "term": "urinarias",
+            "score": 0.066977
+          },
+          {
+            "term": "infeccion",
+            "score": 0.064627
+          },
+          {
+            "term": "vias urinarias",
+            "score": 0.058484
+          },
+          {
+            "term": "vias",
+            "score": 0.058484
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.052358
+          },
+          {
+            "term": "infeccion vias",
+            "score": 0.046789
+          },
+          {
+            "term": "incontinencia",
+            "score": 0.043383
+          },
+          {
+            "term": "incontinencia urinaria",
+            "score": 0.043383
+          },
+          {
+            "term": "urinario",
+            "score": 0.042593
+          },
+          {
+            "term": "pacientes",
+            "score": 0.038744
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.037344
+          },
+          {
+            "term": "infecciones",
+            "score": 0.033111
+          },
+          {
+            "term": "estudio",
+            "score": 0.0322
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "urologia",
+            "count": 14
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 11
+          },
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 10
+          },
+          {
+            "label": "medicina familiar",
+            "count": 8
+          },
+          {
+            "label": "medico cirujano",
+            "count": 7
+          },
+          {
+            "label": "medicina interna",
+            "count": 5
+          },
+          {
+            "label": "pediatria medica",
+            "count": 5
+          },
+          {
+            "label": "urologia ginecologica",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 90
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 67
+          },
+          {
+            "label": "Licenciatura",
+            "count": 22
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 83
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 3
+          },
+          {
+            "label": "universidad motolinía",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias médicas",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra señora de la salud",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de medicina",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.010989,
+          "Area 2": 0.989011,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 90,
+            "pct": 0.989011
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.010989
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0356320",
+            "doc_number_url": "000650359",
+            "title": "relación entre diarrea e infección urinaria en niños menores de un año de edad",
+            "program": "pediatria",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Bravo Quijada, Samuel",
+            "advisor": "Uribe Terrazas, Rosa Nora",
+            "x": 10.40438,
+            "y": -0.955514,
+            "cluster_strength": 0.474505
+          },
+          {
+            "thesis_id": "TH_0438496",
+            "doc_number_url": "000712149",
+            "title": "comparación en la eficacia en la administración de nitrofurantoina cada 8h versus cada 6h en niños de 2 a 18 años con infección de vías urinarias bajas no complicadas",
+            "program": "ciencias medicas",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Estevez Jiménez, Juliana",
+            "advisor": "Arredondo García, José Luis",
+            "x": 10.456036,
+            "y": -0.959462,
+            "cluster_strength": 0.530131
+          },
+          {
+            "thesis_id": "TH_0241223",
+            "doc_number_url": "000210373",
+            "title": "incidencia de infeccion de vias urinarias en el recien nacido y su repercusion en el crecimiento ponderal",
+            "program": "pediatria medica",
+            "year": 1994,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Gonzalez Hernandez, Delia",
+            "advisor": "Duran Ruiz, Rosa Erendira",
+            "x": 10.443592,
+            "y": -1.008764,
+            "cluster_strength": 0.491425
+          },
+          {
+            "thesis_id": "TH_0250516",
+            "doc_number_url": "000228994",
+            "title": "frecuencia de las infecciones de vias urinarias en edad pediatrica (1-a-6 anos)",
+            "program": "medicina familiar",
+            "year": 1995,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Estrada Sanchez, Juan",
+            "advisor": "Aviles Hernandez, Nicolas",
+            "x": 10.481733,
+            "y": -0.967172,
+            "cluster_strength": 0.695024
+          },
+          {
+            "thesis_id": "TH_0157948",
+            "doc_number_url": "000048896",
+            "title": "mediciones de acido lactico en orina para establecer el sitio de infeccion urinaria en el paciente pediatrico",
+            "program": "laboratorio clinico",
+            "year": 1982,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Najera Contreras, Roberto",
+            "advisor": "",
+            "x": 10.470745,
+            "y": -0.924738,
+            "cluster_strength": 0.562948
+          },
+          {
+            "thesis_id": "TH_0316504",
+            "doc_number_url": "000610442",
+            "title": "muerte perinatal y hebdomadal asociada a infeccion de vias urinarias y cervicovaginitis",
+            "program": "medicina familiar",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Camacho Vasquez, Silvia",
+            "advisor": "Sanchez Espinosa, Jose Luis",
+            "x": 10.479192,
+            "y": -1.018538,
+            "cluster_strength": 0.511561
+          },
+          {
+            "thesis_id": "TH_0256799",
+            "doc_number_url": "000233883",
+            "title": "trimetoprim-sulfametoxazol en el manejo de infecciones urinarias bajas no complicadas en pacientes pediatricos : tratamiento comparativo cursos cortos contra esquema convencional",
+            "program": "pediatria medica",
+            "year": 1996,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cartas Layja, Maria de Lourdes",
+            "advisor": "Zamora Garcia, Francisco Javier",
+            "x": 10.503837,
+            "y": -0.941259,
+            "cluster_strength": 0.525631
+          },
+          {
+            "thesis_id": "TH_0029422",
+            "doc_number_url": "000300841",
+            "title": "infeccion de vias urinarias asintomatica en niños de guarderia comparado con niños cuidados en casa",
+            "program": "pediatria medica",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Jaramillo Hernandez, Roxana",
+            "advisor": "Barragan Padilla, Sergio",
+            "x": 10.512393,
+            "y": -0.963264,
+            "cluster_strength": 0.735488
+          }
+        ]
+      },
+      {
+        "microcluster_id": 105,
+        "macrocluster_id": 5,
+        "micro_label": "REVISION · PACIENTES · CASO · ANALISIS",
+        "size": 65,
+        "x": 7.558932,
+        "y": -0.672031,
+        "year_min": 1925,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "revision",
+            "score": 0.07213
+          },
+          {
+            "term": "pacientes",
+            "score": 0.064916
+          },
+          {
+            "term": "caso",
+            "score": 0.057978
+          },
+          {
+            "term": "analisis",
+            "score": 0.043367
+          },
+          {
+            "term": "sindrome sjogren",
+            "score": 0.040714
+          },
+          {
+            "term": "sjogren",
+            "score": 0.040714
+          },
+          {
+            "term": "gen",
+            "score": 0.03941
+          },
+          {
+            "term": "correlacion",
+            "score": 0.037427
+          },
+          {
+            "term": "manejo",
+            "score": 0.036112
+          },
+          {
+            "term": "estudio",
+            "score": 0.035116
+          },
+          {
+            "term": "literatura",
+            "score": 0.034851
+          },
+          {
+            "term": "relacion",
+            "score": 0.030948
+          },
+          {
+            "term": "sindromes",
+            "score": 0.030096
+          },
+          {
+            "term": "pacientes sindrome",
+            "score": 0.02818
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 12
+          },
+          {
+            "label": "pediatria medica",
+            "count": 7
+          },
+          {
+            "label": "genetica medica",
+            "count": 4
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 3
+          },
+          {
+            "label": "medico cirujano",
+            "count": 3
+          },
+          {
+            "label": "pediatria",
+            "count": 3
+          },
+          {
+            "label": "cardiologia",
+            "count": 2
+          },
+          {
+            "label": "hematologia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 63
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 36
+          },
+          {
+            "label": "Licenciatura",
+            "count": 24
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 60
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autonoma de mexico. facultad de medicina, institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.030769,
+          "Area 2": 0.969231,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 63,
+            "pct": 0.969231
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.030769
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0279809",
+            "doc_number_url": "000266635",
+            "title": "sindrome de nelson : frecuencia, evolucion y factores pronosticos",
+            "program": "medicina interna",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Díaz Polanco, Araceli",
+            "advisor": "Rios, Juan Manuel",
+            "x": 7.559423,
+            "y": -0.671274,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0420966",
+            "doc_number_url": "000695885",
+            "title": "síndrome de sweet : presentación de un caso",
+            "program": "cirujano dentista",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Valle Mendoza, Yesica Saray, del",
+            "advisor": "Velázquez Romero, María Elena ; Rodríguez Sánchez, María Eugenia",
+            "x": 7.575398,
+            "y": -0.664875,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0016255",
+            "doc_number_url": "000290822",
+            "title": "hallazgos clinicos asociados al sindrome de sjogren en el raton hipotimico alopsico cd1 et",
+            "program": "quimica farmaceutico biologica",
+            "year": 2001,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Lara Hernandez, Ma. de los Angeles",
+            "advisor": "Marroquín Segura, Rubén ; Calvillo Esparza, Ricardo",
+            "x": 7.557739,
+            "y": -0.699508,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0468587",
+            "doc_number_url": null,
+            "title": "respuesta del tratamiento con 5-azacitidina en síndrome mielodisplásico",
+            "program": "hematologia",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Gómez Rosas, Patricia",
+            "advisor": "Alvarado Ibarra, Martha",
+            "x": 7.576663,
+            "y": -0.648694,
+            "cluster_strength": 0.970648
+          },
+          {
+            "thesis_id": "TH_0443954",
+            "doc_number_url": "000710330",
+            "title": "síndrome de johanson-blizzard : informe de un caso y revisión de la literatura",
+            "program": "pediatria",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Nájera Villagrana, Sandra Montserrat",
+            "advisor": "Reyes Cadena, Armando",
+            "x": 7.56756,
+            "y": -0.703573,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0485508",
+            "doc_number_url": "000761625",
+            "title": "correlación clínico patológica en pacientes con síndrome nefrótico corticoresistente del hraen dr. rodolfo nieto padrón",
+            "program": "pediatria",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Márquez Avalos, Luis Emmanuel",
+            "advisor": "Rocha Gómez, Margarita Irene ; Borbolla Sala, Manuel Eduardo",
+            "x": 7.553934,
+            "y": -0.705257,
+            "cluster_strength": 0.912726
+          },
+          {
+            "thesis_id": "TH_0360806",
+            "doc_number_url": "000651635",
+            "title": "síndrome de samter : revisión bibliográfica",
+            "program": "cirujano dentista",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Labastida Pólito, Iliana",
+            "advisor": "Fernández López, Rocío Gloria",
+            "x": 7.553481,
+            "y": -0.706126,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0331635",
+            "doc_number_url": "000617327",
+            "title": "sindrome de eagle",
+            "program": "cirujano dentista",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Flores Jimenez, Ivan Alejandro",
+            "advisor": "Guedea Fernandez, Elvira del Rosario",
+            "x": 7.524734,
+            "y": -0.66487,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 6,
+        "macrocluster_id": 5,
+        "micro_label": "PANCREATITIS · PANCREAS · PANCREATITIS AGUDA · AGUDA",
+        "size": 61,
+        "x": 12.451571,
+        "y": 0.026469,
+        "year_min": 1931,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "pancreatitis",
+            "score": 0.147931
+          },
+          {
+            "term": "pancreas",
+            "score": 0.147007
+          },
+          {
+            "term": "pancreatitis aguda",
+            "score": 0.094607
+          },
+          {
+            "term": "aguda",
+            "score": 0.094607
+          },
+          {
+            "term": "pacientes",
+            "score": 0.064158
+          },
+          {
+            "term": "complicaciones",
+            "score": 0.050468
+          },
+          {
+            "term": "pancreatico",
+            "score": 0.038443
+          },
+          {
+            "term": "manejo",
+            "score": 0.034394
+          },
+          {
+            "term": "criterios",
+            "score": 0.031795
+          },
+          {
+            "term": "mortalidad",
+            "score": 0.031254
+          },
+          {
+            "term": "pancreatica",
+            "score": 0.029664
+          },
+          {
+            "term": "hospital",
+            "score": 0.029098
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.02849
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.028483
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirugia general",
+            "count": 25
+          },
+          {
+            "label": "radiodiagnostico",
+            "count": 9
+          },
+          {
+            "label": "medicina interna",
+            "count": 3
+          },
+          {
+            "label": "anatomia patologica",
+            "count": 3
+          },
+          {
+            "label": "gastroenterologia",
+            "count": 3
+          },
+          {
+            "label": "pediatria",
+            "count": 2
+          },
+          {
+            "label": "pediatria medica",
+            "count": 2
+          },
+          {
+            "label": "medico cirujano",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 59
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 54
+          },
+          {
+            "label": "Licenciatura",
+            "count": 6
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 60
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores cuautitlán",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.032787,
+          "Area 2": 0.967213,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 59,
+            "pct": 0.967213
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.032787
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0064074",
+            "doc_number_url": "000139979",
+            "title": "contribucion al estudio de la exploracion del pancreas",
+            "program": "medico cirujano",
+            "year": 1931,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Nettel, Roberto",
+            "advisor": "",
+            "x": 12.452443,
+            "y": 0.026631,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0469249",
+            "doc_number_url": "000750410",
+            "title": "pancreatitis en niños y sus complicaciones : revisión de 5 años en el servicio de gastroenterología pediátrica del hospital general dr gaudencio gonzález garza imss del centro médico nacional la raza",
+            "program": "pediatria",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Guzmán Rodríguez, Miguel Ángel",
+            "advisor": "Cervantes Garduño, Marcela",
+            "x": 12.451177,
+            "y": 0.024952,
+            "cluster_strength": 0.78255
+          },
+          {
+            "thesis_id": "TH_0133449",
+            "doc_number_url": "000153801",
+            "title": "traumatismos pancreaticos",
+            "program": "cirugia general",
+            "year": 1977,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ávila Cabrera, Carlos",
+            "advisor": "Dominguez Perez, Adolfo",
+            "x": 12.453505,
+            "y": 0.026918,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0161897",
+            "doc_number_url": "000048506",
+            "title": "ascariasis erratica pancreatitis secundaria a ascariasis del wirsung",
+            "program": "gastroenterologia",
+            "year": 1983,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Escanero Figueroa, Miguel",
+            "advisor": "Ramirez Sanchez, Celso",
+            "x": 12.453834,
+            "y": 0.025406,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0129017",
+            "doc_number_url": "000150865",
+            "title": "criterios quirurgicos en los traumatismos del pancreas",
+            "program": "cirugia general",
+            "year": 1976,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Chapital Gutierrez, Esteban",
+            "advisor": "",
+            "x": 12.450121,
+            "y": 0.023682,
+            "cluster_strength": 0.474208
+          },
+          {
+            "thesis_id": "TH_0023875",
+            "doc_number_url": "000305443",
+            "title": "comparacion de los criterios pronosticos ranson, imrie y prims iii en pancreatitis aguda en pacientes pediatricos",
+            "program": "pediatria medica",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Atzin Fuentes, José Luis",
+            "advisor": "Mendoza Luna, Olinka Tamara ; Garcia Aguilar, Humberto",
+            "x": 12.450392,
+            "y": 0.02274,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0033139",
+            "doc_number_url": "000311520",
+            "title": "metaplasia pancreatica en esofago de barret (estudio de 5 años)",
+            "program": "anatomia patologica",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Peña Zepeda, Claudia",
+            "advisor": "Ayala Zavala, Mario",
+            "x": 12.450356,
+            "y": 0.021437,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0025548",
+            "doc_number_url": "000304047",
+            "title": "principales causas de pancreatitis en pacientes pediatricos en el hospital pediatrico moctezuma, de la secretaria de salud del departamento del distrito federal",
+            "program": "pediatria medica",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Chi Espinosa, Jennifer",
+            "advisor": "Baeza Herrera, Carlos",
+            "x": 12.447712,
+            "y": 0.022243,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 4,
+        "macrocluster_id": 5,
+        "micro_label": "ULCERAS · TRATAMIENTO · ULCERA · PEPTICA",
+        "size": 46,
+        "x": 9.070325,
+        "y": 1.93659,
+        "year_min": 1892,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "ulceras",
+            "score": 0.147106
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.115539
+          },
+          {
+            "term": "ulcera",
+            "score": 0.115373
+          },
+          {
+            "term": "peptica",
+            "score": 0.055728
+          },
+          {
+            "term": "pacientes",
+            "score": 0.055371
+          },
+          {
+            "term": "ulcera peptica",
+            "score": 0.052908
+          },
+          {
+            "term": "presion",
+            "score": 0.046187
+          },
+          {
+            "term": "ulcera gastrica",
+            "score": 0.039757
+          },
+          {
+            "term": "gastrica",
+            "score": 0.039757
+          },
+          {
+            "term": "tratamiento quirurgico",
+            "score": 0.039717
+          },
+          {
+            "term": "quirurgico",
+            "score": 0.039717
+          },
+          {
+            "term": "pierna",
+            "score": 0.03963
+          },
+          {
+            "term": "incidencia",
+            "score": 0.03776
+          },
+          {
+            "term": "correlacion",
+            "score": 0.037576
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medico cirujano",
+            "count": 9
+          },
+          {
+            "label": "cirugia general",
+            "count": 9
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 8
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 4
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 2
+          },
+          {
+            "label": "medicina familiar",
+            "count": 2
+          },
+          {
+            "label": "medicina interna",
+            "count": 2
+          },
+          {
+            "label": "geriatria",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 46
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 24
+          },
+          {
+            "label": "Especialidad",
+            "count": 21
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 42
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra señora de la salud,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina veterinaria y zootecnia institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 1.0,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 46,
+            "pct": 1.0
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0120718",
+            "doc_number_url": "000146137",
+            "title": "gingivitis necrosante ulcerosa",
+            "program": "cirujano dentista",
+            "year": 1974,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Baca Ruvalcaba, Miguel",
+            "advisor": "Enríquez Habib, Filiberto",
+            "x": 9.066451,
+            "y": 1.953879,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0061327",
+            "doc_number_url": "000160417",
+            "title": "proceso ulceroso, su tratamiento por la arbutina",
+            "program": "medico cirujano",
+            "year": 1892,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Garduño Soto, Alberto",
+            "advisor": "",
+            "x": 9.073131,
+            "y": 1.954631,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0063996",
+            "doc_number_url": "000139957",
+            "title": "contribucion al tratamiento de la ulcera varicosa por la acetilcolina",
+            "program": "medico cirujano",
+            "year": 1931,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Guerrero Villalpando, José",
+            "advisor": "",
+            "x": 9.067353,
+            "y": 1.957985,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0347781",
+            "doc_number_url": "000628832",
+            "title": "estudio comparativo de antrectomía+reconstrucción billroth ii vs colocación de parche de graham en pacientes con úlcera gástrica perforada",
+            "program": "cirugia general",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Landero Yoshioka, Víctor Takeshi",
+            "advisor": "Vázquez García, José Ciriaco Arturo",
+            "x": 9.076189,
+            "y": 1.957549,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0406388",
+            "doc_number_url": "000678108",
+            "title": "factores asociados y complicaciones de la enfermedad ulcerosa péptica en pacientes de cirugía general y medicina interna del hospital general dr. fernando quiroz gutiérrez",
+            "program": "cirugia general",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Solís Salgado, Katheryn Michelle",
+            "advisor": "Soto Amaro, Jaime",
+            "x": 9.083261,
+            "y": 1.954733,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0226005",
+            "doc_number_url": "000178502",
+            "title": "ulceras por estres en pacientes graves de medicina interna : estudio postmortem",
+            "program": "medicina interna",
+            "year": 1992,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Rodriguez López, Leticia",
+            "advisor": "Lozano Nuevo, José Juan ; Moreno Rodriguez, Francisco ; Bendimez Osorio, Pedro Antonio ; Rubio Guerra, Alberto Francisco",
+            "x": 9.079133,
+            "y": 1.957266,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0022995",
+            "doc_number_url": "000302926",
+            "title": "ulceras de la placa de ateroma en la bifurcacion carotidea : correlacion de los hallazgos clinicos, ultrasonograficos, quirurgicos y patologicos",
+            "program": "angiologia y cirugia vascular",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Agraz Castillo, Salvador",
+            "advisor": "Martinez López, Carlos",
+            "x": 9.08031,
+            "y": 1.957039,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0181430",
+            "doc_number_url": "000048225",
+            "title": "cirugia en ulcera gastrica",
+            "program": "cirugia general",
+            "year": 1986,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Fierros Aroza, Roberto",
+            "advisor": "Arrubarrena, Víctor M",
+            "x": 9.078917,
+            "y": 1.960733,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 97,
+        "macrocluster_id": 5,
+        "micro_label": "PSORIASIS · PACIENTES · DERMATITIS · ESTUDIO",
+        "size": 45,
+        "x": 7.386793,
+        "y": -0.180882,
+        "year_min": 1936,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "psoriasis",
+            "score": 0.119262
+          },
+          {
+            "term": "pacientes",
+            "score": 0.107008
+          },
+          {
+            "term": "dermatitis",
+            "score": 0.098378
+          },
+          {
+            "term": "estudio",
+            "score": 0.060325
+          },
+          {
+            "term": "atopica",
+            "score": 0.051609
+          },
+          {
+            "term": "dermatitis atopica",
+            "score": 0.051609
+          },
+          {
+            "term": "piel",
+            "score": 0.051116
+          },
+          {
+            "term": "clinica",
+            "score": 0.047873
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.044002
+          },
+          {
+            "term": "pacientes psoriasis",
+            "score": 0.0434
+          },
+          {
+            "term": "dermatologica",
+            "score": 0.038553
+          },
+          {
+            "term": "manifestaciones",
+            "score": 0.037936
+          },
+          {
+            "term": "dermatofitosis",
+            "score": 0.036422
+          },
+          {
+            "term": "asociadas",
+            "score": 0.035572
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "dermatologia",
+            "count": 24
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 3
+          },
+          {
+            "label": "medico cirujano",
+            "count": 2
+          },
+          {
+            "label": "alergia e inmunologia clinica",
+            "count": 2
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 2
+          },
+          {
+            "label": "dermatologia pediatrica",
+            "count": 2
+          },
+          {
+            "label": "cardiologia",
+            "count": 1
+          },
+          {
+            "label": "psicologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 43
+          },
+          {
+            "label": "Area 3",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 36
+          },
+          {
+            "label": "Licenciatura",
+            "count": 9
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 42
+          },
+          {
+            "label": "universidad westhill",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de medicina",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.955556,
+          "Area 3": 0.044444,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 43,
+            "pct": 0.955556
+          },
+          {
+            "area": "Area 3",
+            "count": 2,
+            "pct": 0.044444
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0315587",
+            "doc_number_url": "000611378",
+            "title": "variedades morfologicas atipicas de la dermatitis atopica : estudio descriptivo en el primer semestre del año",
+            "program": "dermatologia pediatrica",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Argueta Espino, Ada Victoria",
+            "advisor": "Mena Cedillos, Carlos Alfredo ; Valencia Herrera, Adriana Maria",
+            "x": 7.423352,
+            "y": -0.211435,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0190363",
+            "doc_number_url": "000093343",
+            "title": "piel normal y edad : estudio histopatologico",
+            "program": "dermatologia",
+            "year": 1988,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Fernandez Sanchez, Maria Cristina",
+            "advisor": "Novales, Josefa",
+            "x": 7.338055,
+            "y": -0.19038,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0333170",
+            "doc_number_url": "000623635",
+            "title": "estudio de sensibilidad in vitro de climbazol frente cepas de malassezia spp asociadas a dermatitis seborreica",
+            "program": "quimica farmaceutico biologica",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Gutierrez Gutierrez, Bianca",
+            "advisor": "Bonifaz Trujillo, José Alexandro",
+            "x": 7.387327,
+            "y": -0.238033,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0422121",
+            "doc_number_url": "000692509",
+            "title": "dermatitis atópica",
+            "program": "cirujano dentista",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Becerril Acosta, Nataly",
+            "advisor": "Guzmán Álvarez, Rodrigo ; Velázquez Romero, María Elena",
+            "x": 7.442219,
+            "y": -0.230064,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0565613",
+            "doc_number_url": "000860888",
+            "title": "correlación de calidad de vida en pacientes con dermatitis atópica de acuerdo a su gravedad",
+            "program": "pediatria",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Rivera Medina, Leticia Yutzil",
+            "advisor": "Toledo Bahena, Mirna Eréndira ; Valencia Herrera, Adriana María ; Mena Cedillos, Carlos Alfredo",
+            "x": 7.457748,
+            "y": -0.20436,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0445656",
+            "doc_number_url": "000699633",
+            "title": "dermatitis por contacto profesional : experiencia de 20 años con pacientes estudiados en la clínica de dermatitis por contacto en el hospital de especialidades del cmn sxxi",
+            "program": "dermatologia",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ramos Villasaldo, Alejandra",
+            "advisor": "Blancas Espinosa, Roberto ; Menez Díaz, Diana Graciela ; Ferreira Hermosillo, Aldo",
+            "x": 7.463063,
+            "y": -0.194004,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0137534",
+            "doc_number_url": "000146441",
+            "title": "ige en dermatitis solar",
+            "program": "pediatria medica",
+            "year": 1977,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Trejo López, Eva P.",
+            "advisor": "",
+            "x": 7.416979,
+            "y": -0.25822,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0497498",
+            "doc_number_url": "000776781",
+            "title": "identificación y cuantificación de linfocitos th17 patogénicos en piel afectada de pacientes de 18 a 80 años, con psoriasis activa, del centro dermatológico dr. ladislao de la pascua",
+            "program": "dermatologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "González Palacios, Elizabeth",
+            "advisor": "Santacruz Fermín, Jurado ; Pérez Montesinos, Gibrán ; Peralta Pedrero, María Luisa",
+            "x": 7.332936,
+            "y": -0.092692,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

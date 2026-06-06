@@ -1,0 +1,2534 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 16,
+    "macro_label": "CENTRO · ARTE · CULTURAL · SOCIAL",
+    "size": 814,
+    "microcluster_count": 8,
+    "microclusters": [
+      {
+        "microcluster_id": 150,
+        "macrocluster_id": 16,
+        "micro_label": "POESIA · NOVELA · POETICA · OBRA",
+        "size": 282,
+        "x": 1.830181,
+        "y": -2.256666,
+        "year_min": 1937,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "poesia",
+            "score": 0.037601
+          },
+          {
+            "term": "novela",
+            "score": 0.035688
+          },
+          {
+            "term": "poetica",
+            "score": 0.032154
+          },
+          {
+            "term": "obra",
+            "score": 0.029534
+          },
+          {
+            "term": "literatura",
+            "score": 0.023117
+          },
+          {
+            "term": "analisis",
+            "score": 0.021547
+          },
+          {
+            "term": "jose",
+            "score": 0.021536
+          },
+          {
+            "term": "dos",
+            "score": 0.018216
+          },
+          {
+            "term": "poemas",
+            "score": 0.01762
+          },
+          {
+            "term": "siglo",
+            "score": 0.016792
+          },
+          {
+            "term": "critica",
+            "score": 0.016529
+          },
+          {
+            "term": "juan",
+            "score": 0.016526
+          },
+          {
+            "term": "personaje",
+            "score": 0.015932
+          },
+          {
+            "term": "vida",
+            "score": 0.015464
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "lengua y literaturas hispanicas",
+            "count": 79
+          },
+          {
+            "label": "letras",
+            "count": 43
+          },
+          {
+            "label": "lengua y literaturas modernas inglesas",
+            "count": 23
+          },
+          {
+            "label": "historia",
+            "count": 14
+          },
+          {
+            "label": "filosofia",
+            "count": 12
+          },
+          {
+            "label": "lengua y literaturas modernas francesas",
+            "count": 7
+          },
+          {
+            "label": "periodismo",
+            "count": 6
+          },
+          {
+            "label": "letras clasicas",
+            "count": 6
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 4",
+            "count": 255
+          },
+          {
+            "label": "Area 3",
+            "count": 15
+          },
+          {
+            "label": "Area 1",
+            "count": 7
+          },
+          {
+            "label": "Area 2",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 191
+          },
+          {
+            "label": "Maestría",
+            "count": 61
+          },
+          {
+            "label": "Doctorado",
+            "count": 29
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 266
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de filosofía y letras",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de filosofia y letras institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en letras",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad iberoamericana",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de filosofia y letras institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.024823,
+          "Area 2": 0.01773,
+          "Area 3": 0.053191,
+          "Area 4": 0.904255,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 4",
+            "count": 255,
+            "pct": 0.904255
+          },
+          {
+            "area": "Area 3",
+            "count": 15,
+            "pct": 0.053191
+          },
+          {
+            "area": "Area 1",
+            "count": 7,
+            "pct": 0.024823
+          },
+          {
+            "area": "Area 2",
+            "count": 5,
+            "pct": 0.01773
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0089255",
+            "doc_number_url": "000122873",
+            "title": "jose ruben romero : novelista",
+            "program": "literatura espa ola",
+            "year": 1963,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Muñoz Domínguez, Ines",
+            "advisor": "Rojas Garciduenas, Jose",
+            "x": 1.834605,
+            "y": -2.260118,
+            "cluster_strength": 0.38111
+          },
+          {
+            "thesis_id": "TH_0295767",
+            "doc_number_url": "000270835",
+            "title": "el quijote de 1605 : los autores, el texto, los lectores. una guia de lectura",
+            "program": "letras",
+            "year": 1999,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Stoopen, María",
+            "advisor": "González, Aurelio",
+            "x": 1.841109,
+            "y": -2.259217,
+            "cluster_strength": 0.419451
+          },
+          {
+            "thesis_id": "TH_0575254",
+            "doc_number_url": "000870269",
+            "title": "\"don’t believe the rumors non-dgds invent\" : crítica social y representación de la discapacidad en \"the evening and the morning and the night\" de octavia e. butler",
+            "program": "lengua y literaturas modernas inglesas",
+            "year": 2025,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "López Pedroza, Ana Sofía",
+            "advisor": "Toro Macías Valadez, Isabel del",
+            "x": 1.822625,
+            "y": -2.266432,
+            "cluster_strength": 0.437671
+          },
+          {
+            "thesis_id": "TH_0004113",
+            "doc_number_url": "000279077",
+            "title": "una lectura de la obra literaria de emilio carballido",
+            "program": "lengua y literaturas hispanicas",
+            "year": 2000,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Hernandez Mercado, Amado",
+            "advisor": "Barrera López, Reyna",
+            "x": 1.843017,
+            "y": -2.261114,
+            "cluster_strength": 0.661018
+          },
+          {
+            "thesis_id": "TH_0118078",
+            "doc_number_url": "000233699",
+            "title": "la obra literaria de luis de carvajal : el mozo",
+            "program": "lengua y literaturas hispanicas",
+            "year": 1973,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Grosz y Mogyoros, Elena Viviana",
+            "advisor": "",
+            "x": 1.826042,
+            "y": -2.241881,
+            "cluster_strength": 0.632761
+          },
+          {
+            "thesis_id": "TH_0011399",
+            "doc_number_url": "000295919",
+            "title": "to play the villain : el histrionismo de ricardo iii, yago y edmundo",
+            "program": "lengua y literaturas modernas inglesas",
+            "year": 2001,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Bayona Trejo, Gabriela",
+            "advisor": "Pimentel Anduiza, Luz Aurora",
+            "x": 1.848725,
+            "y": -2.265878,
+            "cluster_strength": 0.680985
+          },
+          {
+            "thesis_id": "TH_0076075",
+            "doc_number_url": "000195852",
+            "title": "tres novelas del siglo xix : astucia, los bandidos de rio frio y el zarco",
+            "program": "letras",
+            "year": 1948,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Yeats, Helen",
+            "advisor": "",
+            "x": 1.809499,
+            "y": -2.246356,
+            "cluster_strength": 0.561027
+          },
+          {
+            "thesis_id": "TH_0332309",
+            "doc_number_url": "000615101",
+            "title": "los ideales anarquistas en la literatura de federica montseny : una seleccion de la coleccion de la novela ideal",
+            "program": "lengua y literaturas hispanicas",
+            "year": 2007,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "García Rocha, Karla Edna",
+            "advisor": "Villarías Zugazagoitia, J. M",
+            "x": 1.802815,
+            "y": -2.258083,
+            "cluster_strength": 0.662793
+          }
+        ]
+      },
+      {
+        "microcluster_id": 124,
+        "macrocluster_id": 16,
+        "micro_label": "FILOSOFIA · TEORIA · VERDAD · PENSAMIENTO",
+        "size": 104,
+        "x": 1.569374,
+        "y": -2.296177,
+        "year_min": 1944,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "filosofia",
+            "score": 0.128779
+          },
+          {
+            "term": "teoria",
+            "score": 0.048239
+          },
+          {
+            "term": "verdad",
+            "score": 0.043855
+          },
+          {
+            "term": "pensamiento",
+            "score": 0.043481
+          },
+          {
+            "term": "filosofica",
+            "score": 0.036289
+          },
+          {
+            "term": "ciencia",
+            "score": 0.036189
+          },
+          {
+            "term": "estudio",
+            "score": 0.031049
+          },
+          {
+            "term": "filosofico",
+            "score": 0.030824
+          },
+          {
+            "term": "historia",
+            "score": 0.027204
+          },
+          {
+            "term": "hombre",
+            "score": 0.02387
+          },
+          {
+            "term": "concepto",
+            "score": 0.023644
+          },
+          {
+            "term": "hegel",
+            "score": 0.023395
+          },
+          {
+            "term": "sentido",
+            "score": 0.022447
+          },
+          {
+            "term": "naturaleza",
+            "score": 0.022234
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "filosofia",
+            "count": 74
+          },
+          {
+            "label": "sociologia",
+            "count": 6
+          },
+          {
+            "label": "filosofia de la ciencia",
+            "count": 3
+          },
+          {
+            "label": "derecho",
+            "count": 3
+          },
+          {
+            "label": "pedagogia",
+            "count": 2
+          },
+          {
+            "label": "historia",
+            "count": 2
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 1
+          },
+          {
+            "label": "matematicas",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 4",
+            "count": 85
+          },
+          {
+            "label": "Area 3",
+            "count": 12
+          },
+          {
+            "label": "Area 2",
+            "count": 5
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 68
+          },
+          {
+            "label": "Maestría",
+            "count": 22
+          },
+          {
+            "label": "Doctorado",
+            "count": 13
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 96
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra sra. de la salud,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de filosofía y letras",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de filosofia y letras institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.019231,
+          "Area 2": 0.048077,
+          "Area 3": 0.115385,
+          "Area 4": 0.817308,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 4",
+            "count": 85,
+            "pct": 0.817308
+          },
+          {
+            "area": "Area 3",
+            "count": 12,
+            "pct": 0.115385
+          },
+          {
+            "area": "Area 2",
+            "count": 5,
+            "pct": 0.048077
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.019231
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0098197",
+            "doc_number_url": "000119111",
+            "title": "del pensamiento y su enunciacion o la filosofia de hungria",
+            "program": "filosofia",
+            "year": 1967,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Moran, Jorge R.",
+            "advisor": "",
+            "x": 1.572582,
+            "y": -2.281426,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0370132",
+            "doc_number_url": "000798228",
+            "title": "un ensayo sobre objetividad y realismo : la polémica kantiana entre t. nagel y p. f. strawson",
+            "program": "filosofia",
+            "year": 2019,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Contreras Gallegos, Diana Gloria",
+            "advisor": "Lazos, Efraín",
+            "x": 1.590997,
+            "y": -2.310028,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0138739",
+            "doc_number_url": "000128631",
+            "title": "hegel y la ontologia de la historia",
+            "program": "filosofia",
+            "year": 1978,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Cortés del Moral, Rodolfo",
+            "advisor": "",
+            "x": 1.539919,
+            "y": -2.260601,
+            "cluster_strength": 0.884067
+          },
+          {
+            "thesis_id": "TH_0442389",
+            "doc_number_url": "000709479",
+            "title": "la superación del dualismo antropológico en la filosofía de xavier zubiri : fundamentos metafísico-noológicos",
+            "program": "filosofia",
+            "year": 2014,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Malfavón Carrillo, Víctor Hugo",
+            "advisor": "Horneffer, Ricardo",
+            "x": 1.537705,
+            "y": -2.253492,
+            "cluster_strength": 0.989239
+          },
+          {
+            "thesis_id": "TH_0513275",
+            "doc_number_url": "000804713",
+            "title": "filosofía y revolución : dialéctica, inmanencia y verdad en antonio gramsci",
+            "program": "filosofia",
+            "year": 2020,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Sandoval Castro, Osvaldo Enrique",
+            "advisor": "Di Castro, Elisabetta",
+            "x": 1.522213,
+            "y": -2.323377,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0562136",
+            "doc_number_url": "000854220",
+            "title": "algunas reflexiones en torno a la filosofía de kierkegaard",
+            "program": "filosofia",
+            "year": 2024,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Márquez Tripp, Rebeca",
+            "advisor": "Samaniego Bañuelos, Fernanda",
+            "x": 1.622815,
+            "y": -2.26891,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0345862",
+            "doc_number_url": "000631937",
+            "title": "el juicio de gusto en la filosofía de hume",
+            "program": "filosofia",
+            "year": 2008,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "García Toledo, María Dayanira Iouhaina",
+            "advisor": "Ortiz Millán, Gustavo Mauricio",
+            "x": 1.570389,
+            "y": -2.35787,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0356231",
+            "doc_number_url": "000643343",
+            "title": "flexibilidad y límites en la interpretación de fuentes históricas : realismo, relativismo e interpretacionismo, en el debate sobre los paradigmas de la historia",
+            "program": "historia",
+            "year": 2009,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Betancourt Posada, Alberto",
+            "advisor": "Cid Jurado, Alfredo Tenoch",
+            "x": 1.592817,
+            "y": -2.236598,
+            "cluster_strength": 0.935637
+          }
+        ]
+      },
+      {
+        "microcluster_id": 140,
+        "macrocluster_id": 16,
+        "micro_label": "CULTURAL · CENTRO · CENTRO CULTURAL · CULTURA",
+        "size": 97,
+        "x": 1.487929,
+        "y": -1.299158,
+        "year_min": 1960,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "cultural",
+            "score": 0.153994
+          },
+          {
+            "term": "centro",
+            "score": 0.15097
+          },
+          {
+            "term": "centro cultural",
+            "score": 0.121135
+          },
+          {
+            "term": "cultura",
+            "score": 0.11536
+          },
+          {
+            "term": "casa cultura",
+            "score": 0.058995
+          },
+          {
+            "term": "casa",
+            "score": 0.058995
+          },
+          {
+            "term": "social",
+            "score": 0.034791
+          },
+          {
+            "term": "ciudad",
+            "score": 0.025352
+          },
+          {
+            "term": "xochimilco",
+            "score": 0.024432
+          },
+          {
+            "term": "puebla",
+            "score": 0.023432
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.022287
+          },
+          {
+            "term": "hgo",
+            "score": 0.021696
+          },
+          {
+            "term": "centro social",
+            "score": 0.021483
+          },
+          {
+            "term": "nezahualcoyotl",
+            "score": 0.021048
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 68
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 4
+          },
+          {
+            "label": "estudios mesoamericanos",
+            "count": 4
+          },
+          {
+            "label": "historia",
+            "count": 4
+          },
+          {
+            "label": "sociologia",
+            "count": 2
+          },
+          {
+            "label": "periodismo",
+            "count": 2
+          },
+          {
+            "label": "artes visuales",
+            "count": 2
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 71
+          },
+          {
+            "label": "Area 4",
+            "count": 15
+          },
+          {
+            "label": "Area 3",
+            "count": 11
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 88
+          },
+          {
+            "label": "Maestría",
+            "count": 6
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 92
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento a",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara jal) escuela de arquitectura institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "instituto cultural helénico,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.731959,
+          "Area 2": 0.0,
+          "Area 3": 0.113402,
+          "Area 4": 0.154639,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 71,
+            "pct": 0.731959
+          },
+          {
+            "area": "Area 4",
+            "count": 15,
+            "pct": 0.154639
+          },
+          {
+            "area": "Area 3",
+            "count": 11,
+            "pct": 0.113402
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0439878",
+            "doc_number_url": "000710615",
+            "title": "centro de desarrollo cultural \"atlitic\" delegación magdalena contreras colonia ermitaño",
+            "program": "arquitectura",
+            "year": 2014,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "González Galicia, David",
+            "advisor": "Ortega Rubio, Norma Susana ; Correa García, José Sacramento ; González Ayala, Alberto ; Ordoñez y Barcena, Alberto",
+            "x": 1.481743,
+            "y": -1.310258,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0186554",
+            "doc_number_url": "000014281",
+            "title": "centro cultural",
+            "program": "arquitectura",
+            "year": 1986,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Silva López, José Luis",
+            "advisor": "Estrada Mercadillo, Jorge ; Manjarrez Andion Montana, Hector ; Calderón Cabrera, José Luis",
+            "x": 1.491749,
+            "y": -1.28651,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0002380",
+            "doc_number_url": "000283562",
+            "title": "analisis y diseño optimo de la seccion cultural de notimex",
+            "program": "ciencias de la comunicacion",
+            "year": 2000,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Durán Gonzalez, Ma. Elena",
+            "advisor": "Munguia Rodriguez, Fernando",
+            "x": 1.482519,
+            "y": -1.318712,
+            "cluster_strength": 0.910554
+          },
+          {
+            "thesis_id": "TH_0166335",
+            "doc_number_url": "000001278",
+            "title": "casa de cultura en chapala, jal",
+            "program": "arquitectura",
+            "year": 1983,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Troop Ochoa, James Richard",
+            "advisor": "Carrasco Navarrete, Honorato",
+            "x": 1.471599,
+            "y": -1.316349,
+            "cluster_strength": 0.906157
+          },
+          {
+            "thesis_id": "TH_0562312",
+            "doc_number_url": "000870493",
+            "title": "centro cultural \"tlimakilistli\", culhuacán, iztapalapa",
+            "program": "arquitectura",
+            "year": 2024,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Martínez Herrera, Karina Inés",
+            "advisor": "Ávila Jiménez, Zuriel David ; Villaverde Rodríguez, Gilberto ; Martínez Burgos, Ramón Javier",
+            "x": 1.463332,
+            "y": -1.298295,
+            "cluster_strength": 0.788724
+          },
+          {
+            "thesis_id": "TH_0286332",
+            "doc_number_url": "000267366",
+            "title": "casa de la cultura en teziutlan puebla",
+            "program": "arquitectura",
+            "year": 1998,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Reyes Hernandez, Faustino",
+            "advisor": "Ricalde Gonzalez, Humberto Jose",
+            "x": 1.513138,
+            "y": -1.302746,
+            "cluster_strength": 0.835524
+          },
+          {
+            "thesis_id": "TH_0396712",
+            "doc_number_url": "000677517",
+            "title": "centro cultural la noria, xochimilco",
+            "program": "arquitectura",
+            "year": 2011,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Becerril Reyes, Aldo Augusto",
+            "advisor": "Huesca Rodríguez, Carmen ; Hernández Spínola, Francisco ; Ramírez Rodríguez, Eréndira",
+            "x": 1.482483,
+            "y": -1.268991,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0287411",
+            "doc_number_url": "000266438",
+            "title": "centro para la cultura",
+            "program": "arquitectura",
+            "year": 1998,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Sanchez Fernandez, Olga Asuncion",
+            "advisor": "Rodríguez Cupa, Fausto Antonio",
+            "x": 1.475508,
+            "y": -1.268506,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 142,
+        "macrocluster_id": 16,
+        "micro_label": "ARTE · ARTISTICA · VIDA · ESTETICA",
+        "size": 83,
+        "x": 2.129524,
+        "y": -1.406864,
+        "year_min": 1938,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "arte",
+            "score": 0.158842
+          },
+          {
+            "term": "artistica",
+            "score": 0.079257
+          },
+          {
+            "term": "vida",
+            "score": 0.038373
+          },
+          {
+            "term": "estetica",
+            "score": 0.036665
+          },
+          {
+            "term": "fotografia",
+            "score": 0.035004
+          },
+          {
+            "term": "desde",
+            "score": 0.031183
+          },
+          {
+            "term": "pintura",
+            "score": 0.030908
+          },
+          {
+            "term": "obra",
+            "score": 0.030505
+          },
+          {
+            "term": "analisis",
+            "score": 0.027864
+          },
+          {
+            "term": "creacion",
+            "score": 0.027676
+          },
+          {
+            "term": "experiencia",
+            "score": 0.026455
+          },
+          {
+            "term": "social",
+            "score": 0.025849
+          },
+          {
+            "term": "ninos",
+            "score": 0.025188
+          },
+          {
+            "term": "cultura",
+            "score": 0.0246
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "artes visuales",
+            "count": 23
+          },
+          {
+            "label": "filosofia",
+            "count": 13
+          },
+          {
+            "label": "historia del arte",
+            "count": 7
+          },
+          {
+            "label": "pintura",
+            "count": 6
+          },
+          {
+            "label": "psicologia",
+            "count": 5
+          },
+          {
+            "label": "historia",
+            "count": 4
+          },
+          {
+            "label": "pedagogia",
+            "count": 4
+          },
+          {
+            "label": "sociologia",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 4",
+            "count": 64
+          },
+          {
+            "label": "Area 3",
+            "count": 15
+          },
+          {
+            "label": "Area 1",
+            "count": 3
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 48
+          },
+          {
+            "label": "Maestría",
+            "count": 30
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 76
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado de artes visuales",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento (plantel villahermosa)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de artes y diseño",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en historia del arte",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.036145,
+          "Area 2": 0.012048,
+          "Area 3": 0.180723,
+          "Area 4": 0.771084,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 4",
+            "count": 64,
+            "pct": 0.771084
+          },
+          {
+            "area": "Area 3",
+            "count": 15,
+            "pct": 0.180723
+          },
+          {
+            "area": "Area 1",
+            "count": 3,
+            "pct": 0.036145
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.012048
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0067569",
+            "doc_number_url": "000081626",
+            "title": "al margen de kelsen : notas sobre el sentido estetico del derecho",
+            "program": "derecho",
+            "year": 1938,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Gomez Arias, Alejandro",
+            "advisor": "",
+            "x": 2.126486,
+            "y": -1.398662,
+            "cluster_strength": 0.955165
+          },
+          {
+            "thesis_id": "TH_0580731",
+            "doc_number_url": "000872541",
+            "title": "de la historia del arte a la estética : una reflexión desde la enseñanza",
+            "program": "filosofia",
+            "year": 2025,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Trosino Chiu, Nick Alberto",
+            "advisor": "Laguna García, Rogelio Alonso",
+            "x": 2.153787,
+            "y": -1.407597,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0358014",
+            "doc_number_url": "000658319",
+            "title": "el arte como sentido de vida",
+            "program": "psicologia",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Escalante Valdez, Tania",
+            "advisor": "Dorantes Gómez, María Antonieta",
+            "x": 2.104234,
+            "y": -1.418527,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0366802",
+            "doc_number_url": "000651744",
+            "title": "arte, fotografía y fetichismo",
+            "program": "ciencias de la comunicacion",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Vargas Rozados, Víctor Pablo Tlahuac",
+            "advisor": "Rodíguez Carrera, Virginia",
+            "x": 2.11602,
+            "y": -1.379258,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0270163",
+            "doc_number_url": "000246243",
+            "title": "el trabajo colectivo como respuesta artistica a las crisis",
+            "program": "historia",
+            "year": 1997,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Guadarrama Peña, Guillermina Ursula",
+            "advisor": "Híjar, Alberto",
+            "x": 2.106787,
+            "y": -1.432006,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0352249",
+            "doc_number_url": "000636668",
+            "title": "la reconstrucción de la memoria colectiva como propuesta artística",
+            "program": "artes visuales",
+            "year": 2008,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Rodríguez Romero, Idaid",
+            "advisor": "Gonzáles Casanova, José Miguel",
+            "x": 2.098226,
+            "y": -1.421443,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0255651",
+            "doc_number_url": "000235049",
+            "title": "impulso y creacion artistica, aproximacion a una estetica bergsoniana",
+            "program": "filosofia",
+            "year": 1996,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Ambriz Díaz, Ruth Isabel",
+            "advisor": "Xirau, Ramón",
+            "x": 2.132476,
+            "y": -1.369188,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0559980",
+            "doc_number_url": "000851400",
+            "title": "\"imagen involuntaria o misteriosa\" : la teoría gestalt, los conceptos de jung y la evolución creadora de bergson, en la relación al estudio de las imágenes involuntarias encontradas en mis pinturas",
+            "program": "artes y dise o",
+            "year": 2024,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Guerra Salazar, Marcela Julia",
+            "advisor": "Frías Salazar, Víctor Manuel",
+            "x": 2.092744,
+            "y": -1.392351,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 149,
+        "macrocluster_id": 16,
+        "micro_label": "IGLESIA · RITUAL · SAN · CATOLICA",
+        "size": 69,
+        "x": 1.247114,
+        "y": -2.138452,
+        "year_min": 1932,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "iglesia",
+            "score": 0.060377
+          },
+          {
+            "term": "ritual",
+            "score": 0.047236
+          },
+          {
+            "term": "san",
+            "score": 0.046042
+          },
+          {
+            "term": "catolica",
+            "score": 0.043886
+          },
+          {
+            "term": "iglesia catolica",
+            "score": 0.04018
+          },
+          {
+            "term": "social",
+            "score": 0.036415
+          },
+          {
+            "term": "estudio",
+            "score": 0.03377
+          },
+          {
+            "term": "religion",
+            "score": 0.032992
+          },
+          {
+            "term": "siglo",
+            "score": 0.03259
+          },
+          {
+            "term": "santo",
+            "score": 0.03089
+          },
+          {
+            "term": "caso",
+            "score": 0.030822
+          },
+          {
+            "term": "religiosas",
+            "score": 0.029608
+          },
+          {
+            "term": "religiosa",
+            "score": 0.029344
+          },
+          {
+            "term": "traves",
+            "score": 0.028494
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "historia",
+            "count": 11
+          },
+          {
+            "label": "filosofia",
+            "count": 6
+          },
+          {
+            "label": "lengua y literaturas hispanicas",
+            "count": 6
+          },
+          {
+            "label": "arquitectura",
+            "count": 4
+          },
+          {
+            "label": "historia del arte",
+            "count": 4
+          },
+          {
+            "label": "antropologia",
+            "count": 4
+          },
+          {
+            "label": "derecho",
+            "count": 3
+          },
+          {
+            "label": "sociologia",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 4",
+            "count": 46
+          },
+          {
+            "label": "Area 3",
+            "count": 17
+          },
+          {
+            "label": "Area 1",
+            "count": 6
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 49
+          },
+          {
+            "label": "Doctorado",
+            "count": 11
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 69
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.086957,
+          "Area 2": 0.0,
+          "Area 3": 0.246377,
+          "Area 4": 0.666667,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 4",
+            "count": 46,
+            "pct": 0.666667
+          },
+          {
+            "area": "Area 3",
+            "count": 17,
+            "pct": 0.246377
+          },
+          {
+            "area": "Area 1",
+            "count": 6,
+            "pct": 0.086957
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0064295",
+            "doc_number_url": "000076200",
+            "title": "lo santo y la cultura",
+            "program": "derecho",
+            "year": 1932,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Davila, José",
+            "advisor": "",
+            "x": 1.255954,
+            "y": -2.155782,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0205767",
+            "doc_number_url": "000129180",
+            "title": "felipe de jesus : la carrera historica de un santo criollo",
+            "program": "historia de mexico",
+            "year": 1990,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Kawata, Reiko",
+            "advisor": "Knauth Muhling, Lothar",
+            "x": 1.265369,
+            "y": -2.125505,
+            "cluster_strength": 0.906647
+          },
+          {
+            "thesis_id": "TH_0430300",
+            "doc_number_url": "000690059",
+            "title": "estudio sobre la relación del humanismo jesuita y la idea de identidad criolla de la nueva españa en la segunda mitad del siglo xviii",
+            "program": "filosofia",
+            "year": 2013,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Pacheco García, Georgina",
+            "advisor": "Patiño Palafox, Luis Aarón",
+            "x": 1.223062,
+            "y": -2.15293,
+            "cluster_strength": 0.953315
+          },
+          {
+            "thesis_id": "TH_0249313",
+            "doc_number_url": "000218974",
+            "title": "el teatro de evangelizacion : una aproximacion historica-literaria",
+            "program": "lengua y literaturas hispanicas",
+            "year": 1995,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Castaneda Flores, Cosme Maria Eugenia",
+            "advisor": "Muciño Ruiz, José Antonio",
+            "x": 1.251458,
+            "y": -2.175794,
+            "cluster_strength": 0.933038
+          },
+          {
+            "thesis_id": "TH_0514890",
+            "doc_number_url": "000812118",
+            "title": "miguel jerónimo zendejas : paradigma del gusto clerical secular en el obispado angelopolitano (1758-1815)",
+            "program": "historia del arte",
+            "year": 2021,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Andrade Campos, Alejandro Julián",
+            "advisor": "Mues Orts, Paula Renata ; Cuadriello, Jaime ; Álvarez Icaza Longoria, María Teresa ; Ruiz Gomar, Rogelio ; Neff, Franziska",
+            "x": 1.211092,
+            "y": -2.162462,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0431715",
+            "doc_number_url": "000704719",
+            "title": "el símbolo sacro : la arquitectura religiosa ante la contemporaneidad",
+            "program": "arquitectura",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Rivas Penney, Francisco Jesús",
+            "advisor": "Torre Zatarain, Luis Eduardo de la ; Cejudo Collera, Mónica ; Cueto Ruiz-Funes, Mariano del",
+            "x": 1.293918,
+            "y": -2.131041,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0414502",
+            "doc_number_url": "000702393",
+            "title": "religiosidad al margen : escenarios, violencias y empatías en los cultos a san judas tadeo en la ciudad de méxico y espiritismo marialioncero en caracas",
+            "program": "estudios latinoamericanos",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Mancillas López, Yollolxochitl",
+            "advisor": "Masferrer Kan, Elio",
+            "x": 1.301522,
+            "y": -2.164982,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0365181",
+            "doc_number_url": "000645001",
+            "title": "la sangre de cristo en la nueva españa : una devoción, un imaginario y su función social 1736-1859",
+            "program": "historia",
+            "year": 2009,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Romero Pereyra, Pamela",
+            "advisor": "Cuadriello Aguilar, Jaime",
+            "x": 1.273517,
+            "y": -2.198727,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 139,
+        "macrocluster_id": 16,
+        "micro_label": "FOTOGRAFIA · DIGITAL · IMAGEN · IMAGENES",
+        "size": 63,
+        "x": 2.259657,
+        "y": -0.913579,
+        "year_min": 1970,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "fotografia",
+            "score": 0.136506
+          },
+          {
+            "term": "digital",
+            "score": 0.083279
+          },
+          {
+            "term": "imagen",
+            "score": 0.07542
+          },
+          {
+            "term": "imagenes",
+            "score": 0.067972
+          },
+          {
+            "term": "propuesta",
+            "score": 0.062899
+          },
+          {
+            "term": "diseno",
+            "score": 0.057437
+          },
+          {
+            "term": "fotografico",
+            "score": 0.056207
+          },
+          {
+            "term": "fotografica",
+            "score": 0.046247
+          },
+          {
+            "term": "forma",
+            "score": 0.034435
+          },
+          {
+            "term": "dibujo",
+            "score": 0.033834
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.033459
+          },
+          {
+            "term": "fotoperiodismo",
+            "score": 0.029195
+          },
+          {
+            "term": "retrato",
+            "score": 0.029025
+          },
+          {
+            "term": "fotograficos",
+            "score": 0.027097
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "artes visuales",
+            "count": 16
+          },
+          {
+            "label": "dise o y comunicacion visual",
+            "count": 6
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 3
+          },
+          {
+            "label": "comunicacion grafica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria topografica y geodesica",
+            "count": 3
+          },
+          {
+            "label": "periodismo",
+            "count": 3
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 2
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 4",
+            "count": 38
+          },
+          {
+            "label": "Area 2",
+            "count": 10
+          },
+          {
+            "label": "Area 3",
+            "count": 8
+          },
+          {
+            "label": "Area 1",
+            "count": 6
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 43
+          },
+          {
+            "label": "Maestría",
+            "count": 15
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 54
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento (coatzacoalcos",
+            "count": 1
+          },
+          {
+            "label": "universidad insurgentes plantel xola",
+            "count": 1
+          },
+          {
+            "label": "universidad de ixtlahuaca cui",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.095238,
+          "Area 2": 0.15873,
+          "Area 3": 0.126984,
+          "Area 4": 0.603175,
+          "Por Clasificar": 0.015873
+        },
+        "area_distribution": [
+          {
+            "area": "Area 4",
+            "count": 38,
+            "pct": 0.603175
+          },
+          {
+            "area": "Area 2",
+            "count": 10,
+            "pct": 0.15873
+          },
+          {
+            "area": "Area 3",
+            "count": 8,
+            "pct": 0.126984
+          },
+          {
+            "area": "Area 1",
+            "count": 6,
+            "pct": 0.095238
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.015873
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0020835",
+            "doc_number_url": "000295671",
+            "title": "interpretacion de la fotografia de autor como una propuesta emergente en la comunicacion grafica",
+            "program": "comunicacion y dise o grafico",
+            "year": 2001,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Salas Zamudio, Salvador",
+            "advisor": "Aguilera Aguilar, Miguel Ángel",
+            "x": 2.24518,
+            "y": -0.927266,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0390851",
+            "doc_number_url": "000653515",
+            "title": "imágenes inquietantes : reflexión y creación de la imagen digital en movimiento",
+            "program": "artes visuales",
+            "year": 2010,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Ortiz Caballero, Elizabeth",
+            "advisor": "León Yong, María Tania de",
+            "x": 2.245006,
+            "y": -0.89698,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0391230",
+            "doc_number_url": "000655732",
+            "title": "entendimiento público de la clonación : imágenes visuales y sus destinatarios",
+            "program": "psicologia",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de psicologia unam",
+            "author": "Peña Aguilar, Antonio",
+            "advisor": "Reiko Ito Sugiyama, Maria Emily",
+            "x": 2.285165,
+            "y": -0.901658,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0196194",
+            "doc_number_url": "000075964",
+            "title": "manual de revelado e impresion de fotografias en blanco y negro",
+            "program": "ciencias de la comunicacion",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Vega Murillo, Flor Angélica",
+            "advisor": "Acosta Urquidi, Magdalena",
+            "x": 2.245282,
+            "y": -0.938459,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0356661",
+            "doc_number_url": "000649508",
+            "title": "el método de adolfo best maugard una propuesta para los procesos creativos del diseño gráfico",
+            "program": "dise o y comunicacion visual",
+            "year": 2009,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Carballo Díaz González, Ireri",
+            "advisor": "Duarte Hernández, Olga America",
+            "x": 2.281089,
+            "y": -0.941176,
+            "cluster_strength": 0.917665
+          },
+          {
+            "thesis_id": "TH_0382804",
+            "doc_number_url": "000655193",
+            "title": "la imagen interdisciplinaria en función del arte gráfico y el diseño gráfico",
+            "program": "artes visuales",
+            "year": 2010,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Bahena Canizal, Anaid",
+            "advisor": "Estrada Rodríguez, Francisco",
+            "x": 2.28099,
+            "y": -0.943363,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0196170",
+            "doc_number_url": "000087506",
+            "title": "la vida cotidiana en imagenes manipuladas por la t.v",
+            "program": "derecho",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Vazquez Sanchez, José Luis",
+            "advisor": "López Mata, Salvador",
+            "x": 2.224994,
+            "y": -0.943735,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0398749",
+            "doc_number_url": "000674379",
+            "title": "fotografía digital en formatos no convencionales : propuesta de ruptura triple : forma, materia, consumo",
+            "program": "artes visuales",
+            "year": 2011,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Fernández Alonso, Christian",
+            "advisor": "Aguirre Guevara, José Luis",
+            "x": 2.212258,
+            "y": -0.917762,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 50,
+        "macrocluster_id": 16,
+        "micro_label": "SOCIAL · MORAL · ETICA · SOCIOLOGIA",
+        "size": 59,
+        "x": 0.966587,
+        "y": -2.204723,
+        "year_min": 1881,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "social",
+            "score": 0.159587
+          },
+          {
+            "term": "moral",
+            "score": 0.119456
+          },
+          {
+            "term": "etica",
+            "score": 0.116392
+          },
+          {
+            "term": "sociologia",
+            "score": 0.053604
+          },
+          {
+            "term": "felicidad",
+            "score": 0.051379
+          },
+          {
+            "term": "morales",
+            "score": 0.047858
+          },
+          {
+            "term": "sociales",
+            "score": 0.046853
+          },
+          {
+            "term": "derecho",
+            "score": 0.042326
+          },
+          {
+            "term": "dano",
+            "score": 0.039774
+          },
+          {
+            "term": "dano moral",
+            "score": 0.039774
+          },
+          {
+            "term": "personas",
+            "score": 0.035099
+          },
+          {
+            "term": "readaptacion",
+            "score": 0.034514
+          },
+          {
+            "term": "readaptacion social",
+            "score": 0.034514
+          },
+          {
+            "term": "nietzsche",
+            "score": 0.030843
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "filosofia",
+            "count": 17
+          },
+          {
+            "label": "derecho",
+            "count": 15
+          },
+          {
+            "label": "psicologia",
+            "count": 4
+          },
+          {
+            "label": "sociologia",
+            "count": 4
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 4
+          },
+          {
+            "label": "ciencias politicas y sociales",
+            "count": 2
+          },
+          {
+            "label": "arquitectura",
+            "count": 2
+          },
+          {
+            "label": "contaduria",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 30
+          },
+          {
+            "label": "Area 4",
+            "count": 20
+          },
+          {
+            "label": "Area 2",
+            "count": 7
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 41
+          },
+          {
+            "label": "Maestría",
+            "count": 12
+          },
+          {
+            "label": "Doctorado",
+            "count": 6
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 55
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de derecho institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.033898,
+          "Area 2": 0.118644,
+          "Area 3": 0.508475,
+          "Area 4": 0.338983,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 30,
+            "pct": 0.508475
+          },
+          {
+            "area": "Area 4",
+            "count": 20,
+            "pct": 0.338983
+          },
+          {
+            "area": "Area 2",
+            "count": 7,
+            "pct": 0.118644
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.033898
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0101888",
+            "doc_number_url": "000103661",
+            "title": "el estado y la felicidad",
+            "program": "derecho",
+            "year": 1969,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Ceballos Rodriguez, Esau",
+            "advisor": "",
+            "x": 1.022906,
+            "y": -2.163029,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0398587",
+            "doc_number_url": "000706689",
+            "title": "el elemento ético-humanístico en la ciencia natural y social : una propuesta de la sociología de la ciencia",
+            "program": "sociologia",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Espino González, Leopoldo",
+            "advisor": "Jiménez García, Marco Antonio",
+            "x": 1.059059,
+            "y": -2.357609,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0570058",
+            "doc_number_url": "000870378",
+            "title": "el problema de la felicidad en la antinomia de la crítica de la razón práctica de kant",
+            "program": "filosofia",
+            "year": 2025,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Bonilla González, Josafat",
+            "advisor": "Rivera, Faviola",
+            "x": 1.119097,
+            "y": -2.351272,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0456788",
+            "doc_number_url": "000734073",
+            "title": "la felicidad en la ética de kant",
+            "program": "filosofia",
+            "year": 2015,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Marcial García, Josué Isidro",
+            "advisor": "Vargas Pacheco, Carlos Alberto",
+            "x": 1.055889,
+            "y": -2.40029,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0056225",
+            "doc_number_url": "000330965",
+            "title": "la etica y el trabajo social",
+            "program": "trabajo social",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "escuela nacional de trabajo social unam",
+            "author": "Gutierrez Romero, Myrna Elizabeth",
+            "advisor": "Ramirez Pacheco, Juliana",
+            "x": 0.885578,
+            "y": -2.453961,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0016112",
+            "doc_number_url": "000289999",
+            "title": "las tecnicas de fecundacion asistida, el respeto a la vida y la necesidad de un codigo etico",
+            "program": "derecho",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "José Hernandez, Sandra Luz",
+            "advisor": "Robles Sotomayor, María Elodia",
+            "x": 0.845324,
+            "y": -2.471994,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0253343",
+            "doc_number_url": "000224472",
+            "title": "diplomado en etica y cultura",
+            "program": "pedagogia",
+            "year": 1995,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Luna Perez, Maria Guadalupe",
+            "advisor": "Espinosa y Montes, Ángel Rafael",
+            "x": 0.97751,
+            "y": -2.513907,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0086887",
+            "doc_number_url": "000123895",
+            "title": "la felicidad en las bucolicas de virgilio",
+            "program": "letras clasicas",
+            "year": 1962,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Jaramillo S., Anselmo",
+            "advisor": "",
+            "x": 1.273531,
+            "y": -2.265701,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 141,
+        "macrocluster_id": 16,
+        "micro_label": "MUSEO · ARTE · CONTEMPORANEO · CENTRO",
+        "size": 57,
+        "x": 1.792143,
+        "y": -1.108457,
+        "year_min": 1962,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "museo",
+            "score": 0.152167
+          },
+          {
+            "term": "arte",
+            "score": 0.140587
+          },
+          {
+            "term": "contemporaneo",
+            "score": 0.081637
+          },
+          {
+            "term": "centro",
+            "score": 0.071032
+          },
+          {
+            "term": "mural",
+            "score": 0.051227
+          },
+          {
+            "term": "diseno",
+            "score": 0.049099
+          },
+          {
+            "term": "regional",
+            "score": 0.047377
+          },
+          {
+            "term": "pintura",
+            "score": 0.044912
+          },
+          {
+            "term": "pintura mural",
+            "score": 0.044912
+          },
+          {
+            "term": "universitario",
+            "score": 0.044297
+          },
+          {
+            "term": "museo universitario",
+            "score": 0.044297
+          },
+          {
+            "term": "arte contemporaneo",
+            "score": 0.043609
+          },
+          {
+            "term": "michoacan",
+            "score": 0.040804
+          },
+          {
+            "term": "universitario arte",
+            "score": 0.035685
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 30
+          },
+          {
+            "label": "dise o grafico",
+            "count": 5
+          },
+          {
+            "label": "artes visuales",
+            "count": 4
+          },
+          {
+            "label": "dise o y comunicacion visual",
+            "count": 4
+          },
+          {
+            "label": "comunicacion grafica",
+            "count": 2
+          },
+          {
+            "label": "pintura",
+            "count": 2
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 1
+          },
+          {
+            "label": "historia del arte",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 35
+          },
+          {
+            "label": "Area 4",
+            "count": 20
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 49
+          },
+          {
+            "label": "Maestría",
+            "count": 8
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 53
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad americana de acapulco",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.614035,
+          "Area 2": 0.017544,
+          "Area 3": 0.017544,
+          "Area 4": 0.350877,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 35,
+            "pct": 0.614035
+          },
+          {
+            "area": "Area 4",
+            "count": 20,
+            "pct": 0.350877
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.017544
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.017544
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0181045",
+            "doc_number_url": "000014316",
+            "title": "museo universitario de arte",
+            "program": "arquitectura",
+            "year": 1986,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Díaz Rosales, Luis Mariano",
+            "advisor": "Fabara Muñoz, Jorge ; Mendiola Arce, Enrique ; Bracho de la Parra, Hector Xavier",
+            "x": 1.808826,
+            "y": -1.110232,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0008409",
+            "doc_number_url": "000284566",
+            "title": "museo universitario contemporaneo de arte en ciudad universitaria",
+            "program": "arquitectura",
+            "year": 2000,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Rosas Paez, Joel",
+            "advisor": "Carmona y Pardo, Mario de Jesús ; Zorrilla Cuetara, José Antonio ; Rodríguez Fuentes, José Luis",
+            "x": 1.791561,
+            "y": -1.08523,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0008768",
+            "doc_number_url": "000286657",
+            "title": "el museo de la escultura en ciudad universitaria",
+            "program": "arquitectura",
+            "year": 2000,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Sanchez Montante, Mayra",
+            "advisor": "Vincent Jacquet, Raúl ; Eichmann y Diaz, Eduardo ; Ayala Gastelum, Arturo",
+            "x": 1.817986,
+            "y": -1.096125,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0565393",
+            "doc_number_url": "000853681",
+            "title": "museo de arte contemporáneo en uruapan, michoacán",
+            "program": "arquitectura",
+            "year": 2024,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad don vasco uruapan",
+            "author": "Reyes Hernández, Lucía Vanessa",
+            "advisor": "López Hernández, Javier",
+            "x": 1.763428,
+            "y": -1.110272,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0322520",
+            "doc_number_url": "000614180",
+            "title": "ambientacion museografica del museo tlatilco",
+            "program": "dise o y comunicacion visual",
+            "year": 2006,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Molina Garduño, Veronica",
+            "advisor": "Miranda Martinelli, Hector",
+            "x": 1.779194,
+            "y": -1.078838,
+            "cluster_strength": 0.969387
+          },
+          {
+            "thesis_id": "TH_0048277",
+            "doc_number_url": "000325858",
+            "title": "fotografias para el catalogo digital de la pagina web del museo de la pintura mural teotihuacana",
+            "program": "dise o grafico",
+            "year": 2003,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Roldán Roucas, Adriana",
+            "advisor": "Monroy, Víctor",
+            "x": 1.769771,
+            "y": -1.080666,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0391892",
+            "doc_number_url": "000654977",
+            "title": "reporte de la exposición miradas al 68 : el diseño y ambientación de espacios museográficos",
+            "program": "dise o y comunicacion visual",
+            "year": 2010,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Ramírez Islas, Vania Sarahí",
+            "advisor": "Soltero Leal, Sandra",
+            "x": 1.783366,
+            "y": -1.071242,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0175064",
+            "doc_number_url": "000013840",
+            "title": "auditoria administrativa al fondo nacional para el fomento de las artesanias (fonart)",
+            "program": "administracion",
+            "year": 1985,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Ayala Iturbe, Ernesto",
+            "advisor": "Méndez Salvatorio, Adrina",
+            "x": 1.820267,
+            "y": -1.075171,
+            "cluster_strength": 0.946303
+          }
+        ]
+      }
+    ]
+  }
+}

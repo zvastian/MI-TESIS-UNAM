@@ -1,0 +1,990 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 29,
+    "macro_label": "MEXICO · CONSUMO · DROGAS · TABASCO",
+    "size": 293,
+    "microcluster_count": 3,
+    "microclusters": [
+      {
+        "microcluster_id": 135,
+        "macrocluster_id": 29,
+        "micro_label": "DESARROLLO · NARCOTRAFICO · DROGAS · INDUSTRIA",
+        "size": 130,
+        "x": 0.433006,
+        "y": 4.004451,
+        "year_min": 1923,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "desarrollo",
+            "score": 0.043773
+          },
+          {
+            "term": "narcotrafico",
+            "score": 0.042748
+          },
+          {
+            "term": "drogas",
+            "score": 0.0421
+          },
+          {
+            "term": "industria",
+            "score": 0.040452
+          },
+          {
+            "term": "caso",
+            "score": 0.036772
+          },
+          {
+            "term": "importancia",
+            "score": 0.035412
+          },
+          {
+            "term": "analisis",
+            "score": 0.031105
+          },
+          {
+            "term": "internacional",
+            "score": 0.028908
+          },
+          {
+            "term": "publica",
+            "score": 0.028203
+          },
+          {
+            "term": "estudio",
+            "score": 0.02543
+          },
+          {
+            "term": "consumo",
+            "score": 0.02306
+          },
+          {
+            "term": "desarrollo mexico",
+            "score": 0.021921
+          },
+          {
+            "term": "cocaina",
+            "score": 0.0206
+          },
+          {
+            "term": "caso mexico",
+            "score": 0.020162
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 42
+          },
+          {
+            "label": "economia",
+            "count": 20
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 13
+          },
+          {
+            "label": "contaduria",
+            "count": 6
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 5
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 5
+          },
+          {
+            "label": "psicologia",
+            "count": 4
+          },
+          {
+            "label": "administracion",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 99
+          },
+          {
+            "label": "Area 2",
+            "count": 16
+          },
+          {
+            "label": "Area 4",
+            "count": 8
+          },
+          {
+            "label": "Area 1",
+            "count": 7
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 119
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 120
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias politicas y sociales institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad iberoamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          },
+          {
+            "label": "centro escolar universitario escuela de derecho, institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.053846,
+          "Area 2": 0.123077,
+          "Area 3": 0.761538,
+          "Area 4": 0.061538,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 99,
+            "pct": 0.761538
+          },
+          {
+            "area": "Area 2",
+            "count": 16,
+            "pct": 0.123077
+          },
+          {
+            "area": "Area 4",
+            "count": 8,
+            "pct": 0.061538
+          },
+          {
+            "area": "Area 1",
+            "count": 7,
+            "pct": 0.053846
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0349649",
+            "doc_number_url": "000631860",
+            "title": "la implementación de la convención de armas químicas a nivel internacional : análisis de las acciones realizadas por méxico para su cumplimiento (1997-2004)",
+            "program": "relaciones internacionales",
+            "year": 2008,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Montes de Oca Santillan, Elsa Liliana",
+            "advisor": "Gutiérrez Castro, Jesús",
+            "x": 0.415385,
+            "y": 4.009658,
+            "cluster_strength": 0.811677
+          },
+          {
+            "thesis_id": "TH_0258448",
+            "doc_number_url": "000244926",
+            "title": "la apertura comercial de mexico y las reglas de origen",
+            "program": "derecho internacional",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de derecho unam",
+            "author": "Garces Ortiz, Elvira Guadalupe",
+            "advisor": "Becerra Ramirez, Manuel G",
+            "x": 0.452212,
+            "y": 3.998204,
+            "cluster_strength": 0.906489
+          },
+          {
+            "thesis_id": "TH_0379619",
+            "doc_number_url": "000797920",
+            "title": "el consumo privado en méxico : el papel de las remesas (1996-2015)",
+            "program": "economia",
+            "year": 2019,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "San Germán López, Karen Mariana",
+            "advisor": "Guerrero de Lizardi, Carlos",
+            "x": 0.424685,
+            "y": 3.982686,
+            "cluster_strength": 0.837564
+          },
+          {
+            "thesis_id": "TH_0167076",
+            "doc_number_url": "000001786",
+            "title": "la situacion economica de mexico en los ultimos anos",
+            "program": "actuaria",
+            "year": 1984,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Altuzar Coello, Maria Sonia Soledad",
+            "advisor": "Valdés Michell, Maria Aurora",
+            "x": 0.408678,
+            "y": 4.008558,
+            "cluster_strength": 0.906489
+          },
+          {
+            "thesis_id": "TH_0080575",
+            "doc_number_url": "000098440",
+            "title": "la administración publica y la vida economica de mexico",
+            "program": "derecho",
+            "year": 1955,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "López Alvarez, Francisco",
+            "advisor": "",
+            "x": 0.407999,
+            "y": 4.030057,
+            "cluster_strength": 0.854582
+          },
+          {
+            "thesis_id": "TH_0191695",
+            "doc_number_url": "000083842",
+            "title": "ingreso de mexico al gatt, sus consecuencias positivas y negativas",
+            "program": "derecho",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Herrera Ortiz, Ruben",
+            "advisor": "Granados Carrión, Tito Armando",
+            "x": 0.487023,
+            "y": 3.986199,
+            "cluster_strength": 0.998575
+          },
+          {
+            "thesis_id": "TH_0225784",
+            "doc_number_url": "000185922",
+            "title": "implicaciones del ingreso de mexico al gatt",
+            "program": "contaduria",
+            "year": 1992,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Reza Banuelos, José Antonio",
+            "advisor": "Jurado Arellano, Araceli María de Jesús",
+            "x": 0.45225,
+            "y": 3.932636,
+            "cluster_strength": 0.907647
+          },
+          {
+            "thesis_id": "TH_0001125",
+            "doc_number_url": "000287078",
+            "title": "el correo en un marco de competencia : el caso de mexico",
+            "program": "economia",
+            "year": 2000,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Brito Rojas, Alejandro Raul",
+            "advisor": "Gonzalez Ibarra, Miguel",
+            "x": 0.39914,
+            "y": 4.073095,
+            "cluster_strength": 0.936386
+          }
+        ]
+      },
+      {
+        "microcluster_id": 24,
+        "macrocluster_id": 29,
+        "micro_label": "CONSUMO · ALCOHOLISMO · ALCOHOL · ADOLESCENTES",
+        "size": 101,
+        "x": 5.189677,
+        "y": -1.548024,
+        "year_min": 1898,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "consumo",
+            "score": 0.065462
+          },
+          {
+            "term": "alcoholismo",
+            "score": 0.064781
+          },
+          {
+            "term": "alcohol",
+            "score": 0.064619
+          },
+          {
+            "term": "adolescentes",
+            "score": 0.043495
+          },
+          {
+            "term": "familiar",
+            "score": 0.041746
+          },
+          {
+            "term": "prevencion",
+            "score": 0.03964
+          },
+          {
+            "term": "adicciones",
+            "score": 0.036871
+          },
+          {
+            "term": "estudiantes",
+            "score": 0.035874
+          },
+          {
+            "term": "drogas",
+            "score": 0.035621
+          },
+          {
+            "term": "alcoholicos",
+            "score": 0.03542
+          },
+          {
+            "term": "consumo alcohol",
+            "score": 0.034479
+          },
+          {
+            "term": "sustancias",
+            "score": 0.033839
+          },
+          {
+            "term": "alcoholico",
+            "score": 0.031357
+          },
+          {
+            "term": "factores",
+            "score": 0.028881
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 47
+          },
+          {
+            "label": "medicina familiar",
+            "count": 11
+          },
+          {
+            "label": "derecho",
+            "count": 8
+          },
+          {
+            "label": "pedagogia",
+            "count": 5
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 4
+          },
+          {
+            "label": "psiquiatria",
+            "count": 3
+          },
+          {
+            "label": "trabajo social",
+            "count": 3
+          },
+          {
+            "label": "arquitectura",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 62
+          },
+          {
+            "label": "Area 3",
+            "count": 33
+          },
+          {
+            "label": "Area 4",
+            "count": 4
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 68
+          },
+          {
+            "label": "Especialidad",
+            "count": 19
+          },
+          {
+            "label": "Maestría",
+            "count": 11
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 89
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad alzate de ozumba",
+            "count": 1
+          },
+          {
+            "label": "universidad salesiana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.019802,
+          "Area 2": 0.613861,
+          "Area 3": 0.326733,
+          "Area 4": 0.039604,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 62,
+            "pct": 0.613861
+          },
+          {
+            "area": "Area 3",
+            "count": 33,
+            "pct": 0.326733
+          },
+          {
+            "area": "Area 4",
+            "count": 4,
+            "pct": 0.039604
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.019802
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0269293",
+            "doc_number_url": "000257317",
+            "title": "repercuciones psicosociales y economicas en la familia del alcoholico. clinica hospital y medicina familiar 66 imss, xalapa ver, 1985",
+            "program": "medicina familiar",
+            "year": 1997,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Galvan Martinez, Ana Maria de Jesus",
+            "advisor": "Perez Hernandez, Jonathan",
+            "x": 5.19872,
+            "y": -1.539857,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0059648",
+            "doc_number_url": "000330389",
+            "title": "evaluacion en el consumo de drogas licitas e ilicitas en los alumnos de campus ii de la fes zaragoza, unam periodo 2003-2",
+            "program": "quimica farmaceutico biologica",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Nochebuena Alarcon, Claudio",
+            "advisor": "Mora Guevara, José Luis Alfredo ; Sanchez Villers, Guadalupe",
+            "x": 5.192433,
+            "y": -1.565927,
+            "cluster_strength": 0.770669
+          },
+          {
+            "thesis_id": "TH_0433945",
+            "doc_number_url": "000688509",
+            "title": "la adicción en un miembro de la familia y la disfunción familiar : de los internos del centro de recuperación para problemas de alcoholismo y drogas liberación",
+            "program": "medicina familiar",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Valadez Valadez, Jesús Bernardino",
+            "advisor": "Pablo Garcia, Miguel",
+            "x": 5.212366,
+            "y": -1.540739,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0357605",
+            "doc_number_url": "000644182",
+            "title": "consumo de drogas y funcionalidad familiar en estudiantes de bachillerato",
+            "program": "medicina familiar",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cruz Sánchez, Encarnación",
+            "advisor": "Martínez Torres, Jorge ; Pérez Saldaña, Roberto",
+            "x": 5.166818,
+            "y": -1.562248,
+            "cluster_strength": 0.770669
+          },
+          {
+            "thesis_id": "TH_0480159",
+            "doc_number_url": "000765504",
+            "title": "programa breve de rehabilitación de las funciones ejecutivas en pacientes alcohólicos",
+            "program": "psicologia",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Castañeda Garrido, Rodrigo Iván",
+            "advisor": "Sánchez Castillo, Hugo",
+            "x": 5.204535,
+            "y": -1.523752,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0248435",
+            "doc_number_url": "000230589",
+            "title": "análisis psicológico y social de la cannabis",
+            "program": "psicologia",
+            "year": 1995,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Azuela Williamson, Rodrigo Demetrio",
+            "advisor": "Buen Rodríguez, Patricia de",
+            "x": 5.202206,
+            "y": -1.518679,
+            "cluster_strength": 0.770669
+          },
+          {
+            "thesis_id": "TH_0339878",
+            "doc_number_url": "000616873",
+            "title": "el problema de la drogadiccion : causas y consecuencias en la poblacion juvenil : un análisis socio-pedagogico",
+            "program": "pedagogia",
+            "year": 2007,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Segundo Mendez, Maricarmen",
+            "advisor": "Hernandez Oliva, Maria Paloma",
+            "x": 5.166143,
+            "y": -1.571593,
+            "cluster_strength": 0.770669
+          },
+          {
+            "thesis_id": "TH_0455258",
+            "doc_number_url": "000738025",
+            "title": "factores psicosociales asociados al consumo de alcohol en estudiantes de la fes zaragoza",
+            "program": "psicologia",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Hernández Ramírez, Axel",
+            "advisor": "Reyes Hernández, Gerardo ; Villaseñor Ponce, Margarita ; Villagómez Ruiz, Juana Alejandra ; García Pérez, Julieta María de Lourdes ; Ayala Pérez, Mario Manuel",
+            "x": 5.155779,
+            "y": -1.540283,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 25,
+        "macrocluster_id": 29,
+        "micro_label": "TABASCO · TABACO · TABAQUISMO · ESTADO",
+        "size": 62,
+        "x": 5.280425,
+        "y": -0.924527,
+        "year_min": 1889,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "tabasco",
+            "score": 0.114818
+          },
+          {
+            "term": "tabaco",
+            "score": 0.10739
+          },
+          {
+            "term": "tabaquismo",
+            "score": 0.070366
+          },
+          {
+            "term": "estado",
+            "score": 0.06279
+          },
+          {
+            "term": "estudio",
+            "score": 0.054568
+          },
+          {
+            "term": "estado tabasco",
+            "score": 0.053315
+          },
+          {
+            "term": "nicotina",
+            "score": 0.047395
+          },
+          {
+            "term": "mexico",
+            "score": 0.043119
+          },
+          {
+            "term": "fumadores",
+            "score": 0.040296
+          },
+          {
+            "term": "fumar",
+            "score": 0.031574
+          },
+          {
+            "term": "educacion",
+            "score": 0.031362
+          },
+          {
+            "term": "anos",
+            "score": 0.031244
+          },
+          {
+            "term": "poblacion",
+            "score": 0.029806
+          },
+          {
+            "term": "dejar fumar",
+            "score": 0.028773
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 9
+          },
+          {
+            "label": "medicina familiar",
+            "count": 8
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 6
+          },
+          {
+            "label": "medico cirujano",
+            "count": 6
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 3
+          },
+          {
+            "label": "economia",
+            "count": 3
+          },
+          {
+            "label": "quimica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 45
+          },
+          {
+            "label": "Area 3",
+            "count": 10
+          },
+          {
+            "label": "Area 1",
+            "count": 4
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 47
+          },
+          {
+            "label": "Especialidad",
+            "count": 11
+          },
+          {
+            "label": "Maestría",
+            "count": 3
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 57
+          },
+          {
+            "label": "universidad autónoma de guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          },
+          {
+            "label": "universidad insurgentes plantel león",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento (villahermosa",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.064516,
+          "Area 2": 0.725806,
+          "Area 3": 0.16129,
+          "Area 4": 0.048387,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 45,
+            "pct": 0.725806
+          },
+          {
+            "area": "Area 3",
+            "count": 10,
+            "pct": 0.16129
+          },
+          {
+            "area": "Area 1",
+            "count": 4,
+            "pct": 0.064516
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.048387
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0517170",
+            "doc_number_url": "000813942",
+            "title": "influencia del cigarrillo en el desarrollo del enfisema pulmonar de la colonia 10 de mayo en el municipio de león guanajuato",
+            "program": "enfermeria y obstetricia",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "universidad insurgentes",
+            "author": "Cruces Flores, Miguel Ángel",
+            "advisor": "Rodríguez Lugo, Susana",
+            "x": 5.256748,
+            "y": -0.966334,
+            "cluster_strength": 0.873772
+          },
+          {
+            "thesis_id": "TH_0497322",
+            "doc_number_url": "000783274",
+            "title": "estudio experimental de intersecciones cónicas de nicotinamida y sus análogos",
+            "program": "quimica",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "González Cano, Beatriz",
+            "advisor": "Peón Peralta, Jorge",
+            "x": 5.2281,
+            "y": -0.982674,
+            "cluster_strength": 0.646142
+          },
+          {
+            "thesis_id": "TH_0073923",
+            "doc_number_url": "000142817",
+            "title": "informe medico-social sobre el municipio de balancan, estado de tabasco",
+            "program": "medico cirujano",
+            "year": 1946,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Lastra Lacroix, Lucio",
+            "advisor": "",
+            "x": 5.282383,
+            "y": -1.021949,
+            "cluster_strength": 0.439486
+          },
+          {
+            "thesis_id": "TH_0305855",
+            "doc_number_url": "000350228",
+            "title": "daño genotoxico en fumadores activos y pasivos expuestos a ambientes intramuros, contaminados con humo de tabaco, en la ciudad de mexico",
+            "program": "biologia",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Guerrero Guerra, César",
+            "advisor": "Calderón Ezquerro, María del Carmen Leticia",
+            "x": 5.175322,
+            "y": -0.953874,
+            "cluster_strength": 0.620216
+          },
+          {
+            "thesis_id": "TH_0076114",
+            "doc_number_url": "000168374",
+            "title": "extraccion de la nicotina de los desperdicios de tabaco por los disolventes : benceno, tricloroetano y tetracloruro de carbono, y determinacion de los coeficientes de distribucion",
+            "program": "quimica",
+            "year": 1949,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Arana Sala, Victorio",
+            "advisor": "Hope y Hope, Pablo H",
+            "x": 5.168105,
+            "y": -0.973491,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0095384",
+            "doc_number_url": "000130202",
+            "title": "bombeo neumatico en el campo sanchez magallanes de tabasco",
+            "program": "ingenieria petrolera",
+            "year": 1966,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Flores Baeza, Oscar Manuel",
+            "advisor": "Moran Moran, Luis",
+            "x": 5.158534,
+            "y": -0.986764,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0146064",
+            "doc_number_url": "000033638",
+            "title": "informe de servicio social desarrollado en el complejo agroindustrial de la chontalpa, en el estado de tabasco",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1979,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina veterinaria y zootecnia unam",
+            "author": "Rosales Cecena, Miguel Ramon",
+            "advisor": "Castro Mendoza, Isidro",
+            "x": 5.145988,
+            "y": -0.984177,
+            "cluster_strength": 0.71195
+          },
+          {
+            "thesis_id": "TH_0494547",
+            "doc_number_url": "000779370",
+            "title": "correlación del tabaquismo pasivo y la influencia de su intensidad en las anormalidades tomográficas y funcionales halladas en sujetos asintomáticos mayores de 50 años",
+            "program": "neumologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Castro Arellano, Edgar Felipe",
+            "advisor": "Buendía Roldán, Ivette",
+            "x": 5.221628,
+            "y": -1.061734,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

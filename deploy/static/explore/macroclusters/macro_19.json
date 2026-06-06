@@ -1,0 +1,1598 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 19,
+    "macro_label": "SINTESIS · ESTUDIO · CARACTERIZACION · DERIVADOS",
+    "size": 581,
+    "microcluster_count": 5,
+    "microclusters": [
+      {
+        "microcluster_id": 185,
+        "macrocluster_id": 19,
+        "micro_label": "SINTESIS · DERIVADOS · COMPUESTOS · ESTUDIO",
+        "size": 254,
+        "x": 5.4368,
+        "y": 1.626033,
+        "year_min": 1942,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "sintesis",
+            "score": 0.105087
+          },
+          {
+            "term": "derivados",
+            "score": 0.045286
+          },
+          {
+            "term": "compuestos",
+            "score": 0.038876
+          },
+          {
+            "term": "estudio",
+            "score": 0.037188
+          },
+          {
+            "term": "caracterizacion",
+            "score": 0.033306
+          },
+          {
+            "term": "sintesis caracterizacion",
+            "score": 0.031744
+          },
+          {
+            "term": "acido",
+            "score": 0.026808
+          },
+          {
+            "term": "complejos",
+            "score": 0.020458
+          },
+          {
+            "term": "ii",
+            "score": 0.020172
+          },
+          {
+            "term": "nuevos",
+            "score": 0.01882
+          },
+          {
+            "term": "reactividad",
+            "score": 0.018633
+          },
+          {
+            "term": "metil",
+            "score": 0.018461
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.018362
+          },
+          {
+            "term": "actividad",
+            "score": 0.01808
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "quimica",
+            "count": 81
+          },
+          {
+            "label": "ciencias quimicas",
+            "count": 55
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 51
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 13
+          },
+          {
+            "label": "desconocido",
+            "count": 7
+          },
+          {
+            "label": "quimica inorganica",
+            "count": 6
+          },
+          {
+            "label": "biologia",
+            "count": 6
+          },
+          {
+            "label": "quimica organica",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 230
+          },
+          {
+            "label": "Area 1",
+            "count": 16
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 7
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 160
+          },
+          {
+            "label": "Maestría",
+            "count": 58
+          },
+          {
+            "label": "Doctorado",
+            "count": 32
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 234
+          },
+          {
+            "label": "universidad autónoma de puebla (puebla pue) escuela de ciencias químicas institución que otorga el título",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias químicas",
+            "count": 3
+          },
+          {
+            "label": "instituto politécnico nacional departamento de química centro de investigación y de estudios avanzados institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "universidad motolinía",
+            "count": 1
+          },
+          {
+            "label": "universidad veracruzana (orizaba ver) facultad de ciencias químicas institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.062992,
+          "Area 2": 0.905512,
+          "Area 3": 0.003937,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.027559
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 230,
+            "pct": 0.905512
+          },
+          {
+            "area": "Area 1",
+            "count": 16,
+            "pct": 0.062992
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 7,
+            "pct": 0.027559
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.003937
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0516427",
+            "doc_number_url": "000811695",
+            "title": "desarrollo de una metodología de síntesis de 3,3´-bicumarinas",
+            "program": "ciencias quimicas",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de quimica unam",
+            "author": "Castañón García, Mario",
+            "advisor": "Miranda Gutiérrez, Luis Demetrio",
+            "x": 5.435105,
+            "y": 1.623907,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0105425",
+            "doc_number_url": "000854782",
+            "title": "síntesis y estudio espectroscópico de compuestos derivados de la 2-fenil, 4-(2’ ,4’ ,5’ trimetoxibenciliden), 5(4)-oxazolona",
+            "program": "quimica",
+            "year": 1970,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Espejo Munguía, Bertha",
+            "advisor": "Sánchez Viesca, Francisco Agustín",
+            "x": 5.434027,
+            "y": 1.62336,
+            "cluster_strength": 0.780487
+          },
+          {
+            "thesis_id": "TH_0172710",
+            "doc_number_url": null,
+            "title": "uso de la hexametilfosforamida en reacciones de sustitución nucleofílica aplicado a la mono y dialquilación de aminas aromáticas primarias. : obtención de aminas secundarias y terciarias, azetidinas y b-aminoalcoholes",
+            "program": "SIN PROGRAMA",
+            "year": 1984,
+            "area": "Por Clasificar",
+            "level": "Especialidad",
+            "plantel": "centro de investigacion y de estudios avanzados",
+            "author": "Reyna Bojorquez, José Daniel",
+            "advisor": "Juaristi, Eusebio",
+            "x": 5.432853,
+            "y": 1.630978,
+            "cluster_strength": 0.681372
+          },
+          {
+            "thesis_id": "TH_0564572",
+            "doc_number_url": "000852170",
+            "title": "síntesis de compuestos organometálicos de rutenio, derivados de hidroxibencilidenindanonas, hacia la formación de compuestos con propiedades citotóxicas",
+            "program": "quimica",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Pérez Dávila, Ulises Alberto",
+            "advisor": "Álvarez Toledano, Cecilio",
+            "x": 5.431907,
+            "y": 1.611044,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0566224",
+            "doc_number_url": "000851005",
+            "title": "síntesis de hidroximetilidenindanonas con sustituyentes que presentan propiedades fluorescentes hacia la formación de compuestos de boro (bdk´s)",
+            "program": "quimica",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Rosales Martínez, Carlos Alberto",
+            "advisor": "Álvarez Toledano, Cecilio ; Ballinas Indili, Ricardo",
+            "x": 5.452847,
+            "y": 1.626171,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0302768",
+            "doc_number_url": "000344199",
+            "title": "sintesis de nuevos complejos de rutenio (ii) con ligantes fosfinitos tipo pinza",
+            "program": "quimica",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Ceron Camacho, Ricardo",
+            "advisor": "Le Lagadec Ronan, Marie",
+            "x": 5.446308,
+            "y": 1.610884,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0110543",
+            "doc_number_url": "000173804",
+            "title": "comparacion de metodos para la obtencion de 1,3 benzoxazin 2,4 diona",
+            "program": "quimica",
+            "year": 1971,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "López Juarez, Alfredo",
+            "advisor": "Giral Gonzalez, Francisco",
+            "x": 5.445501,
+            "y": 1.610119,
+            "cluster_strength": 0.688345
+          },
+          {
+            "thesis_id": "TH_0544998",
+            "doc_number_url": "000835291",
+            "title": "estudio de la reactividad de 3-etinilpiridinas sustituidas frente a acetales de bis(trimetilsilil)cetena",
+            "program": "quimica farmaceutico biologica",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Galicia Galicia, Carlos Alberto",
+            "advisor": "Álvarez Toledano, Cecilio",
+            "x": 5.438455,
+            "y": 1.645941,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 179,
+        "macrocluster_id": 19,
+        "micro_label": "NANOPARTICULAS · SINTESIS · ESTUDIO · CARACTERIZACION",
+        "size": 112,
+        "x": 4.804466,
+        "y": 1.237213,
+        "year_min": 1967,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "nanoparticulas",
+            "score": 0.072576
+          },
+          {
+            "term": "sintesis",
+            "score": 0.062165
+          },
+          {
+            "term": "estudio",
+            "score": 0.054517
+          },
+          {
+            "term": "caracterizacion",
+            "score": 0.046697
+          },
+          {
+            "term": "propiedades",
+            "score": 0.042852
+          },
+          {
+            "term": "nanoestructuras",
+            "score": 0.036961
+          },
+          {
+            "term": "plata",
+            "score": 0.035957
+          },
+          {
+            "term": "peliculas",
+            "score": 0.034584
+          },
+          {
+            "term": "sintesis caracterizacion",
+            "score": 0.033285
+          },
+          {
+            "term": "silicio",
+            "score": 0.031109
+          },
+          {
+            "term": "tipo",
+            "score": 0.026985
+          },
+          {
+            "term": "zno",
+            "score": 0.026847
+          },
+          {
+            "term": "nanotecnologia",
+            "score": 0.026786
+          },
+          {
+            "term": "efecto",
+            "score": 0.02599
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "fisica",
+            "count": 22
+          },
+          {
+            "label": "ciencias quimicas",
+            "count": 14
+          },
+          {
+            "label": "ciencia e ingenieria de materiales",
+            "count": 12
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 11
+          },
+          {
+            "label": "quimica",
+            "count": 9
+          },
+          {
+            "label": "ciencias e ingenieria de materiales",
+            "count": 8
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 7
+          },
+          {
+            "label": "nanotecnologia",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 62
+          },
+          {
+            "label": "Area 2",
+            "count": 50
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 64
+          },
+          {
+            "label": "Maestría",
+            "count": 27
+          },
+          {
+            "label": "Doctorado",
+            "count": 20
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 99
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de maestría y doctorado en ciencia e ingeniería de materiales",
+            "count": 7
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias física",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores cuautitlán",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico centro de nanociencias y nanotecnología",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.553571,
+          "Area 2": 0.446429,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 62,
+            "pct": 0.553571
+          },
+          {
+            "area": "Area 2",
+            "count": 50,
+            "pct": 0.446429
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0532267",
+            "doc_number_url": "000827072",
+            "title": "síntesis de películas delgadas nanoestructuradas binarias, ternarias y cuaternarias (znxcd1-xsyse1-y) a partir de precursores unimoleculares tipo pnc",
+            "program": "ciencias quimicas",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de quimica unam",
+            "author": "García Guzmán, Oscar Luis",
+            "advisor": "García Montalvo, Verónica",
+            "x": 4.802146,
+            "y": 1.241867,
+            "cluster_strength": 0.520573
+          },
+          {
+            "thesis_id": "TH_0507452",
+            "doc_number_url": "000800737",
+            "title": "materiales nanoestructurados con nanopartículas magnéticas de hierro para manufactura aditiva",
+            "program": "ingenieria quimica",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Avilés Ávila, Miriam Daniela",
+            "advisor": "Redón de la Fuente, María del Rocío",
+            "x": 4.780329,
+            "y": 1.237825,
+            "cluster_strength": 0.615084
+          },
+          {
+            "thesis_id": "TH_0374827",
+            "doc_number_url": "000798508",
+            "title": "síntesis y caracterización de materiales nanoestructurados a partir de grafeno y nanopartículas de oro",
+            "program": "tecnologia",
+            "year": 2019,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "centro de fisica aplicada y tecnologia avanzada unam",
+            "author": "Lugo Rivera, Sandra del Carmen",
+            "advisor": "Salas Castillo, Pedro",
+            "x": 4.785503,
+            "y": 1.216971,
+            "cluster_strength": 0.791986
+          },
+          {
+            "thesis_id": "TH_0423828",
+            "doc_number_url": "000703920",
+            "title": "nanotecnologia en la industria petrolera",
+            "program": "ingenieria petrolera",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Cruz Santiago, Juan Francisco",
+            "advisor": "Osorio Peralta, Oscar",
+            "x": 4.806093,
+            "y": 1.265114,
+            "cluster_strength": 0.654985
+          },
+          {
+            "thesis_id": "TH_0413314",
+            "doc_number_url": "000684283",
+            "title": "materiales funcionales y nanocompuestos poliméricos híbridos",
+            "program": "ingenieria",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de quimica unam",
+            "author": "Huitron Rattinger, Estefania",
+            "advisor": "Romo Uribe, Ángel",
+            "x": 4.820132,
+            "y": 1.270972,
+            "cluster_strength": 0.429774
+          },
+          {
+            "thesis_id": "TH_0469333",
+            "doc_number_url": "000752993",
+            "title": "investigación y aplicación de nanopartículas de plata en espectroscopía raman",
+            "program": "quimica",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Hernández Canales, Luis Alberto",
+            "advisor": "Sato Berrú, Roberto Ysacc",
+            "x": 4.837617,
+            "y": 1.280015,
+            "cluster_strength": 0.699689
+          },
+          {
+            "thesis_id": "TH_0555461",
+            "doc_number_url": "000865528",
+            "title": "estudio de las propiedades mecánicas del polimetilmetacrilato termopolimerizable por microondas adicionado con nanopartículas de óxido de zinc",
+            "program": "cirujano dentista",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Aparicio Arteaga, Karla",
+            "advisor": "Romo Arévalo, Enrique ; Prado-Prone, Gina ; Ramírez Ortega, Juana Paulina",
+            "x": 4.845141,
+            "y": 1.275484,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0390278",
+            "doc_number_url": "000652890",
+            "title": "nucleación y crecimiento de nanopartículas metálicas en zafiro",
+            "program": "fisica",
+            "year": 2010,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Mota Santiago, Pablo Ernesto",
+            "advisor": "Crespo Sosa, Alejandro",
+            "x": 4.805686,
+            "y": 1.29749,
+            "cluster_strength": 0.873875
+          }
+        ]
+      },
+      {
+        "microcluster_id": 178,
+        "macrocluster_id": 19,
+        "micro_label": "ALUMINIO · ESTUDIO · HIERRO · CORROSION",
+        "size": 88,
+        "x": 4.198565,
+        "y": 1.60436,
+        "year_min": 1951,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "aluminio",
+            "score": 0.093906
+          },
+          {
+            "term": "estudio",
+            "score": 0.083106
+          },
+          {
+            "term": "hierro",
+            "score": 0.072527
+          },
+          {
+            "term": "corrosion",
+            "score": 0.057736
+          },
+          {
+            "term": "acero",
+            "score": 0.043681
+          },
+          {
+            "term": "mediante",
+            "score": 0.038145
+          },
+          {
+            "term": "aleaciones",
+            "score": 0.037439
+          },
+          {
+            "term": "fabricacion",
+            "score": 0.035641
+          },
+          {
+            "term": "caracterizacion",
+            "score": 0.032486
+          },
+          {
+            "term": "electroquimica",
+            "score": 0.031776
+          },
+          {
+            "term": "proceso",
+            "score": 0.030014
+          },
+          {
+            "term": "efecto",
+            "score": 0.027943
+          },
+          {
+            "term": "diseno",
+            "score": 0.024797
+          },
+          {
+            "term": "acero inoxidable",
+            "score": 0.023707
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria quimica metalurgica",
+            "count": 23
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 15
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 9
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 4
+          },
+          {
+            "label": "ingenieria mecanica",
+            "count": 4
+          },
+          {
+            "label": "metalurgia",
+            "count": 4
+          },
+          {
+            "label": "ciencia e ingenieria de materiales",
+            "count": 3
+          },
+          {
+            "label": "quimica",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 51
+          },
+          {
+            "label": "Area 1",
+            "count": 36
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 68
+          },
+          {
+            "label": "Maestría",
+            "count": 16
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 79
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de maestría y doctorado en ciencia e ingeniería de materiales",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en historia del arte",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico) escuela de ingenieria plantel norte institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.409091,
+          "Area 2": 0.579545,
+          "Area 3": 0.0,
+          "Area 4": 0.011364,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 51,
+            "pct": 0.579545
+          },
+          {
+            "area": "Area 1",
+            "count": 36,
+            "pct": 0.409091
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.011364
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0444212",
+            "doc_number_url": "000707868",
+            "title": "endurecimiento por precipitación de aleaciones de aluminio",
+            "program": "metalurgia",
+            "year": 2014,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Ojeda Ramírez, Balbina",
+            "advisor": "Hernández Morales, José Bernardo",
+            "x": 4.194947,
+            "y": 1.598529,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0210160",
+            "doc_number_url": "000142998",
+            "title": "anteproyecto de una planta para la obtencion de aluminio aleado de segunda funcion",
+            "program": "ingenieria quimica",
+            "year": 1990,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Villela Marin, Gilberto Fernnado",
+            "advisor": "Fernandez Noriega, Francisco",
+            "x": 4.178727,
+            "y": 1.595866,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0236100",
+            "doc_number_url": "000197665",
+            "title": "parametros de fabricacion para un composito base aluminio a-356-5% sicp por el metodo del vortex",
+            "program": "ingenieria quimica metalurgica",
+            "year": 1993,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Salinas García, David Alberto",
+            "advisor": "Garcia Hinojosa, Jose Alejandro",
+            "x": 4.176277,
+            "y": 1.58943,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0168677",
+            "doc_number_url": "000018094",
+            "title": "el aluminio y sus aleaciones",
+            "program": "ingenieria quimica metalurgica",
+            "year": 1984,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Deytha Díaz, José Luis",
+            "advisor": "Medina Valenzuela, Mario",
+            "x": 4.218705,
+            "y": 1.585044,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0081261",
+            "doc_number_url": null,
+            "title": "comparacion del metodo volumetrico de snyder con el metodo gravimetrico en la titulacion del sulfato de aluminio industrial",
+            "program": "quimica",
+            "year": 1956,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Flores Gomez, Celia",
+            "advisor": "",
+            "x": 4.165839,
+            "y": 1.59832,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0011051",
+            "doc_number_url": "000292471",
+            "title": "tecnicas electroquimicas aplicadas al estudio de la corrosion de un acero al carbono : influencia de la concentracion de na2so4",
+            "program": "metalurgia",
+            "year": 2001,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de quimica unam",
+            "author": "Arzola Peralta, Sergio",
+            "advisor": "Genescá Llongueras, Joan ; Palomar Pardave, Manuel E",
+            "x": 4.226994,
+            "y": 1.632001,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0057348",
+            "doc_number_url": "000331861",
+            "title": "diseño de un sistema de alumbrado industrial en ambiente corrosivo y polvos en suspension",
+            "program": "ingenieria mecanica electrica",
+            "year": 2004,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Ledesma Fonseca, Antonio",
+            "advisor": "Sosa Fuentes, Alejandro",
+            "x": 4.160595,
+            "y": 1.590314,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0470620",
+            "doc_number_url": "000740253",
+            "title": "efecto de vanadio en la formación de carburos en un hierro nodular",
+            "program": "ingenieria quimica metalurgica",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "López Betancourt, Adrián Felipe",
+            "advisor": "García Hinojosa, José Alejandro ; Amaro Villeda, Adrián Manuel",
+            "x": 4.238753,
+            "y": 1.617788,
+            "cluster_strength": 0.937653
+          }
+        ]
+      },
+      {
+        "microcluster_id": 180,
+        "macrocluster_id": 19,
+        "micro_label": "MAGNETICO · ESTUDIO · SUPERCONDUCTORES · ELECTRONES",
+        "size": 76,
+        "x": 4.193732,
+        "y": 1.129844,
+        "year_min": 1968,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "magnetico",
+            "score": 0.072061
+          },
+          {
+            "term": "estudio",
+            "score": 0.067355
+          },
+          {
+            "term": "superconductores",
+            "score": 0.063793
+          },
+          {
+            "term": "electrones",
+            "score": 0.056441
+          },
+          {
+            "term": "magneticas",
+            "score": 0.046939
+          },
+          {
+            "term": "campo",
+            "score": 0.037968
+          },
+          {
+            "term": "superconductor",
+            "score": 0.032022
+          },
+          {
+            "term": "modelo",
+            "score": 0.030836
+          },
+          {
+            "term": "sistemas",
+            "score": 0.027078
+          },
+          {
+            "term": "propiedades",
+            "score": 0.026899
+          },
+          {
+            "term": "metalicos",
+            "score": 0.026777
+          },
+          {
+            "term": "campo magnetico",
+            "score": 0.025936
+          },
+          {
+            "term": "particulas",
+            "score": 0.025088
+          },
+          {
+            "term": "efecto",
+            "score": 0.024842
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "fisica",
+            "count": 35
+          },
+          {
+            "label": "quimica",
+            "count": 9
+          },
+          {
+            "label": "ingenieria electrica",
+            "count": 4
+          },
+          {
+            "label": "ingenieria quimica metalurgica",
+            "count": 3
+          },
+          {
+            "label": "ciencias de la tierra",
+            "count": 3
+          },
+          {
+            "label": "ciencias e ingenieria de materiales",
+            "count": 3
+          },
+          {
+            "label": "ciencia de materiales",
+            "count": 2
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 58
+          },
+          {
+            "label": "Area 2",
+            "count": 15
+          },
+          {
+            "label": "Area 3",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 43
+          },
+          {
+            "label": "Maestría",
+            "count": 18
+          },
+          {
+            "label": "Doctorado",
+            "count": 15
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 72
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias física",
+            "count": 1
+          },
+          {
+            "label": "universidad intercontinental (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de maestría y doctorado en ciencia e ingeniería de materiales",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.763158,
+          "Area 2": 0.197368,
+          "Area 3": 0.039474,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 58,
+            "pct": 0.763158
+          },
+          {
+            "area": "Area 2",
+            "count": 15,
+            "pct": 0.197368
+          },
+          {
+            "area": "Area 3",
+            "count": 3,
+            "pct": 0.039474
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0392857",
+            "doc_number_url": "000674559",
+            "title": "síntesis, estructura y propiedades magnéticas de manganitas la0.80(ag1-xsrx)0.20mno3 (x = 0.00 - 1.00)",
+            "program": "quimica",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Amano Patiño, Midori Estefani",
+            "advisor": "Betancourt, Israel",
+            "x": 4.189918,
+            "y": 1.098173,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0265594",
+            "doc_number_url": "000240132",
+            "title": "los superconductores y sus perspectivas futuras",
+            "program": "ingenieria mecanica electrica",
+            "year": 1996,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Viquez Cano, Arcenio Alejandro",
+            "advisor": "Contreras Santacruz, Benjamin",
+            "x": 4.213371,
+            "y": 1.101759,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0008451",
+            "doc_number_url": "000278522",
+            "title": "estudio de las vibraciones de los oxigenos o(4) en el superconductor yba2cu3o7-x",
+            "program": "fisica",
+            "year": 2000,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Ruiz Chavarria, Maria Sabina",
+            "advisor": "Mora y Palomar Askinasy, Pablo de la",
+            "x": 4.221732,
+            "y": 1.107965,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0537860",
+            "doc_number_url": "000834511",
+            "title": "estudio microestructural y magnético de la aleación mn50bi50",
+            "program": "ingenieria quimica metalurgica",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Ramírez Villalobos, Jesús Yair",
+            "advisor": "Zamora Mendieta, Jonathan",
+            "x": 4.172512,
+            "y": 1.160871,
+            "cluster_strength": 0.977435
+          },
+          {
+            "thesis_id": "TH_0308873",
+            "doc_number_url": "000341745",
+            "title": "superconductividad con espin triplete en el modelo de hubbard",
+            "program": "ciencias e ingenieria de materiales",
+            "year": 2005,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "instituto de investigaciones en materiales unam",
+            "author": "Millán Malo, José Samuel",
+            "advisor": "Wang Chen, Chumin",
+            "x": 4.187781,
+            "y": 1.079262,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0035189",
+            "doc_number_url": "000307535",
+            "title": "superconductividad con interacciones atractivas interfermionicas tipo delta regularizadas",
+            "program": "fisica",
+            "year": 2002,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Salazar Martinez, Alberto",
+            "advisor": "Llano de la Garza, Manuel de ; Solís Atala, Miguel Angel",
+            "x": 4.207054,
+            "y": 1.080304,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0535778",
+            "doc_number_url": "000822628",
+            "title": "determinación de rutas de migración iónica en el sistema yaio3 con estructura perovskita por medio de simulaciones atomísticas",
+            "program": "quimica",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Miranda Rosales, Rubén Omar",
+            "advisor": "Gómez-García, José Francisco",
+            "x": 4.221025,
+            "y": 1.173758,
+            "cluster_strength": 0.954151
+          },
+          {
+            "thesis_id": "TH_0479230",
+            "doc_number_url": "000760010",
+            "title": "modelado termo-mecánico de un ondulador superconductor para láseres de electrones libres",
+            "program": "ingenieria mecanica",
+            "year": 2017,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Barraza Montiel, Guillermo Alejandro",
+            "advisor": "Trillaud, Frederic",
+            "x": 4.158469,
+            "y": 1.090869,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 186,
+        "macrocluster_id": 19,
+        "micro_label": "CATALIZADORES · SINTESIS · ESTUDIO · CARACTERIZACION",
+        "size": 51,
+        "x": 4.938001,
+        "y": 1.693824,
+        "year_min": 1967,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "catalizadores",
+            "score": 0.138811
+          },
+          {
+            "term": "sintesis",
+            "score": 0.072849
+          },
+          {
+            "term": "estudio",
+            "score": 0.059149
+          },
+          {
+            "term": "caracterizacion",
+            "score": 0.055794
+          },
+          {
+            "term": "compuestos",
+            "score": 0.047466
+          },
+          {
+            "term": "oxidacion",
+            "score": 0.045127
+          },
+          {
+            "term": "pt",
+            "score": 0.044906
+          },
+          {
+            "term": "reaccion",
+            "score": 0.042112
+          },
+          {
+            "term": "obtencion",
+            "score": 0.041613
+          },
+          {
+            "term": "catalitica",
+            "score": 0.040917
+          },
+          {
+            "term": "uso",
+            "score": 0.04084
+          },
+          {
+            "term": "empleando",
+            "score": 0.039415
+          },
+          {
+            "term": "hidrogenacion",
+            "score": 0.036448
+          },
+          {
+            "term": "reactividad",
+            "score": 0.035569
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria quimica",
+            "count": 18
+          },
+          {
+            "label": "quimica",
+            "count": 9
+          },
+          {
+            "label": "ciencia e ingenieria de materiales",
+            "count": 7
+          },
+          {
+            "label": "ciencias quimicas",
+            "count": 7
+          },
+          {
+            "label": "metodos y metrologia",
+            "count": 2
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 2
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          },
+          {
+            "label": "ingenieria",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 33
+          },
+          {
+            "label": "Area 1",
+            "count": 17
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 29
+          },
+          {
+            "label": "Doctorado",
+            "count": 11
+          },
+          {
+            "label": "Maestría",
+            "count": 10
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 45
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de maestría y doctorado en ciencia e ingeniería de materiales",
+            "count": 4
+          },
+          {
+            "label": "universidad autónoma del estado de morelos (cuernavaca mor) facultad de ciencias químicas e industriales institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico instituto de investigaciones en materiales institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.333333,
+          "Area 2": 0.647059,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.019608
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 33,
+            "pct": 0.647059
+          },
+          {
+            "area": "Area 1",
+            "count": 17,
+            "pct": 0.333333
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.019608
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0468632",
+            "doc_number_url": "000740596",
+            "title": "producción de h2 por oxidación parcial de ch3oh en nano-catalizadores de cu soportado en ceo2 con diferente morfología",
+            "program": "ciencia e ingenieria de materiales",
+            "year": 2016,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "González Araiza, Diego Daniel",
+            "advisor": "Díaz Guerrero, Gabriela",
+            "x": 4.929181,
+            "y": 1.696768,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0280733",
+            "doc_number_url": "000264592",
+            "title": "sintesis de tioeteres corona a partir de tiiranos empleando un material tipo montmorillonita modificada como catalizador",
+            "program": "metodos y metrologia",
+            "year": 1998,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "García Arellanes, Judith",
+            "advisor": "Cabrera Ortiz, Armando ; Miranda Ruvalcaba, René",
+            "x": 4.944078,
+            "y": 1.686654,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0476956",
+            "doc_number_url": "000740233",
+            "title": "catalizadores para la oxidación anódica de metanol : estudio comparativo de fases activas pt-mo soportadas en carbón, en función del método de síntesis",
+            "program": "ingenieria",
+            "year": 2016,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Ugalde Reyes, Orlando",
+            "advisor": "Roquero Tejeda, Pedro",
+            "x": 4.940464,
+            "y": 1.703787,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0522121",
+            "doc_number_url": "000813836",
+            "title": "variación del campo local en hexacianometalatos por ozonación para su uso como tamiz molecular",
+            "program": "ingenieria quimica",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Martínez Zendejas, Fernando",
+            "advisor": "Aguilar Cordero, Julio Cesar ; Flores Hernández, Ricardo ; Balmaseda Era, Jorge ; Basurto García, German ; García-Mendoza, Arturo",
+            "x": 4.935243,
+            "y": 1.672888,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0563311",
+            "doc_number_url": "000861608",
+            "title": "síntesis y caracterización de catalizadores del tipo cu-zno",
+            "program": "ingenieria quimica",
+            "year": 2024,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Morales Morales, David",
+            "advisor": "Martínez Magadán, José Manuel ; Cortés Jácome, María Antonia",
+            "x": 4.956303,
+            "y": 1.70545,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0517486",
+            "doc_number_url": "000814564",
+            "title": "preparación y evaluación de catalizadores trimetálicos de w, mo y v",
+            "program": "ingenieria quimica",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Desentis Peña, Gonzalo",
+            "advisor": "Cedeño Caero, Luis",
+            "x": 4.91956,
+            "y": 1.706373,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0119150",
+            "doc_number_url": "000066987",
+            "title": "puentes de hirogeno : analisis del puente de hidrogeno y su comportamiento especifico en los procesos de duplicacion y transcripcion del adn. algunos tratamientos a sistemas polielectronicos, farmamida",
+            "program": "fisica",
+            "year": 1973,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Ortega Blake, Ivan",
+            "advisor": "",
+            "x": 4.920302,
+            "y": 1.708404,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0281125",
+            "doc_number_url": "000261538",
+            "title": "calculo del equilibrio físico y químico simultáneo para la reacción de isomerización de parafinas c5 y c6 mediante minimización de la energía de gibbs",
+            "program": "ingenieria quimica",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Gatica Díaz Escobar, Gabriel",
+            "advisor": "Ramírez Solís, Jorge Fernando",
+            "x": 4.971309,
+            "y": 1.683178,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

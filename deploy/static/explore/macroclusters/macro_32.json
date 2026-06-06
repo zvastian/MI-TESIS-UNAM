@@ -1,0 +1,650 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 32,
+    "macro_label": "SEXUAL · EDUCACION · MUJERES · SEXUALIDAD",
+    "size": 198,
+    "microcluster_count": 2,
+    "microclusters": [
+      {
+        "microcluster_id": 76,
+        "macrocluster_id": 32,
+        "micro_label": "SEXUAL · SEXUALIDAD · EDUCACION · EDUCACION SEXUAL",
+        "size": 126,
+        "x": 3.119058,
+        "y": -3.793198,
+        "year_min": 1976,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "sexual",
+            "score": 0.094042
+          },
+          {
+            "term": "sexualidad",
+            "score": 0.074808
+          },
+          {
+            "term": "educacion",
+            "score": 0.066085
+          },
+          {
+            "term": "educacion sexual",
+            "score": 0.051629
+          },
+          {
+            "term": "adolescentes",
+            "score": 0.044647
+          },
+          {
+            "term": "propuesta",
+            "score": 0.039968
+          },
+          {
+            "term": "sexuales",
+            "score": 0.036434
+          },
+          {
+            "term": "programa",
+            "score": 0.031728
+          },
+          {
+            "term": "actitudes",
+            "score": 0.030277
+          },
+          {
+            "term": "padres",
+            "score": 0.029336
+          },
+          {
+            "term": "mujeres",
+            "score": 0.027444
+          },
+          {
+            "term": "jovenes",
+            "score": 0.026286
+          },
+          {
+            "term": "educacion sexualidad",
+            "score": 0.024892
+          },
+          {
+            "term": "homosexualidad",
+            "score": 0.024021
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 63
+          },
+          {
+            "label": "pedagogia",
+            "count": 28
+          },
+          {
+            "label": "trabajo social",
+            "count": 5
+          },
+          {
+            "label": "medicina familiar",
+            "count": 5
+          },
+          {
+            "label": "comunicacion y periodismo",
+            "count": 2
+          },
+          {
+            "label": "derecho",
+            "count": 2
+          },
+          {
+            "label": "desarrollo y gestion interculturales",
+            "count": 2
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 75
+          },
+          {
+            "label": "Area 2",
+            "count": 37
+          },
+          {
+            "label": "Area 4",
+            "count": 13
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 108
+          },
+          {
+            "label": "Maestría",
+            "count": 10
+          },
+          {
+            "label": "Especialidad",
+            "count": 8
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 109
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento (coatzacoalcos",
+            "count": 1
+          },
+          {
+            "label": "universidad alzate de ozumba",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de psicología",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.007937,
+          "Area 2": 0.293651,
+          "Area 3": 0.595238,
+          "Area 4": 0.103175,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 75,
+            "pct": 0.595238
+          },
+          {
+            "area": "Area 2",
+            "count": 37,
+            "pct": 0.293651
+          },
+          {
+            "area": "Area 4",
+            "count": 13,
+            "pct": 0.103175
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.007937
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0577448",
+            "doc_number_url": "000868161",
+            "title": "relación entre el estrés de minoría y las estrategias de afrontamiento de un grupo de adultos jóvenes (18-25 años) de la población lgbtq+",
+            "program": "psiquiatria",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ovando Muñoz, Juan Rubén",
+            "advisor": "Barragán Pérez, Virginia",
+            "x": 3.120963,
+            "y": -3.804752,
+            "cluster_strength": 0.819786
+          },
+          {
+            "thesis_id": "TH_0380790",
+            "doc_number_url": "000798503",
+            "title": "cambios en la dinámica familiar por la aceptación de un hijo homosexual",
+            "program": "psicologia",
+            "year": 2019,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Trejo Mondragón, Sergio",
+            "advisor": "Beltrán Ruiz, Lidia",
+            "x": 3.120511,
+            "y": -3.773591,
+            "cluster_strength": 0.68659
+          },
+          {
+            "thesis_id": "TH_0447469",
+            "doc_number_url": "000708467",
+            "title": "aproximación al caso de la joven homosexual y la homosexualidad femenina desde una perspectiva psicoanalítica",
+            "program": "psicologia",
+            "year": 2014,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad salesiana mexico",
+            "author": "Segura Álvarez, Priscilla Florencia",
+            "advisor": "Juárez Buchán, Alejandro",
+            "x": 3.097514,
+            "y": -3.799399,
+            "cluster_strength": 0.819786
+          },
+          {
+            "thesis_id": "TH_0471771",
+            "doc_number_url": "000744368",
+            "title": "sexualidad, erotismo y cuidado del cuerpo en estudiantes universitarios",
+            "program": "pedagogia",
+            "year": 2016,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Mejía Domínguez, Noemí",
+            "advisor": "Sánchez Olvera, Alma Rosa",
+            "x": 3.102616,
+            "y": -3.811386,
+            "cluster_strength": 0.769402
+          },
+          {
+            "thesis_id": "TH_0434127",
+            "doc_number_url": "000701747",
+            "title": "mitos y creencias que dificultan la comunicación en sexualidad en la relación padres-hijas",
+            "program": "psicologia",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Vassallo Pérez, Angélica",
+            "advisor": "Reyes Nicolat, Ofelia",
+            "x": 3.143894,
+            "y": -3.785366,
+            "cluster_strength": 0.513686
+          },
+          {
+            "thesis_id": "TH_0329405",
+            "doc_number_url": "000616241",
+            "title": "propuesta de una radionovela de perfil erotico dirigida a jovenes del distrito federal",
+            "program": "ciencias de la comunicacion",
+            "year": 2007,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Caballero Arciniega, Diana Haydee",
+            "advisor": "Aguado Cruz, Eduardo ; Hernández Carballido, Elvira",
+            "x": 3.101521,
+            "y": -3.763081,
+            "cluster_strength": 0.768365
+          },
+          {
+            "thesis_id": "TH_0350577",
+            "doc_number_url": null,
+            "title": "familia y orientación sexual",
+            "program": "psicologia",
+            "year": 2008,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Padilla Gámez, Nélida",
+            "advisor": "Suárez Castillo, María",
+            "x": 3.144118,
+            "y": -3.765339,
+            "cluster_strength": 0.693402
+          },
+          {
+            "thesis_id": "TH_0566996",
+            "doc_number_url": "000865443",
+            "title": "identificación de las afectaciones sociales de mujeres homosexuales cisgénero que no aceptan su sexualidad debido a su contexto familiar",
+            "program": "psicologia",
+            "year": 2024,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Santos Zapata, Mintzi Citlalmina",
+            "advisor": "Pérez Pérez, Laura",
+            "x": 3.084716,
+            "y": -3.774116,
+            "cluster_strength": 0.819786
+          }
+        ]
+      },
+      {
+        "microcluster_id": 77,
+        "macrocluster_id": 32,
+        "micro_label": "MUJERES · MUJER · GENERO · SOCIAL",
+        "size": 72,
+        "x": 2.77462,
+        "y": -3.441598,
+        "year_min": 1926,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mujeres",
+            "score": 0.122662
+          },
+          {
+            "term": "mujer",
+            "score": 0.09697
+          },
+          {
+            "term": "genero",
+            "score": 0.094486
+          },
+          {
+            "term": "social",
+            "score": 0.052575
+          },
+          {
+            "term": "educacion",
+            "score": 0.049394
+          },
+          {
+            "term": "desde",
+            "score": 0.0434
+          },
+          {
+            "term": "femenina",
+            "score": 0.04282
+          },
+          {
+            "term": "perspectiva",
+            "score": 0.035546
+          },
+          {
+            "term": "analisis",
+            "score": 0.034386
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.034204
+          },
+          {
+            "term": "diferencias",
+            "score": 0.032088
+          },
+          {
+            "term": "condicion",
+            "score": 0.030415
+          },
+          {
+            "term": "identidad",
+            "score": 0.03007
+          },
+          {
+            "term": "feministas",
+            "score": 0.02968
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 24
+          },
+          {
+            "label": "pedagogia",
+            "count": 17
+          },
+          {
+            "label": "filosofia",
+            "count": 5
+          },
+          {
+            "label": "economia",
+            "count": 2
+          },
+          {
+            "label": "derecho",
+            "count": 2
+          },
+          {
+            "label": "arquitectura",
+            "count": 2
+          },
+          {
+            "label": "trabajo social",
+            "count": 2
+          },
+          {
+            "label": "periodismo y comunicacion colectiva",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 38
+          },
+          {
+            "label": "Area 4",
+            "count": 17
+          },
+          {
+            "label": "Area 2",
+            "count": 13
+          },
+          {
+            "label": "Area 1",
+            "count": 4
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 58
+          },
+          {
+            "label": "Maestría",
+            "count": 10
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 68
+          },
+          {
+            "label": "universidad villa rica (boca del rio",
+            "count": 1
+          },
+          {
+            "label": "universidad insurgentes plantel xola",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.055556,
+          "Area 2": 0.180556,
+          "Area 3": 0.527778,
+          "Area 4": 0.236111,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 38,
+            "pct": 0.527778
+          },
+          {
+            "area": "Area 4",
+            "count": 17,
+            "pct": 0.236111
+          },
+          {
+            "area": "Area 2",
+            "count": 13,
+            "pct": 0.180556
+          },
+          {
+            "area": "Area 1",
+            "count": 4,
+            "pct": 0.055556
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0062903",
+            "doc_number_url": "000132001",
+            "title": "estudio moral y psicologico de la mujer relacionado con la estomatologia",
+            "program": "cirujano dentista",
+            "year": 1926,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Arias de Zarinana, Francisco",
+            "advisor": "",
+            "x": 2.780897,
+            "y": -3.442557,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0376065",
+            "doc_number_url": "000795577",
+            "title": "la identidad de género en los individuos del municipio de nezahualcóyotl, a través del proceso de socialización conforme a los roles y estereotipos del presente",
+            "program": "sociologia",
+            "year": 2019,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Monroy López, Yessica",
+            "advisor": "Moreno Castro, Librada",
+            "x": 2.772868,
+            "y": -3.431351,
+            "cluster_strength": 0.71774
+          },
+          {
+            "thesis_id": "TH_0291320",
+            "doc_number_url": "000274762",
+            "title": "la educación agronómica desde un enfoque de género",
+            "program": "sociologia",
+            "year": 1999,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Galindo Aguilar, Rosa",
+            "advisor": "Zapata Martelo, Emma",
+            "x": 2.778821,
+            "y": -3.430264,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0559825",
+            "doc_number_url": "000861768",
+            "title": "arquitectura saludable para mujeres : ¿cuál es el impacto del ambiente y el confort en la salud física y mental de las mujeres en el siglo xxi, y cómo aproximarse a la materialización de espacios saludables con perspectiva de género, tomando como punto de partida el dormitorio?",
+            "program": "arquitectura",
+            "year": 2024,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "González Ruiz, Paloma",
+            "advisor": "Barrios Fernández, Virginia Cristina ; Alcantar García, Erika ; Varela Mancilla, María Estela",
+            "x": 2.786186,
+            "y": -3.452701,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0572223",
+            "doc_number_url": "000870780",
+            "title": "enseñanza de tecnologías con perspectiva de género como eje transversal, para incentivar la participación de las mujeres en la tic",
+            "program": "ingenieria en computacion",
+            "year": 2025,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Flores García, Karina",
+            "advisor": "Meza, I",
+            "x": 2.758328,
+            "y": -3.440306,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0251389",
+            "doc_number_url": "000225287",
+            "title": "importancia de revalorar lo femenino en la educacion",
+            "program": "pedagogia",
+            "year": 1995,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Gerson Cwilich, Jacqueline",
+            "advisor": "Wuest Silva, Ma. Teresa",
+            "x": 2.790586,
+            "y": -3.436694,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0257074",
+            "doc_number_url": "000243569",
+            "title": "la educacion de la mujer en la sociedad marginal : situacion actual y mentalidades sociales",
+            "program": "pedagogia",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Charco Parra, Beatriz",
+            "advisor": "Serrano Tavera, Francisca",
+            "x": 2.765079,
+            "y": -3.424718,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0413471",
+            "doc_number_url": "000687192",
+            "title": "voces de mujeres en la gestión y transición : la profesionalización en enfermería fes-iztacala unam",
+            "program": "enfermeria y obstetricia",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Jauregui Macias, Aremin",
+            "advisor": "Villela Rodriguez, Esther",
+            "x": 2.794633,
+            "y": -3.442232,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

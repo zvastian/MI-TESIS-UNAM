@@ -1,0 +1,1286 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 9,
+    "macro_label": "DIABETES · PACIENTES · TIPO · MELLITUS",
+    "size": 997,
+    "microcluster_count": 4,
+    "microclusters": [
+      {
+        "microcluster_id": 19,
+        "macrocluster_id": 9,
+        "micro_label": "DIABETES · DIABETES MELLITUS · MELLITUS · PACIENTES",
+        "size": 479,
+        "x": 11.809985,
+        "y": -0.772483,
+        "year_min": 1929,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "diabetes",
+            "score": 0.067751
+          },
+          {
+            "term": "diabetes mellitus",
+            "score": 0.055525
+          },
+          {
+            "term": "mellitus",
+            "score": 0.055525
+          },
+          {
+            "term": "pacientes",
+            "score": 0.054805
+          },
+          {
+            "term": "tipo",
+            "score": 0.054711
+          },
+          {
+            "term": "mellitus tipo",
+            "score": 0.044048
+          },
+          {
+            "term": "pacientes diabetes",
+            "score": 0.033557
+          },
+          {
+            "term": "diabeticos",
+            "score": 0.031543
+          },
+          {
+            "term": "familiar",
+            "score": 0.026128
+          },
+          {
+            "term": "control",
+            "score": 0.025183
+          },
+          {
+            "term": "pacientes diabeticos",
+            "score": 0.025056
+          },
+          {
+            "term": "diabetico",
+            "score": 0.023741
+          },
+          {
+            "term": "no",
+            "score": 0.022098
+          },
+          {
+            "term": "umf",
+            "score": 0.021
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina familiar",
+            "count": 185
+          },
+          {
+            "label": "medicina interna",
+            "count": 47
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 25
+          },
+          {
+            "label": "endocrinologia",
+            "count": 16
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 15
+          },
+          {
+            "label": "oftalmologia",
+            "count": 15
+          },
+          {
+            "label": "psicologia",
+            "count": 12
+          },
+          {
+            "label": "endocrinologia pediatrica",
+            "count": 10
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 455
+          },
+          {
+            "label": "Area 3",
+            "count": 11
+          },
+          {
+            "label": "Area 1",
+            "count": 9
+          },
+          {
+            "label": "Area 4",
+            "count": 4
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 355
+          },
+          {
+            "label": "Licenciatura",
+            "count": 85
+          },
+          {
+            "label": "Maestría",
+            "count": 30
+          },
+          {
+            "label": "Doctorado",
+            "count": 9
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 461
+          },
+          {
+            "label": "universidad americana de acapulco",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en filosofía de la ciencia",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería de la secretaría de salud (d.f.),",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería de la secretaría de salud del distrito federal,",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra señora de la salud.",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.018789,
+          "Area 2": 0.949896,
+          "Area 3": 0.022965,
+          "Area 4": 0.008351,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 455,
+            "pct": 0.949896
+          },
+          {
+            "area": "Area 3",
+            "count": 11,
+            "pct": 0.022965
+          },
+          {
+            "area": "Area 1",
+            "count": 9,
+            "pct": 0.018789
+          },
+          {
+            "area": "Area 4",
+            "count": 4,
+            "pct": 0.008351
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0381252",
+            "doc_number_url": "000791451",
+            "title": "efectos metabólicos en pacientes con diabetes mellitus 2 en régimen intensivo comparado con insulinización convencional",
+            "program": "medicina familiar",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Vega Jacobo, Gustavo Alfonso",
+            "advisor": "Rodríguez Silva, Zaida Patricia",
+            "x": 11.817891,
+            "y": -0.768705,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0511341",
+            "doc_number_url": "000803401",
+            "title": "efecto de la suplementación con probióticos en el tratamiento de la resistencia a la insulina en población pediátrica : revisión sistemática",
+            "program": "ciencias de la salud",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de medicina unam",
+            "author": "Montiel Ojeda, Diana Laura",
+            "advisor": "Clark Peralta, Patricia",
+            "x": 11.808265,
+            "y": -0.781312,
+            "cluster_strength": 0.47443
+          },
+          {
+            "thesis_id": "TH_0370004",
+            "doc_number_url": "000795040",
+            "title": "validación del método para evaluar la actividad mitogénica de insulinas en un ensayo in vitro empleando células saos-2",
+            "program": "quimica farmaceutico biologica",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Chávez Torres, Victoria María",
+            "advisor": "Camacho Sandoval, Rosa",
+            "x": 11.814313,
+            "y": -0.760828,
+            "cluster_strength": 0.675654
+          },
+          {
+            "thesis_id": "TH_0367305",
+            "doc_number_url": "000648393",
+            "title": "prevalencia de disfunción eréctil en pacientes con diabetes mellitus 2 en la umf no. 13 de quintana roo",
+            "program": "medicina familiar",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Yépes Estrada, Miguel Ángel",
+            "advisor": "Reyes Gabino, Patricia",
+            "x": 11.804525,
+            "y": -0.760879,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0484073",
+            "doc_number_url": "000759858",
+            "title": "asociación del polimorfismo rs1256031 del receptor beta de estrógenos en pacientes con diabetes tipo 2",
+            "program": "quimica farmaceutico biologica",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Herrera López, Ema Elvira",
+            "advisor": "Valladares Salgado, Adán ; Castelán Martínez, Osvaldo D",
+            "x": 11.824471,
+            "y": -0.771286,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0576540",
+            "doc_number_url": "000862828",
+            "title": "\"prevalencia de principales infecciones asociadas a cetoacidosis diabética identificadas en el servicio de urgencias durante el periodo de enero 2023 a diciembre 2023 en el hospital general la villa\"",
+            "program": "medicina de urgencias",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Montiel Mendoza, Eduardo",
+            "advisor": "Ruiz Razo, Patricia",
+            "x": 11.817245,
+            "y": -0.754676,
+            "cluster_strength": 0.94121
+          },
+          {
+            "thesis_id": "TH_0474739",
+            "doc_number_url": "000741776",
+            "title": "comorbilidades más frecuentes asociadas con diabetes mellitus descompensada en el servicio de urgencias",
+            "program": "medicina de urgencias",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Rio Abarca, Julián del",
+            "advisor": "López Vázquez, Sergio Eduardo",
+            "x": 11.82483,
+            "y": -0.75981,
+            "cluster_strength": 0.753499
+          },
+          {
+            "thesis_id": "TH_0455680",
+            "doc_number_url": "000732308",
+            "title": "correlación de la expresión de citocinas en lágrima y suero en pacientes con diabetes mellitus tipo 2, con retinopatía diabética proliferativa y no proliferativa",
+            "program": "oftalmologia",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Jerves Urgiles, María Belén",
+            "advisor": "Bautista de Lucio, Víctor Manuel",
+            "x": 11.790135,
+            "y": -0.772997,
+            "cluster_strength": 0.445456
+          }
+        ]
+      },
+      {
+        "microcluster_id": 41,
+        "macrocluster_id": 9,
+        "micro_label": "OBESIDAD · PACIENTES · NINOS · SOBREPESO",
+        "size": 392,
+        "x": 8.858049,
+        "y": -1.79628,
+        "year_min": 1893,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "obesidad",
+            "score": 0.053709
+          },
+          {
+            "term": "pacientes",
+            "score": 0.031854
+          },
+          {
+            "term": "ninos",
+            "score": 0.027719
+          },
+          {
+            "term": "sobrepeso",
+            "score": 0.023221
+          },
+          {
+            "term": "relacion",
+            "score": 0.02123
+          },
+          {
+            "term": "riesgo",
+            "score": 0.020837
+          },
+          {
+            "term": "sobrepeso obesidad",
+            "score": 0.020648
+          },
+          {
+            "term": "adolescentes",
+            "score": 0.020293
+          },
+          {
+            "term": "alimentacion",
+            "score": 0.019426
+          },
+          {
+            "term": "familiar",
+            "score": 0.019294
+          },
+          {
+            "term": "metabolico",
+            "score": 0.019226
+          },
+          {
+            "term": "nutricion",
+            "score": 0.019033
+          },
+          {
+            "term": "sindrome",
+            "score": 0.018961
+          },
+          {
+            "term": "factores",
+            "score": 0.017702
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina familiar",
+            "count": 85
+          },
+          {
+            "label": "psicologia",
+            "count": 70
+          },
+          {
+            "label": "pediatria",
+            "count": 26
+          },
+          {
+            "label": "medicina interna",
+            "count": 17
+          },
+          {
+            "label": "pediatria medica",
+            "count": 12
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 12
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 12
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 7
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 318
+          },
+          {
+            "label": "Area 3",
+            "count": 60
+          },
+          {
+            "label": "Area 1",
+            "count": 11
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 214
+          },
+          {
+            "label": "Licenciatura",
+            "count": 131
+          },
+          {
+            "label": "Maestría",
+            "count": 31
+          },
+          {
+            "label": "Doctorado",
+            "count": 16
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 361
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 5
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias médicas",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biomédicas",
+            "count": 1
+          },
+          {
+            "label": "escuela nacional de trabajo social (mexico), institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería cruz roja mexicana, delegación san luis potosí,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.028061,
+          "Area 2": 0.811224,
+          "Area 3": 0.153061,
+          "Area 4": 0.007653,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 318,
+            "pct": 0.811224
+          },
+          {
+            "area": "Area 3",
+            "count": 60,
+            "pct": 0.153061
+          },
+          {
+            "area": "Area 1",
+            "count": 11,
+            "pct": 0.028061
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.007653
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0494709",
+            "doc_number_url": "000776130",
+            "title": "sobrepeso y obesidad en paciente con apendicitis ¿es realmente un factor de riesgo para complicaciones?",
+            "program": "cirugia pediatrica",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cervantes Ledezma, Jesús Javier",
+            "advisor": "Velasco Soria, Luis ; García Cabello, Luis Manuel",
+            "x": 8.862997,
+            "y": -1.81692,
+            "cluster_strength": 0.622938
+          },
+          {
+            "thesis_id": "TH_0430955",
+            "doc_number_url": "000688479",
+            "title": "prevalencia de componentes del síndrome metabólico y acumulación de factores de riesgo en escolares",
+            "program": "medicina familiar",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Pizano Zarate, Maria Luisa",
+            "advisor": "González Unzaga, Marco Aurelio ; Martínez Rojano, Hugo",
+            "x": 8.879848,
+            "y": -1.782579,
+            "cluster_strength": 0.503731
+          },
+          {
+            "thesis_id": "TH_0545166",
+            "doc_number_url": "000845937",
+            "title": "estrés cotidiano asociado al índice de masa corporal en niños de 6-12 años de la unidad de medicina familiar no. 64",
+            "program": "medicina familiar",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "García Castro, Estefanía",
+            "advisor": "Salgado Carro, Eric",
+            "x": 8.838639,
+            "y": -1.779006,
+            "cluster_strength": 0.224844
+          },
+          {
+            "thesis_id": "TH_0231446",
+            "doc_number_url": "000193977",
+            "title": "tratamiento quirurgico de la obesidad morbida : reservorio gastrico horizontal con y de roux",
+            "program": "cirugia general",
+            "year": 1993,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Gonzalez Aguilar, Raul",
+            "advisor": "Ceron Rodriguez, Fernando",
+            "x": 8.84376,
+            "y": -1.818404,
+            "cluster_strength": 0.474395
+          },
+          {
+            "thesis_id": "TH_0508287",
+            "doc_number_url": "000802218",
+            "title": "correlación entre los métodos de cuantificación de la grasa intrahepática por resonancia magnética",
+            "program": "imagenologia diagnostica y terapeutica",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Copete Álvarez, Andrés Felipe",
+            "advisor": "Perochena González, Anamari ; Cristancho Rojas, César",
+            "x": 8.863539,
+            "y": -1.827617,
+            "cluster_strength": 0.275221
+          },
+          {
+            "thesis_id": "TH_0508819",
+            "doc_number_url": "000803146",
+            "title": "grosor de la grasa epicárdica y el riesgo de evc isquémico",
+            "program": "medicina interna",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Estrada Valencia, Martín",
+            "advisor": "Garrido Rubio, Daniel Rabindranath",
+            "x": 8.826479,
+            "y": -1.804366,
+            "cluster_strength": 0.225255
+          },
+          {
+            "thesis_id": "TH_0381700",
+            "doc_number_url": "000786382",
+            "title": "valor energético de alimentos y bebidas azucaradas asociado a sobrepeso y obesidad infantil en una unidad de medicina familiar de la ciudad de méxico",
+            "program": "epidemiologia",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Zamudio García, Cynthia del Carmen",
+            "advisor": "Acosta Cázares, Benjamín ; Medina Gómez, Oswaldo Sinoe",
+            "x": 8.869301,
+            "y": -1.831637,
+            "cluster_strength": 0.38415
+          },
+          {
+            "thesis_id": "TH_0406036",
+            "doc_number_url": "000676604",
+            "title": "expresión de la enzima antioxidante superóxido dismutasa de manganeso en niños obesos de la ciudad de méxico",
+            "program": "quimica farmaceutico biologica",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Sánchez Suárez, Nancy del Rosario",
+            "advisor": "Hernández Saavedra, Daniel ; Sánchez Rodríguez, Martha",
+            "x": 8.895374,
+            "y": -1.79207,
+            "cluster_strength": 0.458982
+          }
+        ]
+      },
+      {
+        "microcluster_id": 1,
+        "macrocluster_id": 9,
+        "micro_label": "APNEA · PACIENTES · OBSTRUCTIVA · OBSTRUCTIVA SUENO",
+        "size": 67,
+        "x": 10.598571,
+        "y": 1.918541,
+        "year_min": 1978,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "apnea",
+            "score": 0.073469
+          },
+          {
+            "term": "pacientes",
+            "score": 0.069427
+          },
+          {
+            "term": "obstructiva",
+            "score": 0.063912
+          },
+          {
+            "term": "obstructiva sueno",
+            "score": 0.063912
+          },
+          {
+            "term": "calidad",
+            "score": 0.05308
+          },
+          {
+            "term": "sindrome",
+            "score": 0.052855
+          },
+          {
+            "term": "insomnio",
+            "score": 0.050991
+          },
+          {
+            "term": "apnea obstructiva",
+            "score": 0.050322
+          },
+          {
+            "term": "sindrome apnea",
+            "score": 0.046719
+          },
+          {
+            "term": "trastornos",
+            "score": 0.045941
+          },
+          {
+            "term": "calidad sueno",
+            "score": 0.044814
+          },
+          {
+            "term": "adultos",
+            "score": 0.044679
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.040133
+          },
+          {
+            "term": "sueno pacientes",
+            "score": 0.038666
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 14
+          },
+          {
+            "label": "medicina familiar",
+            "count": 12
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 5
+          },
+          {
+            "label": "psiquiatria",
+            "count": 4
+          },
+          {
+            "label": "medicina interna",
+            "count": 3
+          },
+          {
+            "label": "neumologia",
+            "count": 3
+          },
+          {
+            "label": "anestesiologia",
+            "count": 3
+          },
+          {
+            "label": "neumologia pediatrica",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 61
+          },
+          {
+            "label": "Area 3",
+            "count": 3
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 39
+          },
+          {
+            "label": "Licenciatura",
+            "count": 22
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 66
+          },
+          {
+            "label": "universidad de sotavento (plantel orizaba)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.014925,
+          "Area 2": 0.910448,
+          "Area 3": 0.044776,
+          "Area 4": 0.029851,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 61,
+            "pct": 0.910448
+          },
+          {
+            "area": "Area 3",
+            "count": 3,
+            "pct": 0.044776
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.029851
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.014925
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0501088",
+            "doc_number_url": "000778726",
+            "title": "riesgo de complicaciones respiratorias postanestésicas en pacientes con síndrome de apnea-hipopnea obstructiva del sueño",
+            "program": "anestesiologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Moral Guerrero, Lilia Ketzalzin del",
+            "advisor": "Segura Fernández, Tomás ; Morales Lopez, Herlinda",
+            "x": 10.594105,
+            "y": 1.918017,
+            "cluster_strength": 0.769291
+          },
+          {
+            "thesis_id": "TH_0449713",
+            "doc_number_url": "000728150",
+            "title": "repercusiones bucodentales en pacientes pediátricos con síndrome de apnea obstructiva del sueño",
+            "program": "cirujano dentista",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Amador Cruz, Berenice",
+            "advisor": "Quintino Cintora, Elizabeth ; González Núñez, César Darío",
+            "x": 10.602389,
+            "y": 1.921805,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0376502",
+            "doc_number_url": "000793981",
+            "title": "trastornos respiratorios durante el sueño y calidad de sueño en niños con malformaciones craneofaciales",
+            "program": "neumologia pediatrica",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Muñoz Perea, Carolina",
+            "advisor": "García Colín, Emma Rosario ; Torres Fraga, Martha Guadalupe ; Carrillo Alduenda, José Luis ; Alejandre García, Alejandro",
+            "x": 10.600964,
+            "y": 1.926278,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0497455",
+            "doc_number_url": "000781705",
+            "title": "intervención de enfermería para mejorar el patrón del sueño en el paciente quemado",
+            "program": "enfermeria",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "González Medina, Iván Alexander",
+            "advisor": "Acevedo Peña, Margarita",
+            "x": 10.59513,
+            "y": 1.926264,
+            "cluster_strength": 0.989685
+          },
+          {
+            "thesis_id": "TH_0008371",
+            "doc_number_url": "000285104",
+            "title": "prevalencia del sindrome de apnea e hipotnea obstructiva del sueño en pacientes con obesidad",
+            "program": "psicologia",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Rosales García, Maria",
+            "advisor": "Valencia Flores, Matilde",
+            "x": 10.603367,
+            "y": 1.925788,
+            "cluster_strength": 0.73969
+          },
+          {
+            "thesis_id": "TH_0508928",
+            "doc_number_url": "000802559",
+            "title": "frecuencia de somnolencia diurna excesiva mediante la escala de epworth en pacientes con apnea-hipopnea obstructiva del sueño",
+            "program": "otorrinolaringologia y cirugia de cabeza y cuello",
+            "year": 2020,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Flores García, Litzahaya",
+            "advisor": "Talayero Petra, José Antonio ; González Sánchez, Dina Fabiola",
+            "x": 10.602871,
+            "y": 1.927267,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0521168",
+            "doc_number_url": "000817918",
+            "title": "riesgo para presentar síndrome de apnea obstructiva del sueño en pacientes obesos de la umf 7",
+            "program": "medicina familiar",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "López Cuevas, Delia",
+            "advisor": "Vega García, Sandra ; Becerril Rocha, Eva Esmeralda ; Millán Hernández, Manuel",
+            "x": 10.603452,
+            "y": 1.92706,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0338133",
+            "doc_number_url": "000622922",
+            "title": "roncopatia y apnea hipopnea obstructiva del sueño, epidemiologia y repercusiones en la poblacion del hospital regional licenciado adolfo lopez mateos",
+            "program": "otorrinolaringologia",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Randy Fernandez, Nagib",
+            "advisor": "Gutierrez Marcos, Luis Miguel ; Castañeda de Leon, Martin Ramiro",
+            "x": 10.60371,
+            "y": 1.927448,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 20,
+        "macrocluster_id": 9,
+        "micro_label": "PERSONAL · PREVALENCIA SINDROME · PREVALENCIA · FAMILIAR",
+        "size": 59,
+        "x": 9.461567,
+        "y": 2.266165,
+        "year_min": 2000,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "personal",
+            "score": 0.068747
+          },
+          {
+            "term": "prevalencia sindrome",
+            "score": 0.054332
+          },
+          {
+            "term": "prevalencia",
+            "score": 0.054332
+          },
+          {
+            "term": "familiar",
+            "score": 0.054156
+          },
+          {
+            "term": "medicina",
+            "score": 0.050776
+          },
+          {
+            "term": "enfermeria",
+            "score": 0.046615
+          },
+          {
+            "term": "residentes",
+            "score": 0.0462
+          },
+          {
+            "term": "relacion",
+            "score": 0.044728
+          },
+          {
+            "term": "burnout personal",
+            "score": 0.044164
+          },
+          {
+            "term": "nivel",
+            "score": 0.042531
+          },
+          {
+            "term": "medicina familiar",
+            "score": 0.041119
+          },
+          {
+            "term": "desgaste",
+            "score": 0.039309
+          },
+          {
+            "term": "laboral",
+            "score": 0.038497
+          },
+          {
+            "term": "estudiantes",
+            "score": 0.036411
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 27
+          },
+          {
+            "label": "medicina familiar",
+            "count": 15
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 3
+          },
+          {
+            "label": "enfermeria",
+            "count": 2
+          },
+          {
+            "label": "medicina del trabajo y ambiental",
+            "count": 2
+          },
+          {
+            "label": "anestesiologia",
+            "count": 2
+          },
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 1
+          },
+          {
+            "label": "cirugia general",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 43
+          },
+          {
+            "label": "Area 3",
+            "count": 16
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 33
+          },
+          {
+            "label": "Especialidad",
+            "count": 25
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 45
+          },
+          {
+            "label": "universidad salesiana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de psicología",
+            "count": 2
+          },
+          {
+            "label": "universidad insurgentes plantel xola",
+            "count": 1
+          },
+          {
+            "label": "universidad salesiana",
+            "count": 1
+          },
+          {
+            "label": "universidad oparin",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.728814,
+          "Area 3": 0.271186,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 43,
+            "pct": 0.728814
+          },
+          {
+            "area": "Area 3",
+            "count": 16,
+            "pct": 0.271186
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0471932",
+            "doc_number_url": "000752917",
+            "title": "programa cognitivo conductual dirigido al manejo del síndrome de desgaste ocupacional",
+            "program": "psicologia",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Mendoza Figueroa, Claudia Elizabeth",
+            "advisor": "Jurado Cárdenas, Samuel",
+            "x": 9.556164,
+            "y": 2.364069,
+            "cluster_strength": 0.482039
+          },
+          {
+            "thesis_id": "TH_0002293",
+            "doc_number_url": "000276854",
+            "title": "desempeño laboral y motivacion : interaccion con el sindrome de desgaste profesional entre odontologos de jurisdicciones sanitarias de los servicios de salud publica del distrito federal",
+            "program": "organizaciones",
+            "year": 2000,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Díaz Romero, Rosa Maria",
+            "advisor": "Acosta Velasco, Maria Elena",
+            "x": 9.576185,
+            "y": 2.399425,
+            "cluster_strength": 0.689341
+          },
+          {
+            "thesis_id": "TH_0481103",
+            "doc_number_url": null,
+            "title": "relación entre burnout y satisfacción laboral en una muestra de trabajadores del distrito federal",
+            "program": "psicologia",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Curiel Ornelas, Izamar Lizbeth",
+            "advisor": "López Segura, Isaura Elena",
+            "x": 9.576964,
+            "y": 2.401015,
+            "cluster_strength": 0.536537
+          },
+          {
+            "thesis_id": "TH_0398662",
+            "doc_number_url": "000693307",
+            "title": "la relación entre el locus de control y el desgaste laboral (burnout) en hospitales del distrito federal",
+            "program": "psicologia",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Esquivel Trujillo, Tania",
+            "advisor": "Camacho Valladares, Miriam",
+            "x": 9.585112,
+            "y": 2.396458,
+            "cluster_strength": 0.86762
+          },
+          {
+            "thesis_id": "TH_0432282",
+            "doc_number_url": "000692593",
+            "title": "relación entre maquiavelismo y síndrome de desgaste ocupacional (burnout) en trabajadores del sector público",
+            "program": "psicologia",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Romero Noguera, Claudia",
+            "advisor": "Uribe Prado, Jesús Felipe ; Patlán Pérez, Juana",
+            "x": 9.59254,
+            "y": 2.408874,
+            "cluster_strength": 0.836254
+          },
+          {
+            "thesis_id": "TH_0430969",
+            "doc_number_url": "000705591",
+            "title": "relación entre clima laboral y sindrome de burnout dentro de una dependencia gubernamental",
+            "program": "psicologia",
+            "year": 2013,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad salesiana mexico",
+            "author": "Polanco Hurtado, Claudia Isabel",
+            "advisor": "Jiménez Monroy, Martha Laura",
+            "x": 9.592851,
+            "y": 2.410611,
+            "cluster_strength": 0.641471
+          },
+          {
+            "thesis_id": "TH_0479705",
+            "doc_number_url": "000766839",
+            "title": "taller preventivo del síndrome de burnout en cuidadores primarios de niños asperger, disminuyendo la ansiedad mediante kundalini yoga",
+            "program": "psicologia",
+            "year": 2017,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Cabrera Bernal, Beatriz Cristina",
+            "advisor": "García Carranza, Damariz ; Mancilla Gómez, Blanca Elena ; Santaella Hidalgo, Guadalupe Beatriz ; Valenzuela Vallejo, Jorge Alonso ; Gutiérrez Ordóñez, María Eugenia",
+            "x": 9.618294,
+            "y": 2.395174,
+            "cluster_strength": 0.233097
+          },
+          {
+            "thesis_id": "TH_0530449",
+            "doc_number_url": "000830760",
+            "title": "niveles de bienestar y burnout en los residentes de cirugía general en un hospital de tercer nivel",
+            "program": "cirugia general",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Chagra Martínez, Jorge Omar",
+            "advisor": "Ortiz Higareda, Vanessa",
+            "x": 9.625324,
+            "y": 2.389922,
+            "cluster_strength": 0.847218
+          }
+        ]
+      }
+    ]
+  }
+}

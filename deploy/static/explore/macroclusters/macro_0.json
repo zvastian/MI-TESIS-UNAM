@@ -1,0 +1,6418 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 0,
+    "macro_label": "MEXICO · MEXICANO · ESTADO · MEXICANA",
+    "size": 2557,
+    "microcluster_count": 20,
+    "microclusters": [
+      {
+        "microcluster_id": 110,
+        "macrocluster_id": 0,
+        "micro_label": "EDUCACION · ESTADO · DERECHOS · CIUDAD",
+        "size": 391,
+        "x": 0.177213,
+        "y": 3.933473,
+        "year_min": 1941,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "educacion",
+            "score": 0.045195
+          },
+          {
+            "term": "estado",
+            "score": 0.02968
+          },
+          {
+            "term": "derechos",
+            "score": 0.027397
+          },
+          {
+            "term": "ciudad",
+            "score": 0.0263
+          },
+          {
+            "term": "estado mexico",
+            "score": 0.024905
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.023844
+          },
+          {
+            "term": "humanos",
+            "score": 0.023425
+          },
+          {
+            "term": "derechos humanos",
+            "score": 0.022969
+          },
+          {
+            "term": "universidad",
+            "score": 0.020666
+          },
+          {
+            "term": "ninos",
+            "score": 0.019884
+          },
+          {
+            "term": "caso",
+            "score": 0.018786
+          },
+          {
+            "term": "superior",
+            "score": 0.018566
+          },
+          {
+            "term": "social",
+            "score": 0.017118
+          },
+          {
+            "term": "analisis",
+            "score": 0.017089
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 87
+          },
+          {
+            "label": "pedagogia",
+            "count": 62
+          },
+          {
+            "label": "psicologia",
+            "count": 35
+          },
+          {
+            "label": "arquitectura",
+            "count": 22
+          },
+          {
+            "label": "economia",
+            "count": 17
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 14
+          },
+          {
+            "label": "sociologia",
+            "count": 13
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 12
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 233
+          },
+          {
+            "label": "Area 4",
+            "count": 74
+          },
+          {
+            "label": "Area 2",
+            "count": 50
+          },
+          {
+            "label": "Area 1",
+            "count": 34
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 279
+          },
+          {
+            "label": "Maestría",
+            "count": 60
+          },
+          {
+            "label": "Doctorado",
+            "count": 26
+          },
+          {
+            "label": "Especialidad",
+            "count": 26
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 354
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en pedagogía",
+            "count": 3
+          },
+          {
+            "label": "universidad tecnológica iberoamericana",
+            "count": 3
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 3
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 2
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.086957,
+          "Area 2": 0.127877,
+          "Area 3": 0.595908,
+          "Area 4": 0.189258,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 233,
+            "pct": 0.595908
+          },
+          {
+            "area": "Area 4",
+            "count": 74,
+            "pct": 0.189258
+          },
+          {
+            "area": "Area 2",
+            "count": 50,
+            "pct": 0.127877
+          },
+          {
+            "area": "Area 1",
+            "count": 34,
+            "pct": 0.086957
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0290259",
+            "doc_number_url": "000275624",
+            "title": "la integracion educativa un medio para elevar la calidad educativa del deficiente mental en mexico",
+            "program": "psicologia",
+            "year": 1999,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Casillas Ortega, Gloria Rebeca",
+            "advisor": "Paez Gomez, Maria del Rocio",
+            "x": 0.197917,
+            "y": 3.937963,
+            "cluster_strength": 0.534042
+          },
+          {
+            "thesis_id": "TH_0399505",
+            "doc_number_url": "000679813",
+            "title": "determinantes económicos y familiares en el acceso a la educación superior en méxico : el caso de la unam",
+            "program": "economia",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "García Vega, Araceli",
+            "advisor": "Murayama Rendón, Ciro",
+            "x": 0.145144,
+            "y": 3.925355,
+            "cluster_strength": 0.959282
+          },
+          {
+            "thesis_id": "TH_0525499",
+            "doc_number_url": "000811923",
+            "title": "el papel de los padres de familia de los alumnos de la escuela de educación primaria naciones unidas de la ciudad de méxico en el aprendizaje de valores",
+            "program": "pedagogia",
+            "year": 2021,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Rodríguez López, Alma Liliana",
+            "advisor": "Romero Hernández, José Luis",
+            "x": 0.215336,
+            "y": 3.937598,
+            "cluster_strength": 0.312552
+          },
+          {
+            "thesis_id": "TH_0030148",
+            "doc_number_url": "000311769",
+            "title": "analisis curricular de las orientaciones pedagogicas para la atencion educativa de niñas y niños de 3 a 6 años de la ciudad de mexico. ciclo escolar 2001-2002",
+            "program": "pedagogia",
+            "year": 2002,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "López Hernandez, Celia",
+            "advisor": "Hirsch Pier, Esther",
+            "x": 0.206128,
+            "y": 3.907677,
+            "cluster_strength": 0.331509
+          },
+          {
+            "thesis_id": "TH_0243311",
+            "doc_number_url": "000206682",
+            "title": "nivel de tolerancia a la frustracion en adolescentes de la calle institucionalizados y no institucionalizados de la ciudad de mexico",
+            "program": "psicologia",
+            "year": 1994,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad femenina de mexico",
+            "author": "Menchaca Campos, Adriana Lorena",
+            "advisor": "Quintanar Marquez, Jesus",
+            "x": 0.145234,
+            "y": 3.9594,
+            "cluster_strength": 0.278228
+          },
+          {
+            "thesis_id": "TH_0512105",
+            "doc_number_url": "000798908",
+            "title": "economía, violencias y entorno escolar en méxico : caso de las escuelas secundarias públicas urbanas; 2005-2017",
+            "program": "economia",
+            "year": 2020,
+            "area": "Area 3",
+            "level": "Doctorado",
+            "plantel": "facultad de economia unam",
+            "author": "Pérez Nieto, Arnoldo",
+            "advisor": "García Páez, Benjamín",
+            "x": 0.177043,
+            "y": 3.891619,
+            "cluster_strength": 0.246173
+          },
+          {
+            "thesis_id": "TH_0474544",
+            "doc_number_url": "000752245",
+            "title": "identidad, escolaridad y proyecto de vida : factores de resiliencia, en jovenes de ciudad juárez, chihuahua",
+            "program": "pedagogia",
+            "year": 2016,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Reséndiz Morán, Ana María",
+            "advisor": "Díaz Barriga Arceo, Frida",
+            "x": 0.201809,
+            "y": 3.894951,
+            "cluster_strength": 0.278228
+          },
+          {
+            "thesis_id": "TH_0207015",
+            "doc_number_url": "000131065",
+            "title": "un estudio teorico acerca del metodo educativo waldorf y sus aportaciones y limitaciones en mexico",
+            "program": "psicologia",
+            "year": 1990,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Morales de la Rosa, Rosinda",
+            "advisor": "Delgado Cervantes, Norma Georgina",
+            "x": 0.21092,
+            "y": 3.900809,
+            "cluster_strength": 0.977263
+          }
+        ]
+      },
+      {
+        "microcluster_id": 129,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICANO · ANALISIS · SISTEMA · FINANCIERO",
+        "size": 294,
+        "x": -1.3481,
+        "y": 3.214476,
+        "year_min": 1942,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexicano",
+            "score": 0.041779
+          },
+          {
+            "term": "analisis",
+            "score": 0.037249
+          },
+          {
+            "term": "sistema",
+            "score": 0.032696
+          },
+          {
+            "term": "financiero",
+            "score": 0.032692
+          },
+          {
+            "term": "inversion",
+            "score": 0.03031
+          },
+          {
+            "term": "mexicana",
+            "score": 0.029785
+          },
+          {
+            "term": "banca",
+            "score": 0.026114
+          },
+          {
+            "term": "politica",
+            "score": 0.023894
+          },
+          {
+            "term": "sistema financiero",
+            "score": 0.023501
+          },
+          {
+            "term": "mercado",
+            "score": 0.023162
+          },
+          {
+            "term": "financiero mexicano",
+            "score": 0.022641
+          },
+          {
+            "term": "monetaria",
+            "score": 0.021937
+          },
+          {
+            "term": "deuda",
+            "score": 0.021372
+          },
+          {
+            "term": "credito",
+            "score": 0.021284
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "economia",
+            "count": 120
+          },
+          {
+            "label": "derecho",
+            "count": 63
+          },
+          {
+            "label": "contaduria",
+            "count": 24
+          },
+          {
+            "label": "actuaria",
+            "count": 20
+          },
+          {
+            "label": "administracion",
+            "count": 15
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 13
+          },
+          {
+            "label": "finanzas",
+            "count": 8
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 7
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 260
+          },
+          {
+            "label": "Area 1",
+            "count": 28
+          },
+          {
+            "label": "Area 4",
+            "count": 4
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 254
+          },
+          {
+            "label": "Maestría",
+            "count": 22
+          },
+          {
+            "label": "Doctorado",
+            "count": 13
+          },
+          {
+            "label": "Especialidad",
+            "count": 4
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 260
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 5
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 4
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de economía",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en economía",
+            "count": 2
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 2
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.095238,
+          "Area 2": 0.003401,
+          "Area 3": 0.884354,
+          "Area 4": 0.013605,
+          "Por Clasificar": 0.003401
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 260,
+            "pct": 0.884354
+          },
+          {
+            "area": "Area 1",
+            "count": 28,
+            "pct": 0.095238
+          },
+          {
+            "area": "Area 4",
+            "count": 4,
+            "pct": 0.013605
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.003401
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.003401
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0105394",
+            "doc_number_url": "000116110",
+            "title": "algunas consideraciones sobre los pagos por factores al exterior y el desequilibrio fundamental de mexico 1960-1969",
+            "program": "economia",
+            "year": 1970,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Enriquez Cervin, Roberto",
+            "advisor": "Silva Herzog Flores, Jesus",
+            "x": -1.340652,
+            "y": 3.206296,
+            "cluster_strength": 0.93212
+          },
+          {
+            "thesis_id": "TH_0194468",
+            "doc_number_url": "000067885",
+            "title": "la tasa de interes en la politica financiera y economica de mexico (1970-1986)",
+            "program": "economia",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Ramos Rosas, Floresther",
+            "advisor": "Mancilla López, Juan Manuel",
+            "x": -1.357542,
+            "y": 3.206662,
+            "cluster_strength": 0.999283
+          },
+          {
+            "thesis_id": "TH_0367457",
+            "doc_number_url": "000644173",
+            "title": "los inversionistas institucionales en méxico 1990-2008",
+            "program": "economia",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Zugarazo Aguilera, Lizbeth",
+            "advisor": "Soto Esquivel, Roberto",
+            "x": -1.335082,
+            "y": 3.208401,
+            "cluster_strength": 0.678953
+          },
+          {
+            "thesis_id": "TH_0368830",
+            "doc_number_url": "000851202",
+            "title": "transferencias monetarias condicionadas : una vía de inclusión financiera en méxico, un análisis para el periodo 1997-2017",
+            "program": "economia",
+            "year": 2019,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Becerril León, Jorge Alberto",
+            "advisor": "Mimbrera Delgado, Mónica Cristina",
+            "x": -1.351717,
+            "y": 3.233551,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0256915",
+            "doc_number_url": "000236998",
+            "title": "efectos de la creacion de los grupos financieros en el sistema financiero mexicano",
+            "program": "contaduria",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad panamericana",
+            "author": "Castillo Spindola, Angel Eduardo",
+            "advisor": "Garcia Naranjo Alvarez, Francisco",
+            "x": -1.365412,
+            "y": 3.205347,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0521392",
+            "doc_number_url": "000810871",
+            "title": "financiamiento y crecimiento en méxico en un contexto de mercados financieros altamente líquidos, 2000-2018",
+            "program": "economia",
+            "year": 2021,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "López Valdez, Oscar",
+            "advisor": "Levy Orlik, Noemí",
+            "x": -1.367528,
+            "y": 3.208201,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0376334",
+            "doc_number_url": "000796809",
+            "title": "situación de las pymes en méxico : el dilema con el sistema financiero (2000-2018)",
+            "program": "economia",
+            "year": 2019,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Moreno Acosta, Erick Abraham",
+            "advisor": "Ulloa Arellano, Víctor Manuel",
+            "x": -1.372066,
+            "y": 3.219246,
+            "cluster_strength": 0.877521
+          },
+          {
+            "thesis_id": "TH_0302275",
+            "doc_number_url": "000340475",
+            "title": "analisis de estados financieros de una empresa prestadora de servicios, ubicada en santa en santa fe mexico, d.f",
+            "program": "administracion",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Cano Albarran, Maria del Socorro",
+            "advisor": "López Marín, Jorge",
+            "x": -1.374259,
+            "y": 3.207283,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 100,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · TRABAJO · MEXICANO · DERECHO",
+        "size": 187,
+        "x": -1.217519,
+        "y": 4.063579,
+        "year_min": 1946,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.090917
+          },
+          {
+            "term": "trabajo",
+            "score": 0.07054
+          },
+          {
+            "term": "mexicano",
+            "score": 0.068382
+          },
+          {
+            "term": "derecho",
+            "score": 0.054202
+          },
+          {
+            "term": "trabajadores",
+            "score": 0.052575
+          },
+          {
+            "term": "laboral",
+            "score": 0.051368
+          },
+          {
+            "term": "laboral mexicano",
+            "score": 0.028971
+          },
+          {
+            "term": "mexicanos",
+            "score": 0.028052
+          },
+          {
+            "term": "ciudad",
+            "score": 0.027917
+          },
+          {
+            "term": "mexicana",
+            "score": 0.027
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.026752
+          },
+          {
+            "term": "derecho mexicano",
+            "score": 0.026382
+          },
+          {
+            "term": "mexicano trabajo",
+            "score": 0.026382
+          },
+          {
+            "term": "sindicalismo",
+            "score": 0.026128
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 101
+          },
+          {
+            "label": "economia",
+            "count": 20
+          },
+          {
+            "label": "psicologia",
+            "count": 16
+          },
+          {
+            "label": "sociologia",
+            "count": 8
+          },
+          {
+            "label": "trabajo social",
+            "count": 6
+          },
+          {
+            "label": "administracion",
+            "count": 6
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 4
+          },
+          {
+            "label": "ciencias politicas y sociales",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 169
+          },
+          {
+            "label": "Area 2",
+            "count": 12
+          },
+          {
+            "label": "Area 1",
+            "count": 4
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 166
+          },
+          {
+            "label": "Maestría",
+            "count": 11
+          },
+          {
+            "label": "Doctorado",
+            "count": 8
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 167
+          },
+          {
+            "label": "universidad intercontinental (mexico)",
+            "count": 2
+          },
+          {
+            "label": "instituto universitario sor juana,",
+            "count": 1
+          },
+          {
+            "label": "universidad panamericana (mexico) escuela de administracion institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de derecho institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          },
+          {
+            "label": "instituto universitario nezahualcóyotl,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de economía",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.02139,
+          "Area 2": 0.064171,
+          "Area 3": 0.903743,
+          "Area 4": 0.010695,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 169,
+            "pct": 0.903743
+          },
+          {
+            "area": "Area 2",
+            "count": 12,
+            "pct": 0.064171
+          },
+          {
+            "area": "Area 1",
+            "count": 4,
+            "pct": 0.02139
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.010695
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0108503",
+            "doc_number_url": "000104502",
+            "title": "la crisis del movimiento obrero en mexico",
+            "program": "derecho",
+            "year": 1971,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Alcocer Salazar, Antonio",
+            "advisor": "",
+            "x": -1.214839,
+            "y": 4.064428,
+            "cluster_strength": 0.505347
+          },
+          {
+            "thesis_id": "TH_0019027",
+            "doc_number_url": "000287950",
+            "title": "transicion y adaptacion del sindicalismo en mexico 1988-1997",
+            "program": "economia",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Pavon Camacho, Gabriel",
+            "advisor": "Martinez Caceres Fimbres, Arturo",
+            "x": -1.224993,
+            "y": 4.06159,
+            "cluster_strength": 0.370844
+          },
+          {
+            "thesis_id": "TH_0139669",
+            "doc_number_url": "000118564",
+            "title": "las fuerzas de atraccion y de repulsion del empleo : el caso de mexico",
+            "program": "economia",
+            "year": 1978,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Lanfontant Conde, Emmanuel Pierre Daniel",
+            "advisor": "",
+            "x": -1.202982,
+            "y": 4.071159,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0124319",
+            "doc_number_url": "000109066",
+            "title": "el mito del sindicalismo en mexico",
+            "program": "derecho",
+            "year": 1975,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Arenas Rodriguez, Luis",
+            "advisor": "Pinera y Rueda, Carlos Mario",
+            "x": -1.231888,
+            "y": 4.051872,
+            "cluster_strength": 0.554765
+          },
+          {
+            "thesis_id": "TH_0444458",
+            "doc_number_url": "000711412",
+            "title": "los trabajadores agrícolas temporales mexicanos y guatemaltecos en quebec y la unión de trabajadores del comercio y la alimentación",
+            "program": "estudios politicos y sociales",
+            "year": 2014,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Ortiz Becerril, Anaid Karla",
+            "advisor": "Lara Flores, Sara María",
+            "x": -1.23649,
+            "y": 4.063446,
+            "cluster_strength": 0.42397
+          },
+          {
+            "thesis_id": "TH_0184593",
+            "doc_number_url": "000013827",
+            "title": "las motivaciones del mexicano hacia el trabajo",
+            "program": "psicologia",
+            "year": 1986,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Olalde Quintanar, Hortensia",
+            "advisor": "Arce Ortiz, Consuelo",
+            "x": -1.203368,
+            "y": 4.076293,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0441318",
+            "doc_number_url": "000718464",
+            "title": "la subcontratación laboral en méxico y su impacto en las relaciones de trabajo",
+            "program": "derecho",
+            "year": 2014,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Jiménez Juárez, Carla",
+            "advisor": "Penagos Arrecis, Carlos Rolando",
+            "x": -1.219721,
+            "y": 4.044599,
+            "cluster_strength": 0.988762
+          },
+          {
+            "thesis_id": "TH_0218217",
+            "doc_number_url": "000146311",
+            "title": "impacto economico del boicot de las uvas en california : una lucha mas del sindicato de trabajadores agricolas en estados unidos",
+            "program": "economia",
+            "year": 1991,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Vazquez Castillo, Maria Teresa",
+            "advisor": "Trejo, Marina",
+            "x": -1.238118,
+            "y": 4.072914,
+            "cluster_strength": 0.66198
+          }
+        ]
+      },
+      {
+        "microcluster_id": 158,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · PENAL · ESTADO · CODIGO",
+        "size": 173,
+        "x": -0.549481,
+        "y": 4.926013,
+        "year_min": 1939,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.083806
+          },
+          {
+            "term": "penal",
+            "score": 0.083264
+          },
+          {
+            "term": "estado",
+            "score": 0.073061
+          },
+          {
+            "term": "codigo",
+            "score": 0.069859
+          },
+          {
+            "term": "estado mexico",
+            "score": 0.065265
+          },
+          {
+            "term": "mexicano",
+            "score": 0.059273
+          },
+          {
+            "term": "penal mexicano",
+            "score": 0.050752
+          },
+          {
+            "term": "articulo",
+            "score": 0.050415
+          },
+          {
+            "term": "codigo penal",
+            "score": 0.047381
+          },
+          {
+            "term": "analisis",
+            "score": 0.042102
+          },
+          {
+            "term": "derecho",
+            "score": 0.041794
+          },
+          {
+            "term": "penal estado",
+            "score": 0.041301
+          },
+          {
+            "term": "delito",
+            "score": 0.040014
+          },
+          {
+            "term": "procedimientos",
+            "score": 0.033986
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 156
+          },
+          {
+            "label": "politica criminal",
+            "count": 3
+          },
+          {
+            "label": "sociologia",
+            "count": 3
+          },
+          {
+            "label": "derecho penal",
+            "count": 2
+          },
+          {
+            "label": "psicologia",
+            "count": 2
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 2
+          },
+          {
+            "label": "economia",
+            "count": 2
+          },
+          {
+            "label": "fisica",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 170
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 155
+          },
+          {
+            "label": "Maestría",
+            "count": 10
+          },
+          {
+            "label": "Doctorado",
+            "count": 6
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 141
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 7
+          },
+          {
+            "label": "universidad villa rica (boca del rio",
+            "count": 4
+          },
+          {
+            "label": "universidad intercontinental (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad tecnológica iberoamericana (xalatlaco",
+            "count": 2
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad lasallista benavente",
+            "count": 2
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.011561,
+          "Area 2": 0.00578,
+          "Area 3": 0.982659,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 170,
+            "pct": 0.982659
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.011561
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.00578
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0316633",
+            "doc_number_url": "000612157",
+            "title": "los efectos de las conclusiones contradictorias en relacion al auto de formal prision, en la legislacion procesal del estado de mexico",
+            "program": "derecho",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Cárdenas Francisco, Ricardo",
+            "advisor": "Trinidad Gutierrez, Gilberto",
+            "x": -0.540563,
+            "y": 4.928346,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0480652",
+            "doc_number_url": "000760222",
+            "title": "la política penitenciaria en méxico en el contexto de la reforma penal : análisis desde la perspectiva de los derechos humanos",
+            "program": "politica criminal",
+            "year": 2017,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Colín Hernández, Edwin Galileo",
+            "advisor": "García García, Guadalupe Leticia",
+            "x": -0.551045,
+            "y": 4.940682,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0454383",
+            "doc_number_url": "000729606",
+            "title": "juez ejecutor de sentencias y política criminal carcelaria en el estado de méxico : un acercamiento técnico-legal de la prisión y los derechos humanos",
+            "program": "politica criminal",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "González Martínez, María Iracema Cristal",
+            "advisor": "Álvarez León, José Antonio",
+            "x": -0.535577,
+            "y": 4.938704,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0294272",
+            "doc_number_url": "000275399",
+            "title": "consideraciones juridicas sobre la problematica de la revocacion de la adopcion simple contenida en la fraccion iidel articulo 388 del codigo civil para el estado de mexico",
+            "program": "derecho",
+            "year": 1999,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Parra Millán, José Luis",
+            "advisor": "Vázquez Estrada, Laura",
+            "x": -0.570463,
+            "y": 4.939259,
+            "cluster_strength": 0.848763
+          },
+          {
+            "thesis_id": "TH_0479120",
+            "doc_number_url": "000758842",
+            "title": "deficiencias del sistema penitenciario en méxico",
+            "program": "derecho",
+            "year": 2017,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad lasallista benavente",
+            "author": "Báez López, Fernando Antonio",
+            "advisor": "Llamas Rojas, Rogelio",
+            "x": -0.571319,
+            "y": 4.946857,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0236849",
+            "doc_number_url": "000189972",
+            "title": "consideraciones personales en torno a la utilidad de la criminologia en el derecho penal mexicano",
+            "program": "derecho",
+            "year": 1993,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Tovar García, Ricardo",
+            "advisor": "Navarro Sánchez, Enrique",
+            "x": -0.518676,
+            "y": 4.916108,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0504652",
+            "doc_number_url": "000781536",
+            "title": "la aplicación de la teoría del delito durante la reclasificación jurídica del hecho que la ley señala como delito en el sistema acusatorio y oral del derecho procesal penal mexicano",
+            "program": "derecho",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "San Juan Hernández, Diego",
+            "advisor": "Guzmán García, Félix Fernando",
+            "x": -0.521671,
+            "y": 4.909108,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0325859",
+            "doc_number_url": "000615353",
+            "title": "estudio comparativo de los diferentes tipos de sanciones y su evolucion en el derecho penal mexicano",
+            "program": "derecho",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Sanchez Morales, Lourdes Guadalupe",
+            "advisor": "León López, María Graciela",
+            "x": -0.51684,
+            "y": 4.926032,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 114,
+        "macrocluster_id": 0,
+        "micro_label": "AGRARIA · ESTADO · MEXICANO · AGRARIO",
+        "size": 162,
+        "x": 0.998684,
+        "y": 3.616647,
+        "year_min": 1934,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "agraria",
+            "score": 0.045588
+          },
+          {
+            "term": "estado",
+            "score": 0.043585
+          },
+          {
+            "term": "mexicano",
+            "score": 0.042907
+          },
+          {
+            "term": "agrario",
+            "score": 0.042129
+          },
+          {
+            "term": "agricola",
+            "score": 0.040967
+          },
+          {
+            "term": "produccion",
+            "score": 0.034721
+          },
+          {
+            "term": "agraria mexico",
+            "score": 0.031735
+          },
+          {
+            "term": "agrario mexico",
+            "score": 0.030546
+          },
+          {
+            "term": "estudio",
+            "score": 0.029445
+          },
+          {
+            "term": "reforma",
+            "score": 0.02862
+          },
+          {
+            "term": "caso",
+            "score": 0.02675
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.026246
+          },
+          {
+            "term": "mexicana",
+            "score": 0.025074
+          },
+          {
+            "term": "analisis",
+            "score": 0.02488
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 50
+          },
+          {
+            "label": "economia",
+            "count": 42
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 6
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 6
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 6
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 5
+          },
+          {
+            "label": "ciencias de la sostenibilidad",
+            "count": 4
+          },
+          {
+            "label": "arquitectura",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 116
+          },
+          {
+            "label": "Area 2",
+            "count": 24
+          },
+          {
+            "label": "Area 1",
+            "count": 14
+          },
+          {
+            "label": "Area 4",
+            "count": 8
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 140
+          },
+          {
+            "label": "Maestría",
+            "count": 15
+          },
+          {
+            "label": "Doctorado",
+            "count": 7
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 151
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de trabajo social institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de derecho institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en economía",
+            "count": 1
+          },
+          {
+            "label": "instituto de estudios superiores del colegio citlalli,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de arquitectura",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de filosofía y letras",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.08642,
+          "Area 2": 0.148148,
+          "Area 3": 0.716049,
+          "Area 4": 0.049383,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 116,
+            "pct": 0.716049
+          },
+          {
+            "area": "Area 2",
+            "count": 24,
+            "pct": 0.148148
+          },
+          {
+            "area": "Area 1",
+            "count": 14,
+            "pct": 0.08642
+          },
+          {
+            "area": "Area 4",
+            "count": 8,
+            "pct": 0.049383
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0115445",
+            "doc_number_url": "000116202",
+            "title": "caracteristicas del desarrollo por sectores agricola e industrial en mexico",
+            "program": "economia",
+            "year": 1972,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Perez Velasco, M. Guillermo",
+            "advisor": "",
+            "x": 0.989055,
+            "y": 3.622209,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0390165",
+            "doc_number_url": "000662018",
+            "title": "impacto del tlcan en el sector agropecuario en méxico",
+            "program": "derecho",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Morales Zamarripa, David",
+            "advisor": "Muñoz de Cote, Alfonso Tirso",
+            "x": 0.983504,
+            "y": 3.616409,
+            "cluster_strength": 0.642767
+          },
+          {
+            "thesis_id": "TH_0079914",
+            "doc_number_url": "000085952",
+            "title": "perfil de la reforma agraria en el estado de puebla",
+            "program": "derecho",
+            "year": 1954,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Oropeza Quiroz, Norberto",
+            "advisor": "",
+            "x": 1.017901,
+            "y": 3.619952,
+            "cluster_strength": 0.823483
+          },
+          {
+            "thesis_id": "TH_0464110",
+            "doc_number_url": "000750442",
+            "title": "a 21 años del tlcan : el caso del sector agrícola en méxico",
+            "program": "relaciones internacionales",
+            "year": 2016,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Álvarez Olivar, Carlos Enrique",
+            "advisor": "Gutiérrez Castro, Jesús",
+            "x": 0.989865,
+            "y": 3.63494,
+            "cluster_strength": 0.438137
+          },
+          {
+            "thesis_id": "TH_0166992",
+            "doc_number_url": "000030843",
+            "title": "la colectivizacion del campesinado dentro del agro. mexicano",
+            "program": "derecho",
+            "year": 1984,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Alcantara Franco, Maria del Rocio",
+            "advisor": "Oviedo de la Vega, Andrés",
+            "x": 1.024377,
+            "y": 3.620446,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0462645",
+            "doc_number_url": "000729326",
+            "title": "el impacto diferencial de la crisis agroalimentaria en méxico : una perspectiva regional",
+            "program": "economia",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Valdéz Espinosa, Diana Rocío",
+            "advisor": "Gasca Zamora, José",
+            "x": 0.978066,
+            "y": 3.638285,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0255568",
+            "doc_number_url": "000234007",
+            "title": "la importancia de los asuntos agrarios en mexico",
+            "program": "ciencias politicas y administracion publica",
+            "year": 1996,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Alvarado Sierra, Roberto",
+            "advisor": "Aguilera Hintelholher, Rina Marissa",
+            "x": 0.988847,
+            "y": 3.64993,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0582452",
+            "doc_number_url": "000882974",
+            "title": "estado de nutrición de los trabajadores de la secretaría del medio ambiente y recursos naturales de la ciudad de méxico",
+            "program": "licenciado en nutriologia",
+            "year": 2026,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "López Juárez, Zamady Yuritzy",
+            "advisor": "Lozada Mellado, Mariel ; Guerrero Cadenas, Eva Gabriela ; Rodríguez García, Wendy Daniella",
+            "x": 0.964774,
+            "y": 3.624149,
+            "cluster_strength": 0.750277
+          }
+        ]
+      },
+      {
+        "microcluster_id": 65,
+        "macrocluster_id": 0,
+        "micro_label": "SOCIAL · SEGURO · MEXICO · MEXICANO",
+        "size": 137,
+        "x": -1.419805,
+        "y": 3.827889,
+        "year_min": 1947,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "social",
+            "score": 0.110348
+          },
+          {
+            "term": "seguro",
+            "score": 0.09073
+          },
+          {
+            "term": "mexico",
+            "score": 0.088656
+          },
+          {
+            "term": "mexicano",
+            "score": 0.081943
+          },
+          {
+            "term": "seguro social",
+            "score": 0.077857
+          },
+          {
+            "term": "mexicano seguro",
+            "score": 0.069205
+          },
+          {
+            "term": "instituto",
+            "score": 0.067403
+          },
+          {
+            "term": "instituto mexicano",
+            "score": 0.066903
+          },
+          {
+            "term": "seguridad",
+            "score": 0.057684
+          },
+          {
+            "term": "seguridad social",
+            "score": 0.054895
+          },
+          {
+            "term": "pensiones",
+            "score": 0.047017
+          },
+          {
+            "term": "sistema",
+            "score": 0.040203
+          },
+          {
+            "term": "social mexico",
+            "score": 0.035992
+          },
+          {
+            "term": "analisis",
+            "score": 0.033974
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 42
+          },
+          {
+            "label": "actuaria",
+            "count": 23
+          },
+          {
+            "label": "economia",
+            "count": 16
+          },
+          {
+            "label": "administracion",
+            "count": 6
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 6
+          },
+          {
+            "label": "psicologia",
+            "count": 6
+          },
+          {
+            "label": "trabajo social",
+            "count": 5
+          },
+          {
+            "label": "contaduria",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 96
+          },
+          {
+            "label": "Area 1",
+            "count": 26
+          },
+          {
+            "label": "Area 2",
+            "count": 12
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 117
+          },
+          {
+            "label": "Especialidad",
+            "count": 9
+          },
+          {
+            "label": "Maestría",
+            "count": 7
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 125
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias políticas y sociales",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de trabajo social institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.189781,
+          "Area 2": 0.087591,
+          "Area 3": 0.70073,
+          "Area 4": 0.021898,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 96,
+            "pct": 0.70073
+          },
+          {
+            "area": "Area 1",
+            "count": 26,
+            "pct": 0.189781
+          },
+          {
+            "area": "Area 2",
+            "count": 12,
+            "pct": 0.087591
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.021898
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0034026",
+            "doc_number_url": "000313369",
+            "title": "aspectos generales del seguro de salud y la importancia de su desarrolllo en mexico (ises)",
+            "program": "actuaria",
+            "year": 2002,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Raya Reyes, Ricardo",
+            "advisor": "Aguilar Beltran, Pedro",
+            "x": -1.406758,
+            "y": 3.823116,
+            "cluster_strength": 0.220793
+          },
+          {
+            "thesis_id": "TH_0482731",
+            "doc_number_url": "000840118",
+            "title": "sucripción de riesgos aplicado al seguro de vida grupo en méxico",
+            "program": "actuaria",
+            "year": 2017,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Garnica Navarro, César",
+            "advisor": "Pérez Márquez, Fernando",
+            "x": -1.43445,
+            "y": 3.825053,
+            "cluster_strength": 0.259517
+          },
+          {
+            "thesis_id": "TH_0519455",
+            "doc_number_url": "000820564",
+            "title": "las políticas de cuidado en méxico (1997-2020) : continuidades y rupturas",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2021,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "González Torres, Eder Iván",
+            "advisor": "Bayón, María Cristina",
+            "x": -1.392421,
+            "y": 3.828976,
+            "cluster_strength": 0.191496
+          },
+          {
+            "thesis_id": "TH_0249004",
+            "doc_number_url": "000228922",
+            "title": "evaluacion del costo que tienen los tratamientos sanitarios en una explotacion ovina comercial del estado de mexico",
+            "program": "medicina veterinaria y zootecnia",
+            "year": 1995,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Calva Carranza, Alejandra Selene",
+            "advisor": "Oviedo Fernández, Guillermo Tomás",
+            "x": -1.364497,
+            "y": 3.81985,
+            "cluster_strength": 0.18633
+          },
+          {
+            "thesis_id": "TH_0101886",
+            "doc_number_url": "000078214",
+            "title": "la coordinacion en la asistencia social en mexico",
+            "program": "administracion",
+            "year": 1969,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Caudillo Najera, Librado",
+            "advisor": "",
+            "x": -1.484249,
+            "y": 3.831895,
+            "cluster_strength": 0.274169
+          },
+          {
+            "thesis_id": "TH_0099821",
+            "doc_number_url": "000099593",
+            "title": "el seguro de invalidez, vejez y muerte en mexico",
+            "program": "derecho",
+            "year": 1968,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "García Velazquez, Alberto",
+            "advisor": "",
+            "x": -1.37652,
+            "y": 3.890918,
+            "cluster_strength": 0.208051
+          },
+          {
+            "thesis_id": "TH_0055595",
+            "doc_number_url": "000334207",
+            "title": "analisis del seguro de gastos medicos mayores en mexico : problemas y perspectivas",
+            "program": "actuaria",
+            "year": 2004,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Gomez Nava, Mirian",
+            "advisor": "Aguilar Gonzalez, Mauricio",
+            "x": -1.390055,
+            "y": 3.751593,
+            "cluster_strength": 0.207173
+          },
+          {
+            "thesis_id": "TH_0400227",
+            "doc_number_url": "000674898",
+            "title": "el acceso a los servicios y gastos en salud para méxico en 2008",
+            "program": "actuaria",
+            "year": 2011,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Gutiérrez Basulto, Aldo Alejandro",
+            "advisor": "Echarri Cánovas, Carlos Xavier",
+            "x": -1.334423,
+            "y": 3.83196,
+            "cluster_strength": 0.193635
+          }
+        ]
+      },
+      {
+        "microcluster_id": 127,
+        "macrocluster_id": 0,
+        "micro_label": "AMERICA · LATINA · AMERICA LATINA · CUBA",
+        "size": 129,
+        "x": -0.417954,
+        "y": 3.052324,
+        "year_min": 1940,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "america",
+            "score": 0.067337
+          },
+          {
+            "term": "latina",
+            "score": 0.063719
+          },
+          {
+            "term": "america latina",
+            "score": 0.063719
+          },
+          {
+            "term": "cuba",
+            "score": 0.043401
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.03399
+          },
+          {
+            "term": "latinoamericano",
+            "score": 0.032751
+          },
+          {
+            "term": "politica",
+            "score": 0.031128
+          },
+          {
+            "term": "integracion",
+            "score": 0.025646
+          },
+          {
+            "term": "mexico",
+            "score": 0.024899
+          },
+          {
+            "term": "crisis",
+            "score": 0.022922
+          },
+          {
+            "term": "estado",
+            "score": 0.022681
+          },
+          {
+            "term": "colombia",
+            "score": 0.022531
+          },
+          {
+            "term": "proyecto",
+            "score": 0.021971
+          },
+          {
+            "term": "bolivia",
+            "score": 0.021612
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "estudios latinoamericanos",
+            "count": 43
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 29
+          },
+          {
+            "label": "historia",
+            "count": 12
+          },
+          {
+            "label": "economia",
+            "count": 12
+          },
+          {
+            "label": "sociologia",
+            "count": 9
+          },
+          {
+            "label": "derecho",
+            "count": 2
+          },
+          {
+            "label": "geografia",
+            "count": 2
+          },
+          {
+            "label": "ciencias politicas y sociales",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 74
+          },
+          {
+            "label": "Area 4",
+            "count": 52
+          },
+          {
+            "label": "Area 1",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 73
+          },
+          {
+            "label": "Maestría",
+            "count": 35
+          },
+          {
+            "label": "Doctorado",
+            "count": 21
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 118
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en estudios latinoamericanos",
+            "count": 2
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias políticas y sociales",
+            "count": 2
+          },
+          {
+            "label": "universidad lasallista benavente",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias politicas y sociales institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias políticas y sociales institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.023256,
+          "Area 2": 0.0,
+          "Area 3": 0.573643,
+          "Area 4": 0.403101,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 74,
+            "pct": 0.573643
+          },
+          {
+            "area": "Area 4",
+            "count": 52,
+            "pct": 0.403101
+          },
+          {
+            "area": "Area 1",
+            "count": 3,
+            "pct": 0.023256
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0569293",
+            "doc_number_url": "000878688",
+            "title": "política y literatura en la vía chilena al socialismo : el caso de la revista cormorán en chile (1969-1970)",
+            "program": "estudios politicos y sociales",
+            "year": 2025,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Antonio Jasso, Evelin Jacqueline",
+            "advisor": "Depetris, María Carolina",
+            "x": -0.413523,
+            "y": 3.057677,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0524591",
+            "doc_number_url": "000815807",
+            "title": "planes de desarrollo y concepciones del estado en bolivia 1982-2010 : avatares de la transformación del estado aparente",
+            "program": "estudios latinoamericanos",
+            "year": 2021,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Quintero Leguizamon, Robert Adrián",
+            "advisor": "Oliver Costilla, Lucio",
+            "x": -0.412713,
+            "y": 3.038255,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0395413",
+            "doc_number_url": "000663777",
+            "title": "los orígenes y principios rectores de la revolución bolivariana en venezuela : génesis de un nuevo proyecto latinoamericano",
+            "program": "estudios latinoamericanos",
+            "year": 2010,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Vargas Cortés, Marisol",
+            "advisor": "Tur Donati, Carlos Mariano",
+            "x": -0.40121,
+            "y": 3.044869,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0139286",
+            "doc_number_url": "000070343",
+            "title": "el patido socialista y el proceso chileno, 1933-1958",
+            "program": "sociologia",
+            "year": 1978,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Gonzalez Ayerdi, Fco. Javier",
+            "advisor": "",
+            "x": -0.437742,
+            "y": 3.035278,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0437444",
+            "doc_number_url": "000719177",
+            "title": "¡volveré y seré millones! : una mirada retrospectiva a la configuración del katarismo y su vigencia en los procesos políticos de qullasuyu bolivia",
+            "program": "estudios latinoamericanos",
+            "year": 2014,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Cisneros Castillo, Katia",
+            "advisor": "López Nájera, Verónica Renata",
+            "x": -0.422051,
+            "y": 3.0789,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0068647",
+            "doc_number_url": "000121264",
+            "title": "relaciones precolombinas entre cuba y yucatan",
+            "program": "historia de mexico",
+            "year": 1940,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Bermejillo, Lorenza",
+            "advisor": "",
+            "x": -0.404672,
+            "y": 3.081415,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0361025",
+            "doc_number_url": "000646071",
+            "title": "de comunarios y vecinos : el ethos comunal en la política boliviana : una reflexión acerca de las formas comunales de la política en el mundo aymara contemporáneo",
+            "program": "estudios latinoamericanos",
+            "year": 2009,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Linsalata, Lucia",
+            "advisor": "Álvarez Enríquez, Lucía",
+            "x": -0.44676,
+            "y": 3.036497,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0123114",
+            "doc_number_url": "000072506",
+            "title": "el popularismo boliviano : raices y significado historico del movimientismo",
+            "program": "sociologia",
+            "year": 1974,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Ponce Arauco, Gabriel",
+            "advisor": "Zavaleta Mercado, Rene",
+            "x": -0.384106,
+            "y": 3.061377,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 121,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · CINE · MEXICANO · TELEVISION",
+        "size": 117,
+        "x": -0.163415,
+        "y": 2.661594,
+        "year_min": 1951,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.128597
+          },
+          {
+            "term": "cine",
+            "score": 0.073176
+          },
+          {
+            "term": "mexicano",
+            "score": 0.058463
+          },
+          {
+            "term": "television",
+            "score": 0.050141
+          },
+          {
+            "term": "radio",
+            "score": 0.0476
+          },
+          {
+            "term": "ciudad",
+            "score": 0.043177
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.039145
+          },
+          {
+            "term": "mexicana",
+            "score": 0.038502
+          },
+          {
+            "term": "teatro",
+            "score": 0.038137
+          },
+          {
+            "term": "periodismo",
+            "score": 0.036562
+          },
+          {
+            "term": "caso",
+            "score": 0.035007
+          },
+          {
+            "term": "analisis",
+            "score": 0.030952
+          },
+          {
+            "term": "cine mexicano",
+            "score": 0.030943
+          },
+          {
+            "term": "digital",
+            "score": 0.028659
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 29
+          },
+          {
+            "label": "periodismo",
+            "count": 14
+          },
+          {
+            "label": "comunicacion y periodismo",
+            "count": 8
+          },
+          {
+            "label": "derecho",
+            "count": 7
+          },
+          {
+            "label": "comunicacion",
+            "count": 6
+          },
+          {
+            "label": "arquitectura",
+            "count": 6
+          },
+          {
+            "label": "literatura dramatica y teatro",
+            "count": 6
+          },
+          {
+            "label": "periodismo y comunicacion colectiva",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 62
+          },
+          {
+            "label": "Area 4",
+            "count": 43
+          },
+          {
+            "label": "Area 1",
+            "count": 10
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 94
+          },
+          {
+            "label": "Maestría",
+            "count": 13
+          },
+          {
+            "label": "Doctorado",
+            "count": 9
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 104
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autonoma de mexico. facultad de ciencias politicas y sociales, institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias políticas y sociales",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias políticas y sociales",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara jal) escuela de ciencias de la comunicacion institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autonoma de mexico. facultad de ciencias politicas y sociales, institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.08547,
+          "Area 2": 0.017094,
+          "Area 3": 0.529915,
+          "Area 4": 0.367521,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 62,
+            "pct": 0.529915
+          },
+          {
+            "area": "Area 4",
+            "count": 43,
+            "pct": 0.367521
+          },
+          {
+            "area": "Area 1",
+            "count": 10,
+            "pct": 0.08547
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.017094
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0540265",
+            "doc_number_url": "000826982",
+            "title": "radio paradiso : historia del encuentro entre radio y cine en méxico, 1921-1932",
+            "program": "historia",
+            "year": 2022,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Vargas Arana, Gilberto",
+            "advisor": "Medina Ávila, Virginia",
+            "x": -0.180673,
+            "y": 2.663869,
+            "cluster_strength": 0.626354
+          },
+          {
+            "thesis_id": "TH_0575631",
+            "doc_number_url": "000871125",
+            "title": "periodismo musical en méxico : cómo se reseñan álbumes de música contemporánea en medios digitales",
+            "program": "periodismo",
+            "year": 2025,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Marquezhoyos Alvarado, Brenda",
+            "advisor": "Casillas Casillas, José Oscar",
+            "x": -0.149261,
+            "y": 2.641278,
+            "cluster_strength": 0.793236
+          },
+          {
+            "thesis_id": "TH_0357363",
+            "doc_number_url": "000651189",
+            "title": "de cisnes, heroínas y de más personajes que viajan por el hertzio : programas radiofónicos del inbal para la promoción de sus actividades culturales en méxico de 1997 a 2008",
+            "program": "ciencias de la comunicacion",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Corona León, Lorena",
+            "advisor": "Luna López, María Guadalupe Aida",
+            "x": -0.132564,
+            "y": 2.660888,
+            "cluster_strength": 0.779948
+          },
+          {
+            "thesis_id": "TH_0312240",
+            "doc_number_url": "000600634",
+            "title": "la radio en internet como nuevo medio de comunicacion; de la radio convencional a los contenidos multimedia; el caso de radiok, mexico",
+            "program": "ciencias de la comunicacion",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Rosel Moreno, Marìa Guadalupe Irasema",
+            "advisor": "Vega Escalante, Carlos",
+            "x": -0.167786,
+            "y": 2.626759,
+            "cluster_strength": 0.916277
+          },
+          {
+            "thesis_id": "TH_0314316",
+            "doc_number_url": "000601666",
+            "title": "proceso de produccion de documentales de temas de naturaleza : el caso de mexico azul, serie dedicada a mostrar las riquezas de los mares de mexico, realizada por xeipn tv canal once",
+            "program": "ciencias de la comunicacion",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Velazquez Quijano, Oliver",
+            "advisor": "Ferrer Andrade, Guadalupe",
+            "x": -0.143638,
+            "y": 2.619881,
+            "cluster_strength": 0.941579
+          },
+          {
+            "thesis_id": "TH_0321891",
+            "doc_number_url": "000606589",
+            "title": "descripcion del estandar de television digital atsc y análisis de su implementacion terrestre en mexico",
+            "program": "ingenieria en telecomunicaciones",
+            "year": 2006,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Martinez Juarez, Alberto Oliver",
+            "advisor": "Moumtadi, Fátima",
+            "x": -0.210175,
+            "y": 2.660681,
+            "cluster_strength": 0.549053
+          },
+          {
+            "thesis_id": "TH_0429906",
+            "doc_number_url": "000693092",
+            "title": "televisión digital terrestre en méxico",
+            "program": "ingenieria en telecomunicaciones",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Ocampo Sánchez, Thalia Ivonne",
+            "advisor": "Vargas Sandoval, Damián Federico",
+            "x": -0.196033,
+            "y": 2.622652,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0476985",
+            "doc_number_url": "000842276",
+            "title": "las noticias en mi vida : una aventura por tv azteca",
+            "program": "periodismo y comunicacion colectiva",
+            "year": 2016,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Uribe González, María Elizabeth",
+            "advisor": "Rodríguez Inda, Ricardo",
+            "x": -0.209847,
+            "y": 2.639574,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 69,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · MIGRACION · MIGRANTES · ESTADOS",
+        "size": 113,
+        "x": 0.244151,
+        "y": 4.545352,
+        "year_min": 1971,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.106273
+          },
+          {
+            "term": "migracion",
+            "score": 0.097726
+          },
+          {
+            "term": "migrantes",
+            "score": 0.059881
+          },
+          {
+            "term": "estados",
+            "score": 0.042195
+          },
+          {
+            "term": "refugiados",
+            "score": 0.038978
+          },
+          {
+            "term": "unidos",
+            "score": 0.037248
+          },
+          {
+            "term": "estados unidos",
+            "score": 0.037248
+          },
+          {
+            "term": "caso",
+            "score": 0.032467
+          },
+          {
+            "term": "derechos",
+            "score": 0.031423
+          },
+          {
+            "term": "analisis",
+            "score": 0.031141
+          },
+          {
+            "term": "social",
+            "score": 0.027339
+          },
+          {
+            "term": "humanos",
+            "score": 0.027127
+          },
+          {
+            "term": "derechos humanos",
+            "score": 0.027127
+          },
+          {
+            "term": "migratoria",
+            "score": 0.027056
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "relaciones internacionales",
+            "count": 25
+          },
+          {
+            "label": "derecho",
+            "count": 19
+          },
+          {
+            "label": "economia",
+            "count": 9
+          },
+          {
+            "label": "actuaria",
+            "count": 7
+          },
+          {
+            "label": "sociologia",
+            "count": 6
+          },
+          {
+            "label": "trabajo social",
+            "count": 5
+          },
+          {
+            "label": "geografia",
+            "count": 5
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 79
+          },
+          {
+            "label": "Area 4",
+            "count": 20
+          },
+          {
+            "label": "Area 1",
+            "count": 10
+          },
+          {
+            "label": "Area 2",
+            "count": 4
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 90
+          },
+          {
+            "label": "Maestría",
+            "count": 17
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 103
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 2
+          },
+          {
+            "label": "universidad insurgentes (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad franco mexicana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias políticas y sociales",
+            "count": 1
+          },
+          {
+            "label": "centro universitario americano del estado de morelos. escuela de relaciones internacionales, institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.088496,
+          "Area 2": 0.035398,
+          "Area 3": 0.699115,
+          "Area 4": 0.176991,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 79,
+            "pct": 0.699115
+          },
+          {
+            "area": "Area 4",
+            "count": 20,
+            "pct": 0.176991
+          },
+          {
+            "area": "Area 1",
+            "count": 10,
+            "pct": 0.088496
+          },
+          {
+            "area": "Area 2",
+            "count": 4,
+            "pct": 0.035398
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0187707",
+            "doc_number_url": "000031557",
+            "title": "situacion migratoria de los extranjeros en mexico",
+            "program": "derecho",
+            "year": 1987,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Aguilar Maytorena, Hector Eugenio",
+            "advisor": "García Moreno, Víctor Carlos",
+            "x": 0.24123,
+            "y": 4.548079,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0205507",
+            "doc_number_url": "000144349",
+            "title": "calidades y caracteristicas migratorias y su evolucion en mexico",
+            "program": "derecho",
+            "year": 1990,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad franco mexicana",
+            "author": "Herrera Seguin, Eduardo Adolfo",
+            "advisor": "Herrera Maya, Irma",
+            "x": 0.247435,
+            "y": 4.534235,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0363610",
+            "doc_number_url": "000648769",
+            "title": "mara salvatrucha : estudio de su naturaleza migratoria y su impacto en el sistema político mexicano (1996-2007)",
+            "program": "relaciones internacionales",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Pantoja García, Erika Marina",
+            "advisor": "García Contreras, David",
+            "x": 0.254851,
+            "y": 4.537935,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0282311",
+            "doc_number_url": "000267598",
+            "title": "factores sociolinguisticos en el nivel de adquisicion de frances, de refugiados politicos chilenos en belgica",
+            "program": "ling istica aplicada",
+            "year": 1998,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Hottart, Ingrid Albertine Marcelle",
+            "advisor": "Colín, Marisela",
+            "x": 0.259769,
+            "y": 4.534469,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0329802",
+            "doc_number_url": "000619998",
+            "title": "modelo de atención a migrantes, solicitantes de asilo y refugiados recien llegados al df",
+            "program": "psicologia",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Carreño Nigenda, Carolina",
+            "advisor": "Álvarez Martínez, Jorge",
+            "x": 0.222897,
+            "y": 4.544773,
+            "cluster_strength": 0.77262
+          },
+          {
+            "thesis_id": "TH_0315369",
+            "doc_number_url": "000613689",
+            "title": "la emergencia de nuevas formas de transnacionalidad en la nueva era de las migraciones entre mexico y estados unidos : el caso amilcingo y norcross",
+            "program": "antropologia",
+            "year": 2006,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Amescua Chávez, Cristina",
+            "advisor": "Arizpe S., Lourdes",
+            "x": 0.233166,
+            "y": 4.565259,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0400255",
+            "doc_number_url": "000667607",
+            "title": "migrantes : novela gráfica realizada bajo la postura teórica de will eisner",
+            "program": "artes visuales",
+            "year": 2011,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Gutiérrez García, Abelardo",
+            "advisor": "Madrid Vargas, Juan Antonio",
+            "x": 0.266627,
+            "y": 4.534041,
+            "cluster_strength": 0.706419
+          },
+          {
+            "thesis_id": "TH_0365251",
+            "doc_number_url": "000640458",
+            "title": "tendencias recientes de la migración méxico-estados unidos y algunos impactos regionales y sociales",
+            "program": "economia",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Rosales Rangel, César Alejandro",
+            "advisor": "Ávila Martínez, José Luis",
+            "x": 0.268062,
+            "y": 4.559929,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 125,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · CIUDAD · ARTE · CIUDAD MEXICO",
+        "size": 112,
+        "x": 0.441821,
+        "y": 2.707675,
+        "year_min": 1928,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.126172
+          },
+          {
+            "term": "ciudad",
+            "score": 0.077932
+          },
+          {
+            "term": "arte",
+            "score": 0.071421
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.070663
+          },
+          {
+            "term": "centro",
+            "score": 0.057077
+          },
+          {
+            "term": "diseno",
+            "score": 0.0559
+          },
+          {
+            "term": "cultural",
+            "score": 0.043804
+          },
+          {
+            "term": "arquitectura",
+            "score": 0.041649
+          },
+          {
+            "term": "mexicana",
+            "score": 0.03271
+          },
+          {
+            "term": "museo",
+            "score": 0.032426
+          },
+          {
+            "term": "texcoco",
+            "score": 0.031457
+          },
+          {
+            "term": "siglo",
+            "score": 0.029906
+          },
+          {
+            "term": "mexicano",
+            "score": 0.029821
+          },
+          {
+            "term": "centro cultural",
+            "score": 0.029625
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 40
+          },
+          {
+            "label": "historia del arte",
+            "count": 16
+          },
+          {
+            "label": "artes visuales",
+            "count": 9
+          },
+          {
+            "label": "comunicacion grafica",
+            "count": 5
+          },
+          {
+            "label": "dise o y comunicacion visual",
+            "count": 5
+          },
+          {
+            "label": "historia",
+            "count": 5
+          },
+          {
+            "label": "dise o grafico",
+            "count": 4
+          },
+          {
+            "label": "bibliotecologia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 4",
+            "count": 55
+          },
+          {
+            "label": "Area 1",
+            "count": 48
+          },
+          {
+            "label": "Area 3",
+            "count": 6
+          },
+          {
+            "label": "Area 2",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 75
+          },
+          {
+            "label": "Maestría",
+            "count": 27
+          },
+          {
+            "label": "Doctorado",
+            "count": 8
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 107
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de filosofia y letras institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del río",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de arquitectura",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.428571,
+          "Area 2": 0.026786,
+          "Area 3": 0.053571,
+          "Area 4": 0.491071,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 4",
+            "count": 55,
+            "pct": 0.491071
+          },
+          {
+            "area": "Area 1",
+            "count": 48,
+            "pct": 0.428571
+          },
+          {
+            "area": "Area 3",
+            "count": 6,
+            "pct": 0.053571
+          },
+          {
+            "area": "Area 2",
+            "count": 3,
+            "pct": 0.026786
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0367687",
+            "doc_number_url": "000790512",
+            "title": "los ecos de el eco, el primer museo experimental construido en méxico para sentir el arte : reportaje",
+            "program": "periodismo",
+            "year": 2019,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Aguirre Cuenca, Iris Cecilia",
+            "advisor": "Robles, Francisca",
+            "x": 0.441627,
+            "y": 2.713761,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0517465",
+            "doc_number_url": "000821669",
+            "title": "cao : centro de artes y oficios en el centro histórico de la ciudad de méxico",
+            "program": "arquitectura",
+            "year": 2021,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Delgado Hernández, Héctor",
+            "advisor": "Flores Arias, José Vicente ; Huesca Rodríguez, Carmen ; Isla O´Neill, Francisco Nicholas de la",
+            "x": 0.45022,
+            "y": 2.71325,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0241068",
+            "doc_number_url": "000210714",
+            "title": "avances y perspectivas del graficador electrostatico en mexico",
+            "program": "ingenieria mecanica electrica",
+            "year": 1994,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Gomez Espinosa, Fernando Alejandro",
+            "advisor": "Ramírez Ortega, Jesús",
+            "x": 0.465563,
+            "y": 2.703574,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0403801",
+            "doc_number_url": "000671897",
+            "title": "propuesta de logotipo para la universidad autónoma de la ciudad de méxico : el dibujo como principio creativo del diseño gráfico",
+            "program": "dise o grafico",
+            "year": 2011,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Ortiz Ramírez, Magdalena",
+            "advisor": "Mercado Alvarado, Juan Carlos",
+            "x": 0.451704,
+            "y": 2.68525,
+            "cluster_strength": 0.953565
+          },
+          {
+            "thesis_id": "TH_0318595",
+            "doc_number_url": "000607296",
+            "title": "diseño del soporte grafico informativo para el centro de diseño y manufactura perteneciente a la facultad de ingenieria de la universidad nacional autonoma de mexico",
+            "program": "dise o y comunicacion visual",
+            "year": 2006,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Franco Nova, Gabriela",
+            "advisor": "Clavel de Kruyff, Gerardo",
+            "x": 0.467881,
+            "y": 2.703064,
+            "cluster_strength": 0.846562
+          },
+          {
+            "thesis_id": "TH_0489316",
+            "doc_number_url": "000762397",
+            "title": "salón internacional de pintura : cinco continentes y una ciudad : concepciones del espacio y representación cultural a finales de los años 90 en la ciudad de méxico",
+            "program": "historia del arte",
+            "year": 2017,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Rodríguez Espinosa, Roselin",
+            "advisor": "Montero Fayad, Daniel Enrique ; Jasso López, Karla Leticia ; Cruz Porchini, Dafne",
+            "x": 0.448273,
+            "y": 2.680549,
+            "cluster_strength": 0.934422
+          },
+          {
+            "thesis_id": "TH_0022932",
+            "doc_number_url": "000310860",
+            "title": "diseño de identidad grafica para tridex de mexico, s.a. de c.v",
+            "program": "dise o grafico",
+            "year": 2002,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Acevedo Cruz, Cynthia",
+            "advisor": "Reséndiz González, Jaime Alberto",
+            "x": 0.465306,
+            "y": 2.691969,
+            "cluster_strength": 0.935085
+          },
+          {
+            "thesis_id": "TH_0335864",
+            "doc_number_url": "000626695",
+            "title": "centro cultural de arte nezahualcoyotl, edo. de méxico",
+            "program": "arquitectura",
+            "year": 2007,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Mercado Cedillo, José Erasmo",
+            "advisor": "Ramírez Domínguez, José Antonio ; Rodríguez Domínguez, Ricardo ; Medina Canales, Enrique",
+            "x": 0.409545,
+            "y": 2.717339,
+            "cluster_strength": 0.838456
+          }
+        ]
+      },
+      {
+        "microcluster_id": 152,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · POLITICA · CONSTITUCION · ESTADOS",
+        "size": 102,
+        "x": -0.882199,
+        "y": 4.368986,
+        "year_min": 1930,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.102336
+          },
+          {
+            "term": "politica",
+            "score": 0.071519
+          },
+          {
+            "term": "constitucion",
+            "score": 0.070956
+          },
+          {
+            "term": "estados",
+            "score": 0.059368
+          },
+          {
+            "term": "mexicanos",
+            "score": 0.058659
+          },
+          {
+            "term": "mexicano",
+            "score": 0.058486
+          },
+          {
+            "term": "unidos mexicanos",
+            "score": 0.054897
+          },
+          {
+            "term": "estados unidos",
+            "score": 0.054897
+          },
+          {
+            "term": "unidos",
+            "score": 0.054897
+          },
+          {
+            "term": "constitucion politica",
+            "score": 0.054719
+          },
+          {
+            "term": "partidos",
+            "score": 0.053392
+          },
+          {
+            "term": "politicos",
+            "score": 0.052783
+          },
+          {
+            "term": "politica estados",
+            "score": 0.051769
+          },
+          {
+            "term": "partidos politicos",
+            "score": 0.04981
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 81
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 9
+          },
+          {
+            "label": "ciencias politicas y sociales",
+            "count": 2
+          },
+          {
+            "label": "derecho constitucional",
+            "count": 1
+          },
+          {
+            "label": "estudios politicos y sociales",
+            "count": 1
+          },
+          {
+            "label": "historia de mexico",
+            "count": 1
+          },
+          {
+            "label": "ciencia politica",
+            "count": 1
+          },
+          {
+            "label": "historia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 99
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 90
+          },
+          {
+            "label": "Maestría",
+            "count": 7
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 91
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad femenina de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias políticas y sociales",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "centro de estudios universitarios. escuela de derecho",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.0,
+          "Area 3": 0.970588,
+          "Area 4": 0.029412,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 99,
+            "pct": 0.970588
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.029412
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0494064",
+            "doc_number_url": "000777566",
+            "title": "la profesionalización parlamentaria en méxico y sus perspectivas",
+            "program": "derecho",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Camacho Vargas, José Luis",
+            "advisor": "Garita Alonso, Miguel Ángel",
+            "x": -0.883765,
+            "y": 4.361592,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0118811",
+            "doc_number_url": "000109430",
+            "title": "breves apuntes sobre la trayectoria y el pensamiento politico de ricardo flores magon y su impacto en la constitucion mexicana",
+            "program": "derecho",
+            "year": 1973,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Mendoza de la Concha, Austelio Adalberto",
+            "advisor": "",
+            "x": -0.857867,
+            "y": 4.367656,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0021518",
+            "doc_number_url": "000297798",
+            "title": "analisis de la facultad legislativa del ejecutivo federal en el sistema presidencial mexicano",
+            "program": "derecho",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del valle de mexico",
+            "author": "Solis Rodriguez, Ricardo Arturo",
+            "advisor": "Galarza, Juan Arturo",
+            "x": -0.898946,
+            "y": 4.349886,
+            "cluster_strength": 0.984777
+          },
+          {
+            "thesis_id": "TH_0273311",
+            "doc_number_url": "000256569",
+            "title": "el sistema presidencial mexicano : un enfoque constitucional y politico",
+            "program": "derecho",
+            "year": 1997,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Orozco Gomez, Miguel",
+            "advisor": "Vega Vera, David Manuel",
+            "x": -0.912184,
+            "y": 4.382974,
+            "cluster_strength": 0.942328
+          },
+          {
+            "thesis_id": "TH_0400240",
+            "doc_number_url": "000677617",
+            "title": "el senado de la república mexicana : actividades y propuestas en el parlamento latinoamericano : méxico, 2007",
+            "program": "estudios latinoamericanos",
+            "year": 2011,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Gutiérrez Contreras, Berenice",
+            "advisor": "Campos Sánchez, J. Rafael",
+            "x": -0.913738,
+            "y": 4.385761,
+            "cluster_strength": 0.983001
+          },
+          {
+            "thesis_id": "TH_0358246",
+            "doc_number_url": "000642672",
+            "title": "evolucion del sistema de partidos en mexico 1978-2008 consideraciones teorico jurídicas",
+            "program": "derecho",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Farrera Bravo, Gonzalo",
+            "advisor": "Sánchez Fabian, José",
+            "x": -0.905086,
+            "y": 4.338609,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0407218",
+            "doc_number_url": "000677017",
+            "title": "los representantes plurinominales en los órganos de gobierno del poder legislativo mexicano",
+            "program": "derecho",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Velasco Mora, Ángel Emiliano",
+            "advisor": "Escobar Aubert, Luis",
+            "x": -0.904817,
+            "y": 4.403265,
+            "cluster_strength": 0.934514
+          },
+          {
+            "thesis_id": "TH_0094664",
+            "doc_number_url": "000098190",
+            "title": "aspectos politicos del estado mexicano a traves de la constitucion",
+            "program": "derecho",
+            "year": 1965,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Villalobos Vazquez, Francisco",
+            "advisor": "",
+            "x": -0.83836,
+            "y": 4.363822,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 143,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · INDUSTRIA · EMPRESA · MEXICANA",
+        "size": 100,
+        "x": -0.62743,
+        "y": 3.280268,
+        "year_min": 1959,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.115975
+          },
+          {
+            "term": "industria",
+            "score": 0.073187
+          },
+          {
+            "term": "empresa",
+            "score": 0.063179
+          },
+          {
+            "term": "mexicana",
+            "score": 0.057167
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.051501
+          },
+          {
+            "term": "empresas",
+            "score": 0.042347
+          },
+          {
+            "term": "analisis",
+            "score": 0.041269
+          },
+          {
+            "term": "productividad",
+            "score": 0.038625
+          },
+          {
+            "term": "pequena",
+            "score": 0.036285
+          },
+          {
+            "term": "industrial",
+            "score": 0.035489
+          },
+          {
+            "term": "modelo",
+            "score": 0.032167
+          },
+          {
+            "term": "mediana",
+            "score": 0.029236
+          },
+          {
+            "term": "importancia",
+            "score": 0.028225
+          },
+          {
+            "term": "pequena mediana",
+            "score": 0.026398
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "economia",
+            "count": 42
+          },
+          {
+            "label": "administracion",
+            "count": 14
+          },
+          {
+            "label": "contaduria",
+            "count": 8
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 7
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 7
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 3
+          },
+          {
+            "label": "derecho",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 81
+          },
+          {
+            "label": "Area 1",
+            "count": 10
+          },
+          {
+            "label": "Area 2",
+            "count": 6
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 81
+          },
+          {
+            "label": "Maestría",
+            "count": 11
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 83
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en economía",
+            "count": 2
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad motolinia (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de contaduría y administración",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de economia institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias de la administración",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento a",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.1,
+          "Area 2": 0.06,
+          "Area 3": 0.81,
+          "Area 4": 0.03,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 81,
+            "pct": 0.81
+          },
+          {
+            "area": "Area 1",
+            "count": 10,
+            "pct": 0.1
+          },
+          {
+            "area": "Area 2",
+            "count": 6,
+            "pct": 0.06
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.03
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0208510",
+            "doc_number_url": "000129247",
+            "title": "la estructura economica del aparato productivo en mexico",
+            "program": "contaduria",
+            "year": 1990,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad autonoma de guadalajara",
+            "author": "Rodriguez Canales, Divina",
+            "advisor": "",
+            "x": -0.627174,
+            "y": 3.278319,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0471284",
+            "doc_number_url": "000739486",
+            "title": "la inversión y la innovación en la empresa minera mexicana grupo méxico",
+            "program": "economia",
+            "year": 2016,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Martínez Arriaga, Karina Yazmín",
+            "advisor": "Vargas Sánchez, Gustavo",
+            "x": -0.60118,
+            "y": 3.292339,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0148641",
+            "doc_number_url": "000010259",
+            "title": "la industrializacion : una opcion para el desarrollo economico en mexico. analisis y perspectivas",
+            "program": "economia",
+            "year": 1981,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Azocar Bagnarello, Armando",
+            "advisor": "Hernández Madrigal, Benjamín",
+            "x": -0.64503,
+            "y": 3.306078,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0216326",
+            "doc_number_url": "000169035",
+            "title": "el desarrollo y la productividad del sector manufacturero en mexico (1960-1985)",
+            "program": "economia",
+            "year": 1991,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Pina Paniagua, Horacio",
+            "advisor": "Calzada Falcón, Fernando",
+            "x": -0.647818,
+            "y": 3.306573,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0466480",
+            "doc_number_url": "000745893",
+            "title": "identificación de los principales sectores generadores de empleo en méxico : un análisis de insumo-producto",
+            "program": "economia",
+            "year": 2016,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Cortina Aguilera, Gibran Gerónimo",
+            "advisor": "Huerta González, Arturo",
+            "x": -0.662913,
+            "y": 3.298192,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0266879",
+            "doc_number_url": "000254013",
+            "title": "la importancia de la industria automotriz en mexico en el contexto de la actividad economica 1989-1885",
+            "program": "economia",
+            "year": 1997,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Becerril Ortega, Gabriela",
+            "advisor": "Carrillo Toscano, Federico",
+            "x": -0.646869,
+            "y": 3.239537,
+            "cluster_strength": 0.958726
+          },
+          {
+            "thesis_id": "TH_0131607",
+            "doc_number_url": "000114923",
+            "title": "el proceso de concentracion desnacionalizacion en la industria mexicana : el caso de la rama automotriz",
+            "program": "economia",
+            "year": 1976,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Pedroza Robles, Genaro",
+            "advisor": "Ros, Jaime",
+            "x": -0.663312,
+            "y": 3.310462,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0485851",
+            "doc_number_url": "000759001",
+            "title": "la productividad total de los factores en la industria química mexicana (1994-2014) : efectos de la inversión extranjera directa y el capital humano",
+            "program": "economia",
+            "year": 2017,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Martínez Sánchez, Erick Ernesto",
+            "advisor": "Gómez Ochoa, Gabriel",
+            "x": -0.594478,
+            "y": 3.316686,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 126,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · MEXICANA · MEXICANO · SIGLO",
+        "size": 92,
+        "x": 0.056086,
+        "y": 3.146921,
+        "year_min": 1933,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.137219
+          },
+          {
+            "term": "mexicana",
+            "score": 0.088093
+          },
+          {
+            "term": "mexicano",
+            "score": 0.051269
+          },
+          {
+            "term": "siglo",
+            "score": 0.038246
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.03772
+          },
+          {
+            "term": "ciudad",
+            "score": 0.03772
+          },
+          {
+            "term": "literatura",
+            "score": 0.035154
+          },
+          {
+            "term": "estudio",
+            "score": 0.034837
+          },
+          {
+            "term": "nacional",
+            "score": 0.033426
+          },
+          {
+            "term": "analisis",
+            "score": 0.032545
+          },
+          {
+            "term": "mexicanos",
+            "score": 0.027402
+          },
+          {
+            "term": "proceso",
+            "score": 0.027261
+          },
+          {
+            "term": "poesia",
+            "score": 0.026812
+          },
+          {
+            "term": "lectura",
+            "score": 0.025801
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "lengua y literaturas hispanicas",
+            "count": 13
+          },
+          {
+            "label": "historia",
+            "count": 9
+          },
+          {
+            "label": "letras",
+            "count": 7
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 5
+          },
+          {
+            "label": "filosofia",
+            "count": 5
+          },
+          {
+            "label": "comunicacion y periodismo",
+            "count": 3
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 3
+          },
+          {
+            "label": "periodismo",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 4",
+            "count": 68
+          },
+          {
+            "label": "Area 3",
+            "count": 19
+          },
+          {
+            "label": "Area 2",
+            "count": 3
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 58
+          },
+          {
+            "label": "Maestría",
+            "count": 25
+          },
+          {
+            "label": "Doctorado",
+            "count": 9
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 84
+          },
+          {
+            "label": "universidad labastida",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de filosofia y letras institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en filosofía de la ciencia",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores acatlán",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de filosofía y letras",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del rio",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.021739,
+          "Area 2": 0.032609,
+          "Area 3": 0.206522,
+          "Area 4": 0.73913,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 4",
+            "count": 68,
+            "pct": 0.73913
+          },
+          {
+            "area": "Area 3",
+            "count": 19,
+            "pct": 0.206522
+          },
+          {
+            "area": "Area 2",
+            "count": 3,
+            "pct": 0.032609
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.021739
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0226397",
+            "doc_number_url": "000186613",
+            "title": "vanidades masculinas : las revistas masculinas mexicanas 1900-1989",
+            "program": "ciencias de la comunicacion",
+            "year": 1992,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Salas Castro, María de la Consolación",
+            "advisor": "García, Carola",
+            "x": 0.082309,
+            "y": 3.121362,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0428936",
+            "doc_number_url": "000704176",
+            "title": "méxico y el mexicano en l’apparition de didier van cauwelaert : análisis imagológico y aprovechamiento pedagógico en el aula de francés",
+            "program": "lengua y literaturas modernas francesas",
+            "year": 2013,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Mendoza Carreón, Rafael",
+            "advisor": "Silva Ochoa, Haydée",
+            "x": 0.071806,
+            "y": 3.182723,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0328390",
+            "doc_number_url": "000640212",
+            "title": "cintia bolio y la crítica humorística en la caricatura política en méxico : entrevista de semblanza",
+            "program": "comunicacion y periodismo",
+            "year": 2007,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Ángeles Espinoza, Jorge",
+            "advisor": "Barragán Solís, Araceli Noemí",
+            "x": 0.086028,
+            "y": 3.183488,
+            "cluster_strength": 0.961829
+          },
+          {
+            "thesis_id": "TH_0339643",
+            "doc_number_url": "000619264",
+            "title": "el choque de las culturas indo-hispanicas",
+            "program": "derecho",
+            "year": 2007,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Sanchez Saez, Israel",
+            "advisor": "Feher Trenshiner, Eduardo Luis",
+            "x": 0.10869,
+            "y": 3.155835,
+            "cluster_strength": 0.960231
+          },
+          {
+            "thesis_id": "TH_0484838",
+            "doc_number_url": "000771409",
+            "title": "la educación en méxico-tenochtitlán entre 1502-1520 representación iconográfica del códice mendoza",
+            "program": "historia",
+            "year": 2017,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Loizaga Rodríguez, Patricio",
+            "advisor": "Rosas Xelhuantzi, Tesiu",
+            "x": 0.073096,
+            "y": 3.201848,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0461190",
+            "doc_number_url": "000724556",
+            "title": "la etnomusicología en méxico : proceso de consolidación institucional y generación de conocimiento",
+            "program": "antropologia",
+            "year": 2015,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Ruiz Rodríguez, Carlos",
+            "advisor": "Nava L., E. Fernando",
+            "x": 0.115751,
+            "y": 3.169479,
+            "cluster_strength": 0.994824
+          },
+          {
+            "thesis_id": "TH_0327093",
+            "doc_number_url": "000606475",
+            "title": "la comunicacion verbal de los habitantes del puerto de veracruz : un enfoque sociolinguistico",
+            "program": "ciencias de la comunicacion",
+            "year": 2006,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "universidad villa rica",
+            "author": "Vasquez Paez, Leyla Primavera",
+            "advisor": "Anaya Hernandez, Alejandro Armando",
+            "x": 0.125639,
+            "y": 3.197303,
+            "cluster_strength": 0.993747
+          },
+          {
+            "thesis_id": "TH_0311027",
+            "doc_number_url": "000601634",
+            "title": "elena poniatowska, mexicana por conviccion y periodista por intuicion",
+            "program": "ciencias de la comunicacion",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Ramirez Maldonado, Maria Elena",
+            "advisor": "Hernández Carballido, Elvira",
+            "x": 0.004526,
+            "y": 3.076765,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 151,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · ELECTORAL · ELECTORALES · ELECCIONES",
+        "size": 78,
+        "x": -1.15716,
+        "y": 4.554287,
+        "year_min": 1990,
+        "year_max": 2022,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.107658
+          },
+          {
+            "term": "electoral",
+            "score": 0.098193
+          },
+          {
+            "term": "electorales",
+            "score": 0.05921
+          },
+          {
+            "term": "elecciones",
+            "score": 0.05514
+          },
+          {
+            "term": "estado",
+            "score": 0.049278
+          },
+          {
+            "term": "proceso electoral",
+            "score": 0.04834
+          },
+          {
+            "term": "proceso",
+            "score": 0.04834
+          },
+          {
+            "term": "mexicanos",
+            "score": 0.046245
+          },
+          {
+            "term": "mexicano",
+            "score": 0.045121
+          },
+          {
+            "term": "democracia",
+            "score": 0.044204
+          },
+          {
+            "term": "politica",
+            "score": 0.042423
+          },
+          {
+            "term": "electoral mexico",
+            "score": 0.038362
+          },
+          {
+            "term": "analisis",
+            "score": 0.037774
+          },
+          {
+            "term": "voto",
+            "score": 0.036451
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 48
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 9
+          },
+          {
+            "label": "historia",
+            "count": 3
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 3
+          },
+          {
+            "label": "estudios latinoamericanos",
+            "count": 2
+          },
+          {
+            "label": "administracion publica",
+            "count": 1
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 1
+          },
+          {
+            "label": "trabajo social",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 68
+          },
+          {
+            "label": "Area 4",
+            "count": 9
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 66
+          },
+          {
+            "label": "Maestría",
+            "count": 6
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 71
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "instituto universitario nezahualcoyotl. escuela de derecho,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad del tepeyac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad tecnológica iberoamericana (xalatlaco",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.012821,
+          "Area 3": 0.871795,
+          "Area 4": 0.115385,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 68,
+            "pct": 0.871795
+          },
+          {
+            "area": "Area 4",
+            "count": 9,
+            "pct": 0.115385
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.012821
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0311606",
+            "doc_number_url": "000349816",
+            "title": "la reeleccion inmediata de los diputados federales en el sistema electoral mexicano",
+            "program": "derecho",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Rivera Posada, Miguel Angel",
+            "advisor": "Jiménez Carrillo, David",
+            "x": -1.15438,
+            "y": 4.555674,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0387009",
+            "doc_number_url": "000653694",
+            "title": "la democracia en méxico : algunas consideraciones históricas en torno a las acusaciones de fraude electoral en 1929, 1940 y 1988",
+            "program": "historia",
+            "year": 2010,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Gutiérrez Mariscal, Halina",
+            "advisor": "Rico Moreno, Javier",
+            "x": -1.160862,
+            "y": 4.551363,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0455519",
+            "doc_number_url": "000726138",
+            "title": "participación ciudadana de la clase media en la delegación miguel hidalgo en las elecciones delegacionales de 2012",
+            "program": "trabajo social",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "escuela nacional de trabajo social unam",
+            "author": "Huitrón Solís, Milagros Viridiana",
+            "advisor": "Camargo Lemus, Amanda",
+            "x": -1.16093,
+            "y": 4.558365,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0508955",
+            "doc_number_url": "000801542",
+            "title": "la caricatura política y la crítica al sistema electoral : la representación en campaña de los candidatos a la presidencia de méxico en el año 2000 : los casos de excélsior, la jornada, reforma y el universal",
+            "program": "historia",
+            "year": 2020,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Flores Nonato, Viridiana",
+            "advisor": "Gantús Inurreta, Fausta",
+            "x": -1.159381,
+            "y": 4.548768,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0045660",
+            "doc_number_url": "000314766",
+            "title": "la ciudadanizacion de los organos electorales del estado de mexico y la participacion ciudadana en las elecciones",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2003,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Morales Gonzalez, Bernabe Pedro",
+            "advisor": "Garza Talavera, Rafael de la",
+            "x": -1.152685,
+            "y": 4.550058,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0030269",
+            "doc_number_url": "000311592",
+            "title": "medios de impugnacion aplicables al proceso electoral del estado de mexico en el 2000",
+            "program": "derecho",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "López Rivera, Marisol",
+            "advisor": "Hernández Rodríguez, José",
+            "x": -1.164861,
+            "y": 4.557208,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0049118",
+            "doc_number_url": "000315559",
+            "title": "la regulacion juridica del observador electoral en mexico",
+            "program": "derecho",
+            "year": 2003,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad americana de acapulco",
+            "author": "Santos Mendoza, Cesar de los",
+            "advisor": "Montufar Ochoa, Violeta",
+            "x": -1.160941,
+            "y": 4.561874,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0017742",
+            "doc_number_url": "000299631",
+            "title": "democracia y codigos electorales : studio comparativo de las legislaciones vigentes en mexico e italia",
+            "program": "relaciones internacionales",
+            "year": 2001,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Meza López, Anselmo",
+            "advisor": "",
+            "x": -1.166744,
+            "y": 4.551414,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 96,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · MUJERES · GENERO · MUJER",
+        "size": 71,
+        "x": -0.146818,
+        "y": 4.278882,
+        "year_min": 1984,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.119587
+          },
+          {
+            "term": "mujeres",
+            "score": 0.085309
+          },
+          {
+            "term": "genero",
+            "score": 0.073249
+          },
+          {
+            "term": "mujer",
+            "score": 0.06399
+          },
+          {
+            "term": "ciudad",
+            "score": 0.050187
+          },
+          {
+            "term": "ciudad mexico",
+            "score": 0.050187
+          },
+          {
+            "term": "mexicanas",
+            "score": 0.048374
+          },
+          {
+            "term": "mexicana",
+            "score": 0.045875
+          },
+          {
+            "term": "sexual",
+            "score": 0.043046
+          },
+          {
+            "term": "analisis",
+            "score": 0.041278
+          },
+          {
+            "term": "feminista",
+            "score": 0.03929
+          },
+          {
+            "term": "desde",
+            "score": 0.038654
+          },
+          {
+            "term": "politica",
+            "score": 0.03845
+          },
+          {
+            "term": "perspectiva",
+            "score": 0.037846
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 15
+          },
+          {
+            "label": "psicologia",
+            "count": 10
+          },
+          {
+            "label": "sociologia",
+            "count": 8
+          },
+          {
+            "label": "ciencias politicas y sociales",
+            "count": 5
+          },
+          {
+            "label": "estudios latinoamericanos",
+            "count": 5
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 4
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 4
+          },
+          {
+            "label": "periodismo",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 52
+          },
+          {
+            "label": "Area 4",
+            "count": 11
+          },
+          {
+            "label": "Area 2",
+            "count": 6
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 50
+          },
+          {
+            "label": "Doctorado",
+            "count": 10
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 65
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de derecho",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad del tepeyac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias políticas y sociales",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.028169,
+          "Area 2": 0.084507,
+          "Area 3": 0.732394,
+          "Area 4": 0.15493,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 52,
+            "pct": 0.732394
+          },
+          {
+            "area": "Area 4",
+            "count": 11,
+            "pct": 0.15493
+          },
+          {
+            "area": "Area 2",
+            "count": 6,
+            "pct": 0.084507
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.028169
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0554306",
+            "doc_number_url": "000834865",
+            "title": "la representación descriptiva de las mujeres indígenas en méxico : un análisis de la lxii, lxiii y lxiv legislatura de la cámara de diputados",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2023,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Vélez Reynoso, Sofía María",
+            "advisor": "Gilas, Karolina Monika",
+            "x": -0.15728,
+            "y": 4.28562,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0493218",
+            "doc_number_url": "000780576",
+            "title": "derechos de las mujeres indígenas y el cumplimiento de estándares interamericanos : el caso de méxico 1994-2018",
+            "program": "estudios latinoamericanos",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Ascencio Aguirre, Ana Karina",
+            "advisor": "Aguirre, Teresa",
+            "x": -0.146008,
+            "y": 4.294942,
+            "cluster_strength": 0.898647
+          },
+          {
+            "thesis_id": "TH_0480413",
+            "doc_number_url": "000765756",
+            "title": "la representación sustantiva de las mujeres : un análisis de la legislación sensible al género en méxico y paraguay",
+            "program": "ciencias politicas y sociales",
+            "year": 2017,
+            "area": "Area 3",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Cerna Villagra, Sarah Patricia",
+            "advisor": "Puente Martínez, Khemvirg",
+            "x": -0.143576,
+            "y": 4.258331,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0428287",
+            "doc_number_url": "000692586",
+            "title": "diversidad sexual y la garantía constitucional en pugna por el respeto de los derechos humanos del homosexual en el estado mexicano",
+            "program": "derecho",
+            "year": 2013,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Márquez Zetina, Laura Verónica",
+            "advisor": "Vázquez Flores, Manuel Alejandro",
+            "x": -0.131779,
+            "y": 4.303942,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0571013",
+            "doc_number_url": "000876538",
+            "title": "el avances y retrocesos de los derechos de la comunidad lgbtiq+ : comparativa entre méxico y estados unidos de américa",
+            "program": "relaciones internacionales",
+            "year": 2025,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad lasallista benavente",
+            "author": "Coconi Tovar, Valeria Bethsabe",
+            "advisor": "Figueroa Rivera, Alicia Venecia",
+            "x": -0.121957,
+            "y": 4.294563,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0470491",
+            "doc_number_url": "000750924",
+            "title": "de la otredad a la ciudadanía : representaciones de género en las estampillas postales mexicanas : el discurso feminista como generador de un nuevo discurso institucional",
+            "program": "ciencias politicas y sociales",
+            "year": 2016,
+            "area": "Area 3",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Lever Montoya, Elsa Guadalupe",
+            "advisor": "Vega Montiel, Aimée ; López Villegas, Virginia ; Hernández Carballido, Elvira",
+            "x": -0.161629,
+            "y": 4.25159,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0167952",
+            "doc_number_url": "000004858",
+            "title": "la mujer y el feminismo (su situacion en mexico)",
+            "program": "sociologia",
+            "year": 1984,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Cano y Lezama, Tadria Patricia",
+            "advisor": "Gonzalez Reyes, Ricardo",
+            "x": -0.139803,
+            "y": 4.313579,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0534121",
+            "doc_number_url": "000825166",
+            "title": "relación entre estilos de amor y violencia de pareja en mujeres mexicanas",
+            "program": "psicologia",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Juárez Maldonado, Frida Sofía",
+            "advisor": "Trujillo Correa, Ricardo ; Colmenares Vázquez, Ligia",
+            "x": -0.128101,
+            "y": 4.244189,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 128,
+        "macrocluster_id": 0,
+        "micro_label": "FISCAL · FISCAL MEXICO · IMPUESTO · MEXICANO",
+        "size": 62,
+        "x": -1.438008,
+        "y": 3.527799,
+        "year_min": 1952,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "fiscal",
+            "score": 0.112083
+          },
+          {
+            "term": "fiscal mexico",
+            "score": 0.068161
+          },
+          {
+            "term": "impuesto",
+            "score": 0.054676
+          },
+          {
+            "term": "mexicano",
+            "score": 0.054158
+          },
+          {
+            "term": "renta",
+            "score": 0.053205
+          },
+          {
+            "term": "impuesto renta",
+            "score": 0.053205
+          },
+          {
+            "term": "politica",
+            "score": 0.050377
+          },
+          {
+            "term": "fiscales",
+            "score": 0.048812
+          },
+          {
+            "term": "analisis",
+            "score": 0.046419
+          },
+          {
+            "term": "tributario",
+            "score": 0.046062
+          },
+          {
+            "term": "sistema",
+            "score": 0.043443
+          },
+          {
+            "term": "tributaria",
+            "score": 0.042558
+          },
+          {
+            "term": "estado",
+            "score": 0.041343
+          },
+          {
+            "term": "sistema tributario",
+            "score": 0.039565
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "economia",
+            "count": 29
+          },
+          {
+            "label": "derecho",
+            "count": 20
+          },
+          {
+            "label": "contaduria",
+            "count": 7
+          },
+          {
+            "label": "fiscal",
+            "count": 2
+          },
+          {
+            "label": "derecho penal",
+            "count": 1
+          },
+          {
+            "label": "derecho fiscal",
+            "count": 1
+          },
+          {
+            "label": "administracion",
+            "count": 1
+          },
+          {
+            "label": "psicologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 62
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 54
+          },
+          {
+            "label": "Especialidad",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 54
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de economía",
+            "count": 2
+          },
+          {
+            "label": "universidad villa rica (boca del río",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales aragon institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de posgrado en economía",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          },
+          {
+            "label": "universidad motolinia (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.0,
+          "Area 3": 1.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 62,
+            "pct": 1.0
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0155906",
+            "doc_number_url": "000010527",
+            "title": "la politica tributaria y la redistribucion del ingreso en mexico (1970-1978)",
+            "program": "economia",
+            "year": 1982,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Froum Gutierrez, José Arturo",
+            "advisor": "",
+            "x": -1.448794,
+            "y": 3.536471,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0034975",
+            "doc_number_url": "000305588",
+            "title": "el delito de defraudacion fiscal en legislacion mexicana",
+            "program": "derecho",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Rosette Belio, Elda Nora",
+            "advisor": "Rabago Murcio, María Martha del Pilar",
+            "x": -1.423149,
+            "y": 3.535335,
+            "cluster_strength": 0.856083
+          },
+          {
+            "thesis_id": "TH_0506362",
+            "doc_number_url": "000779601",
+            "title": "la recaudación fiscal en méxico 2013-2018",
+            "program": "economia",
+            "year": 2018,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Velázquez Copado, Marisol",
+            "advisor": "Fonseca Corral, Ángel David",
+            "x": -1.435613,
+            "y": 3.50947,
+            "cluster_strength": 0.980189
+          },
+          {
+            "thesis_id": "TH_0578942",
+            "doc_number_url": "000871969",
+            "title": "\"credibilidad y reglas fiscales en méxico 2000-2023\"",
+            "program": "economia",
+            "year": 2025,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Rodríguez Galicia, Alfonso",
+            "advisor": "Díaz Silva, José Carlos",
+            "x": -1.451992,
+            "y": 3.547074,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0536367",
+            "doc_number_url": null,
+            "title": "la disyuntiva entre la defraudación, evasión y elusión fiscal en méxico",
+            "program": "derecho fiscal",
+            "year": 2022,
+            "area": "Area 3",
+            "level": "Especialidad",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Navarrete Ramírez, Daniel Benjamín",
+            "advisor": "Álvarez León, José Antonio",
+            "x": -1.440593,
+            "y": 3.500449,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0565288",
+            "doc_number_url": "000853647",
+            "title": "repensando el federalismo fiscal mexicano : consideraciones sobre el efecto flypaper y el efecto asimetría de reemplazo fiscal",
+            "program": "economia",
+            "year": 2024,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Rauda Nieto, Josue Emanuel",
+            "advisor": "Díaz Silva, José Carlos",
+            "x": -1.413923,
+            "y": 3.51275,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0104944",
+            "doc_number_url": "000674855",
+            "title": "análisis de los conceptos de hecho generador y de fuentes de riqueza en el derecho tributario mexicano",
+            "program": "derecho",
+            "year": 1970,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Calvo Abascal, Alfredo",
+            "advisor": "",
+            "x": -1.466304,
+            "y": 3.539241,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0254325",
+            "doc_number_url": "000230865",
+            "title": "la defraudacion fiscal en mexico",
+            "program": "contaduria",
+            "year": 1995,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Montoya Gomez, Rogelio",
+            "advisor": "Rivera Rodríguez, Benito",
+            "x": -1.470184,
+            "y": 3.532657,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 157,
+        "macrocluster_id": 0,
+        "micro_label": "DERECHO · DERECHO MEXICANO · MEXICO · JURIDICO",
+        "size": 62,
+        "x": -0.611797,
+        "y": 4.466711,
+        "year_min": 1935,
+        "year_max": 2023,
+        "top_terms": [
+          {
+            "term": "derecho",
+            "score": 0.144375
+          },
+          {
+            "term": "derecho mexicano",
+            "score": 0.109701
+          },
+          {
+            "term": "mexico",
+            "score": 0.068788
+          },
+          {
+            "term": "juridico",
+            "score": 0.063882
+          },
+          {
+            "term": "civil",
+            "score": 0.061842
+          },
+          {
+            "term": "civil mexicano",
+            "score": 0.054716
+          },
+          {
+            "term": "judicial",
+            "score": 0.045222
+          },
+          {
+            "term": "justicia",
+            "score": 0.043323
+          },
+          {
+            "term": "juridico mexicano",
+            "score": 0.042362
+          },
+          {
+            "term": "mexicana",
+            "score": 0.042316
+          },
+          {
+            "term": "analisis",
+            "score": 0.041421
+          },
+          {
+            "term": "derecho positivo",
+            "score": 0.040163
+          },
+          {
+            "term": "positivo mexicano",
+            "score": 0.040163
+          },
+          {
+            "term": "positivo",
+            "score": 0.040163
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 57
+          },
+          {
+            "label": "derecho ambiental",
+            "count": 1
+          },
+          {
+            "label": "historia",
+            "count": 1
+          },
+          {
+            "label": "geografia",
+            "count": 1
+          },
+          {
+            "label": "ling istica aplicada",
+            "count": 1
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 59
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 52
+          },
+          {
+            "label": "Maestría",
+            "count": 7
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 57
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad st",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.0,
+          "Area 3": 0.951613,
+          "Area 4": 0.048387,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 59,
+            "pct": 0.951613
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.048387
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0248086",
+            "doc_number_url": "000225297",
+            "title": "la problematica actual de la jurisprudencia en el sistema juridico mexicano",
+            "program": "derecho",
+            "year": 1995,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Apreza Salgado, Socorro",
+            "advisor": "Plascencia Villanueva, Raul",
+            "x": -0.601822,
+            "y": 4.472686,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0182320",
+            "doc_number_url": "000033970",
+            "title": "la jurisprudencia en el derecho mexicano",
+            "program": "derecho",
+            "year": 1986,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Guadarrama López, Enrique",
+            "advisor": "Barrera Graf, Jorge",
+            "x": -0.614777,
+            "y": 4.479723,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0070754",
+            "doc_number_url": "000080670",
+            "title": "la garantia de audiencia en el derecho mexicano",
+            "program": "derecho",
+            "year": 1943,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Correa Espinoza, Rafael",
+            "advisor": "",
+            "x": -0.626394,
+            "y": 4.47126,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0447901",
+            "doc_number_url": "000715254",
+            "title": "los justicieros de méxico en el siglo xxi: la representación social de un grupo contraventor mexicano a partir del análisis de su discurso",
+            "program": "ling istica aplicada",
+            "year": 2014,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Terreros López, Abril Alejandra",
+            "advisor": "Groult Bois, Noelle",
+            "x": -0.628441,
+            "y": 4.444741,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0295586",
+            "doc_number_url": "000273076",
+            "title": "los tribunales militares y su integracion juridica en el derecho mexicano",
+            "program": "derecho",
+            "year": 1999,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de derecho unam",
+            "author": "Saucedo López, Antonio",
+            "advisor": "",
+            "x": -0.623137,
+            "y": 4.494137,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0421535",
+            "doc_number_url": "000683973",
+            "title": "análisis jurídico de la ley de la agencia espacial mexicana",
+            "program": "derecho",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Xochimitl Tlamani, Guillermo",
+            "advisor": "Carbajal Smith, Julio Daniel",
+            "x": -0.627376,
+            "y": 4.495978,
+            "cluster_strength": 0.907847
+          },
+          {
+            "thesis_id": "TH_0136436",
+            "doc_number_url": "000113222",
+            "title": "el problema del caracter juridico de los comisionistas en la doctrina y en la jurisprudencia mexicana",
+            "program": "derecho",
+            "year": 1977,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Oviedo Díaz, Santiago",
+            "advisor": "",
+            "x": -0.622211,
+            "y": 4.50018,
+            "cluster_strength": 0.972612
+          },
+          {
+            "thesis_id": "TH_0246834",
+            "doc_number_url": "000218887",
+            "title": "la reparacion del dano moral en el derecho mexicano",
+            "program": "derecho",
+            "year": 1994,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Valdes Gonzalez, Adalberto",
+            "advisor": "Castillo Sandoval, Jesús",
+            "x": -0.590205,
+            "y": 4.437722,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 144,
+        "macrocluster_id": 0,
+        "micro_label": "COMERCIO · EXPORTACIONES · COMERCIALES · EXPORTACION",
+        "size": 61,
+        "x": -0.720604,
+        "y": 3.042169,
+        "year_min": 1963,
+        "year_max": 2023,
+        "top_terms": [
+          {
+            "term": "comercio",
+            "score": 0.094498
+          },
+          {
+            "term": "exportaciones",
+            "score": 0.060583
+          },
+          {
+            "term": "comerciales",
+            "score": 0.054602
+          },
+          {
+            "term": "exportacion",
+            "score": 0.054257
+          },
+          {
+            "term": "mexicano",
+            "score": 0.050739
+          },
+          {
+            "term": "relaciones",
+            "score": 0.049757
+          },
+          {
+            "term": "comercio exterior",
+            "score": 0.048324
+          },
+          {
+            "term": "exterior",
+            "score": 0.048324
+          },
+          {
+            "term": "relaciones comerciales",
+            "score": 0.045886
+          },
+          {
+            "term": "comerciales mexico",
+            "score": 0.044457
+          },
+          {
+            "term": "libre comercio",
+            "score": 0.040274
+          },
+          {
+            "term": "libre",
+            "score": 0.040274
+          },
+          {
+            "term": "analisis",
+            "score": 0.040151
+          },
+          {
+            "term": "china",
+            "score": 0.035995
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "economia",
+            "count": 27
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 20
+          },
+          {
+            "label": "derecho",
+            "count": 7
+          },
+          {
+            "label": "administracion",
+            "count": 2
+          },
+          {
+            "label": "ciencias economicas",
+            "count": 1
+          },
+          {
+            "label": "ciencias de la produccion y de la salud animal",
+            "count": 1
+          },
+          {
+            "label": "econometria aplicada",
+            "count": 1
+          },
+          {
+            "label": "sociologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 59
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 53
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 56
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.032787,
+          "Area 3": 0.967213,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 59,
+            "pct": 0.967213
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.032787
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0128469",
+            "doc_number_url": "000106420",
+            "title": "aspectos socioeconomicos y comerciales de la zona fronteriza norte",
+            "program": "administracion",
+            "year": 1976,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Barragan Molina, Roberto Octavio",
+            "advisor": "Renteria Solis, Rene",
+            "x": -0.735015,
+            "y": 3.047698,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0298937",
+            "doc_number_url": "000600262",
+            "title": "una meta por alcanzar, la diversificacion del comercio exterior de mexico : el caso del tlcuem",
+            "program": "relaciones internacionales",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Soto Martinez, Guadalupe",
+            "advisor": "Pi?on Antillon, Rosa Maria",
+            "x": -0.700258,
+            "y": 3.071483,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0193337",
+            "doc_number_url": "000076745",
+            "title": "desarrollo del comercio exterior mexicano. situacion actual y perspectivas",
+            "program": "economia",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Muñoz Arellano, Leonardo",
+            "advisor": "Mendez Mendoza, Miguel Angel",
+            "x": -0.759608,
+            "y": 3.085788,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0451741",
+            "doc_number_url": "000738121",
+            "title": "las ventajas de las relaciones comerciales entre méxico y el reino unido (2012  2015 )",
+            "program": "economia",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Chavira Ríos, Javier",
+            "advisor": "Guerrero Flores, Alejandro",
+            "x": -0.787998,
+            "y": 3.062258,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0311998",
+            "doc_number_url": "000346049",
+            "title": "la ue : una alternativa para la diversificacion geografica de las exportaciones mexicanas",
+            "program": "economia",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Rojas Santoyo, Orlando",
+            "advisor": "Gazol Sanchez, Antonio",
+            "x": -0.655521,
+            "y": 3.075199,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0099473",
+            "doc_number_url": "000112054",
+            "title": "el comercio exterior mexicano y su dependencia de los estados unidos de norteamerica : el caso de las exportaciones",
+            "program": "economia",
+            "year": 1968,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Castillo Negrete Barrera, A. Irina del",
+            "advisor": "",
+            "x": -0.778099,
+            "y": 3.088916,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0391802",
+            "doc_number_url": "000662553",
+            "title": "la importancia del comercio exterior de méxico en el proceso de globalización (2001-2006)",
+            "program": "relaciones internacionales",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Rama Ramírez, Miguel Ángel",
+            "advisor": "Chávez Delgado, Jose Luis",
+            "x": -0.786824,
+            "y": 3.091146,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0046846",
+            "doc_number_url": "000326797",
+            "title": "importancia de los eventos internacionales en el comportamiento de las exportaciones mexicanas a los estados unidos. el caso de la industria de la confeccion a partir de 1994 al 2002",
+            "program": "relaciones internacionales",
+            "year": 2003,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Perez Bonilla, Clara",
+            "advisor": "Reyes Cortés, Antonio",
+            "x": -0.638874,
+            "y": 3.063922,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 148,
+        "macrocluster_id": 0,
+        "micro_label": "MEXICO · MEXICANA · ECONOMICA · ESTADO",
+        "size": 58,
+        "x": -0.780852,
+        "y": 3.507645,
+        "year_min": 1944,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "mexico",
+            "score": 0.122589
+          },
+          {
+            "term": "mexicana",
+            "score": 0.081081
+          },
+          {
+            "term": "economica",
+            "score": 0.071775
+          },
+          {
+            "term": "estado",
+            "score": 0.0662
+          },
+          {
+            "term": "economia",
+            "score": 0.062854
+          },
+          {
+            "term": "politica",
+            "score": 0.051188
+          },
+          {
+            "term": "crisis",
+            "score": 0.049724
+          },
+          {
+            "term": "mexicano",
+            "score": 0.048948
+          },
+          {
+            "term": "capitalismo",
+            "score": 0.046464
+          },
+          {
+            "term": "1982",
+            "score": 0.044353
+          },
+          {
+            "term": "1970",
+            "score": 0.041539
+          },
+          {
+            "term": "economia mexicana",
+            "score": 0.040326
+          },
+          {
+            "term": "social",
+            "score": 0.040301
+          },
+          {
+            "term": "economico",
+            "score": 0.036684
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "economia",
+            "count": 32
+          },
+          {
+            "label": "sociologia",
+            "count": 6
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 6
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 2
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 2
+          },
+          {
+            "label": "derecho",
+            "count": 2
+          },
+          {
+            "label": "estudios latinoamericanos",
+            "count": 2
+          },
+          {
+            "label": "ciencias economicas",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 52
+          },
+          {
+            "label": "Area 4",
+            "count": 4
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 52
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 55
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el grado",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.034483,
+          "Area 2": 0.0,
+          "Area 3": 0.896552,
+          "Area 4": 0.068966,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 52,
+            "pct": 0.896552
+          },
+          {
+            "area": "Area 4",
+            "count": 4,
+            "pct": 0.068966
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.034483
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0071744",
+            "doc_number_url": "000109542",
+            "title": "estudio economico de la pina en la republica mexicana",
+            "program": "economia",
+            "year": 1944,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Giron Galvan, Hector",
+            "advisor": "",
+            "x": -0.763544,
+            "y": 3.517951,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0243496",
+            "doc_number_url": "000212469",
+            "title": "el capitalismo global : contexto para la reintegracion de mexico",
+            "program": "sociologia",
+            "year": 1994,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Minto Rivera, Gerardo",
+            "advisor": "Girón, Alicia",
+            "x": -0.806969,
+            "y": 3.51365,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0404692",
+            "doc_number_url": "000668700",
+            "title": "el impacto del capitalismo monopolista en las pymes mexicanas",
+            "program": "ciencias de la comunicacion",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Ramírez Soria, Laura Marcela",
+            "advisor": "Vega Shiota, Gustavo de la",
+            "x": -0.806289,
+            "y": 3.493843,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0212982",
+            "doc_number_url": "000149581",
+            "title": "la crisis del capitalismo monopolista de estado en mexico : el caso de aeromexico",
+            "program": "economia",
+            "year": 1991,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "García Flores, Enrique",
+            "advisor": "Figueroa Noriega, Ramón",
+            "x": -0.791697,
+            "y": 3.475375,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0267523",
+            "doc_number_url": null,
+            "title": "regionalizacion de gastos maximos en la cuenca de la vertiente del pacifico centro de la republica mexicana",
+            "program": "hidraulica",
+            "year": 1997,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Carrizosa Elizondo, Eliseo",
+            "advisor": "Domínguez Mora, Ramón",
+            "x": -0.773901,
+            "y": 3.471972,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0138733",
+            "doc_number_url": "000195110",
+            "title": "la fase actual del capitalismo mexicano y el estado : algunas concepciones de la izquierda",
+            "program": "economia",
+            "year": 1978,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Correa, Eugenia, 1954-",
+            "advisor": "",
+            "x": -0.812232,
+            "y": 3.541473,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0280634",
+            "doc_number_url": "000267310",
+            "title": "economia mexicana : sustitucion y apertura",
+            "program": "economia",
+            "year": 1998,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Galindo López, Carmelo",
+            "advisor": "Martínez Fagundo, Carlos",
+            "x": -0.747939,
+            "y": 3.473221,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0023689",
+            "doc_number_url": "000311713",
+            "title": "el proceso de insercion de mexico en el neoliberalismo 1982-1995. un enfoque administrativo",
+            "program": "ciencias politicas y administracion publica",
+            "year": 2002,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Arellano Zayas, Sandro",
+            "advisor": "Cepeda Islas, Susana",
+            "x": -0.732097,
+            "y": 3.51456,
+            "cluster_strength": 0.999507
+          }
+        ]
+      },
+      {
+        "microcluster_id": 154,
+        "macrocluster_id": 0,
+        "micro_label": "ADMINISTRACION · PUBLICA · ESTADO · ADMINISTRACION PUBLICA",
+        "size": 56,
+        "x": -0.640071,
+        "y": 3.934118,
+        "year_min": 1943,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "administracion",
+            "score": 0.081472
+          },
+          {
+            "term": "publica",
+            "score": 0.076736
+          },
+          {
+            "term": "estado",
+            "score": 0.072762
+          },
+          {
+            "term": "administracion publica",
+            "score": 0.060164
+          },
+          {
+            "term": "mexicano",
+            "score": 0.050683
+          },
+          {
+            "term": "gobierno",
+            "score": 0.050233
+          },
+          {
+            "term": "publico",
+            "score": 0.049671
+          },
+          {
+            "term": "mexicana",
+            "score": 0.049453
+          },
+          {
+            "term": "estado mexico",
+            "score": 0.043181
+          },
+          {
+            "term": "administrativa",
+            "score": 0.039236
+          },
+          {
+            "term": "relaciones",
+            "score": 0.038959
+          },
+          {
+            "term": "social",
+            "score": 0.03646
+          },
+          {
+            "term": "consejo",
+            "score": 0.036381
+          },
+          {
+            "term": "analisis",
+            "score": 0.034037
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 21
+          },
+          {
+            "label": "ciencias politicas y administracion publica",
+            "count": 14
+          },
+          {
+            "label": "relaciones internacionales",
+            "count": 6
+          },
+          {
+            "label": "economia",
+            "count": 3
+          },
+          {
+            "label": "administracion publica",
+            "count": 3
+          },
+          {
+            "label": "sociologia",
+            "count": 2
+          },
+          {
+            "label": "administracion",
+            "count": 2
+          },
+          {
+            "label": "auditoria",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 54
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 49
+          },
+          {
+            "label": "Maestría",
+            "count": 3
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 56
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.017857,
+          "Area 3": 0.964286,
+          "Area 4": 0.017857,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 54,
+            "pct": 0.964286
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.017857
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.017857
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0120752",
+            "doc_number_url": "000102987",
+            "title": "papel real del consejo de administración en mexico",
+            "program": "administracion",
+            "year": 1974,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Barrera Acevedo, Rafael",
+            "advisor": "Arena Arellano, Eduardo",
+            "x": -0.640086,
+            "y": 3.931968,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0293302",
+            "doc_number_url": "000281488",
+            "title": "la complejidad de la vida publica y la profesionalizacion de la administración publica en el estado de mexico",
+            "program": "ciencias politicas y administracion publica",
+            "year": 1999,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Martinez Quijada, Luis Octavio",
+            "advisor": "Uvalle Berrones, Ricardo",
+            "x": -0.638891,
+            "y": 3.943002,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0107865",
+            "doc_number_url": "000103338",
+            "title": "la legislacion de emergencia y su proyeccion actual en cuanto a la capacidad de las sociedades extranjeras en mexico",
+            "program": "derecho",
+            "year": 1970,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Sempe Minvielle, Carlos",
+            "advisor": "",
+            "x": -0.631144,
+            "y": 3.932827,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0444411",
+            "doc_number_url": "000713238",
+            "title": "capacidad de gobierno y administración pública en méxico 1970 - 1997",
+            "program": "administracion publica",
+            "year": 2014,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Ortega Martínez, Héctor",
+            "advisor": "Sánchez González, José Juan",
+            "x": -0.654562,
+            "y": 3.934252,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0159041",
+            "doc_number_url": "000036732",
+            "title": "la eleccion de autoridades ejidales y comunales en mexico",
+            "program": "derecho",
+            "year": 1982,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Romero García, Omar",
+            "advisor": "González Hernández, Alfredo",
+            "x": -0.628841,
+            "y": 3.922987,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0154931",
+            "doc_number_url": "000036569",
+            "title": "el ministerio publico de mexico",
+            "program": "derecho",
+            "year": 1982,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Cárdenas Keller, Alberto Antonio",
+            "advisor": "Guggisberg Parra, Rodolfo",
+            "x": -0.657937,
+            "y": 3.937213,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0459009",
+            "doc_number_url": "000725275",
+            "title": "la aplicación de la ética utilitarista en las estrategias de relaciones públicas en méxico",
+            "program": "periodismo",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Palma Ferrer, Jesús",
+            "advisor": "García Turincio, Edgar Yeman",
+            "x": -0.660565,
+            "y": 3.938243,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0050391",
+            "doc_number_url": "000314039",
+            "title": "reglamentacion de la profesionalizacion del servidor publico en las secretarias de estado en mexico",
+            "program": "derecho",
+            "year": 2003,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Vera Sandoval, Victor Manuel",
+            "advisor": "Martínez Suazo, Froylan",
+            "x": -0.622139,
+            "y": 3.923139,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

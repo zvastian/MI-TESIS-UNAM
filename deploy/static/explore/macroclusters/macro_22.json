@@ -1,0 +1,970 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 22,
+    "macro_label": "PACIENTES · CEREBRAL · EPILEPSIA · HOSPITAL",
+    "size": 474,
+    "microcluster_count": 3,
+    "microclusters": [
+      {
+        "microcluster_id": 12,
+        "macrocluster_id": 22,
+        "micro_label": "PACIENTES · OCULARES · OCULAR · RETINA",
+        "size": 210,
+        "x": 8.176605,
+        "y": -2.198635,
+        "year_min": 1888,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "pacientes",
+            "score": 0.050956
+          },
+          {
+            "term": "oculares",
+            "score": 0.037557
+          },
+          {
+            "term": "ocular",
+            "score": 0.032165
+          },
+          {
+            "term": "retina",
+            "score": 0.032151
+          },
+          {
+            "term": "glaucoma",
+            "score": 0.028136
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.026794
+          },
+          {
+            "term": "optica",
+            "score": 0.026364
+          },
+          {
+            "term": "visual",
+            "score": 0.024034
+          },
+          {
+            "term": "ojo",
+            "score": 0.02348
+          },
+          {
+            "term": "estudio",
+            "score": 0.023347
+          },
+          {
+            "term": "hospital",
+            "score": 0.022997
+          },
+          {
+            "term": "mexico",
+            "score": 0.022424
+          },
+          {
+            "term": "retinoblastoma",
+            "score": 0.020025
+          },
+          {
+            "term": "medico",
+            "score": 0.018529
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "oftalmologia",
+            "count": 126
+          },
+          {
+            "label": "biologia",
+            "count": 9
+          },
+          {
+            "label": "medico cirujano",
+            "count": 9
+          },
+          {
+            "label": "neonatologia",
+            "count": 6
+          },
+          {
+            "label": "pediatria",
+            "count": 5
+          },
+          {
+            "label": "neurologia",
+            "count": 5
+          },
+          {
+            "label": "pediatria medica",
+            "count": 4
+          },
+          {
+            "label": "anestesiologia",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 199
+          },
+          {
+            "label": "Area 1",
+            "count": 9
+          },
+          {
+            "label": "Area 3",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 167
+          },
+          {
+            "label": "Licenciatura",
+            "count": 33
+          },
+          {
+            "label": "Maestría",
+            "count": 8
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 199
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 5
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "escuela nacional de medicina (mexico), institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra sra. de la salud,",
+            "count": 1
+          },
+          {
+            "label": "hospital general de mexico \"dr. eduardo liceaga\".",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de medicina",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.042857,
+          "Area 2": 0.947619,
+          "Area 3": 0.009524,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 199,
+            "pct": 0.947619
+          },
+          {
+            "area": "Area 1",
+            "count": 9,
+            "pct": 0.042857
+          },
+          {
+            "area": "Area 3",
+            "count": 2,
+            "pct": 0.009524
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0433120",
+            "doc_number_url": "000698458",
+            "title": "resultados visuales en pacientes con afaquia postquirúrgica sometidos a implante secundario de lente intraocular en el hospital general de méxico",
+            "program": "oftalmologia",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Santillán García, Mitzi Yozareth",
+            "advisor": "Villanueva Nájera, Miguel Ángel",
+            "x": 8.1745,
+            "y": -2.202504,
+            "cluster_strength": 0.433681
+          },
+          {
+            "thesis_id": "TH_0391278",
+            "doc_number_url": "000654566",
+            "title": "ultrasonido arterial normal ocular y orbitario con doppler color",
+            "program": "radiologia e imagen",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Peñata Ruiz, Nelson Alvaro",
+            "advisor": "Kimura Fujikami, Kenji",
+            "x": 8.171108,
+            "y": -2.205744,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0547745",
+            "doc_number_url": "000840447",
+            "title": "incidencia del edema macular mediante tomografía de coherencia óptica en pacientes con implante intravítreo de dexametasona de liberación prolongada en el centro médico nacional 20 de noviembre",
+            "program": "oftalmologia",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "López Gutiérrez, Hernán",
+            "advisor": "Hernández Salazar, Leonor",
+            "x": 8.187078,
+            "y": -2.202077,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0206647",
+            "doc_number_url": "000143862",
+            "title": "estudio prospectivo clinico-serologico de la toxoplasmosis ocular",
+            "program": "oftalmologia",
+            "year": 1990,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Medrano Martinez, Fernando",
+            "advisor": "Gomez Jimenez, Javier",
+            "x": 8.187985,
+            "y": -2.199932,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0221200",
+            "doc_number_url": "000181977",
+            "title": "sintomatologia ocular en esclerosis multiple",
+            "program": "oftalmologia",
+            "year": 1992,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Fierro Gossman, José Hector Leonel",
+            "advisor": "Osio Sancho, Alberto",
+            "x": 8.169701,
+            "y": -2.189051,
+            "cluster_strength": 0.979829
+          },
+          {
+            "thesis_id": "TH_0566254",
+            "doc_number_url": "000862332",
+            "title": "\"efecto terapéutico del inhibidor farmacológico iso-1 en un modelo de ojo seco crónico\"",
+            "program": "biologia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Rosas González, Karla Andrea",
+            "advisor": "Vázquez Mendoza, Alicia",
+            "x": 8.175546,
+            "y": -2.210526,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0496402",
+            "doc_number_url": "000779465",
+            "title": "medición del grosor macular en la degeneración macular relacionada a la edad variedad húmeda, posterior al tratamiento con ranibizumab",
+            "program": "oftalmologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Fuentes González, Samantha",
+            "advisor": "Vizzuett Mendoza, Ericka Gabriela ; Luna Rivera, Eva Maria",
+            "x": 8.182378,
+            "y": -2.20987,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0367513",
+            "doc_number_url": "000791258",
+            "title": "detección de edema macular pseudofáquico por tomografía de coherencia óptica en pacientes del hospital general del estado de sonora",
+            "program": "oftalmologia",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Acosta Arámburo, Daniel",
+            "advisor": "Ontíveros Pérez, Daniel Omar ; Pacheco Hoyos, Nohelia Guadalupe ; Morfín Salido, Iván Leopoldo",
+            "x": 8.174674,
+            "y": -2.2125,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 104,
+        "macrocluster_id": 22,
+        "micro_label": "CEREBRAL · PACIENTES · PARALISIS · PARALISIS CEREBRAL",
+        "size": 179,
+        "x": 7.015365,
+        "y": -0.729092,
+        "year_min": 1926,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "cerebral",
+            "score": 0.08047
+          },
+          {
+            "term": "pacientes",
+            "score": 0.054568
+          },
+          {
+            "term": "paralisis",
+            "score": 0.050033
+          },
+          {
+            "term": "paralisis cerebral",
+            "score": 0.045894
+          },
+          {
+            "term": "vascular",
+            "score": 0.032501
+          },
+          {
+            "term": "vascular cerebral",
+            "score": 0.029759
+          },
+          {
+            "term": "enfermedad",
+            "score": 0.028273
+          },
+          {
+            "term": "ninos",
+            "score": 0.027877
+          },
+          {
+            "term": "alteraciones",
+            "score": 0.026066
+          },
+          {
+            "term": "hospital",
+            "score": 0.024191
+          },
+          {
+            "term": "cerebrales",
+            "score": 0.020219
+          },
+          {
+            "term": "nervio",
+            "score": 0.019953
+          },
+          {
+            "term": "manejo",
+            "score": 0.01985
+          },
+          {
+            "term": "funcional",
+            "score": 0.019344
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "neurologia",
+            "count": 15
+          },
+          {
+            "label": "medicina de rehabilitacion",
+            "count": 14
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 12
+          },
+          {
+            "label": "neurocirugia",
+            "count": 11
+          },
+          {
+            "label": "medicina interna",
+            "count": 8
+          },
+          {
+            "label": "psicologia",
+            "count": 7
+          },
+          {
+            "label": "medicina familiar",
+            "count": 7
+          },
+          {
+            "label": "medicina de urgencias",
+            "count": 7
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 162
+          },
+          {
+            "label": "Area 3",
+            "count": 10
+          },
+          {
+            "label": "Area 1",
+            "count": 4
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 130
+          },
+          {
+            "label": "Licenciatura",
+            "count": 39
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 174
+          },
+          {
+            "label": "universidad nacional autónoma de mexico escuela nacional de estudios superiores (unidad león)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "instituto universitario y tecnológico modelo,",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores cuautitlan institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.022346,
+          "Area 2": 0.905028,
+          "Area 3": 0.055866,
+          "Area 4": 0.01676,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 162,
+            "pct": 0.905028
+          },
+          {
+            "area": "Area 3",
+            "count": 10,
+            "pct": 0.055866
+          },
+          {
+            "area": "Area 1",
+            "count": 4,
+            "pct": 0.022346
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.01676
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0369905",
+            "doc_number_url": "000793560",
+            "title": "prevalencia de trastornos del movimiento secundarios a un evento vascular cerebral en los pacientes del instituto nacional de neurología y neurocirugía \"manuel velasco suárez\"",
+            "program": "neurologia",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Chac Lezama, Germán Isaí",
+            "advisor": "Martínez Hernández, Héctor Rubén",
+            "x": 6.996578,
+            "y": -0.72848,
+            "cluster_strength": 0.460638
+          },
+          {
+            "thesis_id": "TH_0105769",
+            "doc_number_url": "000146569",
+            "title": "gammagrafia cerebral : estudio de 20 casos",
+            "program": "neurologia",
+            "year": 1970,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Gomez de la Torre, Alvardo",
+            "advisor": "",
+            "x": 7.021456,
+            "y": -0.748785,
+            "cluster_strength": 0.370566
+          },
+          {
+            "thesis_id": "TH_0572478",
+            "doc_number_url": "000871199",
+            "title": "intervención a través de la terapia de observación de la acción en pacientes con afasia como secuela de un evento vascular cerebral : revisión sistemática",
+            "program": "fisioterapia",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "escuela nacional de estudios superiores leon",
+            "author": "Gallardo Castellanos, Quitzia Erendira",
+            "advisor": "Casas Castillo, Laura Natalia ; Cintra Viveiro, Aline Cristina",
+            "x": 7.00195,
+            "y": -0.706373,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0356046",
+            "doc_number_url": "000641374",
+            "title": "concordancia diagnóstica por tomografía computada contra diagnóstico clínico que del evento vascular cerebral en el hospital regional 1° de octubre del issste",
+            "program": "radiologia e imagen",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Barrón Vázquez, Juan Carlos",
+            "advisor": "Granados Sandoval, Enrique",
+            "x": 7.046575,
+            "y": -0.730273,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0460419",
+            "doc_number_url": "000731583",
+            "title": "evaluación clínica y por resonancia magnética cerebral de los pacientes con adrenoleucodistrofia sometidos a trasplante de células progenitoras hematopoyéticas experiencia clínica de 14 años",
+            "program": "neurologia pediatrica",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Rivera Figueroa, Lily",
+            "advisor": "Ruiz García, Matilde ; Hernández Antunez, Blanca Gloria ; Olaya Vargas, Alberto",
+            "x": 7.024035,
+            "y": -0.69784,
+            "cluster_strength": 0.868568
+          },
+          {
+            "thesis_id": "TH_0203719",
+            "doc_number_url": "000132298",
+            "title": "prevalencia del foramen oval permeable en jovenes con infarto cerebral",
+            "program": "neurologia",
+            "year": 1990,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Díaz Heredia, Fabian",
+            "advisor": "Barinagarrementeria Aldatz, Fernando Sabino",
+            "x": 7.016889,
+            "y": -0.761799,
+            "cluster_strength": 0.415017
+          },
+          {
+            "thesis_id": "TH_0403337",
+            "doc_number_url": "000692922",
+            "title": "con la cabeza se piensa, no se juega : relato narrativo testimonial sobre un dramático cambio de vida, a causa de una contraproducente cirugía de cabeza por tumoración cerebral",
+            "program": "periodismo",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Nava Marin, Victor Antonio",
+            "advisor": "Robles, Francisca",
+            "x": 7.009978,
+            "y": -0.764118,
+            "cluster_strength": 0.391431
+          },
+          {
+            "thesis_id": "TH_0531298",
+            "doc_number_url": "000822923",
+            "title": "relación entre el riesgo de desarrollo de lesiones por presión en los pacientes con accidente vascular cerebral isquémico y el grado de affección neurológica establecida por escala nihss comparado con escala braden y norton en el hgr251",
+            "program": "geriatria",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Doroteo Chimal, Omar",
+            "advisor": "Hernández Colín, Francisco César",
+            "x": 7.030058,
+            "y": -0.690821,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 0,
+        "macrocluster_id": 22,
+        "micro_label": "PACIENTES · TEMPORAL · LOBULO · EPILEPTICO",
+        "size": 85,
+        "x": 11.313997,
+        "y": 2.425368,
+        "year_min": 1908,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "pacientes",
+            "score": 0.07902
+          },
+          {
+            "term": "temporal",
+            "score": 0.057404
+          },
+          {
+            "term": "lobulo",
+            "score": 0.05609
+          },
+          {
+            "term": "epileptico",
+            "score": 0.054355
+          },
+          {
+            "term": "lobulo temporal",
+            "score": 0.053206
+          },
+          {
+            "term": "pacientes epilepsia",
+            "score": 0.05111
+          },
+          {
+            "term": "epilepsia lobulo",
+            "score": 0.050489
+          },
+          {
+            "term": "hospital",
+            "score": 0.038908
+          },
+          {
+            "term": "ninos",
+            "score": 0.034837
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.031928
+          },
+          {
+            "term": "estudio",
+            "score": 0.027631
+          },
+          {
+            "term": "epilepticos",
+            "score": 0.027164
+          },
+          {
+            "term": "pediatricos",
+            "score": 0.026482
+          },
+          {
+            "term": "nacional",
+            "score": 0.026459
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "neurologia pediatrica",
+            "count": 15
+          },
+          {
+            "label": "psicologia",
+            "count": 13
+          },
+          {
+            "label": "neurologia",
+            "count": 6
+          },
+          {
+            "label": "pediatria",
+            "count": 5
+          },
+          {
+            "label": "pediatria medica",
+            "count": 5
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 3
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 3
+          },
+          {
+            "label": "neurofisiologia clinica",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 76
+          },
+          {
+            "label": "Area 1",
+            "count": 5
+          },
+          {
+            "label": "Area 3",
+            "count": 3
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 50
+          },
+          {
+            "label": "Licenciatura",
+            "count": 23
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 81
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de psicología",
+            "count": 1
+          },
+          {
+            "label": "universidad latinoamericana",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico colegio de psicología",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.058824,
+          "Area 2": 0.894118,
+          "Area 3": 0.035294,
+          "Area 4": 0.011765,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 76,
+            "pct": 0.894118
+          },
+          {
+            "area": "Area 1",
+            "count": 5,
+            "pct": 0.058824
+          },
+          {
+            "area": "Area 3",
+            "count": 3,
+            "pct": 0.035294
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.011765
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0404037",
+            "doc_number_url": "000670476",
+            "title": "alteración de la memoria en pacientes con epilepsia del lóbulo temporal",
+            "program": "psicologia",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad latinoamericana",
+            "author": "Peña Baeza, Diana Magali",
+            "advisor": "Roa Mendoza, Jorge",
+            "x": 11.313253,
+            "y": 2.426631,
+            "cluster_strength": 0.561183
+          },
+          {
+            "thesis_id": "TH_0375052",
+            "doc_number_url": "000797392",
+            "title": "relación entre el volumen del hipocampo y la memoria verbal en pacientes prequirúrgicos con epilepsia de lóbulo temporal",
+            "program": "psicologia",
+            "year": 2019,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Maravilla García, Pavel Saúl",
+            "advisor": "Martínez Rosas, Alma Rosa del Carmen",
+            "x": 11.312616,
+            "y": 2.426457,
+            "cluster_strength": 0.706197
+          },
+          {
+            "thesis_id": "TH_0342411",
+            "doc_number_url": "000628235",
+            "title": "relación entre el campo magnético natal y la epilepsia",
+            "program": "fisica",
+            "year": 2008,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Azcárate Yáñez, Tania",
+            "advisor": "Mendoza, Blanca",
+            "x": 11.311991,
+            "y": 2.42528,
+            "cluster_strength": 0.337396
+          },
+          {
+            "thesis_id": "TH_0315941",
+            "doc_number_url": "000611503",
+            "title": "resonancia magnetica y volumetria con metodo de diagnostico inicial y pronostico en la epilepsia de lobulo temporal",
+            "program": "medicina interna",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Barrera Guerra, Rosa Consuelo",
+            "advisor": "Velasco Monroy, Ana Luisa ; Cedillo Perez, Maria del Carmen ; Boleaga Duran, Bernardo",
+            "x": 11.315098,
+            "y": 2.427409,
+            "cluster_strength": 0.785626
+          },
+          {
+            "thesis_id": "TH_0554836",
+            "doc_number_url": "000861096",
+            "title": "\"volumetría del hipocampo por resonancia magnética (rm) en pacientes con diagnóstico de esclerosis mesial del lóbulo temporal (etm) y epilepsia de difícil control\"",
+            "program": "imagenologia diagnostica y terapeutica",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Acevedo Flores, Francisco Antonio",
+            "advisor": "Delgado Martínez, Felipe Alfredo",
+            "x": 11.310536,
+            "y": 2.426027,
+            "cluster_strength": 0.577505
+          },
+          {
+            "thesis_id": "TH_0331843",
+            "doc_number_url": "000621712",
+            "title": "evaluacion neuropsicologica y de la lateralidad del lenguaje en pacientes con epilepsia del lobulo temporal",
+            "program": "psicologia",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de psicologia unam",
+            "author": "Galan López, Itzel Graciela",
+            "advisor": "Rodriguez Camacho, Mario Arturo",
+            "x": 11.310511,
+            "y": 2.426283,
+            "cluster_strength": 0.322619
+          },
+          {
+            "thesis_id": "TH_0498886",
+            "doc_number_url": "000761482",
+            "title": "patrones electroencefalográficos en pacientes con diagnóstico de estado epiléptico en el hospital de especialidades cmn siglo xxi",
+            "program": "neurofisiologia clinica",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Jiménez Villegas, Carlos Augusto",
+            "advisor": "Aguilar Castillo, Sergio de Jesús ; Guerrero Cantera, José",
+            "x": 11.318338,
+            "y": 2.426503,
+            "cluster_strength": 0.734476
+          },
+          {
+            "thesis_id": "TH_0208851",
+            "doc_number_url": "000142378",
+            "title": "epilepsia en ninos",
+            "program": "pediatria medica",
+            "year": 1990,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ruiz Chávez, Jaime",
+            "advisor": "Rodriguez Blancas y Herrero, Ma. Cristina",
+            "x": 11.318864,
+            "y": 2.42664,
+            "cluster_strength": 0.47724
+          }
+        ]
+      }
+    ]
+  }
+}

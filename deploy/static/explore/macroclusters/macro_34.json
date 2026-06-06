@@ -1,0 +1,654 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 34,
+    "macro_label": "MUSICA · MUSICAL · AUDIOVISUAL · GUITARRA",
+    "size": 177,
+    "microcluster_count": 2,
+    "microclusters": [
+      {
+        "microcluster_id": 42,
+        "macrocluster_id": 34,
+        "micro_label": "MUSICA · MUSICAL · GUITARRA · MUSICALES",
+        "size": 101,
+        "x": 2.563843,
+        "y": -1.538961,
+        "year_min": 1971,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "musica",
+            "score": 0.16994
+          },
+          {
+            "term": "musical",
+            "score": 0.103892
+          },
+          {
+            "term": "guitarra",
+            "score": 0.056924
+          },
+          {
+            "term": "musicales",
+            "score": 0.049183
+          },
+          {
+            "term": "estudio",
+            "score": 0.034851
+          },
+          {
+            "term": "nacional",
+            "score": 0.027609
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.026739
+          },
+          {
+            "term": "violin",
+            "score": 0.026302
+          },
+          {
+            "term": "escuela",
+            "score": 0.024039
+          },
+          {
+            "term": "desde",
+            "score": 0.023064
+          },
+          {
+            "term": "sonora",
+            "score": 0.022814
+          },
+          {
+            "term": "piano",
+            "score": 0.021504
+          },
+          {
+            "term": "nacional musica",
+            "score": 0.021109
+          },
+          {
+            "term": "escuela nacional",
+            "score": 0.021109
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 8
+          },
+          {
+            "label": "psicologia",
+            "count": 7
+          },
+          {
+            "label": "piano",
+            "count": 7
+          },
+          {
+            "label": "pedagogia",
+            "count": 6
+          },
+          {
+            "label": "instrumentista",
+            "count": 6
+          },
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 5
+          },
+          {
+            "label": "composicion",
+            "count": 4
+          },
+          {
+            "label": "musica",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 4",
+            "count": 64
+          },
+          {
+            "label": "Area 3",
+            "count": 20
+          },
+          {
+            "label": "Area 1",
+            "count": 12
+          },
+          {
+            "label": "Area 2",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 78
+          },
+          {
+            "label": "Maestría",
+            "count": 17
+          },
+          {
+            "label": "Doctorado",
+            "count": 6
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 90
+          },
+          {
+            "label": "universidad de sotavento (coatzacoalcos",
+            "count": 2
+          },
+          {
+            "label": "escuela superior de ciencias juridicas (mexico). escuela de derecho, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento a",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (campus cuernavaca)",
+            "count": 1
+          },
+          {
+            "label": "universidad insurgentes plantel xola",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento (villahermosa",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.118812,
+          "Area 2": 0.049505,
+          "Area 3": 0.19802,
+          "Area 4": 0.633663,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 4",
+            "count": 64,
+            "pct": 0.633663
+          },
+          {
+            "area": "Area 3",
+            "count": 20,
+            "pct": 0.19802
+          },
+          {
+            "area": "Area 1",
+            "count": 12,
+            "pct": 0.118812
+          },
+          {
+            "area": "Area 2",
+            "count": 5,
+            "pct": 0.049505
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0569091",
+            "doc_number_url": "000876202",
+            "title": "las mujeres músicas : ruptura de paradigmas estético-musicales en el metal actual",
+            "program": "estudios politicos y sociales",
+            "year": 2025,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Alvarado Corral, Déborah Michelle",
+            "advisor": "Silva Banda, Rosario Berenice",
+            "x": 2.563378,
+            "y": -1.535336,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0391936",
+            "doc_number_url": "000680862",
+            "title": "influencia del rock y reggaeton en la conducta del grupo 1ro. a de la e.s.t.i. #69",
+            "program": "psicologia",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad de sotavento",
+            "author": "Ramírez Morales, Francisco José",
+            "advisor": "Méndez Fernández, Adrián Porfirio",
+            "x": 2.562957,
+            "y": -1.529171,
+            "cluster_strength": 0.899143
+          },
+          {
+            "thesis_id": "TH_0485002",
+            "doc_number_url": "000768960",
+            "title": "entre tamborileros y tamboriurbanos : la reconfiguracion de la música yoko t’an",
+            "program": "antropologia",
+            "year": 2017,
+            "area": "Area 4",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "López Jiménez, Manuel Alejandro",
+            "advisor": "Nava L., E. Fernando",
+            "x": 2.549365,
+            "y": -1.54103,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0468323",
+            "doc_number_url": "000749648",
+            "title": "la práctica del canto coral como factor de influencia en el bienestar subjetivo en la vida de los integrantes del coro chapultepec",
+            "program": "psicologia",
+            "year": 2016,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad insurgentes",
+            "author": "García Vargas, Sandra",
+            "advisor": "Serna Uribe, Ana Luisa",
+            "x": 2.572335,
+            "y": -1.551507,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0521427",
+            "doc_number_url": "000813234",
+            "title": "la fuerza performativa del extrañamiento en la interpretación musical",
+            "program": "musica",
+            "year": 2021,
+            "area": "Area 4",
+            "level": "Doctorado",
+            "plantel": "facultad de musica unam",
+            "author": "Lozada Ocampo, María Clara",
+            "advisor": "García Castilla, Jorge David ; Kent Trejo, Didanwy Davina ; Morábito Correa, Diego",
+            "x": 2.578731,
+            "y": -1.528986,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0581693",
+            "doc_number_url": "000881161",
+            "title": "la guitarra flamenca de concierto : orígenes y desarrollo",
+            "program": "instrumentista",
+            "year": 2026,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de musica unam",
+            "author": "Botello Galicia, Emilio",
+            "advisor": "Segura Maldonado, José Luis",
+            "x": 2.558626,
+            "y": -1.520242,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0570954",
+            "doc_number_url": "000872411",
+            "title": "transfiguración. música para guitarra",
+            "program": "instrumentista guitarra",
+            "year": 2025,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de musica unam",
+            "author": "Chimal Hernández, José Carlos",
+            "advisor": "Sánchez Escuer, Marco Alejandro ; Laguna Millán, Juan Carlos",
+            "x": 2.572209,
+            "y": -1.514004,
+            "cluster_strength": 0.966844
+          },
+          {
+            "thesis_id": "TH_0375051",
+            "doc_number_url": "000795830",
+            "title": "la significación de la notación musical : el problema de la notación musical y su interpretación",
+            "program": "filosofia",
+            "year": 2019,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Maravilla Aupart, Gabriela Alitzel",
+            "advisor": "Barceló Aspeitia, Axel Arturo",
+            "x": 2.539453,
+            "y": -1.514493,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 43,
+        "macrocluster_id": 34,
+        "micro_label": "AUDIOVISUAL · AUDIO · SISTEMA · SONORA",
+        "size": 76,
+        "x": 2.768756,
+        "y": -0.932931,
+        "year_min": 1971,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "audiovisual",
+            "score": 0.115198
+          },
+          {
+            "term": "audio",
+            "score": 0.064822
+          },
+          {
+            "term": "sistema",
+            "score": 0.064773
+          },
+          {
+            "term": "sonora",
+            "score": 0.05408
+          },
+          {
+            "term": "audiovisuales",
+            "score": 0.05123
+          },
+          {
+            "term": "diseno",
+            "score": 0.04914
+          },
+          {
+            "term": "sonoro",
+            "score": 0.042583
+          },
+          {
+            "term": "voz",
+            "score": 0.041887
+          },
+          {
+            "term": "ruido",
+            "score": 0.039775
+          },
+          {
+            "term": "estudio",
+            "score": 0.032778
+          },
+          {
+            "term": "ensenanza",
+            "score": 0.032105
+          },
+          {
+            "term": "trabajadores",
+            "score": 0.031646
+          },
+          {
+            "term": "propuesta",
+            "score": 0.029511
+          },
+          {
+            "term": "produccion",
+            "score": 0.028627
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ciencias de la comunicacion",
+            "count": 7
+          },
+          {
+            "label": "arquitectura",
+            "count": 5
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 5
+          },
+          {
+            "label": "periodismo",
+            "count": 4
+          },
+          {
+            "label": "electrica",
+            "count": 4
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 4
+          },
+          {
+            "label": "ingenieria electrica electronica",
+            "count": 4
+          },
+          {
+            "label": "psicologia",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 35
+          },
+          {
+            "label": "Area 3",
+            "count": 19
+          },
+          {
+            "label": "Area 4",
+            "count": 15
+          },
+          {
+            "label": "Area 2",
+            "count": 7
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 63
+          },
+          {
+            "label": "Maestría",
+            "count": 8
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 70
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.460526,
+          "Area 2": 0.092105,
+          "Area 3": 0.25,
+          "Area 4": 0.197368,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 35,
+            "pct": 0.460526
+          },
+          {
+            "area": "Area 3",
+            "count": 19,
+            "pct": 0.25
+          },
+          {
+            "area": "Area 4",
+            "count": 15,
+            "pct": 0.197368
+          },
+          {
+            "area": "Area 2",
+            "count": 7,
+            "pct": 0.092105
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0335156",
+            "doc_number_url": "000619062",
+            "title": "estudio de la produccion de fuentes virtuales sonoras mediante el metodo de sintesis de campos sonoros (wfs)",
+            "program": "electrica",
+            "year": 2007,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Martin Escalante, Marco Vinicio",
+            "advisor": "Orozco Santillán, Arturo",
+            "x": 2.75729,
+            "y": -0.940086,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0311096",
+            "doc_number_url": "000601627",
+            "title": "optimizacion y caracterizacion de un auxiliar auditivo",
+            "program": "ingenieria electrica electronica",
+            "year": 2005,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Ramirez Romero, Alberto Jorge",
+            "advisor": "Damián Zamacona, Juan Ricardo",
+            "x": 2.791671,
+            "y": -0.920887,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0197401",
+            "doc_number_url": "000175702",
+            "title": "el analizador de espectro de audio y sus aplicaciones",
+            "program": "ingenieria mecanica electrica",
+            "year": 1989,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad anahuac",
+            "author": "Bustamante Villarreal, Luis Alberto",
+            "advisor": "",
+            "x": 2.797575,
+            "y": -0.917569,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0411093",
+            "doc_number_url": "000697237",
+            "title": "propagación de ondas acústicas en el interior de una trompeta",
+            "program": "fisica",
+            "year": 2012,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Ezeta Aparicio, Rodrigo",
+            "advisor": "Rendón Garrido, Pablo Luis",
+            "x": 2.800595,
+            "y": -0.941136,
+            "cluster_strength": 0.569958
+          },
+          {
+            "thesis_id": "TH_0025764",
+            "doc_number_url": "000306044",
+            "title": "analisis y diseño de un sistema de compresion de audio en tiempo real",
+            "program": "ingenieria en telecomunicaciones",
+            "year": 2002,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Corral López, Victor José de Jesus",
+            "advisor": "Psenicka Skvhersky, Bohumil ; Rivera Rivera, Carlos",
+            "x": 2.758305,
+            "y": -0.965731,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0398295",
+            "doc_number_url": "000680117",
+            "title": "marcas de agua en audio",
+            "program": "ingenieria en computacion",
+            "year": 2011,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Delgado Saucedo, Misael",
+            "advisor": "Ramírez Flores, Luis",
+            "x": 2.750288,
+            "y": -0.971815,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0032566",
+            "doc_number_url": "000302668",
+            "title": "automatizacion de servicios del departamento de audiovisual del cch-sur, mediante un sistema de computo",
+            "program": "ingenieria en computacion",
+            "year": 2002,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Olvera Tello, Fernando",
+            "advisor": "Lizarraga Ramirez, Gabriela Betzabe",
+            "x": 2.805512,
+            "y": -0.960466,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0406305",
+            "doc_number_url": "000668974",
+            "title": "sistema caracterizador de equipos de audio (scea)",
+            "program": "ingenieria electrica electronica",
+            "year": 2011,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Sierra Tabla, Mario Abraham",
+            "advisor": "Macías Pérez, Roberto",
+            "x": 2.767155,
+            "y": -0.882502,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

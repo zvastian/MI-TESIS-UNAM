@@ -1,0 +1,946 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 15,
+    "macro_label": "CANCER · PACIENTES · MAMA · CANCER MAMA",
+    "size": 820,
+    "microcluster_count": 3,
+    "microclusters": [
+      {
+        "microcluster_id": 46,
+        "macrocluster_id": 15,
+        "micro_label": "CANCER · MAMA · PACIENTES · CANCER MAMA",
+        "size": 702,
+        "x": 9.766973,
+        "y": -2.371975,
+        "year_min": 1880,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "cancer",
+            "score": 0.057278
+          },
+          {
+            "term": "mama",
+            "score": 0.034324
+          },
+          {
+            "term": "pacientes",
+            "score": 0.033823
+          },
+          {
+            "term": "cancer mama",
+            "score": 0.030067
+          },
+          {
+            "term": "tumores",
+            "score": 0.025677
+          },
+          {
+            "term": "hospital",
+            "score": 0.022855
+          },
+          {
+            "term": "carcinoma",
+            "score": 0.019805
+          },
+          {
+            "term": "pacientes cancer",
+            "score": 0.019616
+          },
+          {
+            "term": "celulas",
+            "score": 0.017266
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.017048
+          },
+          {
+            "term": "factores",
+            "score": 0.014542
+          },
+          {
+            "term": "tumor",
+            "score": 0.014165
+          },
+          {
+            "term": "mexico",
+            "score": 0.014118
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.013223
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 51
+          },
+          {
+            "label": "cirugia oncologica",
+            "count": 47
+          },
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 45
+          },
+          {
+            "label": "biologia",
+            "count": 40
+          },
+          {
+            "label": "anatomia patologica",
+            "count": 34
+          },
+          {
+            "label": "cirugia general",
+            "count": 34
+          },
+          {
+            "label": "oncologia medica",
+            "count": 33
+          },
+          {
+            "label": "medicina familiar",
+            "count": 30
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 655
+          },
+          {
+            "label": "Area 1",
+            "count": 22
+          },
+          {
+            "label": "Area 3",
+            "count": 22
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 443
+          },
+          {
+            "label": "Licenciatura",
+            "count": 173
+          },
+          {
+            "label": "Maestría",
+            "count": 56
+          },
+          {
+            "label": "Doctorado",
+            "count": 29
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 668
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 6
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biológicas",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de odontología",
+            "count": 2
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad westhill",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.031339,
+          "Area 2": 0.933048,
+          "Area 3": 0.031339,
+          "Area 4": 0.002849,
+          "Por Clasificar": 0.001425
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 655,
+            "pct": 0.933048
+          },
+          {
+            "area": "Area 1",
+            "count": 22,
+            "pct": 0.031339
+          },
+          {
+            "area": "Area 3",
+            "count": 22,
+            "pct": 0.031339
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.002849
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.001425
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0569819",
+            "doc_number_url": "000870819",
+            "title": "supervivencia en cáncer gástrico en hospital de tercer nivel de petróleos mexicanos entre 2019 y 2024",
+            "program": "cirugia general",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Bathory Rodríguez, Roberto",
+            "advisor": "Cruz Zárate, Alejandro",
+            "x": 9.76337,
+            "y": -2.367464,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0551648",
+            "doc_number_url": "000844728",
+            "title": "\"conductas de exposición y protección solar asociadas a la percepcion del riesgo de cáncer de piel en derechohabientes de la unidad de medicina familiar no. 92\"",
+            "program": "medicina familiar",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Rivera Contreras, Grecia",
+            "advisor": "Reyes Jiménez, Olivia ; Vega de Lucio, Devane Belem",
+            "x": 9.752659,
+            "y": -2.377521,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0213906",
+            "doc_number_url": "000172213",
+            "title": "analisis de proteinas in vivo de tumores malignos de colon por electroforesis bidimensional",
+            "program": "quimica farmaceutico biologica",
+            "year": 1991,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Hernandez Ramirez, Alma Angélica",
+            "advisor": "Quintero Ruiz, Angelina",
+            "x": 9.781201,
+            "y": -2.386665,
+            "cluster_strength": 0.756096
+          },
+          {
+            "thesis_id": "TH_0416184",
+            "doc_number_url": "000684183",
+            "title": "detección de antígenos testiculares de cáncer mage-a3",
+            "program": "ciencias biologicas",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de medicina unam",
+            "author": "Olarte Carrillo, Irma",
+            "advisor": "Miranda Peralta, Enrique Isabel",
+            "x": 9.784463,
+            "y": -2.357901,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0251068",
+            "doc_number_url": "000230734",
+            "title": "prevalencia de cancer gastrico temprano por estudio endoscopico en el hospital centro medico la raza",
+            "program": "cirugia general",
+            "year": 1995,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "García Escamilla, Aaron",
+            "advisor": "Silva Rodriguez, Olga",
+            "x": 9.748032,
+            "y": -2.395454,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0555050",
+            "doc_number_url": "000853023",
+            "title": "\"ensayo clínico fase ii para evaluar la supervivencia y la calidad de vida de pacientes con carcinoma cervicouterino localmente avanzado y deterioro renal tratadas con quimioradioterapia concomitante con gemcitabina\"",
+            "program": "ciencias",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de medicina unam",
+            "author": "Alarcón Barrios, Silvia Eugenia",
+            "advisor": "Cetina Pérez, Lucely Del Carmen ; Dueñas González, Alfonso, miembro del comité ; Medeiros Domingo, Mara, miembro del comité ; Cetina Pérez, Lucely Del Carmen ; Dueñas González, Alfonso, miembro del comité ; Medeiros Domingo, Mara, miembro del comité",
+            "x": 9.79721,
+            "y": -2.370699,
+            "cluster_strength": 0.979436
+          },
+          {
+            "thesis_id": "TH_0473289",
+            "doc_number_url": "000743196",
+            "title": "efecto de la obesidad y algunas variables del estilo de vida en la presencia de cáncer colorrectal en pacientes adscritos a la umae oncología de cmn siglo xxi",
+            "program": "epidemiologia",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ovalle Luna, Oscar David",
+            "advisor": "Acosta Cazares, Benjamín ; Rodríguez Ramírez, Enrique Saúl",
+            "x": 9.774153,
+            "y": -2.404493,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0039451",
+            "doc_number_url": "000316314",
+            "title": "factores que influyen en la morbi-mortalidad operatoria de los pacientes con cancer de esofago",
+            "program": "oncologia medica y radioterapia",
+            "year": 2003,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Carrillo Vergara, Gustavo",
+            "advisor": "López Hernandez,Alejandro",
+            "x": 9.749359,
+            "y": -2.40129,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 29,
+        "macrocluster_id": 15,
+        "micro_label": "CANCER · CANCER PROSTATA · PACIENTES · PROSTATECTOMIA",
+        "size": 72,
+        "x": 10.740332,
+        "y": -1.847188,
+        "year_min": 1882,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "cancer",
+            "score": 0.083753
+          },
+          {
+            "term": "cancer prostata",
+            "score": 0.079524
+          },
+          {
+            "term": "pacientes",
+            "score": 0.074317
+          },
+          {
+            "term": "prostatectomia",
+            "score": 0.050176
+          },
+          {
+            "term": "radical",
+            "score": 0.048948
+          },
+          {
+            "term": "adenocarcinoma",
+            "score": 0.046264
+          },
+          {
+            "term": "prostatectomia radical",
+            "score": 0.045421
+          },
+          {
+            "term": "reseccion",
+            "score": 0.042126
+          },
+          {
+            "term": "pacientes cancer",
+            "score": 0.037719
+          },
+          {
+            "term": "prostatico",
+            "score": 0.037426
+          },
+          {
+            "term": "transuretral",
+            "score": 0.036467
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.036385
+          },
+          {
+            "term": "riesgo",
+            "score": 0.033722
+          },
+          {
+            "term": "adenocarcinoma prostata",
+            "score": 0.031746
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "urologia",
+            "count": 33
+          },
+          {
+            "label": "anatomia patologica",
+            "count": 9
+          },
+          {
+            "label": "anestesiologia",
+            "count": 6
+          },
+          {
+            "label": "medico cirujano",
+            "count": 5
+          },
+          {
+            "label": "oncologia medica",
+            "count": 4
+          },
+          {
+            "label": "ciencias biomedicas",
+            "count": 3
+          },
+          {
+            "label": "ciencias bioquimicas",
+            "count": 2
+          },
+          {
+            "label": "imagenologia diagnostica y terapeutica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 72
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 58
+          },
+          {
+            "label": "Licenciatura",
+            "count": 9
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 70
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 1.0,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 72,
+            "pct": 1.0
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0436036",
+            "doc_number_url": "000697736",
+            "title": "morbimortalidad en pacientes con cáncer de próstata localizado, con alto riesgo de recurrencia, tratados con prostatectomía radical",
+            "program": "urologia",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Barcena Ugalde, Juan Carlos",
+            "advisor": "Hernández Ordoñez, Octavio Francisco ; Sánchez Martínez, Luis Carlos",
+            "x": 10.755285,
+            "y": -1.87572,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0178367",
+            "doc_number_url": "000053099",
+            "title": "utilidad de la oncocirugia de prostata en pacientes de alto riesgo",
+            "program": "urologia",
+            "year": 1985,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Juarez Pena, Jorge Eduardo",
+            "advisor": "Villalva Posada, Raul",
+            "x": 10.772302,
+            "y": -1.839686,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0454024",
+            "doc_number_url": "000733531",
+            "title": "incidencia de bordes positivos en pacientes con cáncer de próstata sometidos a prostatectomía radical retropúbica en el centro médico nacional “20 de noviembre”",
+            "program": "urologia",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Geier Mariscal, Christian Patricio",
+            "advisor": "Alías Melgar, Alejandro",
+            "x": 10.762175,
+            "y": -1.873315,
+            "cluster_strength": 0.451913
+          },
+          {
+            "thesis_id": "TH_0468327",
+            "doc_number_url": "000744560",
+            "title": "asociación histopatológica de la escala de gleason con el volumen prostático en biopsias transrectales en pacientes con cáncer de próstata",
+            "program": "urologia",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "García Vázquez, José Jonathan",
+            "advisor": "Landa Soler, Martín ; Velázquez Macías, Rafael Francisco",
+            "x": 10.776927,
+            "y": -1.862407,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0517696",
+            "doc_number_url": "000808257",
+            "title": "tiempo de doblaje del antígeno prostático específico y su asosiación con la presencia de metástasis óseas por gammagrafía en el cáncer de próstata",
+            "program": "medicina nuclear e imaginologia molecular",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Durán Sánchez, Marco Antonio",
+            "advisor": "Arenas Osuna, Jesús",
+            "x": 10.760631,
+            "y": -1.883405,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0493443",
+            "doc_number_url": "000771077",
+            "title": "concordancia clínico patológica del cáncer de próstata de bajo y muy bajo riesgo en el hospital de especialidades centro médico nacional la raza",
+            "program": "urologia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Bárcena Ruiz, Rafael",
+            "advisor": "Santaella Torres, Félix ; Mora Campos, María del Rosario ; Sánchez Martínez, Luis Carlos",
+            "x": 10.75124,
+            "y": -1.887599,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0019547",
+            "doc_number_url": "000300389",
+            "title": "factores predictivos de riesgo para recaida bioquimica despues de tratamiento quirurgico del cancer de prostata localizado",
+            "program": "urologia",
+            "year": 2001,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Quintero Becerra, Joel",
+            "advisor": "Sotomayor de Zavaleta, Mariano",
+            "x": 10.753311,
+            "y": -1.888022,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0558453",
+            "doc_number_url": "000859047",
+            "title": "desenlaces perioperatorios y oncológicos en pacientes mayores de 75 años sometidos a prostatectomía radical ¿es la edad una limitante para esta cirugía?",
+            "program": "urologia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Farrera González, Viviana",
+            "advisor": "Feria Bernal, Guillermo",
+            "x": 10.782296,
+            "y": -1.837592,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 27,
+        "macrocluster_id": 15,
+        "micro_label": "INFECCION · PACIENTES · INFECCION VIRUS · CANCER",
+        "size": 46,
+        "x": 10.759283,
+        "y": -2.735556,
+        "year_min": 1989,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "infeccion",
+            "score": 0.084049
+          },
+          {
+            "term": "pacientes",
+            "score": 0.067278
+          },
+          {
+            "term": "infeccion virus",
+            "score": 0.061807
+          },
+          {
+            "term": "cancer",
+            "score": 0.051636
+          },
+          {
+            "term": "cervical",
+            "score": 0.048698
+          },
+          {
+            "term": "deteccion",
+            "score": 0.046165
+          },
+          {
+            "term": "riesgo",
+            "score": 0.042659
+          },
+          {
+            "term": "hospital",
+            "score": 0.040764
+          },
+          {
+            "term": "vph",
+            "score": 0.040211
+          },
+          {
+            "term": "cavidad",
+            "score": 0.040183
+          },
+          {
+            "term": "mujeres",
+            "score": 0.040036
+          },
+          {
+            "term": "estudio",
+            "score": 0.037534
+          },
+          {
+            "term": "clinica",
+            "score": 0.035981
+          },
+          {
+            "term": "factores",
+            "score": 0.035814
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 8
+          },
+          {
+            "label": "medicina familiar",
+            "count": 8
+          },
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 7
+          },
+          {
+            "label": "biologia",
+            "count": 3
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 3
+          },
+          {
+            "label": "otorrinolaringologia y cirugia de cabeza y cuello",
+            "count": 3
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 2
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 45
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 23
+          },
+          {
+            "label": "Licenciatura",
+            "count": 17
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 43
+          },
+          {
+            "label": "escuela de enfermería de la secretaria de salud (mexico). escuela de enfermería, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          },
+          {
+            "label": "instituto para el desarrollo y actualización de profesionales. escuela de odontología,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.978261,
+          "Area 3": 0.021739,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 45,
+            "pct": 0.978261
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.021739
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0553980",
+            "doc_number_url": "000837140",
+            "title": "\"relacion de las pacientes con lesión intraepitelial cervical asociadas a virus del papiloma humano con coinfección con chlamydia trachomatis en el hospital dr. manuel gea gonzález en el periodo comprendido del 2017 al 2021\"",
+            "program": "ginecologia y obstetricia",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Vargas Carrillo, Frances Chantal",
+            "advisor": "Manzo Carrillo, Lizette",
+            "x": 10.757576,
+            "y": -2.737323,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0390653",
+            "doc_number_url": "000664634",
+            "title": "inducción de respuesta inmune antitumoral en ratones utilizando el adyuvante papmv y un péptido de la proteína e7 del virus del papiloma humano (vph)",
+            "program": "quimica farmaceutico biologica",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Olguín Pelayo, Arturo Antonio",
+            "advisor": "Bonifaz Alfonzo, Laura Cecilia",
+            "x": 10.760471,
+            "y": -2.738557,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0448474",
+            "doc_number_url": "000722540",
+            "title": "estudio de la expresión de p16ink4a y ki-67 en tejido de ectopía cervical infectado por virus del papiloma humano",
+            "program": "quimica farmaceutico biologica",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Vázquez Burgos, Nelly Gabriela",
+            "advisor": "Rocha Zavaleta, Leticia",
+            "x": 10.76498,
+            "y": -2.746091,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0351045",
+            "doc_number_url": "000639466",
+            "title": "uso del péptido antigénico ihsmnstil de la proteína l1 de hpv-16 para la detección de anticuerpos específicos en secreciones de mucosa bucal, cervical y suero de pacientes con infección por virus de papiloma humano",
+            "program": "biologia",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Pérez Saldaña, Karyna",
+            "advisor": "Monroy García, Alberto",
+            "x": 10.766855,
+            "y": -2.746605,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0537600",
+            "doc_number_url": "000833026",
+            "title": "efecto del virus de papiloma humano (vph) sobre el factor creb3 y el estrés del retículo endoplásmatico : contribución al proceso carcinogénico",
+            "program": "ciencias biologicas",
+            "year": 2022,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de medicina unam",
+            "author": "Quintero Esquivel, Silvia",
+            "advisor": "Manzo Merino, Joaquín",
+            "x": 10.757685,
+            "y": -2.749495,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0329658",
+            "doc_number_url": "000617628",
+            "title": "estudio de la capacidad de anticuerpos inducidos por una vacuna genica contra el virus del papiloma humano tipo 16 (hpv-16), para inhibir la union del hpv-16 al heparan sulfato",
+            "program": "ciencias biologicas",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "instituto de investigaciones biomedicas unam",
+            "author": "Cancio Lonches, Clotilde",
+            "advisor": "Rocha Zavaleta, Leticia",
+            "x": 10.770926,
+            "y": -2.748247,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0550019",
+            "doc_number_url": "000840438",
+            "title": "identificación de posibles biomarcadores pronóstico asociados con la expresión de los oncogenes e6 y e7 del virus del papiloma humano tipo 16 en cáncer cervical",
+            "program": "ciencias",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de quimica unam",
+            "author": "Olmedo Nieva, Leslie",
+            "advisor": "Lizano Soberón, Marcela",
+            "x": 10.741667,
+            "y": -2.731187,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0546511",
+            "doc_number_url": "000839218",
+            "title": "expresión de p16, p53 y mdm2 en lesiones epiteliales papilomatosas benignas y carcinomas epidermoides asociados a infección por el virus del papiloma humano en la cavidad oral",
+            "program": "cirujano dentista",
+            "year": 2023,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Hernández Díaz, Alin Nicolás",
+            "advisor": "Molotla Fragoso, Adriana ; Cruz Tapia, Roberto Onner",
+            "x": 10.751177,
+            "y": -2.751873,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

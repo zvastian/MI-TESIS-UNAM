@@ -1,0 +1,974 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 14,
+    "macro_label": "PACIENTES · PULMONAR · ARTERIAL · HIPERTENSION",
+    "size": 830,
+    "microcluster_count": 3,
+    "microclusters": [
+      {
+        "microcluster_id": 79,
+        "macrocluster_id": 14,
+        "micro_label": "PULMONAR · PACIENTES · ASMA · VENTILACION",
+        "size": 387,
+        "x": 8.939556,
+        "y": 0.818016,
+        "year_min": 1881,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "pulmonar",
+            "score": 0.0491
+          },
+          {
+            "term": "pacientes",
+            "score": 0.046276
+          },
+          {
+            "term": "asma",
+            "score": 0.033865
+          },
+          {
+            "term": "ventilacion",
+            "score": 0.024314
+          },
+          {
+            "term": "enfermedad",
+            "score": 0.022634
+          },
+          {
+            "term": "mecanica",
+            "score": 0.020094
+          },
+          {
+            "term": "ventilacion mecanica",
+            "score": 0.019725
+          },
+          {
+            "term": "hospital",
+            "score": 0.019664
+          },
+          {
+            "term": "cronica",
+            "score": 0.018562
+          },
+          {
+            "term": "factores",
+            "score": 0.017883
+          },
+          {
+            "term": "respiratoria",
+            "score": 0.017051
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.016456
+          },
+          {
+            "term": "pulmonares",
+            "score": 0.016427
+          },
+          {
+            "term": "enfermedad pulmonar",
+            "score": 0.016091
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "anestesiologia",
+            "count": 32
+          },
+          {
+            "label": "pediatria medica",
+            "count": 26
+          },
+          {
+            "label": "medicina familiar",
+            "count": 25
+          },
+          {
+            "label": "medicina interna",
+            "count": 25
+          },
+          {
+            "label": "neumologia",
+            "count": 23
+          },
+          {
+            "label": "pediatria",
+            "count": 21
+          },
+          {
+            "label": "medicina del enfermo en estado critico",
+            "count": 18
+          },
+          {
+            "label": "neumologia pediatrica",
+            "count": 14
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 367
+          },
+          {
+            "label": "Area 1",
+            "count": 16
+          },
+          {
+            "label": "Area 3",
+            "count": 3
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 307
+          },
+          {
+            "label": "Licenciatura",
+            "count": 54
+          },
+          {
+            "label": "Maestría",
+            "count": 15
+          },
+          {
+            "label": "Doctorado",
+            "count": 11
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 370
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 2
+          },
+          {
+            "label": "escuela de enfermería de la secretaría de salud (d.f.),",
+            "count": 1
+          },
+          {
+            "label": "universidad westhill",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biomédicas",
+            "count": 1
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.041344,
+          "Area 2": 0.94832,
+          "Area 3": 0.007752,
+          "Area 4": 0.002584,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 367,
+            "pct": 0.94832
+          },
+          {
+            "area": "Area 1",
+            "count": 16,
+            "pct": 0.041344
+          },
+          {
+            "area": "Area 3",
+            "count": 3,
+            "pct": 0.007752
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.002584
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0001683",
+            "doc_number_url": "000286119",
+            "title": "frecuencia de displasia broncopulmonar como complicacion de ventilacion mecanica asistida a diferentes parametros en recien nacidos de pretermino",
+            "program": "pediatria medica",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Cendejas Amezcua, Monica",
+            "advisor": "Escobedo Chávez, Ernesto",
+            "x": 8.927039,
+            "y": 0.811059,
+            "cluster_strength": 0.780209
+          },
+          {
+            "thesis_id": "TH_0516577",
+            "doc_number_url": "000816768",
+            "title": "uso de óxido nítrico y posición prono prolongada en pacientes críticamente enfermos con insuficiencia respiratoria severa asociada a infección por sars cov 2",
+            "program": "medicina critica",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Castro Serrano, Alejandro",
+            "advisor": "Sánchez Calzada, Armando",
+            "x": 8.927984,
+            "y": 0.808088,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0256190",
+            "doc_number_url": "000232364",
+            "title": "reposo parcial y total de los musculos respiratorios : correlacion del indice de ventilacion rapidas superficial con el trabajo respiratorio",
+            "program": "medicina del enfermo en estado critico",
+            "year": 1996,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Bautista Bautista, Edgar Gildardo",
+            "advisor": "Elizalde Gonzalez, Jose Javier",
+            "x": 8.94458,
+            "y": 0.840177,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0366387",
+            "doc_number_url": "000647594",
+            "title": "resultado de pleuroneumonectomía para mesotelioma maligno en el instituto nacional de enfermedades respiratorias ismael cosio villegas en un período de cuatro años",
+            "program": "cirugia cardiotoracica",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Torres Amaya, Rogelio",
+            "advisor": "Guzmán de Alba, Enrique ; Morales Gómez, José ; Mendoza Posada, Daniel",
+            "x": 8.946978,
+            "y": 0.840803,
+            "cluster_strength": 0.56708
+          },
+          {
+            "thesis_id": "TH_0024449",
+            "doc_number_url": "000309851",
+            "title": "calidad de vida en pacientes pediatricos asmaticos obesos y no obesos",
+            "program": "inmunologia clinica pediatrica",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Blandon Vijil, Maria Virginia",
+            "advisor": "Rio Navarro, Blanca del ; Sierna Monge, Juan Jose Luis",
+            "x": 8.927386,
+            "y": 0.847757,
+            "cluster_strength": 0.510702
+          },
+          {
+            "thesis_id": "TH_0496938",
+            "doc_number_url": "000773068",
+            "title": "análisis del flujo de aire en las primeras bifurcaciones del sistema respiratorio",
+            "program": "ingenieria mecanica",
+            "year": 2018,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "García Santiago, Vladimir",
+            "advisor": "Cervantes de Gortari, Jaime",
+            "x": 8.945291,
+            "y": 0.785787,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0103141",
+            "doc_number_url": "000059142",
+            "title": "nuevo metodo para medir respiracion en las ratas",
+            "program": "biologia",
+            "year": 1969,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Mendoza Hartyann, Blanca Alicia",
+            "advisor": "",
+            "x": 8.927356,
+            "y": 0.850332,
+            "cluster_strength": 0.711894
+          },
+          {
+            "thesis_id": "TH_0056581",
+            "doc_number_url": "000346065",
+            "title": "ventilacion prona en sindrome de dificultad respiratoria aguda",
+            "program": "medicina del enfermo pediatrico en estado critico",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Hernandez Orozco, Alan Oscar",
+            "advisor": "Chávez López, Adrian",
+            "x": 8.965395,
+            "y": 0.794626,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 61,
+        "macrocluster_id": 14,
+        "micro_label": "PACIENTES · INFARTO · MIOCARDIO · CARDIACA",
+        "size": 364,
+        "x": 9.872996,
+        "y": 0.424762,
+        "year_min": 1883,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "pacientes",
+            "score": 0.049012
+          },
+          {
+            "term": "infarto",
+            "score": 0.031525
+          },
+          {
+            "term": "miocardio",
+            "score": 0.028987
+          },
+          {
+            "term": "cardiaca",
+            "score": 0.02497
+          },
+          {
+            "term": "agudo",
+            "score": 0.023818
+          },
+          {
+            "term": "cirugia",
+            "score": 0.02127
+          },
+          {
+            "term": "infarto agudo",
+            "score": 0.020072
+          },
+          {
+            "term": "agudo miocardio",
+            "score": 0.019556
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.018992
+          },
+          {
+            "term": "riesgo",
+            "score": 0.018719
+          },
+          {
+            "term": "estudio",
+            "score": 0.018599
+          },
+          {
+            "term": "coronaria",
+            "score": 0.018146
+          },
+          {
+            "term": "cardiopatia",
+            "score": 0.017981
+          },
+          {
+            "term": "hospital",
+            "score": 0.017833
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cardiologia",
+            "count": 148
+          },
+          {
+            "label": "medicina interna",
+            "count": 24
+          },
+          {
+            "label": "anestesiologia",
+            "count": 14
+          },
+          {
+            "label": "medicina del enfermo en estado critico",
+            "count": 12
+          },
+          {
+            "label": "cardiologia pediatrica",
+            "count": 11
+          },
+          {
+            "label": "angiologia y cirugia vascular",
+            "count": 10
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 10
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 9
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 350
+          },
+          {
+            "label": "Area 1",
+            "count": 13
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 309
+          },
+          {
+            "label": "Licenciatura",
+            "count": 45
+          },
+          {
+            "label": "Maestría",
+            "count": 9
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 353
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "instituto mexicano del seguro social. centro médico nacional \"siglo xxi\", hospital de especialidades \"dr. bernardo sepúlveda gutiérrez”,",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermería de zamora,",
+            "count": 1
+          },
+          {
+            "label": "universidad motolinía",
+            "count": 1
+          },
+          {
+            "label": "instituto mexicano del seguro social hospital general de zona 7",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.035714,
+          "Area 2": 0.961538,
+          "Area 3": 0.002747,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 350,
+            "pct": 0.961538
+          },
+          {
+            "area": "Area 1",
+            "count": 13,
+            "pct": 0.035714
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.002747
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0000631",
+            "doc_number_url": "000282757",
+            "title": "lesiones traumaticas del corazon",
+            "program": "cirugia general",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Arroyo Ramos, Francisco",
+            "advisor": "Delgadillo Gutierrez, Sergio",
+            "x": 9.872159,
+            "y": 0.433701,
+            "cluster_strength": 0.760944
+          },
+          {
+            "thesis_id": "TH_0001812",
+            "doc_number_url": "000282986",
+            "title": "frecuencia y caracteristicasa de los trastornos de coagulacion en los pacientes posoperados de corazon",
+            "program": "medicina del enfermo en estado critico",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Chino Rios, Eloisa",
+            "advisor": "Vega Bravo, Alberto H. de la",
+            "x": 9.87928,
+            "y": 0.432587,
+            "cluster_strength": 0.870277
+          },
+          {
+            "thesis_id": "TH_0467773",
+            "doc_number_url": "000741718",
+            "title": "secuelas neurológica y sobrevida en pacientes con parada cardíaca en el hospital 2 a troncoso imss",
+            "program": "medicina de urgencias",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Fuentes Cruz, Jose Alfonso",
+            "advisor": "Fuentes Cruz, Jose Alfonso",
+            "x": 9.878142,
+            "y": 0.437519,
+            "cluster_strength": 0.609299
+          },
+          {
+            "thesis_id": "TH_0221125",
+            "doc_number_url": "000182752",
+            "title": "cardiopatia iquemica ateraclerosa en pacientes con extrocardia y situs inversus totalis",
+            "program": "cardiologia",
+            "year": 1992,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Farell Campa, Javier",
+            "advisor": "Astudillo Sandoval, Raul",
+            "x": 9.888461,
+            "y": 0.425273,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0557491",
+            "doc_number_url": "000859528",
+            "title": "\"análisis de la tasa de letalidad asociada a complicaciones mecánicas secundarias a infarto agudo de miocardio en la umae hospital de cardiología del centro médico nacional siglo xxi\"",
+            "program": "cardiologia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Córdova Lara, Manuel de Jesús",
+            "advisor": "Cruz Montalvo, Anibal Eduardo",
+            "x": 9.860309,
+            "y": 0.415078,
+            "cluster_strength": 0.836988
+          },
+          {
+            "thesis_id": "TH_0437514",
+            "doc_number_url": "000717335",
+            "title": "beneficio de la calistenia en pacientes con cardiopatía isquémica atendidos en rehabilitación cardiaca",
+            "program": "medicina de rehabilitacion",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Contreras Delgado, Alma Nelly",
+            "advisor": "Varela Tapia, Clara Lilia",
+            "x": 9.890368,
+            "y": 0.428802,
+            "cluster_strength": 0.450658
+          },
+          {
+            "thesis_id": "TH_0559781",
+            "doc_number_url": "000858910",
+            "title": "índices de rendimiento ventricular global como factor pronóstico en cirugía cardíaca",
+            "program": "cardiologia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "González Ortiz, Araceli",
+            "advisor": "Manzur Sandoval, Daniel",
+            "x": 9.891886,
+            "y": 0.418192,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0382016",
+            "doc_number_url": "000852328",
+            "title": "\"prevalencia de la fibrilación auricular en pacientes que acudan al servicio de urgencias del hgz # 32 guasave sinaloa\"",
+            "program": "medicina de urgencias",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ahumada López, Carlos Manuel",
+            "advisor": "Flores Flores, Paula",
+            "x": 9.853634,
+            "y": 0.432623,
+            "cluster_strength": 0.866848
+          }
+        ]
+      },
+      {
+        "microcluster_id": 62,
+        "macrocluster_id": 14,
+        "micro_label": "PACIENTES · PACIENTES HIPERTENSION · SISTEMICA · ARTERIAL SISTEMICA",
+        "size": 79,
+        "x": 10.14168,
+        "y": 0.089127,
+        "year_min": 1979,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "pacientes",
+            "score": 0.084517
+          },
+          {
+            "term": "pacientes hipertension",
+            "score": 0.059044
+          },
+          {
+            "term": "sistemica",
+            "score": 0.058542
+          },
+          {
+            "term": "arterial sistemica",
+            "score": 0.058542
+          },
+          {
+            "term": "familiar",
+            "score": 0.056133
+          },
+          {
+            "term": "tratamiento",
+            "score": 0.045631
+          },
+          {
+            "term": "medicina",
+            "score": 0.043571
+          },
+          {
+            "term": "medicina familiar",
+            "score": 0.043571
+          },
+          {
+            "term": "unidad",
+            "score": 0.043366
+          },
+          {
+            "term": "no",
+            "score": 0.04273
+          },
+          {
+            "term": "factores",
+            "score": 0.038292
+          },
+          {
+            "term": "unidad medicina",
+            "score": 0.038246
+          },
+          {
+            "term": "presion",
+            "score": 0.034044
+          },
+          {
+            "term": "esencial",
+            "score": 0.033465
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "medicina familiar",
+            "count": 36
+          },
+          {
+            "label": "medicina interna",
+            "count": 9
+          },
+          {
+            "label": "medicina de urgencias",
+            "count": 9
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 4
+          },
+          {
+            "label": "psicologia",
+            "count": 4
+          },
+          {
+            "label": "cardiologia",
+            "count": 4
+          },
+          {
+            "label": "actuaria",
+            "count": 2
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 74
+          },
+          {
+            "label": "Area 3",
+            "count": 3
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 63
+          },
+          {
+            "label": "Licenciatura",
+            "count": 13
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 75
+          },
+          {
+            "label": "centro universitario de iguala,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "escuela de enfermeria de zamora (zamora, mich.). escuela de enfermeria, institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores iztacala",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.025316,
+          "Area 2": 0.936709,
+          "Area 3": 0.037975,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 74,
+            "pct": 0.936709
+          },
+          {
+            "area": "Area 3",
+            "count": 3,
+            "pct": 0.037975
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.025316
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0472251",
+            "doc_number_url": "000741567",
+            "title": "eficacia de una estrategia educativa activo-participativa en la aptitud clínica para el diagóstico y tratamiento de crisis hipertensiva en personal médico de primer nivel de atención de la umf no 45 del imss, de enero-febrero de 2014",
+            "program": "medicina familiar",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Montes Carlón, Amy Elia",
+            "advisor": "Zavala Cruz, Gad Gamed",
+            "x": 10.193132,
+            "y": 0.127647,
+            "cluster_strength": 0.7398
+          },
+          {
+            "thesis_id": "TH_0460214",
+            "doc_number_url": "000725891",
+            "title": "nivel de conocimiento del personal médico sobre el manejo de la emergencia hipertensiva en el servicio de urgencias primer contacto del hospital general de zona 2, tuxtla gutiérrez",
+            "program": "medicina de urgencias",
+            "year": 2015,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Reyes Jiménez, Norma Adriana",
+            "advisor": "Cortés Pon, José Ramiro",
+            "x": 10.196097,
+            "y": 0.127815,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0273161",
+            "doc_number_url": "000002657",
+            "title": "derivacion portocava de bajo diametro en la hipertension portal",
+            "program": "cirugia general",
+            "year": 1997,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Obregon García, Ma. Cristina",
+            "advisor": "Orea Martinez, Juan Gerardo",
+            "x": 10.195669,
+            "y": 0.155404,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0494325",
+            "doc_number_url": "000773169",
+            "title": "manejo actual del paciente con hipertensión arterial durante el tratamiento odontológico",
+            "program": "cirujano dentista",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Carrillo Agustín, Karla",
+            "advisor": "Esquivel Chirino, César Augusto",
+            "x": 10.186383,
+            "y": 0.162454,
+            "cluster_strength": 0.851532
+          },
+          {
+            "thesis_id": "TH_0412788",
+            "doc_number_url": "000681945",
+            "title": "incidencia de presion intraocular elevada en pacientes con hipertension arterial sistemica, estudio observacional en el hospital general de méxico",
+            "program": "cardiologia",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Henriquez Bonilla, Juan Carlos",
+            "advisor": "Avila Ramirez, Lilia ; Tenorio Guajardo, Guadalupe",
+            "x": 10.185627,
+            "y": 0.163306,
+            "cluster_strength": 0.761981
+          },
+          {
+            "thesis_id": "TH_0567670",
+            "doc_number_url": "000860810",
+            "title": "frecuencia de factores de riesgo para desarrollo de hipertensión arterial y riesgo cardiovascular en sujetos con normopeso y obesidad",
+            "program": "medicina familiar",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Trejo Ríos, Noemi",
+            "advisor": "Guerrero Calva, Pamela Ivette ; Camarillo Nava, Víctor Manuel",
+            "x": 10.221807,
+            "y": 0.123917,
+            "cluster_strength": 0.552977
+          },
+          {
+            "thesis_id": "TH_0415344",
+            "doc_number_url": "000693357",
+            "title": "frecuencia de emergencia hipertensiva en el servicio de urgencias. hgz iv no. 8 de ensenada bc",
+            "program": "medicina de urgencias",
+            "year": 2012,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Meza Armenta, Raúl Enrique",
+            "advisor": "Colín García, María de los Ángeles",
+            "x": 10.196049,
+            "y": 0.160164,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0330382",
+            "doc_number_url": "000622124",
+            "title": "cambios en la tension arterial relacionados con la ingesta de cafe",
+            "program": "medicina interna",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Contreras Arroyo, Mauricio",
+            "advisor": "Rodriguez López, Leticia",
+            "x": 10.21394,
+            "y": 0.144605,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2574 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 6,
+    "macro_label": "EMPRESA · SISTEMA · CALIDAD · CONTROL",
+    "size": 1099,
+    "microcluster_count": 8,
+    "microclusters": [
+      {
+        "microcluster_id": 182,
+        "macrocluster_id": 6,
+        "micro_label": "EMPRESA · AUDITORIA · ADMINISTRACION · CONTROL",
+        "size": 391,
+        "x": 0.474393,
+        "y": 0.02029,
+        "year_min": 1936,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "empresa",
+            "score": 0.046395
+          },
+          {
+            "term": "auditoria",
+            "score": 0.041475
+          },
+          {
+            "term": "administracion",
+            "score": 0.030142
+          },
+          {
+            "term": "control",
+            "score": 0.028151
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.02794
+          },
+          {
+            "term": "organizacion",
+            "score": 0.026674
+          },
+          {
+            "term": "planeacion",
+            "score": 0.025464
+          },
+          {
+            "term": "administrativa",
+            "score": 0.024715
+          },
+          {
+            "term": "empresas",
+            "score": 0.022922
+          },
+          {
+            "term": "analisis",
+            "score": 0.022049
+          },
+          {
+            "term": "sistema",
+            "score": 0.021129
+          },
+          {
+            "term": "publico",
+            "score": 0.020975
+          },
+          {
+            "term": "contador publico",
+            "score": 0.01825
+          },
+          {
+            "term": "contador",
+            "score": 0.01825
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "contaduria",
+            "count": 113
+          },
+          {
+            "label": "administracion",
+            "count": 102
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 31
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 26
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 17
+          },
+          {
+            "label": "derecho",
+            "count": 11
+          },
+          {
+            "label": "psicologia",
+            "count": 10
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 9
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 254
+          },
+          {
+            "label": "Area 1",
+            "count": 103
+          },
+          {
+            "label": "Area 2",
+            "count": 28
+          },
+          {
+            "label": "Area 4",
+            "count": 6
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 366
+          },
+          {
+            "label": "Maestría",
+            "count": 21
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 324
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 11
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de contaduria y administracion institución que otorga el título",
+            "count": 7
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 6
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 4
+          },
+          {
+            "label": "universidad villa rica (boca del rio",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 4
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 3
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.263427,
+          "Area 2": 0.071611,
+          "Area 3": 0.649616,
+          "Area 4": 0.015345,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 254,
+            "pct": 0.649616
+          },
+          {
+            "area": "Area 1",
+            "count": 103,
+            "pct": 0.263427
+          },
+          {
+            "area": "Area 2",
+            "count": 28,
+            "pct": 0.071611
+          },
+          {
+            "area": "Area 4",
+            "count": 6,
+            "pct": 0.015345
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0173328",
+            "doc_number_url": "000006688",
+            "title": "la administración por objetivos : una alternativa en la direccion de empresas",
+            "program": "administracion",
+            "year": 1984,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Sanchez Hanono, Fernando",
+            "advisor": "Kuri Santiago, Fernando",
+            "x": 0.481225,
+            "y": 0.015227,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0362587",
+            "doc_number_url": "000795079",
+            "title": "funciones contable-administrativas desarrolladas en la empresa colombin bel s.a. de c.v",
+            "program": "contaduria",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Montiel Ornelas, Adriana",
+            "advisor": "Ramírez Ornelas, Francisco",
+            "x": 0.479259,
+            "y": -0.001883,
+            "cluster_strength": 0.977203
+          },
+          {
+            "thesis_id": "TH_0201626",
+            "doc_number_url": "000100880",
+            "title": "aplicacion del desarrollo organizacional en la pequena empresa",
+            "program": "administracion",
+            "year": 1989,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad anahuac",
+            "author": "Merino Westphal, Martin Guillermo",
+            "advisor": "Ranal Luana, Manuel",
+            "x": 0.446513,
+            "y": 0.016545,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0087020",
+            "doc_number_url": "000073755",
+            "title": "estudio de promocion y organizacion administrativo-contable de una industria panificadora",
+            "program": "contaduria",
+            "year": 1962,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Marquina Mercado, Othon",
+            "advisor": "",
+            "x": 0.457434,
+            "y": -0.002971,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0210508",
+            "doc_number_url": "000165371",
+            "title": "la importancia de la organizacion dentro de las empresas paraestatales y los manuales y procedimientos como una herramienta parasu eficiencia",
+            "program": "administracion",
+            "year": 1991,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad franco mexicana",
+            "author": "Alcalde Ocaña, Jorge",
+            "advisor": "Martinez Verduzco, Ruben",
+            "x": 0.456434,
+            "y": 0.044179,
+            "cluster_strength": 0.963525
+          },
+          {
+            "thesis_id": "TH_0415983",
+            "doc_number_url": "000681537",
+            "title": "ejecución del proceso de administración del cambio dentro de un departamento dedicado al desarrollo de tecnología",
+            "program": "alta direccion",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Especialidad",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Navarrete Escobedo, Wendy Patricia",
+            "advisor": "Trejo Trejo, Marco Antonio",
+            "x": 0.504696,
+            "y": 0.021835,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0580626",
+            "doc_number_url": null,
+            "title": "gestión estratégica del personal utilizando herramientas de inteligencia de negocios en la industria de la consultoría",
+            "program": "ingenieria industrial",
+            "year": 2025,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Torres Rendon, Leonardo",
+            "advisor": "Nieto Fierro, Diego Alberto",
+            "x": 0.448066,
+            "y": -0.007833,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0366436",
+            "doc_number_url": "000799864",
+            "title": "administración aplicada a una empresa de reciente creación",
+            "program": "administracion",
+            "year": 2009,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Torres Hernández, Sergio",
+            "advisor": "Gaviño Cruz, Cesar",
+            "x": 0.451035,
+            "y": -0.014135,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 108,
+        "macrocluster_id": 6,
+        "micro_label": "CAPACITACION · PERSONAL · LABORAL · EMPRESA",
+        "size": 199,
+        "x": 0.445598,
+        "y": -0.548856,
+        "year_min": 1966,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "capacitacion",
+            "score": 0.073526
+          },
+          {
+            "term": "personal",
+            "score": 0.063374
+          },
+          {
+            "term": "laboral",
+            "score": 0.046693
+          },
+          {
+            "term": "empresa",
+            "score": 0.042457
+          },
+          {
+            "term": "seleccion",
+            "score": 0.042215
+          },
+          {
+            "term": "profesional",
+            "score": 0.041537
+          },
+          {
+            "term": "reclutamiento",
+            "score": 0.033374
+          },
+          {
+            "term": "proceso",
+            "score": 0.033353
+          },
+          {
+            "term": "seleccion personal",
+            "score": 0.033023
+          },
+          {
+            "term": "trabajo",
+            "score": 0.032541
+          },
+          {
+            "term": "adiestramiento",
+            "score": 0.027405
+          },
+          {
+            "term": "experiencia",
+            "score": 0.025587
+          },
+          {
+            "term": "reclutamiento seleccion",
+            "score": 0.025323
+          },
+          {
+            "term": "motivacion",
+            "score": 0.02514
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "psicologia",
+            "count": 63
+          },
+          {
+            "label": "administracion",
+            "count": 53
+          },
+          {
+            "label": "pedagogia",
+            "count": 19
+          },
+          {
+            "label": "derecho",
+            "count": 11
+          },
+          {
+            "label": "contaduria",
+            "count": 6
+          },
+          {
+            "label": "trabajo social",
+            "count": 5
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 4
+          },
+          {
+            "label": "arquitectura",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 130
+          },
+          {
+            "label": "Area 2",
+            "count": 43
+          },
+          {
+            "label": "Area 4",
+            "count": 17
+          },
+          {
+            "label": "Area 1",
+            "count": 9
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 181
+          },
+          {
+            "label": "Maestría",
+            "count": 12
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 165
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 3
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "centro universitario indoamericano (tlalnepántla de baz, edo. de mexico). escuela de psicología, institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de contaduría y administración",
+            "count": 2
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 2
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 2
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.045226,
+          "Area 2": 0.21608,
+          "Area 3": 0.653266,
+          "Area 4": 0.085427,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 130,
+            "pct": 0.653266
+          },
+          {
+            "area": "Area 2",
+            "count": 43,
+            "pct": 0.21608
+          },
+          {
+            "area": "Area 4",
+            "count": 17,
+            "pct": 0.085427
+          },
+          {
+            "area": "Area 1",
+            "count": 9,
+            "pct": 0.045226
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0108773",
+            "doc_number_url": "000727842",
+            "title": "datos para el estudio de la entrevista como un elemento para aumentar el rendimiento en el trabajador industrial",
+            "program": "psicologia",
+            "year": 1971,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Barreiro Güemes, Luz María",
+            "advisor": "",
+            "x": 0.437427,
+            "y": -0.561101,
+            "cluster_strength": 0.865015
+          },
+          {
+            "thesis_id": "TH_0386941",
+            "doc_number_url": "000720224",
+            "title": "la importancia de la entrevista en el proceso de reclutamiento y selección de personal de la secretaria de gobernación",
+            "program": "psicologia",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Guijosa Pichardo, Nayeli",
+            "advisor": "Varela Juárez, Juan",
+            "x": 0.455648,
+            "y": -0.528276,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0407523",
+            "doc_number_url": "000674219",
+            "title": "propuesta de entrevista por competencias laborales para el puesto de gerente administrativo de una empresa constructora",
+            "program": "psicologia",
+            "year": 2011,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de psicologia unam",
+            "author": "Zablah Larrañaga, Ivonne Yolanda",
+            "advisor": "VillaGómez García, José Luis",
+            "x": 0.426633,
+            "y": -0.530309,
+            "cluster_strength": 0.611755
+          },
+          {
+            "thesis_id": "TH_0180055",
+            "doc_number_url": "000071459",
+            "title": "la administracion de personal aplicada al reclutamiento y seleccion",
+            "program": "administracion",
+            "year": 1986,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad autonoma de guadalajara",
+            "author": "Calleja Guerrero, Victor Hugo",
+            "advisor": "Gutierrez Espinosa, Jose Luis",
+            "x": 0.461638,
+            "y": -0.525802,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0311219",
+            "doc_number_url": "000340612",
+            "title": "la motivacion como agente de cambio en las organizaciones",
+            "program": "ingenieria quimica",
+            "year": 2005,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Rangel Vadillo, Nancy Liliana Guadalupe",
+            "advisor": "Coronado Mendoza, León Carlos",
+            "x": 0.415805,
+            "y": -0.552277,
+            "cluster_strength": 0.832438
+          },
+          {
+            "thesis_id": "TH_0440707",
+            "doc_number_url": "000722078",
+            "title": "comunicación y su interrelación con la motivación en las organizaciones : manual de programas motivacionales",
+            "program": "periodismo",
+            "year": 2014,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Hernández Ibarra, Miriam",
+            "advisor": "Reynaga Morales, Adriana",
+            "x": 0.420999,
+            "y": -0.53097,
+            "cluster_strength": 0.750011
+          },
+          {
+            "thesis_id": "TH_0353908",
+            "doc_number_url": "000637761",
+            "title": "análisis de la capacitación y adiestramiento de personal por competencias laborales",
+            "program": "psicologia",
+            "year": 2008,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores iztacala unam",
+            "author": "Torres Hernández, Alejandro",
+            "advisor": "Jiménez Rodríguez, David ; Mendoza Paredes, Daniel ; Coronado Álvarez, Osmaldo",
+            "x": 0.414353,
+            "y": -0.547073,
+            "cluster_strength": 0.885225
+          },
+          {
+            "thesis_id": "TH_0147163",
+            "doc_number_url": "000038210",
+            "title": "analisis del proceso de contratacion de personal en la secretaria de hacienda",
+            "program": "administracion",
+            "year": 1980,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Alaniz Rodriguez, Claudio",
+            "advisor": "",
+            "x": 0.411952,
+            "y": -0.5536,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 14,
+        "macrocluster_id": 6,
+        "micro_label": "FARMACEUTICA · INDUSTRIA · INDUSTRIA FARMACEUTICA · FARMACEUTICO",
+        "size": 127,
+        "x": 5.296113,
+        "y": -0.181697,
+        "year_min": 1918,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "farmaceutica",
+            "score": 0.086981
+          },
+          {
+            "term": "industria",
+            "score": 0.077247
+          },
+          {
+            "term": "industria farmaceutica",
+            "score": 0.073613
+          },
+          {
+            "term": "farmaceutico",
+            "score": 0.048714
+          },
+          {
+            "term": "sistema",
+            "score": 0.044134
+          },
+          {
+            "term": "laboratorio",
+            "score": 0.043342
+          },
+          {
+            "term": "mexico",
+            "score": 0.038016
+          },
+          {
+            "term": "empresa",
+            "score": 0.03793
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.033025
+          },
+          {
+            "term": "control",
+            "score": 0.032884
+          },
+          {
+            "term": "medicamentos",
+            "score": 0.030419
+          },
+          {
+            "term": "calidad",
+            "score": 0.028926
+          },
+          {
+            "term": "farmacia",
+            "score": 0.028175
+          },
+          {
+            "term": "uso",
+            "score": 0.026682
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 66
+          },
+          {
+            "label": "administracion",
+            "count": 10
+          },
+          {
+            "label": "contaduria",
+            "count": 6
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 6
+          },
+          {
+            "label": "arquitectura",
+            "count": 4
+          },
+          {
+            "label": "ingenieria de sistemas",
+            "count": 4
+          },
+          {
+            "label": "psicologia",
+            "count": 4
+          },
+          {
+            "label": "ingenieria industrial",
+            "count": 4
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 81
+          },
+          {
+            "label": "Area 3",
+            "count": 24
+          },
+          {
+            "label": "Area 1",
+            "count": 17
+          },
+          {
+            "label": "Area 4",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 113
+          },
+          {
+            "label": "Maestría",
+            "count": 7
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          },
+          {
+            "label": "Especialidad",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 113
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 6
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de contaduría y administración",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores cuautitlan institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (campus sur)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.133858,
+          "Area 2": 0.637795,
+          "Area 3": 0.188976,
+          "Area 4": 0.03937,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 81,
+            "pct": 0.637795
+          },
+          {
+            "area": "Area 3",
+            "count": 24,
+            "pct": 0.188976
+          },
+          {
+            "area": "Area 1",
+            "count": 17,
+            "pct": 0.133858
+          },
+          {
+            "area": "Area 4",
+            "count": 5,
+            "pct": 0.03937
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0213854",
+            "doc_number_url": "000157377",
+            "title": "capacitacion : parte del proceso de validacion farmaceutica",
+            "program": "quimica farmaceutico biologica",
+            "year": 1991,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Hernandez Hernandez, Francisco Domingo",
+            "advisor": "Jara Farjeat, Hector Jesus",
+            "x": 5.279008,
+            "y": -0.158098,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0014792",
+            "doc_number_url": "000300358",
+            "title": "ilustracion digital aplicada en literaturas medicas para la industria farmaceutica",
+            "program": "dise o grafico",
+            "year": 2001,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Gonzalez Gomez, Engye Liz",
+            "advisor": "García Morales, Ariadne ; Plancarte Morales, Francisco Ulises",
+            "x": 5.327401,
+            "y": -0.173341,
+            "cluster_strength": 0.30825
+          },
+          {
+            "thesis_id": "TH_0213188",
+            "doc_number_url": "000173716",
+            "title": "laboratorio farmacéutico en san lorenzo huipulco",
+            "program": "arquitectura",
+            "year": 1991,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad la salle",
+            "author": "Garma San Millán, Joaquín Ángel de la",
+            "advisor": "Eichmann Diaz, Clemente Eduardo",
+            "x": 5.291327,
+            "y": -0.135529,
+            "cluster_strength": 0.534802
+          },
+          {
+            "thesis_id": "TH_0333965",
+            "doc_number_url": "000625739",
+            "title": "elaboracion de pno’s para un sistema de documentacion en un laboratorio farmaceutico",
+            "program": "quimica farmaceutico biologica",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Izaguirre Cervantes, Daniela",
+            "advisor": "Baltazar Montes de Oca, Beatriz",
+            "x": 5.250728,
+            "y": -0.168714,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0214462",
+            "doc_number_url": "000165388",
+            "title": "guia de documentacion indirecta requerida en la industria farmaceutica para el desarrollo, registro y manufactura de un producto",
+            "program": "quimica farmaceutico biologica",
+            "year": 1991,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "López Castillo, Francisco Javier",
+            "advisor": "Maza Aguirre, Santiago",
+            "x": 5.244554,
+            "y": -0.163528,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0295279",
+            "doc_number_url": "000271058",
+            "title": "desarrollo e implementacion de planes maestros de validacion en la industria farmaceutica",
+            "program": "quimica farmaceutico biologica",
+            "year": 1999,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Ruiseco Nocetti, Jesus Alejandro",
+            "advisor": "Arrieta Sanchez, Mauro",
+            "x": 5.240823,
+            "y": -0.169668,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0330721",
+            "doc_number_url": "000628582",
+            "title": "guía para la verificación sanitaria de operaciones de fabricación farmacéutica",
+            "program": "quimica farmaceutico biologica",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Cruz Noguerón, Catia Angélica",
+            "advisor": "Alpizar Ramos, María del Socorro",
+            "x": 5.241569,
+            "y": -0.158994,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0054533",
+            "doc_number_url": "000338342",
+            "title": "la documentacion herramienta regulatoria en el proceso de organizacion en la industria farmaceutica",
+            "program": "quimica farmaceutico biologica",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Ferreira García, Carlos Omar",
+            "advisor": "Rangel Cuenca, Ana Cecilia",
+            "x": 5.234895,
+            "y": -0.177592,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 165,
+        "macrocluster_id": 6,
+        "micro_label": "RED · REDES · COMUNICACION · DISENO",
+        "size": 121,
+        "x": 2.036905,
+        "y": 0.209087,
+        "year_min": 1946,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "red",
+            "score": 0.072968
+          },
+          {
+            "term": "redes",
+            "score": 0.0705
+          },
+          {
+            "term": "comunicacion",
+            "score": 0.047763
+          },
+          {
+            "term": "diseno",
+            "score": 0.04164
+          },
+          {
+            "term": "implementacion",
+            "score": 0.039721
+          },
+          {
+            "term": "sistema",
+            "score": 0.038979
+          },
+          {
+            "term": "servicios",
+            "score": 0.037066
+          },
+          {
+            "term": "digital",
+            "score": 0.035131
+          },
+          {
+            "term": "telefonia",
+            "score": 0.033994
+          },
+          {
+            "term": "analisis",
+            "score": 0.032734
+          },
+          {
+            "term": "inalambrica",
+            "score": 0.028108
+          },
+          {
+            "term": "propuesta",
+            "score": 0.027635
+          },
+          {
+            "term": "comunicaciones",
+            "score": 0.026392
+          },
+          {
+            "term": "ip",
+            "score": 0.026043
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 49
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 18
+          },
+          {
+            "label": "ingenieria en telecomunicaciones",
+            "count": 15
+          },
+          {
+            "label": "informatica",
+            "count": 4
+          },
+          {
+            "label": "ingenieria electrica electronica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria electrica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 2
+          },
+          {
+            "label": "ingenieria de sistemas",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 106
+          },
+          {
+            "label": "Area 3",
+            "count": 10
+          },
+          {
+            "label": "Area 4",
+            "count": 4
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 109
+          },
+          {
+            "label": "Maestría",
+            "count": 11
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 110
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 3
+          },
+          {
+            "label": "universidad de sotavento",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores cuautitlán",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad americana de acapulco (acapulco",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ingeniería",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.876033,
+          "Area 2": 0.008264,
+          "Area 3": 0.082645,
+          "Area 4": 0.033058,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 106,
+            "pct": 0.876033
+          },
+          {
+            "area": "Area 3",
+            "count": 10,
+            "pct": 0.082645
+          },
+          {
+            "area": "Area 4",
+            "count": 4,
+            "pct": 0.033058
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.008264
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0463065",
+            "doc_number_url": null,
+            "title": "la reinstalación virtual en el teletrabajo",
+            "program": "derecho",
+            "year": 2015,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Velázquez Ruiz, Rodrigo Josué",
+            "advisor": "Cervantes Bravo, José Manuel",
+            "x": 2.031583,
+            "y": 0.213161,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0017881",
+            "doc_number_url": "000296464",
+            "title": "telefonia digital y rdsi : principios del funcionamiento de x.25",
+            "program": "ingenieria mecanica electrica",
+            "year": 2001,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Mondragon Fabian, Victor Hugo",
+            "advisor": "Magaña González, Vicente",
+            "x": 2.046509,
+            "y": 0.198813,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0340272",
+            "doc_number_url": "000616168",
+            "title": "instalacion de un equipo pbx con tecnologia ip",
+            "program": "ingenieria mecanica electrica",
+            "year": 2007,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Tellez Ávila, Luis Mauricio",
+            "advisor": "Ortiz Gonzalez, Francisco Raul",
+            "x": 2.026884,
+            "y": 0.196983,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0303677",
+            "doc_number_url": "000602304",
+            "title": "diseño para la implementacion de una red inalambrica (wlan) para la facultad de ingenieria bajo el estandar ieee 802.11",
+            "program": "ingenieria en telecomunicaciones",
+            "year": 2005,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Díaz Perez, Emmanuel Adan",
+            "advisor": "Reyes García, Jesús",
+            "x": 2.052838,
+            "y": 0.209783,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0292706",
+            "doc_number_url": "000270161",
+            "title": "red digital de servicios integrados de banda ancha rdsi-ba",
+            "program": "ingenieria mecanica electrica",
+            "year": 1999,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Lemus Cruz, Octavio",
+            "advisor": "Rivera López, Jose Luis",
+            "x": 2.03902,
+            "y": 0.189399,
+            "cluster_strength": 0.981386
+          },
+          {
+            "thesis_id": "TH_0319966",
+            "doc_number_url": "000613081",
+            "title": "uso de tecnologias emergentes en la transmision de datos. caso : jerarquia digital sincrona y modo de transferencia asincrono",
+            "program": "ingenieria mecanica electrica",
+            "year": 2006,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Haro Alexandres, Carlos",
+            "advisor": "Terán Pérez, David Moisés",
+            "x": 2.030408,
+            "y": 0.188723,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0049784",
+            "doc_number_url": "000322800",
+            "title": "implementacion de una red de comunicaciones para la explotacion de servicios de telefonia publica utilizando el software suquia v3.10 y equipos pmc3000",
+            "program": "ingenieria en telecomunicaciones",
+            "year": 2003,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Trejo Palacios, Juan José",
+            "advisor": "Solórzano Palomares, J. Fernando",
+            "x": 2.020406,
+            "y": 0.192462,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0013462",
+            "doc_number_url": "000300204",
+            "title": "protocolos de comunicacion de redes",
+            "program": "ingenieria mecanica electrica",
+            "year": 2001,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Espinosa Ramirez, Ben Hur Anselmo",
+            "advisor": "Barrón Vera, Raúl",
+            "x": 2.06464,
+            "y": 0.203826,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 181,
+        "macrocluster_id": 6,
+        "micro_label": "EMPRESA · SISTEMA · ISO · CONTROL",
+        "size": 71,
+        "x": 1.12702,
+        "y": 0.24078,
+        "year_min": 1973,
+        "year_max": 2024,
+        "top_terms": [
+          {
+            "term": "empresa",
+            "score": 0.072951
+          },
+          {
+            "term": "sistema",
+            "score": 0.067472
+          },
+          {
+            "term": "iso",
+            "score": 0.064283
+          },
+          {
+            "term": "control",
+            "score": 0.062874
+          },
+          {
+            "term": "control calidad",
+            "score": 0.054671
+          },
+          {
+            "term": "implementacion",
+            "score": 0.052671
+          },
+          {
+            "term": "gestion",
+            "score": 0.052368
+          },
+          {
+            "term": "gestion calidad",
+            "score": 0.048061
+          },
+          {
+            "term": "norma iso",
+            "score": 0.044679
+          },
+          {
+            "term": "norma",
+            "score": 0.044679
+          },
+          {
+            "term": "iso 9001",
+            "score": 0.044471
+          },
+          {
+            "term": "9001",
+            "score": 0.044471
+          },
+          {
+            "term": "industria",
+            "score": 0.044082
+          },
+          {
+            "term": "calidad empresa",
+            "score": 0.043675
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 18
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 11
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 9
+          },
+          {
+            "label": "administracion",
+            "count": 9
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 4
+          },
+          {
+            "label": "ingenieria en alimentos",
+            "count": 3
+          },
+          {
+            "label": "ingenieria industrial",
+            "count": 2
+          },
+          {
+            "label": "organizaciones",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 38
+          },
+          {
+            "label": "Area 2",
+            "count": 20
+          },
+          {
+            "label": "Area 3",
+            "count": 13
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 63
+          },
+          {
+            "label": "Maestría",
+            "count": 7
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 68
+          },
+          {
+            "label": "universidad nacional autonoma de mexico. facultad de arquitectura, institución que otorga el grado",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores cuautitlan institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad dr",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.535211,
+          "Area 2": 0.28169,
+          "Area 3": 0.183099,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 38,
+            "pct": 0.535211
+          },
+          {
+            "area": "Area 2",
+            "count": 20,
+            "pct": 0.28169
+          },
+          {
+            "area": "Area 3",
+            "count": 13,
+            "pct": 0.183099
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0558004",
+            "doc_number_url": "000857094",
+            "title": "obtención de certificación iso 9001:2015 sistema de gestión de calidad en almacenes de distribución de insumos para la salud",
+            "program": "quimica farmaceutico biologica",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Díaz Núñez, Erik David",
+            "advisor": "Flores Marroquín, Elsa ; Segura Gallegos, Aurea Isabel",
+            "x": 1.127839,
+            "y": 0.248909,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0216961",
+            "doc_number_url": "000173325",
+            "title": "implementacion de un sistema de calidad total en una empresa de autopartes",
+            "program": "administracion",
+            "year": 1991,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Rodriguez Mejia, Lilia",
+            "advisor": "Rodríguez Chávez, Celia",
+            "x": 1.128241,
+            "y": 0.230575,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0343250",
+            "doc_number_url": "000653598",
+            "title": "desarrollo de un programa de cómputo estadístico para apoyo en el control estadístico de la calidad y la mejora continua de las organizaciones según la norma iso 9001:2000",
+            "program": "ingenieria quimica",
+            "year": 2008,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Canseco Ruíz, Bernardo Jesús",
+            "advisor": "Coss Garduño, Héctor",
+            "x": 1.128836,
+            "y": 0.223501,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0337716",
+            "doc_number_url": "000626345",
+            "title": "implantación de un programa de calidad en el área comercial de la empresa bachoco, s.a. de c.v. basado en la metodología del mejoramiento continuo de la calidad, a través de la herramienta de 5´s japonesa",
+            "program": "ingenieria en alimentos",
+            "year": 2007,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Ponce Sánchez, Alejandro Roberto",
+            "advisor": "Flores Minutti, José Jaime",
+            "x": 1.150318,
+            "y": 0.260161,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0445275",
+            "doc_number_url": "000717972",
+            "title": "aplicación de las guías q9 y q10 de la ich para el cumplimiento de los requerimientos del sistema de gestión de calidad establecidos por la nom-059-ssa1-2013",
+            "program": "farmacia",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Prado Arroyo, Luis Eduardo",
+            "advisor": "Mariano Hernández, Claudia",
+            "x": 1.125122,
+            "y": 0.275581,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0478336",
+            "doc_number_url": "000754693",
+            "title": "propuesta de un sistema de gestión de calidad con enfoque a la atención al cliente",
+            "program": "administracion",
+            "year": 2017,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Aldana Rodríguez, Giovanni",
+            "advisor": "Hurtado Ramírez, José Refugio",
+            "x": 1.115382,
+            "y": 0.202331,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0056693",
+            "doc_number_url": "000336896",
+            "title": "estudio de la tendencia de armonizacion en el deparatmento de aseguramiento de calidad",
+            "program": "quimica farmaceutico biologica",
+            "year": 2004,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Hernandez Utrilla, Olivia",
+            "advisor": "Ugalde Hernandez, Maria Martha",
+            "x": 1.085359,
+            "y": 0.218676,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0414829",
+            "doc_number_url": null,
+            "title": "desarrollo de la metodología de diagnóstico e implementación de un sistema de gestión de la calidad bajo la norma iso 9001 enfocado a generar rentabilidad en las pymes",
+            "program": "administracion",
+            "year": 2012,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Martinez Noguez, Daniel",
+            "advisor": "Rivera Rodríguez, Benito ; Noguez Cisneros, Victor",
+            "x": 1.159898,
+            "y": 0.275843,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 168,
+        "macrocluster_id": 6,
+        "micro_label": "DATOS · SISTEMA · INFORMACION · BASES",
+        "size": 70,
+        "x": 1.642209,
+        "y": -0.025158,
+        "year_min": 1971,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "datos",
+            "score": 0.120985
+          },
+          {
+            "term": "sistema",
+            "score": 0.095329
+          },
+          {
+            "term": "informacion",
+            "score": 0.086497
+          },
+          {
+            "term": "bases",
+            "score": 0.067121
+          },
+          {
+            "term": "bases datos",
+            "score": 0.061646
+          },
+          {
+            "term": "diseno",
+            "score": 0.060059
+          },
+          {
+            "term": "base",
+            "score": 0.056547
+          },
+          {
+            "term": "base datos",
+            "score": 0.056547
+          },
+          {
+            "term": "sistemas",
+            "score": 0.048375
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.041621
+          },
+          {
+            "term": "auditoria",
+            "score": 0.039943
+          },
+          {
+            "term": "metodologia",
+            "score": 0.038523
+          },
+          {
+            "term": "web",
+            "score": 0.037955
+          },
+          {
+            "term": "sistema informacion",
+            "score": 0.03741
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria en computacion",
+            "count": 23
+          },
+          {
+            "label": "informatica",
+            "count": 7
+          },
+          {
+            "label": "contaduria",
+            "count": 5
+          },
+          {
+            "label": "actuaria",
+            "count": 5
+          },
+          {
+            "label": "matematicas aplicadas y computacion",
+            "count": 5
+          },
+          {
+            "label": "ciencia e ingenieria de la computacion",
+            "count": 4
+          },
+          {
+            "label": "ciencias de la computacion",
+            "count": 3
+          },
+          {
+            "label": "administracion",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 50
+          },
+          {
+            "label": "Area 3",
+            "count": 12
+          },
+          {
+            "label": "Area 2",
+            "count": 6
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 63
+          },
+          {
+            "label": "Maestría",
+            "count": 7
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 64
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de contaduría y administración",
+            "count": 1
+          },
+          {
+            "label": "universidad americana de acapulco (acapulco",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico posgrado en ciencia e ingeniería de la computación",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.714286,
+          "Area 2": 0.085714,
+          "Area 3": 0.171429,
+          "Area 4": 0.028571,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 50,
+            "pct": 0.714286
+          },
+          {
+            "area": "Area 3",
+            "count": 12,
+            "pct": 0.171429
+          },
+          {
+            "area": "Area 2",
+            "count": 6,
+            "pct": 0.085714
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.028571
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0005483",
+            "doc_number_url": "000287040",
+            "title": "diseño de un sistema de base de datos para la facturacion de una empresa metalurgica",
+            "program": "quimica de alimentos",
+            "year": 2000,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Martinez Herrera, Karina",
+            "advisor": "Sanchez López, Jose Luis",
+            "x": 1.622391,
+            "y": -0.009911,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0561432",
+            "doc_number_url": "000858033",
+            "title": "diseño e implementación de una base de datos para el sistema de servicios y control de salas de cómputo de la facultad de ingeniería, utilizando las nuevas tecnologías mediante software libre",
+            "program": "ingenieria electrica y electronica",
+            "year": 2024,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Limón Badillo, Alan",
+            "advisor": "Aguilar Díaz, Cruz Sergio",
+            "x": 1.662808,
+            "y": -0.010637,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0320818",
+            "doc_number_url": "000608520",
+            "title": "metodologia para el desarrollo de bases de datos",
+            "program": "ingenieria mecanica electrica",
+            "year": 2006,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Juarez Martinez, Moises Arquimides",
+            "advisor": "Cruz Mendoza, Marco Antonio",
+            "x": 1.674362,
+            "y": -0.035825,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0365616",
+            "doc_number_url": "000653138",
+            "title": "entorno web para manejar bases de datos de información biológica",
+            "program": "biologia",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Sánchez Domínguez, Karen",
+            "advisor": "Cervantes Sandoval, Armando",
+            "x": 1.671723,
+            "y": -0.044599,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0228090",
+            "doc_number_url": "000195555",
+            "title": "metodologia de diseño y aplicacion de las bases de datos : un enfoque multidisciplinario",
+            "program": "ingenieria en computacion",
+            "year": 1993,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Alanis Rojano, Martha Lucila",
+            "advisor": "González Maxinez, David Jaime",
+            "x": 1.685934,
+            "y": -0.026729,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0344081",
+            "doc_number_url": "000639494",
+            "title": "ingeniería inversa de base de datos",
+            "program": "ingenieria en computacion",
+            "year": 2008,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Coronado Pastor, Claudia Alejandra",
+            "advisor": "Ramírez Flores, Luis",
+            "x": 1.685109,
+            "y": -0.013589,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0381060",
+            "doc_number_url": "000836911",
+            "title": "proceso para el desarrollo de un almacén de datos",
+            "program": "ciencias de la computacion",
+            "year": 2019,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Vargas Benítez, José Enrique",
+            "advisor": "López Gaona, Amparo",
+            "x": 1.683889,
+            "y": -0.041788,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0036485",
+            "doc_number_url": "000312693",
+            "title": "aplicacion sistematica de las principales fuentes de informacion que genera una empresa a traves del lenguaje sql plus en el entorno de oracle",
+            "program": "ingenieria en computacion",
+            "year": 2002,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Ugalde Vazquez, Isaac",
+            "advisor": "Peñaloza Romero, Ernesto",
+            "x": 1.679453,
+            "y": -0.053142,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 167,
+        "macrocluster_id": 6,
+        "micro_label": "SISTEMA · CONTROL · SOFTWARE · INGENIERIA",
+        "size": 62,
+        "x": 1.867213,
+        "y": 0.284449,
+        "year_min": 1965,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "sistema",
+            "score": 0.115877
+          },
+          {
+            "term": "control",
+            "score": 0.08921
+          },
+          {
+            "term": "software",
+            "score": 0.08336
+          },
+          {
+            "term": "ingenieria",
+            "score": 0.078386
+          },
+          {
+            "term": "mantenimiento",
+            "score": 0.065432
+          },
+          {
+            "term": "automatizacion",
+            "score": 0.058708
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.050485
+          },
+          {
+            "term": "aplicacion",
+            "score": 0.047571
+          },
+          {
+            "term": "computadora",
+            "score": 0.045504
+          },
+          {
+            "term": "procesos",
+            "score": 0.045205
+          },
+          {
+            "term": "sistemas",
+            "score": 0.044605
+          },
+          {
+            "term": "diseno",
+            "score": 0.041913
+          },
+          {
+            "term": "administracion",
+            "score": 0.040415
+          },
+          {
+            "term": "computadoras",
+            "score": 0.03659
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria en computacion",
+            "count": 16
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 16
+          },
+          {
+            "label": "ciencias de la computacion",
+            "count": 5
+          },
+          {
+            "label": "matematicas aplicadas y computacion",
+            "count": 3
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 3
+          },
+          {
+            "label": "ingenieria mecanica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 3
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 53
+          },
+          {
+            "label": "Area 2",
+            "count": 5
+          },
+          {
+            "label": "Area 3",
+            "count": 2
+          },
+          {
+            "label": "Area 4",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 54
+          },
+          {
+            "label": "Maestría",
+            "count": 8
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 52
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de estudios superiores cuautitlan institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.854839,
+          "Area 2": 0.080645,
+          "Area 3": 0.032258,
+          "Area 4": 0.032258,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 53,
+            "pct": 0.854839
+          },
+          {
+            "area": "Area 2",
+            "count": 5,
+            "pct": 0.080645
+          },
+          {
+            "area": "Area 3",
+            "count": 2,
+            "pct": 0.032258
+          },
+          {
+            "area": "Area 4",
+            "count": 2,
+            "pct": 0.032258
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0247864",
+            "doc_number_url": "000221121",
+            "title": "control de procesos por lotes : tipo batch",
+            "program": "ingenieria en computacion",
+            "year": 1995,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Altuzar Coello, Juan Carlos",
+            "advisor": "Vega Muytoy, Silvia",
+            "x": 1.874332,
+            "y": 0.288883,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0571587",
+            "doc_number_url": "000871123",
+            "title": "desarrollo y mantenimiento de un sistema controlador de versiones y gestor de configuración : clear-case",
+            "program": "ciencias de la computacion",
+            "year": 2025,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Desales Santos, José Ricardo",
+            "advisor": "Avilés Rosas, Gerardo",
+            "x": 1.856005,
+            "y": 0.306499,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0003669",
+            "doc_number_url": "000281840",
+            "title": "bases para el mantenimiento computarizado",
+            "program": "ingenieria mecanica",
+            "year": 2000,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Gortari Ortiz, Yssel Mariana de",
+            "advisor": "Avila Espinosa, Jesus Antonio",
+            "x": 1.832232,
+            "y": 0.280565,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0128691",
+            "doc_number_url": null,
+            "title": "elaboracion de un sistema de mantenimiento preventivo por computadora",
+            "program": "ingenieria mecanica electrica",
+            "year": 1976,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Cabrera Molina, José de Jesus",
+            "advisor": "",
+            "x": 1.840381,
+            "y": 0.330822,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0147541",
+            "doc_number_url": "000003728",
+            "title": "lineamientos para la implantacion del sistema de balanza de comprobacion e informe diario de caja a un sistema computarizado",
+            "program": "contaduria",
+            "year": 1980,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Balmaceda López, Sergio",
+            "advisor": "Lozano Nieva, Jorge",
+            "x": 1.812682,
+            "y": 0.268525,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0213936",
+            "doc_number_url": "000159842",
+            "title": "catalogo de componentes reusables de software : prototipo en algres",
+            "program": "ciencias de la computacion",
+            "year": 1991,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Hernandez Solis, Armando",
+            "advisor": "Oktaba, Hanna",
+            "x": 1.80836,
+            "y": 0.279634,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0007544",
+            "doc_number_url": "000277383",
+            "title": "sistema de monitoreo y administración de la red del intituto de ingenieria",
+            "program": "ingenieria en computacion",
+            "year": 2000,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Ramirez Castro, Claudia Cecilia",
+            "advisor": "Ambriz Maguey, Marco Aurelio",
+            "x": 1.812397,
+            "y": 0.26029,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0261162",
+            "doc_number_url": "000240445",
+            "title": "analisis de sistemas tipicos de control basico de equipos de proceso",
+            "program": "ingenieria quimica",
+            "year": 1996,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Maya Alcaraz, Alinne",
+            "advisor": "Anaya Durand, Alejandro",
+            "x": 1.884565,
+            "y": 0.344005,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 175,
+        "macrocluster_id": 6,
+        "micro_label": "RECURSOS · RECURSOS HUMANOS · HUMANOS · LIDERAZGO",
+        "size": 58,
+        "x": 0.43558,
+        "y": -0.225,
+        "year_min": 1969,
+        "year_max": 2016,
+        "top_terms": [
+          {
+            "term": "recursos",
+            "score": 0.116891
+          },
+          {
+            "term": "recursos humanos",
+            "score": 0.11319
+          },
+          {
+            "term": "humanos",
+            "score": 0.11319
+          },
+          {
+            "term": "liderazgo",
+            "score": 0.09436
+          },
+          {
+            "term": "empresa",
+            "score": 0.076649
+          },
+          {
+            "term": "administracion",
+            "score": 0.067607
+          },
+          {
+            "term": "organizacion",
+            "score": 0.058178
+          },
+          {
+            "term": "administracion recursos",
+            "score": 0.05786
+          },
+          {
+            "term": "personal",
+            "score": 0.056288
+          },
+          {
+            "term": "desarrollo",
+            "score": 0.045848
+          },
+          {
+            "term": "sistema",
+            "score": 0.043098
+          },
+          {
+            "term": "propuesta",
+            "score": 0.042541
+          },
+          {
+            "term": "humanos empresa",
+            "score": 0.041537
+          },
+          {
+            "term": "area",
+            "score": 0.040367
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "administracion",
+            "count": 37
+          },
+          {
+            "label": "psicologia",
+            "count": 5
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 5
+          },
+          {
+            "label": "ciencias de la administracion",
+            "count": 2
+          },
+          {
+            "label": "pedagogia",
+            "count": 2
+          },
+          {
+            "label": "organizaciones",
+            "count": 2
+          },
+          {
+            "label": "contaduria",
+            "count": 2
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 46
+          },
+          {
+            "label": "Area 1",
+            "count": 7
+          },
+          {
+            "label": "Area 2",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 52
+          },
+          {
+            "label": "Maestría",
+            "count": 4
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 41
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 3
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de contaduría y administración",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de contaduria y administración",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.12069,
+          "Area 2": 0.086207,
+          "Area 3": 0.793103,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 46,
+            "pct": 0.793103
+          },
+          {
+            "area": "Area 1",
+            "count": 7,
+            "pct": 0.12069
+          },
+          {
+            "area": "Area 2",
+            "count": 5,
+            "pct": 0.086207
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0128510",
+            "doc_number_url": "000119258",
+            "title": "el desarrollo del hombre en la organizacion",
+            "program": "administracion",
+            "year": 1976,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Basurto Castañeda, Mario Benjamin",
+            "advisor": "Sanchez Games, Jorge Alberto",
+            "x": 0.455184,
+            "y": -0.210603,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0321043",
+            "doc_number_url": "000610390",
+            "title": "planeacion estrategica de recursos humanos : modelo del negocio, efectividad de la capacitacion del personal en la organizacion",
+            "program": "administracion",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Licona Estevez, Monica",
+            "advisor": "Sánchez Mondragón, Arturo",
+            "x": 0.45934,
+            "y": -0.199683,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0102471",
+            "doc_number_url": "000078277",
+            "title": "division de personal en la empresa manufacturera",
+            "program": "administracion",
+            "year": 1969,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Gomez Garza, Armando",
+            "advisor": "",
+            "x": 0.433142,
+            "y": -0.264626,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0393501",
+            "doc_number_url": "000671779",
+            "title": "importancia e impacto de los manuales de políticas y procedimientos en el área de recursos humanos",
+            "program": "administracion",
+            "year": 2010,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Romero Jiménez, Fátima Angélica",
+            "advisor": "Quiroz Solís, Regino",
+            "x": 0.465759,
+            "y": -0.183192,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0112020",
+            "doc_number_url": "000086823",
+            "title": "metodos y tiendas en la integracion del personal a la empresa",
+            "program": "contaduria",
+            "year": 1971,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "San Juan Camarena, José Fernando",
+            "advisor": "Velazquez Crespo, Francisco",
+            "x": 0.426168,
+            "y": -0.167915,
+            "cluster_strength": 0.829261
+          },
+          {
+            "thesis_id": "TH_0195424",
+            "doc_number_url": "000068021",
+            "title": "manual de organizacion de una gerencia de recursos humanos",
+            "program": "administracion",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad don vasco uruapan",
+            "author": "Sandoval Ruiz, Aurelio",
+            "advisor": "Nunez Ochoa, Jose Rafael",
+            "x": 0.474492,
+            "y": -0.15626,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0293088",
+            "doc_number_url": "000278167",
+            "title": "propuesta para implementar un eficiente liderazgo en los equipos de trabajo del area de ventas de una compañia de servicio",
+            "program": "administracion",
+            "year": 1999,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Maldonado Valdes, Lourdes patricia",
+            "advisor": "González López, Sandra Luz",
+            "x": 0.385618,
+            "y": -0.286589,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0477159",
+            "doc_number_url": "000744507",
+            "title": "diagnóstico de las percepciones de estilos de liderazgo y efectividad en los equipos de trabajo virtual, en el centro de diseño de la organización delphi méxico",
+            "program": "ciencias de la administracion",
+            "year": 2016,
+            "area": "Area 3",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Varela Medina, Néstor Daniel",
+            "advisor": "Rocha Reyes, José Pedro",
+            "x": 0.415277,
+            "y": -0.314094,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

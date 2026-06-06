@@ -1,0 +1,2218 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 10,
+    "macro_label": "FISCAL · SOCIAL · CREDITO · SEGURO",
+    "size": 995,
+    "microcluster_count": 7,
+    "microclusters": [
+      {
+        "microcluster_id": 78,
+        "macrocluster_id": 10,
+        "micro_label": "FISCAL · IMPUESTO · FISCALES · RENTA",
+        "size": 352,
+        "x": -1.922269,
+        "y": -0.284752,
+        "year_min": 1931,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "fiscal",
+            "score": 0.073826
+          },
+          {
+            "term": "impuesto",
+            "score": 0.046837
+          },
+          {
+            "term": "fiscales",
+            "score": 0.044162
+          },
+          {
+            "term": "renta",
+            "score": 0.027995
+          },
+          {
+            "term": "regimen",
+            "score": 0.027798
+          },
+          {
+            "term": "impuesto renta",
+            "score": 0.027177
+          },
+          {
+            "term": "ley",
+            "score": 0.025691
+          },
+          {
+            "term": "estudio",
+            "score": 0.023012
+          },
+          {
+            "term": "personas",
+            "score": 0.022625
+          },
+          {
+            "term": "federal",
+            "score": 0.022547
+          },
+          {
+            "term": "impuestos",
+            "score": 0.021918
+          },
+          {
+            "term": "auditoria",
+            "score": 0.020828
+          },
+          {
+            "term": "personas fisicas",
+            "score": 0.020242
+          },
+          {
+            "term": "fisicas",
+            "score": 0.020242
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "contaduria",
+            "count": 170
+          },
+          {
+            "label": "derecho",
+            "count": 148
+          },
+          {
+            "label": "economia",
+            "count": 11
+          },
+          {
+            "label": "administracion",
+            "count": 5
+          },
+          {
+            "label": "fiscal",
+            "count": 4
+          },
+          {
+            "label": "actuaria",
+            "count": 2
+          },
+          {
+            "label": "derecho fiscal",
+            "count": 2
+          },
+          {
+            "label": "psicologia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 344
+          },
+          {
+            "label": "Area 1",
+            "count": 6
+          },
+          {
+            "label": "Area 2",
+            "count": 1
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 337
+          },
+          {
+            "label": "Especialidad",
+            "count": 9
+          },
+          {
+            "label": "Maestría",
+            "count": 3
+          },
+          {
+            "label": "Doctorado",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 314
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 7
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 4
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 3
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 3
+          },
+          {
+            "label": "universidad intercontinental (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de contaduria y administracion institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.017045,
+          "Area 2": 0.002841,
+          "Area 3": 0.977273,
+          "Area 4": 0.002841,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 344,
+            "pct": 0.977273
+          },
+          {
+            "area": "Area 1",
+            "count": 6,
+            "pct": 0.017045
+          },
+          {
+            "area": "Area 2",
+            "count": 1,
+            "pct": 0.002841
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.002841
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0048410",
+            "doc_number_url": "000324062",
+            "title": "la ley bartlett en el sistema nacional de coordinacion fiscal",
+            "program": "derecho",
+            "year": 2003,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Rosales García, David",
+            "advisor": "Arteaga Alvarado, María del Carmen",
+            "x": -1.929452,
+            "y": -0.2855,
+            "cluster_strength": 0.824488
+          },
+          {
+            "thesis_id": "TH_0299129",
+            "doc_number_url": "000331361",
+            "title": "analisis juridico de la reforma fiscal 2001 al iespys en el rubro de telecomunicaciones y conexos",
+            "program": "derecho",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Tirado del Pino, Berenice",
+            "advisor": "Palomino Guerrero, Margarita",
+            "x": -1.914091,
+            "y": -0.285436,
+            "cluster_strength": 0.823713
+          },
+          {
+            "thesis_id": "TH_0396417",
+            "doc_number_url": "000677806",
+            "title": "declaratoria con efectos generales en el juicio de amparo en materia fiscal",
+            "program": "derecho",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad latinoamericana",
+            "author": "Ayala Medina, Saúl Enrique",
+            "advisor": "Pérez Contreras, Luis Mercurio",
+            "x": -1.934007,
+            "y": -0.286351,
+            "cluster_strength": 0.777679
+          },
+          {
+            "thesis_id": "TH_0111952",
+            "doc_number_url": "000086658",
+            "title": "el dictamen para fines fiscales",
+            "program": "contaduria",
+            "year": 1971,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Ruiz Ruiz, Romeo",
+            "advisor": "Hernández Irigoyen, Cesar R",
+            "x": -1.928293,
+            "y": -0.269104,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0185339",
+            "doc_number_url": "000020975",
+            "title": "dividendos y utilidades acumulables bajo el regimen fiscal de 1986-1987",
+            "program": "administracion",
+            "year": 1986,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Ramirez García, Miguel Angel",
+            "advisor": "Yamazaki Endo, Benito",
+            "x": -1.916565,
+            "y": -0.267255,
+            "cluster_strength": 0.850843
+          },
+          {
+            "thesis_id": "TH_0059910",
+            "doc_number_url": "000338424",
+            "title": "obligaciones fiscales de los patrones al llevar una nomina",
+            "program": "contaduria",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Orozco Domínguez, Aldo Israel",
+            "advisor": "Acevedo Romero, Pedro",
+            "x": -1.915122,
+            "y": -0.267103,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0115010",
+            "doc_number_url": "000090737",
+            "title": "ley de hacienda del departamento del d.f. (impuesto sobre productos de capitales",
+            "program": "contaduria",
+            "year": 1972,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Morales Gonzalez, Alfredo",
+            "advisor": "Bladinieres Jiménez, Jaime",
+            "x": -1.940373,
+            "y": -0.278786,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0225181",
+            "doc_number_url": "000187167",
+            "title": "el dictamen fiscal",
+            "program": "contaduria",
+            "year": 1992,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Perea Monroy, Ricardo",
+            "advisor": "Sánchez Rodríguez, Benjamín Antonio",
+            "x": -1.927845,
+            "y": -0.266373,
+            "cluster_strength": 0.882181
+          }
+        ]
+      },
+      {
+        "microcluster_id": 187,
+        "macrocluster_id": 10,
+        "micro_label": "CREDITO · BANCARIO · INSTITUCIONES · ANALISIS",
+        "size": 172,
+        "x": -1.517422,
+        "y": 0.358206,
+        "year_min": 1936,
+        "year_max": 2023,
+        "top_terms": [
+          {
+            "term": "credito",
+            "score": 0.098461
+          },
+          {
+            "term": "bancario",
+            "score": 0.043918
+          },
+          {
+            "term": "instituciones",
+            "score": 0.041815
+          },
+          {
+            "term": "analisis",
+            "score": 0.036877
+          },
+          {
+            "term": "creditos",
+            "score": 0.029845
+          },
+          {
+            "term": "bancarios",
+            "score": 0.02976
+          },
+          {
+            "term": "bancarias",
+            "score": 0.029023
+          },
+          {
+            "term": "bancaria",
+            "score": 0.027646
+          },
+          {
+            "term": "titulos",
+            "score": 0.026316
+          },
+          {
+            "term": "titulos credito",
+            "score": 0.026316
+          },
+          {
+            "term": "deposito",
+            "score": 0.02631
+          },
+          {
+            "term": "banca",
+            "score": 0.024064
+          },
+          {
+            "term": "tarjeta",
+            "score": 0.023149
+          },
+          {
+            "term": "importancia",
+            "score": 0.022394
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 58
+          },
+          {
+            "label": "contaduria",
+            "count": 47
+          },
+          {
+            "label": "administracion",
+            "count": 19
+          },
+          {
+            "label": "actuaria",
+            "count": 10
+          },
+          {
+            "label": "economia",
+            "count": 7
+          },
+          {
+            "label": "psicologia",
+            "count": 6
+          },
+          {
+            "label": "arquitectura",
+            "count": 3
+          },
+          {
+            "label": "matematicas",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 142
+          },
+          {
+            "label": "Area 1",
+            "count": 22
+          },
+          {
+            "label": "Area 2",
+            "count": 5
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 164
+          },
+          {
+            "label": "Maestría",
+            "count": 6
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 150
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 3
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de contaduria y administracion institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad villa rica (boca del rio",
+            "count": 2
+          },
+          {
+            "label": "universidad latinoamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.127907,
+          "Area 2": 0.02907,
+          "Area 3": 0.825581,
+          "Area 4": 0.017442,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 142,
+            "pct": 0.825581
+          },
+          {
+            "area": "Area 1",
+            "count": 22,
+            "pct": 0.127907
+          },
+          {
+            "area": "Area 2",
+            "count": 5,
+            "pct": 0.02907
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.017442
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0070730",
+            "doc_number_url": "000080666",
+            "title": "bonos generales",
+            "program": "derecho",
+            "year": 1943,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Castillo Hernandez, Manuel del",
+            "advisor": "",
+            "x": -1.513051,
+            "y": 0.348756,
+            "cluster_strength": 0.523079
+          },
+          {
+            "thesis_id": "TH_0202755",
+            "doc_number_url": "000158621",
+            "title": "implantacion de un sistema de cuentas por pagar en una sociedad nacional de credito",
+            "program": "contaduria",
+            "year": 1990,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Calderon Valadez, José",
+            "advisor": "Romero Estrada, Jesus",
+            "x": -1.504885,
+            "y": 0.37378,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0114067",
+            "doc_number_url": "000091789",
+            "title": "procedimientos administrativos y análisis e interpretacion de estados financieros usuales en el establecimiento de lineas de credito, en bancos de deposito",
+            "program": "administracion",
+            "year": 1972,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Gonzalez Avelar, Teobaldo",
+            "advisor": "Aguirre Mortera, Andrés",
+            "x": -1.505822,
+            "y": 0.334253,
+            "cluster_strength": 0.733129
+          },
+          {
+            "thesis_id": "TH_0087340",
+            "doc_number_url": "000073777",
+            "title": "algunos aspectos del credito mercantil en la reorganizacion de sociedades",
+            "program": "contaduria",
+            "year": 1962,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Rodriguez García, Carlos A.",
+            "advisor": "",
+            "x": -1.491372,
+            "y": 0.376997,
+            "cluster_strength": 0.672789
+          },
+          {
+            "thesis_id": "TH_0316973",
+            "doc_number_url": "000610062",
+            "title": "el credito y la cobranza en clientes abarroteros mayoristas",
+            "program": "contaduria",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Cazares Ontiveros, Ricardo",
+            "advisor": "Olvera Medina, Rosa María",
+            "x": -1.509837,
+            "y": 0.325783,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0174570",
+            "doc_number_url": "000040546",
+            "title": "integrar a una institucion nacional de credito al sistema de compensacion bancaria automatizada",
+            "program": "contaduria",
+            "year": 1985,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Albores Zamorano, Eduardo",
+            "advisor": "Kuri Santiago, Fernando",
+            "x": -1.537297,
+            "y": 0.387605,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0084831",
+            "doc_number_url": "000068205",
+            "title": "el candidato a empleados de las instituciones de credito",
+            "program": "sociologia",
+            "year": 1959,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias politicas y sociales unam",
+            "author": "Tlatoa López, José",
+            "advisor": "",
+            "x": -1.542682,
+            "y": 0.388534,
+            "cluster_strength": 0.887707
+          },
+          {
+            "thesis_id": "TH_0552729",
+            "doc_number_url": "000850321",
+            "title": "análisis del impacto de la transición de la tasa de interés interbancaria de equilibrio (tiie) a la tasa de interés interbancaria de equilibrio de fondeo (tiief), para las instituciones de banca múltiple",
+            "program": "economia",
+            "year": 2023,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Sánchez Martínez, José Alberto",
+            "advisor": "Jimenéz Vázquez, Miguel Ángel ; Córdoba Kuthy, Alfredo",
+            "x": -1.497535,
+            "y": 0.39328,
+            "cluster_strength": 0.639167
+          }
+        ]
+      },
+      {
+        "microcluster_id": 112,
+        "macrocluster_id": 10,
+        "micro_label": "SEGURIDAD · SEGURIDAD SOCIAL · SEGURO · SEGURO SOCIAL",
+        "size": 124,
+        "x": -1.203279,
+        "y": -0.357718,
+        "year_min": 1943,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "seguridad",
+            "score": 0.123201
+          },
+          {
+            "term": "seguridad social",
+            "score": 0.11524
+          },
+          {
+            "term": "seguro",
+            "score": 0.093141
+          },
+          {
+            "term": "seguro social",
+            "score": 0.080357
+          },
+          {
+            "term": "ley",
+            "score": 0.064485
+          },
+          {
+            "term": "ley seguro",
+            "score": 0.049549
+          },
+          {
+            "term": "pensiones",
+            "score": 0.049136
+          },
+          {
+            "term": "jubilacion",
+            "score": 0.041373
+          },
+          {
+            "term": "trabajadores",
+            "score": 0.039363
+          },
+          {
+            "term": "desempleo",
+            "score": 0.02788
+          },
+          {
+            "term": "analisis",
+            "score": 0.027267
+          },
+          {
+            "term": "sistema",
+            "score": 0.026949
+          },
+          {
+            "term": "regimen",
+            "score": 0.025813
+          },
+          {
+            "term": "prestaciones",
+            "score": 0.024845
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "derecho",
+            "count": 74
+          },
+          {
+            "label": "actuaria",
+            "count": 19
+          },
+          {
+            "label": "contaduria",
+            "count": 13
+          },
+          {
+            "label": "administracion",
+            "count": 6
+          },
+          {
+            "label": "economia",
+            "count": 5
+          },
+          {
+            "label": "psicologia",
+            "count": 2
+          },
+          {
+            "label": "arquitectura",
+            "count": 1
+          },
+          {
+            "label": "medico cirujano",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 101
+          },
+          {
+            "label": "Area 1",
+            "count": 21
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 121
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 109
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 4
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica facultad de administración y contabilidad plantel boca del río institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.169355,
+          "Area 2": 0.016129,
+          "Area 3": 0.814516,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 101,
+            "pct": 0.814516
+          },
+          {
+            "area": "Area 1",
+            "count": 21,
+            "pct": 0.169355
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.016129
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0131040",
+            "doc_number_url": "000113046",
+            "title": "el seguro social y los trabajadores temporales o eventuales urbanos",
+            "program": "derecho",
+            "year": 1976,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Mendez Ballesteros, Carlos",
+            "advisor": "Gonzalez Diaz Lombardo, Francisco X",
+            "x": -1.223062,
+            "y": -0.364884,
+            "cluster_strength": 0.614822
+          },
+          {
+            "thesis_id": "TH_0124714",
+            "doc_number_url": "000109155",
+            "title": "la seguridad social y la habitacion",
+            "program": "derecho",
+            "year": 1975,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Carrera Domínguez, José Guadalupe",
+            "advisor": "",
+            "x": -1.17591,
+            "y": -0.351852,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0228897",
+            "doc_number_url": "000192517",
+            "title": "el seguro social ante la industria de la construccion",
+            "program": "derecho",
+            "year": 1993,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del valle de mexico",
+            "author": "Beltran Salgado, Jesus Arturo",
+            "advisor": "Estudillo Amador, Jorge",
+            "x": -1.229331,
+            "y": -0.389736,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0334436",
+            "doc_number_url": "000616840",
+            "title": "los beneficios de dictaminar voluntariamente las aportaciones patronales en materia del seguro social",
+            "program": "contaduria",
+            "year": 2007,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad americana de acapulco",
+            "author": "Lezama Ruiz, Noemi",
+            "advisor": "Rodriguez Moron, Pedro David",
+            "x": -1.231514,
+            "y": -0.389173,
+            "cluster_strength": 0.428643
+          },
+          {
+            "thesis_id": "TH_0112080",
+            "doc_number_url": "000105666",
+            "title": "el seguro social y los trabajadores temporales o eventuales",
+            "program": "derecho",
+            "year": 1971,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Sandoval Acosta, Fernando Antonio",
+            "advisor": "",
+            "x": -1.242141,
+            "y": -0.382276,
+            "cluster_strength": 0.676789
+          },
+          {
+            "thesis_id": "TH_0198878",
+            "doc_number_url": "000101420",
+            "title": "prestaciones del seguro social",
+            "program": "derecho",
+            "year": 1989,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad del valle de mexico",
+            "author": "Flores Manteca, Juan Antonio Lázaro",
+            "advisor": "Blanco Martínez, Rosalinda",
+            "x": -1.23831,
+            "y": -0.388831,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0402239",
+            "doc_number_url": "000668880",
+            "title": "anticonstitucionalidad y problemática del seguro de riesgos de trabajo en la ley del seguro social",
+            "program": "derecho",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Maestría",
+            "plantel": "facultad de derecho unam",
+            "author": "Martínez Martínez, Verónica Lidia",
+            "advisor": "Penagos Arrecis, Carlos Rolando",
+            "x": -1.230305,
+            "y": -0.397192,
+            "cluster_strength": 0.60546
+          },
+          {
+            "thesis_id": "TH_0290008",
+            "doc_number_url": "000272776",
+            "title": "las afore como parte de la seguridad social",
+            "program": "derecho",
+            "year": 1999,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Caballero Osornio, Norma Laura",
+            "advisor": "Garrido Villa, Ignacio",
+            "x": -1.215765,
+            "y": -0.409652,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 81,
+        "macrocluster_id": 10,
+        "micro_label": "SEGURO · SEGUROS · RIESGO · VIDA",
+        "size": 123,
+        "x": -1.171113,
+        "y": 0.958624,
+        "year_min": 1937,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "seguro",
+            "score": 0.105255
+          },
+          {
+            "term": "seguros",
+            "score": 0.093543
+          },
+          {
+            "term": "riesgo",
+            "score": 0.071973
+          },
+          {
+            "term": "vida",
+            "score": 0.055665
+          },
+          {
+            "term": "riesgos",
+            "score": 0.043737
+          },
+          {
+            "term": "seguro vida",
+            "score": 0.040171
+          },
+          {
+            "term": "analisis",
+            "score": 0.036572
+          },
+          {
+            "term": "contrato",
+            "score": 0.035986
+          },
+          {
+            "term": "contrato seguro",
+            "score": 0.031381
+          },
+          {
+            "term": "compania",
+            "score": 0.031325
+          },
+          {
+            "term": "companias",
+            "score": 0.027961
+          },
+          {
+            "term": "modelo",
+            "score": 0.026592
+          },
+          {
+            "term": "companias seguros",
+            "score": 0.02579
+          },
+          {
+            "term": "sistema",
+            "score": 0.024466
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "actuaria",
+            "count": 53
+          },
+          {
+            "label": "derecho",
+            "count": 21
+          },
+          {
+            "label": "administracion",
+            "count": 11
+          },
+          {
+            "label": "contaduria",
+            "count": 9
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 4
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 3
+          },
+          {
+            "label": "ingenieria industrial",
+            "count": 2
+          },
+          {
+            "label": "pedagogia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 66
+          },
+          {
+            "label": "Area 3",
+            "count": 45
+          },
+          {
+            "label": "Area 2",
+            "count": 9
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 119
+          },
+          {
+            "label": "Maestría",
+            "count": 2
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 107
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 5
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad intercontinental (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.536585,
+          "Area 2": 0.073171,
+          "Area 3": 0.365854,
+          "Area 4": 0.02439,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 66,
+            "pct": 0.536585
+          },
+          {
+            "area": "Area 3",
+            "count": 45,
+            "pct": 0.365854
+          },
+          {
+            "area": "Area 2",
+            "count": 9,
+            "pct": 0.073171
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.02439
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0217863",
+            "doc_number_url": "000173033",
+            "title": "la administración de riesgos y seguros en las empresas",
+            "program": "administracion",
+            "year": 1991,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad la salle",
+            "author": "Tenorio Rodriguez, Elizabeth",
+            "advisor": "Manzano Mues, Claudia",
+            "x": -1.155302,
+            "y": 0.949307,
+            "cluster_strength": 0.31023
+          },
+          {
+            "thesis_id": "TH_0322846",
+            "doc_number_url": "000610109",
+            "title": "formacion de la fuerza de ventas como estrategia competitiva para incrementar la productividad en un corredor de seguros",
+            "program": "administracion",
+            "year": 2006,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Moreno López, Guillermo",
+            "advisor": "Herrera Molina, Ernesto",
+            "x": -1.166315,
+            "y": 0.978266,
+            "cluster_strength": 0.310571
+          },
+          {
+            "thesis_id": "TH_0440640",
+            "doc_number_url": "000713982",
+            "title": "el riesgo operacional en las instituciones de seguros, una propuesta de medición bajo el entorno de solvencia ii",
+            "program": "actuaria",
+            "year": 2014,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Hernández García, José Irvin",
+            "advisor": "Pérez Márquez, Fernando",
+            "x": -1.178018,
+            "y": 0.93664,
+            "cluster_strength": 0.316813
+          },
+          {
+            "thesis_id": "TH_0051557",
+            "doc_number_url": "000329086",
+            "title": "propuesta estratégica para unificación de procesos para una empresa aseguradora en el área de suscripción, a través del e-business apoyada con la tecnología de información",
+            "program": "informatica",
+            "year": 2004,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Arias Mondragon, Karla",
+            "advisor": "",
+            "x": -1.137031,
+            "y": 0.979797,
+            "cluster_strength": 0.227436
+          },
+          {
+            "thesis_id": "TH_0274399",
+            "doc_number_url": "000255757",
+            "title": "reingenieria de software para un sistema de informacion de una compañia aseguradora",
+            "program": "ingenieria en computacion",
+            "year": 1997,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Rello Cuevas, Roberto del",
+            "advisor": "Fernandez Reyna, Perla Julieta",
+            "x": -1.181778,
+            "y": 1.00316,
+            "cluster_strength": 0.321601
+          },
+          {
+            "thesis_id": "TH_0147161",
+            "doc_number_url": "000001595",
+            "title": "capacitacion tecnica dirigida a los agentes de ventas de las companias de seguros para incrementar su productividad",
+            "program": "actuaria",
+            "year": 1980,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Alanis Solis, Adelina",
+            "advisor": "",
+            "x": -1.121056,
+            "y": 0.972732,
+            "cluster_strength": 0.281228
+          },
+          {
+            "thesis_id": "TH_0267680",
+            "doc_number_url": "000251761",
+            "title": "el efecto del reaseguro con respecto al grado de riesgo en un portafolio de seguros",
+            "program": "actuaria",
+            "year": 1997,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Castro Carrillo, Daniel",
+            "advisor": "Macias Robles Arenas, Miguel Angel",
+            "x": -1.212186,
+            "y": 0.913091,
+            "cluster_strength": 0.365962
+          },
+          {
+            "thesis_id": "TH_0224805",
+            "doc_number_url": "000186310",
+            "title": "modelo variable para el calculo del monto de un seguro de vida en funcion al riesgo e ingreso esperado : un enfoque de mercado",
+            "program": "actuaria",
+            "year": 1992,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Ordas Porras, José Antonio",
+            "advisor": "Delgado Alonso, Sergio Hugo",
+            "x": -1.205158,
+            "y": 0.898646,
+            "cluster_strength": 0.193748
+          }
+        ]
+      },
+      {
+        "microcluster_id": 190,
+        "macrocluster_id": 10,
+        "micro_label": "FINANCIAMIENTO · EMPRESAS · FINANCIERO · FINANCIERA",
+        "size": 93,
+        "x": -0.872552,
+        "y": 0.522756,
+        "year_min": 1963,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "financiamiento",
+            "score": 0.117091
+          },
+          {
+            "term": "empresas",
+            "score": 0.069982
+          },
+          {
+            "term": "financiero",
+            "score": 0.067062
+          },
+          {
+            "term": "financiera",
+            "score": 0.063457
+          },
+          {
+            "term": "analisis",
+            "score": 0.061391
+          },
+          {
+            "term": "empresa",
+            "score": 0.060674
+          },
+          {
+            "term": "inversion",
+            "score": 0.055459
+          },
+          {
+            "term": "financiamiento empresas",
+            "score": 0.040366
+          },
+          {
+            "term": "aplicacion",
+            "score": 0.035668
+          },
+          {
+            "term": "modelo",
+            "score": 0.035149
+          },
+          {
+            "term": "fuentes financiamiento",
+            "score": 0.035109
+          },
+          {
+            "term": "fuentes",
+            "score": 0.035109
+          },
+          {
+            "term": "arrendamiento",
+            "score": 0.034725
+          },
+          {
+            "term": "planeacion",
+            "score": 0.030502
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "contaduria",
+            "count": 46
+          },
+          {
+            "label": "administracion",
+            "count": 22
+          },
+          {
+            "label": "actuaria",
+            "count": 10
+          },
+          {
+            "label": "economia",
+            "count": 6
+          },
+          {
+            "label": "finanzas",
+            "count": 4
+          },
+          {
+            "label": "derecho del comercio exterior",
+            "count": 1
+          },
+          {
+            "label": "ciencias de la administracion",
+            "count": 1
+          },
+          {
+            "label": "planeacion",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 81
+          },
+          {
+            "label": "Area 1",
+            "count": 12
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 85
+          },
+          {
+            "label": "Maestría",
+            "count": 5
+          },
+          {
+            "label": "Especialidad",
+            "count": 2
+          },
+          {
+            "label": "Doctorado",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 73
+          },
+          {
+            "label": "universidad intercontinental (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 2
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad villa rica (boca del río",
+            "count": 2
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 2
+          },
+          {
+            "label": "tecnologico universitario de mexico. escuela de contaduria y administracion,",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de contaduría y administración",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.129032,
+          "Area 2": 0.0,
+          "Area 3": 0.870968,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 81,
+            "pct": 0.870968
+          },
+          {
+            "area": "Area 1",
+            "count": 12,
+            "pct": 0.129032
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0161680",
+            "doc_number_url": "000005464",
+            "title": "las sociedades de inversion como instrumento de financiamiento",
+            "program": "contaduria",
+            "year": 1983,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Davalos Mora, Jaime Javier",
+            "advisor": "",
+            "x": -0.862638,
+            "y": 0.521952,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0129384",
+            "doc_number_url": "000176984",
+            "title": "principales fuentes de financiamiento",
+            "program": "contaduria",
+            "year": 1976,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Erazo Rodriguez, Salvador",
+            "advisor": "Nuñez Esteva, Alberto",
+            "x": -0.892374,
+            "y": 0.503705,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0110640",
+            "doc_number_url": null,
+            "title": "fuentes de financiamiento y financiamiento a corto y mediano plazo",
+            "program": "contaduria",
+            "year": 1971,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Magaña Leon, José Antonio",
+            "advisor": "",
+            "x": -0.84471,
+            "y": 0.524209,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0169459",
+            "doc_number_url": "000006567",
+            "title": "fondos de fomento y fuentes de financiamiento",
+            "program": "administracion",
+            "year": 1984,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "García Rubio, Heliodoro",
+            "advisor": "Aguirre Mortera, Andrés",
+            "x": -0.849186,
+            "y": 0.507322,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0528283",
+            "doc_number_url": "000821308",
+            "title": "los diferentes tipos de financiamiento y asesoría que existen para las pymes y su evolución de 2010 a 2017",
+            "program": "economia",
+            "year": 2021,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de economia unam",
+            "author": "Zepeda Guerrero, Enrique",
+            "advisor": "González Rabadán, Erika Leticia",
+            "x": -0.895583,
+            "y": 0.504024,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0369513",
+            "doc_number_url": "000801519",
+            "title": "instrumentos de inversión como medio para optimizar los ingresos personales con nociones básicas de finanzas",
+            "program": "administracion",
+            "year": 2019,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad don vasco uruapan",
+            "author": "Carrillo Mendoza, Karyme Giselle",
+            "advisor": "Calvillo Rodriguez, Erika Lourdes",
+            "x": -0.891911,
+            "y": 0.554567,
+            "cluster_strength": 0.899444
+          },
+          {
+            "thesis_id": "TH_0200905",
+            "doc_number_url": "000104859",
+            "title": "financiamiento",
+            "program": "contaduria",
+            "year": 1989,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "López Servin, Gonzalo",
+            "advisor": "Resa Monroy, Jorge Alberto",
+            "x": -0.852407,
+            "y": 0.479083,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0192656",
+            "doc_number_url": "000084816",
+            "title": "caracteristicas de las fuentes de financiamiento a corto y largo plazo",
+            "program": "contaduria",
+            "year": 1988,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Martinez Jimenez, Tiburcio José",
+            "advisor": "Quiroz González, Ángel",
+            "x": -0.920083,
+            "y": 0.502572,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 191,
+        "macrocluster_id": 10,
+        "micro_label": "AUDITORIA · AUDITORIA ESTADOS · INTERPRETACION · INTERPRETACION ESTADOS",
+        "size": 74,
+        "x": -1.21646,
+        "y": 0.372861,
+        "year_min": 1953,
+        "year_max": 2007,
+        "top_terms": [
+          {
+            "term": "auditoria",
+            "score": 0.152636
+          },
+          {
+            "term": "auditoria estados",
+            "score": 0.147132
+          },
+          {
+            "term": "interpretacion",
+            "score": 0.060548
+          },
+          {
+            "term": "interpretacion estados",
+            "score": 0.060548
+          },
+          {
+            "term": "analisis",
+            "score": 0.058494
+          },
+          {
+            "term": "importancia",
+            "score": 0.052547
+          },
+          {
+            "term": "planeacion",
+            "score": 0.051813
+          },
+          {
+            "term": "financiero",
+            "score": 0.048351
+          },
+          {
+            "term": "dictamen",
+            "score": 0.046856
+          },
+          {
+            "term": "dictamen estados",
+            "score": 0.043086
+          },
+          {
+            "term": "analisis interpretacion",
+            "score": 0.039933
+          },
+          {
+            "term": "revision",
+            "score": 0.032303
+          },
+          {
+            "term": "reexpresion",
+            "score": 0.031014
+          },
+          {
+            "term": "reexpresion estados",
+            "score": 0.031014
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "contaduria",
+            "count": 68
+          },
+          {
+            "label": "administracion",
+            "count": 4
+          },
+          {
+            "label": "economia",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 74
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 74
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 64
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 3
+          },
+          {
+            "label": "universidad panamericana (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de contaduria y administracion institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad latina (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del rio ver) facultad de administracion y contabilidad institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.0,
+          "Area 2": 0.0,
+          "Area 3": 1.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 74,
+            "pct": 1.0
+          },
+          {
+            "area": "Area 1",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0130971",
+            "doc_number_url": "000105959",
+            "title": "auditoria de estados financieros",
+            "program": "administracion",
+            "year": 1976,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Martinez Villavicencio, Ruben",
+            "advisor": "Quiroz González, Ángel",
+            "x": -1.221383,
+            "y": 0.365551,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0147188",
+            "doc_number_url": "000003714",
+            "title": "dictamen de los estados financieros proforma e informa de los estados financieros presupuestados",
+            "program": "contaduria",
+            "year": 1980,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Alcantara Gomez, Sonia",
+            "advisor": "Garcia Terrazas, Sergio",
+            "x": -1.219333,
+            "y": 0.363079,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0116808",
+            "doc_number_url": "000099841",
+            "title": "importancia de la revision de eventos y transacciones subsecuentes en la auditoria de estados financieros",
+            "program": "contaduria",
+            "year": 1973,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Arcos Maass, Victor Manuel",
+            "advisor": "",
+            "x": -1.205349,
+            "y": 0.376645,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0229071",
+            "doc_number_url": "000200338",
+            "title": "analisis e interpretacion de los estados financieros como herramienta pra determinar las pruebas de auditoria",
+            "program": "contaduria",
+            "year": 1993,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Burgos Aguilar, Virginia",
+            "advisor": "Checa Chávez, Pedro",
+            "x": -1.207013,
+            "y": 0.36445,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0152322",
+            "doc_number_url": "000003996",
+            "title": "peculiaridades del arrendamiento financiero desde el punto de vista de la auditoria externa",
+            "program": "contaduria",
+            "year": 1981,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Pena Soberanes, Teresa de Jesus de la",
+            "advisor": "Bladinieres Jiménez, Jaime",
+            "x": -1.205708,
+            "y": 0.384805,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0288574",
+            "doc_number_url": "000263670",
+            "title": "la importancia de los estados financieros dictaminados en la toma de decisiones",
+            "program": "contaduria",
+            "year": 1998,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "universidad lasallista benavente",
+            "author": "Vargas Quintanilla, Jaime",
+            "advisor": "Rivera Corona, Jose Guadalupe",
+            "x": -1.202135,
+            "y": 0.386964,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0101757",
+            "doc_number_url": "000078202",
+            "title": "la interpretacion de estados financieros como una fase de trabajo del contador publico",
+            "program": "contaduria",
+            "year": 1969,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Campa Luna, Alejandra",
+            "advisor": "",
+            "x": -1.237322,
+            "y": 0.367439,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0122093",
+            "doc_number_url": "000096559",
+            "title": "los eventos subsecuentes revision e informacion en la auditoria de estados financieros",
+            "program": "contaduria",
+            "year": 1974,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Hidalgo Domínguez, Juan",
+            "advisor": "",
+            "x": -1.190987,
+            "y": 0.380178,
+            "cluster_strength": 0.534063
+          }
+        ]
+      },
+      {
+        "microcluster_id": 172,
+        "macrocluster_id": 10,
+        "micro_label": "CONTROL · RESPONSABILIDAD · CONTABILIDAD AREAS · AREAS RESPONSABILIDAD",
+        "size": 57,
+        "x": -0.431175,
+        "y": 0.06996,
+        "year_min": 1935,
+        "year_max": 2017,
+        "top_terms": [
+          {
+            "term": "control",
+            "score": 0.079077
+          },
+          {
+            "term": "responsabilidad",
+            "score": 0.066252
+          },
+          {
+            "term": "contabilidad areas",
+            "score": 0.066252
+          },
+          {
+            "term": "areas responsabilidad",
+            "score": 0.066252
+          },
+          {
+            "term": "areas",
+            "score": 0.066252
+          },
+          {
+            "term": "administracion",
+            "score": 0.055812
+          },
+          {
+            "term": "control interno",
+            "score": 0.053339
+          },
+          {
+            "term": "interno",
+            "score": 0.053339
+          },
+          {
+            "term": "auditoria",
+            "score": 0.051519
+          },
+          {
+            "term": "sistema",
+            "score": 0.048495
+          },
+          {
+            "term": "principios",
+            "score": 0.046236
+          },
+          {
+            "term": "financiera",
+            "score": 0.037909
+          },
+          {
+            "term": "aspectos",
+            "score": 0.03697
+          },
+          {
+            "term": "sistema contabilidad",
+            "score": 0.03323
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "contaduria",
+            "count": 50
+          },
+          {
+            "label": "actuaria",
+            "count": 2
+          },
+          {
+            "label": "ingenieria",
+            "count": 1
+          },
+          {
+            "label": "ingenieria en computacion",
+            "count": 1
+          },
+          {
+            "label": "matematicas",
+            "count": 1
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 1
+          },
+          {
+            "label": "arquitectura",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 3",
+            "count": 50
+          },
+          {
+            "label": "Area 1",
+            "count": 7
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 56
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 52
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan mich) escuela de administracion y contaduria institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores cuautitlán",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.122807,
+          "Area 2": 0.0,
+          "Area 3": 0.877193,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 3",
+            "count": 50,
+            "pct": 0.877193
+          },
+          {
+            "area": "Area 1",
+            "count": 7,
+            "pct": 0.122807
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0092697",
+            "doc_number_url": "000075106",
+            "title": "genesis y perspectiva de la contabilidad",
+            "program": "contaduria",
+            "year": 1965,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Espinosa de los Monteros, Alejandra",
+            "advisor": "",
+            "x": -0.439763,
+            "y": 0.07456,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0104524",
+            "doc_number_url": "000080764",
+            "title": "implantacion de un sistema de contabilidad por areas de responsabilidad",
+            "program": "contaduria",
+            "year": 1970,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Alivero Montiel, Guillermo",
+            "advisor": "Herrera Vargas, Roberto",
+            "x": -0.432905,
+            "y": 0.088373,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0047879",
+            "doc_number_url": "000326556",
+            "title": "la auditoria interna aplicada al departamento de credito y cobranza de una empresa transportista a traves de un eficiente control interno",
+            "program": "contaduria",
+            "year": 2003,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Rivera Cervantes, Leonila Myriam",
+            "advisor": "Márquez Cervantes, Gonzalo",
+            "x": -0.448534,
+            "y": 0.061466,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0119095",
+            "doc_number_url": "000098292",
+            "title": "aspectos generales del sistema de contabilidad por areas de responsabilidad",
+            "program": "contaduria",
+            "year": 1973,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Obregon Rivera, Guillermo",
+            "advisor": "",
+            "x": -0.420254,
+            "y": 0.088376,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0156655",
+            "doc_number_url": "000005272",
+            "title": "la contabilidad como fundamento de apoyo en la planeacion, programacion, control y supervision en entidades privadas y ademas en la toma de deciciones",
+            "program": "contaduria",
+            "year": 1982,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Hernandez Prado, Francisco",
+            "advisor": "Hinojosa Covarrubias, Sebastián",
+            "x": -0.452551,
+            "y": 0.07272,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0116935",
+            "doc_number_url": "000099871",
+            "title": "sistema de contabilidad propuesto para un sindicato nacional de industria",
+            "program": "contaduria",
+            "year": 1973,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Barragan Tame, Farid G.",
+            "advisor": "",
+            "x": -0.408368,
+            "y": 0.069988,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0121910",
+            "doc_number_url": "000096512",
+            "title": "la motivacion humana y la contabilidad por areas de responsabilidad",
+            "program": "contaduria",
+            "year": 1974,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Gonzalez Sicilia Pelayo, Herminia",
+            "advisor": "",
+            "x": -0.418302,
+            "y": 0.050433,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0296175",
+            "doc_number_url": "000274558",
+            "title": "supervision y control de obras desde el punto de vista de la entidad financiera",
+            "program": "ingenieria",
+            "year": 1999,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Vazquez López, Alfredo",
+            "advisor": "",
+            "x": -0.444088,
+            "y": 0.047559,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

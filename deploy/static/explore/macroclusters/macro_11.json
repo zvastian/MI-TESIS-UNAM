@@ -1,0 +1,1262 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 11,
+    "macro_label": "EMBARAZO · HOSPITAL · PACIENTES · RECIEN",
+    "size": 991,
+    "microcluster_count": 4,
+    "microclusters": [
+      {
+        "microcluster_id": 106,
+        "macrocluster_id": 11,
+        "micro_label": "EMBARAZO · HOSPITAL · RECIEN · PACIENTES",
+        "size": 730,
+        "x": 9.640597,
+        "y": -0.901787,
+        "year_min": 1881,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "embarazo",
+            "score": 0.036771
+          },
+          {
+            "term": "hospital",
+            "score": 0.024608
+          },
+          {
+            "term": "recien",
+            "score": 0.02209
+          },
+          {
+            "term": "pacientes",
+            "score": 0.020803
+          },
+          {
+            "term": "factores",
+            "score": 0.020419
+          },
+          {
+            "term": "riesgo",
+            "score": 0.018784
+          },
+          {
+            "term": "parto",
+            "score": 0.018073
+          },
+          {
+            "term": "neonatal",
+            "score": 0.017059
+          },
+          {
+            "term": "fetal",
+            "score": 0.015727
+          },
+          {
+            "term": "mujeres",
+            "score": 0.015654
+          },
+          {
+            "term": "nacidos",
+            "score": 0.01556
+          },
+          {
+            "term": "preeclampsia",
+            "score": 0.015527
+          },
+          {
+            "term": "recien nacidos",
+            "score": 0.015447
+          },
+          {
+            "term": "embarazadas",
+            "score": 0.013357
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 230
+          },
+          {
+            "label": "medicina familiar",
+            "count": 70
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 65
+          },
+          {
+            "label": "neonatologia",
+            "count": 52
+          },
+          {
+            "label": "pediatria",
+            "count": 48
+          },
+          {
+            "label": "pediatria medica",
+            "count": 40
+          },
+          {
+            "label": "medicina materno fetal",
+            "count": 30
+          },
+          {
+            "label": "anestesiologia",
+            "count": 15
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 676
+          },
+          {
+            "label": "Area 3",
+            "count": 38
+          },
+          {
+            "label": "Area 1",
+            "count": 11
+          },
+          {
+            "label": "Area 4",
+            "count": 5
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 532
+          },
+          {
+            "label": "Licenciatura",
+            "count": 169
+          },
+          {
+            "label": "Maestría",
+            "count": 21
+          },
+          {
+            "label": "Doctorado",
+            "count": 8
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 665
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra sra. de la salud,",
+            "count": 9
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 6
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el grado",
+            "count": 5
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra señora de la salud,",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el grado",
+            "count": 3
+          },
+          {
+            "label": "centro universitario de iguala,",
+            "count": 2
+          },
+          {
+            "label": "universidad del valle de mexico",
+            "count": 2
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.015068,
+          "Area 2": 0.926027,
+          "Area 3": 0.052055,
+          "Area 4": 0.006849,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 676,
+            "pct": 0.926027
+          },
+          {
+            "area": "Area 3",
+            "count": 38,
+            "pct": 0.052055
+          },
+          {
+            "area": "Area 1",
+            "count": 11,
+            "pct": 0.015068
+          },
+          {
+            "area": "Area 4",
+            "count": 5,
+            "pct": 0.006849
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0527315",
+            "doc_number_url": "000818307",
+            "title": "parto después de cesárea, morbimortalidad perinatal en el hospital regional licenciado adolfo lópez mateos, período del 01 de febrero del 2019 al 01 de febrero del 2020",
+            "program": "ginecologia y obstetricia",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Trujillo Cabrera, Apolo José",
+            "advisor": "Meneses Campos, Carlos Roberto",
+            "x": 9.645724,
+            "y": -0.887364,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0504465",
+            "doc_number_url": "000777320",
+            "title": "prevalencia de resultados perinatales adversos en pacientes con colestasis intrahepática del embarazo en la unidad médica de alta especialidad, hospital de ginecología y obstetricia no. 3 (umae), centro médico nacional la raza, dr. víctor manuel espinosa de los reyes sánchez, instituto mexicano del seguro social",
+            "program": "ginecologia y obstetricia",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Ruiz Velazco Benítez, Yahel Anahí",
+            "advisor": "Moreno Uribe, María Nallely",
+            "x": 9.652549,
+            "y": -0.913472,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0243192",
+            "doc_number_url": "000209089",
+            "title": "tendencia historica de la mortalidad perinatal y de la prematurez en el imss: 1981-1990",
+            "program": "actuaria",
+            "year": 1994,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Mayorga Cervantes, Lourdes Catalina",
+            "advisor": "Aparicio Jimenez, Ricardo Cesar",
+            "x": 9.650348,
+            "y": -0.915851,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0474863",
+            "doc_number_url": "000748337",
+            "title": "morbilidad perinatal asociada a edad materna avanzada",
+            "program": "ginecologia y obstetricia",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Rivera Rosas, Eder Gabriel",
+            "advisor": "Vázquez Martínez de Velasco, José Efraín",
+            "x": 9.651869,
+            "y": -0.887563,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0062860",
+            "doc_number_url": null,
+            "title": "el bloqueo de los nervios sacros durante el trabajo de parto",
+            "program": "medico cirujano",
+            "year": 1925,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Medellin y Sanchez, Jesus",
+            "advisor": "",
+            "x": 9.623511,
+            "y": -0.887294,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0558767",
+            "doc_number_url": "000883201",
+            "title": "la inasistencia a control prenatal : un reto para enfermería de primer nivel",
+            "program": "enfermeria y obstetricia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "universidad insurgentes",
+            "author": "Fuentes Flores, Jorge Alfonso de Jesús",
+            "advisor": "Vieyra Ramírez, Luis Alejandro",
+            "x": 9.664652,
+            "y": -0.902749,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0214865",
+            "doc_number_url": "000150989",
+            "title": "revaloracion de la utilidad del forceps profilactico en la paciente con cesarea previa",
+            "program": "ginecologia y obstetricia",
+            "year": 1991,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Martinez Arroyo, Manuel",
+            "advisor": "Gomez Garcia, Francisco Javier",
+            "x": 9.635512,
+            "y": -0.875922,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0582264",
+            "doc_number_url": "000881345",
+            "title": "restricción del crecimiento intrauterino, neurodesarrollo del niño y su relación con los factores asociados a las prácticas de crianza parental",
+            "program": "psicologia",
+            "year": 2026,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Hernández Chávez, Montserrat Alejandra",
+            "advisor": "Álvarez Ramírez, Elizabeth ; Jiménez Quiroz, Rosalía ; Rojas Ramírez, Ana Teresa",
+            "x": 9.657712,
+            "y": -0.881089,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 116,
+        "macrocluster_id": 11,
+        "micro_label": "EFECTO · OVARIO · ESTUDIO · RATA",
+        "size": 122,
+        "x": 7.290982,
+        "y": 1.298527,
+        "year_min": 1931,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "efecto",
+            "score": 0.054436
+          },
+          {
+            "term": "ovario",
+            "score": 0.035738
+          },
+          {
+            "term": "estudio",
+            "score": 0.034346
+          },
+          {
+            "term": "rata",
+            "score": 0.033509
+          },
+          {
+            "term": "hormona",
+            "score": 0.032233
+          },
+          {
+            "term": "hormonas",
+            "score": 0.030078
+          },
+          {
+            "term": "crecimiento",
+            "score": 0.028893
+          },
+          {
+            "term": "pollo",
+            "score": 0.027198
+          },
+          {
+            "term": "testosterona",
+            "score": 0.025525
+          },
+          {
+            "term": "efectos",
+            "score": 0.023667
+          },
+          {
+            "term": "evaluacion",
+            "score": 0.022359
+          },
+          {
+            "term": "raton",
+            "score": 0.021549
+          },
+          {
+            "term": "expresion",
+            "score": 0.02129
+          },
+          {
+            "term": "progesterona",
+            "score": 0.020819
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "biologia",
+            "count": 28
+          },
+          {
+            "label": "quimica farmaceutico biologica",
+            "count": 21
+          },
+          {
+            "label": "medicina veterinaria y zootecnia",
+            "count": 12
+          },
+          {
+            "label": "ciencias biologicas",
+            "count": 9
+          },
+          {
+            "label": "ciencias biomedicas",
+            "count": 9
+          },
+          {
+            "label": "ciencias bioquimicas",
+            "count": 7
+          },
+          {
+            "label": "ciencias de la produccion y de la salud animal",
+            "count": 6
+          },
+          {
+            "label": "biologia de la reproduccion humana",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 110
+          },
+          {
+            "label": "Area 1",
+            "count": 11
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 69
+          },
+          {
+            "label": "Maestría",
+            "count": 27
+          },
+          {
+            "label": "Doctorado",
+            "count": 14
+          },
+          {
+            "label": "Especialidad",
+            "count": 12
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 114
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de quimica institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad motolinía",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biomédicas",
+            "count": 1
+          },
+          {
+            "label": "universidad autónoma de guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad simon bolivar (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias biológicas",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.090164,
+          "Area 2": 0.901639,
+          "Area 3": 0.008197,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 110,
+            "pct": 0.901639
+          },
+          {
+            "area": "Area 1",
+            "count": 11,
+            "pct": 0.090164
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.008197
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0500218",
+            "doc_number_url": "000769494",
+            "title": "efecto del disruptor endócrino bisfenol-a sobre la implantación : estudio de proteínas de adhesión y uniones estrechas en útero y blastocisto de rata",
+            "program": "ciencias bioquimicas",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Martínez Peña, Annia Alejandra",
+            "advisor": "Mendoza Rodríguez, Carmen Adriana",
+            "x": 7.2641,
+            "y": 1.290634,
+            "cluster_strength": 0.847564
+          },
+          {
+            "thesis_id": "TH_0287324",
+            "doc_number_url": "000258103",
+            "title": "papel del factor semejante a insulina (igf-i) en el control de la produccion de esteroides en el ovario del raton b6y.dom",
+            "program": "quimica farmaceutico biologica",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Salinas Velazquez, Miriam Yessenia",
+            "advisor": "Villalpando Fierro, María Irma",
+            "x": 7.27124,
+            "y": 1.269869,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0435285",
+            "doc_number_url": "000714456",
+            "title": "durante el ciclo estral de la rata : estudio de los efectos del bloqueo de los receptores muscarinicos m1 del ovario izquierdo o derecho sobre la ovulación espontánea",
+            "program": "biologia",
+            "year": 2014,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Alvarado Navarro, Blanca Estela",
+            "advisor": "Cruz Beltrán, María Esther",
+            "x": 7.253908,
+            "y": 1.295797,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0283408",
+            "doc_number_url": "000264480",
+            "title": "funcion del factor semejante a insulina tipo 1 (igf-1) en la produccion de hormonas sexuales en el ovario prepuber del raton xy",
+            "program": "quimica farmaceutico biologica",
+            "year": 1998,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Maldonado Jimenez, Perla Deyanira",
+            "advisor": "Villalpando Fierro, Ma. Irma",
+            "x": 7.294317,
+            "y": 1.25611,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0325396",
+            "doc_number_url": "000609730",
+            "title": "efecto de la inducción del síndrome del ovario poliquístico en la rata infantil, sobre la dinámica de crecimiento folicular y la secreción de hormonas esteroides",
+            "program": "biologia",
+            "year": 2006,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Rosas Gavilan, Gabriela",
+            "advisor": "Morales Ledesma, Leticia",
+            "x": 7.33234,
+            "y": 1.262807,
+            "cluster_strength": 0.933213
+          },
+          {
+            "thesis_id": "TH_0577861",
+            "doc_number_url": "000880491",
+            "title": "participación de los receptores muscarínicos del subtipo 1 (machr1) del núcleo supraquiasmático en la regulación de las funciones del ovario",
+            "program": "biologia",
+            "year": 2025,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores zaragoza unam",
+            "author": "Pérez López, Susana Lizeth",
+            "advisor": "Vieyra Valdez, Elizabeth ; Morales Ledesma, Leticia ; Linares, Rosa",
+            "x": 7.253582,
+            "y": 1.249779,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0517163",
+            "doc_number_url": "000807455",
+            "title": "asociación entre hormona antimülleriana y calidad embrionaria",
+            "program": "biologia de la reproduccion humana",
+            "year": 2021,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Crespo Zhindon, Esteban Fernando",
+            "advisor": "Salazar López Ortiz, Carlos Gerardo",
+            "x": 7.302657,
+            "y": 1.236597,
+            "cluster_strength": 0.815406
+          },
+          {
+            "thesis_id": "TH_0213659",
+            "doc_number_url": "000173088",
+            "title": "efectos de las hormonas gonadotropicas sobre el ovario de pollos recien nacidos, tratados en etapas embrionaria",
+            "program": "biologia",
+            "year": 1991,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Guittins Valentino, Hanna",
+            "advisor": "Gonzalez Moran, Ma. Genoveva",
+            "x": 7.307487,
+            "y": 1.360961,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 111,
+        "macrocluster_id": 11,
+        "micro_label": "TRATAMIENTO · UTERINA · PACIENTES · MUJERES",
+        "size": 86,
+        "x": 9.520264,
+        "y": -1.453598,
+        "year_min": 1897,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "tratamiento",
+            "score": 0.065146
+          },
+          {
+            "term": "uterina",
+            "score": 0.06064
+          },
+          {
+            "term": "pacientes",
+            "score": 0.056036
+          },
+          {
+            "term": "mujeres",
+            "score": 0.048843
+          },
+          {
+            "term": "ovario",
+            "score": 0.048405
+          },
+          {
+            "term": "sindrome",
+            "score": 0.044147
+          },
+          {
+            "term": "estudio",
+            "score": 0.042567
+          },
+          {
+            "term": "ovario poliquistico",
+            "score": 0.041866
+          },
+          {
+            "term": "poliquistico",
+            "score": 0.041866
+          },
+          {
+            "term": "sindrome ovario",
+            "score": 0.039489
+          },
+          {
+            "term": "uterino",
+            "score": 0.037758
+          },
+          {
+            "term": "esterilidad",
+            "score": 0.036557
+          },
+          {
+            "term": "diagnostico",
+            "score": 0.03312
+          },
+          {
+            "term": "vaginal",
+            "score": 0.0301
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 26
+          },
+          {
+            "label": "biologia de la reproduccion humana",
+            "count": 12
+          },
+          {
+            "label": "medicina familiar",
+            "count": 11
+          },
+          {
+            "label": "medico cirujano",
+            "count": 10
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 7
+          },
+          {
+            "label": "anestesiologia",
+            "count": 3
+          },
+          {
+            "label": "ciencias medicas",
+            "count": 2
+          },
+          {
+            "label": "psicologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 84
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          },
+          {
+            "label": "Area 1",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 60
+          },
+          {
+            "label": "Licenciatura",
+            "count": 23
+          },
+          {
+            "label": "Maestría",
+            "count": 3
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 78
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 6
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 1
+          },
+          {
+            "label": "instituto nacional de perinatología \"isidro espinosa de los reyes\",",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.011628,
+          "Area 2": 0.976744,
+          "Area 3": 0.011628,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 84,
+            "pct": 0.976744
+          },
+          {
+            "area": "Area 1",
+            "count": 1,
+            "pct": 0.011628
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.011628
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0430088",
+            "doc_number_url": "000699763",
+            "title": "valor diagnóstico de la sonohisterografía vs histeroscopia para evaluar el factor uterino en pacientes con infertilidad",
+            "program": "biologia de la reproduccion humana",
+            "year": 2013,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Oropeza Chávez, Liliana",
+            "advisor": "Muñóz Enrique, Reyes",
+            "x": 9.519075,
+            "y": -1.446036,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0063780",
+            "doc_number_url": null,
+            "title": "tratamiento de la dismenorrea uterina por flexion y estenosis cervical congenita",
+            "program": "medico cirujano",
+            "year": 1930,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Ramos Armas, Alfonso",
+            "advisor": "",
+            "x": 9.510403,
+            "y": -1.44871,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0556638",
+            "doc_number_url": "000858388",
+            "title": "evaluación de la función sexual en pacientes con síndrome de anticuerpos antifosfolípidos primario",
+            "program": "reumatologia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Campos Guzmán, Jonathan Alejandro",
+            "advisor": "Merayo Chalico, Francisco Javier ; Barrera Vargas, Ana ; Guaracha Basañez, Guillermo Arthuro",
+            "x": 9.532128,
+            "y": -1.445764,
+            "cluster_strength": 0.848204
+          },
+          {
+            "thesis_id": "TH_0256176",
+            "doc_number_url": "000233363",
+            "title": "factores condicionantes de las infecciones cervico vaginales que afectan a la mujer del municipio de acatlan del estado de hidalgo",
+            "program": "enfermeria y obstetricia",
+            "year": 1996,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Bartolo Trejo, Claudia",
+            "advisor": "Canela Núñez, Ezequiel",
+            "x": 9.522223,
+            "y": -1.470834,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0182888",
+            "doc_number_url": "000123388",
+            "title": "miomatosis uterina : estudio clinico en proceso de atencion de enfermeria",
+            "program": "enfermeria y obstetricia",
+            "year": 1986,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Jarquin López, Leticia",
+            "advisor": "Castaneda Miranda, Ignacia",
+            "x": 9.539609,
+            "y": -1.461894,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0492382",
+            "doc_number_url": "000782214",
+            "title": "determinación de la sensibilidad a antifúngicos de candida albicans, obtenidas a partir de muestras clínicas vaginales",
+            "program": "bioquimica diagnostica",
+            "year": 2018,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores cuautitlan unam",
+            "author": "Aguilar Dávila, Norma Angélica",
+            "advisor": "Salas Téllez, Enrique",
+            "x": 9.503076,
+            "y": -1.469635,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0223962",
+            "doc_number_url": "000185416",
+            "title": "estudio clinico en proceso de atencion de enfermeria, a una paciente con diagnostico de miomatosis uterina",
+            "program": "enfermeria y obstetricia",
+            "year": 1992,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Medina Yanez, Raquel",
+            "advisor": "Sacristán Ruiz, Federico",
+            "x": 9.514214,
+            "y": -1.430248,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0221287",
+            "doc_number_url": "000176408",
+            "title": "estudio retrospectivo de pacientes infertiles de 1981-1990 : correlacion histopatologica, clinica y hormonal",
+            "program": "urologia",
+            "year": 1992,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Flores Martinez, Calixto",
+            "advisor": "Sanchez Cisneros, Rodolfo",
+            "x": 9.518936,
+            "y": -1.419459,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 18,
+        "macrocluster_id": 11,
+        "micro_label": "GESTACIONAL · DIABETES GESTACIONAL · PACIENTES · GLUCOSA",
+        "size": 53,
+        "x": 11.218478,
+        "y": -1.044965,
+        "year_min": 1979,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "gestacional",
+            "score": 0.087795
+          },
+          {
+            "term": "diabetes gestacional",
+            "score": 0.078626
+          },
+          {
+            "term": "pacientes",
+            "score": 0.052509
+          },
+          {
+            "term": "glucosa",
+            "score": 0.052111
+          },
+          {
+            "term": "hospital",
+            "score": 0.051079
+          },
+          {
+            "term": "embarazo",
+            "score": 0.048134
+          },
+          {
+            "term": "diabetes mellitus",
+            "score": 0.044932
+          },
+          {
+            "term": "mellitus",
+            "score": 0.044932
+          },
+          {
+            "term": "mujeres",
+            "score": 0.04367
+          },
+          {
+            "term": "diabetes embarazo",
+            "score": 0.039203
+          },
+          {
+            "term": "embarazadas",
+            "score": 0.038384
+          },
+          {
+            "term": "pacientes diabetes",
+            "score": 0.037205
+          },
+          {
+            "term": "mellitus gestacional",
+            "score": 0.036682
+          },
+          {
+            "term": "perinatales",
+            "score": 0.035578
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ginecologia y obstetricia",
+            "count": 23
+          },
+          {
+            "label": "medicina materno fetal",
+            "count": 9
+          },
+          {
+            "label": "medicina familiar",
+            "count": 5
+          },
+          {
+            "label": "biologia",
+            "count": 3
+          },
+          {
+            "label": "neonatologia",
+            "count": 3
+          },
+          {
+            "label": "enfermeria perinatal",
+            "count": 2
+          },
+          {
+            "label": "enfermeria y obstetricia",
+            "count": 2
+          },
+          {
+            "label": "pediatria medica",
+            "count": 2
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 50
+          },
+          {
+            "label": "Area 1",
+            "count": 2
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Especialidad",
+            "count": 46
+          },
+          {
+            "label": "Licenciatura",
+            "count": 6
+          },
+          {
+            "label": "Maestría",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 52
+          },
+          {
+            "label": "escuela de enfermería del hospital de nuestra señora de la salud,",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.037736,
+          "Area 2": 0.943396,
+          "Area 3": 0.018868,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 50,
+            "pct": 0.943396
+          },
+          {
+            "area": "Area 1",
+            "count": 2,
+            "pct": 0.037736
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.018868
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0367211",
+            "doc_number_url": "000648341",
+            "title": "grado de riesgo y frecuencia de alteraciones de la glucosa durante el embarazo",
+            "program": "medicina familiar",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Villaseñor Hidalgo, Rodrigo",
+            "advisor": "Arrieta Pérez, Raúl Tomás",
+            "x": 11.218945,
+            "y": -1.050215,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0025539",
+            "doc_number_url": "000312357",
+            "title": "incidencia de complicaciones maternas y perinatales en pacientes con diabetes e intolerancia a la glucosa gestacional y la participacion del profesional de enfermeria en su atencion, en la umf no 18 del imss",
+            "program": "enfermeria y obstetricia",
+            "year": 2002,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de enfermeria y obstetricia unam",
+            "author": "Chavira Mejia, Raymundo",
+            "advisor": "Gomez López, Raul R ; Gonzalez Figueroa, Evangelina",
+            "x": 11.214435,
+            "y": -1.048981,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0391311",
+            "doc_number_url": "000663373",
+            "title": "factores de riesgo para diabetes gestacional en pacientes que acudieron a control prenatal en la unidad de medicina familiar no. 26 de monterrey nuevo león",
+            "program": "medicina familiar",
+            "year": 2010,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Pérez Aguilar, Mireya Angélica",
+            "advisor": "Cruz, María Isabel ; Ibarra Costilla, Emma",
+            "x": 11.217329,
+            "y": -1.05073,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0342932",
+            "doc_number_url": "000633686",
+            "title": "efecto del control metabólico sobre el desenlace perinatal de pacientes con diagnóstico de diabetes gestacional",
+            "program": "medicina materno fetal",
+            "year": 2008,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Briones Vega, Carlos Gabriel",
+            "advisor": "Acevedo Gallegos, Sandra",
+            "x": 11.21623,
+            "y": -1.053512,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0141907",
+            "doc_number_url": "000154902",
+            "title": "estudio de la glucosa 6 fosfato deshidrogenasa en parejas con aborto habitual",
+            "program": "ginecologia y obstetricia",
+            "year": 1979,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Arredondo Vega, Francisco Xavier",
+            "advisor": "Guízar-Vázquez, J. Jesús ; Armendariz Sagrera, Salvador",
+            "x": 11.221613,
+            "y": -1.053473,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0558211",
+            "doc_number_url": "000858795",
+            "title": "\"relacion entre niveles sericos de trigliceridos y el desarrollo de diabetes gestacional en embarazadas del hospital infantil del estado de sonora en el periodo de enero 2019 a diciembre 2022\"",
+            "program": "ginecologia y obstetricia",
+            "year": 2024,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Enríquez Grijalva, Tiare Chabely",
+            "advisor": "Pérez Borbón, Guadalupe María ; López Saiz, Laura Elena",
+            "x": 11.215332,
+            "y": -1.053937,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0467118",
+            "doc_number_url": "000747658",
+            "title": "resultado materno-fetal en pacientes con diabetes gestacional",
+            "program": "ginecologia y obstetricia",
+            "year": 2016,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Escandón López, Rubén",
+            "advisor": "Casillas Barrera, Manuel",
+            "x": 11.220304,
+            "y": -1.055145,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0292329",
+            "doc_number_url": "000271441",
+            "title": "deteccion de diabetes gestacional en pacientes que recibieron atencion prenatal en la consulta externa de medicina general",
+            "program": "medicina familiar",
+            "year": 1999,
+            "area": "Area 2",
+            "level": "Especialidad",
+            "plantel": "facultad de medicina unam",
+            "author": "Hernandez Santos, Olga",
+            "advisor": "Ramirez Rico, Josafat",
+            "x": 11.213899,
+            "y": -1.054445,
+            "cluster_strength": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -146,12 +146,13 @@ def workshop_tool_series(
     year_max: int | None = 2026,
 ):
     try:
-        return get_workshop_service().tool_series(
-            dimension=dimension,
-            limit=limit,
-            year_min=year_min,
-            year_max=year_max,
-        )
+        with WORKSHOP_TOOL_LOCK:
+            return get_workshop_service().tool_series(
+                dimension=dimension,
+                limit=limit,
+                year_min=year_min,
+                year_max=year_max,
+            )
     except Exception as exc:
         raise HTTPException(status_code=400, detail=str(exc))
 

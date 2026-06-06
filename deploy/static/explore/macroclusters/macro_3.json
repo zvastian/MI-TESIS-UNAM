@@ -1,0 +1,2226 @@
+{
+  "macrocluster": {
+    "macrocluster_id": 3,
+    "macro_label": "ANALISIS · DISENO · ESTUDIO · CONCRETO",
+    "size": 1212,
+    "microcluster_count": 7,
+    "microclusters": [
+      {
+        "microcluster_id": 130,
+        "macrocluster_id": 3,
+        "micro_label": "ANALISIS · ESTUDIO · SISTEMAS · TEORIA",
+        "size": 571,
+        "x": 3.141725,
+        "y": 0.216269,
+        "year_min": 1941,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "analisis",
+            "score": 0.029623
+          },
+          {
+            "term": "estudio",
+            "score": 0.022016
+          },
+          {
+            "term": "sistemas",
+            "score": 0.021004
+          },
+          {
+            "term": "teoria",
+            "score": 0.019408
+          },
+          {
+            "term": "simulacion",
+            "score": 0.019143
+          },
+          {
+            "term": "espacios",
+            "score": 0.016403
+          },
+          {
+            "term": "tiempo",
+            "score": 0.016362
+          },
+          {
+            "term": "modelo",
+            "score": 0.014877
+          },
+          {
+            "term": "funciones",
+            "score": 0.013001
+          },
+          {
+            "term": "sistema",
+            "score": 0.012912
+          },
+          {
+            "term": "tecnica",
+            "score": 0.0123
+          },
+          {
+            "term": "metodos",
+            "score": 0.012191
+          },
+          {
+            "term": "calculo",
+            "score": 0.01176
+          },
+          {
+            "term": "aplicacion",
+            "score": 0.011758
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "matematicas",
+            "count": 142
+          },
+          {
+            "label": "fisica",
+            "count": 48
+          },
+          {
+            "label": "cirujano dentista",
+            "count": 38
+          },
+          {
+            "label": "ciencias matematicas",
+            "count": 35
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 31
+          },
+          {
+            "label": "actuaria",
+            "count": 31
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 30
+          },
+          {
+            "label": "psicologia",
+            "count": 20
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 422
+          },
+          {
+            "label": "Area 2",
+            "count": 98
+          },
+          {
+            "label": "Area 3",
+            "count": 34
+          },
+          {
+            "label": "Area 4",
+            "count": 16
+          },
+          {
+            "label": "Por Clasificar",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 397
+          },
+          {
+            "label": "Maestría",
+            "count": 106
+          },
+          {
+            "label": "Doctorado",
+            "count": 51
+          },
+          {
+            "label": "Especialidad",
+            "count": 16
+          },
+          {
+            "label": "desconocido",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 539
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ciencias",
+            "count": 10
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ciencias matemáticas",
+            "count": 2
+          },
+          {
+            "label": "universidad lasallista benavente (celaya",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de odontologia institución que otorga el título",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de odontología",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 2
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.739054,
+          "Area 2": 0.171629,
+          "Area 3": 0.059545,
+          "Area 4": 0.028021,
+          "Por Clasificar": 0.001751
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 422,
+            "pct": 0.739054
+          },
+          {
+            "area": "Area 2",
+            "count": 98,
+            "pct": 0.171629
+          },
+          {
+            "area": "Area 3",
+            "count": 34,
+            "pct": 0.059545
+          },
+          {
+            "area": "Area 4",
+            "count": 16,
+            "pct": 0.028021
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 1,
+            "pct": 0.001751
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0220859",
+            "doc_number_url": "000187961",
+            "title": "memoria dinamica en programacion lineal con matrices dispersas",
+            "program": "matematicas aplicadas y computacion",
+            "year": 1992,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Domínguez Cambron, Eduardo",
+            "advisor": "Perez Rodrigo, Lucio",
+            "x": 3.136211,
+            "y": 0.242608,
+            "cluster_strength": 0.542529
+          },
+          {
+            "thesis_id": "TH_0422835",
+            "doc_number_url": "000690031",
+            "title": "métodos de descomposición de dominio en el espacio de vectores derivados y su implementación computacional en paralelo",
+            "program": "ciencias de la tierra",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "unidad de posgrado unam",
+            "author": "Carrillo Ledesma, Antonio",
+            "advisor": "Herrera, Ismael",
+            "x": 3.144608,
+            "y": 0.180272,
+            "cluster_strength": 0.66388
+          },
+          {
+            "thesis_id": "TH_0138804",
+            "doc_number_url": "000168164",
+            "title": "estudio de las propiedades fisicas de la aleacion invar",
+            "program": "ingenieria quimica metalurgica",
+            "year": 1978,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Davila Sanchez, Juan Regulo",
+            "advisor": "Campos Caudillo, Jose",
+            "x": 3.088584,
+            "y": 0.229144,
+            "cluster_strength": 0.610204
+          },
+          {
+            "thesis_id": "TH_0257707",
+            "doc_number_url": "000234843",
+            "title": "generalizacion del producto vectorial",
+            "program": "ingenieria mecanica electrica",
+            "year": 1996,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad panamericana",
+            "author": "Diez de Sollano Navarro, Carlos Fernando",
+            "advisor": "Pita Ruiz Velasco, Claudio",
+            "x": 3.132109,
+            "y": 0.162285,
+            "cluster_strength": 0.992112
+          },
+          {
+            "thesis_id": "TH_0242305",
+            "doc_number_url": "000207674",
+            "title": "analisis de una red lineal monoatomica infinita con impureza al centro y constantes de interaccion a primeros vecinos diferentes atraves de un modelo matematico",
+            "program": "matematicas",
+            "year": 1994,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Landa Orozco, Eliseo",
+            "advisor": "Hernandez Saavedra, Carlos",
+            "x": 3.184771,
+            "y": 0.172432,
+            "cluster_strength": 0.80655
+          },
+          {
+            "thesis_id": "TH_0545397",
+            "doc_number_url": "000835886",
+            "title": "resultados de recurrencia en sistemas dinámicos",
+            "program": "matematicas",
+            "year": 2023,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "García Rivera, Alex Eduardo",
+            "advisor": "González Robert, Gerardo",
+            "x": 3.08797,
+            "y": 0.181127,
+            "cluster_strength": 0.60433
+          },
+          {
+            "thesis_id": "TH_0112979",
+            "doc_number_url": "000165171",
+            "title": "modificaciones a la ecuacion de van laar para sistemas parcialmente miscibles",
+            "program": "ingenieria quimica",
+            "year": 1972,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Artinano Acosta, Sergio R.",
+            "advisor": "",
+            "x": 3.201515,
+            "y": 0.27234,
+            "cluster_strength": 0.537108
+          },
+          {
+            "thesis_id": "TH_0021656",
+            "doc_number_url": "000292457",
+            "title": "reconstruccion del conjunto caotico a partir de funciones de dispersion",
+            "program": "fisica",
+            "year": 2001,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Tapia McClung, Horacio",
+            "advisor": "Jung Kohl, Christof",
+            "x": 3.09733,
+            "y": 0.286544,
+            "cluster_strength": 0.475507
+          }
+        ]
+      },
+      {
+        "microcluster_id": 131,
+        "macrocluster_id": 3,
+        "micro_label": "PROSTODONCIA · PROSTODONCIA TOTAL · TOTAL · ESTUDIO",
+        "size": 224,
+        "x": 3.302092,
+        "y": -0.63856,
+        "year_min": 1881,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "prostodoncia",
+            "score": 0.043702
+          },
+          {
+            "term": "prostodoncia total",
+            "score": 0.029129
+          },
+          {
+            "term": "total",
+            "score": 0.029129
+          },
+          {
+            "term": "estudio",
+            "score": 0.024905
+          },
+          {
+            "term": "fija",
+            "score": 0.020178
+          },
+          {
+            "term": "funcion",
+            "score": 0.016386
+          },
+          {
+            "term": "doble",
+            "score": 0.014103
+          },
+          {
+            "term": "sobredentaduras",
+            "score": 0.013393
+          },
+          {
+            "term": "analisis",
+            "score": 0.013366
+          },
+          {
+            "term": "generalidades",
+            "score": 0.012546
+          },
+          {
+            "term": "revision",
+            "score": 0.011996
+          },
+          {
+            "term": "cirugia",
+            "score": 0.011963
+          },
+          {
+            "term": "algunas",
+            "score": 0.011644
+          },
+          {
+            "term": "protesis fija",
+            "score": 0.010645
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "cirujano dentista",
+            "count": 67
+          },
+          {
+            "label": "derecho",
+            "count": 24
+          },
+          {
+            "label": "medico cirujano",
+            "count": 16
+          },
+          {
+            "label": "contaduria",
+            "count": 10
+          },
+          {
+            "label": "matematicas",
+            "count": 10
+          },
+          {
+            "label": "arquitectura",
+            "count": 6
+          },
+          {
+            "label": "lengua y literaturas hispanicas",
+            "count": 6
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 5
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 2",
+            "count": 116
+          },
+          {
+            "label": "Area 3",
+            "count": 42
+          },
+          {
+            "label": "Area 1",
+            "count": 38
+          },
+          {
+            "label": "Area 4",
+            "count": 28
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 190
+          },
+          {
+            "label": "Especialidad",
+            "count": 18
+          },
+          {
+            "label": "Maestría",
+            "count": 11
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 208
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 6
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de estudios superiores aragón",
+            "count": 2
+          },
+          {
+            "label": "universidad autónoma de guadalajara (guadalajara",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico escuela nacional de odontología",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ciencias institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad villa rica (boca del rio",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de contaduria y administracion institución que otorga el título",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.169643,
+          "Area 2": 0.517857,
+          "Area 3": 0.1875,
+          "Area 4": 0.125,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 2",
+            "count": 116,
+            "pct": 0.517857
+          },
+          {
+            "area": "Area 3",
+            "count": 42,
+            "pct": 0.1875
+          },
+          {
+            "area": "Area 1",
+            "count": 38,
+            "pct": 0.169643
+          },
+          {
+            "area": "Area 4",
+            "count": 28,
+            "pct": 0.125
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0174879",
+            "doc_number_url": "000023076",
+            "title": "quistes bucales",
+            "program": "cirujano dentista",
+            "year": 1985,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Arellano López, Hugo Antonio",
+            "advisor": "Hernandez Espinoza, Diana Myrna",
+            "x": 3.294681,
+            "y": -0.633026,
+            "cluster_strength": 0.952007
+          },
+          {
+            "thesis_id": "TH_0129289",
+            "doc_number_url": "000148692",
+            "title": "paraendodoncia",
+            "program": "cirujano dentista",
+            "year": 1976,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de odontologia unam",
+            "author": "Díaz Felix, Delia",
+            "advisor": "",
+            "x": 3.312878,
+            "y": -0.648445,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0308855",
+            "doc_number_url": null,
+            "title": "comprox",
+            "program": "informatica",
+            "year": 2005,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de contaduria y administracion unam",
+            "author": "Meza Valencia, Marco Sergio",
+            "advisor": "Bribiesca Correa, Graciela",
+            "x": 3.292876,
+            "y": -0.65852,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0418431",
+            "doc_number_url": "000700606",
+            "title": "transcursos",
+            "program": "artes visuales",
+            "year": 2013,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de artes y diseno unam",
+            "author": "Acevedo González, Tania",
+            "advisor": "Ramírez Espinosa, Fernando",
+            "x": 3.311172,
+            "y": -0.66085,
+            "cluster_strength": 0.695763
+          },
+          {
+            "thesis_id": "TH_0405966",
+            "doc_number_url": "000693310",
+            "title": "el amparo para efectos",
+            "program": "derecho",
+            "year": 2011,
+            "area": "Area 3",
+            "level": "Licenciatura",
+            "plantel": "facultad de derecho unam",
+            "author": "Sánchez Mendoza, Christopher",
+            "advisor": "Ugalde Calderón, Filiberto Valentin",
+            "x": 3.289122,
+            "y": -0.615934,
+            "cluster_strength": 0.569341
+          },
+          {
+            "thesis_id": "TH_0060949",
+            "doc_number_url": "000159959",
+            "title": "algunas consideraciones sobre los aneurismas de la poplitea",
+            "program": "medico cirujano",
+            "year": 1883,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de medicina unam",
+            "author": "Uriarte, Baltasar",
+            "advisor": "",
+            "x": 3.303269,
+            "y": -0.667419,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0407550",
+            "doc_number_url": "000691548",
+            "title": "el funtor de tychonoff",
+            "program": "matematicas",
+            "year": 2011,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ciencias unam",
+            "author": "Zamora Martínez, César",
+            "advisor": "Tamariz Mascarúa, Ángel",
+            "x": 3.301236,
+            "y": -0.60862,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0076274",
+            "doc_number_url": "000168383",
+            "title": "estudio quimico del nopal",
+            "program": "quimica",
+            "year": 1949,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "Fernandez Landero y Ollivier, Ma. Cristina",
+            "advisor": "Hope y Hope, Pablo H",
+            "x": 3.27478,
+            "y": -0.625462,
+            "cluster_strength": 0.66437
+          }
+        ]
+      },
+      {
+        "microcluster_id": 161,
+        "macrocluster_id": 3,
+        "micro_label": "CONCRETO · EDIFICIO · DISENO · ANALISIS",
+        "size": 174,
+        "x": 2.637014,
+        "y": 1.588018,
+        "year_min": 1942,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "concreto",
+            "score": 0.097176
+          },
+          {
+            "term": "edificio",
+            "score": 0.057552
+          },
+          {
+            "term": "diseno",
+            "score": 0.053583
+          },
+          {
+            "term": "analisis",
+            "score": 0.04429
+          },
+          {
+            "term": "estructura",
+            "score": 0.043353
+          },
+          {
+            "term": "cemento",
+            "score": 0.041702
+          },
+          {
+            "term": "construccion",
+            "score": 0.038609
+          },
+          {
+            "term": "concreto reforzado",
+            "score": 0.035887
+          },
+          {
+            "term": "reforzado",
+            "score": 0.035887
+          },
+          {
+            "term": "edificios",
+            "score": 0.030552
+          },
+          {
+            "term": "estudio",
+            "score": 0.029664
+          },
+          {
+            "term": "estructuras",
+            "score": 0.028591
+          },
+          {
+            "term": "estructural",
+            "score": 0.027512
+          },
+          {
+            "term": "base",
+            "score": 0.025283
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria civil",
+            "count": 117
+          },
+          {
+            "label": "estructuras",
+            "count": 9
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 7
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 5
+          },
+          {
+            "label": "ingenieria",
+            "count": 5
+          },
+          {
+            "label": "arquitectura",
+            "count": 5
+          },
+          {
+            "label": "ingenieria petrolera",
+            "count": 4
+          },
+          {
+            "label": "mecanica de suelos",
+            "count": 3
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 157
+          },
+          {
+            "label": "Area 2",
+            "count": 13
+          },
+          {
+            "label": "Area 3",
+            "count": 4
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 140
+          },
+          {
+            "label": "Maestría",
+            "count": 22
+          },
+          {
+            "label": "Especialidad",
+            "count": 8
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 155
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 9
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 2
+          },
+          {
+            "label": "universidad anahuac (mexico)",
+            "count": 2
+          },
+          {
+            "label": "universidad nuevo mundo (mexico)",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad de ciencia y tecnología descartes",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de arquitectura",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.902299,
+          "Area 2": 0.074713,
+          "Area 3": 0.022989,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 157,
+            "pct": 0.902299
+          },
+          {
+            "area": "Area 2",
+            "count": 13,
+            "pct": 0.074713
+          },
+          {
+            "area": "Area 3",
+            "count": 4,
+            "pct": 0.022989
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0187729",
+            "doc_number_url": "000065683",
+            "title": "reconstruccion estructural de un pavimento flexible",
+            "program": "ingenieria civil",
+            "year": 1987,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "universidad autonoma de guadalajara",
+            "author": "Aguilar Villegas, Jorge Raul",
+            "advisor": "",
+            "x": 2.65362,
+            "y": 1.580587,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0044766",
+            "doc_number_url": "000319888",
+            "title": "analisis comparativo entre pavimentos flexibles y pavimentos rigidos",
+            "program": "ingenieria civil",
+            "year": 2003,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Martinez Martinez, Conrado",
+            "advisor": "Esquivel Castañeda, Guillermo Luis Lauro",
+            "x": 2.667263,
+            "y": 1.615985,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0263635",
+            "doc_number_url": "000240602",
+            "title": "bases para el diseño de muros de retencion",
+            "program": "ingenieria civil",
+            "year": 1996,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Rodriguez Flores, Teodoro",
+            "advisor": "Galindo Solórzano, Amílcar",
+            "x": 2.683109,
+            "y": 1.598298,
+            "cluster_strength": 0.796144
+          },
+          {
+            "thesis_id": "TH_0454979",
+            "doc_number_url": "000731138",
+            "title": "diseño de pavimentos rígidos y flexibles de altas especificaciones",
+            "program": "ingenieria civil",
+            "year": 2015,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Hernández Carmona, Jesús Eduardo",
+            "advisor": "Ruíz González, Gabriel",
+            "x": 2.692364,
+            "y": 1.580488,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0025208",
+            "doc_number_url": "000302908",
+            "title": "confiabilidad de los metodos alternativos para el control de calidad del concreto in situ",
+            "program": "ingenieria civil",
+            "year": 2002,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Castillo Vargas, Hector",
+            "advisor": "Guzmán Olguín, Héctor Javier",
+            "x": 2.693434,
+            "y": 1.615681,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0380187",
+            "doc_number_url": "000795592",
+            "title": "análisis de mortero para su aplicación en la arquitectura regional",
+            "program": "arquitectura",
+            "year": 2019,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Silva Díaz, Natalia",
+            "advisor": "Verduzco Chirino, Gemma Luz ; Guízar Bermúdez, José Gerardo ; Muciño Vélez, Alberto",
+            "x": 2.587099,
+            "y": 1.549592,
+            "cluster_strength": 0.756202
+          },
+          {
+            "thesis_id": "TH_0282930",
+            "doc_number_url": "000267820",
+            "title": "construccion y proteccion de pisos industriales de concreto",
+            "program": "ingenieria civil",
+            "year": 1998,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Linares Ávila, Emicel",
+            "advisor": "Teran Perez, Jose Luis",
+            "x": 2.607952,
+            "y": 1.651024,
+            "cluster_strength": 0.919314
+          },
+          {
+            "thesis_id": "TH_0169567",
+            "doc_number_url": "000024738",
+            "title": "detalles de refuerzo en estructuras de concreto",
+            "program": "ingenieria civil",
+            "year": 1984,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Godinez Velazquez, Alfredo",
+            "advisor": "Guzman Escudero, Eduardo Alfonso",
+            "x": 2.712891,
+            "y": 1.568333,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 169,
+        "macrocluster_id": 3,
+        "micro_label": "HIDRAULICO · DISENO · HIDRAULICA · HIDROELECTRICA",
+        "size": 64,
+        "x": 3.197073,
+        "y": 2.26353,
+        "year_min": 1935,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "hidraulico",
+            "score": 0.105214
+          },
+          {
+            "term": "diseno",
+            "score": 0.087047
+          },
+          {
+            "term": "hidraulica",
+            "score": 0.067071
+          },
+          {
+            "term": "hidroelectrica",
+            "score": 0.065088
+          },
+          {
+            "term": "estudio",
+            "score": 0.056916
+          },
+          {
+            "term": "proyecto",
+            "score": 0.049411
+          },
+          {
+            "term": "planta",
+            "score": 0.04767
+          },
+          {
+            "term": "planta hidroelectrica",
+            "score": 0.042693
+          },
+          {
+            "term": "construccion",
+            "score": 0.040818
+          },
+          {
+            "term": "sistema",
+            "score": 0.040743
+          },
+          {
+            "term": "modelo",
+            "score": 0.038162
+          },
+          {
+            "term": "diseno hidraulico",
+            "score": 0.037063
+          },
+          {
+            "term": "hidroelectrico",
+            "score": 0.036266
+          },
+          {
+            "term": "rio",
+            "score": 0.035959
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria civil",
+            "count": 35
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 12
+          },
+          {
+            "label": "hidraulica",
+            "count": 4
+          },
+          {
+            "label": "ingenieria petrolera",
+            "count": 3
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 2
+          },
+          {
+            "label": "ingenieria",
+            "count": 2
+          },
+          {
+            "label": "ingenieria en exploracion y explotacion de recursos naturales",
+            "count": 1
+          },
+          {
+            "label": "arquitectura",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 62
+          },
+          {
+            "label": "Area 2",
+            "count": 2
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 50
+          },
+          {
+            "label": "Maestría",
+            "count": 14
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 60
+          },
+          {
+            "label": "universidad de ixtlahuaca cui",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de medicina institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "escuela nacional de ingenieros (mexico),",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.96875,
+          "Area 2": 0.03125,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 62,
+            "pct": 0.96875
+          },
+          {
+            "area": "Area 2",
+            "count": 2,
+            "pct": 0.03125
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0112703",
+            "doc_number_url": null,
+            "title": "reparacion de los rodetes de la turbinas de la central hidroelectrica tamascal, oax",
+            "program": "ingenieria mecanica electrica",
+            "year": 1972,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Acuña Delgado, Martin",
+            "advisor": "",
+            "x": 3.186885,
+            "y": 2.259985,
+            "cluster_strength": 0.933446
+          },
+          {
+            "thesis_id": "TH_0405127",
+            "doc_number_url": "000672400",
+            "title": "comportamiento hidráulico de turbinas cinéticas de flujo axial en canales a superficie libre, como una alternativa de generación de energía hidroeléctrica en obras y estructuras existentes",
+            "program": "ingenieria civil",
+            "year": 2011,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Robaldi Vázquez, Marco Polo",
+            "advisor": "Carmona Paredes, Rafael",
+            "x": 3.181502,
+            "y": 2.273462,
+            "cluster_strength": 0.961967
+          },
+          {
+            "thesis_id": "TH_0293552",
+            "doc_number_url": "000294866",
+            "title": "teoria y aplicacion de los modelos hidraulicos de fondo movil",
+            "program": "ingenieria",
+            "year": 1999,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Meyer Corral, Jorge",
+            "advisor": "",
+            "x": 3.18773,
+            "y": 2.246366,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0363202",
+            "doc_number_url": "000645341",
+            "title": "simulación de procesos para un sistema flotante de producción, almacenamiento y descarga (fpso) para aplicación en aguas profundas",
+            "program": "ingenieria quimica",
+            "year": 2009,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de quimica unam",
+            "author": "Olea Pérez, Roberto",
+            "advisor": "Montiel Maldonado, Celestino",
+            "x": 3.218576,
+            "y": 2.250379,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0100833",
+            "doc_number_url": "000215025",
+            "title": "salto hidraulico en canales de seccion geometrica",
+            "program": "ingenieria civil",
+            "year": 1968,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Rodriguez Armaiz, Emilio",
+            "advisor": "Sotelo Avila, Gilberto",
+            "x": 3.168833,
+            "y": 2.275418,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0045033",
+            "doc_number_url": "000322442",
+            "title": "fundamentos para el diseño de instalaciones hidraulicas",
+            "program": "ingenieria civil",
+            "year": 2003,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "Medina Villalobos, Leonel",
+            "advisor": "Solis Alcantar, Everardo",
+            "x": 3.191784,
+            "y": 2.23164,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0101656",
+            "doc_number_url": "000125225",
+            "title": "analisis del funcionamiento hidraulico de la presa la venta, gro",
+            "program": "ingenieria civil",
+            "year": 1969,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Berumen Ramirez, Mauro Felipe",
+            "advisor": "",
+            "x": 3.189781,
+            "y": 2.229329,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0277450",
+            "doc_number_url": "000265687",
+            "title": "modelo experimental canal de pendiente variable infraestructura para investigacion hidraulica",
+            "program": "hidraulica",
+            "year": 1998,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Alvarez Breton, Ricardo Andrés",
+            "advisor": "Martinez Austria, Polioptro Fortunato",
+            "x": 3.176965,
+            "y": 2.23328,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 40,
+        "macrocluster_id": 3,
+        "micro_label": "ARQUITECTURA · DISENO · ARQUITECTONICO · PROCESO",
+        "size": 61,
+        "x": 1.930977,
+        "y": -0.113662,
+        "year_min": 1964,
+        "year_max": 2025,
+        "top_terms": [
+          {
+            "term": "arquitectura",
+            "score": 0.208518
+          },
+          {
+            "term": "diseno",
+            "score": 0.088602
+          },
+          {
+            "term": "arquitectonico",
+            "score": 0.072526
+          },
+          {
+            "term": "proceso",
+            "score": 0.043671
+          },
+          {
+            "term": "ensenanza",
+            "score": 0.040931
+          },
+          {
+            "term": "espacio",
+            "score": 0.039226
+          },
+          {
+            "term": "escuela arquitectura",
+            "score": 0.037698
+          },
+          {
+            "term": "escuela",
+            "score": 0.037698
+          },
+          {
+            "term": "aproximacion",
+            "score": 0.03469
+          },
+          {
+            "term": "didactica",
+            "score": 0.032955
+          },
+          {
+            "term": "diseno arquitectonico",
+            "score": 0.032514
+          },
+          {
+            "term": "proyecto",
+            "score": 0.032514
+          },
+          {
+            "term": "educacion",
+            "score": 0.029342
+          },
+          {
+            "term": "arquitectos",
+            "score": 0.028521
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "arquitectura",
+            "count": 44
+          },
+          {
+            "label": "tecnologia",
+            "count": 4
+          },
+          {
+            "label": "dise o industrial",
+            "count": 3
+          },
+          {
+            "label": "dise o arquitectonico",
+            "count": 3
+          },
+          {
+            "label": "investigacion y docencia en urbanismo",
+            "count": 1
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 1
+          },
+          {
+            "label": "pedagogia",
+            "count": 1
+          },
+          {
+            "label": "historia del arte",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 57
+          },
+          {
+            "label": "Area 4",
+            "count": 3
+          },
+          {
+            "label": "Area 3",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 35
+          },
+          {
+            "label": "Maestría",
+            "count": 21
+          },
+          {
+            "label": "Doctorado",
+            "count": 5
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 56
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en arquitectura",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de arquitectura",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco",
+            "count": 1
+          },
+          {
+            "label": "universidad autonoma de guadalajara (guadalajara jal) escuela de arquitectura institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad don vasco (uruapan",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.934426,
+          "Area 2": 0.0,
+          "Area 3": 0.016393,
+          "Area 4": 0.04918,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 57,
+            "pct": 0.934426
+          },
+          {
+            "area": "Area 4",
+            "count": 3,
+            "pct": 0.04918
+          },
+          {
+            "area": "Area 3",
+            "count": 1,
+            "pct": 0.016393
+          },
+          {
+            "area": "Area 2",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0425902",
+            "doc_number_url": "000694550",
+            "title": "el proceso de diseño : una revisión al enfoque actual de la arquitectura",
+            "program": "arquitectura",
+            "year": 2013,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "González Méndez, Sebastian Mitl",
+            "advisor": "García Olvera, Héctor ; Hierro Gómez, Miguel ; Baltierra Magaña, Adrián",
+            "x": 1.935529,
+            "y": -0.109757,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0364751",
+            "doc_number_url": "000652341",
+            "title": "sobre la sensibilidad y el diseño en el proyecto : desde los sentidos y sensaciones en arquitectura",
+            "program": "arquitectura",
+            "year": 2009,
+            "area": "Area 1",
+            "level": "Doctorado",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Rivera Melo Rivera, Óscar",
+            "advisor": "Aguirre Cárdenas, Jesús ; Hernández Álvarez, María Elena ; Salas Espíndola, Hermilo",
+            "x": 1.920538,
+            "y": -0.123511,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0188429",
+            "doc_number_url": "000067685",
+            "title": "la concepcion ideologica del espacio arquitectónico : construccion de un modelo metodologico para un análisis dialectico del proceso de diseño arquitectónico",
+            "program": "dise o arquitectonico",
+            "year": 1988,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Arellano López, Luis Hernan",
+            "advisor": "Verduzco Chirino, Gemma Luz. S",
+            "x": 1.922863,
+            "y": -0.132594,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0273925",
+            "doc_number_url": "000248818",
+            "title": "diseño curricular de estudios de posgrado en arquitectura : la maestria en arquitectura del itesm, campus queretaro",
+            "program": "dise o arquitectonico",
+            "year": 1997,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Philibert Petit, Ernesto",
+            "advisor": "Sánchez González, Alvaro",
+            "x": 1.907837,
+            "y": -0.132532,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0174425",
+            "doc_number_url": "000054440",
+            "title": "la hipotesis morfologica y su ubicacion en la metodologia del diseño arquitectónico",
+            "program": "dise o arquitectonico",
+            "year": 1985,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Acuña A., Pedro A.",
+            "advisor": "",
+            "x": 1.91413,
+            "y": -0.085598,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0337529",
+            "doc_number_url": "000624918",
+            "title": "la participacion del pedagogo en el comite de pares de arquitectura, diseño y urbanismo de los comites interinstitucionales para la evaluacion de la educacion superior",
+            "program": "pedagogia",
+            "year": 2007,
+            "area": "Area 4",
+            "level": "Licenciatura",
+            "plantel": "facultad de filosofia y letras unam",
+            "author": "Perez Palomares, Martha",
+            "advisor": "Durán Ramos, Teresita del Niño Jesús",
+            "x": 1.905486,
+            "y": -0.092145,
+            "cluster_strength": 0.89094
+          },
+          {
+            "thesis_id": "TH_0510540",
+            "doc_number_url": "000806112",
+            "title": "trascendencia en el diseño arquitectónico : la experiencia de lo inefable a través de la luz, el agua y el silencio",
+            "program": "arquitectura",
+            "year": 2020,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de arquitectura unam",
+            "author": "López Lara, Raziel",
+            "advisor": "San Martín, Iván ; Lizaola Monterrubio, Julieta Gabriela ; García Escorza, Hector ; Santa Ana Lozada, Lucia Gabriela ; ago Quaglia, Elisa",
+            "x": 1.941848,
+            "y": -0.145358,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0493285",
+            "doc_number_url": "000768814",
+            "title": "la formación socio semántica del ámbito arquitectónico",
+            "program": "arquitectura",
+            "year": 2018,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de arquitectura unam",
+            "author": "Ávila Salazar, Mario Daniel",
+            "advisor": "Allier Avendaño, Héctor Alain ; Hernández Spínola, Francisco ; Vivero Correa, Lucía ; Baltierra Magaña, Adrián ; Fernández Herrera, Emilio Canek",
+            "x": 1.89693,
+            "y": -0.108642,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 162,
+        "macrocluster_id": 3,
+        "micro_label": "SUELOS · TUNEL · ANALISIS · TUNELES",
+        "size": 59,
+        "x": 2.825208,
+        "y": 2.11634,
+        "year_min": 1944,
+        "year_max": 2023,
+        "top_terms": [
+          {
+            "term": "suelos",
+            "score": 0.195898
+          },
+          {
+            "term": "tunel",
+            "score": 0.103034
+          },
+          {
+            "term": "analisis",
+            "score": 0.076853
+          },
+          {
+            "term": "tuneles",
+            "score": 0.070113
+          },
+          {
+            "term": "construccion",
+            "score": 0.064986
+          },
+          {
+            "term": "suelos blandos",
+            "score": 0.048623
+          },
+          {
+            "term": "blandos",
+            "score": 0.048623
+          },
+          {
+            "term": "excavacion",
+            "score": 0.047727
+          },
+          {
+            "term": "estabilizacion suelos",
+            "score": 0.045519
+          },
+          {
+            "term": "estabilizacion",
+            "score": 0.045519
+          },
+          {
+            "term": "construccion tunel",
+            "score": 0.042123
+          },
+          {
+            "term": "diseno",
+            "score": 0.040785
+          },
+          {
+            "term": "suelo",
+            "score": 0.040726
+          },
+          {
+            "term": "tuneles suelos",
+            "score": 0.029232
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria civil",
+            "count": 41
+          },
+          {
+            "label": "ingenieria petrolera",
+            "count": 3
+          },
+          {
+            "label": "mecanica de suelos",
+            "count": 3
+          },
+          {
+            "label": "construccion",
+            "count": 2
+          },
+          {
+            "label": "ambiental",
+            "count": 1
+          },
+          {
+            "label": "arquitectura",
+            "count": 1
+          },
+          {
+            "label": "ingenieria quimica",
+            "count": 1
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 54
+          },
+          {
+            "label": "Area 2",
+            "count": 4
+          },
+          {
+            "label": "Area 4",
+            "count": 1
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 41
+          },
+          {
+            "label": "Maestría",
+            "count": 16
+          },
+          {
+            "label": "Doctorado",
+            "count": 2
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 52
+          },
+          {
+            "label": "universidad nacional autónoma de méxico facultad de ingenieria institución que otorga el título",
+            "count": 3
+          },
+          {
+            "label": "universidad nacional autónoma de mexico programa de posgrado en ingeniería",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de méxico escuela nacional de estudios profesionales aragon institución que otorga el título",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico) escuela de ingeniería",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.915254,
+          "Area 2": 0.067797,
+          "Area 3": 0.0,
+          "Area 4": 0.016949,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 54,
+            "pct": 0.915254
+          },
+          {
+            "area": "Area 2",
+            "count": 4,
+            "pct": 0.067797
+          },
+          {
+            "area": "Area 4",
+            "count": 1,
+            "pct": 0.016949
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0177308",
+            "doc_number_url": "000021209",
+            "title": "diseno de un secador tipo tunel",
+            "program": "ingenieria quimica",
+            "year": 1985,
+            "area": "Area 2",
+            "level": "Licenciatura",
+            "plantel": "facultad de quimica unam",
+            "author": "García Price Villarreal, Rebeca",
+            "advisor": "Anaya Durand, Alejandro",
+            "x": 2.819407,
+            "y": 2.107427,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0110247",
+            "doc_number_url": "000131342",
+            "title": "consolidacion de suelos",
+            "program": "ingenieria civil",
+            "year": 1971,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Herrera Reynoso, José Gervasio",
+            "advisor": "",
+            "x": 2.828273,
+            "y": 2.101251,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0048794",
+            "doc_number_url": "000325930",
+            "title": "construccion de terraplenes sobre suelos blandos en el estado de sinaloa",
+            "program": "construccion",
+            "year": 2003,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Sanchez Coronel, Jorge Alberto",
+            "advisor": "Martinez Mier, Jaime Antonio",
+            "x": 2.841906,
+            "y": 2.086364,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0214557",
+            "doc_number_url": "000154756",
+            "title": "construccion del tunel en el tramo l-2 a l-3 con escudo de frente cerrado presurizado con lodos del interceptor centro-centro del drenaje profundo",
+            "program": "ingenieria civil",
+            "year": 1991,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "López Peña, José Arturo",
+            "advisor": "Betancourt Arce, Roberto",
+            "x": 2.790545,
+            "y": 2.130629,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0151359",
+            "doc_number_url": "000707102",
+            "title": "estabilización de suelos con geotextiles",
+            "program": "mecanica de suelos",
+            "year": 1981,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Márquez Barraza, Gisela Elena Guadalupe",
+            "advisor": "Díaz Rodríguez, Abraham ; Marsal Córdoba, Raúl J",
+            "x": 2.850001,
+            "y": 2.084926,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0162346",
+            "doc_number_url": null,
+            "title": "estabilizacion de suelos",
+            "program": "ingenieria civil",
+            "year": 1983,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores aragon unam",
+            "author": "García Maya, José de Jesus",
+            "advisor": "Flores Leon, Francisco Rogelio",
+            "x": 2.867216,
+            "y": 2.093465,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0498944",
+            "doc_number_url": "000773492",
+            "title": "análisis de interacción suelo-estructura para túneles dovelados construidos en suelos blandos",
+            "program": "ingenieria civil",
+            "year": 2018,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "unidad de posgrado unam",
+            "author": "Juárez Orta, José Armando",
+            "advisor": "Auvinet Guichard, Gabriel",
+            "x": 2.766126,
+            "y": 2.113742,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0508353",
+            "doc_number_url": "000800573",
+            "title": "análisis y diseño de muro milán para excavaciones profundas mediante equilibrio límite en suelos areno arcillosos",
+            "program": "ingenieria civil",
+            "year": 2020,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de estudios superiores acatlan unam",
+            "author": "Cortés, María Fernanda",
+            "advisor": "Ortiz Hermosillo, Ricardo Enrique",
+            "x": 2.885543,
+            "y": 2.139713,
+            "cluster_strength": 1.0
+          }
+        ]
+      },
+      {
+        "microcluster_id": 171,
+        "macrocluster_id": 3,
+        "micro_label": "FLUJO · PRESION · FLUIDOS · DINAMICA",
+        "size": 59,
+        "x": 3.569234,
+        "y": 1.667096,
+        "year_min": 1934,
+        "year_max": 2026,
+        "top_terms": [
+          {
+            "term": "flujo",
+            "score": 0.127704
+          },
+          {
+            "term": "presion",
+            "score": 0.082758
+          },
+          {
+            "term": "fluidos",
+            "score": 0.081118
+          },
+          {
+            "term": "dinamica",
+            "score": 0.05245
+          },
+          {
+            "term": "liquido",
+            "score": 0.049494
+          },
+          {
+            "term": "analisis",
+            "score": 0.040091
+          },
+          {
+            "term": "determinacion",
+            "score": 0.038783
+          },
+          {
+            "term": "diseno",
+            "score": 0.037091
+          },
+          {
+            "term": "sistema",
+            "score": 0.036418
+          },
+          {
+            "term": "estudio",
+            "score": 0.035933
+          },
+          {
+            "term": "pruebas",
+            "score": 0.033839
+          },
+          {
+            "term": "no",
+            "score": 0.031688
+          },
+          {
+            "term": "viscoelasticos",
+            "score": 0.031231
+          },
+          {
+            "term": "superficie",
+            "score": 0.030991
+          }
+        ],
+        "top_programs": [
+          {
+            "label": "ingenieria quimica",
+            "count": 14
+          },
+          {
+            "label": "ingenieria petrolera",
+            "count": 14
+          },
+          {
+            "label": "fisica",
+            "count": 9
+          },
+          {
+            "label": "ingenieria mecanica electrica",
+            "count": 5
+          },
+          {
+            "label": "ingenieria civil",
+            "count": 3
+          },
+          {
+            "label": "ingenieria mecanica",
+            "count": 3
+          },
+          {
+            "label": "ciencias quimicas",
+            "count": 2
+          },
+          {
+            "label": "anestesiologia",
+            "count": 1
+          }
+        ],
+        "top_areas": [
+          {
+            "label": "Area 1",
+            "count": 46
+          },
+          {
+            "label": "Area 2",
+            "count": 13
+          }
+        ],
+        "top_levels": [
+          {
+            "label": "Licenciatura",
+            "count": 43
+          },
+          {
+            "label": "Maestría",
+            "count": 11
+          },
+          {
+            "label": "Doctorado",
+            "count": 4
+          },
+          {
+            "label": "Especialidad",
+            "count": 1
+          }
+        ],
+        "top_planteles": [
+          {
+            "label": "universidad nacional autónoma de mexico",
+            "count": 54
+          },
+          {
+            "label": "instituto mexicano de tecnología del agua,",
+            "count": 2
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de química",
+            "count": 1
+          },
+          {
+            "label": "universidad nacional autónoma de mexico facultad de ingeniería",
+            "count": 1
+          },
+          {
+            "label": "universidad la salle (mexico)",
+            "count": 1
+          }
+        ],
+        "area_mix": {
+          "Area 1": 0.779661,
+          "Area 2": 0.220339,
+          "Area 3": 0.0,
+          "Area 4": 0.0,
+          "Por Clasificar": 0.0
+        },
+        "area_distribution": [
+          {
+            "area": "Area 1",
+            "count": 46,
+            "pct": 0.779661
+          },
+          {
+            "area": "Area 2",
+            "count": 13,
+            "pct": 0.220339
+          },
+          {
+            "area": "Area 3",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Area 4",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "area": "Por Clasificar",
+            "count": 0,
+            "pct": 0.0
+          }
+        ],
+        "representative_theses": [
+          {
+            "thesis_id": "TH_0384729",
+            "doc_number_url": "000665474",
+            "title": "medición de la presión capilar en muestras de diámetro completo con doble porosidad",
+            "program": "ingenieria petrolera",
+            "year": 2010,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Delgado Hernández, Juan Carlos",
+            "advisor": "Herrera Gómez, Rafael de los Ángeles",
+            "x": 3.633222,
+            "y": 1.673429,
+            "cluster_strength": 0.990599
+          },
+          {
+            "thesis_id": "TH_0386926",
+            "doc_number_url": "000668741",
+            "title": "integración de una caldera de lecho fluidizado circulante presurizada a un ciclo combinado",
+            "program": "ingenieria mecanica",
+            "year": 2010,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Guevara Ahuatzi, Luis Américo",
+            "advisor": "Martínez Espinoza, Eliseo",
+            "x": 3.548894,
+            "y": 1.744361,
+            "cluster_strength": 0.993298
+          },
+          {
+            "thesis_id": "TH_0103054",
+            "doc_number_url": "000130309",
+            "title": "medicion experimental de presion capilar en arenas no consolidadas",
+            "program": "ingenieria petrolera",
+            "year": 1969,
+            "area": "Area 1",
+            "level": "Licenciatura",
+            "plantel": "facultad de ingenieria unam",
+            "author": "Martinez Guzman, Maurilio",
+            "advisor": "Perez Rosales, C",
+            "x": 3.652402,
+            "y": 1.631078,
+            "cluster_strength": 0.992396
+          },
+          {
+            "thesis_id": "TH_0050181",
+            "doc_number_url": "000314360",
+            "title": "estabilidad de dos fluidos superpuestos en rotacion entre dos cilindros concentricos",
+            "program": "fisica",
+            "year": 2003,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "instituto de energias renovables unam",
+            "author": "Vázquez Luis, Edgar",
+            "advisor": "Dávalos Orozco, Luis Antonio",
+            "x": 3.577035,
+            "y": 1.77272,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0341051",
+            "doc_number_url": "000616148",
+            "title": "aplicabilidad del metodo dinamico de presion para la determinacion de kla en fluidos newtonianos en un tanque agitado",
+            "program": "ciencias bioquimicas",
+            "year": 2007,
+            "area": "Area 2",
+            "level": "Maestría",
+            "plantel": "facultad de quimica unam",
+            "author": "Velez Cordero, Juan Rodrigo",
+            "advisor": "Tecante Coronel, Alberto",
+            "x": 3.489181,
+            "y": 1.75732,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0217197",
+            "doc_number_url": "000156874",
+            "title": "estabilidad hidrodinamica de una pelicula de fluido descendiendo sobre un cilindro en rotacion",
+            "program": "fisica",
+            "year": 1991,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "facultad de ciencias unam",
+            "author": "Ruiz Chavarria, Gerardo, 1962-",
+            "advisor": "Dávalos Orozco, Luis Antonio",
+            "x": 3.539328,
+            "y": 1.78483,
+            "cluster_strength": 0.994139
+          },
+          {
+            "thesis_id": "TH_0580391",
+            "doc_number_url": "000877979",
+            "title": "evaluación del coeficiente de descarga de un vertedor triangular en laboratorio con un análisis de dinámica de fluidos",
+            "program": "ingenieria civil",
+            "year": 2025,
+            "area": "Area 1",
+            "level": "Maestría",
+            "plantel": "instituto mexicano de tecnologia del agua",
+            "author": "Talamantes Rocha, Alonso",
+            "advisor": "Aguilar Chávez, Ariosto",
+            "x": 3.472213,
+            "y": 1.777879,
+            "cluster_strength": 1.0
+          },
+          {
+            "thesis_id": "TH_0157306",
+            "doc_number_url": "000053195",
+            "title": "influencia de la posicion respecto a la gravedad sobre la hidrodinamica del flujo pulsatil en un modelo experimetal de aneurisma",
+            "program": "ciencias medicas",
+            "year": 1982,
+            "area": "Area 2",
+            "level": "Doctorado",
+            "plantel": "facultad de medicina unam",
+            "author": "Madrazo Navarro, Ignacio Mario",
+            "advisor": "",
+            "x": 3.705054,
+            "y": 1.727149,
+            "cluster_strength": 0.990599
+          }
+        ]
+      }
+    ]
+  }
+}
