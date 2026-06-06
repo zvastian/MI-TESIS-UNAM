@@ -1,15 +1,28 @@
+/* DEPLOY STATIC DATA FETCH START */
+window.workshopDataFetch = function workshopDataFetch(apiUrl, staticPath, options = {}) {
+  const cfg = window.NODO_CONFIG || {};
+  if (cfg.mode === "static") {
+    const base = String(cfg.dataBaseUrl || "./data").replace(/\/$/, "");
+    return fetch(`${base}/${staticPath}`, { cache: "no-store", ...options });
+  }
+
+  const apiBase = String(cfg.apiBase || "").replace(/\/$/, "");
+  return fetch(`${apiBase}${apiUrl}`, { cache: "no-store", ...options });
+};
+/* DEPLOY STATIC DATA FETCH END */
+
 
 /* TALLER CURADO: módulos visuales + burbujas reales */
 (() => {
-
-  function workshopDataFetch(apiUrl, staticPath) {
+  function workshopDataFetch(apiUrl, staticPath, options = {}) {
     const cfg = window.NODO_CONFIG || {};
     if (cfg.mode === "static") {
       const base = String(cfg.dataBaseUrl || "./data").replace(/\/$/, "");
-      return fetch(`${base}/${staticPath}`, { cache: "no-store" });
+      return fetch(`${base}/${staticPath}`, { cache: "no-store", ...options });
     }
+
     const apiBase = String(cfg.apiBase || "").replace(/\/$/, "");
-    return fetch(`${apiBase}${apiUrl}`, { cache: "no-store" });
+    return fetch(`${apiBase}${apiUrl}`, { cache: "no-store", ...options });
   }
 
   const TOOLS = {
@@ -1609,7 +1622,7 @@ function getWorkshopChartGrid(type) {
           year_max: String(heatmapState.yearMax),
         });
 
-        const response = await fetch(`/api/workshop/tools/heatmap?${params}`, {
+        const response = await workshopDataFetch(`/api/workshop/tools/heatmap?${params}`, `workshop/heatmap_temporal_${encodeURIComponent(heatmapState.dimension)}.json`, {
           signal: heatmapAbort.signal,
         });
 
@@ -1630,7 +1643,7 @@ function getWorkshopChartGrid(type) {
         year_max: String(heatmapState.yearMax),
       });
 
-      const response = await fetch(`/api/workshop/tools/heatmap-matrix?${params}`, {
+      const response = await workshopDataFetch(`/api/workshop/tools/heatmap-matrix?${params}`, `workshop/heatmap_matrix_${encodeURIComponent(heatmapState.mode)}.json`, {
         signal: heatmapAbort.signal,
       });
 
@@ -2092,7 +2105,7 @@ function getWorkshopChartGrid(type) {
     });
 
     try {
-      const response = await fetch(`/api/workshop/tools/series?${params}`, {
+      const response = await workshopDataFetch(`/api/workshop/tools/series?${params}`, `workshop/series_${encodeURIComponent(seriesState.dimension)}.json`, {
         signal: seriesAbort.signal,
       });
 

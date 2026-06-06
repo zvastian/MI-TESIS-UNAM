@@ -748,7 +748,7 @@
     }
 
     async function loadPayload() {
-      for (const route of ["/static/nobel/nobel_atlas_es_ui.json", "/nobel/nobel_atlas_es_ui.json", "/nobel/nobel_atlas.json", "/static/nobel/nobel_atlas.json"]) {
+      for (const route of ["./nobel/nobel_atlas_es_ui.json", "/nobel/nobel_atlas_es_ui.json", "/nobel/nobel_atlas.json", "/static/nobel/nobel_atlas.json"]) {
         const response = await fetch(route);
         if (response.ok) return await response.json();
       }
